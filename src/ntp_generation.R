@@ -7,7 +7,7 @@ library(magrittr)
 
 # Get DPD extract data. set manually here
 
-dpdextractdate <- "2016-11-01"
+dpdextractdate <- "2017-01-04"
 
 # For each individual ingredient, generate:
 #   dpd_ing_code
@@ -52,6 +52,16 @@ dpd_human_active <- dpd_drug_all %>%
 
 # dpd_dose_form and route
 
+ntp_dose_form_map <- fread("ntp_doseform_map.csv") %>%
+                      mutate(dpd_route_admin = str_extract(V4, regex("(?<=\\().+(?=\\))")) %>% toupper()) %>%
+                      select(dpd_pharm_form = `DPD PHARMACEUTICAL_FORM`, 
+                             dpd_route_admin, 
+                             ntp_dose_form = `NTP Formal Name Dose form`) %>%
+                      filter(!dpd_pharm_form == "") %T>%
+                      {ntp_dose_form_map_simple <<- filter(., is.na(dpd_route_admin)) %>% 
+                                                             select(dpd_pharm_form, ntp_dose_form)} %>%
+                      filter(!is.na(dpd_route_admin))
+
 dpd_form_route <- dpd_human_active %>%
   left_join(dpd_form_all) %>%
   left_join(dpd_route_all) %>%
@@ -59,6 +69,12 @@ dpd_form_route <- dpd_human_active %>%
   dplyr::summarize(dpd_pharm_form = first(PHARMACEUTICAL_FORM),
                    dpd_route_admin = first(ROUTE_OF_ADMINISTRATION),
                    n_din = n_distinct(DRUG_IDENTIFICATION_NUMBER))
+
+dpd_form_route_map <- bind_rows(right_join(dpd_form_route, ntp_dose_form_map),
+                  left_join(dpd_form_route, ntp_dose_form_map_simple)) %>%
+        filter(!is.na(ntp_dose_form))
+
+                      
 
 # dpd active ingredients
 dpd_active_ingredients <- dpd_ingred_all %>%
@@ -75,6 +91,23 @@ dpd_active_ingredients <- dpd_ingred_all %>%
                                              na.omit(.) %>% 
                                              paste(collapse = "|")) %>%
                           mutate(precise_ing = ifelse(precise_ing == "", basis_of_strength_ing, precise_ing))
+
+us_spl_ai <- fread("ai_am_bos.csv") %>% select(precise_ing = `Active Ingredient`, everything())
+
+dpd_active_ingredients2 <- dpd_ingred_all %>%
+  semi_join(dpd_human_active) %>%
+  mutate(INGREDIENT = toupper(INGREDIENT)) %>%
+  group_by(ACTIVE_INGREDIENT_CODE, INGREDIENT) %>%
+  dplyr::summarize(basis_of_strength_ing = sort(unique(INGREDIENT))[1] %>% 
+                     str_replace(regex("(\\(.*\\)$)+?"), "") %>% 
+                     str_trim(),
+                   precise_ing = sort(unique(INGREDIENT)) %>% 
+                     str_extract(regex("(?<=\\()(.*)(?=\\))")) %>% 
+                     na.omit(.) %>% 
+                     paste(collapse = "|")) %>%
+  mutate(precise_ing = ifelse(precise_ing == "", basis_of_strength_ing, precise_ing)) %>%
+  left_join(us_spl_ai)
+
 
 # dpd_ingredient_sets
 
@@ -124,6 +157,12 @@ top250 <- tbl(src_postgres("hcref", "shiny.hc.local", user = "hcreader", passwor
   collect() %>%
   dplyr::select(ai_set, total) %>%
   `[`(1:250,) %>%
+  as.data.table()
+
+top500 <- tbl(src_postgres("hcref", "shiny.hc.local", user = "hcreader", password = "canada1"), "rx_retail_usage") %>% 
+  collect() %>%
+  dplyr::select(ai_set, total) %>%
+  `[`(1:500,) %>%
   as.data.table()
 
 ntp_concepts_250 <- ntp_concepts %>% semi_join(top250)
