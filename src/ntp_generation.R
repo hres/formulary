@@ -70,11 +70,15 @@ dpd_form_route <- dpd_human_active %>%
                    dpd_route_admin = first(ROUTE_OF_ADMINISTRATION),
                    n_din = n_distinct(DRUG_IDENTIFICATION_NUMBER))
 
-dpd_form_route_map <- bind_rows(right_join(dpd_form_route, ntp_dose_form_map),
-                  left_join(dpd_form_route, ntp_dose_form_map_simple)) %>%
-        filter(!is.na(ntp_dose_form))
+# Right join to limit dpd_pharm_form to only those in the ntp map
+# Left join to include all routes of admin
+# Need to figure out NAs
 
-                      
+dpd_form_route_map <- bind_rows(right_join(dpd_form_route, ntp_dose_form_map),
+                                left_join(dpd_form_route, ntp_dose_form_map_simple)) %>%
+                                filter(!is.na(ntp_dose_form))
+
+
 
 # dpd active ingredients
 dpd_active_ingredients <- dpd_ingred_all %>%
