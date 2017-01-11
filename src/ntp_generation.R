@@ -140,16 +140,26 @@ ntp_concepts <- dpd_ingred_all %>%
   semi_join(dpd_human_active) %>%
   # join up the active ingredients2 df to our original data
   left_join(dpd_active_ingredients2) %>%
+  # dpd_strength_w_unit looks like 200 mg for example.
+  # dpd_ing_w_strength is the basis of strength ing followed by the previous column that was just defined.
   mutate(dpd_strength_w_unit = paste(as.numeric(STRENGTH), STRENGTH_UNIT),
          dpd_ing_w_strength = paste(basis_of_strength_ing, dpd_strength_w_unit)) %>%
   group_by(DRUG_CODE) %>%
+  # ai_set orders the basis_strenth_ing and collapses them together by "!", then makes it all upper case
+  # n_ing is the number of ingredients
+  # ai_set_str sorts the ing with strengths, also collapsing by "!" to upper case.
   dplyr::summarize(ai_set = sort(basis_of_strength_ing) %>% paste(collapse = "!") %>% toupper(),
                    n_ing = length(basis_of_strength_ing),
                    ai_set_str = sort(dpd_ing_w_strength) %>% paste(collapse = "!") %>% toupper()) %>%
+  # add in human active drugs
   left_join(dpd_human_active) %>%
+  # get the forms
   left_join(dpd_form_all) %>%
+  # get the routes
   left_join(dpd_route_all) %>%
+  # only add the company codes and names
   left_join(dpd_comp_all %>% select(DRUG_CODE, COMPANY_CODE, COMPANY_NAME)) %>%
+  # ai_group extracts the first 7 digits from the active ingredient group number 
   mutate(ai_group = str_extract(AI_GROUP_NO, regex("^\\d{7}"))) %T>%
   {ntp_concept_map <<- select(., 
                               DRUG_CODE, 
@@ -177,20 +187,24 @@ ntp_concepts <- dpd_ingred_all %>%
 # http://www.fda.gov/downloads/ForIndustry/DataStandards/StructuredProductLabeling/UCM362965.zip
 # Active Ingredient - Active Moiety - Basis of Strength map
 
-#Top 250 from hcref
-
+# Top 250 from hcref
+# taking top 250 active ingredient sets and total
 top250 <- tbl(src_postgres("hcref", "shiny.hc.local", user = "hcreader", password = "canada1"), "rx_retail_usage") %>% 
   collect() %>%
   dplyr::select(ai_set, total) %>%
   `[`(1:250,) %>%
   as.data.table()
 
+# same as top250 but 500
 top500 <- tbl(src_postgres("hcref", "shiny.hc.local", user = "hcreader", password = "canada1"), "rx_retail_usage") %>% 
   collect() %>%
   dplyr::select(ai_set, total) %>%
   `[`(1:500,) %>%
   as.data.table()
 
+# take the top 250 ntp_concepts
 ntp_concepts_250 <- ntp_concepts %>% semi_join(top250)
+# take the top 250 dpd_active ingredients.
 dpd_active_ingredients_250 <- dpd_active_ingredients %>% mutate(ai_set = basis_of_strength_ing) %>% semi_join(top250) %>% select(-ai_set)
+# top 250 concept maps
 ntp_concept_map_250 <- ntp_concept_map %>% semi_join(ntp_concepts_250)
