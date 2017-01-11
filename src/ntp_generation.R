@@ -43,25 +43,35 @@ dpdextractdate <- "2017-01-04"
 #   idmp_phpid_sub_l4
 
 
-#Filter to human active
+# Filter to human active
+# How to get dpd_drug_all?
 
 dpd_human_active <- dpd_drug_all %>%
-                    filter(extract == "active", CLASS == "Human")
+  filter(extract == "active", CLASS == "Human")
 
 # Enrich with french terms (in future version)
 
 # dpd_dose_form and route
+# ntp_dose_form_map creates two data maps to be used for drug routes and drug types onto the dpd db.
 
-ntp_dose_form_map <- fread("ntp_doseform_map.csv") %>%
-                      mutate(dpd_route_admin = str_extract(V4, regex("(?<=\\().+(?=\\))")) %>% toupper()) %>%
-                      select(dpd_pharm_form = `DPD PHARMACEUTICAL_FORM`, 
-                             dpd_route_admin, 
-                             ntp_dose_form = `NTP Formal Name Dose form`) %>%
-                      filter(!dpd_pharm_form == "") %T>%
-                      {ntp_dose_form_map_simple <<- filter(., is.na(dpd_route_admin)) %>% 
-                                                             select(dpd_pharm_form, ntp_dose_form)} %>%
-                      filter(!is.na(dpd_route_admin))
+ntp_dose_form_map <- fread("ntp_doseform_map.csv") %>% 
+  # Creating a new column that takes in the 'V4' column and extracts the administrative method (which is encased in parentheses)
+  # E.g. 'ORAL'
+  mutate(dpd_route_admin = str_extract(V4, regex("(?<=\\().+(?=\\))")) %>% toupper()) %>%
+  # Selecting columns and renaming them because of the spaces
+  select(dpd_pharm_form = `DPD PHARMACEUTICAL_FORM`, 
+         dpd_route_admin, 
+         ntp_dose_form = `NTP Formal Name Dose form`) %>%
+  # Filtering out all rows that have empty strings (there are 3 extra rows at the bottom that are like this)
+  filter(!dpd_pharm_form == "") %T>%
+  # Tee operator is used for the side effect of the next code block in {}. 
+  # In this case, we are creating a new map for the cases that have self explanatory, or only one, routes of admin.
+  # And then only keeping the pharm_form and the dose_form.
+  {ntp_dose_form_map_simple <<- filter(., is.na(dpd_route_admin)) %>% 
+    select(dpd_pharm_form, ntp_dose_form)} %>%
+  filter(!is.na(dpd_route_admin))
 
+# dpd_form_route is a df that maps each form and route to the dpd_human_active df
 dpd_form_route <- dpd_human_active %>%
   left_join(dpd_form_all) %>%
   left_join(dpd_route_all) %>%
@@ -76,25 +86,25 @@ dpd_form_route <- dpd_human_active %>%
 
 dpd_form_route_map <- bind_rows(right_join(dpd_form_route, ntp_dose_form_map),
                                 left_join(dpd_form_route, ntp_dose_form_map_simple)) %>%
-                                filter(!is.na(ntp_dose_form))
+  filter(!is.na(ntp_dose_form))
 
 
 
-# dpd active ingredients
+# dpd_active_ingredients takes the ingredients df and attempts to join the 
 dpd_active_ingredients <- dpd_ingred_all %>%
-                          semi_join(dpd_human_active) %>%
-                          group_by(ACTIVE_INGREDIENT_CODE) %>%
-                          dplyr::summarize(n_names = length(unique(INGREDIENT)),
-                                           ingredient_names = sort(unique(INGREDIENT)) %>% 
-                                             paste(collapse = "|"),
-                                           basis_of_strength_ing = sort(unique(INGREDIENT))[1] %>% 
-                                             str_replace(regex("(\\(.*\\)$)+?"), "") %>% 
-                                             str_trim(),
-                                           precise_ing = sort(unique(INGREDIENT)) %>% 
-                                             str_extract(regex("(?<=\\()(.*)(?=\\))")) %>% 
-                                             na.omit(.) %>% 
-                                             paste(collapse = "|")) %>%
-                          mutate(precise_ing = ifelse(precise_ing == "", basis_of_strength_ing, precise_ing))
+  semi_join(dpd_human_active) %>%
+  group_by(ACTIVE_INGREDIENT_CODE) %>%
+  dplyr::summarize(n_names = length(unique(INGREDIENT)),
+                   ingredient_names = sort(unique(INGREDIENT)) %>% 
+                     paste(collapse = "|"),
+                   basis_of_strength_ing = sort(unique(INGREDIENT))[1] %>% 
+                     str_replace(regex("(\\(.*\\)$)+?"), "") %>% 
+                     str_trim(),
+                   precise_ing = sort(unique(INGREDIENT)) %>% 
+                     str_extract(regex("(?<=\\()(.*)(?=\\))")) %>% 
+                     na.omit(.) %>% 
+                     paste(collapse = "|")) %>%
+  mutate(precise_ing = ifelse(precise_ing == "", basis_of_strength_ing, precise_ing))
 
 us_spl_ai <- fread("ai_am_bos.csv") %>% select(precise_ing = `Active Ingredient`, everything())
 
@@ -130,16 +140,16 @@ ntp_concepts <- dpd_ingred_all %>%
   left_join(dpd_comp_all %>% select(DRUG_CODE, COMPANY_CODE, COMPANY_NAME)) %>%
   mutate(ai_group = str_extract(AI_GROUP_NO, regex("^\\d{7}"))) %T>%
   {ntp_concept_map <<- select(., 
-                             DRUG_CODE, 
-                             DRUG_IDENTIFICATION_NUMBER,
-                             DPD_BRAND_NAME = BRAND_NAME,
-                             ai_set_str,
-                             PHARMACEUTICAL_FORM,
-                             ROUTE_OF_ADMINISTRATION,
-                             COMPANY_NAME,
-                             ai_set,
-                             ai_group, 
-                             AI_GROUP_NO)} %>%
+                              DRUG_CODE, 
+                              DRUG_IDENTIFICATION_NUMBER,
+                              DPD_BRAND_NAME = BRAND_NAME,
+                              ai_set_str,
+                              PHARMACEUTICAL_FORM,
+                              ROUTE_OF_ADMINISTRATION,
+                              COMPANY_NAME,
+                              ai_set,
+                              ai_group, 
+                              AI_GROUP_NO)} %>%
   group_by(ai_set_str,
            ai_set,
            PHARMACEUTICAL_FORM,
