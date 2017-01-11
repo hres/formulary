@@ -90,24 +90,34 @@ dpd_form_route_map <- bind_rows(right_join(dpd_form_route, ntp_dose_form_map),
 
 
 
-# dpd_active_ingredients takes the ingredients df and attempts to join the 
+# not entirely correct, see dpd_active_ingredients2
 dpd_active_ingredients <- dpd_ingred_all %>%
+  # Semi join only keeps the ingredients in human active drugs
   semi_join(dpd_human_active) %>%
   group_by(ACTIVE_INGREDIENT_CODE) %>%
   dplyr::summarize(n_names = length(unique(INGREDIENT)),
                    ingredient_names = sort(unique(INGREDIENT)) %>% 
                      paste(collapse = "|"),
                    basis_of_strength_ing = sort(unique(INGREDIENT))[1] %>% 
+                     # replace all characters within a parentheses with the empty string, if and only if parentheses exist.
+                     # then trim the white space leaving only what was outside of parentheses
                      str_replace(regex("(\\(.*\\)$)+?"), "") %>% 
                      str_trim(),
                    precise_ing = sort(unique(INGREDIENT)) %>% 
+                     # only recovers the characters within parentheses, and takes out any NAs
                      str_extract(regex("(?<=\\()(.*)(?=\\))")) %>% 
                      na.omit(.) %>% 
                      paste(collapse = "|")) %>%
+  # if there is no precise_ing, replace it with the basis_of_strength_ing, otherwise leave it the same.
   mutate(precise_ing = ifelse(precise_ing == "", basis_of_strength_ing, precise_ing))
 
+# US reference data for active ingredients
+# See: https://tripod.nih.gov/ginas/
 us_spl_ai <- fread("ai_am_bos.csv") %>% select(precise_ing = `Active Ingredient`, everything())
 
+# Bad name, should change
+# Basically the same as dpd_active_ingredients, but every ingredient is upper case and we don't care about
+# the number of ingredients or the ingredient names because we are using the GINAS dataset as it is quite complete.
 dpd_active_ingredients2 <- dpd_ingred_all %>%
   semi_join(dpd_human_active) %>%
   mutate(INGREDIENT = toupper(INGREDIENT)) %>%
@@ -126,8 +136,10 @@ dpd_active_ingredients2 <- dpd_ingred_all %>%
 # dpd_ingredient_sets
 
 ntp_concepts <- dpd_ingred_all %>%
+  # drop any ingredient that is not an active human ingredient
   semi_join(dpd_human_active) %>%
-  left_join(dpd_active_ingredients) %>%
+  # join up the active ingredients2 df to our original data
+  left_join(dpd_active_ingredients2) %>%
   mutate(dpd_strength_w_unit = paste(as.numeric(STRENGTH), STRENGTH_UNIT),
          dpd_ing_w_strength = paste(basis_of_strength_ing, dpd_strength_w_unit)) %>%
   group_by(DRUG_CODE) %>%
