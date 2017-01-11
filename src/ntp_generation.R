@@ -43,25 +43,35 @@ dpdextractdate <- "2017-01-04"
 #   idmp_phpid_sub_l4
 
 
-#Filter to human active
+# Filter to human active
+# How to get dpd_drug_all?
 
 dpd_human_active <- dpd_drug_all %>%
-                    filter(extract == "active", CLASS == "Human")
+  filter(extract == "active", CLASS == "Human")
 
 # Enrich with french terms (in future version)
 
 # dpd_dose_form and route
+# ntp_dose_form_map creates two data maps to be used for drug routes and drug types onto the dpd db.
 
-ntp_dose_form_map <- fread("ntp_doseform_map.csv") %>%
-                      mutate(dpd_route_admin = str_extract(V4, regex("(?<=\\().+(?=\\))")) %>% toupper()) %>%
-                      select(dpd_pharm_form = `DPD PHARMACEUTICAL_FORM`, 
-                             dpd_route_admin, 
-                             ntp_dose_form = `NTP Formal Name Dose form`) %>%
-                      filter(!dpd_pharm_form == "") %T>%
-                      {ntp_dose_form_map_simple <<- filter(., is.na(dpd_route_admin)) %>% 
-                                                             select(dpd_pharm_form, ntp_dose_form)} %>%
-                      filter(!is.na(dpd_route_admin))
+ntp_dose_form_map <- fread("ntp_doseform_map.csv") %>% 
+  # Creating a new column that takes in the 'V4' column and extracts the administrative method (which is encased in parentheses)
+  # E.g. 'ORAL'
+  mutate(dpd_route_admin = str_extract(V4, regex("(?<=\\().+(?=\\))")) %>% toupper()) %>%
+  # Selecting columns and renaming them because of the spaces
+  select(dpd_pharm_form = `DPD PHARMACEUTICAL_FORM`, 
+         dpd_route_admin, 
+         ntp_dose_form = `NTP Formal Name Dose form`) %>%
+  # Filtering out all rows that have empty strings (there are 3 extra rows at the bottom that are like this)
+  filter(!dpd_pharm_form == "") %T>%
+  # Tee operator is used for the side effect of the next code block in {}. 
+  # In this case, we are creating a new map for the cases that have self explanatory, or only one, routes of admin.
+  # And then only keeping the pharm_form and the dose_form.
+  {ntp_dose_form_map_simple <<- filter(., is.na(dpd_route_admin)) %>% 
+    select(dpd_pharm_form, ntp_dose_form)} %>%
+  filter(!is.na(dpd_route_admin))
 
+# dpd_form_route is a df that maps each form and route to the dpd_human_active df
 dpd_form_route <- dpd_human_active %>%
   left_join(dpd_form_all) %>%
   left_join(dpd_route_all) %>%
@@ -76,28 +86,38 @@ dpd_form_route <- dpd_human_active %>%
 
 dpd_form_route_map <- bind_rows(right_join(dpd_form_route, ntp_dose_form_map),
                                 left_join(dpd_form_route, ntp_dose_form_map_simple)) %>%
-                                filter(!is.na(ntp_dose_form))
+  filter(!is.na(ntp_dose_form))
 
 
 
-# dpd active ingredients
+# not entirely correct, see dpd_active_ingredients2
 dpd_active_ingredients <- dpd_ingred_all %>%
-                          semi_join(dpd_human_active) %>%
-                          group_by(ACTIVE_INGREDIENT_CODE) %>%
-                          dplyr::summarize(n_names = length(unique(INGREDIENT)),
-                                           ingredient_names = sort(unique(INGREDIENT)) %>% 
-                                             paste(collapse = "|"),
-                                           basis_of_strength_ing = sort(unique(INGREDIENT))[1] %>% 
-                                             str_replace(regex("(\\(.*\\)$)+?"), "") %>% 
-                                             str_trim(),
-                                           precise_ing = sort(unique(INGREDIENT)) %>% 
-                                             str_extract(regex("(?<=\\()(.*)(?=\\))")) %>% 
-                                             na.omit(.) %>% 
-                                             paste(collapse = "|")) %>%
-                          mutate(precise_ing = ifelse(precise_ing == "", basis_of_strength_ing, precise_ing))
+  # Semi join only keeps the ingredients in human active drugs
+  semi_join(dpd_human_active) %>%
+  group_by(ACTIVE_INGREDIENT_CODE) %>%
+  dplyr::summarize(n_names = length(unique(INGREDIENT)),
+                   ingredient_names = sort(unique(INGREDIENT)) %>% 
+                     paste(collapse = "|"),
+                   basis_of_strength_ing = sort(unique(INGREDIENT))[1] %>% 
+                     # replace all characters within a parentheses with the empty string, if and only if parentheses exist.
+                     # then trim the white space leaving only what was outside of parentheses
+                     str_replace(regex("(\\(.*\\)$)+?"), "") %>% 
+                     str_trim(),
+                   precise_ing = sort(unique(INGREDIENT)) %>% 
+                     # only recovers the characters within parentheses, and takes out any NAs
+                     str_extract(regex("(?<=\\()(.*)(?=\\))")) %>% 
+                     na.omit(.) %>% 
+                     paste(collapse = "|")) %>%
+  # if there is no precise_ing, replace it with the basis_of_strength_ing, otherwise leave it the same.
+  mutate(precise_ing = ifelse(precise_ing == "", basis_of_strength_ing, precise_ing))
 
+# US reference data for active ingredients
+# See: https://tripod.nih.gov/ginas/
 us_spl_ai <- fread("ai_am_bos.csv") %>% select(precise_ing = `Active Ingredient`, everything())
 
+# Bad name, should change
+# Basically the same as dpd_active_ingredients, but every ingredient is upper case and we don't care about
+# the number of ingredients or the ingredient names because we are using the GINAS dataset as it is quite complete.
 dpd_active_ingredients2 <- dpd_ingred_all %>%
   semi_join(dpd_human_active) %>%
   mutate(INGREDIENT = toupper(INGREDIENT)) %>%
@@ -116,30 +136,42 @@ dpd_active_ingredients2 <- dpd_ingred_all %>%
 # dpd_ingredient_sets
 
 ntp_concepts <- dpd_ingred_all %>%
+  # drop any ingredient that is not an active human ingredient
   semi_join(dpd_human_active) %>%
-  left_join(dpd_active_ingredients) %>%
+  # join up the active ingredients2 df to our original data
+  left_join(dpd_active_ingredients2) %>%
+  # dpd_strength_w_unit looks like 200 mg for example.
+  # dpd_ing_w_strength is the basis of strength ing followed by the previous column that was just defined.
   mutate(dpd_strength_w_unit = paste(as.numeric(STRENGTH), STRENGTH_UNIT),
          dpd_ing_w_strength = paste(basis_of_strength_ing, dpd_strength_w_unit)) %>%
   group_by(DRUG_CODE) %>%
+  # ai_set orders the basis_strenth_ing and collapses them together by "!", then makes it all upper case
+  # n_ing is the number of ingredients
+  # ai_set_str sorts the ing with strengths, also collapsing by "!" to upper case.
   dplyr::summarize(ai_set = sort(basis_of_strength_ing) %>% paste(collapse = "!") %>% toupper(),
                    n_ing = length(basis_of_strength_ing),
                    ai_set_str = sort(dpd_ing_w_strength) %>% paste(collapse = "!") %>% toupper()) %>%
+  # add in human active drugs
   left_join(dpd_human_active) %>%
+  # get the forms
   left_join(dpd_form_all) %>%
+  # get the routes
   left_join(dpd_route_all) %>%
+  # only add the company codes and names
   left_join(dpd_comp_all %>% select(DRUG_CODE, COMPANY_CODE, COMPANY_NAME)) %>%
+  # ai_group extracts the first 7 digits from the active ingredient group number 
   mutate(ai_group = str_extract(AI_GROUP_NO, regex("^\\d{7}"))) %T>%
   {ntp_concept_map <<- select(., 
-                             DRUG_CODE, 
-                             DRUG_IDENTIFICATION_NUMBER,
-                             DPD_BRAND_NAME = BRAND_NAME,
-                             ai_set_str,
-                             PHARMACEUTICAL_FORM,
-                             ROUTE_OF_ADMINISTRATION,
-                             COMPANY_NAME,
-                             ai_set,
-                             ai_group, 
-                             AI_GROUP_NO)} %>%
+                              DRUG_CODE, 
+                              DRUG_IDENTIFICATION_NUMBER,
+                              DPD_BRAND_NAME = BRAND_NAME,
+                              ai_set_str,
+                              PHARMACEUTICAL_FORM,
+                              ROUTE_OF_ADMINISTRATION,
+                              COMPANY_NAME,
+                              ai_set,
+                              ai_group, 
+                              AI_GROUP_NO)} %>%
   group_by(ai_set_str,
            ai_set,
            PHARMACEUTICAL_FORM,
@@ -155,20 +187,24 @@ ntp_concepts <- dpd_ingred_all %>%
 # http://www.fda.gov/downloads/ForIndustry/DataStandards/StructuredProductLabeling/UCM362965.zip
 # Active Ingredient - Active Moiety - Basis of Strength map
 
-#Top 250 from hcref
-
+# Top 250 from hcref
+# taking top 250 active ingredient sets and total
 top250 <- tbl(src_postgres("hcref", "shiny.hc.local", user = "hcreader", password = "canada1"), "rx_retail_usage") %>% 
   collect() %>%
   dplyr::select(ai_set, total) %>%
   `[`(1:250,) %>%
   as.data.table()
 
+# same as top250 but 500
 top500 <- tbl(src_postgres("hcref", "shiny.hc.local", user = "hcreader", password = "canada1"), "rx_retail_usage") %>% 
   collect() %>%
   dplyr::select(ai_set, total) %>%
   `[`(1:500,) %>%
   as.data.table()
 
+# take the top 250 ntp_concepts
 ntp_concepts_250 <- ntp_concepts %>% semi_join(top250)
+# take the top 250 dpd_active ingredients.
 dpd_active_ingredients_250 <- dpd_active_ingredients %>% mutate(ai_set = basis_of_strength_ing) %>% semi_join(top250) %>% select(-ai_set)
+# top 250 concept maps
 ntp_concept_map_250 <- ntp_concept_map %>% semi_join(ntp_concepts_250)
