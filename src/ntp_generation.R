@@ -123,6 +123,7 @@ dpd_active_ingredients <- dpd_ingred_all %>%
   semi_join(dpd_human_active) %>%
   mutate(INGREDIENT = toupper(INGREDIENT)) %>%
   group_by(ACTIVE_INGREDIENT_CODE, INGREDIENT) %>%
+  # the regex are buggy because they have no exception. some entries do not have precise ingredients inside brackets (even though they should)
   dplyr::mutate(basis_of_strength_ing = sort(unique(INGREDIENT))[1] %>% 
                      str_replace(regex("(\\(.*\\)$)+?"), "") %>% 
                      str_trim(),
@@ -153,15 +154,16 @@ substance_sets <- dpd_ingred_all %>%
   semi_join(dpd_human_active) %>%
   group_by(DRUG_CODE) %>%
   left_join(dpd_active_ingredients) %>%
-  mutate(sub_set = sort(precise_ing) %>% unique() %>% paste(collapse = " | "),
-         boss_set = sort(basis_of_strength_ing) %>% unique() %>% paste(collapse = " | "),
-         tm_set = sort(active_moiety) %>% unique() %>% paste(collapse = " | "),
-         str_set = sort(STRENGTH) %>% unique() %>% paste(collapse = " | ")) %>%
+  mutate(sub_str = paste(precise_ing, strength_w_unit_w_dosage_if_exists),
+         boss_set = sort(basis_of_strength_ing) %>% unique() %>% paste(collapse = "!"),
+         tm_set = sort(active_moiety) %>% unique() %>% paste(collapse = "!"),
+         sub_set = sort(precise_ing) %>% unique() %>% paste(collapse = "!"),
+         sub_str_set = sort(sub_str) %>% unique() %>% paste(collapse = "!")) %>%
   select(c(DRUG_CODE,
            sub_set,
            boss_set,
            tm_set,
-           str_set,
+           sub_str_set,
            ai_unii,
            am_unii))
 
@@ -202,7 +204,7 @@ mp_table <- mp_source %>%
            LAST_UPDATE_DATE,
            BRAND_NAME,
            COMPANY_NAME,
-           str_set,
+           sub_str_set,
            tm_set,
            ntp_dose_form,
            NUMBER_OF_AIS)) %>%
@@ -213,16 +215,18 @@ mp_table <- mp_source %>%
          fr_display = "")
 
 ntp_table <- mp_source %>%
-  mutate(DIN_w_9 = sort(DRUG_IDENTIFICATION_NUMBER) %>% str_replace(regex("^0"), "9")) %>%
   group_by(ntp_dose_form, sub_set) %>%
   dplyr::summarize(unique_number_dins = n_distinct(DRUG_IDENTIFICATION_NUMBER),
                    formal_descrip = "",
                    status = ifelse(extract == "active", "active", "inactive"),
-                   DIN_w_9 = DIN_w_9,
-                   greater_than_5_AIs = NUMBER_OF_AIS > 5)
+                   greater_than_5_AIs = NUMBER_OF_AIS > 5) %>%
+  unique()
+# God awful solution, because the ids will change if you add a new ntp! TEMPORARY!!!
+ntp_table$id <- 1:nrow(ntp_table) + 9000000
 
 tm_table <- mp_source %>%
   group_by(tm_set) %>%
+  # There shouldn't be any empty tm_sets, so this is a bug.
   filter(tm_set != "") %>%
   dplyr::summarize(n_dins = n_distinct(DRUG_IDENTIFICATION_NUMBER),
             n_ntps = n_distinct(ntp_dose_form)) %>%
@@ -235,10 +239,19 @@ mapping_table <- mp_source %>%
            ntp_dose_form,
            am_unii,
            tm_set)) %>%
+  # Taking out na active moiety... weird bug which will need to be looked at because there should not be any NAs
   filter(!is.na(am_unii)) %>%
   group_by(DRUG_IDENTIFICATION_NUMBER, am_unii) %>%
   unique() %>%
   mutate(description = "")
+
+# dpd_active_ingredients %>% write.csv("dpd_active_ingredients.csv")
+# tm_table %>% write.csv("tm_table.csv")
+# mapping_table %>% write.csv("mapping_table.csv")
+# ntp_table %>% write.csv("ntp_table.csv")
+# mp_table %>% write.csv("mp_table.csv")
+# products %>% write.csv("products.csv")
+# substance_sets %>% write.csv("substance_sets.csv")
   
   
   
