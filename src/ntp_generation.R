@@ -54,7 +54,7 @@ dpd_human_active <- dpd_drug_all %>%
 # dpd_dose_form and route
 # ntp_dose_form_map creates two data maps to be used for drug routes and drug types onto the dpd db.
 
-ntp_dose_form_map <- fread("ntp_doseform_map.csv") %>% 
+ntp_dose_form_map <- fread("~/formulary/ntp_doseform_map.csv") %>% 
   # Creating a new column that takes in the 'V4' column and extracts the administrative method (which is encased in parentheses)
   # E.g. 'ORAL'
   mutate(dpd_route_admin = str_extract(V4, regex("(?<=\\().+(?=\\))")) %>% toupper()) %>%
@@ -91,47 +91,158 @@ dpd_form_route_map <- bind_rows(right_join(dpd_form_route, ntp_dose_form_map),
 
 
 # not entirely correct, see dpd_active_ingredients2
-dpd_active_ingredients <- dpd_ingred_all %>%
-  # Semi join only keeps the ingredients in human active drugs
-  semi_join(dpd_human_active) %>%
-  group_by(ACTIVE_INGREDIENT_CODE) %>%
-  dplyr::summarize(n_names = length(unique(INGREDIENT)),
-                   ingredient_names = sort(unique(INGREDIENT)) %>% 
-                     paste(collapse = "|"),
-                   basis_of_strength_ing = sort(unique(INGREDIENT))[1] %>% 
-                     # replace all characters within a parentheses with the empty string, if and only if parentheses exist.
-                     # then trim the white space leaving only what was outside of parentheses
-                     str_replace(regex("(\\(.*\\)$)+?"), "") %>% 
-                     str_trim(),
-                   precise_ing = sort(unique(INGREDIENT)) %>% 
-                     # only recovers the characters within parentheses, and takes out any NAs
-                     str_extract(regex("(?<=\\()(.*)(?=\\))")) %>% 
-                     na.omit(.) %>% 
-                     paste(collapse = "|")) %>%
-  # if there is no precise_ing, replace it with the basis_of_strength_ing, otherwise leave it the same.
-  mutate(precise_ing = ifelse(precise_ing == "", basis_of_strength_ing, precise_ing))
+
+# dpd_active_ingredients <- dpd_ingred_all %>%
+#   # Semi join only keeps the ingredients in human active drugs
+#   semi_join(dpd_human_active) %>%
+#   group_by(ACTIVE_INGREDIENT_CODE) %>%
+#   dplyr::summarize(n_names = length(unique(INGREDIENT)),
+#                    ingredient_names = sort(unique(INGREDIENT)) %>% 
+#                      paste(collapse = "|"),
+#                    basis_of_strength_ing = sort(unique(INGREDIENT))[1] %>% 
+#                      # replace all characters within a parentheses with the empty string, if and only if parentheses exist.
+#                      # then trim the white space leaving only what was outside of parentheses
+#                      str_replace(regex("(\\(.*\\)$)+?"), "") %>% 
+#                      str_trim(),
+#                    precise_ing = sort(unique(INGREDIENT)) %>% 
+#                      # only recovers the characters within parentheses, and takes out any NAs
+#                      str_extract(regex("(?<=\\()(.*)(?=\\))")) %>% 
+#                      na.omit(.) %>% 
+#                      paste(collapse = "|")) %>%
+#   # if there is no precise_ing, replace it with the basis_of_strength_ing, otherwise leave it the same.
+#   mutate(precise_ing = ifelse(precise_ing == "", basis_of_strength_ing, precise_ing))
 
 # US reference data for active ingredients
 # See: https://tripod.nih.gov/ginas/
-us_spl_ai <- fread("ai_am_bos.csv") %>% select(precise_ing = `Active Ingredient`, everything())
+us_spl_ai <- fread("~/formulary/data/ai_am_bos.csv") %>% select(precise_ing = `Active Ingredient`, everything())
 
 # Bad name, should change
 # Basically the same as dpd_active_ingredients, but every ingredient is upper case and we don't care about
 # the number of ingredients or the ingredient names because we are using the GINAS dataset as it is quite complete.
-dpd_active_ingredients2 <- dpd_ingred_all %>%
+dpd_active_ingredients <- dpd_ingred_all %>%
   semi_join(dpd_human_active) %>%
   mutate(INGREDIENT = toupper(INGREDIENT)) %>%
   group_by(ACTIVE_INGREDIENT_CODE, INGREDIENT) %>%
-  dplyr::summarize(basis_of_strength_ing = sort(unique(INGREDIENT))[1] %>% 
+  dplyr::mutate(basis_of_strength_ing = sort(unique(INGREDIENT))[1] %>% 
                      str_replace(regex("(\\(.*\\)$)+?"), "") %>% 
                      str_trim(),
                    precise_ing = sort(unique(INGREDIENT)) %>% 
                      str_extract(regex("(?<=\\()(.*)(?=\\))")) %>% 
                      na.omit(.) %>% 
-                     paste(collapse = "|")) %>%
+                     paste(collapse = "|")
+                   ) %>%
   mutate(precise_ing = ifelse(precise_ing == "", basis_of_strength_ing, precise_ing)) %>%
-  left_join(us_spl_ai)
+  left_join(us_spl_ai) %>%
+  mutate(strength_w_unit_w_dosage_if_exists = paste(STRENGTH,
+                                                    STRENGTH_UNIT,
+                                                    ifelse(DOSAGE_VALUE != "", paste("per", DOSAGE_VALUE, DOSAGE_UNIT), ""))) %>%
+  select(c(DRUG_CODE,
+         precise_ing,
+         basis_of_strength_ing,
+         active_moiety = `Active Moiety`,
+         ACTIVE_INGREDIENT_CODE,
+         ai_unii = `AI UNII`,
+         am_unii = `AM UNII`,
+         STRENGTH,
+         STRENGTH_UNIT,
+         DOSAGE_VALUE,
+         DOSAGE_UNIT,
+         strength_w_unit_w_dosage_if_exists))
 
+substance_sets <- dpd_ingred_all %>%
+  semi_join(dpd_human_active) %>%
+  group_by(DRUG_CODE) %>%
+  left_join(dpd_active_ingredients) %>%
+  mutate(sub_set = sort(precise_ing) %>% unique() %>% paste(collapse = " | "),
+         boss_set = sort(basis_of_strength_ing) %>% unique() %>% paste(collapse = " | "),
+         tm_set = sort(active_moiety) %>% unique() %>% paste(collapse = " | "),
+         str_set = sort(STRENGTH) %>% unique() %>% paste(collapse = " | ")) %>%
+  select(c(DRUG_CODE,
+           sub_set,
+           boss_set,
+           tm_set,
+           str_set,
+           ai_unii,
+           am_unii))
+
+products <- dpd_human_active %>%
+  left_join(dpd_active_ingredients, by = c("DRUG_CODE")) %>%
+  left_join(dpd_comp_all %>% select(DRUG_CODE, COMPANY_CODE, COMPANY_NAME)) %>%
+  left_join(dpd_route_all) %>%
+  left_join(dpd_form_all) %>%
+  left_join(dpd_ther_all) %>%
+  mutate(dpd_pharm_form = PHARMACEUTICAL_FORM, dpd_route_admin = ROUTE_OF_ADMINISTRATION) %>%
+  select(-c(PHARMACEUTICAL_FORM, ROUTE_OF_ADMINISTRATION)) %>%
+  left_join(ntp_dose_form_map) %>%
+  left_join(ntp_dose_form_map_simple, by = c("dpd_pharm_form")) %>%
+  mutate(ntp_dose_form = ifelse(is.na(ntp_dose_form.x), ntp_dose_form.y, ntp_dose_form.x)) %>%
+  select(c(DRUG_CODE,
+           DRUG_IDENTIFICATION_NUMBER,
+           extract,
+           LAST_UPDATE_DATE,
+           BRAND_NAME,
+           COMPANY_NAME,
+           COMPANY_CODE,
+           dpd_route_admin,
+           dpd_pharm_form,
+           TC_ATC_NUMBER,
+           TC_ATC,
+           TC_AHFS_NUMBER,
+           TC_AHFS,
+           NUMBER_OF_AIS,
+           ntp_dose_form,
+           ROUTE_OF_ADMINISTRATION_CODE,
+           PHARM_FORM_CODE))
+
+mp_source <- left_join(products, substance_sets)
+
+mp_table <- mp_source %>%
+  select(c(DRUG_IDENTIFICATION_NUMBER,
+           extract,
+           LAST_UPDATE_DATE,
+           BRAND_NAME,
+           COMPANY_NAME,
+           str_set,
+           tm_set,
+           ntp_dose_form,
+           NUMBER_OF_AIS)) %>%
+  group_by(DRUG_IDENTIFICATION_NUMBER) %>%
+  unique() %>%
+  mutate(formal_description = "",
+         en_display = "",
+         fr_display = "")
+
+ntp_table <- mp_source %>%
+  mutate(DIN_w_9 = sort(DRUG_IDENTIFICATION_NUMBER) %>% str_replace(regex("^0"), "9")) %>%
+  group_by(ntp_dose_form, sub_set) %>%
+  dplyr::summarize(unique_number_dins = n_distinct(DRUG_IDENTIFICATION_NUMBER),
+                   formal_descrip = "",
+                   status = ifelse(extract == "active", "active", "inactive"),
+                   DIN_w_9 = DIN_w_9,
+                   greater_than_5_AIs = NUMBER_OF_AIS > 5)
+
+tm_table <- mp_source %>%
+  group_by(tm_set) %>%
+  filter(tm_set != "") %>%
+  dplyr::summarize(n_dins = n_distinct(DRUG_IDENTIFICATION_NUMBER),
+            n_ntps = n_distinct(ntp_dose_form)) %>%
+  mutate(id = group_indices(tm_table, tm_set))
+
+mapping_table <- mp_source %>%
+  group_by(DRUG_IDENTIFICATION_NUMBER) %>%
+  select(c(ROUTE_OF_ADMINISTRATION_CODE,
+           PHARM_FORM_CODE,
+           ntp_dose_form,
+           am_unii,
+           tm_set)) %>%
+  filter(!is.na(am_unii)) %>%
+  group_by(DRUG_IDENTIFICATION_NUMBER, am_unii) %>%
+  unique() %>%
+  mutate(description = "")
+  
+  
+  
+  
 
 # dpd_ingredient_sets
 
@@ -139,18 +250,21 @@ ntp_concepts <- dpd_ingred_all %>%
   # drop any ingredient that is not an active human ingredient
   semi_join(dpd_human_active) %>%
   # join up the active ingredients2 df to our original data
-  left_join(dpd_active_ingredients2) %>%
+  left_join(dpd_active_ingredients) %>%
   # dpd_strength_w_unit looks like 200 mg for example.
   # dpd_ing_w_strength is the basis of strength ing followed by the previous column that was just defined.
   mutate(dpd_strength_w_unit = paste(as.numeric(STRENGTH), STRENGTH_UNIT),
-         dpd_ing_w_strength = paste(basis_of_strength_ing, dpd_strength_w_unit)) %>%
+         dpd_ing_w_strength = paste0(basis_of_strength_ing, ' (', precise_ing, ') ',  dpd_strength_w_unit, 
+                                     ifelse(DOSAGE_VALUE != "" , paste(" per", DOSAGE_VALUE, DOSAGE_UNIT), ""))) %>%
   group_by(DRUG_CODE) %>%
-  # ai_set orders the basis_strenth_ing and collapses them together by "!", then makes it all upper case
+  # ai_set orders the basis_strenth_ing and collapses them together by " and ", then makes it all upper case
   # n_ing is the number of ingredients
-  # ai_set_str sorts the ing with strengths, also collapsing by "!" to upper case.
-  dplyr::summarize(ai_set = sort(basis_of_strength_ing) %>% paste(collapse = "!") %>% toupper(),
+  # ai_set_str sorts the ing with strengths, also collapsing by " and " to upper case.
+  dplyr::summarize(ai_set = sort(basis_of_strength_ing) %>% paste(collapse = " and ") %>% toupper(),
                    n_ing = length(basis_of_strength_ing),
-                   ai_set_str = sort(dpd_ing_w_strength) %>% paste(collapse = "!") %>% toupper()) %>%
+                   ai_set_str = sort(dpd_ing_w_strength) %>% paste(collapse = " and ") %>% toupper(),
+                   strength = STRENGTH,
+                   strength_unit = STRENGTH_UNIT) %>%
   # add in human active drugs
   left_join(dpd_human_active) %>%
   # get the forms
@@ -171,7 +285,10 @@ ntp_concepts <- dpd_ingred_all %>%
                               COMPANY_NAME,
                               ai_set,
                               ai_group, 
-                              AI_GROUP_NO)} %>%
+                              AI_GROUP_NO,
+                              strength,
+                              strength_unit,
+                              LAST_UPDATE_DATE)} %>%
   group_by(ai_set_str,
            ai_set,
            PHARMACEUTICAL_FORM,
@@ -181,8 +298,37 @@ ntp_concepts <- dpd_ingred_all %>%
                    ai_group = first(ai_group),
                    num_ai_groups = n_distinct(ai_group),
                    num_strengths = n_distinct(AI_GROUP_NO),
-                   AI_GROUP_NO = paste(unique(AI_GROUP_NO), collapse = ", ")) %>%
+                   AI_GROUP_NO = paste(unique(AI_GROUP_NO), collapse = ", "),
+                   strength = strength,
+                   strength_unit = strength_unit) %>%
   ungroup()
+
+mp_concepts2 <- ntp_concept_map[ !duplicated(ntp_concept_map$DRUG_IDENTIFICATION_NUMBER)] %>%
+  mutate(Code = DRUG_IDENTIFICATION_NUMBER,
+         `Formal Name` = sprintf("%s [%s %s %s] %s",
+                                 DPD_BRAND_NAME,
+                                 ai_set_str,
+                                 ROUTE_OF_ADMINISTRATION,
+                                 PHARMACEUTICAL_FORM,
+                                 COMPANY_NAME),
+         `EN Description` = "",
+         `FR Description` = "",
+         `Product Status` = "active",
+         `Product Status Effective Time` = LAST_UPDATE_DATE %>%
+                                           parse_date_time("dmy") %>%
+                                           as.Date %>%
+                                           str_replace_all("-", "")
+         
+  ) %>%
+  select(c(Code, `Formal Name`, `EN Description`, `FR Description`, `Product Status`, `Product Status Effective Time`))
+
+
+
+
+
+
+
+  
 
 # http://www.fda.gov/downloads/ForIndustry/DataStandards/StructuredProductLabeling/UCM362965.zip
 # Active Ingredient - Active Moiety - Basis of Strength map
