@@ -212,17 +212,20 @@ mp_table <- mp_source %>%
   unique() %>%
   mutate(formal_description = "",
          en_display = "",
-         fr_display = "")
+         fr_display = "") %>%
+  right_join(top250)
 
 ntp_table <- mp_source %>%
   group_by(ntp_dose_form, sub_set) %>%
   dplyr::summarize(unique_number_dins = n_distinct(DRUG_IDENTIFICATION_NUMBER),
                    formal_descrip = "",
                    status = ifelse(extract == "active", "active", "inactive"),
-                   greater_than_5_AIs = NUMBER_OF_AIS > 5) %>%
+                   greater_than_5_AIs = NUMBER_OF_AIS > 5,
+                   tm_set = first(tm_set)) %>%
   unique()
 # God awful solution, because the ids will change if you add a new ntp! TEMPORARY!!!
-ntp_table$id <- 1:nrow(ntp_table) + 9000000
+ntp_table$ntp_id <- 1:nrow(ntp_table) + 9000000
+ntp_table %<>% right_join(top250)
 
 tm_table <- mp_source %>%
   group_by(tm_set) %>%
@@ -230,7 +233,8 @@ tm_table <- mp_source %>%
   filter(tm_set != "") %>%
   dplyr::summarize(n_dins = n_distinct(DRUG_IDENTIFICATION_NUMBER),
             n_ntps = n_distinct(ntp_dose_form)) %>%
-  mutate(id = group_indices(tm_table, tm_set))
+  mutate(id = group_indices(tm_table, tm_set)) %>%
+  right_join(top250)
 
 mapping_table <- mp_source %>%
   group_by(DRUG_IDENTIFICATION_NUMBER) %>%
@@ -243,7 +247,8 @@ mapping_table <- mp_source %>%
   filter(!is.na(am_unii)) %>%
   group_by(DRUG_IDENTIFICATION_NUMBER, am_unii) %>%
   unique() %>%
-  mutate(description = "")
+  mutate(description = "") %>%
+  right_join(top250)
 
 # dpd_active_ingredients %>% write.csv("dpd_active_ingredients.csv")
 # tm_table %>% write.csv("tm_table.csv")
@@ -252,6 +257,7 @@ mapping_table <- mp_source %>%
 # mp_table %>% write.csv("mp_table.csv")
 # products %>% write.csv("products.csv")
 # substance_sets %>% write.csv("substance_sets.csv")
+# top250 %>% write.csv("top250.csv")
   
   
   
