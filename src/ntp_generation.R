@@ -1,3 +1,7 @@
+############################################
+# Bryce Claughton and Daniel Buijs
+# Purpose: Scripting the collection, processing, and production of data tables relating to the electronic prescribing project with Canada Health Infoway.
+
 library(dplyr)
 library(dtplyr)
 library(data.table)
@@ -44,7 +48,6 @@ dpdextractdate <- "2017-01-04"
 
 
 # Filter to human active
-# How to get dpd_drug_all?
 
 dpd_human_active <- dpd_drug_all %>%
   filter(extract == "active", CLASS == "Human")
@@ -150,6 +153,9 @@ dpd_active_ingredients <- dpd_ingred_all %>%
          DOSAGE_UNIT,
          strength_w_unit_w_dosage_if_exists))
 
+
+# substance_sets is a data frame that contains the precise ingredient, basis of strengths, and therapeutic moiety combinations for each drug code
+# used for mapping to the products table
 substance_sets <- dpd_ingred_all %>%
   semi_join(dpd_human_active) %>%
   group_by(DRUG_CODE) %>%
@@ -167,6 +173,8 @@ substance_sets <- dpd_ingred_all %>%
            ai_unii,
            am_unii))
 
+# products is a table that contains all relevant information for every product from dpd_human_active.
+# relevant information includes brand name, company name, active ingredients, ntp dose form, route of admin, form code
 products <- dpd_human_active %>%
   left_join(dpd_active_ingredients, by = c("DRUG_CODE")) %>%
   left_join(dpd_comp_all %>% select(DRUG_CODE, COMPANY_CODE, COMPANY_NAME)) %>%
@@ -196,8 +204,12 @@ products <- dpd_human_active %>%
            ROUTE_OF_ADMINISTRATION_CODE,
            PHARM_FORM_CODE))
 
+# mp_source is the joining of substance_sets onto products
 mp_source <- left_join(products, substance_sets)
 
+# mp_table is the manufactured prodcuts table that looks nice and pretty for the librarians at canada health infoway
+# see MPSample20161215.xlsx in formulary directory for an example
+# a lot of code here is quite rough, and there are known issues about it.
 mp_table <- mp_source %>%
   select(c(DRUG_IDENTIFICATION_NUMBER,
            extract,
@@ -235,11 +247,12 @@ mp_table <- mp_source %>%
            fr_display,
            product_status,
            product_status_effective_time)) %>%
-  unique() %>% write.csv("mp_table.csv", row.names = FALSE)
+  unique()
 
 
 
-
+# ntp_table is the table of ntp with formal names and all that good stuff
+# see NTPsample20161215.xlsx for the example of what the table should look like.
 ntp_table <- mp_source %>%
   left_join(ntp_concept_map) %>%
   group_by(ntp_dose_form, sub_set) %>%
@@ -247,8 +260,7 @@ ntp_table <- mp_source %>%
                    formal_descrip = tolower(paste(first(ai_set_str), ROUTE_OF_ADMINISTRATION, PHARMACEUTICAL_FORM)),
                    status = ifelse(extract == "active", "active", "inactive"),
                    greater_than_5_AIs = NUMBER_OF_AIS > 5,
-                   tm_set = first(tm_set)
-                   ) %>%
+                   tm_set = first(tm_set)) %>%
   unique() %>% 
   left_join(top250) %>% filter(!is.na(id)) %>%
   mutate(ntp_id = id + 9000000,
@@ -268,7 +280,7 @@ ntp_table <- mp_source %>%
            fr_display,
            type,
            product_status,
-           product_status_effective_time)) %>% write.csv("ntp_table.csv", row.names = FALSE)
+           product_status_effective_time))
 
 tm_table <- mp_source %>%
   group_by(tm_set) %>%
@@ -309,14 +321,14 @@ mapping_table <- mp_source %>%
   mutate(description = "") %>%
   right_join(top250)
 
-# dpd_active_ingredients %>% write.csv("dpd_active_ingredients.csv")
-# tm_table %>% write.csv("tm_table.csv")
-# mapping_table %>% write.csv("mapping_table.csv")
-# ntp_table %>% write.csv("ntp_table.csv")
-# mp_table %>% write.csv("mp_table.csv")
-# products %>% write.csv("products.csv")
-# substance_sets %>% write.csv("substance_sets.csv")
-# top250 %>% write.csv("top250.csv")
+dpd_active_ingredients %>% write.csv("dpd_active_ingredients.csv")
+tm_table %>% write.csv("tm_table.csv")
+mapping_table %>% write.csv("mapping_table.csv")
+ntp_table %>% write.csv("ntp_table.csv")
+mp_table %>% write.csv("mp_table.csv")
+products %>% write.csv("products.csv")
+substance_sets %>% write.csv("substance_sets.csv")
+top250 %>% write.csv("top250.csv")
   
   
   
@@ -381,31 +393,7 @@ ntp_concepts <- dpd_ingred_all %>%
                    strength_unit = strength_unit) %>%
   ungroup()
 
-mp_concepts2 <- ntp_concept_map[ !duplicated(ntp_concept_map$DRUG_IDENTIFICATION_NUMBER)] %>%
-  mutate(Code = DRUG_IDENTIFICATION_NUMBER,
-         `Formal Name` = sprintf("%s [%s %s %s] %s",
-                                 DPD_BRAND_NAME,
-                                 ai_set_str,
-                                 ROUTE_OF_ADMINISTRATION,
-                                 PHARMACEUTICAL_FORM,
-                                 COMPANY_NAME),
-         `EN Description` = "",
-         `FR Description` = "",
-         `Product Status` = "active",
-         `Product Status Effective Time` = LAST_UPDATE_DATE %>%
-                                           parse_date_time("dmy") %>%
-                                           as.Date %>%
-                                           str_replace_all("-", "")
-         
-  ) %>%
-  select(c(Code, `Formal Name`, `EN Description`, `FR Description`, `Product Status`, `Product Status Effective Time`))
-
-
-
-
-
-
-
+########################################################################################
   
 
 # http://www.fda.gov/downloads/ForIndustry/DataStandards/StructuredProductLabeling/UCM362965.zip
