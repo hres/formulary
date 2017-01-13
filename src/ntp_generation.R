@@ -90,7 +90,7 @@ dpd_form_route_map <- bind_rows(right_join(dpd_form_route, ntp_dose_form_map),
 
 
 
-# not entirely correct, see dpd_active_ingredients2
+
 
 # dpd_active_ingredients <- dpd_ingred_all %>%
 #   # Semi join only keeps the ingredients in human active drugs
@@ -210,22 +210,65 @@ mp_table <- mp_source %>%
            NUMBER_OF_AIS)) %>%
   group_by(DRUG_IDENTIFICATION_NUMBER) %>%
   unique() %>%
-  mutate(formal_description = "",
+  left_join(ntp_concept_map %>% select(DRUG_IDENTIFICATION_NUMBER,
+                                       DPD_BRAND_NAME,
+                                       ai_set_str,
+                                       ROUTE_OF_ADMINISTRATION,
+                                       PHARMACEUTICAL_FORM)) %>%
+  mutate(formal_description = sprintf("%s [%s %s %s] %s",
+                                      DPD_BRAND_NAME,
+                                      tolower(ai_set_str),
+                                      tolower(ROUTE_OF_ADMINISTRATION),
+                                      tolower(PHARMACEUTICAL_FORM),
+                                      COMPANY_NAME),
          en_display = "",
          fr_display = "") %>%
-  right_join(top250)
+  left_join(top250) %>% filter(!is.na(id)) %>%
+  mutate(product_status_effective_time = LAST_UPDATE_DATE %>%
+           parse_date_time("dmy") %>%
+           as.Date %>%
+           str_replace_all("-", ""),
+         product_status = extract) %>%
+  select(c(id,
+           formal_description,
+           en_display,
+           fr_display,
+           product_status,
+           product_status_effective_time)) %>%
+  unique() %>% write.csv("mp_table.csv", row.names = FALSE)
+
+
+
 
 ntp_table <- mp_source %>%
+  left_join(ntp_concept_map) %>%
   group_by(ntp_dose_form, sub_set) %>%
   dplyr::summarize(unique_number_dins = n_distinct(DRUG_IDENTIFICATION_NUMBER),
-                   formal_descrip = "",
+                   formal_descrip = tolower(paste(first(ai_set_str), ROUTE_OF_ADMINISTRATION, PHARMACEUTICAL_FORM)),
                    status = ifelse(extract == "active", "active", "inactive"),
                    greater_than_5_AIs = NUMBER_OF_AIS > 5,
-                   tm_set = first(tm_set)) %>%
-  unique()
-# God awful solution, because the ids will change if you add a new ntp! TEMPORARY!!!
-ntp_table$ntp_id <- 1:nrow(ntp_table) + 9000000
-ntp_table %<>% right_join(top250)
+                   tm_set = first(tm_set)
+                   ) %>%
+  unique() %>% 
+  left_join(top250) %>% filter(!is.na(id)) %>%
+  mutate(ntp_id = id + 9000000,
+         en_display = "",
+         fr_display = "",
+         type = "") %>%
+  left_join(mp_source) %>%
+  unique() %>%
+  mutate(product_status = extract,
+         product_status_effective_time = LAST_UPDATE_DATE %>%
+           parse_date_time("dmy") %>%
+           as.Date %>%
+           str_replace_all("-", "")) %>%
+  select(c(ntp_id,
+           formal_descrip,
+           en_display,
+           fr_display,
+           type,
+           product_status,
+           product_status_effective_time)) %>% write.csv("ntp_table.csv", row.names = FALSE)
 
 tm_table <- mp_source %>%
   group_by(tm_set) %>%
@@ -233,8 +276,24 @@ tm_table <- mp_source %>%
   filter(tm_set != "") %>%
   dplyr::summarize(n_dins = n_distinct(DRUG_IDENTIFICATION_NUMBER),
             n_ntps = n_distinct(ntp_dose_form)) %>%
-  mutate(id = group_indices(tm_table, tm_set)) %>%
-  right_join(top250)
+  right_join(top250) %>%
+  left_join(mp_source %>% select(c(tm_set, extract, LAST_UPDATE_DATE))) %>%
+  mutate(formal_description = tm_set %>% str_replace_all("!", " and ") %>% tolower(),
+         product_status_effective_time = LAST_UPDATE_DATE %>%
+           parse_date_time("dmy") %>%
+           as.Date %>%
+           str_replace_all("-", "")) %>%
+  unique() %>%
+  mutate(en_display = "",
+         fr_display = "",
+         product_status = extract,
+         tm_id = group_indices(tm_table, tm_set)) %>%
+  select(c(tm_id,
+           formal_description,
+           en_display,
+           fr_display,
+           product_status,
+           product_status_effective_time))
 
 mapping_table <- mp_source %>%
   group_by(DRUG_IDENTIFICATION_NUMBER) %>%
@@ -279,9 +338,9 @@ ntp_concepts <- dpd_ingred_all %>%
   # ai_set orders the basis_strenth_ing and collapses them together by " and ", then makes it all upper case
   # n_ing is the number of ingredients
   # ai_set_str sorts the ing with strengths, also collapsing by " and " to upper case.
-  dplyr::summarize(ai_set = sort(basis_of_strength_ing) %>% paste(collapse = " and ") %>% toupper(),
+  dplyr::summarize(ai_set = sort(basis_of_strength_ing) %>% unique() %>% paste(collapse = " and ") %>% toupper(),
                    n_ing = length(basis_of_strength_ing),
-                   ai_set_str = sort(dpd_ing_w_strength) %>% paste(collapse = " and ") %>% toupper(),
+                   ai_set_str = sort(dpd_ing_w_strength) %>% unique() %>% paste(collapse = " and ") %>% toupper(),
                    strength = STRENGTH,
                    strength_unit = STRENGTH_UNIT) %>%
   # add in human active drugs
