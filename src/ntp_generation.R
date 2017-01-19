@@ -250,9 +250,10 @@ top250 <- tbl(src_postgres("hcref", "shiny.hc.local", user = "hcreader", passwor
   dplyr::select(ai_set, total) %>%
   `[`(1:250,) %>%
   as.data.table() %>%
-  select(tm_set = ai_set) %T>%
-  {top250_NAs <<- top250 %>% anti_join(tm_table)} %>%
-  semi_join(tm_table)
+  select(tm_set = ai_set)
+
+top250_NAs <- top250 %>% anti_join(tm_table)
+top250 <- top250 %>% semi_join(tm_table)
 
 # Summary Tables for the top 250 ----------------------------------------------
 # http://www.fda.gov/downloads/ForIndustry/DataStandards/StructuredProductLabeling/UCM362965.zip
