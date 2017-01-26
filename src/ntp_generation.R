@@ -143,8 +143,19 @@ dpd_active_ingredients <- dpd_human_active_ingredients %>%
                                   "ACYCLOVIR",
                                   `Active Moiety`)) %>%
   # End of Top 250 Corrections
+  mutate(STRENGTH = sprintf("%15.9g", as.numeric(STRENGTH)),
+         DOSAGE_VALUE = ifelse(DOSAGE_VALUE != "",
+                               sprintf("%15.9g", as.numeric(DOSAGE_VALUE)),
+                               "")) %>%
   mutate(strength_w_unit_w_dosage_if_exists = paste0(STRENGTH, " ",
-                                                     STRENGTH_UNIT, ifelse(DOSAGE_VALUE != "", paste0(" per ", DOSAGE_VALUE, " ", DOSAGE_UNIT), ""))) %>%
+                                                     STRENGTH_UNIT, 
+                                                     ifelse(DOSAGE_UNIT != "", 
+                                                            paste0(" per ",
+                                                                   ifelse(DOSAGE_VALUE != "",
+                                                                          paste0(DOSAGE_VALUE," "),
+                                                                          ""),
+                                                                   DOSAGE_UNIT),
+                                                            ""))) %>%
   select(c(DRUG_CODE, precise_ing, basis_of_strength_ing, ACTIVE_INGREDIENT_CODE,
            ai_unii = `AI UNII`, am_unii = `AM UNII`, tm = `Active Moiety`,
            STRENGTH, STRENGTH_UNIT, DOSAGE_VALUE, DOSAGE_UNIT,
@@ -156,17 +167,29 @@ dpd_active_ingredients <- dpd_human_active_ingredients %>%
 # Provides useful summary statistics for each drug code in active human drugs.
 substance_sets <- dpd_active_ingredients %>%
   arrange(precise_ing, basis_of_strength_ing, STRENGTH) %>%
-  group_by(DRUG_CODE) %>%
+  group_by(DRUG_CODE, precise_ing) %>%
   dplyr::summarize(
     sub_set = precise_ing %>% unique() %>% paste(collapse = "!"),
     bos_set = basis_of_strength_ing %>% unique() %>% paste(collapse = "!"),
     tm_set  = tm %>% unique() %>% paste(collapse = "!"),
-    sub_str_dosage_set = strength_w_unit_w_dosage_if_exists %>% unique() %>% paste(collapse = "!"),
-    mp_table_set = paste(unique(basis_of_strength_ing), ifelse(unique(basis_of_strength_ing) != unique(precise_ing), paste0("(", unique(precise_ing), ")"), ""),
-                         unique(strength_w_unit_w_dosage_if_exists), collapse = " and "),
+    sub_str_dosage_set = strength_w_unit_w_dosage_if_exists %>% paste(collapse = "!"),
+    mp_table_set = paste0(sprintf("%s %s %s",
+                                  unique(basis_of_strength_ing), 
+                                  ifelse(unique(basis_of_strength_ing) != unique(precise_ing), paste0("(", unique(precise_ing), ")"), ""),
+                                  unique(strength_w_unit_w_dosage_if_exists)),
+                          collapse = " and "),
     ai_unii_set = ai_unii %>% unique() %>% paste(collapse = "!"),
-    am_unii_set = am_unii %>% unique() %>% paste(collapse = "!")
-  )
+    am_unii_set = am_unii %>% unique() %>% paste(collapse = "!")) %>%
+  group_by(DRUG_CODE) %>%
+  dplyr::summarize(
+    sub_set = sub_set %>% paste(collapse = "!"),
+    bos_set = bos_set %>% paste(collapse = "!"),
+    tm_set  = tm_set %>% paste(collapse = "!"),
+    sub_str_dosage_set = sub_str_dosage_set %>% paste(collapse = "!"),
+    mp_table_set = mp_table_set %>% paste(collapse = " and "),
+    ai_unii_set = ai_unii_set %>% paste(collapse = "!"),
+    am_unii_set = am_unii_set %>% paste(collapse = "!"))
+  
 
 
 # The products table contains product information for every drug code.
@@ -207,7 +230,7 @@ mp_table <- mp_source %>%
 
 # Contains the necessary ingredients to create the name for ntps
 ntp_table <- mp_source %>%
-  group_by(sub_str_dosage_set, ntp_dose_form) %>%
+  group_by(DRUG_CODE, sub_str_dosage_set, ntp_dose_form) %>%
   dplyr::summarize(n_dins = n_distinct(DRUG_IDENTIFICATION_NUMBER),
                    #din_list = DRUG_IDENTIFICATION_NUMBER %>% unique() %>% paste(collapse = "!"),
                    formal_description_ntp = paste(tolower(mp_table_set), ntp_dose_form),
@@ -269,16 +292,20 @@ tm_table_top250 <- tm_table %>%
 ntp_table_top250 <- ntp_table %>%
   left_join(mapping_table) %>%
   semi_join(top250) %>%
-  select(c(ntp_id, formal_description_ntp, en_display, fr_display, status, ntp_status_effective_time)) %>% distinct()
+  select(c(ntp_id, formal_description_ntp, en_display, fr_display, status, ntp_status_effective_time)) %>%
+  group_by(ntp_id, formal_description_ntp, en_display, fr_display, status) %>%
+  dplyr::summarize(
+    ntp_status_effective_time = sort(ntp_status_effective_time) %>% `[`(1)
+  )
 
 mapping_table_top250 <- mapping_table %>%
   semi_join(top250)
 
 # Write to file ---------------------------------------------------------------
 
-write.csv(mp_table_top250, "mp_table_top250_20170118.csv",row.names = FALSE)
-write.csv(tm_table_top250, "tm_table_top250_20170118.csv",row.names = FALSE)
-write.csv(ntp_table_top250, "ntp_table_top250_20170118.csv",row.names = FALSE)
-write.csv(mapping_table_top250, "mapping_table_top250_20170118.csv", row.names = FALSE)
+write.csv(mp_table_top250, "mp_table_top250_20170126.csv",row.names = FALSE)
+write.csv(tm_table_top250, "tm_table_top250_20170126.csv",row.names = FALSE)
+write.csv(ntp_table_top250, "ntp_table_top250_20170126.csv",row.names = FALSE)
+write.csv(mapping_table_top250, "mapping_table_top250_20170126.csv", row.names = FALSE)
 
 
