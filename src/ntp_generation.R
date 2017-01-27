@@ -161,46 +161,29 @@ dpd_active_ingredients <- dpd_human_active_ingredients %>%
            STRENGTH, STRENGTH_UNIT, DOSAGE_VALUE, DOSAGE_UNIT,
            strength_w_unit_w_dosage_if_exists)) %>%
   ungroup() %>%
+  mutate(
+    mp_name = ifelse(
+      basis_of_strength_ing != precise_ing,
+      sprintf("%s (%s) %s", basis_of_strength_ing %>% tolower(),
+                            precise_ing %>% tolower(),
+                            strength_w_unit_w_dosage_if_exists %>% tolower() %>% str_replace_all("ml", "mL")),
+      sprintf("%s %s", basis_of_strength_ing %>% tolower(),
+                       strength_w_unit_w_dosage_if_exists %>% tolower() %>% str_replace_all("ml", "mL")))) %>%
   distinct()
 
 
 # Provides useful summary statistics for each drug code in active human drugs.
 substance_sets <- dpd_active_ingredients %>%
   arrange(precise_ing, basis_of_strength_ing, STRENGTH) %>%
-  group_by(DRUG_CODE, precise_ing) %>%
+  group_by(DRUG_CODE) %>%
   dplyr::summarize(
     sub_set = precise_ing %>% unique() %>% paste(collapse = "!"),
     bos_set = basis_of_strength_ing %>% unique() %>% paste(collapse = "!"),
     tm_set  = tm %>% unique() %>% paste(collapse = "!"),
-    sub_str_dosage_set = strength_w_unit_w_dosage_if_exists %>% paste(collapse = "!"),
-    
-    mp_table_set = ifelse(
-      unique(basis_of_strength_ing) != unique(precise_ing),
-      sprintf("%s (%s) %s", unique(basis_of_strength_ing) %>% tolower(),
-                            unique(precise_ing) %>% tolower(),
-                            unique(strength_w_unit_w_dosage_if_exists) %>% tolower() %>% str_replace_all("ml", "mL")) ,
-      sprintf("%s %s", unique(basis_of_strength_ing) %>% tolower(),
-                       unique(strength_w_unit_w_dosage_if_exists) %>% tolower() %>% str_replace_all("ml", "mL"))),
-    # 
-    # mp_table_set = paste0(sprintf("%s %s %s",
-    #                               unique(basis_of_strength_ing), 
-    #                               ifelse(unique(basis_of_strength_ing) != unique(precise_ing), paste0("(", unique(precise_ing), ")"), ""),
-    #                               unique(strength_w_unit_w_dosage_if_exists)) %>% str_trim(),
-    #                       collapse = " and "),
-    
-    
+    sub_str_dosage_set = mp_name %>% unique() %>% str_extract("\\d.*") %>% paste(collapse = "!"),
+    mp_table_set = mp_name %>% unique() %>% paste(collapse = " and "),
     ai_unii_set = ai_unii %>% unique() %>% paste(collapse = "!"),
-    am_unii_set = am_unii %>% unique() %>% paste(collapse = "!")) %>%
-  group_by(DRUG_CODE) %>%
-  dplyr::summarize(
-    sub_set = sub_set %>% paste(collapse = "!"),
-    bos_set = bos_set %>% paste(collapse = "!"),
-    tm_set  = tm_set %>% paste(collapse = "!"),
-    sub_str_dosage_set = sub_str_dosage_set %>% paste(collapse = "!"),
-    mp_table_set = mp_table_set %>% paste(collapse = " and "),
-    ai_unii_set = ai_unii_set %>% paste(collapse = "!"),
-    am_unii_set = am_unii_set %>% paste(collapse = "!"))
-  
+    am_unii_set = am_unii %>% unique() %>% paste(collapse = "!"))
 
 
 # The products table contains product information for every drug code.
