@@ -56,7 +56,7 @@ setwd("~/formulary/src")
 source("~/formulary/src/DPDimport.R")
 
 # Used as a filtering table for edge cases in the top 250 therapeutic moieties.
-mapping_for_top_250_NA <- fread("~/formulary/src/mapping_for_top_250.csv")
+mapping_for_top_250_NA <- fread("~/formulary/data/mapping_for_top_250.csv")
 
 # Need the active moieties (therapeutic moieties) information from the table.
 us_spl_ai <- fread("~/formulary/data/ai_am_bos.csv") %>% 
@@ -123,7 +123,7 @@ dpd_active_ingredients <- dpd_human_active_ingredients %>%
            paste(collapse = "|")) %>%
   mutate(precise_ing = ifelse(precise_ing == "", 
                               basis_of_strength_ing, precise_ing)) %>%
-  # Top 250 Corrections  
+  # Top 250 Corrections -------------------------------------------------------
   left_join(mapping_for_top_250_NA %>% select(c(precise_ing = dpd_values, 
                                                 precise_ing_NAME_CHANGE))) %>%
   mutate(precise_ing_US = ifelse(precise_ing_NAME_CHANGE != "" & 
@@ -142,14 +142,33 @@ dpd_active_ingredients <- dpd_human_active_ingredients %>%
                                     precise_ing == "ACYCLOVIR SODIUM",
                                   "ACYCLOVIR",
                                   `Active Moiety`)) %>%
-  # End of Top 250 Corrections
+  # End of Top 250 Corrections ------------------------------------------------
+  mutate(STRENGTH = sprintf("%15.9g", as.numeric(STRENGTH)) %>% str_trim(),
+         DOSAGE_VALUE = ifelse(DOSAGE_VALUE != "",
+                               sprintf("%15.9g", as.numeric(DOSAGE_VALUE)),
+                               "") %>% str_trim()) %>%
   mutate(strength_w_unit_w_dosage_if_exists = paste0(STRENGTH, " ",
-                                                     STRENGTH_UNIT, ifelse(DOSAGE_VALUE != "", paste0(" per ", DOSAGE_VALUE, " ", DOSAGE_UNIT), ""))) %>%
+                                                     STRENGTH_UNIT, 
+                                                     ifelse(DOSAGE_UNIT != "", 
+                                                            paste0(" per ",
+                                                                   ifelse(DOSAGE_VALUE != "",
+                                                                          paste0(DOSAGE_VALUE," "),
+                                                                          ""),
+                                                                   DOSAGE_UNIT),
+                                                            ""))) %>%
   select(c(DRUG_CODE, precise_ing, basis_of_strength_ing, ACTIVE_INGREDIENT_CODE,
            ai_unii = `AI UNII`, am_unii = `AM UNII`, tm = `Active Moiety`,
            STRENGTH, STRENGTH_UNIT, DOSAGE_VALUE, DOSAGE_UNIT,
            strength_w_unit_w_dosage_if_exists)) %>%
   ungroup() %>%
+  mutate(
+    mp_name = ifelse(
+      basis_of_strength_ing != precise_ing,
+      sprintf("%s (%s) %s", basis_of_strength_ing %>% tolower(),
+                            precise_ing %>% tolower(),
+                            strength_w_unit_w_dosage_if_exists %>% tolower() %>% str_replace_all("ml", "mL")),
+      sprintf("%s %s", basis_of_strength_ing %>% tolower(),
+                       strength_w_unit_w_dosage_if_exists %>% tolower() %>% str_replace_all("ml", "mL")))) %>%
   distinct()
 
 
@@ -161,12 +180,10 @@ substance_sets <- dpd_active_ingredients %>%
     sub_set = precise_ing %>% unique() %>% paste(collapse = "!"),
     bos_set = basis_of_strength_ing %>% unique() %>% paste(collapse = "!"),
     tm_set  = tm %>% unique() %>% paste(collapse = "!"),
-    sub_str_dosage_set = strength_w_unit_w_dosage_if_exists %>% unique() %>% paste(collapse = "!"),
-    mp_table_set = paste(unique(basis_of_strength_ing), ifelse(unique(basis_of_strength_ing) != unique(precise_ing), paste0("(", unique(precise_ing), ")"), ""),
-                         unique(strength_w_unit_w_dosage_if_exists), collapse = " and "),
+    sub_str_dosage_set = mp_name %>% unique() %>% str_extract("\\d.*") %>% paste(collapse = "!"),
+    mp_table_set = mp_name %>% unique() %>% paste(collapse = " and "),
     ai_unii_set = ai_unii %>% unique() %>% paste(collapse = "!"),
-    am_unii_set = am_unii %>% unique() %>% paste(collapse = "!")
-  )
+    am_unii_set = am_unii %>% unique() %>% paste(collapse = "!"))
 
 
 # The products table contains product information for every drug code.
@@ -199,41 +216,40 @@ mp_table <- mp_source %>%
            BRAND_NAME, COMPANY_NAME, ntp_dose_form, mp_table_set, tm_set)) %>%
   mutate(formal_description_mp = sprintf("%s [%s %s] %s",
                                          BRAND_NAME,
-                                         tolower(mp_table_set),
+                                         mp_table_set,
                                          ntp_dose_form,
                                          COMPANY_NAME),
-         en_display = "",
-         fr_display = "")
+         en_display = NA,
+         fr_display = NA)
 
 # Contains the necessary ingredients to create the name for ntps
 ntp_table <- mp_source %>%
-  group_by(sub_str_dosage_set, ntp_dose_form) %>%
+  group_by(DRUG_CODE, sub_str_dosage_set, ntp_dose_form) %>%
   dplyr::summarize(n_dins = n_distinct(DRUG_IDENTIFICATION_NUMBER),
                    #din_list = DRUG_IDENTIFICATION_NUMBER %>% unique() %>% paste(collapse = "!"),
-                   formal_description_ntp = paste(tolower(mp_table_set), ntp_dose_form),
+                   formal_description_ntp = paste(mp_table_set, ntp_dose_form),
                    status = ifelse(product_status != "active", "inactive", "active"),
                    greater_than_5_AIs = NUMBER_OF_AIS > 5,
                    ntp_status_effective_time = first(sort(product_status_effective_time))) %>%
-  transform(ntp_id = as.numeric(interaction(formal_description_ntp, drop=TRUE)) + 9000000) %>%
+  transform(ntp_code = as.numeric(interaction(formal_description_ntp, drop=TRUE)) + 9000000) %>%
   distinct() %>%
-  mutate(en_display = "",
-         fr_display = "")
+  mutate(en_display = NA,
+         fr_display = NA)
 
 # Contains the necessary ingredients to create a therapeutic moiety table.
 # TODO (bclaught): There is an issue with NAs appearing in the tm set.
 tm_table <- mp_source %>%
   group_by(tm_set) %>%
   dplyr::summarize(n_dins = n_distinct(DRUG_IDENTIFICATION_NUMBER),
-                   #din_list = DRUG_IDENTIFICATION_NUMBER %>% unique() %>% paste(collapse = "!"),
                    n_ntps = n_distinct(ntp_dose_form),
                    status = ifelse(product_status != "active", "inactive", "active"),
                    tm_status_effective_time = first(sort(product_status_effective_time))) %>%
   distinct() %>%
-  transform(tm_id = as.numeric(interaction(tm_set, drop=TRUE)) + 9000000) %>%
+  transform(tm_code = as.numeric(interaction(tm_set, drop=TRUE)) + 9000000) %>%
   filter(!(tm_set %like% "\\!NA\\!")) %>% filter(!endsWith(tm_set, "!NA")) %>% filter(!startsWith(tm_set, "NA!")) %>% filter(tm_set != "NA") %>%
   mutate(formal_description_tm = str_replace_all(tm_set, "!", " and ") %>% tolower(),
-         en_display = "",
-         fr_display = "")
+         en_display = NA,
+         fr_display = NA)
 
 # Mapping table between TM and NTP
 mapping_table <- mp_source %>%
@@ -241,7 +257,7 @@ mapping_table <- mp_source %>%
   mutate(formal_description_ntp = paste(mp_table_set, ntp_dose_form) %>% tolower()) %>%
   left_join(ntp_table, by = c("ntp_dose_form", "formal_description_ntp", "status")) %>%
   filter(!(tm_set %like% "\\!NA\\!")) %>% filter(!endsWith(tm_set, "!NA")) %>% filter(!startsWith(tm_set, "NA!")) %>% filter(tm_set != "NA") %>%
-  select(c(DRUG_IDENTIFICATION_NUMBER, ntp_dose_form, formal_description_ntp, ntp_id, tm_set, formal_description_tm, tm_id)) %>% distinct()
+  select(c(DRUG_IDENTIFICATION_NUMBER, ntp_dose_form, formal_description_ntp, ntp_code, tm_set, formal_description_tm, tm_code)) %>% distinct()
 
 # Top 250 therapeutic moieties in Canada --------------------------------------  
 
@@ -264,21 +280,34 @@ mp_table_top250 <- mp_table %>%
 
 tm_table_top250 <- tm_table %>%
   semi_join(top250) %>%
-  select(c(tm_id, formal_description_tm, en_display, fr_display, status, tm_status_effective_time))
+  select(c(tm_code, formal_description_tm, en_display, fr_display, status, tm_status_effective_time))
 
 ntp_table_top250 <- ntp_table %>%
   left_join(mapping_table) %>%
   semi_join(top250) %>%
-  select(c(ntp_id, formal_description_ntp, en_display, fr_display, status, ntp_status_effective_time)) %>% distinct()
+  select(c(ntp_code, formal_description_ntp, en_display, fr_display, status, ntp_status_effective_time)) %>%
+  group_by(ntp_code, formal_description_ntp, en_display, fr_display, status) %>%
+  dplyr::summarize(
+    ntp_status_effective_time = sort(ntp_status_effective_time) %>% `[`(1)
+  )
 
 mapping_table_top250 <- mapping_table %>%
-  semi_join(top250)
+  semi_join(top250) %>%
+  select(-c(ntp_dose_form, tm_set))
 
 # Write to file ---------------------------------------------------------------
 
-write.csv(mp_table_top250, "mp_table_top250_20170118.csv",row.names = FALSE)
-write.csv(tm_table_top250, "tm_table_top250_20170118.csv",row.names = FALSE)
-write.csv(ntp_table_top250, "ntp_table_top250_20170118.csv",row.names = FALSE)
-write.csv(mapping_table_top250, "mapping_table_top250_20170118.csv", row.names = FALSE)
+table_csv_writer <- function(table, tablename, version) {
+  date <- as.character(Sys.Date()) %>% str_replace_all("-", "")
+  directory <- paste0("~/formulary/output/", date, "/")
+  filename <- sprintf("%s_%s_%s.csv", tablename, date, version)
+  ifelse(!dir.exists(directory), dir.create(directory), FALSE)
+  write.csv(table, paste0(directory, filename), row.names = FALSE)
+}
 
+# Next Version is Version 5 as of 2017-01-30
+table_csv_writer(mp_table_top250, "mp_table", "v5")
+table_csv_writer(ntp_table_top250, "ntp_table", "v5")
+table_csv_writer(tm_table_top250, "tm_table", "v5")
+table_csv_writer(mapping_table_top250, "mapping_table", "v5")
 
