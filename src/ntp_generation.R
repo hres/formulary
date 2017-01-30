@@ -123,7 +123,7 @@ dpd_active_ingredients <- dpd_human_active_ingredients %>%
            paste(collapse = "|")) %>%
   mutate(precise_ing = ifelse(precise_ing == "", 
                               basis_of_strength_ing, precise_ing)) %>%
-  # Top 250 Corrections  
+  # Top 250 Corrections -------------------------------------------------------
   left_join(mapping_for_top_250_NA %>% select(c(precise_ing = dpd_values, 
                                                 precise_ing_NAME_CHANGE))) %>%
   mutate(precise_ing_US = ifelse(precise_ing_NAME_CHANGE != "" & 
@@ -142,7 +142,7 @@ dpd_active_ingredients <- dpd_human_active_ingredients %>%
                                     precise_ing == "ACYCLOVIR SODIUM",
                                   "ACYCLOVIR",
                                   `Active Moiety`)) %>%
-  # End of Top 250 Corrections
+  # End of Top 250 Corrections ------------------------------------------------
   mutate(STRENGTH = sprintf("%15.9g", as.numeric(STRENGTH)) %>% str_trim(),
          DOSAGE_VALUE = ifelse(DOSAGE_VALUE != "",
                                sprintf("%15.9g", as.numeric(DOSAGE_VALUE)),
@@ -241,7 +241,6 @@ ntp_table <- mp_source %>%
 tm_table <- mp_source %>%
   group_by(tm_set) %>%
   dplyr::summarize(n_dins = n_distinct(DRUG_IDENTIFICATION_NUMBER),
-                   #din_list = DRUG_IDENTIFICATION_NUMBER %>% unique() %>% paste(collapse = "!"),
                    n_ntps = n_distinct(ntp_dose_form),
                    status = ifelse(product_status != "active", "inactive", "active"),
                    tm_status_effective_time = first(sort(product_status_effective_time))) %>%
