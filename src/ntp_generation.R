@@ -219,8 +219,8 @@ mp_table <- mp_source %>%
                                          mp_table_set,
                                          ntp_dose_form,
                                          COMPANY_NAME),
-         en_display = "",
-         fr_display = "")
+         en_display = NA,
+         fr_display = NA)
 
 # Contains the necessary ingredients to create the name for ntps
 ntp_table <- mp_source %>%
@@ -233,8 +233,8 @@ ntp_table <- mp_source %>%
                    ntp_status_effective_time = first(sort(product_status_effective_time))) %>%
   transform(ntp_code = as.numeric(interaction(formal_description_ntp, drop=TRUE)) + 9000000) %>%
   distinct() %>%
-  mutate(en_display = "",
-         fr_display = "")
+  mutate(en_display = NA,
+         fr_display = NA)
 
 # Contains the necessary ingredients to create a therapeutic moiety table.
 # TODO (bclaught): There is an issue with NAs appearing in the tm set.
@@ -248,8 +248,8 @@ tm_table <- mp_source %>%
   transform(tm_code = as.numeric(interaction(tm_set, drop=TRUE)) + 9000000) %>%
   filter(!(tm_set %like% "\\!NA\\!")) %>% filter(!endsWith(tm_set, "!NA")) %>% filter(!startsWith(tm_set, "NA!")) %>% filter(tm_set != "NA") %>%
   mutate(formal_description_tm = str_replace_all(tm_set, "!", " and ") %>% tolower(),
-         en_display = "",
-         fr_display = "")
+         en_display = NA,
+         fr_display = NA)
 
 # Mapping table between TM and NTP
 mapping_table <- mp_source %>%
@@ -305,8 +305,9 @@ table_csv_writer <- function(table, tablename, version) {
   write.csv(table, paste0(directory, filename), row.names = FALSE)
 }
 
-table_csv_writer(mp_table_top250, "mp_table", "v0.1")
-table_csv_writer(ntp_table_top250, "ntp_table", "v0.1")
-table_csv_writer(tm_table_top250, "tm_table", "v0.1")
-table_csv_writer(mapping_table_top250, "mapping_table", "v0.1")
+# Next Version is Version 5 as of 2017-01-30
+table_csv_writer(mp_table_top250, "mp_table", "v5")
+table_csv_writer(ntp_table_top250, "ntp_table", "v5")
+table_csv_writer(tm_table_top250, "tm_table", "v5")
+table_csv_writer(mapping_table_top250, "mapping_table", "v5")
 
