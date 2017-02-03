@@ -120,7 +120,8 @@ unit.dosage.unapproved <- c('', '%', 'BLISTER', 'CAP', 'DOSE', 'ECC', 'ECT',
 # TODO (bclaught): Cleaner handling of top 250 corrections. Manual overrides
 #                  should not happen.
 dpd_active_ingredients <- dpd_human_active_ingredients %>%
-  mutate(INGREDIENT = toupper(INGREDIENT)) %>%
+  mutate(INGREDIENT = toupper(INGREDIENT),
+         DOSAGE_UNIT = ifelse(DOSAGE_UNIT == "ACT", "ACTUATION", DOSAGE_UNIT)) %>%
   group_by(ACTIVE_INGREDIENT_CODE, INGREDIENT) %>%
   # the regex is incorrect because they have no exception. some entries do not 
   # have precise ingredients inside brackets (even though they should)
