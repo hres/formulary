@@ -111,6 +111,10 @@ dpd_form_route_map <- bind_rows(right_join(dpd_form_route, ntp_dose_form_map),
                                 left_join(dpd_form_route, ntp_dose_form_map_simple)) %>%
   filter(!is.na(ntp_dose_form))
 
+# Unapproved dosage units that should not be included in the formal name
+unit.dosage.unapproved <- c('', '%', 'BLISTER', 'CAP', 'DOSE', 'ECC', 'ECT',
+                            'KIT', 'LOZ', 'NIL', 'PATCH', 'SLT', 'SRC', 
+                            'SRD', 'SRT', 'SUP', 'SYR', 'TAB', 'V/V', 'W/V', 'W/W')
 
 # The table used for string manipulation of INGREDIENT and strength/dosage values.
 # TODO (bclaught): Cleaner handling of top 250 corrections. Manual overrides
@@ -155,18 +159,20 @@ dpd_active_ingredients <- dpd_human_active_ingredients %>%
                                "") %>% str_trim()) %>%
   mutate(strength_w_unit_w_dosage_if_exists = paste0(STRENGTH, " ",
                                                      STRENGTH_UNIT, 
-                                                     ifelse(DOSAGE_UNIT != "", 
+                                                     ifelse(!(DOSAGE_UNIT %in% unit.dosage.unapproved), 
                                                             paste0(" per ",
                                                                    ifelse(DOSAGE_VALUE != "",
                                                                           paste0(DOSAGE_VALUE," "),
-                                                                          ""),
-                                                                   DOSAGE_UNIT),
-                                                            ""))) %>%
+                                                                          DOSAGE_UNIT),
+                                                                   ""),
+                                                            "")) %>% str_trim()) %>%
   select(c(DRUG_CODE, precise_ing, basis_of_strength_ing, ACTIVE_INGREDIENT_CODE,
            ai_unii = `AI UNII`, am_unii = `AM UNII`, tm = `Active Moiety`,
            STRENGTH, STRENGTH_UNIT, DOSAGE_VALUE, DOSAGE_UNIT,
            strength_w_unit_w_dosage_if_exists)) %>%
   ungroup() %>%
+  # Do not include the following in the dosage units:
+  # %, BLISTER, CAP, DOSE, ECC, ECT, KIT, LOZ, NIL, PATCH, SLT, SRC, SRD, SRT, SUP, SYR, TAB, V/V, W/V, W/W
   mutate(
     mp_name = ifelse(
       basis_of_strength_ing != precise_ing,
