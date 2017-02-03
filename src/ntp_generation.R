@@ -319,9 +319,9 @@ mp_ntp_relationship_top250 <- mapping_table %>%
 table_writer <- function(table, tablename, version = "v6") {
   date <- as.character(Sys.Date()) %>% str_replace_all("-", "")
   directory <- paste0("~/formulary/output/", date, "/")
-  filename <- sprintf("%s_%s_%s.csv", tablename, date, version)
+  filename <- sprintf("%s_%s_%s.txt", tablename, date, version)
   ifelse(!dir.exists(directory), dir.create(directory), FALSE)
-  write.table(x = table, file = paste0(directory, filename), row.names = FALSE, sep = "|")
+  write.table(x = table, file = paste0(directory, filename), row.names = FALSE, sep = "|", fileEncoding = "UTF-8")
 }
 
 # Next Version is Version 5 as of 2017-01-30
