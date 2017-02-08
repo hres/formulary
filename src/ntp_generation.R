@@ -111,7 +111,8 @@ dpd_form_route_map <- bind_rows(right_join(dpd_form_route, ntp_dose_form_map),
                                 left_join(dpd_form_route, ntp_dose_form_map_simple)) %>%
   filter(!is.na(ntp_dose_form))
 
-# Unapproved dosage units that should not be included in the formal name
+# Do not include the following in the dosage units:
+# %, BLISTER, CAP, DOSE, ECC, ECT, KIT, LOZ, NIL, PATCH, SLT, SRC, SRD, SRT, SUP, SYR, TAB, V/V, W/V, W/W
 unit.dosage.unapproved <- c('', '%', 'BLISTER', 'CAP', 'DOSE', 'ECC', 'ECT',
                             'KIT', 'LOZ', 'NIL', 'PATCH', 'SLT', 'SRC', 
                             'SRD', 'SRT', 'SUP', 'SYR', 'TAB', 'V/V', 'W/V', 'W/W')
@@ -172,8 +173,6 @@ dpd_active_ingredients <- dpd_human_active_ingredients %>%
            STRENGTH, STRENGTH_UNIT, DOSAGE_VALUE, DOSAGE_UNIT,
            strength_w_unit_w_dosage_if_exists)) %>%
   ungroup() %>%
-  # Do not include the following in the dosage units:
-  # %, BLISTER, CAP, DOSE, ECC, ECT, KIT, LOZ, NIL, PATCH, SLT, SRC, SRD, SRT, SUP, SYR, TAB, V/V, W/V, W/W
   mutate(
     mp_name = ifelse(
       basis_of_strength_ing != precise_ing,
@@ -298,11 +297,19 @@ top250 <- top250 %>% semi_join(tm_table)
 
 mp_table_top250 <- mp_table %>%
   semi_join(top250) %>% 
-  select(c(mp_code = DRUG_IDENTIFICATION_NUMBER, formal_description_mp, en_display, fr_display, product_status, product_status_effective_time))
+  select(c(mp_code = DRUG_IDENTIFICATION_NUMBER,
+           mp_formal_name = formal_description_mp,
+           mp_en_description = en_display,
+           mp_fr_description = fr_display,
+           mp_status = product_status,
+           mp_status_effective_time = product_status_effective_time))
 
 tm_table_top250 <- tm_table %>%
   semi_join(top250) %>%
-  select(c(tm_code, formal_description_tm, en_display, fr_display, status, tm_status_effective_time))
+  select(c(tm_code,
+           mp_formal_name = formal_description_tm,
+           tm_status = status,
+           tm_status_effective_time))
 
 ntp_table_top250 <- ntp_table %>%
   left_join(mapping_table) %>%
@@ -311,7 +318,12 @@ ntp_table_top250 <- ntp_table %>%
   group_by(ntp_code, formal_description_ntp, en_display, fr_display, status) %>%
   dplyr::summarize(
     ntp_status_effective_time = sort(ntp_status_effective_time) %>% `[`(1)
-  )
+  ) %>% select(c(ntp_code,
+                 ntp_formal_name = formal_description_ntp,
+                 ntp_en_description = en_display,
+                 ntp_fr_description = fr_display,
+                 ntp_status = status,
+                 ntp_status_effective_time))
 
 mp_tm_relationship_top250 <- mp_tm_relationship_table %>%
   semi_join(top250) %>%
