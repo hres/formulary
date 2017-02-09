@@ -274,11 +274,11 @@ mapping_table <- mp_source %>%
   left_join(mp_table) %>%
   select(c(mp_code = DRUG_IDENTIFICATION_NUMBER, formal_description_mp, ntp_dose_form, formal_description_ntp, ntp_code, tm_set, formal_description_tm, tm_code)) %>% distinct()
 
-mp_ntp_relationship_table <- mapping_table %>%
-  select(-c(tm_set, formal_description_tm, tm_code))
-
-mp_tm_relationship_table <- mapping_table %>%
-  select(-c(ntp_dose_form, formal_description_ntp, ntp_code))
+# mp_ntp_relationship_table <- mapping_table %>%
+#   select(-c(tm_set, formal_description_tm, tm_code))
+# 
+# mp_tm_relationship_table <- mapping_table %>%
+#   select(-c(ntp_dose_form, formal_description_ntp, ntp_code))
 
 # Top 250 therapeutic moieties in Canada --------------------------------------  
 
@@ -318,24 +318,36 @@ ntp_table_top250 <- ntp_table %>%
   group_by(ntp_code, formal_description_ntp, en_display, fr_display, status) %>%
   dplyr::summarize(
     ntp_status_effective_time = sort(ntp_status_effective_time) %>% `[`(1)
-  ) %>% select(c(ntp_code,
-                 ntp_formal_name = formal_description_ntp,
-                 ntp_en_description = en_display,
-                 ntp_fr_description = fr_display,
-                 ntp_status = status,
-                 ntp_status_effective_time))
+  ) %>% ungroup() %>%
+  select(c(ntp_code,
+           ntp_formal_name = formal_description_ntp,
+           ntp_en_description = en_display,
+           ntp_fr_description = fr_display,
+           ntp_status = status,
+           ntp_status_effective_time)) %>%
+  mutate(ntp_type = NA)
 
-mp_tm_relationship_top250 <- mp_tm_relationship_table %>%
+mp_ntp_tm_relationship_top250 <- mapping_table %>%
   semi_join(top250) %>%
-  select(-c(tm_set))
+  select(c(mp_code,
+           mp_formal_name = formal_description_mp,
+           ntp_code,
+           ntp_formal_name = formal_description_ntp,
+           tm_code,
+           tm_formal_name = formal_description_tm))
+  
 
-mp_ntp_relationship_top250 <- mapping_table %>%
-  semi_join(top250) %>%
-  select(-c(ntp_dose_form, tm_set, formal_description_tm, tm_code))
+# mp_tm_relationship_top250 <- mp_tm_relationship_table %>%
+#   semi_join(top250) %>%
+#   select(-c(tm_set))
+# 
+# mp_ntp_relationship_top250 <- mapping_table %>%
+#   semi_join(top250) %>%
+#   select(-c(ntp_dose_form, tm_set, formal_description_tm, tm_code))
 
 # Write to file ---------------------------------------------------------------
 
-table_writer <- function(table, tablename, version = "v6") {
+table_writer <- function(table, tablename, version = "v7") {
   date <- as.character(Sys.Date()) %>% str_replace_all("-", "")
   directory <- paste0("~/formulary/output/", date, "/")
   filename <- sprintf("%s_%s_%s.txt", tablename, date, version)
@@ -343,10 +355,10 @@ table_writer <- function(table, tablename, version = "v6") {
   write.table(x = table, file = paste0(directory, filename), row.names = FALSE, sep = "|", fileEncoding = "UTF-8")
 }
 
-# Next Version is Version 5 as of 2017-01-30
+# Current Version is Version 7 as of 2017-02-09
 table_writer(mp_table_top250, "mp_table")
 table_writer(ntp_table_top250, "ntp_table")
 table_writer(tm_table_top250, "tm_table")
-table_writer(mp_ntp_relationship_top250, "mp_ntp_relationship")
-table_writer(mp_tm_relationship_top250, "mp_tm_relationship")
+table_writer(mp_ntp_tm_relationship_top250, "mp_ntp_tm_relationship")
+
 
