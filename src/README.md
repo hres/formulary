@@ -12,8 +12,9 @@ ntp_code|Numeric|7|Unique meaningless non-proprietary therapeutic product identi
 ntp_formal_name|String UTF-8|500|The unambiguous description of the Non-proprietary Therapeutic Product that includes details necessary to distinguish it from other similar products.
 ntp_en_description|String UTF-8|TBD|The user-friendly English description that may be used for web applications or the user interface for any system. *NB: Not present in the files currently.*
 ntp_fr_description|String UTF-8|TBD|The user-friendly French description that may be used for web applications or the user interface for any system. *NB: Not present in the files currently.*
-ntp_status|String|8|The lifecycle state for the product. Allowable values for status are "Active" or "Inactive".
+ntp_status|String|8|The lifecycle state for the product. Allowable values for status are "Active", "Inactive".
 ntp_status_effective_time|String (Date)|8|The date of the product status in this file. Format = YYYYMMDD.
+ntp_type|String|8|This attribute is used to differentiate combination products. Values = Combination product or Empty. *NB: Not present in the files currently.*
 
 
 **tm_table**
@@ -21,8 +22,8 @@ ntp_status_effective_time|String (Date)|8|The date of the product status in this
 Column | Data Type | Length | Description
 ------ | --------- | ------ | -----------
 tm_code|Numeric|7|Unique meaningless therapeutic moiety identifier assigned by Health Canada.
-tm_formal_name|String UTF-8|300|The unambiguous description of the therapeutic moiety that includes details necessary to distinguish it from other similar products.
-tm_status|String|8|The lifecycle state for the product. Allowable values for status are "Active" or "Inactive".
+tm_formal_name|String UTF-8|500|The unambiguous description of the therapeutic moiety that includes details necessary to distinguish it from other similar products.
+tm_status|String|8|The lifecycle state for the product. Allowable values for status are "Active", "Inactive".
 tm_status_effective_time|String (Date)|8|The date of the product status in this file. Format = YYYYMMDD.
 
 
@@ -30,32 +31,26 @@ tm_status_effective_time|String (Date)|8|The date of the product status in this 
 
 Column | Data Type | Length | Description
 ------ | --------- | ------ | -----------
-mp_code|String|8|The Health Canada assigned DIN and NPN that is currently published as part of the DPD. It is intended to be used as the unique identifier to represent a Manufactured Product.
+mp_code|String|8|It is intended to be used as the unique identifier to represent a Manufactured Product. It will include the Health Canada assigned DIN and NPN that is currently published as part of the DPD.
 mp_formal_name|String UTF-8|500|The unambiguous description of the Manufactured Product that includes details necessary to distinguish it from other similar products.
 mp_en_description|String UTF-8|TBD|The user-friendly English description that may be used for web applications or the user interface for any system. *NB: Not present in the files currently.*
 mp_fr_description|String UTF-8|TBD|The user-friendly French description that may be used for web applications or the user interface for any system. *NB: Not present in the files currently.*
-mp_status|String UTF-8|8|The lifecycle state for the product. Allowable values for status are "Active" or "Inactive".
+mp_status|String UTF-8|8|The lifecycle state for the product. Allowable values for status are "Active", "Inactive".
 mp_status_effective_time|String (Date)|8|The date of the product status in this file. Format = YYYYMMDD.
 
-**mp_tm_relationship_table**
+
+**mp_ntp_tm_relationship_table**
 
 Column | Data Type | Length | Description
 ------ | --------- | ------ | -----------
-mp_code|String|8|The Health Canada assigned DIN and NPN that is currently published as part of the DPD. It is intended to be used as the unique identifier to represent a Manufactured Product.
-mp_formal_name|String UTF-8|500|The unambiguous description of the Manufactured Product that includes details necessary to distinguish it from other similar products.
-tm_code|Numeric|7|Unique meaningless therapeutic moiety identifier assigned by Health Canada.
-tm_formal_name|String UTF-8|300|The unambiguous description of the therapeutic moiety that includes details necessary to distinguish it from other similar products.
-
-
-**mp_ntp_relationship_table**
-
-Column | Data Type | Length | Description
------- | --------- | ------ | -----------
-mp_code|String|8|The Health Canada assigned DIN and NPN that is currently published as part of the DPD. It is intended to be used as the unique identifier to represent a Manufactured Product.
+mp_code|String|8|It is intended to be used as the unique identifier to represent a Manufactured Product. It will include the Health Canada assigned DIN and NPN that is currently published as part of the DPD.
 mp_formal_name|String UTF-8|500|The unambiguous description of the Manufactured Product that includes details necessary to distinguish it from other similar products.
 ntp_code|Numeric|7|Unique meaningless non-proprietary therapeutic product identifier assigned by Health Canada.
 ntp_formal_name|String UTF-8|500|The unambiguous description of the Non-proprietary Therapeutic Product that includes details necessary to distinguish it from other similar products.
+tm_code|Numeric|7|Unique meaningless therapeutic moiety identifier assigned by Health Canada.
+tm_formal_name|String UTF-8|500|The unambiguous description of the therapeutic moiety that includes details necessary to distinguish it from other similar products.
 
+<!--
 
 #### Other Tables
 
@@ -95,3 +90,4 @@ TC_AHFS|String|TBD|
 ntp_dose_form|String|53|ntp mapping for each route and pharm form.
 
 
+-->
