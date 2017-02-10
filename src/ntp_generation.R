@@ -164,7 +164,7 @@ dpd_active_ingredients <- dpd_human_active_ingredients %>%
                                                      ifelse(!(DOSAGE_UNIT %in% unit.dosage.unapproved), 
                                                             paste0(" per ",
                                                                    ifelse(DOSAGE_VALUE != "",
-                                                                          paste0(DOSAGE_VALUE," "),
+                                                                          paste0(DOSAGE_VALUE," ", DOSAGE_UNIT),
                                                                           DOSAGE_UNIT),
                                                                    ""),
                                                             "")) %>% str_trim()) %>%
