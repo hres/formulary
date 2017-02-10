@@ -302,12 +302,12 @@ mp_table_top250 <- mp_table %>%
            mp_en_description = en_display,
            mp_fr_description = fr_display,
            mp_status = product_status,
-           mp_status_effective_time = product_status_effective_time))
+           mp_status_effective_time = product_status_effective_time)) %>% distinct()
 
 tm_table_top250 <- tm_table %>%
   semi_join(top250) %>%
   select(c(tm_code,
-           mp_formal_name = formal_description_tm,
+           tm_formal_name = formal_description_tm,
            tm_status = status,
            tm_status_effective_time))
 
@@ -325,7 +325,7 @@ ntp_table_top250 <- ntp_table %>%
            ntp_fr_description = fr_display,
            ntp_status = status,
            ntp_status_effective_time)) %>%
-  mutate(ntp_type = NA)
+  mutate(ntp_type = NA) %>% distinct()
 
 mp_ntp_tm_relationship_top250 <- mapping_table %>%
   semi_join(top250) %>%
@@ -347,7 +347,7 @@ mp_ntp_tm_relationship_top250 <- mapping_table %>%
 
 # Write to file ---------------------------------------------------------------
 
-table_writer <- function(table, tablename, version = "v7") {
+table_writer <- function(table, tablename, version = "v7.1") {
   date <- as.character(Sys.Date()) %>% str_replace_all("-", "")
   directory <- paste0("~/formulary/output/", date, "/")
   filename <- sprintf("%s_%s_%s.txt", tablename, date, version)
