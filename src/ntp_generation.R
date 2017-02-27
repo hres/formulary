@@ -13,7 +13,7 @@ library(stringr)
 library(magrittr)
 
 # Get DPD extract data. set manually here
-dpdextractdate <- "2017-01-16"
+dpdextractdate <- "2017-02-01"
 
 # For each individual ingredient, generate:
 #   dpd_ing_code
@@ -268,8 +268,8 @@ tm_table <- mp_source %>%
 # Mapping table between TM and NTP
 mapping_table <- mp_source %>%
   left_join(tm_table, by = c("tm_set")) %>%
-  mutate(formal_description_ntp = paste(mp_table_set, ntp_dose_form) %>% tolower()) %>%
-  left_join(ntp_table, by = c("ntp_dose_form", "formal_description_ntp", "status")) %>%
+  mutate(formal_description_ntp = paste(mp_table_set, ntp_dose_form) %>% tolower() %>% str_replace_all(" ml ", " mL ") %>% str_trim()) %>%
+  left_join(ntp_table, by = c("formal_description_ntp")) %>%
   filter(!(tm_set %like% "\\!NA\\!")) %>% filter(!endsWith(tm_set, "!NA")) %>% filter(!startsWith(tm_set, "NA!")) %>% filter(tm_set != "NA") %>%
   left_join(mp_table) %>%
   select(c(mp_code = DRUG_IDENTIFICATION_NUMBER, formal_description_mp, ntp_dose_form, formal_description_ntp, ntp_code, tm_set, formal_description_tm, tm_code)) %>% distinct()
@@ -347,7 +347,7 @@ mp_ntp_tm_relationship_top250 <- mapping_table %>%
 
 # Write to file ---------------------------------------------------------------
 
-table_writer <- function(table, tablename, version = "v7.1") {
+table_writer <- function(table, tablename, version = "v8") {
   date <- as.character(Sys.Date()) %>% str_replace_all("-", "")
   directory <- paste0("~/formulary/output/", date, "/")
   filename <- sprintf("%s_%s_%s.txt", tablename, date, version)
@@ -355,7 +355,7 @@ table_writer <- function(table, tablename, version = "v7.1") {
   write.table(x = table, file = paste0(directory, filename), row.names = FALSE, sep = "|", fileEncoding = "UTF-8")
 }
 
-# Current Version is Version 7 as of 2017-02-09
+# Current Version is Version 8 as of 2017-02-14
 table_writer(mp_table_top250, "mp_table")
 table_writer(ntp_table_top250, "ntp_table")
 table_writer(tm_table_top250, "tm_table")
