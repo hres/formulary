@@ -346,7 +346,7 @@ expect_that(TRUE, equals(nrow(top250) == nrow(tm_table_top250)))
 
 # Write to file ---------------------------------------------------------------
 
-table_writer <- function(table, tablename, version = "v9") {
+table_writer <- function(table, tablename, version = "v10") {
   date <- as.character(Sys.Date()) %>% str_replace_all("-", "")
   directory <- paste0("~/formulary/output/", date, "/")
   filename <- sprintf("%s_%s_%s.txt", tablename, date, version)
