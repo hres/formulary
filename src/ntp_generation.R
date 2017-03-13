@@ -213,7 +213,8 @@ products <- dpd_human_active %>%
   left_join(ntp_dose_form_map) %>%
   left_join(ntp_dose_form_map_simple, by = "dpd_pharm_form") %>%
   mutate(ntp_dose_form = ifelse(is.na(ntp_dose_form.x), ntp_dose_form.y, ntp_dose_form.x)) %>%
-  select(-c(ntp_dose_form.x, ntp_dose_form.y))
+  select(-c(ntp_dose_form.x, ntp_dose_form.y)) %>%
+  filter(!is.na(ntp_dose_form))
 
 # mp_source exists as the ultimate substance and product table.
 # mp, ntp, and tm can trace their roots back to this table.
@@ -234,7 +235,8 @@ mp_table <- mp_source %>%
                                          ntp_dose_form,
                                          COMPANY_NAME),
          en_display = NA,
-         fr_display = NA)
+         fr_display = NA) %>%
+  distinct()
 
 # Contains the necessary ingredients to create the name for ntps
 ntp_table <- mp_source %>%
@@ -267,9 +269,9 @@ tm_table <- mp_source %>%
 
 # Mapping table between TM and NTP
 mapping_table <- mp_source %>%
-  left_join(tm_table, by = c("tm_set")) %>%
+  left_join(tm_table %>% select(c(tm_set, status, tm_code, formal_description_tm)), by = c("tm_set")) %>%
   mutate(formal_description_ntp = paste(mp_table_set, ntp_dose_form) %>% tolower() %>% str_replace_all(" ml ", " mL ") %>% str_trim()) %>%
-  left_join(ntp_table, by = c("formal_description_ntp")) %>%
+  left_join(ntp_table %>% select(c(DRUG_CODE, formal_description_ntp, ntp_code)), by = c("formal_description_ntp", "DRUG_CODE")) %>%
   filter(!(tm_set %like% "\\!NA\\!")) %>% filter(!endsWith(tm_set, "!NA")) %>% filter(!startsWith(tm_set, "NA!")) %>% filter(tm_set != "NA") %>%
   left_join(mp_table) %>%
   select(c(mp_code = DRUG_IDENTIFICATION_NUMBER, formal_description_mp, ntp_dose_form, formal_description_ntp, ntp_code, tm_set, formal_description_tm, tm_code)) %>% distinct()
@@ -335,19 +337,16 @@ mp_ntp_tm_relationship_top250 <- mapping_table %>%
            ntp_formal_name = formal_description_ntp,
            tm_code,
            tm_formal_name = formal_description_tm))
-  
 
-# mp_tm_relationship_top250 <- mp_tm_relationship_table %>%
-#   semi_join(top250) %>%
-#   select(-c(tm_set))
-# 
-# mp_ntp_relationship_top250 <- mapping_table %>%
-#   semi_join(top250) %>%
-#   select(-c(ntp_dose_form, tm_set, formal_description_tm, tm_code))
+# Test Functions --------------------------------------------------------------
+
+expect_that(TRUE, is_identical_to(nrow(mp_ntp_tm_relationship_top250) == nrow(mp_table_top250)))
+expect_that(0, equals(nrow(mp_ntp_tm_relationship_top250 %>% filter(is.na(ntp_code)))))
+expect_that(TRUE, equals(nrow(top250) == nrow(tm_table_top250)))
 
 # Write to file ---------------------------------------------------------------
 
-table_writer <- function(table, tablename, version = "v8") {
+table_writer <- function(table, tablename, version = "v10") {
   date <- as.character(Sys.Date()) %>% str_replace_all("-", "")
   directory <- paste0("~/formulary/output/", date, "/")
   filename <- sprintf("%s_%s_%s.txt", tablename, date, version)
@@ -355,7 +354,7 @@ table_writer <- function(table, tablename, version = "v8") {
   write.table(x = table, file = paste0(directory, filename), row.names = FALSE, sep = "|", fileEncoding = "UTF-8")
 }
 
-# Current Version is Version 8 as of 2017-02-14
+# Current Version is Version 9 as of 2017-03-01
 table_writer(mp_table_top250, "mp_table")
 table_writer(ntp_table_top250, "ntp_table")
 table_writer(tm_table_top250, "tm_table")
