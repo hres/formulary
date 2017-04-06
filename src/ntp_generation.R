@@ -11,9 +11,10 @@ library(data.table)
 library(lubridate)
 library(stringr)
 library(magrittr)
+library(testthat)
 
 # Get DPD extract data. set manually here
-dpdextractdate <- "2017-02-01"
+dpdextractdate <- "2017-04-06"
 
 # For each individual ingredient, generate:
 #   dpd_ing_code
@@ -61,8 +62,11 @@ mapping_for_top_250_NA <- fread("~/formulary/data/mapping_for_top_250.csv")
 
 # Need the active moieties (therapeutic moieties) information from the table.
 # Temporary mapping based on US FDA structured product labels.
-us_spl_ai <- fread("~/formulary/data/ai_am_bos.csv") %>% 
-  select(precise_ing = `Active Ingredient`, everything())
+us_spl_ai <- fread("~/formulary/data/ai_am_bos.csv",
+                   colClasses = c('character', 'character', 'character',
+                                  'character', 'character', 'character',
+                                  'character')) %>% 
+  rename(precise_ing = `Active Ingredient`)
 
 # Table Manipulation ----------------------------------------------------------
 
@@ -134,7 +138,8 @@ dpd_active_ingredients <- dpd_human_active_ingredients %>%
            na.omit(.) %>% 
            paste(collapse = "|")) %>%
   mutate(precise_ing = ifelse(precise_ing == "", 
-                              basis_of_strength_ing, precise_ing)) %>%
+                              basis_of_strength_ing, precise_ing)) %T>%
+                              {pre_AM <<- distinct(., DRUG_CODE) %>% nrow()} %>%
   # Top 250 Corrections -------------------------------------------------------
   left_join(mapping_for_top_250_NA %>% select(c(precise_ing = dpd_values, 
                                                 precise_ing_NAME_CHANGE))) %>%
@@ -252,6 +257,8 @@ ntp_table <- mp_source %>%
   mutate(en_display = NA,
          fr_display = NA)
 
+ntp_AM <- nrow(ntp_table %>% distinct(DRUG_CODE))
+
 # Contains the necessary ingredients to create a therapeutic moiety table.
 # TODO (bclaught): There is an issue with NAs appearing in the tm set.
 tm_table <- mp_source %>%
@@ -340,9 +347,9 @@ mp_ntp_tm_relationship_top250 <- mapping_table %>%
 
 # Test Functions --------------------------------------------------------------
 
-expect_that(TRUE, is_identical_to(nrow(mp_ntp_tm_relationship_top250) == nrow(mp_table_top250)))
-expect_that(0, equals(nrow(mp_ntp_tm_relationship_top250 %>% filter(is.na(ntp_code)))))
-expect_that(TRUE, equals(nrow(top250) == nrow(tm_table_top250)))
+expect_that(TRUE    , is_identical_to(nrow(mp_ntp_tm_relationship_top250) == nrow(mp_table_top250)))
+expect_that(0       , equals(nrow(mp_ntp_tm_relationship_top250 %>% filter(is.na(ntp_code)))))
+expect_that(TRUE    , equals(nrow(top250) == nrow(tm_table_top250)))
 
 # Write to file ---------------------------------------------------------------
 
@@ -354,7 +361,7 @@ table_writer <- function(table, tablename, version = "v10") {
   write.table(x = table, file = paste0(directory, filename), row.names = FALSE, sep = "|", fileEncoding = "UTF-8")
 }
 
-# Current Version is Version 9 as of 2017-03-01
+# Current Version is Version 10 as of 2017-03-13
 table_writer(mp_table_top250, "mp_table")
 table_writer(ntp_table_top250, "ntp_table")
 table_writer(tm_table_top250, "tm_table")
