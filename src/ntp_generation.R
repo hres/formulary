@@ -14,7 +14,8 @@ library(magrittr)
 library(testthat)
 
 # Get DPD extract data. set manually here
-dpdextractdate <- "2017-04-06"
+# Will be updated with extract date by DPDimport.R
+dpdextractdate <- "2017-06-01"
 
 # For each individual ingredient, generate:
 #   dpd_ing_code
@@ -23,7 +24,7 @@ dpdextractdate <- "2017-04-06"
 #   dpd_basis_of_strength_name
 #   dpd_precise_name
 #   ntp_therapeutic_moeity
-#   imdp_g_srs
+#   idmp_g_srs
 #   idmp_ucum
 #   std, mapping, etc.
 
@@ -268,7 +269,7 @@ tm_table <- mp_source %>%
                    status = ifelse(product_status != "active", "inactive", "active"),
                    tm_status_effective_time = first(sort(product_status_effective_time))) %>%
   distinct() %>%
-  transform(tm_code = as.numeric(interaction(tm_set, drop=TRUE)) + 9000000) %>%
+  transform(tm_code = as.numeric(interaction(tm_set, drop=TRUE)) + 8000000) %>%
   filter(!(tm_set %like% "\\!NA\\!")) %>% filter(!endsWith(tm_set, "!NA")) %>% filter(!startsWith(tm_set, "NA!")) %>% filter(tm_set != "NA") %>%
   mutate(formal_description_tm = str_replace_all(tm_set, "!", " and ") %>% tolower(),
          en_display = NA,
@@ -353,7 +354,7 @@ expect_that(TRUE    , equals(nrow(top250) == nrow(tm_table_top250)))
 
 # Write to file ---------------------------------------------------------------
 
-table_writer <- function(table, tablename, version = "v10") {
+table_writer <- function(table, tablename, version = "v11") {
   date <- as.character(Sys.Date()) %>% str_replace_all("-", "")
   directory <- paste0("~/formulary/output/", date, "/")
   filename <- sprintf("%s_%s_%s.txt", tablename, date, version)
