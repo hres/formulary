@@ -15,7 +15,7 @@ library(testthat)
 
 # Get DPD extract data. set manually here
 # Will be updated with extract date by DPDimport.R
-dpdextractdate <- "2017-06-01"
+dpdextractdate <- "2017-07-04"
 
 # For each individual ingredient, generate:
 #   dpd_ing_code
@@ -98,6 +98,8 @@ ntp_dose_form_map <- fread("~/formulary/ntp_doseform_map.csv") %>%
 
 # For each combo of pharmaceutical form and route of administration, 
 # create some basic summary statistics
+# Bryce : Need to capture this intermediate and send to Julie
+
 dpd_form_route <- dpd_human_active %>%
   left_join(dpd_form_all) %>%
   left_join(dpd_route_all) %>%
@@ -112,6 +114,8 @@ dpd_form_route <- dpd_human_active %>%
 # Need to figure out NAs 
 # Temporary to accomodate limited production releease and top 250. Full release
 # should cover all dosage forms and route of admin in DPD.
+# Bryce: Need to split this into two intermediate tables and save
+# Bryce: Need to count both DPD dosage form + route combo and Mapping table combos and reconcile
 dpd_form_route_map <- bind_rows(right_join(dpd_form_route, ntp_dose_form_map),
                                 left_join(dpd_form_route, ntp_dose_form_map_simple)) %>%
   filter(!is.na(ntp_dose_form))
@@ -292,12 +296,13 @@ mapping_table <- mp_source %>%
 
 # Top 250 therapeutic moieties in Canada --------------------------------------  
 
-top250 <- tbl(src_postgres("hcref", "shiny.hc.local", user = "hcreader", password = "canada1"), "rx_retail_usage") %>% 
+top250 <- tbl(src_postgres("hcref", "shiny.hc.local", user = "hcreader", password = "canada1"), "rx_retail_usage") %>%
+  arrange(desc(total)) %>%
   collect() %>%
   dplyr::select(ai_set, total) %>%
   `[`(1:250,) %>%
   as.data.table() %>%
-  select(tm_set = ai_set)
+  select(tm_set = ai_set, total)
 
 top250_NAs <- top250 %>% anti_join(tm_table)
 top250 <- top250 %>% semi_join(tm_table)
