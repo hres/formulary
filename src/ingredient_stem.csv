@@ -1,0 +1,2 @@
+This is a placeholder for the ingredient_stem file. It should be a CSV with the following columns:
+dpd_ingredient, ai_codes (concatenated), boss, precise_ingredient, ccdd_tm, srs_unii
