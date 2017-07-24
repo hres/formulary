@@ -4,15 +4,48 @@
 #          relating to the electronic prescribing project with 
 #          Canada Health Infoway.
 
+# Libraries - most recent CRAN versions
 
 library(dplyr)
 library(dtplyr)
+library(dbplyr)
 library(data.table)
 library(lubridate)
 library(stringr)
 library(magrittr)
 library(testthat)
 
+# Check for database connections. The connection credentials are provided by environment variables (not included in git repo)
+# Important for updating CCDD but not necessary for the first generation
+dpd <- src_postgres(dbname = "dpd",
+                    host = "rest.hc.local",
+                    port = 5432,
+                    user = Sys.getenv("rest_user"),
+                    password = Sys.getenv("rest_password"),
+                    options = "-c search_path=dpd_20170704")
+
+ccdd <- src_postgres(dbname = "ccdd",
+                     host = "rest.hc.local",
+                     port = 5432,
+                     user = Sys.getenv("rest_user"),
+                     password = Sys.getenv("rest_password"))
+
+
+drug <- tbl(dpd, "drug_product")
+ing <- tbl(dpd, "active_ingredient")
+comp <- tbl(dpd, "companies")
+form <- tbl(dpd, "pharmaceutical_form")
+route <- tbl(dpd, "route")
+schedule <- tbl(dpd, "schedule")
+status <- tbl(dpd, "status")
+ther <- tbl(dpd, "therapeutic_class")
+
+
+# This is a hard-coded value to ensure all the subsequent date math is absolute and not relative.
+
+ccdd_start_date <- "2017-07-04"
+
+# Get raw data. 
 # Get DPD extract data. set manually here
 # Will be updated with extract date by DPDimport.R
 dpdextractdate <- "2017-07-04"
@@ -56,29 +89,61 @@ setwd("~/formulary/src")
 
 # DPDimport.R is a script that generates all tables from the DPD website.
 # Imports dpd data extract files from Health Canada website.
-source("DPDimport.R")
-
-# Used as a filtering table for edge cases in the top 250 therapeutic moieties.
-mapping_for_top_250_NA <- fread("~/formulary/data/mapping_for_top_250.csv")
-
-# Need the active moieties (therapeutic moieties) information from the table.
-# Temporary mapping based on US FDA structured product labels.
-us_spl_ai <- fread("~/formulary/data/ai_am_bos.csv",
-                   colClasses = c('character', 'character', 'character',
-                                  'character', 'character', 'character',
-                                  'character')) %>% 
-  rename(precise_ing = `Active Ingredient`)
+# Only run this if you don't have a database connection to the DPD history.
+# source("DPDimport.R")
 
 # Table Manipulation ----------------------------------------------------------
 
-# Filtering drugs in the dpd by human class and are 
-# currently active on the market.
-dpd_human_active <- dpd_drug_all %>%
-  filter(extract == "active", CLASS == "Human")
+# Filtering for products to add to CCDD. 
+# This will be different depending on whether this is the first generation or an update.
+# For the first generation, we need all Human products where:
+# they are both currently marketed and the first date of marketing is before the CCDD start date
+# they are currently cancelled post-market and the expiry date is after the dpd extract date (need to wait for DPD structure change on this one)
 
-# Taking only the ingredients that are used in active human drugs.
-dpd_human_active_ingredients <- dpd_ingred_all %>%
-  semi_join(dpd_human_active)
+dpd_first_market_date <- status %>% 
+  filter(status == "MARKETED") %>%
+  group_by(drug_code) %>%
+  filter(history_date == min(history_date)) %>%
+  select(drug_code, first_market_date = history_date)
+
+dpd_current_status <- status %>%
+  filter(current_status_flag == "Y") %>%
+  select(drug_code, current_status = status)
+
+dpd_human_ccdd_products <- drug %>%
+  filter(class == "Human") %>%
+  left_join(dpd_first_market_date) %>%
+  left_join(dpd_current_status) %>%
+  filter((current_status == "MARKETED" & first_market_date < ccdd_start_date) |
+           (current_status == "DORMANT" & last_update_date > ccdd_start_date))
+
+# Taking only the ingredients that are used in the ccdd products.
+# Left-join Ingredient_stem file when available. 
+dpd_ccdd_ingredient_names <- ing %>%
+  semi_join(dpd_human_ccdd_products) %>%
+  distinct(ingredient, active_ingredient_code) %>%
+  collect() %>%
+  select(dpd_ingredient = ingredient, everything()) %>%
+  mutate(hydrate = str_detect(dpd_ingredient, regex("hydrate", ignore_case = TRUE)),
+         hydrate = ifelse(dpd_ingredient == "CHLORAL HYDRATE", FALSE, hydrate))
+
+dpd_ccdd_ingredients <- dpd_ccdd_ingredient_names %>%
+  group_by(active_ingredient_code) %>%
+  summarize(n_names = n_distinct(dpd_ingredient),
+            str_units = paste(sort(unique(strength_unit)), collapse = ", "),
+            dosage_units = paste(sort(unique(dosage_unit)), collapse = ", "),
+            basis_of_strength_ing = sort(unique(dpd_ingredient))[1] %>% 
+              str_replace(regex("(\\(.*\\)$)+?"), "") %>% 
+              str_trim(),
+         precise_ing = sort(unique(dpd_ingredient)) %>% 
+           str_extract(regex("(?<=\\()(.*)(?=\\))")) %>% 
+           na.omit(.) %>% 
+           paste(collapse = ", ")) %>%
+  mutate(precise_ing = ifelse(precise_ing == "", 
+                              basis_of_strength_ing, precise_ing))
+
+dpd_ccdd_ingredient_names <- left_join(dpd_ccdd_ingredient_names, dpd_ccdd_ingredients)
+
 
 # Creates a mapping for each combination of route admin and 
 # pharmaceutical form for ntp. Arbritary mapping generated by
