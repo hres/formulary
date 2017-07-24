@@ -1,6 +1,9 @@
 #Daniel Buijs, dbuijs@gmail.com
 #This script downloads and imports the Health Canada Drug Product Database
 #Returns data.tables with the dpd_ prefix
+
+# This will need to be updated to reflect canada.ca links and potentially archived extracts. 
+
 library(rvest)
 library(XML)
 library(httr)
