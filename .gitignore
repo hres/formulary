@@ -2,6 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+.Renviron
 data
 .Rproj
 solution_intraventricular_products.csv
