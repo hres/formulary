@@ -171,99 +171,75 @@ ntp_dosage_form_map <- fread("NTP Dosage Form Transform.txt") %>%
 # For each combo of pharmaceutical form and route of administration, 
 # create some basic summary statistics
 # Bryce : Need to capture this intermediate and send to Julie
+# The filter restricts the combinations to only those products 
+# with ingredients flagged in the ingredient stem table 
 
-dpd_form_route <- dpd_human_active %>%
-  left_join(dpd_form_all) %>%
-  left_join(dpd_route_all) %>%
-  group_by(PHARM_FORM_CODE, ROUTE_OF_ADMINISTRATION_CODE) %>%
-  dplyr::summarize(dpd_pharm_form = first(PHARMACEUTICAL_FORM),
-                   dpd_route_admin = first(ROUTE_OF_ADMINISTRATION),
-                   n_din = n_distinct(DRUG_IDENTIFICATION_NUMBER))
+dpd_ccdd_form_route_combinations <- dpd_human_ccdd_products %>% 
+  left_join(ing) %>% 
+  select(extract, drug_code, dpd_ingredient = ingredient) %>% 
+  left_join(form) %>% 
+  left_join(route) %>% 
+  collect() %>% 
+  left_join(dpd_ccdd_ingredient_names) %>% 
+  filter(ccdd == "Y") %>% 
+  distinct(pharmaceutical_form, route_of_administration)
+
+# Rows from the dpd_ccdd combos that are not in the ntp_dosage_form_route_map
+# This file should be empty
+missing_form_routes <- anti_join(dpd_ccdd_form_route_combinations, ntp_dosage_form_map)
 
 
-# Right join to limit dpd_pharm_form to only those in the ntp map
-# Left join to include all routes of admin
-# Need to figure out NAs 
-# Temporary to accomodate limited production releease and top 250. Full release
-# should cover all dosage forms and route of admin in DPD.
-# Bryce: Need to split this into two intermediate tables and save
-# Bryce: Need to count both DPD dosage form + route combo and Mapping table combos and reconcile
-dpd_form_route_map <- bind_rows(right_join(dpd_form_route, ntp_dose_form_map),
-                                left_join(dpd_form_route, ntp_dose_form_map_simple)) %>%
-  filter(!is.na(ntp_dose_form))
+# The table used for string manipulation of INGREDIENT and strength/dosage values.
+# TODO (bclaught): Cleaner handling of top 250 corrections. Manual overrides
+#                  should not happen.
 
-# Do not include the following in the dosage units:
+# 
+
+ccdd_drug_ingredients_raw <- ing %>%
+                             semi_join(dpd_human_ccdd_products) %>%
+                             select(dpd_ingredient = ingredient, everything()) %>%
+                             collect() %>%
+                             left_join(dpd_ccdd_ingredient_names)
+
+# The set of strength units in included products
+ccdd_strength_units <- ccdd_drug_ingredients_raw %>%
+                       filter(ccdd == "Y") %>%
+                       distinct(strength_unit)
+
+# The set of dosage units in included products
+ccdd_dosage_units <- ccdd_drug_ingredients_raw %>%
+                     filter(ccdd == "Y") %>%
+                     distinct(dosage_unit)
+# 
+# # Do not include the following in the dosage units:
 # %, BLISTER, CAP, DOSE, ECC, ECT, KIT, LOZ, NIL, PATCH, SLT, SRC, SRD, SRT, SUP, SYR, TAB, V/V, W/V, W/W
 unit.dosage.unapproved <- c('', '%', 'BLISTER', 'CAP', 'DOSE', 'ECC', 'ECT',
                             'KIT', 'LOZ', 'NIL', 'PATCH', 'SLT', 'SRC', 
                             'SRD', 'SRT', 'SUP', 'SYR', 'TAB', 'V/V', 'W/V', 'W/W')
 
-# The table used for string manipulation of INGREDIENT and strength/dosage values.
-# TODO (bclaught): Cleaner handling of top 250 corrections. Manual overrides
-#                  should not happen.
-dpd_active_ingredients <- dpd_human_active_ingredients %>%
-  mutate(INGREDIENT = toupper(INGREDIENT),
-         DOSAGE_UNIT = ifelse(DOSAGE_UNIT == "ACT", "ACTUATION", DOSAGE_UNIT)) %>%
-  group_by(ACTIVE_INGREDIENT_CODE, INGREDIENT) %>%
-  # the regex is incorrect because they have no exception. some entries do not 
-  # have precise ingredients inside brackets (even though they should)
-  mutate(basis_of_strength_ing = sort(unique(INGREDIENT))[1] %>% 
-           str_replace(regex("(\\(.*\\)$)+?"), "") %>% 
-           str_trim(),
-         precise_ing = sort(unique(INGREDIENT)) %>% 
-           str_extract(regex("(?<=\\()(.*)(?=\\))")) %>% 
-           na.omit(.) %>% 
-           paste(collapse = "|")) %>%
-  mutate(precise_ing = ifelse(precise_ing == "", 
-                              basis_of_strength_ing, precise_ing)) %T>%
-                              {pre_AM <<- distinct(., DRUG_CODE) %>% nrow()} %>%
-  # Top 250 Corrections -------------------------------------------------------
-  left_join(mapping_for_top_250_NA %>% select(c(precise_ing = dpd_values, 
-                                                precise_ing_NAME_CHANGE))) %>%
-  mutate(precise_ing_US = ifelse(precise_ing_NAME_CHANGE != "" & 
-                                   !is.na(precise_ing_NAME_CHANGE),
-                                 precise_ing_NAME_CHANGE, precise_ing)) %>%
-  left_join(us_spl_ai %>% select(c(precise_ing_US = precise_ing, 
-                                   `AI UNII`, `AM UNII`, `Active Moiety`))) %>%
-  left_join(mapping_for_top_250_NA %>% 
-              select(c(`Active Moiety` = fda_map, tm_set_map))) %>%
-  mutate(`Active Moiety` = ifelse(tm_set_map != "DO NOT SHARE DRUG CODE" & 
-                                    tm_set_map != "" & 
-                                    !is.na(tm_set_map),
-                                  tm_set_map, `Active Moiety`),
-         
-         `Active Moiety` = ifelse(precise_ing == "ACYCLOVIR" | 
-                                    precise_ing == "ACYCLOVIR SODIUM",
-                                  "ACYCLOVIR",
-                                  `Active Moiety`)) %>%
+ccdd_drug_ingredients_raw <- ccdd_drug_ingredients_raw %>%
   # End of Top 250 Corrections ------------------------------------------------
-  mutate(STRENGTH = sprintf("%15.9g", as.numeric(STRENGTH)) %>% str_trim(),
-         DOSAGE_VALUE = ifelse(DOSAGE_VALUE != "",
-                               sprintf("%15.9g", as.numeric(DOSAGE_VALUE)),
-                               "") %>% str_trim()) %>%
-  mutate(strength_w_unit_w_dosage_if_exists = paste0(STRENGTH, " ",
-                                                     STRENGTH_UNIT, 
-                                                     ifelse(!(DOSAGE_UNIT %in% unit.dosage.unapproved), 
+  mutate(strength = sprintf("%15.9g", as.numeric(strength)) %>% str_trim(),
+         dosage_value = ifelse(dosage_value != "",
+                               sprintf("%15.9g", as.numeric(dosage_value)),
+                               "") %>% str_trim(),
+         dosage_unit = ifelse(dosage_unit == "ACT", "ACTUATION", dosage_unit)) %>%
+  mutate(strength_w_unit_w_dosage_if_exists = paste0(strength, " ",
+                                                     strength_unit, 
+                                                     ifelse(!(dosage_unit %in% unit.dosage.unapproved), 
                                                             paste0(" per ",
-                                                                   ifelse(DOSAGE_VALUE != "",
-                                                                          paste0(DOSAGE_VALUE," ", DOSAGE_UNIT),
-                                                                          DOSAGE_UNIT),
+                                                                   ifelse(dosage_value != "",
+                                                                          paste0(dosage_value," ", dosage_unit),
+                                                                          dosage_unit),
                                                                    ""),
                                                             "")) %>% str_trim()) %>%
-  select(c(DRUG_CODE, precise_ing, basis_of_strength_ing, ACTIVE_INGREDIENT_CODE,
-           ai_unii = `AI UNII`, am_unii = `AM UNII`, tm = `Active Moiety`,
-           STRENGTH, STRENGTH_UNIT, DOSAGE_VALUE, DOSAGE_UNIT,
-           strength_w_unit_w_dosage_if_exists)) %>%
-  ungroup() %>%
   mutate(
-    mp_name = ifelse(
-      basis_of_strength_ing != precise_ing,
-      sprintf("%s (%s) %s", basis_of_strength_ing %>% tolower(),
-                            precise_ing %>% tolower(),
+    mp_ingredient_name = ifelse(
+      ing_stem != dpd_ingredient,
+      sprintf("%s %s", dpd_ingredient %>% tolower(),
                             strength_w_unit_w_dosage_if_exists %>% tolower() %>% str_replace_all("ml", "mL")),
-      sprintf("%s %s", basis_of_strength_ing %>% tolower(),
-                       strength_w_unit_w_dosage_if_exists %>% tolower() %>% str_replace_all("ml", "mL")))) %>%
-  distinct()
+      sprintf("%s %s", ing_stem %>% tolower(),
+                       strength_w_unit_w_dosage_if_exists %>% tolower() %>% str_replace_all("ml", "mL"))))
 
 
 # Provides useful summary statistics for each drug code in active human drugs.
