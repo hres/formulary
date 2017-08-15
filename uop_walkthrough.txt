@@ -1,0 +1,387 @@
+Sit tight – this is a bit complex.  I think I should have done it in a Word document!!!
+
+ 
+
+As promised, some thoughts as to how to use the unit_of_presentation table to generate correct NTPs and the extra MPs we need (the “pseudoDINs”).
+
+ 
+
+This was the one thing I don’t think we properly bottomed out during our Ottawa meetings was presentation strength.  The only way I can see of getting presentation strength correctly and relatively simply is to make an addition to the agreed structure of unit_of_presentation table.  I have added a “calculation” column; if that has a “Y” then a calculation to get presentation strength is needed; if it is a “N” then concentration strength should be used (because not all products need a presentation strength (the insulins being the classic)). 
+
+ 
+
+And sorry – I’ve got a bit confused by the table names now; I think what was being called the ingredient_strength table is now ccdd_drug_ingredients_raw – I hope that is correct.
+
+ 
+
+I’ll try to explain by working through some examples:
+
+ 
+
+EXAMPLE 1: A simple liquid injectable product with a concentration strength in the DPD needing presentation strength in the CCDD
+
+ 
+
+In the ccdd_drug_ingredients_raw table, there will be an entry for a liquid injectable product with a concentration strength thus:
+
+ 
+
+Row 6600: drug_code = 69271 has an mp_ingredient_name of “amiodarone hydrochloride 50 mg per mL” built up from the ingredient description and the “strength - strength_unit – dosage_value – dosage_unit” (where if the dosage_value is null, assume unitary)
+
+ 
+
+But we actually need for that product is amiodarone hydrochloride 150 mg per 3 mL vial
+
+ 
+
+SO: We need to know that the product comes in a 3 mL vial, and that a calculation is required on the concentration strength.  
+
+ 
+
+Following on from where we got to with ingredient/strength for each drug_code (and noting that for all of that we’ve been dealing with single ingredient/strength pairs) and following that the dosage form would be added in to give produce the basic ntp_formal_name….we then introduce the unit_of_presentation table thus: 
+
+ 
+
+If the MP has a drug_code present in the unit_of_presentation table we need to do something.  Our product does have a single entry:
+
+ 
+
+drug_code
+ unit_of_presentation
+ uop_size
+ uop_unit_of_measure
+ calculation
+ 
+69271
+ vial
+ 3
+ mL
+ Y
+ 
+
+ 
+
+And it has a Y in the calculation column
+
+SO: 
+
+1)      Take all four values of the concentration strength from ccdd_drug_ingredients_raw [“strength - strength_unit – dosage_value – dosage_unit” ] and the two unit of presentation values from the unit_of_presentation table [uop_size – uop_unit_of_measure].  
+
+2)      Check that dosage_unit = uop_unit_of_measure  - if it doesn’t we have a problem and we need an exception report
+
+3)      Multiply <<ccdd_drug_ingredients_raw strength>> value by <<unit_of_presentation uop_size>> value to give the presentation strength value
+
+4)      Append the <<ccdd_drug_ingredients_raw strength_unit>>
+
+5)      Append the <<unit_of_presentation uop_size>> value after a “per”
+
+6)      Append the <<unit_of_presentation uop_unit_of_measure>> 
+
+7)      Append the <<unit_of_presentation unit of presentation>> after the dosage form
+
+ 
+
+Which, for this product is:
+
+1)      50 mg per () mL   and  3 mL
+
+2)      Yes – both units are mL
+
+3)      50 x 3 = 150
+
+4)      150 mg
+
+5)      150 mg per 3
+
+6)      150 mg per 3 mL
+
+7)      Xxxx solution for injection vial
+
+ 
+
+For the full ntp_formal_name, the dosage form goes next (for this product, solution for injection) then the unit of presentation itself goes at the end – in this case “vial” – to give a full ntp of amiodarone hydrochloride 150 mg per 3 mL solution for injection vial
+
+ 
+
+And when we put that into the mp_formal_name, we get AMIODARONE HYDROCHLORIDE INJECTION (amiodarone hydrochloride 150 mg per 3 mL solution for injection vial) FRESENIUS KABI CANADA LTD [DIN 02245248]
+
+ 
+
+EXAMPLE 2: A simple liquid injectable product with a concentration strength in the DPD needing presentation strength in the CCDD (different unit of presentation)
+
+ 
+
+The same process, but this product is presented in a syringe, not a vial – a crucial difference when prescribing, so needs a separate NTP
+
+ 
+
+Row 14135, drug_code = 86000; data in the ccdd_drug_ingredients_raw table is the same as in the example above, but in the unit_of_presentation table we have this:
+
+ 
+
+drug_code
+ unit_of_presentation
+ uop_size
+ uop_unit_of_measure
+ calculation
+ 
+69271
+ syringe
+ 3
+ mL
+ Y
+ 
+
+ 
+
+So, for this product, the steps give
+
+ 
+
+1)      50 mg per () mL   and  3 mL
+
+2)      Yes – both units are mL
+
+3)      50 x 3 = 150
+
+4)      150 mg
+
+5)      150 mg per 3
+
+6)      150 mg per 3 mL
+
+7)      Xxxx solution for injection syringe
+
+ 
+
+The full ntp_formal_name is amiodarone hydrochloride 150 mg per 3 mL solution for injection syringe mp_formal_name, we get AMIODARONE SYRINGE (amiodarone hydrochloride 150 mg per 3 mL solution for injection vial) SANDOZ CANADA INCORPORATED [DIN 02374684] 
+
+ 
+
+EXAMPLE 3: A liquid injectable product with a concentration strength in the DPD needing presentation strength in the CCDD AND needing “pseudo-DINs”
+
+I’ve worked this example with another amiodarone product, to keep the thread, but it’s exactly the same process for the nebuliser solutions in the unit dose vials
+
+ 
+
+In the ccdd_drug_ingredients_raw table, there will be a single entry for a liquid injectable product with a concentration strength thus:
+
+ 
+
+Row 6936: drug_code = 71180 which again has an mp_ingredient_name of “amiodarone hydrochloride 50 mg per mL” built up from the ingredient description and the “strength - strength_unit – dosage_value – dosage_unit” (where if the dosage_value is null, assume unitary)
+
+ 
+
+But we actually need for this product is amiodarone hydrochloride 150 mg per 3 mL vial AND amiodarone hydrochloride 900 mg per 18 mL 
+
+ 
+
+SO, in the unit_of_presentation table we find there are two entries for that drug_code:
+
+ 
+
+drug_code
+ unit_of_presentation
+ uop_size
+ uop_unit_of_measure
+ calculation
+ 
+71180
+ vial
+ 3
+ mL
+ Y
+ 
+71180
+ vial
+ 18
+ mL
+ Y
+ 
+
+ 
+
+This means that we will be creating two NTPs and two MPs.  The two MPs will need pseudoDINs.
+
+ 
+
+We run the calculation process twice:
+
+ 
+
+ 
+
+1)      50 mg per () mL   and  3 mL
+
+2)      Yes – both units are mL
+
+3)      50 x 3 = 150
+
+4)      150 mg
+
+5)      150 mg per 3
+
+6)      150 mg per 3 mL
+
+7)      Xxxx solution for injection vial
+
+ 
+  
+
+8)      50 mg per () mL   and  18 mL
+
+9)      Yes – both units are mL
+
+10)   50 x 18 = 900
+
+11)   900 mg
+
+12)   900 mg per 18
+
+13)   900 mg per 18 mL
+
+14)   Xxxx solution for injection vial
+
+ 
+ 
+
+ 
+
+So we get two NTPs with ntp_formal_name as follows:
+
+ 
+
+Ø  amiodarone hydrochloride 150 mg per 3 mL solution for injection vial
+
+Ø  amiodarone hydrochloride 900 mg per 18 mL solution for injection vial
+
+ 
+
+And two MPs with mp_formal_name as follows:
+
+ 
+
+Ø  AMIODARONE FOR INJECTION 50MG/ML (amiodarone hydrochloride 150 mg per 3 mL solution for injection vial ) TEVA CANADA LIMITED
+
+Ø  AMIODARONE FOR INJECTION 50MG/ML (amiodarone hydrochloride 150 mg per 3 mL solution for injection vial )TEVA CANADA LIMITED
+
+ 
+
+Both these MPs map to DIN 02246953 so they need entries in the MP to DIN mapping table.
+
+ 
+
+EXAMPLE 4: Liquid injectable products with a concentration strength in the DPD and the CCDD but needing unit of presentation information 
+
+These are insulin examples, and don’t need pseudoDINs; some insulin products would need pseudoDINs – use extra logic as in Example 3
+
+ 
+
+Example 4A
+
+In the ccdd_drug_ingredients_raw table, there will be an entry for a liquid injectable product with a concentration strength thus:
+
+ 
+
+Row 6689: drug_code = 69790 has an mp_ingredient_name of “insulin glargine 100 unit per mL” built up from the ingredient description and the “strength - strength_unit – dosage_value – dosage_unit” (where if the dosage_value is null, assume unitary)
+
+ 
+
+In the unit_of_presentation table we have this:
+
+ 
+
+drug_code
+ unit_of_presentation
+ uop_size
+ uop_unit_of_measure
+ calculation
+ 
+69790
+ vial
+ 10
+ mL
+ N
+ 
+
+ 
+
+There’s a “N” in the calculation column, so we don’t need a calculation of presentation strength, we will use the concentration strength that is given in the ccdd_drug_ingredients_raw table (100 unit per mL)
+
+ 
+
+But we do need the unit of presentation and its size, 
+
+SO we need to take the data from the relevant row in the unit_of_presentation table and append it to the NTP to give the full ntp_formal_name:
+
+ 
+
+Ø  insulin glargine 100 unit per mL solution for injection 10 mL vial
+
+ 
+
+And this gives us the MP concept thus: 
+
+ 
+
+Ø  LANTUS (insulin glargine 100 unit per mL solution for injection 10 mL vial) SANOFI-AVENTIS CANADA INC [DIN 02245689]
+
+ 
+
+Example 4B
+
+In the ccdd_drug_ingredients_raw table, there will be an entry for a liquid injectable product with a concentration strength thus:
+
+ 
+
+Row 7669: drug_code = 73683 has the same mp_ingredient_name as in Example 4A above: “insulin glargine 100 unit per mL” built up from the ingredient description and the “strength - strength_unit – dosage_value – dosage_unit” (where if the dosage_value is null, assume unitary)
+
+ 
+
+In the unit_of_presentation table we have this:
+
+ 
+
+drug_code
+ unit_of_presentation
+ uop_size
+ uop_unit_of_measure
+ calculation
+ 
+73683
+ cartridge
+ 3
+ mL
+ N
+ 
+
+ 
+
+There’s a “N” in the calculation column, so we don’t need a calculation of presentation strength, we will use the concentration strength that is given in the ccdd_drug_ingredients_raw table (100 unit per mL)
+
+ 
+
+But we do need the unit of presentation and its size, 
+
+SO we need to take the data from the relevant row in the unit_of_presentation table and append it to the NTP to give the full ntp_formal_name – thereby showing that this is a separate NTP, even though the strength and dosage form are the same as in Example 4A:
+
+ 
+
+Ø  insulin glargine 100 unit per mL solution for injection 3 mL cartridge
+
+ 
+
+And this gives us a unique name for the MP concept thus: 
+
+ 
+
+Ø  LANTUS (insulin glargine 100 unit per mL solution for injection 3 mL cartridge) SANOFI-AVENTIS CANADA INC [DIN 02251930]
+
+ 
+
+Well, if you’ve worked your way through all of that, well done.  My brain has fried today!  But I think this will work.  
+
+ 
+
+The critical thing then will be to be able to build you that unit_of_presentation table in time.  If you think this is going to work, I’ll go all guns to get that built; I think I have almost all of the data for the Top 250in various spreadsheets from the original QA process, I (just) need to get it into this format for you.  Let me know ASAP, please.
+
