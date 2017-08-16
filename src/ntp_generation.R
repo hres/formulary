@@ -229,7 +229,7 @@ unit.dosage.unapproved <- c('', '%', 'BLISTER', 'CAP', 'DOSE', 'ECC', 'ECT',
                             'KIT', 'LOZ', 'NIL', 'PATCH', 'SLT', 'SRC', 
                             'SRD', 'SRT', 'SUP', 'SYR', 'TAB', 'V/V', 'W/V', 'W/W')
 
-packaging <- fread("Unit of Presentation 20170814.txt")
+packaging <- fread("Unit of Presentation 20170814.txt", data.table = TRUE)
 
 ccdd_drug_ingredients_raw <- ccdd_drug_ingredients_raw %>%
   # End of Top 250 Corrections ------------------------------------------------
@@ -254,12 +254,51 @@ ccdd_drug_ingredients_raw <- ccdd_drug_ingredients_raw %>%
       sprintf("%s %s", dpd_ingredient %>% tolower(),
               strength_w_unit_w_dosage_if_exists %>% tolower() %>% str_replace_all("ml", "mL")),
       sprintf("%s %s", ing_stem %>% tolower(),
-              strength_w_unit_w_dosage_if_exists %>% tolower() %>% str_replace_all("ml", "mL")))) %>%
-  left_join(packaging) %>%
-  mutate(uop_unit_match = tolower(uop_unit_of_measure) == tolower(dosage_unit),
-         strength_w_uop_if_exists = paste(as.numeric(strength) * uop_size,
-                                                     tolower(strength_unit))
-    
+              strength_w_unit_w_dosage_if_exists %>% tolower() %>% str_replace_all("ml", "mL"))))
+
+ccdd_packaging_raw <- packaging %>%
+                      mutate(uop_suffix = ifelse(calculation == "N", 
+                                                 paste(uop_size,
+                                                       uop_unit_of_measure,
+                                                       unit_of_presentation),
+                                                 NA),
+                             uop_suffix = ifelse(calculation == "Y", 
+                                                 unit_of_presentation,
+                                                 uop_suffix)) %>%
+                      left_join(ccdd_drug_ingredients_raw %>%
+                      as.data.table() %>%
+                        select(drug_code,
+                               ntp_ing,
+                               ing_stem,
+                               dpd_ingredient,
+                             ntp_ingredient_name,
+                             mp_ingredient_name,
+                             strength,
+                             strength_unit,
+                             dosage_value,
+                             dosage_unit)) %>%
+                       mutate(uop_unit_match = tolower(uop_unit_of_measure) == tolower(dosage_unit),
+                              strength_w_uop_if_exists = paste(as.numeric(strength) * uop_size,
+                                                               tolower(strength_unit),
+                                                               "per",
+                                                               uop_size,
+                                                               uop_unit_of_measure),
+                              ntp_ingredient_name = ifelse(calculation == "Y",
+                                                           sprintf("%s %s", ntp_ing %>% tolower(),
+                                                                   strength_w_uop_if_exists %>% tolower() %>% str_replace_all("ml", "mL")),
+                                                           ntp_ingredient_name),
+                              mp_ingredient_name = ifelse(calculation == "Y",
+                                                          ifelse(
+                                                            ing_stem != dpd_ingredient,
+                                                            sprintf("%s %s", dpd_ingredient %>% tolower(),
+                                                                    strength_w_uop_if_exists %>% tolower() %>% str_replace_all("ml", "mL")),
+                                                            sprintf("%s %s", ing_stem %>% tolower(),
+                                                                    strength_w_uop_if_exists %>% tolower() %>% str_replace_all("ml", "mL"))),
+                                                          mp_ingredient_name)) %>%
+                       group_by(drug_code, unit_of_presentation, uop_size, uop_unit_of_measure, uop_suffix, calculation) %>%
+                       summarize(ntp_ing_formal_name_uop = paste(ntp_ingredient_name, collapse = " and "),
+                                 mp_ing_formal_name_uop = paste(mp_ingredient_name, collapse = " and "))
+
 
 ccdd_ingredient_set_source <- ccdd_drug_ingredients_raw %>%
                               arrange(ing_stem) %>%
@@ -267,22 +306,12 @@ ccdd_ingredient_set_source <- ccdd_drug_ingredients_raw %>%
                               summarize(ccdd = any(ccdd == "Y"),
                                         n_ing = n_distinct(dpd_ingredient),
                                         ai_code_set = active_ingredient_code %>% paste(collapse = ", "),
-                                        tm_set = ing_stem %>% tolower() %>% paste(collapse = ", "),
-                                        str_for_calc = paste(strength, collapse = ","),
+                                        tm_set = ing_stem %>% tolower() %>% unique() %>% paste(collapse = ", "),
                                         str_set = strength_w_unit_w_dosage_if_exists %>% paste(collapse = ", "),
                                         precise_ing_set = precise_ing %>% paste(collapse = ", "),
                                         ntp_ing_group = ntp_ing %>% paste(collapse = ", "),
                                         ntp_ing_formal_name = paste(ntp_ingredient_name, collapse = " and "),
-                                        mp_ing_formal_name = paste(mp_ingredient_name, collapse = " and ")) %>%
-                              left_join(packaging) %>%
-                              mutate(uop_suffix = ifelse(!is.na(unit_of_presentation) & calculation == "N", 
-                                                                  paste(uop_size,
-                                                                        uop_unit_of_measure,
-                                                                        unit_of_presentation),
-                                                                  NA),
-                                     uop_suffix = ifelse(!is.na(unit_of_presentation) & calculation == "Y", 
-                                                         unit_of_presentation,
-                                                         uop_suffix))
+                                        mp_ing_formal_name = paste(mp_ingredient_name, collapse = " and "))
 
 
 ccdd_mp_source_raw <- dpd_human_ccdd_products %>%
@@ -309,20 +338,7 @@ ccdd_mp_source_raw <- dpd_human_ccdd_products %>%
   collect() %>%
    left_join(ntp_dosage_form_map) %>%
                        left_join(ccdd_ingredient_set_source) %>%
-  mutate()
-
-
-str_unit_uop = ,
-NA),
-str_unit_uop = ifelse(calculation == "Y" & (tolower(dosage_unit) != tolower(uop_unit_of_measure)), "ERROR", str_unit_uop),
-str_unit_uop = ifelse(calculation == "Y" & (tolower(dosage_unit) == tolower(uop_unit_of_measure)),
-                      paste(as.numeric(strength) * as.numeric(uop_size), 
-                            strength_unit, 
-                            "per", 
-                            uop_unit_of_measure, 
-                            unit_of_presentation),
-                      str_unit_uop),
-str_unit_uop = ifelse(is.na(unit_of_presentation), strength_w_unit_w_dosage_if_exists, str_unit_uop),
+  left_join(ccdd_packaging_raw)
 
 
 # Inject manual overrides here for MP names, Combination Products, Medical Devies, PseudoDINs, NHPS, etc.)
@@ -372,31 +388,41 @@ ccdd_mp_source <- ccdd_mp_source_raw
 # 
 # Contains the necessary ingredients to create the name for manufactured products.
 ccdd_mp_table <- ccdd_mp_source %>% 
+  mutate(formal_description_mp = sprintf("%s (%s %s) %s",
+                                         brand_name,
+                                         mp_ing_formal_name,
+                                         ntp_dosage_form,
+                                         company_name),
+         formal_description_mp = ifelse(!is.na(unit_of_presentation),
+                                        sprintf("%s (%s %s %s) %s",
+                                                brand_name,
+                                                mp_ing_formal_name_uop,
+                                                ntp_dosage_form,
+                                                uop_suffix,
+                                                company_name),
+                                        formal_description_mp),
+         en_display = NA,
+         fr_display = NA) %>%
   select(ccdd,
          mp_code = drug_identification_number, 
          drug_identification_number,
          product_status = current_status, 
          product_status_effective_time = first_market_date, 
          brand_name,
-         unit_of_presentation,
-         company_name, 
-         ntp_dosage_form, 
-         mp_ing_formal_name,
-         tm_set) %>%
-  mutate(formal_description_mp = sprintf("%s %s (%s %s) %s [DIN %s%]",
-                                         brand_name,
-                                         unit_of_presentation,
-                                         mp_ing_formal_name,
-                                         ntp_dosage_form,
-                                         company_name,
-                                         drug_identification_number),
-         en_display = NA,
-         fr_display = NA) %>%
+         company_name,
+         formal_description_mp,
+         en_display,
+         fr_display) %>%
   distinct()
 
 # Contains the necessary ingredients to create the name for ntps
 ccdd_ntp_table <- ccdd_mp_source %>%
   mutate(formal_description_ntp = paste(ntp_ing_formal_name, ntp_dosage_form),
+         formal_description_ntp = ifelse(!is.na(unit_of_presentation),
+                                         paste(ntp_ing_formal_name_uop,
+                                               ntp_dosage_form,
+                                               uop_suffix),
+                                         formal_description_ntp),
          greater_than_5_AIs = number_of_ais > 5) %>%
   group_by(formal_description_ntp) %>%
   dplyr::summarize(ccdd = any(ccdd),
@@ -419,7 +445,7 @@ ccdd_tm_table <- ccdd_mp_source %>%
   group_by(tm_set) %>%
   dplyr::summarize(ccdd = any(ccdd == TRUE),
                    n_dins = n_distinct(drug_identification_number),
-                   n_ntps = n_distinct(ntp_dosage_form),
+                   n_ntps = n_distinct(ntp_dosage_form), #this isn't an accurate count 
                    status = ifelse(any(current_status == "MARKETED"), "active", "inactive"),
                    tm_status_effective_time = min(first_market_date)) %>%
   ungroup() %>%
@@ -428,13 +454,14 @@ ccdd_tm_table <- ccdd_mp_source %>%
          en_display = NA,
          fr_display = NA)
 
-  transform(tm_code = as.numeric(interaction(tm_set, drop=TRUE)) + 8000000) %>%
-  filter(!(tm_set %like% "\\!NA\\!")) %>% filter(!endsWith(tm_set, "!NA")) %>% filter(!startsWith(tm_set, "NA!")) %>% filter(tm_set != "NA") %>%
-  mutate(formal_description_tm = str_replace_all(tm_set, "!", " and ") %>% tolower(),
-         en_display = NA,
-         fr_display = NA)
 
 # Mapping table between TM and NTP
+mapping_table <- mp_source %>%
+                 left_join(ccdd_tm_table %>% select(tm_code, tm_set)) %>%
+                 left_join(ccdd_ntp_table %>% select(ntp_code, formal_description_ntp))
+
+
+
 mapping_table <- mp_source %>%
   left_join(tm_table %>% select(c(tm_set, status, tm_code, formal_description_tm)), by = c("tm_set")) %>%
   mutate(formal_description_ntp = paste(mp_table_set, ntp_dose_form) %>% tolower() %>% str_replace_all(" ml ", " mL ") %>% str_trim()) %>%
