@@ -338,7 +338,27 @@ ccdd_mp_source_raw <- dpd_human_ccdd_products %>%
   collect() %>%
    left_join(ntp_dosage_form_map) %>%
                        left_join(ccdd_ingredient_set_source) %>%
-  left_join(ccdd_packaging_raw)
+  left_join(ccdd_packaging_raw) %>%
+  mutate(formal_description_mp = sprintf("%s (%s %s) %s",
+                                         brand_name,
+                                         mp_ing_formal_name,
+                                         ntp_dosage_form,
+                                         company_name),
+         formal_description_mp = ifelse(!is.na(unit_of_presentation),
+                                        sprintf("%s (%s %s %s) %s",
+                                                brand_name,
+                                                mp_ing_formal_name_uop,
+                                                ntp_dosage_form,
+                                                uop_suffix,
+                                                company_name),
+                                        formal_description_mp),
+         formal_description_ntp = paste(ntp_ing_formal_name, ntp_dosage_form),
+                formal_description_ntp = ifelse(!is.na(unit_of_presentation),
+                                                paste(ntp_ing_formal_name_uop,
+                                                      ntp_dosage_form,
+                                                      uop_suffix),
+                                                formal_description_ntp),
+                greater_than_5_AIs = number_of_ais > 5)
 
 
 # Inject manual overrides here for MP names, Combination Products, Medical Devies, PseudoDINs, NHPS, etc.)
@@ -388,19 +408,7 @@ ccdd_mp_source <- ccdd_mp_source_raw
 # 
 # Contains the necessary ingredients to create the name for manufactured products.
 ccdd_mp_table <- ccdd_mp_source %>% 
-  mutate(formal_description_mp = sprintf("%s (%s %s) %s",
-                                         brand_name,
-                                         mp_ing_formal_name,
-                                         ntp_dosage_form,
-                                         company_name),
-         formal_description_mp = ifelse(!is.na(unit_of_presentation),
-                                        sprintf("%s (%s %s %s) %s",
-                                                brand_name,
-                                                mp_ing_formal_name_uop,
-                                                ntp_dosage_form,
-                                                uop_suffix,
-                                                company_name),
-                                        formal_description_mp),
+  mutate(
          en_display = NA,
          fr_display = NA) %>%
   select(ccdd,
@@ -417,13 +425,6 @@ ccdd_mp_table <- ccdd_mp_source %>%
 
 # Contains the necessary ingredients to create the name for ntps
 ccdd_ntp_table <- ccdd_mp_source %>%
-  mutate(formal_description_ntp = paste(ntp_ing_formal_name, ntp_dosage_form),
-         formal_description_ntp = ifelse(!is.na(unit_of_presentation),
-                                         paste(ntp_ing_formal_name_uop,
-                                               ntp_dosage_form,
-                                               uop_suffix),
-                                         formal_description_ntp),
-         greater_than_5_AIs = number_of_ais > 5) %>%
   group_by(formal_description_ntp) %>%
   dplyr::summarize(ccdd = any(ccdd),
                    n_mp = n_distinct(drug_identification_number),
