@@ -111,6 +111,7 @@ dpd_current_status <- status %>%
   filter(current_status_flag == "Y") %>%
   select(drug_code, current_status = status)
 
+# Save this intermediate
 dpd_human_ccdd_products <- drug %>%
   filter(class == "Human") %>%
   left_join(dpd_first_market_date) %>%
@@ -163,8 +164,10 @@ dpd_ccdd_ingredient_names <- ing %>%
 #          hydrate = ifelse(dpd_ingredient == "CHLORAL HYDRATE", FALSE, hydrate),
 #          ntp_ing = dpd_ingredient)
 
+# This is an important source file
 ingredient_stem <- fread("ing_stem_20170808b.csv")[-1,] %>% mutate(ntp_ing = tolower(ntp_ing))
 
+# This is an intermediate to save
 dpd_ccdd_ingredient_names <- left_join(dpd_ccdd_ingredient_names, ingredient_stem) 
 
 # Creates a mapping for each combination of route admin and 
@@ -173,6 +176,7 @@ dpd_ccdd_ingredient_names <- left_join(dpd_ccdd_ingredient_names, ingredient_ste
 # and forms consistent with eventual IDMP administrable dose forms.
 # This version of the file has the form and route columns mixed up
 
+#This is an important source file
 ntp_dosage_form_map <- fread("NTP Dosage Form Transform.txt") %>% 
                 select(route_of_administration = `DPD PHARMACEUTICAL_FORM`, 
                        pharmaceutical_form = `DPD_ROUTE_OF_ADMINISTRATION`,
@@ -186,6 +190,7 @@ ntp_dosage_form_map <- fread("NTP Dosage Form Transform.txt") %>%
 # The filter restricts the combinations to only those products 
 # with ingredients flagged in the ingredient stem table 
 
+#This is an intermdediate (QA) file
 dpd_ccdd_form_route_combinations <- dpd_human_ccdd_products %>% 
   left_join(ing) %>% 
   select(extract, drug_code, dpd_ingredient = ingredient) %>% 
@@ -198,6 +203,8 @@ dpd_ccdd_form_route_combinations <- dpd_human_ccdd_products %>%
 
 # Rows from the dpd_ccdd combos that are not in the ntp_dosage_form_route_map
 # This file should be empty
+
+# This is a QA file
 missing_form_routes <- anti_join(dpd_ccdd_form_route_combinations, ntp_dosage_form_map)
 
 
@@ -213,12 +220,12 @@ ccdd_drug_ingredients_raw <- ing %>%
                              collect() %>%
                              left_join(dpd_ccdd_ingredient_names)
 
-# The set of strength units in included products
+# The set of strength units in included products (QA file)
 ccdd_strength_units <- ccdd_drug_ingredients_raw %>%
                        filter(ccdd == "Y") %>%
                        distinct(strength_unit)
 
-# The set of dosage units in included products
+# The set of dosage units in included products (QA file)
 ccdd_dosage_units <- ccdd_drug_ingredients_raw %>%
                      filter(ccdd == "Y") %>%
                      distinct(dosage_unit)
@@ -229,8 +236,10 @@ unit.dosage.unapproved <- c('', '%', 'BLISTER', 'CAP', 'DOSE', 'ECC', 'ECT',
                             'KIT', 'LOZ', 'NIL', 'PATCH', 'SLT', 'SRC', 
                             'SRD', 'SRT', 'SUP', 'SYR', 'TAB', 'V/V', 'W/V', 'W/W')
 
+#This is an importatn source file
 packaging <- fread("Unit of Presentation 20170814.txt", data.table = TRUE)
 
+# This is an important intermediate
 ccdd_drug_ingredients_raw <- ccdd_drug_ingredients_raw %>%
   # End of Top 250 Corrections ------------------------------------------------
   mutate(strength = sprintf("%15.9g", as.numeric(strength)) %>% str_trim(),
@@ -256,6 +265,7 @@ ccdd_drug_ingredients_raw <- ccdd_drug_ingredients_raw %>%
       sprintf("%s %s", ing_stem %>% tolower(),
               strength_w_unit_w_dosage_if_exists %>% tolower() %>% str_replace_all("ml", "mL"))))
 
+# This is an important intermediate
 ccdd_packaging_raw <- packaging %>%
                       mutate(uop_suffix = ifelse(calculation == "N", 
                                                  paste(uop_size,
@@ -299,7 +309,7 @@ ccdd_packaging_raw <- packaging %>%
                        summarize(ntp_ing_formal_name_uop = paste(ntp_ingredient_name, collapse = " and "),
                                  mp_ing_formal_name_uop = paste(mp_ingredient_name, collapse = " and "))
 
-
+# This is an important intermediate
 ccdd_ingredient_set_source <- ccdd_drug_ingredients_raw %>%
                               arrange(ing_stem) %>%
                               group_by(drug_code) %>%
@@ -313,7 +323,7 @@ ccdd_ingredient_set_source <- ccdd_drug_ingredients_raw %>%
                                         ntp_ing_formal_name = paste(ntp_ingredient_name, collapse = " and "),
                                         mp_ing_formal_name = paste(mp_ingredient_name, collapse = " and "))
 
-
+# This is an important intermediate
 ccdd_mp_source_raw <- dpd_human_ccdd_products %>%
                       select(extract,
                              drug_code,
@@ -363,6 +373,7 @@ ccdd_mp_source_raw <- dpd_human_ccdd_products %>%
 
 # Inject manual overrides here for MP names, Combination Products, Medical Devies, PseudoDINs, NHPS, etc.)
 
+# This is an important intermediate
 ccdd_mp_source <- ccdd_mp_source_raw 
 
 # Provides useful summary statistics for each drug code in active human drugs.
@@ -407,6 +418,7 @@ ccdd_mp_source <- ccdd_mp_source_raw
 #          product_status = extract)
 # 
 # Contains the necessary ingredients to create the name for manufactured products.
+# This is a final output file
 ccdd_mp_table <- ccdd_mp_source %>% 
   mutate(
          en_display = NA,
@@ -424,6 +436,7 @@ ccdd_mp_table <- ccdd_mp_source %>%
   distinct()
 
 # Contains the necessary ingredients to create the name for ntps
+# This is a final output file
 ccdd_ntp_table <- ccdd_mp_source %>%
   group_by(formal_description_ntp) %>%
   dplyr::summarize(ccdd = any(ccdd),
@@ -442,6 +455,7 @@ ccdd_ntp_table <- ccdd_mp_source %>%
 
 # Contains the necessary ingredients to create a therapeutic moiety table.
 # TODO (bclaught): There is an issue with NAs appearing in the tm set.
+# This is a final output file
 ccdd_tm_table <- ccdd_mp_source %>%
   group_by(tm_set) %>%
   dplyr::summarize(ccdd = any(ccdd == TRUE),
@@ -457,6 +471,7 @@ ccdd_tm_table <- ccdd_mp_source %>%
 
 
 # Mapping table between TM and NTP
+# This is a final output file
 mapping_table <- mp_source %>%
                  left_join(ccdd_tm_table %>% select(tm_code, tm_set)) %>%
                  left_join(ccdd_ntp_table %>% select(ntp_code, formal_description_ntp))
@@ -482,7 +497,7 @@ mapping_table <- mp_source %>%
 
 # Summary Tables for the top 250 ----------------------------------------------
 # http://www.fda.gov/downloads/ForIndustry/DataStandards/StructuredProductLabeling/UCM362965.zip
-
+# These are the final output tables filtered for CCDD == TRUE
 mp_table_top250 <- mp_table %>%
   semi_join(top250) %>% 
   select(c(mp_code = DRUG_IDENTIFICATION_NUMBER,
