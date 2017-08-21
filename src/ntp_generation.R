@@ -41,7 +41,7 @@ status <- tbl(dpd, "status")
 ther <- tbl(dpd, "therapeutic_class")
 packaging <- tbl(dpd, "packaging")
 
-
+ccdd_tm_reg <- tbl(ccdd, "tm_table")
 # This is a hard-coded value to ensure all the subsequent date math is absolute and not relative.
 
 ccdd_start_date <- "2017-07-04"
@@ -165,7 +165,15 @@ dpd_ccdd_ingredient_names <- ing %>%
 #          ntp_ing = dpd_ingredient)
 
 # This is an important source file
-ingredient_stem <- fread("ing_stem_20170808b.csv")[-1,] %>% mutate(ntp_ing = tolower(ntp_ing))
+ingredient_stem <- fread("Louise/ing_stem_20170821lt.csv")[-1,-1] %>% 
+                    mutate(ing_stem = tolower(ing_stem),
+                           ing_stem = ifelse(str_detect(ing_stem, "^vitamin"),
+                                            str_replace_all(ing_stem, regex("(?<=vitamin )([abcdek])"), toupper),
+                                            ing_stem),
+                      ntp_ing = tolower(ntp_ing),
+                           ntp_ing = ifelse(str_detect(ntp_ing, "^vitamin"),
+                                            str_replace_all(ntp_ing, regex("(?<=vitamin )([abcdek])"), toupper),
+                                            ntp_ing)) 
 
 # This is an intermediate to save
 dpd_ccdd_ingredient_names <- left_join(dpd_ccdd_ingredient_names, ingredient_stem) 
@@ -177,9 +185,9 @@ dpd_ccdd_ingredient_names <- left_join(dpd_ccdd_ingredient_names, ingredient_ste
 # This version of the file has the form and route columns mixed up
 
 #This is an important source file
-ntp_dosage_form_map <- fread("NTP Dosage Form Transform.txt") %>% 
-                select(route_of_administration = `DPD PHARMACEUTICAL_FORM`, 
-                       pharmaceutical_form = `DPD_ROUTE_OF_ADMINISTRATION`,
+ntp_dosage_form_map <- fread("ntp_form_route_transform.txt") %>% 
+                select(route_of_administration = `DPD_ROUTE_OF_ADMINISTRATION`, 
+                       pharmaceutical_form = `DPD PHARMACEUTICAL_FORM`,
                        ntp_dosage_form = NTP_DOSAGE_FORM,
                        everything())
 
@@ -237,7 +245,7 @@ unit.dosage.unapproved <- c('', '%', 'BLISTER', 'CAP', 'DOSE', 'ECC', 'ECT',
                             'SRD', 'SRT', 'SUP', 'SYR', 'TAB', 'V/V', 'W/V', 'W/W')
 
 #This is an importatn source file
-packaging <- fread("Unit of Presentation 20170814.txt", data.table = TRUE)
+packaging <- fread("unit_of_presentation_20170821.txt", data.table = TRUE)
 
 # This is an important intermediate
 ccdd_drug_ingredients_raw <- ccdd_drug_ingredients_raw %>%
@@ -316,7 +324,7 @@ ccdd_ingredient_set_source <- ccdd_drug_ingredients_raw %>%
                               summarize(ccdd = any(ccdd == "Y"),
                                         n_ing = n_distinct(dpd_ingredient),
                                         ai_code_set = active_ingredient_code %>% paste(collapse = ", "),
-                                        tm_set = ing_stem %>% tolower() %>% unique() %>% paste(collapse = ", "),
+                                        tm_formal_name = ing_stem %>% unique() %>% paste(collapse = " and "),
                                         str_set = strength_w_unit_w_dosage_if_exists %>% paste(collapse = ", "),
                                         precise_ing_set = precise_ing %>% paste(collapse = ", "),
                                         ntp_ing_group = ntp_ing %>% paste(collapse = ", "),
@@ -368,7 +376,7 @@ ccdd_mp_source_raw <- dpd_human_ccdd_products %>%
                                                       ntp_dosage_form,
                                                       uop_suffix),
                                                 formal_description_ntp),
-                greater_than_5_AIs = number_of_ais > 5)
+                greater_than_5_AIs = as.numeric(number_of_ais) > 5)
 
 
 # Inject manual overrides here for MP names, Combination Products, Medical Devies, PseudoDINs, NHPS, etc.)
@@ -457,7 +465,7 @@ ccdd_ntp_table <- ccdd_mp_source %>%
 # TODO (bclaught): There is an issue with NAs appearing in the tm set.
 # This is a final output file
 ccdd_tm_table <- ccdd_mp_source %>%
-  group_by(tm_set) %>%
+  group_by(tm_formal_name) %>%
   dplyr::summarize(ccdd = any(ccdd == TRUE),
                    n_dins = n_distinct(drug_identification_number),
                    n_ntps = n_distinct(ntp_dosage_form), #this isn't an accurate count 
@@ -465,7 +473,11 @@ ccdd_tm_table <- ccdd_mp_source %>%
                    tm_status_effective_time = min(first_market_date)) %>%
   ungroup() %>%
   arrange(desc(ccdd), tm_status_effective_time) %>%
-  mutate(tm_code = 8000000 + row_number(),
+  left_join(ccdd_tm_reg, copy = TRUE) %>%
+  mutate(new_tm_code = is.na(tm_code),
+         tm_code = ifelse(is.na(tm_code), 
+                          seq(from = max(tm_code, na.rm = TRUE) + 1, 
+                              to = max(tm_code, na.rm = TRUE) + 1 + sum(is.na(tm_code))), tm_code),
          en_display = NA,
          fr_display = NA)
 
@@ -485,6 +497,11 @@ mapping_table <- mp_source %>%
   filter(!(tm_set %like% "\\!NA\\!")) %>% filter(!endsWith(tm_set, "!NA")) %>% filter(!startsWith(tm_set, "NA!")) %>% filter(tm_set != "NA") %>%
   left_join(mp_table) %>%
   select(c(mp_code = DRUG_IDENTIFICATION_NUMBER, formal_description_mp, ntp_dose_form, formal_description_ntp, ntp_code, tm_set, formal_description_tm, tm_code)) %>% distinct()
+
+# CCDD Database
+# copy_to(ccdd, ccdd_mp_table, "mp_table", temporary = FALSE)
+# copy_to(ccdd, ccdd_ntp_table, "ntp_table", temporary = FALSE)
+
 
 # mp_ntp_relationship_table <- mapping_table %>%
 #   select(-c(tm_set, formal_description_tm, tm_code))
