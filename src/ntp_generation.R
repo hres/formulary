@@ -592,7 +592,6 @@ table_writer(mp_ntp_tm_relationship_top250, "mp_ntp_tm_relationship")
 # mp_ntp_tm_relationship_top250
 
 artifacts <- c(
-  "dpd_human_ccdd_prodcts",
   "dpd_ccdd_ingredient_names",
   "ingredient_stem",
   "ntp_dosage_form_map",
@@ -617,6 +616,6 @@ artifacts <- c(
   
 for(x in artifacts){
   filename <- paste(x, "20170821.csv", sep = "_")
-  write.csv(x, file = paste0("../reports/", filename), row.names = FALSE)
+  write.csv(get(x), file = paste0("../reports/", filename), row.names = FALSE)
 }
-}
+

@@ -1,2 +1,258 @@
-"x"
-"ccdd_tm_table_top250"
+"tm_formal_name","n_dins","n_ntps","status","tm_status_effective_time","tm_code"
+"meperidine",9,2,"active",1944-12-31,8000782
+"levothyroxine",18,2,"active",1951-12-30,8000001
+"epinephrine",13,4,"active",1951-12-31,8000003
+"phenytoin sodium",7,2,"active",1951-12-31,8000004
+"phenytoin (base)",4,2,"active",1952-12-31,8000005
+"testosterone",16,6,"active",1953-12-31,8000006
+"hydrocortisone",16,7,"active",1954-12-31,8000008
+"hydroxyzine",13,3,"active",1956-12-31,8000009
+"methylphenidate",44,3,"active",1956-12-31,8000010
+"hydrocodone and phenyltoloxamine",2,2,"active",1957-12-31,8000778
+"hydroxychloroquine",5,1,"active",1957-12-31,8000012
+"warfarin",24,1,"active",1957-12-31,8000013
+"prednisone",10,1,"active",1959-12-31,8000014
+"spironolactone",4,1,"active",1959-12-31,8000015
+"medroxyprogesterone",15,2,"active",1960-12-31,8000018
+"norethindrone",4,1,"active",1961-12-31,8000020
+"conjugated estrogens",18,4,"active",1963-12-31,8000021
+"acetaminophen and caffeine and codeine",22,1,"active",1964-12-31,8000023
+"amitriptyline",38,1,"active",1965-12-31,8000024
+"nortriptyline",8,1,"active",1965-12-31,8000026
+"azathioprine",6,1,"active",1966-12-31,8000027
+"dexamethasone (base)",19,7,"active",1966-12-31,8000028
+"quinine sulfate",11,2,"active",1966-12-31,8000029
+"triamcinolone",16,5,"active",1966-12-31,8000030
+"hydrochlorothiazide",20,1,"active",1968-12-31,8000031
+"carbamazepine",28,4,"active",1969-12-31,8000032
+"clindamycin",27,6,"active",1970-12-31,8000036
+"erythromycin",14,5,"active",1970-12-31,8000037
+"metronidazole",14,7,"active",1970-12-31,8000038
+"pentazocine",2,2,"active",1970-12-31,8000786
+"cephalexin",21,4,"active",1971-12-31,8000040
+"lithium carbonate",11,2,"active",1971-12-31,8000041
+"ibuprofen",65,6,"active",1972-12-31,8000043
+"nitroglycerin",27,5,"active",1972-12-31,8000044
+"oxycodone",38,3,"active",1973-12-31,8000045
+"allopurinol",16,1,"active",1974-12-31,8000046
+"colchicine",4,1,"active",1974-12-31,8000047
+"diazepam",18,4,"active",1974-12-31,8000048
+"ethinyl estradiol and norethindrone",19,1,"active",1974-12-31,8000049
+"nitrofurantoin",5,2,"active",1974-12-31,8000050
+"prednisolone",10,4,"active",1974-12-31,8000051
+"betamethasone (base)",35,4,"active",1975-12-31,8000053
+"carbidopa and levodopa",21,3,"active",1975-12-31,8000054
+"folic acid",7,2,"active",1975-12-31,8000055
+"furosemide",25,3,"active",1976-12-31,8000057
+"acetaminophen and oxycodone",10,1,"active",1977-12-31,8000059
+"clonazepam",38,1,"active",1977-12-31,8000061
+"metoprolol",48,3,"active",1977-12-31,8000063
+"penicillin v",4,2,"active",1977-12-31,8000064
+"acetaminophen and codeine",10,2,"active",1978-12-31,8000065
+"baclofen",26,2,"active",1978-12-31,8000066
+"benztropine",5,3,"active",1978-12-31,8000067
+"codeine",15,5,"active",1978-12-31,8000069
+"morphine",76,8,"active",1978-12-31,8000071
+"valproic acid (valproate)",5,2,"active",1978-12-31,8000072
+"amoxicillin",43,6,"active",1979-12-31,8000073
+"betamethasone valerate",4,4,"active",1979-12-31,8000074
+"calcitriol",8,3,"active",1979-12-31,8000075
+"nystatin",11,5,"active",1979-12-31,8000078
+"oxazepam",18,1,"active",1979-12-31,8000079
+"sulfamethoxazole and trimethoprim",9,3,"active",1979-12-31,8000080
+"timolol",21,3,"active",1979-12-31,8000081
+"diclofenac",53,8,"active",1980-12-31,8000082
+"haloperidol",22,3,"active",1980-12-31,8000084
+"indomethacin",9,2,"active",1980-12-31,8000085
+"propranolol",19,4,"active",1980-12-31,8000086
+"temazepam",10,1,"active",1980-12-31,8000087
+"alprazolam",31,1,"active",1981-12-31,8000088
+"bromazepam",9,1,"active",1981-12-31,8000090
+"flurazepam",9,1,"active",1981-12-31,8000091
+"hydrochlorothiazide and triamterene",3,1,"active",1981-12-31,8000092
+"acyclovir",19,6,"active",1982-12-31,8000095
+"indapamide",21,1,"active",1982-12-31,8000097
+"naproxen",53,6,"active",1982-12-31,8000218
+"acetylsalicylic acid and oxycodone",1,1,"active",1984-12-31,8000774
+"fusidic acid",3,2,"active",1984-12-31,8000104
+"hydromorphone",41,7,"active",1984-12-31,8000106
+"procyclidine",3,2,"active",1984-12-31,8000107
+"valproic acid (divalproex)",24,1,"active",1984-12-31,8000108
+"lorazepam",33,3,"active",1985-12-31,8000109
+"acebutolol",20,1,"active",1986-12-31,8000110
+"dexamethasone phosphate",9,3,"active",1986-12-31,8000114
+"glyburide",17,1,"active",1986-12-31,8000115
+"doxycycline",14,4,"active",1987-12-31,8000117
+"enalapril",48,1,"active",1987-12-31,8000118
+"ethinyl estradiol and levonorgestrel",19,1,"active",1987-12-31,8000119
+"ranitidine",42,3,"active",1987-12-31,8000120
+"atenolol",44,1,"active",1988-12-31,8000121
+"clotrimazole",17,4,"active",1988-12-31,8000773
+"diltiazem",80,5,"active",1988-12-31,8000122
+"nifedipine",18,3,"active",1988-12-31,8000123
+"verapamil",28,4,"active",1988-12-31,8000124
+"fentanyl",60,4,"active",1989-12-31,8000127
+"fluoxetine",50,2,"active",1989-12-31,8000128
+"metoclopramide",7,3,"active",1989-12-31,8000130
+"omeprazole",36,2,"active",1989-12-31,8000131
+"salbutamol",32,6,"active",1989-12-31,8000132
+"budesonide",12,7,"active",1990-12-31,8000134
+"clonidine",10,1,"active",1990-12-31,8000135
+"dexamethasone sodium phosphate",2,2,"active",1990-12-31,8000137
+"gliclazide",18,2,"active",1990-12-31,8000139
+"lisinopril",48,1,"active",1990-12-31,8000140
+"pravastatin",44,1,"active",1990-12-31,8000141
+"simvastatin",102,1,"active",1990-12-31,8000142
+"zopiclone",40,1,"active",1990-12-31,8000143
+"belladonna and opium",1,1,"active",1991-12-31,8000785
+"clozapine",10,1,"active",1991-12-31,8000147
+"mometasone",15,6,"active",1991-12-31,8000148
+"amlodipine",62,1,"active",1992-12-31,8000153
+"amoxicillin and clavulanic acid",18,3,"active",1992-12-31,8000154
+"betamethasone dipropionate",1,1,"active",1992-12-31,8000156
+"ciprofloxacin",83,6,"active",1992-12-31,8000159
+"clarithromycin",29,3,"active",1992-12-31,8000160
+"clobetasol",22,7,"active",1992-12-31,8000161
+"dextroamphetamine",4,2,"active",1992-12-31,8000162
+"doxazosin",18,1,"active",1992-12-31,8000163
+"ethinyl estradiol and norgestimate",8,1,"active",1992-12-31,8000164
+"felodipine",8,1,"active",1992-12-31,8000165
+"finasteride",24,1,"active",1992-12-31,8000166
+"insulin isophane human",4,1,"active",1992-12-31,8000168
+"ketorolac",12,3,"active",1992-12-31,8000169
+"quinapril",20,1,"active",1992-12-31,8000170
+"sertraline",63,1,"active",1992-12-31,8000171
+"fluticasone",13,4,"active",1993-03-12,8000173
+"desogestrel and ethinyl estradiol",12,1,"active",1993-12-31,8000179
+"diclofenac and misoprostol",6,2,"active",1993-12-31,8000180
+"domperidone",13,1,"active",1993-12-31,8000181
+"mesalazine",14,7,"active",1993-12-31,8000183
+"metformin",44,2,"active",1993-12-31,8000184
+"paroxetine",60,2,"active",1993-12-31,8000185
+"risperidone",113,5,"active",1993-12-31,8000187
+"terbinafine",15,3,"active",1993-12-31,8000188
+"trazodone",24,2,"active",1993-12-31,8000189
+"cyclobenzaprine",12,1,"active",1994-12-31,8000196
+"digoxin",9,3,"active",1994-12-31,8000198
+"gabapentin",90,2,"active",1994-12-31,8000200
+"hydrochlorothiazide and lisinopril",18,1,"active",1994-12-31,8000201
+"ipratropium",18,4,"active",1994-12-31,8000202
+"isosorbide mononitrate",5,1,"active",1994-12-31,8000203
+"lithium (ion)",1,1,"active",1994-12-31,8000204
+"minocycline",20,2,"active",1994-12-31,8000205
+"perindopril",3,1,"active",1994-12-31,8000206
+"beclomethasone",6,3,"active",1995-12-31,8000208
+"cefprozil",18,2,"active",1995-12-31,8000210
+"estradiol",26,5,"active",1995-12-31,8000213
+"lamotrigine",29,1,"active",1995-12-31,8000214
+"lansoprazole",26,2,"active",1995-12-31,8000215
+"losartan",54,1,"active",1995-12-31,8000216
+"methotrexate",24,2,"active",1995-12-31,8000217
+"oxybutynin",16,4,"active",1995-12-31,8000219
+"progesterone",5,4,"active",1995-12-31,8000220
+"valproic acid",10,2,"active",1995-12-31,8000221
+"tacrolimus",13,4,"active",1996-08-14,8000222
+"azithromycin",38,4,"active",1996-09-26,8000224
+"fenofibrate",25,2,"active",1996-10-02,8000225
+"olanzapine",144,3,"active",1996-11-04,8000226
+"insulin lispro",4,1,"active",1996-11-15,8000787
+"hydrochlorothiazide and losartan",40,1,"active",1996-11-22,8000229
+"ciclopirox",8,4,"active",1996-12-03,8000230
+"valacyclovir",21,1,"active",1996-12-31,8000233
+"normethadone and p-hydroxyephedrine",1,1,"active",1997-01-23,8000784
+"sumatriptan",35,3,"active",1997-02-11,8000234
+"atorvastatin",80,1,"active",1997-03-05,8000235
+"pantoprazole",39,2,"active",1997-03-05,8000236
+"cetirizine",20,4,"active",1997-03-06,8000237
+"clobazam",5,1,"active",1997-03-24,8000238
+"ramipril",76,2,"active",1997-03-24,8000239
+"topiramate",62,2,"active",1997-03-25,8000240
+"latanoprost",8,1,"active",1997-07-28,8000244
+"donepezil",48,2,"active",1997-08-20,8000246
+"terazosin",28,1,"active",1997-09-26,8000247
+"quetiapine",113,2,"active",1997-12-10,8000248
+"valsartan",54,2,"active",1997-12-15,8000249
+"trandolapril",4,1,"active",1998-01-07,8000250
+"olopatadine",9,1,"active",1998-02-09,8000251
+"pramipexole",42,1,"active",1998-02-26,8000253
+"venlafaxine",48,1,"active",1998-03-04,8000254
+"cyproterone and ethinyl estradiol",5,1,"active",1998-04-08,8000256
+"bupropion",18,1,"active",1998-05-05,8000257
+"irbesartan",58,1,"active",1998-06-22,8000259
+"montelukast",49,3,"active",1998-08-21,8000261
+"hydrochlorothiazide and quinapril",6,1,"active",1998-10-01,8000262
+"clopidogrel",20,1,"active",1998-10-13,8000263
+"tolterodine",16,2,"active",1998-11-23,8000265
+"candesartan",58,1,"active",1998-12-07,8000266
+"citalopram",75,1,"active",1999-03-08,8000267
+"sildenafil",48,2,"active",1999-03-09,8000268
+"amiodarone",17,2,"active",1999-03-29,8000269
+"celecoxib",42,1,"active",1999-04-19,8000271
+"dorzolamide and timolol",11,1,"active",1999-05-27,8000272
+"repaglinide",21,1,"active",1999-06-21,8000273
+"rizatriptan",37,2,"active",1999-08-31,8000276
+"telmisartan",30,1,"active",1999-09-01,8000277
+"risedronate",25,2,"active",1999-09-07,8000278
+"fluticasone and salmeterol",5,2,"active",1999-09-24,8000279
+"hydrochlorothiazide and irbesartan",41,1,"active",2000-03-16,8000284
+"methadone",10,3,"active",2000-05-05,8000285
+"hydrochlorothiazide and valsartan",38,1,"active",2000-05-10,8000286
+"rivastigmine",44,3,"active",2000-05-15,8000287
+"butorphanol",2,1,"active",2000-08-01,8000776
+"pioglitazone",51,1,"active",2000-08-28,8000289
+"meloxicam",22,1,"active",2000-09-26,8000290
+"moxifloxacin",16,3,"active",2000-10-20,8000291
+"mirtazapine",32,2,"active",2001-05-24,8000298
+"candesartan and hydrochlorothiazide",19,1,"active",2001-06-26,8000300
+"hydrochlorothiazide and telmisartan",26,1,"active",2001-08-16,8000301
+"betahistine",12,1,"active",2001-08-17,8000302
+"esomeprazole",18,3,"active",2001-08-20,8000303
+"insulin aspart",6,1,"active",2001-10-31,8000307
+"alendronic acid",36,1,"active",2002-02-14,8000312
+"alfuzosin",7,1,"active",2002-02-21,8000313
+"rabeprazole",23,1,"active",2002-04-02,8000314
+"bimatoprost",4,2,"active",2002-05-24,8000315
+"insulin glargine",6,1,"active",2002-07-24,8000317
+"tiotropium",2,2,"active",2002-11-21,8000320
+"indapamide and perindopril",3,1,"active",2002-12-19,8000321
+"rosuvastatin",82,1,"active",2003-02-19,8000322
+"bisoprolol",18,1,"active",2003-04-24,8000325
+"ezetimibe",17,1,"active",2003-06-15,8000326
+"levetiracetam",52,1,"active",2003-07-23,8000328
+"carvedilol",44,1,"active",2003-08-04,8000329
+"dutasteride",12,1,"active",2003-11-14,8000330
+"tadalafil",53,1,"active",2003-11-25,8000331
+"fosinopril",16,1,"active",2003-12-05,8000332
+"ethinyl estradiol and norelgestromin",1,1,"active",2003-12-24,8000334
+"ciprofloxacin and dexamethasone (base)",1,1,"active",2004-05-13,8000338
+"ethinyl estradiol and etonogestrel",1,1,"active",2004-12-02,8000343
+"drospirenone and ethinyl estradiol",8,1,"active",2004-12-22,8000345
+"escitalopram",42,2,"active",2005-02-14,8000346
+"atomoxetine",57,1,"active",2005-02-24,8000347
+"pregabalin",82,1,"active",2005-07-18,8000348
+"acetaminophen and tramadol",14,1,"active",2005-07-22,8000349
+"tamsulosin",10,2,"active",2005-10-11,8000352
+"insulin detemir",2,1,"active",2005-11-14,8000353
+"solifenacin",26,1,"active",2006-06-23,8000360
+"ciclesonide",4,2,"active",2006-09-27,8000367
+"hydrochlorothiazide and ramipril",17,1,"active",2006-11-16,8000368
+"tramadol",20,3,"active",2006-12-07,8000369
+"varenicline",3,2,"active",2007-04-11,8000371
+"buprenorphine and naloxone",6,1,"active",2007-11-26,8000372
+"sitagliptin",3,1,"active",2008-01-02,8000374
+"duloxetine",28,1,"active",2008-01-18,8000375
+"dabigatran",3,1,"active",2008-07-03,8000378
+"rivaroxaban",4,1,"active",2008-09-16,8000379
+"travoprost",5,1,"active",2008-11-10,8000381
+"hydrochlorothiazide and olmesartan",12,1,"active",2008-12-22,8000382
+"olmesartan",14,1,"active",2008-12-22,8000383
+"desvenlafaxine",2,1,"active",2009-03-05,8000385
+"lisdexamfetamine",7,1,"active",2009-08-04,8000387
+"aripiprazole",8,3,"active",2009-09-30,8000389
+"metformin and sitagliptin",6,2,"active",2009-10-08,8000390
+"saxagliptin",2,1,"active",2009-10-29,8000391
+"buprenorphine",4,1,"active",2010-05-26,8000775
+"dexlansoprazole",2,1,"active",2010-08-05,8000394
+"naloxone and oxycodone",4,1,"active",2010-10-05,8000783
+"galantamine",24,1,"active",2010-11-12,8000396
+"esomeprazole and naproxen",4,1,"active",2011-02-04,8000398
