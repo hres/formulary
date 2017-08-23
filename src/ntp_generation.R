@@ -43,6 +43,7 @@ packaging <- tbl(dpd, "packaging")
 
 ccdd_tm_reg <- tbl(ccdd, "tm_table")
 ccdd_ntp_reg <- tbl(ccdd, "ntp_table")
+ccdd_mp_reg <- tbl(ccdd, "mp_table")
 # This is a hard-coded value to ensure all the subsequent date math is absolute and not relative.
 
 ccdd_start_date <- "2017-07-04"
@@ -166,7 +167,7 @@ dpd_ccdd_ingredient_names <- ing %>%
 #          ntp_ing = dpd_ingredient)
 
 # This is an important source file
-ingredient_stem <- fread("Louise/ing_stem_20170821lt.csv")[-1,-1] %>% 
+ingredient_stem <- fread("ing_stem_20170822.csv")[-1,-1] %>% 
                     mutate(ing_stem = tolower(ing_stem),
                            ing_stem = ifelse(str_detect(ing_stem, "^vitamin"),
                                             str_replace_all(ing_stem, regex("(?<=vitamin )([abcdek])"), toupper),
@@ -246,7 +247,7 @@ unit.dosage.unapproved <- c('', '%', 'BLISTER', 'CAP', 'DOSE', 'ECC', 'ECT',
                             'SRD', 'SRT', 'SUP', 'SYR', 'TAB', 'V/V', 'W/V', 'W/W')
 
 #This is an importatn source file
-packaging <- fread("unit_of_presentation_20170821.txt", data.table = TRUE)
+packaging <- fread("Julie/Unit of Presentation 20170823.txt", data.table = TRUE)
 
 # This is an important intermediate
 ccdd_drug_ingredients_raw <- ccdd_drug_ingredients_raw %>%
@@ -461,11 +462,11 @@ ccdd_ntp_table <- ccdd_mp_source %>%
   ungroup() %>%
   arrange(desc(ccdd), ntp_status_effective_time) %>%
   left_join(ccdd_ntp_reg %>% select(ntp_formal_name, ntp_code), copy = TRUE) %T>%
-  {start_code <- max(.$ntp_code, na.rm = TRUE)
-  new_ntp_concepts <<- filter(., is.na(ntp_code)) %>%
-    mutate(ntp_code = 1:n() + start_code)} %>%
-  filter(!is.na(ntp_code)) %>%
-  bind_rows(new_ntp_concepts) %>%
+   {start_code <- max(.$ntp_code, na.rm = TRUE)
+   new_ntp_concepts <<- filter(., is.na(ntp_code)) %>%
+     mutate(ntp_code = 1:n() + start_code)} %>%
+   filter(!is.na(ntp_code)) %>%
+   bind_rows(new_ntp_concepts) %>%
   mutate(en_display = NA,
          fr_display = NA)
 
@@ -553,19 +554,19 @@ expect_that(TRUE    , equals(nrow(top250) == nrow(tm_table_top250)))
 
 # Write to file ---------------------------------------------------------------
 
-table_writer <- function(table, tablename, version = "v11") {
-  date <- as.character(Sys.Date()) %>% str_replace_all("-", "")
-  directory <- paste0("~/formulary/output/", date, "/")
-  filename <- sprintf("%s_%s_%s.txt", tablename, date, version)
-  ifelse(!dir.exists(directory), dir.create(directory), FALSE)
-  write.table(x = table, file = paste0(directory, filename), row.names = FALSE, sep = "|", fileEncoding = "UTF-8")
-}
-
-# Current Version is Version 10 as of 2017-03-13
-table_writer(mp_table_top250, "mp_table")
-table_writer(ntp_table_top250, "ntp_table")
-table_writer(tm_table_top250, "tm_table")
-table_writer(mp_ntp_tm_relationship_top250, "mp_ntp_tm_relationship")
+# table_writer <- function(table, tablename, version = "v11") {
+#   date <- as.character(Sys.Date()) %>% str_replace_all("-", "")
+#   directory <- paste0("~/formulary/output/", date, "/")
+#   filename <- sprintf("%s_%s_%s.txt", tablename, date, version)
+#   ifelse(!dir.exists(directory), dir.create(directory), FALSE)
+#   write.table(x = table, file = paste0(directory, filename), row.names = FALSE, sep = "|", fileEncoding = "UTF-8")
+# }
+# 
+# # Current Version is Version 10 as of 2017-03-13
+# table_writer(mp_table_top250, "mp_table")
+# table_writer(ntp_table_top250, "ntp_table")
+# table_writer(tm_table_top250, "tm_table")
+# table_writer(mp_ntp_tm_relationship_top250, "mp_ntp_tm_relationship")
 
 # Artifacts to write:
 # dpd_human_ccdd_prodcts
@@ -615,7 +616,7 @@ artifacts <- c(
   "mp_ntp_tm_relationship_top250")
   
 for(x in artifacts){
-  filename <- paste(x, "20170821.csv", sep = "_")
-  write.csv(get(x), file = paste0("../reports/", filename), row.names = FALSE)
+  filename <- paste(x, "20170823.csv", sep = "_")
+  write.csv(get(x), file = paste0("../reports/20170823/", filename), row.names = FALSE)
 }
 
