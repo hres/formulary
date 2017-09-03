@@ -14,6 +14,7 @@ library(lubridate)
 library(stringr)
 library(magrittr)
 library(testthat)
+library(purrr)
 
 # Check for database connections. The connection credentials are provided by environment variables (not included in git repo)
 # Important for updating CCDD but not necessary for the first generation
@@ -48,10 +49,29 @@ ccdd_mp_reg <- tbl(ccdd, "mp_table")
 
 ccdd_start_date <- "2017-07-04"
 
-# Get raw data. 
-# Get DPD extract data. set manually here
-# Will be updated with extract date by DPDimport.R
+# Get raw data from dpd database on rest.hc.local. Naming convention for schema based on extracts is dpd_[yyyymmdd] 
+
 dpdextractdate <- "2017-07-04"
+
+# Text files required for generation process
+
+# Ingredient Stem
+
+#ingredient_stem_file <- fread("ing_stem_20170822.csv")[-1,-1]
+ingredient_stem_file <- fread("ingredient_stem_20170903.csv")
+
+# NTP Dosage Form Transform
+
+ntp_form_route_file <- fread("Julie/NTP Dosage Form Transform 20170901.txt")
+
+# Unit of Presentation
+
+packaging_file <- fread("Julie/Unit of Presentation 20170901.txt", data.table = TRUE)
+
+# Combination Products
+
+combination_products_file <- fread("Julie/combination_products_20170903.csv")
+# Special Groupings (TMs)
 
 # For each individual ingredient, generate:
 #   dpd_ing_code
@@ -167,7 +187,7 @@ dpd_ccdd_ingredient_names <- ing %>%
 #          ntp_ing = dpd_ingredient)
 
 # This is an important source file
-ingredient_stem <- fread("ing_stem_20170822.csv")[-1,-1] %>% 
+ingredient_stem <- ingredient_stem_file %>% 
                     mutate(ing_stem = tolower(ing_stem),
                            ing_stem = ifelse(str_detect(ing_stem, "^vitamin"),
                                             str_replace_all(ing_stem, regex("(?<=vitamin )([abcdek])"), toupper),
@@ -187,7 +207,7 @@ dpd_ccdd_ingredient_names <- left_join(dpd_ccdd_ingredient_names, ingredient_ste
 # This version of the file has the form and route columns mixed up
 
 #This is an important source file
-ntp_dosage_form_map <- fread("ntp_form_route_transform.txt") %>% 
+ntp_dosage_form_map <- ntp_form_route_file %>% 
                 select(route_of_administration = `DPD_ROUTE_OF_ADMINISTRATION`, 
                        pharmaceutical_form = `DPD PHARMACEUTICAL_FORM`,
                        ntp_dosage_form = NTP_DOSAGE_FORM,
@@ -246,8 +266,6 @@ unit.dosage.unapproved <- c('', '%', 'BLISTER', 'CAP', 'DOSE', 'ECC', 'ECT',
                             'KIT', 'LOZ', 'NIL', 'PATCH', 'SLT', 'SRC', 
                             'SRD', 'SRT', 'SUP', 'SYR', 'TAB', 'V/V', 'W/V', 'W/W')
 
-#This is an importatn source file
-packaging <- fread("Julie/Unit of Presentation 20170823.txt", data.table = TRUE)
 
 # This is an important intermediate
 ccdd_drug_ingredients_raw <- ccdd_drug_ingredients_raw %>%
@@ -276,7 +294,7 @@ ccdd_drug_ingredients_raw <- ccdd_drug_ingredients_raw %>%
               strength_w_unit_w_dosage_if_exists %>% tolower() %>% str_replace_all("ml", "mL"))))
 
 # This is an important intermediate
-ccdd_packaging_raw <- packaging %>%
+ccdd_packaging_raw <- packaging_file %>%
                       mutate(uop_suffix = ifelse(calculation == "N", 
                                                  paste(uop_size,
                                                        uop_unit_of_measure,
@@ -349,12 +367,22 @@ ccdd_mp_source_raw <- dpd_human_ccdd_products %>%
                                                  drug_code,
                                                  company_code,
                                                  company_name)) %>%
-  left_join(form %>% select(extract,
-                            drug_code,
-                            pharmaceutical_form)) %>%
-  left_join(route %>% select(extract,
-                             drug_code,
-                             route_of_administration)) %>%
+  left_join(form %>% 
+              select(extract,
+                     drug_code,
+                     pharmaceutical_form) %>%
+              arrange(pharmaceutical_form) %>%
+              collect() %>%
+              group_by(extract, drug_code) %>%
+              summarize(pharmaceutical_form = paste(pharmaceutical_form, collapse = ", ")), copy = TRUE) %>%
+  left_join(route %>% 
+              select(extract,
+                     drug_code,
+                     route_of_administration) %>%
+              arrange(route_of_administration) %>%
+              collect() %>%
+              group_by(extract, drug_code) %>%
+              summarize(route_of_administration = paste(route_of_administration, collapse = ", ")), copy = TRUE) %>%
   collect() %>%
    left_join(ntp_dosage_form_map) %>%
                        left_join(ccdd_ingredient_set_source) %>%
@@ -380,7 +408,10 @@ ccdd_mp_source_raw <- dpd_human_ccdd_products %>%
                                                 ntp_formal_name),
                 greater_than_5_AIs = as.numeric(number_of_ais) > 5)
 
-
+# ccdd_mp_source_raw <- ccdd_mp_source_raw %>%
+#                       mutate(mp_formal_name = ifelse(drug_code %in% combination_products_map$drug_code,
+#                                                      combination_products_map[combination_products_map$drug_code == drug_code]$mp_formal_name,
+#                                                      mp_formal_name))
 # Inject manual overrides here for MP names, Combination Products, Medical Devies, PseudoDINs, NHPS, etc.)
 
 # This is an important intermediate
@@ -447,7 +478,9 @@ ccdd_mp_table <- ccdd_mp_source %>%
          mp_formal_name,
          en_display,
          fr_display) %>%
-  distinct()
+  distinct() 
+
+test <- ccdd_mp_source %>% group_by(drug_identification_number) %>% filter(n() > 1)
 
 # Contains the necessary ingredients to create the name for ntps
 # This is a final output file
