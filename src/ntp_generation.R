@@ -23,7 +23,7 @@ dpd <- src_postgres(dbname = "dpd",
                     port = 5432,
                     user = Sys.getenv("rest_user"),
                     password = Sys.getenv("rest_password"),
-                    options = "-c search_path=dpd_20170704")
+                    options = "-c search_path=dpd_20170901")
 
 ccdd <- src_postgres(dbname = "ccdd",
                      host = "rest.hc.local",
@@ -597,7 +597,7 @@ ccdd_ntp_table_top250 <- ccdd_ntp_table %>%
   filter(ccdd == TRUE) %>% 
   select(-ccdd)
 
-mp_ntp_tm_relationship_top250 <- mapping_table %>%
+mp_ntp_tm_relationship_top250 <- ccdd_mapping_table %>%
   filter(ccdd == TRUE) %>% 
   select(-ccdd)
 
@@ -671,10 +671,11 @@ artifacts <- c(
   "ccdd_mp_table_top250",
   "ccdd_ntp_table_top250",
   "ccdd_tm_table_top250",
-  "mp_ntp_tm_relationship_top250")
+  "mp_ntp_tm_relationship_top250",
+  "new_ntp_concepts")
   
 for(x in artifacts){
-  filename <- paste(x, "20170903.csv", sep = "_")
-  write.csv(get(x), file = paste0("../reports/20170903/", filename), row.names = FALSE)
+  filename <- paste(x, "20170903_sept_extract.csv", sep = "_")
+  write.csv(get(x), file = paste0("../reports/20170903_sept_extract/", filename), row.names = FALSE)
 }
 
