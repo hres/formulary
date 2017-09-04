@@ -70,7 +70,7 @@ packaging_file <- fread("Julie/Unit of Presentation 20170901.txt", data.table = 
 
 # Combination Products
 
-combination_products_file <- fread("Julie/combination_products_20170903.csv")
+combination_products_file <- fread("Julie/combination_products_20170903.csv") %>% mutate(drug_code = as.integer(drug_code))
 # Special Groupings (TMs)
 
 # For each individual ingredient, generate:
@@ -419,8 +419,25 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
   left_join(ccdd_tm_reg %>% select(tm_formal_name, tm_code), copy = TRUE) %>%
   mutate(ccdd = ifelse(!is.na(tm_code), 
                        TRUE,
-                       FALSE))
+                       FALSE)) %>%
+  left_join(., combination_products_file, 
+               by = c("drug_code", "drug_identification_number")) %>%
+  rename(combo_mp_formal_name = mp_formal_name.y,
+         combo_ntp_formal_name = ntp_formal_name.y,
+         mp_formal_name = mp_formal_name.x,
+         ntp_formal_name = ntp_formal_name.x) %T>%
+         {ccdd_pseudodins <<- distinct(., mp_formal_name, drug_code, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
+                         group_by(drug_identification_number) %>% 
+                         filter(n() > 1) %>%
+                         ungroup() %>%
+                         mutate(mp_code = 1:n() + 700000) %>%
+           select(mp_code, drug_code, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
+           as.data.table() %>%
+           setkey(mp_formal_name)}
 
+ccdd_pseudodins_top250 <- ccdd_pseudodins %>%
+                          filter(ccdd == TRUE) %>%
+                          select(-ccdd)
 # Provides useful summary statistics for each drug code in active human drugs.
 # substance_sets <- ccdd_drug_ingredients_raw %>%
 #   arrange(dpd_ingredient, ntp_ing, ing_stem, strength) %>%
@@ -467,9 +484,11 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
 ccdd_mp_table <- ccdd_mp_source %>% 
   mutate(
          en_display = NA,
-         fr_display = NA) %>%
+         fr_display = NA,
+         mp_formal_name = ifelse(is.na(combo_mp_formal_name),
+                                 mp_formal_name,
+                                 combo_mp_formal_name)) %>%
   select(ccdd,
-         mp_code = drug_identification_number, 
          drug_identification_number,
          product_status = current_status, 
          product_status_effective_time = first_market_date, 
@@ -478,9 +497,11 @@ ccdd_mp_table <- ccdd_mp_source %>%
          mp_formal_name,
          en_display,
          fr_display) %>%
-  distinct() 
-
-test <- ccdd_mp_source %>% group_by(drug_identification_number) %>% filter(n() > 1)
+  mutate(mp_code = ifelse(mp_formal_name %in% ccdd_pseudodins$mp_formal_name,
+                          ccdd_pseudodins[mp_formal_name]$mp_code,
+                          drug_identification_number)) %>%
+  distinct() %>%
+  select(ccdd, mp_code, everything())
 
 # Contains the necessary ingredients to create the name for ntps
 # This is a final output file
@@ -501,7 +522,8 @@ ccdd_ntp_table <- ccdd_mp_source %>%
    filter(!is.na(ntp_code)) %>%
    bind_rows(new_ntp_concepts) %>%
   mutate(en_display = NA,
-         fr_display = NA)
+         fr_display = NA) %>%
+  select(ccdd, ntp_code, everthing())
 
 
 # copy_to(ccdd, ccdd_ntp_table, "ntp_table", temporary = FALSE)
@@ -520,19 +542,20 @@ ccdd_tm_table <- ccdd_mp_source %>%
                    tm_status_effective_time = min(first_market_date)) %>%
   ungroup() %>%
   arrange(desc(ccdd), tm_status_effective_time) %>%
-  left_join(ccdd_tm_reg, copy = TRUE) %T>%
+  left_join(ccdd_tm_reg, copy = TRUE) %>%
 #  {start_code <- max(.$tm_code, na.rm = TRUE)
 #    new_tm_concepts <<- filter(., is.na(tm_code)) %>%
 #    mutate(tm_code = 1:n() + start_code)} %>%
 #  filter(!is.na(tm_code)) %>%
 #  bind_rows(new_tm_concepts) %>%
   mutate(en_display = NA,
-         fr_display = NA)
+         fr_display = NA) %>%
+  select(ccdd, tm_code, everything())
 
 
 # Mapping table between TM and NTP
 # This is a final output file
-mapping_table <- ccdd_mp_source %>%
+ccdd_mapping_table <- ccdd_mp_source %>%
                  left_join(ccdd_tm_table %>% select(tm_code, tm_formal_name)) %>%
                  left_join(ccdd_ntp_table %>% select(ntp_code, ntp_formal_name)) %>%
   select(ccdd,
@@ -627,14 +650,14 @@ expect_that(TRUE    , equals(nrow(top250) == nrow(tm_table_top250)))
 
 artifacts <- c(
   "dpd_ccdd_ingredient_names",
-  "ingredient_stem",
+  "ingredient_stem_file",
   "ntp_dosage_form_map",
   "dpd_ccdd_form_route_combinations",
   "missing_form_routes",
   "ccdd_drug_ingredients_raw",
   "ccdd_strength_units",
   "ccdd_dosage_units",
-  "packaging",
+  "packaging_file",
   "ccdd_packaging_raw",
   "ccdd_ingredient_set_source",
   "ccdd_mp_source_raw",
@@ -642,14 +665,16 @@ artifacts <- c(
   "ccdd_mp_table",
   "ccdd_ntp_table",
   "ccdd_tm_table",
-  "mapping_table",
+  "ccdd_mapping_table",
+  "ccdd_pseudodins",
+  "ccdd_pseudodins_top250",
   "ccdd_mp_table_top250",
   "ccdd_ntp_table_top250",
   "ccdd_tm_table_top250",
   "mp_ntp_tm_relationship_top250")
   
 for(x in artifacts){
-  filename <- paste(x, "20170823.csv", sep = "_")
-  write.csv(get(x), file = paste0("../reports/20170823/", filename), row.names = FALSE)
+  filename <- paste(x, "20170903.csv", sep = "_")
+  write.csv(get(x), file = paste0("../reports/20170903/", filename), row.names = FALSE)
 }
 
