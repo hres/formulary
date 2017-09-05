@@ -15,6 +15,7 @@ library(stringr)
 library(magrittr)
 library(testthat)
 library(purrr)
+library(tibble)
 
 # Check for database connections. The connection credentials are provided by environment variables (not included in git repo)
 # Important for updating CCDD but not necessary for the first generation
@@ -58,11 +59,23 @@ dpdextractdate <- "2017-07-04"
 # Ingredient Stem
 
 #ingredient_stem_file <- fread("ing_stem_20170822.csv")[-1,-1]
-ingredient_stem_file <- fread("ingredient_stem_20170903.csv")
+ingredient_stem_file <- fread("ingredient_stem_20170905.csv")
 
 # NTP Dosage Form Transform
 
-ntp_form_route_file <- fread("Julie/NTP Dosage Form Transform 20170901.txt")
+#ntp_form_route_file <- fread("Julie/NTP Dosage Form Transform 20170901.txt")
+ntp_form_route_file <- fread("Julie/NTP Dosage Form Transform 20170904.txt") %>% 
+                       as.tibble() %>%
+                       select_all(funs(tolower)) %>%
+                       rename(dpd_pharmaceutical_form = `dpd pharmaceutical_form`)
+
+# Manual override for NAs
+ntp_form_route_file <- ntp_form_route_file %>%
+                        add_row(dpd_route_of_administration = "INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",
+                                dpd_pharmaceutical_form = "LIQUID",
+                                ntp_dosage_form = "solution for injection")
+
+
 
 # Unit of Presentation
 
@@ -70,7 +83,7 @@ packaging_file <- fread("Julie/Unit of Presentation 20170901.txt", data.table = 
 
 # Combination Products
 
-combination_products_file <- fread("Julie/combination_products_20170903.csv") %>% mutate(drug_code = as.integer(drug_code))
+combination_products_file <- fread("Julie/Combination Products 20170904.csv") %>% mutate(drug_code = as.integer(drug_code))
 # Special Groupings (TMs)
 
 # For each individual ingredient, generate:
@@ -208,9 +221,8 @@ dpd_ccdd_ingredient_names <- left_join(dpd_ccdd_ingredient_names, ingredient_ste
 
 #This is an important source file
 ntp_dosage_form_map <- ntp_form_route_file %>% 
-                select(route_of_administration = `DPD_ROUTE_OF_ADMINISTRATION`, 
-                       pharmaceutical_form = `DPD PHARMACEUTICAL_FORM`,
-                       ntp_dosage_form = NTP_DOSAGE_FORM,
+                select(route_of_administration = dpd_route_of_administration, 
+                       pharmaceutical_form = dpd_pharmaceutical_form,
                        everything())
 
 
@@ -426,7 +438,7 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
          combo_ntp_formal_name = ntp_formal_name.y,
          mp_formal_name = mp_formal_name.x,
          ntp_formal_name = ntp_formal_name.x) %T>%
-         {ccdd_pseudodins <<- distinct(., mp_formal_name, drug_code, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
+         {ccdd_pseudodins <<- distinct(., mp_formal_name, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
                          group_by(drug_identification_number) %>% 
                          filter(n() > 1) %>%
                          ungroup() %>%
@@ -497,9 +509,9 @@ ccdd_mp_table <- ccdd_mp_source %>%
          mp_formal_name,
          en_display,
          fr_display) %>%
-  mutate(mp_code = ifelse(mp_formal_name %in% ccdd_pseudodins$mp_formal_name,
-                          ccdd_pseudodins[mp_formal_name]$mp_code,
-                          drug_identification_number)) %>%
+  mutate(mp_code = if_else(mp_formal_name %in% ccdd_pseudodins_top250$mp_formal_name, 
+                           ccdd_pseudodins_top250[mp_formal_name]$mp_code %>% as.character(),
+                           drug_identification_number)) %>%
   distinct() %>%
   select(ccdd, mp_code, everything())
 
@@ -523,7 +535,7 @@ ccdd_ntp_table <- ccdd_mp_source %>%
    bind_rows(new_ntp_concepts) %>%
   mutate(en_display = NA,
          fr_display = NA) %>%
-  select(ccdd, ntp_code, everthing())
+  select(ccdd, ntp_code, everything())
 
 
 # copy_to(ccdd, ccdd_ntp_table, "ntp_table", temporary = FALSE)
@@ -652,6 +664,7 @@ artifacts <- c(
   "dpd_ccdd_ingredient_names",
   "ingredient_stem_file",
   "ntp_dosage_form_map",
+  "combination_products_file",
   "dpd_ccdd_form_route_combinations",
   "missing_form_routes",
   "ccdd_drug_ingredients_raw",
@@ -675,7 +688,7 @@ artifacts <- c(
   "new_ntp_concepts")
   
 for(x in artifacts){
-  filename <- paste(x, "20170903_sept_extract.csv", sep = "_")
-  write.csv(get(x), file = paste0("../reports/20170903_sept_extract/", filename), row.names = FALSE)
+  filename <- paste(x, "20170905.csv", sep = "_")
+  write.csv(get(x), file = paste0("../reports/20170905/", filename), row.names = FALSE)
 }
 
