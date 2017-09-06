@@ -32,6 +32,7 @@ TRUE,9000030,"conjugated estrogens 0.625 mg oral tablet",3,FALSE,1963-12-31,NA,N
 TRUE,9000031,"acetaminophen 300 mg and caffeine 15 mg and codeine phosphate 15 mg oral tablet",2,FALSE,1964-12-31,NA,NA
 TRUE,9000032,"acetaminophen 300 mg and caffeine 15 mg and codeine phosphate 30 mg oral tablet",2,FALSE,1964-12-31,NA,NA
 TRUE,9000033,"amitriptyline hydrochloride 10 mg oral tablet",11,FALSE,1965-12-31,NA,NA
+TRUE,9001611,"betamethasone acetate 3 mg per mL and betamethasone (betamethasone sodium phosphate) 3 mg per mL suspension for injection",2,FALSE,1965-12-31,NA,NA
 TRUE,9000034,"nortriptyline (nortriptyline hydrochloride) 10 mg oral capsule",4,FALSE,1965-12-31,NA,NA
 TRUE,9000035,"nortriptyline (nortriptyline hydrochloride) 25 mg oral capsule",4,FALSE,1965-12-31,NA,NA
 TRUE,9000036,"azathioprine 50 mg oral tablet",5,FALSE,1966-12-31,NA,NA
@@ -74,8 +75,7 @@ TRUE,9000072,"triamcinolone acetonide 40 mg per 1 mL suspension for injection vi
 TRUE,9000073,"allopurinol 300 mg oral tablet",6,FALSE,1974-12-31,NA,NA
 TRUE,9000074,"colchicine 0.6 mg oral tablet",4,FALSE,1974-12-31,NA,NA
 TRUE,9000075,"diazepam 5 mg oral tablet",5,FALSE,1974-12-31,NA,NA
-TRUE,9000076,"ethinyl estradiol 0.035 mg and norethindrone 0.5 mg oral tablet",4,FALSE,1974-12-31,NA,NA
-TRUE,9000077,"ethinyl estradiol 30 mcg and norethindrone acetate 1.5 mg oral tablet",2,FALSE,1974-12-31,NA,NA
+TRUE,9000076,"ethinyl estradiol 0.035 mg and norethindrone 0.5 mg oral tablet",2,FALSE,1974-12-31,NA,NA
 TRUE,9000078,"levothyroxine sodium 150 mcg oral tablet",2,FALSE,1974-12-31,NA,NA
 TRUE,9000079,"nitrofurantoin 100 mg oral tablet",1,FALSE,1974-12-31,NA,NA
 TRUE,9000080,"nitrofurantoin 50 mg oral tablet",1,FALSE,1974-12-31,NA,NA
@@ -86,7 +86,6 @@ TRUE,9000084,"acetaminophen 325 mg and caffeine citrate 30 mg and codeine phosph
 TRUE,9000085,"acetaminophen 325 mg and caffeine citrate 30 mg and codeine phosphate 8 mg oral tablet",2,FALSE,1975-12-31,NA,NA
 TRUE,9000086,"betamethasone (betamethasone dipropionate) 0.05 % cutaneous cream",7,FALSE,1975-12-31,NA,NA
 TRUE,9000087,"carbidopa 25 mg and levodopa 250 mg oral tablet",4,FALSE,1975-12-31,NA,NA
-TRUE,9000088,"ethinyl estradiol 20 mcg and norethindrone acetate 1 mg oral tablet",2,FALSE,1975-12-31,NA,NA
 TRUE,9000089,"folic acid 25 mg oral tablet",1,FALSE,1975-12-31,NA,NA
 TRUE,9000090,"spironolactone 100 mg oral tablet",2,FALSE,1975-12-31,NA,NA
 TRUE,9000091,"betamethasone (betamethasone dipropionate) 0.05 % cutaneous ointment",6,FALSE,1976-12-31,NA,NA
@@ -141,7 +140,8 @@ TRUE,9000143,"triamcinolone acetonide 0.1 % cutaneous cream",2,FALSE,1979-12-31,
 TRUE,9000144,"carbidopa 25 mg and levodopa 100 mg oral tablet",6,FALSE,1980-12-31,NA,NA
 TRUE,9000145,"diazepam 20 mg per 2 mL solution for injection ampoule",3,FALSE,1980-12-31,NA,NA
 TRUE,9000146,"diclofenac sodium 50 mg gastro-resistant tablet",8,FALSE,1980-12-31,NA,NA
-TRUE,9000148,"ethinyl estradiol 0.035 mg and norethindrone 1 mg oral tablet",6,FALSE,1980-12-31,NA,NA
+TRUE,9001299,"epinephrine 0.3 mg per 0.3 mL solution for injection 0.3 mL syringe",2,FALSE,1980-12-31,NA,NA
+TRUE,9000148,"ethinyl estradiol 0.035 mg and norethindrone 1 mg oral tablet",3,FALSE,1980-12-31,NA,NA
 TRUE,9000149,"haloperidol 0.5 mg oral tablet",2,FALSE,1980-12-31,NA,NA
 TRUE,9000150,"haloperidol 1 mg oral tablet",2,FALSE,1980-12-31,NA,NA
 TRUE,9000151,"indomethacin 25 mg oral capsule",3,FALSE,1980-12-31,NA,NA
@@ -177,7 +177,6 @@ TRUE,9000181,"codeine phosphate 15 mg oral tablet",3,FALSE,1983-12-31,NA,NA
 TRUE,9000182,"codeine phosphate 30 mg oral tablet",3,FALSE,1983-12-31,NA,NA
 TRUE,9000183,"conjugated estrogens 1.25 mg oral tablet",2,FALSE,1983-12-31,NA,NA
 TRUE,9000184,"erythromycin 250 mg gastro-resistant capsule",1,FALSE,1983-12-31,NA,NA
-TRUE,9000185,"ethinyl estradiol 0.035 mg and ethinyl estradiol 0.035 mg and ethinyl estradiol 0.035 mg and norethindrone 0.5 mg and norethindrone 0.75 mg and norethindrone 1 mg oral tablet",1,TRUE,1983-12-31,NA,NA
 TRUE,9000186,"haloperidol 2 mg per mL oral solution",2,FALSE,1983-12-31,NA,NA
 TRUE,9000187,"hydrocortisone 2.5 % cutaneous cream",1,FALSE,1983-12-31,NA,NA
 TRUE,9000188,"hydrocortisone acetate 10 % rectal foam",1,FALSE,1983-12-31,NA,NA
@@ -189,6 +188,7 @@ TRUE,9000193,"naproxen 500 mg oral tablet",4,FALSE,1983-12-31,NA,NA
 TRUE,9000194,"acetaminophen 300 mg and codeine phosphate 30 mg oral tablet",5,FALSE,1984-12-31,NA,NA
 TRUE,9000094,"acetaminophen 325 mg and oxycodone hydrochloride 5 mg oral tablet",8,FALSE,1984-12-31,NA,NA
 TRUE,9000195,"acetylsalicylic acid 325 mg and oxycodone hydrochloride 5 mg oral tablet",1,FALSE,1984-12-31,NA,NA
+TRUE,9001298,"epinephrine 0.15 mg per 0.3 mL solution for injection 0.3 mL syringe",3,FALSE,1984-12-31,NA,NA
 TRUE,9000199,"fusidic acid 2 % cutaneous cream",1,FALSE,1984-12-31,NA,NA
 TRUE,9000200,"haloperidol 5 mg oral tablet",2,FALSE,1984-12-31,NA,NA
 TRUE,9000201,"hydromorphone hydrochloride 10 mg per 1 mL solution for injection vial",3,FALSE,1984-12-31,NA,NA
@@ -380,7 +380,7 @@ TRUE,9000417,"diazepam 1 mg per mL oral solution",1,FALSE,1992-12-31,NA,NA
 TRUE,9000418,"doxazosin (doxazosin mesylate) 1 mg oral tablet",5,FALSE,1992-12-31,NA,NA
 TRUE,9000419,"doxazosin (doxazosin mesylate) 2 mg oral tablet",5,FALSE,1992-12-31,NA,NA
 TRUE,9000420,"doxazosin (doxazosin mesylate) 4 mg oral tablet",5,FALSE,1992-12-31,NA,NA
-TRUE,9000421,"ethinyl estradiol 0.035 mg and norgestimate 0.25 mg oral tablet",2,FALSE,1992-12-31,NA,NA
+TRUE,9000421,"ethinyl estradiol 0.035 mg and norgestimate 0.25 mg oral tablet",1,FALSE,1992-12-31,NA,NA
 TRUE,9000422,"felodipine 10 mg prolonged-release oral tablet",3,FALSE,1992-12-31,NA,NA
 TRUE,9000423,"felodipine 5 mg prolonged-release oral tablet",3,FALSE,1992-12-31,NA,NA
 TRUE,9000424,"finasteride 5 mg oral tablet",18,FALSE,1992-12-31,NA,NA
@@ -423,7 +423,6 @@ TRUE,9000464,"enalapril maleate 10 mg oral tablet",2,FALSE,1993-12-31,NA,NA
 TRUE,9000465,"enalapril maleate 20 mg oral tablet",2,FALSE,1993-12-31,NA,NA
 TRUE,9000466,"enalapril maleate 2.5 mg oral tablet",2,FALSE,1993-12-31,NA,NA
 TRUE,9000467,"enalapril maleate 5 mg oral tablet",2,FALSE,1993-12-31,NA,NA
-TRUE,9000468,"ethinyl estradiol 0.035 mg and ethinyl estradiol 0.035 mg and ethinyl estradiol 0.035 mg and norgestimate 0.18 mg and norgestimate 0.215 mg and norgestimate 0.25 mg oral tablet",1,TRUE,1993-12-31,NA,NA
 TRUE,9000469,"fluoxetine (fluoxetine hydrochloride) 10 mg oral capsule",23,FALSE,1993-12-31,NA,NA
 TRUE,9000470,"indomethacin 100 mg suppository",2,FALSE,1993-12-31,NA,NA
 TRUE,9000471,"insulin isophane human 100 unit per mL suspension for injection 10 mL vial",1,FALSE,1993-12-31,NA,NA
@@ -522,7 +521,8 @@ TRUE,9000572,"diltiazem hydrochloride 300 mg prolonged-release oral capsule",11,
 TRUE,9000573,"estradiol 1 mg oral tablet",2,FALSE,1995-12-31,NA,NA
 TRUE,9000574,"estradiol 2 mg oral tablet",2,FALSE,1995-12-31,NA,NA
 TRUE,9000575,"estradiol 2 mg ring (slow release)",1,FALSE,1995-12-31,NA,NA
-TRUE,9000576,"ethinyl estradiol 30 mcg and levonorgestrel 150 mcg oral tablet",4,FALSE,1995-12-31,NA,NA
+TRUE,9001206,"ethinyl estradiol 0.03 mg and levonorgestrel 0.15 mg oral tablet",3,FALSE,1995-12-31,NA,NA
+TRUE,9000576,"ethinyl estradiol 30 mcg and levonorgestrel 150 mcg oral tablet",2,FALSE,1995-12-31,NA,NA
 TRUE,9000577,"hydrochlorothiazide 25 mg and lisinopril 20 mg oral tablet",6,FALSE,1995-12-31,NA,NA
 TRUE,9000578,"hydrocortisone 100 mg per 60 mL rectal liquid",1,FALSE,1995-12-31,NA,NA
 TRUE,9000579,"hydromorphone hydrochloride 100 mg per 10 mL solution for injection vial",1,FALSE,1995-12-31,NA,NA
@@ -580,7 +580,6 @@ TRUE,9000636,"timolol (timolol maleate) 0.25 % prolonged-release eye drops",1,FA
 TRUE,9000637,"timolol (timolol maleate) 0.5 % prolonged-release eye drops",1,FALSE,1995-12-31,NA,NA
 TRUE,9000639,"valproic acid 250 mg oral capsule",6,FALSE,1995-12-31,NA,NA
 TRUE,9000640,"ipratropium bromide 42 mcg per actuation nasal spray",1,FALSE,1996-02-02,NA,NA
-TRUE,9000641,"ethinyl estradiol 0.035 mg and ethinyl estradiol 0.035 mg and norethindrone 0.5 mg and norethindrone 1 mg oral tablet",2,FALSE,1996-08-14,NA,NA
 TRUE,9000642,"folic acid (sodium folate) 5 mg per mL solution for injection",1,FALSE,1996-08-14,NA,NA
 TRUE,9000643,"simvastatin 40 mg oral tablet",21,FALSE,1996-08-14,NA,NA
 TRUE,9000644,"tacrolimus 1 mg oral capsule",2,FALSE,1996-08-14,NA,NA
@@ -662,7 +661,6 @@ TRUE,9000726,"hydroxyzine hydrochloride 500 mg per 10 mL solution for injection 
 TRUE,9000727,"ramipril 1.25 mg oral capsule",13,FALSE,1997-05-28,NA,NA
 TRUE,9000728,"diltiazem hydrochloride 360 mg prolonged-release oral capsule",6,FALSE,1997-06-09,NA,NA
 TRUE,9000729,"clotrimazole 10 % vaginal cream",1,FALSE,1997-06-11,NA,NA
-TRUE,9000731,"clotrimazole 1 % and clotrimazole 10 % vaginal cream",1,FALSE,1997-06-11,NA,NA
 TRUE,9000732,"budesonide 0.25 mg per 2 mL nebuliser suspension unit dose vial",1,FALSE,1997-06-16,NA,NA
 TRUE,9000733,"fluoxetine (fluoxetine hydrochloride) 20 mg per 5 mL oral solution",4,FALSE,1997-06-16,NA,NA
 TRUE,9000734,"salbutamol 2.5 mg per 2.5 mL inhalation solution unit dose vial",1,FALSE,1997-06-25,NA,NA
@@ -698,7 +696,6 @@ TRUE,9000768,"quetiapine (quetiapine fumarate) 200 mg oral tablet",21,FALSE,1997
 TRUE,9000769,"quetiapine (quetiapine fumarate) 25 mg oral tablet",21,FALSE,1997-12-10,NA,NA
 TRUE,9000770,"valsartan 160 mg oral capsule",1,FALSE,1997-12-15,NA,NA
 TRUE,9000771,"valsartan 80 mg oral capsule",1,FALSE,1997-12-15,NA,NA
-TRUE,9000772,"ethinyl estradiol 20 mcg and levonorgestrel 100 mcg oral tablet",8,FALSE,1998-01-07,NA,NA
 TRUE,9000773,"trandolapril 1 mg oral capsule",1,FALSE,1998-01-07,NA,NA
 TRUE,9000774,"trandolapril 2 mg oral capsule",1,FALSE,1998-01-14,NA,NA
 TRUE,9000775,"losartan potassium 100 mg oral tablet",18,FALSE,1998-01-16,NA,NA
@@ -722,7 +719,7 @@ TRUE,9000793,"beclomethasone dipropionate 0.025 % cutaneous cream",1,FALSE,1998-
 TRUE,9000794,"fluticasone propionate 100 mcg inhalation powder",1,FALSE,1998-04-02,NA,NA
 TRUE,9000795,"fluticasone propionate 250 mcg inhalation powder",1,FALSE,1998-04-02,NA,NA
 TRUE,9000796,"fluticasone propionate 500 mcg inhalation powder",1,FALSE,1998-04-02,NA,NA
-TRUE,9000797,"cyproterone acetate 2 mg and ethinyl estradiol 35 mcg oral tablet",1,FALSE,1998-04-08,NA,NA
+TRUE,9001195,"cyproterone acetate 2 mg and ethinyl estradiol 0.035 mg oral tablet",5,FALSE,1998-04-08,NA,NA
 TRUE,9000798,"bupropion hydrochloride 150 mg prolonged-release oral tablet",10,FALSE,1998-05-05,NA,NA
 TRUE,9000799,"acyclovir (acyclovir sodium) 1000 mg per 20 mL solution for injection vial",1,FALSE,1998-05-08,NA,NA
 TRUE,9000800,"acyclovir (acyclovir sodium) 500 mg per 10 mL solution for injection vial",1,FALSE,1998-05-08,NA,NA
@@ -966,7 +963,6 @@ TRUE,9001061,"mirtazapine 15 mg orodispersible tablet",3,FALSE,2003-12-22,NA,NA
 TRUE,9001062,"mirtazapine 30 mg orodispersible tablet",3,FALSE,2003-12-22,NA,NA
 TRUE,9001063,"mirtazapine 45 mg orodispersible tablet",3,FALSE,2003-12-22,NA,NA
 TRUE,9001064,"alendronic acid (alendronate sodium) 5 mg oral tablet",5,FALSE,2003-12-23,NA,NA
-TRUE,9001065,"ethinyl estradiol 0.6 mg and norelgestromin 6 mg transdermal patch",1,FALSE,2003-12-24,NA,NA
 TRUE,9001066,"paroxetine (paroxetine hydrochloride) 12.5 mg prolonged-release oral tablet",1,FALSE,2004-01-05,NA,NA
 TRUE,9001067,"paroxetine (paroxetine hydrochloride) 25 mg prolonged-release oral tablet",1,FALSE,2004-01-05,NA,NA
 TRUE,9001068,"olanzapine 15 mg orodispersible tablet",14,FALSE,2004-01-09,NA,NA
@@ -990,12 +986,10 @@ TRUE,9001085,"diltiazem hydrochloride 240 mg prolonged-release oral tablet",1,FA
 TRUE,9001086,"diltiazem hydrochloride 300 mg prolonged-release oral tablet",1,FALSE,2004-08-13,NA,NA
 TRUE,9001087,"diltiazem hydrochloride 360 mg prolonged-release oral tablet",1,FALSE,2004-08-13,NA,NA
 TRUE,9001088,"mirtazapine 45 mg oral tablet",3,FALSE,2004-08-17,NA,NA
-TRUE,9001096,"ethinyl estradiol 2.6 mg and etonogestrel 11.4 mg ring (slow release)",1,FALSE,2004-12-02,NA,NA
 TRUE,9001097,"dexamethasone 0.5 mg per 5 mL oral solution",1,FALSE,2004-12-06,NA,NA
 TRUE,9001098,"clobetasol propionate 0.05 % shampoo",1,FALSE,2004-12-15,NA,NA
-TRUE,9001099,"drospirenone 3 mg and ethinyl estradiol 0.03 mg oral tablet",6,FALSE,2004-12-22,NA,NA
+TRUE,9001099,"drospirenone 3 mg and ethinyl estradiol 0.03 mg oral tablet",3,FALSE,2004-12-22,NA,NA
 TRUE,9001100,"methylphenidate hydrochloride 27 mg prolonged-release oral tablet",4,FALSE,2005-01-06,NA,NA
-TRUE,9001101,"ethinyl estradiol 0.025 mg and ethinyl estradiol 0.025 mg and ethinyl estradiol 0.025 mg and norgestimate 0.18 mg and norgestimate 0.215 mg and norgestimate 0.25 mg oral tablet",4,TRUE,2005-01-27,NA,NA
 TRUE,9001102,"escitalopram (escitalopram oxalate) 10 mg oral tablet",19,FALSE,2005-02-14,NA,NA
 TRUE,9001103,"escitalopram (escitalopram oxalate) 20 mg oral tablet",19,FALSE,2005-02-14,NA,NA
 TRUE,9001104,"atomoxetine (atomoxetine hydrochloride) 10 mg oral capsule",8,FALSE,2005-02-24,NA,NA
@@ -1005,7 +999,6 @@ TRUE,9001107,"atomoxetine (atomoxetine hydrochloride) 40 mg oral capsule",10,FAL
 TRUE,9001108,"atomoxetine (atomoxetine hydrochloride) 60 mg oral capsule",10,FALSE,2005-03-03,NA,NA
 TRUE,9001109,"rosuvastatin (rosuvastatin calcium) 5 mg oral tablet",21,FALSE,2005-03-18,NA,NA
 TRUE,9001110,"lithium carbonate 300 mg prolonged-release oral tablet",1,FALSE,2005-04-06,NA,NA
-TRUE,9004038,"vitamin d3 (cholecalciferol) 10000 unit oral capsule",4,FALSE,2005-04-06,NA,NA
 TRUE,9001314,"valacyclovir (valacyclovir hydrochloride) 1000 mg oral tablet",5,FALSE,2005-05-09,NA,NA
 TRUE,9001112,"mesalazine 800 mg gastro-resistant tablet",1,FALSE,2005-06-13,NA,NA
 TRUE,9001113,"alendronic acid (alendronate sodium) 40 mg oral tablet",1,FALSE,2005-06-14,NA,NA
@@ -1034,15 +1027,11 @@ TRUE,9001135,"donepezil hydrochloride 10 mg orodispersible tablet",3,FALSE,2006-
 TRUE,9001136,"donepezil hydrochloride 5 mg orodispersible tablet",3,FALSE,2006-01-02,NA,NA
 TRUE,9001137,"azithromycin (azithromycin hemiethanolate) 600 mg oral tablet",2,FALSE,2006-01-04,NA,NA
 TRUE,9001138,"bupropion hydrochloride 300 mg prolonged-release oral tablet",3,FALSE,2006-02-02,NA,NA
-TRUE,9004135,"alendronic acid (alendronate sodium) 70 mg and vitamin d3 (cholecalciferol) 2800 unit oral tablet",3,FALSE,2006-03-13,NA,NA
 TRUE,9001139,"pantoprazole (pantoprazole magnesium) 40 mg gastro-resistant tablet",4,FALSE,2006-03-15,NA,NA
 TRUE,9001142,"fenofibrate 100 mg oral tablet",4,FALSE,2006-04-21,NA,NA
 TRUE,9001143,"insulin glargine 100 unit per mL solution for injection 3 mL cartridge",2,FALSE,2006-05-04,NA,NA
-TRUE,9001145,"clotrimazole 1 % and clotrimazole 500 mg per vtab NA",1,FALSE,2006-05-12,NA,NA
-TRUE,9001149,"clotrimazole 1 % and clotrimazole 200 mg per vtab NA",1,FALSE,2006-06-02,NA,NA
 TRUE,9001152,"dexamethasone 2 mg oral tablet",1,FALSE,2006-06-08,NA,NA
 TRUE,9001153,"sildenafil (sildenafil citrate) 20 mg oral tablet",4,FALSE,2006-06-12,NA,NA
-TRUE,9001154,"desogestrel 0.1 mg and desogestrel 0.125 mg and desogestrel 0.15 mg and ethinyl estradiol 0.025 mg and ethinyl estradiol 0.025 mg and ethinyl estradiol 0.025 mg oral tablet",2,TRUE,2006-06-13,NA,NA
 TRUE,9001155,"digoxin 0.0625 mg oral tablet",2,FALSE,2006-06-22,NA,NA
 TRUE,9001156,"digoxin 0.125 mg oral tablet",2,FALSE,2006-06-22,NA,NA
 TRUE,9001157,"digoxin 0.25 mg oral tablet",2,FALSE,2006-06-22,NA,NA
@@ -1085,7 +1074,6 @@ TRUE,9001191,"risperidone 0.5 mg orodispersible tablet",2,FALSE,2007-03-13,NA,NA
 TRUE,9001192,"risperidone 1 mg orodispersible tablet",2,FALSE,2007-03-13,NA,NA
 TRUE,9001193,"risperidone 2 mg orodispersible tablet",2,FALSE,2007-03-13,NA,NA
 TRUE,9001194,"amiodarone hydrochloride 100 mg oral tablet",1,FALSE,2007-04-03,NA,NA
-TRUE,9001195,"cyproterone acetate 2 mg and ethinyl estradiol 0.035 mg oral tablet",4,FALSE,2007-04-03,NA,NA
 TRUE,9001196,"pantoprazole (pantoprazole sodium) 40 mg per vial powder for solution for injection",4,FALSE,2007-04-03,NA,NA
 TRUE,9001197,"varenicline (varenicline tartrate) 0.5 mg oral tablet",1,FALSE,2007-04-11,NA,NA
 TRUE,9001198,"varenicline (varenicline tartrate) 1 mg oral tablet",1,FALSE,2007-04-11,NA,NA
@@ -1097,7 +1085,6 @@ TRUE,9001202,"ramipril 1.25 mg oral tablet",1,FALSE,2007-07-05,NA,NA
 TRUE,9001203,"ramipril 2.5 mg oral tablet",1,FALSE,2007-07-05,NA,NA
 TRUE,9001204,"ramipril 5 mg oral tablet",1,FALSE,2007-07-05,NA,NA
 TRUE,9001205,"mesalazine 1.2 g modified-release oral tablet",1,FALSE,2007-07-27,NA,NA
-TRUE,9001206,"ethinyl estradiol 0.03 mg and levonorgestrel 0.15 mg oral tablet",4,FALSE,2007-08-14,NA,NA
 TRUE,9001207,"tramadol hydrochloride 100 mg prolonged-release oral tablet",4,FALSE,2007-08-14,NA,NA
 TRUE,9001208,"hydrochlorothiazide 12.5 mg and losartan potassium 100 mg oral tablet",12,FALSE,2007-09-10,NA,NA
 TRUE,9001209,"omeprazole 10 mg gastro-resistant capsule",2,FALSE,2007-09-14,NA,NA
@@ -1106,6 +1093,7 @@ TRUE,9001211,"quetiapine (quetiapine fumarate) 200 mg prolonged-release oral tab
 TRUE,9001212,"quetiapine (quetiapine fumarate) 300 mg prolonged-release oral tablet",5,FALSE,2007-09-27,NA,NA
 TRUE,9001213,"quetiapine (quetiapine fumarate) 400 mg prolonged-release oral tablet",5,FALSE,2007-09-27,NA,NA
 TRUE,9001214,"quetiapine (quetiapine fumarate) 50 mg prolonged-release oral tablet",5,FALSE,2007-09-27,NA,NA
+TRUE,9001216,"varenicline (varenicline tartrate) 0.5 mg and varenicline (varenicline tartrate) 1 mg oral tablet",1,FALSE,2007-10-02,NA,NA
 TRUE,9001217,"enalapril sodium 2 mg oral tablet",8,FALSE,2007-10-17,NA,NA
 TRUE,9001218,"enalapril sodium (enalapril maleate) 16 mg oral tablet",1,FALSE,2007-10-17,NA,NA
 TRUE,9001219,"enalapril sodium (enalapril maleate) 2 mg oral tablet",1,FALSE,2007-10-17,NA,NA
@@ -1145,7 +1133,6 @@ TRUE,9001254,"minocycline (minocycline hydrochloride) 1 mg per 4 mg prolonged-re
 TRUE,9001255,"diclofenac diethylamine 1.16 % cutaneous gel",2,FALSE,2008-09-02,NA,NA
 TRUE,9001256,"quetiapine (quetiapine fumarate) 150 mg oral tablet",3,FALSE,2008-09-04,NA,NA
 TRUE,9001257,"rivaroxaban 10 mg oral tablet",1,FALSE,2008-09-16,NA,NA
-TRUE,9004459,"alendronic acid (alendronate sodium) 70 mg and vitamin d3 (cholecalciferol) 5600 unit oral tablet",4,FALSE,2008-09-17,NA,NA
 TRUE,9001258,"carbidopa 5 mg per mL and levodopa 20 mg per mL intestinal gel",1,FALSE,2008-11-10,NA,NA
 TRUE,9001259,"travoprost 0.004 % ophthalmic drops",4,FALSE,2008-11-10,NA,NA
 TRUE,9001260,"risedronate sodium 150 mg oral tablet",5,FALSE,2008-12-01,NA,NA
@@ -1155,7 +1142,6 @@ TRUE,9001263,"hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral ta
 TRUE,9001264,"hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet",4,FALSE,2008-12-22,NA,NA
 TRUE,9001265,"olmesartan medoxomil 20 mg oral tablet",7,FALSE,2008-12-22,NA,NA
 TRUE,9001266,"olmesartan medoxomil 40 mg oral tablet",7,FALSE,2008-12-22,NA,NA
-TRUE,9001267,"drospirenone 3 mg and ethinyl estradiol 0.02 mg oral tablet",2,FALSE,2009-01-06,NA,NA
 TRUE,9001268,"methotrexate (methotrexate sodium) 10 mg per 1 mL solution for injection syringe",1,FALSE,2009-01-26,NA,NA
 TRUE,9001269,"methotrexate (methotrexate sodium) 15 mg per 1.5 mL solution for injection 1.5 mL syringe",1,FALSE,2009-01-26,NA,NA
 TRUE,9001270,"methotrexate (methotrexate sodium) 7.5 mg per 0.75 mL solution for injection 0.75 mL syringe",1,FALSE,2009-01-26,NA,NA
@@ -1186,8 +1172,6 @@ TRUE,9001294,"testosterone undecanoate 40 mg oral capsule",2,FALSE,2009-10-08,NA
 TRUE,9001295,"azithromycin (azithromycin hydrogen citrate) 500 mg per vial powder for solution for injection",1,FALSE,2009-10-14,NA,NA
 TRUE,9001296,"saxagliptin (saxagliptin hydrochloride) 5 mg oral tablet",1,FALSE,2009-10-29,NA,NA
 TRUE,9001297,"pregabalin 225 mg oral capsule",6,FALSE,2009-11-18,NA,NA
-TRUE,9001298,"epinephrine 0.15 mg per 0.3 mL solution for injection 0.3 mL syringe",1,FALSE,2009-11-23,NA,NA
-TRUE,9001299,"epinephrine 0.3 mg per 0.3 mL solution for injection 0.3 mL syringe",1,FALSE,2009-11-23,NA,NA
 TRUE,9001300,"progesterone 100 mg effervescent vaginal tablet",1,FALSE,2009-11-30,NA,NA
 TRUE,9001302,"atomoxetine (atomoxetine hydrochloride) 80 mg oral capsule",5,FALSE,2009-12-16,NA,NA
 TRUE,9001303,"atomoxetine (atomoxetine hydrochloride) 100 mg oral capsule",5,FALSE,2010-01-08,NA,NA
@@ -1229,7 +1213,6 @@ TRUE,9001339,"hydrochlorothiazide 25 mg and irbesartan 300 mg oral tablet",13,FA
 TRUE,9001340,"hydromorphone hydrochloride 4.5 mg prolonged-release oral capsule",1,FALSE,2011-04-14,NA,NA
 TRUE,9001341,"hydromorphone hydrochloride 9 mg prolonged-release oral capsule",1,FALSE,2011-04-14,NA,NA
 TRUE,9001342,"olopatadine (olopatadine hydrochloride) 0.2 % ophthalmic drops",4,FALSE,2011-04-14,NA,NA
-TRUE,9001343,"ethinyl estradiol 0.01 mg and ethinyl estradiol 0.03 mg and levonorgestrel 0.15 mg oral tablet",1,FALSE,2011-04-18,NA,NA
 TRUE,9001344,"fentanyl (fentanyl citrate) 100 mcg sublingual tablet",1,FALSE,2011-04-18,NA,NA
 TRUE,9001345,"fentanyl (fentanyl citrate) 200 mcg sublingual tablet",1,FALSE,2011-04-18,NA,NA
 TRUE,9001346,"fentanyl (fentanyl citrate) 300 mcg sublingual tablet",1,FALSE,2011-04-18,NA,NA
@@ -1294,7 +1277,6 @@ TRUE,9001409,"clindamycin (clindamycin phosphate) 600 mg per 50 mL solution for 
 TRUE,9001410,"clindamycin (clindamycin phosphate) 900 mg per 50 mL solution for injection bag",1,FALSE,2013-12-05,NA,NA
 TRUE,9001411,"metformin hydrochloride 1000 mg and sitagliptin (sitagliptin phosphate) 50 mg prolonged-release oral tablet",1,FALSE,2014-01-15,NA,NA
 TRUE,9001412,"cetirizine hydrochloride 10 mg orodispersible tablet",1,FALSE,2014-03-21,NA,NA
-TRUE,9001413,"ethinyl estradiol 10 mcg and ethinyl estradiol 10 mcg and norethindrone acetate 1 mg oral tablet",1,FALSE,2014-03-24,NA,NA
 TRUE,9005492,"tapentadol (tapentadol hydrochloride) 100 mg prolonged-release oral tablet",1,FALSE,2014-04-16,NA,NA
 TRUE,9005493,"tapentadol (tapentadol hydrochloride) 150 mg prolonged-release oral tablet",1,FALSE,2014-04-16,NA,NA
 TRUE,9005494,"tapentadol (tapentadol hydrochloride) 200 mg prolonged-release oral tablet",1,FALSE,2014-04-16,NA,NA
@@ -1331,7 +1313,6 @@ TRUE,9001446,"lisdexamfetamine dimesylate 10 mg oral capsule",1,FALSE,2015-06-26
 TRUE,9001447,"insulin glargine 300 unit per mL solution for injection 1.5 mL pen",1,FALSE,2015-07-15,NA,NA
 TRUE,9001448,"amiodarone hydrochloride 150 mg per 3 mL solution for injection syringe",1,FALSE,2015-08-12,NA,NA
 TRUE,9001449,"insulin lispro 200 unit per mL solution for injection 3 mL pen",1,FALSE,2015-09-14,NA,NA
-TRUE,9001450,"rivaroxaban 15 mg and rivaroxaban 20 mg oral tablet",1,FALSE,2015-11-02,NA,NA
 TRUE,9001451,"lorazepam 2 mg per 1 mL solution for injection vial",1,FALSE,2015-11-12,NA,NA
 TRUE,9001452,"fluticasone furoate 200 mcg inhalation powder",1,FALSE,2015-12-14,NA,NA
 TRUE,9001454,"fluticasone furoate 100 mcg inhalation powder",1,FALSE,2016-01-26,NA,NA
@@ -1381,7 +1362,6 @@ FALSE,9001502,"calcium chloride 0.2 mg per mL and dextrose 50 mg per mL and pota
 FALSE,9001503,"calcium chloride 0.2 mg per mL and potassium chloride 0.3 mg per mL and sodium chloride 6 mg per mL and sodium lactate 3.1 mg per mL solution for injection",1,FALSE,1951-12-31,NA,NA
 FALSE,9001504,"camphor 2 mg and diphenylpyraline hydrochloride 0.5 mg and guaiacol carbonate 200 mg suppository",1,FALSE,1951-12-31,NA,NA
 FALSE,9001505,"camphor 5 mg and diphenylpyraline hydrochloride 1.5 mg and guaiacol carbonate 600 mg suppository",1,FALSE,1951-12-31,NA,NA
-FALSE,9001506,"dexpanthenol 10 mg per mL and lidocaine hydrochloride 2 % and nicotinamide 75 mg per mL and pyridoxine hydrochloride 2 mg per mL and vitamin b1 50 mg per mL and vitamin b2 (riboflavin 5'-phosphate sodium) 7.5 mg per mL solution for injection",1,TRUE,1951-12-31,NA,NA
 FALSE,9001507,"dextrose 100 mg per mL solution for injection",2,FALSE,1951-12-31,NA,NA
 FALSE,9001508,"dextrose 500 mg per mL solution for injection",1,FALSE,1951-12-31,NA,NA
 FALSE,9001509,"dextrose 50 mg per mL and sodium chloride 4.5 mg per mL solution for injection",1,FALSE,1951-12-31,NA,NA
@@ -1473,7 +1453,6 @@ FALSE,9001603,"epinephrine (epinephrine bitartrate) 0.01 mg per mL and lidocaine
 FALSE,9001604,"epinephrine (epinephrine bitartrate) 0.02 mg per mL and lidocaine hydrochloride 20 mg per mL solution for injection",2,FALSE,1964-12-31,NA,NA
 FALSE,9001605,"ethosuximide 250 mg per 5 mL syrup",1,FALSE,1964-12-31,NA,NA
 FALSE,9001610,"aluminum chlorohydrate 100 mg per mL and methylprednisolone acetate 2.5 mg per mL and neomycin sulfate 2.5 mg per mL and sulfur 50 mg per mL lotion",1,FALSE,1965-12-31,NA,NA
-FALSE,9001611,"betamethasone acetate 3 mg per mL and betamethasone (betamethasone sodium phosphate) 3 mg per mL suspension for injection",2,FALSE,1965-12-31,NA,NA
 FALSE,9001612,"dextrose 50 mg per mL and magnesium acetate 0.21 mg per mL and potassium acetate 1.28 mg per mL and sodium chloride 2.34 mg per mL solution for injection",1,FALSE,1965-12-31,NA,NA
 FALSE,9001613,"dextrose 50 mg per mL and magnesium chloride 0.14 mg per mL and potassium chloride 0.37 mg per mL and sodium acetate 2.22 mg per mL and sodium chloride 5.26 mg per mL and sodium gluconate 5.02 mg per mL solution for injection",1,TRUE,1965-12-31,NA,NA
 FALSE,9001615,"magnesium chloride 0.14 mg per mL and potassium chloride 0.37 mg per mL and sodium acetate 2.22 mg per mL and sodium chloride 5.26 mg per mL and sodium gluconate 5.02 mg per mL solution for injection",1,FALSE,1965-12-31,NA,NA
@@ -1668,12 +1647,10 @@ FALSE,9001820,"sulfamethoxazole 500 mg oral tablet",1,FALSE,1978-12-31,NA,NA
 FALSE,9001821,"sulfasalazine 500 mg oral tablet",3,FALSE,1978-12-31,NA,NA
 FALSE,9001822,"sulfinpyrazone 200 mg oral tablet",1,FALSE,1978-12-31,NA,NA
 FALSE,9001823,"tretinoin 0.05 % cutaneous gel",1,FALSE,1978-12-31,NA,NA
-FALSE,9001824,"vitamin b12 1 mg per mL solution for injection",5,FALSE,1978-12-31,NA,NA
 FALSE,9001825,"yellow fever vaccine 109648 pfu per 0.5 mL powder for solution for injection",1,FALSE,1978-12-31,NA,NA
 FALSE,9001826,"antipyrine 10 mg per mL and sodium salicylate 56 mg per mL oral liquid",1,FALSE,1979-12-31,NA,NA
 FALSE,9001827,"atropine sulfate 0.4 mg per mL solution for injection",3,FALSE,1979-12-31,NA,NA
 FALSE,9001828,"atropine sulfate 0.6 mg per mL solution for injection",3,FALSE,1979-12-31,NA,NA
-FALSE,9001831,"dexpanthenol 10 mg per mL and nicotinamide 100 mg per mL and pyridoxine hydrochloride 10 mg per mL and thiamine hydrochloride 100 mg per mL and vitamin b12 100 mcg per mL and vitamin b2 (riboflavin 5'-phosphate sodium) 10 mg per mL solution for injection",1,TRUE,1979-12-31,NA,NA
 FALSE,9001832,"dextromethorphan hydrobromide 15 mg per 5 mL syrup",13,FALSE,1979-12-31,NA,NA
 FALSE,9001833,"dextromethorphan hydrobromide 3 mg per mL syrup",3,FALSE,1979-12-31,NA,NA
 FALSE,9001834,"dextrose 33.3 mg per mL and potassium chloride 1.49 mg per mL and sodium chloride 3 mg per mL solution for injection",1,FALSE,1979-12-31,NA,NA
@@ -1706,7 +1683,6 @@ FALSE,9001861,"pyridoxine hydrochloride 100 mg per mL solution for injection",3,
 FALSE,9001862,"sodium bicarbonate 75 mg per mL solution for injection",1,FALSE,1979-12-31,NA,NA
 FALSE,9001863,"theophylline 80 mg per 15 mL oral solution",2,FALSE,1979-12-31,NA,NA
 FALSE,9001864,"thiamine hydrochloride 100 mg per mL solution for injection",4,FALSE,1979-12-31,NA,NA
-FALSE,9001865,"vitamin b2 (riboflavin 5'-phosphate sodium) 50 mg per mL solution for injection",1,FALSE,1979-12-31,NA,NA
 FALSE,9001866,"methyldopa 125 mg oral tablet",1,FALSE,1980-04-02,NA,NA
 FALSE,9001867,"benzalkonium chloride 0.1 % cutaneous liquid",5,FALSE,1980-11-04,NA,NA
 FALSE,9001868,"benzocaine 23 % and methyl heptyl colamino formylmethyl pyridinium chl 0.1 % oromucosal paste",1,FALSE,1980-11-04,NA,NA
@@ -1763,10 +1739,6 @@ FALSE,9001918,"scopolamine hydrobromide 0.6 mg per mL solution for injection",2,
 FALSE,9001919,"sodium ascorbate 250 mg per mL solution for injection",1,FALSE,1981-12-31,NA,NA
 FALSE,9001920,"tobramycin 0.3 % ophthalmic drops",3,FALSE,1981-12-31,NA,NA
 FALSE,9001921,"tretinoin 0.05 % cutaneous cream",2,FALSE,1981-12-31,NA,NA
-FALSE,9001922,"vitamin b12 (cyanocobalamin) 100 mcg per mL solution for injection",1,FALSE,1981-12-31,NA,NA
-FALSE,9001923,"vitamin b12 (cyanocobalamin) 1 mg per mL solution for injection",1,FALSE,1981-12-31,NA,NA
-FALSE,9001924,"vitamin k1 10 mg per mL solution for injection",1,FALSE,1981-12-31,NA,NA
-FALSE,9001925,"vitamin k1 2 mg per mL solution for injection",1,FALSE,1981-12-31,NA,NA
 FALSE,9001926,"white petrolatum 99.96 % cutaneous ointment",1,FALSE,1981-12-31,NA,NA
 FALSE,9001927,"acetaminophen 325 mg and codeine phosphate 8 mg and doxylamine succinate 5 mg oral tablet",1,FALSE,1982-12-31,NA,NA
 FALSE,9001928,"acetazolamide 250 mg oral tablet",1,FALSE,1982-12-31,NA,NA
@@ -1851,7 +1823,6 @@ FALSE,9002014,"cloxacillin sodium 500 mg oral capsule",1,FALSE,1984-12-31,NA,NA
 FALSE,9002015,"cyclosporine 50 mg per mL solution for injection",1,FALSE,1984-12-31,NA,NA
 FALSE,9002016,"diphtheria toxoid 2 lf per 0.5 mL and inactivated poliomyelitis vaccine (d.c.o.) type 1 mahoney 40 unit per 0.5 mL and inactivated poliomyelitis vaccine (d.c.o.) type 2 mef1 8 unit per 0.5 mL and inactivated poliomyelitis vaccine (d.c.o.) type 3 saukett 32 unit per 0.5 mL and tetanus toxoid 5 lf per 0.5 mL suspension for injection",1,FALSE,1984-12-31,NA,NA
 FALSE,9002017,"dipyridamole 75 mg oral tablet",2,FALSE,1984-12-31,NA,NA
-FALSE,9002018,"d-pantothenic acid (calcium d-pantothenate, riboflavin-5-phosphate) 2.6 mg per mL and nicotinamide 10 mg per mL and vitamin a 1000 unit per mL and vitamin b1 (thiamine hydrochloride) 4.5 mg per mL and vitamin b2 (riboflavin-5-phosphate) 1 mg per mL and vitamin b6 (pyridoxine hydrochloride) 1.2 mg per mL and vitamin c 100 mg per mL and vitamin d 100 unit per mL and vitamin e (dl-alpha tocopheryl acetate) 1 unit per mL solution for injection",1,TRUE,1984-12-31,NA,NA
 FALSE,9002019,"etoposide 50 mg oral capsule",1,FALSE,1984-12-31,NA,NA
 FALSE,9002020,"fusidate sodium 2 % cutaneous ointment",1,FALSE,1984-12-31,NA,NA
 FALSE,9002021,"heparin sodium 100 unit per mL irrigation solution",1,FALSE,1984-12-31,NA,NA
@@ -1924,7 +1895,6 @@ FALSE,9002092,"tretinoin 0.025 % cutaneous gel",2,FALSE,1986-12-31,NA,NA
 FALSE,9002093,"triclosan 0.3 % cutaneous gel",2,FALSE,1986-12-31,NA,NA
 FALSE,9002094,"tryptophan 1 g oral tablet",4,FALSE,1986-12-31,NA,NA
 FALSE,9002095,"tryptophan 500 mg oral capsule",4,FALSE,1986-12-31,NA,NA
-FALSE,9002096,"vitamin e (dl-alpha tocopheryl acetate) 100 unit per mL solution for injection",1,FALSE,1986-12-31,NA,NA
 FALSE,9002097,"albumin (human) 0.3 mg per mL and sodium chloride 9 mg per mL solution for injection",1,FALSE,1987-12-31,NA,NA
 FALSE,9002098,"bacitracin 500 unit per g and polymyxin b (polymyxin b sulfate) 10000 unit per g cutaneous ointment",4,FALSE,1987-12-31,NA,NA
 FALSE,9002099,"bismuth subsalicylate 17.6 mg per mL oral liquid",2,FALSE,1987-12-31,NA,NA
@@ -1952,7 +1922,6 @@ FALSE,9002120,"trimipramine (trimipramine maleate) 100 mg oral tablet",1,FALSE,1
 FALSE,9002121,"trimipramine (trimipramine maleate) 12.5 mg oral tablet",1,FALSE,1987-12-31,NA,NA
 FALSE,9002122,"trimipramine (trimipramine maleate) 25 mg oral tablet",1,FALSE,1987-12-31,NA,NA
 FALSE,9002123,"trimipramine (trimipramine maleate) 50 mg oral tablet",1,FALSE,1987-12-31,NA,NA
-FALSE,9002124,"vitamin c 500 mg per mL solution for injection",2,FALSE,1987-12-31,NA,NA
 FALSE,9002125,"loratadine 10 mg oral tablet",5,FALSE,1988-12-18,NA,NA
 FALSE,9002126,"acetic acid 10.8 g per l and calcium chloride 6.24 g per l and dextrose 67.54 g per l and magnesium chloride 1.61 g per l and potassium chloride 6.71 g per l and sodium chloride 263 g per l solution for haemodialysis",1,TRUE,1988-12-31,NA,NA
 FALSE,9002127,"acetic acid 10.8 g per l and calcium chloride 6.24 g per l and dextrose 67.54 g per l and magnesium chloride 1.61 g per l and sodium chloride 263 g per l solution for haemodialysis",1,FALSE,1988-12-31,NA,NA
@@ -2053,9 +2022,6 @@ FALSE,9002227,"tamoxifen (tamoxifen citrate) 20 mg oral tablet",3,FALSE,1989-12-
 FALSE,9002228,"triazolam 0.25 mg oral tablet",1,FALSE,1989-12-31,NA,NA
 FALSE,9002229,"vancomycin (vancomycin hydrochloride) 125 mg oral capsule",3,FALSE,1989-12-31,NA,NA
 FALSE,9002230,"vancomycin (vancomycin hydrochloride) 250 mg oral capsule",3,FALSE,1989-12-31,NA,NA
-FALSE,9002231,"vitamin c (sodium ascorbate) 250 mg per mL solution for injection",1,FALSE,1989-12-31,NA,NA
-FALSE,9002232,"vitamin k1 10 mg per mL emulsion for injection",1,FALSE,1989-12-31,NA,NA
-FALSE,9002233,"vitamin k1 2 mg per mL emulsion for injection",1,FALSE,1989-12-31,NA,NA
 FALSE,9001609,"water 100 % irrigation solution",2,FALSE,1989-12-31,NA,NA
 FALSE,9002234,"ketoconazole 2 % shampoo",1,FALSE,1990-12-30,NA,NA
 FALSE,9002235,"acetaminophen 16 mg per mL oral solution",1,FALSE,1990-12-31,NA,NA
@@ -2306,7 +2272,6 @@ FALSE,9002503,"yohimbine hydrochloride 6 mg oral tablet",1,FALSE,1992-12-31,NA,N
 FALSE,9002504,"zinc (zinc sulfate) 1 mg per mL solution for injection",1,FALSE,1992-12-31,NA,NA
 FALSE,9002505,"zinc (zinc sulfate) 5 mg per mL solution for injection",1,FALSE,1992-12-31,NA,NA
 FALSE,9002506,"typhoid vaccine (salmonella typhi ty21a) 10 b gastro-resistant capsule",1,FALSE,1993-01-01,NA,NA
-FALSE,9002507,"acetaminophen 325 mg per pck and pheniramine maleate 20 mg per pck and phenylephrine hydrochloride 10 mg per pck and vitamin c 50 mg per pck powder for oral solution",1,FALSE,1993-12-30,NA,NA
 FALSE,9002508,"acetaminophen 160 mg chewable tablet",7,FALSE,1993-12-31,NA,NA
 FALSE,9002509,"acetaminophen 160 mg oral tablet",5,FALSE,1993-12-31,NA,NA
 FALSE,9002510,"acetaminophen 160 mg suppository",2,FALSE,1993-12-31,NA,NA
@@ -2419,7 +2384,6 @@ FALSE,9002627,"atenolol 100 mg and chlorthalidone 25 mg oral tablet",3,FALSE,199
 FALSE,9002628,"bacitracin (bacitracin zinc) 500 unit per g and gramicidin 0.25 mg per g and polymyxin b (polymyxin b sulfate) 10000 unit per g cutaneous ointment",1,FALSE,1994-12-31,NA,NA
 FALSE,9002630,"bacitracin zinc 400 unit per g and neomycin (neomycin sulfate) 3.5 mg per g and polymyxin b sulfate 10000 unit per g ophthalmic ointment",1,FALSE,1994-12-31,NA,NA
 FALSE,9002631,"betaxolol (betaxolol hydrochloride) 0.25 % ophthalmic drops",1,FALSE,1994-12-31,NA,NA
-FALSE,9002632,"biotin 12 mcg per mL and dexpanthenol 3 mg per mL and folic acid 80 mcg per mL and nicotinamide 8 mg per mL and pyridoxine hydrochloride 0.8 mg per mL and vitamin a 660 unit per mL and vitamin b12 (vitamin b12) 1 mcg per mL and vitamin b1 (thiamine hydrochloride) 0.6 mg per mL and vitamin b2 (riboflavin-5-phosphate) 0.72 mg per mL and vitamin c 20 mg per mL and vitamin d 40 unit per mL and vitamin e 2 unit per mL solution for injection",1,TRUE,1994-12-31,NA,NA
 FALSE,9002633,"bromocriptine (bromocriptine mesylate) 2.5 mg oral tablet",4,FALSE,1994-12-31,NA,NA
 FALSE,9002637,"bupivacaine hydrochloride 2.5 mg per mL and epinephrine (epinephrine bitartrate) 5 mcg per mL solution for injection",1,FALSE,1994-12-31,NA,NA
 FALSE,9002638,"bupivacaine hydrochloride 2.5 mg per mL solution for injection",4,FALSE,1994-12-31,NA,NA
@@ -2530,7 +2494,6 @@ FALSE,9002758,"cefazolin (cefazolin sodium) 1 g per vial powder for solution for
 FALSE,9002759,"cefoxitin (cefoxitin sodium) 1 g per vial powder for solution for injection",2,FALSE,1995-12-31,NA,NA
 FALSE,9002760,"cefoxitin (cefoxitin sodium) 2 g per vial powder for solution for injection",2,FALSE,1995-12-31,NA,NA
 FALSE,9002761,"chloramphenicol 5 mg per mL ophthalmic drops",1,FALSE,1995-12-31,NA,NA
-FALSE,9002765,"choline 2.222 mg per mL and inositol 2.222 mg per mL and nicotinamide 1.111 mg per mL and pipradrol hydrochloride 0.044 mg per mL and pyridoxine hydrochloride 0.042 mg per mL and thiamine hydrochloride 0.222 mg per mL and vitamin b2 0.111 mg per mL oral solution",1,TRUE,1995-12-31,NA,NA
 FALSE,9002766,"coal tar 1 % cutaneous emulsion",1,FALSE,1995-12-31,NA,NA
 FALSE,9002767,"coal tar 2 % cutaneous emulsion",1,FALSE,1995-12-31,NA,NA
 FALSE,9002768,"codeine phosphate 3.3 mg per 5 mL and guaifenesin 100 mg per 5 mL and pseudoephedrine hydrochloride 30 mg per 5 mL syrup",2,FALSE,1995-12-31,NA,NA
@@ -2553,7 +2516,6 @@ FALSE,9002784,"dexrazoxane 250 mg per vial powder for solution for injection",1,
 FALSE,9002785,"dexrazoxane 500 mg per vial powder for solution for injection",1,FALSE,1995-12-31,NA,NA
 FALSE,9002786,"dextromethorphan hydrobromide 15 mg per 5 mL and guaifenesin 200 mg per 5 mL oral liquid",1,FALSE,1995-12-31,NA,NA
 FALSE,9002787,"dextromethorphan hydrobromide 20 mg per 15 mL and guaifenesin 200 mg per 15 mL oral liquid",1,FALSE,1995-12-31,NA,NA
-FALSE,9002788,"dextromethorphan hydrobromide 30 mg per 23 g and pheniramine maleate 20 mg per 23 g and phenylephrine hydrochloride 10 mg per 23 g and vitamin c 50 mg per 23 g powder for oral solution",1,FALSE,1995-12-31,NA,NA
 FALSE,9002789,"dextrose 10 g per 100 mL and glycine 1.04 g per 100 mL and histidine 220 mg per 100 mL and l-alanine 1.04 g per 100 mL and l-arginine 520 mg per 100 mL and l-isoleucine 240 mg per 100 mL and l-leucine hydrochloride 310 mg per 100 mL and l-lysine hydrochloride 290 mg per 100 mL and l-phenylalanine hydrochloride 310 mg per 100 mL and l-proline 210 mg per 100 mL and l-threonine 210 mg per 100 mL and l-tyrosine 20 mg per 100 mL and l-valine 230 mg per 100 mL and methionine 290 mg per 100 mL and tryptophan 90 mg per 100 mL solution for injection",1,TRUE,1995-12-31,NA,NA
 FALSE,9002790,"dextrose 20 g per 100 mL solution for injection",1,FALSE,1995-12-31,NA,NA
 FALSE,9002791,"dextrose 222.7 g per pck powder for concentrate for solution for haemodialysis",1,FALSE,1995-12-31,NA,NA
@@ -2802,7 +2764,7 @@ FALSE,9003058,"leuprolide acetate 22.5 mg per vial powder for prolonged-release 
 FALSE,9002338,"acetaminophen 80 mg per mL oral liquid",1,FALSE,1997-01-31,NA,NA
 FALSE,9003060,"albumin (human) 25 % solution for injection",3,FALSE,1997-02-10,NA,NA
 FALSE,9003061,"buserelin (buserelin acetate) 6.3 mg per imp implant",1,FALSE,1997-02-10,NA,NA
-FALSE,9003062,"NA 200 mg oral capsule",2,FALSE,1997-02-17,NA,NA
+FALSE,9003062,"NA 200 mg oral capsule",1,FALSE,1997-02-17,NA,NA
 FALSE,9003063,"tenoxicam 20 mg oral tablet",1,FALSE,1997-02-21,NA,NA
 FALSE,9003064,"tinzaparin sodium 20000 unit per mL solution for injection",4,FALSE,1997-02-28,NA,NA
 FALSE,9003065,"oxygen 99.99 % medicinal gas",1,FALSE,1997-03-11,NA,NA
@@ -3063,7 +3025,6 @@ FALSE,9003343,"lamivudine 150 mg and zidovudine 300 mg oral tablet",4,FALSE,1998
 FALSE,9003344,"interferon alfa-2b 10000000 unit per mL solution for injection",1,FALSE,1998-12-10,NA,NA
 FALSE,9003345,"interferon alfa-2b 6000000 unit per mL solution for injection",1,FALSE,1998-12-10,NA,NA
 FALSE,9003346,"cefuroxime (cefuroxime axetil) 250 mg oral tablet",4,FALSE,1998-12-31,NA,NA
-FALSE,9003347,"acetaminophen 325 mg per 23 g and pheniramine maleate 20 mg per 23 g and phenylephrine hydrochloride 10 mg per 23 g and vitamin c 50 mg per 23 g oral powder",1,FALSE,1999-01-06,NA,NA
 FALSE,9003348,"tryptophan 250 mg oral tablet",1,FALSE,1999-01-06,NA,NA
 FALSE,9003349,"tryptophan 750 mg oral tablet",2,FALSE,1999-01-06,NA,NA
 FALSE,9003350,"menthol 1 % and pramoxine hydrochloride 1 % cutaneous cream",1,FALSE,1999-01-11,NA,NA
@@ -3149,7 +3110,6 @@ FALSE,9003434,"temozolomide 250 mg oral capsule",4,FALSE,1999-11-12,NA,NA
 FALSE,9003435,"temozolomide 5 mg oral capsule",4,FALSE,1999-11-12,NA,NA
 FALSE,9003436,"coal tar 1.25 % cutaneous gel",1,FALSE,1999-11-30,NA,NA
 FALSE,9003437,"zanamivir 5 mg inhalation powder",1,FALSE,1999-12-07,NA,NA
-FALSE,9003439,"biotin 10 mcg and choline bitartrate 70 mg and chromium (chromium hvp chelate) 20 mcg and dl-methionine 25 mg and d-pantothenic acid (calcium d-pantothenate) 50 mg and folic acid 0.04 mg and inositol 5 mg and iodine (potassium iodide) 0.025 mg and magnesium (magnesium oxide) 40 mg and manganese (manganese gluconate) 0.5 mg and nicotinamide 5 mg and nicotinic acid 5 mg and potassium (potassium chloride, potassium citrate) 40 mg and selenium (selenium hvp chelate) 25 mcg and vitamin a (retinol palmitate) 4000 unit and vitamin b12 (cyanocobalamin) 25 mcg and vitamin b1 (thiamine hydrochloride) 20 mg and vitamin b2 (riboflavin) 5 mg and vitamin b6 (pyridoxine hydrochloride) 15 mg and vitamin c (ascorbic acid) 300 mg and vitamin c (calcium ascorbate) 100 mg and vitamin e (d-alpha tocopheryl acetate) 65 unit and zinc (zinc gluconate) 3 mg oral tablet",1,TRUE,1999-12-13,NA,NA
 FALSE,9002267,"chlorhexidine gluconate 2 % cutaneous liquid",4,FALSE,1999-12-15,NA,NA
 FALSE,9003440,"petrolatum 95.96 % cutaneous cream",1,FALSE,1999-12-15,NA,NA
 FALSE,9003441,"white petrolatum 69 % and zinc oxide 15 % cutaneous ointment",1,FALSE,1999-12-15,NA,NA
@@ -3159,7 +3119,6 @@ FALSE,9003444,"epoetin alfa 40000 unit per mL solution for injection",1,FALSE,19
 FALSE,9003445,"oseltamivir (oseltamivir phosphate) 75 mg oral capsule",2,FALSE,1999-12-23,NA,NA
 FALSE,9003446,"pyrithione zinc 1.8 % shampoo",1,FALSE,1999-12-24,NA,NA
 FALSE,9003447,"lidocaine hydrochloride 50 mg per mL and polymyxin b (polymyxin b sulfate) 10000 unit per mL otic drops",1,FALSE,1999-12-29,NA,NA
-FALSE,9003448,"vitamin d2 50000 unit oral capsule",2,FALSE,1999-12-30,NA,NA
 FALSE,9003449,"cefoxitin (cefoxitin sodium) 10 g per vial powder for solution for injection",1,FALSE,2000-01-01,NA,NA
 FALSE,9003450,"octinoxate 3 % and octisalate 3 % and titanium dioxide 2 % cutaneous cream",1,FALSE,2000-01-01,NA,NA
 FALSE,9003451,"calcium chloride 257 mg per l and icodextrin 75 g per l and magnesium chloride 51 mg per l and sodium chloride 5.35 g per l and sodium lactate 4.48 g per l solution for peritoneal dialysis",1,FALSE,2000-01-20,NA,NA
@@ -3226,7 +3185,6 @@ FALSE,9003513,"triclosan 0.1 % cutaneous liquid",6,FALSE,2000-08-21,NA,NA
 FALSE,9003514,"cyclophosphamide 50 mg oral tablet",1,FALSE,2000-08-22,NA,NA
 FALSE,9002951,"chlorhexidine gluconate 0.12 % oral liquid",1,FALSE,2000-08-29,NA,NA
 FALSE,9003515,"standardized perennial rye grass pollen 10000 unit per mL solution for injection",2,FALSE,2000-08-29,NA,NA
-FALSE,9003516,"vitamin b12 100 mcg per mL solution for injection",1,FALSE,2000-08-29,NA,NA
 FALSE,9003517,"coal tar 0.5 % shampoo",1,FALSE,2000-09-01,NA,NA
 FALSE,9003518,"cyclophosphamide 25 mg oral tablet",1,FALSE,2000-09-01,NA,NA
 FALSE,9003519,"standardized orchard grass pollen 100000 unit per mL solution for injection",3,FALSE,2000-09-06,NA,NA
@@ -3247,7 +3205,6 @@ FALSE,9003535,"standardized redtop grass pollen 100000 unit per mL solution for 
 FALSE,9003536,"standardized sweet vernal grass pollen 100000 unit per mL solution for injection",2,FALSE,2000-10-30,NA,NA
 FALSE,9003537,"standardized timothy grass pollen 100000 unit per mL solution for injection",3,FALSE,2000-10-30,NA,NA
 FALSE,9003538,"oxygen 99.2 % medicinal gas",1,FALSE,2000-11-01,NA,NA
-FALSE,9003539,"biotin 20 mcg per vial and dexpanthenol 5 mg per vial and folic acid 140 mcg per vial and nicotinamide 17 mg per vial and pyridoxine hydrochloride 1 mg per vial and vitamin a 2300 unit per vial and vitamin b12 (cyanocobalamin) 1 mcg per vial and vitamin b1 (thiamine hydrochloride) 1.2 mg per vial and vitamin b2 (riboflavin-5-phosphate) 1.4 mg per vial and vitamin c (ascorbic acid) 80 mg per vial and vitamin d 400 unit per vial and vitamin e (dl-alpha tocopheryl acetate) 7 unit per vial and vitamin k1 0.2 mg per vial solution for injection",1,TRUE,2000-11-07,NA,NA
 FALSE,9003540,"standardized orchard grass pollen 10000 unit per mL solution for injection",1,FALSE,2000-11-07,NA,NA
 FALSE,9003541,"bismuth subsalicylate 35 mg per mL oral suspension",1,FALSE,2000-11-21,NA,NA
 FALSE,9003542,"cyclophosphamide 200 mg per vial powder for solution for injection",1,FALSE,2000-11-26,NA,NA
@@ -3336,7 +3293,6 @@ FALSE,9003639,"pamidronate disodium 6 mg per mL solution for injection",4,FALSE,
 FALSE,9003640,"pamidronate disodium 9 mg per mL solution for injection",4,FALSE,2001-08-31,NA,NA
 FALSE,9003641,"tazarotene 0.05 % cutaneous cream",1,FALSE,2001-08-31,NA,NA
 FALSE,9003642,"tazarotene 0.1 % cutaneous cream",1,FALSE,2001-08-31,NA,NA
-FALSE,9003643,"acetaminophen 650 mg per pck and pheniramine maleate 20 mg per pck and phenylephrine hydrochloride 10 mg per pck and vitamin c 50 mg per pck oral powder",1,FALSE,2001-09-01,NA,NA
 FALSE,9003644,"benzoyl peroxide 5 % and clindamycin (clindamycin phosphate) 1 % cutaneous gel",3,FALSE,2001-09-04,NA,NA
 FALSE,9003645,"brompheniramine maleate 2 mg per 5 mL and codeine phosphate 10 mg per 5 mL and phenylephrine hydrochloride 5 mg per 5 mL syrup",1,FALSE,2001-09-05,NA,NA
 FALSE,9003647,"misoprostol 0.1 mg oral tablet",1,FALSE,2001-09-20,NA,NA
@@ -3369,8 +3325,6 @@ FALSE,9003677,"midazolam (midazolam hydrochloride) 5 mg per mL solution for inje
 FALSE,9003678,"NA 50 mg per vial powder for solution for injection",1,FALSE,2001-12-20,NA,NA
 FALSE,9003679,"doxorubicin hydrochloride 2 mg per mL powder for suspension for infusion",1,FALSE,2001-12-21,NA,NA
 FALSE,9003680,"ceftazidime (ceftazidime pentahydrate) 2 g per vial powder for solution for injection",2,FALSE,2001-12-28,NA,NA
-FALSE,9003681,"acetaminophen 325 mg per 22 g and pheniramine maleate 20 mg per 22 g and phenylephrine hydrochloride 10 mg per 22 g and vitamin c (ascorbic acid) 50 mg per 22 g oral powder",2,FALSE,2001-12-29,NA,NA
-FALSE,9003682,"acetaminophen 650 mg per 22 mg and pheniramine maleate 20 mg per 22 mg and phenylephrine hydrochloride 10 mg per 22 mg and vitamin c 50 mg per 22 mg oral powder",1,FALSE,2001-12-29,NA,NA
 FALSE,9003683,"dextromethorphan hydrobromide 30 mg per 22 g and pheniramine maleate 20 mg per 22 g and phenylephrine hydrochloride 10 mg per 22 g powder for oral solution",1,FALSE,2001-12-29,NA,NA
 FALSE,9003684,"didanosine 125 mg gastro-resistant capsule",1,FALSE,2002-01-02,NA,NA
 FALSE,9003685,"didanosine 200 mg gastro-resistant capsule",1,FALSE,2002-01-02,NA,NA
@@ -3380,7 +3334,6 @@ FALSE,9003688,"acetaminophen 500 mg and diphenhydramine hydrochloride 12.5 mg an
 FALSE,9003689,"acetaminophen 80 mg and chlorpheniramine maleate 0.5 mg and phenylephrine hydrochloride 1.25 mg oral tablet",1,FALSE,2002-01-09,NA,NA
 FALSE,9003690,"desloratadine 5 mg oral tablet",5,FALSE,2002-01-10,NA,NA
 FALSE,9003691,"meningococcal polysaccharide vaccine grp c 10 mcg per 0.5 mL and tetanus toxoid 20 mcg per 0.5 mL suspension for injection",1,FALSE,2002-01-21,NA,NA
-FALSE,9003692,"biotin 12 mcg per mL and dexpanthenol (panthenol) 3 mg per mL and folic acid 80 mcg per mL and nicotinamide 8 mg per mL and pyridoxine hydrochloride 0.8 mg per mL and vitamin a 660 unit per mL and vitamin b12 (cyanocobalamin) 1 mcg per mL and vitamin b1 (thiamine hydrochloride) 0.6 mg per mL and vitamin b2 0.72 mg per mL and vitamin c 20 mg per mL and vitamin e (dl-alpha tocopheryl acetate) 2 unit per mL solution for injection",1,TRUE,2002-01-28,NA,NA
 FALSE,9003693,"camphor 0.3 g per 100 g and glycol salicylate 1.25 g per 100 g and l-menthol 1 g per 100 g plaster",1,FALSE,2002-02-01,NA,NA
 FALSE,9003694,"homosalate 14.5 % and octinoxate 7.4 % and oxybenzone 5.9 % cutaneous ointment",1,FALSE,2002-02-02,NA,NA
 FALSE,9003695,"phospholipid 27 mg per mL and surfactant-associated proteins sp-b and sp-c 500 mcg per mL endotracheopulmonary instillation",1,FALSE,2002-02-05,NA,NA
@@ -3407,7 +3360,6 @@ FALSE,9003718,"enoxaparin sodium 120 mg per 0.8 mL solution for injection",1,FAL
 FALSE,9003719,"ketoconazole 2 % cutaneous cream",1,FALSE,2002-05-23,NA,NA
 FALSE,9003721,"glucagon (recombinant dna origin) 1 mg per vial NA",1,FALSE,2002-05-27,NA,NA
 FALSE,9003723,"anakinra 150 mg per mL solution for injection",1,FALSE,2002-05-29,NA,NA
-FALSE,9003724,"vitamin c (ascorbic acid) 500 mg per mL solution for injection",1,FALSE,2002-05-29,NA,NA
 FALSE,9003725,"avobenzone 2.5 % and octinoxate 7.5 % and octisalate 5 % and oxybenzone 3 % and titanium dioxide 0.8 % cutaneous cream",1,FALSE,2002-06-01,NA,NA
 FALSE,9003726,"dimethicone 2 % lotion",1,FALSE,2002-06-01,NA,NA
 FALSE,9003727,"sodium carboxymethyl cellulose 0.25 % ophthalmic drops",2,FALSE,2002-06-01,NA,NA
@@ -4451,7 +4403,6 @@ FALSE,9004864,"avobenzone 3 % and homosalate 10 % and octisalate 5 % and octocry
 FALSE,9004865,"glycerine 0.2 % and hypromellose 0.2 % ophthalmic drops",5,FALSE,2011-04-19,NA,NA
 FALSE,9004866,"octinoxate 6 % and titanium dioxide 5.6 % lotion",1,FALSE,2011-04-19,NA,NA
 FALSE,9004867,"glycerine 0.5 % and naphazoline hydrochloride 0.03 % ophthalmic drops",1,FALSE,2011-04-27,NA,NA
-FALSE,9004868,"polyethylene glycol 3350 100 g per pck and potassium chloride 1.015 g per pck and sodium ascorbate 5.9 g per pck and sodium chloride 2.691 g per pck and sodium sulfate anhydrous 7.5 g per pck and vitamin c 4.7 g per pck powder for oral solution",1,TRUE,2011-04-28,NA,NA
 FALSE,9004869,"cilastatin (cilastatin sodium) 500 mg and imipenem 500 mg powder for solution for injection",1,FALSE,2011-05-02,NA,NA
 FALSE,9004870,"tobramycin 28 mg inhalation powder capsule",1,FALSE,2011-05-12,NA,NA
 FALSE,9004871,"adapalene 0.1 % and benzoyl peroxide 2.5 % cutaneous gel",1,FALSE,2011-05-13,NA,NA
@@ -4984,7 +4935,6 @@ FALSE,9005462,"petrolatum 95.7 % cutaneous ointment",1,FALSE,2014-03-06,NA,NA
 FALSE,9005463,"avobenzone 2 % and homosalate 10 % and octisalate 5 % and octocrylene 2 % and oxybenzone 5 % spray (bag-on-valve)",3,FALSE,2014-03-11,NA,NA
 FALSE,9005464,"avobenzone 3 % and octinoxate 4 % lotion",5,FALSE,2014-03-11,NA,NA
 FALSE,9005465,"darbepoetin alfa 40 mcg per mL solution for injection",1,FALSE,2014-03-12,NA,NA
-FALSE,9005466,"vitamin b12 1000 mcg per mL solution for injection",2,FALSE,2014-03-12,NA,NA
 FALSE,9005467,"lurasidone hydrochloride 60 mg oral tablet",1,FALSE,2014-03-14,NA,NA
 FALSE,9005468,"umeclidinium (umeclidinium bromide) 62.5 mcg and vilanterol (vilanterol trifenatate) 25 mcg inhalation powder",1,FALSE,2014-03-14,NA,NA
 FALSE,9005469,"white petrolatum 72 % and zinc oxide 15 % cutaneous ointment",1,FALSE,2014-03-14,NA,NA
@@ -5445,7 +5395,6 @@ FALSE,9005995,"daratumumab 100 mg per 5 mL solution for injection",1,FALSE,2016-
 FALSE,9005996,"daratumumab 400 mg per 20 mL solution for injection",1,FALSE,2016-07-12,NA,NA
 FALSE,9005997,"avobenzone 3 % and octinoxate 4.5 % and octisalate 5 % and octocrylene 7.5 % lotion",1,FALSE,2016-07-14,NA,NA
 FALSE,9005998,"antihemophilic factor (recombinant) 2000 unit per vial NA",1,FALSE,2016-07-15,NA,NA
-FALSE,9005999,"beta-carotene 1.6 mg and calcium (calcium carbonate) 300 mg and copper (cupric oxide) 2 mg and d-pantothenic acid (calcium d-pantothenate) 5 mg and folic acid 1.1 mg and iodine (potassium iodide) 0.15 mg and iron (ferrous fumarate) 35 mg and magnesium (magnesium oxide) 50 mg and nicotinamide 20 mg and vitamin b12 (cyanocobalamin) 12 mcg and vitamin b1 (thiamine mononitrate) 3 mg and vitamin b2 (riboflavin) 3.4 mg and vitamin b6 (pyridoxine hydrochloride) 10 mg and vitamin c (ascorbic acid) 120 mg and vitamin d3 (cholecalciferol) 600 unit and vitamin e (dl-alpha tocopheryl acetate) 13.8 mg and zinc (zinc oxide) 15 mg oral tablet",1,TRUE,2016-07-15,NA,NA
 FALSE,9006000,"potassium acetate 39.2 % solution for injection",1,FALSE,2016-07-18,NA,NA
 FALSE,9006001,"osimertinib (osimertinib mesylate) 40 mg oral tablet",1,FALSE,2016-07-19,NA,NA
 FALSE,9006002,"osimertinib (osimertinib mesylate) 80 mg oral tablet",1,FALSE,2016-07-19,NA,NA
@@ -5479,7 +5428,6 @@ FALSE,9006029,"antihemophilic factor (recombinant) 3000 unit per vial NA",1,FALS
 FALSE,9006030,"adenine 0.169 g per l and dextrose 9 g per l and mannitol 5.25 g per l and sodium chloride 8.77 g per l NA",1,FALSE,2016-08-22,NA,NA
 FALSE,9006031,"citric acid 3.27 g per l and dextrose 25.5 g per l and sodium citrate dihydrate 26.3 g per l and sodium phosphate monobasic 2.51 g per l NA",1,FALSE,2016-08-22,NA,NA
 FALSE,9006032,"glatiramer acetate 40 mg per mL solution for injection",1,FALSE,2016-08-26,NA,NA
-FALSE,9006033,"beta-carotene 1.6 mg and calcium (calcium carbonate) 300 mg and copper (cupric oxide) 2 mg and d-pantothenic acid (calcium d-pantothenate) 5 mg and folic acid 5 mg and iodine (potassium iodide) 0.15 mg and iron (ferrous fumarate) 35 mg and magnesium (magnesium oxide) 50 mg and nicotinamide 20 mg and vitamin b12 (cyanocobalamin) 12 mcg and vitamin b1 (thiamine mononitrate) 3 mg and vitamin b2 (riboflavin) 3.4 mg and vitamin b6 (pyridoxine hydrochloride) 10 mg and vitamin c (ascorbic acid) 120 mg and vitamin d3 (cholecalciferol) 600 unit and vitamin e (dl-alpha tocopheryl acetate) 13.8 mg and zinc (zinc oxide) 15 mg oral tablet",1,TRUE,2016-08-28,NA,NA
 FALSE,9006034,"acetic acid 36 g per l and calcium chloride 36.8 g per l and dextrose 220 g per l and magnesium chloride 20.3 g per l and potassium chloride 14.9 g per l solution for haemodialysis",1,FALSE,2016-09-07,NA,NA
 FALSE,9006035,"calcium chloride 0.221 g per l and dextrose 1.1 g per l and magnesium chloride 0.102 g per l and potassium chloride 0.075 g per l and sodium chloride 5.552 g per l and sodium lactate 8.408 g per l solution for haemodialysis",1,TRUE,2016-09-15,NA,NA
 FALSE,9006036,"calcium chloride 0.221 g per l and dextrose 1.1 g per l and magnesium chloride 0.102 g per l and potassium chloride 0.075 g per l and sodium chloride 5.844 g per l and sodium lactate 7.473 g per l solution for haemodialysis",1,TRUE,2016-09-15,NA,NA
@@ -5615,8 +5563,6 @@ FALSE,9006179,"avobenzone 3 % and homosalate 10 % and octinoxate 5 % and octisal
 FALSE,9006180,"avobenzone 3 % and homosalate 15 % and octisalate 5 % and octocrylene 10 % cutaneous cream",1,FALSE,2017-05-25,NA,NA
 FALSE,9006181,"obeticholic acid 10 mg oral tablet",1,FALSE,2017-05-26,NA,NA
 FALSE,9006182,"obeticholic acid 5 mg oral tablet",1,FALSE,2017-05-26,NA,NA
-FALSE,9006183,"vitamin a (retinyl palmitate) 100000 unit and vitamin e (dl-alpha tocopheryl acetate) 20 unit oral capsule",1,FALSE,2017-05-26,NA,NA
-FALSE,9006184,"vitamin a (retinyl palmitate) 200000 unit and vitamin e (dl-alpha tocopheryl acetate) 40 unit oral capsule",1,FALSE,2017-05-26,NA,NA
 FALSE,9006185,"bacitracin zinc 500 unit per g and polymyxin b sulfate 10000 unit per g ophthalmic ointment",1,FALSE,2017-05-31,NA,NA
 FALSE,9006186,"benzoyl peroxide 5 % cutaneous ointment",1,FALSE,2017-05-31,NA,NA
 FALSE,9006187,"avobenzone 3 % and homosalate 11.7 % and octisalate 4.5 % and octocrylene 4.5 % and oxybenzone 5.4 % lotion",1,FALSE,2017-06-01,NA,NA
@@ -5631,255 +5577,320 @@ FALSE,9006197,"omalizumab 75 mg per 0.5 mL solution for injection",1,FALSE,2017-
 FALSE,9001583,"acetaminophen 325 mg oral tablet",25,FALSE,NA,NA,NA
 FALSE,9002437,"chlorpheniramine maleate 2 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL oral liquid",1,FALSE,NA,NA,NA
 FALSE,9002047,"docusate sodium 100 mg oral capsule",25,FALSE,NA,NA,NA
-TRUE,9006198,"penicillin v potassium 300 mg per 5 mL powder for oral solution",2,FALSE,1977-12-31,NA,NA
-TRUE,9006199,"codeine phosphate 10 mg per 5 mL oral solution",1,FALSE,1978-12-31,NA,NA
-TRUE,9006200,"epinephrine 0.09 mg per 0.3 mL solution for injection syringe",1,FALSE,1980-12-31,NA,NA
-TRUE,9006201,"alcohol anhydrous 0.25 mL per 5 mL and doxylamine succinate 6 mg per 5 mL and etafedrin hydrochloride 16.65 mg per 5 mL and hydrocodone bitartrate 1.65 mg per 5 mL and sodium citrate 200 mg per 5 mL syrup",2,FALSE,1983-12-31,NA,NA
-TRUE,9006202,"ethinyl estradiol 0.035 mg and ethinyl estradiol 0.035 mg and ethinyl estradiol 0.035 mg and norethindrone 0.75 mg and norethindrone 1 mg and norethindrone 0.5 mg oral tablet",1,TRUE,1983-12-31,NA,NA
-TRUE,9006203,"epinephrine 0.045 mg per 0.3 mL solution for injection syringe",2,FALSE,1984-12-31,NA,NA
-TRUE,9006204,"hydromorphone hydrochloride 10 mg per mL solution for injection 50 mL vial",2,FALSE,1984-12-31,NA,NA
-TRUE,9006205,"penicillin v potassium 125 mg per 5 mL powder for oral solution",1,FALSE,1985-12-31,NA,NA
-TRUE,9006206,"penicillin v potassium 300 mg oral tablet",1,FALSE,1985-12-31,NA,NA
-TRUE,9006207,"codeine phosphate 25 mg per 5 mL syrup",1,FALSE,1986-12-18,NA,NA
-TRUE,9006208,"meperidine hydrochloride 10 mg per mL solution for injection 30 mL vial",1,FALSE,1986-12-31,NA,NA
-TRUE,9006209,"ethinyl estradiol 30 mcg and ethinyl estradiol 40 mcg and ethinyl estradiol 30 mcg and levonorgestrel 125 mcg and levonorgestrel 50 mcg and levonorgestrel 75 mcg oral tablet",1,TRUE,1987-12-31,NA,NA
-TRUE,9006210,"ethinyl estradiol 30 mcg and ethinyl estradiol 40 mcg and ethinyl estradiol 30 mcg and levonorgestrel 50 mcg and levonorgestrel 75 mcg and levonorgestrel 125 mcg oral tablet",1,TRUE,1987-12-31,NA,NA
-TRUE,9006211,"morphine sulfate 250 mg per 5 mL solution for injection vial",1,FALSE,1987-12-31,NA,NA
-TRUE,9006212,"morphine sulfate 500 mg per 10 mL solution for injection vial",1,FALSE,1987-12-31,NA,NA
-TRUE,9006213,"morphine sulfate 50 mg per 1 mL solution for injection vial",1,FALSE,1987-12-31,NA,NA
-TRUE,9006214,"morphine sulfate 50 mg per mL solution for injection 50 mL vial",3,FALSE,1987-12-31,NA,NA
-TRUE,9006215,"nitroglycerin 500 mg per 10 mL solution for injection vial",2,FALSE,1988-12-31,NA,NA
-TRUE,9006216,"dexamethasone phosphate (dexamethasone sodium phosphate) 1 mg per mL ophthalmic/otic drops",1,FALSE,1989-12-31,NA,NA
-TRUE,9006217,"dexamethasone (dexamethasone sodium phosphate) 10 mg per 1 mL solution for injection",1,FALSE,1990-12-31,NA,NA
-TRUE,9006218,"folic acid 50 mg per 10 mL and folic acid 50 mg per 10 mL solution for injection vial",1,FALSE,1990-12-31,NA,NA
-TRUE,9006219,"morphine sulfate 50 mg per mL solution for injection 20 mL vial",1,FALSE,1990-12-31,NA,NA
-TRUE,9006220,"nitroglycerin 100 mg per 10 mL solution for injection vial",1,FALSE,1990-12-31,NA,NA
-TRUE,9006221,"furosemide 6250 mg per 25 mL solution for injection vial",2,FALSE,1991-12-31,NA,NA
-TRUE,9006222,"mometasone furoate 0.1 % lotion",2,FALSE,1991-12-31,NA,NA
-TRUE,9006223,"acetaminophen 500 mg and caffeine 15 mg and codeine phosphate 8 mg oral tablet",1,FALSE,1992-12-31,NA,NA
-TRUE,9006224,"hydrocortisone acetate 2.5 % ophthalmic ointment",1,FALSE,1992-12-31,NA,NA
-TRUE,9006225,"morphine sulfate 10 mg per 10 mL solution for injection vial",1,FALSE,1992-12-31,NA,NA
-TRUE,9006226,"morphine sulfate 1 mg per mL solution for injection 50 mL vial",2,FALSE,1992-12-31,NA,NA
-TRUE,9006227,"morphine sulfate 2 mg per 1 mL solution for injection vial",2,FALSE,1992-12-31,NA,NA
-TRUE,9006228,"morphine sulfate 2 mg per mL solution for injection 50 mL vial",2,FALSE,1992-12-31,NA,NA
-TRUE,9006229,"morphine sulfate 5 mg per 5 mL solution for injection vial",2,FALSE,1992-12-31,NA,NA
-TRUE,9006230,"morphine sulfate 5 mg per mL solution for injection 30 mL vial",1,FALSE,1992-12-31,NA,NA
-TRUE,9006231,"vitamin d3 (cholecalciferol) 10000 unit oral tablet",4,FALSE,1992-12-31,NA,NA
-TRUE,9006232,"ethinyl estradiol 0.035 mg and ethinyl estradiol 0.035 mg and ethinyl estradiol 0.035 mg and norgestimate 0.215 mg and norgestimate 0.25 mg and norgestimate 0.18 mg oral tablet",1,TRUE,1993-12-31,NA,NA
-TRUE,9006233,"amoxicillin 25 mg per mL oral suspension",1,FALSE,1994-12-31,NA,NA
-TRUE,9006234,"amoxicillin 50 mg per mL oral suspension",1,FALSE,1994-12-31,NA,NA
-TRUE,9006235,"dexamethasone sodium phosphate 0.1 % ophthalmic/otic drops",1,FALSE,1994-12-31,NA,NA
-TRUE,9006236,"digoxin 1 mg per 2 mL solution for injection ampoule",1,FALSE,1994-12-31,NA,NA
-TRUE,9006237,"epinephrine 1 mg per 1 mL solution for injection",1,FALSE,1994-12-31,NA,NA
-TRUE,9006238,"salbutamol (salbutamol sulfate) 5 mg per mL nebuliser solution 10 mL bottle",2,FALSE,1994-12-31,NA,NA
-TRUE,9006239,"cefprozil 125 mg per 5 mL oral suspension",4,FALSE,1995-12-31,NA,NA
-TRUE,9006240,"cefprozil 250 mg per 5 mL oral suspension",4,FALSE,1995-12-31,NA,NA
-TRUE,9006241,"clarithromycin 125 mg per 5 mL oral suspension",3,FALSE,1995-12-31,NA,NA
-TRUE,9006242,"hydromorphone hydrochloride 1000 mg per 50 mL solution for injection vial",1,FALSE,1995-12-31,NA,NA
-TRUE,9006243,"hydromorphone hydrochloride 100 mg per 5 mL solution for injection vial",1,FALSE,1995-12-31,NA,NA
-TRUE,9006244,"hydromorphone hydrochloride 20 mg per 1 mL solution for injection vial",1,FALSE,1995-12-31,NA,NA
-TRUE,9006245,"hydromorphone hydrochloride 50 mg per mL solution for injection 50 mL vial",1,FALSE,1995-12-31,NA,NA
-TRUE,9006246,"mesalazine 1 g per 100 mL rectal suspension",1,FALSE,1995-12-31,NA,NA
-TRUE,9006247,"mesalazine 4 g per 100 mL rectal suspension",1,FALSE,1995-12-31,NA,NA
-TRUE,9006248,"nifedipine 10 mg prolonged-release oral tablet",1,FALSE,1995-12-31,NA,NA
-TRUE,9006249,"oxybutynin chloride 5 mg per 5 mL syrup",3,FALSE,1996-09-04,NA,NA
-TRUE,9006250,"azithromycin 100 mg per 5 mL oral suspension",4,FALSE,1996-09-26,NA,NA
-TRUE,9006251,"azithromycin 200 mg per 5 mL oral suspension",4,FALSE,1996-09-26,NA,NA
-TRUE,9006252,"naproxen 125 mg per 5 mL oral suspension",1,FALSE,1996-12-31,NA,NA
-TRUE,9006253,"triamcinolone acetonide 20 mg per 1 mL suspension for injection vial",1,FALSE,1997-01-20,NA,NA
-TRUE,9006254,"sumatriptan (sumatriptan hemisulfate) 20 mg per actuation nasal spray",1,FALSE,1997-02-19,NA,NA
-TRUE,9006255,"sumatriptan (sumatriptan hemisulfate) 5 mg per actuation nasal spray",1,FALSE,1997-02-19,NA,NA
-TRUE,9006256,"benztropine mesylate 2 mg per 5 mL oral solution",1,FALSE,1997-08-20,NA,NA
-TRUE,9006257,"acyclovir (acyclovir sodium) 500 mg per 20 mL solution for injection vial",1,FALSE,1998-03-18,NA,NA
-TRUE,9006258,"ciprofloxacin 500 mg per 5 mL oral suspension",1,FALSE,1998-09-15,NA,NA
-TRUE,9006259,"mometasone furoate 50 mcg per actuation nasal spray",3,FALSE,1998-09-15,NA,NA
-TRUE,9006260,"epinephrine racemic 2.25 % inhalation solution",1,FALSE,1998-10-02,NA,NA
-TRUE,9006261,"amoxicillin 200 mg per 5 mL and clavulanic acid (potassium clavulanate) 28.5 mg per 5 mL oral suspension",1,FALSE,1998-10-29,NA,NA
-TRUE,9006262,"amoxicillin 400 mg per 5 mL and clavulanic acid (potassium clavulanate) 57 mg per 5 mL oral suspension",2,FALSE,1998-10-29,NA,NA
-TRUE,9006263,"clindamycin (clindamycin phosphate) 150 mg per mL solution for injection 120 mL vial",1,FALSE,1999-01-19,NA,NA
-TRUE,9006264,"clindamycin (clindamycin phosphate) 150 mg per mL solution for injection 60 mL vial",1,FALSE,1999-01-19,NA,NA
-TRUE,9006265,"dexamethasone phosphate (dexamethasone sodium phosphate) 4 mg per 1 mL solution for injection vial",1,FALSE,1999-04-01,NA,NA
-TRUE,9006266,"dexamethasone phosphate (dexamethasone sodium phosphate) 10 mg per 1 mL solution for injection vial",1,FALSE,1999-06-30,NA,NA
-TRUE,9006267,"sumatriptan (sumatriptan succinate) 6 mg per 0.5 mL solution for injection 0.5 mL syringe",2,FALSE,1999-08-30,NA,NA
-TRUE,9006268,"fluticasone propionate 100 mcg per actuation and salmeterol (salmeterol xinafoate) 50 mcg per actuation inhalation powder",1,FALSE,1999-09-24,NA,NA
-TRUE,9006269,"fluticasone propionate 250 mcg per actuation and salmeterol (salmeterol xinafoate) 50 mcg per actuation inhalation powder",1,FALSE,1999-09-24,NA,NA
-TRUE,9006270,"fluticasone propionate 500 mcg per actuation and salmeterol (salmeterol xinafoate) 50 mcg per actuation inhalation powder",1,FALSE,1999-09-24,NA,NA
-TRUE,9006271,"meperidine hydrochloride 100 mg per mL solution for injection 20 mL vial",1,FALSE,2000-05-01,NA,NA
-TRUE,9006272,"ranitidine (ranitidine hydrochloride) 100 mg per 2 mL solution for injection vial",2,FALSE,2000-05-01,NA,NA
-TRUE,9006273,"doxycycline (doxycycline hyclate) 8.8 % periodontal gel",1,FALSE,2001-01-31,NA,NA
-TRUE,9006274,"hydromorphone hydrochloride 10000 mg per 10 mL solution for injection vial",1,FALSE,2001-12-10,NA,NA
-TRUE,9006275,"fluticasone propionate 125 mcg per actuation and salmeterol (salmeterol xinafoate) 25 mcg per actuation pressurised inhalation",1,FALSE,2001-12-21,NA,NA
-TRUE,9006276,"fluticasone propionate 250 mcg per actuation and salmeterol (salmeterol xinafoate) 25 mcg per actuation pressurised inhalation",1,FALSE,2001-12-21,NA,NA
-TRUE,9006277,"clarithromycin 250 mg per 5 mL oral suspension",3,FALSE,2002-05-28,NA,NA
-TRUE,9006278,"pentazocine (pentazocine lactate) 30 mg per 1 mL solution for injection",1,FALSE,2002-11-01,NA,NA
-TRUE,9006279,"ibuprofen 50 mg chewable tablet",1,FALSE,2003-05-14,NA,NA
-TRUE,9006280,"ranitidine (ranitidine hydrochloride) 75 mg per 5 mL oral solution",2,FALSE,2004-09-08,NA,NA
-TRUE,9006281,"risperidone 25 mg per vial NA",1,FALSE,2004-09-08,NA,NA
-TRUE,9006282,"risperidone 37.5 mg per vial NA",1,FALSE,2004-09-08,NA,NA
-TRUE,9006283,"risperidone 50 mg per vial NA",1,FALSE,2004-09-08,NA,NA
-TRUE,9006284,"azithromycin (azithromycin hemiethanolate) 100 mg per 5 mL oral suspension",2,FALSE,2006-04-19,NA,NA
-TRUE,9006285,"azithromycin (azithromycin hemiethanolate) 200 mg per 5 mL oral suspension",2,FALSE,2006-04-19,NA,NA
-TRUE,9006286,"varenicline (varenicline tartrate) 0.5 mg and varenicline (varenicline tartrate) 1 mg NA",1,FALSE,2007-10-02,NA,NA
-TRUE,9006287,"risperidone 12.5 mg per vial NA",1,FALSE,2007-10-24,NA,NA
-TRUE,9006288,"vitamin d3 (cholecalciferol) 50000 unit oral capsule",3,FALSE,2011-08-09,NA,NA
-TRUE,9006289,"oxybutynin chloride 10 % cutaneous gel",1,FALSE,2011-10-27,NA,NA
-TRUE,9006290,"ibuprofen 400 mg per 4 mL solution for injection vial",1,FALSE,2012-06-15,NA,NA
-TRUE,9006291,"ibuprofen 800 mg per 8 mL solution for injection vial",1,FALSE,2012-06-15,NA,NA
-TRUE,9006292,"dexamethasone phosphate (dexamethasone sodium phosphate) 10 mg per 1 mL solution for injection",1,FALSE,2013-05-08,NA,NA
-TRUE,9006293,"furosemide 40 mg per 2 mL solution for injection ampoule",1,FALSE,2013-08-22,NA,NA
-TRUE,9006294,"aripiprazole 300 mg per vial NA",1,FALSE,2014-03-27,NA,NA
-TRUE,9006295,"aripiprazole 400 mg per vial NA",1,FALSE,2014-03-27,NA,NA
-TRUE,9006296,"vitamin d3 (cholecalciferol) 2000 unit oral capsule",1,FALSE,2015-07-31,NA,NA
-TRUE,9006297,"vitamin d3 (cholecalciferol) 25000 unit oral capsule",1,FALSE,2015-07-31,NA,NA
-TRUE,9006298,"vitamin d3 (cholecalciferol) 5000 unit oral capsule",1,FALSE,2015-10-20,NA,NA
-TRUE,9006299,"betamethasone valerate 1 % cutaneous patch",1,FALSE,2016-04-05,NA,NA
-FALSE,9006300,"epinephrine (epinephrine bitartrate) 0.01 mg per mL and lidocaine hydrochloride 10 mg per mL solution for injection",1,FALSE,1954-12-31,NA,NA
-FALSE,9006301,"epinephrine (epinephrine bitartrate) 5 mcg per mL and lidocaine hydrochloride 10 mg per mL solution for injection",1,FALSE,1954-12-31,NA,NA
-FALSE,9006302,"lidocaine hydrochloride 20 mg per mL NA",1,FALSE,1954-12-31,NA,NA
-FALSE,9006303,"methylprednisolone acetate 40 mg per mL NA",2,FALSE,1960-12-31,NA,NA
-FALSE,9006304,"sodium polystyrene sulfonate 100 % powder for oral/rectal suspension",2,FALSE,1961-12-31,NA,NA
-FALSE,9006305,"NA 100 m per mL powder for solution for injection",1,FALSE,1964-12-31,NA,NA
-FALSE,9006306,"water 100 % NA",1,FALSE,1964-12-31,NA,NA
-FALSE,9006307,"epinephrine (epinephrine bitartrate) 5 mcg per mL and lidocaine hydrochloride 20 mg per mL solution for injection",1,FALSE,1965-12-31,NA,NA
-FALSE,9006308,"sodium chloride 9 mg per mL NA",1,FALSE,1966-12-31,NA,NA
-FALSE,9006309,"NA 0.5 % and NA 0.05 % cutaneous cream",1,FALSE,1967-12-31,NA,NA
-FALSE,9006310,"methylprednisolone acetate 80 mg per mL NA",2,FALSE,1969-12-31,NA,NA
-FALSE,9006311,"iodine (ethiodized oil) 380 mg per g NA",1,FALSE,1977-12-31,NA,NA
-FALSE,9006312,"bismuth subgallate 200 mg chewable tablet",1,FALSE,1978-12-31,NA,NA
-FALSE,9006313,"calcium polystyrene sulfonate 999 mg per g powder for oral/rectal suspension",1,FALSE,1979-12-31,NA,NA
-FALSE,9006314,"modified ragweed tyrosine adsorbate 210 unit per mL and modified ragweed tyrosine adsorbate 500 unit per mL and modified ragweed tyrosine adsorbate 1400 unit per mL and modified ragweed tyrosine adsorbate 4300 unit per mL solution for injection",1,FALSE,1979-12-31,NA,NA
-FALSE,9006315,"aloe 2 g per 100 mL and benzoin 10 g per 100 mL and myroxylon balsamum 4 g per 100 mL and storax 8 g per 100 mL inhalation solution",1,FALSE,1982-12-31,NA,NA
-FALSE,9006316,"benzocaine 20 % and cetylpyridinium chloride 0.1 % oromucosal solution",1,FALSE,1982-12-31,NA,NA
-FALSE,9006317,"deoxycholic acid 30 mg and NA 30 mg and NA 150 mg oral tablet",1,FALSE,1983-12-31,NA,NA
-FALSE,9006318,"miconazole nitrate 400 mg and miconazole nitrate 2 % NA",1,FALSE,1986-12-31,NA,NA
-FALSE,9006319,"sodium polystyrene sulfonate 94.3 mg per g powder for oral/rectal suspension",1,FALSE,1988-12-31,NA,NA
-FALSE,9006320,"gramicidin 0.025 mg per mL and neomycin (neomycin sulfate) 1.75 mg per mL and polymyxin b (polymyxin b sulfate) 10000 unit per mL ophthalmic/otic drops",1,FALSE,1989-12-31,NA,NA
-FALSE,9006321,"tolnaftate 1 % NA",1,FALSE,1989-12-31,NA,NA
-FALSE,9006322,"cefixime 100 mg per 5 mL oral suspension",1,FALSE,1990-12-31,NA,NA
-FALSE,9006323,"cetrimonium bromide 0.5 % NA",1,FALSE,1990-12-31,NA,NA
-FALSE,9006324,"acetaminophen 80 mg per mL NA",1,FALSE,1991-12-31,NA,NA
-FALSE,9006325,"lidocaine 2.5 % and prilocaine 2.5 % cutaneous cream",1,FALSE,1991-12-31,NA,NA
-FALSE,9006326,"NA 40 mg per mL NA",1,FALSE,1992-11-19,NA,NA
-FALSE,9006327,"acetaminophen 80 mg per 1 mL NA",1,FALSE,1992-12-31,NA,NA
-FALSE,9006328,"chloramphenicol 10 mg per g and hydrocortisone acetate 10 mg per g ophthalmic/otic ointment",1,FALSE,1992-12-31,NA,NA
-FALSE,9006329,"chloramphenicol 2 mg per mL and hydrocortisone acetate 10 mg per mL ophthalmic/otic drops",1,FALSE,1992-12-31,NA,NA
-FALSE,9006330,"haemophilus influenzae type b-prp 10 mcg per 0.5 mL and tetanus protein 30 mcg per 0.5 mL NA",1,FALSE,1992-12-31,NA,NA
-FALSE,9006331,"chlorhexidine acetate 10 % NA",1,FALSE,1993-12-31,NA,NA
-FALSE,9006332,"cholestyramine resin 4 g per 5 g oral suspension",1,FALSE,1993-12-31,NA,NA
-FALSE,9006333,"cromolyn sodium 1 % nebuliser solution",1,FALSE,1993-12-31,NA,NA
-FALSE,9006334,"isoflurane 99.9 % NA",1,FALSE,1993-12-31,NA,NA
-FALSE,9006335,"levocabastine (levocabastine hydrochloride) 0.5 mg per mL NA",1,FALSE,1993-12-31,NA,NA
-FALSE,9006336,"budesonide 2.3 mg and sodium chloride 115 mL NA",1,FALSE,1994-12-31,NA,NA
-FALSE,9006337,"calcium chloride 0.48 mg per mL and magnesium chloride 0.3 mg per mL and potassium chloride 0.75 mg per mL and sodium acetate 3.9 mg per mL and sodium chloride 6.4 mg per mL and sodium citrate 1.7 mg per mL irrigation solution",1,TRUE,1994-12-31,NA,NA
-FALSE,9006338,"NA 0.5 % NA",1,FALSE,1994-12-31,NA,NA
-FALSE,9006339,"polysorbate 80 0.8 % NA",1,FALSE,1994-12-31,NA,NA
-FALSE,9006340,"lidocaine 0.5 % NA",1,FALSE,1995-03-17,NA,NA
-FALSE,9006341,"chlorhexidine gluconate 0.5 % and isopropyl alcohol 70 % NA",1,FALSE,1995-12-31,NA,NA
-FALSE,9006342,"gelatin 13.3 % and pectin 13.3 % and sodium carboxymethyl cellulose 13.3 % NA",1,FALSE,1995-12-31,NA,NA
-FALSE,9006343,"methylprednisolone acetate 20 mg per mL NA",1,FALSE,1995-12-31,NA,NA
-FALSE,9006344,"sodium citrate 90 mg per mL and sodium lauryl sulfoacetate 9 mg per mL and sorbitol 625 mg per mL NA",1,FALSE,1995-12-31,NA,NA
-FALSE,9006345,"cholestyramine resin 4 g per 9 g oral suspension",1,FALSE,1996-03-15,NA,NA
-FALSE,9006346,"chlorhexidine gluconate 0.12 % NA",2,FALSE,1996-10-30,NA,NA
-FALSE,9006347,"acetaminophen 325 mg per pck and pheniramine maleate 20 mg per pck and phenylephrine hydrochloride 10 mg per pck and vitamin c 50 mg per pck NA",1,FALSE,1996-11-26,NA,NA
-FALSE,9006348,"acetaminophen 500 mg per pck and pheniramine maleate 20 mg per pck and phenylephrine hydrochloride 10 mg per pck and vitamin c 50 mg per pck NA",1,FALSE,1996-11-26,NA,NA
-FALSE,9006349,"benzydamine hydrochloride 1.5 mg per mL NA",2,FALSE,1996-12-02,NA,NA
-FALSE,9006350,"ribavirin 6 g per vial NA",1,FALSE,1996-12-05,NA,NA
-FALSE,9006351,"dibucaine hydrochloride 0.5 % and esculin 1 % and framycetin sulfate 1 % and hydrocortisone (hydrocortisone acetate) 0.5 % suppository",1,FALSE,1996-12-30,NA,NA
-FALSE,9006352,"alteplase 100 mg and water 100 mL NA",1,FALSE,1996-12-31,NA,NA
-FALSE,9006353,"dibucaine hydrochloride 0.5 % and esculin 1 % and framycetin sulfate 1 % and hydrocortisone 0.5 % suppository",3,FALSE,1997-01-23,NA,NA
-FALSE,9006354,"dibucaine hydrochloride 0.5 % and esculin 1 % and framycetin sulfate 1 % and hydrocortisone (hydrocortisone acetate) 0.5 % rectal ointment",1,FALSE,1997-02-03,NA,NA
-FALSE,9006355,"interferon alfa-2b 10000000 unit per vial and water 1 mL per vial NA",1,FALSE,1997-03-12,NA,NA
-FALSE,9006356,"cetrimide 150 mg per 100 g and lidocaine 15 g per 100 g NA",1,FALSE,1997-03-26,NA,NA
-FALSE,9006357,"cromolyn sodium 2 % NA",1,FALSE,1997-07-28,NA,NA
-FALSE,9006358,"chorionic gonadotropin 10000 unit per vial and water 10 mL per vial NA",1,FALSE,1997-08-13,NA,NA
-FALSE,9006359,"diphtheria toxoid 15 lf per 0.5 mL and filamentous haemagglutinin 20 mcg per 0.5 mL and fimbriae 5 mcg per 0.5 mL and haemophilus influenzae type b-prp 10 mcg per 0.5 mL and inactivated poliomyelitis vaccine (d.c.o.) type 1 mahoney 40 unit per 0.5 mL and inactivated poliomyelitis vaccine (d.c.o.) type 2 mef1 8 unit per 0.5 mL and inactivated poliomyelitis vaccine (d.c.o.) type 3 saukett 32 unit per 0.5 mL and pertactin 3 mcg per 0.5 mL and pertussis toxoid 20 mcg per 0.5 mL and tetanus protein 30 mcg per 0.5 mL and tetanus toxoid 5 lf per 0.5 mL NA",1,TRUE,1997-08-14,NA,NA
-FALSE,9006360,"anti-inhibitor coagulant complex 1200 unit per vial and water 20 mL per vial NA",1,FALSE,1997-10-27,NA,NA
-FALSE,9006361,"bleomycin (bleomycin sulfate) 15 unit per vial NA",1,FALSE,1998-03-12,NA,NA
-FALSE,9006362,"bacitracin zinc 500 unit per g and polymyxin b sulfate 10000 unit per g NA",1,FALSE,1998-04-06,NA,NA
-FALSE,9006363,"alteplase 50 mg and water 50 mL NA",1,FALSE,1998-04-12,NA,NA
-FALSE,9006364,"amoxicillin 500 mg and clarithromycin 500 mg and lansoprazole 30 mg NA",1,FALSE,1998-08-18,NA,NA
-FALSE,9006365,"gramicidin 0.025 mg per mL and polymyxin b (polymyxin b sulfate) 10000 unit per mL ophthalmic/otic drops",1,FALSE,2000-02-12,NA,NA
-FALSE,9006366,"acetylsalicylic acid 25 mg and dipyridamole 200 mg NA",1,FALSE,2000-04-17,NA,NA
-FALSE,9006367,"conjugated estrogens 0.625 mg and medroxyprogesterone acetate 2.5 mg NA",1,FALSE,2000-10-30,NA,NA
-FALSE,9006368,"calcium chloride 5.145 g per 1000 mL and lactic acid 5.4 g per 1000 mL and magnesium chloride 2.033 g per 1000 mL and sodium bicarbonate 3.09 g per 1000 mL and sodium chloride 6.45 g per 1000 mL NA",1,FALSE,2001-01-01,NA,NA
-FALSE,9006369,"dibucaine hydrochloride 0.5 % and esculin 1 % and framycetin sulfate 1 % and hydrocortisone 0.5 % rectal ointment",3,FALSE,2001-03-09,NA,NA
-FALSE,9006370,"acetylcysteine 200 mg per mL NA",2,FALSE,2001-04-27,NA,NA
-FALSE,9006371,"diluent 3.15 mL and somatropin 12 mg NA",1,FALSE,2001-08-28,NA,NA
-FALSE,9006372,"diluent 3.15 mL and somatropin 6 mg NA",1,FALSE,2001-09-25,NA,NA
-FALSE,9006373,"conjugated estrogens 0.625 mg and medroxyprogesterone acetate 5 mg NA",1,FALSE,2002-05-09,NA,NA
-FALSE,9006374,"dexamethasone (dexamethasone sodium metasulphobenzoate) 0.5 mg per mL and framycetin sulfate 5 mg per mL and gramicidin 0.05 mg per mL ophthalmic/otic drops",2,FALSE,2002-07-26,NA,NA
-FALSE,9006375,"mycophenolate mofetil 200 mg per mL oral suspension",1,FALSE,2002-08-27,NA,NA
-FALSE,9006376,"alteplase 2 mg per vial powder for solution for injection",1,FALSE,2002-09-26,NA,NA
-FALSE,9006377,"diluent 3.15 mL and somatropin 24 mg NA",1,FALSE,2003-12-08,NA,NA
-FALSE,9006378,"hepatitis a vaccine, inactivated 160 unit per 0.5 mL and salmonella typhi vi capsular polysaccharide vaccine 25 mcg per 0.5 mL NA",1,FALSE,2005-11-09,NA,NA
-FALSE,9006379,"lactic acid 0.284 g per 1000 mL and magnesium chloride 0.108 g per 1000 mL and sodium bicarbonate 58.8 g per 1000 mL and sodium chloride 6.449 g per 1000 mL NA",1,FALSE,2005-12-24,NA,NA
-FALSE,9006380,"calcium chloride 5.145 g per 1000 mL and dextrose anhydrous 22 g per 1000 mL and lactic acid 5.4 g per 1000 mL and magnesium chloride 2.033 g per 1000 mL and potassium chloride 0.314 g per 1000 mL and sodium bicarbonate 3.09 g per 1000 mL and sodium chloride 6.45 g per 1000 mL NA",1,TRUE,2006-02-21,NA,NA
-FALSE,9006381,"cetylpyridinium chloride 0.05 % NA",1,FALSE,2006-03-22,NA,NA
-FALSE,9006382,"aprepitant 125 mg and aprepitant 80 mg NA",1,FALSE,2007-09-24,NA,NA
-FALSE,9006383,"voriconazole 3 g per bottle oral suspension",1,FALSE,2008-07-17,NA,NA
-FALSE,9006384,"calcium (calcium carbonate) 500 mg and etidronate disodium 400 mg NA",1,FALSE,2009-06-15,NA,NA
-FALSE,9006385,"glucagon (recombinant dna origin) (glucagon hydrochloride) 1 mg per vial NA",2,FALSE,2009-12-23,NA,NA
-FALSE,9006386,"bisacodyl 5 mg and polyethylene glycol 3350 59.55 g per pck and potassium chloride 0.76 g per pck and sodium bicarbonate 1.69 g per pck and sodium chloride 1.46 g per pck and sodium sulfate 5.74 g per pck NA",1,TRUE,2010-06-06,NA,NA
-FALSE,9006387,"polyethylene glycol 3350 100 % oral suspension",1,FALSE,2010-07-02,NA,NA
-FALSE,9006388,"corynebacterium diphtheriae crm-197 protein 47 mcg per 0.5 mL and meningococcal group a oligosaccharide 10 mcg per 0.5 mL and meningococcal group c oligosaccharide 5 mcg per 0.5 mL and meningococcal group w-135 oligosaccharide 5 mcg per 0.5 mL and meningococcal group y oligosaccharide 5 mcg per 0.5 mL NA",1,FALSE,2010-07-29,NA,NA
-FALSE,9006389,"linezolid 3 g per bottle oral suspension",1,FALSE,2010-08-04,NA,NA
-FALSE,9006390,"fibrinogen (human) 90 mg per mL and thrombin (human) 1200 unit per mL NA",1,FALSE,2011-03-01,NA,NA
-FALSE,9006391,"anti-inhibitor coagulant complex 3250 unit per vial and water 50 mL per vial NA",1,FALSE,2011-04-04,NA,NA
-FALSE,9006392,"calcium chloride 40 mcmol per mL and thrombin (human) 500 unit per mL and NA 125 mg per mL and NA 3000 kiu per mL kit",1,FALSE,2011-12-14,NA,NA
-FALSE,9006393,"calcium chloride 2.45 g per l and dextrose 9.9 g per l and magnesium chloride 1.83 g per l and potassium chloride 2.68 g per l and sodium bicarbonate 3.59 g per l and sodium chloride 6.18 g per l and sodium chloride 4.21 g per l solution for haemodialysis",1,TRUE,2012-03-09,NA,NA
-FALSE,9006394,"acetaminophen 500 mg and acetaminophen 500 mg and dextromethorphan hydrobromide 15 mg and diphenhydramine hydrochloride 25 mg and guaifenesin 100 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg NA",3,TRUE,2012-04-25,NA,NA
-FALSE,9006395,"epinephrine (epinephrine bitartrate) 0.005 mg per mL and lidocaine hydrochloride 20 mg per mL solution for injection",1,FALSE,2012-04-25,NA,NA
-FALSE,9006396,"polymyxin b (polymyxin b sulfate) 50 mg per vial NA",1,FALSE,2012-05-03,NA,NA
-FALSE,9006397,"acetaminophen 500 mg and acetaminophen 500 mg and doxylamine succinate 6.25 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg NA",2,FALSE,2012-05-05,NA,NA
-FALSE,9006398,"acetaminophen 500 mg and acetaminophen 500 mg and diphenhydramine hydrochloride 25 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg NA",1,FALSE,2012-06-18,NA,NA
-FALSE,9006399,"acetaminophen 500 mg and acetaminophen 500 mg and chlorpheniramine maleate 2 mg and dextromethorphan hydrobromide 15 mg and dextromethorphan hydrobromide 15 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg NA",2,TRUE,2012-06-28,NA,NA
-FALSE,9006400,"acetaminophen 325 mg and acetaminophen 325 mg and dextromethorphan hydrobromide 15 mg and dextromethorphan hydrobromide 15 mg and doxylamine succinate 6.25 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg NA",2,TRUE,2012-08-14,NA,NA
-FALSE,9006401,"acetaminophen 500 mg and acetaminophen 500 mg and dextromethorphan hydrobromide 15 mg and diphenhydramine hydrochloride 25 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg NA",1,TRUE,2012-08-28,NA,NA
-FALSE,9006402,"oseltamivir (oseltamivir phosphate) 6 mg per mL oral suspension",1,FALSE,2012-09-10,NA,NA
-FALSE,9006403,"acetaminophen 650 mg and acetaminophen 650 mg and dextromethorphan hydrobromide 30 mg and diphenhydramine hydrochloride 50 mg and pseudoephedrine hydrochloride 60 mg and pseudoephedrine hydrochloride 60 mg NA",1,TRUE,2012-09-13,NA,NA
-FALSE,9006404,"acetaminophen 250 mg and acetaminophen 325 mg and dextromethorphan hydrobromide 10 mg and dextromethorphan hydrobromide 15 mg and doxylamine succinate 6.25 mg and guaifenesin 100 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg NA",1,TRUE,2012-12-10,NA,NA
-FALSE,9006405,"stiripentol 250 mg per pck oral suspension",1,FALSE,2013-05-01,NA,NA
-FALSE,9006406,"stiripentol 500 mg per pck oral suspension",1,FALSE,2013-05-01,NA,NA
-FALSE,9006407,"benzoyl peroxide 2.5 % and benzoyl peroxide 2.5 % NA",3,FALSE,2013-08-08,NA,NA
-FALSE,9006408,"meningococcal polysaccharide antigen group a 5 mcg per 0.5 mL and meningococcal polysaccharide antigen group c 5 mcg per 0.5 mL and meningococcal polysaccharide antigen group w-135 5 mcg per 0.5 mL and meningococcal polysaccharide antigen group y 5 mcg per 0.5 mL and tetanus toxoid 44 mcg per 0.5 mL NA",1,FALSE,2013-08-22,NA,NA
-FALSE,9006409,"benzoyl peroxide 5 % and salicylic acid 2 % NA",1,FALSE,2013-11-15,NA,NA
-FALSE,9006410,"avobenzone 3 % and avobenzone 3 % and homosalate 10 % and octinoxate 4 % and octinoxate 7.5 % and octisalate 5 % and octocrylene 2.75 % and octocrylene 2.79 % NA",1,TRUE,2014-03-31,NA,NA
-FALSE,9006411,"avobenzone 3 % and homosalate 10 % and octinoxate 4 % and octocrylene 2.75 % NA",1,FALSE,2014-03-31,NA,NA
-FALSE,9006412,"avobenzone 3 % and octinoxate 7.5 % and octisalate 5 % and octocrylene 2.79 % NA",1,FALSE,2014-03-31,NA,NA
-FALSE,9006413,"chlorpheniramine maleate 2 mg and ibuprofen 200 mg and ibuprofen 200 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg NA",2,FALSE,2014-05-23,NA,NA
-FALSE,9006414,"diphenhydramine hydrochloride 25 mg and ibuprofen 200 mg and ibuprofen 200 mg NA",1,FALSE,2014-06-02,NA,NA
-FALSE,9006415,"apremilast 10 mg and apremilast 20 mg and apremilast 30 mg NA",1,FALSE,2014-11-27,NA,NA
-FALSE,9006416,"dasabuvir (dasabuvir sodium monohydrate) 250 mg and ombitasvir 12.5 mg and paritaprevir 75 mg and ritonavir 50 mg NA",1,FALSE,2015-01-06,NA,NA
-FALSE,9006417,"avobenzone 3 % and homosalate 2.5 % and octisalate 5 % and octocrylene 2.7 % NA",2,FALSE,2015-02-02,NA,NA
-FALSE,9006418,"benzoyl peroxide 2.5 % NA",2,FALSE,2015-02-02,NA,NA
-FALSE,9006419,"colesevelam hydrochloride 3.75 g per pck oral suspension",1,FALSE,2015-04-02,NA,NA
-FALSE,9006420,"tolvaptan 45 mg and tolvaptan 15 mg oral tablet",1,FALSE,2015-06-01,NA,NA
-FALSE,9006421,"tolvaptan 60 mg and tolvaptan 30 mg oral tablet",1,FALSE,2015-06-01,NA,NA
-FALSE,9006422,"tolvaptan 90 mg and tolvaptan 30 mg oral tablet",1,FALSE,2015-06-01,NA,NA
-FALSE,9006423,"octinoxate 7.5 % and zinc oxide 9 % NA",1,FALSE,2015-07-03,NA,NA
-FALSE,9006424,"pasireotide (pasireotide pamoate) 40 mg per vial NA",1,FALSE,2015-08-04,NA,NA
-FALSE,9006425,"pasireotide (pasireotide pamoate) 60 mg per vial NA",1,FALSE,2015-08-04,NA,NA
-FALSE,9006426,"octinoxate 7.5 % and zinc oxide 10.5 % NA",4,FALSE,2015-08-24,NA,NA
-FALSE,9006427,"benzoyl peroxide 5 % NA",1,FALSE,2015-08-25,NA,NA
-FALSE,9006428,"follitropin alfa 150 unit per vial and lutropin alfa 75 unit per vial NA",1,FALSE,2015-10-22,NA,NA
-FALSE,9006429,"pasireotide (pasireotide pamoate) 20 mg per vial NA",1,FALSE,2016-01-28,NA,NA
-FALSE,9006430,"magnesium chloride 3.05 g per l and sodium bicarbonate 2.12 g per l and sodium chloride 7.14 g per l NA",1,FALSE,2016-06-18,NA,NA
-FALSE,9006431,"venetoclax 10 mg and venetoclax 50 mg and venetoclax 100 mg NA",1,FALSE,2016-10-31,NA,NA
-FALSE,9006432,"cholestyramine resin 4 g oral suspension",1,FALSE,2016-12-23,NA,NA
-FALSE,9006433,"mifepristone 200 mg and misoprostol 200 mcg NA",1,FALSE,2017-01-10,NA,NA
-FALSE,9006434,"avobenzone 3 % and homosalate 8 % and octinoxate 7.5 % and octisalate 4.5 % and octocrylene 5 % cutaneous cream",1,FALSE,2017-01-13,NA,NA
-FALSE,9006435,"benzoyl peroxide 2.5 % and benzoyl peroxide 5 % NA",1,FALSE,2017-01-30,NA,NA
-FALSE,9006436,"benzoyl peroxide 3.5 % and benzoyl peroxide 2.5 % NA",1,FALSE,2017-01-30,NA,NA
-FALSE,9006437,"NA 3.75 mg per mL oral solution",1,FALSE,2017-03-23,NA,NA
-FALSE,9006438,"octinoxate 7 % and titanium dioxide 7.1 % and zinc oxide 4.2 % lotion",1,FALSE,2017-04-05,NA,NA
-FALSE,9006439,"avobenzone 2 % and homosalate 5 % and octisalate 5 % and octocrylene 2 % cutaneous emulsion",1,FALSE,2017-04-06,NA,NA
-FALSE,9006440,"NA 100 mg per vial powder for solution for injection",1,FALSE,2017-05-24,NA,NA
-FALSE,9006441,"NA 500 mg per vial powder for solution for injection",1,FALSE,2017-05-29,NA,NA
-FALSE,9006442,"gramicidin 0.025 mg per mL and polymyxin b sulfate 10000 unit per mL ophthalmic/otic drops",1,FALSE,2017-06-01,NA,NA
-FALSE,9006443,"octinoxate 7.5 % and octisalate 2 % and octocrylene 2 % and titanium dioxide 3 % and zinc oxide 3 % cutaneous cream",1,FALSE,2017-06-15,NA,NA
-FALSE,9006444,"octinoxate 6.6 % and octisalate 4.4 % cutaneous stick",1,FALSE,2017-06-27,NA,NA
-FALSE,9006445,"benzalkonium chloride 0.1212 % and didecyl dimethyl ammonium chloride 0.0545 % and dioctyl dimethyl ammonium chloride 0.0364 % and octyl decyl dimethyl ammonium chloride 0.0909 % NA",1,FALSE,2017-06-30,NA,NA
-FALSE,9006446,"octinoxate 2.9 % and titanium dioxide 1.6 % cutaneous liquid",1,FALSE,2017-07-01,NA,NA
-FALSE,9006447,"octinoxate 5 % and titanium dioxide 3.1 % and zinc oxide 2.2 % cutaneous liquid",1,FALSE,2017-07-01,NA,NA
-FALSE,9006448,"octinoxate 7.5 % and titanium dioxide 3.1 % lotion",1,FALSE,2017-07-03,NA,NA
-FALSE,9006449,"camphor 30 mg per g cutaneous cream",1,FALSE,NA,NA,NA
+TRUE,9006198,"ethinyl estradiol 0.035 mg and norethindrone 500 mcg oral tablet with lactose oral tablet",2,FALSE,1974-12-31,NA,NA
+TRUE,9006199,"ethinyl estradiol 0.03 mg and norethindrone acetate 1.5 mg oral tablet",1,FALSE,1974-12-31,NA,NA
+TRUE,9006200,"ethinyl estradiol 0.02 mg and norethindrone acetate 1 mg oral tablet",1,FALSE,1975-12-31,NA,NA
+TRUE,9006201,"ethinyl estradiol 0.02 mg and norethindrone acetate 1 mg oral tablet with lactose oral tablet",1,FALSE,1975-12-31,NA,NA
+TRUE,9006202,"ethinyl estradiol 0.03 mg and norethindrone acetate 1.5 mg oral tablet with lactose oral tablet",1,FALSE,1976-12-31,NA,NA
+TRUE,9006203,"penicillin v potassium 300 mg per 5 mL powder for oral solution",2,FALSE,1977-12-31,NA,NA
+TRUE,9006204,"codeine phosphate 10 mg per 5 mL oral solution",1,FALSE,1978-12-31,NA,NA
+TRUE,9006205,"ethinyl estradiol 0.035 mg and norethindrone 1 mg oral tablet with lactose oral tablet",3,FALSE,1980-12-31,NA,NA
+TRUE,9006206,"alcohol anhydrous 0.25 mL per 5 mL and doxylamine succinate 6 mg per 5 mL and etafedrin hydrochloride 16.65 mg per 5 mL and hydrocodone bitartrate 1.65 mg per 5 mL and sodium citrate 200 mg per 5 mL syrup",2,FALSE,1983-12-31,NA,NA
+TRUE,9006207,"ethinyl estradiol 0.035 mg and norethindrone 500 mcg oral tablet with ethinyl estradiol 0.035 mg and norethindrone 750 mcg oral tablet with ethinyl estradiol 0.035 mg and norethindrone 1 mg oral tablett",1,TRUE,1983-12-31,NA,NA
+TRUE,9006208,"ethinyl estradiol 0.035 mg and norethindrone 500 mcg oral tablet with ethinyl estradiol 0.035 mg and norethindrone 750 mcg oral tablet with ethinyl estradiol 0.035 mg and norethindrone 1 mg oral tablet with lactose oral tablet",1,TRUE,1983-12-31,NA,NA
+TRUE,9006209,"hydromorphone hydrochloride 10 mg per mL solution for injection 50 mL vial",2,FALSE,1984-12-31,NA,NA
+TRUE,9006210,"penicillin v potassium 125 mg per 5 mL powder for oral solution",1,FALSE,1985-12-31,NA,NA
+TRUE,9006211,"penicillin v potassium 300 mg oral tablet",1,FALSE,1985-12-31,NA,NA
+TRUE,9006212,"codeine phosphate 25 mg per 5 mL syrup",1,FALSE,1986-12-18,NA,NA
+TRUE,9006213,"meperidine hydrochloride 10 mg per mL solution for injection 30 mL vial",1,FALSE,1986-12-31,NA,NA
+TRUE,9006214,"ethinyl estradiol 0.03 mg and levonorgestrel 0.05 mg oral tablet with ethinyl estradiol 0.04 mg and norgestimate 0.75 mg oral tablet with ethinyl estradiol 0.03 mg and norgestimate 0.125 mg oral tablet",1,TRUE,1987-12-31,NA,NA
+TRUE,9006215,"ethinyl estradiol 0.03 mg and levonorgestrel 0.05 mg oral tablet with ethinyl estradiol 0.04 mg and norgestimate 0.75 mg oral tablet with ethinyl estradiol 0.03 mg and norgestimate 0.125 mg oral tablet with lactose oral tablet",1,TRUE,1987-12-31,NA,NA
+TRUE,9006216,"morphine sulfate 250 mg per 5 mL solution for injection vial",1,FALSE,1987-12-31,NA,NA
+TRUE,9006217,"morphine sulfate 500 mg per 10 mL solution for injection vial",1,FALSE,1987-12-31,NA,NA
+TRUE,9006218,"morphine sulfate 50 mg per 1 mL solution for injection vial",1,FALSE,1987-12-31,NA,NA
+TRUE,9006219,"morphine sulfate 50 mg per mL solution for injection 50 mL vial",3,FALSE,1987-12-31,NA,NA
+TRUE,9006220,"nitroglycerin 500 mg per 10 mL solution for injection vial",2,FALSE,1988-12-31,NA,NA
+TRUE,9006221,"dexamethasone phosphate (dexamethasone sodium phosphate) 1 mg per mL ophthalmic/otic drops",1,FALSE,1989-12-31,NA,NA
+TRUE,9006222,"dexamethasone (dexamethasone sodium phosphate) 10 mg per 1 mL solution for injection",1,FALSE,1990-12-31,NA,NA
+TRUE,9006223,"folic acid 50 mg per 10 mL and folic acid 50 mg per 10 mL solution for injection vial",1,FALSE,1990-12-31,NA,NA
+TRUE,9006224,"morphine sulfate 50 mg per mL solution for injection 20 mL vial",1,FALSE,1990-12-31,NA,NA
+TRUE,9006225,"nitroglycerin 100 mg per 10 mL solution for injection vial",1,FALSE,1990-12-31,NA,NA
+TRUE,9006226,"furosemide 6250 mg per 25 mL solution for injection vial",1,FALSE,1991-12-31,NA,NA
+TRUE,9006227,"mometasone furoate 0.1 % lotion",2,FALSE,1991-12-31,NA,NA
+TRUE,9006228,"acetaminophen 500 mg and caffeine 15 mg and codeine phosphate 8 mg oral tablet",1,FALSE,1992-12-31,NA,NA
+TRUE,9006229,"ethinyl estradiol 0.035 mg and norgestimate 0.25 mg oral tablet with lactose oral tablet",1,FALSE,1992-12-31,NA,NA
+TRUE,9006230,"hydrocortisone acetate 2.5 % ophthalmic ointment",1,FALSE,1992-12-31,NA,NA
+TRUE,9006231,"morphine sulfate 10 mg per 10 mL solution for injection vial",1,FALSE,1992-12-31,NA,NA
+TRUE,9006232,"morphine sulfate 1 mg per mL solution for injection 50 mL vial",2,FALSE,1992-12-31,NA,NA
+TRUE,9006233,"morphine sulfate 2 mg per 1 mL solution for injection vial",2,FALSE,1992-12-31,NA,NA
+TRUE,9006234,"morphine sulfate 2 mg per mL solution for injection 50 mL vial",2,FALSE,1992-12-31,NA,NA
+TRUE,9006235,"morphine sulfate 5 mg per 5 mL solution for injection vial",2,FALSE,1992-12-31,NA,NA
+TRUE,9006236,"morphine sulfate 5 mg per mL solution for injection 30 mL vial",1,FALSE,1992-12-31,NA,NA
+TRUE,9006237,"vitamin D3 (cholecalciferol) 10000 unit oral tablet",4,FALSE,1992-12-31,NA,NA
+TRUE,9006238,"desogestrel 0.15 mg and ethinyl estradiol 0.03 mg oral tablet with lactose oral tablet",5,FALSE,1993-12-31,NA,NA
+TRUE,9006239,"ethinyl estradiol 0.035 mg and norgestimate 0.18 mg and norgestimate 0.215 mg and norgestimate 0.25 mg oral tablet",1,TRUE,1993-12-31,NA,NA
+TRUE,9006240,"ethinyl estradiol 0.035 mg and norgestimate 0.18 mg oral tablet with ethinyl estradiol 0.035 mg and norgestimate 0.215 mg oral tablet with ethinyl estradiol 0.035 mg and norgestimate 0.25 mg oral tablet with lactose oral tablet",1,TRUE,1993-12-31,NA,NA
+TRUE,9006241,"amoxicillin 25 mg per mL oral suspension",1,FALSE,1994-12-31,NA,NA
+TRUE,9006242,"amoxicillin 50 mg per mL oral suspension",1,FALSE,1994-12-31,NA,NA
+TRUE,9006243,"dexamethasone sodium phosphate 0.1 % ophthalmic/otic drops",1,FALSE,1994-12-31,NA,NA
+TRUE,9006244,"digoxin 1 mg per 2 mL solution for injection ampoule",1,FALSE,1994-12-31,NA,NA
+TRUE,9006245,"epinephrine 1 mg per 1 mL solution for injection",1,FALSE,1994-12-31,NA,NA
+TRUE,9006246,"salbutamol (salbutamol sulfate) 5 mg per mL nebuliser solution 10 mL bottle",2,FALSE,1994-12-31,NA,NA
+TRUE,9006247,"cefprozil 125 mg per 5 mL oral suspension",4,FALSE,1995-12-31,NA,NA
+TRUE,9006248,"cefprozil 250 mg per 5 mL oral suspension",4,FALSE,1995-12-31,NA,NA
+TRUE,9006249,"clarithromycin 125 mg per 5 mL oral suspension",3,FALSE,1995-12-31,NA,NA
+TRUE,9006250,"hydromorphone hydrochloride 1000 mg per 50 mL solution for injection vial",1,FALSE,1995-12-31,NA,NA
+TRUE,9006251,"hydromorphone hydrochloride 100 mg per 5 mL solution for injection vial",1,FALSE,1995-12-31,NA,NA
+TRUE,9006252,"hydromorphone hydrochloride 20 mg per 1 mL solution for injection vial",1,FALSE,1995-12-31,NA,NA
+TRUE,9006253,"hydromorphone hydrochloride 50 mg per mL solution for injection 50 mL vial",1,FALSE,1995-12-31,NA,NA
+TRUE,9006254,"mesalazine 1 g per 100 mL rectal suspension",1,FALSE,1995-12-31,NA,NA
+TRUE,9006255,"mesalazine 4 g per 100 mL rectal suspension",1,FALSE,1995-12-31,NA,NA
+TRUE,9006256,"nifedipine 10 mg prolonged-release oral tablet",1,FALSE,1995-12-31,NA,NA
+TRUE,9006257,"ethinyl estradiol 0.035 mg and norethindrone 1mg oral tablet with ethinyl estradiol 0.035 mg and norethindrone 500 mcg oral tablet",1,FALSE,1996-08-14,NA,NA
+TRUE,9006258,"ethinyl estradiol 0.035 mg and norethindrone 1mg oral tablet with ethinyl estradiol 0.035 mg and norethindrone 500 mcg oral tablet with lactose oral tablet",1,FALSE,1996-08-14,NA,NA
+TRUE,9006259,"oxybutynin chloride 5 mg per 5 mL syrup",3,FALSE,1996-09-04,NA,NA
+TRUE,9006260,"azithromycin 100 mg per 5 mL oral suspension",4,FALSE,1996-09-26,NA,NA
+TRUE,9006261,"azithromycin 200 mg per 5 mL oral suspension",4,FALSE,1996-09-26,NA,NA
+TRUE,9006262,"naproxen 125 mg per 5 mL oral suspension",1,FALSE,1996-12-31,NA,NA
+TRUE,9006263,"triamcinolone hexacetonide 20 mg per 1 mL suspension for injection vial",1,FALSE,1997-01-20,NA,NA
+TRUE,9006264,"sumatriptan (sumatriptan hemisulfate) 20 mg per actuation nasal spray",1,FALSE,1997-02-19,NA,NA
+TRUE,9006265,"sumatriptan (sumatriptan hemisulfate) 5 mg per actuation nasal spray",1,FALSE,1997-02-19,NA,NA
+TRUE,9006266,"clotrimazole 1 % cutaneous cream with clotrimazole 10 % vaginal cream",1,FALSE,1997-06-11,NA,NA
+TRUE,9006267,"benztropine mesylate 2 mg per 5 mL oral solution",1,FALSE,1997-08-20,NA,NA
+TRUE,9006268,"ethinyl estradiol 0.02 mg and levonorgestrel 0.1 mg oral tablet",4,FALSE,1998-01-07,NA,NA
+TRUE,9006269,"ethinyl estradiol 0.02 mg and levonorgestrel 0.1 mg oral tablet with lactose oral tablet",4,FALSE,1998-01-07,NA,NA
+TRUE,9006270,"acyclovir (acyclovir sodium) 500 mg per 20 mL solution for injection vial",1,FALSE,1998-03-18,NA,NA
+TRUE,9006271,"ciprofloxacin 500 mg per 5 mL oral suspension",1,FALSE,1998-09-15,NA,NA
+TRUE,9006272,"mometasone furoate 50 mcg per actuation nasal spray",3,FALSE,1998-09-15,NA,NA
+TRUE,9006273,"epinephrine racemic 2.25 % inhalation solution",1,FALSE,1998-10-02,NA,NA
+TRUE,9006274,"amoxicillin 200 mg per 5 mL and clavulanic acid (potassium clavulanate) 28.5 mg per 5 mL oral suspension",1,FALSE,1998-10-29,NA,NA
+TRUE,9006275,"amoxicillin 400 mg per 5 mL and clavulanic acid (potassium clavulanate) 57 mg per 5 mL oral suspension",2,FALSE,1998-10-29,NA,NA
+TRUE,9006276,"clindamycin (clindamycin phosphate) 150 mg per mL solution for injection 120 mL vial",1,FALSE,1999-01-19,NA,NA
+TRUE,9006277,"clindamycin (clindamycin phosphate) 150 mg per mL solution for injection 60 mL vial",1,FALSE,1999-01-19,NA,NA
+TRUE,9006278,"dexamethasone phosphate (dexamethasone sodium phosphate) 4 mg per 1 mL solution for injection vial",1,FALSE,1999-04-01,NA,NA
+TRUE,9006279,"dexamethasone phosphate (dexamethasone sodium phosphate) 10 mg per 1 mL solution for injection vial",1,FALSE,1999-06-30,NA,NA
+TRUE,9006280,"sumatriptan (sumatriptan succinate) 6 mg per 0.5 mL solution for injection 0.5 mL syringe",2,FALSE,1999-08-30,NA,NA
+TRUE,9006281,"fluticasone propionate 100 mcg per actuation and salmeterol (salmeterol xinafoate) 50 mcg per actuation inhalation powder",1,FALSE,1999-09-24,NA,NA
+TRUE,9006282,"fluticasone propionate 250 mcg per actuation and salmeterol (salmeterol xinafoate) 50 mcg per actuation inhalation powder",1,FALSE,1999-09-24,NA,NA
+TRUE,9006283,"fluticasone propionate 500 mcg per actuation and salmeterol (salmeterol xinafoate) 50 mcg per actuation inhalation powder",1,FALSE,1999-09-24,NA,NA
+TRUE,9006284,"meperidine hydrochloride 100 mg per mL solution for injection 20 mL vial",1,FALSE,2000-05-01,NA,NA
+TRUE,9006285,"ranitidine (ranitidine hydrochloride) 100 mg per 2 mL solution for injection vial",2,FALSE,2000-05-01,NA,NA
+TRUE,9006286,"doxycycline (doxycycline hyclate) 8.8 % periodontal gel",1,FALSE,2001-01-31,NA,NA
+TRUE,9006287,"hydromorphone hydrochloride 10000 mg per 10 mL solution for injection vial",1,FALSE,2001-12-10,NA,NA
+TRUE,9006288,"fluticasone propionate 125 mcg per actuation and salmeterol (salmeterol xinafoate) 25 mcg per actuation pressurised inhalation",1,FALSE,2001-12-21,NA,NA
+TRUE,9006289,"fluticasone propionate 250 mcg per actuation and salmeterol (salmeterol xinafoate) 25 mcg per actuation pressurised inhalation",1,FALSE,2001-12-21,NA,NA
+TRUE,9006290,"clarithromycin 250 mg per 5 mL oral suspension",3,FALSE,2002-05-28,NA,NA
+TRUE,9006291,"pentazocine (pentazocine lactate) 30 mg per 1 mL solution for injection",1,FALSE,2002-11-01,NA,NA
+TRUE,9006292,"ibuprofen 50 mg chewable tablet",1,FALSE,2003-05-14,NA,NA
+TRUE,9006293,"ethinyl estradiol 0.035 mg per 24 hours and norelgestromin 0.02 mg per 24 hours transdermal patch",1,FALSE,2003-12-24,NA,NA
+TRUE,9006294,"isperidone 37.5 mg per vial powder for prolonged-release suspension for injection with diluent solution",1,FALSE,2004-09-08,NA,NA
+TRUE,9006295,"ranitidine (ranitidine hydrochloride) 75 mg per 5 mL oral solution",2,FALSE,2004-09-08,NA,NA
+TRUE,9006296,"risperidone 25 mg per vial powder for prolonged-release suspension for injection with diluent solution",1,FALSE,2004-09-08,NA,NA
+TRUE,9006297,"risperidone 50 mg per vial powder for prolonged-release suspension for injection with diluent solution",1,FALSE,2004-09-08,NA,NA
+TRUE,9006298,"ethinyl estradiol 15 mcg per 24 hours and etonogestrel 120 mcg per 24 hours vaginal delivery system",1,FALSE,2004-12-02,NA,NA
+TRUE,9006299,"drospirenone 3 mg and ethinyl estradiol 0.03 mg oral tablet with lactose oral tablet",3,FALSE,2004-12-22,NA,NA
+TRUE,9006300,"ethinyl estradiol 0.025 mg and norgestimate 0.18 mg oral tablet with ethinyl estradiol 0.025 mg and norgestimate 0.215 mg tablet with ethinyl estradiol 0.025 mg and norgestimate 0.25 mg oral tablet",2,TRUE,2005-01-27,NA,NA
+TRUE,9006301,"ethinyl estradiol 0.025 mg and norgestimate 0.18 mg oral tablet with ethinyl estradiol 0.025 mg and norgestimate 0.215 mg tablet with ethinyl estradiol 0.025 mg and norgestimate 0.25 mg oral tablet with lactose oral tablet",2,TRUE,2005-01-27,NA,NA
+TRUE,9006302,"vitamin D3 (cholecalciferol) 10000 unit oral capsule",4,FALSE,2005-04-06,NA,NA
+TRUE,9006303,"alendronic acid (alendronate sodium) 70 mg and vitamin D3 (cholecalciferol) 2800 unit oral tablet",3,FALSE,2006-03-13,NA,NA
+TRUE,9006304,"azithromycin (azithromycin hemiethanolate) 100 mg per 5 mL oral suspension",2,FALSE,2006-04-19,NA,NA
+TRUE,9006305,"azithromycin (azithromycin hemiethanolate) 200 mg per 5 mL oral suspension",2,FALSE,2006-04-19,NA,NA
+TRUE,9006306,"clotrimazole 1 % cutaneous cream with clotrimazole 500 mg vaginal tablet",1,FALSE,2006-05-12,NA,NA
+TRUE,9006307,"clotrimazole 1 % cutaneous cream with clotrimazole 200 mg vaginal tablet",1,FALSE,2006-06-02,NA,NA
+TRUE,9006308,"desogestrel 0.1 mg and estradiol 0.025 mg oral tablet with desogestrel 0.125 mg and estradiol 0.025 mg oral tablet with desogestrel 0.15 mg and ethinyl estradiol 0.025 mg oral tablet",1,TRUE,2006-06-13,NA,NA
+TRUE,9006309,"desogestrel 0.1 mg and estradiol 0.025 mg oral tablet with desogestrel 0.125 mg and estradiol 0.025 mg oral tablet with  desogestrel 0.15 mg and ethinyl estradiol 0.025 mg oral tablet with lactose oral tablet",1,TRUE,2006-06-13,NA,NA
+TRUE,9006310,"ethinyl estradiol 0.03 mg and levonorgestrel 0.15 mg oral tablet with lactose oral tablet",3,FALSE,2007-08-14,NA,NA
+TRUE,9006311,"risperidone 12.5 mg per vial powder for prolonged-release suspension for injection with diluent solution",1,FALSE,2007-10-24,NA,NA
+TRUE,9006312,"alendronic acid (alendronate sodium) 70 mg and vitamin D3 (cholecalciferol) 5600 unit oral tablet",4,FALSE,2008-09-17,NA,NA
+TRUE,9006313,"drospirenone 3 mg and ethinyl estradiol 0.02 mg oral tablet with lactose oral tablet",2,FALSE,2009-01-06,NA,NA
+TRUE,9006314,"ethinyl estradiol 0.03 mg and levonorgestrel 0.15 mg oral tablet with ethinyl estradiol 0.01 mg oral tablet ",1,FALSE,2011-04-18,NA,NA
+TRUE,9006315,"furosemide 250 mg per 25 mL solution for injection 25 mL vial",1,FALSE,2011-06-08,NA,NA
+TRUE,9006316,"vitamin D3 (cholecalciferol) 50000 unit oral capsule",3,FALSE,2011-08-09,NA,NA
+TRUE,9006317,"oxybutynin chloride 10 % cutaneous gel",1,FALSE,2011-10-27,NA,NA
+TRUE,9006318,"ibuprofen 400 mg per 4 mL solution for injection vial",1,FALSE,2012-06-15,NA,NA
+TRUE,9006319,"ibuprofen 800 mg per 8 mL solution for injection vial",1,FALSE,2012-06-15,NA,NA
+TRUE,9006320,"dexamethasone phosphate (dexamethasone sodium phosphate) 10 mg per 1 mL solution for injection",1,FALSE,2013-05-08,NA,NA
+TRUE,9006321,"furosemide 40 mg per 2 mL solution for injection ampoule",1,FALSE,2013-08-22,NA,NA
+TRUE,9006322,"ethinyl estradiol 0.01 mg and norethindrone acetate 1 mg oral tablet with ethinyl estradiol 0.01 mg oral tablet with lactose oral tablet",1,FALSE,2014-03-24,NA,NA
+TRUE,9006323,"aripiprazole 300 mg per vial powder for prolonged-release suspension for injection with diluent solution",1,FALSE,2014-03-27,NA,NA
+TRUE,9006324,"aripiprazole 400 mg per vial powder for prolonged-release suspension for injection with diluent solution",1,FALSE,2014-03-27,NA,NA
+TRUE,9006325,"naproxen (naproxen sodium, naproxen) 200 mg oral capsule",1,FALSE,2015-06-19,NA,NA
+TRUE,9006326,"vitamin D3 (cholecalciferol) 2000 unit oral capsule",1,FALSE,2015-07-31,NA,NA
+TRUE,9006327,"vitamin D3 (cholecalciferol) 25000 unit oral capsule",1,FALSE,2015-07-31,NA,NA
+TRUE,9006328,"vitamin D3 (cholecalciferol) 5000 unit oral capsule",1,FALSE,2015-10-20,NA,NA
+TRUE,9006329,"rivaroxaban 15 mg oral tablet with rivaroxaban 20 mg oral tablet",1,FALSE,2015-11-02,NA,NA
+TRUE,9006330,"betamethasone valerate 1 % cutaneous patch",1,FALSE,2016-04-05,NA,NA
+FALSE,9006331,"dexpanthenol 10 mg per mL and lidocaine hydrochloride 2 % and nicotinamide 75 mg per mL and pyridoxine hydrochloride 2 mg per mL and vitamin B1 50 mg per mL and vitamin B2 (riboflavin 5'-phosphate sodium) 7.5 mg per mL solution for injection",1,TRUE,1951-12-31,NA,NA
+FALSE,9006332,"epinephrine (epinephrine bitartrate) 0.01 mg per mL and lidocaine hydrochloride 10 mg per mL solution for injection",1,FALSE,1954-12-31,NA,NA
+FALSE,9006333,"epinephrine (epinephrine bitartrate) 5 mcg per mL and lidocaine hydrochloride 10 mg per mL solution for injection",1,FALSE,1954-12-31,NA,NA
+FALSE,9006334,"lidocaine hydrochloride 20 mg per mL NA",1,FALSE,1954-12-31,NA,NA
+FALSE,9006335,"methylprednisolone acetate 40 mg per mL NA",2,FALSE,1960-12-31,NA,NA
+FALSE,9006336,"sodium polystyrene sulfonate 100 % powder for oral/rectal suspension",2,FALSE,1961-12-31,NA,NA
+FALSE,9006337,"NA 100 m per mL powder for solution for injection",1,FALSE,1964-12-31,NA,NA
+FALSE,9006338,"water 100 % NA",1,FALSE,1964-12-31,NA,NA
+FALSE,9006339,"epinephrine (epinephrine bitartrate) 5 mcg per mL and lidocaine hydrochloride 20 mg per mL solution for injection",1,FALSE,1965-12-31,NA,NA
+FALSE,9006340,"sodium chloride 9 mg per mL NA",1,FALSE,1966-12-31,NA,NA
+FALSE,9006341,"NA 0.5 % and NA 0.05 % cutaneous cream",1,FALSE,1967-12-31,NA,NA
+FALSE,9006342,"methylprednisolone acetate 80 mg per mL NA",2,FALSE,1969-12-31,NA,NA
+FALSE,9006343,"iodine (ethiodized oil) 380 mg per g NA",1,FALSE,1977-12-31,NA,NA
+FALSE,9006344,"bismuth subgallate 200 mg chewable tablet",1,FALSE,1978-12-31,NA,NA
+FALSE,9006345,"vitamin B12 1 mg per mL solution for injection",5,FALSE,1978-12-31,NA,NA
+FALSE,9006346,"calcium polystyrene sulfonate 999 mg per g powder for oral/rectal suspension",1,FALSE,1979-12-31,NA,NA
+FALSE,9006347,"dexpanthenol 10 mg per mL and nicotinamide 100 mg per mL and pyridoxine hydrochloride 10 mg per mL and thiamine hydrochloride 100 mg per mL and vitamin B12 100 mcg per mL and vitamin B2 (riboflavin 5'-phosphate sodium) 10 mg per mL solution for injection",1,TRUE,1979-12-31,NA,NA
+FALSE,9006348,"modified ragweed tyrosine adsorbate 210 unit per mL and modified ragweed tyrosine adsorbate 500 unit per mL and modified ragweed tyrosine adsorbate 1400 unit per mL and modified ragweed tyrosine adsorbate 4300 unit per mL solution for injection",1,FALSE,1979-12-31,NA,NA
+FALSE,9006349,"vitamin B2 (riboflavin 5'-phosphate sodium) 50 mg per mL solution for injection",1,FALSE,1979-12-31,NA,NA
+FALSE,9006350,"vitamin B12 (cyanocobalamin) 100 mcg per mL solution for injection",1,FALSE,1981-12-31,NA,NA
+FALSE,9006351,"vitamin B12 (cyanocobalamin) 1 mg per mL solution for injection",1,FALSE,1981-12-31,NA,NA
+FALSE,9006352,"vitamin K1 10 mg per mL solution for injection",1,FALSE,1981-12-31,NA,NA
+FALSE,9006353,"vitamin K1 2 mg per mL solution for injection",1,FALSE,1981-12-31,NA,NA
+FALSE,9006354,"aloe 2 g per 100 mL and benzoin 10 g per 100 mL and myroxylon balsamum 4 g per 100 mL and storax 8 g per 100 mL inhalation solution",1,FALSE,1982-12-31,NA,NA
+FALSE,9006355,"benzocaine 20 % and cetylpyridinium chloride 0.1 % oromucosal solution",1,FALSE,1982-12-31,NA,NA
+FALSE,9006356,"deoxycholic acid 30 mg and NA 30 mg and NA 150 mg oral tablet",1,FALSE,1983-12-31,NA,NA
+FALSE,9006357,"d-pantothenic acid (calcium d-pantothenate, riboflavin-5-phosphate) 2.6 mg per mL and nicotinamide 10 mg per mL and vitamin A 1000 unit per mL and vitamin B1 (thiamine hydrochloride) 4.5 mg per mL and vitamin B2 (riboflavin-5-phosphate) 1 mg per mL and vitamin B6 (pyridoxine hydrochloride) 1.2 mg per mL and vitamin C 100 mg per mL and vitamin D 100 unit per mL and vitamin E (dl-alpha tocopheryl acetate) 1 unit per mL solution for injection",1,TRUE,1984-12-31,NA,NA
+FALSE,9006358,"miconazole nitrate 400 mg and miconazole nitrate 2 % NA",1,FALSE,1986-12-31,NA,NA
+FALSE,9006359,"vitamin E (dl-alpha tocopheryl acetate) 100 unit per mL solution for injection",1,FALSE,1986-12-31,NA,NA
+FALSE,9006360,"vitamin C 500 mg per mL solution for injection",2,FALSE,1987-12-31,NA,NA
+FALSE,9006361,"sodium polystyrene sulfonate 94.3 mg per g powder for oral/rectal suspension",1,FALSE,1988-12-31,NA,NA
+FALSE,9006362,"gramicidin 0.025 mg per mL and neomycin (neomycin sulfate) 1.75 mg per mL and polymyxin b (polymyxin b sulfate) 10000 unit per mL ophthalmic/otic drops",1,FALSE,1989-12-31,NA,NA
+FALSE,9006363,"tolnaftate 1 % NA",1,FALSE,1989-12-31,NA,NA
+FALSE,9006364,"vitamin C (sodium ascorbate) 250 mg per mL solution for injection",1,FALSE,1989-12-31,NA,NA
+FALSE,9006365,"vitamin K1 10 mg per mL emulsion for injection",1,FALSE,1989-12-31,NA,NA
+FALSE,9006366,"vitamin K1 2 mg per mL emulsion for injection",1,FALSE,1989-12-31,NA,NA
+FALSE,9006367,"cefixime 100 mg per 5 mL oral suspension",1,FALSE,1990-12-31,NA,NA
+FALSE,9006368,"cetrimonium bromide 0.5 % NA",1,FALSE,1990-12-31,NA,NA
+FALSE,9006369,"acetaminophen 80 mg per mL NA",1,FALSE,1991-12-31,NA,NA
+FALSE,9006370,"lidocaine 2.5 % and prilocaine 2.5 % cutaneous cream",1,FALSE,1991-12-31,NA,NA
+FALSE,9006371,"NA 40 mg per mL NA",1,FALSE,1992-11-19,NA,NA
+FALSE,9006372,"acetaminophen 80 mg per 1 mL NA",1,FALSE,1992-12-31,NA,NA
+FALSE,9006373,"chloramphenicol 10 mg per g and hydrocortisone acetate 10 mg per g ophthalmic/otic ointment",1,FALSE,1992-12-31,NA,NA
+FALSE,9006374,"chloramphenicol 2 mg per mL and hydrocortisone acetate 10 mg per mL ophthalmic/otic drops",1,FALSE,1992-12-31,NA,NA
+FALSE,9006375,"haemophilus influenzae type b-prp 10 mcg per 0.5 mL and tetanus protein 30 mcg per 0.5 mL NA",1,FALSE,1992-12-31,NA,NA
+FALSE,9006376,"acetaminophen 325 mg per pck and pheniramine maleate 20 mg per pck and phenylephrine hydrochloride 10 mg per pck and vitamin C 50 mg per pck powder for oral solution",1,FALSE,1993-12-30,NA,NA
+FALSE,9006377,"chlorhexidine acetate 10 % NA",1,FALSE,1993-12-31,NA,NA
+FALSE,9006378,"cholestyramine resin 4 g per 5 g oral suspension",1,FALSE,1993-12-31,NA,NA
+FALSE,9006379,"cromolyn sodium 1 % nebuliser solution",1,FALSE,1993-12-31,NA,NA
+FALSE,9006380,"isoflurane 99.9 % NA",1,FALSE,1993-12-31,NA,NA
+FALSE,9006381,"levocabastine (levocabastine hydrochloride) 0.5 mg per mL NA",1,FALSE,1993-12-31,NA,NA
+FALSE,9006382,"biotin 12 mcg per mL and dexpanthenol 3 mg per mL and folic acid 80 mcg per mL and nicotinamide 8 mg per mL and pyridoxine hydrochloride 0.8 mg per mL and vitamin A 660 unit per mL and vitamin B12 (vitamin B12) 1 mcg per mL and vitamin B1 (thiamine hydrochloride) 0.6 mg per mL and vitamin B2 (riboflavin-5-phosphate) 0.72 mg per mL and vitamin C 20 mg per mL and vitamin D 40 unit per mL and vitamin E 2 unit per mL solution for injection",1,TRUE,1994-12-31,NA,NA
+FALSE,9006383,"budesonide 2.3 mg and sodium chloride 115 mL NA",1,FALSE,1994-12-31,NA,NA
+FALSE,9006384,"calcium chloride 0.48 mg per mL and magnesium chloride 0.3 mg per mL and potassium chloride 0.75 mg per mL and sodium acetate 3.9 mg per mL and sodium chloride 6.4 mg per mL and sodium citrate 1.7 mg per mL irrigation solution",1,TRUE,1994-12-31,NA,NA
+FALSE,9006385,"NA 0.5 % NA",1,FALSE,1994-12-31,NA,NA
+FALSE,9006386,"polysorbate 80 0.8 % NA",1,FALSE,1994-12-31,NA,NA
+FALSE,9006387,"lidocaine 0.5 % NA",1,FALSE,1995-03-17,NA,NA
+FALSE,9006388,"chlorhexidine gluconate 0.5 % and isopropyl alcohol 70 % NA",1,FALSE,1995-12-31,NA,NA
+FALSE,9006389,"choline 2.222 mg per mL and inositol 2.222 mg per mL and nicotinamide 1.111 mg per mL and pipradrol hydrochloride 0.044 mg per mL and pyridoxine hydrochloride 0.042 mg per mL and thiamine hydrochloride 0.222 mg per mL and vitamin B2 0.111 mg per mL oral solution",1,TRUE,1995-12-31,NA,NA
+FALSE,9006390,"dextromethorphan hydrobromide 30 mg per 23 g and pheniramine maleate 20 mg per 23 g and phenylephrine hydrochloride 10 mg per 23 g and vitamin C 50 mg per 23 g powder for oral solution",1,FALSE,1995-12-31,NA,NA
+FALSE,9006391,"gelatin 13.3 % and pectin 13.3 % and sodium carboxymethyl cellulose 13.3 % NA",1,FALSE,1995-12-31,NA,NA
+FALSE,9006392,"methylprednisolone acetate 20 mg per mL NA",1,FALSE,1995-12-31,NA,NA
+FALSE,9006393,"sodium citrate 90 mg per mL and sodium lauryl sulfoacetate 9 mg per mL and sorbitol 625 mg per mL NA",1,FALSE,1995-12-31,NA,NA
+FALSE,9006394,"cholestyramine resin 4 g per 9 g oral suspension",1,FALSE,1996-03-15,NA,NA
+FALSE,9006395,"chlorhexidine gluconate 0.12 % NA",2,FALSE,1996-10-30,NA,NA
+FALSE,9006396,"acetaminophen 325 mg per pck and pheniramine maleate 20 mg per pck and phenylephrine hydrochloride 10 mg per pck and vitamin C 50 mg per pck NA",1,FALSE,1996-11-26,NA,NA
+FALSE,9006397,"acetaminophen 500 mg per pck and pheniramine maleate 20 mg per pck and phenylephrine hydrochloride 10 mg per pck and vitamin C 50 mg per pck NA",1,FALSE,1996-11-26,NA,NA
+FALSE,9006398,"benzydamine hydrochloride 1.5 mg per mL NA",2,FALSE,1996-12-02,NA,NA
+FALSE,9006399,"ribavirin 6 g per vial NA",1,FALSE,1996-12-05,NA,NA
+FALSE,9006400,"dibucaine hydrochloride 0.5 % and esculin 1 % and framycetin sulfate 1 % and hydrocortisone (hydrocortisone acetate) 0.5 % suppository",1,FALSE,1996-12-30,NA,NA
+FALSE,9006401,"alteplase 100 mg and water 100 mL NA",1,FALSE,1996-12-31,NA,NA
+FALSE,9006402,"dibucaine hydrochloride 0.5 % and esculin 1 % and framycetin sulfate 1 % and hydrocortisone 0.5 % suppository",3,FALSE,1997-01-23,NA,NA
+FALSE,9006403,"dibucaine hydrochloride 0.5 % and esculin 1 % and framycetin sulfate 1 % and hydrocortisone (hydrocortisone acetate) 0.5 % rectal ointment",1,FALSE,1997-02-03,NA,NA
+FALSE,9006404,"interferon alfa-2b 10000000 unit per vial and water 1 mL per vial NA",1,FALSE,1997-03-12,NA,NA
+FALSE,9006405,"cetrimide 150 mg per 100 g and lidocaine 15 g per 100 g NA",1,FALSE,1997-03-26,NA,NA
+FALSE,9006406,"cromolyn sodium 2 % NA",1,FALSE,1997-07-28,NA,NA
+FALSE,9006407,"chorionic gonadotropin 10000 unit per vial and water 10 mL per vial NA",1,FALSE,1997-08-13,NA,NA
+FALSE,9006408,"diphtheria toxoid 15 lf per 0.5 mL and filamentous haemagglutinin 20 mcg per 0.5 mL and fimbriae 5 mcg per 0.5 mL and haemophilus influenzae type b-prp 10 mcg per 0.5 mL and inactivated poliomyelitis vaccine (d.c.o.) type 1 mahoney 40 unit per 0.5 mL and inactivated poliomyelitis vaccine (d.c.o.) type 2 mef1 8 unit per 0.5 mL and inactivated poliomyelitis vaccine (d.c.o.) type 3 saukett 32 unit per 0.5 mL and pertactin 3 mcg per 0.5 mL and pertussis toxoid 20 mcg per 0.5 mL and tetanus protein 30 mcg per 0.5 mL and tetanus toxoid 5 lf per 0.5 mL NA",1,TRUE,1997-08-14,NA,NA
+FALSE,9006409,"anti-inhibitor coagulant complex 1200 unit per vial and water 20 mL per vial NA",1,FALSE,1997-10-27,NA,NA
+FALSE,9006410,"bleomycin (bleomycin sulfate) 15 unit per vial NA",1,FALSE,1998-03-12,NA,NA
+FALSE,9006411,"bacitracin zinc 500 unit per g and polymyxin b sulfate 10000 unit per g NA",1,FALSE,1998-04-06,NA,NA
+FALSE,9006412,"alteplase 50 mg and water 50 mL NA",1,FALSE,1998-04-12,NA,NA
+FALSE,9006413,"amoxicillin 500 mg and clarithromycin 500 mg and lansoprazole 30 mg NA",1,FALSE,1998-08-18,NA,NA
+FALSE,9006414,"acetaminophen 325 mg per 23 g and pheniramine maleate 20 mg per 23 g and phenylephrine hydrochloride 10 mg per 23 g and vitamin C 50 mg per 23 g oral powder",1,FALSE,1999-01-06,NA,NA
+FALSE,9006415,"biotin 10 mcg and choline bitartrate 70 mg and chromium (chromium hvp chelate) 20 mcg and dl-methionine 25 mg and d-pantothenic acid (calcium d-pantothenate) 50 mg and folic acid 0.04 mg and inositol 5 mg and iodine (potassium iodide) 0.025 mg and magnesium (magnesium oxide) 40 mg and manganese (manganese gluconate) 0.5 mg and nicotinamide 5 mg and nicotinic acid 5 mg and potassium (potassium chloride, potassium citrate) 40 mg and selenium (selenium hvp chelate) 25 mcg and vitamin A (retinol palmitate) 4000 unit and vitamin B12 (cyanocobalamin) 25 mcg and vitamin B1 (thiamine hydrochloride) 20 mg and vitamin B2 (riboflavin) 5 mg and vitamin B6 (pyridoxine hydrochloride) 15 mg and vitamin C (ascorbic acid) 300 mg and vitamin C (calcium ascorbate) 100 mg and vitamin E (d-alpha tocopheryl acetate) 65 unit and zinc (zinc gluconate) 3 mg oral tablet",1,TRUE,1999-12-13,NA,NA
+FALSE,9006416,"vitamin D2 50000 unit oral capsule",2,FALSE,1999-12-30,NA,NA
+FALSE,9006417,"gramicidin 0.025 mg per mL and polymyxin b (polymyxin b sulfate) 10000 unit per mL ophthalmic/otic drops",1,FALSE,2000-02-12,NA,NA
+FALSE,9006418,"acetylsalicylic acid 25 mg and dipyridamole 200 mg NA",1,FALSE,2000-04-17,NA,NA
+FALSE,9006419,"vitamin B12 100 mcg per mL solution for injection",1,FALSE,2000-08-29,NA,NA
+FALSE,9006420,"conjugated estrogens 0.625 mg and medroxyprogesterone acetate 2.5 mg NA",1,FALSE,2000-10-30,NA,NA
+FALSE,9006421,"biotin 20 mcg per vial and dexpanthenol 5 mg per vial and folic acid 140 mcg per vial and nicotinamide 17 mg per vial and pyridoxine hydrochloride 1 mg per vial and vitamin A 2300 unit per vial and vitamin B12 (cyanocobalamin) 1 mcg per vial and vitamin B1 (thiamine hydrochloride) 1.2 mg per vial and vitamin B2 (riboflavin-5-phosphate) 1.4 mg per vial and vitamin C (ascorbic acid) 80 mg per vial and vitamin D 400 unit per vial and vitamin E (dl-alpha tocopheryl acetate) 7 unit per vial and vitamin K1 0.2 mg per vial solution for injection",1,TRUE,2000-11-07,NA,NA
+FALSE,9006422,"calcium chloride 5.145 g per 1000 mL and lactic acid 5.4 g per 1000 mL and magnesium chloride 2.033 g per 1000 mL and sodium bicarbonate 3.09 g per 1000 mL and sodium chloride 6.45 g per 1000 mL NA",1,FALSE,2001-01-01,NA,NA
+FALSE,9006423,"dibucaine hydrochloride 0.5 % and esculin 1 % and framycetin sulfate 1 % and hydrocortisone 0.5 % rectal ointment",3,FALSE,2001-03-09,NA,NA
+FALSE,9006424,"acetylcysteine 200 mg per mL NA",2,FALSE,2001-04-27,NA,NA
+FALSE,9006425,"diluent 3.15 mL and somatropin 12 mg NA",1,FALSE,2001-08-28,NA,NA
+FALSE,9006426,"acetaminophen 650 mg per pck and pheniramine maleate 20 mg per pck and phenylephrine hydrochloride 10 mg per pck and vitamin C 50 mg per pck oral powder",1,FALSE,2001-09-01,NA,NA
+FALSE,9006427,"diluent 3.15 mL and somatropin 6 mg NA",1,FALSE,2001-09-25,NA,NA
+FALSE,9006428,"acetaminophen 325 mg per 22 g and pheniramine maleate 20 mg per 22 g and phenylephrine hydrochloride 10 mg per 22 g and vitamin C (ascorbic acid) 50 mg per 22 g oral powder",2,FALSE,2001-12-29,NA,NA
+FALSE,9006429,"acetaminophen 650 mg per 22 mg and pheniramine maleate 20 mg per 22 mg and phenylephrine hydrochloride 10 mg per 22 mg and vitamin C 50 mg per 22 mg oral powder",1,FALSE,2001-12-29,NA,NA
+FALSE,9006430,"biotin 12 mcg per mL and dexpanthenol (panthenol) 3 mg per mL and folic acid 80 mcg per mL and nicotinamide 8 mg per mL and pyridoxine hydrochloride 0.8 mg per mL and vitamin A 660 unit per mL and vitamin B12 (cyanocobalamin) 1 mcg per mL and vitamin B1 (thiamine hydrochloride) 0.6 mg per mL and vitamin B2 0.72 mg per mL and vitamin C 20 mg per mL and vitamin E (dl-alpha tocopheryl acetate) 2 unit per mL solution for injection",1,TRUE,2002-01-28,NA,NA
+FALSE,9006431,"conjugated estrogens 0.625 mg and medroxyprogesterone acetate 5 mg NA",1,FALSE,2002-05-09,NA,NA
+FALSE,9006432,"vitamin C (ascorbic acid) 500 mg per mL solution for injection",1,FALSE,2002-05-29,NA,NA
+FALSE,9006433,"dexamethasone (dexamethasone sodium metasulphobenzoate) 0.5 mg per mL and framycetin sulfate 5 mg per mL and gramicidin 0.05 mg per mL ophthalmic/otic drops",2,FALSE,2002-07-26,NA,NA
+FALSE,9006434,"mycophenolate mofetil 200 mg per mL oral suspension",1,FALSE,2002-08-27,NA,NA
+FALSE,9006435,"alteplase 2 mg per vial powder for solution for injection",1,FALSE,2002-09-26,NA,NA
+FALSE,9006436,"diluent 3.15 mL and somatropin 24 mg NA",1,FALSE,2003-12-08,NA,NA
+FALSE,9006437,"hepatitis a vaccine, inactivated 160 unit per 0.5 mL and salmonella typhi vi capsular polysaccharide vaccine 25 mcg per 0.5 mL NA",1,FALSE,2005-11-09,NA,NA
+FALSE,9006438,"lactic acid 0.284 g per 1000 mL and magnesium chloride 0.108 g per 1000 mL and sodium bicarbonate 58.8 g per 1000 mL and sodium chloride 6.449 g per 1000 mL NA",1,FALSE,2005-12-24,NA,NA
+FALSE,9006439,"calcium chloride 5.145 g per 1000 mL and dextrose anhydrous 22 g per 1000 mL and lactic acid 5.4 g per 1000 mL and magnesium chloride 2.033 g per 1000 mL and potassium chloride 0.314 g per 1000 mL and sodium bicarbonate 3.09 g per 1000 mL and sodium chloride 6.45 g per 1000 mL NA",1,TRUE,2006-02-21,NA,NA
+FALSE,9006440,"cetylpyridinium chloride 0.05 % NA",1,FALSE,2006-03-22,NA,NA
+FALSE,9006441,"aprepitant 125 mg and aprepitant 80 mg NA",1,FALSE,2007-09-24,NA,NA
+FALSE,9006442,"voriconazole 3 g per bottle oral suspension",1,FALSE,2008-07-17,NA,NA
+FALSE,9006443,"calcium (calcium carbonate) 500 mg and etidronate disodium 400 mg NA",1,FALSE,2009-06-15,NA,NA
+FALSE,9006444,"glucagon (recombinant dna origin) (glucagon hydrochloride) 1 mg per vial NA",2,FALSE,2009-12-23,NA,NA
+FALSE,9006445,"bisacodyl 5 mg and polyethylene glycol 3350 59.55 g per pck and potassium chloride 0.76 g per pck and sodium bicarbonate 1.69 g per pck and sodium chloride 1.46 g per pck and sodium sulfate 5.74 g per pck NA",1,TRUE,2010-06-06,NA,NA
+FALSE,9006446,"polyethylene glycol 3350 100 % oral suspension",1,FALSE,2010-07-02,NA,NA
+FALSE,9006447,"corynebacterium diphtheriae crm-197 protein 47 mcg per 0.5 mL and meningococcal group a oligosaccharide 10 mcg per 0.5 mL and meningococcal group c oligosaccharide 5 mcg per 0.5 mL and meningococcal group w-135 oligosaccharide 5 mcg per 0.5 mL and meningococcal group y oligosaccharide 5 mcg per 0.5 mL NA",1,FALSE,2010-07-29,NA,NA
+FALSE,9006448,"linezolid 3 g per bottle oral suspension",1,FALSE,2010-08-04,NA,NA
+FALSE,9006449,"fibrinogen (human) 90 mg per mL and thrombin (human) 1200 unit per mL NA",1,FALSE,2011-03-01,NA,NA
+FALSE,9006450,"anti-inhibitor coagulant complex 3250 unit per vial and water 50 mL per vial NA",1,FALSE,2011-04-04,NA,NA
+FALSE,9006451,"polyethylene glycol 3350 100 g per pck and potassium chloride 1.015 g per pck and sodium ascorbate 5.9 g per pck and sodium chloride 2.691 g per pck and sodium sulfate anhydrous 7.5 g per pck and vitamin C 4.7 g per pck powder for oral solution",1,TRUE,2011-04-28,NA,NA
+FALSE,9006452,"calcium chloride 40 mcmol per mL and thrombin (human) 500 unit per mL and NA 125 mg per mL and NA 3000 kiu per mL kit",1,FALSE,2011-12-14,NA,NA
+FALSE,9006453,"calcium chloride 2.45 g per l and dextrose 9.9 g per l and magnesium chloride 1.83 g per l and potassium chloride 2.68 g per l and sodium bicarbonate 3.59 g per l and sodium chloride 6.18 g per l and sodium chloride 4.21 g per l solution for haemodialysis",1,TRUE,2012-03-09,NA,NA
+FALSE,9006454,"acetaminophen 500 mg and acetaminophen 500 mg and dextromethorphan hydrobromide 15 mg and diphenhydramine hydrochloride 25 mg and guaifenesin 100 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg NA",3,TRUE,2012-04-25,NA,NA
+FALSE,9006455,"epinephrine (epinephrine bitartrate) 0.005 mg per mL and lidocaine hydrochloride 20 mg per mL solution for injection",1,FALSE,2012-04-25,NA,NA
+FALSE,9006456,"polymyxin b (polymyxin b sulfate) 50 mg per vial NA",1,FALSE,2012-05-03,NA,NA
+FALSE,9006457,"acetaminophen 500 mg and acetaminophen 500 mg and doxylamine succinate 6.25 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg NA",2,FALSE,2012-05-05,NA,NA
+FALSE,9006458,"acetaminophen 500 mg and acetaminophen 500 mg and diphenhydramine hydrochloride 25 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg NA",1,FALSE,2012-06-18,NA,NA
+FALSE,9006459,"acetaminophen 500 mg and acetaminophen 500 mg and chlorpheniramine maleate 2 mg and dextromethorphan hydrobromide 15 mg and dextromethorphan hydrobromide 15 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg NA",2,TRUE,2012-06-28,NA,NA
+FALSE,9006460,"acetaminophen 325 mg and acetaminophen 325 mg and dextromethorphan hydrobromide 15 mg and dextromethorphan hydrobromide 15 mg and doxylamine succinate 6.25 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg NA",2,TRUE,2012-08-14,NA,NA
+FALSE,9006461,"acetaminophen 500 mg and acetaminophen 500 mg and dextromethorphan hydrobromide 15 mg and diphenhydramine hydrochloride 25 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg NA",1,TRUE,2012-08-28,NA,NA
+FALSE,9006462,"oseltamivir (oseltamivir phosphate) 6 mg per mL oral suspension",1,FALSE,2012-09-10,NA,NA
+FALSE,9006463,"acetaminophen 650 mg and acetaminophen 650 mg and dextromethorphan hydrobromide 30 mg and diphenhydramine hydrochloride 50 mg and pseudoephedrine hydrochloride 60 mg and pseudoephedrine hydrochloride 60 mg NA",1,TRUE,2012-09-13,NA,NA
+FALSE,9006464,"acetaminophen 250 mg and acetaminophen 325 mg and dextromethorphan hydrobromide 10 mg and dextromethorphan hydrobromide 15 mg and doxylamine succinate 6.25 mg and guaifenesin 100 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg NA",1,TRUE,2012-12-10,NA,NA
+FALSE,9006465,"stiripentol 250 mg per pck oral suspension",1,FALSE,2013-05-01,NA,NA
+FALSE,9006466,"stiripentol 500 mg per pck oral suspension",1,FALSE,2013-05-01,NA,NA
+FALSE,9006467,"benzoyl peroxide 2.5 % and benzoyl peroxide 2.5 % NA",3,FALSE,2013-08-08,NA,NA
+FALSE,9006468,"meningococcal polysaccharide antigen group a 5 mcg per 0.5 mL and meningococcal polysaccharide antigen group c 5 mcg per 0.5 mL and meningococcal polysaccharide antigen group w-135 5 mcg per 0.5 mL and meningococcal polysaccharide antigen group y 5 mcg per 0.5 mL and tetanus toxoid 44 mcg per 0.5 mL NA",1,FALSE,2013-08-22,NA,NA
+FALSE,9006469,"benzoyl peroxide 5 % and salicylic acid 2 % NA",1,FALSE,2013-11-15,NA,NA
+FALSE,9006470,"vitamin B12 1000 mcg per mL solution for injection",2,FALSE,2014-03-12,NA,NA
+FALSE,9006471,"avobenzone 3 % and avobenzone 3 % and homosalate 10 % and octinoxate 4 % and octinoxate 7.5 % and octisalate 5 % and octocrylene 2.75 % and octocrylene 2.79 % NA",1,TRUE,2014-03-31,NA,NA
+FALSE,9006472,"avobenzone 3 % and homosalate 10 % and octinoxate 4 % and octocrylene 2.75 % NA",1,FALSE,2014-03-31,NA,NA
+FALSE,9006473,"avobenzone 3 % and octinoxate 7.5 % and octisalate 5 % and octocrylene 2.79 % NA",1,FALSE,2014-03-31,NA,NA
+FALSE,9006474,"chlorpheniramine maleate 2 mg and ibuprofen 200 mg and ibuprofen 200 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg NA",2,FALSE,2014-05-23,NA,NA
+FALSE,9006475,"diphenhydramine hydrochloride 25 mg and ibuprofen 200 mg and ibuprofen 200 mg NA",1,FALSE,2014-06-02,NA,NA
+FALSE,9006476,"apremilast 10 mg and apremilast 20 mg and apremilast 30 mg NA",1,FALSE,2014-11-27,NA,NA
+FALSE,9006477,"dasabuvir (dasabuvir sodium monohydrate) 250 mg and ombitasvir 12.5 mg and paritaprevir 75 mg and ritonavir 50 mg NA",1,FALSE,2015-01-06,NA,NA
+FALSE,9006478,"avobenzone 3 % and homosalate 2.5 % and octisalate 5 % and octocrylene 2.7 % NA",2,FALSE,2015-02-02,NA,NA
+FALSE,9006479,"benzoyl peroxide 2.5 % NA",2,FALSE,2015-02-02,NA,NA
+FALSE,9006480,"colesevelam hydrochloride 3.75 g per pck oral suspension",1,FALSE,2015-04-02,NA,NA
+FALSE,9006481,"tolvaptan 45 mg and tolvaptan 15 mg oral tablet",1,FALSE,2015-06-01,NA,NA
+FALSE,9006482,"tolvaptan 60 mg and tolvaptan 30 mg oral tablet",1,FALSE,2015-06-01,NA,NA
+FALSE,9006483,"tolvaptan 90 mg and tolvaptan 30 mg oral tablet",1,FALSE,2015-06-01,NA,NA
+FALSE,9006484,"octinoxate 7.5 % and zinc oxide 9 % NA",1,FALSE,2015-07-03,NA,NA
+FALSE,9006485,"pasireotide (pasireotide pamoate) 40 mg per vial NA",1,FALSE,2015-08-04,NA,NA
+FALSE,9006486,"pasireotide (pasireotide pamoate) 60 mg per vial NA",1,FALSE,2015-08-04,NA,NA
+FALSE,9006487,"octinoxate 7.5 % and zinc oxide 10.5 % NA",4,FALSE,2015-08-24,NA,NA
+FALSE,9006488,"benzoyl peroxide 5 % NA",1,FALSE,2015-08-25,NA,NA
+FALSE,9006489,"follitropin alfa 150 unit per vial and lutropin alfa 75 unit per vial NA",1,FALSE,2015-10-22,NA,NA
+FALSE,9006490,"pasireotide (pasireotide pamoate) 20 mg per vial NA",1,FALSE,2016-01-28,NA,NA
+FALSE,9006491,"magnesium chloride 3.05 g per l and sodium bicarbonate 2.12 g per l and sodium chloride 7.14 g per l NA",1,FALSE,2016-06-18,NA,NA
+FALSE,9006492,"beta-carotene 1.6 mg and calcium (calcium carbonate) 300 mg and copper (cupric oxide) 2 mg and d-pantothenic acid (calcium d-pantothenate) 5 mg and folic acid 1.1 mg and iodine (potassium iodide) 0.15 mg and iron (ferrous fumarate) 35 mg and magnesium (magnesium oxide) 50 mg and nicotinamide 20 mg and vitamin B12 (cyanocobalamin) 12 mcg and vitamin B1 (thiamine mononitrate) 3 mg and vitamin B2 (riboflavin) 3.4 mg and vitamin B6 (pyridoxine hydrochloride) 10 mg and vitamin C (ascorbic acid) 120 mg and vitamin D3 (cholecalciferol) 600 unit and vitamin E (dl-alpha tocopheryl acetate) 13.8 mg and zinc (zinc oxide) 15 mg oral tablet",1,TRUE,2016-07-15,NA,NA
+FALSE,9006493,"beta-carotene 1.6 mg and calcium (calcium carbonate) 300 mg and copper (cupric oxide) 2 mg and d-pantothenic acid (calcium d-pantothenate) 5 mg and folic acid 5 mg and iodine (potassium iodide) 0.15 mg and iron (ferrous fumarate) 35 mg and magnesium (magnesium oxide) 50 mg and nicotinamide 20 mg and vitamin B12 (cyanocobalamin) 12 mcg and vitamin B1 (thiamine mononitrate) 3 mg and vitamin B2 (riboflavin) 3.4 mg and vitamin B6 (pyridoxine hydrochloride) 10 mg and vitamin C (ascorbic acid) 120 mg and vitamin D3 (cholecalciferol) 600 unit and vitamin E (dl-alpha tocopheryl acetate) 13.8 mg and zinc (zinc oxide) 15 mg oral tablet",1,TRUE,2016-08-28,NA,NA
+FALSE,9006494,"venetoclax 10 mg and venetoclax 50 mg and venetoclax 100 mg NA",1,FALSE,2016-10-31,NA,NA
+FALSE,9006495,"cholestyramine resin 4 g oral suspension",1,FALSE,2016-12-23,NA,NA
+FALSE,9006496,"mifepristone 200 mg and misoprostol 200 mcg NA",1,FALSE,2017-01-10,NA,NA
+FALSE,9006497,"avobenzone 3 % and homosalate 8 % and octinoxate 7.5 % and octisalate 4.5 % and octocrylene 5 % cutaneous cream",1,FALSE,2017-01-13,NA,NA
+FALSE,9006498,"benzoyl peroxide 2.5 % and benzoyl peroxide 5 % NA",1,FALSE,2017-01-30,NA,NA
+FALSE,9006499,"benzoyl peroxide 3.5 % and benzoyl peroxide 2.5 % NA",1,FALSE,2017-01-30,NA,NA
+FALSE,9006500,"NA 3.75 mg per mL oral solution",1,FALSE,2017-03-23,NA,NA
+FALSE,9006501,"octinoxate 7 % and titanium dioxide 7.1 % and zinc oxide 4.2 % lotion",1,FALSE,2017-04-05,NA,NA
+FALSE,9006502,"avobenzone 2 % and homosalate 5 % and octisalate 5 % and octocrylene 2 % cutaneous emulsion",1,FALSE,2017-04-06,NA,NA
+FALSE,9006503,"NA 100 mg per vial powder for solution for injection",1,FALSE,2017-05-24,NA,NA
+FALSE,9006504,"vitamin A (retinyl palmitate) 100000 unit and vitamin E (dl-alpha tocopheryl acetate) 20 unit oral capsule",1,FALSE,2017-05-26,NA,NA
+FALSE,9006505,"vitamin A (retinyl palmitate) 200000 unit and vitamin E (dl-alpha tocopheryl acetate) 40 unit oral capsule",1,FALSE,2017-05-26,NA,NA
+FALSE,9006506,"NA 500 mg per vial powder for solution for injection",1,FALSE,2017-05-29,NA,NA
+FALSE,9006507,"gramicidin 0.025 mg per mL and polymyxin b sulfate 10000 unit per mL ophthalmic/otic drops",1,FALSE,2017-06-01,NA,NA
+FALSE,9006508,"octinoxate 7.5 % and octisalate 2 % and octocrylene 2 % and titanium dioxide 3 % and zinc oxide 3 % cutaneous cream",1,FALSE,2017-06-15,NA,NA
+FALSE,9006509,"octinoxate 6.6 % and octisalate 4.4 % cutaneous stick",1,FALSE,2017-06-27,NA,NA
+FALSE,9006510,"benzalkonium chloride 0.1212 % and didecyl dimethyl ammonium chloride 0.0545 % and dioctyl dimethyl ammonium chloride 0.0364 % and octyl decyl dimethyl ammonium chloride 0.0909 % NA",1,FALSE,2017-06-30,NA,NA
+FALSE,9006511,"octinoxate 2.9 % and titanium dioxide 1.6 % cutaneous liquid",1,FALSE,2017-07-01,NA,NA
+FALSE,9006512,"octinoxate 5 % and titanium dioxide 3.1 % and zinc oxide 2.2 % cutaneous liquid",1,FALSE,2017-07-01,NA,NA
+FALSE,9006513,"octinoxate 7.5 % and titanium dioxide 3.1 % lotion",1,FALSE,2017-07-03,NA,NA
+FALSE,9006514,"camphor 30 mg per g cutaneous cream",1,FALSE,NA,NA,NA

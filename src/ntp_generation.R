@@ -59,7 +59,7 @@ dpdextractdate <- "2017-07-04"
 # Ingredient Stem
 
 #ingredient_stem_file <- fread("ing_stem_20170822.csv")[-1,-1]
-ingredient_stem_file <- fread("ingredient_stem_20170905.csv")
+ingredient_stem_file <- fread("ingredient_stem_20170906.csv")
 
 # NTP Dosage Form Transform
 
@@ -79,7 +79,7 @@ ntp_form_route_file <- ntp_form_route_file %>%
 
 # Unit of Presentation
 
-packaging_file <- fread("Julie/Unit of Presentation 20170901.txt", data.table = TRUE)
+packaging_file <- fread("Julie/Unit of Presentation 20170906.txt", data.table = TRUE)
 
 # Combination Products
 
@@ -298,12 +298,18 @@ ccdd_drug_ingredients_raw <- ccdd_drug_ingredients_raw %>%
                                                             "")) %>% str_trim(),
          ntp_ingredient_name = sprintf("%s %s", ntp_ing %>% tolower(),
                                        strength_w_unit_w_dosage_if_exists %>% tolower() %>% str_replace_all("ml", "mL")),
+         ntp_ingredient_name = ifelse(str_detect(ntp_ingredient_name, "^vitamin"),
+                                      str_replace_all(ntp_ingredient_name, regex("(?<=vitamin )([abcdek])"), toupper),
+                                      ntp_ingredient_name),
     mp_ingredient_name = ifelse(
       ing_stem != dpd_ingredient,
       sprintf("%s %s", dpd_ingredient %>% tolower(),
               strength_w_unit_w_dosage_if_exists %>% tolower() %>% str_replace_all("ml", "mL")),
       sprintf("%s %s", ing_stem %>% tolower(),
-              strength_w_unit_w_dosage_if_exists %>% tolower() %>% str_replace_all("ml", "mL"))))
+              strength_w_unit_w_dosage_if_exists %>% tolower() %>% str_replace_all("ml", "mL"))),
+    mp_ingredient_name = ifelse(str_detect(mp_ingredient_name, "^vitamin"),
+                                str_replace_all(mp_ingredient_name, regex("(?<=vitamin )([abcdek])"), toupper),
+                                mp_ingredient_name))
 
 # This is an important intermediate
 ccdd_packaging_raw <- packaging_file %>%
@@ -434,21 +440,22 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
                        FALSE)) %>%
   left_join(combination_products_file %>%  
               rename(combo_mp_formal_name = mp_formal_name,
-                     combo_ntp_formal_name = ntp_formal_name)) %T%
-         {ccdd_pseudodins <<- distinct(., mp_formal_name, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
-                         group_by(drug_identification_number) %>% 
-                         filter(n() > 1) %>%
-                         ungroup() %>%
-                         mutate(mp_code = 1:n() + 700000) %>%
-           select(mp_code, drug_code, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
-           as.data.table() %>%
-           setkey(mp_formal_name)} %>%
+                     combo_ntp_formal_name = ntp_formal_name)) %>%
   mutate(mp_formal_name = if_else(is.na(combo_mp_formal_name),
                                   mp_formal_name,
                                   combo_mp_formal_name),
-         ntp_formal_name = if_elase(is.na(combo_ntp_formal_name),
-                                    ntp_formal_name,
-                                    combo_formal_name))
+         ntp_formal_name = if_else(is.na(combo_ntp_formal_name),
+                                   ntp_formal_name,
+                                   combo_ntp_formal_name)) %T>%
+         {ccdd_pseudodins <<- group_by(., drug_identification_number) %>% 
+                         filter(n() > 1) %>%
+                         ungroup() %>%
+                         distinct(., drug_code, mp_formal_name, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
+                         mutate(mp_code = 1:n() + 700000) %>%
+           select(mp_code, drug_code, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
+           as.data.table() %>%
+           setkey(mp_formal_name)}
+  
 
 ccdd_pseudodins_top250 <- ccdd_pseudodins %>%
                           filter(ccdd == TRUE) %>%
