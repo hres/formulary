@@ -83,7 +83,7 @@ packaging_file <- fread("Julie/Unit of Presentation 20170901.txt", data.table = 
 
 # Combination Products
 
-combination_products_file <- fread("Julie/Combination Products 20170904.csv") %>% mutate(drug_code = as.integer(drug_code))
+combination_products_file <- fread("Julie/combination_products_20170906.csv") %>% mutate(drug_code = as.integer(drug_code))
 # Special Groupings (TMs)
 
 # For each individual ingredient, generate:
@@ -432,12 +432,9 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
   mutate(ccdd = ifelse(!is.na(tm_code), 
                        TRUE,
                        FALSE)) %>%
-  left_join(., combination_products_file, 
-               by = c("drug_code", "drug_identification_number")) %>%
-  rename(combo_mp_formal_name = mp_formal_name.y,
-         combo_ntp_formal_name = ntp_formal_name.y,
-         mp_formal_name = mp_formal_name.x,
-         ntp_formal_name = ntp_formal_name.x) %T>%
+  left_join(combination_products_file %>%  
+              rename(combo_mp_formal_name = mp_formal_name,
+                     combo_ntp_formal_name = ntp_formal_name)) %T%
          {ccdd_pseudodins <<- distinct(., mp_formal_name, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
                          group_by(drug_identification_number) %>% 
                          filter(n() > 1) %>%
@@ -445,7 +442,13 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
                          mutate(mp_code = 1:n() + 700000) %>%
            select(mp_code, drug_code, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
            as.data.table() %>%
-           setkey(mp_formal_name)}
+           setkey(mp_formal_name)} %>%
+  mutate(mp_formal_name = if_else(is.na(combo_mp_formal_name),
+                                  mp_formal_name,
+                                  combo_mp_formal_name),
+         ntp_formal_name = if_elase(is.na(combo_ntp_formal_name),
+                                    ntp_formal_name,
+                                    combo_formal_name))
 
 ccdd_pseudodins_top250 <- ccdd_pseudodins %>%
                           filter(ccdd == TRUE) %>%
@@ -570,12 +573,13 @@ ccdd_tm_table <- ccdd_mp_source %>%
 ccdd_mapping_table <- ccdd_mp_source %>%
                  left_join(ccdd_tm_table %>% select(tm_code, tm_formal_name)) %>%
                  left_join(ccdd_ntp_table %>% select(ntp_code, ntp_formal_name)) %>%
+                 left_join(ccdd_mp_table %>% select(mp_code, mp_formal_name)) %>%
   select(ccdd,
          tm_code,
          tm_formal_name,
          ntp_code,
          ntp_formal_name, 
-         mp_code = drug_identification_number, 
+         mp_code, 
          mp_formal_name) %>% distinct()
 
 
@@ -688,7 +692,7 @@ artifacts <- c(
   "new_ntp_concepts")
   
 for(x in artifacts){
-  filename <- paste(x, "20170905.csv", sep = "_")
-  write.csv(get(x), file = paste0("../reports/20170905/", filename), row.names = FALSE)
+  filename <- paste(x, "20170906.csv", sep = "_")
+  write.csv(get(x), file = paste0("../reports/20170906/", filename), row.names = FALSE)
 }
 
