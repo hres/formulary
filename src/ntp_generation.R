@@ -547,7 +547,7 @@ ccdd_ntp_table <- ccdd_mp_source %>%
          fr_display = NA) %>%
   select(ccdd, ntp_code, everything())
 
-
+#db_insert_into(ccdd$con, table = "ntp_table", new_ntp_concepts)
 # copy_to(ccdd, ccdd_ntp_table, "ntp_table", temporary = FALSE)
 
 
@@ -699,7 +699,7 @@ artifacts <- c(
   "new_ntp_concepts")
   
 for(x in artifacts){
-  filename <- paste(x, "20170906.csv", sep = "_")
-  write.csv(get(x), file = paste0("../reports/20170906/", filename), row.names = FALSE)
+  filename <- paste(x, "20170907.csv", sep = "_")
+  write.csv(get(x), file = paste0("../reports/20170907/", filename), row.names = FALSE)
 }
 
