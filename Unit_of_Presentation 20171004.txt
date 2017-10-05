@@ -103,7 +103,7 @@ drug_code	unit_of_presentation	uop_size	uop_unit_of_measure	calculation
 18323	vial	1	mL	Y			
 18323	vial	5	mL	Y			
 18323	vial	10	mL	Y			
-18323	vial	50	mL	Y			
+18323	vial	50	mL	N			
 86845	vial	1	mL	Y			
 86845	vial	5	mL	Y			
 86845	vial	50	mL	N			
