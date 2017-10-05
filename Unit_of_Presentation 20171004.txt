@@ -72,7 +72,7 @@ drug_code	unit_of_presentation	uop_size	uop_unit_of_measure	calculation
 86987	ampoule	10	mL	Y			
 87103	ampoule	2	mL	Y			
 87103	ampoule	10	mL	Y			
-12218	vial	25	mL	N			
+12218	vial	25	mL	Y			
 4431	ampoule	2	mL	Y			
 4431	ampoule	4	mL	Y			
 4910	ampoule	2	mL	Y			
