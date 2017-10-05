@@ -344,3 +344,5 @@ drug_code	unit_of_presentation	uop_size	uop_unit_of_measure	calculation
 70586	bottle	250	mL	N			
 91749	bag	250	mL	N			
 65646	ampoule	1	mL	Y			
+87333 vial 1 mL Y
+12208 vial 1 mL Y
