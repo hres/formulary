@@ -1,1975 +1,268 @@
-"ccdd","tm_code","tm_formal_name","n_dins","n_ntps","tm_status","tm_status_effective_time"
-TRUE,8000782,"meperidine",9,2,"active",1944-12-31
-TRUE,8000001,"levothyroxine",18,2,"active",1951-12-30
-TRUE,8000003,"epinephrine",14,3,"active",1951-12-31
-TRUE,8000004,"phenytoin sodium",7,2,"active",1951-12-31
-TRUE,8000005,"phenytoin (base)",4,2,"active",1952-12-31
-TRUE,8000006,"testosterone",16,6,"active",1953-12-31
-TRUE,8000008,"hydrocortisone",16,7,"active",1954-12-31
-TRUE,8000009,"hydroxyzine",13,3,"active",1956-12-31
-TRUE,8000010,"methylphenidate",44,3,"active",1956-12-31
-TRUE,8000778,"hydrocodone and phenyltoloxamine",2,2,"active",1957-12-31
-TRUE,8000012,"hydroxychloroquine",5,1,"active",1957-12-31
-TRUE,8000013,"warfarin",24,1,"active",1957-12-31
-TRUE,8000788,"belladonna and ergotamine and phenobarbital",1,1,"active",1959-01-01
-TRUE,8000014,"prednisone",10,1,"active",1959-12-31
-TRUE,8000015,"spironolactone",4,1,"active",1959-12-31
-TRUE,8000018,"medroxyprogesterone",15,2,"active",1960-12-31
-TRUE,8000020,"norethindrone",4,1,"active",1961-12-31
-TRUE,8000021,"conjugated estrogens",18,4,"active",1963-12-31
-TRUE,8000023,"acetaminophen and caffeine and codeine",22,1,"active",1964-12-31
-TRUE,8000024,"amitriptyline",38,1,"active",1965-12-31
-TRUE,8000794,"betamethasone acetate and betamethasone (base)",2,1,"active",1965-12-31
-TRUE,8000026,"nortriptyline",8,1,"active",1965-12-31
-TRUE,8000027,"azathioprine",7,2,"active",1966-12-31
-TRUE,8000028,"dexamethasone (base)",19,7,"active",1966-12-31
-TRUE,8000029,"quinine sulfate",11,2,"active",1966-12-31
-TRUE,8000030,"triamcinolone acetonide",16,5,"active",1966-12-31
-TRUE,8000786,"pentazocine",3,2,"active",1967-12-31
-TRUE,8000031,"hydrochlorothiazide",20,1,"active",1968-12-31
-TRUE,8000032,"carbamazepine",28,4,"active",1969-12-31
-TRUE,8000036,"clindamycin",27,6,"active",1970-12-31
-TRUE,8000037,"erythromycin",14,5,"active",1970-12-31
-TRUE,8000038,"metronidazole",14,7,"active",1970-12-31
-TRUE,8000040,"cephalexin",21,3,"active",1971-12-31
-TRUE,8000041,"lithium carbonate",11,2,"active",1971-12-31
-TRUE,8000043,"ibuprofen",65,6,"active",1972-12-31
-TRUE,8000044,"nitroglycerin",27,5,"active",1972-12-31
-TRUE,8000045,"oxycodone",38,3,"active",1973-12-31
-TRUE,8000046,"allopurinol",16,1,"active",1974-12-31
-TRUE,8000047,"colchicine",4,1,"active",1974-12-31
-TRUE,8000048,"diazepam",18,4,"active",1974-12-31
-TRUE,8000049,"ethinyl estradiol and norethindrone",19,1,"active",1974-12-31
-TRUE,8000050,"nitrofurantoin",5,2,"active",1974-12-31
-TRUE,8000051,"prednisolone",10,2,"active",1974-12-31
-TRUE,8000791,"betamethasone dipropionate",20,3,"active",1975-12-31
-TRUE,8000054,"carbidopa and levodopa",21,3,"active",1975-12-31
-TRUE,8000055,"folic acid",7,2,"active",1975-12-31
-TRUE,8000057,"furosemide",25,3,"active",1976-12-31
-TRUE,8000059,"acetaminophen and oxycodone",10,1,"active",1977-12-31
-TRUE,8000061,"clonazepam",38,1,"active",1977-12-31
-TRUE,8000063,"metoprolol",48,3,"active",1977-12-31
-TRUE,8000064,"penicillin v",4,2,"active",1977-12-31
-TRUE,8000065,"acetaminophen and codeine",10,2,"active",1978-12-31
-TRUE,8000066,"baclofen",26,2,"active",1978-12-31
-TRUE,8000067,"benztropine",5,3,"active",1978-12-31
-TRUE,8000069,"codeine",15,5,"active",1978-12-31
-TRUE,8000071,"morphine",76,8,"active",1978-12-31
-TRUE,8000072,"valproic acid (valproate)",5,2,"active",1978-12-31
-TRUE,8000073,"amoxicillin",43,4,"active",1979-12-31
-TRUE,8000792,"betamethasone valerate",19,5,"active",1979-12-31
-TRUE,8000075,"calcitriol",8,3,"active",1979-12-31
-TRUE,8000078,"nystatin",11,4,"active",1979-12-31
-TRUE,8000079,"oxazepam",18,1,"active",1979-12-31
-TRUE,8000080,"sulfamethoxazole and trimethoprim",9,3,"active",1979-12-31
-TRUE,8000081,"timolol",21,3,"active",1979-12-31
-TRUE,8000082,"diclofenac",53,8,"active",1980-12-31
-TRUE,8000084,"haloperidol",22,3,"active",1980-12-31
-TRUE,8000085,"indomethacin",9,2,"active",1980-12-31
-TRUE,8000086,"propranolol",19,4,"active",1980-12-31
-TRUE,8000087,"temazepam",10,1,"active",1980-12-31
-TRUE,8000088,"alprazolam",31,1,"active",1981-12-31
-TRUE,8000090,"bromazepam",9,1,"active",1981-12-31
-TRUE,8000091,"flurazepam",9,1,"active",1981-12-31
-TRUE,8000092,"hydrochlorothiazide and triamterene",3,1,"active",1981-12-31
-TRUE,8000095,"acyclovir",19,6,"active",1982-12-31
-TRUE,8000097,"indapamide",21,1,"active",1982-12-31
-TRUE,8000218,"naproxen",54,6,"active",1982-12-31
-TRUE,8000779,"alcohol anhydrous and doxylamine and etafedrin and hydrocodone and sodium citrate",2,1,"active",1983-12-31
-TRUE,8000774,"acetylsalicylic acid and oxycodone",1,1,"active",1984-12-31
-TRUE,8000104,"fusidic acid",4,3,"active",1984-12-31
-TRUE,8000106,"hydromorphone",41,7,"active",1984-12-31
-TRUE,8000107,"procyclidine",3,2,"active",1984-12-31
-TRUE,8000108,"valproic acid (divalproex)",24,1,"active",1984-12-31
-TRUE,8000109,"lorazepam",33,3,"active",1985-12-31
-TRUE,8000110,"acebutolol",20,1,"active",1986-12-31
-TRUE,8000114,"dexamethasone phosphate",9,2,"active",1986-12-31
-TRUE,8000115,"glyburide",17,1,"active",1986-12-31
-TRUE,8000117,"doxycycline",14,4,"active",1987-12-31
-TRUE,8000118,"enalapril",49,1,"active",1987-12-31
-TRUE,8000119,"ethinyl estradiol and levonorgestrel",21,1,"active",1987-12-31
-TRUE,8000120,"ranitidine",42,3,"active",1987-12-31
-TRUE,8000121,"atenolol",44,1,"active",1988-12-31
-TRUE,8000773,"clotrimazole",17,4,"active",1988-12-31
-TRUE,8000122,"diltiazem",80,5,"active",1988-12-31
-TRUE,8000123,"nifedipine",18,2,"active",1988-12-31
-TRUE,8000124,"verapamil",28,4,"active",1988-12-31
-TRUE,8000159,"ciprofloxacin",84,6,"active",1989-12-31
-TRUE,8000127,"fentanyl",60,4,"active",1989-12-31
-TRUE,8000128,"fluoxetine",50,2,"active",1989-12-31
-TRUE,8000130,"metoclopramide",7,3,"active",1989-12-31
-TRUE,8000131,"omeprazole",36,2,"active",1989-12-31
-TRUE,8000132,"salbutamol",32,7,"active",1989-12-31
-TRUE,8000134,"budesonide",12,6,"active",1990-12-31
-TRUE,8000135,"clonidine",10,1,"active",1990-12-31
-TRUE,8000139,"gliclazide",18,2,"active",1990-12-31
-TRUE,8000140,"lisinopril",48,1,"active",1990-12-31
-TRUE,8000141,"pravastatin",44,1,"active",1990-12-31
-TRUE,8000142,"simvastatin",102,1,"active",1990-12-31
-TRUE,8000143,"zopiclone",40,1,"active",1990-12-31
-TRUE,8000785,"belladonna and opium",1,1,"active",1991-12-31
-TRUE,8000147,"clozapine",10,1,"active",1991-12-31
-TRUE,8000148,"mometasone",15,5,"active",1991-12-31
-TRUE,8000153,"amlodipine",62,1,"active",1992-12-31
-TRUE,8000154,"amoxicillin and clavulanic acid",18,2,"active",1992-12-31
-TRUE,8000160,"clarithromycin",29,3,"active",1992-12-31
-TRUE,8000161,"clobetasol",22,6,"active",1992-12-31
-TRUE,8000162,"dextroamphetamine",4,2,"active",1992-12-31
-TRUE,8000163,"doxazosin",18,1,"active",1992-12-31
-TRUE,8000164,"ethinyl estradiol and norgestimate",8,1,"active",1992-12-31
-TRUE,8000165,"felodipine",8,1,"active",1992-12-31
-TRUE,8000166,"finasteride",24,1,"active",1992-12-31
-TRUE,8000777,"hydrocodone",3,2,"active",1992-12-31
-TRUE,8000168,"insulin isophane human",4,1,"active",1992-12-31
-TRUE,8000169,"ketorolac",12,3,"active",1992-12-31
-TRUE,8000170,"quinapril",20,1,"active",1992-12-31
-TRUE,8000171,"sertraline",62,1,"active",1992-12-31
-TRUE,8000172,"vitamin D3 (cholecalciferol)",14,2,"active",1992-12-31
-TRUE,8000173,"fluticasone",13,3,"active",1993-03-12
-TRUE,8000179,"desogestrel and ethinyl estradiol",12,1,"active",1993-12-31
-TRUE,8000180,"diclofenac and misoprostol",6,1,"active",1993-12-31
-TRUE,8000181,"domperidone",13,1,"active",1993-12-31
-TRUE,8000183,"mesalazine",14,5,"active",1993-12-31
-TRUE,8000184,"metformin",46,2,"active",1993-12-31
-TRUE,8000185,"paroxetine",60,2,"active",1993-12-31
-TRUE,8000187,"risperidone",113,4,"active",1993-12-31
-TRUE,8000188,"terbinafine",15,3,"active",1993-12-31
-TRUE,8000189,"trazodone",24,2,"active",1993-12-31
-TRUE,8000196,"cyclobenzaprine",12,1,"active",1994-12-31
-TRUE,8000198,"digoxin",9,3,"active",1994-12-31
-TRUE,8000200,"gabapentin",90,2,"active",1994-12-31
-TRUE,8000201,"hydrochlorothiazide and lisinopril",18,1,"active",1994-12-31
-TRUE,8000781,"hydrocodone and phenylephrine",2,1,"active",1994-12-31
-TRUE,8000202,"ipratropium",18,4,"active",1994-12-31
-TRUE,8000203,"isosorbide mononitrate",5,1,"active",1994-12-31
-TRUE,8000204,"lithium (ion)",1,1,"active",1994-12-31
-TRUE,8000205,"minocycline",20,2,"active",1994-12-31
-TRUE,8000206,"perindopril",3,1,"active",1994-12-31
-TRUE,8000208,"beclomethasone",6,3,"active",1995-12-31
-TRUE,8000210,"cefprozil",18,2,"active",1995-12-31
-TRUE,8000213,"estradiol",26,5,"active",1995-12-31
-TRUE,8000214,"lamotrigine",29,1,"active",1995-12-31
-TRUE,8000215,"lansoprazole",26,2,"active",1995-12-31
-TRUE,8000216,"losartan",54,1,"active",1995-12-31
-TRUE,8000217,"methotrexate",24,2,"active",1995-12-31
-TRUE,8000219,"oxybutynin",16,4,"active",1995-12-31
-TRUE,8000220,"progesterone",5,4,"active",1995-12-31
-TRUE,8000221,"valproic acid",10,2,"active",1995-12-31
-TRUE,8000222,"tacrolimus",13,4,"active",1996-08-14
-TRUE,8000224,"azithromycin",38,3,"active",1996-09-26
-TRUE,8000225,"fenofibrate",25,2,"active",1996-10-02
-TRUE,8000226,"olanzapine",144,3,"active",1996-11-04
-TRUE,8000787,"insulin lispro",4,1,"active",1996-11-15
-TRUE,8000229,"hydrochlorothiazide and losartan",40,1,"active",1996-11-22
-TRUE,8000230,"ciclopirox",8,4,"active",1996-12-03
-TRUE,8000233,"valacyclovir",22,1,"active",1996-12-31
-TRUE,8000784,"normethadone and p-hydroxyephedrine",1,1,"active",1997-01-23
-TRUE,8000234,"sumatriptan",35,3,"active",1997-02-11
-TRUE,8000235,"atorvastatin",80,1,"active",1997-03-05
-TRUE,8000236,"pantoprazole",39,2,"active",1997-03-05
-TRUE,8000237,"cetirizine",20,4,"active",1997-03-06
-TRUE,8000238,"clobazam",5,1,"active",1997-03-24
-TRUE,8000239,"ramipril",76,2,"active",1997-03-24
-TRUE,8000240,"topiramate",62,2,"active",1997-03-25
-TRUE,8000053,"betamethasone (base)",1,1,"active",1997-04-01
-TRUE,8000244,"latanoprost",8,1,"active",1997-07-28
-TRUE,8000246,"donepezil",48,2,"active",1997-08-20
-TRUE,8000247,"terazosin",28,1,"active",1997-09-26
-TRUE,8000248,"quetiapine",113,2,"active",1997-12-10
-TRUE,8000249,"valsartan",54,2,"active",1997-12-15
-TRUE,8000250,"trandolapril",4,1,"active",1998-01-07
-TRUE,8000251,"olopatadine",9,1,"active",1998-02-09
-TRUE,8000253,"pramipexole",43,1,"active",1998-02-26
-TRUE,8000254,"venlafaxine",48,1,"active",1998-03-04
-TRUE,8000256,"cyproterone and ethinyl estradiol",5,1,"active",1998-04-08
-TRUE,8000257,"bupropion",18,1,"active",1998-05-05
-TRUE,8000259,"irbesartan",58,1,"active",1998-06-22
-TRUE,8000261,"montelukast",49,3,"active",1998-08-21
-TRUE,8000262,"hydrochlorothiazide and quinapril",6,1,"active",1998-10-01
-TRUE,8000263,"clopidogrel",20,1,"active",1998-10-13
-TRUE,8000265,"tolterodine",16,2,"active",1998-11-23
-TRUE,8000266,"candesartan",58,1,"active",1998-12-07
-TRUE,8000267,"citalopram",78,1,"active",1999-03-08
-TRUE,8000268,"sildenafil",47,2,"active",1999-03-09
-TRUE,8000269,"amiodarone",17,2,"active",1999-03-29
-TRUE,8000271,"celecoxib",42,1,"active",1999-04-19
-TRUE,8000272,"dorzolamide and timolol",11,1,"active",1999-05-27
-TRUE,8000273,"repaglinide",21,1,"active",1999-06-21
-TRUE,8000276,"rizatriptan",37,2,"active",1999-08-31
-TRUE,8000277,"telmisartan",30,1,"active",1999-09-01
-TRUE,8000278,"risedronate",25,2,"active",1999-09-07
-TRUE,8000279,"fluticasone and salmeterol",5,2,"active",1999-09-24
-TRUE,8000284,"hydrochlorothiazide and irbesartan",42,1,"active",2000-03-16
-TRUE,8000285,"methadone",10,2,"active",2000-05-05
-TRUE,8000286,"hydrochlorothiazide and valsartan",38,1,"active",2000-05-10
-TRUE,8000287,"rivastigmine",44,3,"active",2000-05-15
-TRUE,8000776,"butorphanol",2,1,"active",2000-08-01
-TRUE,8000289,"pioglitazone",51,1,"active",2000-08-28
-TRUE,8000290,"meloxicam",22,1,"active",2000-09-26
-TRUE,8000291,"moxifloxacin",17,3,"active",2000-10-20
-TRUE,8000298,"mirtazapine",32,2,"active",2001-05-24
-TRUE,8000300,"candesartan and hydrochlorothiazide",19,1,"active",2001-06-26
-TRUE,8000301,"hydrochlorothiazide and telmisartan",26,1,"active",2001-08-16
-TRUE,8000302,"betahistine",12,1,"active",2001-08-17
-TRUE,8000303,"esomeprazole",18,3,"active",2001-08-20
-TRUE,8000780,"brompheniramine and guaifenesin and hydrocodone and phenylephrine",1,1,"active",2001-09-06
-TRUE,8000307,"insulin aspart",6,1,"active",2001-10-31
-TRUE,8000312,"alendronic acid",36,1,"active",2002-02-14
-TRUE,8000313,"alfuzosin",7,1,"active",2002-02-21
-TRUE,8000314,"rabeprazole",23,1,"active",2002-04-02
-TRUE,8000315,"bimatoprost",4,2,"active",2002-05-24
-TRUE,8000317,"insulin glargine",6,1,"active",2002-07-24
-TRUE,8000320,"tiotropium",2,2,"active",2002-11-21
-TRUE,8000321,"indapamide and perindopril",3,1,"active",2002-12-19
-TRUE,8000322,"rosuvastatin",82,1,"active",2003-02-19
-TRUE,8000325,"bisoprolol",18,1,"active",2003-04-24
-TRUE,8000326,"ezetimibe",17,1,"active",2003-06-15
-TRUE,8000328,"levetiracetam",52,1,"active",2003-07-23
-TRUE,8000329,"carvedilol",44,1,"active",2003-08-04
-TRUE,8000330,"dutasteride",12,1,"active",2003-11-14
-TRUE,8000331,"tadalafil",53,1,"active",2003-11-25
-TRUE,8000332,"fosinopril",16,1,"active",2003-12-05
-TRUE,8000334,"ethinyl estradiol and norelgestromin",1,1,"active",2003-12-24
-TRUE,8000338,"ciprofloxacin and dexamethasone (base)",1,1,"active",2004-05-13
-TRUE,8000343,"ethinyl estradiol and etonogestrel",1,1,"active",2004-12-02
-TRUE,8000345,"drospirenone and ethinyl estradiol",8,1,"active",2004-12-22
-TRUE,8000346,"escitalopram",42,2,"active",2005-02-14
-TRUE,8000347,"atomoxetine",57,1,"active",2005-02-24
-TRUE,8000348,"pregabalin",87,1,"active",2005-07-18
-TRUE,8000349,"acetaminophen and tramadol",14,1,"active",2005-07-22
-TRUE,8000352,"tamsulosin",10,2,"active",2005-10-11
-TRUE,8000353,"insulin detemir",2,1,"active",2005-11-14
-TRUE,8000413,"alendronic acid and vitamin D3 (cholecalciferol)",7,1,"active",2006-03-13
-TRUE,8000360,"solifenacin",26,1,"active",2006-06-23
-TRUE,8000367,"ciclesonide",4,2,"active",2006-09-27
-TRUE,8000368,"hydrochlorothiazide and ramipril",17,1,"active",2006-11-16
-TRUE,8000369,"tramadol",20,3,"active",2006-12-07
-TRUE,8000371,"varenicline",3,2,"active",2007-04-11
-TRUE,8000372,"buprenorphine and naloxone",6,1,"active",2007-11-26
-TRUE,8000374,"sitagliptin",3,1,"active",2008-01-02
-TRUE,8000375,"duloxetine",28,1,"active",2008-01-18
-TRUE,8000378,"dabigatran",3,1,"active",2008-07-03
-TRUE,8000379,"rivaroxaban",4,1,"active",2008-09-16
-TRUE,8000381,"travoprost",5,1,"active",2008-11-10
-TRUE,8000382,"hydrochlorothiazide and olmesartan",12,1,"active",2008-12-22
-TRUE,8000383,"olmesartan",14,1,"active",2008-12-22
-TRUE,8000385,"desvenlafaxine",2,1,"active",2009-03-05
-TRUE,8000387,"lisdexamfetamine",7,1,"active",2009-08-04
-TRUE,8000389,"aripiprazole",8,2,"active",2009-09-30
-TRUE,8000390,"metformin and sitagliptin",6,2,"active",2009-10-08
-TRUE,8000391,"saxagliptin",2,1,"active",2009-10-29
-TRUE,8000775,"buprenorphine",4,1,"active",2010-05-26
-TRUE,8000394,"dexlansoprazole",2,1,"active",2010-08-05
-TRUE,8000783,"naloxone and oxycodone",4,1,"active",2010-10-05
-TRUE,8000396,"galantamine",24,1,"active",2010-11-12
-TRUE,8000398,"esomeprazole and naproxen",4,1,"active",2011-02-04
-TRUE,8000789,"tapentadol",8,2,"active",2012-03-20
-TRUE,8000793,"triamcinolone hexacetonide",1,1,"inactive",2017-07-07
-TRUE,8000137,"dexamethasone sodium phosphate",2,1,"inactive",2017-08-16
-FALSE,NA,"air",1,1,"active",1911-12-31
-FALSE,NA,"carbon dioxide",3,1,"active",1911-12-31
-FALSE,NA,"carbon dioxide and oxygen",6,1,"active",1911-12-31
-FALSE,NA,"helium",3,1,"active",1911-12-31
-FALSE,NA,"helium and oxygen",5,1,"active",1911-12-31
-FALSE,NA,"nitrogen",9,2,"active",1911-12-31
-FALSE,NA,"nitrous oxide",3,1,"active",1911-12-31
-FALSE,NA,"oxygen",23,1,"active",1911-12-31
-FALSE,NA,"gold sodium thiomalate",6,1,"active",1935-12-31
-FALSE,NA,"chloroxylenol",31,4,"active",1938-12-31
-FALSE,NA,"pitcher plant",1,1,"active",1942-12-31
-FALSE,NA,"NA",77,15,"active",1944-12-31
-FALSE,NA,"primaquine phosphate",1,1,"active",1945-12-31
-FALSE,NA,"propylthiouracil",2,1,"active",1945-12-31
-FALSE,NA,"dihydroergotamine mesylate",3,2,"active",1946-12-31
-FALSE,NA,"bismuth dipropylacetate",1,1,"active",1950-12-31
-FALSE,NA,"acetylsalicylic acid",74,4,"active",1951-12-31
-FALSE,NA,"bacitracin",5,2,"active",1951-12-31
-FALSE,NA,"calcium chloride and dextrose and potassium chloride and sodium chloride and sodium lactate",5,1,"active",1951-12-31
-FALSE,NA,"calcium chloride and potassium chloride and sodium chloride and sodium lactate",6,2,"active",1951-12-31
-FALSE,NA,"camphor and diphenylpyraline hydrochloride and guaiacol carbonate",2,1,"active",1951-12-31
-FALSE,NA,"dexpanthenol and lidocaine hydrochloride and nicotinamide and pyridoxine hydrochloride and vitamin B1 and vitamin B2 (riboflavin 5'-phosphate sodium)",1,1,"active",1951-12-31
-FALSE,NA,"dextrose",20,2,"active",1951-12-31
-FALSE,NA,"dextrose and sodium chloride",17,2,"active",1951-12-31
-FALSE,NA,"dimenhydrinate",32,8,"active",1951-12-31
-FALSE,NA,"gentian violet",1,1,"active",1951-12-31
-FALSE,NA,"iothalamate meglumine",4,2,"active",1951-12-31
-FALSE,NA,"lidocaine hydrochloride",39,11,"active",1951-12-31
-FALSE,NA,"methylene blue",6,2,"active",1951-12-31
-FALSE,NA,"mineral oil",8,4,"active",1951-12-31
-FALSE,NA,"norepinephrine (norepinephrine bitartrate)",3,1,"active",1951-12-31
-FALSE,NA,"papaverine hydrochloride",1,1,"active",1951-12-31
-FALSE,NA,"potassium chloride",7,3,"active",1951-12-31
-FALSE,NA,"sodium chloride",31,4,"active",1951-12-31
-FALSE,NA,"thiamazole",3,1,"active",1951-12-31
-FALSE,NA,"thyroid",3,1,"active",1951-12-31
-FALSE,NA,"tropicamide",5,1,"active",1951-12-31
-FALSE,NA,"water",19,3,"active",1951-12-31
-FALSE,NA,"white petrolatum",12,3,"active",1951-12-31
-FALSE,NA,"ethopropazine (ethopropazine hydrochloride)",1,1,"active",1952-12-31
-FALSE,NA,"succinylcholine chloride",4,1,"active",1952-12-31
-FALSE,NA,"crotamiton",1,1,"active",1953-12-31
-FALSE,NA,"busulfan",2,2,"active",1954-12-31
-FALSE,NA,"epinephrine and lidocaine hydrochloride",17,1,"active",1954-12-31
-FALSE,NA,"lidocaine",15,5,"active",1954-12-31
-FALSE,NA,"mercaptopurine",2,1,"active",1954-12-31
-FALSE,NA,"acenocoumarol",2,1,"active",1957-12-31
-FALSE,NA,"clioquinol and hydrocortisone",1,1,"active",1957-12-31
-FALSE,NA,"phenobarbital",5,2,"active",1957-12-31
-FALSE,NA,"spiramycin",2,1,"active",1957-12-31
-FALSE,NA,"amphotericin b",3,2,"active",1958-12-31
-FALSE,NA,"bisacodyl",22,3,"active",1958-12-31
-FALSE,NA,"methocarbamol",5,2,"active",1958-12-31
-FALSE,NA,"methotrimeprazine (methotrimeprazine hydrochloride)",1,1,"active",1958-12-31
-FALSE,NA,"chloramphenicol (chloramphenicol sodium succinate)",1,1,"active",1959-12-31
-FALSE,NA,"pilocarpine hydrochloride",7,2,"active",1959-12-31
-FALSE,NA,"trimeprazine (trimeprazine tartrate)",2,1,"active",1959-12-31
-FALSE,NA,"atropine sulfate and diphenoxylate hydrochloride",1,1,"active",1960-12-31
-FALSE,NA,"codeine and pseudoephedrine hydrochloride and triprolidine hydrochloride",3,1,"active",1960-12-31
-FALSE,NA,"ethosuximide",2,2,"active",1960-12-31
-FALSE,NA,"hydrochlorothiazide and spironolactone",4,1,"active",1960-12-31
-FALSE,NA,"methylprednisolone",2,1,"active",1960-12-31
-FALSE,NA,"methylprednisolone acetate",9,2,"active",1960-12-31
-FALSE,NA,"tetrahydrozoline hydrochloride",3,1,"active",1960-12-31
-FALSE,NA,"xylometazoline hydrochloride",17,2,"active",1960-12-31
-FALSE,NA,"chlordiazepoxide hydrochloride and clidinium bromide",2,1,"active",1961-12-31
-FALSE,NA,"sodium polystyrene sulfonate",5,3,"active",1961-12-31
-FALSE,NA,"clofedanol hydrochloride",1,1,"active",1962-12-31
-FALSE,NA,"aluminum hydroxide (dried aluminum hydroxide gel) and magnesium hydroxide and simethicone",3,2,"active",1963-12-31
-FALSE,NA,"aluminum hydroxide-magnesium carbonate-co dried gel and magnesium hydroxide and simethicone",1,1,"active",1963-12-31
-FALSE,NA,"dactinomycin",1,1,"active",1963-12-31
-FALSE,NA,"dexamethasone (base) and neomycin (neomycin sulfate) and polymyxin b sulfate",3,2,"active",1963-12-31
-FALSE,NA,"glycerine and phenol and sodium chloride",1,1,"active",1963-12-31
-FALSE,NA,"mannitol",6,2,"active",1963-12-31
-FALSE,NA,"non pollen",4,1,"active",1963-12-31
-FALSE,NA,"phenol and sodium chloride",2,1,"active",1963-12-31
-FALSE,NA,"pollen",3,1,"active",1963-12-31
-FALSE,NA,"simethicone",16,7,"active",1963-12-31
-FALSE,NA,"atropine sulfate",12,2,"active",1964-12-31
-FALSE,NA,"d-penicillamine",1,1,"active",1964-12-31
-FALSE,NA,"aluminum chlorohydrate and methylprednisolone acetate and neomycin sulfate and sulfur",1,1,"active",1965-12-31
-FALSE,NA,"magnesium chloride and potassium chloride and sodium acetate and sodium chloride and sodium gluconate",4,1,"active",1965-12-31
-FALSE,NA,"tolnaftate",17,8,"active",1965-12-31
-FALSE,NA,"ephedrine sulfate",2,1,"active",1966-12-31
-FALSE,NA,"flecainide acetate",6,1,"active",1966-12-31
-FALSE,NA,"mefenamic acid",4,1,"active",1966-12-31
-FALSE,NA,"chlorpheniramine maleate",4,2,"active",1967-12-31
-FALSE,NA,"chlorpromazine (chlorpromazine hydrochloride)",3,1,"active",1967-12-31
-FALSE,NA,"carbon monoxide and neon and nitrogen and oxygen",2,1,"active",1968-12-31
-FALSE,NA,"chloroquine diphosphate",1,1,"active",1968-12-31
-FALSE,NA,"clioquinol and flumethasone pivalate",2,2,"active",1968-12-31
-FALSE,NA,"dextran and dextrose",1,1,"active",1968-12-31
-FALSE,NA,"dextran and sodium chloride",1,1,"active",1968-12-31
-FALSE,NA,"ergoloid mesylates",1,1,"active",1968-12-31
-FALSE,NA,"ethacrynic acid (ethacrynate sodium)",1,1,"active",1968-12-31
-FALSE,NA,"calcium chloride and magnesium chloride and potassium chloride and sodium chloride",3,3,"active",1969-12-31
-FALSE,NA,"citric acid and magnesium oxide and sodium carbonate (anhydrous)",2,1,"active",1969-12-31
-FALSE,NA,"hypromellose",7,1,"active",1969-12-31
-FALSE,NA,"periciazine",4,2,"active",1969-12-31
-FALSE,NA,"acetylsalicylic acid and butalbital and caffeine and codeine",6,1,"active",1970-12-31
-FALSE,NA,"acetylsalicylic acid and caffeine and codeine",7,1,"active",1970-12-31
-FALSE,NA,"betamethasone valerate and gentamicin (gentamicin sulfate)",2,2,"active",1970-12-31
-FALSE,NA,"chloroxylenol and coal tar and menthol",5,1,"active",1970-12-31
-FALSE,NA,"doxepin (doxepin hydrochloride)",16,2,"active",1970-12-31
-FALSE,NA,"methylprednisolone (methylprednisolone sodium succinate)",10,2,"active",1970-12-31
-FALSE,NA,"naphazoline hydrochloride",8,1,"active",1970-12-31
-FALSE,NA,"octinoxate and oxybenzone",55,9,"active",1970-12-31
-FALSE,NA,"procarbazine (procarbazine hydrochloride)",1,1,"active",1970-12-31
-FALSE,NA,"acetylsalicylic acid and butalbital and caffeine",6,2,"active",1971-12-31
-FALSE,NA,"chlorobutanol and dichlorobenzene and oil of turpentine and peanut oil",1,1,"active",1971-12-31
-FALSE,NA,"daunorubicin (daunorubicin hydrochloride)",2,1,"active",1971-12-31
-FALSE,NA,"imipramine hydrochloride",10,1,"active",1971-12-31
-FALSE,NA,"chlorhexidine",46,10,"active",1972-12-31
-FALSE,NA,"cyclopentolate",6,1,"active",1972-12-31
-FALSE,NA,"danazol",3,1,"active",1972-12-31
-FALSE,NA,"ethambutol hydrochloride",2,1,"active",1972-12-31
-FALSE,NA,"fluorometholone",2,1,"active",1972-12-31
-FALSE,NA,"isoniazid",9,4,"active",1972-12-31
-FALSE,NA,"ketamine (ketamine hydrochloride)",5,1,"active",1972-12-31
-FALSE,NA,"magnesium hydroxide and mineral oil",1,1,"active",1972-12-31
-FALSE,NA,"trometamol",1,1,"active",1972-12-31
-FALSE,NA,"amylase and lipase and protease",12,4,"active",1973-12-31
-FALSE,NA,"arginine hydrochloride",1,1,"active",1973-12-31
-FALSE,NA,"clomipramine hydrochloride",3,1,"active",1973-12-31
-FALSE,NA,"coal tar and salicylic acid and triclosan",1,1,"active",1973-12-31
-FALSE,NA,"cortisone acetate",1,1,"active",1973-12-31
-FALSE,NA,"lidocaine hydrochloride and methylprednisolone acetate",1,1,"active",1973-12-31
-FALSE,NA,"pyrantel (pyrantel pamoate)",8,3,"active",1973-12-31
-FALSE,NA,"pyrazinamide",2,1,"active",1973-12-31
-FALSE,NA,"tetracosactide (tetracosactide zinc hydroxide)",1,1,"active",1973-12-31
-FALSE,NA,"alanine and arginine and glycine and histidine and isoleucine and leucine and l-lysine (l-lysine hydrochloride) and magnesium chloride and methionine and phenylalanine and potassium phosphate dibasic and proline and sodium acetate and sodium chloride and threonine and tryptophan and tyrosine and valine",1,1,"active",1974-12-31
-FALSE,NA,"chlorpropamide",2,1,"active",1974-12-31
-FALSE,NA,"colistin (colistimethate sodium)",3,1,"active",1974-12-31
-FALSE,NA,"dicyclomine hydrochloride",9,4,"active",1974-12-31
-FALSE,NA,"dinoprost (dinoprost tromethamine)",1,1,"active",1974-12-31
-FALSE,NA,"metolazone",1,1,"active",1974-12-31
-FALSE,NA,"miconazole nitrate",14,5,"active",1974-12-31
-FALSE,NA,"prednisolone and sulfacetamide sodium",4,2,"active",1974-12-31
-FALSE,NA,"silver sulfadiazine",1,1,"active",1974-12-31
-FALSE,NA,"sodium bicarbonate",13,3,"active",1974-12-31
-FALSE,NA,"tetracosactide",1,1,"active",1974-12-31
-FALSE,NA,"pizotifen (pizotifen malate)",2,1,"active",1975-01-01
-FALSE,NA,"benzylpenicilloyl-polylysine",1,1,"active",1975-12-31
-FALSE,NA,"carmustine",1,1,"active",1975-12-31
-FALSE,NA,"cloxacillin (cloxacillin sodium)",6,2,"active",1975-12-31
-FALSE,NA,"coal tar",10,6,"active",1975-12-31
-FALSE,NA,"docusate sodium and sennosides (senna)",1,1,"active",1975-12-31
-FALSE,NA,"fluorouracil",4,2,"active",1975-12-31
-FALSE,NA,"hydrocortisone and zinc sulfate",12,2,"active",1975-12-31
-FALSE,NA,"magnesium sulfate",5,1,"active",1975-12-31
-FALSE,NA,"pimozide",6,1,"active",1975-12-31
-FALSE,NA,"purified protein derivative of tuberculin",1,1,"active",1975-12-31
-FALSE,NA,"tolbutamide",1,1,"active",1975-12-31
-FALSE,NA,"trifluoperazine (trifluoperazine hydrochloride)",5,1,"active",1975-12-31
-FALSE,NA,"chlorthalidone",2,1,"active",1976-12-31
-FALSE,NA,"hyoscine butylbromide",3,2,"active",1976-12-31
-FALSE,NA,"lomustine",3,1,"active",1976-12-31
-FALSE,NA,"methyldopa",3,1,"active",1976-12-31
-FALSE,NA,"metronidazole and nystatin",2,2,"active",1976-12-31
-FALSE,NA,"perphenazine",9,2,"active",1976-12-31
-FALSE,NA,"benserazide (benserazide hydrochloride) and levodopa",3,1,"active",1977-12-31
-FALSE,NA,"camphor and eucalyptol and guaiacol and guaiacol carbonate",2,1,"active",1977-12-31
-FALSE,NA,"corbadrine (corbadrine hydrochloride) and mepivacaine hydrochloride",3,1,"active",1977-12-31
-FALSE,NA,"cytarabine",9,3,"active",1977-12-31
-FALSE,NA,"dinoprostone",5,4,"active",1977-12-31
-FALSE,NA,"epinephrine and prilocaine hydrochloride",2,1,"active",1977-12-31
-FALSE,NA,"fluphenazine hydrochloride",7,1,"active",1977-12-31
-FALSE,NA,"iodine and sodium iodide",1,1,"active",1977-12-31
-FALSE,NA,"iodine (ethiodized oil)",1,1,"active",1977-12-31
-FALSE,NA,"mepivacaine hydrochloride",7,1,"active",1977-12-31
-FALSE,NA,"primidone",2,1,"active",1977-12-31
-FALSE,NA,"rifampin",4,1,"active",1977-12-31
-FALSE,NA,"diatrizoate meglumine and diatrizoate sodium",1,1,"active",1978-12-30
-FALSE,NA,"alcohol anhydrous",1,1,"active",1978-12-31
-FALSE,NA,"antazoline phosphate and naphazoline hydrochloride",2,1,"active",1978-12-31
-FALSE,NA,"benzocaine and tetracaine hydrochloride",6,4,"active",1978-12-31
-FALSE,NA,"bismuth subgallate",1,1,"active",1978-12-31
-FALSE,NA,"dextrose and potassium chloride and sodium chloride",27,1,"active",1978-12-31
-FALSE,NA,"hydrocortisone and pramoxine hydrochloride and zinc sulfate",6,2,"active",1978-12-31
-FALSE,NA,"pindolol",15,1,"active",1978-12-31
-FALSE,NA,"pneumococcal polysaccharide serotype 1 and pneumococcal polysaccharide serotype 10a and pneumococcal polysaccharide serotype 11a and pneumococcal polysaccharide serotype 12f and pneumococcal polysaccharide serotype 14 and pneumococcal polysaccharide serotype 15b and pneumococcal polysaccharide serotype 17f and pneumococcal polysaccharide serotype 18c and pneumococcal polysaccharide serotype 19a and pneumococcal polysaccharide serotype 19f and pneumococcal polysaccharide serotype 2 and pneumococcal polysaccharide serotype 20 and pneumococcal polysaccharide serotype 22f and pneumococcal polysaccharide serotype 23f and pneumococcal polysaccharide serotype 3 and pneumococcal polysaccharide serotype 33f and pneumococcal polysaccharide serotype 4 and pneumococcal polysaccharide serotype 5 and pneumococcal polysaccharide serotype 6b and pneumococcal polysaccharide serotype 7f and pneumococcal polysaccharide serotype 8 and pneumococcal polysaccharide serotype 9n and pneumococcal polysaccharide serotype 9v",1,1,"active",1978-12-31
-FALSE,NA,"sulfasalazine",5,2,"active",1978-12-31
-FALSE,NA,"sulfinpyrazone",1,1,"active",1978-12-31
-FALSE,NA,"tretinoin",15,3,"active",1978-12-31
-FALSE,NA,"vitamin B12",8,1,"active",1978-12-31
-FALSE,NA,"yellow fever vaccine",1,1,"active",1978-12-31
-FALSE,NA,"antipyrine and sodium salicylate",1,1,"active",1979-12-31
-FALSE,NA,"calcium polystyrene sulfonate",1,1,"active",1979-12-31
-FALSE,NA,"dexpanthenol and nicotinamide and pyridoxine hydrochloride and thiamine hydrochloride and vitamin B12 and vitamin B2 (riboflavin 5'-phosphate sodium)",1,1,"active",1979-12-31
-FALSE,NA,"dextromethorphan hydrobromide",25,5,"active",1979-12-31
-FALSE,NA,"dextrose and potassium chloride",8,1,"active",1979-12-31
-FALSE,NA,"diphenhydramine hydrochloride",83,10,"active",1979-12-31
-FALSE,NA,"ethinyl estradiol and ethynodiol diacetate",2,1,"active",1979-12-31
-FALSE,NA,"fluocinolone acetonide",8,6,"active",1979-12-31
-FALSE,NA,"glycine and histidine and l-alanine and l-arginine and l-isoleucine and l-leucine and l-lysine (l-lysine acetate) and l-phenylalanine and l-proline and l-threonine and l-tyrosine and l-valine and methionine and serine and tryptophan",1,1,"active",1979-12-31
-FALSE,NA,"guaifenesin",19,4,"active",1979-12-31
-FALSE,NA,"hydrocortisone and pramoxine hydrochloride",3,3,"active",1979-12-31
-FALSE,NA,"hydroxocobalamin",2,2,"active",1979-12-31
-FALSE,NA,"hydroxyurea",4,1,"active",1979-12-31
-FALSE,NA,"measles virus vaccine live attenuated and mumps virus vaccine live attenuated (jeryl lynn strain) and rubella virus vaccine live attenuated (wistar ra27/3 strain)",1,1,"active",1979-12-31
-FALSE,NA,"mitotane",1,1,"active",1979-12-31
-FALSE,NA,"modified ragweed tyrosine adsorbate",1,1,"active",1979-12-31
-FALSE,NA,"nicotinamide",1,1,"active",1979-12-31
-FALSE,NA,"nicotinic acid",5,2,"active",1979-12-31
-FALSE,NA,"patent blue sodium",1,1,"active",1979-12-31
-FALSE,NA,"phenylephrine",11,5,"active",1979-12-31
-FALSE,NA,"piperazine",1,1,"active",1979-12-31
-FALSE,NA,"pyridoxine hydrochloride",3,1,"active",1979-12-31
-FALSE,NA,"theophylline",13,3,"active",1979-12-31
-FALSE,NA,"thiamine hydrochloride",4,1,"active",1979-12-31
-FALSE,NA,"vitamin B2 (riboflavin 5'-phosphate sodium)",1,1,"active",1979-12-31
-FALSE,NA,"benzocaine and methyl heptyl colamino formylmethyl pyridinium chl",1,1,"active",1980-11-04
-FALSE,NA,"alfacalcidol",4,3,"active",1980-12-31
-FALSE,NA,"arginine and glycine and histidine and isoleucine and l-alanine and leucine and l-lysine hydrochloride and methionine and phenylalanine and proline and threonine and tryptophan and tyrosine and valine",1,1,"active",1980-12-31
-FALSE,NA,"calcium chloride and magnesium chloride and potassium chloride and sodium acetate trihydrate and sodium chloride and sodium citrate dihydrate",1,1,"active",1980-12-31
-FALSE,NA,"camphor and menthol and meradimate and padimate o and phenol",1,1,"active",1980-12-31
-FALSE,NA,"carbachol",1,1,"active",1980-12-31
-FALSE,NA,"cloxacillin sodium",7,4,"active",1980-12-31
-FALSE,NA,"coal tar and salicylic acid",2,2,"active",1980-12-31
-FALSE,NA,"dimethyl sulfoxide",2,1,"active",1980-12-31
-FALSE,NA,"diphtheria toxoid adsorbed and tetanus toxoid adsorbed",1,1,"active",1980-12-31
-FALSE,NA,"fluorescein sodium",6,4,"active",1980-12-31
-FALSE,NA,"glycine",3,1,"active",1980-12-31
-FALSE,NA,"mannitol and sorbitol",2,1,"active",1980-12-31
-FALSE,NA,"minoxidil",8,4,"active",1980-12-31
-FALSE,NA,"naphazoline hydrochloride and pheniramine maleate",6,1,"active",1980-12-31
-FALSE,NA,"nitrazepam",6,1,"active",1980-12-31
-FALSE,NA,"aminophylline",3,1,"active",1981-12-31
-FALSE,NA,"ammonium chloride and codeine and diphenhydramine hydrochloride",3,2,"active",1981-12-31
-FALSE,NA,"calamine and diphenhydramine hydrochloride",2,1,"active",1981-12-31
-FALSE,NA,"calcium chloride",5,2,"active",1981-12-31
-FALSE,NA,"calcium glycerophosphate and calcium levulinate",1,1,"active",1981-12-31
-FALSE,NA,"cetrimonium bromide and lidocaine",1,1,"active",1981-12-31
-FALSE,NA,"chlordiazepoxide hydrochloride",3,1,"active",1981-12-31
-FALSE,NA,"cromolyn sodium",7,6,"active",1981-12-31
-FALSE,NA,"ergonovine maleate",3,1,"active",1981-12-31
-FALSE,NA,"guaifenesin and oxtriphylline",1,1,"active",1981-12-31
-FALSE,NA,"oxytocin",2,1,"active",1981-12-31
-FALSE,NA,"phenelzine (phenelzine sulfate)",1,1,"active",1981-12-31
-FALSE,NA,"pyrithione zinc",82,4,"active",1981-12-31
-FALSE,NA,"scopolamine hydrobromide",4,1,"active",1981-12-31
-FALSE,NA,"sodium ascorbate",1,1,"active",1981-12-31
-FALSE,NA,"tobramycin",17,6,"active",1981-12-31
-FALSE,NA,"vitamin K1",4,2,"active",1981-12-31
-FALSE,NA,"acetaminophen and codeine and doxylamine",1,1,"active",1982-12-31
-FALSE,NA,"acetazolamide",2,2,"active",1982-12-31
-FALSE,NA,"aloe and benzoin and myroxylon balsamum and storax",1,1,"active",1982-12-31
-FALSE,NA,"alprostadil",7,3,"active",1982-12-31
-FALSE,NA,"benzocaine and cetylpyridinium chloride",1,1,"active",1982-12-31
-FALSE,NA,"benzoyl peroxide",49,8,"active",1982-12-31
-FALSE,NA,"calcium chloride and dextrose and glutathione disulfide and magnesium chloride and potassium chloride and sodium bicarbonate and sodium chloride and sodium phosphate dibasic",1,1,"active",1982-12-31
-FALSE,NA,"cimetidine",22,1,"active",1982-12-31
-FALSE,NA,"dipyridamole",9,2,"active",1982-12-31
-FALSE,NA,"isosorbide dinitrate",5,2,"active",1982-12-31
-FALSE,NA,"macrogol and propylene glycol",6,2,"active",1982-12-31
-FALSE,NA,"mebendazole",1,1,"active",1982-12-31
-FALSE,NA,"nabilone",13,1,"active",1982-12-31
-FALSE,NA,"polyvinyl alcohol",4,1,"active",1982-12-31
-FALSE,NA,"promethazine (promethazine hydrochloride)",1,1,"active",1982-12-31
-FALSE,NA,"trihexyphenidyl hydrochloride",5,2,"active",1982-12-31
-FALSE,NA,"betamethasone dipropionate and salicylic acid",3,2,"active",1983-12-31
-FALSE,NA,"bronopol and triclosan",1,1,"active",1983-12-31
-FALSE,NA,"calcitonin (salmon synthetic)",1,1,"active",1983-12-31
-FALSE,NA,"calcium chloride and magnesium chloride and potassium chloride and sodium acetate and sodium chloride",1,1,"active",1983-12-31
-FALSE,NA,"cantharidin and podophyllin and salicylic acid",2,1,"active",1983-12-31
-FALSE,NA,"chromic chloride and cupric chloride and manganese chloride and zinc chloride",1,1,"active",1983-12-31
-FALSE,NA,"dextromethorphan hydrobromide and pheniramine maleate and phenylephrine",3,2,"active",1983-12-31
-FALSE,NA,"dextrose and lidocaine hydrochloride",3,1,"active",1983-12-31
-FALSE,NA,"doxylamine and pyridoxine hydrochloride",1,1,"active",1983-12-31
-FALSE,NA,"fluocinonide",10,3,"active",1983-12-31
-FALSE,NA,"gramicidin and neomycin (neomycin sulfate) and nystatin and triamcinolone acetonide",4,2,"active",1983-12-31
-FALSE,NA,"hydrochlorothiazide and pindolol",2,1,"active",1983-12-31
-FALSE,NA,"insulin nph human dna origin",1,1,"active",1983-12-31
-FALSE,NA,"insulin semi synthetic human",1,1,"active",1983-12-31
-FALSE,NA,"isotretinoin",8,1,"active",1983-12-31
-FALSE,NA,"mineral oil and urea",1,1,"active",1983-12-31
-FALSE,NA,"nitrous oxide and oxygen",3,1,"active",1983-12-31
-FALSE,NA,"prazosin (prazosin hydrochloride)",9,1,"active",1983-12-31
-FALSE,NA,"promethazine hydrochloride",3,2,"active",1983-12-31
-FALSE,NA,"tetracycline hydrochloride",2,2,"active",1983-12-31
-FALSE,NA,"calcium gluconate and calcium saccharate",1,1,"active",1984-07-19
-FALSE,NA,"cetylpyridinium chloride",7,3,"active",1984-12-31
-FALSE,NA,"cyclosporine",11,4,"active",1984-12-31
-FALSE,NA,"diphtheria toxoid and inactivated poliomyelitis vaccine (d.c.o.) type 1 mahoney and inactivated poliomyelitis vaccine (d.c.o.) type 2 mef1 and inactivated poliomyelitis vaccine (d.c.o.) type 3 saukett and tetanus toxoid",1,1,"active",1984-12-31
-FALSE,NA,"d-pantothenic acid (calcium d-pantothenate, riboflavin-5-phosphate) and nicotinamide and vitamin A and vitamin B1 (thiamine hydrochloride) and vitamin B2 (riboflavin-5-phosphate) and vitamin B6 (pyridoxine hydrochloride) and vitamin C and vitamin D and vitamin E (dl-alpha tocopheryl acetate)",1,1,"active",1984-12-31
-FALSE,NA,"etoposide",5,2,"active",1984-12-31
-FALSE,NA,"heparin sodium",16,2,"active",1984-12-31
-FALSE,NA,"histamine phosphate",2,1,"active",1984-12-31
-FALSE,NA,"podophyllin",1,1,"active",1984-12-31
-FALSE,NA,"potassium acetate",2,1,"active",1984-12-31
-FALSE,NA,"potassium phosphate dibasic and potassium phosphate monobasic",2,1,"active",1984-12-31
-FALSE,NA,"teniposide",1,1,"active",1984-12-31
-FALSE,NA,"trolamine salicylate",10,1,"active",1984-12-31
-FALSE,NA,"charcoal activated",12,2,"active",1985-12-31
-FALSE,NA,"colestipol hydrochloride",3,2,"active",1985-12-31
-FALSE,NA,"diazoxide",1,1,"active",1985-12-31
-FALSE,NA,"leuprolide acetate",10,3,"active",1985-12-31
-FALSE,NA,"levobunolol hydrochloride",8,1,"active",1985-12-31
-FALSE,NA,"macrogol and potassium chloride and sodium bicarbonate and sodium chloride and sodium sulfate",2,1,"active",1985-12-31
-FALSE,NA,"oxymetazoline hydrochloride",18,1,"active",1985-12-31
-FALSE,NA,"pollen and non pollen",1,1,"active",1985-12-31
-FALSE,NA,"procainamide hydrochloride",5,3,"active",1985-12-31
-FALSE,NA,"sodium salicylate",1,1,"active",1985-12-31
-FALSE,NA,"streptozocin",1,1,"active",1985-12-31
-FALSE,NA,"acetaminophen and caffeine",6,1,"active",1986-12-31
-FALSE,NA,"acetaminophen and chlorpheniramine maleate and pseudoephedrine hydrochloride",7,2,"active",1986-12-31
-FALSE,NA,"acetaminophen and pseudoephedrine hydrochloride",21,2,"active",1986-12-31
-FALSE,NA,"dextrose and dopamine hydrochloride",6,1,"active",1986-12-31
-FALSE,NA,"docusate calcium",8,1,"active",1986-12-31
-FALSE,NA,"lactulose",7,3,"active",1986-12-31
-FALSE,NA,"methylene blue and naphazoline nitrate",1,1,"active",1986-12-31
-FALSE,NA,"piroxicam",4,1,"active",1986-12-31
-FALSE,NA,"polyethylene glycol 3350 and potassium chloride and sodium bicarbonate and sodium chloride and sodium sulfate",1,1,"active",1986-12-31
-FALSE,NA,"sodium hypochlorite",3,2,"active",1986-12-31
-FALSE,NA,"tryptophan",15,2,"active",1986-12-31
-FALSE,NA,"vitamin E (dl-alpha tocopheryl acetate)",1,1,"active",1986-12-31
-FALSE,NA,"bacitracin and polymyxin b (polymyxin b sulfate)",4,1,"active",1987-12-31
-FALSE,NA,"bismuth subsalicylate",17,4,"active",1987-12-31
-FALSE,NA,"cilastatin (cilastatin sodium) and imipenem",6,1,"active",1987-12-31
-FALSE,NA,"cyproterone",5,2,"active",1987-12-31
-FALSE,NA,"estrone",1,1,"active",1987-12-31
-FALSE,NA,"glutamic acid and glycine and histidine and l-alanine and l-arginine and l-aspartic acid and l-isoleucine and l-leucine and l-lysine (l-lysine acetate) and l-phenylalanine and l-proline and l-threonine and l-valine and methionine and n-acetyl-l-tyrosine and serine and tryptophan",1,1,"active",1987-12-31
-FALSE,NA,"potassium phosphate monobasic",1,1,"active",1987-12-31
-FALSE,NA,"sodium tetradecyl sulfate",2,1,"active",1987-12-31
-FALSE,NA,"somatropin",25,2,"active",1987-12-31
-FALSE,NA,"trifluridine",2,1,"active",1987-12-31
-FALSE,NA,"trimipramine (trimipramine maleate)",5,2,"active",1987-12-31
-FALSE,NA,"vitamin C",2,1,"active",1987-12-31
-FALSE,NA,"loratadine",10,4,"active",1988-12-18
-FALSE,NA,"acetic acid and calcium chloride and dextrose and magnesium chloride and potassium chloride and sodium chloride",100,1,"active",1988-12-31
-FALSE,NA,"acetic acid and calcium chloride and dextrose and magnesium chloride and sodium chloride",14,1,"active",1988-12-31
-FALSE,NA,"chlorpromazine hydrochloride",1,1,"active",1988-12-31
-FALSE,NA,"nadolol",5,1,"active",1988-12-31
-FALSE,NA,"nizatidine",9,1,"active",1988-12-31
-FALSE,NA,"permethrin",4,3,"active",1988-12-31
-FALSE,NA,"propafenone hydrochloride",10,1,"active",1988-12-31
-FALSE,NA,"sulindac",4,1,"active",1988-12-31
-FALSE,NA,"acetaminophen and phenylephrine",8,3,"active",1989-12-31
-FALSE,NA,"acetic acid and dextrose and magnesium chloride and sodium chloride",1,1,"active",1989-12-31
-FALSE,NA,"aluminum hydroxide and dimethicone and magnesium hydroxide",3,1,"active",1989-12-31
-FALSE,NA,"amiloride hydrochloride and hydrochlorothiazide",3,1,"active",1989-12-31
-FALSE,NA,"calcium chloride and dextrose and magnesium chloride and sodium chloride and sodium lactate",10,1,"active",1989-12-31
-FALSE,NA,"desmopressin acetate",12,3,"active",1989-12-31
-FALSE,NA,"dextran 70 and hypromellose",2,1,"active",1989-12-31
-FALSE,NA,"gentamicin (gentamicin sulfate)",14,6,"active",1989-12-31
-FALSE,NA,"insulin and insulin isophane human",1,1,"active",1989-12-31
-FALSE,NA,"ketoprofen",10,4,"active",1989-12-31
-FALSE,NA,"mineral oil and white petrolatum",1,1,"active",1989-12-31
-FALSE,NA,"octreotide (octreotide acetate)",18,2,"active",1989-12-31
-FALSE,NA,"potassium chloride and sodium chloride",5,1,"active",1989-12-31
-FALSE,NA,"prochlorperazine",2,1,"active",1989-12-31
-FALSE,NA,"prochlorperazine (prochlorperazine maleate)",4,1,"active",1989-12-31
-FALSE,NA,"protamine sulfate",3,1,"active",1989-12-31
-FALSE,NA,"tamoxifen (tamoxifen citrate)",5,1,"active",1989-12-31
-FALSE,NA,"triazolam",1,1,"active",1989-12-31
-FALSE,NA,"vancomycin (vancomycin hydrochloride)",33,2,"active",1989-12-31
-FALSE,NA,"vitamin C (sodium ascorbate)",1,1,"active",1989-12-31
-FALSE,NA,"ketoconazole",4,3,"active",1990-12-30
-FALSE,NA,"bacillus calmette-guerin (bcg) substrain connaught",1,1,"active",1990-12-31
-FALSE,NA,"betamethasone dipropionate and clotrimazole",1,1,"active",1990-12-31
-FALSE,NA,"bethanechol chloride",6,1,"active",1990-12-31
-FALSE,NA,"captopril",17,1,"active",1990-12-31
-FALSE,NA,"cefixime",3,2,"active",1990-12-31
-FALSE,NA,"cetrimonium bromide",2,2,"active",1990-12-31
-FALSE,NA,"charcoal activated and dimethicone",1,1,"active",1990-12-31
-FALSE,NA,"chloral hydrate",3,2,"active",1990-12-31
-FALSE,NA,"clorazepate dipotassium",3,1,"active",1990-12-31
-FALSE,NA,"dexamethasone (base) and tobramycin",2,2,"active",1990-12-31
-FALSE,NA,"enalapril and hydrochlorothiazide",5,1,"active",1990-12-31
-FALSE,NA,"fluconazole",41,4,"active",1990-12-31
-FALSE,NA,"fluphenazine decanoate",5,1,"active",1990-12-31
-FALSE,NA,"heparin (heparin sodium) and sodium chloride",1,1,"active",1990-12-31
-FALSE,NA,"hydralazine hydrochloride",4,2,"active",1990-12-31
-FALSE,NA,"ioversol",7,1,"active",1990-12-31
-FALSE,NA,"ketotifen (ketotifen fumarate)",4,3,"active",1990-12-31
-FALSE,NA,"magnesium sulfate and potassium chloride and potassium phosphate monobasic and sodium chloride and sodium phosphate dibasic",1,1,"active",1990-12-31
-FALSE,NA,"menthol and pyrithione zinc",1,1,"active",1990-12-31
-FALSE,NA,"neostigmine methylsulfate",8,1,"active",1990-12-31
-FALSE,NA,"pyridostigmine bromide",2,2,"active",1990-12-31
-FALSE,NA,"sodium citrate",2,1,"active",1990-12-31
-FALSE,NA,"terbutaline sulfate",1,1,"active",1990-12-31
-FALSE,NA,"zidovudine",4,3,"active",1990-12-31
-FALSE,NA,"acetaminophen and chlorzoxazone",1,1,"active",1991-12-31
-FALSE,NA,"acetaminophen and chlorzoxazone and codeine",1,1,"active",1991-12-31
-FALSE,NA,"ammonium chloride and dextromethorphan hydrobromide and diphenhydramine hydrochloride",2,1,"active",1991-12-31
-FALSE,NA,"arginine and glycine and histidine and isoleucine and l-alanine and leucine and l-lysine (l-lysine hydrochloride) and methionine and phenylalanine and proline and serine and threonine and tryptophan and tyrosine and valine",1,1,"active",1991-12-31
-FALSE,NA,"benzalkonium and coal tar and salicylic acid",1,1,"active",1991-12-31
-FALSE,NA,"ceftazidime",3,1,"active",1991-12-31
-FALSE,NA,"citric acid and dextrose and sodium citrate",1,1,"active",1991-12-31
-FALSE,NA,"dextromethorphan hydrobromide and guaifenesin",23,3,"active",1991-12-31
-FALSE,NA,"dimethicone and petrolatum",2,2,"active",1991-12-31
-FALSE,NA,"flurbiprofen",4,1,"active",1991-12-31
-FALSE,NA,"fluvoxamine maleate",16,1,"active",1991-12-31
-FALSE,NA,"gentamicin (gentamicin sulfate) and sodium chloride",1,1,"active",1991-12-31
-FALSE,NA,"glycerine and potassium chloride and sodium lactate and sodium phosphate dibasic and sodium phosphate monobasic",1,1,"active",1991-12-31
-FALSE,NA,"hepatitis b surface antigen (recombinant)",4,2,"active",1991-12-31
-FALSE,NA,"hexylresorcinol",5,1,"active",1991-12-31
-FALSE,NA,"hydroquinone",10,2,"active",1991-12-31
-FALSE,NA,"isoproterenol hydrochloride",1,1,"active",1991-12-31
-FALSE,NA,"lidocaine and prilocaine",3,3,"active",1991-12-31
-FALSE,NA,"loratadine and pseudoephedrine sulfate",2,2,"active",1991-12-31
-FALSE,NA,"sodium carboxymethyl cellulose",9,2,"active",1991-12-31
-FALSE,NA,"sodium phosphate dibasic and sodium phosphate monobasic",1,1,"active",1991-12-31
-FALSE,NA,"trimebutine maleate",3,1,"active",1991-12-31
-FALSE,NA,"yohimbine hydrochloride",3,1,"active",1991-12-31
-FALSE,NA,"acetaminophen and chlorpheniramine maleate and dextromethorphan hydrobromide and pseudoephedrine hydrochloride",15,5,"active",1992-12-31
-FALSE,NA,"acetaminophen and codeine and methocarbamol",6,1,"active",1992-12-31
-FALSE,NA,"acetaminophen and dextromethorphan hydrobromide and doxylamine and pseudoephedrine hydrochloride",10,3,"active",1992-12-31
-FALSE,NA,"acetylsalicylic acid and codeine and methocarbamol",5,1,"active",1992-12-31
-FALSE,NA,"amantadine hydrochloride",3,2,"active",1992-12-31
-FALSE,NA,"ampicillin (ampicillin sodium)",8,1,"active",1992-12-31
-FALSE,NA,"apraclonidine (apraclonidine hydrochloride)",2,1,"active",1992-12-31
-FALSE,NA,"benzalkonium and benzocaine",1,1,"active",1992-12-31
-FALSE,NA,"calcipotriol",1,1,"active",1992-12-31
-FALSE,NA,"chlorhexidine and isopropyl alcohol",19,8,"active",1992-12-31
-FALSE,NA,"chloroxylenol and menthol",3,2,"active",1992-12-31
-FALSE,NA,"clodronate disodium (clodronate disodium tetrahydrate)",2,2,"active",1992-12-31
-FALSE,NA,"deferoxamine mesylate",5,1,"active",1992-12-31
-FALSE,NA,"dextromethorphan hydrobromide and guaifenesin and pseudoephedrine hydrochloride",14,1,"active",1992-12-31
-FALSE,NA,"dextromethorphan hydrobromide and pseudoephedrine hydrochloride",9,2,"active",1992-12-31
-FALSE,NA,"dolichovespula arenaria venom protein extract",2,1,"active",1992-12-31
-FALSE,NA,"enalaprilat",2,1,"active",1992-12-31
-FALSE,NA,"filgrastim (r-methug-csf)",5,1,"active",1992-12-31
-FALSE,NA,"gadopentetate dimeglumine",1,1,"active",1992-12-31
-FALSE,NA,"haemophilus influenzae type b-prp and tetanus protein",1,1,"active",1992-12-31
-FALSE,NA,"hydroquinone and oxybenzone",4,1,"active",1992-12-31
-FALSE,NA,"insulin injection human biosynthetic",3,1,"active",1992-12-31
-FALSE,NA,"insulin injection human biosynthetic and insulin isophane human",5,1,"active",1992-12-31
-FALSE,NA,"lanolin and mineral oil",1,1,"active",1992-12-31
-FALSE,NA,"manganese (manganese sulfate)",2,1,"active",1992-12-31
-FALSE,NA,"moclobemide",10,1,"active",1992-12-31
-FALSE,NA,"mupirocin",2,1,"active",1992-12-31
-FALSE,NA,"onabotulinumtoxina",2,1,"active",1992-12-31
-FALSE,NA,"penicillin g sodium",3,1,"active",1992-12-31
-FALSE,NA,"pheniramine maleate and phenylephrine",1,1,"active",1992-12-31
-FALSE,NA,"podophyllotoxin",1,1,"active",1992-12-31
-FALSE,NA,"polistes spp venom protein extract",3,1,"active",1992-12-31
-FALSE,NA,"pramoxine hydrochloride and zinc sulfate",5,3,"active",1992-12-31
-FALSE,NA,"tranylcypromine (tranylcypromine sulfate)",1,1,"active",1992-12-31
-FALSE,NA,"vespula spp venom protein extract",3,1,"active",1992-12-31
-FALSE,NA,"white faced hornet venom protein and yellow hornet venom protein and yellow jacket venom protein",5,1,"active",1992-12-31
-FALSE,NA,"zinc (zinc sulfate)",2,1,"active",1992-12-31
-FALSE,NA,"typhoid vaccine (salmonella typhi ty21a)",1,1,"active",1993-01-01
-FALSE,NA,"acetaminophen and pheniramine maleate and phenylephrine and vitamin C",6,3,"active",1993-12-30
-FALSE,NA,"acetaminophen and methocarbamol",16,1,"active",1993-12-31
-FALSE,NA,"acetylsalicylic acid and caffeine",3,1,"active",1993-12-31
-FALSE,NA,"air and carbon dioxide",3,1,"active",1993-12-31
-FALSE,NA,"air and carbon monoxide",1,1,"active",1993-12-31
-FALSE,NA,"apis mellifera venom protein extract",3,1,"active",1993-12-31
-FALSE,NA,"articaine hydrochloride and epinephrine",13,1,"active",1993-12-31
-FALSE,NA,"auranofin",1,1,"active",1993-12-31
-FALSE,NA,"benazepril hydrochloride",5,1,"active",1993-12-31
-FALSE,NA,"benzydamine hydrochloride",5,2,"active",1993-12-31
-FALSE,NA,"beractant",1,1,"active",1993-12-31
-FALSE,NA,"bumetanide",2,1,"active",1993-12-31
-FALSE,NA,"carbon monoxide and helium and nitrogen and oxygen",3,1,"active",1993-12-31
-FALSE,NA,"chloroxylenol and triclosan",2,1,"active",1993-12-31
-FALSE,NA,"cholestyramine resin",3,1,"active",1993-12-31
-FALSE,NA,"chromium (chromic chloride)",1,1,"active",1993-12-31
-FALSE,NA,"cilazapril",2,1,"active",1993-12-31
-FALSE,NA,"citric acid and dextrose and heparin sodium and sodium phosphate dibasic",1,1,"active",1993-12-31
-FALSE,NA,"codeine and guaifenesin and pheniramine maleate",2,1,"active",1993-12-31
-FALSE,NA,"copper (copper sulfate)",1,1,"active",1993-12-31
-FALSE,NA,"desipramine hydrochloride",9,1,"active",1993-12-31
-FALSE,NA,"dextrose and glycine and histidine and l-alanine and l-arginine and l-isoleucine and l-leucine hydrochloride and l-lysine hydrochloride and l-phenylalanine hydrochloride and l-proline and l-threonine and l-tyrosine and l-valine and magnesium chloride and methionine and potassium phosphate dibasic and sodium acetate and sodium chloride and tryptophan",5,1,"active",1993-12-31
-FALSE,NA,"dextrose and glycine and histidine and l-alanine and l-arginine and l-isoleucine and l-leucine hydrochloride and l-lysine hydrochloride and l-phenylalanine hydrochloride and l-proline and l-threonine and l-tyrosine and l-valine and methionine and tryptophan",4,1,"active",1993-12-31
-FALSE,NA,"dextrose and glycine and histidine and l-alanine and l-arginine and l-isoleucine and l-leucine hydrochloride and l-lysine (l-lysine hydrochloride) and l-phenylalanine hydrochloride and l-proline and l-threonine and l-tyrosine and l-valine and methionine and tryptophan",1,1,"active",1993-12-31
-FALSE,NA,"diflunisal",4,1,"active",1993-12-31
-FALSE,NA,"dimethicone and oxybenzone and padimate o",1,1,"active",1993-12-31
-FALSE,NA,"enoxaparin sodium",8,1,"active",1993-12-31
-FALSE,NA,"famotidine",17,2,"active",1993-12-31
-FALSE,NA,"gemfibrozil",7,2,"active",1993-12-31
-FALSE,NA,"glycopyrrolate",3,1,"active",1993-12-31
-FALSE,NA,"halobetasol propionate",2,2,"active",1993-12-31
-FALSE,NA,"ibuprofen and pseudoephedrine hydrochloride",9,3,"active",1993-12-31
-FALSE,NA,"iodide (sodium iodide)",1,1,"active",1993-12-31
-FALSE,NA,"isoflurane",4,2,"active",1993-12-31
-FALSE,NA,"itraconazole",3,2,"active",1993-12-31
-FALSE,NA,"levocabastine (levocabastine hydrochloride)",1,1,"active",1993-12-31
-FALSE,NA,"lidocaine (lidocaine hydrochloride)",2,2,"active",1993-12-31
-FALSE,NA,"liothyronine (liothyronine sodium)",2,1,"active",1993-12-31
-FALSE,NA,"loperamide hydrochloride",22,3,"active",1993-12-31
-FALSE,NA,"nalbuphine",2,1,"active",1993-12-31
-FALSE,NA,"nitrogen and oxygen",3,1,"active",1993-12-31
-FALSE,NA,"pentosan polysulfate sodium",1,1,"active",1993-12-31
-FALSE,NA,"pinaverium bromide",2,1,"active",1993-12-31
-FALSE,NA,"polymyxin b (polymyxin b sulfate) and trimethoprim",1,1,"active",1993-12-31
-FALSE,NA,"propofol",6,1,"active",1993-12-31
-FALSE,NA,"selenium (selenious acid)",1,1,"active",1993-12-31
-FALSE,NA,"sodium fluoride and triclosan",3,1,"active",1993-12-31
-FALSE,NA,"sucralfate",5,2,"active",1993-12-31
-FALSE,NA,"bezafibrate",3,2,"active",1994-12-21
-FALSE,NA,"acetaminophen and chlorpheniramine maleate and phenylephrine",10,1,"active",1994-12-31
-FALSE,NA,"adenosine",3,1,"active",1994-12-31
-FALSE,NA,"atenolol and chlorthalidone",6,1,"active",1994-12-31
-FALSE,NA,"bacitracin (bacitracin zinc) and gramicidin and polymyxin b (polymyxin b sulfate)",1,1,"active",1994-12-31
-FALSE,NA,"betaxolol (betaxolol hydrochloride)",2,1,"active",1994-12-31
-FALSE,NA,"biotin and dexpanthenol and folic acid and nicotinamide and pyridoxine hydrochloride and vitamin A and vitamin B12 (vitamin B12) and vitamin B1 (thiamine hydrochloride) and vitamin B2 (riboflavin-5-phosphate) and vitamin C and vitamin D and vitamin E",1,1,"active",1994-12-31
-FALSE,NA,"bromocriptine (bromocriptine mesylate)",8,2,"active",1994-12-31
-FALSE,NA,"budesonide and sodium chloride",1,1,"active",1994-12-31
-FALSE,NA,"bupivacaine hydrochloride",10,1,"active",1994-12-31
-FALSE,NA,"bupivacaine hydrochloride and epinephrine",7,1,"active",1994-12-31
-FALSE,NA,"calcium chloride and magnesium chloride and potassium chloride and sodium acetate and sodium chloride and sodium citrate",2,2,"active",1994-12-31
-FALSE,NA,"carboplatin",4,1,"active",1994-12-31
-FALSE,NA,"chromium (chromic chloride) and copper (copper sulfate) and iodine (sodium iodide) and manganese (manganese sulfate) and selenium (selenious acid) and zinc (zinc sulfate)",3,1,"active",1994-12-31
-FALSE,NA,"chromium (chromic chloride) and copper (copper sulfate) and manganese (manganese sulfate) and selenium (selenious acid) and zinc (zinc sulfate)",1,1,"active",1994-12-31
-FALSE,NA,"chromium (chromic chloride) and copper (copper sulfate) and manganese (manganese sulfate) and zinc (zinc sulfate)",2,1,"active",1994-12-31
-FALSE,NA,"codeine and guaifenesin and pseudoephedrine hydrochloride and triprolidine hydrochloride",1,1,"active",1994-12-31
-FALSE,NA,"collagenase",1,1,"active",1994-12-31
-FALSE,NA,"dapsone",2,2,"active",1994-12-31
-FALSE,NA,"dimethicone and homosalate and meradimate and octinoxate and octisalate and oxybenzone",1,1,"active",1994-12-31
-FALSE,NA,"dolichovespula maculata venom protein extract",2,1,"active",1994-12-31
-FALSE,NA,"dornase alfa",1,1,"active",1994-12-31
-FALSE,NA,"ensulizole and meradimate and octinoxate",2,2,"active",1994-12-31
-FALSE,NA,"fluvastatin (fluvastatin sodium)",7,2,"active",1994-12-31
-FALSE,NA,"gonadorelin acetate",1,1,"active",1994-12-31
-FALSE,NA,"goserelin (goserelin acetate)",2,1,"active",1994-12-31
-FALSE,NA,"indocyanine green",1,1,"active",1994-12-31
-FALSE,NA,"iopromide",3,1,"active",1994-12-31
-FALSE,NA,"leucovorin (leucovorin calcium)",4,2,"active",1994-12-31
-FALSE,NA,"mineral oil and petrolatum",2,2,"active",1994-12-31
-FALSE,NA,"octinoxate and oxybenzone and titanium dioxide",10,4,"active",1994-12-31
-FALSE,NA,"orphenadrine citrate",3,3,"active",1994-12-31
-FALSE,NA,"paromomycin (paromomycin sulfate)",1,1,"active",1994-12-31
-FALSE,NA,"selegiline hydrochloride",3,1,"active",1994-12-31
-FALSE,NA,"tiaprofenic acid",7,1,"active",1994-12-31
-FALSE,NA,"tinzaparin sodium",13,1,"active",1994-12-31
-FALSE,NA,"vigabatrin",2,2,"active",1994-12-31
-FALSE,NA,"potassium citrate",2,1,"active",1995-01-01
-FALSE,NA,"methotrimeprazine (methotrimeprazine maleate)",9,1,"active",1995-07-17
-FALSE,NA,"acetaminophen and dextromethorphan hydrobromide and pseudoephedrine hydrochloride",13,4,"active",1995-12-31
-FALSE,NA,"acetylsalicylic acid and citric acid and sodium bicarbonate",3,1,"active",1995-12-31
-FALSE,NA,"aldesleukin",1,1,"active",1995-12-31
-FALSE,NA,"aluminum hydroxide and magnesium hydroxide and oxetacaine",1,1,"active",1995-12-31
-FALSE,NA,"avobenzone and octinoxate and oxybenzone",14,3,"active",1995-12-31
-FALSE,NA,"bacillus calmette-guerin (bcg) strain tice",1,1,"active",1995-12-31
-FALSE,NA,"benzalkonium and lidocaine hydrochloride",1,1,"active",1995-12-31
-FALSE,NA,"bretylium tosylate",1,1,"active",1995-12-31
-FALSE,NA,"buffer solution and melphalan (melphalan hydrochloride)",1,1,"active",1995-12-31
-FALSE,NA,"calcium carbonate and magnesium hydroxide and simethicone",2,2,"active",1995-12-31
-FALSE,NA,"camphor and menthol and octinoxate and oxybenzone and phenol",1,1,"active",1995-12-31
-FALSE,NA,"cefazolin (cefazolin sodium)",17,1,"active",1995-12-31
-FALSE,NA,"cefoxitin (cefoxitin sodium)",5,1,"active",1995-12-31
-FALSE,NA,"choline and inositol and nicotinamide and pipradrol hydrochloride and pyridoxine hydrochloride and thiamine hydrochloride and vitamin B2",1,1,"active",1995-12-31
-FALSE,NA,"codeine and guaifenesin and pseudoephedrine hydrochloride",3,2,"active",1995-12-31
-FALSE,NA,"dalteparin sodium",12,1,"active",1995-12-31
-FALSE,NA,"danaparoid sodium",1,1,"active",1995-12-31
-FALSE,NA,"d&c red no. 28",1,1,"active",1995-12-31
-FALSE,NA,"dequalinium chloride",2,2,"active",1995-12-31
-FALSE,NA,"dexrazoxane",2,1,"active",1995-12-31
-FALSE,NA,"dextromethorphan hydrobromide and pheniramine maleate and phenylephrine and vitamin C",1,1,"active",1995-12-31
-FALSE,NA,"dextrose and nitroglycerin",2,1,"active",1995-12-31
-FALSE,NA,"dimercaprol",1,1,"active",1995-12-31
-FALSE,NA,"docetaxel",7,1,"active",1995-12-31
-FALSE,NA,"doxorubicin hydrochloride",13,4,"active",1995-12-31
-FALSE,NA,"droperidol",1,1,"active",1995-12-31
-FALSE,NA,"epirubicin hydrochloride",6,2,"active",1995-12-31
-FALSE,NA,"estramustine phosphate sodium",1,1,"active",1995-12-31
-FALSE,NA,"famciclovir",18,1,"active",1995-12-31
-FALSE,NA,"fludrocortisone 21-acetate",1,1,"active",1995-12-31
-FALSE,NA,"flupentixol decanoate",3,1,"active",1995-12-31
-FALSE,NA,"flupentixol (flupentixol dihydrochloride)",2,1,"active",1995-12-31
-FALSE,NA,"ganciclovir (ganciclovir sodium)",2,1,"active",1995-12-31
-FALSE,NA,"gelatin and pectin and sodium carboxymethyl cellulose",1,1,"active",1995-12-31
-FALSE,NA,"glutamic acid and glycine and histidine and l-alanine and l-arginine and l-aspartic acid and l-isoleucine and l-leucine and l-lysine (lysine acetate) and l-phenylalanine and l-proline and l-threonine and l-valine and methionine and n-acetyl-l-tyrosine and serine and tryptophan",1,1,"active",1995-12-31
-FALSE,NA,"interferon beta-1b",2,1,"active",1995-12-31
-FALSE,NA,"iodixanol",2,1,"active",1995-12-31
-FALSE,NA,"lamivudine",10,2,"active",1995-12-31
-FALSE,NA,"levocarnitine",3,3,"active",1995-12-31
-FALSE,NA,"megestrol acetate",3,2,"active",1995-12-31
-FALSE,NA,"meglumine ioxitalamate and sodium ioxitalamate",1,1,"active",1995-12-31
-FALSE,NA,"mycophenolate mofetil",18,3,"active",1995-12-31
-FALSE,NA,"naloxone",8,1,"active",1995-12-31
-FALSE,NA,"ofloxacin",3,1,"active",1995-12-31
-FALSE,NA,"olsalazine sodium",1,1,"active",1995-12-31
-FALSE,NA,"pilocarpine nitrate",1,1,"active",1995-12-31
-FALSE,NA,"piperonyl butoxide and pyrethrins",3,1,"active",1995-12-31
-FALSE,NA,"rifabutin",1,1,"active",1995-12-31
-FALSE,NA,"rocuronium bromide",4,1,"active",1995-12-31
-FALSE,NA,"salmonella typhi vi capsular polysaccharide vaccine",2,1,"active",1995-12-31
-FALSE,NA,"sevoflurane",3,1,"active",1995-12-31
-FALSE,NA,"sodium citrate and sodium lauryl sulfoacetate and sorbitol",1,1,"active",1995-12-31
-FALSE,NA,"sotalol hydrochloride",20,1,"active",1995-12-31
-FALSE,NA,"soybean oil",3,1,"active",1995-12-31
-FALSE,NA,"tetracaine hydrochloride",4,2,"active",1995-12-31
-FALSE,NA,"tranexamic acid",7,2,"active",1995-12-31
-FALSE,NA,"vincristine sulfate",2,1,"active",1995-12-31
-FALSE,NA,"acarbose",2,1,"active",1996-02-02
-FALSE,NA,"allantoin and chloroxylenol",1,1,"active",1996-07-22
-FALSE,NA,"alprostadil and water",1,1,"active",1996-07-30
-FALSE,NA,"dextrose and glycine and histidine and l-alanine and l-arginine and l-isoleucine and l-leucine and l-phenylalanine and l-proline and l-threonine and l-tyrosine and l-valine and lysine (l-lysine hydrochloride) and methionine and serine and tryptophan",2,1,"active",1996-07-30
-FALSE,NA,"labetalol hydrochloride",7,2,"active",1996-07-30
-FALSE,NA,"stavudine",4,1,"active",1996-07-30
-FALSE,NA,"acetylcholine chloride",1,1,"active",1996-08-14
-FALSE,NA,"sodium acetate",2,1,"active",1996-08-14
-FALSE,NA,"vasopressin",2,1,"active",1996-08-14
-FALSE,NA,"esmolol hydrochloride",2,1,"active",1996-08-16
-FALSE,NA,"anastrozole",21,1,"active",1996-08-30
-FALSE,NA,"acetaminophen and pheniramine maleate and phenylephrine",6,2,"active",1996-09-04
-FALSE,NA,"iron (iron dextran complex)",1,1,"active",1996-09-06
-FALSE,NA,"atovaquone",1,1,"active",1996-09-10
-FALSE,NA,"dextrose and heparin sodium",2,1,"active",1996-09-10
-FALSE,NA,"magnesium chloride and potassium chloride and potassium phosphate monobasic and sodium acetate and sodium chloride and sodium gluconate and sodium phosphate dibasic",1,1,"active",1996-09-10
-FALSE,NA,"amcinonide",7,3,"active",1996-09-12
-FALSE,NA,"benzocaine and butamben and tetracaine hydrochloride",1,1,"active",1996-09-19
-FALSE,NA,"ritonavir",2,2,"active",1996-09-25
-FALSE,NA,"alanine and arginine and dl-methionine and glutamic acid and glycine and histidine and isoleucine and l-aspartic acid and leucine and lysine (lysine acetate) and phenylalanine and proline and serine and threonine and tryptophan and tyrosine and valine",1,1,"active",1996-10-09
-FALSE,NA,"cyproheptadine hydrochloride",4,2,"active",1996-10-16
-FALSE,NA,"sodium chloride and somatropin",1,1,"active",1996-10-17
-FALSE,NA,"coagulation factor ix (human)",1,1,"active",1996-10-18
-FALSE,NA,"dobutamine (dobutamine hydrochloride)",4,1,"active",1996-10-24
-FALSE,NA,"abciximab",1,1,"active",1996-10-30
-FALSE,NA,"benzoyl peroxide and erythromycin",1,1,"active",1996-11-05
-FALSE,NA,"desoximetasone",7,3,"active",1996-11-07
-FALSE,NA,"meropenem",4,1,"active",1996-11-08
-FALSE,NA,"hepatitis a vaccine, inactivated",5,1,"active",1996-11-10
-FALSE,NA,"alpha 1-proteinase inhibitor (human)",1,1,"active",1996-11-11
-FALSE,NA,"desonide",4,2,"active",1996-11-11
-FALSE,NA,"ondansetron (ondansetron hydrochloride dihydrate)",41,3,"active",1996-11-13
-FALSE,NA,"raltitrexed (raltitrexed disodium)",1,1,"active",1996-11-18
-FALSE,NA,"nafarelin (nafarelin acetate)",1,1,"active",1996-11-25
-FALSE,NA,"ribavirin",7,2,"active",1996-12-05
-FALSE,NA,"tetrabenazine",4,1,"active",1996-12-09
-FALSE,NA,"albumin (human)",11,1,"active",1996-12-16
-FALSE,NA,"benoxinate hydrochloride and fluorescein sodium",2,1,"active",1996-12-18
-FALSE,NA,"desflurane",1,1,"active",1996-12-23
-FALSE,NA,"dextrose and magnesium sulfate",1,1,"active",1996-12-30
-FALSE,NA,"dibucaine and esculin and framycetin and hydrocortisone",8,2,"active",1996-12-30
-FALSE,NA,"acetic acid and calcium chloride and magnesium chloride and potassium chloride and sodium chloride",4,1,"active",1996-12-31
-FALSE,NA,"adapalene",3,2,"active",1996-12-31
-FALSE,NA,"alteplase and water",2,1,"active",1996-12-31
-FALSE,NA,"bacitracin zinc and polymyxin b sulfate",6,3,"active",1996-12-31
-FALSE,NA,"bicalutamide",14,1,"active",1996-12-31
-FALSE,NA,"buspirone hydrochloride",8,1,"active",1996-12-31
-FALSE,NA,"desipramine (desipramine hydrochloride)",5,1,"active",1996-12-31
-FALSE,NA,"dextrose and glycine and histidine and l-alanine and l-arginine and l-isoleucine and l-leucine and l-phenylalanine and l-proline and l-threonine and l-tyrosine and l-valine and lysine (l-lysine hydrochloride) and magnesium chloride and methionine and potassium phosphate dibasic and serine and sodium acetate and sodium chloride and tryptophan",3,1,"active",1996-12-31
-FALSE,NA,"dorzolamide",4,1,"active",1996-12-31
-FALSE,NA,"magnesium chloride",1,1,"active",1996-12-31
-FALSE,NA,"saquinavir (saquinavir mesylate)",2,2,"active",1996-12-31
-FALSE,NA,"tetrahydrozoline hydrochloride and zinc sulfate",4,1,"active",1996-12-31
-FALSE,NA,"dermatophagoides farinae",4,1,"active",1997-01-03
-FALSE,NA,"dermatophagoides pteronyssinus",4,1,"active",1997-01-03
-FALSE,NA,"pentoxifylline",1,1,"active",1997-01-14
-FALSE,NA,"flutamide",3,1,"active",1997-01-16
-FALSE,NA,"penicillin g (penicillin g sodium)",4,1,"active",1997-01-23
-FALSE,NA,"gramicidin and polymyxin b (polymyxin b sulfate)",3,2,"active",1997-01-27
-FALSE,NA,"buserelin (buserelin acetate)",4,3,"active",1997-02-10
-FALSE,NA,"tenoxicam",1,1,"active",1997-02-21
-FALSE,NA,"interferon alfa-2b and water",2,1,"active",1997-03-12
-FALSE,NA,"pramoxine hydrochloride and zinc sulfate monohydrate",1,1,"active",1997-03-17
-FALSE,NA,"gadodiamide",1,1,"active",1997-03-25
-FALSE,NA,"cetrimide and lidocaine",1,1,"active",1997-03-26
-FALSE,NA,"lovastatin",22,1,"active",1997-03-27
-FALSE,NA,"silicone",1,1,"active",1997-04-01
-FALSE,NA,"tazarotene",4,2,"active",1997-04-10
-FALSE,NA,"immune globulin (human)",11,2,"active",1997-04-21
-FALSE,NA,"praziquantel",1,1,"active",1997-04-24
-FALSE,NA,"ropivacaine hydrochloride",5,1,"active",1997-04-30
-FALSE,NA,"zuclopenthixol acetate",1,1,"active",1997-05-02
-FALSE,NA,"zuclopenthixol decanoate",1,1,"active",1997-05-02
-FALSE,NA,"zuclopenthixol (zuclopenthixol hydrochloride)",2,1,"active",1997-05-02
-FALSE,NA,"hamamelis virginiana and phenylephrine",1,1,"active",1997-05-05
-FALSE,NA,"cisplatin",4,1,"active",1997-05-09
-FALSE,NA,"loxapine (loxapine hydrochloride)",2,2,"active",1997-06-13
-FALSE,NA,"loxapine (loxapine succinate)",13,1,"active",1997-06-13
-FALSE,NA,"topotecan",10,2,"active",1997-06-18
-FALSE,NA,"diphenhydramine hydrochloride and menthol",1,1,"active",1997-06-23
-FALSE,NA,"acetylsalicylic acid and methocarbamol",6,1,"active",1997-07-07
-FALSE,NA,"formoterol",3,2,"active",1997-07-08
-FALSE,NA,"hepatitis b immune globulin human",3,1,"active",1997-07-08
-FALSE,NA,"tetanus immune globulin (human)",1,1,"active",1997-07-08
-FALSE,NA,"fexofenadine hydrochloride",2,1,"active",1997-07-10
-FALSE,NA,"ipratropium and salbutamol",5,1,"active",1997-07-25
-FALSE,NA,"epoprostenol (epoprostenol sodium)",4,1,"active",1997-07-28
-FALSE,NA,"glycine and sodium chloride and water",2,1,"active",1997-07-28
-FALSE,NA,"acetaminophen and dextromethorphan hydrobromide and guaifenesin and pseudoephedrine hydrochloride",21,3,"active",1997-08-06
-FALSE,NA,"chorionic gonadotropin and water",1,1,"active",1997-08-13
-FALSE,NA,"diphtheria toxoid and filamentous haemagglutinin and fimbriae and haemophilus influenzae type b-prp and inactivated poliomyelitis vaccine (d.c.o.) type 1 mahoney and inactivated poliomyelitis vaccine (d.c.o.) type 2 mef1 and inactivated poliomyelitis vaccine (d.c.o.) type 3 saukett and pertactin and pertussis toxoid and tetanus protein and tetanus toxoid",2,2,"active",1997-08-14
-FALSE,NA,"dextromethorphan hydrobromide (dextromethorphan polistirex)",2,1,"active",1997-08-15
-FALSE,NA,"dyclonine hydrochloride",2,1,"active",1997-08-15
-FALSE,NA,"nilutamide",1,1,"active",1997-08-20
-FALSE,NA,"etodolac",4,1,"active",1997-08-21
-FALSE,NA,"irinotecan hydrochloride",5,1,"active",1997-08-27
-FALSE,NA,"letrozole",18,1,"active",1997-09-02
-FALSE,NA,"epoetin alfa",11,1,"active",1997-09-19
-FALSE,NA,"hepatitis a vaccine, inactivated and hepatitis b surface antigen (recombinant)",2,1,"active",1997-09-23
-FALSE,NA,"ropinirole (ropinirole hydrochloride)",23,1,"active",1997-09-25
-FALSE,NA,"rabies immune globulin human",2,1,"active",1997-10-09
-FALSE,NA,"haemagglutinin-strain a(h1n1) and haemagglutinin-strain a(h3n2) and haemagglutinin-strain b",8,1,"active",1997-10-17
-FALSE,NA,"mitomycin",3,1,"active",1997-10-22
-FALSE,NA,"naltrexone hydrochloride",3,1,"active",1997-10-23
-FALSE,NA,"anti-inhibitor coagulant complex and water",2,1,"active",1997-10-27
-FALSE,NA,"avobenzone and ensulizole and enzacamene and octinoxate",3,2,"active",1997-11-10
-FALSE,NA,"octinoxate and octocrylene and oxybenzone and titanium dioxide",1,1,"active",1997-11-11
-FALSE,NA,"glutamic acid and glycine and histidine and l-alanine and l-arginine and l-aspartic acid and l-cysteine and l-isoleucine and l-leucine and l-lysine and l-ornithine dihydrochloride and l-phenylalanine and l-proline and l-threonine and l-tyrosine and l-valine and methionine and serine and taurine and tryptophan",1,1,"active",1997-11-14
-FALSE,NA,"zafirlukast",1,1,"active",1997-11-17
-FALSE,NA,"orciprenaline sulfate",1,1,"active",1997-11-21
-FALSE,NA,"carboprost (carboprost tromethamine)",1,1,"active",1997-11-28
-FALSE,NA,"brimonidine tartrate",7,1,"active",1997-12-02
-FALSE,NA,"white faced hornet venom protein",2,1,"active",1997-12-06
-FALSE,NA,"octinoxate and octisalate and oxybenzone and titanium dioxide",13,3,"active",1997-12-09
-FALSE,NA,"honey bee venom protein",2,1,"active",1997-12-16
-FALSE,NA,"wasp venom protein",2,1,"active",1997-12-16
-FALSE,NA,"yellow hornet venom protein",2,1,"active",1997-12-16
-FALSE,NA,"yellow jacket venom protein",2,1,"active",1997-12-16
-FALSE,NA,"anagrelide (anagrelide hydrochloride)",1,1,"active",1998-01-06
-FALSE,NA,"iopamidol",5,1,"active",1998-01-08
-FALSE,NA,"avobenzone and octinoxate",30,5,"active",1998-01-15
-FALSE,NA,"dermatophagoides farinae and dermatophagoides pteronyssinus",4,1,"active",1998-01-16
-FALSE,NA,"standardized cat pelt",1,1,"active",1998-01-29
-FALSE,NA,"standardized cat pelt acetone precipitated",1,1,"active",1998-02-09
-FALSE,NA,"salmeterol",2,1,"active",1998-02-11
-FALSE,NA,"interferon beta-1a",5,1,"active",1998-02-23
-FALSE,NA,"acetaminophen and diphenhydramine hydrochloride and pseudoephedrine hydrochloride",14,2,"active",1998-03-05
-FALSE,NA,"iohexol",4,1,"active",1998-03-05
-FALSE,NA,"bleomycin (bleomycin sulfate)",2,2,"active",1998-03-12
-FALSE,NA,"tetracaine (tetracaine hydrochloride)",1,1,"active",1998-03-16
-FALSE,NA,"petrolatum and starch",1,1,"active",1998-03-18
-FALSE,NA,"ticlopidine hydrochloride",2,1,"active",1998-03-30
-FALSE,NA,"vinblastine sulfate",2,1,"active",1998-04-14
-FALSE,NA,"avobenzone and octinoxate and oxybenzone and titanium dioxide",3,2,"active",1998-05-04
-FALSE,NA,"naratriptan (naratriptan hydrochloride)",5,1,"active",1998-05-05
-FALSE,NA,"loperamide hydrochloride and simethicone",2,2,"active",1998-05-12
-FALSE,NA,"bacitracin and lidocaine hydrochloride and polymyxin b (polymyxin b sulfate)",1,1,"active",1998-05-27
-FALSE,NA,"sincalide",1,1,"active",1998-07-08
-FALSE,NA,"sodium thiosulfate",3,1,"active",1998-07-13
-FALSE,NA,"norfloxacin",4,1,"active",1998-07-20
-FALSE,NA,"delavirdine mesylate",1,1,"active",1998-07-24
-FALSE,NA,"atovaquone and proguanil hydrochloride",5,1,"active",1998-08-07
-FALSE,NA,"betaine",1,1,"active",1998-08-11
-FALSE,NA,"bacitracin zinc and gramicidin and polymyxin b (polymyxin b sulfate)",3,1,"active",1998-08-13
-FALSE,NA,"bacitracin zinc and polymyxin b (polymyxin b sulfate)",2,1,"active",1998-08-13
-FALSE,NA,"amoxicillin and clarithromycin and lansoprazole",1,1,"active",1998-08-18
-FALSE,NA,"nabumetone",3,1,"active",1998-08-21
-FALSE,NA,"standardized cat hair acetone precipitated",1,1,"active",1998-08-28
-FALSE,NA,"gadoteridol",1,1,"active",1998-09-08
-FALSE,NA,"capecitabine",8,1,"active",1998-09-10
-FALSE,NA,"nevirapine",7,2,"active",1998-09-17
-FALSE,NA,"nelfinavir (nelfinavir mesylate)",3,2,"active",1998-09-21
-FALSE,NA,"alanine and arginine and calcium chloride and dl-methionine and glycine and histidine and isoleucine and leucine and lysine (lysine monohydrochloride) and magnesium chloride and phenylalanine and proline and serine and sodium chloride and sodium lactate and threonine and tryptophan and tyrosine and valine",1,1,"active",1998-09-25
-FALSE,NA,"zolmitriptan",28,3,"active",1998-09-30
-FALSE,NA,"cefuroxime (cefuroxime axetil)",10,2,"active",1998-10-27
-FALSE,NA,"ursodiol",8,1,"active",1998-11-08
-FALSE,NA,"fusidic acid and hydrocortisone",1,1,"active",1998-11-11
-FALSE,NA,"raloxifene hydrochloride",6,1,"active",1998-11-20
-FALSE,NA,"lymphocyte immune globulin anti-thymocyte globulin (equine)",1,1,"active",1998-12-04
-FALSE,NA,"measles virus vaccine live attenuated and mumps virus vaccine live attenuated (jeryl lynn strain) and rubella virus vaccine live attenuated (wistar ra27/3 strain) and water",1,1,"active",1998-12-04
-FALSE,NA,"lamivudine and zidovudine",4,1,"active",1998-12-08
-FALSE,NA,"interferon alfa-2b",5,1,"active",1998-12-10
-FALSE,NA,"menthol and pramoxine hydrochloride",1,1,"active",1999-01-11
-FALSE,NA,"modafinil",6,1,"active",1999-03-24
-FALSE,NA,"efavirenz",6,2,"active",1999-03-25
-FALSE,NA,"ondansetron",6,2,"active",1999-03-31
-FALSE,NA,"cilazapril and hydrochlorothiazide",1,1,"active",1999-04-01
-FALSE,NA,"methacholine chloride",8,1,"active",1999-04-01
-FALSE,NA,"mupirocin (mupirocin calcium dihydrate)",1,1,"active",1999-04-13
-FALSE,NA,"cat (felis domesticus) pelt and cat dander",1,1,"active",1999-04-19
-FALSE,NA,"fexofenadine hydrochloride and pseudoephedrine hydrochloride",1,1,"active",1999-04-29
-FALSE,NA,"cefadroxil (cefadroxil monohydrate)",1,1,"active",1999-06-02
-FALSE,NA,"orlistat",1,1,"active",1999-06-03
-FALSE,NA,"gramicidin and lidocaine hydrochloride and polymyxin b (polymyxin b sulfate)",2,1,"active",1999-06-18
-FALSE,NA,"acetaminophen and pamabrom and pyrilamine maleate",4,1,"active",1999-06-22
-FALSE,NA,"diphtheria toxoid and filamentous haemagglutinin and fimbriae types 2 and 3 (fim) and pertactin and pertussis toxoid and tetanus toxoid",1,1,"active",1999-06-23
-FALSE,NA,"eptifibatide",4,1,"active",1999-06-23
-FALSE,NA,"antithrombin iii (human) and water",2,1,"active",1999-07-05
-FALSE,NA,"imiquimod",4,1,"active",1999-07-05
-FALSE,NA,"insulin lispro and insulin lispro protamine suspension",4,1,"active",1999-07-05
-FALSE,NA,"midazolam",12,1,"active",1999-07-21
-FALSE,NA,"somatropin and water",1,1,"active",1999-07-28
-FALSE,NA,"carbetocin",1,1,"active",1999-08-01
-FALSE,NA,"octinoxate and zinc oxide",29,5,"active",1999-08-01
-FALSE,NA,"rabies vaccine inactivated (human diploid-cell culture)",1,1,"active",1999-08-13
-FALSE,NA,"trastuzumab",1,1,"active",1999-08-23
-FALSE,NA,"cefadroxil",2,1,"active",1999-08-31
-FALSE,NA,"fosfomycin (fosfomycin tromethamine)",1,1,"active",1999-09-15
-FALSE,NA,"clobetasone butyrate",1,1,"active",1999-09-27
-FALSE,NA,"tizanidine (tizanidine hydrochloride)",2,1,"active",1999-10-29
-FALSE,NA,"octinoxate",23,6,"active",1999-11-01
-FALSE,NA,"alcohol anhydrous and chlorhexidine",3,3,"active",1999-11-05
-FALSE,NA,"white petrolatum and zinc oxide",7,2,"active",1999-11-06
-FALSE,NA,"temozolomide",21,1,"active",1999-11-12
-FALSE,NA,"zanamivir",1,1,"active",1999-12-07
-FALSE,NA,"biotin and choline bitartrate and chromium (chromium hvp chelate) and dl-methionine and d-pantothenic acid (calcium d-pantothenate) and folic acid and inositol and iodine (potassium iodide) and magnesium (magnesium oxide) and manganese (manganese gluconate) and nicotinamide and nicotinic acid and potassium (potassium chloride, potassium citrate) and selenium (selenium hvp chelate) and vitamin A (retinol palmitate) and vitamin B12 (cyanocobalamin) and vitamin B1 (thiamine hydrochloride) and vitamin B2 (riboflavin) and vitamin B6 (pyridoxine hydrochloride) and vitamin C (ascorbic acid) and vitamin C (calcium ascorbate) and vitamin E (d-alpha tocopheryl acetate) and zinc (zinc gluconate)",1,1,"active",1999-12-13
-FALSE,NA,"mycophenolate mofetil (mycophenolate mofetil hydrochloride)",1,1,"active",1999-12-20
-FALSE,NA,"oseltamivir (oseltamivir phosphate)",5,2,"active",1999-12-23
-FALSE,NA,"lidocaine hydrochloride and polymyxin b (polymyxin b sulfate)",1,1,"active",1999-12-29
-FALSE,NA,"vitamin D2",2,1,"active",1999-12-30
-FALSE,NA,"octinoxate and octisalate and titanium dioxide",12,2,"active",2000-01-01
-FALSE,NA,"calcium chloride and icodextrin and magnesium chloride and sodium chloride and sodium lactate",1,1,"active",2000-01-20
-FALSE,NA,"inosine pranobex",1,1,"active",2000-01-25
-FALSE,NA,"polymyxin b sulfate and trimethoprim",2,1,"active",2000-02-03
-FALSE,NA,"bismuth subsalicylate and calcium carbonate",4,2,"active",2000-02-18
-FALSE,NA,"avobenzone and octinoxate and octisalate",29,4,"active",2000-02-23
-FALSE,NA,"avobenzone and octocrylene and terephthalylidene dicamphor sulfonic acid and titanium dioxide",4,2,"active",2000-02-23
-FALSE,NA,"levonorgestrel",9,2,"active",2000-02-24
-FALSE,NA,"nedocromil sodium",1,1,"active",2000-02-29
-FALSE,NA,"fosphenytoin sodium",1,1,"active",2000-03-01
-FALSE,NA,"flunisolide",1,1,"active",2000-03-10
-FALSE,NA,"rituximab",2,1,"active",2000-03-20
-FALSE,NA,"rosiglitazone (rosiglitazone maleate)",6,1,"active",2000-03-21
-FALSE,NA,"leflunomide",17,1,"active",2000-03-29
-FALSE,NA,"acetylsalicylic acid and dipyridamole",1,1,"active",2000-04-17
-FALSE,NA,"cytomegalovirus immune globulin (human)",1,1,"active",2000-04-25
-FALSE,NA,"calamine and pramoxine hydrochloride",1,1,"active",2000-05-01
-FALSE,NA,"estradiol and norethindrone",4,2,"active",2000-05-25
-FALSE,NA,"imiglucerase",1,1,"active",2000-06-14
-FALSE,NA,"verteporfin",1,1,"active",2000-06-26
-FALSE,NA,"cabergoline",3,1,"active",2000-06-30
-FALSE,NA,"anethole trithione",1,1,"active",2000-08-02
-FALSE,NA,"exemestane",5,1,"active",2000-08-17
-FALSE,NA,"cyclophosphamide",6,2,"active",2000-08-22
-FALSE,NA,"standardized perennial rye grass pollen",5,1,"active",2000-08-29
-FALSE,NA,"standardized orchard grass pollen",4,1,"active",2000-09-06
-FALSE,NA,"eprosartan (eprosartan mesylate)",2,1,"active",2000-09-08
-FALSE,NA,"standardized kentucky blue/june grass pollen",4,1,"active",2000-09-26
-FALSE,NA,"standardized meadow fescue grass pollen",4,1,"active",2000-10-03
-FALSE,NA,"sweet vernal grass",2,1,"active",2000-10-18
-FALSE,NA,"basiliximab",1,1,"active",2000-10-23
-FALSE,NA,"riluzole",3,1,"active",2000-10-26
-FALSE,NA,"standardized redtop grass pollen",4,1,"active",2000-10-30
-FALSE,NA,"standardized sweet vernal grass pollen",2,1,"active",2000-10-30
-FALSE,NA,"standardized timothy grass pollen",6,2,"active",2000-10-30
-FALSE,NA,"biotin and dexpanthenol and folic acid and nicotinamide and pyridoxine hydrochloride and vitamin A and vitamin B12 (cyanocobalamin) and vitamin B1 (thiamine hydrochloride) and vitamin B2 (riboflavin-5-phosphate) and vitamin C (ascorbic acid) and vitamin D and vitamin E (dl-alpha tocopheryl acetate) and vitamin K1",1,1,"active",2000-11-07
-FALSE,NA,"phentolamine mesylate",3,1,"active",2000-12-18
-FALSE,NA,"calcium chloride and lactic acid and magnesium chloride and sodium bicarbonate and sodium chloride",1,1,"active",2001-01-01
-FALSE,NA,"trimethoprim",2,1,"active",2001-01-01
-FALSE,NA,"ifosfamide",3,1,"active",2001-01-25
-FALSE,NA,"amikacin (amikacin sulfate)",1,1,"active",2001-01-29
-FALSE,NA,"mesna",3,1,"active",2001-03-06
-FALSE,NA,"lopinavir and ritonavir",3,2,"active",2001-03-09
-FALSE,NA,"pamabrom",1,1,"active",2001-03-12
-FALSE,NA,"etanercept and water",1,1,"active",2001-03-14
-FALSE,NA,"octinoxate and padimate o",1,1,"active",2001-03-15
-FALSE,NA,"prednicarbate",2,2,"active",2001-03-21
-FALSE,NA,"standardized bermuda grass pollen",1,1,"active",2001-03-26
-FALSE,NA,"fomepizole",2,1,"active",2001-03-30
-FALSE,NA,"allergen extract - alum precipitated",3,1,"active",2001-04-01
-FALSE,NA,"allergen extract - diagnostic",1,1,"active",2001-04-01
-FALSE,NA,"allergenic extracts",1,1,"active",2001-04-01
-FALSE,NA,"linezolid",7,3,"active",2001-04-06
-FALSE,NA,"avobenzone and hydroquinone and octinoxate",1,1,"active",2001-04-09
-FALSE,NA,"acetylcysteine",2,1,"active",2001-04-27
-FALSE,NA,"framycetin and gramicidin and phenylephrine",1,1,"active",2001-05-04
-FALSE,NA,"calcium carbonate and famotidine and magnesium hydroxide",1,1,"active",2001-05-14
-FALSE,NA,"sirolimus",2,2,"active",2001-05-15
-FALSE,NA,"iron (iron sucrose)",1,1,"active",2001-06-05
-FALSE,NA,"infliximab",3,1,"active",2001-06-14
-FALSE,NA,"misoprostol",6,1,"active",2001-06-18
-FALSE,NA,"avobenzone and octocrylene",5,3,"active",2001-06-19
-FALSE,NA,"entacapone",4,1,"active",2001-06-21
-FALSE,NA,"ceftazidime (ceftazidime pentahydrate)",7,1,"active",2001-07-18
-FALSE,NA,"brompheniramine and phenylephrine",8,4,"active",2001-07-23
-FALSE,NA,"brompheniramine and dextromethorphan hydrobromide and phenylephrine",10,3,"active",2001-07-25
-FALSE,NA,"mineral oil light",1,1,"active",2001-07-27
-FALSE,NA,"sufentanil (sufentanil citrate)",2,1,"active",2001-08-01
-FALSE,NA,"gadoversetamide",1,1,"active",2001-08-20
-FALSE,NA,"caspofungin (caspofungin acetate)",4,1,"active",2001-08-23
-FALSE,NA,"diluent and somatropin",3,1,"active",2001-08-28
-FALSE,NA,"pamidronate disodium",14,2,"active",2001-08-31
-FALSE,NA,"benzoyl peroxide and clindamycin",4,1,"active",2001-09-04
-FALSE,NA,"brompheniramine and codeine and phenylephrine",1,1,"active",2001-09-05
-FALSE,NA,"brompheniramine and codeine and guaifenesin and phenylephrine",1,1,"active",2001-09-28
-FALSE,NA,"streptomycin (streptomycin sulfate)",1,1,"active",2001-10-15
-FALSE,NA,"follitropin beta",3,1,"active",2001-10-18
-FALSE,NA,"tenecteplase",1,1,"active",2001-10-18
-FALSE,NA,"lamivudine and zidovudine and NA",2,1,"active",2001-10-29
-FALSE,NA,"paclitaxel (taxus canadensis)",1,1,"active",2001-10-31
-FALSE,NA,"floctafenine",2,1,"active",2001-11-14
-FALSE,NA,"sevelamer hydrochloride",1,1,"active",2001-11-21
-FALSE,NA,"betamethasone dipropionate and calcipotriol",1,1,"active",2001-11-29
-FALSE,NA,"mitoxantrone (mitoxantrone hydrochloride)",3,1,"active",2001-12-03
-FALSE,NA,"bosentan (bosentan monohydrate)",12,1,"active",2001-12-14
-FALSE,NA,"didanosine",4,1,"active",2002-01-02
-FALSE,NA,"desloratadine",6,2,"active",2002-01-10
-FALSE,NA,"meningococcal polysaccharide vaccine grp c and tetanus toxoid",1,1,"active",2002-01-21
-FALSE,NA,"camphor and glycol salicylate and l-menthol",1,1,"active",2002-02-01
-FALSE,NA,"homosalate and octinoxate and oxybenzone",2,2,"active",2002-02-02
-FALSE,NA,"phospholipid and surfactant-associated proteins sp-b and sp-c",1,1,"active",2002-02-05
-FALSE,NA,"budesonide and formoterol",2,1,"active",2002-02-08
-FALSE,NA,"perflutren",1,1,"active",2002-02-16
-FALSE,NA,"glimepiride",9,1,"active",2002-03-12
-FALSE,NA,"oxcarbazepine",10,2,"active",2002-04-01
-FALSE,NA,"glatiramer acetate",2,1,"active",2002-05-01
-FALSE,NA,"tirofiban (tirofiban hydrochloride)",1,1,"active",2002-05-01
-FALSE,NA,"glucagon (recombinant dna origin)",1,1,"active",2002-05-27
-FALSE,NA,"anakinra",1,1,"active",2002-05-29
-FALSE,NA,"vitamin C (ascorbic acid)",2,1,"active",2002-05-29
-FALSE,NA,"avobenzone and octinoxate and octisalate and oxybenzone and titanium dioxide",1,1,"active",2002-06-01
-FALSE,NA,"dimethicone",9,5,"active",2002-06-01
-FALSE,NA,"octinoxate and titanium dioxide",65,7,"active",2002-06-03
-FALSE,NA,"trandolapril and verapamil",2,1,"active",2002-07-15
-FALSE,NA,"valganciclovir (valganciclovir hydrochloride)",5,2,"active",2002-07-16
-FALSE,NA,"fondaparinux sodium",6,1,"active",2002-07-19
-FALSE,NA,"mefloquine (mefloquine hydrochloride)",1,1,"active",2002-07-23
-FALSE,NA,"methazolamide",1,1,"active",2002-07-25
-FALSE,NA,"dexamethasone (base) and framycetin and gramicidin",2,1,"active",2002-07-26
-FALSE,NA,"flunarizine (flunarizine hydrochloride)",1,1,"active",2002-08-08
-FALSE,NA,"thyrotropin alfa",1,1,"active",2002-08-12
-FALSE,NA,"darbepoetin alfa",18,1,"active",2002-08-13
-FALSE,NA,"ganirelix (ganirelix acetate)",1,1,"active",2002-08-23
-FALSE,NA,"avobenzone and ensulizole and octisalate and octocrylene",8,3,"active",2002-09-01
-FALSE,NA,"fludarabine phosphate",4,3,"active",2002-09-24
-FALSE,NA,"alteplase",1,1,"active",2002-09-26
-FALSE,NA,"palivizumab",4,2,"active",2002-09-26
-FALSE,NA,"latanoprost and timolol",6,1,"active",2002-10-24
-FALSE,NA,"benzethonium chloride",9,4,"active",2002-12-01
-FALSE,NA,"varicella-zoster virus vaccine live attenuated (oka/merck strain)",2,2,"active",2002-12-02
-FALSE,NA,"cefuroxime (cefuroxime sodium)",6,1,"active",2002-12-05
-FALSE,NA,"dextran 70 and glycerine and hypromellose",1,1,"active",2003-01-02
-FALSE,NA,"piperacillin (piperacillin sodium)",6,1,"active",2003-01-23
-FALSE,NA,"acetaminophen and doxylamine and pseudoephedrine hydrochloride",4,2,"active",2003-03-07
-FALSE,NA,"cetirizine and pseudoephedrine hydrochloride",1,1,"active",2003-03-07
-FALSE,NA,"docusate sodium and sennosides",5,1,"active",2003-03-07
-FALSE,NA,"octinoxate and octisalate and octocrylene and oxybenzone",13,5,"active",2003-03-14
-FALSE,NA,"pimecrolimus",1,1,"active",2003-03-24
-FALSE,NA,"pramoxine hydrochloride and zinc acetate",2,1,"active",2003-04-02
-FALSE,NA,"avobenzone and ensulizole and octocrylene and terephthalylidene dicamphor sulfonic acid",1,1,"active",2003-04-09
-FALSE,NA,"varicella-zoster virus vaccine live attenuated (oka/merck strain) and water",1,1,"active",2003-04-09
-FALSE,NA,"recombinant cholera toxin b subunit and vibrio cholerae inaba 48 classical biotype, heat inactivated and vibrio cholerae inaba 6973 e1 tor biotype, formalin inactivated and vibrio cholerae ogawa 50 classical biotype, formalin inactivated and vibrio cholerae ogawa 50 classical biotype, heat inactivated",1,1,"active",2003-04-15
-FALSE,NA,"anti-thymocyte globulin (rabbit)",1,1,"active",2003-05-06
-FALSE,NA,"milrinone (milrinone lactate)",2,1,"active",2003-06-25
-FALSE,NA,"allergenic extract non-pollen",3,1,"active",2003-06-30
-FALSE,NA,"allergenic extracts pollens",3,1,"active",2003-06-30
-FALSE,NA,"ibuprofen and methocarbamol",9,1,"active",2003-07-02
-FALSE,NA,"calcium chloride and dextrose and magnesium chloride and sodium bicarbonate and sodium chloride and sodium lactate",6,1,"active",2003-08-05
-FALSE,NA,"cefotaxime sodium",4,1,"active",2003-08-11
-FALSE,NA,"peginterferon alfa-2a",2,1,"active",2003-08-14
-FALSE,NA,"enfuvirtide",1,1,"active",2003-08-18
-FALSE,NA,"ertapenem (ertapenem sodium)",1,1,"active",2003-08-27
-FALSE,NA,"menotropins",2,1,"active",2003-08-28
-FALSE,NA,"disopyramide",1,1,"active",2003-09-12
-FALSE,NA,"petrolatum and zinc oxide",2,2,"active",2003-10-10
-FALSE,NA,"octinoxate and octocrylene and oxybenzone",4,3,"active",2003-10-25
-FALSE,NA,"almotriptan (almotriptan malate)",9,1,"active",2003-12-08
-FALSE,NA,"brimonidine tartrate and timolol",1,1,"active",2003-12-11
-FALSE,NA,"gefitinib",1,1,"active",2003-12-17
-FALSE,NA,"follitropin alfa",6,2,"active",2003-12-29
-FALSE,NA,"avobenzone and homosalate and octinoxate and oxybenzone",10,2,"active",2004-01-05
-FALSE,NA,"atazanavir (atazanavir sulfate)",9,1,"active",2004-01-09
-FALSE,NA,"acetaminophen and chlorpheniramine maleate",1,1,"active",2004-01-12
-FALSE,NA,"acetaminophen and chlorpheniramine maleate and dextromethorphan hydrobromide",3,2,"active",2004-01-12
-FALSE,NA,"chlorpheniramine maleate and dextromethorphan hydrobromide",4,2,"active",2004-01-12
-FALSE,NA,"alcohol anhydrous and butanediol and propyl alcohol and propylene glycol",1,1,"active",2004-01-20
-FALSE,NA,"amphetamine and dextroamphetamine",24,1,"active",2004-01-30
-FALSE,NA,"gadobutrol",1,1,"active",2004-01-30
-FALSE,NA,"guaifenesin and pseudoephedrine hydrochloride",1,1,"active",2004-02-02
-FALSE,NA,"avobenzone and octisalate and octocrylene",50,7,"active",2004-03-01
-FALSE,NA,"cetrorelix (cetrorelix acetate)",1,1,"active",2004-03-03
-FALSE,NA,"octinoxate and oxybenzone and zinc oxide",3,3,"active",2004-03-12
-FALSE,NA,"pegfilgrastim",1,1,"active",2004-03-12
-FALSE,NA,"tenofovir disoproxil fumarate",1,1,"active",2004-03-15
-FALSE,NA,"vardenafil (vardenafil hydrochloride)",4,2,"active",2004-03-17
-FALSE,NA,"agalsidase alfa",1,1,"active",2004-03-18
-FALSE,NA,"glycerine and naphazoline hydrochloride and zinc sulfate",1,1,"active",2004-03-24
-FALSE,NA,"polyvinyl alcohol and povidone",1,1,"active",2004-03-24
-FALSE,NA,"agalsidase beta",2,1,"active",2004-04-08
-FALSE,NA,"polyethylene glycol 400 and propylene glycol",1,1,"active",2004-04-08
-FALSE,NA,"flumazenil",2,1,"active",2004-04-21
-FALSE,NA,"treprostinil (treprostinil sodium)",4,1,"active",2004-04-30
-FALSE,NA,"octinoxate and octisalate and octocrylene and zinc oxide",5,1,"active",2004-05-10
-FALSE,NA,"clodronate disodium",1,1,"active",2004-05-13
-FALSE,NA,"hyprolose",1,1,"active",2004-05-25
-FALSE,NA,"miglustat",1,1,"active",2004-05-26
-FALSE,NA,"aminolevulinic acid hydrochloride",1,1,"active",2004-06-03
-FALSE,NA,"fulvestrant",1,1,"active",2004-06-14
-FALSE,NA,"amiloride hydrochloride",1,1,"active",2004-06-18
-FALSE,NA,"eprosartan (eprosartan mesylate) and hydrochlorothiazide",1,1,"active",2004-07-06
-FALSE,NA,"teriparatide",1,1,"active",2004-07-15
-FALSE,NA,"chlorpheniramine maleate and ibuprofen and pseudoephedrine hydrochloride",7,3,"active",2004-08-02
-FALSE,NA,"pemetrexed (pemetrexed disodium)",3,1,"active",2004-08-03
-FALSE,NA,"laronidase",1,1,"active",2004-08-12
-FALSE,NA,"chorionic gonadotropin",1,1,"active",2004-09-13
-FALSE,NA,"cinacalcet (cinacalcet hydrochloride)",12,1,"active",2004-09-16
-FALSE,NA,"peginterferon alfa-2b and ribavirin",4,1,"active",2004-09-17
-FALSE,NA,"rasburicase",1,1,"active",2004-09-21
-FALSE,NA,"terconazole",1,1,"active",2004-09-21
-FALSE,NA,"octinoxate and terephthalylidene dicamphor sulfonic acid and titanium dioxide",1,1,"active",2004-09-23
-FALSE,NA,"adalimumab",3,1,"active",2004-09-24
-FALSE,NA,"gatifloxacin",1,1,"active",2004-09-27
-FALSE,NA,"eletriptan (eletriptan hydrobromide)",10,1,"active",2004-10-13
-FALSE,NA,"zoledronic acid (zoledronic acid monohydrate)",14,1,"active",2004-10-14
-FALSE,NA,"ethacrynic acid",1,1,"active",2004-10-15
-FALSE,NA,"imatinib (imatinib mesylate)",10,1,"active",2004-10-25
-FALSE,NA,"gadobenate dimeglumine",1,1,"active",2004-10-28
-FALSE,NA,"alfentanil (alfentanil hydrochloride)",1,1,"active",2004-11-01
-FALSE,NA,"anagrelide (anagrelide hydrochloride monohydrate)",3,1,"active",2004-11-05
-FALSE,NA,"etidronate disodium",1,1,"active",2004-11-10
-FALSE,NA,"voriconazole",11,3,"active",2004-11-12
-FALSE,NA,"alcohol anhydrous and benzalkonium",5,4,"active",2004-11-20
-FALSE,NA,"citric acid and magnesium oxide and sodium picosulfate",3,1,"active",2004-11-25
-FALSE,NA,"avobenzone and octinoxate and zinc oxide",1,1,"active",2004-11-30
-FALSE,NA,"levofloxacin",23,3,"active",2004-11-30
-FALSE,NA,"glycerine and propylene glycol",3,1,"active",2004-12-01
-FALSE,NA,"antihemophilic factor (human) and von willebrand factor (human)",3,1,"active",2004-12-06
-FALSE,NA,"memantine hydrochloride",13,1,"active",2004-12-16
-FALSE,NA,"acetaminophen and pamabrom",1,1,"active",2004-12-20
-FALSE,NA,"choriogonadotropin alpha",2,1,"active",2004-12-20
-FALSE,NA,"fosamprenavir (fosamprenavir calcium)",2,2,"active",2004-12-22
-FALSE,NA,"vinorelbine (vinorelbine tartrate)",3,1,"active",2004-12-22
-FALSE,NA,"quinagolide (quinagolide hydrochloride)",4,1,"active",2004-12-29
-FALSE,NA,"bortezomib (bortezomib mannitol boronic ester)",4,1,"active",2005-02-01
-FALSE,NA,"omalizumab",2,2,"active",2005-02-03
-FALSE,NA,"avobenzone and homosalate and octinoxate and octisalate and oxybenzone",14,3,"active",2005-02-04
-FALSE,NA,"paclitaxel",6,2,"active",2005-02-07
-FALSE,NA,"benzethonium chloride and benzocaine",1,1,"active",2005-02-09
-FALSE,NA,"mycophenolic acid (mycophenolate sodium)",4,1,"active",2005-02-11
-FALSE,NA,"iron (sodium ferric gluconate complex in sucrose injection)",1,1,"active",2005-03-02
-FALSE,NA,"iodoform",1,1,"active",2005-03-03
-FALSE,NA,"dextran 70 and polyethylene glycol 400 and povidone and tetrahydrozoline hydrochloride",3,1,"active",2005-03-08
-FALSE,NA,"dextromethorphan hydrobromide and guaifenesin and menthol",3,2,"active",2005-03-30
-FALSE,NA,"cilazapril (cilazapril monohydrate)",19,1,"active",2005-04-01
-FALSE,NA,"octinoxate and oxybenzone and titanium dioxide and zinc oxide",1,1,"active",2005-04-01
-FALSE,NA,"octinoxate and titanium dioxide and zinc oxide",15,4,"active",2005-04-01
-FALSE,NA,"avobenzone and ensulizole and octocrylene and oxybenzone",3,2,"active",2005-05-04
-FALSE,NA,"avobenzone and octocrylene and oxybenzone and titanium dioxide",3,1,"active",2005-05-04
-FALSE,NA,"oxybenzone and padimate o",3,1,"active",2005-05-15
-FALSE,NA,"rabies vaccine inactivated (purified chick embryo cell culture)",1,1,"active",2005-05-16
-FALSE,NA,"bacitracin zinc and gramicidin and lidocaine and polymyxin b (polymyxin b sulfate)",1,1,"active",2005-05-24
-FALSE,NA,"cannabidiol (cannabis sativa extract) and delta-9-tetrahydrocannabinol (cannabis sativa extract)",1,1,"active",2005-06-22
-FALSE,NA,"lutropin alfa",1,1,"active",2005-06-28
-FALSE,NA,"hydroquinone and octinoxate and oxybenzone",2,1,"active",2005-07-13
-FALSE,NA,"erlotinib (erlotinib hydrochloride)",8,1,"active",2005-07-19
-FALSE,NA,"docosanol",1,1,"active",2005-08-15
-FALSE,NA,"lamivudine and NA",6,1,"active",2005-08-17
-FALSE,NA,"octinoxate and octocrylene and titanium dioxide",4,3,"active",2005-09-07
-FALSE,NA,"insulin aspart and insulin aspart protamine",1,1,"active",2005-09-12
-FALSE,NA,"acetaminophen and chlorpheniramine maleate and dextromethorphan hydrobromide and guaifenesin and pseudoephedrine hydrochloride",3,1,"active",2005-09-23
-FALSE,NA,"dextromethorphan hydrobromide and guaifenesin and menthol and pseudoephedrine hydrochloride",1,1,"active",2005-09-30
-FALSE,NA,"guaifenesin and menthol",4,3,"active",2005-09-30
-FALSE,NA,"eflornithine hydrochloride",1,1,"active",2005-11-01
-FALSE,NA,"bevacizumab",1,1,"active",2005-11-02
-FALSE,NA,"hepatitis a vaccine, inactivated and salmonella typhi vi capsular polysaccharide vaccine",1,1,"active",2005-11-09
-FALSE,NA,"nitric oxide",5,1,"active",2005-11-23
-FALSE,NA,"tipranavir",1,1,"active",2005-12-01
-FALSE,NA,"triptorelin (triptorelin pamoate)",3,1,"active",2005-12-15
-FALSE,NA,"etanercept",3,1,"active",2005-12-21
-FALSE,NA,"amlodipine and atorvastatin",28,1,"active",2005-12-23
-FALSE,NA,"lactic acid and magnesium chloride and sodium bicarbonate and sodium chloride",1,1,"active",2005-12-24
-FALSE,NA,"pegvisomant",5,1,"active",2006-01-24
-FALSE,NA,"avobenzone and octisalate and octocrylene and oxybenzone and terephthalylidene dicamphor sulfonic acid and titanium dioxide",2,1,"active",2006-02-15
-FALSE,NA,"calcium chloride and dextrose anhydrous and lactic acid and magnesium chloride and potassium chloride and sodium bicarbonate and sodium chloride",1,1,"active",2006-02-21
-FALSE,NA,"insulin isophane injection pork",1,1,"active",2006-04-01
-FALSE,NA,"insulin pork",1,1,"active",2006-04-01
-FALSE,NA,"trospium chloride",1,1,"active",2006-04-04
-FALSE,NA,"darifenacin (darifenacin hydrobromide)",2,1,"active",2006-04-06
-FALSE,NA,"emtricitabine and tenofovir disoproxil fumarate",1,1,"active",2006-04-06
-FALSE,NA,"timolol and travoprost",1,1,"active",2006-04-11
-FALSE,NA,"adefovir dipivoxil",2,1,"active",2006-04-18
-FALSE,NA,"acetaminophen and doxylamine and phenylephrine",1,1,"active",2006-06-11
-FALSE,NA,"acetaminophen and dextromethorphan hydrobromide and doxylamine",5,3,"active",2006-06-12
-FALSE,NA,"midodrine hydrochloride",2,1,"active",2006-06-13
-FALSE,NA,"acetaminophen and caffeine and pyrilamine maleate",3,1,"active",2006-06-22
-FALSE,NA,"sunitinib (sunitinib malate)",3,1,"active",2006-06-22
-FALSE,NA,"acetaminophen and dextromethorphan hydrobromide and phenylephrine",10,5,"active",2006-06-26
-FALSE,NA,"dextromethorphan hydrobromide and phenylephrine",4,3,"active",2006-07-10
-FALSE,NA,"acetaminophen and chlorpheniramine maleate and dextromethorphan hydrobromide and phenylephrine",5,1,"active",2006-07-24
-FALSE,NA,"sorafenib (sorafenib tosylate)",1,1,"active",2006-07-31
-FALSE,NA,"abatacept",2,2,"active",2006-08-08
-FALSE,NA,"acetaminophen and menthol",1,1,"active",2006-08-09
-FALSE,NA,"recombinant human papillomavirus type 11 l1 protein and recombinant human papillomavirus type 16 l1 protein and recombinant human papillomavirus type 18 l1 protein and recombinant human papillomavirus type 6 l1 protein",1,1,"active",2006-08-16
-FALSE,NA,"cilazapril (cilazapril monohydrate) and hydrochlorothiazide",2,1,"active",2006-08-23
-FALSE,NA,"acetaminophen and dextromethorphan hydrobromide and diphenhydramine hydrochloride",3,1,"active",2006-08-31
-FALSE,NA,"isopropyl myristate",1,1,"active",2006-09-01
-FALSE,NA,"trypan blue",1,1,"active",2006-09-06
-FALSE,NA,"entecavir",4,1,"active",2006-09-12
-FALSE,NA,"rasagiline (rasagiline mesylate)",6,1,"active",2006-09-14
-FALSE,NA,"hydroxyethyl starch 130/0.4",2,1,"active",2006-09-18
-FALSE,NA,"antihemophilic factor (recombinant)",20,2,"active",2006-10-06
-FALSE,NA,"human-bovine rotavirus reassortant type g1 and human-bovine rotavirus reassortant type g2 and human-bovine rotavirus reassortant type g3 and human-bovine rotavirus reassortant type g4 and human-bovine rotavirus reassortant type p1(8)",1,1,"active",2006-10-16
-FALSE,NA,"meningococcal polysaccharide-diphtheria toxoid conjugate, group a and meningococcal polysaccharide-diphtheria toxoid conjugate, group c and meningococcal polysaccharide-diphtheria toxoid conjugate, group w 135 and meningococcal polysaccharide-diphtheria toxoid conjugate, group y",1,1,"active",2006-10-20
-FALSE,NA,"desmopressin (desmopressin acetate)",5,1,"active",2006-11-02
-FALSE,NA,"deferasirox",15,2,"active",2006-11-10
-FALSE,NA,"ensulizole and octinoxate",4,1,"active",2006-11-13
-FALSE,NA,"natalizumab",1,1,"active",2006-11-21
-FALSE,NA,"idarubicin hydrochloride",3,1,"active",2006-11-25
-FALSE,NA,"tigecycline",2,1,"active",2006-11-30
-FALSE,NA,"alglucosidase alfa",1,1,"active",2006-12-06
-FALSE,NA,"lanthanum (lanthanum carbonate hydrate)",4,1,"active",2006-12-06
-FALSE,NA,"telbivudine",1,1,"active",2006-12-14
-FALSE,NA,"avobenzone and homosalate and octisalate and octocrylene and oxybenzone",194,9,"active",2007-01-29
-FALSE,NA,"homosalate and octinoxate and octisalate and oxybenzone",17,5,"active",2007-02-15
-FALSE,NA,"lanreotide (lanreotide acetate)",3,1,"active",2007-02-22
-FALSE,NA,"ceftriaxone (ceftriaxone sodium)",19,1,"active",2007-02-23
-FALSE,NA,"avobenzone and drometrizole trisiloxane and octocrylene and terephthalylidene dicamphor sulfonic acid and titanium dioxide",8,2,"active",2007-03-01
-FALSE,NA,"avobenzone and drometrizole trisiloxane and octocrylene and titanium dioxide",3,1,"active",2007-03-01
-FALSE,NA,"acetaminophen and dextromethorphan hydrobromide and guaifenesin and phenylephrine",4,2,"active",2007-03-06
-FALSE,NA,"diphenhydramine hydrochloride and zinc acetate",2,2,"active",2007-03-09
-FALSE,NA,"inactivated poliomyelitis vaccine (v.c.o.) type 1 mahoney and inactivated poliomyelitis vaccine (v.c.o.) type 2 mef1 and inactivated poliomyelitis vaccine (v.c.o.) type 3 saukett",1,1,"active",2007-03-22
-FALSE,NA,"hexylresorcinol and l-menthol",1,1,"active",2007-03-23
-FALSE,NA,"avobenzone and octisalate and octocrylene and oxybenzone",13,4,"active",2007-03-27
-FALSE,NA,"avobenzone and homosalate and octisalate and oxybenzone and titanium dioxide",4,1,"active",2007-03-30
-FALSE,NA,"dasatinib (dasatinib monohydrate)",6,1,"active",2007-04-13
-FALSE,NA,"coagulation factor ix (recombinant)",5,1,"active",2007-04-14
-FALSE,NA,"octinoxate and octocrylene and oxybenzone and sulisobenzone and titanium dioxide",2,1,"active",2007-05-05
-FALSE,NA,"diphtheria toxoid and filamentous haemagglutinin and pertactin and pertussis toxoid and tetanus toxoid",1,1,"active",2007-05-29
-FALSE,NA,"dyclonine hydrochloride and menthol",1,1,"active",2007-05-31
-FALSE,NA,"posaconazole",3,3,"active",2007-06-06
-FALSE,NA,"oxaliplatin",8,1,"active",2007-07-17
-FALSE,NA,"ranibizumab",2,1,"active",2007-07-26
-FALSE,NA,"acamprosate calcium",1,1,"active",2007-07-30
-FALSE,NA,"idursulfase",1,1,"active",2007-08-01
-FALSE,NA,"sodium oxybate",1,1,"active",2007-08-03
-FALSE,NA,"alemtuzumab",2,1,"active",2007-09-07
-FALSE,NA,"micafungin sodium",2,1,"active",2007-09-18
-FALSE,NA,"aprepitant",3,2,"active",2007-09-24
-FALSE,NA,"maraviroc",2,1,"active",2007-09-26
-FALSE,NA,"paliperidone",3,1,"active",2007-10-02
-FALSE,NA,"efavirenz and emtricitabine and tenofovir disoproxil fumarate",1,1,"active",2007-10-23
-FALSE,NA,"calcium chloride and dextrose anhydrous and magnesium chloride and potassium chloride and sodium bicarbonate and sodium chloride",1,1,"active",2007-10-31
-FALSE,NA,"calcium chloride and magnesium chloride and sodium bicarbonate and sodium chloride",1,1,"active",2007-10-31
-FALSE,NA,"piperacillin (piperacillin sodium) and tazobactam (tazobactam sodium)",19,1,"active",2007-11-05
-FALSE,NA,"gemcitabine (gemcitabine hydrochloride)",15,2,"active",2007-11-20
-FALSE,NA,"aliskiren (aliskiren fumarate)",2,1,"active",2007-11-26
-FALSE,NA,"raltegravir (raltegravir potassium)",3,2,"active",2007-11-28
-FALSE,NA,"daptomycin",1,1,"active",2007-12-03
-FALSE,NA,"chlorhexidine and lidocaine hydrochloride (lidocaine hydrochloride monohydrate)",1,1,"active",2007-12-06
-FALSE,NA,"frovatriptan (frovatriptan succinate)",2,1,"active",2008-01-04
-FALSE,NA,"ziprasidone (ziprasidone hydrochloride monohydrate)",4,1,"active",2008-01-04
-FALSE,NA,"temsirolimus",1,1,"active",2008-01-11
-FALSE,NA,"nelarabine",1,1,"active",2008-01-17
-FALSE,NA,"desmopressin acetate (desmopressin acetate trihydrate)",2,1,"active",2008-01-23
-FALSE,NA,"lenalidomide",6,1,"active",2008-02-19
-FALSE,NA,"phenobarbital sodium",2,1,"active",2008-02-29
-FALSE,NA,"polyvinyl alcohol and povidone and tetrahydrozoline hydrochloride",1,1,"active",2008-03-26
-FALSE,NA,"etravirine",3,1,"active",2008-03-27
-FALSE,NA,"avobenzone and homosalate and octisalate and oxybenzone",20,3,"active",2008-04-03
-FALSE,NA,"calcium (calcium carbonate) and etidronate disodium",3,2,"active",2008-04-10
-FALSE,NA,"ondansetron (ondansetron hydrochloride)",10,1,"active",2008-04-23
-FALSE,NA,"carbidopa and entacapone and levodopa",5,1,"active",2008-04-28
-FALSE,NA,"antihemophilic factor (human) and human plasma proteins and von willebrand factor (human)",2,1,"active",2008-04-29
-FALSE,NA,"methylnaltrexone bromide",1,1,"active",2008-05-07
-FALSE,NA,"panitumumab",2,1,"active",2008-05-27
-FALSE,NA,"measles virus vaccine live attenuated and mumps virus vaccine live attenuated (jeryl lynn strain) and rubella virus vaccine live attenuated (wistar ra27/3 strain) and varicella-zoster virus vaccine live attenuated (oka/merck strain)",1,1,"active",2008-06-04
-FALSE,NA,"penicillin g benzathine",1,1,"active",2008-06-11
-FALSE,NA,"rho d immune globulin human",3,1,"active",2008-06-16
-FALSE,NA,"ambrisentan",2,1,"active",2008-06-24
-FALSE,NA,"estradiol and levonorgestrel",1,1,"active",2008-06-25
-FALSE,NA,"coagulation factor ii (human) and coagulation factor ix (human) and coagulation factor vii (human) and coagulation factor x (human) and protein c and protein s",4,2,"active",2008-07-08
-FALSE,NA,"homosalate and meradimate and octinoxate and octisalate and oxybenzone",2,1,"active",2008-07-22
-FALSE,NA,"octinoxate and octisalate",5,2,"active",2008-07-24
-FALSE,NA,"avobenzone and octinoxate and octisalate and octocrylene",14,4,"active",2008-08-01
-FALSE,NA,"avobenzone and octinoxate and octisalate and octocrylene and padimate o",2,2,"active",2008-08-01
-FALSE,NA,"avobenzone and octinoxate and octisalate and padimate o",1,1,"active",2008-08-01
-FALSE,NA,"menthol and trolamine salicylate and NA",1,1,"active",2008-09-15
-FALSE,NA,"insulin glulisine (recombinant dna origin)",3,1,"active",2008-09-22
-FALSE,NA,"nilotinib (nilotinib hydrochloride monohydrate)",2,1,"active",2008-09-30
-FALSE,NA,"drospirenone and estradiol",1,1,"active",2008-10-20
-FALSE,NA,"cetuximab",1,1,"active",2008-10-28
-FALSE,NA,"avobenzone and octinoxate and octocrylene",12,4,"active",2008-12-04
-FALSE,NA,"diphtheria toxoid and filamentous haemagglutinin and haemophilus influenzae type b-prp and hepatitis b surface antigen (recombinant) and inactivated poliovirus type i and inactivated poliovirus type ii and inactivated poliovirus type iii and pertactin and pertussis toxoid and tetanus toxoid and tetanus toxoid adsorbed",1,1,"active",2008-12-04
-FALSE,NA,"polyethylene glycol 3350",11,2,"active",2008-12-10
-FALSE,NA,"rotavirus vaccine (rix4414 strain), live, oral, attenuated (human)",1,1,"active",2008-12-16
-FALSE,NA,"ustekinumab",3,1,"active",2009-01-05
-FALSE,NA,"octinoxate and octisalate and octocrylene and oxybenzone and titanium dioxide",1,1,"active",2009-01-21
-FALSE,NA,"bacitracin zinc and gramicidin and lidocaine and polymyxin b sulfate",1,1,"active",2009-01-23
-FALSE,NA,"moroctocog alfa",7,2,"active",2009-01-23
-FALSE,NA,"betamethasone dipropionate and calcipotriol (calcipotriol monohydrate)",2,2,"active",2009-01-28
-FALSE,NA,"ensulizole and octinoxate and octocrylene",1,1,"active",2009-02-02
-FALSE,NA,"granisetron (granisetron hydrochloride)",5,2,"active",2009-02-20
-FALSE,NA,"dimethicone and menthol and pramoxine hydrochloride",1,1,"active",2009-03-05
-FALSE,NA,"benzalkonium and pramoxine hydrochloride",1,1,"active",2009-03-12
-FALSE,NA,"avobenzone and drometrizole trisiloxane and octisalate and octocrylene and terephthalylidene dicamphor sulfonic acid and titanium dioxide",4,2,"active",2009-03-13
-FALSE,NA,"avobenzone and homosalate and octisalate and octocrylene",92,8,"active",2009-03-17
-FALSE,NA,"darunavir (darunavir ethanolate)",5,2,"active",2009-03-17
-FALSE,NA,"cefepime (cefepime hydrochloride)",1,1,"active",2009-03-19
-FALSE,NA,"homosalate and meradimate and octinoxate and oxybenzone",1,1,"active",2009-04-03
-FALSE,NA,"romiplostim",2,1,"active",2009-04-15
-FALSE,NA,"avobenzone and octocrylene and oxybenzone",16,6,"active",2009-05-01
-FALSE,NA,"eplerenone",2,1,"active",2009-05-05
-FALSE,NA,"lidocaine hydrochloride and menthol",1,1,"active",2009-05-05
-FALSE,NA,"dimethicone and zinc oxide",3,1,"active",2009-05-20
-FALSE,NA,"eculizumab",1,1,"active",2009-05-25
-FALSE,NA,"lapatinib (lapatinib ditosylate monohydrate)",1,1,"active",2009-06-05
-FALSE,NA,"methyl aminolevulinate (methyl aminolevulinate hydrochloride)",1,1,"active",2009-06-16
-FALSE,NA,"avobenzone and octinoxate and octisalate and octocrylene and oxybenzone",10,5,"active",2009-06-22
-FALSE,NA,"golimumab",5,1,"active",2009-06-22
-FALSE,NA,"loteprednol etabonate",4,3,"active",2009-06-24
-FALSE,NA,"vorinostat",1,1,"active",2009-06-29
-FALSE,NA,"cladribine",1,1,"active",2009-06-30
-FALSE,NA,"homosalate and octinoxate and octisalate and titanium dioxide",1,1,"active",2009-07-08
-FALSE,NA,"avobenzone and ensulizole and octinoxate and octocrylene and oxybenzone and titanium dioxide",1,1,"active",2009-07-13
-FALSE,NA,"incobotulinumtoxina",3,1,"active",2009-07-21
-FALSE,NA,"nimodipine",1,1,"active",2009-07-24
-FALSE,NA,"gramicidin and lidocaine hydrochloride and polymyxin b sulfate",5,1,"active",2009-07-30
-FALSE,NA,"standardized kentucky blue/june grass pollen and standardized orchard grass pollen and standardized redtop grass pollen and standardized sweet vernal grass pollen and standardized timothy grass pollen",1,1,"active",2009-07-30
-FALSE,NA,"timolol and NA",1,1,"active",2009-08-25
-FALSE,NA,"certolizumab pegol",1,1,"active",2009-08-31
-FALSE,NA,"dronedarone (dronedarone hydrochloride)",1,1,"active",2009-09-28
-FALSE,NA,"avobenzone and octinoxate and octocrylene and oxybenzone",7,4,"active",2009-10-08
-FALSE,NA,"avobenzone and drometrizole trisiloxane and octisalate and octocrylene",2,1,"active",2009-11-02
-FALSE,NA,"aztreonam",1,1,"active",2009-11-11
-FALSE,NA,"aliskiren (aliskiren fumarate) and hydrochlorothiazide",4,1,"active",2009-11-24
-FALSE,NA,"degarelix (degarelix acetate)",2,1,"active",2009-11-24
-FALSE,NA,"bacitracin zinc and gramicidin and polymyxin b sulfate",1,1,"active",2009-12-23
-FALSE,NA,"glucagon (recombinant dna origin) (glucagon hydrochloride)",2,1,"active",2009-12-23
-FALSE,NA,"gramicidin and polymyxin b sulfate",4,2,"active",2009-12-23
-FALSE,NA,"inact.japanese encephal virus(attenuat. strain sa14-14-2 produced in vero cells)",1,1,"active",2009-12-29
-FALSE,NA,"azacitidine",1,1,"active",2010-01-04
-FALSE,NA,"chlorpheniramine maleate and phenylephrine",1,1,"active",2010-01-11
-FALSE,NA,"diphenhydramine hydrochloride and phenylephrine",4,3,"active",2010-01-11
-FALSE,NA,"everolimus",7,2,"active",2010-01-19
-FALSE,NA,"anidulafungin",1,1,"active",2010-01-25
-FALSE,NA,"besifloxacin",1,1,"active",2010-01-27
-FALSE,NA,"octocrylene and oxybenzone",2,1,"active",2010-01-29
-FALSE,NA,"desloratadine and pseudoephedrine sulfate",1,1,"active",2010-02-01
-FALSE,NA,"gadoxetate disodium",1,1,"active",2010-02-04
-FALSE,NA,"clofarabine",1,1,"active",2010-02-10
-FALSE,NA,"recombinant human papillomavirus type 16 l1 protein and recombinant human papillomavirus type 18 l1 protein",1,1,"active",2010-02-10
-FALSE,NA,"homosalate and hydroquinone and octinoxate and octocrylene and oxybenzone",1,1,"active",2010-02-15
-FALSE,NA,"dexmedetomidine (dexmedetomidine hydrochloride)",2,1,"active",2010-02-24
-FALSE,NA,"corynebacterium diphtheriae crm-197 protein and pneumococcal polysaccharide serotype 1 and pneumococcal polysaccharide serotype 14 and pneumococcal polysaccharide serotype 18c and pneumococcal polysaccharide serotype 19a and pneumococcal polysaccharide serotype 19f and pneumococcal polysaccharide serotype 23f and pneumococcal polysaccharide serotype 3 and pneumococcal polysaccharide serotype 4 and pneumococcal polysaccharide serotype 5 and pneumococcal polysaccharide serotype 6a and pneumococcal polysaccharide serotype 6b and pneumococcal polysaccharide serotype 7f and pneumococcal polysaccharide serotype 9v",1,1,"active",2010-03-01
-FALSE,NA,"homosalate and octinoxate and octisalate and octocrylene and oxybenzone",1,1,"active",2010-03-01
-FALSE,NA,"clotrimazole and fluconazole",3,1,"active",2010-03-10
-FALSE,NA,"octinoxate and octisalate and zinc oxide",8,2,"active",2010-03-30
-FALSE,NA,"canakinumab",1,1,"active",2010-04-27
-FALSE,NA,"avobenzone and bemotrizinol and drometrizole trisiloxane and octisalate and octocrylene and terephthalylidene dicamphor sulfonic acid and titanium dioxide",1,1,"active",2010-05-04
-FALSE,NA,"prasugrel (prasugrel hydrochloride)",1,1,"active",2010-05-17
-FALSE,NA,"bemotrizinol and bisoctrizole and octinoxate",3,2,"active",2010-05-25
-FALSE,NA,"tocilizumab",4,1,"active",2010-05-26
-FALSE,NA,"liraglutide",2,1,"active",2010-05-27
-FALSE,NA,"bisacodyl and polyethylene glycol 3350 and potassium chloride and sodium bicarbonate and sodium chloride and sodium sulfate",1,1,"active",2010-06-06
-FALSE,NA,"azelaic acid",1,1,"active",2010-06-15
-FALSE,NA,"sapropterin dihydrochloride",1,1,"active",2010-07-05
-FALSE,NA,"cefotaxime (cefotaxime sodium)",3,1,"active",2010-07-06
-FALSE,NA,"paliperidone (paliperidone palmitate)",8,1,"active",2010-07-21
-FALSE,NA,"corynebacterium diphtheriae crm-197 protein and meningococcal group a oligosaccharide and meningococcal group c oligosaccharide and meningococcal group w-135 oligosaccharide and meningococcal group y oligosaccharide",1,1,"active",2010-07-29
-FALSE,NA,"eptacog alfa (activated)",6,1,"active",2010-08-05
-FALSE,NA,"trabectedin",1,1,"active",2010-08-05
-FALSE,NA,"denosumab",2,1,"active",2010-08-12
-FALSE,NA,"pazopanib (pazopanib hydrochloride)",1,1,"active",2010-08-13
-FALSE,NA,"dextromethorphan hydrobromide and doxylamine",1,1,"active",2010-08-19
-FALSE,NA,"febuxostat",1,1,"active",2010-09-30
-FALSE,NA,"c1 esterase inhibitor (human)",3,2,"active",2010-10-06
-FALSE,NA,"lacosamide",5,2,"active",2010-10-21
-FALSE,NA,"diphtheria toxoid adsorbed and filamentous haemagglutinin adsorbed and inactivated poliovirus type i and inactivated poliovirus type ii and inactivated poliovirus type iii and pertactin adsorbed and pertussis toxoid adsorbed and tetanus toxoid adsorbed",1,1,"active",2010-10-22
-FALSE,NA,"thalidomide",3,1,"active",2010-11-01
-FALSE,NA,"alitretinoin",2,1,"active",2010-11-19
-FALSE,NA,"velaglucerase alfa",1,1,"active",2010-11-22
-FALSE,NA,"sevelamer carbonate",1,1,"active",2010-11-25
-FALSE,NA,"avobenzone and homosalate and octisalate",6,3,"active",2011-01-01
-FALSE,NA,"avobenzone and octisalate",8,2,"active",2011-01-01
-FALSE,NA,"diphenhydramine hydrochloride and ibuprofen",4,2,"active",2011-01-03
-FALSE,NA,"alanine and calcium chloride and dextrose and glutamic acid and glycine and histidine and l-arginine and l-aspartic acid and l-isoleucine and l-leucine and l-phenylalanine and l-proline and l-threonine and l-tyrosine and l-valine and lysine (l-lysine acetate) and magnesium chloride and methionine and olive oil and potassium chloride and serine and sodium acetate trihydrate and sodium glycerophosphate and soybean oil and tryptophan",3,1,"active",2011-01-19
-FALSE,NA,"bacitracin zinc",2,1,"active",2011-02-01
-FALSE,NA,"antipyrine and benzocaine",1,1,"active",2011-02-28
-FALSE,NA,"fibrinogen (human) and thrombin (human)",1,1,"active",2011-03-01
-FALSE,NA,"formoterol and mometasone",2,1,"active",2011-03-10
-FALSE,NA,"diphtheria toxoid and filamentous haemagglutinin and fimbriae types 2 and 3 (fim) and inactivated poliomyelitis vaccine (d.c.o.) type 2 mef1 and inactivated poliomyelitis vaccine (v.c.o.) type 1 mahoney and inactivated poliomyelitis vaccine (v.c.o.) type 3 saukett and pertactin and pertussis toxoid and tetanus toxoid",1,1,"active",2011-03-11
-FALSE,NA,"standardized kentucky blue/june grass pollen and standardized orchard grass pollen and standardized redtop grass pollen and standardized timothy grass pollen",2,1,"active",2011-03-22
-FALSE,NA,"fingolimod (fingolimod hydrochloride)",1,1,"active",2011-03-28
-FALSE,NA,"eltrombopag (eltrombopag olamine)",2,1,"active",2011-04-01
-FALSE,NA,"fosaprepitant (fosaprepitant dimeglumine)",1,1,"active",2011-04-04
-FALSE,NA,"avobenzone and ensulizole and octocrylene",4,2,"active",2011-04-06
-FALSE,NA,"avobenzone and homosalate and octisalate and octocrylene and oxybenzone and terephthalylidene dicamphor sulfonic acid",6,2,"active",2011-04-13
-FALSE,NA,"glycerine and hypromellose",5,1,"active",2011-04-19
-FALSE,NA,"glycerine and naphazoline hydrochloride",1,1,"active",2011-04-27
-FALSE,NA,"polyethylene glycol 3350 and potassium chloride and sodium ascorbate and sodium chloride and sodium sulfate anhydrous and vitamin C",1,1,"active",2011-04-28
-FALSE,NA,"adapalene and benzoyl peroxide",2,1,"active",2011-05-13
-FALSE,NA,"clindamycin and tretinoin",1,1,"active",2011-05-16
-FALSE,NA,"sodium nitroprusside",1,1,"active",2011-05-17
-FALSE,NA,"irinotecan hydrochloride (irinotecan hydrochloride trihydrate)",3,1,"active",2011-05-27
-FALSE,NA,"exenatide",3,2,"active",2011-05-31
-FALSE,NA,"ticagrelor",2,1,"active",2011-06-01
-FALSE,NA,"calcium chloride and thrombin (human) and NA",3,2,"active",2011-06-20
-FALSE,NA,"calcium chloride and citric acid and dextrose and magnesium chloride and potassium chloride and sodium acetate and sodium chloride",7,1,"active",2011-07-04
-FALSE,NA,"abiraterone acetate",2,1,"active",2011-07-28
-FALSE,NA,"amlodipine and telmisartan",4,1,"active",2011-08-11
-FALSE,NA,"cabazitaxel",1,1,"active",2011-08-23
-FALSE,NA,"belimumab",2,1,"active",2011-08-24
-FALSE,NA,"rufinamide",3,1,"active",2011-08-29
-FALSE,NA,"avobenzone and homosalate and octinoxate and octisalate and octocrylene and oxybenzone",8,3,"active",2011-08-31
-FALSE,NA,"rilpivirine (rilpivirine hydrochloride)",1,1,"active",2011-08-31
-FALSE,NA,"linagliptin",1,1,"active",2011-09-13
-FALSE,NA,"octocrylene and titanium dioxide",1,1,"active",2011-09-15
-FALSE,NA,"tolvaptan",5,1,"active",2011-09-22
-FALSE,NA,"remifentanil (remifentanil hydrochloride)",4,1,"active",2011-09-27
-FALSE,NA,"emtricitabine and rilpivirine (rilpivirine hydrochloride) and tenofovir disoproxil fumarate",1,1,"active",2011-10-20
-FALSE,NA,"dienogest",1,1,"active",2011-10-25
-FALSE,NA,"diphenhydramine citrate and ibuprofen",1,1,"active",2011-10-27
-FALSE,NA,"digoxin immune fab (ovine)",1,1,"active",2011-11-04
-FALSE,NA,"dutasteride and tamsulosin",1,1,"active",2011-11-17
-FALSE,NA,"zolpidem tartrate",6,1,"active",2011-11-29
-FALSE,NA,"asenapine (asenapine maleate)",2,1,"active",2011-12-19
-FALSE,NA,"avobenzone and octinoxate and octocrylene and sulisobenzone",2,2,"active",2011-12-22
-FALSE,NA,"prucalopride (prucalopride succinate)",2,1,"active",2012-01-12
-FALSE,NA,"meropenem (meropenem trihydrate)",4,1,"active",2012-01-26
-FALSE,NA,"apixaban",2,1,"active",2012-02-01
-FALSE,NA,"colesevelam hydrochloride",2,2,"active",2012-02-06
-FALSE,NA,"avobenzone and bemotrizinol and bisoctrizole and octocrylene",2,1,"active",2012-02-08
-FALSE,NA,"avobenzone and bisoctrizole and octocrylene",1,1,"active",2012-02-08
-FALSE,NA,"avobenzone and drometrizole trisiloxane and homosalate and octisalate and octocrylene",6,2,"active",2012-02-15
-FALSE,NA,"fampridine",1,1,"active",2012-02-24
-FALSE,NA,"indacaterol (indacaterol maleate)",1,1,"active",2012-03-05
-FALSE,NA,"vemurafenib",1,1,"active",2012-03-05
-FALSE,NA,"ipilimumab",1,1,"active",2012-03-08
-FALSE,NA,"acetic acid and sodium acetate",1,1,"active",2012-03-09
-FALSE,NA,"calcium chloride and dextrose and magnesium chloride and potassium chloride and sodium bicarbonate and sodium chloride",1,1,"active",2012-03-09
-FALSE,NA,"eribulin mesylate",1,1,"active",2012-03-19
-FALSE,NA,"plerixafor",1,1,"active",2012-03-26
-FALSE,NA,"olive oil and soybean oil",1,1,"active",2012-03-28
-FALSE,NA,"fesoterodine fumarate",2,1,"active",2012-04-19
-FALSE,NA,"acetaminophen and dextromethorphan hydrobromide and diphenhydramine hydrochloride and guaifenesin and pseudoephedrine hydrochloride",3,1,"active",2012-04-25
-FALSE,NA,"crizotinib",2,1,"active",2012-05-10
-FALSE,NA,"human plasma proteins",1,1,"active",2012-05-31
-FALSE,NA,"fidaxomicin",1,1,"active",2012-06-21
-FALSE,NA,"amylmetacresol and dichlorobenzyl alcohol",6,1,"active",2012-07-19
-FALSE,NA,"amylmetacresol and dichlorobenzyl alcohol and menthol",3,1,"active",2012-07-19
-FALSE,NA,"ruxolitinib (ruxolitinib phosphate)",4,1,"active",2012-07-19
-FALSE,NA,"hydrocortisone and zinc sulfate monohydrate",1,1,"active",2012-07-23
-FALSE,NA,"silicon dioxide and sodium fluoride and triclosan",2,1,"active",2012-07-23
-FALSE,NA,"grass pollen allergen extract",2,1,"active",2012-07-26
-FALSE,NA,"palonosetron (palonosetron hydrochloride)",1,1,"active",2012-08-07
-FALSE,NA,"triptorelin acetate",1,1,"active",2012-08-09
-FALSE,NA,"axitinib",2,1,"active",2012-08-17
-FALSE,NA,"acetaminophen and dextromethorphan hydrobromide and diphenhydramine hydrochloride and pseudoephedrine hydrochloride",2,1,"active",2012-08-28
-FALSE,NA,"lurasidone hydrochloride",5,1,"active",2012-09-05
-FALSE,NA,"bendamustine hydrochloride",2,1,"active",2012-09-12
-FALSE,NA,"avobenzone and octisalate and octocrylene and terephthalylidene dicamphor sulfonic acid",2,1,"active",2012-09-19
-FALSE,NA,"acetaminophen and diphenhydramine hydrochloride",1,1,"active",2012-10-02
-FALSE,NA,"acetaminophen and diphenhydramine hydrochloride and menthol",1,1,"active",2012-10-04
-FALSE,NA,"acetaminophen and guaifenesin and menthol",1,1,"active",2012-10-04
-FALSE,NA,"diphtheria toxoid and filamentous haemagglutinin and inactivated poliovirus type i and inactivated poliovirus type ii and inactivated poliovirus type iii and pertactin and pertussis toxoid and tetanus toxoid",1,1,"active",2012-10-25
-FALSE,NA,"fluconazole and miconazole nitrate",1,1,"active",2012-10-25
-FALSE,NA,"haemophilus influenzae type b-prp and tetanus toxoid conjugate (prp-t)",1,1,"active",2012-10-25
-FALSE,NA,"azilsartan medoxomil (azilsartan medoxomil potassium)",2,1,"active",2012-11-08
-FALSE,NA,"ensulizole",2,1,"active",2012-11-13
-FALSE,NA,"avobenzone and homosalate and octinoxate and octocrylene",2,2,"active",2012-11-16
-FALSE,NA,"ivacaftor",3,2,"active",2012-11-27
-FALSE,NA,"acetaminophen and dextromethorphan hydrobromide and doxylamine and guaifenesin and pseudoephedrine hydrochloride",1,1,"active",2012-12-10
-FALSE,NA,"cobicistat and elvitegravir and emtricitabine and tenofovir disoproxil fumarate",1,1,"active",2012-12-20
-FALSE,NA,"ensulizole and octinoxate and oxybenzone",5,2,"active",2013-01-04
-FALSE,NA,"pirfenidone",1,1,"active",2013-01-08
-FALSE,NA,"glycopyrronium (glycopyrronium bromide)",1,1,"active",2013-01-14
-FALSE,NA,"catridecacog",1,1,"active",2013-01-30
-FALSE,NA,"fibrinogen (human)",1,1,"active",2013-01-31
-FALSE,NA,"homosalate and oxybenzone",1,1,"active",2013-02-03
-FALSE,NA,"abobotulinumtoxina",3,1,"active",2013-02-19
-FALSE,NA,"brentuximab vedotin",1,1,"active",2013-02-19
-FALSE,NA,"drospirenone and ethinyl estradiol and levomefolate calcium",1,1,"active",2013-03-01
-FALSE,NA,"calcium chloride and citric acid and dextrose and magnesium chloride and sodium acetate and sodium chloride",1,1,"active",2013-03-04
-FALSE,NA,"glycerine and polysorbate 80 and sodium carboxymethyl cellulose",2,1,"active",2013-03-06
-FALSE,NA,"azilsartan medoxomil (azilsartan medoxomil potassium) and chlorthalidone",3,1,"active",2013-03-21
-FALSE,NA,"ingenol mebutate",2,1,"active",2013-03-21
-FALSE,NA,"mirabegron",2,1,"active",2013-03-28
-FALSE,NA,"nebivolol (nebivolol hydrochloride)",4,1,"active",2013-04-02
-FALSE,NA,"regorafenib",1,1,"active",2013-04-02
-FALSE,NA,"avobenzone and drometrizole trisiloxane and homosalate and octisalate and octocrylene and terephthalylidene dicamphor sulfonic acid",10,2,"active",2013-04-08
-FALSE,NA,"dimethyl fumarate",2,1,"active",2013-04-12
-FALSE,NA,"linagliptin and metformin",3,1,"active",2013-04-17
-FALSE,NA,"metformin and saxagliptin",3,1,"active",2013-04-26
-FALSE,NA,"stiripentol",4,2,"active",2013-05-01
-FALSE,NA,"fish oil and medium chain triglycerides (mct) and olive oil and soybean oil",1,1,"active",2013-05-08
-FALSE,NA,"pertuzumab",1,1,"active",2013-05-08
-FALSE,NA,"pertuzumab and trastuzumab",1,1,"active",2013-05-09
-FALSE,NA,"perampanel",6,1,"active",2013-05-17
-FALSE,NA,"octinoxate and octisalate and titanium dioxide and zinc oxide",10,3,"active",2013-05-20
-FALSE,NA,"benzalkonium and lidocaine",1,1,"active",2013-05-27
-FALSE,NA,"adenine and citric acid monohydrate and dextrose and sodium chloride and sodium citrate dihydrate and sodium phosphate monobasic, monohydrate",1,1,"active",2013-05-31
-FALSE,NA,"homosalate and octisalate and octocrylene and titanium dioxide",2,1,"active",2013-06-03
-FALSE,NA,"enzalutamide",1,1,"active",2013-06-07
-FALSE,NA,"avobenzone and drometrizole trisiloxane and octocrylene",1,1,"active",2013-06-18
-FALSE,NA,"ensulizole and octocrylene",1,1,"active",2013-06-18
-FALSE,NA,"rotigotine",6,1,"active",2013-06-27
-FALSE,NA,"avobenzone and ensulizole and homosalate and octisalate and octocrylene",2,1,"active",2013-07-02
-FALSE,NA,"ensulizole and octinoxate and octisalate and zinc oxide",1,1,"active",2013-07-04
-FALSE,NA,"ulipristal acetate",2,1,"active",2013-07-04
-FALSE,NA,"calcium chloride and dextrose and magnesium chloride and potassium chloride and sodium chloride and sodium lactate",8,1,"active",2013-07-05
-FALSE,NA,"acyclovir and hydrocortisone",1,1,"active",2013-07-26
-FALSE,NA,"guanfacine (guanfacine hydrochloride)",4,1,"active",2013-08-06
-FALSE,NA,"vismodegib",1,1,"active",2013-08-09
-FALSE,NA,"meningococcal polysaccharide antigen group a and meningococcal polysaccharide antigen group c and meningococcal polysaccharide antigen group w-135 and meningococcal polysaccharide antigen group y and tetanus toxoid",1,1,"active",2013-08-22
-FALSE,NA,"dabrafenib (dabrafenib mesylate)",2,1,"active",2013-08-28
-FALSE,NA,"trametinib",2,1,"active",2013-08-28
-FALSE,NA,"arsenic trioxide",1,1,"active",2013-09-09
-FALSE,NA,"aclidinium bromide",1,1,"active",2013-09-13
-FALSE,NA,"riociguat",5,1,"active",2013-09-25
-FALSE,NA,"trastuzumab emtansine",1,1,"active",2013-10-09
-FALSE,NA,"rifaximin",1,1,"active",2013-11-07
-FALSE,NA,"dolutegravir (dolutegravir sodium)",3,1,"active",2013-11-08
-FALSE,NA,"benzoyl peroxide and salicylic acid",1,1,"active",2013-11-15
-FALSE,NA,"teriflunomide",1,1,"active",2013-11-15
-FALSE,NA,"ocriplasmin",1,1,"active",2013-11-20
-FALSE,NA,"simeprevir (simeprevir sodium)",1,1,"active",2013-11-25
-FALSE,NA,"pasireotide (pasireotide diaspartate)",3,1,"active",2013-11-26
-FALSE,NA,"fluticasone and vilanterol (vilanterol trifenatate)",2,1,"active",2013-11-29
-FALSE,NA,"bacitracin and polymyxin b sulfate",1,1,"active",2013-12-09
-FALSE,NA,"methoxsalen",1,1,"active",2013-12-09
-FALSE,NA,"aflibercept",1,1,"active",2013-12-23
-FALSE,NA,"galsulfase",1,1,"active",2014-01-01
-FALSE,NA,"sofosbuvir",1,1,"active",2014-01-06
-FALSE,NA,"avobenzone and bemotrizinol and octisalate and octocrylene",1,1,"active",2014-01-13
-FALSE,NA,"magnesium hydroxide and simethicone and NA",1,1,"active",2014-01-14
-FALSE,NA,"macitentan",1,1,"active",2014-01-15
-FALSE,NA,"homosalate and octinoxate and octocrylene and oxybenzone and titanium dioxide",1,1,"active",2014-01-16
-FALSE,NA,"afatinib (afatinib dimaleate)",3,1,"active",2014-01-17
-FALSE,NA,"cetylpyridinium chloride and sodium fluoride",1,1,"active",2014-01-20
-FALSE,NA,"cisatracurium (cisatracurium besylate)",3,1,"active",2014-01-20
-FALSE,NA,"homosalate and meradimate and octinoxate and octocrylene and zinc oxide",1,1,"active",2014-01-22
-FALSE,NA,"dextrose (dextrose monohydrate)",1,1,"active",2014-01-29
-FALSE,NA,"ensulizole and octinoxate and octisalate and titanium dioxide and zinc oxide",1,1,"active",2014-01-31
-FALSE,NA,"avobenzone and homosalate and octocrylene",20,3,"active",2014-02-01
-FALSE,NA,"octinoxate and octisalate and oxybenzone and titanium dioxide and zinc oxide",2,1,"active",2014-02-01
-FALSE,NA,"romidepsin",1,1,"active",2014-02-05
-FALSE,NA,"pomalidomide",4,1,"active",2014-02-24
-FALSE,NA,"outer membrane vesicles (neisseria meningitidis group b nz98/254 strain) and recombinant neisseria meningitidis group b fhbp fusion protein and recombinant neisseria meningitidis group b nada protein and recombinant neisseria meningitidis group b nhba fusion protein",1,1,"active",2014-02-26
-FALSE,NA,"insulin biosynthetic human br",1,1,"active",2014-03-03
-FALSE,NA,"glycopyrronium (glycopyrronium bromide) and indacaterol (indacaterol maleate)",1,1,"active",2014-03-05
-FALSE,NA,"umeclidinium (umeclidinium bromide) and vilanterol (vilanterol trifenatate)",1,1,"active",2014-03-14
-FALSE,NA,"avobenzone and homosalate and octinoxate and octisalate and octocrylene",11,5,"active",2014-03-18
-FALSE,NA,"bosutinib",2,1,"active",2014-03-24
-FALSE,NA,"brimonidine (brimonidine tartrate)",1,1,"active",2014-03-24
-FALSE,NA,"lidocaine and menthol",1,1,"active",2014-03-28
-FALSE,NA,"factor xiii",2,1,"active",2014-04-03
-FALSE,NA,"ensulizole and octinoxate and zinc oxide",2,2,"active",2014-04-24
-FALSE,NA,"linaclotide",2,1,"active",2014-04-29
-FALSE,NA,"alogliptin (alogliptin benzoate)",3,1,"active",2014-04-30
-FALSE,NA,"alogliptin (alogliptin benzoate) and metformin",3,1,"active",2014-04-30
-FALSE,NA,"lomitapide (lomitapide mesylate)",3,1,"active",2014-05-06
-FALSE,NA,"measles virus vaccine live attenuated (edmonston b strain) and mumps virus vaccine live attenuated (jeryl lynn strain) and rubella virus vaccine live attenuated (wistar ra27/3 strain) and varicella-zoster virus vaccine live attenuated (oka/merck strain)",1,1,"active",2014-05-09
-FALSE,NA,"canagliflozin",2,1,"active",2014-05-28
-FALSE,NA,"standardized kentucky blue/june grass pollen and standardized meadow fescue grass pollen and standardized orchard grass pollen and standardized perennial rye grass pollen and standardized redtop grass pollen and standardized sweet vernal grass pollen and standardized timothy grass pollen",2,1,"active",2014-06-02
-FALSE,NA,"tofacitinib (tofacitinib citrate)",1,1,"active",2014-06-03
-FALSE,NA,"sinecatechins",1,1,"active",2014-07-04
-FALSE,NA,"icatibant (icatibant acetate)",1,1,"active",2014-07-14
-FALSE,NA,"efinaconazole",1,1,"active",2014-07-21
-FALSE,NA,"eslicarbazepine acetate",4,1,"active",2014-08-07
-FALSE,NA,"frovatriptan (frovatriptan succinate monohydrate)",1,1,"active",2014-08-11
-FALSE,NA,"acetaminophen and dextromethorphan hydrobromide and doxylamine and phenylephrine",2,2,"active",2014-08-15
-FALSE,NA,"elosulfase alfa",1,1,"active",2014-08-27
-FALSE,NA,"cobicistat and darunavir (darunavir ethanolate)",1,1,"active",2014-08-28
-FALSE,NA,"homosalate and octinoxate and oxybenzone and titanium dioxide",1,1,"active",2014-09-02
-FALSE,NA,"taliglucerase alfa",1,1,"active",2014-09-08
-FALSE,NA,"octinoxate and octisalate and octocrylene and titanium dioxide",1,1,"active",2014-09-17
-FALSE,NA,"influenza virus type a (h1n1) and influenza virus type a (h3n2) and influenza virus type b (victoria) and influenza virus type b (yamagata)",1,1,"active",2014-10-10
-FALSE,NA,"ledipasvir and sofosbuvir",1,1,"active",2014-10-16
-FALSE,NA,"dolutegravir (dolutegravir sodium) and lamivudine and NA",1,1,"active",2014-10-22
-FALSE,NA,"homosalate and octisalate and octocrylene and oxybenzone and titanium dioxide",1,1,"active",2014-10-27
-FALSE,NA,"vortioxetine (vortioxetine hydrobromide)",3,1,"active",2014-10-28
-FALSE,NA,"ibrutinib",1,1,"active",2014-11-19
-FALSE,NA,"apremilast",2,2,"active",2014-11-27
-FALSE,NA,"obinutuzumab",1,1,"active",2014-11-28
-FALSE,NA,"acetaminophen and diphenhydramine hydrochloride and phenylephrine",3,1,"active",2014-12-04
-FALSE,NA,"ensulizole and octinoxate and titanium dioxide",1,1,"active",2014-12-29
-FALSE,NA,"octinoxate and octocrylene and zinc oxide",4,2,"active",2014-12-29
-FALSE,NA,"dasabuvir (dasabuvir sodium monohydrate) and ombitasvir and paritaprevir and ritonavir",1,1,"active",2015-01-06
-FALSE,NA,"avobenzone and homosalate and octinoxate",2,1,"active",2015-01-12
-FALSE,NA,"dapagliflozin (dapagliflozin propanediol monohydrate)",2,1,"active",2015-01-16
-FALSE,NA,"sodium phenylbutyrate",1,1,"active",2015-01-27
-FALSE,NA,"avobenzone and homosalate and octocrylene and oxybenzone",2,1,"active",2015-02-01
-FALSE,NA,"brimonidine tartrate and NA",1,1,"active",2015-02-17
-FALSE,NA,"siltuximab",2,1,"active",2015-03-03
-FALSE,NA,"avobenzone and homosalate and octinoxate and octisalate",6,3,"active",2015-03-16
-FALSE,NA,"octinoxate and octocrylene and titanium dioxide and zinc oxide",3,3,"active",2015-03-16
-FALSE,NA,"recombinant human papillomavirus type 11 l1 protein and recombinant human papillomavirus type 16 l1 protein and recombinant human papillomavirus type 18 l1 protein and recombinant human papillomavirus type 31 l1 protein and recombinant human papillomavirus type 33 l1 protein and recombinant human papillomavirus type 45 l1 protein and recombinant human papillomavirus type 52 l1 protein and recombinant human papillomavirus type 58 l1 protein and recombinant human papillomavirus type 6 l1 protein",1,1,"active",2015-03-18
-FALSE,NA,"fluticasone and NA",1,1,"active",2015-03-31
-FALSE,NA,"avobenzone and bemotrizinol and bisoctrizole and octocrylene and titanium dioxide",4,2,"active",2015-04-07
-FALSE,NA,"secukinumab",1,1,"active",2015-04-10
-FALSE,NA,"idelalisib",2,1,"active",2015-04-21
-FALSE,NA,"vedolizumab",1,1,"active",2015-04-21
-FALSE,NA,"avobenzone and homosalate and octinoxate and octocrylene and oxybenzone",2,1,"active",2015-04-23
-FALSE,NA,"umeclidinium (umeclidinium bromide)",1,1,"active",2015-04-27
-FALSE,NA,"deferiprone",3,2,"active",2015-04-28
-FALSE,NA,"ceritinib",1,1,"active",2015-04-29
-FALSE,NA,"ensulizole and octinoxate and oxybenzone and titanium dioxide and zinc oxide",1,1,"active",2015-05-06
-FALSE,NA,"glycerine and sodium carboxymethyl cellulose",2,1,"active",2015-05-15
-FALSE,NA,"ivermectin",1,1,"active",2015-05-25
-FALSE,NA,"olodaterol (olodaterol hydrochloride) and tiotropium",1,1,"active",2015-05-29
-FALSE,NA,"pembrolizumab",1,1,"active",2015-06-01
-FALSE,NA,"modified vaccinia virus (ankara-bavarian nordic)",1,1,"active",2015-06-15
-FALSE,NA,"tesamorelin (tesamorelin acetate)",1,1,"active",2015-06-23
-FALSE,NA,"nintedanib (nintedanib esilate)",2,1,"active",2015-06-29
-FALSE,NA,"aclidinium bromide and formoterol",1,1,"active",2015-07-09
-FALSE,NA,"pasireotide (pasireotide pamoate)",3,1,"active",2015-08-04
-FALSE,NA,"empagliflozin",2,1,"active",2015-08-11
-FALSE,NA,"varicella zoster immune globulin human",1,1,"active",2015-08-14
-FALSE,NA,"ponatinib (ponatinib hydrochloride)",2,1,"active",2015-08-21
-FALSE,NA,"naloxegol (naloxegol oxalate)",2,1,"active",2015-08-27
-FALSE,NA,"carglumic acid",1,1,"active",2015-09-08
-FALSE,NA,"daclatasvir (daclatasvir dihydrochloride)",2,1,"active",2015-09-08
-FALSE,NA,"ramucirumab",1,1,"active",2015-09-10
-FALSE,NA,"haemagglutinin-strain a(h1n1) and haemagglutinin-strain a(h3n2) and haemagglutinin-strain b (victoria) and haemagglutinin-strain b (yamagata)",2,1,"active",2015-09-14
-FALSE,NA,"alanine and arginine and calcium chloride and dextrose and fish oil and glycine and histidine and isoleucine and leucine and lysine (lysine acetate) and magnesium sulfate and medium chain triglycerides (mct) and methionine and nitrogen and olive oil and phenylalanine and potassium chloride and proline and serine and sodium acetate trihydrate and sodium glycerophosphate and soybean oil and taurine and threonine and tryptophan and tyrosine and valine and zinc sulfate heptahydrate",1,1,"active",2015-09-15
-FALSE,NA,"alanine and arginine and dextrose and fish oil and glycine and histidine and isoleucine and leucine and lysine (lysine acetate) and medium chain triglycerides (mct) and methionine and nitrogen and olive oil and phenylalanine and proline and serine and soybean oil and taurine and threonine and tryptophan and tyrosine and valine",1,1,"active",2015-09-15
-FALSE,NA,"collagen and fibrinogen (human) and thrombin (human)",1,1,"active",2015-09-18
-FALSE,NA,"bromfenac (bromfenac sodium sesquihydrate)",1,1,"active",2015-09-25
-FALSE,NA,"peginterferon beta-1a",2,2,"active",2015-09-25
-FALSE,NA,"evolocumab",2,1,"active",2015-09-28
-FALSE,NA,"lidocaine and tetracaine",1,1,"active",2015-09-28
-FALSE,NA,"corynebacterium diphtheriae crm-197 protein and meningococcal group c oligosaccharide",1,1,"active",2015-10-07
-FALSE,NA,"asfotase alfa",4,1,"active",2015-10-20
-FALSE,NA,"follitropin alfa and lutropin alfa",1,1,"active",2015-10-22
-FALSE,NA,"nivolumab",2,1,"active",2015-10-23
-FALSE,NA,"levomilnacipran (levomilnacipran hydrochloride)",4,1,"active",2015-11-19
-FALSE,NA,"dulaglutide",2,1,"active",2015-11-24
-FALSE,NA,"ombitasvir and paritaprevir and ritonavir",1,1,"active",2015-11-24
-FALSE,NA,"entecavir (entecavir monohydrate)",1,1,"active",2015-12-01
-FALSE,NA,"hexaminolevulinate hydrochloride",1,1,"active",2015-12-14
-FALSE,NA,"simoctocog alfa and water",4,1,"active",2015-12-22
-FALSE,NA,"prilocaine hydrochloride",1,1,"active",2015-12-23
-FALSE,NA,"acetic acid and calcium chloride and dextrose and magnesium chloride and potassium chloride",9,1,"active",2016-01-04
-FALSE,NA,"telavancin (telavancin hydrochloride)",1,1,"active",2016-01-06
-FALSE,NA,"dimethicone and white petrolatum",1,1,"active",2016-01-08
-FALSE,NA,"ceftolozane (ceftolozane sulfate) and tazobactam (tazobactam sodium)",1,1,"active",2016-01-12
-FALSE,NA,"elbasvir and grazoprevir",1,1,"active",2016-01-25
-FALSE,NA,"deoxycholic acid",1,1,"active",2016-01-27
-FALSE,NA,"ivacaftor and lumacaftor",2,1,"active",2016-01-27
-FALSE,NA,"cobicistat and elvitegravir and emtricitabine and tenofovir alafenamide (tenofovir alafenamide hemifumarate)",1,1,"active",2016-02-03
-FALSE,NA,"dapagliflozin (dapagliflozin propanediol monohydrate) and metformin",2,1,"active",2016-02-08
-FALSE,NA,"atazanavir (atazanavir sulfate) and cobicistat",1,1,"active",2016-02-11
-FALSE,NA,"carfilzomib",3,1,"active",2016-02-11
-FALSE,NA,"homosalate and octocrylene and oxybenzone and titanium dioxide",2,1,"active",2016-02-15
-FALSE,NA,"fluorouracil and salicylic acid",1,1,"active",2016-02-19
-FALSE,NA,"sugammadex (sugammadex sodium)",1,1,"active",2016-02-19
-FALSE,NA,"avobenzone and drometrizole trisiloxane and homosalate and octisalate and octocrylene and oxybenzone",3,1,"active",2016-02-22
-FALSE,NA,"sodium bicarbonate and sodium chloride",1,1,"active",2016-02-22
-FALSE,NA,"diphenhydramine hydrochloride and naproxen",1,1,"active",2016-02-24
-FALSE,NA,"avobenzone and bemotrizinol and bisoctrizole and octisalate and octocrylene",1,1,"active",2016-03-01
-FALSE,NA,"lanolin and mineral oil and white petrolatum",1,1,"active",2016-03-01
-FALSE,NA,"avobenzone and homosalate and octisalate and octocrylene and terephthalylidene dicamphor sulfonic acid",1,1,"active",2016-03-07
-FALSE,NA,"mepolizumab",1,1,"active",2016-03-14
-FALSE,NA,"blinatumomab",1,1,"active",2016-03-17
-FALSE,NA,"lenvatinib (lenvatinib mesylate)",4,1,"active",2016-03-31
-FALSE,NA,"amlodipine and perindopril",3,1,"active",2016-04-05
-FALSE,NA,"cobimetinib (cobimetinib fumarate)",1,1,"active",2016-04-06
-FALSE,NA,"palbociclib",3,1,"active",2016-04-19
-FALSE,NA,"selexipag",8,1,"active",2016-04-21
-FALSE,NA,"asunaprevir",1,1,"active",2016-04-22
-FALSE,NA,"alirocumab",4,1,"active",2016-04-29
-FALSE,NA,"octinoxate and octocrylene and oxybenzone and zinc oxide",1,1,"active",2016-04-29
-FALSE,NA,"brivaracetam",5,1,"active",2016-05-02
-FALSE,NA,"olaparib",1,1,"active",2016-05-16
-FALSE,NA,"cocoa butter and phenylephrine",1,1,"active",2016-05-20
-FALSE,NA,"idarucizumab",1,1,"active",2016-05-24
-FALSE,NA,"emtricitabine and tenofovir alafenamide (tenofovir alafenamide hemifumarate)",2,1,"active",2016-06-03
-FALSE,NA,"magnesium chloride and sodium bicarbonate and sodium chloride",1,1,"active",2016-06-18
-FALSE,NA,"canagliflozin and metformin",6,1,"active",2016-06-28
-FALSE,NA,"daratumumab",2,1,"active",2016-07-12
-FALSE,NA,"beta-carotene and calcium (calcium carbonate) and copper (cupric oxide) and d-pantothenic acid (calcium d-pantothenate) and folic acid and iodine (potassium iodide) and iron (ferrous fumarate) and magnesium (magnesium oxide) and nicotinamide and vitamin B12 (cyanocobalamin) and vitamin B1 (thiamine mononitrate) and vitamin B2 (riboflavin) and vitamin B6 (pyridoxine hydrochloride) and vitamin C (ascorbic acid) and vitamin D3 (cholecalciferol) and vitamin E (dl-alpha tocopheryl acetate) and zinc (zinc oxide)",2,1,"active",2016-07-15
-FALSE,NA,"osimertinib (osimertinib mesylate)",2,1,"active",2016-07-19
-FALSE,NA,"sodium nitrite",1,1,"active",2016-07-20
-FALSE,NA,"homosalate and octinoxate and octocrylene and titanium dioxide and zinc oxide",1,1,"active",2016-07-26
-FALSE,NA,"sofosbuvir and velpatasvir",1,1,"active",2016-08-02
-FALSE,NA,"empagliflozin and metformin",6,1,"active",2016-08-03
-FALSE,NA,"ixekizumab",2,1,"active",2016-08-11
-FALSE,NA,"adenine and dextrose and mannitol and sodium chloride",1,1,"active",2016-08-22
-FALSE,NA,"citric acid and dextrose and sodium citrate dihydrate and sodium phosphate monobasic",1,1,"active",2016-08-22
-FALSE,NA,"ixazomib (ixazomib citrate)",3,1,"active",2016-09-21
-FALSE,NA,"sulfur hexafluoride",1,1,"active",2016-09-22
-FALSE,NA,"avobenzone and homosalate and octisalate and octocrylene and titanium dioxide",3,1,"active",2016-09-30
-FALSE,NA,"alectinib (alectinib hydrochloride)",1,1,"active",2016-10-14
-FALSE,NA,"nitisinone",10,2,"active",2016-10-20
-FALSE,NA,"venetoclax",4,2,"active",2016-10-31
-FALSE,NA,"glycerol phenylbutyrate",1,1,"active",2016-11-03
-FALSE,NA,"antihemophilic factor (recombinant) porcine sequence",1,1,"active",2016-11-30
-FALSE,NA,"bilastine",1,1,"active",2016-12-02
-FALSE,NA,"poractant alfa",1,1,"active",2016-12-19
-FALSE,NA,"reslizumab",1,1,"active",2016-12-19
-FALSE,NA,"bazedoxifene (bazedoxifene acetate) and conjugated estrogens",1,1,"active",2016-12-20
-FALSE,NA,"empagliflozin and linagliptin",2,1,"active",2016-12-21
-FALSE,NA,"mifepristone and misoprostol",1,1,"active",2017-01-10
-FALSE,NA,"rupatadine (rupatadine fumarate)",2,2,"active",2017-01-16
-FALSE,NA,"sarilumab",2,1,"active",2017-02-08
-FALSE,NA,"alanine and arginine and calcium chloride and dextrose and fish oil and glycine and histidine and isoleucine and leucine and lysine (lysine acetate) and magnesium sulfate and medium chain triglycerides (mct) and methionine and olive oil and phenylalanine and potassium chloride and proline and serine and sodium acetate trihydrate and sodium glycerophosphate and soybean oil and taurine and threonine and tryptophan and tyrosine and valine and zinc sulfate heptahydrate",1,1,"active",2017-02-14
-FALSE,NA,"ivabradine (ivabradine hydrochloride)",2,1,"active",2017-03-17
-FALSE,NA,"emtricitabine and rilpivirine (rilpivirine hydrochloride) and tenofovir alafenamide (tenofovir alafenamide hemifumarate)",1,1,"active",2017-03-20
-FALSE,NA,"octinoxate and octisalate and oxybenzone and zinc oxide",1,1,"active",2017-03-20
-FALSE,NA,"bepotastine besilate",1,1,"active",2017-03-23
-FALSE,NA,"daclizumab beta",1,1,"active",2017-03-30
-FALSE,NA,"propiverine hydrochloride",3,2,"active",2017-04-13
-FALSE,NA,"nonacog gamma",3,1,"active",2017-04-18
-FALSE,NA,"brexpiprazole",6,1,"active",2017-04-19
-FALSE,NA,"eluxadoline",2,1,"active",2017-04-24
-FALSE,NA,"edoxaban (edoxaban tosylate)",3,1,"active",2017-04-25
-FALSE,NA,"atezolizumab",1,1,"active",2017-05-02
-FALSE,NA,"ciprofloxacin and fluocinolone acetonide",1,1,"active",2017-05-08
-FALSE,NA,"homosalate and octinoxate and octisalate and zinc oxide",1,1,"active",2017-05-23
-FALSE,NA,"obeticholic acid",2,1,"active",2017-05-26
-FALSE,NA,"vitamin A (retinyl palmitate) and vitamin E (dl-alpha tocopheryl acetate)",2,1,"active",2017-05-26
-FALSE,NA,"pegaspargase",1,1,"active",2017-06-01
-FALSE,NA,"octinoxate and octisalate and octocrylene and titanium dioxide and zinc oxide",1,1,"active",2017-06-15
-FALSE,NA,"tenofovir alafenamide (tenofovir alafenamide hemifumarate)",1,1,"active",2017-06-20
-FALSE,NA,"benzalkonium and didecyl dimethyl ammonium chloride and dioctyl dimethyl ammonium chloride and octyl decyl dimethyl ammonium chloride",1,1,"active",2017-06-30
-FALSE,NA,"benzocaine and hydrocortisone and zinc sulfate",1,1,"inactive",2017-07-07
-FALSE,NA,"deoxycholic acid and NA",1,1,"inactive",2017-07-07
-FALSE,NA,"dextromethorphan hydrobromide and guaifenesin and pheniramine maleate and phenylephrine",1,1,"inactive",2017-07-07
-FALSE,NA,"calcium acetate and magnesium acetate and potassium acetate and potassium chloride and sodium acetate and sodium gluconate",1,1,"inactive",2017-07-18
-FALSE,NA,"calcium chloride and dextrose and magnesium chloride and potassium chloride and sodium acetate and sodium chloride",1,1,"inactive",2017-07-18
-FALSE,NA,"calcium chloride and magnesium chloride and potassium acetate and sodium acetate and sodium chloride",1,1,"inactive",2017-07-18
-FALSE,NA,"calcium chloride and potassium chloride and sodium chloride",1,1,"inactive",2017-07-18
-FALSE,NA,"citric acid and heparin sodium and sodium chloride and sodium phosphate dibasic",1,1,"inactive",2017-07-18
-FALSE,NA,"dextran 40 and dextrose",1,1,"inactive",2017-07-18
-FALSE,NA,"dextran 40 and sodium chloride",1,1,"inactive",2017-07-18
-FALSE,NA,"dextran 70 and sodium chloride",1,1,"inactive",2017-07-18
-FALSE,NA,"dextrose and magnesium chloride and potassium chloride and sodium acetate and sodium chloride",1,1,"inactive",2017-07-18
-FALSE,NA,"dextrose and potassium chloride and potassium phosphate dibasic and sodium acetate and sodium chloride",1,1,"inactive",2017-07-18
-FALSE,NA,"dl-methionine and histidine and isoleucine and l-cysteine (l-cysteine hydrochloride) and leucine and lysine (lysine acetate) and phenylalanine and sodium bisulfite and threonine and tryptophan and valine",1,1,"inactive",2017-07-18
-FALSE,NA,"lanolin and mineral oil and petrolatum",1,1,"inactive",2017-07-18
-FALSE,NA,"phenylephrine and NA",1,1,"inactive",2017-07-18
-FALSE,NA,"coagulation factor ix (recombinant) and water",3,1,"inactive",2017-07-19
-FALSE,NA,"dexamethasone (base) and neomycin sulfate and polymyxin b sulfate",1,1,"inactive",2017-07-20
-FALSE,NA,"amsacrine",1,1,"inactive",2017-07-24
-FALSE,NA,"avobenzone and ensulizole and homosalate and octisalate and octocrylene and oxybenzone",2,1,"inactive",2017-07-24
-FALSE,NA,"framycetin",4,3,"inactive",2017-07-24
-FALSE,NA,"framycetin and gramicidin",1,1,"inactive",2017-07-24
-FALSE,NA,"methenamine mandelate",1,1,"inactive",2017-07-24
-FALSE,NA,"nylidrin hydrochloride",1,1,"inactive",2017-07-24
-FALSE,NA,"pheniramine maleate and phenylephrine and polyvinyl alcohol",1,1,"inactive",2017-07-24
-FALSE,NA,"polysorbate 80",1,1,"inactive",2017-07-24
-FALSE,NA,"thioproperazine (thioproperazine mesylate)",1,1,"inactive",2017-07-24
-FALSE,NA,"thiothixene",1,1,"inactive",2017-07-24
-FALSE,NA,"erythromycin and sulfisoxazole (sulfisoxazole acetyl)",1,1,"inactive",2017-07-25
-FALSE,NA,"menthol and tolnaftate",1,1,"inactive",2017-07-25
-FALSE,NA,"doxylamine",1,1,"inactive",2017-07-26
-FALSE,NA,"erythrosine",1,1,"inactive",2017-07-26
-FALSE,NA,"aprotinin (bovine)",1,1,"inactive",2017-07-27
-FALSE,NA,"tripelennamine hydrochloride",1,1,"inactive",2017-07-27
-FALSE,NA,"peginterferon alfa-2a and ribavirin",2,1,"inactive",2017-07-28
-FALSE,NA,"adenine and citric acid and dextrose and sodium citrate and sodium phosphate monobasic",1,1,"inactive",2017-07-31
-FALSE,NA,"alanine and dextrose and glutamic acid and glycine and histidine and l-arginine and l-aspartic acid and l-isoleucine and l-leucine and l-phenylalanine and l-proline and l-threonine and l-tyrosine and l-valine and lysine (l-lysine acetate) and methionine and olive oil and serine and soybean oil and tryptophan",2,1,"inactive",2017-07-31
-FALSE,NA,"alcohol anhydrous and dextrose",2,1,"inactive",2017-07-31
-FALSE,NA,"glycerine",1,1,"inactive",2017-07-31
-FALSE,NA,"diatrizoate meglumine and meglumine iodipamide",1,1,"inactive",2017-08-01
-FALSE,NA,"isoniazid and pyridoxine hydrochloride",1,1,"inactive",2017-08-01
-FALSE,NA,"meglumine iodipamide",1,1,"inactive",2017-08-01
-FALSE,NA,"neostigmine bromide",1,1,"inactive",2017-08-01
-FALSE,NA,"phenazopyridine hydrochloride",4,1,"inactive",2017-08-01
-FALSE,NA,"aluminum chloride and oxyquinoline sulfate",1,1,"inactive",2017-08-02
-FALSE,NA,"camphor and dexamethasone (base) and parachlorophenol and thymol",1,1,"inactive",2017-08-02
-FALSE,NA,"cetrimonium bromide and disodium edetate",1,1,"inactive",2017-08-02
-FALSE,NA,"epinephrine and mepivacaine hydrochloride",1,1,"inactive",2017-08-02
-FALSE,NA,"dextrose and magnesium acetate and potassium acetate and sodium chloride",1,1,"inactive",2017-08-03
-FALSE,NA,"dextrose and magnesium chloride and potassium chloride and sodium acetate and sodium chloride and sodium gluconate",3,1,"inactive",2017-08-03
-FALSE,NA,"dextrose and sodium chloride and sodium lactate",1,1,"inactive",2017-08-03
-FALSE,NA,"methylprednisolone and water",2,1,"inactive",2017-08-03
-FALSE,NA,"quinidine sulfate",1,1,"inactive",2017-08-03
-FALSE,NA,"thiopental sodium",5,1,"inactive",2017-08-03
-FALSE,NA,"vecuronium bromide",2,1,"inactive",2017-08-03
-FALSE,NA,"vitamin B12 (cyanocobalamin)",2,1,"inactive",2017-08-03
-FALSE,NA,"antithrombin iii (human)",1,1,"inactive",2017-08-04
-FALSE,NA,"avobenzone and ensulizole and homosalate and octocrylene",1,1,"inactive",2017-08-04
-FALSE,NA,"benzocaine and triclosan",1,1,"inactive",2017-08-08
-FALSE,NA,"dexbrompheniramine maleate and pseudoephedrine sulfate",1,1,"inactive",2017-08-08
-FALSE,NA,"acetaminophen and guaifenesin and phenylephrine",2,1,"inactive",2017-08-09
-FALSE,NA,"conjugated estrogens and medroxyprogesterone",2,1,"inactive",2017-08-09
-FALSE,NA,"corynebacterium diphtheriae crm-197 protein and pneumococcal polysaccharide serotype 14 and pneumococcal polysaccharide serotype 18c and pneumococcal polysaccharide serotype 19f and pneumococcal polysaccharide serotype 23f and pneumococcal polysaccharide serotype 4 and pneumococcal polysaccharide serotype 6b and pneumococcal polysaccharide serotype 9v",1,1,"inactive",2017-08-09
-FALSE,NA,"polymyxin b (polymyxin b sulfate)",1,1,"inactive",2017-08-10
-FALSE,NA,"albumin (human) and sodium chloride",1,1,"inactive",2017-08-11
-FALSE,NA,"sodium chloride and sodium phosphate dibasic and sodium phosphate monobasic",1,1,"inactive",2017-08-11
-FALSE,NA,"albumin",2,1,"inactive",2017-08-14
-FALSE,NA,"dimethicone and menthol",2,1,"inactive",2017-08-15
-FALSE,NA,"atracurium besylate",1,1,"inactive",2017-08-16
-FALSE,NA,"bacitracin (bacitracin zinc) and hydrocortisone and neomycin (neomycin sulfate) and polymyxin b (polymyxin b sulfate)",1,1,"inactive",2017-08-16
-FALSE,NA,"bacitracin (bacitracin zinc) and polymyxin b (polymyxin b sulfate)",2,1,"inactive",2017-08-16
-FALSE,NA,"betamethasone (base) and gentamicin (gentamicin sulfate)",1,1,"inactive",2017-08-16
-FALSE,NA,"biotin and dexpanthenol (panthenol) and folic acid and nicotinamide and pyridoxine hydrochloride and vitamin A and vitamin B12 (cyanocobalamin) and vitamin B1 (thiamine hydrochloride) and vitamin B2 and vitamin C and vitamin E (dl-alpha tocopheryl acetate)",1,1,"inactive",2017-08-16
-FALSE,NA,"chloramphenicol",5,2,"inactive",2017-08-16
-FALSE,NA,"chloramphenicol and hydrocortisone",2,2,"inactive",2017-08-16
-FALSE,NA,"gramicidin and neomycin (neomycin sulfate) and polymyxin b (polymyxin b sulfate)",1,1,"inactive",2017-08-16
-FALSE,NA,"hydrocortisone and neomycin (neomycin sulfate) and polymyxin b (polymyxin b sulfate)",1,1,"inactive",2017-08-16
-FALSE,NA,"idoxuridine",1,1,"inactive",2017-08-16
-FALSE,NA,"lidocaine hydrochloride and polymyxin b sulfate",1,1,"inactive",2017-08-16
-FALSE,NA,"methylene blue and naphazoline hydrochloride",1,1,"inactive",2017-08-16
-FALSE,NA,"pancuronium bromide",4,1,"inactive",2017-08-16
-FALSE,NA,"phenol",1,1,"inactive",2017-08-16
-FALSE,NA,"phenylephrine and tropicamide",2,1,"inactive",2017-08-16
-FALSE,NA,"sulfacetamide sodium",2,1,"inactive",2017-08-16
-FALSE,NA,"indigo carmine",1,1,"inactive",2017-08-17
-FALSE,NA,"vitamin C (calcium ascorbate)",1,1,"inactive",2017-08-18
-FALSE,NA,"ampicillin",4,2,"inactive",2017-08-21
-FALSE,NA,"diphtheria toxoid and filamentous haemagglutinin and fimbriae and inactivated poliomyelitis vaccine (d.c.o.) type 1 mahoney and inactivated poliomyelitis vaccine (d.c.o.) type 2 mef1 and inactivated poliomyelitis vaccine (d.c.o.) type 3 saukett and pertactin and pertussis toxoid and tetanus toxoid",1,1,"inactive",2017-08-21
-FALSE,NA,"hydrochlorothiazide and methyldopa",2,1,"inactive",2017-08-21
-FALSE,NA,"oxtriphylline",4,2,"inactive",2017-08-21
-FALSE,NA,"sulfamethoxazole",1,1,"inactive",2017-08-21
-FALSE,NA,"sulfisoxazole",1,1,"inactive",2017-08-21
-FALSE,NA,"cimetidine (cimetidine hydrochloride)",1,1,"inactive",2017-08-22
-FALSE,NA,"dipivefrin hydrochloride",1,1,"inactive",2017-08-22
-FALSE,NA,"flavoxate hydrochloride",2,1,"inactive",2017-08-22
-FALSE,NA,"ketotifen fumarate",1,1,"inactive",2017-08-22
-FALSE,NA,"oxaprozin",1,1,"inactive",2017-08-22
-FALSE,NA,"cocaine hydrochloride",4,1,"inactive",2017-08-25
-FALSE,NA,"prochlorperazine (prochlorperazine mesylate)",2,1,"inactive",2017-08-25
-FALSE,NA,"vancomycin hydrochloride",1,1,"inactive",2017-08-25
-FALSE,NA,"camphor",1,1,"inactive",2017-08-28
-FALSE,NA,"bacitracin zinc and neomycin (neomycin sulfate) and polymyxin b sulfate",1,1,"inactive",2017-08-31
-FALSE,NA,"cefaclor",9,2,"inactive",2017-09-01
-FALSE,NA,"maprotiline hydrochloride",3,1,"inactive",2017-09-01
-FALSE,NA,"avobenzone and hydroquinone and octocrylene and oxybenzone",1,1,"inactive",2017-09-05
-FALSE,NA,"diphenhydramine citrate",1,1,"inactive",2017-09-05
-FALSE,NA,"hydroquinone and octinoxate and oxybenzone and titanium dioxide and zinc oxide",1,1,"inactive",2017-09-05
-FALSE,NA,"hydroquinone and octocrylene and oxybenzone and padimate o",2,1,"inactive",2017-09-05
-FALSE,NA,"hydroquinone and oxybenzone and padimate o and NA",1,1,"inactive",2017-09-05
-FALSE,NA,"chlorpheniramine maleate and dextromethorphan hydrobromide and pseudoephedrine hydrochloride",1,1,"inactive",2017-09-06
-FALSE,NA,"diphtheria toxoid and filamentous haemagglutinin and haemophilus influenzae type b-prp and tetanus toxoid conjugate (prp-t) and inactivated poliovirus type i and inactivated poliovirus type ii and inactivated poliovirus type iii and pertactin and pertussis toxoid and tetanus toxoid",1,1,"inactive",2017-09-11
-FALSE,NA,"midazolam (midazolam hydrochloride)",2,1,"inactive",2017-09-12
-FALSE,NA,"acetaminophen and pheniramine maleate and phenylephrine and vitamin C (ascorbic acid)",2,1,"inactive",2017-09-14
-FALSE,NA,"aluminum hydroxide and magnesium hydroxide and simethicone",1,1,"inactive",2017-09-14
-FALSE,NA,"aluminum hydroxide and magnesium hydroxide (dried aluminum hydroxide gel) and simethicone",1,1,"inactive",2017-09-14
-FALSE,NA,"polycarbophil (calcium polycarbophil)",2,1,"inactive",2017-09-14
-FALSE,NA,"ensulizole and homosalate and octinoxate and octocrylene and zinc oxide",1,1,"inactive",2017-09-19
-FALSE,NA,"avobenzone and homosalate and octinoxate and octisalate and zinc oxide",1,1,"inactive",2017-09-20
-FALSE,NA,"acetaminophen",142,11,"active",NA
-FALSE,NA,"avobenzone and octinoxate and octisalate and oxybenzone",19,3,"active",NA
-FALSE,NA,"benzalkonium",58,7,"active",NA
-FALSE,NA,"docusate sodium",46,5,"active",NA
-FALSE,NA,"octinoxate and octisalate and oxybenzone",18,6,"active",NA
-FALSE,NA,"petrolatum",12,3,"active",NA
-FALSE,NA,"triclosan",76,5,"active",NA
+"tm_code","tm_formal_name","tm_status","tm_status_effective_time"
+8000782,"meperidine","active","19441231"
+8000001,"levothyroxine","active","19511230"
+8000003,"epinephrine","active","19511231"
+8000004,"phenytoin sodium","active","19511231"
+8000005,"phenytoin (base)","active","19521231"
+8000006,"testosterone","active","19531231"
+8000008,"hydrocortisone","active","19541231"
+8000009,"hydroxyzine","active","19561231"
+8000010,"methylphenidate","active","19561231"
+8000778,"hydrocodone and phenyltoloxamine","active","19571231"
+8000012,"hydroxychloroquine","active","19571231"
+8000013,"warfarin","active","19571231"
+8000788,"belladonna and ergotamine and phenobarbital","active","19590101"
+8000014,"prednisone","active","19591231"
+8000015,"spironolactone","active","19591231"
+8000018,"medroxyprogesterone","active","19601231"
+8000020,"norethindrone","active","19611231"
+8000021,"conjugated estrogens","active","19631231"
+8000023,"acetaminophen and caffeine and codeine","active","19641231"
+8000024,"amitriptyline","active","19651231"
+8000794,"betamethasone acetate and betamethasone (base)","active","19651231"
+8000026,"nortriptyline","active","19651231"
+8000027,"azathioprine","active","19661231"
+8000028,"dexamethasone (base)","active","19661231"
+8000029,"quinine sulfate","active","19661231"
+8000030,"triamcinolone acetonide","active","19661231"
+8000786,"pentazocine","active","19671231"
+8000031,"hydrochlorothiazide","active","19681231"
+8000032,"carbamazepine","active","19691231"
+8000036,"clindamycin","active","19701231"
+8000037,"erythromycin","active","19701231"
+8000038,"metronidazole","active","19701231"
+8000040,"cephalexin","active","19711231"
+8000041,"lithium carbonate","active","19711231"
+8000043,"ibuprofen","active","19721231"
+8000044,"nitroglycerin","active","19721231"
+8000045,"oxycodone","active","19731231"
+8000046,"allopurinol","active","19741231"
+8000047,"colchicine","active","19741231"
+8000048,"diazepam","active","19741231"
+8000049,"ethinyl estradiol and norethindrone","active","19741231"
+8000050,"nitrofurantoin","active","19741231"
+8000051,"prednisolone","active","19741231"
+8000791,"betamethasone dipropionate","active","19751231"
+8000054,"carbidopa and levodopa","active","19751231"
+8000055,"folic acid","active","19751231"
+8000057,"furosemide","active","19761231"
+8000059,"acetaminophen and oxycodone","active","19771231"
+8000061,"clonazepam","active","19771231"
+8000063,"metoprolol","active","19771231"
+8000064,"penicillin v","active","19771231"
+8000065,"acetaminophen and codeine","active","19781231"
+8000066,"baclofen","active","19781231"
+8000067,"benztropine","active","19781231"
+8000069,"codeine","active","19781231"
+8000071,"morphine","active","19781231"
+8000072,"valproic acid (valproate)","active","19781231"
+8000073,"amoxicillin","active","19791231"
+8000792,"betamethasone valerate","active","19791231"
+8000075,"calcitriol","active","19791231"
+8000078,"nystatin","active","19791231"
+8000079,"oxazepam","active","19791231"
+8000080,"sulfamethoxazole and trimethoprim","active","19791231"
+8000081,"timolol","active","19791231"
+8000082,"diclofenac","active","19801231"
+8000084,"haloperidol","active","19801231"
+8000085,"indomethacin","active","19801231"
+8000086,"propranolol","active","19801231"
+8000087,"temazepam","active","19801231"
+8000088,"alprazolam","active","19811231"
+8000090,"bromazepam","active","19811231"
+8000091,"flurazepam","active","19811231"
+8000092,"hydrochlorothiazide and triamterene","active","19811231"
+8000095,"acyclovir","active","19821231"
+8000097,"indapamide","active","19821231"
+8000218,"naproxen","active","19821231"
+8000779,"alcohol anhydrous and doxylamine and etafedrin and hydrocodone and sodium citrate","active","19831231"
+8000774,"acetylsalicylic acid and oxycodone","active","19841231"
+8000104,"fusidic acid","active","19841231"
+8000106,"hydromorphone","active","19841231"
+8000107,"procyclidine","active","19841231"
+8000108,"valproic acid (divalproex)","active","19841231"
+8000109,"lorazepam","active","19851231"
+8000110,"acebutolol","active","19861231"
+8000114,"dexamethasone phosphate","active","19861231"
+8000115,"glyburide","active","19861231"
+8000117,"doxycycline","active","19871231"
+8000118,"enalapril","active","19871231"
+8000119,"ethinyl estradiol and levonorgestrel","active","19871231"
+8000120,"ranitidine","active","19871231"
+8000121,"atenolol","active","19881231"
+8000773,"clotrimazole","active","19881231"
+8000122,"diltiazem","active","19881231"
+8000123,"nifedipine","active","19881231"
+8000124,"verapamil","active","19881231"
+8000159,"ciprofloxacin","active","19891231"
+8000127,"fentanyl","active","19891231"
+8000128,"fluoxetine","active","19891231"
+8000130,"metoclopramide","active","19891231"
+8000131,"omeprazole","active","19891231"
+8000132,"salbutamol","active","19891231"
+8000134,"budesonide","active","19901231"
+8000135,"clonidine","active","19901231"
+8000139,"gliclazide","active","19901231"
+8000140,"lisinopril","active","19901231"
+8000141,"pravastatin","active","19901231"
+8000142,"simvastatin","active","19901231"
+8000143,"zopiclone","active","19901231"
+8000785,"belladonna and opium","active","19911231"
+8000147,"clozapine","active","19911231"
+8000148,"mometasone","active","19911231"
+8000153,"amlodipine","active","19921231"
+8000154,"amoxicillin and clavulanic acid","active","19921231"
+8000160,"clarithromycin","active","19921231"
+8000161,"clobetasol","active","19921231"
+8000162,"dextroamphetamine","active","19921231"
+8000163,"doxazosin","active","19921231"
+8000164,"ethinyl estradiol and norgestimate","active","19921231"
+8000165,"felodipine","active","19921231"
+8000166,"finasteride","active","19921231"
+8000777,"hydrocodone","active","19921231"
+8000168,"insulin isophane human","active","19921231"
+8000169,"ketorolac","active","19921231"
+8000170,"quinapril","active","19921231"
+8000171,"sertraline","active","19921231"
+8000172,"vitamin D3 (cholecalciferol)","active","19921231"
+8000173,"fluticasone","active","19930312"
+8000179,"desogestrel and ethinyl estradiol","active","19931231"
+8000180,"diclofenac and misoprostol","active","19931231"
+8000181,"domperidone","active","19931231"
+8000183,"mesalazine","active","19931231"
+8000184,"metformin","active","19931231"
+8000185,"paroxetine","active","19931231"
+8000187,"risperidone","active","19931231"
+8000188,"terbinafine","active","19931231"
+8000189,"trazodone","active","19931231"
+8000196,"cyclobenzaprine","active","19941231"
+8000198,"digoxin","active","19941231"
+8000200,"gabapentin","active","19941231"
+8000201,"hydrochlorothiazide and lisinopril","active","19941231"
+8000781,"hydrocodone and phenylephrine","active","19941231"
+8000202,"ipratropium","active","19941231"
+8000203,"isosorbide mononitrate","active","19941231"
+8000204,"lithium (ion)","active","19941231"
+8000205,"minocycline","active","19941231"
+8000206,"perindopril","active","19941231"
+8000208,"beclomethasone","active","19951231"
+8000210,"cefprozil","active","19951231"
+8000213,"estradiol","active","19951231"
+8000214,"lamotrigine","active","19951231"
+8000215,"lansoprazole","active","19951231"
+8000216,"losartan","active","19951231"
+8000217,"methotrexate","active","19951231"
+8000219,"oxybutynin","active","19951231"
+8000220,"progesterone","active","19951231"
+8000221,"valproic acid","active","19951231"
+8000222,"tacrolimus","active","19960814"
+8000224,"azithromycin","active","19960926"
+8000225,"fenofibrate","active","19961002"
+8000226,"olanzapine","active","19961104"
+8000787,"insulin lispro","active","19961115"
+8000229,"hydrochlorothiazide and losartan","active","19961122"
+8000230,"ciclopirox","active","19961203"
+8000233,"valacyclovir","active","19961231"
+8000784,"normethadone and p-hydroxyephedrine","active","19970123"
+8000234,"sumatriptan","active","19970211"
+8000235,"atorvastatin","active","19970305"
+8000236,"pantoprazole","active","19970305"
+8000237,"cetirizine","active","19970306"
+8000238,"clobazam","active","19970324"
+8000239,"ramipril","active","19970324"
+8000240,"topiramate","active","19970325"
+8000053,"betamethasone (base)","active","19970401"
+8000244,"latanoprost","active","19970728"
+8000246,"donepezil","active","19970820"
+8000247,"terazosin","active","19970926"
+8000248,"quetiapine","active","19971210"
+8000249,"valsartan","active","19971215"
+8000250,"trandolapril","active","19980107"
+8000251,"olopatadine","active","19980209"
+8000253,"pramipexole","active","19980226"
+8000254,"venlafaxine","active","19980304"
+8000256,"cyproterone and ethinyl estradiol","active","19980408"
+8000257,"bupropion","active","19980505"
+8000259,"irbesartan","active","19980622"
+8000261,"montelukast","active","19980821"
+8000262,"hydrochlorothiazide and quinapril","active","19981001"
+8000263,"clopidogrel","active","19981013"
+8000265,"tolterodine","active","19981123"
+8000266,"candesartan","active","19981207"
+8000267,"citalopram","active","19990308"
+8000268,"sildenafil","active","19990309"
+8000269,"amiodarone","active","19990329"
+8000271,"celecoxib","active","19990419"
+8000272,"dorzolamide and timolol","active","19990527"
+8000273,"repaglinide","active","19990621"
+8000276,"rizatriptan","active","19990831"
+8000277,"telmisartan","active","19990901"
+8000278,"risedronate","active","19990907"
+8000279,"fluticasone and salmeterol","active","19990924"
+8000284,"hydrochlorothiazide and irbesartan","active","20000316"
+8000285,"methadone","active","20000505"
+8000286,"hydrochlorothiazide and valsartan","active","20000510"
+8000287,"rivastigmine","active","20000515"
+8000776,"butorphanol","active","20000801"
+8000289,"pioglitazone","active","20000828"
+8000290,"meloxicam","active","20000926"
+8000291,"moxifloxacin","active","20001020"
+8000298,"mirtazapine","active","20010524"
+8000300,"candesartan and hydrochlorothiazide","active","20010626"
+8000301,"hydrochlorothiazide and telmisartan","active","20010816"
+8000302,"betahistine","active","20010817"
+8000303,"esomeprazole","active","20010820"
+8000780,"brompheniramine and guaifenesin and hydrocodone and phenylephrine","active","20010906"
+8000307,"insulin aspart","active","20011031"
+8000312,"alendronic acid","active","20020214"
+8000313,"alfuzosin","active","20020221"
+8000314,"rabeprazole","active","20020402"
+8000315,"bimatoprost","active","20020524"
+8000317,"insulin glargine","active","20020724"
+8000320,"tiotropium","active","20021121"
+8000321,"indapamide and perindopril","active","20021219"
+8000322,"rosuvastatin","active","20030219"
+8000325,"bisoprolol","active","20030424"
+8000326,"ezetimibe","active","20030615"
+8000328,"levetiracetam","active","20030723"
+8000329,"carvedilol","active","20030804"
+8000330,"dutasteride","active","20031114"
+8000331,"tadalafil","active","20031125"
+8000332,"fosinopril","active","20031205"
+8000334,"ethinyl estradiol and norelgestromin","active","20031224"
+8000338,"ciprofloxacin and dexamethasone (base)","active","20040513"
+8000343,"ethinyl estradiol and etonogestrel","active","20041202"
+8000345,"drospirenone and ethinyl estradiol","active","20041222"
+8000346,"escitalopram","active","20050214"
+8000347,"atomoxetine","active","20050224"
+8000348,"pregabalin","active","20050718"
+8000349,"acetaminophen and tramadol","active","20050722"
+8000352,"tamsulosin","active","20051011"
+8000353,"insulin detemir","active","20051114"
+8000413,"alendronic acid and vitamin D3 (cholecalciferol)","active","20060313"
+8000360,"solifenacin","active","20060623"
+8000367,"ciclesonide","active","20060927"
+8000368,"hydrochlorothiazide and ramipril","active","20061116"
+8000369,"tramadol","active","20061207"
+8000371,"varenicline","active","20070411"
+8000372,"buprenorphine and naloxone","active","20071126"
+8000374,"sitagliptin","active","20080102"
+8000375,"duloxetine","active","20080118"
+8000378,"dabigatran","active","20080703"
+8000379,"rivaroxaban","active","20080916"
+8000381,"travoprost","active","20081110"
+8000382,"hydrochlorothiazide and olmesartan","active","20081222"
+8000383,"olmesartan","active","20081222"
+8000385,"desvenlafaxine","active","20090305"
+8000387,"lisdexamfetamine","active","20090804"
+8000389,"aripiprazole","active","20090930"
+8000390,"metformin and sitagliptin","active","20091008"
+8000391,"saxagliptin","active","20091029"
+8000775,"buprenorphine","active","20100526"
+8000394,"dexlansoprazole","active","20100805"
+8000783,"naloxone and oxycodone","active","20101005"
+8000396,"galantamine","active","20101112"
+8000398,"esomeprazole and naproxen","active","20110204"
+8000789,"tapentadol","active","20120320"
+8000793,"triamcinolone hexacetonide","inactive","20170707"
+8000137,"dexamethasone sodium phosphate","inactive","20170816"

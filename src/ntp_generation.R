@@ -439,7 +439,8 @@ ccdd_mp_source_raw <- dpd_human_ccdd_products %>%
                                                       ntp_dosage_form,
                                                       uop_suffix),
                                                 ntp_formal_name),
-                greater_than_5_AIs = as.numeric(number_of_ais) > 5)
+                greater_than_5_AIs = as.numeric(number_of_ais) > 5) %>%
+  mutate_if(is.Date, format, "%Y%m%d")
 
 # ccdd_mp_source_raw <- ccdd_mp_source_raw %>%
 #                       mutate(mp_formal_name = ifelse(drug_code %in% combination_products_map$drug_code,
