@@ -157,7 +157,10 @@ dpd_first_market_date <- status %>%
 
 dpd_current_status <- status %>%
   filter(current_status_flag == "Y") %>%
-  select(drug_code, current_status = status, expiration_date)
+  select(drug_code, 
+         current_status_date = history_date,
+         current_status = status, 
+         expiration_date)
 
 # Save this intermediate
 dpd_human_ccdd_products <- drug %>%
@@ -165,8 +168,8 @@ dpd_human_ccdd_products <- drug %>%
   left_join(dpd_first_market_date) %>%
   left_join(dpd_current_status) %>%
   filter((current_status == "MARKETED" & first_market_date < ccdd_start_date) |
-           (current_status == "DORMANT" & last_update_date > ccdd_start_date)|
-           current_status == "CANCELLED POST MARKET" & last_update_date > ccdd_start_date)
+           (current_status == "DORMANT" & current_status_date > ccdd_start_date)|
+           current_status == "CANCELLED POST MARKET" & current_status_date > ccdd_start_date)
 
 # Taking only the ingredients that are used in the ccdd products.
 # Left-join Ingredient_stem file when available. 
@@ -391,7 +394,7 @@ ccdd_mp_source_raw <- dpd_human_ccdd_products %>%
                          brand_name,
                          descriptor,
                          number_of_ais,
-                         last_update_date,
+                         current_status_date,
                          ai_group_no,
                          first_market_date,
                          current_status,
@@ -465,9 +468,9 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
                                    combo_ntp_formal_name),
          mp_status_effective_time = if_else(current_status == "MARKETED", 
                                             first_market_date,
-                                            last_update_date),
+                                            current_status_date),
          mp_status = case_when(current_status == "MARKETED" ~ "active",
-                               current_status == "DORMANT" & expiration_date > dpdextractdate ~ "active",
+                               current_status == "CANCELLED POST MARKET" & expiration_date > dpdextractdate ~ "active",
                                TRUE ~ "inactive")) %T>%
          {ccdd_pseudodins <<- group_by(., drug_identification_number) %>% 
                          filter(n() > 1) %>%
@@ -740,7 +743,7 @@ artifacts <- c(
   "new_ntp_concepts")
   
 for(x in artifacts){
-  filename <- paste(x, "20171011.csv", sep = "_")
-  write.csv(get(x), file = paste0("../reports/20171011/", filename), row.names = FALSE)
+  filename <- paste(x, "20171011b.csv", sep = "_")
+  write.csv(get(x), file = paste0("../reports/20171011b/", filename), row.names = FALSE)
 }
 
