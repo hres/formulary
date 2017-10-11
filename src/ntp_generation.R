@@ -24,7 +24,7 @@ dpd <- src_postgres(dbname = "dpd",
                     port = 5432,
                     user = Sys.getenv("rest_user"),
                     password = Sys.getenv("rest_password"),
-                    options = "-c search_path=dpd_20170901")
+                    options = "-c search_path=dpd_20171003")
 
 ccdd <- src_postgres(dbname = "ccdd",
                      host = "rest.hc.local",
@@ -52,14 +52,14 @@ ccdd_start_date <- "2017-07-04"
 
 # Get raw data from dpd database on rest.hc.local. Naming convention for schema based on extracts is dpd_[yyyymmdd] 
 
-dpdextractdate <- "2017-07-04"
+dpdextractdate <- "2017-10-03"
 
 # Text files required for generation process
 
 # Ingredient Stem
 
 #ingredient_stem_file <- fread("ing_stem_20170822.csv")[-1,-1]
-ingredient_stem_file <- fread("ingredient_stem_20170906.csv")
+ingredient_stem_file <- fread("ingredient_stem_20171004.csv")
 
 # NTP Dosage Form Transform
 
@@ -79,11 +79,24 @@ ntp_form_route_file <- ntp_form_route_file %>%
 
 # Unit of Presentation
 
-packaging_file <- fread("Julie/Unit of Presentation 20170906.txt", data.table = TRUE)
+packaging_file <- fread("unit_of_presentation_20171004.csv", data.table = TRUE)
 
 # Combination Products
 
-combination_products_file <- fread("Julie/combination_products_20170906.csv") %>% mutate(drug_code = as.integer(drug_code))
+# combination_products_file <- fread("Julie/combination_products_20170906.csv", 
+#                                    colClasses = c("integer", 
+#                                                   "character",
+#                                                   "character",
+#                                                   "character",
+#                                                   "character"),
+#                                    encoding = "Latin-1") %>% 
+#   as.tibble() %>%                            
+#   select_all(tolower) 
+
+library(readxl)
+combination_products_file <- read_excel("Julie/Combination Products 20171004.xlsx") %>%
+                              rename_all(tolower) %>%
+                              mutate(drug_code = as.integer(drug_code))
 # Special Groupings (TMs)
 
 # For each individual ingredient, generate:
@@ -144,7 +157,7 @@ dpd_first_market_date <- status %>%
 
 dpd_current_status <- status %>%
   filter(current_status_flag == "Y") %>%
-  select(drug_code, current_status = status)
+  select(drug_code, current_status = status, expiration_date)
 
 # Save this intermediate
 dpd_human_ccdd_products <- drug %>%
@@ -152,7 +165,8 @@ dpd_human_ccdd_products <- drug %>%
   left_join(dpd_first_market_date) %>%
   left_join(dpd_current_status) %>%
   filter((current_status == "MARKETED" & first_market_date < ccdd_start_date) |
-           (current_status == "DORMANT" & last_update_date > ccdd_start_date))
+           (current_status == "DORMANT" & last_update_date > ccdd_start_date)|
+           current_status == "CANCELLED POST MARKET" & last_update_date > ccdd_start_date)
 
 # Taking only the ingredients that are used in the ccdd products.
 # Left-join Ingredient_stem file when available. 
@@ -380,7 +394,8 @@ ccdd_mp_source_raw <- dpd_human_ccdd_products %>%
                          last_update_date,
                          ai_group_no,
                          first_market_date,
-                         current_status) %>%
+                         current_status,
+                         expiration_date) %>%
                        left_join(comp %>% select(extract,
                                                  drug_code,
                                                  company_code,
@@ -446,7 +461,13 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
                                   combo_mp_formal_name),
          ntp_formal_name = if_else(is.na(combo_ntp_formal_name),
                                    ntp_formal_name,
-                                   combo_ntp_formal_name)) %T>%
+                                   combo_ntp_formal_name),
+         mp_status_effective_time = if_else(current_status == "MARKETED", 
+                                            first_market_date,
+                                            last_update_date),
+         mp_status = case_when(current_status == "MARKETED" ~ "active",
+                               current_status == "DORMANT" & expiration_date > dpdextractdate ~ "active",
+                               TRUE ~ "inactive")) %T>%
          {ccdd_pseudodins <<- group_by(., drug_identification_number) %>% 
                          filter(n() > 1) %>%
                          ungroup() %>%
@@ -505,20 +526,21 @@ ccdd_pseudodins_top250 <- ccdd_pseudodins %>%
 # This is a final output file
 ccdd_mp_table <- ccdd_mp_source %>% 
   mutate(
-         en_display = NA,
-         fr_display = NA,
+         mp_en_description = NA,
+         mp_fr_description = NA,
          mp_formal_name = ifelse(is.na(combo_mp_formal_name),
                                  mp_formal_name,
-                                 combo_mp_formal_name)) %>%
+                                 combo_mp_formal_name)
+         ) %>%
   select(ccdd,
          drug_identification_number,
-         product_status = current_status, 
-         product_status_effective_time = first_market_date, 
          brand_name,
          company_name,
          mp_formal_name,
-         en_display,
-         fr_display) %>%
+         mp_en_description,
+         mp_fr_description,
+         mp_status, 
+         mp_status_effective_time) %>%
   mutate(mp_code = if_else(mp_formal_name %in% ccdd_pseudodins_top250$mp_formal_name, 
                            ccdd_pseudodins_top250[mp_formal_name]$mp_code %>% as.character(),
                            drug_identification_number)) %>%
@@ -533,8 +555,11 @@ ccdd_ntp_table <- ccdd_mp_source %>%
                    n_mp = n_distinct(drug_identification_number),
                    greater_than_5_AIs = any(greater_than_5_AIs),
                    #din_list = DRUG_IDENTIFICATION_NUMBER %>% unique() %>% paste(collapse = "!"),
-                   #status = ifelse(product_status != "active", "inactive", "active"),
-                   ntp_status_effective_time = min(first_market_date)) %>%
+                   ntp_status = if_else(all(mp_status == "inactive"), "inactive", "active"),
+                   ntp_status_effective_time = if_else(ntp_status == "inactive", 
+                                                       max(mp_status_effective_time),
+                                                       min(first_market_date)),
+                   ntp_type = first(ntp_type)) %>%
   ungroup() %>%
   arrange(desc(ccdd), ntp_status_effective_time) %>%
   left_join(ccdd_ntp_reg %>% select(ntp_formal_name, ntp_code), copy = TRUE) %T>%
@@ -543,9 +568,16 @@ ccdd_ntp_table <- ccdd_mp_source %>%
      mutate(ntp_code = 1:n() + start_code)} %>%
    filter(!is.na(ntp_code)) %>%
    bind_rows(new_ntp_concepts) %>%
-  mutate(en_display = NA,
-         fr_display = NA) %>%
-  select(ccdd, ntp_code, everything())
+  mutate(ntp_en_description = NA,
+         ntp_fr_description = NA) %>%
+  select(ccdd, 
+         ntp_code, 
+         ntp_en_description, 
+         ntp_fr_description, 
+         ntp_status,
+         ntp_status_effective_time,
+         ntp_type,
+         everything())
 
 #db_insert_into(ccdd$con, table = "ntp_table", new_ntp_concepts)
 # copy_to(ccdd, ccdd_ntp_table, "ntp_table", temporary = FALSE)
@@ -560,8 +592,10 @@ ccdd_tm_table <- ccdd_mp_source %>%
   dplyr::summarize(ccdd = any(ccdd == TRUE),
                    n_dins = n_distinct(drug_identification_number),
                    n_ntps = n_distinct(ntp_dosage_form), #this isn't an accurate count 
-                   status = ifelse(any(current_status == "MARKETED"), "active", "inactive"),
-                   tm_status_effective_time = min(first_market_date)) %>%
+                   tm_status = if_else(all(mp_status == "inactive"), "inactive", "active"),
+                   tm_status_effective_time = if_else(tm_status == "inactive", 
+                                                      max(mp_status_effective_time),
+                                                      min(first_market_date))) %>%
   ungroup() %>%
   arrange(desc(ccdd), tm_status_effective_time) %>%
   left_join(ccdd_tm_reg, copy = TRUE) %>%
@@ -570,8 +604,6 @@ ccdd_tm_table <- ccdd_mp_source %>%
 #    mutate(tm_code = 1:n() + start_code)} %>%
 #  filter(!is.na(tm_code)) %>%
 #  bind_rows(new_tm_concepts) %>%
-  mutate(en_display = NA,
-         fr_display = NA) %>%
   select(ccdd, tm_code, everything())
 
 
@@ -610,19 +642,27 @@ ccdd_mapping_table <- ccdd_mp_source %>%
 # These are the final output tables filtered for CCDD == TRUE
 ccdd_mp_table_top250 <- ccdd_mp_table %>%
   filter(ccdd == TRUE) %>% 
-  select(-ccdd)
+  select(mp_code, 
+         mp_formal_name, 
+         mp_en_description, 
+         mp_fr_description, 
+         mp_status, 
+         mp_status_effective_time)
 
 ccdd_tm_table_top250 <- ccdd_tm_table %>%
   filter(ccdd == TRUE) %>% 
-  select(-ccdd)
+  select(-ccdd, -n_dins, - n_ntps)
 
 ccdd_ntp_table_top250 <- ccdd_ntp_table %>%
   filter(ccdd == TRUE) %>% 
-  select(-ccdd)
+  select(-ccdd, -n_mp, -greater_than_5_AIs)
 
 mp_ntp_tm_relationship_top250 <- ccdd_mapping_table %>%
   filter(ccdd == TRUE) %>% 
   select(-ccdd)
+
+
+# Special Groupings
 
 
 # Test Functions --------------------------------------------------------------
@@ -699,7 +739,7 @@ artifacts <- c(
   "new_ntp_concepts")
   
 for(x in artifacts){
-  filename <- paste(x, "20170907.csv", sep = "_")
-  write.csv(get(x), file = paste0("../reports/20170907/", filename), row.names = FALSE)
+  filename <- paste(x, "20171011.csv", sep = "_")
+  write.csv(get(x), file = paste0("../reports/20171011/", filename), row.names = FALSE)
 }
 
