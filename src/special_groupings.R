@@ -138,7 +138,8 @@ cells_df <- rc %>%
   unnest(cell_list)
 
 
-Special_Groupings
+library(readxl)
+Special_Groupings <- read_excel("~/formulary/Special Groupings.xlsx")
 
 cdsa_dpd <- ccdd_mp_source %>% 
             left_join(schedule, copy = TRUE) %>%
@@ -155,18 +156,21 @@ cdsa_dpd <- ccdd_mp_source %>%
   filter(!is.na(mp_code)) %>%
   left_join(ccdd_mapping_table) %>%
   {bind_rows(distinct(., mp_code, mp_formal_name, tm_formal_name, schedule) %>%
-               rename(concept_code = mp_code,
-                      concept_name = mp_formal_name),
+               rename(ccdd_code = mp_code,
+                      ccdd_formal_name = mp_formal_name) %>%
+               mutate(ccdd_type = "MP"),
              distinct(., ntp_code, ntp_formal_name, tm_formal_name, schedule) %>%
-               rename(concept_code = ntp_code,
-                      concept_name = ntp_formal_name) %>%
-               mutate(concept_code = as.character(concept_code)),
+               rename(ccdd_code = ntp_code,
+                      ccdd_formal_name = ntp_formal_name) %>%
+               mutate(ccdd_code = as.character(ccdd_code),
+                      ccdd_type = "NTP"),
              distinct(., tm_code, tm_formal_name, schedule) %>%
-               mutate(concept_name = tm_formal_name) %>%
-               rename(concept_code = tm_code) %>%
-               mutate(concept_code = as.character(concept_code)))} %>%
-  select(concept_code, concept_name, tm_formal_name, policy = schedule) %>%
-  mutate(policy_url = "http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html")
+               mutate(ccdd_formal_name = tm_formal_name,
+                      ccdd_type = "TM") %>%
+               rename(ccdd_code = tm_code) %>%
+               mutate(ccdd_code = as.character(ccdd_code)))} %>%
+  select(ccdd_code, ccdd_formal_name, ccdd_type, tm_formal_name, policy = schedule) %>%
+  mutate(policy_reference = "http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html")
   
 tm_reg_local <- ccdd_tm_reg %>% collect()
 
@@ -202,25 +206,46 @@ ccdd_opioid_codes <- tm_reg_local %>%
                         8000789,
                         8000349,
                         8000369)) %>%
-  left_join(mp_ntp_tm_relationship_20170908_release) %>%
+  left_join(mp_ntp_tm_relationship_top250) %>%
   filter(!is.na(mp_code)) %>%
   {bind_rows(distinct(., mp_code, mp_formal_name, tm_formal_name) %>%
-               rename(concept_code = mp_code,
-                      concept_name = mp_formal_name),
+               rename(ccdd_code = mp_code,
+                      ccdd_formal_name = mp_formal_name) %>%
+               mutate(ccdd_type = "MP"),
              distinct(., ntp_code, ntp_formal_name, tm_formal_name) %>%
-               rename(concept_code = ntp_code,
-                      concept_name = ntp_formal_name) %>%
-               mutate(concept_code = as.character(concept_code)),
+               rename(ccdd_code = ntp_code,
+                      ccdd_formal_name = ntp_formal_name) %>%
+               mutate(ccdd_code = as.character(ccdd_code),
+                      ccdd_type = "NTP"),
              distinct(., tm_code, tm_formal_name) %>%
-               mutate(concept_name = tm_formal_name) %>%
-               rename(concept_code = tm_code) %>%
-               mutate(concept_code = as.character(concept_code)))} %>%
-  select(concept_code, concept_name, tm_formal_name) %>%
+               mutate(ccdd_formal_name = tm_formal_name,
+                      ccdd_type = "TM") %>%
+               rename(ccdd_code = tm_code) %>%
+               mutate(ccdd_code = as.character(ccdd_code)))} %>%
+  select(ccdd_code, ccdd_formal_name, ccdd_type, tm_formal_name) %>%
   mutate(policy = "Opioid Patient Info - Health Canada",
-         policy_url = "http://www.gazette.gc.ca/rp-pr/p1/2017/2017-06-17/html/reg8-eng.php") 
+         policy_reference = "http://www.gazette.gc.ca/rp-pr/p1/2017/2017-06-17/html/reg8-eng.php") 
   
 
-ccdd_special_groupings <- bind_rows(cdsa_dpd, ccdd_opioid_codes)
+ccdd_special_groupings <- bind_rows(cdsa_dpd, ccdd_opioid_codes) %>%
+                        mutate(special_groupings_status = "active",
+                               special_groupings_status_effective_time = "20170919",
+                               policy_type = recode(policy, `Opioid Patient Info - Health Canada` = 500001,
+                                                    `Narcotic (CDSA I)` = 500002,
+                                                    `Schedule G (CDSA I)` = 500003,
+                                                    `Schedule G (CDSA III)` = 500004,
+                                                    `Schedule G (CDSA IV)` = 500005,
+                                                    `Targeted (CDSA IV)` = 500006)) %>%
+                        select(ccdd_code,
+                               ccdd_formal_name,
+                               ccdd_type,
+                               policy_type,
+                               policy_reference,
+                               special_groupings_status,
+                               special_groupings_status_effective_time) %>%
+  filter(ccdd_code %in% c(mp_ntp_tm_relationship_20171012$tm_code, 
+                          mp_ntp_tm_relationship_20171012$ntp_code,
+                          mp_ntp_tm_relationship_20171012$mp_code))
 
 ccdd_dev <- src_postgres(dbname = "ccdd",
                          host = "rest.hc.local",
