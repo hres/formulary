@@ -46,6 +46,11 @@ packaging <- tbl(dpd, "packaging")
 ccdd_tm_reg <- tbl(ccdd, "tm_table")
 ccdd_ntp_reg <- tbl(ccdd, "ntp_table")
 ccdd_mp_reg <- tbl(ccdd, "mp_table")
+ccdd_pseudodins_reg <- tbl(ccdd, "pseudodin_table")
+ccdd_ntp_device_reg <- tbl(ccdd, "ntp_devices")
+ccdd_special_groupings_reg <- tbl(ccdd, "special_groupings")
+ccdd_coded_concepts_reg <- tbl(ccdd, "coded_concepts")
+
 # This is a hard-coded value to ensure all the subsequent date math is absolute and not relative.
 
 ccdd_start_date <- "2017-07-04"
