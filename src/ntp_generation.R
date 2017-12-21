@@ -24,7 +24,7 @@ dpd <- src_postgres(dbname = "dpd",
                     port = 5432,
                     user = Sys.getenv("rest_user"),
                     password = Sys.getenv("rest_password"),
-                    options = "-c search_path=dpd_20171003")
+                    options = "-c search_path=dpd_20171205")
 
 ccdd <- src_postgres(dbname = "ccdd",
                      host = "rest.hc.local",
@@ -50,6 +50,8 @@ ccdd_pseudodins_reg <- tbl(ccdd, "pseudodin_table")
 ccdd_ntp_device_reg <- tbl(ccdd, "ntp_devices")
 ccdd_special_groupings_reg <- tbl(ccdd, "special_groupings")
 ccdd_coded_concepts_reg <- tbl(ccdd, "coded_concepts")
+ccdd_ntp_dosage_forms <- tbl(ccdd, "ntp_dosage_forms")
+
 
 # This is a hard-coded value to ensure all the subsequent date math is absolute and not relative.
 
@@ -57,34 +59,20 @@ ccdd_start_date <- "2017-07-04"
 
 # Get raw data from dpd database on rest.hc.local. Naming convention for schema based on extracts is dpd_[yyyymmdd] 
 
-dpdextractdate <- "2017-10-03"
+dpdextractdate <- "2017-12-05"
 
 # Text files required for generation process
 
 # Ingredient Stem
 
 #ingredient_stem_file <- fread("ing_stem_20170822.csv")[-1,-1]
-ingredient_stem_file <- fread("ingredient_stem_20171004.csv")
-
-# NTP Dosage Form Transform
-
-#ntp_form_route_file <- fread("Julie/NTP Dosage Form Transform 20170901.txt")
-ntp_form_route_file <- fread("Julie/NTP Dosage Form Transform 20170904.txt") %>% 
-                       as.tibble() %>%
-                       select_all(funs(tolower)) %>%
-                       rename(dpd_pharmaceutical_form = `dpd pharmaceutical_form`)
-
-# Manual override for NAs
-ntp_form_route_file <- ntp_form_route_file %>%
-                        add_row(dpd_route_of_administration = "INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",
-                                dpd_pharmaceutical_form = "LIQUID",
-                                ntp_dosage_form = "solution for injection")
+ingredient_stem_file <- fread("Julie/Ingredient_Stem_File_20171101.csv")
 
 
 
 # Unit of Presentation
 
-packaging_file <- fread("unit_of_presentation_20171004.csv", data.table = TRUE)
+packaging_file <- fread("Julie/Unit_of_Presentation 20171101.csv", data.table = TRUE)
 
 # Combination Products
 
@@ -98,9 +86,18 @@ packaging_file <- fread("unit_of_presentation_20171004.csv", data.table = TRUE)
 #   as.tibble() %>%                            
 #   select_all(tolower) 
 
-library(readxl)
-combination_products_file <- read_excel("Julie/Combination Products 20171004.xlsx") %>%
-                              rename_all(tolower) %>%
+#library(readxl)
+#combination_products_file <- read_excel("Julie/Combination Products 20171004.xlsx") %>%
+
+ combination_products_file <- fread("Julie/Combination Products 20171101.csv",
+                                    colClasses = c("integer", 
+                                                  "character",
+                                                  "character",
+                                                  "character",
+                                                  "character"),
+                                    encoding = "Latin-1") %>%
+                              as_tibble() %>%
+                              dplyr::rename_all("tolower") %>%
                               mutate(drug_code = as.integer(drug_code))
 # Special Groupings (TMs)
 
@@ -242,11 +239,7 @@ dpd_ccdd_ingredient_names <- left_join(dpd_ccdd_ingredient_names, ingredient_ste
 # This version of the file has the form and route columns mixed up
 
 #This is an important source file
-ntp_dosage_form_map <- ntp_form_route_file %>% 
-                select(route_of_administration = dpd_route_of_administration, 
-                       pharmaceutical_form = dpd_pharmaceutical_form,
-                       everything())
-
+ntp_dosage_form_map <- collect(ccdd_ntp_dosage_forms)
 
 # For each combo of pharmaceutical form and route of administration, 
 # create some basic summary statistics
@@ -459,9 +452,9 @@ ccdd_mp_source_raw <- dpd_human_ccdd_products %>%
 # This is an important intermediate
 ccdd_mp_source <- ccdd_mp_source_raw %>% 
   left_join(ccdd_tm_reg %>% select(tm_formal_name, tm_code), copy = TRUE) %>%
-  mutate(ccdd = ifelse(!is.na(tm_code), 
-                       TRUE,
-                       FALSE)) %>%
+  # mutate(ccdd = ifelse(!is.na(tm_code), 
+  #                      TRUE,
+  #                      FALSE)) %>%
   left_join(combination_products_file %>%  
               rename(combo_mp_formal_name = mp_formal_name,
                      combo_ntp_formal_name = ntp_formal_name)) %>%
@@ -489,7 +482,7 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
 
 ccdd_pseudodins_top250 <- ccdd_pseudodins %>%
                           filter(ccdd == TRUE) %>%
-                          select(-ccdd)
+                          select(-ccdd) %>% as.data.frame()
 # Provides useful summary statistics for each drug code in active human drugs.
 # substance_sets <- ccdd_drug_ingredients_raw %>%
 #   arrange(dpd_ingredient, ntp_ing, ing_stem, strength) %>%
@@ -550,12 +543,14 @@ ccdd_mp_table <- ccdd_mp_source %>%
          mp_fr_description,
          mp_status, 
          mp_status_effective_time) %>%
-  mutate(mp_code = if_else(mp_formal_name %in% ccdd_pseudodins_top250$mp_formal_name, 
-                           ccdd_pseudodins_top250[mp_formal_name]$mp_code %>% as.character(),
-                           drug_identification_number)) %>%
+  left_join(select(ccdd_pseudodins_top250, mp_formal_name, mp_code)) %>%
+  mutate(mp_code = as.character(mp_code),
+    mp_code = if_else(is.na(mp_code), drug_identification_number, mp_code)) %>%
   distinct() %>%
   select(ccdd, mp_code, everything())
-
+  
+  
+ 
 # Contains the necessary ingredients to create the name for ntps
 # This is a final output file
 ccdd_ntp_table <- ccdd_mp_source %>%
@@ -618,7 +613,7 @@ ccdd_tm_table <- ccdd_mp_source %>%
 
 # Mapping table between TM and NTP
 # This is a final output file
-ccdd_mapping_table <- ccdd_mp_source %>%
+ccdd_mapping_table <- ccdd_mp_source %>% select(-tm_code) %>%
                  left_join(ccdd_tm_table %>% select(tm_code, tm_formal_name)) %>%
                  left_join(ccdd_ntp_table %>% select(ntp_code, ntp_formal_name)) %>%
                  left_join(ccdd_mp_table %>% select(mp_code, mp_formal_name)) %>%
@@ -649,26 +644,26 @@ ccdd_mapping_table <- ccdd_mp_source %>%
 # Summary Tables for the top 250 ----------------------------------------------
 # http://www.fda.gov/downloads/ForIndustry/DataStandards/StructuredProductLabeling/UCM362965.zip
 # These are the final output tables filtered for CCDD == TRUE
-ccdd_mp_table_top250 <- ccdd_mp_table %>%
+ccdd_mp_table_release <- ccdd_mp_table %>%
   filter(ccdd == TRUE) %>% 
   select(mp_code, 
          mp_formal_name, 
          mp_en_description, 
          mp_fr_description, 
          mp_status, 
-         mp_status_effective_time)
+         mp_status_effective_time) %>% mutate_all(as.character)
 
-ccdd_tm_table_top250 <- ccdd_tm_table %>%
+ccdd_tm_table_release <- ccdd_tm_table %>%
   filter(ccdd == TRUE) %>% 
-  select(-ccdd, -n_dins, - n_ntps)
+  select(-ccdd, -n_dins, - n_ntps, -audit_id) %>% mutate_all(as.character)
 
-ccdd_ntp_table_top250 <- ccdd_ntp_table %>%
+ccdd_ntp_table_release <- ccdd_ntp_table %>%
   filter(ccdd == TRUE) %>% 
-  select(-ccdd, -n_mp, -greater_than_5_AIs)
+  select(-ccdd, -n_mp, -greater_than_5_AIs) %>% mutate_all(as.character)
 
-mp_ntp_tm_relationship_top250 <- ccdd_mapping_table %>%
+mp_ntp_tm_relationship_release <- ccdd_mapping_table %>%
   filter(ccdd == TRUE) %>% 
-  select(-ccdd)
+  select(-ccdd) %>% mutate_all(as.character)
 
 
 # Special Groupings
