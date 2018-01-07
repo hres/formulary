@@ -24,7 +24,7 @@ dpd <- src_postgres(dbname = "dpd",
                     port = 5432,
                     user = Sys.getenv("rest_user"),
                     password = Sys.getenv("rest_password"),
-                    options = "-c search_path=dpd_20171205")
+                    options = "-c search_path=dpd_20180103")
 
 ccdd <- src_postgres(dbname = "ccdd",
                      host = "rest.hc.local",
@@ -51,7 +51,7 @@ ccdd_ntp_device_reg <- tbl(ccdd, "ntp_devices")
 ccdd_special_groupings_reg <- tbl(ccdd, "special_groupings")
 ccdd_coded_concepts_reg <- tbl(ccdd, "coded_concepts")
 ccdd_ntp_dosage_forms <- tbl(ccdd, "ntp_dosage_forms")
-
+ccdd_ntp_ingredients <- tbl(ccdd, "ntp_ingredients")
 
 # This is a hard-coded value to ensure all the subsequent date math is absolute and not relative.
 
@@ -59,7 +59,7 @@ ccdd_start_date <- "2017-07-04"
 
 # Get raw data from dpd database on rest.hc.local. Naming convention for schema based on extracts is dpd_[yyyymmdd] 
 
-dpdextractdate <- "2017-12-05"
+dpdextractdate <- "2018-01-03"
 
 # Text files required for generation process
 
