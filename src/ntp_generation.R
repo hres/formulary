@@ -66,13 +66,13 @@ dpdextractdate <- "2018-01-03"
 # Ingredient Stem
 
 #ingredient_stem_file <- fread("ing_stem_20170822.csv")[-1,-1]
-ingredient_stem_file <- fread("Julie/Ingredient_Stem_File_20171101.csv")
+ingredient_stem_file <- fread("Julie/Ingredient_Stem_File_20180103.csv")
 
 
 
 # Unit of Presentation
 
-packaging_file <- fread("Julie/Unit_of_Presentation 20171101.csv", data.table = TRUE)
+packaging_file <- fread("Julie/Unit_of_Presentation 20180103.csv", data.table = TRUE)
 
 # Combination Products
 
@@ -474,7 +474,8 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
                          filter(n() > 1) %>%
                          ungroup() %>%
                          distinct(., drug_code, mp_formal_name, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
-                         mutate(mp_code = 1:n() + 700000) %>%
+                         left_join(mp_full_release_20171213 %>% select(mp_code, mp_formal_name)) %>%
+                         mutate(mp_code = if_else(is.na(mp_code), 1:n() + 700380, as.numeric(mp_code))) %>%
            select(mp_code, drug_code, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
            as.data.table() %>%
            setkey(mp_formal_name)}
@@ -535,6 +536,7 @@ ccdd_mp_table <- ccdd_mp_source %>%
                                  combo_mp_formal_name)
          ) %>%
   select(ccdd,
+         greater_than_5_AIs,
          drug_identification_number,
          brand_name,
          company_name,
@@ -566,15 +568,16 @@ ccdd_ntp_table <- ccdd_mp_source %>%
                    ntp_type = first(ntp_type)) %>%
   ungroup() %>%
   arrange(desc(ccdd), ntp_status_effective_time) %>%
-  left_join(ccdd_ntp_reg %>% select(ntp_formal_name, ntp_code), copy = TRUE) %T>%
-   {start_code <- max(.$ntp_code, na.rm = TRUE)
-   new_ntp_concepts <<- filter(., is.na(ntp_code)) %>%
-     mutate(ntp_code = 1:n() + start_code)} %>%
-   filter(!is.na(ntp_code)) %>%
-   bind_rows(new_ntp_concepts) %>%
+  left_join(ccdd_ntp_reg %>% select(ntp_formal_name, ntp_code), copy = TRUE) %>%
+#   {start_code <- max(.$ntp_code, na.rm = TRUE)
+#   new_ntp_concepts <<- filter(., is.na(ntp_code)) %>%
+#     mutate(ntp_code = 1:n() + start_code)} %>%
+#   filter(!is.na(ntp_code)) %>%
+#   bind_rows(new_ntp_concepts) %>%
   mutate(ntp_en_description = NA,
          ntp_fr_description = NA) %>%
-  select(ccdd, 
+  select(ccdd,
+         greater_than_5_AIs,
          ntp_code, 
          ntp_en_description, 
          ntp_fr_description, 
@@ -594,6 +597,7 @@ ccdd_ntp_table <- ccdd_mp_source %>%
 ccdd_tm_table <- ccdd_mp_source %>%
   group_by(tm_formal_name) %>%
   dplyr::summarize(ccdd = any(ccdd == TRUE),
+                   greater_than_5_AIs = any(greater_than_5_AIs),
                    n_dins = n_distinct(drug_identification_number),
                    n_ntps = n_distinct(ntp_dosage_form), #this isn't an accurate count 
                    tm_status = if_else(all(mp_status == "inactive"), "inactive", "active"),
@@ -645,7 +649,7 @@ ccdd_mapping_table <- ccdd_mp_source %>% select(-tm_code) %>%
 # http://www.fda.gov/downloads/ForIndustry/DataStandards/StructuredProductLabeling/UCM362965.zip
 # These are the final output tables filtered for CCDD == TRUE
 ccdd_mp_table_release <- ccdd_mp_table %>%
-  filter(ccdd == TRUE) %>% 
+  filter(ccdd == TRUE, greater_than_5_AIs == FALSE) %>% 
   select(mp_code, 
          mp_formal_name, 
          mp_en_description, 
@@ -654,11 +658,11 @@ ccdd_mp_table_release <- ccdd_mp_table %>%
          mp_status_effective_time) %>% mutate_all(as.character)
 
 ccdd_tm_table_release <- ccdd_tm_table %>%
-  filter(ccdd == TRUE) %>% 
-  select(-ccdd, -n_dins, - n_ntps, -audit_id) %>% mutate_all(as.character)
+  filter(ccdd == TRUE, greater_than_5_AIs == FALSE) %>% 
+  select(-ccdd, -n_dins, - n_ntps, -audit_id, -greater_than_5_AIs) %>% mutate_all(as.character)
 
 ccdd_ntp_table_release <- ccdd_ntp_table %>%
-  filter(ccdd == TRUE) %>% 
+  filter(ccdd == TRUE, greater_than_5_AIs == FALSE) %>% 
   select(-ccdd, -n_mp, -greater_than_5_AIs) %>% mutate_all(as.character)
 
 mp_ntp_tm_relationship_release <- ccdd_mapping_table %>%
