@@ -48,8 +48,8 @@ ccdd_ntp_reg <- tbl(ccdd, "ntp_table")
 ccdd_mp_reg <- tbl(ccdd, "mp_table")
 ccdd_pseudodins_reg <- tbl(ccdd, "pseudodin_table")
 ccdd_ntp_device_reg <- tbl(ccdd, "ntp_devices")
-ccdd_special_groupings_reg <- tbl(ccdd, "special_groupings")
-ccdd_coded_concepts_reg <- tbl(ccdd, "coded_concepts")
+#ccdd_special_groupings_reg <- tbl(ccdd, "special_groupings")
+#ccdd_coded_concepts_reg <- tbl(ccdd, "coded_concepts")
 ccdd_ntp_dosage_forms <- tbl(ccdd, "ntp_dosage_forms")
 ccdd_ntp_ingredients <- tbl(ccdd, "ntp_ingredients")
 
@@ -528,7 +528,8 @@ ccdd_pseudodins_top250 <- ccdd_pseudodins %>%
 # Contains the necessary ingredients to create the name for manufactured products.
 # This is a final output file
 ccdd_mp_table <- ccdd_mp_source %>% 
-  mutate(
+#ccdd_mp_table2 <- ccdd_mp_source_filter %>%
+    mutate(
          mp_en_description = NA,
          mp_fr_description = NA,
          mp_formal_name = ifelse(is.na(combo_mp_formal_name),
@@ -556,7 +557,8 @@ ccdd_mp_table <- ccdd_mp_source %>%
 # Contains the necessary ingredients to create the name for ntps
 # This is a final output file
 ccdd_ntp_table <- ccdd_mp_source %>%
-  group_by(ntp_formal_name) %>%
+#ccdd_ntp_table2 <- ccdd_mp_source_filter %>%
+    group_by(ntp_formal_name) %>%
   dplyr::summarize(ccdd = any(ccdd),
                    n_mp = n_distinct(drug_identification_number),
                    greater_than_5_AIs = any(greater_than_5_AIs),
@@ -595,7 +597,8 @@ ccdd_ntp_table <- ccdd_mp_source %>%
 # TODO (bclaught): There is an issue with NAs appearing in the tm set.
 # This is a final output file
 ccdd_tm_table <- ccdd_mp_source %>%
-  group_by(tm_formal_name) %>%
+#ccdd_tm_table2 <- ccdd_mp_source_filter %>%
+    group_by(tm_formal_name) %>%
   dplyr::summarize(ccdd = any(ccdd == TRUE),
                    greater_than_5_AIs = any(greater_than_5_AIs),
                    n_dins = n_distinct(drug_identification_number),
@@ -617,7 +620,9 @@ ccdd_tm_table <- ccdd_mp_source %>%
 
 # Mapping table between TM and NTP
 # This is a final output file
-ccdd_mapping_table <- ccdd_mp_source %>% select(-tm_code) %>%
+ccdd_mapping_table <- ccdd_mp_source %>%
+#ccdd_mapping_table2 <- ccdd_mp_source_filter %>%  
+                 select(-tm_code) %>%
                  left_join(ccdd_tm_table %>% select(tm_code, tm_formal_name)) %>%
                  left_join(ccdd_ntp_table %>% select(ntp_code, ntp_formal_name)) %>%
                  left_join(ccdd_mp_table %>% select(mp_code, mp_formal_name)) %>%
@@ -649,7 +654,8 @@ ccdd_mapping_table <- ccdd_mp_source %>% select(-tm_code) %>%
 # http://www.fda.gov/downloads/ForIndustry/DataStandards/StructuredProductLabeling/UCM362965.zip
 # These are the final output tables filtered for CCDD == TRUE
 ccdd_mp_table_release <- ccdd_mp_table %>%
-  filter(ccdd == TRUE, greater_than_5_AIs == FALSE) %>% 
+    filter(ccdd == TRUE, greater_than_5_AIs == FALSE) %>% 
+  #ccdd_mp_table_release2 <- ccdd_mp_table2 %>%
   select(mp_code, 
          mp_formal_name, 
          mp_en_description, 
@@ -658,15 +664,18 @@ ccdd_mp_table_release <- ccdd_mp_table %>%
          mp_status_effective_time) %>% mutate_all(as.character)
 
 ccdd_tm_table_release <- ccdd_tm_table %>%
-  filter(ccdd == TRUE, greater_than_5_AIs == FALSE) %>% 
+    filter(ccdd == TRUE, greater_than_5_AIs == FALSE) %>% 
+  #ccdd_tm_table_release2 <- ccdd_tm_table2 %>%
   select(-ccdd, -n_dins, - n_ntps, -audit_id, -greater_than_5_AIs) %>% mutate_all(as.character)
 
 ccdd_ntp_table_release <- ccdd_ntp_table %>%
-  filter(ccdd == TRUE, greater_than_5_AIs == FALSE) %>% 
-  select(-ccdd, -n_mp, -greater_than_5_AIs) %>% mutate_all(as.character)
+    filter(ccdd == TRUE, greater_than_5_AIs == FALSE) %>% 
+  #ccdd_ntp_table_release2 <- ccdd_ntp_table2 %>%
+    select(-ccdd, -n_mp, -greater_than_5_AIs) %>% mutate_all(as.character)
 
 mp_ntp_tm_relationship_release <- ccdd_mapping_table %>%
-  filter(ccdd == TRUE) %>% 
+#mp_ntp_tm_relationship_release2 <- ccdd_mapping_table2 %>%
+    filter(ccdd == TRUE) %>% 
   select(-ccdd) %>% mutate_all(as.character)
 
 
