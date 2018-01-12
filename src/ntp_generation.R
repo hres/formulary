@@ -66,7 +66,7 @@ dpdextractdate <- "2018-01-03"
 # Ingredient Stem
 
 #ingredient_stem_file <- fread("ing_stem_20170822.csv")[-1,-1]
-ingredient_stem_file <- fread("Julie/Ingredient_Stem_File_20180103.csv")
+ingredient_stem_file <- fread("Julie/Ingredient_Stem_File_20180110v2.csv")
 
 
 
@@ -374,7 +374,7 @@ ccdd_packaging_raw <- packaging_file %>%
 ccdd_ingredient_set_source <- ccdd_drug_ingredients_raw %>%
                               arrange(ing_stem) %>%
                               group_by(drug_code) %>%
-                              summarize(ccdd = any(ccdd == "Y"),
+                              summarize(ccdd = all(ccdd == "Y"),
                                         n_ing = n_distinct(dpd_ingredient),
                                         ai_code_set = active_ingredient_code %>% paste(collapse = ", "),
                                         tm_formal_name = ing_stem %>% unique() %>% paste(collapse = " and "),
@@ -440,7 +440,7 @@ ccdd_mp_source_raw <- dpd_human_ccdd_products %>%
                                                       ntp_dosage_form,
                                                       uop_suffix),
                                                 ntp_formal_name),
-                greater_than_5_AIs = as.numeric(number_of_ais) > 5) %>%
+                greater_than_5_AIs = as.numeric(n_ing) > 5) %>%
   mutate_if(is.Date, format, "%Y%m%d")
 
 # ccdd_mp_source_raw <- ccdd_mp_source_raw %>%
@@ -474,7 +474,7 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
                          filter(n() > 1) %>%
                          ungroup() %>%
                          distinct(., drug_code, mp_formal_name, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
-                         left_join(mp_full_release_20171213 %>% select(mp_code, mp_formal_name)) %>%
+                         left_join(mp_full_release_20171218 %>% select(mp_code, mp_formal_name)) %>%
                          mutate(mp_code = if_else(is.na(mp_code), 1:n() + 700380, as.numeric(mp_code))) %>%
            select(mp_code, drug_code, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
            as.data.table() %>%
