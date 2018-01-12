@@ -206,7 +206,8 @@ ccdd_opioid_codes <- tm_reg_local %>%
                         8000789,
                         8000349,
                         8000369)) %>%
-  left_join(mp_ntp_tm_relationship_top250) %>%
+  mutate_all(as.character) %>%
+  left_join(mp_ntp_tm_relationship_release_fix) %>%
   filter(!is.na(mp_code)) %>%
   {bind_rows(distinct(., mp_code, mp_formal_name, tm_formal_name) %>%
                rename(ccdd_code = mp_code,
@@ -243,9 +244,9 @@ ccdd_special_groupings <- bind_rows(cdsa_dpd, ccdd_opioid_codes) %>%
                                policy_reference,
                                special_groupings_status,
                                special_groupings_status_effective_time) %>%
-  filter(ccdd_code %in% c(mp_ntp_tm_relationship_20171012$tm_code, 
-                          mp_ntp_tm_relationship_20171012$ntp_code,
-                          mp_ntp_tm_relationship_20171012$mp_code))
+  filter(ccdd_code %in% c(mp_ntp_tm_relationship_release_fix$tm_code, 
+                          mp_ntp_tm_relationship_release_fix$ntp_code,
+                          mp_ntp_tm_relationship_release_fix$mp_code))
 
 ccdd_dev <- src_postgres(dbname = "ccdd",
                          host = "rest.hc.local",
