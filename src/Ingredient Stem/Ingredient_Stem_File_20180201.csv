@@ -195,7 +195,7 @@ Y,BOSENTAN,BOSENTAN (BOSENTAN MONOHYDRATE),bosentan,TRUE,bosentan
 ,,BRENTUXIMAB VEDOTIN,brentuximab vedotin,FALSE,brentuximab vedotin
 ,,BRETYLIUM TOSYLATE,bretylium tosylate,FALSE,bretylium tosylate
 ,,BREXPIPRAZOLE,brexpiprazole,FALSE,brexpiprazole
-,,BRIMONIDINE (BRIMONIDINE TARTRATE),brimonidine (brimonidine tartrate),FALSE,brimonidine (brimonidine tartrate)
+Y,BRIMONIDINE (BRIMONIDINE TARTRATE),brimonidine,FALSE,brimonidine (brimonidine tartrate)
 ,,BRIMONIDINE TARTRATE,brimonidine tartrate,FALSE,brimonidine tartrate
 ,,BRIVARACETAM,brivaracetam,FALSE,brivaracetam
 Y,BROMAZEPAM,BROMAZEPAM,bromazepam,FALSE,bromazepam
