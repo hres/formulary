@@ -1,0 +1,340 @@
+-- PGloader script for the Health Canada Drug Product Database
+-- Connection details drawn from environment variables PGUSER, PGPASSWORD, PGHOST, PGDATABASE
+-- Run after dpdload.pgload and before dpdload_ap.pgload
+
+LOAD ARCHIVE
+  --FROM http://www.hc-sc.gc.ca/dhp-mps/alt_formats/zip/prodpharma/databasdon/allfiles_dr.zip
+  FROM dpddata/allfiles_dr_nobom.zip
+  INTO postgresql:///
+
+
+  BEFORE LOAD DO
+    $$ ALTER TABLE dpd.companies ALTER COLUMN extract SET DEFAULT 'dormant'; $$,
+    $$ ALTER TABLE dpd.drug_product ALTER COLUMN extract SET DEFAULT 'dormant'; $$,
+    $$ ALTER TABLE dpd.pharmaceutical_form ALTER COLUMN extract SET DEFAULT 'dormant'; $$,
+    $$ ALTER TABLE dpd.active_ingredient ALTER COLUMN extract SET DEFAULT 'dormant'; $$,
+    $$ ALTER TABLE dpd.packaging ALTER COLUMN extract SET DEFAULT 'dormant'; $$,
+    $$ ALTER TABLE dpd.pharmaceutical_std ALTER COLUMN extract SET DEFAULT 'dormant'; $$,
+    $$ ALTER TABLE dpd.route ALTER COLUMN extract SET DEFAULT 'dormant'; $$,
+    $$ ALTER TABLE dpd.schedule ALTER COLUMN extract SET DEFAULT 'dormant'; $$,
+    $$ ALTER TABLE dpd.status ALTER COLUMN extract SET DEFAULT 'dormant'; $$,
+    $$ ALTER TABLE dpd.therapeutic_class ALTER COLUMN extract SET DEFAULT 'dormant'; $$,
+    $$ ALTER TABLE dpd.vet_species ALTER COLUMN extract SET DEFAULT 'dormant'; $$,
+    $$ ALTER TABLE dpd.status ALTER COLUMN expiration_date SET DATA TYPE text; $$
+
+
+  LOAD CSV
+    FROM FILENAME MATCHING ~/comp_dr.txt/
+      WITH ENCODING UTF-8
+      (
+        DRUG_CODE,
+        MFR_CODE,
+        COMPANY_CODE,
+        COMPANY_NAME,
+        COMPANY_TYPE,
+        ADDRESS_MAILING_FLAG,
+        ADDRESS_BILLING_FLAG,
+        ADDRESS_NOTIFICATION_FLAG,
+        ADDRESS_OTHER,
+        SUITE_NUMBER,
+        STREET_NAME,
+        CITY_NAME,
+        PROVINCE,
+        COUNTRY,
+        POSTAL_CODE,
+        POST_OFFICE_BOX,
+        province_f,
+        country_f
+      )
+    INTO postgresql:///?dpd.companies
+      (
+        DRUG_CODE,
+        MFR_CODE,
+        COMPANY_CODE,
+        COMPANY_NAME,
+        COMPANY_TYPE,
+        ADDRESS_MAILING_FLAG,
+        ADDRESS_BILLING_FLAG,
+        ADDRESS_NOTIFICATION_FLAG,
+        ADDRESS_OTHER,
+        SUITE_NUMBER,
+        STREET_NAME,
+        CITY_NAME,
+        PROVINCE,
+        COUNTRY,
+        POSTAL_CODE,
+        POST_OFFICE_BOX,
+        province_f,
+        country_f
+      )
+    WITH fields terminated by ',',
+             fields escaped by double-quote
+
+
+
+ AND LOAD CSV
+    FROM FILENAME MATCHING ~/drug_dr.txt/
+      WITH ENCODING UTF-8
+      (
+        DRUG_CODE,
+        PRODUCT_CATEGORIZATION,
+        CLASS,
+        DRUG_IDENTIFICATION_NUMBER,
+        BRAND_NAME,
+        DESCRIPTOR,
+        PEDIATRIC_FLAG,
+        ACCESSION_NUMBER,
+        NUMBER_OF_AIS,
+        LAST_UPDATE_DATE,
+        AI_GROUP_NO,
+        class_f,
+        brand_name_f,
+        descriptor_f
+      )
+    INTO postgresql:///?dpd.drug_product
+      (
+        DRUG_CODE,
+        PRODUCT_CATEGORIZATION,
+        CLASS,
+        DRUG_IDENTIFICATION_NUMBER,
+        BRAND_NAME,
+        DESCRIPTOR,
+        PEDIATRIC_FLAG,
+        ACCESSION_NUMBER,
+        NUMBER_OF_AIS,
+        LAST_UPDATE_DATE,
+        AI_GROUP_NO,
+        class_f,
+        brand_name_f,
+        descriptor_f
+      )
+    WITH fields terminated by ',',
+             fields escaped by double-quote
+
+
+
+AND LOAD CSV
+    FROM FILENAME MATCHING ~/form_dr.txt/
+      WITH ENCODING UTF-8
+      (
+        DRUG_CODE,
+        PHARM_FORM_CODE,
+        PHARMACEUTICAL_FORM,
+        pharmaceutical_form_f
+      )
+    INTO postgresql:///?dpd.pharmaceutical_form
+      (
+        DRUG_CODE,
+        PHARM_FORM_CODE,
+        PHARMACEUTICAL_FORM,
+        pharmaceutical_form_f
+      )
+    WITH fields terminated by ',',
+             fields escaped by double-quote
+
+
+
+
+AND LOAD CSV
+    FROM FILENAME MATCHING ~/ingred_dr.txt/
+      WITH ENCODING UTF-8
+      (
+        DRUG_CODE,
+        ACTIVE_INGREDIENT_CODE,
+        INGREDIENT,
+        INGREDIENT_SUPPLIED_IND,
+        STRENGTH,
+        STRENGTH_UNIT,
+        STRENGTH_TYPE,
+        DOSAGE_VALUE,
+        BASE,
+        DOSAGE_UNIT,
+        NOTES,
+        ingredient_f,
+        strength_unit_f,
+        strength_type_f,
+        dosage_unit_f
+      )
+    INTO postgresql:///?dpd.active_ingredient
+
+      (
+        DRUG_CODE,
+        ACTIVE_INGREDIENT_CODE,
+        INGREDIENT,
+        INGREDIENT_SUPPLIED_IND,
+        STRENGTH,
+        STRENGTH_UNIT,
+        STRENGTH_TYPE,
+        DOSAGE_VALUE,
+        BASE,
+        DOSAGE_UNIT,
+        NOTES,
+        ingredient_f,
+        strength_unit_f,
+        strength_type_f,
+        dosage_unit_f
+      )
+    WITH fields terminated by ',',
+             fields escaped by double-quote
+
+
+
+AND LOAD CSV
+    FROM FILENAME MATCHING ~/package_dr.txt/
+      WITH ENCODING UTF-8
+      (
+        DRUG_CODE,
+        UPC,
+        PACKAGE_SIZE_UNIT,
+        PACKAGE_TYPE,
+        PACKAGE_SIZE,
+        PRODUCT_INFORMATION,
+        package_size_unit_f,
+        package_type_f
+      )
+    INTO postgresql:///?dpd.packaging
+      (
+        DRUG_CODE,
+        UPC,
+        PACKAGE_SIZE_UNIT,
+        PACKAGE_TYPE,
+        PACKAGE_SIZE,
+        PRODUCT_INFORMATION,
+        package_size_unit_f,
+        package_type_f
+      )
+    WITH fields terminated by ',',
+             fields escaped by double-quote
+
+
+
+AND LOAD CSV
+    FROM FILENAME MATCHING ~/pharm_dr.txt/
+      WITH ENCODING UTF-8
+      (
+        DRUG_CODE,
+        PHARMACEUTICAL_STD
+      )
+    INTO postgresql:///?dpd.pharmaceutical_std
+      (
+        DRUG_CODE,
+        PHARMACEUTICAL_STD
+      )
+    WITH fields terminated by ',',
+             fields escaped by double-quote
+
+
+
+AND LOAD CSV
+    FROM FILENAME MATCHING ~/route_dr.txt/
+      WITH ENCODING UTF-8
+      (
+        DRUG_CODE,
+        ROUTE_OF_ADMINISTRATION_CODE,
+        ROUTE_OF_ADMINISTRATION,
+        route_of_administration_f
+      )
+    INTO postgresql:///?dpd.route
+      (
+        DRUG_CODE,
+        ROUTE_OF_ADMINISTRATION_CODE,
+        ROUTE_OF_ADMINISTRATION,
+        route_of_administration_f
+      )
+    WITH fields terminated by ',',
+             fields escaped by double-quote
+
+
+
+AND LOAD CSV
+    FROM FILENAME MATCHING ~/schedule_dr.txt/
+      WITH ENCODING UTF-8
+      (
+        DRUG_CODE,
+        SCHEDULE,
+        schedule_f
+      )
+    INTO postgresql:///?dpd.schedule
+      (
+        DRUG_CODE,
+        SCHEDULE,
+        schedule_f
+      )
+    WITH fields terminated by ',',
+             fields escaped by double-quote
+
+
+
+AND LOAD CSV
+    FROM FILENAME MATCHING ~/status_dr.txt/
+      WITH ENCODING UTF-8
+      (
+        DRUG_CODE,
+        CURRENT_STATUS_FLAG,
+        STATUS,
+        HISTORY_DATE,
+        status_f,
+        lot_number,
+        expiration_date [null if blanks]
+      )
+    INTO postgresql:///?dpd.status
+      (
+        DRUG_CODE,
+        CURRENT_STATUS_FLAG,
+        STATUS,
+        HISTORY_DATE,
+        status_f,
+        lot_number,
+        expiration_date
+      )
+    WITH fields terminated by ',',
+             fields escaped by double-quote
+
+
+
+AND LOAD CSV
+    FROM FILENAME MATCHING ~/ther_dr.txt/
+      WITH ENCODING UTF-8
+      (
+        DRUG_CODE,
+        TC_ATC_NUMBER,
+        TC_ATC,
+        TC_AHFS_NUMBER,
+        TC_AHFS,
+        tc_atc_f,
+        tc_ahfs_f
+      )
+    INTO postgresql:///?dpd.therapeutic_class
+      (
+        DRUG_CODE,
+        TC_ATC_NUMBER,
+        TC_ATC,
+        TC_AHFS_NUMBER,
+        TC_AHFS,
+        tc_atc_f,
+        tc_ahfs_f
+      )
+    WITH fields terminated by ',',
+             fields escaped by double-quote
+
+
+
+AND LOAD CSV
+    FROM FILENAME MATCHING ~/vet_dr.txt/
+      WITH ENCODING UTF-8
+      (
+        DRUG_CODE,
+        VET_SPECIES,
+        VET_SUB_SPECIES,
+        vet_species_f
+      )
+    INTO postgresql:///?dpd.vet_species
+      (
+        DRUG_CODE,
+        VET_SPECIES,
+        VET_SUB_SPECIES,
+        vet_species_f
+      )
+    WITH fields terminated by ',',
+             fields escaped by double-quote;
+
