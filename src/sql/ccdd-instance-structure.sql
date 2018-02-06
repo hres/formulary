@@ -1370,9 +1370,15 @@ select
 	tm.code as tm_code,
 	(
 		select
-			string_agg(tmistem.ccdd_ingredient_stem_name, ' and ' order by tmistem.ccdd_ingredient_stem_name)
-		from ccdd_tm_ingredient_stem tmistem
-		where tmistem.ccdd_tm_code = tm.code
+			string_agg(stemList.stem, ' and ')
+		from (
+			select
+				tmistem.ccdd_ingredient_stem_name as stem
+			from ccdd_tm_ingredient_stem tmistem
+			where tmistem.ccdd_tm_code = tm.code
+			group by tmistem.ccdd_ingredient_stem_name
+			order by tmistem.ccdd_ingredient_stem_name
+		) as stemList
 	) as tm_formal_name
 from
 	dpd_drug dd,
@@ -1452,12 +1458,13 @@ WHERE
 ALTER MATERIALIZED VIEW public.ccdd_presentation_source OWNER TO postgres;
 -- ddl-end --
 
--- object: public.ccdd_mp_table | type: VIEW --
--- DROP VIEW IF EXISTS public.ccdd_mp_table CASCADE;
-CREATE VIEW public.ccdd_mp_table
+-- object: public.ccdd_mp_table_candidate | type: VIEW --
+-- DROP VIEW IF EXISTS public.ccdd_mp_table_candidate CASCADE;
+CREATE VIEW public.ccdd_mp_table_candidate
 AS 
 
 select
+	dd.code as dpd_drug_code,
 	COALESCE(p.pseudodin, dd.din) as mp_code,
 	COALESCE(cp.mp_formal_name, format(
 		'%s (%s %s) %s',
@@ -1473,15 +1480,120 @@ select
 		END),
 		dd.company_name
 	)) as mp_formal_name,
-	tm.tm_code,
-	tm.tm_formal_name
+	COALESCE(cp.ntp_formal_name, format(
+		'%s %s',
+		dsum.ntp_ingredient_detail_set,
+		(CASE
+			WHEN p.pseudodin is not null THEN format(
+				'%s %s',
+				ddform.dosage_form,
+				dsum.uop_suffix
+			)
+			ELSE ddform.dosage_form
+		END)
+	)) as ntp_formal_name
 from
 	dpd_drug dd
 	LEFT JOIN ccdd_presentation p on(p.dpd_drug_code = dd.code)
-	LEFT JOIN ccdd_drug_tm tm on(tm.dpd_drug_code = dd.code)
 	LEFT JOIN ccdd_drug_ingredient_summary dsum on(dsum.dpd_drug_code = dd.code and dsum.pseudodin is not distinct from p.pseudodin)
 	LEFT JOIN ccdd_drug_dosage_form ddform on(ddform.dpd_drug_code = dd.code)
 	LEFT JOIN ccdd_combination_product cp on(cp.dpd_drug_code = dd.code);
+-- ddl-end --
+ALTER VIEW public.ccdd_mp_table_candidate OWNER TO postgres;
+-- ddl-end --
+
+-- object: ccdd.ntp_table | type: TABLE --
+-- DROP TABLE IF EXISTS ccdd.ntp_table CASCADE;
+CREATE TABLE ccdd.ntp_table(
+	ntp_formal_name text,
+	ccdd boolean,
+	n_mp integer,
+	"greater_than_5_AIs" boolean,
+	ntp_status_effective_time date,
+	ntp_code integer NOT NULL,
+	en_display boolean,
+	fr_display boolean,
+	audit_id bigint NOT NULL,
+	CONSTRAINT ntp_table_audit_id_key UNIQUE (audit_id),
+	CONSTRAINT ntp_table_ntp_code PRIMARY KEY (ntp_code)
+
+);
+-- ddl-end --
+ALTER TABLE ccdd.ntp_table OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.ccdd_ntp_table | type: VIEW --
+-- DROP VIEW IF EXISTS public.ccdd_ntp_table CASCADE;
+CREATE VIEW public.ccdd_ntp_table
+AS 
+
+select
+	(
+		select
+			ntp_code
+		from ccdd.ntp_table prevntp
+		where prevntp.ntp_formal_name = candidate.ntp_formal_name
+	) as ntp_code,
+	candidate.ntp_formal_name
+from
+	ccdd_mp_table_candidate candidate
+GROUP BY
+	candidate.ntp_formal_name;
+-- ddl-end --
+ALTER VIEW public.ccdd_ntp_table OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.ccdd_tm_table | type: VIEW --
+-- DROP VIEW IF EXISTS public.ccdd_tm_table CASCADE;
+CREATE VIEW public.ccdd_tm_table
+AS 
+
+select
+	dtm.tm_code,
+	dtm.tm_formal_name
+from
+	ccdd_drug_tm dtm
+GROUP BY
+	dtm.tm_code,
+	dtm.tm_formal_name;
+-- ddl-end --
+ALTER VIEW public.ccdd_tm_table OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.ccdd_mp_tp_tm_relationship | type: VIEW --
+-- DROP VIEW IF EXISTS public.ccdd_mp_tp_tm_relationship CASCADE;
+CREATE VIEW public.ccdd_mp_tp_tm_relationship
+AS 
+
+select
+	mp_code,
+	mp_formal_name,
+	(
+		select
+			ntp_code
+		from ccdd.ntp_table prevntp
+		where prevntp.ntp_formal_name = candidate.ntp_formal_name
+	) as ntp_code,
+	ntp_formal_name,
+	dtm.tm_code,
+	dtm.tm_formal_name
+from
+	ccdd_mp_table_candidate candidate
+	LEFT JOIN ccdd_drug_tm dtm on(candidate.dpd_drug_code = dtm.dpd_drug_code);
+-- ddl-end --
+ALTER VIEW public.ccdd_mp_tp_tm_relationship OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.ccdd_mp_table | type: VIEW --
+-- DROP VIEW IF EXISTS public.ccdd_mp_table CASCADE;
+CREATE VIEW public.ccdd_mp_table
+AS 
+
+select
+	mp_code,
+	mp_formal_name
+from
+	ccdd_mp_table_candidate candidate;
 -- ddl-end --
 ALTER VIEW public.ccdd_mp_table OWNER TO postgres;
 -- ddl-end --

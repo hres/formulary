@@ -3,7 +3,7 @@
 CAUTION: Do not modify this file unless you know what you are doing.
          Unexpected results may occur if the code is changed deliberately.
 -->
-<dbmodel pgmodeler-ver="0.9.0" last-position="299,966" last-zoom="1"
+<dbmodel pgmodeler-ver="0.9.0" last-position="985,1375" last-zoom="1"
 	 default-owner="postgres">
 <database name="sandbox">
 </database>
@@ -1850,9 +1850,15 @@ from
 	tm.code as tm_code,
 	(
 		select
-			string_agg(tmistem.ccdd_ingredient_stem_name, ' and ' order by tmistem.ccdd_ingredient_stem_name)
-		from ccdd_tm_ingredient_stem tmistem
-		where tmistem.ccdd_tm_code = tm.code
+			string_agg(stemList.stem, ' and ')
+		from (
+			select
+				tmistem.ccdd_ingredient_stem_name as stem
+			from ccdd_tm_ingredient_stem tmistem
+			where tmistem.ccdd_tm_code = tm.code
+			group by tmistem.ccdd_ingredient_stem_name
+			order by tmistem.ccdd_ingredient_stem_name
+		) as stemList
 	) as tm_formal_name
 from
 	dpd_drug dd,
@@ -1942,12 +1948,13 @@ WHERE
 	 dst-table="ccdd.unit_of_presentation_csv"
 	 src-required="false" dst-required="false"/>
 
-<view name="ccdd_mp_table">
+<view name="ccdd_mp_table_candidate">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1600" y="1780"/>
+	<position x="1580" y="1660"/>
 	<reference>
 		<expression><![CDATA[select
+	dd.code as dpd_drug_code,
 	COALESCE(p.pseudodin, dd.din) as mp_code,
 	COALESCE(cp.mp_formal_name, format(
 		'%s (%s %s) %s',
@@ -1963,15 +1970,139 @@ WHERE
 		END),
 		dd.company_name
 	)) as mp_formal_name,
-	tm.tm_code,
-	tm.tm_formal_name
+	COALESCE(cp.ntp_formal_name, format(
+		'%s %s',
+		dsum.ntp_ingredient_detail_set,
+		(CASE
+			WHEN p.pseudodin is not null THEN format(
+				'%s %s',
+				ddform.dosage_form,
+				dsum.uop_suffix
+			)
+			ELSE ddform.dosage_form
+		END)
+	)) as ntp_formal_name
 from
 	dpd_drug dd
 	LEFT JOIN ccdd_presentation p on(p.dpd_drug_code = dd.code)
-	LEFT JOIN ccdd_drug_tm tm on(tm.dpd_drug_code = dd.code)
 	LEFT JOIN ccdd_drug_ingredient_summary dsum on(dsum.dpd_drug_code = dd.code and dsum.pseudodin is not distinct from p.pseudodin)
 	LEFT JOIN ccdd_drug_dosage_form ddform on(ddform.dpd_drug_code = dd.code)
 	LEFT JOIN ccdd_combination_product cp on(cp.dpd_drug_code = dd.code)
+]]></expression>
+	</reference>
+</view>
+
+<table name="ntp_table">
+	<schema name="ccdd"/>
+	<role name="postgres"/>
+	<position x="2500" y="780"/>
+	<column name="ntp_formal_name">
+		<type name="text" length="0"/>
+	</column>
+	<column name="ccdd">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="n_mp">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="greater_than_5_AIs">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="ntp_status_effective_time">
+		<type name="date" length="0"/>
+	</column>
+	<column name="ntp_code" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="en_display">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="fr_display">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="audit_id" not-null="true">
+		<type name="bigint" length="0"/>
+	</column>
+	<constraint name="ntp_table_audit_id_key" type="uq-constr" table="ccdd.ntp_table">
+		<columns names="audit_id" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="ntp_table_ntp_code" type="pk-constr" table="ccdd.ntp_table">
+		<columns names="ntp_code" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<view name="ccdd_ntp_table">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1580" y="1780"/>
+	<reference>
+		<expression><![CDATA[select
+	(
+		select
+			ntp_code
+		from ccdd.ntp_table prevntp
+		where prevntp.ntp_formal_name = candidate.ntp_formal_name
+	) as ntp_code,
+	candidate.ntp_formal_name
+from
+	ccdd_mp_table_candidate candidate
+GROUP BY
+	candidate.ntp_formal_name
+]]></expression>
+	</reference>
+</view>
+
+<view name="ccdd_tm_table">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1580" y="1840"/>
+	<reference>
+		<expression><![CDATA[select
+	dtm.tm_code,
+	dtm.tm_formal_name
+from
+	ccdd_drug_tm dtm
+GROUP BY
+	dtm.tm_code,
+	dtm.tm_formal_name
+]]></expression>
+	</reference>
+</view>
+
+<view name="ccdd_mp_tp_tm_relationship">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1580" y="1900"/>
+	<reference>
+		<expression><![CDATA[select
+	mp_code,
+	mp_formal_name,
+	(
+		select
+			ntp_code
+		from ccdd.ntp_table prevntp
+		where prevntp.ntp_formal_name = candidate.ntp_formal_name
+	) as ntp_code,
+	ntp_formal_name,
+	dtm.tm_code,
+	dtm.tm_formal_name
+from
+	ccdd_mp_table_candidate candidate
+	LEFT JOIN ccdd_drug_tm dtm on(candidate.dpd_drug_code = dtm.dpd_drug_code)
+]]></expression>
+	</reference>
+</view>
+
+<view name="ccdd_mp_table">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1580" y="1720"/>
+	<reference>
+		<expression><![CDATA[select
+	mp_code,
+	mp_formal_name
+from
+	ccdd_mp_table_candidate candidate
 ]]></expression>
 	</reference>
 </view>

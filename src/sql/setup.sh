@@ -21,6 +21,7 @@ pgloader dpdloader/dpdload_ap.pgload
 # CCDD schema and source data
 psql -v ON_ERROR_STOP=1 < ccdd-instance-structure.sql
 psql -v ON_ERROR_STOP=1 < test/ccdd-tm-table-2017-12.sql
+psql -v ON_ERROR_STOP=1 < test/ccdd-ntp-sequence-2017-12.sql
 pgloader ccdd-ingredient-stem-load.pgload
 pgloader ccdd-dosage-form-load.pgload
 pgloader ccdd-combination-products-load.pgload
