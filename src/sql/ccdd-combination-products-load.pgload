@@ -1,0 +1,24 @@
+LOAD CSV
+  FROM http://raw.githubusercontent.com/hres/formulary/master/src/Julie/Combination%20Products%2020171101.csv
+    WITH ENCODING LATIN-1
+    (
+      drug_code,
+      drug_identification_number,
+      mp_formal_name,
+      ntp_formal_name,
+      ntp_type
+    )
+  INTO postgresql:///?ccdd.combination_products_csv
+    (
+      drug_code,
+      drug_identification_number,
+      mp_formal_name,
+      ntp_formal_name,
+      ntp_type
+    )
+  WITH
+    skip header = 1,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;

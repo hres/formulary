@@ -1,0 +1,32 @@
+LOAD CSV
+  FROM ./test/ccdd-ntp-dosage-forms-2018-02-01.csv
+    WITH ENCODING UTF-8
+    (
+      ntp_dosage_form_code,
+      ntp_dosage_form,
+      route_of_administration_code,
+      route_of_administration,
+      route_of_administration_f,
+      pharm_form_code,
+      pharmaceutical_form,
+      pharmaceutical_form_f,
+      audit_id
+    )
+  INTO postgresql:///?ccdd.ntp_dosage_forms
+    (
+      ntp_dosage_form_code,
+      ntp_dosage_form,
+      route_of_administration_code,
+      route_of_administration,
+      route_of_administration_f,
+      pharm_form_code,
+      pharmaceutical_form,
+      pharmaceutical_form_f,
+      audit_id
+    )
+  WITH
+    skip header = 1,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;

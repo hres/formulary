@@ -1,0 +1,26 @@
+LOAD CSV
+  FROM http://raw.githubusercontent.com/hres/formulary/master/src/Julie/Ingredient_Stem_File_20171101.csv
+    WITH ENCODING UTF-8
+    (
+      ccdd,
+      top250name,
+      dpd_ingredient,
+      ing_stem,
+      hydrate,
+      ntp_ing
+    )
+  INTO postgresql:///?ccdd.ingredient_stem_csv
+    (
+      ccdd,
+      top250name,
+      dpd_ingredient,
+      ing_stem,
+      hydrate,
+      ntp_ing
+    )
+  WITH
+    skip header = 1,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;

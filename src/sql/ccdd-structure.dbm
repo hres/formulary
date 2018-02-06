@@ -1,0 +1,2034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+CAUTION: Do not modify this file unless you know what you are doing.
+         Unexpected results may occur if the code is changed deliberately.
+-->
+<dbmodel pgmodeler-ver="0.9.0" last-position="299,966" last-zoom="1"
+	 default-owner="postgres">
+<database name="sandbox">
+</database>
+
+<schema name="public" fill-color="#e1e1e1" sql-disabled="true">
+</schema>
+
+<table name="dpd_drug">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="280" y="420"/>
+	<column name="code" not-null="true">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="din">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="brand_name_en">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="company_name">
+		<type name="varchar" length="0"/>
+	</column>
+	<constraint name="dpd_drug_pk" type="pk-constr" table="public.dpd_drug">
+		<columns names="code" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="dpd_ingredient">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="720" y="220"/>
+
+	<customidxs object-type="column">
+		<object name="dpd_named_ingredient_name" index="0"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="dpd_ingredient_pk" index="0"/>
+		<object name="dpd_named_ingredient_fk" index="1"/>
+	</customidxs>
+</table>
+
+<table name="dpd_named_ingredient">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="320" y="140"/>
+	<column name="name" not-null="true">
+		<type name="varchar" length="0"/>
+	</column>
+	<constraint name="dpd_named_ingredient_pk" type="pk-constr" table="public.dpd_named_ingredient">
+		<columns names="name" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<relationship name="dpd_ingredient_name" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#83af1f"
+	 src-table="public.dpd_named_ingredient"
+	 dst-table="public.dpd_ingredient"
+	 src-required="true" dst-required="false">
+	<label ref-type="name-label">
+		<position x="0" y="0"/>
+	</label>
+	<special-pk-cols indexes="0"/>
+</relationship>
+
+<table name="dpd_drug_ingredient">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="600" y="380"/>
+
+	<customidxs object-type="column">
+		<object name="dpd_drug_code" index="0"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="dpd_drug_fk" index="0"/>
+		<object name="dpd_drug_ingredient_pk" index="1"/>
+	</customidxs>
+</table>
+
+<relationship name="dpd_drug_ingredient_drug" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#83af1f"
+	 src-table="public.dpd_drug"
+	 dst-table="public.dpd_drug_ingredient"
+	 src-required="true" dst-required="false">
+	<label ref-type="name-label">
+		<position x="0" y="0"/>
+	</label>
+	<special-pk-cols indexes="0"/>
+</relationship>
+
+<table name="dpd_active_ingredient_code">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="280" y="280"/>
+	<column name="id" not-null="true">
+		<type name="bigint" length="0"/>
+	</column>
+	<constraint name="dpd_active_ingredient_code_pk" type="pk-constr" table="public.dpd_active_ingredient_code">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<relationship name="dpd_active_ingredient_code_has_many_dpd_ingredient" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#83af1f"
+	 src-table="public.dpd_active_ingredient_code"
+	 dst-table="public.dpd_ingredient"
+	 src-required="true" dst-required="false">
+	<special-pk-cols indexes="0"/>
+</relationship>
+
+<relationship name="dpd_drug_ingredient_ingredient" type="rel1n"
+	 src-col-pattern="{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#83af1f"
+	 src-table="public.dpd_ingredient"
+	 dst-table="public.dpd_drug_ingredient"
+	 src-required="true" dst-required="false">
+	<special-pk-cols indexes="0,1"/>
+</relationship>
+
+<table name="ccdd_ingredient_stem">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1440" y="400"/>
+	<column name="name" not-null="true">
+		<type name="varchar" length="0"/>
+	</column>
+	<constraint name="ccdd_ingredient_stem_pk" type="pk-constr" table="public.ccdd_ingredient_stem">
+		<columns names="name" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="ccdd_ntp_ingredient">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1440" y="280"/>
+	<column name="name" not-null="true">
+		<type name="varchar" length="0"/>
+	</column>
+	<constraint name="ccdd_ntp_ingredient_pk" type="pk-constr" table="public.ccdd_ntp_ingredient">
+		<columns names="name" ref-type="src-columns"/>
+	</constraint>
+
+	<customidxs object-type="column">
+		<object name="ccdd_ingredient_stem_name" index="1"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="ccdd_ingredient_stem_fk" index="1"/>
+	</customidxs>
+</table>
+
+<relationship name="ccdd_ntp_ingredient_stem" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#83af1f"
+	 src-table="public.ccdd_ingredient_stem"
+	 dst-table="public.ccdd_ntp_ingredient"
+	 src-required="true" dst-required="false">
+	<label ref-type="name-label">
+		<position x="0" y="0"/>
+	</label>
+</relationship>
+
+<table name="ccdd_dpd_ingredient_ntp_mapping">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1240" y="120"/>
+	<column name="ccdd">
+		<type name="bool" length="0"/>
+	</column>
+
+	<customidxs object-type="column">
+		<object name="dpd_named_ingredient_name" index="0"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="ccdd_dpd_ingredient_ntp_mapping_uq" index="1"/>
+		<object name="dpd_named_ingredient_fk" index="0"/>
+	</customidxs>
+</table>
+
+<relationship name="ccdd_dpd_ingredient_ntp_mapping_dpd_named_ingredient" type="rel11"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#83af1f"
+	 src-table="public.dpd_named_ingredient"
+	 dst-table="public.ccdd_dpd_ingredient_ntp_mapping"
+	 src-required="true" dst-required="false"/>
+
+<relationship name="ccdd_dpd_ingredient_ntp_mapping_ntp_ingredient" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#83af1f"
+	 src-table="public.ccdd_ntp_ingredient"
+	 dst-table="public.ccdd_dpd_ingredient_ntp_mapping"
+	 src-required="true" dst-required="false"/>
+
+<table name="ccdd_tm">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1560" y="700"/>
+	<column name="code" not-null="true">
+		<type name="bigint" length="0"/>
+	</column>
+	<constraint name="tm_pk" type="pk-constr" table="public.ccdd_tm">
+		<columns names="code" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="ccdd_dosage_form">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="620" y="860"/>
+	<column name="name" not-null="true">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="code">
+		<type name="bigint" length="0"/>
+	</column>
+	<constraint name="ccdd_dosage_form_pk" type="pk-constr" table="public.ccdd_dosage_form">
+		<columns names="name" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="ccdd_dosage_form_code_unique" type="uq-constr" table="public.ccdd_dosage_form">
+		<columns names="code" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="ccdd_dosage_form_mapping">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="920" y="840"/>
+	<column name="id" not-null="true">
+		<type name="varchar" length="0"/>
+	</column>
+	<constraint name="ccdd_dosage_form_mapping_pk" type="pk-constr" table="public.ccdd_dosage_form_mapping">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+
+	<customidxs object-type="column">
+		<object name="ccdd_dosage_form_name" index="1"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="ccdd_dosage_form_fk" index="1"/>
+	</customidxs>
+</table>
+
+<relationship name="ccdd_dosage_form_mapping_dosage_form" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#83af1f"
+	 src-table="public.ccdd_dosage_form"
+	 dst-table="public.ccdd_dosage_form_mapping"
+	 src-required="true" dst-required="false">
+	<label ref-type="name-label">
+		<position x="0" y="0"/>
+	</label>
+</relationship>
+
+<table name="dpd_route">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1100" y="600"/>
+	<column name="code" not-null="true">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="name_en">
+		<type name="varchar" length="0"/>
+	</column>
+	<constraint name="dpd_route_pk" type="pk-constr" table="public.dpd_route">
+		<columns names="code" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="dpd_form">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="340" y="680"/>
+	<column name="code" not-null="true">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="name_en">
+		<type name="varchar" length="0"/>
+	</column>
+	<constraint name="dpd_form_pk" type="pk-constr" table="public.dpd_form">
+		<columns names="code" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="ccdd_combination_product">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="280" y="780"/>
+	<column name="mp_formal_name">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="ntp_formal_name">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="ntp_type">
+		<type name="varchar" length="0"/>
+	</column>
+
+	<customidxs object-type="column">
+		<object name="dpd_drug_code" index="0"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="ccdd_combination_product_pk" index="0"/>
+		<object name="ccdd_combination_product_uq" index="2"/>
+		<object name="dpd_drug_fk" index="1"/>
+	</customidxs>
+</table>
+
+<relationship name="ccdd_combination_product_has_one_dpd_drug" type="rel11"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#83af1f"
+	 src-table="public.dpd_drug"
+	 dst-table="public.ccdd_combination_product"
+	 src-required="true" dst-required="false">
+	<label ref-type="dst-label">
+		<position x="0" y="0"/>
+	</label>
+	<special-pk-cols indexes="0"/>
+</relationship>
+
+<table name="ccdd_presentation">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="280" y="940"/>
+	<column name="pseudodin" not-null="true">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="unit">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="size_amount">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="size_unit">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="strength_is_per_size_unit">
+		<type name="bool" length="0"/>
+	</column>
+	<constraint name="ccdd_presentation_pk" type="pk-constr" table="public.ccdd_presentation">
+		<columns names="pseudodin" ref-type="src-columns"/>
+	</constraint>
+
+	<customidxs object-type="column">
+		<object name="dpd_drug_code" index="1"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="dpd_drug_fk" index="0"/>
+	</customidxs>
+</table>
+
+<relationship name="dpd_drug_has_many_ccdd_unit_of_presentation" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#83af1f"
+	 src-table="public.dpd_drug"
+	 dst-table="public.ccdd_presentation"
+	 src-required="true" dst-required="false">
+	<label ref-type="dst-label">
+		<position x="0" y="0"/>
+	</label>
+</relationship>
+
+<schema name="dpd" rect-visible="true" fill-color="#83af1f" sql-disabled="true">
+	<role name="postgres"/>
+</schema>
+
+<table name="active_ingredient" sql-disabled="true">
+	<schema name="dpd"/>
+	<role name="postgres"/>
+	<position x="620" y="1280"/>
+	<column name="extract" default-value="'approved'">
+		<type name="text" length="0"/>
+	</column>
+	<column name="drug_code" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="active_ingredient_code" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="ingredient" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="ingredient_supplied_ind">
+		<type name="text" length="0"/>
+	</column>
+	<column name="strength" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="strength_unit" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="strength_type">
+		<type name="text" length="0"/>
+	</column>
+	<column name="dosage_value">
+		<type name="text" length="0"/>
+	</column>
+	<column name="base">
+		<type name="text" length="0"/>
+	</column>
+	<column name="dosage_unit">
+		<type name="text" length="0"/>
+	</column>
+	<column name="notes">
+		<type name="text" length="0"/>
+	</column>
+	<column name="ingredient_f">
+		<type name="text" length="0"/>
+	</column>
+	<column name="strength_unit_f">
+		<type name="text" length="0"/>
+	</column>
+	<column name="strength_type_f">
+		<type name="text" length="0"/>
+	</column>
+	<column name="dosage_unit_f">
+		<type name="text" length="0"/>
+	</column>
+</table>
+
+<table name="companies" sql-disabled="true">
+	<schema name="dpd"/>
+	<role name="postgres"/>
+	<position x="1040" y="1540"/>
+	<column name="extract" default-value="'approved'">
+		<type name="text" length="0"/>
+	</column>
+	<column name="drug_code" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="mfr_code">
+		<type name="text" length="0"/>
+	</column>
+	<column name="company_code" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="company_name" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="company_type">
+		<type name="text" length="0"/>
+	</column>
+	<column name="address_mailing_flag">
+		<type name="text" length="0"/>
+	</column>
+	<column name="address_billing_flag">
+		<type name="text" length="0"/>
+	</column>
+	<column name="address_notification_flag">
+		<type name="text" length="0"/>
+	</column>
+	<column name="address_other">
+		<type name="text" length="0"/>
+	</column>
+	<column name="suite_number">
+		<type name="text" length="0"/>
+	</column>
+	<column name="street_name">
+		<type name="text" length="0"/>
+	</column>
+	<column name="city_name">
+		<type name="text" length="0"/>
+	</column>
+	<column name="province">
+		<type name="text" length="0"/>
+	</column>
+	<column name="country">
+		<type name="text" length="0"/>
+	</column>
+	<column name="postal_code">
+		<type name="text" length="0"/>
+	</column>
+	<column name="post_office_box">
+		<type name="text" length="0"/>
+	</column>
+	<column name="province_f">
+		<type name="text" length="0"/>
+	</column>
+	<column name="country_f">
+		<type name="text" length="0"/>
+	</column>
+</table>
+
+<table name="drug_product" sql-disabled="true">
+	<schema name="dpd"/>
+	<role name="postgres"/>
+	<position x="220" y="1280"/>
+	<column name="extract" not-null="true" default-value="'approved'">
+		<type name="text" length="0"/>
+	</column>
+	<column name="drug_code" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="product_categorization">
+		<type name="text" length="0"/>
+	</column>
+	<column name="class">
+		<type name="text" length="0"/>
+	</column>
+	<column name="drug_identification_number" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="brand_name" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="descriptor">
+		<type name="text" length="0"/>
+	</column>
+	<column name="pediatric_flag">
+		<type name="text" length="0"/>
+	</column>
+	<column name="accession_number">
+		<type name="text" length="0"/>
+	</column>
+	<column name="number_of_ais">
+		<type name="text" length="0"/>
+	</column>
+	<column name="last_update_date">
+		<type name="date" length="0"/>
+	</column>
+	<column name="ai_group_no">
+		<type name="text" length="0"/>
+	</column>
+	<column name="class_f">
+		<type name="text" length="0"/>
+	</column>
+	<column name="brand_name_f">
+		<type name="text" length="0"/>
+	</column>
+	<column name="descriptor_f">
+		<type name="text" length="0"/>
+	</column>
+	<constraint name="drug_product_drug_code" type="pk-constr" table="dpd.drug_product">
+		<columns names="extract,drug_code" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="pharmaceutical_form" sql-disabled="true">
+	<schema name="dpd"/>
+	<role name="postgres"/>
+	<position x="620" y="1600"/>
+	<column name="extract" default-value="'approved'">
+		<type name="text" length="0"/>
+	</column>
+	<column name="drug_code" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="pharm_form_code">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="pharmaceutical_form">
+		<type name="text" length="0"/>
+	</column>
+	<column name="pharmaceutical_form_f">
+		<type name="text" length="0"/>
+	</column>
+</table>
+
+<table name="route" sql-disabled="true">
+	<schema name="dpd"/>
+	<role name="postgres"/>
+	<position x="620" y="1760"/>
+	<column name="extract" default-value="'approved'">
+		<type name="text" length="0"/>
+	</column>
+	<column name="drug_code" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="route_of_administration_code">
+		<type name="text" length="0"/>
+	</column>
+	<column name="route_of_administration">
+		<type name="text" length="0"/>
+	</column>
+	<column name="route_of_administration_f">
+		<type name="text" length="0"/>
+	</column>
+</table>
+
+<table name="status" sql-disabled="true">
+	<schema name="dpd"/>
+	<role name="postgres"/>
+	<position x="220" y="1580"/>
+	<column name="extract" default-value="'approved'">
+		<type name="text" length="0"/>
+	</column>
+	<column name="drug_code" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="current_status_flag">
+		<type name="text" length="0"/>
+	</column>
+	<column name="status">
+		<type name="text" length="0"/>
+	</column>
+	<column name="history_date">
+		<type name="date" length="0"/>
+	</column>
+	<column name="status_f">
+		<type name="text" length="0"/>
+	</column>
+	<column name="lot_number">
+		<type name="text" length="0"/>
+	</column>
+	<column name="expiration_date">
+		<type name="text" length="0"/>
+	</column>
+</table>
+
+<view name="dpd_drug_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="660" y="980"/>
+	<reference table="dpd.drug_product" column="drug_code" alias="dp" column-alias="code"/>
+	<reference table="dpd.drug_product" column="drug_identification_number" alias="dp" column-alias="din"/>
+	<reference table="dpd.drug_product" column="brand_name" alias="dp" column-alias="brand_name_en"/>
+	<reference alias="company_name">
+		<expression><![CDATA[(SELECT
+   dc.company_name
+FROM
+   dpd.companies AS dc
+WHERE
+   dc.drug_code = dp.drug_code)]]></expression>
+	</reference>
+	<reference table="dpd.drug_product" alias="dp"/>
+	<reference>
+		<expression><![CDATA[dp.class = 'Human' AND (
+EXISTS(select * from dpd.status s where
+	s.drug_code = dp.drug_code and
+	s.current_status_flag = 'Y' and
+	s.history_date > '2017-07-04' and
+	s.status IN ('DORMANT', 'CANCELLED POST MARKET')
+)
+OR
+(
+	EXISTS(select * from dpd.status s where
+		s.drug_code = dp.drug_code and
+		s.current_status_flag = 'Y' and
+		s.status = 'MARKETED'
+	) AND
+	EXISTS(select * from dpd.status s where
+		s.drug_code = dp.drug_code and
+		s.status = 'MARKETED' and
+		s.history_date < '2017-07-04'
+	)
+)
+)]]></expression>
+	</reference>
+	<expression type="select-exp">0,1,2,3</expression>
+	<expression type="from-exp">4</expression>
+	<expression type="simple-exp">5</expression>
+</view>
+
+<relationship name="rel_dpd_drug_source_drug_product" type="reltv"
+	 src-table="public.dpd_drug_source"
+	 dst-table="dpd.drug_product"
+	 src-required="false" dst-required="false"/>
+
+<table name="dpd_drug_form">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="300" y="540"/>
+
+	<customidxs object-type="column">
+		<object name="dpd_drug_code" index="0"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="dpd_drug_fk" index="1"/>
+		<object name="dpd_drug_form_pk" index="0"/>
+	</customidxs>
+</table>
+
+<table name="dpd_drug_route">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="660" y="540"/>
+</table>
+
+<relationship name="dpd_drug_has_many_dpd_drug_form" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#83af1f"
+	 src-table="public.dpd_drug"
+	 dst-table="public.dpd_drug_form"
+	 src-required="true" dst-required="false">
+	<label ref-type="dst-label">
+		<position x="0" y="0"/>
+	</label>
+	<special-pk-cols indexes="0"/>
+</relationship>
+
+<relationship name="dpd_drug_has_many_dpd_drug_route" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#83af1f"
+	 src-table="public.dpd_drug"
+	 dst-table="public.dpd_drug_route"
+	 src-required="true" dst-required="false">
+	<special-pk-cols indexes="0"/>
+</relationship>
+
+<relationship name="dpd_form_has_many_dpd_drug_form" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#83af1f"
+	 src-table="public.dpd_form"
+	 dst-table="public.dpd_drug_form"
+	 src-required="true" dst-required="false">
+	<special-pk-cols indexes="0"/>
+</relationship>
+
+<relationship name="dpd_route_has_many_dpd_drug_route" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#83af1f"
+	 src-table="public.dpd_route"
+	 dst-table="public.dpd_drug_route"
+	 src-required="true" dst-required="false">
+	<label ref-type="src-label">
+		<position x="0" y="0"/>
+	</label>
+	<special-pk-cols indexes="0"/>
+</relationship>
+
+<view name="dpd_form_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="660" y="1080"/>
+	<reference table="dpd.pharmaceutical_form" column="pharm_form_code" alias="pf" column-alias="code"/>
+	<reference table="dpd.pharmaceutical_form" column="pharmaceutical_form" alias="pf" column-alias="name_en"/>
+	<reference table="dpd.pharmaceutical_form" alias="pf"/>
+	<reference>
+		<expression><![CDATA[EXISTS(select * from public.dpd_drug_source ds where ds.code = pf.drug_code)]]></expression>
+	</reference>
+	<reference>
+		<expression><![CDATA[GROUP BY code, name_en]]></expression>
+	</reference>
+	<expression type="select-exp">0,1</expression>
+	<expression type="from-exp">2</expression>
+	<expression type="simple-exp">3,4</expression>
+</view>
+
+<relationship name="rel_dpd_form_source_pharmaceutical_form" type="reltv"
+	 src-table="public.dpd_form_source"
+	 dst-table="dpd.pharmaceutical_form"
+	 src-required="false" dst-required="false"/>
+
+<view name="dpd_route_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="660" y="1140"/>
+	<reference alias="code">
+		<expression><![CDATA[CAST(r.route_of_administration_code as bigint)]]></expression>
+	</reference>
+	<reference table="dpd.route" column="route_of_administration" alias="r" column-alias="name_en"/>
+	<reference table="dpd.route" alias="r"/>
+	<reference>
+		<expression><![CDATA[EXISTS(select * from public.dpd_drug_source ds where ds.code = r.drug_code)]]></expression>
+	</reference>
+	<reference>
+		<expression><![CDATA[GROUP BY code, name_en]]></expression>
+	</reference>
+	<expression type="select-exp">0,1</expression>
+	<expression type="from-exp">2</expression>
+	<expression type="simple-exp">3,4</expression>
+</view>
+
+<relationship name="rel_dpd_route_source_route" type="reltv"
+	 src-table="public.dpd_route_source"
+	 dst-table="dpd.route"
+	 src-required="false" dst-required="false"/>
+
+<view name="dpd_drug_form_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1020" y="1040"/>
+	<reference table="dpd.pharmaceutical_form" column="drug_code" alias="pf" column-alias="dpd_drug_code"/>
+	<reference table="dpd.pharmaceutical_form" column="pharm_form_code" alias="pf" column-alias="dpd_form_code"/>
+	<reference table="dpd.pharmaceutical_form" alias="pf"/>
+	<reference>
+		<expression><![CDATA[EXISTS(select * from public.dpd_drug_source ds where ds.code = pf.drug_code)]]></expression>
+	</reference>
+	<expression type="select-exp">0,1</expression>
+	<expression type="from-exp">2</expression>
+	<expression type="simple-exp">3</expression>
+</view>
+
+<relationship name="rel_dpd_drug_form_source_pharmaceutical_form" type="reltv"
+	 src-table="public.dpd_drug_form_source"
+	 dst-table="dpd.pharmaceutical_form"
+	 src-required="false" dst-required="false"/>
+
+<view name="dpd_drug_route_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1020" y="1120"/>
+	<reference table="dpd.route" column="drug_code" alias="r" column-alias="dpd_drug_code"/>
+	<reference alias="dpd_route_code">
+		<expression><![CDATA[CAST(r.route_of_administration_code as bigint)]]></expression>
+	</reference>
+	<reference table="dpd.route" alias="r"/>
+	<reference>
+		<expression><![CDATA[EXISTS(select * from public.dpd_drug_source ds where ds.code = r.drug_code)]]></expression>
+	</reference>
+	<expression type="select-exp">0,1</expression>
+	<expression type="from-exp">2</expression>
+	<expression type="simple-exp">3</expression>
+</view>
+
+<relationship name="rel_dpd_route_source_cp_route" type="reltv"
+	 src-table="public.dpd_drug_route_source"
+	 dst-table="dpd.route"
+	 src-required="false" dst-required="false"/>
+
+<view name="dpd_active_ingredient_code_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="920" y="980"/>
+	<reference table="dpd.active_ingredient" column="active_ingredient_code" alias="ai" column-alias="id"/>
+	<reference table="dpd.active_ingredient" alias="ai"/>
+	<reference>
+		<expression><![CDATA[EXISTS(select * from public.dpd_drug_source ds where ds.code = ai.drug_code)]]></expression>
+	</reference>
+	<reference>
+		<expression><![CDATA[GROUP BY id]]></expression>
+	</reference>
+	<expression type="select-exp">0</expression>
+	<expression type="from-exp">1</expression>
+	<expression type="simple-exp">2,3</expression>
+</view>
+
+<relationship name="rel_dpd_active_ingredient_code_source_active_ingredient" type="reltv"
+	 src-table="public.dpd_active_ingredient_code_source"
+	 dst-table="dpd.active_ingredient"
+	 src-required="false" dst-required="false"/>
+
+<view name="dpd_named_ingredient_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="920" y="940"/>
+	<reference table="dpd.active_ingredient" column="ingredient" alias="ai" column-alias="name"/>
+	<reference table="dpd.active_ingredient" alias="ai"/>
+	<reference>
+		<expression><![CDATA[EXISTS(select * from public.dpd_drug_source ds where ds.code = ai.drug_code)]]></expression>
+	</reference>
+	<reference>
+		<expression><![CDATA[GROUP BY name]]></expression>
+	</reference>
+	<expression type="select-exp">0</expression>
+	<expression type="from-exp">1</expression>
+	<expression type="simple-exp">2,3</expression>
+</view>
+
+<relationship name="rel_dpd_active_ingredient_code_source_cp_active_ingredient" type="reltv"
+	 src-table="public.dpd_named_ingredient_source"
+	 dst-table="dpd.active_ingredient"
+	 src-required="false" dst-required="false"/>
+
+<view name="dpd_ingredient_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1280" y="860"/>
+	<reference table="dpd.active_ingredient" column="ingredient" alias="ai" column-alias="dpd_named_ingredient_name"/>
+	<reference table="dpd.active_ingredient" column="active_ingredient_code" alias="ai" column-alias="dpd_active_ingredient_code_id"/>
+	<reference table="dpd.active_ingredient" alias="ai"/>
+	<reference>
+		<expression><![CDATA[EXISTS(select * from public.dpd_drug_source ds where ds.code = ai.drug_code)]]></expression>
+	</reference>
+	<reference>
+		<expression><![CDATA[GROUP BY dpd_named_ingredient_name, dpd_active_ingredient_code_id]]></expression>
+	</reference>
+	<expression type="select-exp">0,1</expression>
+	<expression type="from-exp">2</expression>
+	<expression type="simple-exp">3,4</expression>
+</view>
+
+<relationship name="rel_dpd_named_ingredient_source_cp_active_ingredient" type="reltv"
+	 src-table="public.dpd_ingredient_source"
+	 dst-table="dpd.active_ingredient"
+	 src-required="false" dst-required="false">
+	<label ref-type="name-label">
+		<position x="0" y="0"/>
+	</label>
+</relationship>
+
+<view name="dpd_drug_ingredient_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1280" y="940"/>
+	<reference table="dpd.active_ingredient" column="drug_code" alias="ai" column-alias="dpd_drug_code"/>
+	<reference table="dpd.active_ingredient" column="ingredient" alias="ai" column-alias="dpd_named_ingredient_name"/>
+	<reference table="dpd.active_ingredient" column="active_ingredient_code" alias="ai" column-alias="dpd_active_ingredient_code_id"/>
+	<reference table="dpd.active_ingredient" alias="ai"/>
+	<reference>
+		<expression><![CDATA[EXISTS(select * from public.dpd_drug_source ds where ds.code = ai.drug_code)]]></expression>
+	</reference>
+	<reference>
+		<expression><![CDATA[GROUP BY dpd_drug_code, dpd_named_ingredient_name, dpd_active_ingredient_code_id]]></expression>
+	</reference>
+	<expression type="select-exp">0,1,2</expression>
+	<expression type="from-exp">3</expression>
+	<expression type="simple-exp">4,5</expression>
+</view>
+
+<relationship name="rel_dpd_drug_ingredient_source_active_ingredient" type="reltv"
+	 src-table="public.dpd_drug_ingredient_source"
+	 dst-table="dpd.active_ingredient"
+	 src-required="false" dst-required="false"/>
+
+<table name="dpd_drug_ingredient_option">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1020" y="420"/>
+	<column name="strength_amount" not-null="true">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="strength_unit" not-null="true">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="dosage_amount">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="dosage_unit">
+		<type name="varchar" length="0"/>
+	</column>
+
+	<customidxs object-type="column">
+		<object name="dpd_active_ingredient_code_id" index="2"/>
+		<object name="dpd_drug_code" index="0"/>
+		<object name="dpd_named_ingredient_name" index="1"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="dpd_drug_ingredient_fk" index="0"/>
+	</customidxs>
+</table>
+
+<relationship name="dpd_drug_ingredient_has_many_dpd_drug_ingredient_strength" type="rel1n"
+	 src-col-pattern="{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#83af1f"
+	 src-table="public.dpd_drug_ingredient"
+	 dst-table="public.dpd_drug_ingredient_option"
+	 src-required="true" dst-required="false"/>
+
+<function name="ccdd_normalized_unit"
+		window-func="false"
+		returns-setof="false"
+		behavior-type="RETURNS NULL ON NULL INPUT"
+		function-type="STABLE"
+		security-type="SECURITY INVOKER"
+		execution-cost="1"
+		row-amount="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<language name="sql" sql-disabled="true"/>
+	<return-type>
+	<type name="varchar" length="0"/>
+	</return-type>
+	<parameter name="dpd_unit">
+		<type name="varchar" length="0"/>
+	</parameter>
+	<definition><![CDATA[SELECT regexp_replace(
+	regexp_replace(
+		lower(dpd_unit),
+		'^ml$', -- whole string must match
+		'mL'
+	),
+	'^act$', -- whole string must match
+	'actuation'
+);]]></definition>
+</function>
+
+<view name="dpd_drug_ingredient_option_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1420" y="1040"/>
+	<reference table="dpd.active_ingredient" column="drug_code" alias="ai" column-alias="dpd_drug_code"/>
+	<reference table="dpd.active_ingredient" column="ingredient" alias="ai" column-alias="dpd_named_ingredient_name"/>
+	<reference table="dpd.active_ingredient" column="active_ingredient_code" alias="ai" column-alias="dpd_active_ingredient_code_id"/>
+	<reference alias="strength_amount">
+		<expression><![CDATA[CAST (ai.strength AS double precision)]]></expression>
+	</reference>
+	<reference alias="strength_unit">
+		<expression><![CDATA[ccdd_normalized_unit(ai.strength_unit)]]></expression>
+	</reference>
+	<reference alias="dosage_amount">
+		<expression><![CDATA[CAST (nullif(ai.dosage_value, '') AS double precision)]]></expression>
+	</reference>
+	<reference alias="dosage_unit">
+		<expression><![CDATA[ccdd_normalized_unit(ai.dosage_unit)]]></expression>
+	</reference>
+	<reference table="dpd.active_ingredient" alias="ai"/>
+	<reference>
+		<expression><![CDATA[EXISTS(select * from public.dpd_drug_source ds where ds.code = ai.drug_code)]]></expression>
+	</reference>
+	<expression type="select-exp">0,1,2,3,4,5,6</expression>
+	<expression type="from-exp">7</expression>
+	<expression type="simple-exp">8</expression>
+</view>
+
+<relationship name="rel_dpd_drug_ingredient_option_source_active_ingredient" type="reltv"
+	 src-table="public.dpd_drug_ingredient_option_source"
+	 dst-table="dpd.active_ingredient"
+	 src-required="false" dst-required="false"/>
+
+<schema name="ccdd" rect-visible="true" fill-color="#e1e1e1">
+	<role name="postgres"/>
+</schema>
+
+<table name="ingredient_stem_csv">
+	<schema name="ccdd"/>
+	<role name="postgres"/>
+	<position x="2140" y="660"/>
+	<column name="ccdd">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="top250name">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="dpd_ingredient">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="ing_stem">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="hydrate">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="ntp_ing">
+		<type name="varchar" length="0"/>
+	</column>
+</table>
+
+<view name="ccdd_ingredient_stem_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1800" y="500"/>
+	<reference table="ccdd.ingredient_stem_csv" column="ing_stem" alias="isc" column-alias="name"/>
+	<reference table="ccdd.ingredient_stem_csv" alias="isc"/>
+	<reference>
+		<expression><![CDATA[exists(select * from dpd_named_ingredient_source dni where dni.name = isc.dpd_ingredient)]]></expression>
+	</reference>
+	<reference>
+		<expression><![CDATA[GROUP BY name]]></expression>
+	</reference>
+	<expression type="select-exp">0</expression>
+	<expression type="from-exp">1</expression>
+	<expression type="simple-exp">2,3</expression>
+</view>
+
+<relationship name="rel_ccdd_ingredient_stem_source_ingredient_stem_csv" type="reltv"
+	 src-table="public.ccdd_ingredient_stem_source"
+	 dst-table="ccdd.ingredient_stem_csv"
+	 src-required="false" dst-required="false"/>
+
+<view name="ccdd_ntp_ingredient_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1800" y="440"/>
+	<reference table="ccdd.ingredient_stem_csv" column="ntp_ing" alias="isc" column-alias="name"/>
+	<reference table="ccdd.ingredient_stem_csv" column="ing_stem" alias="isc" column-alias="ccdd_ingredient_stem_name"/>
+	<reference table="ccdd.ingredient_stem_csv" alias="isc"/>
+	<reference>
+		<expression><![CDATA[exists(select * from dpd_named_ingredient_source dni where dni.name = isc.dpd_ingredient)]]></expression>
+	</reference>
+	<reference>
+		<expression><![CDATA[GROUP BY name, ccdd_ingredient_stem_name]]></expression>
+	</reference>
+	<expression type="select-exp">0,1</expression>
+	<expression type="from-exp">2</expression>
+	<expression type="simple-exp">3,4</expression>
+</view>
+
+<relationship name="rel_ccdd_ntp_ingredient_source_ingredient_stem_csv" type="reltv"
+	 src-table="public.ccdd_ntp_ingredient_source"
+	 dst-table="ccdd.ingredient_stem_csv"
+	 src-required="false" dst-required="false"/>
+
+<view name="ccdd_dpd_ingredient_ntp_mapping_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1800" y="360"/>
+	<reference table="ccdd.ingredient_stem_csv" column="dpd_ingredient" alias="isc" column-alias="dpd_named_ingredient_name"/>
+	<reference table="ccdd.ingredient_stem_csv" column="ntp_ing" alias="isc" column-alias="ccdd_ntp_ingredient_name"/>
+	<reference alias="ccdd">
+		<expression><![CDATA[coalesce(isc.ccdd = 'Y', false)]]></expression>
+	</reference>
+	<reference table="ccdd.ingredient_stem_csv" alias="isc"/>
+	<reference>
+		<expression><![CDATA[exists(select * from dpd_named_ingredient_source dni where dni.name = isc.dpd_ingredient)]]></expression>
+	</reference>
+	<expression type="select-exp">0,1,2</expression>
+	<expression type="from-exp">3</expression>
+	<expression type="simple-exp">4</expression>
+</view>
+
+<relationship name="rel_ccdd_dpd_ingredient_ntp_mapping_source_ingredient_stem_csv" type="reltv"
+	 src-table="public.ccdd_dpd_ingredient_ntp_mapping_source"
+	 dst-table="ccdd.ingredient_stem_csv"
+	 src-required="false" dst-required="false"/>
+
+<table name="ccdd_tm_ingredient_stem">
+	<schema name="public"/>
+	<position x="1440" y="540"/>
+
+	<customidxs object-type="column">
+		<object name="ccdd_tm_code" index="0"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="ccdd_tm_fk" index="1"/>
+		<object name="ccdd_tm_ingredient_stem_pk" index="0"/>
+	</customidxs>
+</table>
+
+<relationship name="ccdd_tm_has_many_tm_ccdd_ingredient_stem" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#83af1f"
+	 src-table="public.ccdd_tm"
+	 dst-table="public.ccdd_tm_ingredient_stem"
+	 src-required="true" dst-required="false"
+	 identifier="true"
+/>
+
+<relationship name="ccdd_ingredient_stem_has_many_tm_ccdd_ingredient_stem" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#83af1f"
+	 src-table="public.ccdd_ingredient_stem"
+	 dst-table="public.ccdd_tm_ingredient_stem"
+	 src-required="true" dst-required="false"
+	 identifier="true"
+/>
+
+<table name="tm_table">
+	<schema name="ccdd"/>
+	<role name="postgres"/>
+	<position x="1840" y="660"/>
+	<column name="tm_code" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="tm_formal_name" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="audit_id" not-null="true">
+		<type name="bigint" length="0"/>
+	</column>
+	<constraint name="tm_table_audit_id_key" type="uq-constr" table="ccdd.tm_table">
+		<columns names="audit_id" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="tm_table_tm_code" type="pk-constr" table="ccdd.tm_table">
+		<columns names="tm_code" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<view name="ccdd_tm_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1920" y="1020"/>
+	<reference table="ccdd.tm_table" column="tm_code" alias="tt" column-alias="code"/>
+	<reference table="ccdd.tm_table" alias="tt"/>
+	<expression type="select-exp">0</expression>
+	<expression type="from-exp">1</expression>
+</view>
+
+<relationship name="rel_ccdd_tm_source_tm_table" type="reltv"
+	 src-table="public.ccdd_tm_source"
+	 dst-table="ccdd.tm_table"
+	 src-required="false" dst-required="false"/>
+
+<view name="ccdd_tm_ingredient_stem_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1920" y="1080"/>
+	<reference table="ccdd.tm_table" column="tm_code" alias="tt" column-alias="ccdd_tm_code"/>
+	<reference alias="ccdd_ingredient_stem_name">
+		<expression><![CDATA[tm_name_part]]></expression>
+	</reference>
+	<reference table="ccdd.tm_table" alias="tt"/>
+	<reference>
+		<expression><![CDATA[regexp_split_to_table(tt.tm_formal_name, '\s+and\s+', 'i') AS tm_name_part]]></expression>
+	</reference>
+	<expression type="select-exp">0,1</expression>
+	<expression type="from-exp">2,3</expression>
+</view>
+
+<relationship name="rel_ccdd_tm_ingredient_stem_source_tm_table" type="reltv"
+	 src-table="public.ccdd_tm_ingredient_stem_source"
+	 dst-table="ccdd.tm_table"
+	 src-required="false" dst-required="false"/>
+
+<table name="ntp_dosage_forms">
+	<schema name="ccdd"/>
+	<role name="postgres"/>
+	<position x="1840" y="800"/>
+	<column name="ntp_dosage_form_code">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="ntp_dosage_form">
+		<type name="text" length="0"/>
+	</column>
+	<column name="route_of_administration_code">
+		<type name="text" length="0"/>
+	</column>
+	<column name="route_of_administration">
+		<type name="text" length="0"/>
+	</column>
+	<column name="route_of_administration_f">
+		<type name="text" length="0"/>
+	</column>
+	<column name="pharm_form_code">
+		<type name="text" length="0"/>
+	</column>
+	<column name="pharmaceutical_form">
+		<type name="text" length="0"/>
+	</column>
+	<column name="pharmaceutical_form_f">
+		<type name="text" length="0"/>
+	</column>
+	<column name="audit_id" not-null="true">
+		<type name="bigint" length="0"/>
+	</column>
+</table>
+
+<table name="ccdd_dosage_form_mapping_dpd_form">
+	<schema name="public"/>
+	<position x="640" y="700"/>
+
+	<customidxs object-type="column">
+		<object name="ccdd_dosage_form_mapping_id" index="0"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="ccdd_dosage_form_mapping_dpd_form_pk" index="0"/>
+		<object name="ccdd_dosage_form_mapping_fk" index="1"/>
+	</customidxs>
+</table>
+
+<relationship name="ccdd_dosage_form_mapping_has_many_ccdd_dfm_form" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 src-table="public.ccdd_dosage_form_mapping"
+	 dst-table="public.ccdd_dosage_form_mapping_dpd_form"
+	 src-required="true" dst-required="false"
+	 identifier="true"
+>
+	<label ref-type="name-label">
+		<position x="0" y="0"/>
+	</label>
+</relationship>
+
+<relationship name="dpd_form_has_many_ccdd_dosage_form_mapping_dpd_form" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 src-table="public.dpd_form"
+	 dst-table="public.ccdd_dosage_form_mapping_dpd_form"
+	 src-required="true" dst-required="false"
+	 identifier="true"
+>
+	<label ref-type="dst-label">
+		<position x="0" y="0"/>
+	</label>
+</relationship>
+
+<table name="ccdd_dosage_form_mapping_dpd_route">
+	<schema name="public"/>
+	<position x="1040" y="700"/>
+
+	<customidxs object-type="column">
+		<object name="ccdd_dosage_form_mapping_id" index="0"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="ccdd_dosage_form_mapping_dpd_route_pk" index="0"/>
+		<object name="ccdd_dosage_form_mapping_fk" index="1"/>
+	</customidxs>
+</table>
+
+<relationship name="ccdd_dosage_form_mapping_has_many_ccdd_dfm_route" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 src-table="public.ccdd_dosage_form_mapping"
+	 dst-table="public.ccdd_dosage_form_mapping_dpd_route"
+	 src-required="true" dst-required="false"
+	 identifier="true"
+/>
+
+<relationship name="dpd_route_has_many_ccdd_dosage_form_mapping_dpd_route" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 src-table="public.dpd_route"
+	 dst-table="public.ccdd_dosage_form_mapping_dpd_route"
+	 src-required="true" dst-required="false"
+	 identifier="true"
+/>
+
+<view name="ccdd_dosage_form_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2040" y="1160"/>
+	<reference table="ccdd.ntp_dosage_forms" column="ntp_dosage_form" alias="df" column-alias="name"/>
+	<reference table="ccdd.ntp_dosage_forms" column="ntp_dosage_form_code" alias="df" column-alias="code"/>
+	<reference table="ccdd.ntp_dosage_forms" alias="df"/>
+	<reference>
+		<expression><![CDATA[true]]></expression>
+	</reference>
+	<reference>
+		<expression><![CDATA[GROUP BY name, code]]></expression>
+	</reference>
+	<expression type="select-exp">0,1</expression>
+	<expression type="from-exp">2</expression>
+	<expression type="simple-exp">3,4</expression>
+</view>
+
+<relationship name="rel_ccdd_dosage_form_source_ntp_dosage_forms" type="reltv"
+	 src-table="public.ccdd_dosage_form_source"
+	 dst-table="ccdd.ntp_dosage_forms"
+	 src-required="false" dst-required="false"/>
+
+<view name="ccdd_dosage_form_mapping_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<comment><![CDATA[Grouped to eliminate possible duplicates]]></comment>
+	<position x="2040" y="1220"/>
+	<reference alias="id">
+		<expression><![CDATA[CONCAT(df.ntp_dosage_form_code, '|', df.route_of_administration_code, '|', df.pharm_form_code)]]></expression>
+	</reference>
+	<reference table="ccdd.ntp_dosage_forms" column="ntp_dosage_form" alias="df" column-alias="ccdd_dosage_form_name"/>
+	<reference table="ccdd.ntp_dosage_forms" alias="df"/>
+	<reference>
+		<expression><![CDATA[true]]></expression>
+	</reference>
+	<reference>
+		<expression><![CDATA[GROUP BY id, ccdd_dosage_form_name]]></expression>
+	</reference>
+	<expression type="select-exp">0,1</expression>
+	<expression type="from-exp">2</expression>
+	<expression type="simple-exp">3,4</expression>
+</view>
+
+<relationship name="rel_ccdd_dosage_form_mapping_source_ntp_dosage_forms" type="reltv"
+	 src-table="public.ccdd_dosage_form_mapping_source"
+	 dst-table="ccdd.ntp_dosage_forms"
+	 src-required="false" dst-required="false"/>
+
+<view name="ccdd_dosage_form_mapping_dpd_form_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2040" y="1280"/>
+	<reference alias="ccdd_dosage_form_mapping_id">
+		<expression><![CDATA[CONCAT(df.ntp_dosage_form_code, '|', df.route_of_administration_code, '|', df.pharm_form_code)]]></expression>
+	</reference>
+	<reference alias="dpd_form_code">
+		<expression><![CDATA[CAST(form_code_part as bigint)]]></expression>
+	</reference>
+	<reference table="ccdd.ntp_dosage_forms" alias="df"/>
+	<reference>
+		<expression><![CDATA[regexp_split_to_table(df.pharm_form_code, '\s*-\s*', 'i') AS form_code_part]]></expression>
+	</reference>
+	<reference>
+		<expression><![CDATA[true]]></expression>
+	</reference>
+	<reference>
+		<expression><![CDATA[GROUP BY ccdd_dosage_form_mapping_id, dpd_form_code]]></expression>
+	</reference>
+	<expression type="select-exp">0,1</expression>
+	<expression type="from-exp">2,3</expression>
+	<expression type="simple-exp">4,5</expression>
+</view>
+
+<view name="ccdd_dosage_form_mapping_dpd_route_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2040" y="1340"/>
+	<reference alias="ccdd_dosage_form_mapping_id">
+		<expression><![CDATA[CONCAT(df.ntp_dosage_form_code, '|', df.route_of_administration_code, '|', df.pharm_form_code)]]></expression>
+	</reference>
+	<reference alias="dpd_route_code">
+		<expression><![CDATA[CAST(route_code_part as bigint)]]></expression>
+	</reference>
+	<reference table="ccdd.ntp_dosage_forms" alias="df"/>
+	<reference>
+		<expression><![CDATA[regexp_split_to_table(df.route_of_administration_code, '\s*-\s*', 'i') AS route_code_part]]></expression>
+	</reference>
+	<reference>
+		<expression><![CDATA[true]]></expression>
+	</reference>
+	<reference>
+		<expression><![CDATA[GROUP BY ccdd_dosage_form_mapping_id, dpd_route_code]]></expression>
+	</reference>
+	<expression type="select-exp">0,1</expression>
+	<expression type="from-exp">2,3</expression>
+	<expression type="simple-exp">4,5</expression>
+</view>
+
+<table name="combination_products_csv">
+	<schema name="ccdd"/>
+	<role name="postgres"/>
+	<position x="2160" y="800"/>
+	<column name="drug_code" not-null="true">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="drug_identification_number">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="mp_formal_name">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="ntp_formal_name">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="ntp_type">
+		<type name="varchar" length="0"/>
+	</column>
+	<constraint name="combination_products_csv_pk" type="pk-constr" table="ccdd.combination_products_csv">
+		<columns names="drug_code" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="unit_of_presentation_csv">
+	<schema name="ccdd"/>
+	<role name="postgres"/>
+	<position x="2320" y="660"/>
+	<column name="drug_code">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="unit_of_presentation">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="uop_size">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="uop_unit_of_measure">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="calculation">
+		<type name="varchar" length="0"/>
+	</column>
+</table>
+
+<view name="ccdd_combination_product_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2140" y="980"/>
+	<reference table="ccdd.combination_products_csv" column="drug_code" alias="cp" column-alias="dpd_drug_code"/>
+	<reference table="ccdd.combination_products_csv" column="mp_formal_name" alias="cp"/>
+	<reference table="ccdd.combination_products_csv" column="ntp_formal_name" alias="cp"/>
+	<reference table="ccdd.combination_products_csv" column="ntp_type" alias="cp"/>
+	<reference table="ccdd.combination_products_csv" alias="cp"/>
+	<reference>
+		<expression><![CDATA[exists(select * from dpd_drug_source dd where dd.code = cp.drug_code)]]></expression>
+	</reference>
+	<expression type="select-exp">0,1,2,3</expression>
+	<expression type="from-exp">4</expression>
+	<expression type="simple-exp">5</expression>
+</view>
+
+<relationship name="rel_ccdd_combination_product_source_combination_products_csv" type="reltv"
+	 src-table="public.ccdd_combination_product_source"
+	 dst-table="ccdd.combination_products_csv"
+	 src-required="false" dst-required="false"/>
+
+<function name="ccdd_normalize_ingredient"
+		window-func="false"
+		returns-setof="false"
+		behavior-type="CALLED ON NULL INPUT"
+		function-type="VOLATILE"
+		security-type="SECURITY INVOKER"
+		execution-cost="1"
+		row-amount="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<language name="sql" sql-disabled="true"/>
+	<return-type>
+	<type name="varchar" length="0"/>
+	</return-type>
+	<parameter name="raw_ingredient">
+		<type name="varchar" length="0"/>
+	</parameter>
+	<definition><![CDATA[WITH src AS (SELECT raw_ingredient as ingredient)
+SELECT
+	string_agg(CASE
+		WHEN vitamatch is not null THEN concat(vitamatch[1], upper(vitamatch[2]), vitamatch[3])
+		ELSE lower(src.ingredient)
+	END, '') as name
+FROM
+	src
+	left join lateral regexp_matches(lower(src.ingredient), '(vitamin )([a-z])((?:(?!vitamin [a-z]).)*)', 'g') as vitamatch on(true)]]></definition>
+</function>
+
+<view name="ccdd_drug_ingredient_option_description">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1460" y="1240"/>
+	<reference>
+		<expression><![CDATA[SELECT
+	ddio.dpd_drug_code,
+	p.pseudodin,
+	ccdd_normalize_ingredient(ddio.dpd_named_ingredient_name) as drug_ingredient_name,
+	ntpmap.ccdd_ntp_ingredient_name as ntp_ingredient_name,
+	ntpi.ccdd_ingredient_stem_name as ingredient_stem_name,
+	CASE
+		WHEN p.unit is not null AND p.strength_is_per_size_unit THEN format('%s %s per %s %s', strength_amount * p.size_amount, strength_unit, p.size_amount, p.size_unit)
+		WHEN (
+			upper(ddio.dosage_unit) not in ('', '%', 'BLISTER', 'CAP', 'DOSE', 'ECC', 'ECT', 'KIT', 'LOZ', 'NIL', 'PATCH', 'SLT', 'SRC', 'SRD', 'SRT', 'SUP', 'SYR', 'TAB', 'V/V', 'W/V', 'W/W')
+		) THEN (
+			CASE
+				WHEN dosage_amount is not null THEN format('%s %s per %s %s', strength_amount, strength_unit, dosage_amount, dosage_unit)
+				ELSE format('%s %s per %s', strength_amount, strength_unit, dosage_unit)
+			END
+		)
+		ELSE format('%s %s', strength_amount, strength_unit)
+	END AS strength_description
+FROM
+	public.dpd_drug_ingredient_option AS ddio
+	INNER JOIN public.ccdd_dpd_ingredient_ntp_mapping ntpmap ON (ntpmap.dpd_named_ingredient_name = ddio.dpd_named_ingredient_name)
+	INNER JOIN ccdd_ntp_ingredient ntpi on(ntpi.name = ntpmap.ccdd_ntp_ingredient_name)
+	LEFT JOIN public.ccdd_presentation p on(p.dpd_drug_code = ddio.dpd_drug_code)]]></expression>
+	</reference>
+</view>
+
+<view name="ccdd_drug_dosage_form_by_form" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1460" y="1400"/>
+	<reference>
+		<expression><![CDATA[select dd.code as dpd_drug_code, dform.id as mapping_id, dform.ccdd_dosage_form_name from
+	dpd_drug dd,
+	ccdd_dosage_form_mapping dform
+where
+	exists(
+		select * from
+			dpd_drug_form ddf
+			INNER JOIN ccdd_dosage_form_mapping_dpd_form dformForm ON (dformForm.dpd_form_code = ddf.dpd_form_code)
+		where ddf.dpd_drug_code = dd.code AND dformForm.ccdd_dosage_form_mapping_id = dform.id
+	)
+	AND
+	not exists(
+		select * from
+			ccdd_dosage_form_mapping_dpd_form dformFormOther
+		where dformFormOther.ccdd_dosage_form_mapping_id = dform.id AND not exists(
+			select * from
+				dpd_drug_form ddf
+			where ddf.dpd_drug_code = dd.code AND dformFormOther.dpd_form_code = ddf.dpd_form_code
+		)
+	)
+	AND
+	not exists(
+		select * from
+			dpd_drug_form ddfOther
+		where ddfOther.dpd_drug_code = dd.code AND not exists(
+			select * from
+				ccdd_dosage_form_mapping_dpd_form dformForm
+			where dformForm.ccdd_dosage_form_mapping_id = dform.id AND dformForm.dpd_form_code = ddfOther.dpd_form_code
+		)
+	)
+]]></expression>
+	</reference>
+</view>
+
+<view name="ccdd_drug_dosage_form_by_route" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1460" y="1480"/>
+	<reference>
+		<expression><![CDATA[select dd.code as dpd_drug_code, dform.id as mapping_id, dform.ccdd_dosage_form_name from
+	dpd_drug dd,
+	ccdd_dosage_form_mapping dform
+where
+	exists(
+		select * from
+			dpd_drug_route ddr
+			INNER JOIN ccdd_dosage_form_mapping_dpd_route dformRoute ON (dformRoute.dpd_route_code = ddr.dpd_route_code)
+		where ddr.dpd_drug_code = dd.code AND dformRoute.ccdd_dosage_form_mapping_id = dform.id
+	)
+	AND
+	not exists(
+		select * from
+			ccdd_dosage_form_mapping_dpd_route dformRouteOther
+		where dformRouteOther.ccdd_dosage_form_mapping_id = dform.id AND not exists(
+			select * from
+				dpd_drug_route ddr
+			where ddr.dpd_drug_code = dd.code AND dformRouteOther.dpd_route_code = ddr.dpd_route_code
+		)
+	)
+	AND
+	not exists(
+		select * from
+			dpd_drug_route ddrOther
+		where ddrOther.dpd_drug_code = dd.code AND not exists(
+			select * from
+				ccdd_dosage_form_mapping_dpd_route dformRoute
+			where dformRoute.ccdd_dosage_form_mapping_id = dform.id AND dformRoute.dpd_route_code = ddrOther.dpd_route_code
+		)
+	)
+]]></expression>
+	</reference>
+</view>
+
+<view name="ccdd_drug_dosage_form" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1460" y="1560"/>
+	<reference>
+		<expression><![CDATA[select
+	dd.code as dpd_drug_code,
+	(
+		select dfbf.ccdd_dosage_form_name from
+			ccdd_drug_dosage_form_by_form dfbf
+			INNER JOIN ccdd_drug_dosage_form_by_route dfbr USING(dpd_drug_code, mapping_id)
+		where dfbf.dpd_drug_code = dd.code
+	) as dosage_form
+from
+	dpd_drug dd]]></expression>
+	</reference>
+</view>
+
+<view name="ccdd_drug_ingredient_summary" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1460" y="1300"/>
+	<reference>
+		<expression><![CDATA[select
+	dd.code as dpd_drug_code,
+	p.pseudodin,
+	(case
+		when p.strength_is_per_size_unit then p.unit
+		else format('%s %s %s', p.size_amount, p.size_unit, p.unit)
+	end) as uop_suffix,
+	(
+		select
+			STRING_AGG(
+				format('%s %s', dod.drug_ingredient_name, dod.strength_description),
+				' and '
+				order by dod.ingredient_stem_name
+			)
+		from
+			ccdd_drug_ingredient_option_description dod
+		where dod.dpd_drug_code = dd.code and dod.pseudodin is not distinct from p.pseudodin
+	) as drug_ingredient_detail_set,
+	(
+		select
+			STRING_AGG(
+				format('%s %s', dod.ntp_ingredient_name, dod.strength_description),
+				' and '
+				order by dod.ingredient_stem_name
+			)
+		from
+			ccdd_drug_ingredient_option_description dod
+		where dod.dpd_drug_code = dd.code and dod.pseudodin is not distinct from p.pseudodin
+	) as ntp_ingredient_detail_set
+from
+	dpd_drug dd
+	LEFT JOIN ccdd_presentation p on(p.dpd_drug_code = dd.code)
+]]></expression>
+	</reference>
+</view>
+
+<index name="ccdd_presentation_dpd_drug_code" table="public.ccdd_presentation"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<column name="dpd_drug_code"/>
+		</idxelement>
+</index>
+
+<index name="dpd_drug_ingredient_dpd_drug_code" table="public.dpd_drug_ingredient"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<column name="dpd_drug_code"/>
+		</idxelement>
+</index>
+
+<index name="ccdd_dpd_ingredient_ntp_mapping_dpd_named_ingredient_name" table="public.ccdd_dpd_ingredient_ntp_mapping"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<column name="dpd_named_ingredient_name"/>
+		</idxelement>
+</index>
+
+<index name="ccdd_ntp_ingredient_stem_name" table="public.ccdd_ntp_ingredient"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<column name="ccdd_ingredient_stem_name"/>
+		</idxelement>
+</index>
+
+<index name="dpd_drug_form_drug" table="public.dpd_drug_form"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<column name="dpd_drug_code"/>
+		</idxelement>
+</index>
+
+<index name="dpd_drug_form_form" table="public.dpd_drug_form"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<column name="dpd_form_code"/>
+		</idxelement>
+</index>
+
+<index name="dpd_drug_route_drug" table="public.dpd_drug_route"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<column name="dpd_drug_code"/>
+		</idxelement>
+</index>
+
+<index name="dpd_drug_route_route" table="public.dpd_drug_route"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<column name="dpd_route_code"/>
+		</idxelement>
+</index>
+
+<index name="ccdd_dosage_form_mapping_dpd_form_id" table="public.ccdd_dosage_form_mapping_dpd_form"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<column name="ccdd_dosage_form_mapping_id"/>
+		</idxelement>
+</index>
+
+<index name="ccdd_dosage_form_mapping_dpd_form_form" table="public.ccdd_dosage_form_mapping_dpd_form"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<column name="dpd_form_code"/>
+		</idxelement>
+</index>
+
+<index name="ccdd_dosage_form_mapping_dpd_route_id" table="public.ccdd_dosage_form_mapping_dpd_route"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<column name="ccdd_dosage_form_mapping_id"/>
+		</idxelement>
+</index>
+
+<index name="ccdd_dosage_form_mapping_dpd_route_route" table="public.ccdd_dosage_form_mapping_dpd_route"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<column name="dpd_route_code"/>
+		</idxelement>
+</index>
+
+<index name="ccdd_drug_dosage_form_by_form_drug_code" table="public.ccdd_drug_dosage_form_by_form"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<expression><![CDATA[dpd_drug_code]]></expression>
+		</idxelement>
+</index>
+
+<index name="ccdd_drug_dosage_form_by_route_drug_code" table="public.ccdd_drug_dosage_form_by_route"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<expression><![CDATA[dpd_drug_code]]></expression>
+		</idxelement>
+</index>
+
+<index name="ccdd_drug_dosage_form_drug_code" table="public.ccdd_drug_dosage_form"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<expression><![CDATA[dpd_drug_code]]></expression>
+		</idxelement>
+</index>
+
+<index name="ccdd_drug_ingredient_summary_drug_code" table="public.ccdd_drug_ingredient_summary"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<expression><![CDATA[dpd_drug_code]]></expression>
+		</idxelement>
+</index>
+
+<index name="dpd_drug_ingredient_option_drug_code" table="public.dpd_drug_ingredient_option"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<column name="dpd_drug_code"/>
+		</idxelement>
+</index>
+
+<view name="ccdd_drug_tm" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1800" y="1200"/>
+	<reference>
+		<expression><![CDATA[select
+	dd.code as dpd_drug_code,
+	tm.code as tm_code,
+	(
+		select
+			string_agg(tmistem.ccdd_ingredient_stem_name, ' and ' order by tmistem.ccdd_ingredient_stem_name)
+		from ccdd_tm_ingredient_stem tmistem
+		where tmistem.ccdd_tm_code = tm.code
+	) as tm_formal_name
+from
+	dpd_drug dd,
+	ccdd_tm tm
+WHERE
+	exists(
+		select * from
+			dpd_drug_ingredient ddi
+			INNER JOIN ccdd_dpd_ingredient_ntp_mapping dintp on(dintp.dpd_named_ingredient_name = ddi.dpd_named_ingredient_name)
+			INNER JOIN ccdd_ntp_ingredient ntpi on(ntpi.name = dintp.ccdd_ntp_ingredient_name)
+			INNER JOIN ccdd_tm_ingredient_stem tmistem on(tmistem.ccdd_ingredient_stem_name = ntpi.ccdd_ingredient_stem_name)
+		where ddi.dpd_drug_code = dd.code AND tmistem.ccdd_tm_code = tm.code
+	)
+	AND
+	not exists(
+		select * from
+			ccdd_tm_ingredient_stem tmistemOther
+		where tmistemOther.ccdd_tm_code = tm.code AND not exists(
+			select * from
+				dpd_drug_ingredient ddi
+				INNER JOIN ccdd_dpd_ingredient_ntp_mapping dintp on(dintp.dpd_named_ingredient_name = ddi.dpd_named_ingredient_name)
+				INNER JOIN ccdd_ntp_ingredient ntpi on(ntpi.name = dintp.ccdd_ntp_ingredient_name)
+			where ddi.dpd_drug_code = dd.code and ntpi.ccdd_ingredient_stem_name = tmistemOther.ccdd_ingredient_stem_name
+		)
+	)
+	AND
+	not exists(
+		select * from
+			dpd_drug_ingredient ddiOther
+		where ddiOther.dpd_drug_code = dd.code AND not exists(
+			select * from
+				ccdd_dpd_ingredient_ntp_mapping dintp
+				INNER JOIN ccdd_ntp_ingredient ntpi on(ntpi.name = dintp.ccdd_ntp_ingredient_name)
+				INNER JOIN ccdd_tm_ingredient_stem tmistem on(tmistem.ccdd_ingredient_stem_name = ntpi.ccdd_ingredient_stem_name)
+			where tmistem.ccdd_tm_code = tm.code and dintp.dpd_named_ingredient_name = ddiOther.dpd_named_ingredient_name
+		)
+	)
+]]></expression>
+	</reference>
+</view>
+
+<index name="ccdd_drug_tm_drug_code" table="public.ccdd_drug_tm"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<expression><![CDATA[dpd_drug_code]]></expression>
+		</idxelement>
+</index>
+
+<index name="ccdd_tm_ingredient_stem_tm_code" table="public.ccdd_tm_ingredient_stem"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<column name="ccdd_tm_code"/>
+		</idxelement>
+</index>
+
+<view name="ccdd_presentation_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2180" y="500"/>
+	<reference alias="pseudodin">
+		<expression><![CDATA[md5(concat(drug_code, unit_of_presentation, uop_size, uop_unit_of_measure))]]></expression>
+	</reference>
+	<reference table="ccdd.unit_of_presentation_csv" column="drug_code" alias="uop" column-alias="dpd_drug_code"/>
+	<reference table="ccdd.unit_of_presentation_csv" column="unit_of_presentation" alias="uop" column-alias="unit"/>
+	<reference alias="size_amount">
+		<expression><![CDATA[CAST(uop.uop_size as double precision)]]></expression>
+	</reference>
+	<reference alias="size_unit">
+		<expression><![CDATA[ccdd_normalized_unit(uop.uop_unit_of_measure)]]></expression>
+	</reference>
+	<reference alias="strength_is_per_size_unit">
+		<expression><![CDATA[uop.calculation = 'Y']]></expression>
+	</reference>
+	<reference table="ccdd.unit_of_presentation_csv" alias="uop"/>
+	<reference>
+		<expression><![CDATA[exists(select * from dpd_drug_source dd where dd.code = uop.drug_code)]]></expression>
+	</reference>
+	<expression type="select-exp">0,1,2,3,4,5</expression>
+	<expression type="from-exp">6</expression>
+	<expression type="simple-exp">7</expression>
+</view>
+
+<relationship name="rel_ccdd_presentation_source_unit_of_presentation_csv" type="reltv"
+	 src-table="public.ccdd_presentation_source"
+	 dst-table="ccdd.unit_of_presentation_csv"
+	 src-required="false" dst-required="false"/>
+
+<view name="ccdd_mp_table">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1600" y="1780"/>
+	<reference>
+		<expression><![CDATA[select
+	COALESCE(p.pseudodin, dd.din) as mp_code,
+	COALESCE(cp.mp_formal_name, format(
+		'%s (%s %s) %s',
+		dd.brand_name_en,
+		dsum.drug_ingredient_detail_set,
+		(CASE
+			WHEN p.pseudodin is not null THEN format(
+				'%s %s',
+				ddform.dosage_form,
+				dsum.uop_suffix
+			)
+			ELSE ddform.dosage_form
+		END),
+		dd.company_name
+	)) as mp_formal_name,
+	tm.tm_code,
+	tm.tm_formal_name
+from
+	dpd_drug dd
+	LEFT JOIN ccdd_presentation p on(p.dpd_drug_code = dd.code)
+	LEFT JOIN ccdd_drug_tm tm on(tm.dpd_drug_code = dd.code)
+	LEFT JOIN ccdd_drug_ingredient_summary dsum on(dsum.dpd_drug_code = dd.code and dsum.pseudodin is not distinct from p.pseudodin)
+	LEFT JOIN ccdd_drug_dosage_form ddform on(ddform.dpd_drug_code = dd.code)
+	LEFT JOIN ccdd_combination_product cp on(cp.dpd_drug_code = dd.code)
+]]></expression>
+	</reference>
+</view>
+
+<constraint name="active_ingredient_drug_code_fkey" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="dpd.drug_product" sql-disabled="true" table="dpd.active_ingredient">
+	<columns names="extract,drug_code" ref-type="src-columns"/>
+	<columns names="extract,drug_code" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="companies_drug_code_fkey" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="dpd.drug_product" sql-disabled="true" table="dpd.companies">
+	<columns names="extract,drug_code" ref-type="src-columns"/>
+	<columns names="extract,drug_code" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="pharmaceutical_form_drug_code_fkey" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="dpd.drug_product" sql-disabled="true" table="dpd.pharmaceutical_form">
+	<columns names="extract,drug_code" ref-type="src-columns"/>
+	<columns names="extract,drug_code" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="route_drug_code_fkey" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="dpd.drug_product" sql-disabled="true" table="dpd.route">
+	<columns names="extract,drug_code" ref-type="src-columns"/>
+	<columns names="extract,drug_code" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="status_drug_code_fkey" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="dpd.drug_product" sql-disabled="true" table="dpd.status">
+	<columns names="extract,drug_code" ref-type="src-columns"/>
+	<columns names="extract,drug_code" ref-type="dst-columns"/>
+</constraint>
+
+<relationship name="rel_active_ingredient_drug_product" type="relfk"
+	 src-table="dpd.active_ingredient"
+	 dst-table="dpd.drug_product"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_companies_drug_product" type="relfk"
+	 src-table="dpd.companies"
+	 dst-table="dpd.drug_product"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_pharmaceutical_form_drug_product" type="relfk"
+	 src-table="dpd.pharmaceutical_form"
+	 dst-table="dpd.drug_product"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_route_drug_product" type="relfk"
+	 src-table="dpd.route"
+	 dst-table="dpd.drug_product"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_status_drug_product" type="relfk"
+	 src-table="dpd.status"
+	 dst-table="dpd.drug_product"
+	 src-required="false" dst-required="false"/>
+
+</dbmodel>
