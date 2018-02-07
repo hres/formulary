@@ -222,3 +222,4 @@ REFRESH MATERIALIZED VIEW ccdd_drug_dosage_form_by_route;
 REFRESH MATERIALIZED VIEW ccdd_drug_dosage_form;
 REFRESH MATERIALIZED VIEW ccdd_drug_ingredient_summary;
 REFRESH MATERIALIZED VIEW ccdd_drug_tm;
+REFRESH MATERIALIZED VIEW ccdd_drug_status;

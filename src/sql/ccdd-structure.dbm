@@ -3,7 +3,7 @@
 CAUTION: Do not modify this file unless you know what you are doing.
          Unexpected results may occur if the code is changed deliberately.
 -->
-<dbmodel pgmodeler-ver="0.9.0" last-position="985,1375" last-zoom="1"
+<dbmodel pgmodeler-ver="0.9.0" last-position="639,1389" last-zoom="1"
 	 default-owner="postgres">
 <database name="sandbox">
 </database>
@@ -1558,7 +1558,8 @@ FROM
 			END
 		)
 		ELSE format('%s %s', strength_amount, strength_unit)
-	END AS strength_description
+	END AS strength_description,
+	ntpmap.ccdd
 FROM
 	public.dpd_drug_ingredient_option AS ddio
 	INNER JOIN public.ccdd_dpd_ingredient_ntp_mapping ntpmap ON (ntpmap.dpd_named_ingredient_name = ddio.dpd_named_ingredient_name)
@@ -1675,31 +1676,24 @@ from
 		when p.strength_is_per_size_unit then p.unit
 		else format('%s %s %s', p.size_amount, p.size_unit, p.unit)
 	end) as uop_suffix,
-	(
-		select
-			STRING_AGG(
-				format('%s %s', dod.drug_ingredient_name, dod.strength_description),
-				' and '
-				order by dod.ingredient_stem_name
-			)
-		from
-			ccdd_drug_ingredient_option_description dod
-		where dod.dpd_drug_code = dd.code and dod.pseudodin is not distinct from p.pseudodin
+	STRING_AGG(
+		format('%s %s', dod.drug_ingredient_name, dod.strength_description),
+		' and '
+		order by dod.ingredient_stem_name
 	) as drug_ingredient_detail_set,
-	(
-		select
-			STRING_AGG(
-				format('%s %s', dod.ntp_ingredient_name, dod.strength_description),
-				' and '
-				order by dod.ingredient_stem_name
-			)
-		from
-			ccdd_drug_ingredient_option_description dod
-		where dod.dpd_drug_code = dd.code and dod.pseudodin is not distinct from p.pseudodin
-	) as ntp_ingredient_detail_set
+	STRING_AGG(
+		format('%s %s', dod.ntp_ingredient_name, dod.strength_description),
+		' and '
+		order by dod.ingredient_stem_name
+	) as ntp_ingredient_detail_set,
+	bool_and(dod.ccdd) as ccdd_all
 from
 	dpd_drug dd
 	LEFT JOIN ccdd_presentation p on(p.dpd_drug_code = dd.code)
+	LEFT JOIN ccdd_drug_ingredient_option_description dod on(dod.dpd_drug_code = dd.code and dod.pseudodin is not distinct from p.pseudodin)
+group by
+	dd.code,
+	p.pseudodin
 ]]></expression>
 	</reference>
 </view>
@@ -1916,31 +1910,23 @@ WHERE
 		</idxelement>
 </index>
 
-<view name="ccdd_presentation_source" materialized="true">
+<view name="ccdd_drug_status" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2180" y="500"/>
-	<reference alias="pseudodin">
-		<expression><![CDATA[md5(concat(drug_code, unit_of_presentation, uop_size, uop_unit_of_measure))]]></expression>
-	</reference>
-	<reference table="ccdd.unit_of_presentation_csv" column="drug_code" alias="uop" column-alias="dpd_drug_code"/>
-	<reference table="ccdd.unit_of_presentation_csv" column="unit_of_presentation" alias="uop" column-alias="unit"/>
-	<reference alias="size_amount">
-		<expression><![CDATA[CAST(uop.uop_size as double precision)]]></expression>
-	</reference>
-	<reference alias="size_unit">
-		<expression><![CDATA[ccdd_normalized_unit(uop.uop_unit_of_measure)]]></expression>
-	</reference>
-	<reference alias="strength_is_per_size_unit">
-		<expression><![CDATA[uop.calculation = 'Y']]></expression>
-	</reference>
-	<reference table="ccdd.unit_of_presentation_csv" alias="uop"/>
+	<position x="1800" y="1280"/>
 	<reference>
-		<expression><![CDATA[exists(select * from dpd_drug_source dd where dd.code = uop.drug_code)]]></expression>
+		<expression><![CDATA[select
+	dd.code as dpd_drug_code,
+	(array_agg(ds_fm.history_date order by ds_fm.history_date))[1] as first_market_date,
+	(array_agg(ds_c.status order by ds_c.history_date))[1] as current_status,
+	(array_agg(ds_c.history_date order by ds_c.history_date))[1] as current_status_date,
+	(array_agg(ds_c.expiration_date order by ds_c.history_date))[1] as current_expiration_date
+from
+	dpd_drug dd
+	LEFT JOIN dpd.status ds_fm on(ds_fm.drug_code = dd.code and ds_fm.status = 'MARKETED')
+	LEFT JOIN dpd.status ds_c on(ds_c.drug_code = dd.code and ds_c.current_status_flag = 'Y')
+group by dd.code]]></expression>
 	</reference>
-	<expression type="select-exp">0,1,2,3,4,5</expression>
-	<expression type="from-exp">6</expression>
-	<expression type="simple-exp">7</expression>
 </view>
 
 <relationship name="rel_ccdd_presentation_source_unit_of_presentation_csv" type="reltv"
@@ -1981,13 +1967,26 @@ WHERE
 			)
 			ELSE ddform.dosage_form
 		END)
-	)) as ntp_formal_name
+	)) as ntp_formal_name,
+	(CASE
+		WHEN ds.current_status = 'MARKETED' THEN ds.first_market_date
+		ELSE ds.current_status_date
+	END) as mp_status_effective_date,
+	(CASE
+		WHEN ds.current_status = 'MARKETED' THEN 'active'
+		WHEN ds.current_status = 'CANCELLED POST MARKET' AND ds.current_expiration_date > '2017-12-05' THEN 'active'
+		ELSE 'inactive'
+	END) as mp_status,
+	ds.first_market_date
 from
 	dpd_drug dd
 	LEFT JOIN ccdd_presentation p on(p.dpd_drug_code = dd.code)
 	LEFT JOIN ccdd_drug_ingredient_summary dsum on(dsum.dpd_drug_code = dd.code and dsum.pseudodin is not distinct from p.pseudodin)
 	LEFT JOIN ccdd_drug_dosage_form ddform on(ddform.dpd_drug_code = dd.code)
+	LEFT JOIN ccdd_drug_status ds on(ds.dpd_drug_code = dd.code)
 	LEFT JOIN ccdd_combination_product cp on(cp.dpd_drug_code = dd.code)
+where
+	dsum.ccdd_all
 ]]></expression>
 	</reference>
 </view>
@@ -2043,11 +2042,20 @@ from
 		from ccdd.ntp_table prevntp
 		where prevntp.ntp_formal_name = candidate.ntp_formal_name
 	) as ntp_code,
-	candidate.ntp_formal_name
+	candidate.ntp_formal_name,
+	(CASE
+		WHEN bool_and(candidate.mp_status = 'inactive') THEN 'inactive'
+		ELSE 'active'
+	END) as ntp_status,
+	to_char((CASE
+		WHEN bool_and(candidate.mp_status = 'inactive') THEN max(candidate.mp_status_effective_date)
+		ELSE min(candidate.first_market_date)
+	END), 'YYYYMMDD') as ntp_status_effective_time
 from
 	ccdd_mp_table_candidate candidate
 GROUP BY
 	candidate.ntp_formal_name
+order by ntp_status_effective_time
 ]]></expression>
 	</reference>
 </view>
@@ -2059,12 +2067,23 @@ GROUP BY
 	<reference>
 		<expression><![CDATA[select
 	dtm.tm_code,
-	dtm.tm_formal_name
+	dtm.tm_formal_name,
+	(CASE
+		WHEN bool_and(candidate.mp_status = 'inactive') THEN 'inactive'
+		ELSE 'active'
+	END) as tm_status,
+	to_char((CASE
+		WHEN bool_and(candidate.mp_status = 'inactive') THEN max(candidate.mp_status_effective_date)
+		ELSE min(candidate.first_market_date)
+	END), 'YYYYMMDD') as tm_status_effective_time
 from
-	ccdd_drug_tm dtm
+	ccdd_mp_table_candidate candidate
+	LEFT JOIN ccdd_drug_tm dtm on(candidate.dpd_drug_code = dtm.dpd_drug_code)
+where tm_code is not null
 GROUP BY
 	dtm.tm_code,
 	dtm.tm_formal_name
+order by tm_status_effective_time
 ]]></expression>
 	</reference>
 </view>
@@ -2100,12 +2119,49 @@ from
 	<reference>
 		<expression><![CDATA[select
 	mp_code,
-	mp_formal_name
+	mp_formal_name,
+	mp_status,
+	to_char(mp_status_effective_date, 'YYYYMMDD') as mp_status_effective_time
 from
 	ccdd_mp_table_candidate candidate
 ]]></expression>
 	</reference>
 </view>
+
+<view name="ccdd_presentation_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2180" y="500"/>
+	<reference alias="pseudodin">
+		<expression><![CDATA[md5(concat(drug_code, unit_of_presentation, uop_size, uop_unit_of_measure))]]></expression>
+	</reference>
+	<reference table="ccdd.unit_of_presentation_csv" column="drug_code" alias="uop" column-alias="dpd_drug_code"/>
+	<reference table="ccdd.unit_of_presentation_csv" column="unit_of_presentation" alias="uop" column-alias="unit"/>
+	<reference alias="size_amount">
+		<expression><![CDATA[CAST(uop.uop_size as double precision)]]></expression>
+	</reference>
+	<reference alias="size_unit">
+		<expression><![CDATA[ccdd_normalized_unit(uop.uop_unit_of_measure)]]></expression>
+	</reference>
+	<reference alias="strength_is_per_size_unit">
+		<expression><![CDATA[uop.calculation = 'Y']]></expression>
+	</reference>
+	<reference table="ccdd.unit_of_presentation_csv" alias="uop"/>
+	<reference>
+		<expression><![CDATA[exists(select * from dpd_drug_source dd where dd.code = uop.drug_code)]]></expression>
+	</reference>
+	<expression type="select-exp">0,1,2,3,4,5</expression>
+	<expression type="from-exp">6</expression>
+	<expression type="simple-exp">7</expression>
+</view>
+
+<index name="ccdd_drug_status_code" table="public.ccdd_drug_status"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<expression><![CDATA[dpd_drug_code]]></expression>
+		</idxelement>
+</index>
 
 <constraint name="active_ingredient_drug_code_fkey" type="fk-constr" comparison-type="MATCH SIMPLE"
 	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="dpd.drug_product" sql-disabled="true" table="dpd.active_ingredient">
