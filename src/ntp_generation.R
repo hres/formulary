@@ -24,7 +24,7 @@ dpd <- src_postgres(dbname = "dpd",
                     port = 5432,
                     user = Sys.getenv("rest_user"),
                     password = Sys.getenv("rest_password"),
-                    options = "-c search_path=dpd_20180103")
+                    options = "-c search_path=dpd_20180202")
 
 ccdd <- src_postgres(dbname = "ccdd",
                      host = "rest.hc.local",
@@ -59,7 +59,7 @@ ccdd_start_date <- "2017-07-04"
 
 # Get raw data from dpd database on rest.hc.local. Naming convention for schema based on extracts is dpd_[yyyymmdd] 
 
-dpdextractdate <- "2018-01-03"
+dpdextractdate <- "2018-02-02"
 
 # Text files required for generation process
 
