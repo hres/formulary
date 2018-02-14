@@ -9,7 +9,7 @@ Using delta code to produce an incremental update to the CCDD data files for QA.
 
 No changes to coded_attribute,  or device-ntp.
 
-```{r dbinit}
+```{r dbinit, echo=FALSE, results=FALSE, message=FALSE}
 library(dplyr)
 library(dtplyr)
 library(dbplyr)
@@ -85,7 +85,7 @@ The February 2018 CCDD generation will use the following source files:
 
 The ingredient stem file has the following changes:
 
-```{r ing_stem_compare}
+```{r ing_stem_compare, echo=FALSE, message=FALSE}
 library(DT)
 ing_stem_jan <- fread("../src/Julie/Ingredient_Stem_File_20180110v2.csv")
 ing_stem_feb <- fread("../src/Ingredient Stem/Ingredient_Stem_File_20180201.csv") %>% filter(!dpd_ingredient == "")
@@ -101,7 +101,7 @@ Note that the February file had a number of blank lines that had to be removed b
 
 ## Products impacted by changes to Ingredient Stem table
 
-```{r dpd_ing_change_products}
+```{r dpd_ing_change_products, echo = FALSE, message=FALSE}
 dpd_first_market_date <- status %>% 
   filter(status == "MARKETED") %>%
   group_by(drug_code) %>%
@@ -138,9 +138,9 @@ datatable(dpd_human_ccdd_products_changed)
 
 ## Comination Products differences
 
-The Combination products file has changes to the NTP_TYPE column only:
+The Combination products file has changes to the NTP_TYPE column only. Note that the February file had differences in Drug Identification Number (no leading zeros), and additional blank rows that complicated this comparison.
 
-```{r combo_compare}
+```{r combo_compare, echo = FALSE, message = FALSE}
 combo_jan <- fread("../src/Julie/Combination Products 20171101.csv", encoding = "Latin-1", colClasses = "character") %>% as.tibble()
 combo_feb <- fread("../src/Julie/Combination Products 20180205.csv", encoding = "Latin-1") %>% mutate(DRUG_IDENTIFICATION_NUMBER = sprintf("%08d", DRUG_IDENTIFICATION_NUMBER)) %>% filter(!is.na(DRUG_CODE)) %>% as.tibble() %>% mutate_all(as.character)
 combo_diff <- anti_join(combo_feb, combo_jan, by = c("DRUG_CODE", "DRUG_IDENTIFICATION_NUMBER", "MP_FORMAL_NAME", "NTP_FORMAL_NAME"))
@@ -150,7 +150,7 @@ datatable(combo_diff)
 
 ## Unit of Presentation differences
 
-```{r uop_compare}
+```{r uop_compare, echo = FALSE, message = FALSE}
 uop_jan <- fread("../src/Julie/Unit_of_Presentation 20180103.csv", encoding = "Latin-1") %>% as.tibble()
 uop_feb <- fread("../src/Julie/Units of Presentation 20180205.csv", encoding = "Latin-1") %>% as.tibble()
 uop_diff <- anti_join(uop_feb, uop_jan)
@@ -163,7 +163,7 @@ datatable(uop_diff)
 The following changes are detected between DPD extracts from January 3, 2018 and February 2, 2018:
 
 
-```{r dpd_compare}
+```{r dpd_compare, message = FALSE}
 library(compareDF)
 library(dplyr)
 library(dtplyr)
@@ -202,7 +202,7 @@ We also need to recalculate any product that was previously in the CCDD but chan
 Need to add in marketed products with date of marketing after CCDD start date.
 Lastly, we need to add new MPs (in this case there are none because they mostly went to approved status, and the 3 that went right to active are sunscreens).
 
-```{r ccdd_changes}
+```{r ccdd_changes, echo = FALSE}
 for(f in list.files("../releases/20180123/")) {ccddname <- str_replace(f, ".csv", "")
                                    assign(ccddname, fread(paste0("../releases/20180123/", f)))}
 
@@ -212,12 +212,13 @@ ccdd_uop_changed <- uop_diff %>%
                     left_join(drug, copy = TRUE) %>%                  
                     select(drug_code, drug_identification_number, brand_name) %>%
                     mutate(reason = "Unit of Presentation Changed")
+
 dpd_changed <-  mp_to_din_or_npn_mapping_20180123 %>%
                 as.tibble() %>%
                 distinct(Health_Canada_identifier) %>%
                 select(drug_identification_number = Health_Canada_identifier, everything()) %>%
                 left_join(drug, copy = TRUE) %>%
-                left_join(dpd_product_changes) %>%
+                semi_join(dpd_product_changes) %>%
                 select(drug_code) %>%
                 left_join(drug, copy = TRUE) %>%
                 select(drug_code, drug_identification_number, brand_name) %>%
@@ -226,7 +227,7 @@ dpd_changed <-  mp_to_din_or_npn_mapping_20180123 %>%
 dpd_new_product_existing_tm <- dpd_human_ccdd_products %>%
                                 filter(current_status == "MARKETED") %>%
                                 left_join(ing, copy = TRUE) %>%
-                                left_join(ing_stem_feb %>% select(ingredient = dpd_ingredient, ccdd), copy = TRUE) %>%
+                                semi_join(ing_stem_feb %>% select(ingredient = dpd_ingredient, ccdd), copy = TRUE) %>%
                                 anti_join(mp_to_din_or_npn_mapping_20180123 %>% select(drug_identification_number = Health_Canada_identifier), copy = TRUE) %>%
                                 collect() %>%
                                 group_by(drug_code, drug_identification_number, brand_name) %>%
@@ -290,7 +291,7 @@ mp_with_missing_form_routes <- dpd_delta %>%
 datatable(mp_with_missing_form_routes)
 ```
 
-```{r generate_ntps_and_tms}
+```{r generate_ntps_and_tms, echo = FALSE, message = FALSE}
 ccdd_drug_ingredients_raw <- ing %>%
                              semi_join(dpd_delta, copy = TRUE) %>%
                              select(dpd_ingredient = ingredient, everything()) %>%
@@ -430,7 +431,7 @@ ccdd_mp_source_raw <- dpd_delta %>%
               summarize(route_of_administration = paste(route_of_administration, collapse = ", ")), copy = TRUE) %>%
   collect() %>%
    left_join(ntp_dosage_form_map) %>%
-                       left_join(ccdd_ingredient_set_source) %>%
+                       left_join(ccdd_ingredient_set_source, by = c("drug_code")) %>%
   left_join(ccdd_packaging_raw) %>%
   mutate(mp_formal_name = sprintf("%s (%s %s) %s",
                                          brand_name,
@@ -464,11 +465,11 @@ ccdd_mp_source_raw <- dpd_delta %>%
 
 # This is an important intermediate
 ccdd_mp_source <- ccdd_mp_source_raw %>% 
-  filter(ccdd == TRUE) %>%
+#  filter(ccdd == TRUE) %>%
   left_join(dpd_current_status, copy = TRUE) %>%
   left_join(dpd_first_market_date, copy = TRUE) %>%
   left_join(ccdd_tm_reg %>% select(tm_formal_name, tm_code), copy = TRUE) %>%
-  #left_join(tm_full_release_20180123 %>% select(tm_formal_name, tm_code), copy = TRUE) %>%
+ # left_join(tm_full_release_20180123 %>% select(tm_formal_name, tm_code), copy = TRUE) %>%
   # mutate(ccdd = ifelse(!is.na(tm_code), 
   #                      TRUE,
   #                      FALSE)) %>%
@@ -496,51 +497,66 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
   filter(!is.na(ntp_code)) %>%
   bind_rows(ntp_code_reg)
 
-max_tm_code <- max(as.integer(tm_full_release_20180123$tm_code), na.rm = TRUE)
+ccdd_mp_source[ccdd_mp_source$tm_formal_name == "chloral hydrate",]$tm_code <- 8000808
+ccdd_mp_source[ccdd_mp_source$tm_formal_name == "theophylline",]$tm_code <- 8000647
+ccdd_mp_source[ccdd_mp_source$tm_formal_name == "nitrazepam",]$tm_code <- 8000665
+ccdd_mp_source[ccdd_mp_source$tm_formal_name == "zolmitriptan",]$tm_code <- 8001188
+ccdd_mp_source[ccdd_mp_source$tm_formal_name == "midazolam",]$tm_code <- 8001213
+ccdd_mp_source[ccdd_mp_source$tm_formal_name == "triazolam",]$tm_code <- 8000797
+ccdd_mp_source[ccdd_mp_source$tm_formal_name == "eletriptan",]$tm_code <- 8001412
+ccdd_mp_source[ccdd_mp_source$tm_formal_name == "almotriptan",]$tm_code <- 8001371
+ccdd_mp_source[ccdd_mp_source$tm_formal_name == "zolpidem",]$tm_code <- 8001689
+ccdd_mp_source[ccdd_mp_source$tm_formal_name == "naratriptan",]$tm_code <- 8001165
+ccdd_mp_source[ccdd_mp_source$tm_formal_name == "dexmedetomidine",]$tm_code <- 8001625
+ccdd_mp_source[ccdd_mp_source$tm_formal_name == "brimonidine",]$tm_code <- 8001139
 
-new_tms <- ccdd_mp_source %>% 
-           filter(is.na(tm_code), ccdd == TRUE) %>%
+
+max_tm_code <- max(as.integer(ccdd_mp_source$tm_code), na.rm = TRUE)
+
+new_tms <- ccdd_mp_source %>%
+           filter(is.na(tm_code)) %>%
            count(tm_formal_name, sort = TRUE) %>%
            mutate(tm_code = max_tm_code + 1:n())
 
 max_ntp_code <- max(as.integer(ntp_full_release_20180123$ntp_code))
 
 new_ntps <- ccdd_mp_source %>%
-            filter(is.na(ntp_code), ccdd == TRUE) %>%
+            filter(is.na(ntp_code)) %>%
             count(ntp_formal_name, sort = TRUE) %>%
             mutate(ntp_code = max_ntp_code + 1:n())
 
 
-max_pseudodin_code <- mp_full_release_20180123 %>%
-                      as.tibble() %>%
-                      filter(str_detect(mp_code, "^7")) %>%
-                      mutate(mp_code = as.integer(mp_code)) %>%
-                      extract("mp_code") %>%
-                      max()
-
-ccdd_pseudodins <- ccdd_mp_source %>%
-                    group_by(drug_identification_number) %>% 
-                         filter(n() > 1, ccdd == TRUE) %>%
-                         ungroup() %>%
-                         distinct(drug_code, mp_formal_name, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
-                         left_join(mp_full_release_20180123 %>% select(mp_code, mp_formal_name)) %>%
-                         mutate(mp_code = if_else(is.na(mp_code), 1:n() + max_pseudodin_code, as.integer(mp_code))) %>%
-           select(mp_code, drug_code, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
-           as.data.table() %>%
-           setkey(mp_formal_name)
+# max_pseudodin_code <- mp_full_release_20180123 %>%
+#                       as.tibble() %>%
+#                       filter(str_detect(mp_code, "^7")) %>%
+#                       mutate(mp_code = as.integer(mp_code)) %>%
+#                       extract("mp_code") %>%
+#                       max()
+# 
+# ccdd_pseudodins <- ccdd_mp_source %>%
+#                     group_by(drug_identification_number) %>%
+#                          filter(n() > 1) %>%
+#                          ungroup() %>%
+#                          distinct(drug_code, mp_formal_name, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
+#                          left_join(mp_full_release_20180123 %>% select(mp_code, mp_formal_name)) %>%
+#                          mutate(mp_code = if_else(is.na(mp_code), 1:n() + max_pseudodin_code, as.integer(mp_code))) %>%
+#            select(mp_code, drug_code, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
+#            as.data.table() %>%
+#            setkey(mp_formal_name)
 
 ccdd_mp_source <- ccdd_mp_source %>%
                   mutate(tm_code = as.integer(tm_code),
                          ntp_code = as.integer(ntp_code)) %>%
                   mutate(tm_code = if_else(is.na(tm_code), new_tms[match(tm_formal_name, new_tms$tm_formal_name),]$tm_code, tm_code),
                          ntp_code = if_else(is.na(ntp_code), new_ntps[match(ntp_formal_name, new_ntps$ntp_formal_name),]$ntp_code, ntp_code)) %>%
-                  left_join(ccdd_pseudodins %>% select(mp_formal_name, mp_code)) %>%
-                  mutate(mp_code = as.character(mp_code),
-                         mp_code = if_else(is.na(mp_code), drug_identification_number, mp_code))
+                 # left_join(ccdd_pseudodins %>% select(mp_formal_name, mp_code)) %>%
+                  # mutate(mp_code = as.character(mp_code),
+                  #        mp_code = if_else(is.na(mp_code), drug_identification_number, mp_code))
+                  mutate(mp_code = drug_identification_number)
  
 datatable(new_tms) 
 datatable(new_ntps)
-datatable(ccdd_pseudodins)
+#datatable(ccdd_pseudodins)
 
 ```
 
@@ -548,13 +564,13 @@ datatable(ccdd_pseudodins)
 
 Now we should have everything we need to generate deltas against last months extract
 
-```{r ccdd_concepts}
+```{r ccdd_concepts, echo = FALSE, message = FALSE}
 mp_reasons <- ccdd_mp_source %>%
               group_by(mp_code) %>%
               summarize(reason = paste(unique(reason), collapse = ", "))
 
 ccdd_mp_table <- ccdd_mp_source %>%
-     filter(ccdd == TRUE) %>%
+    # filter(ccdd == TRUE) %>%
     mutate(
          mp_en_description = NA,
          mp_fr_description = NA,
@@ -576,7 +592,7 @@ ccdd_mp_table <- ccdd_mp_source %>%
   left_join(mp_reasons)
 
 ccdd_ntp_table <- ccdd_mp_source %>%
-    filter(ccdd == TRUE) %>%
+   # filter(ccdd == TRUE) %>%
     group_by(ntp_code, ntp_formal_name) %>%
   dplyr::summarize(n_mp = n_distinct(drug_identification_number),
                    greater_than_5_AIs = any(greater_than_5_AIs),
@@ -600,7 +616,7 @@ ccdd_ntp_table <- ccdd_mp_source %>%
          everything())
 
 ccdd_tm_table <- ccdd_mp_source %>%
-filter(ccdd == TRUE) %>%
+#filter(ccdd == TRUE) %>%
     group_by(tm_code, tm_formal_name) %>%
   dplyr::summarize(greater_than_5_AIs = any(greater_than_5_AIs),
                    n_dins = n_distinct(drug_identification_number),
@@ -614,7 +630,7 @@ filter(ccdd == TRUE) %>%
   select(tm_code, everything())
 
 mp_ntp_tm_relationship <- ccdd_mp_source %>%
-                          filter(ccdd == TRUE) %>%
+                        #  filter(ccdd == TRUE) %>%
                           select(mp_code, 
                                  mp_formal_name,
                                  Health_Canada_identifier = drug_identification_number,
@@ -629,23 +645,118 @@ mp_ntp_tm_relationship <- ccdd_mp_source %>%
 
 ## Calculating the Deltas
 
-```{r delta_calculation}
+```{r delta_calculation, echo = FALSE, message = FALSE}
 ccdd_mp_table_additions <- ccdd_mp_table %>%
                             mutate_all(as.character) %>%
-                            select(mp_code, drug_identification_number, brand_name, reason) %>%
-                            anti_join(mp_full_release_20180123 %>% as.tibble() %>% mutate_all(as.character))
+                            select(mp_code, drug_identification_number) %>%
+                            anti_join(mp_full_release_20180123 %>% as.tibble() %>% mutate_all(as.character)) %>%
+                            left_join(ccdd_mp_table) %>%
+                            select(mp_code, 
+                                   drug_identification_number, 
+                                   mp_status, 
+                                   mp_status_effective_time, 
+                                   Health_Canada_identifier = drug_identification_number) %>%
+                            mutate_at("mp_status_effective_time", format, "%Y%m%d")
 
 ccdd_mp_table_changes <- ccdd_mp_table %>%
-                          filter(!mp_code %in% ccdd_mp_table_additions$mp_code)
+                          filter(!mp_code %in% ccdd_mp_table_additions$mp_code) %>%
+                          mutate_at("mp_status_effective_time", format, "%Y%m%d") %>%
+                          select(Health_Canada_identifier = drug_identification_number, everything())
 
 ccdd_ntp_table_additions <- ccdd_ntp_table %>%
-                            mutate_all(as.character) %>%
-                            anti_join(ntp_full_release_20180123 %>% as.tibble() %>% mutate_all(as.character))
+                            mutate_at("ntp_code", as.character) %>%
+                            anti_join(ntp_full_release_20180123 %>% as.tibble(), by = c("ntp_code")) %>%
+                            mutate_at("ntp_status_effective_time", format, "%Y%m%d")
+
+ccdd_ntp_table_changes <- ccdd_ntp_table %>%
+                            filter(!ntp_code %in% ccdd_ntp_table_additions$ntp_code) %>%
+                            mutate_at("ntp_code", as.character) %>%
+                            mutate_at("ntp_status_effective_time", format, "%Y%m%d") %>%
+                            anti_join(ntp_full_release_20180123 %>% as.tibble())
 
 ccdd_tm_table_additions <- ccdd_tm_table %>% 
+                           as.tibble() %>%
+                           select(tm_code, tm_formal_name) %>%
                            mutate_all(as.character) %>%
-                           anti_join(tm_full_release_20180123 %>% as.tibble() %>% mutate_all(as.character))
+                           anti_join(tm_full_release_20180123 %>% as.tibble())
 
-mp_ntp_tm_relationship_delta <- filter(ccdd_mp_source, tm_code %in% ccdd_tm_table_additions$tm_code) %>% select(tm_code, tm_formal_name, ntp_code, ntp_formal_name, mp_code, mp_formal_name, Health_Canada_identifier = drug_identification_number, Health_Canada_description = descriptor) %>% arrange(tm_code, ntp_code, mp_code)
+mp_ntp_tm_relationship_delta <- filter(ccdd_mp_source, mp_code %in% ccdd_mp_table$mp_code) %>% 
+                                select(tm_code, 
+                                       tm_formal_name, 
+                                       ntp_code, 
+                                       ntp_formal_name, 
+                                       mp_code, 
+                                       mp_formal_name, 
+                                       Health_Canada_identifier = drug_identification_number, 
+                                       Health_Canada_description = descriptor) %>% 
+                                arrange(tm_code, ntp_code, mp_code) %>%
+                                mutate_all(as.character)
 
+datatable(ccdd_mp_table_additions)
+datatable(ccdd_mp_table_changes)
+datatable(ccdd_ntp_table_additions)
+datatable(ccdd_tm_table_additions)
+datatable(mp_ntp_tm_relationship_delta)
 ```
+
+Apply changes to previous month's dataset
+```{r ccdd_update, echo = FALSE, message = FALSE}
+mp_full_release_20180214 <- mp_full_release_20180123 %>% 
+                            left_join(mp_to_din_or_npn_mapping_20180123 %>% select(mp_code, Health_Canada_identifier)) %>%
+                              as.tibble() %>%
+                              filter(!mp_code %in% ccdd_mp_table_changes$mp_code) %>%     
+                              bind_rows(ccdd_mp_table_additions, ccdd_mp_table_changes) %>%
+                              left_join(drug %>% select(Health_Canada_identifier = drug_identification_number, descriptor), copy = TRUE) %>%
+                              mutate(mp_type = "DIN") %>%
+                              select(mp_code,
+                                     mp_formal_name,
+                                     mp_en_description,
+                                     mp_fr_description,
+                                     mp_status,
+                                     mp_status_effective_time,
+                                     mp_type,
+                                     Health_Canada_identifier,
+                                     Health_Canada_description = descriptor) %>%
+                              mutate_all(as.character) 
+                              
+
+ntp_full_release_20180214 <- ntp_full_release_20180123 %>%
+                              as.tibble() %>%
+                              filter(!ntp_code %in% ccdd_ntp_table_changes$ntp_code) %>%
+                              bind_rows(ccdd_ntp_table_additions, ccdd_ntp_table_changes) %>%
+                              mutate_all(as.character) %>%
+                              select(ntp_code,
+                                     ntp_formal_name,
+                                     ntp_en_description,
+                                     ntp_fr_description,
+                                     ntp_status,
+                                     ntp_status_effective_time,
+                                     ntp_type)
+
+tm_full_release_20180214 <- tm_full_release_20180123 %>%
+                              as.tibble() %>%
+                              mutate_at("tm_status_effective_time", lubridate::ymd) %>%
+                              bind_rows(ccdd_tm_table_additions %>%
+                                        left_join(ccdd_tm_table %>% mutate_at("tm_code", as.character))) %>%
+                              mutate_at("tm_status_effective_time", format, "%Y%m%d") %>%
+                              select(tm_code,
+                                     tm_formal_name,
+                                     tm_status,
+                                     tm_status_effective_time)
+
+mp_ntp_tm_relationship_20180214 <- mp_ntp_tm_relationship_20180123 %>%
+                                    as.tibble() %>%
+                                    anti_join(mp_ntp_tm_relationship_delta, by = c("tm_code", "ntp_code", "mp_code")) %>%
+                                   bind_rows(mp_ntp_tm_relationship_delta)
+
+write.csv(mp_full_release_20180214, file = "mp_full_release_20180214.csv", row.names = FALSE)
+write.csv(ntp_full_release_20180214, file = "ntp_full_release_20180214.csv", row.names = FALSE)
+write.csv(tm_full_release_20180214, file = "tm_full_release_20180214.csv", row.names = FALSE)
+write.csv(mp_ntp_tm_relationship_20180214, file = "mp_ntp_tm_relationship_20180214.csv", row.names = FALSE)
+
+datatable(mp_full_release_20180214)
+datatable(ntp_full_release_20180214)
+datatable(tm_full_release_20180214)
+datatable(mp_ntp_tm_relationship_20180214)
+```
+
