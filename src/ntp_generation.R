@@ -66,13 +66,13 @@ dpdextractdate <- "2018-02-02"
 # Ingredient Stem
 
 #ingredient_stem_file <- fread("ing_stem_20170822.csv")[-1,-1]
-ingredient_stem_file <- fread("Julie/Ingredient_Stem_File_20180110v2.csv")
+ingredient_stem_file <- fread("Ingredient Stem/Ingredient_Stem_File_20180201.csv")
 
 
 
 # Unit of Presentation
 
-packaging_file <- fread("Julie/Unit_of_Presentation 20180103.csv", data.table = TRUE)
+packaging_file <- fread("Julie/Units of Presentation 20180205.csv", data.table = TRUE)
 
 # Combination Products
 
@@ -89,7 +89,7 @@ packaging_file <- fread("Julie/Unit_of_Presentation 20180103.csv", data.table = 
 #library(readxl)
 #combination_products_file <- read_excel("Julie/Combination Products 20171004.xlsx") %>%
 
- combination_products_file <- fread("Julie/Combination Products 20171101.csv",
+ combination_products_file <- fread("Julie/Combination Products 20180205.csv",
                                     colClasses = c("integer", 
                                                   "character",
                                                   "character",
@@ -98,7 +98,8 @@ packaging_file <- fread("Julie/Unit_of_Presentation 20180103.csv", data.table = 
                                     encoding = "Latin-1") %>%
                               as_tibble() %>%
                               dplyr::rename_all("tolower") %>%
-                              mutate(drug_code = as.integer(drug_code))
+                              mutate(drug_code = as.integer(drug_code)) %>%
+                              filter(!is.na(drug_code))
 # Special Groupings (TMs)
 
 # For each individual ingredient, generate:
@@ -169,7 +170,7 @@ dpd_human_ccdd_products <- drug %>%
   filter(class == "Human") %>%
   left_join(dpd_first_market_date) %>%
   left_join(dpd_current_status) %>%
-  filter((current_status == "MARKETED" & first_market_date < ccdd_start_date) |
+  filter(current_status == "MARKETED"  |
            (current_status == "DORMANT" & current_status_date > ccdd_start_date)|
            current_status == "CANCELLED POST MARKET" & current_status_date > ccdd_start_date)
 
@@ -474,8 +475,8 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
                          filter(n() > 1) %>%
                          ungroup() %>%
                          distinct(., drug_code, mp_formal_name, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
-                         left_join(mp_full_release_20171218 %>% select(mp_code, mp_formal_name)) %>%
-                         mutate(mp_code = if_else(is.na(mp_code), 1:n() + 700380, as.numeric(mp_code))) %>%
+                         left_join(mp_full_release_20180123 %>% select(mp_code, mp_formal_name)) %>%
+                         mutate(mp_code = if_else(is.na(mp_code), 1:n() + 700521, as.numeric(mp_code))) %>%
            select(mp_code, drug_code, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
            as.data.table() %>%
            setkey(mp_formal_name)}
@@ -756,7 +757,7 @@ artifacts <- c(
   "new_ntp_concepts")
   
 for(x in artifacts){
-  filename <- paste(x, "20171011b.csv", sep = "_")
-  write.csv(get(x), file = paste0("../reports/20171011b/", filename), row.names = FALSE)
+  filename <- paste(x, "20180215.csv", sep = "_")
+  write.csv(get(x), file = paste0("../releases/20180215/", filename), row.names = FALSE)
 }
 
