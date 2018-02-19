@@ -1,0 +1,584 @@
+DPD RoA CODE,,,,,DPD PharmForm CODE,NTP_Dosage_Form CODE,NTP_DOSAGE_FORM
+29,,,,,1,,pressurised inhalation
+66,,,,,1,,sublingual spray
+53,,,,,1,,nasal spray
+70,,,,,1,,oromucosal spray
+56,,,,,1,,pressurised inhalation
+70,,,,,2,,cutaneous spray
+29,,,,,2,,powder for nebuliser solution
+62,,,,,2,,rectal foam
+56,,,,,5,,oral capsule
+29,,,,,5,,inhalation powder capsule
+70,,,,,9,,cutaneous cream
+74,,,,,9,,vaginal cream
+62,,,,,9,,rectal cream
+53,,,,,9,,nasal cream
+57,,,,,9,,otic cream
+55,,,,,9,,ophthalmic cream
+32,,,,,12,,solution for injection
+57,,,,,12,,otic drops
+55,,,,,12,,ophthalmic drops
+53,,,,,12,,nasal drops
+56,,,,,12,,oral drops
+70,,,,,12,,cutaneous drops
+70,,,,,13,,dressing
+56,,,,,14,,gastro-resistant capsule
+56,,,,,17,,gastro-resistant tablet
+56,,,,,18,,oral solution
+70,,,,,19,,cutaneous emulsion
+22,,,,,19,,emulsion for injection
+49,,,,,19,,emulsion for injection
+56,,,,,19,,oral emulsion
+55,,,,,19,,ophthalmic drops
+65,,,,,19,,emulsion for injection
+62,,,,,20,,rectal liquid
+56,,,,,23,,effervescent oral tablet
+3,,,,,23,,buccal tablet
+66,,,,,23,,buccal tablet
+29,,,,,25,,medicinal gas
+72,,,,,26,,urethral gel
+70,,,,,26,,cutaneous gel
+65,,,,,30,,implant
+80,,,,,30,,intravitreal implant
+1,,,,,34,,solution for injection
+3,,,,,34,,mouthwash
+5,,,,,34,,dental solution
+6,,,,,34,,solution for haemodialysis
+7,,,,,34,,solution for injection
+10,,,,,34,,solution for injection
+12,,,,,34,,solution for injection
+17,,,,,34,,solution for injection
+18,,,,,34,,solution for injection
+19,,,,,34,,solution for injection
+21,,,,,34,,solution for injection
+22,,,,,34,,solution for injection
+29,,,,,34,,inhalation vapour (liquid)
+33,,,,,34,,irrigation solution
+36,,,,,34,,irrigation solution
+42,,,,,34,,solution for injection
+48,,,,,34,,solution for injection
+49,,,,,34,,solution for injection
+53,,,,,34,,nasal spray
+55,,,,,34,,ophthalmic drops
+56,,,,,34,,oral liquid
+57,,,,,34,,otic drops
+59,,,,,34,,solution for injection
+62,,,,,34,,rectal solution
+63,,,,,34,,solution for injection
+65,,,,,34,,solution for injection
+70,,,,,34,,cutaneous liquid
+105,,,,,34,,cutaneous solution
+104,,,,,34,,cutaneous solution
+84,,,,,34,,solution for injection
+85,,,,,34,,solution for injection
+97,,,,,34,,solution for injection
+70,,,,,36,,lotion
+104,,,,,36,,lotion
+107,,,,,36,,lotion
+56,,,,,39,,lozenge
+56,,,,,42,,gargle/mouthwash
+3,,,,,42,,gargle/mouthwash
+70,,,,,43,,cutaneous ointment
+74,,,,,43,,vaginal ointment
+62,,,,,43,,rectal ointment
+53,,,,,43,,nasal ointment
+57,,,,,43,,otic ointment
+55,,,,,43,,ophthalmic ointment
+70,,,,,45,,pad
+56,,,,,48,,oral powder
+70,,,,,50,,plaster
+56,,,,,52,,oral paste
+70,,,,,52,,cutaneous paste
+5,,,,,52,,oromucosal paste
+56,,,,,53,,granules for oral suspension
+70,,,,,55,,cutaneous powder
+56,,,,,55,,oral powder
+6,,,,,55,,powder for concentrate for solution for haemodialysis
+49,,,,,55,,powder for solution for injection
+29,,,,,55,,inhalation powder
+22,,,,,55,,powder for suspension for injection
+53,,,,,55,,nasal powder
+6,,,,,56,,powder for concentrate for solution for haemodialysis
+12,,,,,56,,powder for solution for injection
+17,,,,,56,,powder for solution for injection
+19,,,,,56,,powder for solution for injection
+21,,,,,56,,powder for solution for injection
+22,,,,,56,,powder for solution for injection
+29,,,,,56,,powder for nebuliser solution
+31,,,,,56,,powder for solution for injection
+33,,,,,56,,powder for solution for injection
+34,,,,,56,,powder for solution for injection
+39,,,,,56,,powder for solution for injection
+40,,,,,56,,powder for solution for injection
+49,,,,,56,,powder for solution for injection
+55,,,,,56,,powder for ophthalmic drops
+56,,,,,56,,oral solution
+62,,,,,56,,powder for rectal solution
+65,,,,,56,,powder for solution for injection
+70,,,,,56,,powder for cutaneous solution
+84,,,,,56,,powder for solution for injection
+96,,,,,56,,powder for solution for injection
+108,,,,,56,,powder for oral solution
+70,,,,,59,,shampoo
+107,,,,,63,,medicated sponge
+56,,,,,68,,prolonged-release oral capsule
+56,,,,,70,,syrup
+56,,,,,75,,prolonged-release oral tablet
+53,,,,,76,,nasal stick
+57,,,,,76,,otic stick
+70,,,,,76,,cutaneous stick
+55,,,,,77,,ophthalmic strip
+56,,,,,77,,orodispersible tablet
+62,,,,,78,,suppository
+74,,,,,78,,pessary
+72,,,,,78,,urethral stick
+10,,,,,79,,suspension for injection
+13,,,,,79,,suspension for injection
+19,,,,,79,,suspension for injection
+21,,,,,79,,suspension for injection
+22,,,,,79,,suspension for injection
+29,,,,,79,,nebuliser suspension
+31,,,,,79,,suspension for injection
+45,,,,,79,,endotracheopulmonary instillation
+42,,,,,79,,suspension for injection
+49,,,,,79,,suspension for injection
+53,,,,,79,,nasal spray
+55,,,,,79,,ophthalmic drops
+56,,,,,79,,oral suspension
+57,,,,,79,,otic drops
+62,,,,,79,,rectal suspension
+63,,,,,79,,suspension for injection
+65,,,,,79,,suspension for injection
+70,,,,,79,,cutaneous suspension
+80,,,,,79,,suspension for injection
+56,,,,,82,,syrup
+56,,,,,85,,oral tablet
+66,,,,,85,,sublingual tablet
+3,,,,,85,,buccal tablet
+62,,,,,85,,enema
+29,,,,,88,,inhalation solution
+5,,,,,94,,toothpaste
+70,,,,,98,,cutaneous spray
+105,,,,,98,,cutaneous spray
+104,,,,,98,,cutaneous spray
+53,,,,,98,,nasal spray
+3,,,,,98,,oromucosal spray
+55,,,,,101,,prolonged-release eye drops
+74,,,,,104,,ring (slow release)
+107,,,,,105,,wipe
+70,,,,,105,,wipe
+104,,,,,105,,wipe
+56,,,,,106,,modified-release oral capsule
+56,,,,,109,,gastro-resistant tablet
+70,,,,,114,,cutaneous gel
+74,,,,,114,,vaginal gel
+100,,,,,114,,intestinal gel
+3,,,,,114,,oromucosal gel
+104,,,,,114,,cutaneous gel
+95,,,,,114,,endocervical gel 
+72,,,,,114,,urethral gel
+62,,,,,114,,rectal gel
+53,,,,,114,,nasal gel
+57,,,,,114,,otic gel
+55,,,,,114,,ophthalmic gel
+56,,,,,114,,oral gel
+5,,,,,114,,dental gel
+89,,,,,114,,periodontal gel
+71,,,,,114,,transdermal gel
+74,,,,,115,,pessary
+55,,,,,116,,ophthalmic insert
+74,,,,,116,,vaginal delivery system
+53,,,,,117,,nasal spray
+66,,,,,117,,sublingual spray
+22,,,,,118,,powder for prolonged-release suspension for injection
+49,,,,,118,,powder for prolonged-release suspension for injection
+89,,,,,123,,periodontal gel
+22,,,,,126,,powder for suspension for injection
+49,,,,,126,,powder for suspension for injection
+56,,,,,126,,oral suspension
+65,,,,,126,,powder for suspension for injection
+96,,,,,126,,powder for intravesical suspension
+70,,,,,129,,swab
+107,,,,,129,,swab
+48,,,,,130,,intrauterine delivery system
+56,,,,,132,,orodispersible tablet
+66,,,,,132,,orodispersible tablet
+1,,,,,134,,solution for injection
+3,,,,,134,,mouthwash
+4,,,,,134,,solution for injection
+5,,,,,134,,dental solution
+6,,,,,134,,solution for haemodialysis
+7,,,,,134,,solution for injection
+10,,,,,134,,solution for injection
+11,,,,,134,,solution for injection
+12,,,,,134,,solution for injection
+13,,,,,134,,solution for injection
+14,,,,,134,,solution for injection
+16,,,,,134,,solution for injection
+18,,,,,134,,solution for injection
+19,,,,,134,,solution for injection
+22,,,,,134,,solution for injection
+29,,,,,134,,inhalation solution
+31,,,,,134,,solution for injection
+32,,,,,134,,solution for injection
+33,,,,,134,,solution for peritoneal dialysis
+36,,,,,134,,irrigation solution
+39,,,,,134,,solution for cardioplegia
+40,,,,,134,,solution for injection
+42,,,,,134,,solution for injection
+45,,,,,134,,endotracheopulmonary instillation
+49,,,,,134,,solution for injection
+50,,,,,134,,solution for injection
+53,,,,,134,,nasal spray
+55,,,,,134,,ophthalmic drops
+56,,,,,134,,oral solution
+57,,,,,134,,otic drops
+59,,,,,134,,solution for injection
+60,,,,,134,,solution for injection
+64,,,,,134,,solution for injection
+65,,,,,134,,solution for injection
+109,,,,,134,,solution for injection
+70,,,,,134,,cutaneous solution
+105,,,,,134,,cutaneous solution
+107,,,,,134,,cutaneous solution
+104,,,,,134,,cutaneous solution
+72,,,,,134,,intravesical solution
+80,,,,,134,,solution for injection
+82,,,,,134,,solution for injection
+85,,,,,134,,solution for injection
+96,,,,,134,,intravesical solution
+97,,,,,134,,solution for injection
+49,,,,,135,,powder for suspension for infusion
+56,,,,,137,,gastro-resistant capsule
+108,,,,,137,,gastro-resistant capsule
+56,,,,,138,,modified-release oral tablet
+56,,,,,141,,prolonged-release oral capsule
+22,,,,,143,,prolonged-release suspension for injection
+71,,,,,145,,transdermal patch
+70,,,,,145,,cutaneous patch
+56,,,,,148,,gastro-resistant granules for oral suspension
+56,,,,,150,,oral tablet
+56,,,,,151,,chewable tablet
+89,,,,,152,,prolonged-release periodontal powder
+29,,,,,153,,inhalation powder
+74,,,,,154,,vaginal tablet
+65,,,,,155,,solution for injection
+56,,,,,156,,dispersible oral tablet
+56,,,,,157,,oral suspension
+53,,,,,158,,nasal spray
+70,,,,,158,,cutaneous spray
+56,,,,,159,,modified-release oral tablet
+71,,,,,160,,transdermal patch
+56,,,,,161,,oral capsule
+29,,,,,162,,pressurised inhalation
+56,,,,,163,,granules for oral solution
+70,,,,,164,,spray (bag-on-valve)
+74,,,,,165,,effervescent vaginal tablet
+70,,,,,166,,cutaneous foam
+56,,,,,167,,orodispersible film
+56,,,,,170,,modified-release oral tablet
+56,,,,,171,,modified-release oral capsule
+56,,,,,172,,modified-release oral capsule
+56,,,,,173,,modified-release oral tablet
+70,,,,,174,,liquid
+3,,,,,32,,kit
+22,,,,,32,,kit
+56,,,,,32,,kit
+62,,,,,32,,kit
+5,,,,,32,,kit
+70,,,,,32,,kit
+62,,,,,166,,rectal foam
+55,70,,,,12,,ophthalmic drops
+55,70,,,,43,,ophthalmic ointment
+55,57,,,,12,,ophthalmic/otic drops
+55,57,,,,79,,ophthalmic/otic drops
+55,57,,,,43,,ophthalmic/otic ointment
+55,57,,,,134,,ophthalmic/otic drops
+56,62,,,,56,,powder for oral/rectal suspension
+56,62,,,,55,,powder for oral/rectal suspension
+3,56,,,,34,,oromucosal solution
+3,56,,,,52,,oromucosal paste
+62,70,,,,43,,rectal ointment
+62,70,,,,114,,rectal gel
+3,66,,,,23,,buccal tablet
+108,56,,,,56,,powder for oral solution
+108,56,,,,137,,gastro-resistant capsule
+53,56,,,,98,,nasal spray
+29,70,,,,88,,inhalation solution
+29,53,,,,55,,nasal powder
+29,53,,,,34,,nasal spray
+3,70,,,,34,,oromucosal solution
+70,74,,,,9,,vaginal cream
+29,56,,,,134,,nebuliser solution
+29,56,,,,55,,inhalation powder
+29,56,,,,1,,pressurised inhalation
+19,70,,,,34,,solution for injection
+33,36,,,,134,,solution for injection
+33,36,,,,34,,solution for injection
+49,56,,,,34,,solution for injection
+49,56,,,,134,,solution for injection
+22,70,,,,56,,powder for solution for injection
+49,36,,,,134,,solution for injection
+22,49,,,,19,,emulsion for injection
+22,49,,,,34,,solution for injection
+22,49,,,,55,,powder for suspension for injection
+22,49,,,,56,,powder for solution for injection
+22,49,,,,79,,suspension for injection
+22,49,,,,118,,powder for prolonged-release suspension for injection
+22,49,,,,126,,powder for suspension for injection
+22,49,,,,134,,solution for injection
+22,49,,,,143,,prolonged-release suspension for injection
+49,65,,,,19,,emulsion for injection
+49,65,,,,34,,solution for injection
+49,65,,,,55,,powder for solution for injection
+49,65,,,,56,,powder for solution for injection
+49,65,,,,79,,suspension for injection
+49,65,,,,126,,powder for suspension for injection
+49,65,,,,134,,solution for injection
+22,65,,,,19,,emulsion for injection
+22,65,,,,34,,solution for injection
+22,65,,,,55,,powder for suspension for injection
+22,65,,,,56,,powder for solution for injection
+22,65,,,,79,,suspension for injection
+22,65,,,,118,,powder for prolonged-release suspension for injection
+22,65,,,,126,,powder for suspension for injection
+22,65,,,,134,,solution for injection
+22,65,,,,143,,prolonged-release suspension for injection
+19,65,,,,34,,solution for injection
+19,65,,,,56,,powder for solution for injection
+19,65,,,,79,,suspension for injection
+19,65,,,,134,,solution for injection
+85,65,,,,34,,solution for injection
+85,65,,,,134,,solution for injection
+18,65,,,,34,,solution for injection
+18,65,,,,134,,solution for injection
+49,96,,,,134,,solution for injection
+49,96,,,,56,,powder for solution for injection
+1,7,,,,34,,solution for injection
+1,7,,,,134,,solution for injection
+12,49,,,,34,,solution for injection
+12,49,,,,56,,powder for solution for injection
+12,49,,,,134,,solution for injection
+7,49,,,,134,,solution for injection
+7,49,,,,34,,solution for injection
+97,64,,,,134,,solution for injection
+7,4,,,,134,,solution for injection
+7,60,,,,134,,solution for injection
+14,49,,,,134,,solution for injection
+10,13,,,,79,,suspension for injection
+10,13,,,,134,,solution for injection
+10,22,,,,19,,emulsion for injection
+10,22,,,,34,,solution for injection
+10,22,,,,55,,powder for suspension for injection
+10,22,,,,56,,powder for solution for injection
+10,22,,,,79,,suspension for injection
+10,22,,,,118,,powder for prolonged-release suspension for injection
+10,22,,,,126,,powder for suspension for injection
+10,22,,,,134,,solution for injection
+10,22,,,,143,,prolonged-release suspension for injection
+22,49,65,,,19,,emulsion for injection
+22,49,65,,,34,,solution for injection
+22,49,65,,,55,,powder for suspension for injection
+22,49,65,,,56,,powder for solution for injection
+22,49,65,,,79,,suspension for injection
+22,49,65,,,118,,powder for prolonged-release suspension for injection
+22,49,65,,,126,,powder for suspension for injection
+22,49,65,,,134,,solution for injection
+22,49,65,,,143,,prolonged-release suspension for injection
+19,85,65,,,34,,solution for injection
+19,85,65,,,56,,powder for solution for injection
+19,85,65,,,79,,suspension for injection
+19,85,65,,,134,,solution for injection
+12,22,49,,,19,,emulsion for injection
+12,22,49,,,34,,solution for injection
+12,22,49,,,55,,powder for suspension for injection
+12,22,49,,,56,,powder for solution for injection
+12,22,49,,,79,,suspension for injection
+12,22,49,,,118,,powder for prolonged-release suspension for injection
+12,22,49,,,126,,powder for suspension for injection
+12,22,49,,,134,,solution for injection
+12,22,49,,,143,,prolonged-release suspension for injection
+31,49,65,,,19,,emulsion for injection
+31,49,65,,,34,,solution for injection
+31,49,65,,,55,,powder for suspension for injection
+31,49,65,,,56,,powder for solution for injection
+31,49,65,,,79,,suspension for injection
+31,49,65,,,118,,powder for prolonged-release suspension for injection
+31,49,65,,,126,,powder for suspension for injection
+31,49,65,,,134,,solution for injection
+31,49,65,,,143,,prolonged-release suspension for injection
+7,49,65,,,19,,emulsion for injection
+7,49,65,,,34,,solution for injection
+7,49,65,,,55,,powder for suspension for injection
+7,49,65,,,56,,powder for solution for injection
+7,49,65,,,79,,suspension for injection
+7,49,65,,,118,,powder for prolonged-release suspension for injection
+7,49,65,,,126,,powder for suspension for injection
+7,49,65,,,134,,solution for injection
+7,49,65,,,143,,prolonged-release suspension for injection
+7,22,49,,,19,,emulsion for injection
+7,22,49,,,34,,solution for injection
+7,22,49,,,55,,powder for suspension for injection
+7,22,49,,,56,,powder for solution for injection
+7,22,49,,,79,,suspension for injection
+7,22,49,,,118,,powder for prolonged-release suspension for injection
+7,22,49,,,126,,powder for suspension for injection
+7,22,49,,,134,,solution for injection
+7,22,49,,,143,,prolonged-release suspension for injection
+7,49,65,,,19,,emulsion for injection
+7,49,65,,,34,,solution for injection
+7,49,65,,,55,,powder for suspension for injection
+7,49,65,,,56,,powder for solution for injection
+7,49,65,,,79,,suspension for injection
+7,49,65,,,118,,powder for prolonged-release suspension for injection
+7,49,65,,,126,,powder for suspension for injection
+7,49,65,,,134,,solution for injection
+7,49,65,,,143,,prolonged-release suspension for injection
+12,22,49,,,19,,emulsion for injection
+12,22,49,,,34,,solution for injection
+12,22,49,,,55,,powder for suspension for injection
+12,22,49,,,56,,powder for solution for injection
+12,22,49,,,79,,suspension for injection
+12,22,49,,,118,,powder for prolonged-release suspension for injection
+12,22,49,,,126,,powder for suspension for injection
+12,22,49,,,134,,solution for injection
+12,22,49,,,143,,prolonged-release suspension for injection
+22,42,49,,,19,,emulsion for injection
+22,42,49,,,34,,solution for injection
+22,42,49,,,55,,powder for suspension for injection
+22,42,49,,,56,,powder for solution for injection
+22,42,49,,,79,,suspension for injection
+22,42,49,,,118,,powder for prolonged-release suspension for injection
+22,42,49,,,126,,powder for suspension for injection
+22,42,49,,,134,,solution for injection
+22,42,49,,,143,,prolonged-release suspension for injection
+10,22,49,,,19,,emulsion for injection
+10,22,49,,,34,,solution for injection
+10,22,49,,,55,,powder for suspension for injection
+10,22,49,,,56,,powder for solution for injection
+10,22,49,,,79,,suspension for injection
+10,22,49,,,118,,powder for prolonged-release suspension for injection
+10,22,49,,,126,,powder for suspension for injection
+10,22,49,,,134,,solution for injection
+10,22,49,,,143,,prolonged-release suspension for injection
+10,21,22,,,19,,emulsion for injection
+10,21,22,,,34,,solution for injection
+10,21,22,,,55,,powder for suspension for injection
+10,21,22,,,56,,powder for solution for injection
+10,21,22,,,79,,suspension for injection
+10,21,22,,,118,,powder for prolonged-release suspension for injection
+10,21,22,,,126,,powder for suspension for injection
+10,21,22,,,134,,solution for injection
+10,21,22,,,143,,prolonged-release suspension for injection
+10,13,22,,,19,,emulsion for injection
+10,13,22,,,34,,solution for injection
+10,13,22,,,55,,powder for suspension for injection
+10,13,22,,,56,,powder for solution for injection
+10,13,22,,,79,,suspension for injection
+10,13,22,,,118,,powder for prolonged-release suspension for injection
+10,13,22,,,126,,powder for suspension for injection
+10,13,22,,,134,,solution for injection
+10,13,22,,,143,,prolonged-release suspension for injection
+22,33,49,65,,19,,emulsion for injection
+22,33,49,65,,34,,solution for injection
+22,33,49,65,,55,,powder for suspension for injection
+22,33,49,65,,56,,powder for solution for injection
+22,33,49,65,,79,,suspension for injection
+22,33,49,65,,118,,powder for prolonged-release suspension for injection
+22,33,49,65,,126,,powder for suspension for injection
+22,33,49,65,,134,,solution for injection
+22,33,49,65,,143,,prolonged-release suspension for injection
+12,22,31,49,,19,,emulsion for injection
+12,22,31,49,,34,,solution for injection
+12,22,31,49,,55,,powder for suspension for injection
+12,22,31,49,,56,,powder for solution for injection
+12,22,31,49,,79,,suspension for injection
+12,22,31,49,,118,,powder for prolonged-release suspension for injection
+12,22,31,49,,126,,powder for suspension for injection
+12,22,31,49,,134,,solution for injection
+12,22,31,49,,143,,prolonged-release suspension for injection
+10,21,22,42,,19,,emulsion for injection
+10,21,22,42,,34,,solution for injection
+10,21,22,42,,55,,powder for suspension for injection
+10,21,22,42,,56,,powder for solution for injection
+10,21,22,42,,79,,suspension for injection
+10,21,22,42,,118,,powder for prolonged-release suspension for injection
+10,21,22,42,,126,,powder for suspension for injection
+10,21,22,42,,134,,solution for injection
+10,21,22,42,,143,,prolonged-release suspension for injection
+10,19,21,22,,19,,emulsion for injection
+10,19,21,22,,34,,solution for injection
+10,19,21,22,,55,,powder for suspension for injection
+10,19,21,22,,56,,powder for solution for injection
+10,19,21,22,,79,,suspension for injection
+10,19,21,22,,118,,powder for prolonged-release suspension for injection
+10,19,21,22,,126,,powder for suspension for injection
+10,19,21,22,,134,,solution for injection
+10,19,21,22,,143,,prolonged-release suspension for injection
+10,22,,,,19,,emulsion for injection
+10,22,42,63,,34,,solution for injection
+10,22,42,63,,55,,powder for suspension for injection
+10,22,42,63,,56,,powder for solution for injection
+10,22,42,63,,79,,suspension for injection
+10,22,42,63,,118,,powder for prolonged-release suspension for injection
+10,22,42,63,,126,,powder for suspension for injection
+10,22,42,63,,134,,solution for injection
+10,22,42,63,,143,,prolonged-release suspension for injection
+10,13,19,42,,34,,solution for injection
+10,13,19,42,,79,,suspension for injection
+10,13,19,42,,134,,solution for injection
+10,13,19,42,,56,,powder for solution for injection
+10,13,19,22,,34,,solution for injection
+10,13,19,22,,79,,suspension for injection
+10,13,19,22,,134,,solution for injection
+10,13,19,22,,56,,powder for solution for injection
+10,13,19,22,,19,,emulsion for injection
+10,13,19,22,,55,,powder for suspension for injection
+10,13,19,22,,118,,powder for prolonged-release suspension for injection
+10,13,19,22,,143,,prolonged-release suspension for injection
+22,34,49,65,,19,,emulsion for injection
+22,34,49,65,,34,,solution for injection
+22,34,49,65,,55,,powder for suspension for injection
+22,34,49,65,,56,,powder for solution for injection
+22,34,49,65,,79,,suspension for injection
+22,34,49,65,,118,,powder for prolonged-release suspension for injection
+22,34,49,65,,126,,powder for suspension for injection
+22,34,49,65,,134,,solution for injection
+22,34,49,65,,143,,prolonged-release suspension for injection
+12,22,31,49,50,19,,emulsion for injection
+12,22,31,49,50,34,,solution for injection
+12,22,31,49,50,55,,powder for suspension for injection
+12,22,31,49,50,56,,powder for solution for injection
+12,22,31,49,50,79,,suspension for injection
+12,22,31,49,50,118,,powder for prolonged-release suspension for injection
+12,22,31,49,50,126,,powder for suspension for injection
+12,22,31,49,50,134,,solution for injection
+12,22,31,49,50,143,,prolonged-release suspension for injection
+14,22,45,49,65,19,,emulsion for injection
+14,22,45,49,65,34,,solution for injection
+14,22,45,49,65,55,,powder for suspension for injection
+14,22,45,49,65,56,,powder for solution for injection
+14,22,45,49,65,79,,suspension for injection
+14,22,45,49,65,118,,powder for prolonged-release suspension for injection
+14,22,45,49,65,126,,powder for suspension for injection
+14,22,45,49,65,134,,solution for injection
+14,22,45,49,65,143,,prolonged-release suspension for injection
+10,21,22,49,63,19,,emulsion for injection
+10,21,22,49,63,34,,solution for injection
+10,21,22,49,63,55,,powder for suspension for injection
+10,21,22,49,63,56,,powder for solution for injection
+10,21,22,49,63,79,,suspension for injection
+10,21,22,49,63,118,,powder for prolonged-release suspension for injection
+10,21,22,49,63,126,,powder for suspension for injection
+10,21,22,49,63,134,,solution for injection
+10,21,22,49,63,143,,prolonged-release suspension for injection
+12,17,22,49,50,19,,emulsion for injection
+12,17,22,49,50,34,,solution for injection
+12,17,22,49,50,55,,powder for suspension for injection
+12,17,22,49,50,56,,powder for solution for injection
+12,17,22,49,50,79,,suspension for injection
+12,17,22,49,50,118,,powder for prolonged-release suspension for injection
+12,17,22,49,50,126,,powder for suspension for injection
+12,17,22,49,50,134,,solution for injection
+12,17,22,49,50,143,,prolonged-release suspension for injection
+56,,,,,181,,modified-release oral capsule
