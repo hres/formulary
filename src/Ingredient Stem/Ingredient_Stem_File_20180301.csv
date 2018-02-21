@@ -200,7 +200,7 @@ Y,BOSENTAN,BOSENTAN (BOSENTAN MONOHYDRATE),bosentan,TRUE,bosentan
 ,,BRETYLIUM TOSYLATE,bretylium tosylate,FALSE,bretylium tosylate
 ,,BREXPIPRAZOLE,brexpiprazole,FALSE,brexpiprazole
 Y,,BRIMONIDINE (BRIMONIDINE TARTRATE),brimonidine,FALSE,brimonidine (brimonidine tartrate)
-,,BRIMONIDINE TARTRATE,brimonidine tartrate,FALSE,brimonidine tartrate
+Y,,BRIMONIDINE TARTRATE,brimonidine,FALSE,brimonidine tartrate
 Y,,BRINZOLAMIDE,brinzolamide,FALSE,brinzolamide
 ,,BRIVARACETAM,brivaracetam,FALSE,brivaracetam
 Y,BROMAZEPAM,BROMAZEPAM,bromazepam,FALSE,bromazepam
@@ -859,9 +859,9 @@ Y,INSULIN LISPRO,INSULIN LISPRO,insulin lispro,FALSE,insulin lispro
 Y,IPRATROPIUM,IPRATROPIUM BROMIDE,ipratropium,FALSE,ipratropium bromide
 Y,IPRATROPIUM,IPRATROPIUM BROMIDE (IPRATROPIUM BROMIDE MONOHYDRATE),ipratropium,TRUE,ipratropium bromide
 Y,IRBESARTAN,IRBESARTAN,irbesartan,FALSE,irbesartan
-Y,,IRINOTECAN HYDROCHLORIDE,irinotecan hydrochloride,FALSE,irinotecan hydrochloride
-Y,,IRINOTECAN HYDROCHLORIDE (IRINOTECAN HYDROCHLORIDE TRIHYDRATE),irinotecan hydrochloride (irinotecan hydrochloride trihydrate),TRUE,irinotecan hydrochloride (irinotecan hydrochloride trihydrate)
-Y,,IRINOTECAN HYDROCHLORIDE (IRINOTECAN SUCROSE OCTASULFATE),irinotecan hydrochloride (irinotecan sucrose octasulfate),TRUE,irinotecan hydrochloride (irinotecan sucrose octasulfate)
+Y,,IRINOTECAN HYDROCHLORIDE,irinotecan,FALSE,irinotecan hydrochloride
+Y,,IRINOTECAN HYDROCHLORIDE (IRINOTECAN HYDROCHLORIDE TRIHYDRATE),irinotecan,TRUE,irinotecan hydrochloride (irinotecan hydrochloride trihydrate)
+Y,,IRINOTECAN HYDROCHLORIDE (IRINOTECAN SUCROSE OCTASULFATE),irinotecan,TRUE,irinotecan hydrochloride (irinotecan sucrose octasulfate)
 ,,IRON (FERROUS FUMARATE),iron (ferrous fumarate),FALSE,iron (ferrous fumarate)
 ,,IRON (IRON DEXTRAN COMPLEX),iron (iron dextran complex),FALSE,iron (iron dextran complex)
 ,,IRON (IRON SUCROSE),iron (iron sucrose),FALSE,iron (iron sucrose)
@@ -1792,36 +1792,3 @@ Y,ZOPICLONE,ZOPICLONE,zopiclone,FALSE,zopiclone
 ,,ZUCLOPENTHIXOL (ZUCLOPENTHIXOL HYDROCHLORIDE),zuclopenthixol (zuclopenthixol hydrochloride),FALSE,zuclopenthixol (zuclopenthixol hydrochloride)
 ,,ZUCLOPENTHIXOL ACETATE,zuclopenthixol acetate,FALSE,zuclopenthixol acetate
 ,,ZUCLOPENTHIXOL DECANOATE,zuclopenthixol decanoate,FALSE,zuclopenthixol decanoate
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,VOXILAPREVIR,,,
