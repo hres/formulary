@@ -1,0 +1,1393 @@
+"ntp_code"|"ntp_formal_name"|"ntp_en_description"|"ntp_fr_description"|"ntp_status"|"ntp_status_effective_time"|"ntp_type"
+9000016|"acebutolol (acebutolol hydrochloride) 100 mg oral tablet"|NA|NA|"active"|"20060303"|NA
+9000017|"acebutolol (acebutolol hydrochloride) 200 mg oral tablet"|NA|NA|"active"|"20060303"|NA
+9000018|"acebutolol (acebutolol hydrochloride) 400 mg oral tablet"|NA|NA|"active"|"20060303"|NA
+9000048|"acetaminophen 300 mg and caffeine 15 mg and codeine phosphate 15 mg oral tablet"|NA|NA|"active"|"20060106"|NA
+9000049|"acetaminophen 300 mg and caffeine 15 mg and codeine phosphate 30 mg oral tablet"|NA|NA|"active"|"20060106"|NA
+9000050|"acetaminophen 300 mg and caffeine 15 mg and codeine phosphate 8 mg oral tablet"|NA|NA|"active"|"20150429"|NA
+9000056|"acetaminophen 325 mg and caffeine 15 mg and codeine phosphate 8 mg oral tablet"|NA|NA|"active"|"20150429"|NA
+9000058|"acetaminophen 325 mg and caffeine citrate 30 mg and codeine phosphate 15 mg oral tablet"|NA|NA|"active"|"20170404"|NA
+9000059|"acetaminophen 325 mg and caffeine citrate 30 mg and codeine phosphate 30 mg oral tablet"|NA|NA|"active"|"20170404"|NA
+9000060|"acetaminophen 325 mg and caffeine citrate 30 mg and codeine phosphate 8 mg oral tablet"|NA|NA|"active"|"20170203"|NA
+9000098|"acetaminophen 500 mg and caffeine citrate 30 mg and codeine phosphate 8 mg oral tablet"|NA|NA|"active"|"20160620"|NA
+9000034|"acetaminophen 160 mg per 5 mL and codeine phosphate 8 mg per 5 mL oral solution"|NA|NA|"active"|"20060918"|NA
+9000053|"acetaminophen 300 mg and codeine phosphate 30 mg oral tablet"|NA|NA|"active"|"20060327"|NA
+9000054|"acetaminophen 300 mg and codeine phosphate 60 mg oral tablet"|NA|NA|"active"|"20060327"|NA
+9000078|"acetaminophen 325 mg and oxycodone hydrochloride 2.5 mg oral tablet"|NA|NA|"active"|"20170202"|NA
+9000079|"acetaminophen 325 mg and oxycodone hydrochloride 5 mg oral tablet"|NA|NA|"active"|"20170202"|NA
+9000083|"acetaminophen 325 mg and tramadol hydrochloride 37.5 mg oral tablet"|NA|NA|"active"|"20170207"|NA
+9000360|"acyclovir 5 % cutaneous cream"|NA|NA|"active"|"20140919"|NA
+9000361|"acyclovir 5 % cutaneous ointment"|NA|NA|"active"|"20140919"|NA
+9000357|"acyclovir 200 mg per 5 mL oral suspension"|NA|NA|"active"|"20080915"|NA
+9000356|"acyclovir 200 mg oral tablet"|NA|NA|"active"|"20100108"|NA
+9000358|"acyclovir 400 mg oral tablet"|NA|NA|"active"|"20100106"|NA
+9000362|"acyclovir 800 mg oral tablet"|NA|NA|"active"|"20100106"|NA
+9000355|"acyclovir (acyclovir sodium) 500 mg per vial powder for solution for injection"|NA|NA|"active"|"20040422"|NA
+9000353|"acyclovir (acyclovir sodium) 25 mg per mL solution for injection"|NA|NA|"active"|"20110525"|NA
+9000354|"acyclovir (acyclovir sodium) 50 mg per mL solution for injection"|NA|NA|"active"|"20151014"|NA
+9000427|"alendronic acid (alendronate sodium) 10 mg oral tablet"|NA|NA|"active"|"20090427"|NA
+9000428|"alendronic acid (alendronate sodium) 5 mg oral tablet"|NA|NA|"active"|"20090427"|NA
+9000431|"alendronic acid (alendronate sodium) 70 mg oral tablet"|NA|NA|"active"|"20090427"|NA
+9000429|"alendronic acid (alendronate sodium) 70 mg and vitamin d3 (cholecalciferol) 2800 unit oral tablet"|NA|NA|"active"|"20131021"|NA
+9000430|"alendronic acid (alendronate sodium) 70 mg and vitamin d3 (cholecalciferol) 5600 unit oral tablet"|NA|NA|"active"|"20131021"|NA
+9000437|"alfuzosin hydrochloride 10 mg prolonged release oral tablet"|NA|NA|"active"|"20100430"|NA
+9000458|"allopurinol 100 mg oral tablet"|NA|NA|"active"|"20110125"|NA
+9000459|"allopurinol 200 mg oral tablet"|NA|NA|"active"|"20110125"|NA
+9000460|"allopurinol 300 mg oral tablet"|NA|NA|"active"|"20110125"|NA
+9000471|"alprazolam 0.25 mg oral tablet"|NA|NA|"active"|"20100205"|NA
+9000472|"alprazolam 0.5 mg oral tablet"|NA|NA|"active"|"20090810"|NA
+9000473|"alprazolam 1 mg oral tablet"|NA|NA|"active"|"20060308"|NA
+9000474|"alprazolam 2 mg oral tablet"|NA|NA|"active"|"20060308"|NA
+9000512|"amiodarone hydrochloride 100 mg oral tablet"|NA|NA|"active"|"20070508"|NA
+9000513|"amiodarone hydrochloride 200 mg oral tablet"|NA|NA|"active"|"20060317"|NA
+9000514|"amiodarone hydrochloride 50 mg per mL solution for injection"|NA|NA|"active"|"20150505"|NA
+9000515|"amitriptyline hydrochloride 10 mg oral tablet"|NA|NA|"active"|"20030508"|NA
+9000516|"amitriptyline hydrochloride 25 mg oral tablet"|NA|NA|"active"|"20020226"|NA
+9000517|"amitriptyline hydrochloride 50 mg oral tablet"|NA|NA|"active"|"20020226"|NA
+9000518|"amitriptyline hydrochloride 75 mg oral tablet"|NA|NA|"active"|"20120924"|NA
+9000530|"amlodipine (amlodipine besylate) 10 mg oral tablet"|NA|NA|"active"|"20090720"|NA
+9000532|"amlodipine (amlodipine besylate) 2.5 mg oral tablet"|NA|NA|"active"|"20090724"|NA
+9000544|"amlodipine (amlodipine besylate) 5 mg oral tablet"|NA|NA|"active"|"20090720"|NA
+9000574|"amoxicillin 250 mg oral capsule"|NA|NA|"active"|"20080501"|NA
+9000582|"amoxicillin 500 mg oral capsule"|NA|NA|"active"|"20080501"|NA
+9000572|"amoxicillin 125 mg per 5 mL oral suspension"|NA|NA|"active"|"20080501"|NA
+9000575|"amoxicillin 250 mg per 5 mL oral suspension"|NA|NA|"active"|"20080501"|NA
+9000576|"amoxicillin 250 mg per 5 mL powder for oral solution"|NA|NA|"active"|"20060706"|NA
+9000573|"amoxicillin 125 mg per 5 mL powder for oral suspension"|NA|NA|"active"|"20001227"|NA
+9000577|"amoxicillin 250 mg per 5 mL powder for oral suspension"|NA|NA|"active"|"20080909"|NA
+9000583|"amphetamine aspartate monohydrate 1.25 mg and amphetamine sulfate 1.25 mg and dextroamphetamine saccharate 1.25 mg and dextroamphetamine sulfate 1.25 mg prolonged release oral capsule"|NA|NA|"active"|"20151203"|NA
+9000584|"amphetamine aspartate monohydrate 2.5 mg and amphetamine sulfate 2.5 mg and dextroamphetamine saccharate 2.5 mg and dextroamphetamine sulfate 2.5 mg prolonged release oral capsule"|NA|NA|"active"|"20151203"|NA
+9000585|"amphetamine aspartate monohydrate 3.75 mg and amphetamine sulfate 3.75 mg and dextroamphetamine saccharate 3.75 mg and dextroamphetamine sulfate 3.75 mg prolonged release oral capsule"|NA|NA|"active"|"20151203"|NA
+9000586|"amphetamine aspartate monohydrate 5 mg and amphetamine sulfate 5 mg and dextroamphetamine saccharate 5 mg and dextroamphetamine sulfate 5 mg prolonged release oral capsule"|NA|NA|"active"|"20151203"|NA
+9000587|"amphetamine aspartate monohydrate 6.25 mg and amphetamine sulfate 6.25 mg and dextroamphetamine saccharate 6.25 mg and dextroamphetamine sulfate 6.25 mg prolonged release oral capsule"|NA|NA|"active"|"20151203"|NA
+9000588|"amphetamine aspartate monohydrate 7.5 mg and amphetamine sulfate 7.5 mg and dextroamphetamine saccharate 7.5 mg and dextroamphetamine sulfate 7.5 mg prolonged release oral capsule"|NA|NA|"active"|"20151203"|NA
+9000693|"aripiprazole 300 mg per vial kit"|NA|NA|"active"|"20150818"|NA
+9000695|"aripiprazole 400 mg per vial kit"|NA|NA|"active"|"20150818"|NA
+9000688|"aripiprazole 10 mg oral tablet"|NA|NA|"active"|"20150818"|NA
+9000689|"aripiprazole 15 mg oral tablet"|NA|NA|"active"|"20150818"|NA
+9000690|"aripiprazole 2 mg oral tablet"|NA|NA|"active"|"20150818"|NA
+9000691|"aripiprazole 20 mg oral tablet"|NA|NA|"active"|"20150818"|NA
+9000692|"aripiprazole 30 mg oral tablet"|NA|NA|"active"|"20150818"|NA
+9000697|"aripiprazole 5 mg oral tablet"|NA|NA|"active"|"20150818"|NA
+9000694|"aripiprazole 300 mg per vial powder for prolonged-release suspension for injection"|NA|NA|"active"|"20150818"|NA
+9000696|"aripiprazole 400 mg per vial powder for prolonged-release suspension for injection"|NA|NA|"active"|"20150818"|NA
+9000716|"atenolol 100 mg oral tablet"|NA|NA|"active"|"20040429"|NA
+9000717|"atenolol 25 mg oral tablet"|NA|NA|"active"|"20061129"|NA
+9000719|"atenolol 50 mg oral tablet"|NA|NA|"active"|"20040429"|NA
+9000721|"atomoxetine (atomoxetine hydrochloride) 10 mg oral capsule"|NA|NA|"active"|"20080501"|NA
+9000722|"atomoxetine (atomoxetine hydrochloride) 100 mg oral capsule"|NA|NA|"active"|"20100205"|NA
+9000723|"atomoxetine (atomoxetine hydrochloride) 18 mg oral capsule"|NA|NA|"active"|"20080501"|NA
+9000724|"atomoxetine (atomoxetine hydrochloride) 25 mg oral capsule"|NA|NA|"active"|"20080501"|NA
+9000725|"atomoxetine (atomoxetine hydrochloride) 40 mg oral capsule"|NA|NA|"active"|"20080501"|NA
+9000726|"atomoxetine (atomoxetine hydrochloride) 60 mg oral capsule"|NA|NA|"active"|"20080501"|NA
+9000727|"atomoxetine (atomoxetine hydrochloride) 80 mg oral capsule"|NA|NA|"active"|"20100205"|NA
+9000732|"atorvastatin (atorvastatin calcium) 10 mg oral tablet"|NA|NA|"active"|"20100602"|NA
+9000733|"atorvastatin (atorvastatin calcium) 20 mg oral tablet"|NA|NA|"active"|"20101217"|NA
+9000734|"atorvastatin (atorvastatin calcium) 40 mg oral tablet"|NA|NA|"active"|"20100211"|NA
+9000735|"atorvastatin (atorvastatin calcium) 80 mg oral tablet"|NA|NA|"active"|"20100211"|NA
+9001210|"azathioprine 50 mg oral tablet"|NA|NA|"active"|"20090921"|NA
+9001209|"azathioprine (azathioprine sodium) 50 mg per vial powder for solution for injection"|NA|NA|"active"|"20170227"|NA
+9001218|"azithromycin (azithromycin dihydrate) 250 mg oral tablet"|NA|NA|"active"|"20140502"|NA
+9001227|"azithromycin (azithromycin monohydrate) 250 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9001229|"azithromycin (azithromycin monohydrate) 600 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9001225|"azithromycin (azithromycin monohydrate) 100 mg per 5 mL powder for oral suspension"|NA|NA|"active"|"20100813"|NA
+9001226|"azithromycin (azithromycin monohydrate) 200 mg per 5 mL powder for oral suspension"|NA|NA|"active"|"20100813"|NA
+9001228|"azithromycin (azithromycin monohydrate) 500 mg per vial powder for solution for injection"|NA|NA|"active"|"20111103"|NA
+9001262|"baclofen 10 mg oral tablet"|NA|NA|"active"|"20081017"|NA
+9001264|"baclofen 20 mg oral tablet"|NA|NA|"active"|"20081017"|NA
+9001260|"baclofen 0.05 mg per mL solution for injection"|NA|NA|"active"|"20081030"|NA
+9001261|"baclofen 0.5 mg per mL solution for injection"|NA|NA|"active"|"20081018"|NA
+9001263|"baclofen 2 mg per mL solution for injection"|NA|NA|"active"|"20081017"|NA
+9001267|"beclomethasone dipropionate 0.025 % cutaneous cream"|NA|NA|"active"|"20160726"|NA
+9001269|"beclomethasone dipropionate 50 mcg per actuation nasal spray, suspension"|NA|NA|"active"|"20100816"|NA
+9001271|"beclomethasone dipropionate 50 mcg per spray nasal spray, suspension"|NA|NA|"active"|"20141202"|NA
+9001268|"beclomethasone dipropionate 100 mcg per actuation pressurised inhalation"|NA|NA|"active"|"20140609"|NA
+9001270|"beclomethasone dipropionate 50 mcg per actuation pressurised inhalation"|NA|NA|"active"|"20100816"|NA
+9001342|"benzoyl peroxide 3 % and clindamycin (clindamycin phosphate) 1 % cutaneous gel"|NA|NA|"active"|"20130823"|NA
+9001345|"benzoyl peroxide 5 % and clindamycin (clindamycin phosphate) 1 % cutaneous gel"|NA|NA|"active"|"20151026"|NA
+9001357|"benzoyl peroxide 50 mg per g and clindamycin (clindamycin phosphate) 10 mg per g cutaneous gel"|NA|NA|"active"|"20130619"|NA
+9001346|"benzoyl peroxide 5 % and clindamycin (clindamycin phosphate) 1 % cutaneous solution"|NA|NA|"active"|"20170531"|NA
+9001347|"benzoyl peroxide 5 % and clindamycin (clindamycin phosphate) 1 % kit"|NA|NA|"active"|"20170531"|NA
+9001359|"benztropine mesylate 0.4 mg per mL oral solution"|NA|NA|"active"|"20150512"|NA
+9001360|"benztropine mesylate 1 mg oral tablet"|NA|NA|"active"|"20150911"|NA
+9001362|"benztropine mesylate 2 mg oral tablet"|NA|NA|"active"|"20090127"|NA
+9001361|"benztropine mesylate 1 mg per mL solution for injection"|NA|NA|"active"|"20090127"|NA
+9001371|"betahistine hydrochloride 16 mg oral tablet"|NA|NA|"active"|"20140127"|NA
+9001372|"betahistine hydrochloride 24 mg oral tablet"|NA|NA|"active"|"20140127"|NA
+9001373|"betahistine hydrochloride 8 mg oral tablet"|NA|NA|"active"|"20160525"|NA
+9001377|"betamethasone (betamethasone dipropionate) 0.05 % cutaneous cream"|NA|NA|"active"|"20170411"|NA
+9001388|"betamethasone (betamethasone valerate) 0.05 % cutaneous cream"|NA|NA|"active"|"20100722"|NA
+9001392|"betamethasone (betamethasone valerate) 0.1 % cutaneous cream"|NA|NA|"active"|"20150429"|NA
+9001397|"betamethasone dipropionate 0.5 mg per g cutaneous cream"|NA|NA|"active"|"20170427"|NA
+9001398|"betamethasone valerate 0.1 % cutaneous cream"|NA|NA|"active"|"20170426"|NA
+9001400|"betamethasone valerate 0.12 % cutaneous foam"|NA|NA|"active"|"20131204"|NA
+9001378|"betamethasone (betamethasone dipropionate) 0.05 % cutaneous ointment"|NA|NA|"active"|"20150429"|NA
+9001389|"betamethasone (betamethasone valerate) 0.05 % cutaneous ointment"|NA|NA|"active"|"20150429"|NA
+9001393|"betamethasone (betamethasone valerate) 0.1 % cutaneous ointment"|NA|NA|"active"|"20150429"|NA
+9001399|"betamethasone valerate 0.1 % cutaneous ointment"|NA|NA|"active"|"20170426"|NA
+9001401|"betamethasone valerate 2.25 mg cutaneous patch"|NA|NA|"active"|"20161116"|NA
+9001379|"betamethasone (betamethasone dipropionate) 0.05 % lotion"|NA|NA|"active"|"20150429"|NA
+9001390|"betamethasone (betamethasone valerate) 0.05 % lotion"|NA|NA|"active"|"20150429"|NA
+9001394|"betamethasone (betamethasone valerate) 0.1 % lotion"|NA|NA|"active"|"20150429"|NA
+9001387|"betamethasone (betamethasone sodium phosphate) 5 mg per 100 mL rectal liquid"|NA|NA|"active"|"20091215"|NA
+9001396|"betamethasone acetate 3 mg per mL and betamethasone (betamethasone sodium phosphate) 3 mg per mL suspension for injection"|NA|NA|"active"|"20170425"|NA
+9001414|"bimatoprost 0.03 % cutaneous solution"|NA|NA|"active"|"20130222"|NA
+9001413|"bimatoprost 0.01 % opthalmic drops, solution"|NA|NA|"active"|"20110615"|NA
+9001415|"bimatoprost 0.03 % opthalmic drops, solution"|NA|NA|"active"|"20080915"|NA
+9001439|"bisoprolol fumarate 10 mg oral tablet"|NA|NA|"active"|"20061211"|NA
+9001440|"bisoprolol fumarate 5 mg oral tablet"|NA|NA|"active"|"20061211"|NA
+9001469|"bromazepam 1.5 mg oral tablet"|NA|NA|"active"|"20080506"|NA
+9001470|"bromazepam 3 mg oral tablet"|NA|NA|"active"|"20060307"|NA
+9001471|"bromazepam 6 mg oral tablet"|NA|NA|"active"|"20060307"|NA
+9001496|"budesonide 100 mcg per actuation inhalation powder"|NA|NA|"active"|"20060307"|NA
+9001503|"budesonide 200 mcg per actuation inhalation powder"|NA|NA|"active"|"20080812"|NA
+9001506|"budesonide 400 mcg per actuation inhalation powder"|NA|NA|"active"|"20060307"|NA
+9001509|"budesonide 9 mg modified release tablet"|NA|NA|"active"|"20160811"|NA
+9001497|"budesonide 100 mcg per actuation nasal spray"|NA|NA|"active"|"20100816"|NA
+9001508|"budesonide 64 mcg per actuation nasal spray"|NA|NA|"active"|"20070312"|NA
+9001492|"budesonide 0.125 mg per mL nebuliser suspension"|NA|NA|"active"|"20150505"|NA
+9001493|"budesonide 0.25 mg per mL nebuliser suspension"|NA|NA|"active"|"20150505"|NA
+9001494|"budesonide 0.5 mg per mL nebuliser suspension"|NA|NA|"active"|"20070207"|NA
+9001498|"budesonide 100 mcg per actuation pressurised inhalation"|NA|NA|"active"|"20060307"|NA
+9001504|"budesonide 200 mcg per actuation pressurised inhalation"|NA|NA|"active"|"20080812"|NA
+9001507|"budesonide 400 mcg per actuation pressurised inhalation"|NA|NA|"active"|"20060307"|NA
+9001505|"budesonide 3 mg prolonged release oral capsule"|NA|NA|"active"|"20170310"|NA
+9001523|"buprenorphine (buprenorphine hydrochloride) 2 mg and naloxone (naloxone hydrochloride dihydrate) 0.5 mg oral tablet"|NA|NA|"active"|"20170116"|NA
+9001524|"buprenorphine (buprenorphine hydrochloride) 8 mg and naloxone (naloxone hydrochloride dihydrate) 2 mg oral tablet"|NA|NA|"active"|"20170116"|NA
+9001529|"bupropion hydrochloride 100 mg prolonged release oral tablet"|NA|NA|"active"|"20081208"|NA
+9001530|"bupropion hydrochloride 150 mg prolonged release oral tablet"|NA|NA|"active"|"20081208"|NA
+9001531|"bupropion hydrochloride 300 mg prolonged release oral tablet"|NA|NA|"active"|"20131021"|NA
+9001557|"calcitriol 3 mcg per g cutaneous ointment"|NA|NA|"active"|"20100507"|NA
+9001553|"calcitriol 0.25 mcg oral capsule"|NA|NA|"active"|"20100930"|NA
+9001554|"calcitriol 0.5 mcg oral capsule"|NA|NA|"active"|"20091201"|NA
+9001555|"calcitriol 1 mcg per mL solution for injection"|NA|NA|"active"|"20150402"|NA
+9001556|"calcitriol 2 mcg per mL solution for injection"|NA|NA|"active"|"20170123"|NA
+9001654|"candesartan cilexetil 16 mg oral tablet"|NA|NA|"active"|"20100114"|NA
+9001657|"candesartan cilexetil 32 mg oral tablet"|NA|NA|"active"|"20100114"|NA
+9001658|"candesartan cilexetil 4 mg oral tablet"|NA|NA|"active"|"20100114"|NA
+9001659|"candesartan cilexetil 8 mg oral tablet"|NA|NA|"active"|"20100114"|NA
+9001653|"candesartan cilexetil 16 mg and hydrochlorothiazide 12.5 mg oral tablet"|NA|NA|"active"|"20121015"|NA
+9001655|"candesartan cilexetil 32 mg and hydrochlorothiazide 12.5 mg oral tablet"|NA|NA|"active"|"20090929"|NA
+9001656|"candesartan cilexetil 32 mg and hydrochlorothiazide 25 mg oral tablet"|NA|NA|"active"|"20090929"|NA
+9001672|"carbamazepine 100 mg chewable tablet"|NA|NA|"active"|"20150505"|NA
+9001675|"carbamazepine 200 mg chewable tablet"|NA|NA|"active"|"20080424"|NA
+9001674|"carbamazepine 100 mg per 5 mL oral suspension"|NA|NA|"active"|"20060608"|NA
+9001673|"carbamazepine 100 mg oral tablet"|NA|NA|"active"|"20070808"|NA
+9001676|"carbamazepine 200 mg oral tablet"|NA|NA|"active"|"20020517"|NA
+9001677|"carbamazepine 200 mg prolonged release oral tablet"|NA|NA|"active"|"20040129"|NA
+9001678|"carbamazepine 400 mg prolonged release oral tablet"|NA|NA|"active"|"20040427"|NA
+9001680|"carbidopa 10 mg and levodopa 100 mg oral tablet"|NA|NA|"active"|"20080509"|NA
+9001684|"carbidopa 25 mg and levodopa 100 mg oral tablet"|NA|NA|"active"|"20080509"|NA
+9001686|"carbidopa 25 mg and levodopa 250 mg oral tablet"|NA|NA|"active"|"20080509"|NA
+9001685|"carbidopa 25 mg and levodopa 100 mg prolonged release oral tablet"|NA|NA|"active"|"20100907"|NA
+9001689|"carbidopa 50 mg and levodopa 200 mg prolonged release oral tablet"|NA|NA|"active"|"20100907"|NA
+9001708|"carvedilol 12.5 mg oral tablet"|NA|NA|"active"|"20041006"|NA
+9001709|"carvedilol 25 mg oral tablet"|NA|NA|"active"|"20041006"|NA
+9001710|"carvedilol 3.125 mg oral tablet"|NA|NA|"active"|"20041006"|NA
+9001711|"carvedilol 6.25 mg oral tablet"|NA|NA|"active"|"20040507"|NA
+9001746|"cefprozil 250 mg oral tablet"|NA|NA|"active"|"20080527"|NA
+9001749|"cefprozil 500 mg oral tablet"|NA|NA|"active"|"20080328"|NA
+9001744|"cefprozil 125 mg per 5 mL powder for oral solution"|NA|NA|"active"|"20100712"|NA
+9001747|"cefprozil 250 mg per 5 mL powder for oral solution"|NA|NA|"active"|"20100712"|NA
+9001745|"cefprozil 125 mg per 5 mL powder for oral suspension"|NA|NA|"active"|"20070717"|NA
+9001748|"cefprozil 250 mg per 5 mL powder for oral suspension"|NA|NA|"active"|"20070717"|NA
+9001770|"celecoxib 100 mg oral capsule"|NA|NA|"active"|"20131219"|NA
+9001771|"celecoxib 200 mg oral capsule"|NA|NA|"active"|"20131219"|NA
+9001778|"cephalexin 125 mg per 5 mL oral suspension"|NA|NA|"active"|"19990412"|NA
+9001781|"cephalexin 250 mg per 5 mL oral suspension"|NA|NA|"active"|"19990413"|NA
+9001780|"cephalexin 250 mg oral tablet"|NA|NA|"active"|"20020306"|NA
+9001783|"cephalexin 500 mg oral tablet"|NA|NA|"active"|"20020306"|NA
+9001779|"cephalexin 125 mg per 5 mL powder for oral suspension"|NA|NA|"active"|"20150505"|NA
+9001782|"cephalexin 250 mg per 5 mL powder for oral suspension"|NA|NA|"active"|"20150505"|NA
+9001786|"cetirizine hydrochloride 10 mg oral capsule"|NA|NA|"active"|"20130529"|NA
+9001787|"cetirizine hydrochloride 10 mg oral tablet"|NA|NA|"active"|"20111104"|NA
+9001789|"cetirizine hydrochloride 20 mg oral tablet"|NA|NA|"active"|"20090601"|NA
+9001791|"cetirizine hydrochloride 5 mg oral tablet"|NA|NA|"active"|"20120711"|NA
+9001788|"cetirizine hydrochloride 10 mg orodispersible tablet"|NA|NA|"active"|"20140611"|NA
+9001792|"cetirizine hydrochloride 5 mg per 5 mL syrup"|NA|NA|"active"|"20150505"|NA
+9001856|"chlorhexidine gluconate 2 % cutaneous gel"|NA|NA|"active"|"20160510"|NA
+9001866|"chlorhexidine gluconate 4 % cutaneous gel"|NA|NA|"active"|"20130417"|NA
+9001837|"chlorhexidine gluconate 0.05 % cutaneous liquid"|NA|NA|"active"|"20150429"|NA
+9001850|"chlorhexidine gluconate 0.5 mg per mL cutaneous liquid"|NA|NA|"active"|"20160510"|NA
+9001857|"chlorhexidine gluconate 2 % cutaneous liquid"|NA|NA|"active"|"20091026"|NA
+9001863|"chlorhexidine gluconate 20 % cutaneous liquid"|NA|NA|"active"|"20160201"|NA
+9001867|"chlorhexidine gluconate 4 % cutaneous liquid"|NA|NA|"active"|"20060308"|NA
+9001838|"chlorhexidine gluconate 0.05 % cutaneous solution"|NA|NA|"active"|"20120213"|NA
+9001849|"chlorhexidine gluconate 0.5 % cutaneous solution"|NA|NA|"active"|"20080214"|NA
+9001858|"chlorhexidine gluconate 2 % cutaneous solution"|NA|NA|"active"|"20110616"|NA
+9001864|"chlorhexidine gluconate 20 % cutaneous solution"|NA|NA|"active"|"20150429"|NA
+9001868|"chlorhexidine gluconate 4 % cutaneous solution"|NA|NA|"active"|"20110616"|NA
+9001834|"chlorhexidine acetate 10 % dental solution"|NA|NA|"active"|"20150505"|NA
+9001840|"chlorhexidine gluconate 0.12 % gargle/mouthwash"|NA|NA|"active"|"20030810"|NA
+9001835|"chlorhexidine acetate 10 % kit"|NA|NA|"active"|"20150505"|NA
+9001859|"chlorhexidine gluconate 2 % lotion"|NA|NA|"active"|"20120711"|NA
+9001869|"chlorhexidine gluconate 4 % lotion"|NA|NA|"active"|"20140108"|NA
+9001841|"chlorhexidine gluconate 0.12 % mouthwash"|NA|NA|"active"|"20030810"|NA
+9001842|"chlorhexidine gluconate 0.12 % oral liquid"|NA|NA|"active"|"20030810"|NA
+9001870|"chlorhexidine gluconate 4 % pressurised inhalation"|NA|NA|"active"|"20150429"|NA
+9001839|"chlorhexidine gluconate 0.05 % sponge"|NA|NA|"active"|"20140529"|NA
+9001860|"chlorhexidine gluconate 2 % sponge"|NA|NA|"active"|"20140311"|NA
+9001871|"chlorhexidine gluconate 4 % sponge"|NA|NA|"active"|"20150312"|NA
+9001861|"chlorhexidine gluconate 2 % swab"|NA|NA|"active"|"20151119"|NA
+9001862|"chlorhexidine gluconate 2 % wipe"|NA|NA|"active"|"20060925"|NA
+9006132|"vitamin d3 (cholecalciferol) 10000 unit oral capsule"|NA|NA|"active"|"20160819"|NA
+9001933|"ciclesonide 50 mcg per actuation nasal spray"|NA|NA|"active"|"20170123"|NA
+9001934|"ciclesonide 50 mcg per spray nasal spray"|NA|NA|"active"|"20161128"|NA
+9001931|"ciclesonide 100 mcg per actuation pressurised inhalation"|NA|NA|"active"|"20170123"|NA
+9001932|"ciclesonide 200 mcg per actuation pressurised inhalation"|NA|NA|"active"|"20170123"|NA
+9001936|"ciclopirox olamine 1 % cutaneous cream"|NA|NA|"active"|"20150505"|NA
+9001935|"ciclopirox 8 % cutaneous solution"|NA|NA|"active"|"20100416"|NA
+9001937|"ciclopirox olamine 1 % lotion"|NA|NA|"active"|"20130314"|NA
+9001938|"ciclopirox olamine 1.5 % shampoo"|NA|NA|"active"|"20150505"|NA
+9001960|"ciprofloxacin (ciprofloxacin hydrochloride) 0.3 % ophthalmic ointment"|NA|NA|"active"|"20170405"|NA
+9001961|"ciprofloxacin (ciprofloxacin hydrochloride) 0.3 % opthalmic drops, solution"|NA|NA|"active"|"20061110"|NA
+9001969|"ciprofloxacin 10 g per 100 mL oral suspension"|NA|NA|"active"|"20170531"|NA
+9001962|"ciprofloxacin (ciprofloxacin hydrochloride) 250 mg oral tablet"|NA|NA|"active"|"20040404"|NA
+9001963|"ciprofloxacin (ciprofloxacin hydrochloride) 500 mg oral tablet"|NA|NA|"active"|"20040404"|NA
+9001964|"ciprofloxacin (ciprofloxacin hydrochloride) 750 mg oral tablet"|NA|NA|"active"|"20040404"|NA
+9001967|"ciprofloxacin (ciprofloxacin lactate) 0.2 % solution for injection"|NA|NA|"active"|"20160601"|NA
+9001968|"ciprofloxacin (ciprofloxacin lactate) 2 mg per mL solution for injection"|NA|NA|"active"|"20131204"|NA
+9001970|"ciprofloxacin 10 mg per mL solution for injection"|NA|NA|"active"|"20080930"|NA
+9001971|"ciprofloxacin 2 mg per mL solution for injection"|NA|NA|"active"|"20080523"|NA
+9001958|"ciprofloxacin (ciprofloxacin hydrochloride) 0.3 % and dexamethasone 0.1 % otic drops, suspension"|NA|NA|"active"|"20170221"|NA
+9001974|"citalopram (citalopram hydrobromide) 10 mg oral tablet"|NA|NA|"active"|"20060308"|NA
+9001975|"citalopram (citalopram hydrobromide) 20 mg oral tablet"|NA|NA|"active"|"20040503"|NA
+9001976|"citalopram (citalopram hydrobromide) 30 mg oral tablet"|NA|NA|"active"|"20120104"|NA
+9001977|"citalopram (citalopram hydrobromide) 40 mg oral tablet"|NA|NA|"active"|"20040503"|NA
+9001982|"clarithromycin 125 mg per 5 mL granules for oral suspension"|NA|NA|"active"|"20131025"|NA
+9001984|"clarithromycin 250 mg per 5 mL granules for oral suspension"|NA|NA|"active"|"20131025"|NA
+9001983|"clarithromycin 250 mg oral tablet"|NA|NA|"active"|"20070823"|NA
+9001985|"clarithromycin 500 mg oral tablet"|NA|NA|"active"|"20070823"|NA
+9001986|"clarithromycin 500 mg prolonged release oral tablet"|NA|NA|"active"|"20140909"|NA
+9001990|"clindamycin (clindamycin phosphate) 1 % cutaneous solution"|NA|NA|"active"|"20060320"|NA
+9001988|"clindamycin (clindamycin hydrochloride) 150 mg oral capsule"|NA|NA|"active"|"20060303"|NA
+9001989|"clindamycin (clindamycin hydrochloride) 300 mg oral capsule"|NA|NA|"active"|"20060303"|NA
+9001996|"clindamycin hydrochloride 150 mg oral capsule"|NA|NA|"active"|"20170118"|NA
+9001997|"clindamycin hydrochloride 300 mg oral capsule"|NA|NA|"active"|"20170118"|NA
+9001991|"clindamycin (clindamycin phosphate) 1 % pad"|NA|NA|"active"|"20150505"|NA
+9001992|"clindamycin (clindamycin phosphate) 12 mg per mL solution for injection"|NA|NA|"active"|"20140114"|NA
+9001993|"clindamycin (clindamycin phosphate) 150 mg per mL solution for injection"|NA|NA|"active"|"20090430"|NA
+9001994|"clindamycin (clindamycin phosphate) 18 mg per mL solution for injection"|NA|NA|"active"|"20140114"|NA
+9001995|"clindamycin (clindamycin phosphate) 20 mg per g vaginal cream"|NA|NA|"active"|"20070614"|NA
+9002002|"clobazam 10 mg oral tablet"|NA|NA|"active"|"20140929"|NA
+9002003|"clobetasol propionate 0.05 % cutaneous cream"|NA|NA|"active"|"20020119"|NA
+9002004|"clobetasol propionate 0.05 % cutaneous foam"|NA|NA|"active"|"20130207"|NA
+9002005|"clobetasol propionate 0.05 % cutaneous liquid"|NA|NA|"active"|"20021007"|NA
+9002006|"clobetasol propionate 0.05 % cutaneous ointment"|NA|NA|"active"|"20020119"|NA
+9002007|"clobetasol propionate 0.05 % cutaneous solution"|NA|NA|"active"|"20040503"|NA
+9002008|"clobetasol propionate 0.05 % lotion"|NA|NA|"active"|"20100408"|NA
+9002009|"clobetasol propionate 0.05 % shampoo"|NA|NA|"active"|"20061229"|NA
+9002020|"clonazepam 0.25 mg oral tablet"|NA|NA|"active"|"20060918"|NA
+9002021|"clonazepam 0.5 mg oral tablet"|NA|NA|"active"|"20020223"|NA
+9002022|"clonazepam 1 mg oral tablet"|NA|NA|"active"|"20060330"|NA
+9002023|"clonazepam 2 mg oral tablet"|NA|NA|"active"|"20020307"|NA
+9002024|"clonidine hydrochloride 0.025 mg oral tablet"|NA|NA|"active"|"20061229"|NA
+9002025|"clonidine hydrochloride 0.1 mg oral tablet"|NA|NA|"active"|"20030716"|NA
+9002026|"clonidine hydrochloride 0.2 mg oral tablet"|NA|NA|"active"|"20030716"|NA
+9002027|"clopidogrel (clopidogrel bisulfate) 300 mg oral tablet"|NA|NA|"active"|"20091016"|NA
+9002028|"clopidogrel (clopidogrel bisulfate) 75 mg oral tablet"|NA|NA|"active"|"20090409"|NA
+9002063|"clozapine 100 mg oral tablet"|NA|NA|"active"|"20091102"|NA
+9002064|"clozapine 200 mg oral tablet"|NA|NA|"active"|"20101221"|NA
+9002065|"clozapine 25 mg oral tablet"|NA|NA|"active"|"20101221"|NA
+9002066|"clozapine 50 mg oral tablet"|NA|NA|"active"|"20101221"|NA
+9002103|"codeine phosphate 0.2 % oral liquid"|NA|NA|"active"|"20170324"|NA
+9002107|"codeine phosphate 15 mg oral tablet"|NA|NA|"active"|"20011220"|NA
+9002110|"codeine phosphate 30 mg oral tablet"|NA|NA|"active"|"20020215"|NA
+9002111|"codeine phosphate 30 mg per mL solution for injection"|NA|NA|"active"|"20150429"|NA
+9002113|"codeine phosphate 60 mg per mL solution for injection"|NA|NA|"active"|"20150429"|NA
+9002112|"codeine phosphate 5 mg per mL syrup"|NA|NA|"active"|"20130212"|NA
+9002114|"colchicine 0.6 mg oral tablet"|NA|NA|"active"|"20090709"|NA
+9002156|"cyclobenzaprine hydrochloride 10 mg oral tablet"|NA|NA|"active"|"20081017"|NA
+9002177|"cyproterone acetate 2 mg and ethinyl estradiol 0.035 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9002178|"cyproterone acetate 2 mg and ethinyl estradiol 35 mcg oral tablet"|NA|NA|"active"|"20100621"|NA
+9002191|"dabigatran etexilate (dabigatran etexilate mesilate) 110 mg oral capsule"|NA|NA|"active"|"20150323"|NA
+9002192|"dabigatran etexilate (dabigatran etexilate mesilate) 150 mg oral capsule"|NA|NA|"active"|"20130523"|NA
+9002193|"dabigatran etexilate (dabigatran etexilate mesilate) 75 mg oral capsule"|NA|NA|"active"|"20130409"|NA
+9002303|"desogestrel 0.1 mg and desogestrel 0.125 mg and desogestrel 0.15 mg and ethinyl estradiol 0.025 mg oral tablet"|NA|NA|"active"|"20160723"|NA
+9002304|"desogestrel 0.15 mg and ethinyl estradiol 0.03 mg oral tablet"|NA|NA|"active"|"20130206"|NA
+9002311|"desvenlafaxine (desvenlafaxine succinate) 100 mg prolonged release oral tablet"|NA|NA|"active"|"20161006"|NA
+9002312|"desvenlafaxine (desvenlafaxine succinate) 50 mg prolonged release oral tablet"|NA|NA|"active"|"20161006"|NA
+9002327|"dexamethasone 0.7 mg intravitreal implant"|NA|NA|"active"|"20120312"|NA
+9002322|"dexamethasone 0.1 % ophthalmic drops, suspension"|NA|NA|"active"|"20170215"|NA
+9002323|"dexamethasone 0.1 % ophthalmic ointment"|NA|NA|"active"|"20170215"|NA
+9002335|"dexamethasone phosphate (dexamethasone sodium phosphate) 1 mg per mL opthalmic drops"|NA|NA|"active"|"20051205"|NA
+9002341|"dexamethasone sodium phosphate 1 mg per mL opthalmic drops"|NA|NA|"active"|"20150430"|NA
+9002339|"dexamethasone sodium phosphate 0.1 % opthalmic drops, solution"|NA|NA|"active"|"20150929"|NA
+9002325|"dexamethasone 0.5 mg per 5 mL oral liquid"|NA|NA|"active"|"20130613"|NA
+9002326|"dexamethasone 0.5 mg per 5 mL oral solution"|NA|NA|"active"|"20060914"|NA
+9002324|"dexamethasone 0.5 mg oral tablet"|NA|NA|"active"|"20040809"|NA
+9002328|"dexamethasone 0.75 mg oral tablet"|NA|NA|"active"|"20040809"|NA
+9002333|"dexamethasone 2 mg oral tablet"|NA|NA|"active"|"20060612"|NA
+9002334|"dexamethasone 4 mg oral tablet"|NA|NA|"active"|"20040809"|NA
+9002336|"dexamethasone phosphate (dexamethasone sodium phosphate) 1 mg per mL otic drops"|NA|NA|"active"|"20051205"|NA
+9002342|"dexamethasone sodium phosphate 1 mg per mL otic drops"|NA|NA|"active"|"20150430"|NA
+9002340|"dexamethasone sodium phosphate 0.1 % otic drops, solution"|NA|NA|"active"|"20150929"|NA
+9002317|"dexamethasone (dexamethasone sodium phosphate) 10 mg per mL solution for injection"|NA|NA|"active"|"20150429"|NA
+9002337|"dexamethasone phosphate (dexamethasone sodium phosphate) 10 mg per mL solution for injection"|NA|NA|"active"|"20060914"|NA
+9002338|"dexamethasone phosphate (dexamethasone sodium phosphate) 4 mg per mL solution for injection"|NA|NA|"active"|"20040908"|NA
+9002344|"dexlansoprazole 30 mg modified release oral capsule"|NA|NA|"active"|"20161130"|NA
+9002345|"dexlansoprazole 60 mg modified release oral capsule"|NA|NA|"active"|"20161130"|NA
+9002363|"dextroamphetamine sulfate 5 mg oral tablet"|NA|NA|"active"|"20151203"|NA
+9002361|"dextroamphetamine sulfate 10 mg prolonged release oral capsule"|NA|NA|"active"|"20151203"|NA
+9002362|"dextroamphetamine sulfate 15 mg prolonged release oral capsule"|NA|NA|"active"|"20151203"|NA
+9002495|"diazepam 1 mg per mL oral solution"|NA|NA|"active"|"20150722"|NA
+9002496|"diazepam 10 mg oral tablet"|NA|NA|"active"|"20060306"|NA
+9002497|"diazepam 2 mg oral tablet"|NA|NA|"active"|"20060329"|NA
+9002498|"diazepam 5 mg oral tablet"|NA|NA|"active"|"20060306"|NA
+9002499|"diazepam 5 mg per mL rectal gel"|NA|NA|"active"|"20080619"|NA
+9002500|"diazepam 5 mg per mL solution for injection"|NA|NA|"active"|"20090824"|NA
+9002507|"dibucaine hydrochloride 5 mg per g and esculin 10 mg per g and framycetin sulfate 10 mg per g and hydrocortisone (hydrocortisone acetate) 5 mg per g rectal ointment"|NA|NA|"active"|"20150429"|NA
+9002508|"dibucaine hydrochloride 5 mg per g and esculin 10 mg per g and framycetin sulfate 10 mg per g and hydrocortisone 5 mg per g rectal ointment"|NA|NA|"active"|"20070927"|NA
+9002505|"dibucaine hydrochloride 5 mg and esculin 10 mg and framycetin sulfate 10 mg and hydrocortisone (hydrocortisone acetate) 5 mg suppository"|NA|NA|"active"|"20150429"|NA
+9002506|"dibucaine hydrochloride 5 mg and esculin 10 mg and framycetin sulfate 10 mg and hydrocortisone 5 mg suppository"|NA|NA|"active"|"20060518"|NA
+9002509|"diclofenac diethylamine 1.16 % cutaneous gel"|NA|NA|"active"|"20160830"|NA
+9002510|"diclofenac diethylamine 2.32 % cutaneous gel"|NA|NA|"active"|"20160126"|NA
+9002514|"diclofenac sodium 1.5 % cutaneous solution"|NA|NA|"active"|"20100507"|NA
+9002517|"diclofenac sodium 25 mg gastro-resistant tablet"|NA|NA|"active"|"20141016"|NA
+9002522|"diclofenac sodium 50 mg gastro-resistant tablet"|NA|NA|"active"|"20111129"|NA
+9002513|"diclofenac sodium 0.1 % opthalmic drops, solution"|NA|NA|"active"|"20160223"|NA
+9002511|"diclofenac potassium 50 mg oral tablet"|NA|NA|"active"|"20080801"|NA
+9002518|"diclofenac sodium 25 mg oral tablet"|NA|NA|"active"|"20060405"|NA
+9002523|"diclofenac sodium 50 mg oral tablet"|NA|NA|"active"|"20060405"|NA
+9002512|"diclofenac potassium 50 mg per pck powder for oral solution"|NA|NA|"active"|"20120803"|NA
+9002515|"diclofenac sodium 100 mg prolonged release oral tablet"|NA|NA|"active"|"20060404"|NA
+9002519|"diclofenac sodium 25 mg prolonged release oral tablet"|NA|NA|"active"|"20080917"|NA
+9002524|"diclofenac sodium 50 mg prolonged release oral tablet"|NA|NA|"active"|"20070425"|NA
+9002528|"diclofenac sodium 75 mg prolonged release oral tablet"|NA|NA|"active"|"20060404"|NA
+9002516|"diclofenac sodium 100 mg suppository"|NA|NA|"active"|"20060606"|NA
+9002525|"diclofenac sodium 50 mg suppository"|NA|NA|"active"|"20060606"|NA
+9002520|"diclofenac sodium 50 mg and misoprostol 200 mcg gastro-resistant tablet"|NA|NA|"active"|"20160721"|NA
+9002526|"diclofenac sodium 75 mg and misoprostol 200 mcg gastro-resistant tablet"|NA|NA|"active"|"20160721"|NA
+9002521|"diclofenac sodium 50 mg and misoprostol 200 mcg oral tablet"|NA|NA|"active"|"20130125"|NA
+9002527|"diclofenac sodium 75 mg and misoprostol 200 mcg oral tablet"|NA|NA|"active"|"20130125"|NA
+9002542|"digoxin 0.05 mg per mL oral solution"|NA|NA|"active"|"20120704"|NA
+9002544|"digoxin 0.0625 mg oral tablet"|NA|NA|"active"|"20070213"|NA
+9002545|"digoxin 0.125 mg oral tablet"|NA|NA|"active"|"20070213"|NA
+9002546|"digoxin 0.25 mg oral tablet"|NA|NA|"active"|"20070213"|NA
+9002543|"digoxin 0.05 mg per mL solution for injection"|NA|NA|"active"|"20150505"|NA
+9002547|"digoxin 0.25 mg per mL solution for injection"|NA|NA|"active"|"20150501"|NA
+9002551|"diltiazem hydrochloride 120 mg modified release oral capsule"|NA|NA|"active"|"20060306"|NA
+9002554|"diltiazem hydrochloride 180 mg modified release oral capsule"|NA|NA|"active"|"20060306"|NA
+9002557|"diltiazem hydrochloride 240 mg modified release oral capsule"|NA|NA|"active"|"20100819"|NA
+9002561|"diltiazem hydrochloride 300 mg modified release oral capsule"|NA|NA|"active"|"20101105"|NA
+9002560|"diltiazem hydrochloride 30 mg oral tablet"|NA|NA|"active"|"20080206"|NA
+9002567|"diltiazem hydrochloride 60 mg oral tablet"|NA|NA|"active"|"20080206"|NA
+9002552|"diltiazem hydrochloride 120 mg prolonged release oral capsule"|NA|NA|"active"|"20030323"|NA
+9002555|"diltiazem hydrochloride 180 mg prolonged release oral capsule"|NA|NA|"active"|"20081006"|NA
+9002558|"diltiazem hydrochloride 240 mg prolonged release oral capsule"|NA|NA|"active"|"20081006"|NA
+9002562|"diltiazem hydrochloride 300 mg prolonged release oral capsule"|NA|NA|"active"|"20081006"|NA
+9002564|"diltiazem hydrochloride 360 mg prolonged release oral capsule"|NA|NA|"active"|"20081006"|NA
+9002568|"diltiazem hydrochloride 60 mg prolonged release oral capsule"|NA|NA|"active"|"20030323"|NA
+9002569|"diltiazem hydrochloride 90 mg prolonged release oral capsule"|NA|NA|"active"|"20030323"|NA
+9002553|"diltiazem hydrochloride 120 mg prolonged release oral tablet"|NA|NA|"active"|"20140324"|NA
+9002556|"diltiazem hydrochloride 180 mg prolonged release oral tablet"|NA|NA|"active"|"20140324"|NA
+9002559|"diltiazem hydrochloride 240 mg prolonged release oral tablet"|NA|NA|"active"|"20140324"|NA
+9002563|"diltiazem hydrochloride 300 mg prolonged release oral tablet"|NA|NA|"active"|"20140324"|NA
+9002565|"diltiazem hydrochloride 360 mg prolonged release oral tablet"|NA|NA|"active"|"20140324"|NA
+9002566|"diltiazem hydrochloride 5 mg per mL solution for injection"|NA|NA|"active"|"20150505"|NA
+9006053|"valproic acid 500 mg gastro-resistant capsule"|NA|NA|"active"|"20060407"|NA
+9006046|"valproic acid (divalproex sodium) 125 mg gastro-resistant tablet"|NA|NA|"active"|"20010824"|NA
+9006047|"valproic acid (divalproex sodium) 250 mg gastro-resistant tablet"|NA|NA|"active"|"20010824"|NA
+9006048|"valproic acid (divalproex sodium) 500 mg gastro-resistant tablet"|NA|NA|"active"|"20010824"|NA
+9006052|"valproic acid 250 mg oral capsule"|NA|NA|"active"|"20060329"|NA
+9002686|"domperidone (domperidone maleate) 10 mg oral tablet"|NA|NA|"active"|"20110609"|NA
+9002691|"donepezil hydrochloride 10 mg oral tablet"|NA|NA|"active"|"20100930"|NA
+9002693|"donepezil hydrochloride 5 mg oral tablet"|NA|NA|"active"|"20130712"|NA
+9002692|"donepezil hydrochloride 10 mg orodispersible tablet"|NA|NA|"active"|"20060821"|NA
+9002694|"donepezil hydrochloride 5 mg orodispersible tablet"|NA|NA|"active"|"20130712"|NA
+9002697|"dorzolamide (dorzolamide hydrochloride) 20 mg per mL and timolol (timolol maleate) 5 mg per mL opthalmic drops, solution"|NA|NA|"active"|"20110207"|NA
+9002699|"doxazosin (doxazosin mesylate) 1 mg oral tablet"|NA|NA|"active"|"20060918"|NA
+9002700|"doxazosin (doxazosin mesylate) 2 mg oral tablet"|NA|NA|"active"|"20011022"|NA
+9002701|"doxazosin (doxazosin mesylate) 4 mg oral tablet"|NA|NA|"active"|"20060918"|NA
+9002717|"doxycycline (doxycycline hyclate) 100 mg oral capsule"|NA|NA|"active"|"20070413"|NA
+9002719|"doxycycline (doxycycline hyclate) 20 mg oral capsule"|NA|NA|"active"|"20130108"|NA
+9002718|"doxycycline (doxycycline hyclate) 100 mg oral tablet"|NA|NA|"active"|"20040716"|NA
+9002722|"doxycycline hyclate 100 mg oral tablet"|NA|NA|"active"|"20060307"|NA
+9002720|"doxycycline (doxycycline hyclate) 44 mg per unit periodontal gel"|NA|NA|"active"|"20150505"|NA
+9002729|"drospirenone 3 mg and ethinyl estradiol 0.02 mg oral tablet"|NA|NA|"active"|"20110624"|NA
+9002730|"drospirenone 3 mg and ethinyl estradiol 0.03 mg oral tablet"|NA|NA|"active"|"20130724"|NA
+9002733|"duloxetine (duloxetine hydrochloride) 30 mg modified release oral capsule"|NA|NA|"active"|"20160513"|NA
+9002734|"duloxetine (duloxetine hydrochloride) 60 mg modified release oral capsule"|NA|NA|"active"|"20160513"|NA
+9002736|"dutasteride 0.5 mg oral capsule"|NA|NA|"active"|"20090320"|NA
+9002774|"enalapril maleate 10 mg oral tablet"|NA|NA|"active"|"20100114"|NA
+9002775|"enalapril maleate 2.5 mg oral tablet"|NA|NA|"active"|"20100114"|NA
+9002776|"enalapril maleate 20 mg oral tablet"|NA|NA|"active"|"20100114"|NA
+9002778|"enalapril maleate 5 mg oral tablet"|NA|NA|"active"|"20100115"|NA
+9002779|"enalapril sodium (enalapril maleate) 16 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9002780|"enalapril sodium (enalapril maleate) 2 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9002781|"enalapril sodium (enalapril maleate) 4 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9002782|"enalapril sodium (enalapril maleate) 8 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9002790|"enalaprilat 1.25 mg per mL solution for injection"|NA|NA|"active"|"20100114"|NA
+9002835|"epinephrine 1 mg per mL endotracheopulmonary instillation, solution"|NA|NA|"active"|"20151120"|NA
+9002825|"epinephrine (epinephrine hydrochloride) 1 mg per mL nasal spray, solution"|NA|NA|"active"|"20150319"|NA
+9002826|"epinephrine (epinephrine hydrochloride) 1 mg per mL solution for injection"|NA|NA|"active"|"20080605"|NA
+9002831|"epinephrine 0.1 mg per mL solution for injection"|NA|NA|"active"|"20131029"|NA
+9002832|"epinephrine 0.15 mg per 0.3 mL solution for injection"|NA|NA|"active"|"20091126"|NA
+9002833|"epinephrine 0.3 mg per 0.3 mL solution for injection"|NA|NA|"active"|"20091126"|NA
+9002834|"epinephrine 0.5 mg per mL solution for injection"|NA|NA|"active"|"20140828"|NA
+9002836|"epinephrine 1 mg per mL solution for injection"|NA|NA|"active"|"20101020"|NA
+9002894|"erythromycin 250 mg gastro-resistant capsule"|NA|NA|"active"|"20150817"|NA
+9002896|"erythromycin 333 mg gastro-resistant capsule"|NA|NA|"active"|"20150429"|NA
+9002898|"erythromycin 5 mg per g ophthalmic ointment"|NA|NA|"active"|"20100218"|NA
+9002884|"erythromycin (erythromycin estolate) 125 mg per 5 mL oral suspension"|NA|NA|"active"|"20150429"|NA
+9002885|"erythromycin (erythromycin estolate) 250 mg per 5 mL oral suspension"|NA|NA|"active"|"20150824"|NA
+9002889|"erythromycin (erythromycin ethylsuccinate) 600 mg oral tablet"|NA|NA|"active"|"20110517"|NA
+9002892|"erythromycin (erythromycin stearate) 250 mg oral tablet"|NA|NA|"active"|"20130321"|NA
+9002893|"erythromycin (erythromycin stearate) 500 mg oral tablet"|NA|NA|"active"|"20130321"|NA
+9002895|"erythromycin 250 mg oral tablet"|NA|NA|"active"|"20150429"|NA
+9002897|"erythromycin 333 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9002899|"erythromycin 500 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9002887|"erythromycin (erythromycin ethylsuccinate) 40 mg per mL powder for oral suspension"|NA|NA|"active"|"20150505"|NA
+9002888|"erythromycin (erythromycin ethylsuccinate) 400 mg per 5 mL powder for oral suspension"|NA|NA|"active"|"20150505"|NA
+9002890|"erythromycin (erythromycin lactobionate) 1 g per vial powder for solution for injection"|NA|NA|"active"|"20110210"|NA
+9002891|"erythromycin (erythromycin lactobionate) 500 mg per vial powder for solution for injection"|NA|NA|"active"|"20100923"|NA
+9002901|"escitalopram (escitalopram oxalate) 10 mg oral tablet"|NA|NA|"active"|"20070228"|NA
+9002902|"escitalopram (escitalopram oxalate) 20 mg oral tablet"|NA|NA|"active"|"20120808"|NA
+9002903|"escitalopram 10 mg orodispersible tablet"|NA|NA|"active"|"20130523"|NA
+9002904|"escitalopram 20 mg orodispersible tablet"|NA|NA|"active"|"20130523"|NA
+9002911|"esomeprazole (esomeprazole magnesium dihydrate) 40 mg modified release oral capsule"|NA|NA|"active"|"20140620"|NA
+9002910|"esomeprazole (esomeprazole magnesium dihydrate) 20 mg prolonged release oral tablet"|NA|NA|"active"|"20151117"|NA
+9002912|"esomeprazole (esomeprazole magnesium dihydrate) 40 mg prolonged release oral tablet"|NA|NA|"active"|"20151117"|NA
+9002921|"esomeprazole (esomeprazole magnesium) 20 mg prolonged release oral tablet"|NA|NA|"active"|"20131204"|NA
+9002922|"esomeprazole (esomeprazole magnesium) 40 mg prolonged release oral tablet"|NA|NA|"active"|"20121218"|NA
+9002919|"esomeprazole (esomeprazole magnesium) 20 mg and naproxen 375 mg modified release tablet"|NA|NA|"active"|"20170529"|NA
+9002920|"esomeprazole (esomeprazole magnesium) 20 mg and naproxen 500 mg modified release tablet"|NA|NA|"active"|"20170529"|NA
+9002925|"estradiol (estradiol hemihydrate) 0.5 mg oral tablet"|NA|NA|"active"|"20160525"|NA
+9002926|"estradiol (estradiol hemihydrate) 1 mg oral tablet"|NA|NA|"active"|"20160428"|NA
+9002928|"estradiol (estradiol hemihydrate) 2 mg oral tablet"|NA|NA|"active"|"20160428"|NA
+9002940|"estradiol 0.5 mg oral tablet"|NA|NA|"active"|"20151210"|NA
+9002946|"estradiol 1 mg oral tablet"|NA|NA|"active"|"20151210"|NA
+9002951|"estradiol 2 mg oral tablet"|NA|NA|"active"|"20151210"|NA
+9002952|"estradiol 2 mg ring (slow release)"|NA|NA|"active"|"20060726"|NA
+9002936|"estradiol 0.06 % transdermal gel"|NA|NA|"active"|"20130515"|NA
+9002937|"estradiol 0.1 % transdermal gel"|NA|NA|"active"|"20150421"|NA
+9002929|"estradiol (estradiol hemihydrate) 2 mg transdermal patch"|NA|NA|"active"|"20081022"|NA
+9002930|"estradiol (estradiol hemihydrate) 3.8 mg transdermal patch"|NA|NA|"active"|"20081022"|NA
+9002931|"estradiol (estradiol hemihydrate) 4 mg transdermal patch"|NA|NA|"active"|"20150505"|NA
+9002932|"estradiol (estradiol hemihydrate) 5.7 mg transdermal patch"|NA|NA|"active"|"20081022"|NA
+9002933|"estradiol (estradiol hemihydrate) 6 mg transdermal patch"|NA|NA|"active"|"20150505"|NA
+9002934|"estradiol (estradiol hemihydrate) 7.6 mg transdermal patch"|NA|NA|"active"|"20081022"|NA
+9002935|"estradiol (estradiol hemihydrate) 8 mg transdermal patch"|NA|NA|"active"|"20150505"|NA
+9002938|"estradiol 0.39 mg transdermal patch"|NA|NA|"active"|"20060605"|NA
+9002942|"estradiol 0.585 mg transdermal patch"|NA|NA|"active"|"20060605"|NA
+9002944|"estradiol 0.78 mg transdermal patch"|NA|NA|"active"|"20060605"|NA
+9002947|"estradiol 1.17 mg transdermal patch"|NA|NA|"active"|"20060605"|NA
+9002948|"estradiol 1.56 mg transdermal patch"|NA|NA|"active"|"20060605"|NA
+9002949|"estradiol 10 mg transdermal patch"|NA|NA|"active"|"20160913"|NA
+9002950|"estradiol 15 mg transdermal patch"|NA|NA|"active"|"20170118"|NA
+9002953|"estradiol 20 mg transdermal patch"|NA|NA|"active"|"20170118"|NA
+9002955|"estradiol 5 mg transdermal patch"|NA|NA|"active"|"20160913"|NA
+9002956|"estradiol 7.5 mg transdermal patch"|NA|NA|"active"|"20170118"|NA
+9002927|"estradiol (estradiol hemihydrate) 10 mcg vaginal tablet"|NA|NA|"active"|"20150505"|NA
+9002130|"conjugated estrogens 0.625 mg per g cutaneous cream"|NA|NA|"active"|"20121107"|NA
+9002123|"conjugated estrogens 0.3 mg oral tablet"|NA|NA|"active"|"20091019"|NA
+9002129|"conjugated estrogens 0.625 mg oral tablet"|NA|NA|"active"|"20081122"|NA
+9002133|"conjugated estrogens 0.9 mg oral tablet"|NA|NA|"active"|"20081122"|NA
+9002134|"conjugated estrogens 1.25 mg oral tablet"|NA|NA|"active"|"20020517"|NA
+9002136|"conjugated estrogens 2.5 mg oral tablet"|NA|NA|"active"|"20020517"|NA
+9002137|"conjugated estrogens 25 mg per vial powder for solution for injection"|NA|NA|"active"|"20140331"|NA
+9002124|"conjugated estrogens 0.3 mg prolonged release oral tablet"|NA|NA|"active"|"20141028"|NA
+9002132|"conjugated estrogens 0.625 mg prolonged release oral tablet"|NA|NA|"active"|"20141028"|NA
+9002135|"conjugated estrogens 1.25 mg prolonged release oral tablet"|NA|NA|"active"|"20141028"|NA
+9002131|"conjugated estrogens 0.625 mg per g vaginal cream"|NA|NA|"active"|"20121107"|NA
+9002978|"ethinyl estradiol 2.6 mg and etonogestrel 11.4 mg ring (slow release)"|NA|NA|"active"|"20130123"|NA
+9002967|"ethinyl estradiol 0.01 mg and ethinyl estradiol 0.03 mg and levonorgestrel 0.15 mg oral tablet"|NA|NA|"active"|"20170310"|NA
+9002969|"ethinyl estradiol 0.03 mg and levonorgestrel 0.15 mg oral tablet"|NA|NA|"active"|"20150603"|NA
+9002979|"ethinyl estradiol 20 mcg and levonorgestrel 100 mcg oral tablet"|NA|NA|"active"|"20130125"|NA
+9002981|"ethinyl estradiol 30 mcg and ethinyl estradiol 40 mcg and levonorgestrel 125 mcg and levonorgestrel 50 mcg and levonorgestrel 75 mcg oral tablet"|NA|NA|"active"|"20080716"|NA
+9002983|"ethinyl estradiol 30 mcg and levonorgestrel 150 mcg oral tablet"|NA|NA|"active"|"20130125"|NA
+9002976|"ethinyl estradiol 0.6 mg and norelgestromin 6 mg transdermal patch"|NA|NA|"active"|"20090210"|NA
+9002970|"ethinyl estradiol 0.035 mg and norethindrone 0.5 mg and norethindrone 0.75 mg and norethindrone 1 mg oral tablet"|NA|NA|"active"|"20060323"|NA
+9002971|"ethinyl estradiol 0.035 mg and norethindrone 0.5 mg and norethindrone 1 mg oral tablet"|NA|NA|"active"|"20090811"|NA
+9002972|"ethinyl estradiol 0.035 mg and norethindrone 0.5 mg oral tablet"|NA|NA|"active"|"20060323"|NA
+9002973|"ethinyl estradiol 0.035 mg and norethindrone 1 mg oral tablet"|NA|NA|"active"|"20060306"|NA
+9002977|"ethinyl estradiol 10 mcg and norethindrone acetate 1 mg oral tablet"|NA|NA|"active"|"20150113"|NA
+9002980|"ethinyl estradiol 20 mcg and norethindrone acetate 1 mg oral tablet"|NA|NA|"active"|"20130409"|NA
+9002984|"ethinyl estradiol 30 mcg and norethindrone acetate 1.5 mg oral tablet"|NA|NA|"active"|"20130923"|NA
+9002968|"ethinyl estradiol 0.025 mg and norgestimate 0.18 mg and norgestimate 0.215 mg and norgestimate 0.25 mg oral tablet"|NA|NA|"active"|"20081121"|NA
+9002974|"ethinyl estradiol 0.035 mg and norgestimate 0.18 mg and norgestimate 0.215 mg and norgestimate 0.25 mg oral tablet"|NA|NA|"active"|"20060530"|NA
+9002975|"ethinyl estradiol 0.035 mg and norgestimate 0.25 mg oral tablet"|NA|NA|"active"|"20060322"|NA
+9003009|"ezetimibe 10 mg oral tablet"|NA|NA|"active"|"20120208"|NA
+9003021|"felodipine 10 mg prolonged release oral tablet"|NA|NA|"active"|"20060829"|NA
+9003022|"felodipine 2.5 mg prolonged release oral tablet"|NA|NA|"active"|"20070803"|NA
+9003023|"felodipine 5 mg prolonged release oral tablet"|NA|NA|"active"|"20060829"|NA
+9003024|"fenofibrate 100 mg oral capsule"|NA|NA|"active"|"20100930"|NA
+9003027|"fenofibrate 160 mg oral capsule"|NA|NA|"active"|"20070102"|NA
+9003029|"fenofibrate 200 mg oral capsule"|NA|NA|"active"|"20051206"|NA
+9003031|"fenofibrate 67 mg oral capsule"|NA|NA|"active"|"20060310"|NA
+9003025|"fenofibrate 100 mg oral tablet"|NA|NA|"active"|"20061026"|NA
+9003026|"fenofibrate 145 mg oral tablet"|NA|NA|"active"|"20130110"|NA
+9003028|"fenofibrate 160 mg oral tablet"|NA|NA|"active"|"20061026"|NA
+9003030|"fenofibrate 48 mg oral tablet"|NA|NA|"active"|"20121217"|NA
+9003032|"fentanyl (fentanyl citrate) 100 mcg effervescent oral tablet"|NA|NA|"active"|"20170316"|NA
+9003034|"fentanyl (fentanyl citrate) 200 mcg effervescent oral tablet"|NA|NA|"active"|"20170316"|NA
+9003037|"fentanyl (fentanyl citrate) 400 mcg effervescent oral tablet"|NA|NA|"active"|"20170316"|NA
+9003040|"fentanyl (fentanyl citrate) 600 mcg effervescent oral tablet"|NA|NA|"active"|"20170316"|NA
+9003042|"fentanyl (fentanyl citrate) 800 mcg effervescent oral tablet"|NA|NA|"active"|"20170316"|NA
+9003033|"fentanyl (fentanyl citrate) 100 mcg oral tablet"|NA|NA|"active"|"20110530"|NA
+9003035|"fentanyl (fentanyl citrate) 200 mcg oral tablet"|NA|NA|"active"|"20110530"|NA
+9003036|"fentanyl (fentanyl citrate) 300 mcg oral tablet"|NA|NA|"active"|"20110530"|NA
+9003038|"fentanyl (fentanyl citrate) 400 mcg oral tablet"|NA|NA|"active"|"20110530"|NA
+9003041|"fentanyl (fentanyl citrate) 600 mcg oral tablet"|NA|NA|"active"|"20110622"|NA
+9003043|"fentanyl (fentanyl citrate) 800 mcg oral tablet"|NA|NA|"active"|"20110622"|NA
+9003039|"fentanyl (fentanyl citrate) 50 mcg per mL solution for injection"|NA|NA|"active"|"20100813"|NA
+9003044|"fentanyl 100 mcg per hour transdermal patch"|NA|NA|"active"|"20091102"|NA
+9003045|"fentanyl 12 mcg per hour transdermal patch"|NA|NA|"active"|"20091102"|NA
+9003046|"fentanyl 25 mcg per hour transdermal patch"|NA|NA|"active"|"20091102"|NA
+9003047|"fentanyl 37 mcg per hour transdermal patch"|NA|NA|"active"|"20101217"|NA
+9003048|"fentanyl 50 mcg per hour transdermal patch"|NA|NA|"active"|"20091102"|NA
+9003049|"fentanyl 75 mcg per hour transdermal patch"|NA|NA|"active"|"20091102"|NA
+9003063|"finasteride 1 mg oral tablet"|NA|NA|"active"|"20070802"|NA
+9003064|"finasteride 5 mg oral tablet"|NA|NA|"active"|"20090323"|NA
+9003114|"fluoxetine (fluoxetine hydrochloride) 10 mg oral capsule"|NA|NA|"active"|"20060331"|NA
+9003115|"fluoxetine (fluoxetine hydrochloride) 20 mg oral capsule"|NA|NA|"active"|"20060329"|NA
+9003116|"fluoxetine (fluoxetine hydrochloride) 20 mg per 5 mL oral solution"|NA|NA|"active"|"20030508"|NA
+9003127|"flurazepam hydrochloride 15 mg oral capsule"|NA|NA|"active"|"20060329"|NA
+9003128|"flurazepam hydrochloride 30 mg oral capsule"|NA|NA|"active"|"20060329"|NA
+9003133|"fluticasone furoate 100 mcg inhalation powder"|NA|NA|"active"|"20160513"|NA
+9003136|"fluticasone furoate 200 mcg inhalation powder"|NA|NA|"active"|"20160513"|NA
+9003140|"fluticasone propionate 100 mcg inhalation powder"|NA|NA|"active"|"20080828"|NA
+9003145|"fluticasone propionate 250 mcg inhalation powder"|NA|NA|"active"|"20080828"|NA
+9003150|"fluticasone propionate 500 mcg inhalation powder"|NA|NA|"active"|"20060411"|NA
+9003138|"fluticasone furoate 27.5 mcg per actuation nasal spray"|NA|NA|"active"|"20090529"|NA
+9003147|"fluticasone propionate 50 mcg per actuation nasal spray"|NA|NA|"active"|"20080828"|NA
+9003134|"fluticasone furoate 100 mcg oral powder"|NA|NA|"active"|"20160513"|NA
+9003137|"fluticasone furoate 200 mcg oral powder"|NA|NA|"active"|"20160513"|NA
+9003142|"fluticasone propionate 125 mcg per actuation pressurised inhalation"|NA|NA|"active"|"20071003"|NA
+9003146|"fluticasone propionate 250 mcg per actuation pressurised inhalation"|NA|NA|"active"|"20071003"|NA
+9003148|"fluticasone propionate 50 mcg per actuation pressurised inhalation"|NA|NA|"active"|"20060411"|NA
+9003139|"fluticasone propionate 100 mcg and salmeterol (salmeterol xinafoate) 50 mcg inhalation powder"|NA|NA|"active"|"20130723"|NA
+9003144|"fluticasone propionate 250 mcg and salmeterol (salmeterol xinafoate) 50 mcg inhalation powder"|NA|NA|"active"|"20071003"|NA
+9003149|"fluticasone propionate 500 mcg and salmeterol (salmeterol xinafoate) 50 mcg inhalation powder"|NA|NA|"active"|"20071003"|NA
+9003141|"fluticasone propionate 125 mcg and salmeterol (salmeterol xinafoate) 25 mcg pressurised inhalation"|NA|NA|"active"|"20081202"|NA
+9003143|"fluticasone propionate 250 mcg and salmeterol (salmeterol xinafoate) 25 mcg pressurised inhalation"|NA|NA|"active"|"20151216"|NA
+9003157|"folic acid 25 mg oral tablet"|NA|NA|"active"|"20110706"|NA
+9003158|"folic acid 5 mg oral tablet"|NA|NA|"active"|"20110610"|NA
+9003159|"folic acid 5 mg per mL solution for injection"|NA|NA|"active"|"20150429"|NA
+9003185|"fosinopril sodium 10 mg oral tablet"|NA|NA|"active"|"20090819"|NA
+9003186|"fosinopril sodium 20 mg oral tablet"|NA|NA|"active"|"20090819"|NA
+9003196|"furosemide 10 mg per mL oral solution"|NA|NA|"active"|"20100705"|NA
+9003198|"furosemide 20 mg oral tablet"|NA|NA|"active"|"20100302"|NA
+9003199|"furosemide 40 mg oral tablet"|NA|NA|"active"|"20100302"|NA
+9003200|"furosemide 500 mg oral tablet"|NA|NA|"active"|"20100705"|NA
+9003201|"furosemide 80 mg oral tablet"|NA|NA|"active"|"20100302"|NA
+9003197|"furosemide 10 mg per mL solution for injection"|NA|NA|"active"|"20121119"|NA
+9003205|"fusidic acid 2 % cutaneous cream"|NA|NA|"active"|"20160115"|NA
+9003202|"fusidate sodium 2 % cutaneous ointment"|NA|NA|"active"|"20160115"|NA
+9003203|"fusidic acid 1 % opthalmic drops"|NA|NA|"active"|"20141117"|NA
+9003206|"gabapentin 100 mg oral capsule"|NA|NA|"active"|"20020415"|NA
+9003207|"gabapentin 300 mg oral capsule"|NA|NA|"active"|"20020415"|NA
+9003208|"gabapentin 400 mg oral capsule"|NA|NA|"active"|"20020415"|NA
+9003209|"gabapentin 600 mg oral tablet"|NA|NA|"active"|"20050118"|NA
+9003210|"gabapentin 800 mg oral tablet"|NA|NA|"active"|"20050118"|NA
+9003218|"galantamine (galantamine hydrobromide) 16 mg prolonged release oral capsule"|NA|NA|"active"|"20110302"|NA
+9003219|"galantamine (galantamine hydrobromide) 24 mg prolonged release oral capsule"|NA|NA|"active"|"20110302"|NA
+9003220|"galantamine (galantamine hydrobromide) 8 mg prolonged release oral capsule"|NA|NA|"active"|"20110302"|NA
+9003256|"gliclazide 80 mg oral tablet"|NA|NA|"active"|"20060310"|NA
+9003254|"gliclazide 30 mg prolonged release oral tablet"|NA|NA|"active"|"20130627"|NA
+9003255|"gliclazide 60 mg prolonged release oral tablet"|NA|NA|"active"|"20150415"|NA
+9003267|"glyburide 2.5 mg oral tablet"|NA|NA|"active"|"20060310"|NA
+9003268|"glyburide 5 mg oral tablet"|NA|NA|"active"|"20060329"|NA
+9003354|"haloperidol 2 mg per mL oral liquid"|NA|NA|"active"|"20060503"|NA
+9003355|"haloperidol 2 mg per mL oral solution"|NA|NA|"active"|"20060921"|NA
+9003350|"haloperidol 0.5 mg oral tablet"|NA|NA|"active"|"20080205"|NA
+9003351|"haloperidol 1 mg oral tablet"|NA|NA|"active"|"20080205"|NA
+9003352|"haloperidol 10 mg oral tablet"|NA|NA|"active"|"20080205"|NA
+9003353|"haloperidol 2 mg oral tablet"|NA|NA|"active"|"20080205"|NA
+9003356|"haloperidol 20 mg oral tablet"|NA|NA|"active"|"20160923"|NA
+9003357|"haloperidol 5 mg oral tablet"|NA|NA|"active"|"20080205"|NA
+9003348|"haloperidol (haloperidol decanoate) 100 mg per mL solution for injection"|NA|NA|"active"|"20060412"|NA
+9003349|"haloperidol (haloperidol decanoate) 50 mg per mL solution for injection"|NA|NA|"active"|"20040429"|NA
+9003358|"haloperidol 5 mg per mL solution for injection"|NA|NA|"active"|"20131021"|NA
+9003652|"insulin isophane human biosynthetic 100 unit per mL suspension for injection"|NA|NA|"active"|"20130927"|NA
+9003434|"hydrochlorothiazide 100 mg oral tablet"|NA|NA|"active"|"20130807"|NA
+9003455|"hydrochlorothiazide 12.5 mg oral tablet"|NA|NA|"active"|"20090903"|NA
+9003473|"hydrochlorothiazide 25 mg oral tablet"|NA|NA|"active"|"20090903"|NA
+9003476|"hydrochlorothiazide 50 mg oral tablet"|NA|NA|"active"|"20090903"|NA
+9003435|"hydrochlorothiazide 12.5 mg and irbesartan 150 mg oral tablet"|NA|NA|"active"|"20110324"|NA
+9003436|"hydrochlorothiazide 12.5 mg and irbesartan 300 mg oral tablet"|NA|NA|"active"|"20110324"|NA
+9003457|"hydrochlorothiazide 25 mg and irbesartan 300 mg oral tablet"|NA|NA|"active"|"20100114"|NA
+9003437|"hydrochlorothiazide 12.5 mg and lisinopril (lisinopril dihydrate) 10 mg oral tablet"|NA|NA|"active"|"20090903"|NA
+9003438|"hydrochlorothiazide 12.5 mg and lisinopril (lisinopril dihydrate) 20 mg oral tablet"|NA|NA|"active"|"20090903"|NA
+9003439|"hydrochlorothiazide 12.5 mg and lisinopril 10 mg oral tablet"|NA|NA|"active"|"20090903"|NA
+9003440|"hydrochlorothiazide 12.5 mg and lisinopril 20 mg oral tablet"|NA|NA|"active"|"20090903"|NA
+9003458|"hydrochlorothiazide 25 mg and lisinopril (lisinopril dihydrate) 20 mg oral tablet"|NA|NA|"active"|"20090903"|NA
+9003459|"hydrochlorothiazide 25 mg and lisinopril 20 mg oral tablet"|NA|NA|"active"|"20090903"|NA
+9003441|"hydrochlorothiazide 12.5 mg and losartan potassium 100 mg oral tablet"|NA|NA|"active"|"20110210"|NA
+9003442|"hydrochlorothiazide 12.5 mg and losartan potassium 50 mg oral tablet"|NA|NA|"active"|"20110210"|NA
+9003460|"hydrochlorothiazide 25 mg and losartan potassium 100 mg oral tablet"|NA|NA|"active"|"20120223"|NA
+9003443|"hydrochlorothiazide 12.5 mg and olmesartan medoxomil 20 mg oral tablet"|NA|NA|"active"|"20120920"|NA
+9003444|"hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral tablet"|NA|NA|"active"|"20120808"|NA
+9003462|"hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet"|NA|NA|"active"|"20120808"|NA
+9003445|"hydrochlorothiazide 12.5 mg and quinapril (quinapril hydrochloride) 10 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9003446|"hydrochlorothiazide 12.5 mg and quinapril (quinapril hydrochloride) 20 mg oral tablet"|NA|NA|"active"|"20090903"|NA
+9003464|"hydrochlorothiazide 25 mg and quinapril (quinapril hydrochloride) 20 mg oral tablet"|NA|NA|"active"|"20130627"|NA
+9003447|"hydrochlorothiazide 12.5 mg and ramipril 10 mg oral tablet"|NA|NA|"active"|"20100204"|NA
+9003448|"hydrochlorothiazide 12.5 mg and ramipril 2.5 mg oral tablet"|NA|NA|"active"|"20100204"|NA
+9003449|"hydrochlorothiazide 12.5 mg and ramipril 5 mg oral tablet"|NA|NA|"active"|"20100204"|NA
+9003465|"hydrochlorothiazide 25 mg and ramipril 10 mg oral tablet"|NA|NA|"active"|"20100204"|NA
+9003466|"hydrochlorothiazide 25 mg and ramipril 5 mg oral tablet"|NA|NA|"active"|"20100204"|NA
+9003451|"hydrochlorothiazide 12.5 mg and telmisartan 80 mg oral tablet"|NA|NA|"active"|"20121120"|NA
+9003469|"hydrochlorothiazide 25 mg and telmisartan 80 mg oral tablet"|NA|NA|"active"|"20121120"|NA
+9003470|"hydrochlorothiazide 25 mg and triamterene 50 mg oral tablet"|NA|NA|"active"|"20090903"|NA
+9003452|"hydrochlorothiazide 12.5 mg and valsartan 160 mg oral tablet"|NA|NA|"active"|"20110217"|NA
+9003453|"hydrochlorothiazide 12.5 mg and valsartan 320 mg oral tablet"|NA|NA|"active"|"20090812"|NA
+9003454|"hydrochlorothiazide 12.5 mg and valsartan 80 mg oral tablet"|NA|NA|"active"|"20110217"|NA
+9003471|"hydrochlorothiazide 25 mg and valsartan 160 mg oral tablet"|NA|NA|"active"|"20110217"|NA
+9003472|"hydrochlorothiazide 25 mg and valsartan 320 mg oral tablet"|NA|NA|"active"|"20090812"|NA
+9003493|"hydrocortisone 2.5 % cutaneous cream"|NA|NA|"active"|"20110726"|NA
+9003510|"hydrocortisone valerate 0.2 % cutaneous cream"|NA|NA|"active"|"20060124"|NA
+9003511|"hydrocortisone valerate 0.2 % cutaneous ointment"|NA|NA|"active"|"20060124"|NA
+9003505|"hydrocortisone acetate 25 mg per g ophthalmic ointment"|NA|NA|"active"|"20150429"|NA
+9003489|"hydrocortisone 10 mg oral tablet"|NA|NA|"active"|"20131219"|NA
+9003494|"hydrocortisone 20 mg oral tablet"|NA|NA|"active"|"20131219"|NA
+9003484|"hydrocortisone (hydrocortisone sodium succinate) 1 g per vial powder for solution for injection"|NA|NA|"active"|"20090422"|NA
+9003485|"hydrocortisone (hydrocortisone sodium succinate) 100 mg per vial powder for solution for injection"|NA|NA|"active"|"20090422"|NA
+9003486|"hydrocortisone (hydrocortisone sodium succinate) 250 mg per vial powder for solution for injection"|NA|NA|"active"|"20090423"|NA
+9003487|"hydrocortisone (hydrocortisone sodium succinate) 500 mg per vial powder for solution for injection"|NA|NA|"active"|"20090422"|NA
+9003502|"hydrocortisone acetate 10 % pressurised inhalation"|NA|NA|"active"|"20150505"|NA
+9003492|"hydrocortisone 100 mg per 60 mL rectal liquid"|NA|NA|"active"|"20120920"|NA
+9003513|"hydromorphone hydrochloride 1 mg per mL oral liquid"|NA|NA|"active"|"20090525"|NA
+9003512|"hydromorphone hydrochloride 1 mg oral tablet"|NA|NA|"active"|"20080606"|NA
+9003520|"hydromorphone hydrochloride 2 mg oral tablet"|NA|NA|"active"|"20080606"|NA
+9003528|"hydromorphone hydrochloride 4 mg oral tablet"|NA|NA|"active"|"20080606"|NA
+9003533|"hydromorphone hydrochloride 8 mg oral tablet"|NA|NA|"active"|"20080606"|NA
+9003517|"hydromorphone hydrochloride 12 mg prolonged release oral capsule"|NA|NA|"active"|"20101007"|NA
+9003519|"hydromorphone hydrochloride 18 mg prolonged release oral capsule"|NA|NA|"active"|"20101006"|NA
+9003523|"hydromorphone hydrochloride 24 mg prolonged release oral capsule"|NA|NA|"active"|"20101007"|NA
+9003524|"hydromorphone hydrochloride 3 mg prolonged release oral capsule"|NA|NA|"active"|"20101007"|NA
+9003526|"hydromorphone hydrochloride 30 mg prolonged release oral capsule"|NA|NA|"active"|"20101007"|NA
+9003530|"hydromorphone hydrochloride 4.5 mg prolonged release oral capsule"|NA|NA|"active"|"20110421"|NA
+9003532|"hydromorphone hydrochloride 6 mg prolonged release oral capsule"|NA|NA|"active"|"20101007"|NA
+9003535|"hydromorphone hydrochloride 9 mg prolonged release oral capsule"|NA|NA|"active"|"20110418"|NA
+9003518|"hydromorphone hydrochloride 16 mg prolonged release oral tablet"|NA|NA|"active"|"20100311"|NA
+9003527|"hydromorphone hydrochloride 32 mg prolonged release oral tablet"|NA|NA|"active"|"20100311"|NA
+9003529|"hydromorphone hydrochloride 4 mg prolonged release oral tablet"|NA|NA|"active"|"20150810"|NA
+9003534|"hydromorphone hydrochloride 8 mg prolonged release oral tablet"|NA|NA|"active"|"20100311"|NA
+9003515|"hydromorphone hydrochloride 10 mg per mL solution for injection"|NA|NA|"active"|"20130802"|NA
+9003516|"hydromorphone hydrochloride 100 mg per mL solution for injection"|NA|NA|"active"|"20150505"|NA
+9003521|"hydromorphone hydrochloride 2 mg per mL solution for injection"|NA|NA|"active"|"20100707"|NA
+9003522|"hydromorphone hydrochloride 20 mg per mL solution for injection"|NA|NA|"active"|"20150505"|NA
+9003531|"hydromorphone hydrochloride 50 mg per mL solution for injection"|NA|NA|"active"|"20150505"|NA
+9003525|"hydromorphone hydrochloride 3 mg suppository"|NA|NA|"active"|"20080606"|NA
+9003514|"hydromorphone hydrochloride 1 mg per mL syrup"|NA|NA|"active"|"20080606"|NA
+9003548|"hydroxychloroquine sulfate 200 mg oral tablet"|NA|NA|"active"|"20060303"|NA
+9003552|"hydroxyzine hydrochloride 10 mg oral capsule"|NA|NA|"active"|"20100930"|NA
+9003555|"hydroxyzine hydrochloride 25 mg oral capsule"|NA|NA|"active"|"20100930"|NA
+9003556|"hydroxyzine hydrochloride 50 mg oral capsule"|NA|NA|"active"|"20100930"|NA
+9003557|"hydroxyzine hydrochloride 50 mg per mL solution for injection"|NA|NA|"active"|"20150805"|NA
+9003553|"hydroxyzine hydrochloride 10 mg per 5 mL syrup"|NA|NA|"active"|"20101001"|NA
+9003554|"hydroxyzine hydrochloride 2 mg per mL syrup"|NA|NA|"active"|"20150113"|NA
+9003567|"ibuprofen 100 mg chewable tablet"|NA|NA|"active"|"20130523"|NA
+9003575|"ibuprofen 200 mg oral capsule"|NA|NA|"active"|"20130207"|NA
+9003580|"ibuprofen 400 mg oral capsule"|NA|NA|"active"|"20120106"|NA
+9003570|"ibuprofen 100 mg per 5 mL oral suspension"|NA|NA|"active"|"20120710"|NA
+9003578|"ibuprofen 40 mg per mL oral suspension"|NA|NA|"active"|"20120828"|NA
+9003568|"ibuprofen 100 mg oral tablet"|NA|NA|"active"|"20150728"|NA
+9003576|"ibuprofen 200 mg oral tablet"|NA|NA|"active"|"20120309"|NA
+9003577|"ibuprofen 300 mg oral tablet"|NA|NA|"active"|"20120711"|NA
+9003581|"ibuprofen 400 mg oral tablet"|NA|NA|"active"|"20120309"|NA
+9003583|"ibuprofen 50 mg oral tablet"|NA|NA|"active"|"20150728"|NA
+9003584|"ibuprofen 600 mg oral tablet"|NA|NA|"active"|"20060309"|NA
+9003585|"ibuprofen 600 mg prolonged release oral tablet"|NA|NA|"active"|"20161027"|NA
+9003571|"ibuprofen 100 mg per mL solution for injection"|NA|NA|"active"|"20130529"|NA
+9003625|"indapamide 1.25 mg oral tablet"|NA|NA|"active"|"20090921"|NA
+9003627|"indapamide 2.5 mg oral tablet"|NA|NA|"active"|"20090921"|NA
+9003623|"indapamide 0.625 mg and perindopril erbumine 2 mg oral tablet"|NA|NA|"active"|"20131227"|NA
+9003624|"indapamide 1.25 mg and perindopril erbumine 4 mg oral tablet"|NA|NA|"active"|"20090921"|NA
+9003626|"indapamide 2.5 mg and perindopril erbumine 8 mg oral tablet"|NA|NA|"active"|"20100430"|NA
+9003631|"indomethacin 25 mg oral capsule"|NA|NA|"active"|"20100930"|NA
+9003632|"indomethacin 50 mg oral capsule"|NA|NA|"active"|"20100930"|NA
+9003630|"indomethacin 100 mg suppository"|NA|NA|"active"|"20150429"|NA
+9003633|"indomethacin 50 mg suppository"|NA|NA|"active"|"20150505"|NA
+9003640|"insulin aspart 100 unit per mL solution for injection"|NA|NA|"active"|"20150805"|NA
+9003643|"insulin detemir 100 unit per mL solution for injection"|NA|NA|"active"|"20140619"|NA
+9003644|"insulin glargine 100 unit per mL solution for injection"|NA|NA|"active"|"20100506"|NA
+9003645|"insulin glargine 300 unit per mL solution for injection"|NA|NA|"active"|"20150716"|NA
+9003654|"insulin lispro 100 unit per mL solution for injection"|NA|NA|"active"|"20130822"|NA
+9003655|"insulin lispro 200 unit per mL solution for injection"|NA|NA|"active"|"20150923"|NA
+9003701|"ipratropium bromide 0.025 % inhalation solution"|NA|NA|"active"|"20060503"|NA
+9003704|"ipratropium bromide 0.25 mg per mL inhalation solution"|NA|NA|"active"|"20120704"|NA
+9003708|"ipratropium bromide 125 mcg per mL inhalation solution"|NA|NA|"active"|"20060503"|NA
+9003712|"ipratropium bromide 250 mcg per mL inhalation solution"|NA|NA|"active"|"20060503"|NA
+9003705|"ipratropium bromide 0.3 mg per mL inhalation vapour, liquid"|NA|NA|"active"|"20010522"|NA
+9003702|"ipratropium bromide 0.03 % nasal spray, solution"|NA|NA|"active"|"20150505"|NA
+9003703|"ipratropium bromide 0.06 % nasal spray, solution"|NA|NA|"active"|"20140725"|NA
+9003706|"ipratropium bromide 0.3 mg per mL nasal spray, solution"|NA|NA|"active"|"20010522"|NA
+9003710|"ipratropium bromide 21 mcg per actuation nasal spray, solution"|NA|NA|"active"|"20141030"|NA
+9003713|"ipratropium bromide 42 mcg per actuation nasal spray, solution"|NA|NA|"active"|"20110818"|NA
+9003709|"ipratropium bromide 20 mcg per actuation pressurised inhalation"|NA|NA|"active"|"20110407"|NA
+9003711|"ipratropium bromide 21 mcg per actuation pressurised inhalation"|NA|NA|"active"|"20141030"|NA
+9003714|"ipratropium bromide 42 mcg per actuation pressurised inhalation"|NA|NA|"active"|"20110818"|NA
+9003715|"irbesartan 150 mg oral tablet"|NA|NA|"active"|"20090812"|NA
+9003716|"irbesartan 300 mg oral tablet"|NA|NA|"active"|"20090812"|NA
+9003717|"irbesartan 75 mg oral tablet"|NA|NA|"active"|"20090812"|NA
+9003735|"isosorbide dinitrate 10 mg oral tablet"|NA|NA|"active"|"20071217"|NA
+9003736|"isosorbide dinitrate 30 mg oral tablet"|NA|NA|"active"|"20110517"|NA
+9003737|"isosorbide dinitrate 5 mg oral tablet"|NA|NA|"active"|"20120424"|NA
+9003738|"isosorbide-5-mononitrate 60 mg prolonged release oral tablet"|NA|NA|"active"|"20060517"|NA
+9003768|"ketorolac tromethamine 0.4 % opthalmic drops, solution"|NA|NA|"active"|"20080806"|NA
+9003769|"ketorolac tromethamine 0.45 % opthalmic drops, solution"|NA|NA|"active"|"20131204"|NA
+9003770|"ketorolac tromethamine 0.5 % opthalmic drops, solution"|NA|NA|"active"|"20080806"|NA
+9003771|"ketorolac tromethamine 10 mg oral tablet"|NA|NA|"active"|"20150625"|NA
+9003772|"ketorolac tromethamine 10 mg per mL solution for injection"|NA|NA|"active"|"20160525"|NA
+9003773|"ketorolac tromethamine 30 mg per mL solution for injection"|NA|NA|"active"|"20060503"|NA
+9003797|"lamotrigine 100 mg oral tablet"|NA|NA|"active"|"20060303"|NA
+9003798|"lamotrigine 150 mg oral tablet"|NA|NA|"active"|"20051115"|NA
+9003799|"lamotrigine 2 mg oral tablet"|NA|NA|"active"|"20101130"|NA
+9003800|"lamotrigine 25 mg oral tablet"|NA|NA|"active"|"20060303"|NA
+9003801|"lamotrigine 5 mg oral tablet"|NA|NA|"active"|"20101201"|NA
+9003808|"lansoprazole 15 mg modified release oral capsule"|NA|NA|"active"|"20090611"|NA
+9003810|"lansoprazole 30 mg modified release oral capsule"|NA|NA|"active"|"20090611"|NA
+9003811|"lansoprazole 30 mg oral tablet"|NA|NA|"active"|"20150217"|NA
+9003809|"lansoprazole 15 mg prolonged release oral tablet"|NA|NA|"active"|"20150506"|NA
+9003812|"lansoprazole 30 mg prolonged release oral tablet"|NA|NA|"active"|"20150506"|NA
+9003819|"latanoprost 0.05 mg per mL opthalmic drops, solution"|NA|NA|"active"|"20150925"|NA
+9003821|"latanoprost 50 mcg per mL opthalmic drops, solution"|NA|NA|"active"|"20111017"|NA
+9003849|"levetiracetam 250 mg oral tablet"|NA|NA|"active"|"20061201"|NA
+9003850|"levetiracetam 500 mg oral tablet"|NA|NA|"active"|"20061201"|NA
+9003851|"levetiracetam 750 mg oral tablet"|NA|NA|"active"|"20061201"|NA
+9003864|"levofloxacin 5 mg per mL solution for injection"|NA|NA|"active"|"20120124"|NA
+9003874|"levothyroxine sodium 100 mcg oral tablet"|NA|NA|"active"|"20150505"|NA
+9003875|"levothyroxine sodium 112 mcg oral tablet"|NA|NA|"active"|"20150505"|NA
+9003876|"levothyroxine sodium 125 mcg oral tablet"|NA|NA|"active"|"20150505"|NA
+9003877|"levothyroxine sodium 137 mcg oral tablet"|NA|NA|"active"|"20150505"|NA
+9003878|"levothyroxine sodium 150 mcg oral tablet"|NA|NA|"active"|"20150505"|NA
+9003879|"levothyroxine sodium 175 mcg oral tablet"|NA|NA|"active"|"20150505"|NA
+9003880|"levothyroxine sodium 200 mcg oral tablet"|NA|NA|"active"|"20150505"|NA
+9003881|"levothyroxine sodium 25 mcg oral tablet"|NA|NA|"active"|"20150505"|NA
+9003882|"levothyroxine sodium 300 mcg oral tablet"|NA|NA|"active"|"20150505"|NA
+9003883|"levothyroxine sodium 50 mcg oral tablet"|NA|NA|"active"|"20150505"|NA
+9003885|"levothyroxine sodium 75 mcg oral tablet"|NA|NA|"active"|"20150505"|NA
+9003886|"levothyroxine sodium 88 mcg oral tablet"|NA|NA|"active"|"20150505"|NA
+9003884|"levothyroxine sodium 500 mcg per vial powder for solution for injection"|NA|NA|"active"|"20160208"|NA
+9003945|"lisdexamfetamine dimesylate 10 mg oral capsule"|NA|NA|"active"|"20170525"|NA
+9003946|"lisdexamfetamine dimesylate 20 mg oral capsule"|NA|NA|"active"|"20170525"|NA
+9003947|"lisdexamfetamine dimesylate 30 mg oral capsule"|NA|NA|"active"|"20170525"|NA
+9003948|"lisdexamfetamine dimesylate 40 mg oral capsule"|NA|NA|"active"|"20170525"|NA
+9003949|"lisdexamfetamine dimesylate 50 mg oral capsule"|NA|NA|"active"|"20170525"|NA
+9003950|"lisdexamfetamine dimesylate 60 mg oral capsule"|NA|NA|"active"|"20170525"|NA
+9003951|"lisdexamfetamine dimesylate 70 mg oral capsule"|NA|NA|"active"|"20170525"|NA
+9003952|"lisinopril (lisinopril dihydrate) 10 mg oral tablet"|NA|NA|"active"|"20100114"|NA
+9003953|"lisinopril (lisinopril dihydrate) 20 mg oral tablet"|NA|NA|"active"|"20100114"|NA
+9003954|"lisinopril (lisinopril dihydrate) 5 mg oral tablet"|NA|NA|"active"|"20100114"|NA
+9003955|"lisinopril 10 mg oral tablet"|NA|NA|"active"|"20100114"|NA
+9003956|"lisinopril 20 mg oral tablet"|NA|NA|"active"|"20100114"|NA
+9003957|"lisinopril 40 mg oral tablet"|NA|NA|"active"|"20100114"|NA
+9003958|"lisinopril 5 mg oral tablet"|NA|NA|"active"|"20100114"|NA
+9003960|"lithium carbonate 150 mg oral capsule"|NA|NA|"active"|"20060726"|NA
+9003961|"lithium carbonate 300 mg oral capsule"|NA|NA|"active"|"20051208"|NA
+9003963|"lithium carbonate 600 mg oral capsule"|NA|NA|"active"|"20051208"|NA
+9003962|"lithium carbonate 300 mg prolonged release oral tablet"|NA|NA|"active"|"20110125"|NA
+9003959|"lithium (lithium citrate) 8 mmol per 5 mL syrup"|NA|NA|"active"|"20150505"|NA
+9003986|"lorazepam 0.5 mg oral tablet"|NA|NA|"active"|"20020528"|NA
+9003987|"lorazepam 1 mg oral tablet"|NA|NA|"active"|"20020528"|NA
+9003988|"lorazepam 2 mg oral tablet"|NA|NA|"active"|"20020528"|NA
+9003989|"lorazepam 2 mg per mL solution for injection"|NA|NA|"active"|"20151118"|NA
+9003990|"lorazepam 4 mg per mL solution for injection"|NA|NA|"active"|"20140708"|NA
+9003991|"losartan potassium 100 mg oral tablet"|NA|NA|"active"|"20090921"|NA
+9003992|"losartan potassium 25 mg oral tablet"|NA|NA|"active"|"20090921"|NA
+9003993|"losartan potassium 50 mg oral tablet"|NA|NA|"active"|"20090921"|NA
+9004047|"medroxyprogesterone acetate 10 mg oral tablet"|NA|NA|"active"|"20070117"|NA
+9004048|"medroxyprogesterone acetate 100 mg oral tablet"|NA|NA|"active"|"20050817"|NA
+9004050|"medroxyprogesterone acetate 2.5 mg oral tablet"|NA|NA|"active"|"20040908"|NA
+9004051|"medroxyprogesterone acetate 5 mg oral tablet"|NA|NA|"active"|"20040908"|NA
+9004049|"medroxyprogesterone acetate 150 mg per mL suspension for injection"|NA|NA|"active"|"20090416"|NA
+9004052|"medroxyprogesterone acetate 50 mg per mL suspension for injection"|NA|NA|"active"|"20090501"|NA
+9004060|"meloxicam 15 mg oral tablet"|NA|NA|"active"|"20040503"|NA
+9004061|"meloxicam 7.5 mg oral tablet"|NA|NA|"active"|"20040503"|NA
+9004100|"mesalazine 400 mg gastro-resistant tablet"|NA|NA|"active"|"20101015"|NA
+9004101|"mesalazine 500 mg gastro-resistant tablet"|NA|NA|"active"|"20130108"|NA
+9004094|"mesalazine 1.2 g modified release tablet"|NA|NA|"active"|"20160706"|NA
+9004092|"mesalazine 1 g prolonged release oral tablet"|NA|NA|"active"|"20130509"|NA
+9004102|"mesalazine 500 mg prolonged release oral tablet"|NA|NA|"active"|"20060504"|NA
+9004104|"mesalazine 800 mg prolonged release oral tablet"|NA|NA|"active"|"20150505"|NA
+9004090|"mesalazine 1 g per 100 mL rectal liquid"|NA|NA|"active"|"20150505"|NA
+9004097|"mesalazine 4 g per 100 mL rectal liquid"|NA|NA|"active"|"20150505"|NA
+9004091|"mesalazine 1 g per 100 mL rectal solution"|NA|NA|"active"|"20150505"|NA
+9004098|"mesalazine 4 g per 100 mL rectal solution"|NA|NA|"active"|"20150505"|NA
+9004096|"mesalazine 2 g per 60 g rectal suspension"|NA|NA|"active"|"20120710"|NA
+9004099|"mesalazine 4 g per 60 g rectal suspension"|NA|NA|"active"|"20120710"|NA
+9004093|"mesalazine 1 g suppository"|NA|NA|"active"|"20150505"|NA
+9004095|"mesalazine 1000 mg suppository"|NA|NA|"active"|"20120710"|NA
+9004103|"mesalazine 500 mg suppository"|NA|NA|"active"|"20120710"|NA
+9004115|"metformin hydrochloride 500 mg oral tablet"|NA|NA|"active"|"20060303"|NA
+9004119|"metformin hydrochloride 850 mg oral tablet"|NA|NA|"active"|"20060306"|NA
+9004111|"metformin hydrochloride 1000 mg prolonged release oral tablet"|NA|NA|"active"|"20130416"|NA
+9004116|"metformin hydrochloride 500 mg prolonged release oral tablet"|NA|NA|"active"|"20140120"|NA
+9004109|"metformin hydrochloride 1000 mg and sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet"|NA|NA|"active"|"20111004"|NA
+9004113|"metformin hydrochloride 500 mg and sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet"|NA|NA|"active"|"20111004"|NA
+9004118|"metformin hydrochloride 850 mg and sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet"|NA|NA|"active"|"20111004"|NA
+9004108|"metformin hydrochloride 1000 mg and sitagliptin (sitagliptin phosphate monohydrate) 100 mg prolonged release oral tablet"|NA|NA|"active"|"20150119"|NA
+9004110|"metformin hydrochloride 1000 mg and sitagliptin (sitagliptin phosphate monohydrate) 50 mg prolonged release oral tablet"|NA|NA|"active"|"20140609"|NA
+9004114|"metformin hydrochloride 500 mg and sitagliptin (sitagliptin phosphate monohydrate) 50 mg prolonged release oral tablet"|NA|NA|"active"|"20150119"|NA
+9004129|"methadone hydrochloride 10 mg per mL oral liquid"|NA|NA|"active"|"20100908"|NA
+9004127|"methadone hydrochloride 1 mg per mL oral solution"|NA|NA|"active"|"20100818"|NA
+9004130|"methadone hydrochloride 10 mg per mL oral solution"|NA|NA|"active"|"20130220"|NA
+9004126|"methadone hydrochloride 1 mg oral tablet"|NA|NA|"active"|"20100818"|NA
+9004128|"methadone hydrochloride 10 mg oral tablet"|NA|NA|"active"|"20091130"|NA
+9004131|"methadone hydrochloride 25 mg oral tablet"|NA|NA|"active"|"20100818"|NA
+9004132|"methadone hydrochloride 5 mg oral tablet"|NA|NA|"active"|"20100504"|NA
+9004142|"methotrexate (methotrexate sodium) 2.5 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9004148|"methotrexate 10 mg oral tablet"|NA|NA|"active"|"20161219"|NA
+9004151|"methotrexate 2.5 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9004139|"methotrexate (methotrexate sodium) 10 mg per mL solution for injection"|NA|NA|"active"|"20090128"|NA
+9004140|"methotrexate (methotrexate sodium) 15 mg per 1.5 mL solution for injection"|NA|NA|"active"|"20090128"|NA
+9004141|"methotrexate (methotrexate sodium) 17.5 mg per 0.35 mL solution for injection"|NA|NA|"active"|"20161202"|NA
+9004143|"methotrexate (methotrexate sodium) 20 mg per 0.4 mL solution for injection"|NA|NA|"active"|"20161202"|NA
+9004144|"methotrexate (methotrexate sodium) 22.5 mg per 0.45 mL solution for injection"|NA|NA|"active"|"20161202"|NA
+9004145|"methotrexate (methotrexate sodium) 25 mg per 0.5 mL solution for injection"|NA|NA|"active"|"20161202"|NA
+9004146|"methotrexate (methotrexate sodium) 25 mg per mL solution for injection"|NA|NA|"active"|"20130522"|NA
+9004147|"methotrexate (methotrexate sodium) 7.5 mg per 0.75 mL solution for injection"|NA|NA|"active"|"20090417"|NA
+9004149|"methotrexate 10 mg per 0.4 mL solution for injection"|NA|NA|"active"|"20160706"|NA
+9004150|"methotrexate 15 mg per 0.6 mL solution for injection"|NA|NA|"active"|"20160706"|NA
+9004152|"methotrexate 20 mg per 0.8 mL solution for injection"|NA|NA|"active"|"20160706"|NA
+9004153|"methotrexate 25 mg per mL solution for injection"|NA|NA|"active"|"20160706"|NA
+9004154|"methotrexate 7.5 mg per 0.3 mL solution for injection"|NA|NA|"active"|"20160706"|NA
+9004170|"methylphenidate hydrochloride 10 mg oral tablet"|NA|NA|"active"|"20131108"|NA
+9004174|"methylphenidate hydrochloride 20 mg oral tablet"|NA|NA|"active"|"20131108"|NA
+9004181|"methylphenidate hydrochloride 5 mg oral tablet"|NA|NA|"active"|"20131108"|NA
+9004171|"methylphenidate hydrochloride 10 mg prolonged release oral capsule"|NA|NA|"active"|"20131108"|NA
+9004172|"methylphenidate hydrochloride 15 mg prolonged release oral capsule"|NA|NA|"active"|"20131108"|NA
+9004175|"methylphenidate hydrochloride 20 mg prolonged release oral capsule"|NA|NA|"active"|"20131108"|NA
+9004178|"methylphenidate hydrochloride 30 mg prolonged release oral capsule"|NA|NA|"active"|"20131108"|NA
+9004180|"methylphenidate hydrochloride 40 mg prolonged release oral capsule"|NA|NA|"active"|"20131108"|NA
+9004182|"methylphenidate hydrochloride 50 mg prolonged release oral capsule"|NA|NA|"active"|"20131108"|NA
+9004184|"methylphenidate hydrochloride 60 mg prolonged release oral capsule"|NA|NA|"active"|"20131108"|NA
+9004185|"methylphenidate hydrochloride 80 mg prolonged release oral capsule"|NA|NA|"active"|"20131108"|NA
+9004173|"methylphenidate hydrochloride 18 mg prolonged release oral tablet"|NA|NA|"active"|"20131108"|NA
+9004176|"methylphenidate hydrochloride 20 mg prolonged release oral tablet"|NA|NA|"active"|"20131108"|NA
+9004177|"methylphenidate hydrochloride 27 mg prolonged release oral tablet"|NA|NA|"active"|"20131108"|NA
+9004179|"methylphenidate hydrochloride 36 mg prolonged release oral tablet"|NA|NA|"active"|"20131108"|NA
+9004183|"methylphenidate hydrochloride 54 mg prolonged release oral tablet"|NA|NA|"active"|"20131108"|NA
+9004201|"metoclopramide hydrochloride 1 mg per mL oral solution"|NA|NA|"active"|"20140602"|NA
+9004202|"metoclopramide hydrochloride 10 mg oral tablet"|NA|NA|"active"|"20060303"|NA
+9004203|"metoclopramide hydrochloride 5 mg oral tablet"|NA|NA|"active"|"20060303"|NA
+9004204|"metoclopramide hydrochloride 5 mg per mL solution for injection"|NA|NA|"active"|"20060412"|NA
+9004207|"metoprolol tartrate 100 mg oral tablet"|NA|NA|"active"|"20030303"|NA
+9004210|"metoprolol tartrate 25 mg oral tablet"|NA|NA|"active"|"20040601"|NA
+9004211|"metoprolol tartrate 50 mg oral tablet"|NA|NA|"active"|"20030303"|NA
+9004208|"metoprolol tartrate 100 mg prolonged release oral tablet"|NA|NA|"active"|"20060302"|NA
+9004209|"metoprolol tartrate 200 mg prolonged release oral tablet"|NA|NA|"active"|"20060302"|NA
+9004206|"metoprolol tartrate 1 mg per 1 mL solution for injection"|NA|NA|"active"|"20060605"|NA
+9004212|"metronidazole 0.75 % cutaneous cream"|NA|NA|"active"|"20080909"|NA
+9004215|"metronidazole 1 % cutaneous cream"|NA|NA|"active"|"20130111"|NA
+9004213|"metronidazole 0.75 % cutaneous gel"|NA|NA|"active"|"20080910"|NA
+9004216|"metronidazole 1 % cutaneous gel"|NA|NA|"active"|"20071227"|NA
+9004221|"metronidazole 500 mg oral capsule"|NA|NA|"active"|"20101001"|NA
+9004218|"metronidazole 250 mg oral tablet"|NA|NA|"active"|"20050502"|NA
+9004219|"metronidazole 5 mg per mL solution for injection"|NA|NA|"active"|"20150505"|NA
+9004217|"metronidazole 10 % vaginal cream"|NA|NA|"active"|"20081015"|NA
+9004214|"metronidazole 0.75 % vaginal gel"|NA|NA|"active"|"20140516"|NA
+9004264|"minocycline (minocycline hydrochloride) 100 mg oral capsule"|NA|NA|"active"|"20070419"|NA
+9004265|"minocycline (minocycline hydrochloride) 50 mg oral capsule"|NA|NA|"active"|"20050504"|NA
+9004263|"minocycline (minocycline hydrochloride) 1 mg per 4 mg periodontal powder, prolonged release"|NA|NA|"active"|"20150505"|NA
+9004273|"mirtazapine 15 mg oral tablet"|NA|NA|"active"|"20061122"|NA
+9004275|"mirtazapine 30 mg oral tablet"|NA|NA|"active"|"20050322"|NA
+9004277|"mirtazapine 45 mg oral tablet"|NA|NA|"active"|"20061130"|NA
+9004274|"mirtazapine 15 mg orodispersible tablet"|NA|NA|"active"|"20110125"|NA
+9004276|"mirtazapine 30 mg orodispersible tablet"|NA|NA|"active"|"20110125"|NA
+9004278|"mirtazapine 45 mg orodispersible tablet"|NA|NA|"active"|"20110125"|NA
+9004294|"mometasone furoate 0.1 % cutaneous cream"|NA|NA|"active"|"20110615"|NA
+9004295|"mometasone furoate 0.1 % cutaneous ointment"|NA|NA|"active"|"20051123"|NA
+9004296|"mometasone furoate 0.1 % cutaneous solution"|NA|NA|"active"|"20091223"|NA
+9004298|"mometasone furoate 100 mcg per actuation inhalation powder"|NA|NA|"active"|"20170116"|NA
+9004299|"mometasone furoate 200 mcg per actuation inhalation powder"|NA|NA|"active"|"20130124"|NA
+9004300|"mometasone furoate 400 mcg per actuation inhalation powder"|NA|NA|"active"|"20150313"|NA
+9004297|"mometasone furoate 1 mg per g lotion"|NA|NA|"active"|"20130613"|NA
+9004293|"mometasone furoate (mometasone furoate monohydrate) 50 mcg per spray nasal spray"|NA|NA|"active"|"20160819"|NA
+9004301|"mometasone furoate 50 mcg nasal spray"|NA|NA|"active"|"20130517"|NA
+9004302|"mometasone furoate 50 mcg per spray nasal spray"|NA|NA|"active"|"20130122"|NA
+9004304|"montelukast (montelukast sodium) 4 mg chewable tablet"|NA|NA|"active"|"20111019"|NA
+9004307|"montelukast (montelukast sodium) 5 mg chewable tablet"|NA|NA|"active"|"20080805"|NA
+9004305|"montelukast (montelukast sodium) 4 mg granules for oral suspension"|NA|NA|"active"|"20130121"|NA
+9004306|"montelukast (montelukast sodium) 4 mg per pck granules for oral suspension"|NA|NA|"active"|"20090420"|NA
+9004303|"montelukast (montelukast sodium) 10 mg oral tablet"|NA|NA|"active"|"20080805"|NA
+9004326|"morphine sulfate 10 mg oral capsule"|NA|NA|"active"|"20161014"|NA
+9004339|"morphine sulfate 20 mg oral capsule"|NA|NA|"active"|"20161014"|NA
+9004348|"morphine sulfate 30 mg oral capsule"|NA|NA|"active"|"20161014"|NA
+9004353|"morphine sulfate 5 mg oral capsule"|NA|NA|"active"|"20161014"|NA
+9004341|"morphine sulfate 20 mg per mL oral drops"|NA|NA|"active"|"20101130"|NA
+9004359|"morphine sulfate 50 mg per mL oral drops"|NA|NA|"active"|"20100908"|NA
+9004327|"morphine sulfate 10 mg oral tablet"|NA|NA|"active"|"20050525"|NA
+9004340|"morphine sulfate 20 mg oral tablet"|NA|NA|"active"|"20050525"|NA
+9004346|"morphine sulfate 25 mg oral tablet"|NA|NA|"active"|"20100303"|NA
+9004349|"morphine sulfate 30 mg oral tablet"|NA|NA|"active"|"20050525"|NA
+9004354|"morphine sulfate 5 mg oral tablet"|NA|NA|"active"|"20050808"|NA
+9004358|"morphine sulfate 50 mg oral tablet"|NA|NA|"active"|"20090928"|NA
+9004330|"morphine sulfate 10 mg prolonged release oral capsule"|NA|NA|"active"|"20060913"|NA
+9004332|"morphine sulfate 100 mg prolonged release oral capsule"|NA|NA|"active"|"20060913"|NA
+9004336|"morphine sulfate 15 mg prolonged release oral capsule"|NA|NA|"active"|"20060929"|NA
+9004342|"morphine sulfate 20 mg prolonged release oral capsule"|NA|NA|"active"|"20161006"|NA
+9004344|"morphine sulfate 200 mg prolonged release oral capsule"|NA|NA|"active"|"20070504"|NA
+9004350|"morphine sulfate 30 mg prolonged release oral capsule"|NA|NA|"active"|"20060913"|NA
+9004361|"morphine sulfate 50 mg prolonged release oral capsule"|NA|NA|"active"|"20161006"|NA
+9004362|"morphine sulfate 60 mg prolonged release oral capsule"|NA|NA|"active"|"20060913"|NA
+9004333|"morphine sulfate 100 mg prolonged release oral tablet"|NA|NA|"active"|"20101002"|NA
+9004337|"morphine sulfate 15 mg prolonged release oral tablet"|NA|NA|"active"|"20101002"|NA
+9004345|"morphine sulfate 200 mg prolonged release oral tablet"|NA|NA|"active"|"20101002"|NA
+9004351|"morphine sulfate 30 mg prolonged release oral tablet"|NA|NA|"active"|"20101002"|NA
+9004363|"morphine sulfate 60 mg prolonged release oral tablet"|NA|NA|"active"|"20101002"|NA
+9004323|"morphine sulfate 0.5 mg per mL solution for injection"|NA|NA|"active"|"20150429"|NA
+9004324|"morphine sulfate 1 mg per mL solution for injection"|NA|NA|"active"|"20150429"|NA
+9004328|"morphine sulfate 10 mg per mL solution for injection"|NA|NA|"active"|"20080923"|NA
+9004334|"morphine sulfate 15 mg per 1 mL solution for injection"|NA|NA|"active"|"20080813"|NA
+9004335|"morphine sulfate 15 mg per mL solution for injection"|NA|NA|"active"|"20150429"|NA
+9004338|"morphine sulfate 2 mg per mL solution for injection"|NA|NA|"active"|"20150429"|NA
+9004347|"morphine sulfate 25 mg per mL solution for injection"|NA|NA|"active"|"20150429"|NA
+9004355|"morphine sulfate 5 mg per mL solution for injection"|NA|NA|"active"|"20150429"|NA
+9004360|"morphine sulfate 50 mg per mL solution for injection"|NA|NA|"active"|"20150429"|NA
+9004331|"morphine sulfate 10 mg suppository"|NA|NA|"active"|"20160825"|NA
+9004343|"morphine sulfate 20 mg suppository"|NA|NA|"active"|"20110517"|NA
+9004352|"morphine sulfate 30 mg suppository"|NA|NA|"active"|"20100818"|NA
+9004357|"morphine sulfate 5 mg suppository"|NA|NA|"active"|"20100818"|NA
+9004319|"morphine hydrochloride 1 mg per mL syrup"|NA|NA|"active"|"20121022"|NA
+9004320|"morphine hydrochloride 10 mg per mL syrup"|NA|NA|"active"|"20150429"|NA
+9004321|"morphine hydrochloride 20 mg per mL syrup"|NA|NA|"active"|"20150429"|NA
+9004322|"morphine hydrochloride 5 mg per mL syrup"|NA|NA|"active"|"20121022"|NA
+9004325|"morphine sulfate 1 mg per mL syrup"|NA|NA|"active"|"20100119"|NA
+9004329|"morphine sulfate 10 mg per mL syrup"|NA|NA|"active"|"20150429"|NA
+9004356|"morphine sulfate 5 mg per mL syrup"|NA|NA|"active"|"20100305"|NA
+9004364|"moxifloxacin (moxifloxacin hydrochloride) 0.5 % opthalmic drops, solution"|NA|NA|"active"|"20151112"|NA
+9004365|"moxifloxacin (moxifloxacin hydrochloride) 400 mg oral tablet"|NA|NA|"active"|"20051108"|NA
+9004366|"moxifloxacin (moxifloxacin hydrochloride) 400 mg per 250 mL solution for injection"|NA|NA|"active"|"20060508"|NA
+9004413|"naproxen 250 mg gastro-resistant tablet"|NA|NA|"active"|"20060309"|NA
+9004415|"naproxen 375 mg gastro-resistant tablet"|NA|NA|"active"|"20060309"|NA
+9004417|"naproxen 500 mg gastro-resistant tablet"|NA|NA|"active"|"20060309"|NA
+9004410|"naproxen 105 mg and naproxen sodium 105 mg oral capsule"|NA|NA|"active"|"20170526"|NA
+9004421|"naproxen sodium 220 mg oral capsule"|NA|NA|"active"|"20111011"|NA
+9004412|"naproxen 25 mg per mL oral suspension"|NA|NA|"active"|"20160609"|NA
+9004411|"naproxen 125 mg oral tablet"|NA|NA|"active"|"20060309"|NA
+9004414|"naproxen 250 mg oral tablet"|NA|NA|"active"|"20060310"|NA
+9004416|"naproxen 375 mg oral tablet"|NA|NA|"active"|"20060310"|NA
+9004418|"naproxen 500 mg oral tablet"|NA|NA|"active"|"20060310"|NA
+9004422|"naproxen sodium 220 mg oral tablet"|NA|NA|"active"|"20131016"|NA
+9004423|"naproxen sodium 275 mg oral tablet"|NA|NA|"active"|"20060309"|NA
+9004424|"naproxen sodium 550 mg oral tablet"|NA|NA|"active"|"20080812"|NA
+9004420|"naproxen 750 mg prolonged release oral tablet"|NA|NA|"active"|"20060309"|NA
+9004419|"naproxen 500 mg suppository"|NA|NA|"active"|"20150505"|NA
+9004450|"nifedipine 10 mg oral capsule"|NA|NA|"active"|"20040430"|NA
+9004454|"nifedipine 5 mg oral capsule"|NA|NA|"active"|"20100930"|NA
+9004451|"nifedipine 10 mg oral tablet"|NA|NA|"active"|"20060309"|NA
+9004452|"nifedipine 20 mg prolonged release oral tablet"|NA|NA|"active"|"20060309"|NA
+9004453|"nifedipine 30 mg prolonged release oral tablet"|NA|NA|"active"|"20100527"|NA
+9004455|"nifedipine 60 mg prolonged release oral tablet"|NA|NA|"active"|"20100824"|NA
+9004473|"nitrofurantoin 100 mg oral capsule"|NA|NA|"active"|"20150505"|NA
+9004475|"nitrofurantoin 50 mg oral capsule"|NA|NA|"active"|"20150505"|NA
+9004474|"nitrofurantoin 100 mg oral tablet"|NA|NA|"active"|"20120203"|NA
+9004476|"nitrofurantoin 50 mg oral tablet"|NA|NA|"active"|"20110518"|NA
+9004493|"nitroglycerin 2 % cutaneous ointment"|NA|NA|"active"|"20090921"|NA
+9004485|"nitroglycerin 0.3 mg oral tablet"|NA|NA|"active"|"20060116"|NA
+9004488|"nitroglycerin 0.6 mg oral tablet"|NA|NA|"active"|"20060116"|NA
+9004486|"nitroglycerin 0.4 mg per actuation pressurised inhalation"|NA|NA|"active"|"20100519"|NA
+9004489|"nitroglycerin 1 mg per mL solution for injection"|NA|NA|"active"|"20060412"|NA
+9004501|"nitroglycerin 5 mg per mL solution for injection"|NA|NA|"active"|"20060412"|NA
+9004487|"nitroglycerin 0.4 mg per actuation sublingual spray, solution"|NA|NA|"active"|"20081222"|NA
+9004490|"nitroglycerin 120 mg per 30 sq cm transdermal patch"|NA|NA|"active"|"20150429"|NA
+9004491|"nitroglycerin 160 mg per 40 sq cm transdermal patch"|NA|NA|"active"|"20150429"|NA
+9004492|"nitroglycerin 18 mg per 6.7 sq cm transdermal patch"|NA|NA|"active"|"20140925"|NA
+9004494|"nitroglycerin 20.7 mg per 7.4 sq cm transdermal patch"|NA|NA|"active"|"20131031"|NA
+9004495|"nitroglycerin 22.4 mg transdermal patch"|NA|NA|"active"|"20090616"|NA
+9004496|"nitroglycerin 25 mg per 10 sq cm transdermal patch"|NA|NA|"active"|"20100409"|NA
+9004497|"nitroglycerin 36 mg per 13.3 sq cm transdermal patch"|NA|NA|"active"|"20141112"|NA
+9004498|"nitroglycerin 40 mg per 10 sq cm transdermal patch"|NA|NA|"active"|"20150429"|NA
+9004499|"nitroglycerin 41.4 mg per 14.8 sq cm transdermal patch"|NA|NA|"active"|"20131031"|NA
+9004500|"nitroglycerin 44.8 mg transdermal patch"|NA|NA|"active"|"20090625"|NA
+9004502|"nitroglycerin 50 mg per 20 sq cm transdermal patch"|NA|NA|"active"|"20100409"|NA
+9004503|"nitroglycerin 54 mg per 20 sq cm transdermal patch"|NA|NA|"active"|"20140925"|NA
+9004504|"nitroglycerin 62.2 mg per 22.2 sq cm transdermal patch"|NA|NA|"active"|"20131031"|NA
+9004505|"nitroglycerin 67.2 mg transdermal patch"|NA|NA|"active"|"20090616"|NA
+9004506|"nitroglycerin 75 mg transdermal patch"|NA|NA|"active"|"20100409"|NA
+9004507|"nitroglycerin 80 mg per 20 sq cm transdermal patch"|NA|NA|"active"|"20150429"|NA
+9004508|"nitroglycerin 82.9 mg per 29.6 sq cm transdermal patch"|NA|NA|"active"|"20131031"|NA
+9004526|"norethindrone 0.35 mg oral tablet"|NA|NA|"active"|"20060323"|NA
+9004527|"norethindrone acetate 5 mg oral tablet"|NA|NA|"active"|"20101215"|NA
+9004530|"nortriptyline (nortriptyline hydrochloride) 10 mg oral capsule"|NA|NA|"active"|"20080319"|NA
+9004531|"nortriptyline (nortriptyline hydrochloride) 25 mg oral capsule"|NA|NA|"active"|"20080319"|NA
+9004533|"nystatin 100000 unit per g cutaneous cream"|NA|NA|"active"|"20150429"|NA
+9004534|"nystatin 100000 unit per g cutaneous ointment"|NA|NA|"active"|"20150429"|NA
+9004536|"nystatin 100000 unit per mL oral drops"|NA|NA|"active"|"20150429"|NA
+9004537|"nystatin 100000 unit per mL oral suspension"|NA|NA|"active"|"20161215"|NA
+9004535|"nystatin 100000 unit per g vaginal cream"|NA|NA|"active"|"20150429"|NA
+9004538|"nystatin 25000 unit per g vaginal cream"|NA|NA|"active"|"20060227"|NA
+9004792|"olanzapine 10 mg oral tablet"|NA|NA|"active"|"20080411"|NA
+9004794|"olanzapine 15 mg oral tablet"|NA|NA|"active"|"20080411"|NA
+9004796|"olanzapine 2.5 mg oral tablet"|NA|NA|"active"|"20080411"|NA
+9004797|"olanzapine 20 mg oral tablet"|NA|NA|"active"|"20081003"|NA
+9004799|"olanzapine 5 mg oral tablet"|NA|NA|"active"|"20080411"|NA
+9004801|"olanzapine 7.5 mg oral tablet"|NA|NA|"active"|"20080411"|NA
+9004793|"olanzapine 10 mg orodispersible tablet"|NA|NA|"active"|"20050806"|NA
+9004795|"olanzapine 15 mg orodispersible tablet"|NA|NA|"active"|"20050805"|NA
+9004798|"olanzapine 20 mg orodispersible tablet"|NA|NA|"active"|"20080428"|NA
+9004800|"olanzapine 5 mg orodispersible tablet"|NA|NA|"active"|"20050806"|NA
+9004804|"olmesartan medoxomil 20 mg oral tablet"|NA|NA|"active"|"20120920"|NA
+9004805|"olmesartan medoxomil 40 mg oral tablet"|NA|NA|"active"|"20120514"|NA
+9004807|"olopatadine (olopatadine hydrochloride) 0.1 % opthalmic drops, solution"|NA|NA|"active"|"20130731"|NA
+9004808|"olopatadine (olopatadine hydrochloride) 0.2 % opthalmic drops, solution"|NA|NA|"active"|"20140331"|NA
+9004814|"omeprazole 10 mg modified release oral capsule"|NA|NA|"active"|"20070921"|NA
+9004815|"omeprazole 20 mg modified release oral capsule"|NA|NA|"active"|"20061128"|NA
+9004812|"omeprazole (omeprazole magnesium) 10 mg prolonged release oral tablet"|NA|NA|"active"|"20060517"|NA
+9004813|"omeprazole (omeprazole magnesium) 20 mg prolonged release oral tablet"|NA|NA|"active"|"20080818"|NA
+9004841|"oxazepam 10 mg oral tablet"|NA|NA|"active"|"20020517"|NA
+9004842|"oxazepam 15 mg oral tablet"|NA|NA|"active"|"20020517"|NA
+9004843|"oxazepam 30 mg oral tablet"|NA|NA|"active"|"20020517"|NA
+9004857|"oxybutynin chloride 100 mg per g cutaneous gel"|NA|NA|"active"|"20161018"|NA
+9004858|"oxybutynin chloride 2.5 mg oral tablet"|NA|NA|"active"|"20131230"|NA
+9004859|"oxybutynin chloride 5 mg oral tablet"|NA|NA|"active"|"20131230"|NA
+9004856|"oxybutynin chloride 10 mg prolonged release oral tablet"|NA|NA|"active"|"20131230"|NA
+9004860|"oxybutynin chloride 5 mg prolonged release oral tablet"|NA|NA|"active"|"20131230"|NA
+9004855|"oxybutynin chloride 1 mg per mL syrup"|NA|NA|"active"|"20131230"|NA
+9004854|"oxybutynin 36 mg transdermal patch"|NA|NA|"active"|"20161017"|NA
+9004861|"oxycodone hydrochloride 10 mg oral tablet"|NA|NA|"active"|"20081216"|NA
+9004865|"oxycodone hydrochloride 20 mg oral tablet"|NA|NA|"active"|"20081216"|NA
+9004870|"oxycodone hydrochloride 5 mg oral tablet"|NA|NA|"active"|"20081216"|NA
+9004862|"oxycodone hydrochloride 10 mg prolonged release oral tablet"|NA|NA|"active"|"20121127"|NA
+9004864|"oxycodone hydrochloride 15 mg prolonged release oral tablet"|NA|NA|"active"|"20130523"|NA
+9004866|"oxycodone hydrochloride 20 mg prolonged release oral tablet"|NA|NA|"active"|"20121127"|NA
+9004868|"oxycodone hydrochloride 30 mg prolonged release oral tablet"|NA|NA|"active"|"20130523"|NA
+9004869|"oxycodone hydrochloride 40 mg prolonged release oral tablet"|NA|NA|"active"|"20121127"|NA
+9004871|"oxycodone hydrochloride 5 mg prolonged release oral tablet"|NA|NA|"active"|"20121127"|NA
+9004872|"oxycodone hydrochloride 60 mg prolonged release oral tablet"|NA|NA|"active"|"20130523"|NA
+9004873|"oxycodone hydrochloride 80 mg prolonged release oral tablet"|NA|NA|"active"|"20121127"|NA
+9004863|"oxycodone hydrochloride 10 mg suppository"|NA|NA|"active"|"20150429"|NA
+9004867|"oxycodone hydrochloride 20 mg suppository"|NA|NA|"active"|"20150429"|NA
+9004916|"pantoprazole (pantoprazole magnesium) 40 mg gastro-resistant tablet"|NA|NA|"active"|"20130903"|NA
+9004921|"pantoprazole (pantoprazole sodium) 20 mg gastro-resistant tablet"|NA|NA|"active"|"20150505"|NA
+9004923|"pantoprazole (pantoprazole sodium) 40 mg gastro-resistant tablet"|NA|NA|"active"|"20150505"|NA
+9004924|"pantoprazole (pantoprazole sodium) 40 mg per vial powder for solution for injection"|NA|NA|"active"|"20080411"|NA
+9004917|"pantoprazole (pantoprazole magnesium) 40 mg prolonged release oral tablet"|NA|NA|"active"|"20151119"|NA
+9004922|"pantoprazole (pantoprazole sodium) 20 mg prolonged release oral tablet"|NA|NA|"active"|"20080616"|NA
+9004925|"pantoprazole (pantoprazole sodium) 40 mg prolonged release oral tablet"|NA|NA|"active"|"20080616"|NA
+9004928|"paroxetine (paroxetine hydrochloride acetone solvate) 10 mg oral tablet"|NA|NA|"active"|"20150506"|NA
+9004929|"paroxetine (paroxetine hydrochloride acetone solvate) 20 mg oral tablet"|NA|NA|"active"|"20040312"|NA
+9004930|"paroxetine (paroxetine hydrochloride acetone solvate) 30 mg oral tablet"|NA|NA|"active"|"20040312"|NA
+9004931|"paroxetine (paroxetine hydrochloride hemihydrate) 10 mg oral tablet"|NA|NA|"active"|"20130527"|NA
+9004932|"paroxetine (paroxetine hydrochloride hemihydrate) 20 mg oral tablet"|NA|NA|"active"|"20130527"|NA
+9004933|"paroxetine (paroxetine hydrochloride hemihydrate) 30 mg oral tablet"|NA|NA|"active"|"20130527"|NA
+9004934|"paroxetine (paroxetine hydrochloride) 10 mg oral tablet"|NA|NA|"active"|"20060307"|NA
+9004936|"paroxetine (paroxetine hydrochloride) 20 mg oral tablet"|NA|NA|"active"|"20060307"|NA
+9004938|"paroxetine (paroxetine hydrochloride) 30 mg oral tablet"|NA|NA|"active"|"20060307"|NA
+9004939|"paroxetine (paroxetine hydrochloride) 40 mg oral tablet"|NA|NA|"active"|"20080414"|NA
+9004940|"paroxetine (paroxetine hydrochloride, isopropyl solvate) 10 mg oral tablet"|NA|NA|"active"|"20091229"|NA
+9004941|"paroxetine (paroxetine hydrochloride, isopropyl solvate) 20 mg oral tablet"|NA|NA|"active"|"20130510"|NA
+9004942|"paroxetine (paroxetine hydrochloride, isopropyl solvate) 30 mg oral tablet"|NA|NA|"active"|"20100311"|NA
+9004935|"paroxetine (paroxetine hydrochloride) 12.5 mg prolonged release oral tablet"|NA|NA|"active"|"20051115"|NA
+9004937|"paroxetine (paroxetine hydrochloride) 25 mg prolonged release oral tablet"|NA|NA|"active"|"20051116"|NA
+9004999|"penicillin v potassium 480000 unit oral tablet"|NA|NA|"active"|"20150217"|NA
+9004998|"penicillin v potassium 200000 unit per 5 mL powder for oral solution"|NA|NA|"active"|"20130619"|NA
+9005000|"penicillin v potassium 480000 unit per 5 mL powder for oral solution"|NA|NA|"active"|"20130620"|NA
+9005001|"penicillin v potassium 500000 unit per 5 mL powder for oral solution"|NA|NA|"active"|"19990412"|NA
+9005018|"perindopril erbumine 2 mg oral tablet"|NA|NA|"active"|"20160715"|NA
+9005019|"perindopril erbumine 4 mg oral tablet"|NA|NA|"active"|"20160715"|NA
+9005020|"perindopril erbumine 8 mg oral tablet"|NA|NA|"active"|"20160715"|NA
+9005078|"phenytoin sodium 100 mg oral capsule"|NA|NA|"active"|"20100930"|NA
+9005079|"phenytoin sodium 30 mg oral capsule"|NA|NA|"active"|"20150429"|NA
+9005075|"phenytoin 125 mg per 5 mL oral suspension"|NA|NA|"active"|"20061031"|NA
+9005076|"phenytoin 30 mg per 5 mL oral suspension"|NA|NA|"active"|"20150429"|NA
+9005077|"phenytoin 50 mg oral tablet"|NA|NA|"active"|"20150429"|NA
+9003187|"fosphenytoin sodium 75 mg per mL solution for injection"|NA|NA|"active"|"20070514"|NA
+9005080|"phenytoin sodium 50 mg per mL solution for injection"|NA|NA|"active"|"20060412"|NA
+9005097|"pioglitazone (pioglitazone hydrochloride) 15 mg oral tablet"|NA|NA|"active"|"20071219"|NA
+9005098|"pioglitazone (pioglitazone hydrochloride) 30 mg oral tablet"|NA|NA|"active"|"20071219"|NA
+9005099|"pioglitazone (pioglitazone hydrochloride) 45 mg oral tablet"|NA|NA|"active"|"20071219"|NA
+9005173|"pramipexole dihydrochloride monohydrate 0.125 mg oral tablet"|NA|NA|"active"|"20120327"|NA
+9005174|"pramipexole dihydrochloride monohydrate 0.25 mg oral tablet"|NA|NA|"active"|"20081215"|NA
+9005175|"pramipexole dihydrochloride monohydrate 0.5 mg oral tablet"|NA|NA|"active"|"20081215"|NA
+9005176|"pramipexole dihydrochloride monohydrate 1 mg oral tablet"|NA|NA|"active"|"20081215"|NA
+9005177|"pramipexole dihydrochloride monohydrate 1.5 mg oral tablet"|NA|NA|"active"|"20081215"|NA
+9005185|"pravastatin sodium 10 mg oral tablet"|NA|NA|"active"|"20040517"|NA
+9005186|"pravastatin sodium 20 mg oral tablet"|NA|NA|"active"|"20040517"|NA
+9005187|"pravastatin sodium 40 mg oral tablet"|NA|NA|"active"|"20040517"|NA
+9005196|"prednisolone acetate 0.12 % ophthalmic drops, suspension"|NA|NA|"active"|"20150429"|NA
+9005201|"prednisolone acetate 1 % ophthalmic drops, suspension"|NA|NA|"active"|"20150429"|NA
+9005197|"prednisolone acetate 0.12 % opthalmic drops"|NA|NA|"active"|"20051129"|NA
+9005202|"prednisolone acetate 1 % opthalmic drops"|NA|NA|"active"|"20080806"|NA
+9005206|"prednisolone sodium phosphate 0.5 % opthalmic drops"|NA|NA|"active"|"20160811"|NA
+9005207|"prednisolone sodium phosphate 1 % opthalmic drops"|NA|NA|"active"|"20050419"|NA
+9005194|"prednisolone (prednisolone sodium phosphate) 5 mg per 5 mL oral liquid"|NA|NA|"active"|"20140122"|NA
+9005195|"prednisolone (prednisolone sodium phosphate) 5 mg per 5 mL oral solution"|NA|NA|"active"|"20060821"|NA
+9005208|"prednisone 1 mg oral tablet"|NA|NA|"active"|"20050805"|NA
+9005209|"prednisone 5 mg oral tablet"|NA|NA|"active"|"20050805"|NA
+9005210|"prednisone 50 mg oral tablet"|NA|NA|"active"|"20050805"|NA
+9005211|"pregabalin 150 mg oral capsule"|NA|NA|"active"|"20071128"|NA
+9005212|"pregabalin 225 mg oral capsule"|NA|NA|"active"|"20091130"|NA
+9005213|"pregabalin 25 mg oral capsule"|NA|NA|"active"|"20071128"|NA
+9005214|"pregabalin 300 mg oral capsule"|NA|NA|"active"|"20071128"|NA
+9005215|"pregabalin 50 mg oral capsule"|NA|NA|"active"|"20071128"|NA
+9005216|"pregabalin 75 mg oral capsule"|NA|NA|"active"|"20071128"|NA
+9005232|"procyclidine hydrochloride 2.5 mg per 5 mL oral solution"|NA|NA|"active"|"20150424"|NA
+9005231|"procyclidine hydrochloride 2.5 mg oral tablet"|NA|NA|"active"|"20150424"|NA
+9005233|"procyclidine hydrochloride 5 mg oral tablet"|NA|NA|"active"|"20150424"|NA
+9005234|"progesterone 100 mg effervescent vaginal tablet"|NA|NA|"active"|"20100216"|NA
+9005235|"progesterone 100 mg oral capsule"|NA|NA|"active"|"20130515"|NA
+9005236|"progesterone 50 mg per mL solution for injection"|NA|NA|"active"|"20150106"|NA
+9005237|"progesterone 8 % vaginal gel"|NA|NA|"active"|"20090529"|NA
+9005255|"propranolol hydrochloride 3.75 mg per mL oral solution"|NA|NA|"active"|"20170523"|NA
+9005250|"propranolol hydrochloride 10 mg oral tablet"|NA|NA|"active"|"20060228"|NA
+9005251|"propranolol hydrochloride 120 mg oral tablet"|NA|NA|"active"|"20080206"|NA
+9005254|"propranolol hydrochloride 20 mg oral tablet"|NA|NA|"active"|"20080207"|NA
+9005256|"propranolol hydrochloride 40 mg oral tablet"|NA|NA|"active"|"20060228"|NA
+9005258|"propranolol hydrochloride 80 mg oral tablet"|NA|NA|"active"|"20060228"|NA
+9005252|"propranolol hydrochloride 120 mg prolonged release oral capsule"|NA|NA|"active"|"20130125"|NA
+9005253|"propranolol hydrochloride 160 mg prolonged release oral capsule"|NA|NA|"active"|"20130125"|NA
+9005257|"propranolol hydrochloride 60 mg prolonged release oral capsule"|NA|NA|"active"|"20130125"|NA
+9005259|"propranolol hydrochloride 80 mg prolonged release oral capsule"|NA|NA|"active"|"20130125"|NA
+9005249|"propranolol hydrochloride 1 mg per mL solution for injection"|NA|NA|"active"|"20150501"|NA
+9005290|"quetiapine (quetiapine fumarate) 100 mg oral tablet"|NA|NA|"active"|"20070303"|NA
+9005291|"quetiapine (quetiapine fumarate) 150 mg oral tablet"|NA|NA|"active"|"20141007"|NA
+9005293|"quetiapine (quetiapine fumarate) 200 mg oral tablet"|NA|NA|"active"|"20070303"|NA
+9005295|"quetiapine (quetiapine fumarate) 25 mg oral tablet"|NA|NA|"active"|"20080924"|NA
+9005296|"quetiapine (quetiapine fumarate) 300 mg oral tablet"|NA|NA|"active"|"20080617"|NA
+9005299|"quetiapine (quetiapine fumarate) 50 mg oral tablet"|NA|NA|"active"|"20160607"|NA
+9005292|"quetiapine (quetiapine fumarate) 150 mg prolonged release oral tablet"|NA|NA|"active"|"20090416"|NA
+9005294|"quetiapine (quetiapine fumarate) 200 mg prolonged release oral tablet"|NA|NA|"active"|"20080206"|NA
+9005297|"quetiapine (quetiapine fumarate) 300 mg prolonged release oral tablet"|NA|NA|"active"|"20080812"|NA
+9005298|"quetiapine (quetiapine fumarate) 400 mg prolonged release oral tablet"|NA|NA|"active"|"20080812"|NA
+9005300|"quetiapine (quetiapine fumarate) 50 mg prolonged release oral tablet"|NA|NA|"active"|"20080812"|NA
+9005305|"quinapril (quinapril hydrochloride) 10 mg oral tablet"|NA|NA|"active"|"20131216"|NA
+9005306|"quinapril (quinapril hydrochloride) 20 mg oral tablet"|NA|NA|"active"|"20131216"|NA
+9005307|"quinapril (quinapril hydrochloride) 40 mg oral tablet"|NA|NA|"active"|"20100726"|NA
+9005308|"quinapril (quinapril hydrochloride) 5 mg oral tablet"|NA|NA|"active"|"20131216"|NA
+9005310|"quinine sulfate 200 mg oral capsule"|NA|NA|"active"|"20131118"|NA
+9005311|"quinine sulfate 300 mg oral capsule"|NA|NA|"active"|"20131118"|NA
+9005312|"quinine sulfate 300 mg oral tablet"|NA|NA|"active"|"20150429"|NA
+9005313|"rabeprazole sodium 10 mg gastro-resistant tablet"|NA|NA|"active"|"20080616"|NA
+9005315|"rabeprazole sodium 20 mg gastro-resistant tablet"|NA|NA|"active"|"20080616"|NA
+9005314|"rabeprazole sodium 10 mg prolonged release oral tablet"|NA|NA|"active"|"20150116"|NA
+9005316|"rabeprazole sodium 20 mg prolonged release oral tablet"|NA|NA|"active"|"20131016"|NA
+9005325|"ramipril 1.25 mg oral capsule"|NA|NA|"active"|"20100115"|NA
+9005327|"ramipril 10 mg oral capsule"|NA|NA|"active"|"20090901"|NA
+9005329|"ramipril 15 mg oral capsule"|NA|NA|"active"|"20100115"|NA
+9005330|"ramipril 2.5 mg oral capsule"|NA|NA|"active"|"20090901"|NA
+9005332|"ramipril 5 mg oral capsule"|NA|NA|"active"|"20090901"|NA
+9005326|"ramipril 1.25 mg oral tablet"|NA|NA|"active"|"20100115"|NA
+9005328|"ramipril 10 mg oral tablet"|NA|NA|"active"|"20100115"|NA
+9005331|"ramipril 2.5 mg oral tablet"|NA|NA|"active"|"20100115"|NA
+9005333|"ramipril 5 mg oral tablet"|NA|NA|"active"|"20100115"|NA
+9005336|"ranitidine (ranitidine hydrochloride) 15 mg per mL oral solution"|NA|NA|"active"|"20131107"|NA
+9005337|"ranitidine (ranitidine hydrochloride) 150 mg oral tablet"|NA|NA|"active"|"20010531"|NA
+9005339|"ranitidine (ranitidine hydrochloride) 300 mg oral tablet"|NA|NA|"active"|"20090601"|NA
+9005340|"ranitidine (ranitidine hydrochloride) 75 mg oral tablet"|NA|NA|"active"|"20120307"|NA
+9005338|"ranitidine (ranitidine hydrochloride) 25 mg per mL solution for injection"|NA|NA|"active"|"20090602"|NA
+9005359|"repaglinide 0.5 mg oral tablet"|NA|NA|"active"|"20090106"|NA
+9005360|"repaglinide 1 mg oral tablet"|NA|NA|"active"|"20040806"|NA
+9005361|"repaglinide 2 mg oral tablet"|NA|NA|"active"|"20040806"|NA
+9005382|"risedronate sodium (risedronate sodium hemi-pentahydrate) 150 mg oral tablet"|NA|NA|"active"|"20131204"|NA
+9005383|"risedronate sodium (risedronate sodium hemi-pentahydrate) 30 mg oral tablet"|NA|NA|"active"|"20161028"|NA
+9005384|"risedronate sodium (risedronate sodium hemi-pentahydrate) 35 mg oral tablet"|NA|NA|"active"|"20100728"|NA
+9005386|"risedronate sodium (risedronate sodium hemi-pentahydrate) 5 mg oral tablet"|NA|NA|"active"|"20161028"|NA
+9005387|"risedronate sodium (risedronate sodium monohydrate) 150 mg oral tablet"|NA|NA|"active"|"20140501"|NA
+9005388|"risedronate sodium (risedronate sodium monohydrate) 30 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9005389|"risedronate sodium (risedronate sodium monohydrate) 35 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9005390|"risedronate sodium (risedronate sodium monohydrate) 5 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9005385|"risedronate sodium (risedronate sodium hemi-pentahydrate) 35 mg prolonged release oral tablet"|NA|NA|"active"|"20161028"|NA
+9005397|"risperidone 12.5 mg per vial kit"|NA|NA|"active"|"20141229"|NA
+9005401|"risperidone 25 mg per vial kit"|NA|NA|"active"|"20141229"|NA
+9005405|"risperidone 37.5 mg per vial kit"|NA|NA|"active"|"20141229"|NA
+9005409|"risperidone 50 mg per vial kit"|NA|NA|"active"|"20141229"|NA
+9005392|"risperidone 0.25 mg oral tablet"|NA|NA|"active"|"20061024"|NA
+9005393|"risperidone 0.5 mg oral tablet"|NA|NA|"active"|"20061024"|NA
+9005395|"risperidone 1 mg oral tablet"|NA|NA|"active"|"20061024"|NA
+9005399|"risperidone 2 mg oral tablet"|NA|NA|"active"|"20061024"|NA
+9005403|"risperidone 3 mg oral tablet"|NA|NA|"active"|"20061024"|NA
+9005407|"risperidone 4 mg oral tablet"|NA|NA|"active"|"20061024"|NA
+9005394|"risperidone 0.5 mg orodispersible tablet"|NA|NA|"active"|"20070316"|NA
+9005396|"risperidone 1 mg orodispersible tablet"|NA|NA|"active"|"20070316"|NA
+9005400|"risperidone 2 mg orodispersible tablet"|NA|NA|"active"|"20070316"|NA
+9005404|"risperidone 3 mg orodispersible tablet"|NA|NA|"active"|"20121218"|NA
+9005408|"risperidone 4 mg orodispersible tablet"|NA|NA|"active"|"20121218"|NA
+9005398|"risperidone 12.5 mg per vial powder for prolonged-release suspension for injection"|NA|NA|"active"|"20141229"|NA
+9005402|"risperidone 25 mg per vial powder for prolonged-release suspension for injection"|NA|NA|"active"|"20141229"|NA
+9005406|"risperidone 37.5 mg per vial powder for prolonged-release suspension for injection"|NA|NA|"active"|"20141229"|NA
+9005410|"risperidone 50 mg per vial powder for prolonged-release suspension for injection"|NA|NA|"active"|"20141229"|NA
+9005415|"rivaroxaban 10 mg oral tablet"|NA|NA|"active"|"20150204"|NA
+9005416|"rivaroxaban 15 mg and rivaroxaban 20 mg oral tablet"|NA|NA|"active"|"20170120"|NA
+9005417|"rivaroxaban 15 mg oral tablet"|NA|NA|"active"|"20131204"|NA
+9005418|"rivaroxaban 20 mg oral tablet"|NA|NA|"active"|"20131204"|NA
+9005424|"rivastigmine 18 mg per 10 sq cm transdermal patch"|NA|NA|"active"|"20150527"|NA
+9005425|"rivastigmine 27 mg per 15 sq cm transdermal patch"|NA|NA|"active"|"20150814"|NA
+9005426|"rivastigmine 9 mg per 5 sq cm transdermal patch"|NA|NA|"active"|"20150527"|NA
+9005427|"rizatriptan (rizatriptan benzoate) 10 mg oral tablet"|NA|NA|"active"|"20080114"|NA
+9005429|"rizatriptan (rizatriptan benzoate) 5 mg oral tablet"|NA|NA|"active"|"20130312"|NA
+9005428|"rizatriptan (rizatriptan benzoate) 10 mg orodispersible tablet"|NA|NA|"active"|"20120320"|NA
+9005430|"rizatriptan (rizatriptan benzoate) 5 mg orodispersible tablet"|NA|NA|"active"|"20120320"|NA
+9005448|"rosuvastatin (rosuvastatin calcium) 10 mg oral tablet"|NA|NA|"active"|"20060714"|NA
+9005449|"rosuvastatin (rosuvastatin calcium) 20 mg oral tablet"|NA|NA|"active"|"20060714"|NA
+9005450|"rosuvastatin (rosuvastatin calcium) 40 mg oral tablet"|NA|NA|"active"|"20060714"|NA
+9005451|"rosuvastatin (rosuvastatin calcium) 5 mg oral tablet"|NA|NA|"active"|"20060714"|NA
+9005480|"salbutamol (salbutamol sulfate) 200 mcg inhalation powder"|NA|NA|"active"|"20100614"|NA
+9005472|"salbutamol (salbutamol sulfate) 0.5 mg per mL inhalation solution"|NA|NA|"active"|"20100614"|NA
+9005473|"salbutamol (salbutamol sulfate) 1 mg per mL inhalation solution"|NA|NA|"active"|"20100614"|NA
+9005478|"salbutamol (salbutamol sulfate) 2 mg per mL inhalation solution"|NA|NA|"active"|"20100614"|NA
+9005479|"salbutamol (salbutamol sulfate) 2.5 mg per 2.5 mL inhalation solution"|NA|NA|"active"|"20100614"|NA
+9005482|"salbutamol (salbutamol sulfate) 5 mg per 2.5 mL inhalation solution"|NA|NA|"active"|"20071003"|NA
+9005483|"salbutamol (salbutamol sulfate) 5 mg per mL inhalation solution"|NA|NA|"active"|"20071003"|NA
+9005485|"salbutamol 1 mg per mL inhalation solution"|NA|NA|"active"|"20141129"|NA
+9005471|"salbutamol (salbutamol sulfate) 0.4 mg per mL oral solution"|NA|NA|"active"|"20100614"|NA
+9005484|"salbutamol (salbutamol sulfate) 5 mg per mL oral solution"|NA|NA|"active"|"20100614"|NA
+9005477|"salbutamol (salbutamol sulfate) 2 mg oral tablet"|NA|NA|"active"|"20100614"|NA
+9005481|"salbutamol (salbutamol sulfate) 4 mg oral tablet"|NA|NA|"active"|"20100614"|NA
+9005475|"salbutamol (salbutamol sulfate) 100 mcg per actuation pressurised inhalation"|NA|NA|"active"|"20100614"|NA
+9005476|"salbutamol (salbutamol sulfate) 100 mcg pressurised inhalation"|NA|NA|"active"|"20100614"|NA
+9005486|"salbutamol 100 mcg per actuation pressurised inhalation"|NA|NA|"active"|"20100614"|NA
+9005474|"salbutamol (salbutamol sulfate) 1 mg per mL solution for injection"|NA|NA|"active"|"20100614"|NA
+9005496|"saxagliptin (saxagliptin hydrochloride) 2.5 mg oral tablet"|NA|NA|"active"|"20150220"|NA
+9005497|"saxagliptin (saxagliptin hydrochloride) 5 mg oral tablet"|NA|NA|"active"|"20150220"|NA
+9005511|"sertraline (sertraline hydrochloride) 100 mg oral capsule"|NA|NA|"active"|"20021127"|NA
+9005512|"sertraline (sertraline hydrochloride) 25 mg oral capsule"|NA|NA|"active"|"20021127"|NA
+9005513|"sertraline (sertraline hydrochloride) 50 mg oral capsule"|NA|NA|"active"|"20021127"|NA
+9005518|"sildenafil (sildenafil citrate) 100 mg oral tablet"|NA|NA|"active"|"20121115"|NA
+9005519|"sildenafil (sildenafil citrate) 20 mg oral tablet"|NA|NA|"active"|"20150220"|NA
+9005520|"sildenafil (sildenafil citrate) 25 mg oral tablet"|NA|NA|"active"|"20121120"|NA
+9005521|"sildenafil (sildenafil citrate) 50 mg oral tablet"|NA|NA|"active"|"20121115"|NA
+9005517|"sildenafil (sildenafil citrate) 0.8 mg per mL solution for injection"|NA|NA|"active"|"20160114"|NA
+9005547|"simvastatin 10 mg oral tablet"|NA|NA|"active"|"20040817"|NA
+9005548|"simvastatin 20 mg oral tablet"|NA|NA|"active"|"20040817"|NA
+9005549|"simvastatin 40 mg oral tablet"|NA|NA|"active"|"20040817"|NA
+9005550|"simvastatin 5 mg oral tablet"|NA|NA|"active"|"20040817"|NA
+9005551|"simvastatin 80 mg oral tablet"|NA|NA|"active"|"20040817"|NA
+9005556|"sitagliptin (sitagliptin phosphate monohydrate) 100 mg oral tablet"|NA|NA|"active"|"20120627"|NA
+9005557|"sitagliptin (sitagliptin phosphate monohydrate) 25 mg oral tablet"|NA|NA|"active"|"20130524"|NA
+9005558|"sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet"|NA|NA|"active"|"20130524"|NA
+9005626|"solifenacin succinate 10 mg oral tablet"|NA|NA|"active"|"20131230"|NA
+9005627|"solifenacin succinate 5 mg oral tablet"|NA|NA|"active"|"20131230"|NA
+9005658|"spironolactone 100 mg oral tablet"|NA|NA|"active"|"20130125"|NA
+9005659|"spironolactone 25 mg oral tablet"|NA|NA|"active"|"20130125"|NA
+9005704|"sulfamethoxazole 40 mg per 5 mL and trimethoprim 8 mg per 5 mL oral suspension"|NA|NA|"active"|"20160413"|NA
+9005705|"sulfamethoxazole 40 mg per mL and trimethoprim 8 mg per mL oral suspension"|NA|NA|"active"|"20150505"|NA
+9005703|"sulfamethoxazole 100 mg and trimethoprim 20 mg oral tablet"|NA|NA|"active"|"20080205"|NA
+9005706|"sulfamethoxazole 400 mg and trimethoprim 80 mg oral tablet"|NA|NA|"active"|"20080205"|NA
+9005709|"sulfamethoxazole 800 mg and trimethoprim 160 mg oral tablet"|NA|NA|"active"|"20060228"|NA
+9005708|"sulfamethoxazole 80 mg per mL and trimethoprim 16 mg per mL solution for injection"|NA|NA|"active"|"20170113"|NA
+9005719|"sumatriptan (sumatriptan succinate) 100 mg oral tablet"|NA|NA|"active"|"20051028"|NA
+9005721|"sumatriptan (sumatriptan succinate) 25 mg oral tablet"|NA|NA|"active"|"20051028"|NA
+9005722|"sumatriptan (sumatriptan succinate) 50 mg oral tablet"|NA|NA|"active"|"20051028"|NA
+9005720|"sumatriptan (sumatriptan succinate) 12 mg per mL solution for injection"|NA|NA|"active"|"20071003"|NA
+9005723|"sumatriptan (sumatriptan succinate) 6 mg per 0.5 mL solution for injection"|NA|NA|"active"|"20130926"|NA
+9005732|"tacrolimus 0.03 % cutaneous ointment"|NA|NA|"active"|"20160704"|NA
+9005733|"tacrolimus 0.1 % cutaneous ointment"|NA|NA|"active"|"20160704"|NA
+9005729|"tacrolimus (tacrolimus monohydrate) 0.5 mg oral capsule"|NA|NA|"active"|"20141217"|NA
+9005730|"tacrolimus (tacrolimus monohydrate) 1 mg oral capsule"|NA|NA|"active"|"20140606"|NA
+9005731|"tacrolimus (tacrolimus monohydrate) 5 mg oral capsule"|NA|NA|"active"|"20140606"|NA
+9005734|"tacrolimus 0.5 mg oral capsule"|NA|NA|"active"|"20090709"|NA
+9005736|"tacrolimus 1 mg oral capsule"|NA|NA|"active"|"20090709"|NA
+9005739|"tacrolimus 5 mg oral capsule"|NA|NA|"active"|"20090709"|NA
+9005735|"tacrolimus 0.5 mg prolonged release oral capsule"|NA|NA|"active"|"20120403"|NA
+9005737|"tacrolimus 1 mg prolonged release oral capsule"|NA|NA|"active"|"20090709"|NA
+9005738|"tacrolimus 3 mg prolonged release oral capsule"|NA|NA|"active"|"20100429"|NA
+9005741|"tacrolimus 5 mg prolonged release oral capsule"|NA|NA|"active"|"20090709"|NA
+9005740|"tacrolimus 5 mg per mL solution for injection"|NA|NA|"active"|"20090709"|NA
+9005742|"tadalafil 10 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9005743|"tadalafil 2.5 mg oral tablet"|NA|NA|"active"|"20080408"|NA
+9005744|"tadalafil 20 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9005745|"tadalafil 5 mg oral tablet"|NA|NA|"active"|"20080812"|NA
+9005749|"tamsulosin hydrochloride 0.4 mg prolonged release oral capsule"|NA|NA|"active"|"20150429"|NA
+9005750|"tamsulosin hydrochloride 0.4 mg prolonged release oral tablet"|NA|NA|"active"|"20130226"|NA
+9005767|"telmisartan 40 mg oral tablet"|NA|NA|"active"|"20120209"|NA
+9005768|"telmisartan 80 mg oral tablet"|NA|NA|"active"|"20120209"|NA
+9005769|"temazepam 15 mg oral capsule"|NA|NA|"active"|"20061122"|NA
+9005770|"temazepam 30 mg oral capsule"|NA|NA|"active"|"20061122"|NA
+9005782|"terazosin (terazosin hydrochloride) 1 mg oral tablet"|NA|NA|"active"|"20100430"|NA
+9005783|"terazosin (terazosin hydrochloride) 10 mg oral tablet"|NA|NA|"active"|"20100430"|NA
+9005784|"terazosin (terazosin hydrochloride) 2 mg oral tablet"|NA|NA|"active"|"20100430"|NA
+9005785|"terazosin (terazosin hydrochloride) 5 mg oral tablet"|NA|NA|"active"|"20100430"|NA
+9005787|"terbinafine hydrochloride 1 % cutaneous cream"|NA|NA|"active"|"20060605"|NA
+9005788|"terbinafine hydrochloride 1 % cutaneous spray"|NA|NA|"active"|"20170412"|NA
+9005786|"terbinafine (terbinafine hydrochloride) 250 mg oral tablet"|NA|NA|"active"|"20060908"|NA
+9005795|"testosterone 1 % cutaneous gel"|NA|NA|"active"|"20160517"|NA
+9005797|"testosterone 2 % cutaneous solution"|NA|NA|"active"|"20130610"|NA
+9005799|"testosterone 4.5 % nasal gel"|NA|NA|"active"|"20160609"|NA
+9005803|"testosterone undecanoate 40 mg oral capsule"|NA|NA|"active"|"20091102"|NA
+9005800|"testosterone cypionate 100 mg per mL solution for injection"|NA|NA|"active"|"20090501"|NA
+9005801|"testosterone enanthate 200 mg per mL solution for injection"|NA|NA|"active"|"20080207"|NA
+9005802|"testosterone propionate 100 mg per mL solution for injection"|NA|NA|"active"|"20160816"|NA
+9005796|"testosterone 12.2 mg transdermal patch"|NA|NA|"active"|"20161128"|NA
+9005798|"testosterone 24.3 mg transdermal patch"|NA|NA|"active"|"20161128"|NA
+9005853|"timolol (timolol maleate) 0.25 % opthalmic drops, solution"|NA|NA|"active"|"20080317"|NA
+9005856|"timolol (timolol maleate) 0.5 % opthalmic drops, solution"|NA|NA|"active"|"20080317"|NA
+9005858|"timolol maleate 10 mg oral tablet"|NA|NA|"active"|"20080206"|NA
+9005859|"timolol maleate 20 mg oral tablet"|NA|NA|"active"|"20080206"|NA
+9005860|"timolol maleate 5 mg oral tablet"|NA|NA|"active"|"20080206"|NA
+9005854|"timolol (timolol maleate) 0.25 % prolonged-release eye drops"|NA|NA|"active"|"20161115"|NA
+9005857|"timolol (timolol maleate) 0.5 % prolonged-release eye drops"|NA|NA|"active"|"20161115"|NA
+9005867|"tiotropium (tiotropium bromide monohydrate) 2.5 mcg per actuation inhalation solution"|NA|NA|"active"|"20150107"|NA
+9005866|"tiotropium (tiotropium bromide monohydrate) 18 mcg oral capsule"|NA|NA|"active"|"20101102"|NA
+9005895|"tolterodine tartrate 1 mg oral tablet"|NA|NA|"active"|"20131230"|NA
+9005896|"tolterodine tartrate 2 mg oral tablet"|NA|NA|"active"|"20131230"|NA
+9005897|"tolterodine tartrate 2 mg prolonged release oral capsule"|NA|NA|"active"|"20131230"|NA
+9005898|"tolterodine tartrate 4 mg prolonged release oral capsule"|NA|NA|"active"|"20131230"|NA
+9005905|"topiramate 15 mg oral capsule"|NA|NA|"active"|"20100930"|NA
+9005907|"topiramate 25 mg oral capsule"|NA|NA|"active"|"20100930"|NA
+9005904|"topiramate 100 mg oral tablet"|NA|NA|"active"|"20051205"|NA
+9005906|"topiramate 200 mg oral tablet"|NA|NA|"active"|"20051205"|NA
+9005908|"topiramate 25 mg oral tablet"|NA|NA|"active"|"20051205"|NA
+9005909|"topiramate 50 mg oral tablet"|NA|NA|"active"|"20080911"|NA
+9005921|"tramadol hydrochloride 50 mg oral tablet"|NA|NA|"active"|"20140206"|NA
+9005913|"tramadol hydrochloride 100 mg prolonged release oral capsule"|NA|NA|"active"|"20140205"|NA
+9005916|"tramadol hydrochloride 200 mg prolonged release oral capsule"|NA|NA|"active"|"20140205"|NA
+9005918|"tramadol hydrochloride 300 mg prolonged release oral capsule"|NA|NA|"active"|"20140205"|NA
+9005914|"tramadol hydrochloride 100 mg prolonged release oral tablet"|NA|NA|"active"|"20140206"|NA
+9005915|"tramadol hydrochloride 150 mg prolonged release oral tablet"|NA|NA|"active"|"20140206"|NA
+9005917|"tramadol hydrochloride 200 mg prolonged release oral tablet"|NA|NA|"active"|"20140206"|NA
+9005919|"tramadol hydrochloride 300 mg prolonged release oral tablet"|NA|NA|"active"|"20140206"|NA
+9005920|"tramadol hydrochloride 400 mg prolonged release oral tablet"|NA|NA|"active"|"20140206"|NA
+9005922|"tramadol hydrochloride 75 mg prolonged release oral tablet"|NA|NA|"active"|"20140206"|NA
+9005925|"trandolapril 0.5 mg oral capsule"|NA|NA|"active"|"20160516"|NA
+9005926|"trandolapril 1 mg oral capsule"|NA|NA|"active"|"20160516"|NA
+9005928|"trandolapril 2 mg oral capsule"|NA|NA|"active"|"20160509"|NA
+9005930|"trandolapril 4 mg oral capsule"|NA|NA|"active"|"20151007"|NA
+9005936|"travoprost 0.003 % opthalmic drops, solution"|NA|NA|"active"|"20170524"|NA
+9005937|"travoprost 0.004 % opthalmic drops, solution"|NA|NA|"active"|"20140825"|NA
+9005938|"trazodone hydrochloride 100 mg oral tablet"|NA|NA|"active"|"20020302"|NA
+9005939|"trazodone hydrochloride 150 mg oral tablet"|NA|NA|"active"|"20060222"|NA
+9005942|"trazodone hydrochloride 50 mg oral tablet"|NA|NA|"active"|"20020302"|NA
+9005943|"trazodone hydrochloride 75 mg oral tablet"|NA|NA|"active"|"20160908"|NA
+9005940|"trazodone hydrochloride 150 mg prolonged release oral tablet"|NA|NA|"active"|"20170310"|NA
+9005941|"trazodone hydrochloride 300 mg prolonged release oral tablet"|NA|NA|"active"|"20170310"|NA
+9005958|"triamcinolone acetonide 0.025 % cutaneous cream"|NA|NA|"active"|"20050810"|NA
+9005959|"triamcinolone acetonide 0.1 % cutaneous cream"|NA|NA|"active"|"20101210"|NA
+9005962|"triamcinolone acetonide 0.5 % cutaneous cream"|NA|NA|"active"|"20160227"|NA
+9005960|"triamcinolone acetonide 0.1 % cutaneous ointment"|NA|NA|"active"|"20150912"|NA
+9005965|"triamcinolone acetonide 55 mcg per actuation nasal spray"|NA|NA|"active"|"20151030"|NA
+9005961|"triamcinolone acetonide 0.1 % oromucosal paste"|NA|NA|"active"|"20050810"|NA
+9005963|"triamcinolone acetonide 10 mg per mL suspension for injection"|NA|NA|"active"|"20150429"|NA
+9005964|"triamcinolone acetonide 40 mg per mL suspension for injection"|NA|NA|"active"|"20110111"|NA
+9005967|"triamcinolone hexacetonide 20 mg per mL suspension for injection"|NA|NA|"active"|"20060530"|NA
+9006040|"valacyclovir (valacyclovir hydrochloride monohydrate) 500 mg oral tablet"|NA|NA|"active"|"20151026"|NA
+9006041|"valacyclovir (valacyclovir hydrochloride) 1 g oral tablet"|NA|NA|"active"|"20060816"|NA
+9006042|"valacyclovir (valacyclovir hydrochloride) 1000 mg oral tablet"|NA|NA|"active"|"20101217"|NA
+9006043|"valacyclovir (valacyclovir hydrochloride) 500 mg oral tablet"|NA|NA|"active"|"20100819"|NA
+9006055|"valsartan 160 mg oral capsule"|NA|NA|"active"|"20090812"|NA
+9006059|"valsartan 80 mg oral capsule"|NA|NA|"active"|"20090812"|NA
+9006056|"valsartan 160 mg oral tablet"|NA|NA|"active"|"20090812"|NA
+9006057|"valsartan 320 mg oral tablet"|NA|NA|"active"|"20090812"|NA
+9006058|"valsartan 40 mg oral tablet"|NA|NA|"active"|"20090812"|NA
+9006060|"valsartan 80 mg oral tablet"|NA|NA|"active"|"20090812"|NA
+9006075|"varenicline (varenicline tartrate) 0.5 mg and varenicline (varenicline tartrate) 1 mg kit"|NA|NA|"active"|"20080704"|NA
+9006076|"varenicline (varenicline tartrate) 0.5 mg and varenicline (varenicline tartrate) 1 mg oral tablet"|NA|NA|"active"|"20080704"|NA
+9006077|"varenicline (varenicline tartrate) 0.5 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9006078|"varenicline (varenicline tartrate) 1 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9006094|"venlafaxine (venlafaxine hydrochloride) 150 mg prolonged release oral capsule"|NA|NA|"active"|"20080509"|NA
+9006095|"venlafaxine (venlafaxine hydrochloride) 37.5 mg prolonged release oral capsule"|NA|NA|"active"|"20080509"|NA
+9006096|"venlafaxine (venlafaxine hydrochloride) 75 mg prolonged release oral capsule"|NA|NA|"active"|"20080509"|NA
+9006097|"verapamil hydrochloride 120 mg oral tablet"|NA|NA|"active"|"20080206"|NA
+9006105|"verapamil hydrochloride 80 mg oral tablet"|NA|NA|"active"|"20080206"|NA
+9006098|"verapamil hydrochloride 120 mg prolonged release oral capsule"|NA|NA|"active"|"20170315"|NA
+9006100|"verapamil hydrochloride 180 mg prolonged release oral capsule"|NA|NA|"active"|"20170315"|NA
+9006103|"verapamil hydrochloride 240 mg prolonged release oral capsule"|NA|NA|"active"|"20170315"|NA
+9006099|"verapamil hydrochloride 120 mg prolonged release oral tablet"|NA|NA|"active"|"20060222"|NA
+9006101|"verapamil hydrochloride 180 mg prolonged release oral tablet"|NA|NA|"active"|"20060222"|NA
+9006104|"verapamil hydrochloride 240 mg prolonged release oral tablet"|NA|NA|"active"|"20030323"|NA
+9006102|"verapamil hydrochloride 2.5 mg per mL solution for injection"|NA|NA|"active"|"20150505"|NA
+9006152|"warfarin sodium 1 mg oral tablet"|NA|NA|"active"|"20050512"|NA
+9006153|"warfarin sodium 10 mg oral tablet"|NA|NA|"active"|"20050810"|NA
+9006154|"warfarin sodium 2 mg oral tablet"|NA|NA|"active"|"20050512"|NA
+9006155|"warfarin sodium 2.5 mg oral tablet"|NA|NA|"active"|"20050512"|NA
+9006156|"warfarin sodium 3 mg oral tablet"|NA|NA|"active"|"20050512"|NA
+9006157|"warfarin sodium 4 mg oral tablet"|NA|NA|"active"|"20050810"|NA
+9006158|"warfarin sodium 5 mg oral tablet"|NA|NA|"active"|"20050512"|NA
+9006159|"warfarin sodium 6 mg oral tablet"|NA|NA|"active"|"20050512"|NA
+9006160|"warfarin sodium 7.5 mg oral tablet"|NA|NA|"active"|"20050512"|NA
+9006221|"zopiclone 3.75 mg oral tablet"|NA|NA|"active"|"20150505"|NA
+9006222|"zopiclone 5 mg oral tablet"|NA|NA|"active"|"20060309"|NA
+9006223|"zopiclone 7.5 mg oral tablet"|NA|NA|"active"|"20060309"|NA

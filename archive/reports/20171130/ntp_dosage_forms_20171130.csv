@@ -1,0 +1,570 @@
+"ntp_dosage_form_code","ntp_dosage_form","route_of_administration_code","route_of_administration","route_of_administration_f","pharm_form_code","pharmaceutical_form","pharmaceutical_form_f","audit_id"
+40001,"solution for injection","1","BLOCK/INFILTRATION","Bloc/Infiltration","34","LIQUID","Liquide",28977
+40001,"solution for injection","1","BLOCK/INFILTRATION","Bloc/Infiltration","134","SOLUTION","Solution",28978
+40001,"solution for injection","1-7","BLOCK/INFILTRATION, EPIDURAL","Bloc/Infiltration, Épidurale","34","LIQUID","Liquide",28979
+40001,"solution for injection","1-7","BLOCK/INFILTRATION, EPIDURAL","Bloc/Infiltration, Épidurale","134","SOLUTION","Solution",28980
+40002,"oromucosal gel","3","BUCCAL","Buccale","114","GEL","Gel",28981
+40003,"mouthwash","3","BUCCAL","Buccale","34","LIQUID","Liquide",28982
+40004,"gargle/mouthwash","3","BUCCAL","Buccale","42","MOUTHWASH/GARGLE","Rince-bouche/Gargarisme",28983
+40003,"mouthwash","3","BUCCAL","Buccale","134","SOLUTION","Solution",28984
+40005,"oromucosal spray","3","BUCCAL","Buccale","98","SPRAY","Pulvérisation",28985
+40006,"kit","3","BUCCAL","Buccale","32","KIT","Trousse",28986
+40007,"buccal tablet","3","BUCCAL","Buccale","85","TABLET","Comprimé",28987
+40007,"buccal tablet","3","BUCCAL","Buccale","23","TABLET (EFFERVESCENT)","Comprimé (effervescent)",28988
+40008,"oromucosal solution","3-56","BUCCAL, ORAL","Buccale, Orale","34","LIQUID","Liquide",28989
+40009,"oromucosal paste","3-56","BUCCAL, ORAL","Buccale, Orale","52","PASTE","Pâte",28990
+40007,"buccal tablet","3-66","BUCCAL, SUBLINGUAL","Buccale, Sublinguale","23","TABLET (EFFERVESCENT)","Comprimé (effervescent)",28991
+40008,"oromucosal solution","3-70","BUCCAL, TOPICAL","Buccale, Topique","34","LIQUID","Liquide",28992
+40010,"dental gel","5","DENTAL","Dentaire","114","GEL","Gel",28993
+40011,"dental solution","5","DENTAL","Dentaire","34","LIQUID","Liquide",28994
+40009,"oromucosal paste","5","DENTAL","Dentaire","52","PASTE","Pâte",28995
+40011,"dental solution","5","DENTAL","Dentaire","134","SOLUTION","Solution",28996
+40012,"toothpaste","5","DENTAL","Dentaire","94","TOOTHPASTE","Pâte dentifrice",28997
+40006,"kit","5","DENTAL","Dentaire","32","KIT","Trousse",28998
+40013,"solution for haemodialysis","6","DIALYSIS","Dialyse","34","LIQUID","Liquide",28999
+40014,"powder for concentrate for solution for haemodialysis","6","DIALYSIS","Dialyse","55","POWDER","Poudre",29000
+40014,"powder for concentrate for solution for haemodialysis","6","DIALYSIS","Dialyse","56","POWDER FOR SOLUTION","Poudre pour solution",29001
+40013,"solution for haemodialysis","6","DIALYSIS","Dialyse","134","SOLUTION","Solution",29002
+40001,"solution for injection","7","EPIDURAL","Épidurale","34","LIQUID","Liquide",29003
+40001,"solution for injection","7","EPIDURAL","Épidurale","134","SOLUTION","Solution",29004
+40001,"solution for injection","7-4","EPIDURAL, INTRACAUDAL","Épidurale, Intracaudale","134","SOLUTION","Solution",29005
+40001,"solution for injection","7-22-49","EPIDURAL, INTRAMUSCULAR, INTRAVENOUS","Épidurale, Intramusculaire, Intraveineuse","34","LIQUID","Liquide",29006
+40001,"solution for injection","7-22-49","EPIDURAL, INTRAMUSCULAR, INTRAVENOUS","Épidurale, Intramusculaire, Intraveineuse","134","SOLUTION","Solution",29007
+40015,"emulsion for injection","7-22-49","EPIDURAL, INTRAMUSCULAR, INTRAVENOUS","Épidurale, Intramusculaire, Intraveineuse","19","EMULSION","Émulsion",29008
+40016,"powder for suspension for injection","7-22-49","EPIDURAL, INTRAMUSCULAR, INTRAVENOUS","Épidurale, Intramusculaire, Intraveineuse","55","POWDER","Poudre",29009
+40017,"powder for solution for injection","7-22-49","EPIDURAL, INTRAMUSCULAR, INTRAVENOUS","Épidurale, Intramusculaire, Intraveineuse","56","POWDER FOR SOLUTION","Poudre pour solution",29010
+40016,"powder for suspension for injection","7-22-49","EPIDURAL, INTRAMUSCULAR, INTRAVENOUS","Épidurale, Intramusculaire, Intraveineuse","126","POWDER FOR SUSPENSION","Poudre pour suspension",29011
+40018,"powder for prolonged-release suspension for injection","7-22-49","EPIDURAL, INTRAMUSCULAR, INTRAVENOUS","Épidurale, Intramusculaire, Intraveineuse","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29012
+40019,"suspension for injection","7-22-49","EPIDURAL, INTRAMUSCULAR, INTRAVENOUS","Épidurale, Intramusculaire, Intraveineuse","79","SUSPENSION","Suspension",29013
+40020,"prolonged-release suspension for injection","7-22-49","EPIDURAL, INTRAMUSCULAR, INTRAVENOUS","Épidurale, Intramusculaire, Intraveineuse","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29014
+40001,"solution for injection","7-49","EPIDURAL, INTRAVENOUS","Épidurale, Intraveineuse","34","LIQUID","Liquide",29015
+40001,"solution for injection","7-49","EPIDURAL, INTRAVENOUS","Épidurale, Intraveineuse","134","SOLUTION","Solution",29016
+40001,"solution for injection","7-49-65","EPIDURAL, INTRAVENOUS, SUBCUTANEOUS","Épidurale, Intraveineuse, Sous-cutanée","134","SOLUTION","Solution",29017
+40015,"emulsion for injection","7-49-65","EPIDURAL, INTRAVENOUS, SUBCUTANEOUS","Épidurale, Intraveineuse, Sous-cutanée","19","EMULSION","Émulsion",29018
+40001,"solution for injection","7-49-65","EPIDURAL, INTRAVENOUS, SUBCUTANEOUS","Épidurale, Intraveineuse, Sous-cutanée","34","LIQUID","Liquide",29019
+40016,"powder for suspension for injection","7-49-65","EPIDURAL, INTRAVENOUS, SUBCUTANEOUS","Épidurale, Intraveineuse, Sous-cutanée","55","POWDER","Poudre",29020
+40017,"powder for solution for injection","7-49-65","EPIDURAL, INTRAVENOUS, SUBCUTANEOUS","Épidurale, Intraveineuse, Sous-cutanée","56","POWDER FOR SOLUTION","Poudre pour solution",29021
+40016,"powder for suspension for injection","7-49-65","EPIDURAL, INTRAVENOUS, SUBCUTANEOUS","Épidurale, Intraveineuse, Sous-cutanée","126","POWDER FOR SUSPENSION","Poudre pour suspension",29022
+40018,"powder for prolonged-release suspension for injection","7-49-65","EPIDURAL, INTRAVENOUS, SUBCUTANEOUS","Épidurale, Intraveineuse, Sous-cutanée","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29023
+40019,"suspension for injection","7-49-65","EPIDURAL, INTRAVENOUS, SUBCUTANEOUS","Épidurale, Intraveineuse, Sous-cutanée","79","SUSPENSION","Suspension",29024
+40020,"prolonged-release suspension for injection","7-49-65","EPIDURAL, INTRAVENOUS, SUBCUTANEOUS","Épidurale, Intraveineuse, Sous-cutanée","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29025
+40001,"solution for injection","7-60","EPIDURAL, RETROBULBAR","Épidurale, Rétrobulbaire","134","SOLUTION","Solution",29026
+40021,"pressurised inhalation","29","INHALATION","Inhalation","162","AEROSOL, METERED DOSE","Aérosol, dose mesurée",29027
+40022,"inhalation powder capsule","29","INHALATION","Inhalation","5","CAPSULE","Capsule",29028
+40023,"medicinal gas","29","INHALATION","Inhalation","25","GAS","Gaz",29029
+40024,"inhalation vapour (liquid)","29","INHALATION","Inhalation","34","LIQUID","Liquide",29030
+40087,"otic gel","57","OTIC","Otique","114","GEL","Gel",29437
+40021,"pressurised inhalation","29","INHALATION","Inhalation","1","METERED-DOSE AEROSOL","Aérosol à dose mesurée",29031
+40025,"inhalation powder","29","INHALATION","Inhalation","1-55","METERED-DOSE AEROSOL, POWDER","Aérosol à dose mesurée, Poudre",29032
+40025,"inhalation powder","29","INHALATION","Inhalation","55","POWDER","Poudre",29033
+40026,"powder for nebuliser solution","29","INHALATION","Inhalation","56","POWDER FOR SOLUTION","Poudre pour solution",29034
+40025,"inhalation powder","29","INHALATION","Inhalation","153","POWDER (METERED DOSE)","Poudre (à dose mesurée)",29035
+40027,"inhalation solution","29","INHALATION","Inhalation","134","SOLUTION","Solution",29036
+40028,"nebuliser suspension","29","INHALATION","Inhalation","79","SUSPENSION","Suspension",29037
+40026,"powder for nebuliser solution","29","INHALATION","Inhalation","2","AEROSOL","Aérosol",29038
+40027,"inhalation solution","29","INHALATION","Inhalation","88","TINCTURE","Teinture",29039
+40029,"nasal spray","29-53","INHALATION, NASAL","Inhalation, Nasale","34","LIQUID","Liquide",29040
+40030,"nasal powder","29-53","INHALATION, NASAL","Inhalation, Nasale","55","POWDER","Poudre",29041
+40021,"pressurised inhalation","29-56","INHALATION, ORAL","Inhalation, Orale","1","METERED-DOSE AEROSOL","Aérosol à dose mesurée",29042
+40025,"inhalation powder","29-56","INHALATION, ORAL","Inhalation, Orale","55","POWDER","Poudre",29043
+40031,"nebuliser solution","29-56","INHALATION, ORAL","Inhalation, Orale","134","SOLUTION","Solution",29044
+40027,"inhalation solution","29-70","INHALATION, TOPICAL","Inhalation, Topique","88","TINCTURE","Teinture",29045
+40017,"powder for solution for injection","39","INSTILLATION","Instillation","56","POWDER FOR SOLUTION","Poudre pour solution",29046
+40032,"solution for cardioplegia","39","INSTILLATION","Instillation","134","SOLUTION","Solution",29047
+40001,"solution for injection","11","INTRA-AMNIOTIC","Intra-amniotique","134","SOLUTION","Solution",29048
+40001,"solution for injection","12","INTRA-ARTERIAL",NA,"34","LIQUID","Liquide",29049
+40017,"powder for solution for injection","12","INTRA-ARTERIAL",NA,"56","POWDER FOR SOLUTION","Poudre pour solution",29050
+40001,"solution for injection","12","INTRA-ARTERIAL",NA,"134","SOLUTION","Solution",29051
+40015,"emulsion for injection","12-17-22-49-50","INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",NA,"19","EMULSION","Émulsion",29052
+40001,"solution for injection","12-17-22-49-50","INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",NA,"34","LIQUID","Liquide",29053
+40016,"powder for suspension for injection","12-17-22-49-50","INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",NA,"55","POWDER","Poudre",29054
+40017,"powder for solution for injection","12-17-22-49-50","INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",NA,"56","POWDER FOR SOLUTION","Poudre pour solution",29055
+40016,"powder for suspension for injection","12-17-22-49-50","INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",NA,"126","POWDER FOR SUSPENSION","Poudre pour suspension",29056
+40018,"powder for prolonged-release suspension for injection","12-17-22-49-50","INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",NA,"118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29057
+40001,"solution for injection","12-17-22-49-50","INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",NA,"134","SOLUTION","Solution",29058
+40019,"suspension for injection","12-17-22-49-50","INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",NA,"79","SUSPENSION","Suspension",29059
+40020,"prolonged-release suspension for injection","12-17-22-49-50","INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",NA,"143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29060
+40001,"solution for injection","12-22-31-49","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-artérielle, Intramusculaire, Intrathécale, Intraveineuse","34","LIQUID","Liquide",29061
+40017,"powder for solution for injection","12-22-31-49","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-artérielle, Intramusculaire, Intrathécale, Intraveineuse","56","POWDER FOR SOLUTION","Poudre pour solution",29062
+40001,"solution for injection","12-22-31-49","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-artérielle, Intramusculaire, Intrathécale, Intraveineuse","134","SOLUTION","Solution",29063
+40015,"emulsion for injection","12-22-31-49","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-artérielle, Intramusculaire, Intrathécale, Intraveineuse","19","EMULSION","Émulsion",29064
+40016,"powder for suspension for injection","12-22-31-49","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-artérielle, Intramusculaire, Intrathécale, Intraveineuse","55","POWDER","Poudre",29065
+40016,"powder for suspension for injection","12-22-31-49","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-artérielle, Intramusculaire, Intrathécale, Intraveineuse","126","POWDER FOR SUSPENSION","Poudre pour suspension",29066
+40018,"powder for prolonged-release suspension for injection","12-22-31-49","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-artérielle, Intramusculaire, Intrathécale, Intraveineuse","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29067
+40019,"suspension for injection","12-22-31-49","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-artérielle, Intramusculaire, Intrathécale, Intraveineuse","79","SUSPENSION","Suspension",29068
+40020,"prolonged-release suspension for injection","12-22-31-49","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-artérielle, Intramusculaire, Intrathécale, Intraveineuse","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29069
+40001,"solution for injection","12-22-31-49-50","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRAVENTRICULAR","Intra-artérielle, Intramusculaire, Intrathécale, Intraveineuse, Intraventriculaire","134","SOLUTION","Solution",29070
+40015,"emulsion for injection","12-22-31-49-50","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRAVENTRICULAR","Intra-artérielle, Intramusculaire, Intrathécale, Intraveineuse, Intraventriculaire","19","EMULSION","Émulsion",29071
+40001,"solution for injection","12-22-31-49-50","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRAVENTRICULAR","Intra-artérielle, Intramusculaire, Intrathécale, Intraveineuse, Intraventriculaire","34","LIQUID","Liquide",29072
+40016,"powder for suspension for injection","12-22-31-49-50","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRAVENTRICULAR","Intra-artérielle, Intramusculaire, Intrathécale, Intraveineuse, Intraventriculaire","55","POWDER","Poudre",29073
+40017,"powder for solution for injection","12-22-31-49-50","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRAVENTRICULAR","Intra-artérielle, Intramusculaire, Intrathécale, Intraveineuse, Intraventriculaire","56","POWDER FOR SOLUTION","Poudre pour solution",29074
+40016,"powder for suspension for injection","12-22-31-49-50","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRAVENTRICULAR","Intra-artérielle, Intramusculaire, Intrathécale, Intraveineuse, Intraventriculaire","126","POWDER FOR SUSPENSION","Poudre pour suspension",29075
+40018,"powder for prolonged-release suspension for injection","12-22-31-49-50","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRAVENTRICULAR","Intra-artérielle, Intramusculaire, Intrathécale, Intraveineuse, Intraventriculaire","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29076
+40019,"suspension for injection","12-22-31-49-50","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRAVENTRICULAR","Intra-artérielle, Intramusculaire, Intrathécale, Intraveineuse, Intraventriculaire","79","SUSPENSION","Suspension",29077
+40020,"prolonged-release suspension for injection","12-22-31-49-50","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRAVENTRICULAR","Intra-artérielle, Intramusculaire, Intrathécale, Intraveineuse, Intraventriculaire","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29078
+40001,"solution for injection","12-22-49","INTRA-ARTERIAL, INTRAMUSCULAR, INTRAVENOUS","Intra-artérielle, Intramusculaire, Intraveineuse","134","SOLUTION","Solution",29079
+40015,"emulsion for injection","12-22-49","INTRA-ARTERIAL, INTRAMUSCULAR, INTRAVENOUS","Intra-artérielle, Intramusculaire, Intraveineuse","19","EMULSION","Émulsion",29080
+40001,"solution for injection","12-22-49","INTRA-ARTERIAL, INTRAMUSCULAR, INTRAVENOUS","Intra-artérielle, Intramusculaire, Intraveineuse","34","LIQUID","Liquide",29081
+40016,"powder for suspension for injection","12-22-49","INTRA-ARTERIAL, INTRAMUSCULAR, INTRAVENOUS","Intra-artérielle, Intramusculaire, Intraveineuse","55","POWDER","Poudre",29082
+40017,"powder for solution for injection","12-22-49","INTRA-ARTERIAL, INTRAMUSCULAR, INTRAVENOUS","Intra-artérielle, Intramusculaire, Intraveineuse","56","POWDER FOR SOLUTION","Poudre pour solution",29083
+40016,"powder for suspension for injection","12-22-49","INTRA-ARTERIAL, INTRAMUSCULAR, INTRAVENOUS","Intra-artérielle, Intramusculaire, Intraveineuse","126","POWDER FOR SUSPENSION","Poudre pour suspension",29084
+40018,"powder for prolonged-release suspension for injection","12-22-49","INTRA-ARTERIAL, INTRAMUSCULAR, INTRAVENOUS","Intra-artérielle, Intramusculaire, Intraveineuse","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29085
+40019,"suspension for injection","12-22-49","INTRA-ARTERIAL, INTRAMUSCULAR, INTRAVENOUS","Intra-artérielle, Intramusculaire, Intraveineuse","79","SUSPENSION","Suspension",29086
+40020,"prolonged-release suspension for injection","12-22-49","INTRA-ARTERIAL, INTRAMUSCULAR, INTRAVENOUS","Intra-artérielle, Intramusculaire, Intraveineuse","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29087
+40001,"solution for injection","12-49","INTRA-ARTERIAL, INTRAVENOUS","Intra-artérielle, Intraveineuse","34","LIQUID","Liquide",29088
+40001,"solution for injection","12-49","INTRA-ARTERIAL, INTRAVENOUS","Intra-artérielle, Intraveineuse","134","SOLUTION","Solution",29089
+40017,"powder for solution for injection","12-49","INTRA-ARTERIAL, INTRAVENOUS","Intra-artérielle, Intraveineuse","56","POWDER FOR SOLUTION","Poudre pour solution",29090
+40001,"solution for injection","10","INTRA-ARTICULAR","Intra-articulaire","34","LIQUID","Liquide",29091
+40001,"solution for injection","10","INTRA-ARTICULAR","Intra-articulaire","134","SOLUTION","Solution",29092
+40019,"suspension for injection","10","INTRA-ARTICULAR","Intra-articulaire","79","SUSPENSION","Suspension",29093
+40001,"solution for injection","10-13","INTRA-ARTICULAR, INTRABURSAL","Intra-articulaire, Intrabursique","134","SOLUTION","Solution",29094
+40019,"suspension for injection","10-13","INTRA-ARTICULAR, INTRABURSAL","Intra-articulaire, Intrabursique","79","SUSPENSION","Suspension",29095
+40019,"suspension for injection","10-13-19-22","INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intradermique, Intramusculaire","79","SUSPENSION","Suspension",29096
+40015,"emulsion for injection","10-13-19-22","INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intradermique, Intramusculaire","19","EMULSION","Émulsion",29097
+40001,"solution for injection","10-13-19-22","INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intradermique, Intramusculaire","34","LIQUID","Liquide",29098
+40016,"powder for suspension for injection","10-13-19-22","INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intradermique, Intramusculaire","55","POWDER","Poudre",29099
+40017,"powder for solution for injection","10-13-19-22","INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intradermique, Intramusculaire","56","POWDER FOR SOLUTION","Poudre pour solution",29100
+40018,"powder for prolonged-release suspension for injection","10-13-19-22","INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intradermique, Intramusculaire","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29101
+40001,"solution for injection","10-13-19-22","INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intradermique, Intramusculaire","134","SOLUTION","Solution",29102
+40020,"prolonged-release suspension for injection","10-13-19-22","INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intradermique, Intramusculaire","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29103
+40019,"suspension for injection","10-13-19-42","INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRASYNOVIAL","Intra-articulaire, Intrabursique, Intradermique, Intrasynoviale","79","SUSPENSION","Suspension",29104
+40001,"solution for injection","10-13-19-42","INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRASYNOVIAL","Intra-articulaire, Intrabursique, Intradermique, Intrasynoviale","34","LIQUID","Liquide",29105
+40017,"powder for solution for injection","10-13-19-42","INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRASYNOVIAL","Intra-articulaire, Intrabursique, Intradermique, Intrasynoviale","56","POWDER FOR SOLUTION","Poudre pour solution",29106
+40001,"solution for injection","10-13-19-42","INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRASYNOVIAL","Intra-articulaire, Intrabursique, Intradermique, Intrasynoviale","134","SOLUTION","Solution",29107
+40019,"suspension for injection","10-13-22","INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intramusculaire","79","SUSPENSION","Suspension",29108
+40020,"prolonged-release suspension for injection","22","INTRAMUSCULAR","Intramusculaire","143","SUSPENSION (EXTENDED-RELEASE)",NA,29231
+40015,"emulsion for injection","10-13-22","INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intramusculaire","19","EMULSION","Émulsion",29109
+40016,"powder for suspension for injection","10-13-22","INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intramusculaire","55","POWDER","Poudre",29110
+40017,"powder for solution for injection","10-13-22","INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intramusculaire","56","POWDER FOR SOLUTION","Poudre pour solution",29111
+40016,"powder for suspension for injection","10-13-22","INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intramusculaire","126","POWDER FOR SUSPENSION","Poudre pour suspension",29112
+40018,"powder for prolonged-release suspension for injection","10-13-22","INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intramusculaire","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29113
+40001,"solution for injection","10-13-22","INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intramusculaire","134","SOLUTION","Solution",29114
+40020,"prolonged-release suspension for injection","10-13-22","INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intramusculaire","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29115
+40015,"emulsion for injection","10-19-21-22","INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",NA,"19","EMULSION","Émulsion",29116
+40001,"solution for injection","10-19-21-22","INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",NA,"34","LIQUID","Liquide",29117
+40016,"powder for suspension for injection","10-19-21-22","INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",NA,"55","POWDER","Poudre",29118
+40017,"powder for solution for injection","10-19-21-22","INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",NA,"56","POWDER FOR SOLUTION","Poudre pour solution",29119
+40016,"powder for suspension for injection","10-19-21-22","INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",NA,"126","POWDER FOR SUSPENSION","Poudre pour suspension",29120
+40018,"powder for prolonged-release suspension for injection","10-19-21-22","INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",NA,"118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29121
+40001,"solution for injection","10-19-21-22","INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",NA,"134","SOLUTION","Solution",29122
+40019,"suspension for injection","10-19-21-22","INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",NA,"79","SUSPENSION","Suspension",29123
+40020,"prolonged-release suspension for injection","10-19-21-22","INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",NA,"143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29124
+40001,"solution for injection","10-21-22","INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR",NA,"134","SOLUTION","Solution",29125
+40015,"emulsion for injection","10-21-22","INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR",NA,"19","EMULSION","Émulsion",29126
+40001,"solution for injection","10-21-22","INTRA-ARTICULAR,  INTRALESIONAL, INTRAMUSCULAR",NA,"34","LIQUID","Liquide",29127
+40016,"powder for suspension for injection","10-21-22","INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR",NA,"55","POWDER","Poudre",29128
+40017,"powder for solution for injection","10-21-22","INTRA-ARTICULAR,  INTRALESIONAL, INTRAMUSCULAR",NA,"56","POWDER FOR SOLUTION","Poudre pour solution",29129
+40019,"suspension for injection","10-21-22","INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR","Intra-articulaire, Intralésionnelle, Intramusculaire","79","SUSPENSION","Suspension",29130
+40016,"powder for suspension for injection","10-21-22","INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR","Intra-articulaire, Intralésionnelle, Intramusculaire","126","POWDER FOR SUSPENSION","Poudre pour suspension",29131
+40018,"powder for prolonged-release suspension for injection","10-21-22","INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR","Intra-articulaire, Intralésionnelle, Intramusculaire","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29132
+40020,"prolonged-release suspension for injection","10-21-22","INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR","Intra-articulaire, Intralésionnelle, Intramusculaire","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29133
+40015,"emulsion for injection","10-21-22-42","INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",NA,"19","EMULSION","Émulsion",29134
+40001,"solution for injection","10-21-22-42","INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",NA,"34","LIQUID","Liquide",29135
+40016,"powder for suspension for injection","10-21-22-42","INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",NA,"55","POWDER","Poudre",29136
+40017,"powder for solution for injection","10-21-22-42","INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",NA,"56","POWDER FOR SOLUTION","Poudre pour solution",29137
+40016,"powder for suspension for injection","10-21-22-42","INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",NA,"126","POWDER FOR SUSPENSION","Poudre pour suspension",29138
+40018,"powder for prolonged-release suspension for injection","10-21-22-42","INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",NA,"118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29139
+40001,"solution for injection","10-21-22-42","INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",NA,"134","SOLUTION","Solution",29140
+40019,"suspension for injection","10-21-22-42","INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",NA,"79","SUSPENSION","Suspension",29141
+40020,"prolonged-release suspension for injection","10-21-22-42","INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",NA,"143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29142
+40015,"emulsion for injection","10-21-22-49-63","INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",NA,"19","EMULSION","Émulsion",29143
+40001,"solution for injection","10-21-22-49-63","INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",NA,"34","LIQUID","Liquide",29144
+40016,"powder for suspension for injection","10-21-22-49-63","INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",NA,"55","POWDER","Poudre",29145
+40017,"powder for solution for injection","10-21-22-49-63","INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",NA,"56","POWDER FOR SOLUTION","Poudre pour solution",29146
+40016,"powder for suspension for injection","10-21-22-49-63","INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",NA,"126","POWDER FOR SUSPENSION","Poudre pour suspension",29147
+40018,"powder for prolonged-release suspension for injection","10-21-22-49-63","INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",NA,"118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29148
+40001,"solution for injection","10-21-22-49-63","INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",NA,"134","SOLUTION","Solution",29149
+40019,"suspension for injection","10-21-22-49-63","INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",NA,"79","SUSPENSION","Suspension",29150
+40020,"prolonged-release suspension for injection","10-21-22-49-63","INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",NA,"143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29151
+40001,"solution for injection","10-21-22-49-63","INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION","Intra-articulaire, Intralésionnelle, Intramusculaire, Intraveineuse, Injection dans les tissus mous","34","LIQUID","Liquide",29152
+40001,"solution for injection","10-22","INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire, Intramusculaire","34","LIQUID","Liquide",29153
+40019,"suspension for injection","10-22","INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire, Intramusculaire","79","SUSPENSION","Suspension",29154
+40015,"emulsion for injection","10-22","INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire, Intramusculaire","19","EMULSION","Émulsion",29155
+40016,"powder for suspension for injection","10-22","INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire, Intramusculaire","55","POWDER","Poudre",29156
+40017,"powder for solution for injection","10-22","INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire, Intramusculaire","56","POWDER FOR SOLUTION","Poudre pour solution",29157
+40016,"powder for suspension for injection","10-22","INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire, Intramusculaire","126","POWDER FOR SUSPENSION","Poudre pour suspension",29158
+40018,"powder for prolonged-release suspension for injection","10-22","INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire, Intramusculaire","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29159
+40001,"solution for injection","10-22","INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire, Intramusculaire","134","SOLUTION","Solution",29160
+40020,"prolonged-release suspension for injection","10-22","INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire, Intramusculaire","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29161
+40019,"suspension for injection","10-22-42-63","INTRA-ARTICULAR, INTRAMUSCULAR, INTRASYNOVIAL, SOFT TISSUE INJECTION","Intra-articulaire, Intramusculaire, Intrasynoviale, Injection dans les tissus mous","79","SUSPENSION","Suspension",29162
+40015,"emulsion for injection","10-22-42-63","INTRA-ARTICULAR, INTRAMUSCULAR, INTRASYNOVIAL, SOFT TISSUE INJECTION","Intra-articulaire, Intramusculaire, Intrasynoviale, Injection dans les tissus mous","19","EMULSION","Émulsion",29163
+40001,"solution for injection","10-22-42-63","INTRA-ARTICULAR, INTRAMUSCULAR, INTRASYNOVIAL, SOFT TISSUE INJECTION","Intra-articulaire, Intramusculaire, Intrasynoviale, Injection dans les tissus mous","34","LIQUID","Liquide",29164
+40016,"powder for suspension for injection","10-22-42-63","INTRA-ARTICULAR, INTRAMUSCULAR, INTRASYNOVIAL, SOFT TISSUE INJECTION","Intra-articulaire, Intramusculaire, Intrasynoviale, Injection dans les tissus mous","55","POWDER","Poudre",29165
+40017,"powder for solution for injection","10-22-42-63","INTRA-ARTICULAR, INTRAMUSCULAR, INTRASYNOVIAL, SOFT TISSUE INJECTION","Intra-articulaire, Intramusculaire, Intrasynoviale, Injection dans les tissus mous","56","POWDER FOR SOLUTION","Poudre pour solution",29166
+40016,"powder for suspension for injection","10-22-42-63","INTRA-ARTICULAR, INTRAMUSCULAR, INTRASYNOVIAL, SOFT TISSUE INJECTION","Intra-articulaire, Intramusculaire, Intrasynoviale, Injection dans les tissus mous","126","POWDER FOR SUSPENSION","Poudre pour suspension",29167
+40018,"powder for prolonged-release suspension for injection","10-22-42-63","INTRA-ARTICULAR, INTRAMUSCULAR, INTRASYNOVIAL, SOFT TISSUE INJECTION","Intra-articulaire, Intramusculaire, Intrasynoviale, Injection dans les tissus mous","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29168
+40001,"solution for injection","10-22-42-63","INTRA-ARTICULAR, INTRAMUSCULAR, INTRASYNOVIAL, SOFT TISSUE INJECTION","Intra-articulaire, Intramusculaire, Intrasynoviale, Injection dans les tissus mous","134","SOLUTION","Solution",29169
+40020,"prolonged-release suspension for injection","10-22-42-63","INTRA-ARTICULAR, INTRAMUSCULAR, INTRASYNOVIAL, SOFT TISSUE INJECTION","Intra-articulaire, Intramusculaire, Intrasynoviale, Injection dans les tissus mous","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29170
+40001,"solution for injection","10-22-49","INTRA-ARTICULAR, INTRAMUSCULAR, INTRAVENOUS","Intra-articulaire, Intramusculaire, Intraveineuse","34","LIQUID","Liquide",29171
+40001,"solution for injection","10-22-49","INTRA-ARTICULAR, INTRAMUSCULAR, INTRAVENOUS","Intra-articulaire, Intramusculaire, Intraveineuse","134","SOLUTION","Solution",29172
+40015,"emulsion for injection","10-22-49","INTRA-ARTICULAR, INTRAMUSCULAR, INTRAVENOUS","Intra-articulaire, Intramusculaire, Intraveineuse","19","EMULSION","Émulsion",29173
+40016,"powder for suspension for injection","10-22-49","INTRA-ARTICULAR, INTRAMUSCULAR, INTRAVENOUS","Intra-articulaire, Intramusculaire, Intraveineuse","55","POWDER","Poudre",29174
+40017,"powder for solution for injection","10-22-49","INTRA-ARTICULAR, INTRAMUSCULAR, INTRAVENOUS","Intra-articulaire, Intramusculaire, Intraveineuse","56","POWDER FOR SOLUTION","Poudre pour solution",29175
+40016,"powder for suspension for injection","10-22-49","INTRA-ARTICULAR, INTRAMUSCULAR, INTRAVENOUS","Intra-articulaire, Intramusculaire, Intraveineuse","126","POWDER FOR SUSPENSION","Poudre pour suspension",29176
+40018,"powder for prolonged-release suspension for injection","10-22-49","INTRA-ARTICULAR, INTRAMUSCULAR, INTRAVENOUS","Intra-articulaire, Intramusculaire, Intraveineuse","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29177
+40019,"suspension for injection","10-22-49","INTRA-ARTICULAR, INTRAMUSCULAR, INTRAVENOUS","Intra-articulaire, Intramusculaire, Intraveineuse","79","SUSPENSION","Suspension",29178
+40020,"prolonged-release suspension for injection","10-22-49","INTRA-ARTICULAR, INTRAMUSCULAR, INTRAVENOUS","Intra-articulaire, Intramusculaire, Intraveineuse","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29179
+40001,"solution for injection","10-13-22","INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR",NA,"34","LIQUID","Liquide",29180
+40001,"solution for injection","13","INTRABURSAL",NA,"134","SOLUTION","Solution",29181
+40019,"suspension for injection","13","INTRABURSAL",NA,"79","SUSPENSION","Suspension",29182
+40001,"solution for injection","14","INTRACARDIAC",NA,"134","SOLUTION","Solution",29183
+40001,"solution for injection","14-22-45-49-65","INTRACARDIAC, INTRAMUSCULAR, INTRATRACHEAL, INTRAVENOUS, SUBCUTANEOUS","Intracardiaque, Intramusculaire, Intratrachéale, Intraveineuse, Sous-cutanée","134","SOLUTION","Solution",29184
+40015,"emulsion for injection","14-22-45-49-65","INTRACARDIAC, INTRAMUSCULAR, INTRATRACHEAL, INTRAVENOUS, SUBCUTANEOUS","Intracardiaque, Intramusculaire, Intratrachéale, Intraveineuse, Sous-cutanée","19","EMULSION","Émulsion",29185
+40001,"solution for injection","14-22-45-49-65","INTRACARDIAC, INTRAMUSCULAR, INTRATRACHEAL, INTRAVENOUS, SUBCUTANEOUS","Intracardiaque, Intramusculaire, Intratrachéale, Intraveineuse, Sous-cutanée","34","LIQUID","Liquide",29186
+40016,"powder for suspension for injection","14-22-45-49-65","INTRACARDIAC, INTRAMUSCULAR, INTRATRACHEAL, INTRAVENOUS, SUBCUTANEOUS","Intracardiaque, Intramusculaire, Intratrachéale, Intraveineuse, Sous-cutanée","55","POWDER","Poudre",29187
+40017,"powder for solution for injection","14-22-45-49-65","INTRACARDIAC, INTRAMUSCULAR, INTRATRACHEAL, INTRAVENOUS, SUBCUTANEOUS","Intracardiaque, Intramusculaire, Intratrachéale, Intraveineuse, Sous-cutanée","56","POWDER FOR SOLUTION","Poudre pour solution",29188
+40016,"powder for suspension for injection","14-22-45-49-65","INTRACARDIAC, INTRAMUSCULAR, INTRATRACHEAL, INTRAVENOUS, SUBCUTANEOUS","Intracardiaque, Intramusculaire, Intratrachéale, Intraveineuse, Sous-cutanée","126","POWDER FOR SUSPENSION","Poudre pour suspension",29189
+40018,"powder for prolonged-release suspension for injection","14-22-45-49-65","INTRACARDIAC, INTRAMUSCULAR, INTRATRACHEAL, INTRAVENOUS, SUBCUTANEOUS","Intracardiaque, Intramusculaire, Intratrachéale, Intraveineuse, Sous-cutanée","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29190
+40019,"suspension for injection","14-22-45-49-65","INTRACARDIAC, INTRAMUSCULAR, INTRATRACHEAL, INTRAVENOUS, SUBCUTANEOUS","Intracardiaque, Intramusculaire, Intratrachéale, Intraveineuse, Sous-cutanée","79","SUSPENSION","Suspension",29191
+40020,"prolonged-release suspension for injection","14-22-45-49-65","INTRACARDIAC, INTRAMUSCULAR, INTRATRACHEAL, INTRAVENOUS, SUBCUTANEOUS","Intracardiaque, Intramusculaire, Intratrachéale, Intraveineuse, Sous-cutanée","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29192
+40001,"solution for injection","14-49","INTRACARDIAC, INTRAVENOUS","Intracardiaque, Intraveineuse","134","SOLUTION","Solution",29193
+40001,"solution for injection","4","INTRACAUDAL",NA,"134","SOLUTION","Solution",29194
+40001,"solution for injection","84","INTRACAVERNOSAL","Intracaverneuse","34","LIQUID","Liquide",29195
+40017,"powder for solution for injection","84","INTRACAVERNOSAL","Intracaverneuse","56","POWDER FOR SOLUTION","Poudre pour solution",29196
+40001,"solution for injection","17","INTRACAVITARY",NA,"34","LIQUID","Liquide",29197
+40017,"powder for solution for injection","17","INTRACAVITARY",NA,"56","POWDER FOR SOLUTION","Poudre pour solution",29198
+40033,"endocervical gel","95","INTRACERVICAL","Intracervicale","114","GEL","Gel",29199
+40001,"solution for injection","16","INTRACRANIAL","Intracrâniale","134","SOLUTION","Solution",29200
+40001,"solution for injection","18","INTRACUTANEOUS",NA,"34","LIQUID","Liquide",29201
+40001,"solution for injection","18","INTRACUTANEOUS",NA,"134","SOLUTION","Solution",29202
+40001,"solution for injection","18-65","INTRACUTANEOUS, SUBCUTANEOUS","Intracutanée, Sous-cutanée","34","LIQUID","Liquide",29203
+40001,"solution for injection","18-65","INTRACUTANEOUS, SUBCUTANEOUS","Intracutanée, Sous-cutanée","134","SOLUTION","Solution",29204
+40001,"solution for injection","19","INTRADERMAL","Intradermique","34","LIQUID","Liquide",29205
+40017,"powder for solution for injection","19","INTRADERMAL","Intradermique","56","POWDER FOR SOLUTION","Poudre pour solution",29206
+40001,"solution for injection","19","INTRADERMAL","Intradermique","134","SOLUTION","Solution",29207
+40019,"suspension for injection","19","INTRADERMAL","Intradermique","79","SUSPENSION","Suspension",29208
+40001,"solution for injection","19-85-65","INTRADERMAL, PERCUTANEOUS, SUBCUTANEOUS","Intradermique, Percutanée, Sous-cutanée","34","LIQUID","Liquide",29209
+40001,"solution for injection","19-85-65","INTRADERMAL, PERCUTANEOUS, SUBCUTANEOUS","Intradermique, Percutanée, Sous-cutanée","134","SOLUTION","Solution",29210
+40017,"powder for solution for injection","19-85-65","INTRADERMAL, PERCUTANEOUS, SUBCUTANEOUS","Intradermique, Percutanée, Sous-cutanée","56","POWDER FOR SOLUTION","Poudre pour solution",29211
+40019,"suspension for injection","19-85-65","INTRADERMAL, PERCUTANEOUS, SUBCUTANEOUS","Intradermique, Percutanée, Sous-cutanée","79","SUSPENSION","Suspension",29212
+40001,"solution for injection","19-65","INTRADERMAL, SUBCUTANEOUS","Intradermique, Sous-cutanée","34","LIQUID","Liquide",29213
+40017,"powder for solution for injection","19-65","INTRADERMAL, SUBCUTANEOUS","Intradermique, Sous-cutanée","56","POWDER FOR SOLUTION","Poudre pour solution",29214
+40001,"solution for injection","19-65","INTRADERMAL, SUBCUTANEOUS","Intradermique, Sous-cutanée","134","SOLUTION","Solution",29215
+40019,"suspension for injection","19-65","INTRADERMAL, SUBCUTANEOUS","Intradermique, Sous-cutanée","79","SUSPENSION","Suspension",29216
+40001,"solution for injection","19-70","INTRADERMAL, TOPICAL","Intradermique, Topique","34","LIQUID","Liquide",29217
+40001,"solution for injection","82","INTRAGANGLIONAL","Intraganglionnaire","134","SOLUTION","Solution",29218
+40034,"intestinal gel","100","INTRAINTESTINAL (UPPER)","Intraintestinale (supérieur)","114","GEL","Gel",29219
+40017,"powder for solution for injection","21","INTRALESIONAL","Intralésionnelle","56","POWDER FOR SOLUTION","Poudre pour solution",29220
+40019,"suspension for injection","21","INTRALESIONAL","Intralésionnelle","79","SUSPENSION","Suspension",29221
+40001,"solution for injection","21","INTRALESIONAL","Intralésionnelle","34","LIQUID","Liquide",29222
+40015,"emulsion for injection","22","INTRAMUSCULAR","Intramusculaire","19","EMULSION","Émulsion",29223
+40001,"solution for injection","22","INTRAMUSCULAR","Intramusculaire","34","LIQUID","Liquide",29224
+40016,"powder for suspension for injection","22","INTRAMUSCULAR","Intramusculaire","55","POWDER","Poudre",29225
+40017,"powder for solution for injection","22","INTRAMUSCULAR","Intramusculaire","56","POWDER FOR SOLUTION","Poudre pour solution",29226
+40016,"powder for suspension for injection","22","INTRAMUSCULAR","Intramusculaire","126","POWDER FOR SUSPENSION","Poudre pour suspension",29227
+40018,"powder for prolonged-release suspension for injection","22","INTRAMUSCULAR","Intramusculaire","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29228
+40001,"solution for injection","22","INTRAMUSCULAR","Intramusculaire","134","SOLUTION","Solution",29229
+40019,"suspension for injection","22","INTRAMUSCULAR","Intramusculaire","79","SUSPENSION","Suspension",29230
+40020,"prolonged-release suspension for injection","22","INTRAMUSCULAR","Intramusculaire","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29232
+40006,"kit","22","INTRAMUSCULAR","Intramusculaire","32","KIT","Trousse",29233
+40001,"solution for injection","22-33-49-65","INTRAMUSCULAR, INTRAPERITONEAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapéritonéale, Intraveineuse, Sous-cutanée","34","LIQUID","Liquide",29234
+40017,"powder for solution for injection","22-33-49-65","INTRAMUSCULAR, INTRAPERITONEAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapéritonéale, Intraveineuse, Sous-cutanée","56","POWDER FOR SOLUTION","Poudre pour solution",29235
+40001,"solution for injection","22-33-49-65","INTRAMUSCULAR, INTRAPERITONEAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapéritonéale, Intraveineuse, Sous-cutanée","134","SOLUTION","Solution",29236
+40015,"emulsion for injection","22-33-49-65","INTRAMUSCULAR, INTRAPERITONEAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapéritonéale, Intraveineuse, Sous-cutanée","19","EMULSION","Émulsion",29237
+40016,"powder for suspension for injection","22-33-49-65","INTRAMUSCULAR, INTRAPERITONEAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapéritonéale, Intraveineuse, Sous-cutanée","55","POWDER","Poudre",29238
+40016,"powder for suspension for injection","22-33-49-65","INTRAMUSCULAR, INTRAPERITONEAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapéritonéale, Intraveineuse, Sous-cutanée","126","POWDER FOR SUSPENSION","Poudre pour suspension",29239
+40018,"powder for prolonged-release suspension for injection","22-33-49-65","INTRAMUSCULAR, INTRAPERITONEAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapéritonéale, Intraveineuse, Sous-cutanée","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29240
+40019,"suspension for injection","22-33-49-65","INTRAMUSCULAR, INTRAPERITONEAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapéritonéale, Intraveineuse, Sous-cutanée","79","SUSPENSION","Suspension",29241
+40020,"prolonged-release suspension for injection","22-33-49-65","INTRAMUSCULAR, INTRAPERITONEAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapéritonéale, Intraveineuse, Sous-cutanée","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29242
+40017,"powder for solution for injection","22-34-49-65","INTRAMUSCULAR, INTRAPLEURAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapleurale, Intraveineuse, Sous-cutanée","56","POWDER FOR SOLUTION","Poudre pour solution",29243
+40015,"emulsion for injection","22-34-49-65","INTRAMUSCULAR, INTRAPLEURAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapleurale, Intraveineuse, Sous-cutanée","19","EMULSION","Émulsion",29244
+40001,"solution for injection","22-34-49-65","INTRAMUSCULAR, INTRAPLEURAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapleurale, Intraveineuse, Sous-cutanée","34","LIQUID","Liquide",29245
+40016,"powder for suspension for injection","22-34-49-65","INTRAMUSCULAR, INTRAPLEURAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapleurale, Intraveineuse, Sous-cutanée","55","POWDER","Poudre",29246
+40016,"powder for suspension for injection","22-34-49-65","INTRAMUSCULAR, INTRAPLEURAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapleurale, Intraveineuse, Sous-cutanée","126","POWDER FOR SUSPENSION","Poudre pour suspension",29247
+40018,"powder for prolonged-release suspension for injection","22-34-49-65","INTRAMUSCULAR, INTRAPLEURAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapleurale, Intraveineuse, Sous-cutanée","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29248
+40001,"solution for injection","22-34-49-65","INTRAMUSCULAR, INTRAPLEURAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapleurale, Intraveineuse, Sous-cutanée","134","SOLUTION","Solution",29249
+40019,"suspension for injection","22-34-49-65","INTRAMUSCULAR, INTRAPLEURAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapleurale, Intraveineuse, Sous-cutanée","79","SUSPENSION","Suspension",29250
+40020,"prolonged-release suspension for injection","22-34-49-65","INTRAMUSCULAR, INTRAPLEURAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapleurale, Intraveineuse, Sous-cutanée","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29251
+40001,"solution for injection","22-42-49","INTRAMUSCULAR, INTRASYNOVIAL, INTRAVENOUS","Intramusculaire, Intrasynoviale, Intraveineuse","34","LIQUID","Liquide",29252
+40001,"solution for injection","22-42-49","INTRAMUSCULAR, INTRASYNOVIAL, INTRAVENOUS","Intramusculaire, Intrasynoviale, Intraveineuse","134","SOLUTION","Solution",29253
+40015,"emulsion for injection","22-42-49","INTRAMUSCULAR, INTRASYNOVIAL, INTRAVENOUS","Intramusculaire, Intrasynoviale, Intraveineuse","19","EMULSION","Émulsion",29254
+40016,"powder for suspension for injection","22-42-49","INTRAMUSCULAR, INTRASYNOVIAL, INTRAVENOUS","Intramusculaire, Intrasynoviale, Intraveineuse","55","POWDER","Poudre",29255
+40017,"powder for solution for injection","22-42-49","INTRAMUSCULAR, INTRASYNOVIAL, INTRAVENOUS","Intramusculaire, Intrasynoviale, Intraveineuse","56","POWDER FOR SOLUTION","Poudre pour solution",29256
+40016,"powder for suspension for injection","22-42-49","INTRAMUSCULAR, INTRASYNOVIAL, INTRAVENOUS","Intramusculaire, Intrasynoviale, Intraveineuse","126","POWDER FOR SUSPENSION","Poudre pour suspension",29257
+40018,"powder for prolonged-release suspension for injection","22-42-49","INTRAMUSCULAR, INTRASYNOVIAL, INTRAVENOUS","Intramusculaire, Intrasynoviale, Intraveineuse","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29258
+40019,"suspension for injection","22-42-49","INTRAMUSCULAR, INTRASYNOVIAL, INTRAVENOUS","Intramusculaire, Intrasynoviale, Intraveineuse","79","SUSPENSION","Suspension",29259
+40020,"prolonged-release suspension for injection","22-42-49","INTRAMUSCULAR, INTRASYNOVIAL, INTRAVENOUS","Intramusculaire, Intrasynoviale, Intraveineuse","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29260
+40015,"emulsion for injection","22-49","INTRAMUSCULAR, INTRAVENOUS","Intramusculaire, Intraveineuse","19","EMULSION","Émulsion",29261
+40001,"solution for injection","22-49","INTRAMUSCULAR, INTRAVENOUS","Intramusculaire, Intraveineuse","34","LIQUID","Liquide",29262
+40016,"powder for suspension for injection","22-49","INTRAMUSCULAR, INTRAVENOUS","Intramusculaire, Intraveineuse","55","POWDER","Poudre",29263
+40017,"powder for solution for injection","22-49","INTRAMUSCULAR, INTRAVENOUS","Intramusculaire, Intraveineuse","56","POWDER FOR SOLUTION","Poudre pour solution",29264
+40001,"solution for injection","22-49","INTRAMUSCULAR, INTRAVENOUS","Intramusculaire, Intraveineuse","134","SOLUTION","Solution",29265
+40016,"powder for suspension for injection","22-49","INTRAMUSCULAR, INTRAVENOUS","Intramusculaire, Intraveineuse","126","POWDER FOR SUSPENSION","Poudre pour suspension",29266
+40018,"powder for prolonged-release suspension for injection","22-49","INTRAMUSCULAR, INTRAVENOUS","Intramusculaire, Intraveineuse","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29267
+40019,"suspension for injection","22-49","INTRAMUSCULAR, INTRAVENOUS","Intramusculaire, Intraveineuse","79","SUSPENSION","Suspension",29268
+40020,"prolonged-release suspension for injection","22-49","INTRAMUSCULAR, INTRAVENOUS","Intramusculaire, Intraveineuse","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29269
+40015,"emulsion for injection","22-49-65","INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intraveineuse, Sous-cutanée","19","EMULSION","Émulsion",29270
+40001,"solution for injection","22-49-65","INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intraveineuse, Sous-cutanée","34","LIQUID","Liquide",29271
+40017,"powder for solution for injection","22-49-65","INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intraveineuse, Sous-cutanée","56","POWDER FOR SOLUTION","Poudre pour solution",29272
+40001,"solution for injection","22-49-65","INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intraveineuse, Sous-cutanée","134","SOLUTION","Solution",29273
+40016,"powder for suspension for injection","22-49-65","INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intraveineuse, Sous-cutanée","55","POWDER","Poudre",29274
+40016,"powder for suspension for injection","22-49-65","INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intraveineuse, Sous-cutanée","126","POWDER FOR SUSPENSION","Poudre pour suspension",29275
+40018,"powder for prolonged-release suspension for injection","22-49-65","INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intraveineuse, Sous-cutanée","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29276
+40019,"suspension for injection","22-49-65","INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intraveineuse, Sous-cutanée","79","SUSPENSION","Suspension",29277
+40020,"prolonged-release suspension for injection","22-49-65","INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intraveineuse, Sous-cutanée","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29278
+40015,"emulsion for injection","22-65","INTRAMUSCULAR, SUBCUTANEOUS","Intramusculaire, Sous-cutanée","19","EMULSION","Émulsion",29279
+40001,"solution for injection","22-65","INTRAMUSCULAR, SUBCUTANEOUS","Intramusculaire, Sous-cutanée","34","LIQUID","Liquide",29280
+40017,"powder for solution for injection","22-65","INTRAMUSCULAR, SUBCUTANEOUS","Intramusculaire, Sous-cutanée","56","POWDER FOR SOLUTION","Poudre pour solution",29281
+40016,"powder for suspension for injection","22-65","INTRAMUSCULAR, SUBCUTANEOUS","Intramusculaire, Sous-cutanée","126","POWDER FOR SUSPENSION","Poudre pour suspension",29282
+40001,"solution for injection","22-65","INTRAMUSCULAR, SUBCUTANEOUS","Intramusculaire, Sous-cutanée","134","SOLUTION","Solution",29283
+40019,"suspension for injection","22-65","INTRAMUSCULAR, SUBCUTANEOUS","Intramusculaire, Sous-cutanée","79","SUSPENSION","Suspension",29284
+40016,"powder for suspension for injection","22-65","INTRAMUSCULAR, SUBCUTANEOUS","Intramusculaire, Sous-cutanée","55","POWDER","Poudre",29285
+40018,"powder for prolonged-release suspension for injection","22-65","INTRAMUSCULAR, SUBCUTANEOUS","Intramusculaire, Sous-cutanée","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29286
+40020,"prolonged-release suspension for injection","22-65","INTRAMUSCULAR, SUBCUTANEOUS","Intramusculaire, Sous-cutanée","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29287
+40017,"powder for solution for injection","22-70","INTRAMUSCULAR, TOPICAL","Intramusculaire, Topique","56","POWDER FOR SOLUTION","Poudre pour solution",29288
+40001,"solution for injection","32","INTRAOCULAR","Intraoculaire","12","DROPS","Gouttes",29289
+40001,"solution for injection","32","INTRAOCULAR","Intraoculaire","134","SOLUTION","Solution",29290
+40035,"irrigation solution","33","INTRAPERITONEAL","Intrapéritonéale","34","LIQUID","Liquide",29291
+40036,"solution for peritoneal dialysis","33","INTRAPERITONEAL","Intrapéritonéale","134","SOLUTION","Solution",29292
+40017,"powder for solution for injection","33","INTRAPERITONEAL","Intrapéritonéale","56","POWDER FOR SOLUTION","Poudre pour solution",29293
+40001,"solution for injection","33-36","INTRAPERITONEAL, IRRIGATION","Intrapéritonéale, Irrigation","34","LIQUID","Liquide",29294
+40001,"solution for injection","33-36","INTRAPERITONEAL, IRRIGATION","Intrapéritonéale, Irrigation","134","SOLUTION","Solution",29295
+40017,"powder for solution for injection","34","INTRAPLEURAL",NA,"56","POWDER FOR SOLUTION","Poudre pour solution",29296
+40017,"powder for solution for injection","40","INTRASPINAL","Intrarachidienne","56","POWDER FOR SOLUTION","Poudre pour solution",29297
+40001,"solution for injection","40","INTRASPINAL","Intrarachidienne","134","SOLUTION","Solution",29298
+40001,"solution for injection","42","INTRASYNOVIAL",NA,"34","LIQUID","Liquide",29299
+40001,"solution for injection","42","INTRASYNOVIAL",NA,"134","SOLUTION","Solution",29300
+40019,"suspension for injection","42","INTRASYNOVIAL",NA,"79","SUSPENSION","Suspension",29301
+40001,"solution for injection","31","INTRATHECAL","Intrathécale","134","SOLUTION","Solution",29302
+40019,"suspension for injection","31","INTRATHECAL","Intrathécale","79","SUSPENSION","Suspension",29303
+40017,"powder for solution for injection","31","INTRATHECAL","Intrathécale","56","POWDER FOR SOLUTION","Poudre pour solution",29304
+40017,"powder for solution for injection","31-49-65","INTRATHECAL, INTRAVENOUS, SUBCUTANEOUS","Intrathécale, Intraveineuse, Sous-cutanée","56","POWDER FOR SOLUTION","Poudre pour solution",29305
+40001,"solution for injection","31-49-65","INTRATHECAL, INTRAVENOUS, SUBCUTANEOUS","Intrathécale, Intraveineuse, Sous-cutanée","134","SOLUTION","Solution",29306
+40015,"emulsion for injection","31-49-65","INTRATHECAL, INTRAVENOUS, SUBCUTANEOUS","Intrathécale, Intraveineuse, Sous-cutanée","19","EMULSION","Émulsion",29307
+40001,"solution for injection","31-49-65","INTRATHECAL, INTRAVENOUS, SUBCUTANEOUS","Intrathécale, Intraveineuse, Sous-cutanée","34","LIQUID","Liquide",29308
+40016,"powder for suspension for injection","31-49-65","INTRATHECAL, INTRAVENOUS, SUBCUTANEOUS","Intrathécale, Intraveineuse, Sous-cutanée","55","POWDER","Poudre",29309
+40016,"powder for suspension for injection","31-49-65","INTRATHECAL, INTRAVENOUS, SUBCUTANEOUS","Intrathécale, Intraveineuse, Sous-cutanée","126","POWDER FOR SUSPENSION","Poudre pour suspension",29310
+40018,"powder for prolonged-release suspension for injection","31-49-65","INTRATHECAL, INTRAVENOUS, SUBCUTANEOUS","Intrathécale, Intraveineuse, Sous-cutanée","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29311
+40019,"suspension for injection","31-49-65","INTRATHECAL, INTRAVENOUS, SUBCUTANEOUS","Intrathécale, Intraveineuse, Sous-cutanée","79","SUSPENSION","Suspension",29312
+40086,"otic drops","57","OTIC","Otique","12","DROPS","Gouttes",29436
+40020,"prolonged-release suspension for injection","31-49-65","INTRATHECAL, INTRAVENOUS, SUBCUTANEOUS","Intrathécale, Intraveineuse, Sous-cutanée","143","SUSPENSION (EXTENDED-RELEASE)","Suspension (à libération prolongée)",29313
+40037,"endotracheopulmonary instillation","45","INTRATRACHEAL","Intratrachéale","79","SUSPENSION","Suspension",29314
+40037,"endotracheopulmonary instillation","45","INTRATRACHEAL","Intratrachéale","134","SOLUTION","Solution",29315
+40038,"intrauterine delivery system","48","INTRAUTERINE","Intra-utérine","130","INSERT (EXTENDED-RELEASE)","Insert (À libération prolongée)",29316
+40001,"solution for injection","48","INTRAUTERINE","Intra-utérine","34","LIQUID","Liquide",29317
+40001,"solution for injection","97","INTRAVASCULAR","Intravasculaire","34","LIQUID","Liquide",29318
+40001,"solution for injection","97","INTRAVASCULAR","Intravasculaire","134","SOLUTION","Solution",29319
+40001,"solution for injection","97-64","INTRAVASCULAR, SUBARACHNOIDAL","Intravasculaire, Sous-arachnoÏdienne","134","SOLUTION","Solution",29320
+40015,"emulsion for injection","49","INTRAVENOUS","Intraveineuse","19","EMULSION","Émulsion",29321
+40039,"powder for suspension for infusion","49","INTRAVENOUS","Intraveineuse","135","LIPOSOMES","Liposomes",29322
+40001,"solution for injection","49","INTRAVENOUS","Intraveineuse","34","LIQUID","Liquide",29323
+40017,"powder for solution for injection","49","INTRAVENOUS","Intraveineuse","55","POWDER","Poudre",29324
+40017,"powder for solution for injection","49","INTRAVENOUS","Intraveineuse","56","POWDER FOR SOLUTION","Poudre pour solution",29325
+40016,"powder for suspension for injection","49","INTRAVENOUS","Intraveineuse","126","POWDER FOR SUSPENSION","Poudre pour suspension",29326
+40001,"solution for injection","49","INTRAVENOUS","Intraveineuse","134","SOLUTION","Solution",29327
+40019,"suspension for injection","49","INTRAVENOUS","Intraveineuse","79","SUSPENSION","Suspension",29328
+40018,"powder for prolonged-release suspension for injection","49","INTRAVENOUS","Intraveineuse","118","POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, à libération prolongée",29329
+40017,"powder for solution for injection","49-96","INTRAVENOUS, INTRAVESICAL","Intraveineuse, Intravésicale","56","POWDER FOR SOLUTION","Poudre pour solution",29330
+40001,"solution for injection","49-96","INTRAVENOUS, INTRAVESICAL","Intraveineuse, Intravésicale","134","SOLUTION","Solution",29331
+40001,"solution for injection","49-36","INTRAVENOUS, IRRIGATION","Intraveineuse, Irrigation","134","SOLUTION","Solution",29332
+40001,"solution for injection","49-56","INTRAVENOUS, ORAL","Intraveineuse, Orale","34","LIQUID","Liquide",29333
+40001,"solution for injection","49-56","INTRAVENOUS, ORAL","Intraveineuse, Orale","134","SOLUTION","Solution",29334
+40001,"solution for injection","49-65","INTRAVENOUS, SUBCUTANEOUS","Intraveineuse, Sous-cutanée","34","LIQUID","Liquide",29335
+40017,"powder for solution for injection","49-65","INTRAVENOUS, SUBCUTANEOUS","Intraveineuse, Sous-cutanée","56","POWDER FOR SOLUTION","Poudre pour solution",29336
+40001,"solution for injection","49-65","INTRAVENOUS, SUBCUTANEOUS","Intraveineuse, Sous-cutanée","134","SOLUTION","Solution",29337
+40015,"emulsion for injection","49-65","INTRAVENOUS, SUBCUTANEOUS","Intraveineuse, Sous-cutanée","19","EMULSION","Émulsion",29338
+40017,"powder for solution for injection","49-65","INTRAVENOUS, SUBCUTANEOUS","Intraveineuse, Sous-cutanée","55","POWDER","Poudre",29339
+40016,"powder for suspension for injection","49-65","INTRAVENOUS, SUBCUTANEOUS","Intraveineuse, Sous-cutanée","126","POWDER FOR SUSPENSION","Poudre pour suspension",29340
+40019,"suspension for injection","49-65","INTRAVENOUS, SUBCUTANEOUS","Intraveineuse, Sous-cutanée","79","SUSPENSION","Suspension",29341
+40001,"solution for injection","50","INTRAVENTRICULAR",NA,"134","SOLUTION","Solution",29342
+40017,"powder for solution for injection","96","INTRAVESICAL","Intravésicale","56","POWDER FOR SOLUTION","Poudre pour solution",29343
+40040,"powder for intravesical suspension","96","INTRAVESICAL","Intravésicale","126","POWDER FOR SUSPENSION","Poudre pour suspension",29344
+40041,"intravesical solution","96","INTRAVESICAL","Intravésicale","134","SOLUTION","Solution",29345
+40042,"intravitreal implant","80","INTRAVITREAL","Intravitreuse","30","IMPLANT","Implant",29346
+40001,"solution for injection","80","INTRAVITREAL","Intravitreuse","134","SOLUTION","Solution",29347
+40019,"suspension for injection","80","INTRAVITREAL","Intravitreuse","79","SUSPENSION","Suspension",29348
+40035,"irrigation solution","36","IRRIGATION","Irrigation","34","LIQUID","Liquide",29349
+40035,"irrigation solution","36","IRRIGATION","Irrigation","134","SOLUTION","Solution",29350
+40043,"nasal drops","53","NASAL","Nasale","12","DROPS","Gouttes",29351
+40044,"nasal gel","53","NASAL","Nasale","114","GEL","Gel",29352
+40029,"nasal spray","53","NASAL","Nasale","34","LIQUID","Liquide",29353
+40029,"nasal spray","53","NASAL","Nasale","1","METERED-DOSE AEROSOL","Aérosol à dose mesurée",29354
+40029,"nasal spray","53","NASAL","Nasale","1-79","METERED-DOSE AEROSOL, SUSPENSION","Aérosol à dose mesurée, Suspension",29355
+40029,"nasal spray","53","NASAL","Nasale","117","METERED-DOSE PUMP","Pompe à dose mesurée",29356
+40045,"nasal ointment","53","NASAL","Nasale","43","OINTMENT","Pommade",29357
+40029,"nasal spray","53","NASAL","Nasale","134","SOLUTION","Solution",29358
+40029,"nasal spray","53","NASAL","Nasale","98","SPRAY","Pulvérisation",29359
+40029,"nasal spray","53","NASAL","Nasale","158","SPRAY, METERED DOSE","Pulvérisation, à dose mesurée",29360
+40029,"nasal spray","53","NASAL","Nasale","79","SUSPENSION","Suspension",29361
+40046,"nasal cream","53","NASAL","Nasale","9","CREAM","Crème",29362
+40030,"nasal powder","53","NASAL","Nasale","55","POWDER","Poudre",29363
+40047,"nasal stick","53","NASAL","Nasale","76","STICK","Bâton",29364
+40029,"nasal spray","53-56","NASAL, ORAL","Nasale, Orale","98","SPRAY","Pulvérisation",29365
+40048,"gastro-resistant capsule","108","NASOGASTRIC",NA,"137","CAPSULE (DELAYED RELEASE)","Capsule (à libération retardée)",29366
+40049,"powder for oral solution",NA,"NASOGASTRIC","108","56","POWDER FOR SOLUTION","Poudre pour solution",29367
+40048,"gastro-resistant capsule","108-56","NASOGASTRIC, ORAL","NASOGASTRIQUE, Orale","137","CAPSULE (DELAYED RELEASE)","Capsule (à libération retardée)",29368
+40049,"powder for oral solution","108-56","NASOGASTRIC, ORAL","NASOGASTRIQUE, Orale","56","POWDER FOR SOLUTION","Poudre pour solution",29369
+40050,"ophthalmic drops","55","OPHTHALMIC","Ophtalmique","12","DROPS","Gouttes",29370
+40050,"ophthalmic drops","55","OPHTHALMIC","Ophtalmique","19","EMULSION","Émulsion",29371
+40051,"ophthalmic gel","55","OPHTHALMIC","Ophtalmique","114","GEL","Gel",29372
+40052,"ophthalmic insert","55","OPHTHALMIC","Ophtalmique","116","INSERT","Insert",29373
+40050,"ophthalmic drops","55","OPHTHALMIC","Ophtalmique","34","LIQUID","Liquide",29374
+40053,"ophthalmic ointment","55","OPHTHALMIC","Ophtalmique","43","OINTMENT","Pommade",29375
+40054,"powder for ophthalmic drops","55","OPHTHALMIC","Ophtalmique","56","POWDER FOR SOLUTION","Poudre pour solution",29376
+40050,"ophthalmic drops","55","OPHTHALMIC","Ophtalmique","134","SOLUTION","Solution",29377
+40055,"prolonged-release eye drops","55","OPHTHALMIC","Ophtalmique","101","SOLUTION (LONG-ACTING)",NA,29378
+40056,"ophthalmic strip","55","OPHTHALMIC","Ophtalmique","77","STRIP","Bandelette",29379
+40050,"ophthalmic drops","55","OPHTHALMIC","Ophtalmique","79","SUSPENSION","Suspension",29380
+40057,"ophthalmic cream","55","OPHTHALMIC","Ophtalmique","9","CREAM","Crème",29381
+40058,"ophthalmic/otic drops","55-57","OPHTHALMIC, OTIC","Ophtalmique, Otique","12","DROPS","Gouttes",29382
+40059,"ophthalmic/otic ointment","55-57","OPHTHALMIC, OTIC","Ophtalmique, Otique","43","OINTMENT","Pommade",29383
+40058,"ophthalmic/otic drops","55-57","OPHTHALMIC, OTIC","Ophtalmique, Otique","134","SOLUTION","Solution",29384
+40058,"ophthalmic/otic drops","55-57","OPHTHALMIC, OTIC","Ophtalmique, Otique","79","SUSPENSION","Suspension",29385
+40050,"ophthalmic drops","55-70","OPHTHALMIC, TOPICAL","Ophtalmique, Topique","12","DROPS","Gouttes",29386
+40053,"ophthalmic ointment","55-70","OPHTHALMIC, TOPICAL","Ophtalmique, Topique","43","OINTMENT","Pommade",29387
+40060,"oral capsule","56","ORAL","Orale","5","CAPSULE","Capsule",29388
+40061,"modified-release oral capsule","56","ORAL","Orale","106","CAPSULE (CONTROLLED-DELIVERY)","Capsule (à libération contrôlée)",29389
+40048,"gastro-resistant capsule","56","ORAL","Orale","137","CAPSULE (DELAYED RELEASE)","Capsule (à libération retardée)",29390
+40048,"gastro-resistant capsule","56","ORAL","Orale","14","CAPSULE (ENTERIC-COATED)","Capsule (entérosoluble)",29391
+40062,"prolonged-release oral capsule","56","ORAL","Orale","141","CAPSULE (EXTENDED RELEASE)","Capsule (à libération prolongée)",29392
+40061,"modified-release oral capsule","56","ORAL","Orale","172","CAPSULE (IMMEDIATE AND DELAYED RELEASE)","Capsule (à libération immédiate et retardée)",29393
+40061,"modified-release oral capsule","56","ORAL","Orale","171","CAPSULE (IMMEDIATE AND EXTENDED RELEASE)","Capsule (à libération immédiate et prolongée)",29394
+40060,"oral capsule","56","ORAL","Orale","161","CAPSULE (IMMEDIATE RELEASE)","Capsule (à libération immédiate)",29395
+40062,"prolonged-release oral capsule","56","ORAL","Orale","68","CAPSULE (SUSTAINED-RELEASE)","Capsule (à libération prolongée",29396
+40063,"oral drops","56","ORAL","Orale","12","DROPS","Gouttes",29397
+40064,"oral solution","56","ORAL","Orale","18","ELIXIR","Élixir",29398
+40065,"oral emulsion","56","ORAL","Orale","19","EMULSION","Émulsion",29399
+40066,"orodispersible film","56","ORAL","Orale","167","FILM, SOLUBLE","Pellicule, soluble",29400
+40067,"oral gel","56","ORAL","Orale","114","GEL","Gel",29401
+40068,"granules for oral suspension","56","ORAL","Orale","53","GRANULES","Granules",29402
+40069,"granules for oral solution","56","ORAL","Orale","163","GRANULES FOR SOLUTION","Granules pour solution",29403
+40070,"oral suspension","56","ORAL","Orale","157","GRANULES FOR SUSPENSION","Granules pour suspension",29404
+40071,"gastro-resistant granules for oral suspension","56","ORAL","Orale","148","GRANULES FOR SUSPENSION, DELAYED RELEASE","Granules pour suspension, à libération retardée",29405
+40006,"kit","56","ORAL","Orale","32","KIT","Trousse",29406
+40072,"oral liquid","56","ORAL","Orale","34","LIQUID","Liquide",29407
+40073,"lozenge","56","ORAL","Orale","39","LOZENGE","Pastille",29408
+40021,"pressurised inhalation","56","ORAL","Orale","1","METERED-DOSE AEROSOL","Aérosol à dose mesurée",29409
+40004,"gargle/mouthwash","56","ORAL","Orale","42","MOUTHWASH/GARGLE","Rince-bouche/Gargarisme",29410
+40074,"oral powder","56","ORAL","Orale","48","PACKAGE","Paquet",29411
+40075,"oral paste","56","ORAL","Orale","52","PASTE","Pâte",29412
+40074,"oral powder","56","ORAL","Orale","55","POWDER","Poudre",29413
+40049,"powder for oral solution","56","ORAL","Orale","56","POWDER FOR SOLUTION","Poudre pour solution",29414
+40070,"oral suspension","56","ORAL","Orale","126","POWDER FOR SUSPENSION","Poudre pour suspension",29415
+40064,"oral solution","56","ORAL","Orale","134","SOLUTION","Solution",29416
+40076,"orodispersible tablet","56","ORAL","Orale","77","STRIP","Bandelette",29417
+40070,"oral suspension","56","ORAL","Orale","79","SUSPENSION","Suspension",29418
+40077,"syrup","56","ORAL","Orale","82","SYRUP","Sirop",29419
+40077,"syrup","56","ORAL","Orale","70","SYRUP (EXTENDED-RELEASE)","Sirop (à libération prolongée)",29420
+40078,"oral tablet","56","ORAL","Orale","85","TABLET","Comprimé",29421
+40079,"chewable tablet","56","ORAL","Orale","151","TABLET (CHEWABLE)","Comprimé (à mâcher)",29422
+40080,"modified-release oral tablet","56","ORAL","Orale","138","TABLET (COMBINED RELEASE)","Comprimé (à action combinée)",29423
+40080,"modified-release oral tablet","56","ORAL","Orale","159","TABLET (DELAYED AND EXTENDED RELEASE)","Comprimé (à libération retardée et prolongée)",29424
+40081,"gastro-resistant tablet","56","ORAL","Orale","109","TABLET (DELAYED-RELEASE)","Comprimé (à libération retardée)",29425
+40082,"effervescent oral tablet","56","ORAL","Orale","23","TABLET (EFFERVESCENT)","Comprimé (effervescent)",29426
+40081,"gastro-resistant tablet","56","ORAL","Orale","17","TABLET (ENTERIC-COATED)","Comprimé (entérosoluble)",29427
+40083,"prolonged-release oral tablet","56","ORAL","Orale","75","TABLET (EXTENDED-RELEASE)","Comprimé (à libération prolongée)",29428
+40084,"dispersible oral tablet","56","ORAL","Orale","156","TABLET FOR SUSPENSION","Comprimé pour suspension",29429
+40080,"modified-release oral tablet","56","ORAL","Orale","170","TABLET (IMMEDIATE AND DELAYED-RELEASE)","Comprimé (à libération immédiate et retardée)",29430
+40080,"modified-release oral tablet","56","ORAL","Orale","173","TABLET (IMMEDIATE AND EXTENDED RELEASE)","Comprimé(à libération immédiate et prolongée)",29431
+40078,"oral tablet","56","ORAL","Orale","150","TABLET (IMMEDIATE RELEASE)","Comprimé (à libération immédiate)",29432
+40076,"orodispersible tablet","56","ORAL","Orale","132","TABLET (ORALLY DISINTEGRATING)","Comprimé (à désintégration orale)",29433
+40085,"powder for oral/rectal suspension","56-62","ORAL, RECTAL","Orale, Rectale","55","POWDER","Poudre",29434
+40085,"powder for oral/rectal suspension","56-62","ORAL, RECTAL","Orale, Rectale","56","POWDER FOR SOLUTION","Poudre pour solution",29435
+40086,"otic drops","57","OTIC","Otique","34","LIQUID","Liquide",29438
+40088,"otic ointment","57","OTIC","Otique","43","OINTMENT","Pommade",29439
+40086,"otic drops","57","OTIC","Otique","134","SOLUTION","Solution",29440
+40086,"otic drops","57","OTIC","Otique","79","SUSPENSION","Suspension",29441
+40089,"otic cream","57","OTIC","Otique","9","CREAM","Crème",29442
+40090,"otic stick","57","OTIC","Otique","76","STICK","Bâton",29443
+40001,"solution for injection","59","PARENTERAL (UNSPECIFIED)","Parentérale (non spécifiée)","34","LIQUID","Liquide",29444
+40001,"solution for injection","59","PARENTERAL (UNSPECIFIED)","Parentérale (non spécifiée)","134","SOLUTION","Solution",29445
+40001,"solution for injection","85","PERCUTANEOUS",NA,"34","LIQUID","Liquide",29446
+40001,"solution for injection","85","PERCUTANEOUS","Percutanée","134","SOLUTION","Solution",29447
+40001,"solution for injection","85-65","PERCUTANEOUS, SUBCUTANEOUS","Percutanée, Sous-cutanée","134","SOLUTION","Solution",29448
+40001,"solution for injection","85-65","PERCUTANEOUS, SUBCUTANEOUS","Percutanée, Sous-cutanée","34","LIQUID","Liquide",29449
+40091,"rectal foam","62","RECTAL","Rectale","2","AEROSOL","Aérosol",29450
+40091,"rectal foam","62","RECTAL","Rectale","166","AEROSOL, FOAM","Aérosol, mousse",29451
+40092,"rectal liquid","62","RECTAL","Rectale","20","ENEMA","Lavement",29452
+40093,"rectal gel","62","RECTAL","Rectale","114","GEL","Gel",29453
+40094,"rectal solution","62","RECTAL","Rectale","34","LIQUID","Liquide",29454
+40095,"rectal ointment","62","RECTAL","Rectale","43","OINTMENT","Pommade",29455
+40096,"powder for rectal solution","62","RECTAL","Rectale","56","POWDER FOR SOLUTION","Poudre pour solution",29456
+40097,"suppository","62","RECTAL","Rectale","78","SUPPOSITORY","Suppositoire",29457
+40098,"rectal suspension","62","RECTAL","Rectale","79","SUSPENSION","Suspension",29458
+40099,"rectal cream","62","RECTAL","Rectale","9","CREAM","Crème",29459
+40006,"kit","62","RECTAL","Rectale","32","KIT","Trousse",29460
+40100,"enema","62","RECTAL","Rectale","85","TABLET","Comprimé",29461
+40093,"rectal gel","62-70","RECTAL, TOPICAL","Rectale, Topique","114","GEL","Gel",29462
+40095,"rectal ointment","62-70","RECTAL, TOPICAL","Rectale, Topique","43","OINTMENT","Pommade",29463
+40001,"solution for injection","60","RETROBULBAR",NA,"134","SOLUTION","Solution",29464
+40001,"solution for injection","63","SOFT TISSUE INJECTION",NA,"34","LIQUID","Liquide",29465
+40019,"suspension for injection","63","SOFT TISSUE INJECTION",NA,"79","SUSPENSION","Suspension",29466
+40001,"solution for injection","64","SUBARACHNOIDAL","Sous-arachnoÏdienne","134","SOLUTION","Solution",29467
+40101,"implant","65","SUBCUTANEOUS","Sous-cutanée","30","IMPLANT","Implant",29468
+40001,"solution for injection","65","SUBCUTANEOUS","Sous-cutanée","34","LIQUID","Liquide",29469
+40017,"powder for solution for injection","65","SUBCUTANEOUS","Sous-cutanée","56","POWDER FOR SOLUTION","Poudre pour solution",29470
+40016,"powder for suspension for injection","65","SUBCUTANEOUS","Sous-cutanée","126","POWDER FOR SUSPENSION","Poudre pour suspension",29471
+40001,"solution for injection","65","SUBCUTANEOUS","Sous-cutanée","134","SOLUTION","Solution",29472
+40001,"solution for injection","65","SUBCUTANEOUS","Sous-cutanée","155","SOLUTION (EXTENDED RELEASE)","Solution (à libération prolongée)",29473
+40019,"suspension for injection","65","SUBCUTANEOUS","Sous-cutanée","79","SUSPENSION","Suspension",29474
+40015,"emulsion for injection","65","SUBCUTANEOUS","Sous-cutanée","19","EMULSION","Émulsion",29475
+40102,"periodontal gel","89","SUBGINGIVAL","Sous-gingivale","123","GEL (CONTROLLED-RELEASE)","Gel (à libération prolongée)",29476
+40103,"prolonged-release periodontal powder","89","SUBGINGIVAL","Sous-gingivale","152","POWDER (EXTENDED RELEASE)","Poudre (à libération prolongée)",29477
+40102,"periodontal gel","89","SUBGINGIVAL","Sous-gingivale","114","GEL","Gel",29478
+40104,"sublingual spray","66","SUBLINGUAL","Sublinguale","1","METERED-DOSE AEROSOL","Aérosol à dose mesurée",29479
+40104,"sublingual spray","66","SUBLINGUAL","Sublinguale","117","METERED-DOSE PUMP","Pompe à dose mesurée",29480
+40105,"sublingual tablet","66","SUBLINGUAL","Sublinguale","85","TABLET","Comprimé",29481
+40076,"orodispersible tablet","66","SUBLINGUAL","Sublinguale","132","TABLET (ORALLY DISINTEGRATING)","Comprimé (à désintégration orale)",29482
+40007,"buccal tablet","66","SUBLINGUAL","Sublinguale","23","TABLET (EFFERVESCENT)","Comprimé (effervescent)",29483
+40001,"solution for injection","109","SUBMUCOSAL","Sous-muqueuse","134","SOLUTION","Solution",29484
+40106,"cutaneous spray","70","TOPICAL","Topique","2","AEROSOL","Aérosol",29485
+40107,"cutaneous foam","70","TOPICAL","Topique","166","AEROSOL, FOAM","Aérosol, mousse",29486
+40108,"cutaneous cream","70","TOPICAL","Topique","9","CREAM","Crème",29487
+40109,"dressing","70","TOPICAL","Topique","13","DRESSING","Pansement",29488
+40110,"cutaneous drops","70","TOPICAL","Topique","12","DROPS","Gouttes",29489
+40111,"cutaneous emulsion","70","TOPICAL","Topique","19","EMULSION","Émulsion",29490
+40112,"cutaneous gel","70","TOPICAL","Topique","114","GEL","Gel",29491
+40112,"cutaneous gel","70","TOPICAL","Topique","26","JELLY",NA,29492
+40006,"kit","70","TOPICAL","Topique","32","KIT","Trousse",29493
+40113,"cutaneous liquid","70","TOPICAL","Topique","34","LIQUID","Liquide",29494
+40114,"lotion","70","TOPICAL","Topique","36","LOTION","Lotion",29495
+40005,"oromucosal spray","70","TOPICAL","Topique","1","METERED-DOSE AEROSOL","Aérosol à dose mesurée",29496
+40115,"liquid","70","TOPICAL","Topique","174","OIL",NA,29497
+40115,"liquid","70","TOPICAL","Topique","174","OIL","Huile",29498
+40116,"cutaneous ointment","70","TOPICAL","Topique","43","OINTMENT","Pommade",29499
+40117,"pad","70","TOPICAL","Topique","45","PAD","Compresse",29500
+40118,"cutaneous paste","70","TOPICAL","Topique","52","PASTE","Pâte",29501
+40119,"cutaneous patch","70","TOPICAL","Topique","145","PATCH","Timbre",29502
+40120,"plaster","70","TOPICAL","Topique","50","PLASTER","Emplâtre",29503
+40121,"cutaneous powder","70","TOPICAL","Topique","55","POWDER","Poudre",29504
+40122,"powder for cutaneous solution","70","TOPICAL","Topique","56","POWDER FOR SOLUTION","Poudre pour solution",29505
+40123,"shampoo","70","TOPICAL","Topique","59","SHAMPOO","Shampoing",29506
+40124,"cutaneous solution","70","TOPICAL","Topique","134","SOLUTION","Solution",29507
+40106,"cutaneous spray","70","TOPICAL","Topique","98","SPRAY","Pulvérisation",29508
+40125,"spray (bag-on-valve)","70","TOPICAL","Topique","164","SPRAY, BAG-ON-VALVE","Pulvérisation, sac-sur-valve",29509
+40106,"cutaneous spray","70","TOPICAL","Topique","158","SPRAY, METERED DOSE","Pulvérisation, à dose mesurée",29510
+40126,"cutaneous stick","70","TOPICAL","Topique","76","STICK","Bâton",29511
+40127,"cutaneous suspension","70","TOPICAL","Topique","79","SUSPENSION","Suspension",29512
+40128,"swab","70","TOPICAL","Topique","129","SWAB","Coton-tige",29513
+40129,"wipe","70","TOPICAL","Topique","105","WIPE","Serviette",29514
+40124,"cutaneous solution","105","TOPICAL (COMMERCIAL)","Topique (Milieu commercial)","34","LIQUID","Liquide",29515
+40124,"cutaneous solution","105","TOPICAL (COMMERCIAL)","Topique (Milieu commercial)","134","SOLUTION","Solution",29516
+40106,"cutaneous spray","105","TOPICAL (COMMERCIAL)","Topique (Milieu commercial)","98","SPRAY","Pulvérisation",29517
+40114,"lotion","107","TOPICAL (HOSPITAL/HC FACILITIES)","Topique (Hôpitaux, établissements de soins de santé)","36","LOTION","Lotion",29518
+40124,"cutaneous solution","107","TOPICAL (HOSPITAL/HC FACILITIES)","Topique (Hôpitaux, établissements de soins de santé)","134","SOLUTION","Solution",29519
+40130,"medicated sponge","107","TOPICAL (HOSPITAL/HC FACILITIES)","Topique (Hôpitaux, établissements de soins de santé)","63","SPONGE","Éponge",29520
+40128,"swab","107","TOPICAL (HOSPITAL/HC FACILITIES)","Topique (Hôpitaux, établissements de soins de santé)","129","SWAB","Coton-tige",29521
+40129,"wipe","107","TOPICAL (HOSPITAL/HC FACILITIES)","Topique (Hôpitaux, établissements de soins de santé)","105","WIPE","Serviette",29522
+40112,"cutaneous gel","104","TOPICAL (HOUSEHOLD)","Topique (Maison)","114","GEL","Gel",29523
+40124,"cutaneous solution","104","TOPICAL (HOUSEHOLD)","Topique (Maison)","34","LIQUID","Liquide",29524
+40114,"lotion","104","TOPICAL (HOUSEHOLD)","Topique (Maison)","36","LOTION","Lotion",29525
+40124,"cutaneous solution","104","TOPICAL (HOUSEHOLD)","Topique (Maison)","134","SOLUTION","Solution",29526
+40106,"cutaneous spray","104","TOPICAL (HOUSEHOLD)","Topique (Maison)","98","SPRAY","Pulvérisation",29527
+40129,"wipe","104","TOPICAL (HOUSEHOLD)","Topique (Maison)","105","WIPE","Serviette",29528
+40131,"vaginal cream","70-74","TOPICAL, VAGINAL","Topique, Vaginale","9","CREAM","Crème",29529
+40132,"transdermal gel","71","TRANSDERMAL","Transdermique","114","GEL","Gel",29530
+40133,"transdermal patch","71","TRANSDERMAL","Transdermique","145","PATCH","Timbre",29531
+40133,"transdermal patch","71","TRANSDERMAL","Transdermique","160","PATCH (EXTENDED RELEASE)","Timbre (à libération prolongée)",29532
+40041,"intravesical solution","72","URETHRAL","Urétrale","134","SOLUTION","Solution",29533
+40134,"urethral stick","72","URETHRAL","Urétrale","78","SUPPOSITORY","Suppositoire",29534
+40135,"urethral gel","72","URETHRAL","Urétrale","114","GEL","Gel",29535
+40135,"urethral gel","72","URETHRAL","Urétrale","26","JELLY",NA,29536
+40131,"vaginal cream","74","VAGINAL","Vaginale","9","CREAM","Crème",29537
+40136,"vaginal gel","74","VAGINAL","Vaginale","114","GEL","Gel",29538
+40137,"vaginal delivery system","74","VAGINAL","Vaginale","116","INSERT","Insert",29539
+40138,"vaginal ointment","74","VAGINAL","Vaginale","43","OINTMENT","Pommade",29540
+40139,"pessary","74","VAGINAL","Vaginale","115","OVULE","Ovule",29541
+40140,"ring (slow release)","74","VAGINAL","Vaginale","104","RING (SLOW-RELEASE)","Anneau (à libération lente)",29542
+40139,"pessary","74","VAGINAL","Vaginale","78","SUPPOSITORY","Suppositoire",29543
+40141,"vaginal tablet","74","VAGINAL","Vaginale","154","VAGINAL TABLET","Comprimé vaginal",29544
+40142,"effervescent vaginal tablet","74","VAGINAL","Vaginale","165","VAGINAL TABLET, EFFERVESCENT","Comprimé vaginal, effervescent",29545

@@ -1,0 +1,245 @@
+DPD PHARM_FORM_CODE,DPD PHARMACEUTICAL_FORM,Action:,,NTP Formal Name Dose form
+1,METERED-DOSE AEROSOL,Simple transform to:,,pressurised inhalation
+2,AEROSOL,Simple transform to:,,pressurised inhalation
+5,CAPSULE,Simple transform to:,,oral capsule
+9,CREAM,RoA-based transform,Where RoA = 70 (TOPICAL) transform to:,cutaneous cream
+9,CREAM,RoA-based transform,Where RoA = 74 (VAGINAL) transform to:,vaginal cream
+9,CREAM,RoA-based transform,Where RoA = 62 (RECTAL) transform to:,rectal cream
+9,CREAM,RoA-based transform,Where RoA = 53 (NASAL) transform to:,nasal cream
+9,CREAM,RoA-based transform,Where RoA = 57 (OTIC) transform to:,otic cream
+9,CREAM,RoA-based transform,Where RoA = 55 (OPHTHALMIC) transform to:,ophthalmic cream
+12,DROPS,RoA-based transform,Where RoA = 57 (OTIC) transform to:,otic drops
+12,DROPS,RoA-based transform,Where RoA = 55 (OPHTHALMIC) transform to:,opthalmic drops
+12,DROPS,RoA-based transform,Where RoA = 53 (NASAL) transform to:,nasal drops
+12,DROPS,RoA-based transform,Where RoA = 56 (ORAL) transform to:,oral drops
+13,DRESSING,Not Top 250 - no change,,dressing
+14,CAPSULE (ENTERIC-COATED),Simple transform to:,,gastro-resistant capsule
+17,TABLET (ENTERIC-COATED),Simple transform to:,,gastro-resistant tablet
+18,ELIXIR,Simple transform to:,,oral solution
+19,EMULSION,RoA-based transform,Where RoA = 70 (TOPICAL) transform to:,cutaneous emulsion
+19,EMULSION,RoA-based transform,Where RoA = 49 (INTRAVENOUS) transform to:,emulsion for injection
+19,EMULSION,RoA-based transform,Where RoA = 56 (ORAL) transform to:,oral emulsion
+19,EMULSION,RoA-based transform,Where RoA = 55 (OPHTHALMIC) transform to:,"ophthalmic drops, emulsion"
+20,ENEMA,Simple transform to:,,rectal liquid
+23,TABLET (EFFERVESCENT),Simple transform to:,,effervescent oral tablet
+24,DRUG PREMIX,Combo Product - no change,,drug pre-mix
+25,GAS,Simple transform to:,,medicinal gas
+26,JELLY,RoA-based transform,Where RoA = 72 (Urethral) transform to:,urethral gel
+26,JELLY,RoA-based transform,Where RoA = 70 (Topical) transform to:,cutaneous gel
+30,IMPLANT,RoA-based transform,Where RoA = 65 (Subcutaneous) transform to:,implant
+30,IMPLANT,RoA-based transform,Where RoA = 80 (Intravitreal) transform to:,intravitreal implant
+32,KIT,Combo Product - no change,,kit
+34,LIQUID,RoA-based transform,Where RoA = 1 (BLOCK/INFILTRATION) transform to:,solution for injection
+34,LIQUID,RoA-based transform,Where RoA = 3 (BUCCAL) transform to:,mouthwash
+34,LIQUID,RoA-based transform,Where RoA = 5 (DENTAL) transform to:,dental solution
+34,LIQUID,RoA-based transform,Where RoA = 6 (DIALYSIS) transform to:,solution for haemodialysis
+34,LIQUID,RoA-based transform,Where RoA = 7 (EPIDURAL) transform to:,solution for injection
+34,LIQUID,RoA-based transform,Where RoA = 10 (INTRA-ARTICULAR) transform to:,solution for injection
+34,LIQUID,RoA-based transform,Where RoA = 12 (INTRA-ARTERIAL) transform to:,solution for injection
+34,LIQUID,RoA-based transform,Where RoA = 17 (INTRACAVITARY) transform to:,solution for injection
+34,LIQUID,RoA-based transform,Where RoA = 18 (INTRACUTANEOUS) transform to:,solution for injection
+34,LIQUID,RoA-based transform,Where RoA = 19 (INTRADERMAL) transform to:,solution for injection
+34,LIQUID,RoA-based transform,Where RoA = 21 (INTRALESIONAL) transform to:,solution for injection
+34,LIQUID,RoA-based transform,Where RoA = 22 (INTRAMUSCULAR) transform to:,solution for injection
+34,LIQUID,RoA-based transform,Where RoA = 29 (INHALATION) transform to:,"inhalation vapour, liquid"
+34,LIQUID,RoA-based transform,Where RoA = 33 (INTRAPERITONEAL) transform to:,irrigation solution
+34,LIQUID,RoA-based transform,Where RoA = 36 (IRRIGATION) transform to:,irrigation solution
+34,LIQUID,RoA-based transform,Where RoA = 42 (INTRASYNOVIAL) transform to:,solution for injection
+34,LIQUID,RoA-based transform,Where RoA = 48 (INTRAUTERINE) transform to:,solution for injection
+34,LIQUID,RoA-based transform,Where RoA = 49 (INTRAVENOUS) transform to:,solution for injection
+34,LIQUID,RoA-based transform,Where RoA = 53 (NASAL) transform to:,"nasal spray, solution"
+34,LIQUID,RoA-based transform,Where RoA = 55 (OPHTHALMIC) transform to:,"opthalmic drops, solution"
+34,LIQUID,RoA-based transform,Where RoA = 56 (ORAL) transform to:,oral liquid
+34,LIQUID,RoA-based transform,Where RoA = 57 (OTIC) transform to:,"otic drops, solution"
+34,LIQUID,RoA-based transform,Where RoA = 59 (PARENTERAL (UNSPECIFIED)) transform to:,solution for injection
+34,LIQUID,RoA-based transform,Where RoA = 62 (RECTAL) transform to:,rectal solution
+34,LIQUID,RoA-based transform,Where RoA = 63 (SOFT TISSUE INJECTION) transform to:,solution for injection
+34,LIQUID,RoA-based transform,Where RoA = 65 (SUBCUTANEOUS) transform to:,solution for injection
+34,LIQUID,RoA-based transform,Where RoA = 70 (TOPICAL) transform to:,cutaneous liquid
+34,LIQUID,RoA-based transform,Where RoA = 84 (INTRACAVERNOSAL) transform to:,solution for injection
+34,LIQUID,RoA-based transform,Where RoA = 85 (PERCUTANEOUS) transform to:,solution for injection
+34,LIQUID,RoA-based transform,Where RoA = 97 (INTRAVASCULAR) transform to:,solution for injection
+36,LOTION,No change currently,,lotion
+39,LOZENGE,No change required,,lozenge
+42,MOUTHWASH/GARGLE,Simple transform to:,,gargle/mouthwash
+43,OINTMENT,RoA-based transform,Where RoA = 70 (TOPICAL) transform to:,cutaneous ointment
+43,OINTMENT,RoA-based transform,Where RoA = 74 (VAGINAL) transform to:,vaginal ointment
+43,OINTMENT,RoA-based transform,Where RoA = 62 (RECTAL) transform to:,rectal ointment
+43,OINTMENT,RoA-based transform,Where RoA = 53 (NASAL) transform to:,nasal ointment
+43,OINTMENT,RoA-based transform,Where RoA = 57 (OTIC) transform to:,otic ointment
+43,OINTMENT,RoA-based transform,Where RoA = 55 (OPHTHALMIC) transform to:,ophthalmic ointment
+45,PAD,Not Top 250 - no change,,pad
+48,PACKAGE,Not Top 250 - no change,,package
+50,PLASTER,Not Top 250 - no change,,plaster
+52,PASTE,RoA-based transform,Where RoA = 56 (ORAL) transform to:,oral paste
+52,PASTE,RoA-based transform,Where RoA = 70 (TOPICAL) transform to:,cutaneous paste
+52,PASTE,RoA-based transform,Where RoA = 5 (DENTAL) transform to:,oromucosal paste
+53,GRANULES,Simple transform to:,,granules for oral suspension
+55,POWDER,RoA-based transform,Where RoA = 70 (TOPICAL) transform to:,cutaneous powder
+55,POWDER,RoA-based transform,Where RoA = 56 (ORAL) transform to:,oral powder
+55,POWDER,RoA-based transform,Where RoA = 56 (ORAL) AND RoA = 62 (RECTAL) transform to:,powder for oral/rectal suspension
+55,POWDER,RoA-based transform,Where RoA = 6 (DIALYSIS) transform to:,powder for concentrate for solution for haemodialysis
+55,POWDER,RoA-based transform,Where RoA = 49 (INTRAVENOUS) transform to:,powder for solution for injection
+55,POWDER,RoA-based transform,Where RoA = 29 (INHALATION) transform to:,inhalation powder
+55,POWDER,RoA-based transform,Where RoA = 22 (INTRAMUSCULAR) transform to:,powder for suspension for injection
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 12 (INTRA-ARTERIAL) transform to:,powder for solution for injection
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 17 (INTRACAVITARY) transform to:,powder for solution for injection
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 19 (INTRADERMAL) transform to:,powder for solution for injection
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 21 (INTRALESIONAL) transform to:,powder for solution for injection
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 22 (INTRAMUSCULAR) transform to:,powder for solution for injection
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 29 (INHALATION) transform to:,powder for nebuliser solution
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 31 (INTRATHECAL) transform to:,powder for solution for injection
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 33 (INTRAPERITONEAL) transform to:,powder for solution for injection
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 34 (INTRAPLEURAL) transform to:,powder for solution for injection
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 39 (INSTILLATION) transform to:,powder for solution for injection
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 40 (INTRASPINAL) transform to: ,powder for solution for injection
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 49 (INTRAVENOUS) transform to:,powder for solution for injection
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 55 (OPHTHALMIC) transform to:,"ophthalmic drops, powder for solution"
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 56 (ORAL) transform to:,powder for oral solution
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 62 (RECTAL) transform to:,powder for rectal solution
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 65 (SUBCUTANEOUS) transform to:,powder for solution for injection
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 70 (TOPICAL) transform to:,powder for cutaneous solution
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 84 (INTRACAVERNOSAL) transform to:,powder for solution for injection
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 96 (INTRAVESICAL) transform to:,powder for solution for injection
+56,POWDER FOR SOLUTION,RoA-based transform,Where RoA = 108 (NASOGASTRIC) transform to:,powder for oral solution
+59,SHAMPOO,No change required,,shampoo
+63,SPONGE,No change currently,,sponge
+68,CAPSULE (SUSTAINED-RELEASE),Simple transform to:,,prolonged release oral capsule
+70,SYRUP (EXTENDED-RELEASE),No change required,,syrup
+75,TABLET (EXTENDED-RELEASE),Simple transform to:,,prolonged release oral tablet
+76,STICK,Not Top 250 - no change,,stick
+77,STRIP,Not Top 250 - no change,,strip
+78,SUPPOSITORY,No change required,,suppository
+79,SUSPENSION,RoA-based transform,Where RoA = 10 (INTRA-ARTICULAR) transform to:,suspension for injection
+79,SUSPENSION,RoA-based transform,Where RoA = 13 (INTRABURSAL) transform to:,suspension for injection
+79,SUSPENSION,RoA-based transform,Where RoA = 19 (INTRADERMAL) transform to:,suspension for injection
+79,SUSPENSION,RoA-based transform,Where RoA = 21 (INTRALESIONAL) transform to:,suspension for injection
+79,SUSPENSION,RoA-based transform,Where RoA = 22 (INTRAMUSCULAR) transform to:,suspension for injection
+79,SUSPENSION,RoA-based transform,Where RoA = 29 (INHALATION) transform to:,nebuliser suspension
+79,SUSPENSION,RoA-based transform,Where RoA = 31 (INTRATHECAL) transform to:,suspension for injection
+79,SUSPENSION,RoA-based transform,Where RoA = 42 (INTRASYNOVIAL) transform to:,suspension for injection
+79,SUSPENSION,RoA-based transform,Where RoA = 49 (INTRAVENOUS) transform to:,suspension for injection
+79,SUSPENSION,RoA-based transform,Where RoA = 53 (NASAL) transform to:,"nasal spray, suspension"
+79,SUSPENSION,RoA-based transform,Where RoA = 55 (OPHTHALMIC) transform to:,"ophthalmic drops, suspension"
+79,SUSPENSION,RoA-based transform,Where RoA = 56 (ORAL) transform to:,oral suspension
+79,SUSPENSION,RoA-based transform,Where RoA = 57 (OTIC) transform to:,"otic drops, suspension"
+79,SUSPENSION,RoA-based transform,Where RoA = 62 (RECTAL) transform to:,rectal suspension
+79,SUSPENSION,RoA-based transform,Where RoA = 63 (SOFT TISSUE INJECTION) transform to:,suspension for injection
+79,SUSPENSION,RoA-based transform,Where RoA = 65 (SUBCUTANEOUS) transform to:,suspension for injection
+79,SUSPENSION,RoA-based transform,Where RoA = 70 (TOPICAL) transform to:,cutaneous suspension
+79,SUSPENSION,RoA-based transform,Where RoA = 80 (INTRAVITREAL) transform to:,suspension for injection
+82,SYRUP,No change required,,syrup
+83,BOLUS,Not Top 250 - no change,,bolus
+85,TABLET,Simple transform to:,,oral tablet
+88,TINCTURE,Simple transform to:,,cutaneous solution
+94,TOOTHPASTE,No change required,,toothpaste
+98,SPRAY,RoA-based transform,Where RoA = 70 (TOPICAL) transform to:,cutaneous spray
+98,SPRAY,RoA-based transform,Where RoA = 53 (NASAL) transform to:,nasal spray
+98,SPRAY,RoA-based transform,Where RoA = 3 (BUCCAL) transform to:,oromucosal spray
+101,SOLUTION (LONG-ACTING),Simple transform to:,,prolonged-release eye drops
+104,RING (SLOW-RELEASE),Not Top 250 - no change,,ring (slow release)
+105,WIPE,Not Top 250 - no change,,wipe
+106,CAPSULE (CONTROLLED-DELIVERY),Simple transform to:,,modified release oral capsule
+109,TABLET (DELAYED-RELEASE),Simple transform to:,,prolonged release oral tablet
+114,GEL,RoA-based transform,Where RoA = 70 (TOPICAL) transform to:,cutaneous gel
+114,GEL,RoA-based transform,Where RoA = 74 (VAGINAL) transform to:,vaginal gel
+114,GEL,RoA-based transform,Where RoA = 95 (INTRACERVICAL) transform to:,endocervical gel 
+114,GEL,RoA-based transform,Where RoA = 72 (URETHRAL) transform to:,urethral gel
+114,GEL,RoA-based transform,Where RoA = 62 (RECTAL) transform to:,rectal gel
+114,GEL,RoA-based transform,Where RoA = 53 (NASAL) transform to:,nasal gel
+114,GEL,RoA-based transform,Where RoA = 57 (OTIC) transform to:,otic gel
+114,GEL,RoA-based transform,Where RoA = 55 (OPHTHALMIC) transform to:,ophthalmic gel
+114,GEL,RoA-based transform,Where RoA = 56 (ORAL) transform to:,oral gel
+114,GEL,RoA-based transform,Where RoA = 5 (DENTAL) transform to:,dental gel
+114,GEL,RoA-based transform,Where RoA = 89 (SUBGINGIVAL) transform to:,periodontal gel
+114,GEL,RoA-based transform,Where RoA = 71 (TRANSDERMAL) transform to:,transdermal gel
+115,OVULE,Simple transform to:,, pessary
+116,INSERT,RoA-based transform,Where RoA = 55 (OPHTHALMIC) transform to:,ophthalmic insert
+116,INSERT,RoA-based transform,Where RoA = 74 (VAGINAL) transform to:,vaginal delivery system
+117,METERED-DOSE PUMP,RoA-based transform,Where RoA = 53 (NASAL) transform to:,nasal spray
+117,METERED-DOSE PUMP,RoA-based transform,Where RoA = 66 (SUBLINGUAL) transform to: ,"sublingual spray, solution"
+118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE",Simple transform to:,,powder for prolonged-release suspension for injection
+123,GEL (CONTROLLED-RELEASE),Simple transform to:,,periodontal gel
+126,POWDER FOR SUSPENSION,RoA-based transform,Where RoA = 22 (INTRAMUSCULAR) transform to:,powder for suspension for injection
+126,POWDER FOR SUSPENSION,RoA-based transform,Where RoA = 49 (INTRAVENOUS) transform to:,powder for suspension for injection
+126,POWDER FOR SUSPENSION,RoA-based transform,Where RoA = 56 (ORAL) transform to:,powder for oral suspension
+126,POWDER FOR SUSPENSION,RoA-based transform,Where RoA = 65 (SUBCUTANEOUS) transform to:,powder for suspension for injection
+126,POWDER FOR SUSPENSION,RoA-based transform,Where RoA = 96 (INTRAVESICAL) transform to:,powder for intravesical suspension
+129,SWAB,Not Top 250 - no change,,swab
+130,INSERT (EXTENDED-RELEASE),Simple transform to:,,intrauterine delivery system
+132,TABLET (ORALLY DISINTEGRATING),Simple transform to:,,orodispersible tablet
+134,SOLUTION,RoA-based transform,Where RoA = 1 (BLOCK/INFILTRATION) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 3 (BUCCAL) transform to:,mouthwash
+134,SOLUTION,RoA-based transform,Where RoA = 4 (INTRACAUDAL) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 5 (DENTAL) transform to:,dental solution
+134,SOLUTION,RoA-based transform,Where RoA = 6 (DIALYSIS) transform to:,solution for haemodialysis
+134,SOLUTION,RoA-based transform,Where RoA = 7 (EPIDURAL) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 10 (INTRA-ARTICULAR) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 11 (INTRA-AMNIOTIC) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 12 (INTRA-ARTERIAL) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 13 (INTRABURSAL) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 14 (INTRACARDIAC) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 16 (INTRACRANIAL) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 19 (INTRADERMAL) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 22 (INTRAMUSCULAR) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 29 (INHALATION) transform to:,inhalation solution
+134,SOLUTION,RoA-based transform,Where RoA = 31 (INTRATHECAL) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 32 (INTRAOCULAR) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 33 (INTRAPERITONEAL) transform to:,solution for peritoneal dialysis
+134,SOLUTION,RoA-based transform,Where RoA = 36 (IRRIGATION) transform to:,irrigation solution
+134,SOLUTION,RoA-based transform,Where RoA = 39 (INSTILLATION) transform to:,solution for cardioplegia
+134,SOLUTION,RoA-based transform,Where RoA = 40 (INTRASPINAL) transform to: ,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 42 (INTRASYNOVIAL) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 45 (INTRATRACHEAL) transform to:,"endotracheopulmonary instillation, solution"
+134,SOLUTION,RoA-based transform,Where RoA = 49 (INTRAVENOUS) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 53 (NASAL) transform to:,"nasal spray, solution"
+134,SOLUTION,RoA-based transform,Where RoA = 55 (OPHTHALMIC) transform to:,"opthalmic drops, solution"
+134,SOLUTION,RoA-based transform,Where RoA = 56 (ORAL) transform to:,oral solution
+134,SOLUTION,RoA-based transform,Where RoA = 57 (OTIC) transform to:,"otic drops, solution"
+134,SOLUTION,RoA-based transform,Where RoA = 59 (PARENTERAL (UNSPECIFIED)) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 60 (RETROBULBAR) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 64 (SUBARACHNOIDAL) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 65 (SUBCUTANEOUS) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 70 (TOPICAL) transform to:,cutaneous solution
+134,SOLUTION,RoA-based transform,Where RoA = 72 (URETHRAL) transform to:,intravesical solution
+134,SOLUTION,RoA-based transform,Where RoA = 80 (INTRAVITREAL) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 82 (INTRAGANGLIONAL) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 85 (PERCUTANEOUS) transform to:,solution for injection
+134,SOLUTION,RoA-based transform,Where RoA = 96 (INTRAVESICAL) transform to:,intravesical solution
+134,SOLUTION,RoA-based transform,Where RoA = 97 (INTRAVASCULAR) transform to:,solution for injection
+135,LIPOSOMES,Simple transform to:,,powder for suspension for infusion
+136,PIECE (CHEWABLE),Not Top 250 - no change,,piece (chewable)
+137,CAPSULE (DELAYED RELEASE),Simple transform to:,,modified release oral capsule
+138,TABLET (COMBINED RELEASE),Simple transform to:,,modified release oral tablet
+141,CAPSULE (EXTENDED RELEASE),Simple transform to:,,prolonged release oral capsule
+143,SUSPENSION (EXTENDED-RELEASE),Simple transform to:,,prolonged-release suspension for injection
+145,PATCH,RoA-based transform,Where RoA = 71 (TRANSDERMAL) transform to:,transdermal patch
+145,PATCH,RoA-based transform,Where RoA = 70 (TOPICAL) transform to:,cutaneous patch
+148,"GRANULES FOR SUSPENSION, DELAYED RELEASE",Simple transform to:,,gastro-resistant granules for oral suspension
+150,TABLET (IMMEDIATE RELEASE),Simple transform to:,,oral tablet
+151,TABLET (CHEWABLE),Simple transform to:,,chewable tablet
+152,POWDER (EXTENDED RELEASE),Simple transform to:,,"periodontal powder, prolonged release"
+153,POWDER (METERED DOSE),Simple transform to:,,inhalation powder
+154,VAGINAL TABLET,No change required,,vaginal tablet
+155,SOLUTION (EXTENDED RELEASE),Simple transform to:,,solution for injection
+156,TABLET FOR SUSPENSION,Simple transform to:,,dispersible oral tablet
+157,GRANULES FOR SUSPENSION,Simple transform to:,,granules for oral suspension
+158,"SPRAY, METERED DOSE",RoA-based transform,Where RoA = 53 (NASAL) transform to:,nasal spray
+158,"SPRAY, METERED DOSE",RoA-based transform,Where RoA = 70 (TOPICAL) transform to:,cutaneous spray
+159,TABLET (DELAYED AND EXTENDED RELEASE),Simple transform to:,,modified release tablet
+160,PATCH (EXTENDED RELEASE),Simple transform to:,,transdermal patch
+161,CAPSULE (IMMEDIATE RELEASE),Simple transform to:,,oral capsule
+162,"AEROSOL, METERED DOSE",Simple transform to:,,pressurised inhalation
+163,GRANULES FOR SOLUTION,Simple transform to:,,granules for oral solution
+164,"SPRAY, BAG-ON-VALVE",Not Top 250 - no change,,"spray, bag-on-valve"
+165,"VAGINAL TABLET, EFFERVESCENT",Simple transform to:,,effervescent vaginal tablet
+166,"AEROSOL, FOAM",Simple transform to:,,cutaneous foam
+167,"FILM, SOLUBLE",Simple transform to:,,orodispersible film
+170,TABLET (IMMEDIATE AND DELAYED-RELEASE),Simple transform to:,,modified release tablet
+171,CAPSULE (IMMEDIATE AND EXTENDED RELEASE),Simple transform to:,,modified release capsule
+172,CAPSULE (IMMEDIATE AND DELAYED RELEASE),Simple transform to:,,modified release capsule
+173,TABLET (IMMEDIATE AND EXTENDED RELEASE),Simple transform to:,,modified release tablet
+174,OIL,Simple transform to:,,liquid
+,,,,
+,,,,
+,,,,

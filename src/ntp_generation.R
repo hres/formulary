@@ -66,13 +66,13 @@ dpdextractdate <- "2018-02-02"
 # Ingredient Stem
 
 #ingredient_stem_file <- fread("ing_stem_20170822.csv")[-1,-1]
-ingredient_stem_file <- fread("Ingredient Stem/Ingredient_Stem_File_20180201.csv")
+ingredient_stem_file <- fread("~/formulary/src/Ingredient_Stem_File_20180301.csv")
 
 
 
 # Unit of Presentation
 
-packaging_file <- fread("Julie/Units of Presentation 20180205.csv", data.table = TRUE)
+packaging_file <- fread("~/formulary/src/Units of Presentation 20180221.csv", data.table = TRUE)
 
 # Combination Products
 
@@ -89,7 +89,7 @@ packaging_file <- fread("Julie/Units of Presentation 20180205.csv", data.table =
 #library(readxl)
 #combination_products_file <- read_excel("Julie/Combination Products 20171004.xlsx") %>%
 
- combination_products_file <- fread("Julie/Combination Products 20180205.csv",
+ combination_products_file <- fread("~/formulary/src/Combination Products 20180220.csv",
                                     colClasses = c("integer", 
                                                   "character",
                                                   "character",
@@ -249,21 +249,48 @@ ntp_dosage_form_map <- collect(ccdd_ntp_dosage_forms)
 # with ingredients flagged in the ingredient stem table 
 
 #This is an intermdediate (QA) file
-dpd_ccdd_form_route_combinations <- dpd_human_ccdd_products %>% 
+dpd_ccdd_form_route_combinations_products <- dpd_human_ccdd_products %>% 
   left_join(ing) %>% 
   select(extract, drug_code, dpd_ingredient = ingredient) %>% 
   left_join(form) %>% 
   left_join(route) %>% 
-  collect() %>% 
+  collect() %>%
   left_join(dpd_ccdd_ingredient_names) %>% 
-  filter(ccdd == "Y") %>% 
-  distinct(pharmaceutical_form, route_of_administration)
+  arrange(route_of_administration, pharmaceutical_form, ing_stem) %>%
+  group_by(drug_code) %>%
+  summarize(all_ccdd = all(ccdd == "Y"),
+            any_ccdd = any(ccdd == "Y"),
+            tm_formal_name = unique(ing_stem) %>% paste(collapse = " and "),
+            route_of_administration_code = unique(route_of_administration_code) %>% 
+             paste(collapse = "-"),
+            route_of_administration = unique(route_of_administration) %>%
+              paste(collapse = ", "),
+            route_of_administration_f = unique(route_of_administration_f) %>%
+              paste(collapse = ", "),
+            pharm_form_code = as.character(pharm_form_code) %>% unique() %>%
+              paste(collapse = "-"),
+            pharmaceutical_form = unique(pharmaceutical_form) %>%
+             paste(collapse = ", "),
+            pharmaceutical_form_f = unique(pharmaceutical_form_f) %>%
+              paste(collapse = ", ")) %>%
+  left_join(drug %>% select(extract, drug_code), copy = TRUE)
+
+dpd_ccdd_form_route_combinations_summary <- dpd_ccdd_form_route_combinations_products %>%
+                                      group_by(route_of_administration_code, pharm_form_code) %>%
+                                      summarize(route_of_administration = first(route_of_administration),
+                                                pharmaceutical_form = first(pharmaceutical_form),
+                                                n_human_din = n_distinct(drug_code),
+                                                n_any_ccdd = sum(any_ccdd, na.rm = TRUE),
+                                                n_all_ccdd = sum(all_ccdd, na.rm = TRUE),
+                                                n_tm = n_distinct(tm_formal_name)) %>%
+                                      full_join(ntp_dosage_form_map) %>%
+                                      select(-audit_id, -validated, -validated_by, -date_validated, -ntp_dosage_form_id)
 
 # Rows from the dpd_ccdd combos that are not in the ntp_dosage_form_route_map
 # This file should be empty
 
 # This is a QA file
-missing_form_routes <- anti_join(dpd_ccdd_form_route_combinations, ntp_dosage_form_map)
+missing_form_routes <- filter(dpd_ccdd_form_route_combinations_summary, is.na(ntp_dosage_form), n_all_ccdd > 0)
 
 
 # The table used for string manipulation of INGREDIENT and strength/dosage values.
@@ -655,14 +682,18 @@ ccdd_mapping_table <- ccdd_mp_source %>%
 # http://www.fda.gov/downloads/ForIndustry/DataStandards/StructuredProductLabeling/UCM362965.zip
 # These are the final output tables filtered for CCDD == TRUE
 ccdd_mp_table_release <- ccdd_mp_table %>%
-    filter(ccdd == TRUE, greater_than_5_AIs == FALSE) %>% 
+    filter(ccdd == TRUE, greater_than_5_AIs == FALSE) %>%
+    mutate(mp_type = if_else(str_detect(mp_code, "^7"), "CCDD", "DIN")) %>%
   #ccdd_mp_table_release2 <- ccdd_mp_table2 %>%
   select(mp_code, 
          mp_formal_name, 
          mp_en_description, 
          mp_fr_description, 
          mp_status, 
-         mp_status_effective_time) %>% mutate_all(as.character)
+         mp_status_effective_time,
+         mp_type,
+         Health_Canada_identifier = drug_identification_number,
+         Health_Canada_product_name = brand_name) %>% mutate_all(as.character)
 
 ccdd_tm_table_release <- ccdd_tm_table %>%
     filter(ccdd == TRUE, greater_than_5_AIs == FALSE) %>% 
