@@ -72,7 +72,7 @@ ingredient_stem_file <- fread("~/formulary/src/Ingredient_Stem_File_20180301.csv
 
 # Unit of Presentation
 
-packaging_file <- fread("~/formulary/src/Units of Presentation 20180221.csv", data.table = TRUE)
+packaging_file <- fread("~/formulary/src/Units of Presentation 20180222 NEW FORMAT.csv", data.table = TRUE) %>% filter(!is.na(drug_code))
 
 # Combination Products
 
@@ -356,12 +356,12 @@ ccdd_drug_ingredients_raw <- ccdd_drug_ingredients_raw %>%
 
 # This is an important intermediate
 ccdd_packaging_raw <- packaging_file %>%
-                      mutate(uop_suffix = ifelse(calculation == "N", 
+                      mutate(uop_suffix = ifelse(uop_size_insert == "Y", 
                                                  paste(uop_size,
                                                        uop_unit_of_measure,
                                                        unit_of_presentation),
                                                  NA),
-                             uop_suffix = ifelse(calculation == "Y", 
+                             uop_suffix = ifelse(uop_size_insert == "N", 
                                                  unit_of_presentation,
                                                  uop_suffix)) %>%
                       left_join(ccdd_drug_ingredients_raw %>%
@@ -394,7 +394,7 @@ ccdd_packaging_raw <- packaging_file %>%
                                                             sprintf("%s %s", ing_stem %>% tolower(),
                                                                     strength_w_uop_if_exists %>% tolower() %>% str_replace_all("ml", "mL"))),
                                                           mp_ingredient_name)) %>%
-                       group_by(drug_code, unit_of_presentation, uop_size, uop_unit_of_measure, uop_suffix, calculation) %>%
+                       group_by(drug_code, unit_of_presentation, uop_size, uop_unit_of_measure, uop_suffix, calculation, uop_size_insert) %>%
                        summarize(ntp_ing_formal_name_uop = paste(ntp_ingredient_name, collapse = " and "),
                                  mp_ing_formal_name_uop = paste(mp_ingredient_name, collapse = " and "))
 
@@ -495,9 +495,9 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
          mp_status_effective_time = if_else(current_status == "MARKETED", 
                                             first_market_date,
                                             current_status_date),
-         mp_status = case_when(current_status == "MARKETED" ~ "active",
-                               current_status == "CANCELLED POST MARKET" & expiration_date > dpdextractdate ~ "active",
-                               TRUE ~ "inactive")) %T>%
+         mp_status = case_when(current_status == "MARKETED" ~ "Active",
+                               current_status == "CANCELLED POST MARKET" & expiration_date > dpdextractdate ~ "Active",
+                               TRUE ~ "Inactive")) %T>%
          {ccdd_pseudodins <<- group_by(., drug_identification_number) %>% 
                          filter(n() > 1) %>%
                          ungroup() %>%
@@ -591,8 +591,8 @@ ccdd_ntp_table <- ccdd_mp_source %>%
                    n_mp = n_distinct(drug_identification_number),
                    greater_than_5_AIs = any(greater_than_5_AIs),
                    #din_list = DRUG_IDENTIFICATION_NUMBER %>% unique() %>% paste(collapse = "!"),
-                   ntp_status = if_else(all(mp_status == "inactive"), "inactive", "active"),
-                   ntp_status_effective_time = if_else(ntp_status == "inactive", 
+                   ntp_status = if_else(all(mp_status == "Inactive"), "Inactive", "Active"),
+                   ntp_status_effective_time = if_else(ntp_status == "Inactive", 
                                                        max(mp_status_effective_time),
                                                        min(first_market_date)),
                    ntp_type = first(ntp_type)) %>%
@@ -631,8 +631,8 @@ ccdd_tm_table <- ccdd_mp_source %>%
                    greater_than_5_AIs = any(greater_than_5_AIs),
                    n_dins = n_distinct(drug_identification_number),
                    n_ntps = n_distinct(ntp_dosage_form), #this isn't an accurate count 
-                   tm_status = if_else(all(mp_status == "inactive"), "inactive", "active"),
-                   tm_status_effective_time = if_else(tm_status == "inactive", 
+                   tm_status = if_else(all(mp_status == "Inactive"), "Inactive", "Active"),
+                   tm_status_effective_time = if_else(tm_status == "Inactive", 
                                                       max(mp_status_effective_time),
                                                       min(first_market_date))) %>%
   ungroup() %>%
