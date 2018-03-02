@@ -24,7 +24,7 @@ dpd <- src_postgres(dbname = "dpd",
                     port = 5432,
                     user = Sys.getenv("rest_user"),
                     password = Sys.getenv("rest_password"),
-                    options = "-c search_path=dpd_20180202")
+                    options = "-c search_path=dpd_20180301")
 
 ccdd <- src_postgres(dbname = "ccdd",
                      host = "rest.hc.local",
@@ -59,20 +59,20 @@ ccdd_start_date <- "2017-07-04"
 
 # Get raw data from dpd database on rest.hc.local. Naming convention for schema based on extracts is dpd_[yyyymmdd] 
 
-dpdextractdate <- "2018-02-02"
+dpdextractdate <- "2018-03-01"
 
 # Text files required for generation process
 
 # Ingredient Stem
 
 #ingredient_stem_file <- fread("ing_stem_20170822.csv")[-1,-1]
-ingredient_stem_file <- fread("~/formulary/src/Ingredient_Stem_File_20180301.csv")
+ingredient_stem_file <- fread("~/formulary/src/Ingredient_Stem_File_master.csv")
 
 
 
 # Unit of Presentation
 
-packaging_file <- fread("~/formulary/src/Units of Presentation 20180222 NEW FORMAT.csv", data.table = TRUE) %>% filter(!is.na(drug_code))
+packaging_file <- fread("~/formulary/src/Units_of_Presentation_master.csv", data.table = TRUE) %>% filter(!is.na(drug_code))
 
 # Combination Products
 
@@ -89,7 +89,7 @@ packaging_file <- fread("~/formulary/src/Units of Presentation 20180222 NEW FORM
 #library(readxl)
 #combination_products_file <- read_excel("Julie/Combination Products 20171004.xlsx") %>%
 
- combination_products_file <- fread("~/formulary/src/Combination Products 20180220.csv",
+ combination_products_file <- fread("~/formulary/src/Combination Products_master.csv",
                                     colClasses = c("integer", 
                                                   "character",
                                                   "character",
@@ -262,13 +262,13 @@ dpd_ccdd_form_route_combinations_products <- dpd_human_ccdd_products %>%
             any_ccdd = any(ccdd == "Y"),
             tm_formal_name = unique(ing_stem) %>% paste(collapse = " and "),
             route_of_administration_code = unique(route_of_administration_code) %>% 
-             paste(collapse = "-"),
+             paste(collapse = "|"),
             route_of_administration = unique(route_of_administration) %>%
               paste(collapse = ", "),
             route_of_administration_f = unique(route_of_administration_f) %>%
               paste(collapse = ", "),
             pharm_form_code = as.character(pharm_form_code) %>% unique() %>%
-              paste(collapse = "-"),
+              paste(collapse = "|"),
             pharmaceutical_form = unique(pharmaceutical_form) %>%
              paste(collapse = ", "),
             pharmaceutical_form_f = unique(pharmaceutical_form_f) %>%
