@@ -502,8 +502,9 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
                          filter(n() > 1) %>%
                          ungroup() %>%
                          distinct(., drug_code, mp_formal_name, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
-                         left_join(mp_full_release_20180123 %>% select(mp_code, mp_formal_name)) %>%
-                         mutate(mp_code = if_else(is.na(mp_code), 1:n() + 700521, as.numeric(mp_code))) %>%
+                         left_join(ccdd_pseudodins_reg %>% select(mp_code, mp_formal_name), copy = TRUE) %>%
+         
+         #                mutate(mp_code = if_else(is.na(mp_code), 1:n() + 700521, as.numeric(mp_code))) %>%
            select(mp_code, drug_code, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
            as.data.table() %>%
            setkey(mp_formal_name)}
