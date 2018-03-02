@@ -1,5 +1,5 @@
 LOAD CSV
-  FROM http://raw.githubusercontent.com/hres/formulary/master/src/Julie/Ingredient_Stem_File_20171101.csv
+  FROM http://raw.githubusercontent.com/hres/formulary/master/src/Ingredient%20Stem/Ingredient_Stem_File_20180201.csv
     WITH ENCODING UTF-8
     (
       ccdd,

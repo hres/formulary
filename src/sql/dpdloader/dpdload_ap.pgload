@@ -3,8 +3,8 @@
 -- Run after dpdload.pgload and dpdload_ia.pgload
 
 LOAD ARCHIVE
-  --FROM http://www.hc-sc.gc.ca/dhp-mps/alt_formats/zip/prodpharma/databasdon/allfiles_ap.zip
-  FROM dpddata/allfiles_ap_nobom.zip
+  FROM http://www.hc-sc.gc.ca/dhp-mps/alt_formats/zip/prodpharma/databasdon/allfiles_ap.zip
+  -- FROM dpddata/allfiles_ap_nobom.zip
   INTO postgresql:///
 
   BEFORE LOAD DO

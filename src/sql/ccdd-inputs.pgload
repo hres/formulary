@@ -1,5 +1,5 @@
 LOAD CSV
-  FROM http://raw.githubusercontent.com/hres/formulary/master/src/Julie/Combination%20Products%2020171101.csv
+  FROM http://raw.githubusercontent.com/hres/formulary/master/src/Julie/Combination%20Products%2020180205.csv
     WITH ENCODING LATIN-1
     (
       drug_code,
@@ -15,6 +15,25 @@ LOAD CSV
       mp_formal_name,
       ntp_formal_name,
       ntp_type
+    )
+  WITH
+    skip header = 1,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;
+
+LOAD CSV
+  FROM ./test/ccdd-mp-brand-override-draft.csv
+    WITH ENCODING LATIN-1
+    (
+      drug_code,
+      brand
+    )
+  INTO postgresql:///?ccdd.mp_brand_override
+    (
+      drug_code,
+      brand
     )
   WITH
     skip header = 1,

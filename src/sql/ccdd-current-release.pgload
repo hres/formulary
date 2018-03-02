@@ -1,0 +1,111 @@
+LOAD CSV
+  FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/QAfiles/20180222/mp_qa_release_20180222.csv
+    WITH ENCODING UTF-8
+    (
+      mp_code,
+      mp_formal_name,
+      mp_en_description,
+      mp_fr_description,
+      mp_status,
+      mp_status_effective_time,
+      mp_type,
+      "Health_Canada_identifier",
+      "Health_Canada_product_name"
+    )
+  INTO postgresql:///?ccdd.mp_release
+    (
+      mp_code,
+      mp_formal_name,
+      mp_en_description,
+      mp_fr_description,
+      mp_status,
+      mp_status_effective_time,
+      mp_type,
+      "Health_Canada_identifier",
+      "Health_Canada_product_name"
+    )
+  WITH
+    csv header,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;
+
+LOAD CSV
+  FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/QAfiles/20180222/ntp_qa_release_20180222.csv
+    WITH ENCODING UTF-8
+    (
+      ntp_code,
+      ntp_en_description,
+      ntp_fr_description,
+      ntp_status,
+      ntp_status_effective_time,
+      ntp_type,
+      ntp_formal_name
+    )
+  INTO postgresql:///?ccdd.ntp_release
+    (
+      ntp_code,
+      ntp_formal_name,
+      ntp_en_description,
+      ntp_fr_description,
+      ntp_status,
+      ntp_status_effective_time,
+      ntp_type
+    )
+  WITH
+    csv header,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;
+
+LOAD CSV
+  FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/QAfiles/20180222/tm_qa_release_20180222.csv
+    WITH ENCODING UTF-8
+    (
+      tm_code,
+      tm_formal_name,
+      tm_status,
+      tm_status_effective_time
+    )
+  INTO postgresql:///?ccdd.tm_release
+    (
+      tm_code,
+      tm_formal_name,
+      tm_status,
+      tm_status_effective_time
+    )
+  WITH
+    csv header,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;
+
+LOAD CSV
+  FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/QAfiles/20180222/mp_ntp_tm_relationship_qa_release_20180222.csv
+    WITH ENCODING UTF-8
+    (
+      tm_code,
+      tm_formal_name,
+      ntp_code,
+      ntp_formal_name,
+      mp_code,
+      mp_formal_name
+    )
+  INTO postgresql:///?ccdd.mp_ntp_tm_relationship_release
+    (
+      mp_code,
+      mp_formal_name,
+      ntp_code,
+      ntp_formal_name,
+      tm_code,
+      tm_formal_name
+    )
+  WITH
+    csv header,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;

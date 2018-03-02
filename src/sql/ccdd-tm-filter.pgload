@@ -1,0 +1,16 @@
+LOAD CSV
+  FROM http://raw.githubusercontent.com/hres/formulary/master/src/Julie/TMs%20for%20Final%20Filter%2020180115.csv
+    WITH ENCODING LATIN-1
+    (
+      tm_code
+    )
+  INTO postgresql:///?ccdd.tm_filter
+    (
+      tm_code
+    )
+  WITH
+    skip header = 1,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;

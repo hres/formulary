@@ -2,8 +2,8 @@
 -- Connection details drawn from environment variables PGUSER, PGPASSWORD, PGHOST, PGDATABASE
 
 LOAD ARCHIVE
---  FROM http://www.hc-sc.gc.ca/dhp-mps/alt_formats/zip/prodpharma/databasdon/allfiles.zip
-  FROM dpddata/allfiles_nobom.zip
+  FROM http://www.hc-sc.gc.ca/dhp-mps/alt_formats/zip/prodpharma/databasdon/allfiles.zip
+  -- FROM dpddata/allfiles_nobom.zip
 
   INTO postgresql:///
 
