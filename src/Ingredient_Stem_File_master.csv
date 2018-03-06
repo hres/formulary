@@ -101,6 +101,7 @@ Y,,ANASTROZOLE,anastrozole,FALSE,anastrozole
 ,,APIS MELLIFERA VENOM PROTEIN EXTRACT,apis mellifera venom protein extract,FALSE,apis mellifera venom protein extract
 ,,Apixaban,apixaban,FALSE,apixaban
 Y,,APOMORPHINE,apomorphine,FALSE,apomorphine
+Y,,APOMORPHINE HYDROCHLORIDE,apomorphine,FALSE,apomorphine
 ,,APRACLONIDINE (APRACLONIDINE HYDROCHLORIDE),apraclonidine (apraclonidine hydrochloride),FALSE,apraclonidine (apraclonidine hydrochloride)
 ,,APREMILAST,apremilast,FALSE,apremilast
 ,,APREPITANT,aprepitant,FALSE,aprepitant
@@ -1554,7 +1555,7 @@ Y,SPIRONOLACTONE,SPIRONOLACTONE,spironolactone,FALSE,spironolactone
 ,,SUFENTANIL (SUFENTANIL CITRATE),sufentanil (sufentanil citrate),FALSE,sufentanil (sufentanil citrate)
 ,,SUGAMMADEX (SUGAMMADEX SODIUM),sugammadex (sugammadex sodium),FALSE,sugammadex (sugammadex sodium)
 ,,SULFACETAMIDE SODIUM,sulfacetamide sodium,FALSE,sulfacetamide sodium
-,,SULFAMETHOXAZOLE,sulfamethoxazole,FALSE,sulfamethoxazole
+Y,,SULFAMETHOXAZOLE,sulfamethoxazole,FALSE,sulfamethoxazole
 ,,SULFASALAZINE,sulfasalazine,FALSE,sulfasalazine
 ,,SULFINPYRAZONE,sulfinpyrazone,FALSE,sulfinpyrazone
 ,,SULFISOXAZOLE,sulfisoxazole,FALSE,sulfisoxazole
