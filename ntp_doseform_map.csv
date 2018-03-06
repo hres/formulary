@@ -2,7 +2,7 @@ DPD PHARM_FORM_CODE,DPD PHARMACEUTICAL_FORM,Action:,,NTP Formal Name Dose form
 1,METERED-DOSE AEROSOL,Simple transform to:,,pressurised inhalation
 2,AEROSOL,Simple transform to:,,pressurised inhalation
 5,CAPSULE,Simple transform to:,,oral capsule
-9,cream1,RoA-based transform,Where RoA = 70 (TOPICAL) transform to:,cutaneous cream
+9,CREAM,RoA-based transform,Where RoA = 70 (TOPICAL) transform to:,cutaneous cream
 9,CREAM,RoA-based transform,Where RoA = 74 (VAGINAL) transform to:,vaginal cream
 9,CREAM,RoA-based transform,Where RoA = 62 (RECTAL) transform to:,rectal cream
 9,CREAM,RoA-based transform,Where RoA = 53 (NASAL) transform to:,nasal cream
