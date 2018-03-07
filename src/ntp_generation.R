@@ -489,7 +489,7 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
   mutate(mp_formal_name = if_else(is.na(combo_mp_formal_name),
                                   mp_formal_name,
                                   combo_mp_formal_name),
-         ntp_foccdd_pseudormal_name = if_else(is.na(combo_ntp_formal_name),
+         ntp_formal_name = if_else(is.na(combo_ntp_formal_name),
                                    ntp_formal_name,
                                    combo_ntp_formal_name),
          mp_status_effective_time = if_else(current_status == "MARKETED", 
