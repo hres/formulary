@@ -1044,7 +1044,7 @@ Y,,METHOTRIMEPRAZINE (METHOTRIMEPRAZINE MALEATE),methotrimeprazine,FALSE,methotr
 ,,METHOXSALEN,methoxsalen,FALSE,methoxsalen
 ,,METHYL AMINOLEVULINATE (METHYL AMINOLEVULINATE HYDROCHLORIDE),methyl aminolevulinate (methyl aminolevulinate hydrochloride),FALSE,methyl aminolevulinate (methyl aminolevulinate hydrochloride)
 ,,METHYL HEPTYL COLAMINO FORMYLMETHYL PYRIDINIUM CHL,methyl heptyl colamino formylmethyl pyridinium chl,FALSE,methyl heptyl colamino formylmethyl pyridinium chl
-,,METHYLDOPA,methyldopa,FALSE,methyldopa
+Y,,METHYLDOPA,methyldopa,FALSE,methyldopa
 ,,METHYLENE BLUE,methylene blue,FALSE,methylene blue
 ,,METHYLNALTREXONE BROMIDE,methylnaltrexone bromide,FALSE,methylnaltrexone bromide
 Y,METHYLPHENIDATE,METHYLPHENIDATE HYDROCHLORIDE,methylphenidate,FALSE,methylphenidate hydrochloride
@@ -1499,7 +1499,7 @@ Y,SITAGLIPTIN,SITAGLIPTIN (SITAGLIPTIN PHOSPHATE MONOHYDRATE),sitagliptin,TRUE,s
 ,,SODIUM CARBONATE (ANHYDROUS),sodium carbonate (anhydrous),FALSE,sodium carbonate (anhydrous)
 ,,SODIUM CARBOXYMETHYL CELLULOSE,sodium carboxymethyl cellulose,FALSE,sodium carboxymethyl cellulose
 ,,SODIUM CHLORIDE,sodium chloride,FALSE,sodium chloride
-,,SODIUM CITRATE,sodium citrate,FALSE,sodium citrate
+Y,,SODIUM CITRATE,sodium citrate,FALSE,sodium citrate
 ,,SODIUM CITRATE DIHYDRATE,sodium citrate dihydrate,TRUE,sodium citrate dihydrate
 ,,SODIUM FLUORIDE,sodium fluoride,FALSE,sodium fluoride
 ,,SODIUM GLUCONATE,sodium gluconate,FALSE,sodium gluconate
