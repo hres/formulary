@@ -101,6 +101,7 @@ Y,,ANASTROZOLE,anastrozole,FALSE,anastrozole
 ,,APIS MELLIFERA VENOM PROTEIN EXTRACT,apis mellifera venom protein extract,FALSE,apis mellifera venom protein extract
 ,,Apixaban,apixaban,FALSE,apixaban
 Y,,APOMORPHINE,apomorphine,FALSE,apomorphine
+Y,,APOMORPHINE HYDROCHLORIDE,apomorphine,FALSE,apomorphine
 ,,APRACLONIDINE (APRACLONIDINE HYDROCHLORIDE),apraclonidine (apraclonidine hydrochloride),FALSE,apraclonidine (apraclonidine hydrochloride)
 ,,APREMILAST,apremilast,FALSE,apremilast
 ,,APREPITANT,aprepitant,FALSE,aprepitant
@@ -1043,7 +1044,7 @@ Y,,METHOTRIMEPRAZINE (METHOTRIMEPRAZINE MALEATE),methotrimeprazine,FALSE,methotr
 ,,METHOXSALEN,methoxsalen,FALSE,methoxsalen
 ,,METHYL AMINOLEVULINATE (METHYL AMINOLEVULINATE HYDROCHLORIDE),methyl aminolevulinate (methyl aminolevulinate hydrochloride),FALSE,methyl aminolevulinate (methyl aminolevulinate hydrochloride)
 ,,METHYL HEPTYL COLAMINO FORMYLMETHYL PYRIDINIUM CHL,methyl heptyl colamino formylmethyl pyridinium chl,FALSE,methyl heptyl colamino formylmethyl pyridinium chl
-,,METHYLDOPA,methyldopa,FALSE,methyldopa
+Y,,METHYLDOPA,methyldopa,FALSE,methyldopa
 ,,METHYLENE BLUE,methylene blue,FALSE,methylene blue
 ,,METHYLNALTREXONE BROMIDE,methylnaltrexone bromide,FALSE,methylnaltrexone bromide
 Y,METHYLPHENIDATE,METHYLPHENIDATE HYDROCHLORIDE,methylphenidate,FALSE,methylphenidate hydrochloride
@@ -1498,7 +1499,7 @@ Y,SITAGLIPTIN,SITAGLIPTIN (SITAGLIPTIN PHOSPHATE MONOHYDRATE),sitagliptin,TRUE,s
 ,,SODIUM CARBONATE (ANHYDROUS),sodium carbonate (anhydrous),FALSE,sodium carbonate (anhydrous)
 ,,SODIUM CARBOXYMETHYL CELLULOSE,sodium carboxymethyl cellulose,FALSE,sodium carboxymethyl cellulose
 ,,SODIUM CHLORIDE,sodium chloride,FALSE,sodium chloride
-,,SODIUM CITRATE,sodium citrate,FALSE,sodium citrate
+Y,,SODIUM CITRATE,sodium citrate,FALSE,sodium citrate
 ,,SODIUM CITRATE DIHYDRATE,sodium citrate dihydrate,TRUE,sodium citrate dihydrate
 ,,SODIUM FLUORIDE,sodium fluoride,FALSE,sodium fluoride
 ,,SODIUM GLUCONATE,sodium gluconate,FALSE,sodium gluconate
@@ -1554,7 +1555,7 @@ Y,SPIRONOLACTONE,SPIRONOLACTONE,spironolactone,FALSE,spironolactone
 ,,SUFENTANIL (SUFENTANIL CITRATE),sufentanil (sufentanil citrate),FALSE,sufentanil (sufentanil citrate)
 ,,SUGAMMADEX (SUGAMMADEX SODIUM),sugammadex (sugammadex sodium),FALSE,sugammadex (sugammadex sodium)
 ,,SULFACETAMIDE SODIUM,sulfacetamide sodium,FALSE,sulfacetamide sodium
-,,SULFAMETHOXAZOLE,sulfamethoxazole,FALSE,sulfamethoxazole
+Y,,SULFAMETHOXAZOLE,sulfamethoxazole,FALSE,sulfamethoxazole
 ,,SULFASALAZINE,sulfasalazine,FALSE,sulfasalazine
 ,,SULFINPYRAZONE,sulfinpyrazone,FALSE,sulfinpyrazone
 ,,SULFISOXAZOLE,sulfisoxazole,FALSE,sulfisoxazole
