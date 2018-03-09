@@ -378,3 +378,5 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 50747,unit dose vial,2,mL,N,Y
 95417,unit dose vial,2,mL,Y,N
 95418,unit dose vial,2,mL,Y,N
+94899,vial,2,mL,Y,N
+94899,vial,4,mL,Y,N
