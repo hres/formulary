@@ -172,7 +172,10 @@ dpd_human_ccdd_products <- drug %>%
   left_join(dpd_current_status) %>%
   filter(current_status == "MARKETED"  |
            (current_status == "DORMANT" & current_status_date > ccdd_start_date)|
-           current_status == "CANCELLED POST MARKET" & current_status_date > ccdd_start_date)
+           current_status == "CANCELLED POST MARKET" & current_status_date > ccdd_start_date|
+#temporary fudge for previously published DINs
+                      drug_identification_number %in% c("00313580", "00578487", "00870943", "02245686", "02248454", "02240341", "02312530", "02312549",
+                                                         "02316544", "02324326", "02324334", "00636533", "00519367", "02229760", "02229761"))
 
 # Taking only the ingredients that are used in the ccdd products.
 # Left-join Ingredient_stem file when available. 
@@ -507,7 +510,15 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
          #                mutate(mp_code = if_else(is.na(mp_code), 1:n() + 700521, as.numeric(mp_code))) %>%
            select(mp_code, drug_code, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
            as.data.table() %>%
-           setkey(mp_formal_name)}
+           setkey(mp_formal_name)} %>%
+           group_by(mp_formal_name) %T>%
+           {mp_names_with_descriptor <<- filter(., n() > 1) %>%
+                                         ungroup() %>%
+                                         mutate(mp_formal_name = str_replace(mp_formal_name, brand_name, paste(brand_name, descriptor, sep = " ")))} %>%
+           filter(n() == 1) %>%
+           ungroup() %>%
+           bind_rows(mp_names_with_descriptor)
+          
   
 
 ccdd_pseudodins_top250 <- ccdd_pseudodins %>%
