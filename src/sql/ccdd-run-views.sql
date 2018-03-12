@@ -221,14 +221,18 @@ INSERT INTO public.ccdd_presentation(
     unit,
     size_amount,
     size_unit,
-    strength_is_per_size_unit
+    strength_is_per_size_unit,
+    unit_has_explicit_size,
+    pseudodin
 ) SELECT
     id,
     dpd_drug_code,
     unit,
     size_amount,
     size_unit,
-    strength_is_per_size_unit
+    strength_is_per_size_unit,
+    unit_has_explicit_size,
+    pseudodin
 FROM public.ccdd_presentation_source;
 
 -- update computed lookups

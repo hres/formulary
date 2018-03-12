@@ -1,5 +1,5 @@
 LOAD CSV
-  FROM http://raw.githubusercontent.com/hres/formulary/master/src/Julie/Combination%20Products%2020180205.csv
+  FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Combination%20Products_master.csv
     WITH ENCODING LATIN-1
     (
       drug_code,
@@ -24,6 +24,97 @@ LOAD CSV
 ;
 
 LOAD CSV
+  FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Ingredient_Stem_File_master.csv
+    WITH ENCODING UTF-8
+    (
+      ccdd,
+      top250name,
+      dpd_ingredient,
+      ing_stem,
+      hydrate,
+      ntp_ing
+    )
+  INTO postgresql:///?ccdd.ingredient_stem_csv
+    (
+      ccdd,
+      top250name,
+      dpd_ingredient,
+      ing_stem,
+      hydrate,
+      ntp_ing
+    )
+  WITH
+    skip header = 1,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;
+
+LOAD CSV
+  FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Units_of_Presentation_master.csv
+    WITH ENCODING LATIN-1
+    (
+      drug_code,
+      unit_of_presentation,
+      uop_size,
+      uop_unit_of_measure,
+      calculation,
+      uop_size_insert
+    )
+  INTO postgresql:///?ccdd.unit_of_presentation_csv
+    (
+      drug_code,
+      unit_of_presentation,
+      uop_size,
+      uop_unit_of_measure,
+      calculation,
+      uop_size_insert
+    )
+  WITH
+    skip header = 1,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;
+
+LOAD CSV
+  FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ntp_dosage_form_map_master.csv
+    WITH ENCODING UTF-8
+    (
+      ntp_dosage_form_code,
+      ntp_dosage_form,
+      route_of_administration_code,
+      route_of_administration,
+      route_of_administration_f,
+      pharm_form_code,
+      pharmaceutical_form,
+      pharmaceutical_form_f,
+      audit_id,
+      validated,
+      date_validated,
+      validated_by,
+      ntp_dosage_form_id
+    )
+  INTO postgresql:///?ccdd.ntp_dosage_forms
+    (
+      ntp_dosage_form_code,
+      ntp_dosage_form,
+      route_of_administration_code,
+      route_of_administration,
+      route_of_administration_f,
+      pharm_form_code,
+      pharmaceutical_form,
+      pharmaceutical_form_f,
+      audit_id
+    )
+  WITH
+    skip header = 1,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;
+
+LOAD CSV
   FROM ./test/ccdd-mp-brand-override-draft.csv
     WITH ENCODING LATIN-1
     (
@@ -34,6 +125,86 @@ LOAD CSV
     (
       drug_code,
       brand
+    )
+  WITH
+    skip header = 1,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;
+
+LOAD CSV
+  FROM ./test/ccdd-tm-definitions-draft.csv
+    WITH ENCODING UTF-8
+    (
+      code,
+      formal_name
+    )
+  INTO postgresql:///?ccdd.tm_definition
+    (
+      code,
+      formal_name
+    )
+  WITH
+    skip header = 1,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;
+
+LOAD CSV
+  FROM ./test/ccdd-ntp-definitions-draft.csv
+    WITH ENCODING UTF-8
+    (
+      code,
+      formal_name
+    )
+  INTO postgresql:///?ccdd.ntp_definition
+    (
+      code,
+      formal_name
+    )
+  WITH
+    skip header = 1,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;
+
+LOAD CSV
+  FROM ./test/ccdd-pseudodin-map-draft.csv
+    WITH ENCODING UTF-8
+    (
+      pseudodin,
+      drug_code,
+      unit_of_presentation,
+      uop_size_amount,
+      uop_size_unit
+    )
+  INTO postgresql:///?ccdd.pseudodin_map
+    (
+      pseudodin,
+      drug_code,
+      unit_of_presentation,
+      uop_size_amount,
+      uop_size_unit
+    )
+  WITH
+    skip header = 1,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;
+
+LOAD CSV
+  FROM http://raw.githubusercontent.com/hres/formulary/master/src/Julie/TMs%20for%20Final%20Filter%2020180115.csv
+    WITH ENCODING LATIN-1
+    (
+      tm_code
+    )
+  INTO postgresql:///?ccdd.tm_filter
+    (
+      tm_code
     )
   WITH
     skip header = 1,

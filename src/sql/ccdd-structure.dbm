@@ -368,8 +368,17 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	<column name="strength_is_per_size_unit">
 		<type name="bool" length="0"/>
 	</column>
+	<column name="unit_has_explicit_size">
+		<type name="bool" length="0"/>
+	</column>
+	<column name="pseudodin">
+		<type name="bigint" length="0"/>
+	</column>
 	<constraint name="ccdd_presentation_pk" type="pk-constr" table="public.ccdd_presentation">
 		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+	<constraint name="ccdd_presentation_pseudodin" type="uq-constr" table="public.ccdd_presentation">
+		<columns names="pseudodin" ref-type="src-columns"/>
 	</constraint>
 
 	<customidxs object-type="column">
@@ -682,12 +691,7 @@ OR
 )
 OR
 (
-	cs.status = 'MARKETED' AND
-	EXISTS(select * from dpd.status s where
-		s.drug_code = dp.drug_code and
-		s.status = 'MARKETED' and
-		s.history_date < '2017-07-04'
-	)
+	cs.status = 'MARKETED'
 )
 )]]></expression>
 	</reference>
@@ -804,7 +808,7 @@ OR
 	<column name="pharmaceutical_form_f">
 		<type name="text" length="0"/>
 	</column>
-	<column name="audit_id" not-null="true">
+	<column name="audit_id">
 		<type name="bigint" length="0"/>
 	</column>
 </table>
@@ -895,32 +899,13 @@ OR
 	 dst-table="dpd.active_ingredient"
 	 src-required="false" dst-required="false"/>
 
-<view name="dpd_ingredient_source" materialized="true">
+<sequence name="dpd_drug_ingredient_option_source_order"
+	 start="1" increment="1"
+	 min-value="0" max-value="2147483647"
+	 cache="1" cycle="false">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1280" y="860"/>
-	<reference table="dpd.active_ingredient" column="ingredient" alias="ai" column-alias="dpd_named_ingredient_name"/>
-	<reference table="dpd.active_ingredient" column="active_ingredient_code" alias="ai" column-alias="dpd_active_ingredient_code_id"/>
-	<reference table="dpd.active_ingredient" alias="ai"/>
-	<reference>
-		<expression><![CDATA[EXISTS(select * from public.dpd_drug_source ds where ds.code = ai.drug_code)]]></expression>
-	</reference>
-	<reference>
-		<expression><![CDATA[GROUP BY dpd_named_ingredient_name, dpd_active_ingredient_code_id]]></expression>
-	</reference>
-	<expression type="select-exp">0,1</expression>
-	<expression type="from-exp">2</expression>
-	<expression type="simple-exp">3,4</expression>
-</view>
-
-<relationship name="rel_dpd_named_ingredient_source_cp_active_ingredient" type="reltv"
-	 src-table="public.dpd_ingredient_source"
-	 dst-table="dpd.active_ingredient"
-	 src-required="false" dst-required="false">
-	<label ref-type="name-label">
-		<position x="0" y="0"/>
-	</label>
-</relationship>
+</sequence>
 
 <view name="dpd_drug_ingredient_source" materialized="true">
 	<schema name="public"/>
@@ -961,6 +946,9 @@ OR
 	</column>
 	<column name="dosage_unit">
 		<type name="varchar" length="0"/>
+	</column>
+	<column name="source_order" sequence="public.dpd_drug_ingredient_option_source_order">
+		<type name="bigint" length="0"/>
 	</column>
 
 	<customidxs object-type="column">
@@ -1096,24 +1084,18 @@ GROUP BY code
 	</column>
 </table>
 
-<table name="tm_table">
+<table name="tm_definition">
 	<schema name="ccdd"/>
 	<role name="postgres"/>
-	<position x="1840" y="660"/>
-	<column name="tm_code" not-null="true">
-		<type name="integer" length="0"/>
-	</column>
-	<column name="tm_formal_name" not-null="true">
-		<type name="text" length="0"/>
-	</column>
-	<column name="audit_id" not-null="true">
+	<position x="1840" y="580"/>
+	<column name="code" not-null="true">
 		<type name="bigint" length="0"/>
 	</column>
-	<constraint name="tm_table_audit_id_key" type="uq-constr" table="ccdd.tm_table">
-		<columns names="audit_id" ref-type="src-columns"/>
-	</constraint>
-	<constraint name="tm_table_tm_code" type="pk-constr" table="ccdd.tm_table">
-		<columns names="tm_code" ref-type="src-columns"/>
+	<column name="formal_name" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<constraint name="tm_definition_pk" type="pk-constr" table="ccdd.tm_definition">
+		<columns names="code" ref-type="src-columns"/>
 	</constraint>
 </table>
 
@@ -1217,8 +1199,8 @@ GROUP BY code
 	SELECT
 		tm_name_part AS name
 	FROM
-		ccdd.tm_table AS tt,
-		regexp_split_to_table(tt.tm_formal_name, '\s+and\s+', 'i') AS tm_name_part
+		ccdd.tm_definition AS tt,
+		regexp_split_to_table(tt.formal_name, '\s+and\s+', 'i') AS tm_name_part
 ) allstems
 GROUP BY name
 ]]></expression>
@@ -1229,36 +1211,36 @@ GROUP BY name
 	<schema name="public"/>
 	<role name="postgres"/>
 	<position x="1920" y="1020"/>
-	<reference table="ccdd.tm_table" column="tm_code" alias="tt" column-alias="code"/>
-	<reference table="ccdd.tm_table" alias="tt"/>
+	<reference table="ccdd.tm_definition" column="code" alias="tt" column-alias="code"/>
+	<reference table="ccdd.tm_definition" alias="tt"/>
 	<expression type="select-exp">0</expression>
 	<expression type="from-exp">1</expression>
 </view>
 
-<relationship name="rel_ccdd_tm_source_tm_table" type="reltv"
+<relationship name="rel_ccdd_tm_source_tm_definition" type="reltv"
 	 src-table="public.ccdd_tm_source"
-	 dst-table="ccdd.tm_table"
+	 dst-table="ccdd.tm_definition"
 	 src-required="false" dst-required="false"/>
 
 <view name="ccdd_tm_ingredient_stem_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
 	<position x="1920" y="1080"/>
-	<reference table="ccdd.tm_table" column="tm_code" alias="tt" column-alias="ccdd_tm_code"/>
+	<reference table="ccdd.tm_definition" column="code" alias="tt" column-alias="ccdd_tm_code"/>
 	<reference alias="ccdd_ingredient_stem_name">
 		<expression><![CDATA[tm_name_part]]></expression>
 	</reference>
-	<reference table="ccdd.tm_table" alias="tt"/>
+	<reference table="ccdd.tm_definition" alias="tt"/>
 	<reference>
-		<expression><![CDATA[regexp_split_to_table(tt.tm_formal_name, '\s+and\s+', 'i') AS tm_name_part]]></expression>
+		<expression><![CDATA[regexp_split_to_table(tt.formal_name, '\s+and\s+', 'i') AS tm_name_part]]></expression>
 	</reference>
 	<expression type="select-exp">0,1</expression>
 	<expression type="from-exp">2,3</expression>
 </view>
 
-<relationship name="rel_ccdd_tm_ingredient_stem_source_tm_table" type="reltv"
+<relationship name="rel_ccdd_tm_ingredient_stem_source_tm_definition" type="reltv"
 	 src-table="public.ccdd_tm_ingredient_stem_source"
-	 dst-table="ccdd.tm_table"
+	 dst-table="ccdd.tm_definition"
 	 src-required="false" dst-required="false"/>
 
 <view name="dpd_form_source" materialized="true">
@@ -1507,6 +1489,9 @@ GROUP BY code
 	<column name="calculation">
 		<type name="varchar" length="0"/>
 	</column>
+	<column name="uop_size_insert">
+		<type name="varchar" length="0"/>
+	</column>
 </table>
 
 <view name="ccdd_combination_product_source" materialized="true">
@@ -1582,6 +1567,7 @@ FROM
 		)
 		ELSE format('%s %s', strength_amount, strength_unit)
 	END AS strength_description,
+	ddio.source_order,
 	ntpmap.ccdd
 FROM
 	public.dpd_drug_ingredient_option AS ddio
@@ -1696,13 +1682,13 @@ from
 	dd.code as dpd_drug_code,
 	p.id as ccdd_presentation_id,
 	(case
-		when p.strength_is_per_size_unit then p.unit
-		else format('%s %s %s', p.size_amount, p.size_unit, p.unit)
+		when p.unit_has_explicit_size then format('%s %s %s', p.size_amount, p.size_unit, p.unit)
+		else p.unit
 	end) as uop_suffix,
 	STRING_AGG(
 		format('%s %s', dod.drug_ingredient_name, dod.strength_description),
 		' and '
-		order by dod.ingredient_stem_name, dod.drug_ingredient_name
+		order by dod.ingredient_stem_name, dod.drug_ingredient_name, dod.source_order
 	) as drug_ingredient_detail_set,
 	STRING_AGG(
 		format('%s %s', dod.ntp_ingredient_name, dod.strength_description),
@@ -1852,7 +1838,7 @@ group by
 <table name="mp_brand_override">
 	<schema name="ccdd"/>
 	<role name="postgres"/>
-	<position x="2840" y="940"/>
+	<position x="2520" y="800"/>
 	<column name="drug_code" not-null="true">
 		<type name="bigint" length="0"/>
 	</column>
@@ -1986,6 +1972,7 @@ group by dd.code]]></expression>
 		<expression><![CDATA[select
 	dd.code as dpd_drug_code,
 	p.id as ccdd_presentation_id,
+	p.pseudodin,
 	dd.din,
 	dd.brand_name_en,
 	COALESCE(cp.mp_formal_name, format(
@@ -1995,10 +1982,10 @@ group by dd.code]]></expression>
 		(CASE
 			WHEN p.id is not null THEN format(
 				'%s %s',
-				ddform.dosage_form,
+				COALESCE(ddform.dosage_form, 'NA'),
 				dsum.uop_suffix
 			)
-			ELSE ddform.dosage_form
+			ELSE COALESCE(ddform.dosage_form, 'NA')
 		END),
 		dd.company_name
 	)) as mp_formal_name,
@@ -2008,10 +1995,10 @@ group by dd.code]]></expression>
 		(CASE
 			WHEN p.id is not null THEN format(
 				'%s %s',
-				ddform.dosage_form,
+				COALESCE(ddform.dosage_form, 'NA'),
 				dsum.uop_suffix
 			)
-			ELSE ddform.dosage_form
+			ELSE COALESCE(ddform.dosage_form, 'NA')
 		END)
 	)) as ntp_formal_name,
 	(CASE
@@ -2046,42 +2033,21 @@ where
 	</reference>
 </view>
 
-<table name="ntp_table">
+<table name="ntp_definition">
 	<schema name="ccdd"/>
 	<role name="postgres"/>
-	<position x="2500" y="780"/>
-	<column name="ntp_formal_name">
-		<type name="text" length="0"/>
-	</column>
-	<column name="ccdd">
-		<type name="boolean" length="0"/>
-	</column>
-	<column name="n_mp">
-		<type name="integer" length="0"/>
-	</column>
-	<column name="greater_than_5_AIs">
-		<type name="boolean" length="0"/>
-	</column>
-	<column name="ntp_status_effective_time">
-		<type name="date" length="0"/>
-	</column>
-	<column name="ntp_code" not-null="true">
-		<type name="integer" length="0"/>
-	</column>
-	<column name="en_display">
-		<type name="boolean" length="0"/>
-	</column>
-	<column name="fr_display">
-		<type name="boolean" length="0"/>
-	</column>
-	<column name="audit_id" not-null="true">
+	<position x="1840" y="680"/>
+	<column name="code" not-null="true">
 		<type name="bigint" length="0"/>
 	</column>
-	<constraint name="ntp_table_audit_id_key" type="uq-constr" table="ccdd.ntp_table">
-		<columns names="audit_id" ref-type="src-columns"/>
+	<column name="formal_name" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<constraint name="ntp_definition_pk" type="pk-constr" table="ccdd.ntp_definition">
+		<columns names="code" ref-type="src-columns"/>
 	</constraint>
-	<constraint name="ntp_table_ntp_code" type="pk-constr" table="ccdd.ntp_table">
-		<columns names="ntp_code" ref-type="src-columns"/>
+	<constraint name="ntp_definition_name" type="uq-constr" table="ccdd.ntp_definition">
+		<columns names="formal_name" ref-type="src-columns"/>
 	</constraint>
 </table>
 
@@ -2093,9 +2059,9 @@ where
 		<expression><![CDATA[select
 	(
 		select
-			ntp_code
-		from ccdd.ntp_table prevntp
-		where prevntp.ntp_formal_name = candidate.ntp_formal_name
+			code
+		from ccdd.ntp_definition prevntp
+		where prevntp.formal_name = candidate.ntp_formal_name
 	) as ntp_code,
 	candidate.ntp_formal_name,
 	(CASE
@@ -2183,15 +2149,15 @@ order by tm_status_effective_time
 	<reference>
 		<expression><![CDATA[select
 	(CASE
-		WHEN candidate.presentation_count > 1 THEN COALESCE(prev.mp_code, candidate.ccdd_presentation_id)
+		WHEN candidate.presentation_count > 1 THEN COALESCE(cast(candidate.pseudodin as varchar), candidate.ccdd_presentation_id)
 		ELSE candidate.din
 	END) as mp_code,
 	candidate.mp_formal_name,
 	(
 		select
-			ntp_code
-		from ccdd.ntp_table prevntp
-		where prevntp.ntp_formal_name = candidate.ntp_formal_name
+			code
+		from ccdd.ntp_definition prevntp
+		where prevntp.formal_name = candidate.ntp_formal_name
 	) as ntp_code,
 	candidate.ntp_formal_name,
 	dtm.tm_code,
@@ -2199,8 +2165,6 @@ order by tm_status_effective_time
 from
 	ccdd_mp_table_candidate candidate
 	LEFT JOIN ccdd_drug_tm dtm on(candidate.dpd_drug_code = dtm.dpd_drug_code)
-	left join ccdd.mp_release prev
-		on(candidate.ccdd_presentation_id is not null and prev.mp_formal_name = candidate.mp_formal_name)
 ]]></expression>
 	</reference>
 </view>
@@ -2212,7 +2176,7 @@ from
 	<reference>
 		<expression><![CDATA[select
 	(CASE
-		WHEN candidate.presentation_count > 1 THEN COALESCE(prev.mp_code, candidate.ccdd_presentation_id)
+		WHEN candidate.presentation_count > 1 THEN COALESCE(cast(candidate.pseudodin as varchar), candidate.ccdd_presentation_id)
 		ELSE candidate.din
 	END) as mp_code,
 	candidate.mp_formal_name,
@@ -2228,8 +2192,6 @@ from
 	candidate.brand_name_en as "Health_Canada_product_name"
 from
 	ccdd_mp_table_candidate candidate
-	left join ccdd.mp_release prev
-		on(candidate.ccdd_presentation_id is not null and prev.mp_formal_name = candidate.mp_formal_name)
 ]]></expression>
 	</reference>
 </view>
@@ -2273,13 +2235,29 @@ END)
 	 dst-table="dpd.status"
 	 src-required="false" dst-required="false"/>
 
-<index name="ccdd_tm_ingredient_stem_tm_code" table="public.ccdd_tm_ingredient_stem"
-	 concurrent="false" unique="false" fast-update="false" buffering="false"
-	 index-type="btree" factor="0">
-		<idxelement use-sorting="false">
-			<column name="ccdd_tm_code"/>
-		</idxelement>
-</index>
+<table name="pseudodin_map">
+	<schema name="ccdd"/>
+	<role name="postgres"/>
+	<position x="2520" y="900"/>
+	<column name="pseudodin" not-null="true">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="drug_code" not-null="true">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="unit_of_presentation" not-null="true">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="uop_size_amount" not-null="true">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="uop_size_unit" not-null="true">
+		<type name="varchar" length="0"/>
+	</column>
+	<constraint name="pseudodin_map_pk" type="pk-constr" table="ccdd.pseudodin_map">
+		<columns names="pseudodin" ref-type="src-columns"/>
+	</constraint>
+</table>
 
 <relationship name="dpd_drug_has_many_dpd_drug_status" type="rel1n"
 	 src-col-pattern="{st}_{sc}"
@@ -2308,13 +2286,27 @@ END)
 	<reference alias="strength_is_per_size_unit">
 		<expression><![CDATA[uop.calculation = 'Y']]></expression>
 	</reference>
+	<reference alias="unit_has_explicit_size">
+		<expression><![CDATA[uop.uop_size_insert = 'Y']]></expression>
+	</reference>
+	<reference alias="pseudodin">
+		<expression><![CDATA[(select pseudodin from ccdd.pseudodin_map map where
+	map.drug_code = uop.drug_code
+	AND
+	map.unit_of_presentation = uop.unit_of_presentation
+	AND
+	map.uop_size_amount = uop.uop_size
+	AND
+	map.uop_size_unit = uop.uop_unit_of_measure
+order by pseudodin limit 1)]]></expression>
+	</reference>
 	<reference table="ccdd.unit_of_presentation_csv" alias="uop"/>
 	<reference>
 		<expression><![CDATA[exists(select * from dpd_drug_source dd where dd.code = uop.drug_code)]]></expression>
 	</reference>
-	<expression type="select-exp">0,1,2,3,4,5</expression>
-	<expression type="from-exp">6</expression>
-	<expression type="simple-exp">7</expression>
+	<expression type="select-exp">0,1,2,3,4,5,6,7</expression>
+	<expression type="from-exp">8</expression>
+	<expression type="simple-exp">9</expression>
 </view>
 
 <relationship name="rel_ccdd_presentation_source_unit_of_presentation_csv" type="reltv"
@@ -2353,7 +2345,10 @@ from
 	LEFT JOIN LATERAL (VALUES
 		('mp_formal_name', cur.mp_formal_name, nxt.mp_formal_name),
 		('mp_status', UPPER(cur.mp_status), UPPER(nxt.mp_status)),
-		('mp_status_effective_time', cur.mp_status_effective_time, nxt.mp_status_effective_time)
+		('mp_status_effective_time', cur.mp_status_effective_time, nxt.mp_status_effective_time),
+		('mp_type', cur.mp_type, nxt.mp_type),
+		('Health_Canada_identifier', cur."Health_Canada_identifier", nxt."Health_Canada_identifier"),
+		('Health_Canada_product_name', cur."Health_Canada_product_name", nxt."Health_Canada_product_name")
 	) AS cmp (
 		field_name, cur_value, nxt_value
 	) ON true
@@ -2467,7 +2462,8 @@ from
 	LEFT JOIN LATERAL (VALUES
 		('ntp_formal_name', cur.ntp_formal_name, nxt.ntp_formal_name),
 		('ntp_status', UPPER(cur.ntp_status), UPPER(nxt.ntp_status)),
-		('ntp_status_effective_time', cur.ntp_status_effective_time, nxt.ntp_status_effective_time)
+		('ntp_status_effective_time', cur.ntp_status_effective_time, nxt.ntp_status_effective_time),
+		('ntp_type', cur.ntp_type, COALESCE(nxt.ntp_type, 'NA'))
 	) AS cmp (
 		field_name, cur_value, nxt_value
 	) ON true
@@ -2736,9 +2732,15 @@ order by
 	(select string_agg(cast(ddf.dpd_form_code as varchar), '-' order by ddf.dpd_form_code) from
 		dpd_drug_form ddf
 	where ddf.dpd_drug_code = dd.code) as dpd_form_code_combo,
+	(select string_agg(df.name_en, ', ' order by ddf.dpd_form_code) from
+		dpd_drug_form ddf left join dpd_form df on(df.code = ddf.dpd_form_code)
+	where ddf.dpd_drug_code = dd.code) as dpd_form_name_combo,
 	(select string_agg(cast(ddr.dpd_route_code as varchar), '-' order by ddr.dpd_route_code) from
 		dpd_drug_route ddr
-	where ddr.dpd_drug_code = dd.code) as dpd_route_code_combo
+	where ddr.dpd_drug_code = dd.code) as dpd_route_code_combo,
+	(select string_agg(dr.name_en, ', ' order by ddr.dpd_route_code) from
+		dpd_drug_route ddr left join dpd_route dr on(dr.code = ddr.dpd_route_code)
+	where ddr.dpd_drug_code = dd.code) as dpd_route_name_combo
 from
 	dpd_drug dd
 	LEFT JOIN ccdd_drug_dosage_form ddform on(ddform.dpd_drug_code = dd.code)
@@ -2879,6 +2881,68 @@ where
 	not exists(select * from ccdd_mp_table rel where rel.mp_code = nxt.mp_code)
 order by
 	nxt.mp_formal_name
+]]></expression>
+	</reference>
+</view>
+
+<view name="dpd_ingredient_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1280" y="860"/>
+	<reference table="dpd.active_ingredient" column="ingredient" alias="ai" column-alias="dpd_named_ingredient_name"/>
+	<reference table="dpd.active_ingredient" column="active_ingredient_code" alias="ai" column-alias="dpd_active_ingredient_code_id"/>
+	<reference table="dpd.active_ingredient" alias="ai"/>
+	<reference>
+		<expression><![CDATA[EXISTS(select * from public.dpd_drug_source ds where ds.code = ai.drug_code)]]></expression>
+	</reference>
+	<reference>
+		<expression><![CDATA[GROUP BY dpd_named_ingredient_name, dpd_active_ingredient_code_id]]></expression>
+	</reference>
+	<expression type="select-exp">0,1</expression>
+	<expression type="from-exp">2</expression>
+	<expression type="simple-exp">3,4</expression>
+</view>
+
+<relationship name="rel_dpd_named_ingredient_source_cp_active_ingredient" type="reltv"
+	 src-table="public.dpd_ingredient_source"
+	 dst-table="dpd.active_ingredient"
+	 src-required="false" dst-required="false">
+	<label ref-type="name-label">
+		<position x="0" y="0"/>
+	</label>
+</relationship>
+
+<index name="ccdd_tm_ingredient_stem_tm_code" table="public.ccdd_tm_ingredient_stem"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<column name="ccdd_tm_code"/>
+		</idxelement>
+</index>
+
+<view name="qa_missing_concepts_pseudodin">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2480" y="1500"/>
+	<reference>
+		<expression><![CDATA[select
+	nxt.din,
+	nxt.mp_formal_name,
+	p.dpd_drug_code as drug_code,
+	p.unit as unit_of_presentation,
+	p.size_amount as uop_size_amount,
+	p.size_unit as uop_size_unit
+from
+	ccdd_mp_table_candidate nxt
+	left join ccdd_presentation p on(p.id = nxt.ccdd_presentation_id)
+where
+	nxt.ccdd_presentation_id is not null
+	and
+	nxt.presentation_count > 1
+	and
+	nxt.pseudodin is null
+order by
+	nxt.dpd_drug_code
 ]]></expression>
 	</reference>
 </view>

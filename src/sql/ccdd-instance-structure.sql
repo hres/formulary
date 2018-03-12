@@ -285,7 +285,10 @@ CREATE TABLE public.ccdd_presentation(
 	size_amount double precision,
 	size_unit varchar,
 	strength_is_per_size_unit bool,
-	CONSTRAINT ccdd_presentation_pk PRIMARY KEY (id)
+	unit_has_explicit_size bool,
+	pseudodin bigint,
+	CONSTRAINT ccdd_presentation_pk PRIMARY KEY (id),
+	CONSTRAINT ccdd_presentation_pseudodin UNIQUE (pseudodin)
 
 );
 -- ddl-end --
@@ -457,12 +460,7 @@ OR
 )
 OR
 (
-	cs.status = 'MARKETED' AND
-	EXISTS(select * from dpd.status s where
-		s.drug_code = dp.drug_code and
-		s.status = 'MARKETED' and
-		s.history_date < '2017-07-04'
-	)
+	cs.status = 'MARKETED'
 )
 );
 -- ddl-end --
@@ -532,7 +530,7 @@ CREATE TABLE ccdd.ntp_dosage_forms(
 	pharm_form_code text,
 	pharmaceutical_form text,
 	pharmaceutical_form_f text,
-	audit_id bigint NOT NULL
+	audit_id bigint
 );
 -- ddl-end --
 ALTER TABLE ccdd.ntp_dosage_forms OWNER TO postgres;
@@ -600,20 +598,18 @@ WHERE
 ALTER MATERIALIZED VIEW public.dpd_named_ingredient_source OWNER TO postgres;
 -- ddl-end --
 
--- object: public.dpd_ingredient_source | type: MATERIALIZED VIEW --
--- DROP MATERIALIZED VIEW IF EXISTS public.dpd_ingredient_source CASCADE;
-CREATE MATERIALIZED VIEW public.dpd_ingredient_source
-AS 
-
-SELECT
-   ai.ingredient AS dpd_named_ingredient_name,
-   ai.active_ingredient_code AS dpd_active_ingredient_code_id
-FROM
-   dpd.active_ingredient AS ai
-WHERE
-   EXISTS(select * from public.dpd_drug_source ds where ds.code = ai.drug_code)   GROUP BY dpd_named_ingredient_name, dpd_active_ingredient_code_id;
+-- object: public.dpd_drug_ingredient_option_source_order | type: SEQUENCE --
+-- DROP SEQUENCE IF EXISTS public.dpd_drug_ingredient_option_source_order CASCADE;
+CREATE SEQUENCE public.dpd_drug_ingredient_option_source_order
+	INCREMENT BY 1
+	MINVALUE 0
+	MAXVALUE 2147483647
+	START WITH 1
+	CACHE 1
+	NO CYCLE
+	OWNED BY NONE;
 -- ddl-end --
-ALTER MATERIALIZED VIEW public.dpd_ingredient_source OWNER TO postgres;
+ALTER SEQUENCE public.dpd_drug_ingredient_option_source_order OWNER TO postgres;
 -- ddl-end --
 
 -- object: public.dpd_drug_ingredient_source | type: MATERIALIZED VIEW --
@@ -642,7 +638,8 @@ CREATE TABLE public.dpd_drug_ingredient_option(
 	strength_amount double precision NOT NULL,
 	strength_unit varchar NOT NULL,
 	dosage_amount double precision,
-	dosage_unit varchar
+	dosage_unit varchar,
+	source_order bigint DEFAULT nextval('public.dpd_drug_ingredient_option_source_order'::regclass)
 );
 -- ddl-end --
 ALTER TABLE public.dpd_drug_ingredient_option OWNER TO postgres;
@@ -742,18 +739,16 @@ CREATE TABLE ccdd.ingredient_stem_csv(
 ALTER TABLE ccdd.ingredient_stem_csv OWNER TO postgres;
 -- ddl-end --
 
--- object: ccdd.tm_table | type: TABLE --
--- DROP TABLE IF EXISTS ccdd.tm_table CASCADE;
-CREATE TABLE ccdd.tm_table(
-	tm_code integer NOT NULL,
-	tm_formal_name text NOT NULL,
-	audit_id bigint NOT NULL,
-	CONSTRAINT tm_table_audit_id_key UNIQUE (audit_id),
-	CONSTRAINT tm_table_tm_code PRIMARY KEY (tm_code)
+-- object: ccdd.tm_definition | type: TABLE --
+-- DROP TABLE IF EXISTS ccdd.tm_definition CASCADE;
+CREATE TABLE ccdd.tm_definition(
+	code bigint NOT NULL,
+	formal_name text NOT NULL,
+	CONSTRAINT tm_definition_pk PRIMARY KEY (code)
 
 );
 -- ddl-end --
-ALTER TABLE ccdd.tm_table OWNER TO postgres;
+ALTER TABLE ccdd.tm_definition OWNER TO postgres;
 -- ddl-end --
 
 -- object: public.ccdd_ntp_ingredient_source | type: MATERIALIZED VIEW --
@@ -831,8 +826,8 @@ SELECT name FROM (
 	SELECT
 		tm_name_part AS name
 	FROM
-		ccdd.tm_table AS tt,
-		regexp_split_to_table(tt.tm_formal_name, '\s+and\s+', 'i') AS tm_name_part
+		ccdd.tm_definition AS tt,
+		regexp_split_to_table(tt.formal_name, '\s+and\s+', 'i') AS tm_name_part
 ) allstems
 GROUP BY name;
 -- ddl-end --
@@ -845,9 +840,9 @@ CREATE MATERIALIZED VIEW public.ccdd_tm_source
 AS 
 
 SELECT
-   tt.tm_code AS code
+   tt.code AS code
 FROM
-   ccdd.tm_table AS tt;
+   ccdd.tm_definition AS tt;
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_tm_source OWNER TO postgres;
 -- ddl-end --
@@ -858,11 +853,11 @@ CREATE MATERIALIZED VIEW public.ccdd_tm_ingredient_stem_source
 AS 
 
 SELECT
-   tt.tm_code AS ccdd_tm_code,
+   tt.code AS ccdd_tm_code,
    tm_name_part AS ccdd_ingredient_stem_name
 FROM
-   ccdd.tm_table AS tt,
-   regexp_split_to_table(tt.tm_formal_name, '\s+and\s+', 'i') AS tm_name_part;
+   ccdd.tm_definition AS tt,
+   regexp_split_to_table(tt.formal_name, '\s+and\s+', 'i') AS tm_name_part;
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_tm_ingredient_stem_source OWNER TO postgres;
 -- ddl-end --
@@ -1033,7 +1028,8 @@ CREATE TABLE ccdd.unit_of_presentation_csv(
 	unit_of_presentation varchar,
 	uop_size varchar,
 	uop_unit_of_measure varchar,
-	calculation varchar
+	calculation varchar,
+	uop_size_insert varchar
 );
 -- ddl-end --
 ALTER TABLE ccdd.unit_of_presentation_csv OWNER TO postgres;
@@ -1104,6 +1100,7 @@ SELECT
 		)
 		ELSE format('%s %s', strength_amount, strength_unit)
 	END AS strength_description,
+	ddio.source_order,
 	ntpmap.ccdd
 FROM
 	public.dpd_drug_ingredient_option AS ddio
@@ -1220,13 +1217,13 @@ select
 	dd.code as dpd_drug_code,
 	p.id as ccdd_presentation_id,
 	(case
-		when p.strength_is_per_size_unit then p.unit
-		else format('%s %s %s', p.size_amount, p.size_unit, p.unit)
+		when p.unit_has_explicit_size then format('%s %s %s', p.size_amount, p.size_unit, p.unit)
+		else p.unit
 	end) as uop_suffix,
 	STRING_AGG(
 		format('%s %s', dod.drug_ingredient_name, dod.strength_description),
 		' and '
-		order by dod.ingredient_stem_name, dod.drug_ingredient_name
+		order by dod.ingredient_stem_name, dod.drug_ingredient_name, dod.source_order
 	) as drug_ingredient_detail_set,
 	STRING_AGG(
 		format('%s %s', dod.ntp_ingredient_name, dod.strength_description),
@@ -1511,6 +1508,7 @@ AS
 select
 	dd.code as dpd_drug_code,
 	p.id as ccdd_presentation_id,
+	p.pseudodin,
 	dd.din,
 	dd.brand_name_en,
 	COALESCE(cp.mp_formal_name, format(
@@ -1520,10 +1518,10 @@ select
 		(CASE
 			WHEN p.id is not null THEN format(
 				'%s %s',
-				ddform.dosage_form,
+				COALESCE(ddform.dosage_form, 'NA'),
 				dsum.uop_suffix
 			)
-			ELSE ddform.dosage_form
+			ELSE COALESCE(ddform.dosage_form, 'NA')
 		END),
 		dd.company_name
 	)) as mp_formal_name,
@@ -1533,10 +1531,10 @@ select
 		(CASE
 			WHEN p.id is not null THEN format(
 				'%s %s',
-				ddform.dosage_form,
+				COALESCE(ddform.dosage_form, 'NA'),
 				dsum.uop_suffix
 			)
-			ELSE ddform.dosage_form
+			ELSE COALESCE(ddform.dosage_form, 'NA')
 		END)
 	)) as ntp_formal_name,
 	(CASE
@@ -1571,24 +1569,17 @@ where
 ALTER VIEW public.ccdd_mp_table_candidate OWNER TO postgres;
 -- ddl-end --
 
--- object: ccdd.ntp_table | type: TABLE --
--- DROP TABLE IF EXISTS ccdd.ntp_table CASCADE;
-CREATE TABLE ccdd.ntp_table(
-	ntp_formal_name text,
-	ccdd boolean,
-	n_mp integer,
-	"greater_than_5_AIs" boolean,
-	ntp_status_effective_time date,
-	ntp_code integer NOT NULL,
-	en_display boolean,
-	fr_display boolean,
-	audit_id bigint NOT NULL,
-	CONSTRAINT ntp_table_audit_id_key UNIQUE (audit_id),
-	CONSTRAINT ntp_table_ntp_code PRIMARY KEY (ntp_code)
+-- object: ccdd.ntp_definition | type: TABLE --
+-- DROP TABLE IF EXISTS ccdd.ntp_definition CASCADE;
+CREATE TABLE ccdd.ntp_definition(
+	code bigint NOT NULL,
+	formal_name text NOT NULL,
+	CONSTRAINT ntp_definition_pk PRIMARY KEY (code),
+	CONSTRAINT ntp_definition_name UNIQUE (formal_name)
 
 );
 -- ddl-end --
-ALTER TABLE ccdd.ntp_table OWNER TO postgres;
+ALTER TABLE ccdd.ntp_definition OWNER TO postgres;
 -- ddl-end --
 
 -- object: public.ccdd_ntp_table | type: MATERIALIZED VIEW --
@@ -1599,9 +1590,9 @@ AS
 select
 	(
 		select
-			ntp_code
-		from ccdd.ntp_table prevntp
-		where prevntp.ntp_formal_name = candidate.ntp_formal_name
+			code
+		from ccdd.ntp_definition prevntp
+		where prevntp.formal_name = candidate.ntp_formal_name
 	) as ntp_code,
 	candidate.ntp_formal_name,
 	(CASE
@@ -1673,24 +1664,22 @@ AS
 
 select
 	(CASE
-		WHEN candidate.presentation_count > 1 THEN COALESCE(prev.mp_code, candidate.ccdd_presentation_id)
+		WHEN candidate.presentation_count > 1 THEN COALESCE(cast(candidate.pseudodin as varchar), candidate.ccdd_presentation_id)
 		ELSE candidate.din
 	END) as mp_code,
 	candidate.mp_formal_name,
 	(
 		select
-			ntp_code
-		from ccdd.ntp_table prevntp
-		where prevntp.ntp_formal_name = candidate.ntp_formal_name
+			code
+		from ccdd.ntp_definition prevntp
+		where prevntp.formal_name = candidate.ntp_formal_name
 	) as ntp_code,
 	candidate.ntp_formal_name,
 	dtm.tm_code,
 	dtm.tm_formal_name
 from
 	ccdd_mp_table_candidate candidate
-	LEFT JOIN ccdd_drug_tm dtm on(candidate.dpd_drug_code = dtm.dpd_drug_code)
-	left join ccdd.mp_release prev
-		on(candidate.ccdd_presentation_id is not null and prev.mp_formal_name = candidate.mp_formal_name);
+	LEFT JOIN ccdd_drug_tm dtm on(candidate.dpd_drug_code = dtm.dpd_drug_code);
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_mp_ntp_tm_relationship OWNER TO postgres;
 -- ddl-end --
@@ -1702,7 +1691,7 @@ AS
 
 select
 	(CASE
-		WHEN candidate.presentation_count > 1 THEN COALESCE(prev.mp_code, candidate.ccdd_presentation_id)
+		WHEN candidate.presentation_count > 1 THEN COALESCE(cast(candidate.pseudodin as varchar), candidate.ccdd_presentation_id)
 		ELSE candidate.din
 	END) as mp_code,
 	candidate.mp_formal_name,
@@ -1717,9 +1706,7 @@ select
 	candidate.din as "Health_Canada_identifier",
 	candidate.brand_name_en as "Health_Canada_product_name"
 from
-	ccdd_mp_table_candidate candidate
-	left join ccdd.mp_release prev
-		on(candidate.ccdd_presentation_id is not null and prev.mp_formal_name = candidate.mp_formal_name);
+	ccdd_mp_table_candidate candidate;
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_mp_table OWNER TO postgres;
 -- ddl-end --
@@ -1756,13 +1743,19 @@ WHERE
 ALTER MATERIALIZED VIEW public.dpd_drug_status_source OWNER TO postgres;
 -- ddl-end --
 
--- object: ccdd_tm_ingredient_stem_tm_code | type: INDEX --
--- DROP INDEX IF EXISTS public.ccdd_tm_ingredient_stem_tm_code CASCADE;
-CREATE INDEX ccdd_tm_ingredient_stem_tm_code ON public.ccdd_tm_ingredient_stem
-	USING btree
-	(
-	  ccdd_tm_code
-	);
+-- object: ccdd.pseudodin_map | type: TABLE --
+-- DROP TABLE IF EXISTS ccdd.pseudodin_map CASCADE;
+CREATE TABLE ccdd.pseudodin_map(
+	pseudodin bigint NOT NULL,
+	drug_code bigint NOT NULL,
+	unit_of_presentation varchar NOT NULL,
+	uop_size_amount varchar NOT NULL,
+	uop_size_unit varchar NOT NULL,
+	CONSTRAINT pseudodin_map_pk PRIMARY KEY (pseudodin)
+
+);
+-- ddl-end --
+ALTER TABLE ccdd.pseudodin_map OWNER TO postgres;
 -- ddl-end --
 
 -- object: dpd_drug_fk | type: CONSTRAINT --
@@ -1783,7 +1776,17 @@ SELECT
    uop.unit_of_presentation AS unit,
    CAST(uop.uop_size as double precision) AS size_amount,
    ccdd_normalized_unit(uop.uop_unit_of_measure) AS size_unit,
-   uop.calculation = 'Y' AS strength_is_per_size_unit
+   uop.calculation = 'Y' AS strength_is_per_size_unit,
+   uop.uop_size_insert = 'Y' AS unit_has_explicit_size,
+   (select pseudodin from ccdd.pseudodin_map map where
+	map.drug_code = uop.drug_code
+	AND
+	map.unit_of_presentation = uop.unit_of_presentation
+	AND
+	map.uop_size_amount = uop.uop_size
+	AND
+	map.uop_size_unit = uop.uop_unit_of_measure
+order by pseudodin limit 1) AS pseudodin
 FROM
    ccdd.unit_of_presentation_csv AS uop
 WHERE
@@ -1824,7 +1827,10 @@ from
 	LEFT JOIN LATERAL (VALUES
 		('mp_formal_name', cur.mp_formal_name, nxt.mp_formal_name),
 		('mp_status', UPPER(cur.mp_status), UPPER(nxt.mp_status)),
-		('mp_status_effective_time', cur.mp_status_effective_time, nxt.mp_status_effective_time)
+		('mp_status_effective_time', cur.mp_status_effective_time, nxt.mp_status_effective_time),
+		('mp_type', cur.mp_type, nxt.mp_type),
+		('Health_Canada_identifier', cur."Health_Canada_identifier", nxt."Health_Canada_identifier"),
+		('Health_Canada_product_name', cur."Health_Canada_product_name", nxt."Health_Canada_product_name")
 	) AS cmp (
 		field_name, cur_value, nxt_value
 	) ON true
@@ -1910,7 +1916,8 @@ from
 	LEFT JOIN LATERAL (VALUES
 		('ntp_formal_name', cur.ntp_formal_name, nxt.ntp_formal_name),
 		('ntp_status', UPPER(cur.ntp_status), UPPER(nxt.ntp_status)),
-		('ntp_status_effective_time', cur.ntp_status_effective_time, nxt.ntp_status_effective_time)
+		('ntp_status_effective_time', cur.ntp_status_effective_time, nxt.ntp_status_effective_time),
+		('ntp_type', cur.ntp_type, COALESCE(nxt.ntp_type, 'NA'))
 	) AS cmp (
 		field_name, cur_value, nxt_value
 	) ON true
@@ -2187,9 +2194,15 @@ select
 	(select string_agg(cast(ddf.dpd_form_code as varchar), '-' order by ddf.dpd_form_code) from
 		dpd_drug_form ddf
 	where ddf.dpd_drug_code = dd.code) as dpd_form_code_combo,
+	(select string_agg(df.name_en, ', ' order by ddf.dpd_form_code) from
+		dpd_drug_form ddf left join dpd_form df on(df.code = ddf.dpd_form_code)
+	where ddf.dpd_drug_code = dd.code) as dpd_form_name_combo,
 	(select string_agg(cast(ddr.dpd_route_code as varchar), '-' order by ddr.dpd_route_code) from
 		dpd_drug_route ddr
-	where ddr.dpd_drug_code = dd.code) as dpd_route_code_combo
+	where ddr.dpd_drug_code = dd.code) as dpd_route_code_combo,
+	(select string_agg(dr.name_en, ', ' order by ddr.dpd_route_code) from
+		dpd_drug_route ddr left join dpd_route dr on(dr.code = ddr.dpd_route_code)
+	where ddr.dpd_drug_code = dd.code) as dpd_route_name_combo
 from
 	dpd_drug dd
 	LEFT JOIN ccdd_drug_dosage_form ddform on(ddform.dpd_drug_code = dd.code)
@@ -2334,6 +2347,58 @@ order by
 	nxt.mp_formal_name;
 -- ddl-end --
 ALTER VIEW public.qa_mp_ntp_tm_relationship_missing_parents OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.dpd_ingredient_source | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.dpd_ingredient_source CASCADE;
+CREATE MATERIALIZED VIEW public.dpd_ingredient_source
+AS 
+
+SELECT
+   ai.ingredient AS dpd_named_ingredient_name,
+   ai.active_ingredient_code AS dpd_active_ingredient_code_id
+FROM
+   dpd.active_ingredient AS ai
+WHERE
+   EXISTS(select * from public.dpd_drug_source ds where ds.code = ai.drug_code)   GROUP BY dpd_named_ingredient_name, dpd_active_ingredient_code_id;
+-- ddl-end --
+ALTER MATERIALIZED VIEW public.dpd_ingredient_source OWNER TO postgres;
+-- ddl-end --
+
+-- object: ccdd_tm_ingredient_stem_tm_code | type: INDEX --
+-- DROP INDEX IF EXISTS public.ccdd_tm_ingredient_stem_tm_code CASCADE;
+CREATE INDEX ccdd_tm_ingredient_stem_tm_code ON public.ccdd_tm_ingredient_stem
+	USING btree
+	(
+	  ccdd_tm_code
+	);
+-- ddl-end --
+
+-- object: public.qa_missing_concepts_pseudodin | type: VIEW --
+-- DROP VIEW IF EXISTS public.qa_missing_concepts_pseudodin CASCADE;
+CREATE VIEW public.qa_missing_concepts_pseudodin
+AS 
+
+select
+	nxt.din,
+	nxt.mp_formal_name,
+	p.dpd_drug_code as drug_code,
+	p.unit as unit_of_presentation,
+	p.size_amount as uop_size_amount,
+	p.size_unit as uop_size_unit
+from
+	ccdd_mp_table_candidate nxt
+	left join ccdd_presentation p on(p.id = nxt.ccdd_presentation_id)
+where
+	nxt.ccdd_presentation_id is not null
+	and
+	nxt.presentation_count > 1
+	and
+	nxt.pseudodin is null
+order by
+	nxt.dpd_drug_code;
+-- ddl-end --
+ALTER VIEW public.qa_missing_concepts_pseudodin OWNER TO postgres;
 -- ddl-end --
 
 -- -- object: active_ingredient_drug_code_fkey | type: CONSTRAINT --
