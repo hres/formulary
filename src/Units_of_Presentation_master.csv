@@ -49,7 +49,7 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 87102,ampoule,2,mL,Y,N
 87173,ampoule,2,mL,N,N
 15756,ampoule,1,mL,Y,N
-15757,ampoule,2,mL,Y,N
+15757,ampoule,2,mL,N,N
 49026,vial,5,mL,Y,N
 49026,vial,10,mL,Y,N
 68717,vial,5,mL,Y,N
