@@ -141,8 +141,8 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 7425,bag,100,mL,Y,N
 10871,bag,100,mL,Y,N
 10871,bag,300,mL,Y,N
-10705,vial,10,mL,Y,N
-10706,vial,10,mL,Y,N
+10705,vial,10,mL,N,N
+10706,vial,10,mL,N,N
 12697,ampoule,2,mL,Y,N
 12697,ampoule,5,mL,Y,N
 13063,vial,2,mL,Y,N
@@ -151,8 +151,8 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 9398,ampoule,5,mL,Y,N
 91579,vial,2,mL,Y,N
 91579,vial,5,mL,Y,N
-43094,vial,2,mL,Y,N
-74194,vial,2,mL,Y,N
+43094,vial,2,mL,N,N
+74194,vial,2,mL,N,N
 43104,ampoule,5,mL,Y,N
 43078,syringe,0.5,mL,N,Y
 84675,syringe,0.5,mL,N,Y
@@ -293,7 +293,7 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 31358,vial,10,mL,Y,N
 8118,vial,1,mL,Y,N
 50516,vial,10,mL,Y,N
-16848,vial,10,mL,Y,N
+16848,vial,10,mL,N,N
 93234,vial,10,mL,Y,N
 43431,ampoule,1,mL,Y,N
 70198,vial,10,mL,Y,N
