@@ -514,7 +514,7 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
            group_by(mp_formal_name) %T>%
            {mp_names_with_descriptor <<- filter(., n() > 1) %>%
                                          ungroup() %>%
-                                         mutate(mp_formal_name = str_replace(mp_formal_name, brand_name, paste(brand_name, descriptor, sep = " ")))} %>%
+                                         mutate(mp_formal_name = str_replace(mp_formal_name, brand_name, str_trim(paste(brand_name, descriptor, sep = " "))))} %>%
            filter(n() == 1) %>%
            ungroup() %>%
            bind_rows(mp_names_with_descriptor)
