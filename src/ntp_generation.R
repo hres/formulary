@@ -499,7 +499,7 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
                                             first_market_date,
                                             current_status_date),
          mp_status = case_when(current_status == "MARKETED" ~ "Active",
-                               current_status == "CANCELLED POST MARKET" & expiration_date > dpdextractdate ~ "Active",
+                               current_status == "CANCELLED POST MARKET" & lubridate::dmy(expiration_date) > lubridate::ymd(dpdextractdate) ~ "Active",
                                TRUE ~ "Inactive")) %T>%
          {ccdd_pseudodins <<- group_by(., drug_identification_number) %>% 
                          filter(n() > 1) %>%
