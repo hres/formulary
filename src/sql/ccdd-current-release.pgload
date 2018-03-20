@@ -1,5 +1,5 @@
 LOAD CSV
-  FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/QAfiles/20180309/mp_qa_release_20180309.csv
+  FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/QAfiles/20180315/mp_qa_release_20180315.csv
     WITH ENCODING UTF-8
     (
       mp_code,
@@ -32,7 +32,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/QAfiles/20180309/ntp_qa_release_20180309.csv
+  FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/QAfiles/20180315/ntp_qa_release_20180315.csv
     WITH ENCODING UTF-8
     (
       ntp_code,
@@ -61,7 +61,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/QAfiles/20180309/tm_qa_release_20180309.csv
+  FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/QAfiles/20180315/tm_qa_release_20180315.csv
     WITH ENCODING UTF-8
     (
       tm_code,
@@ -84,7 +84,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/QAfiles/20180309/mp_ntp_tm_relationship_qa_release_20180309.csv
+  FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/QAfiles/20180315/mp_ntp_tm_relationship_qa_release_20180315.csv
     WITH ENCODING UTF-8
     (
       tm_code,
