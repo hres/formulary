@@ -173,6 +173,7 @@ dpd_human_ccdd_products <- drug %>%
   filter(current_status == "MARKETED"  |
            (current_status == "DORMANT" & current_status_date > ccdd_start_date)|
            current_status == "CANCELLED POST MARKET" & current_status_date > ccdd_start_date|
+           current_status == "CANCELLED POST MARKET" & lubridate::dmy(expiration_date) > ymd(ccdd_start_date)|
 #temporary fudge for previously published DINs
                       drug_identification_number %in% c("00313580", "00578487", "00870943", "02245686", "02248454", "02240341", "02312530", "02312549",
                                                          "02316544", "02324326", "02324334", "00636533", "00519367", "02229760", "02229761"))
