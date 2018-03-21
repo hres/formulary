@@ -112,6 +112,7 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40061,modified-release oral capsule,56,ORAL,Orale,106,CAPSULE (CONTROLLED-DELIVERY),Capsule (? lib?ration contr?l?e),29389,TRUE,2017-11-28,dbuijs,e93c1d28-d459-11e7-8749-aa0000cecfa6
 40061,modified-release oral capsule,56,ORAL,Orale,172,CAPSULE (IMMEDIATE AND DELAYED RELEASE),Capsule (? lib?ration imm?diate et retard?e),29393,TRUE,2017-11-28,dbuijs,e93c1ecc-d459-11e7-8749-aa0000cecfa6
 40061,modified-release oral capsule,56,ORAL,Orale,171,CAPSULE (IMMEDIATE AND EXTENDED RELEASE),Capsule (? lib?ration imm?diate et prolong?e),29394,TRUE,2017-11-28,dbuijs,e93c1f30-d459-11e7-8749-aa0000cecfa6
+40061,modified-release oral capsule,56,ORAL,Orale,181,CAPSULE (CONTROLLED RELEASE),Capsule à libération contrôlée,52573,TRUE,2018-02-22,dbuijs,315c20ea-1815-11e8-a769-aa0000cecfa6
 40080,modified-release oral tablet,56,ORAL,Orale,138,TABLET (COMBINED RELEASE),Comprim? (? action combin?e),29423,TRUE,2017-11-28,dbuijs,e93c2d9a-d459-11e7-8749-aa0000cecfa6
 40080,modified-release oral tablet,56,ORAL,Orale,159,TABLET (DELAYED AND EXTENDED RELEASE),Comprim? (? lib?ration retard?e et prolong?e),29424,TRUE,2017-11-28,dbuijs,e93c2dfe-d459-11e7-8749-aa0000cecfa6
 40080,modified-release oral tablet,56,ORAL,Orale,170,TABLET (IMMEDIATE AND DELAYED-RELEASE),Comprim? (? lib?ration imm?diate et retard?e),29430,TRUE,2017-11-28,dbuijs,e93c3074-d459-11e7-8749-aa0000cecfa6
@@ -567,5 +568,4 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40129,wipe,107,TOPICAL (HOSPITAL/HC FACILITIES),"Topique (H?pitaux, ?tablissements de soins de sant?)",105,WIPE,Serviette,29522,TRUE,2017-11-28,dbuijs,e93c5914-d459-11e7-8749-aa0000cecfa6
 40129,wipe,104,TOPICAL (HOUSEHOLD),Topique (Maison),105,WIPE,Serviette,29528,TRUE,2017-11-28,dbuijs,e93c5b44-d459-11e7-8749-aa0000cecfa6
 40055,prolonged-release eye drops,55,OPHTHALMIC,Ophtalmique,155,SOLUTION (EXTENDED RELEASE),Solution (? lib?ration prolong?e),,,,,
-40143,modified-release oral capsule,56,ORAL,Orale,181,CAPSULE (CONTROLLED RELEASE),Capsule à libération contrôlée,52573,TRUE,2018-02-22,dbuijs,315c20ea-1815-11e8-a769-aa0000cecfa6
 40144,buccal film,3,BUCCAL,Buccale,167,"FILM, SOLUBLE","Pellicule, soluble",,,,,
