@@ -1147,7 +1147,7 @@ Y,NORGESTIMATE,NORGESTIMATE,norgestimate,FALSE,norgestimate
 Y,,NORMETHADONE HYDROCHLORIDE,normethadone,FALSE,normethadone hydrochloride
 Y,NORTRIPTYLINE,NORTRIPTYLINE (NORTRIPTYLINE HYDROCHLORIDE),nortriptyline,FALSE,nortriptyline (nortriptyline hydrochloride)
 ,,NYLIDRIN HYDROCHLORIDE,nylidrin hydrochloride,FALSE,nylidrin hydrochloride
-Y,,NUSINERSEN (NUSINERSEN SODIUM),nusinersen,,nusinersen (nusinersen sodium)
+Y,,NUSINERSEN (NUSINERSEN SODIUM),nusinersen,FALSE,nusinersen (nusinersen sodium)
 Y,NYSTATIN,NYSTATIN,nystatin,FALSE,nystatin
 ,,OBETICHOLIC ACID,obeticholic acid,FALSE,obeticholic acid
 ,,Obinutuzumab,obinutuzumab,FALSE,obinutuzumab
@@ -1207,7 +1207,7 @@ Y,,OZENOXACIN,ozenoxacin,FALSE,ozenoxacin
 ,,PALIPERIDONE,paliperidone,FALSE,paliperidone
 ,,PALIPERIDONE (Paliperidone Palmitate),paliperidone (paliperidone palmitate),FALSE,paliperidone (paliperidone palmitate)
 ,,PALIVIZUMAB,palivizumab,FALSE,palivizumab
-,,PALONOSETRON (PALONOSETRON HYDROCHLORIDE),palonosetron (palonosetron hydrochloride),FALSE,palonosetron (palonosetron hydrochloride)
+Y,,PALONOSETRON (PALONOSETRON HYDROCHLORIDE),palonosetron,FALSE,palonosetron (palonosetron hydrochloride)
 ,,PAMABROM,pamabrom,FALSE,pamabrom
 ,,PAMIDRONATE DISODIUM,pamidronate disodium,FALSE,pamidronate disodium
 ,,PANCURONIUM BROMIDE,pancuronium bromide,FALSE,pancuronium bromide
@@ -1442,7 +1442,7 @@ Y,RIVASTIGMINE,RIVASTIGMINE,rivastigmine,FALSE,rivastigmine
 Y,RIVASTIGMINE,RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE),rivastigmine,FALSE,rivastigmine (rivastigmine hydrogen tartrate)
 Y,RIZATRIPTAN,RIZATRIPTAN (RIZATRIPTAN BENZOATE),rizatriptan,FALSE,rizatriptan (rizatriptan benzoate)
 ,,ROCURONIUM BROMIDE,rocuronium bromide,FALSE,rocuronium bromide
-Y,,ROFLUMILAST,roflumilast,FALSE,roflumilast
+Y,,ROFLUMILAST,Roflumilast,FALSE,roflumilast
 ,,Romidepsin,romidepsin,FALSE,romidepsin
 ,,ROMIPLOSTIM,romiplostim,FALSE,romiplostim
 ,,ROPINIROLE (ROPINIROLE HYDROCHLORIDE),ropinirole (ropinirole hydrochloride),FALSE,ropinirole (ropinirole hydrochloride)
@@ -1523,7 +1523,7 @@ Y,,SODIUM CITRATE,sodium citrate,FALSE,sodium citrate
 ,,Sodium Sulfate Anhydrous,sodium sulfate anhydrous,FALSE,sodium sulfate anhydrous
 ,,SODIUM TETRADECYL SULFATE,sodium tetradecyl sulfate,FALSE,sodium tetradecyl sulfate
 ,,SODIUM THIOSULFATE,sodium thiosulfate,FALSE,sodium thiosulfate
-,,SOFOSBUVIR,sofosbuvir,FALSE,sofosbuvir
+Y,,SOFOSBUVIR,sofosbuvir,FALSE,sofosbuvir
 Y,SOLIFENACIN,SOLIFENACIN SUCCINATE,solifenacin,FALSE,solifenacin succinate
 ,,SOMATROPIN,somatropin,FALSE,somatropin
 ,,SORAFENIB (SORAFENIB TOSYLATE),sorafenib (sorafenib tosylate),FALSE,sorafenib (sorafenib tosylate)
@@ -1714,7 +1714,7 @@ Y,VARENICLINE,VARENICLINE (VARENICLINE TARTRATE),varenicline,FALSE,varenicline (
 ,,VECURONIUM BROMIDE,vecuronium bromide,FALSE,vecuronium bromide
 ,,Vedolizumab,vedolizumab,FALSE,vedolizumab
 ,,VELAGLUCERASE ALFA,velaglucerase alfa,FALSE,velaglucerase alfa
-,,VELPATASVIR,velpatasvir,FALSE,velpatasvir
+Y,,VELPATASVIR,velpatasvir,FALSE,velpatasvir
 ,,Vemurafenib,vemurafenib,FALSE,vemurafenib
 ,,VENETOCLAX,venetoclax,FALSE,venetoclax
 Y,VENLAFAXINE,VENLAFAXINE (VENLAFAXINE HYDROCHLORIDE),venlafaxine,FALSE,venlafaxine (venlafaxine hydrochloride)
