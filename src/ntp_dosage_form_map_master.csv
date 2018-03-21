@@ -567,4 +567,5 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40129,wipe,107,TOPICAL (HOSPITAL/HC FACILITIES),"Topique (H?pitaux, ?tablissements de soins de sant?)",105,WIPE,Serviette,29522,TRUE,2017-11-28,dbuijs,e93c5914-d459-11e7-8749-aa0000cecfa6
 40129,wipe,104,TOPICAL (HOUSEHOLD),Topique (Maison),105,WIPE,Serviette,29528,TRUE,2017-11-28,dbuijs,e93c5b44-d459-11e7-8749-aa0000cecfa6
 40055,prolonged-release eye drops,55,OPHTHALMIC,Ophtalmique,155,SOLUTION (EXTENDED RELEASE),Solution (? lib?ration prolong?e),,,,,
-,buccal film,3,BUCCAL,Buccale,167,"FILM, SOLUBLE","Pellicule, soluble",,,,,
+40143,modified-release oral capsule,56,ORAL,Orale,181,CAPSULE (CONTROLLED RELEASE),Capsule à libération contrôlée,52573,TRUE,2018-02-22,dbuijs,315c20ea-1815-11e8-a769-aa0000cecfa6
+40144,buccal film,3,BUCCAL,Buccale,167,"FILM, SOLUBLE","Pellicule, soluble",,,,,
