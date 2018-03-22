@@ -170,10 +170,12 @@ dpd_human_ccdd_products <- drug %>%
   filter(class == "Human") %>%
   left_join(dpd_first_market_date) %>%
   left_join(dpd_current_status) %>%
+  collect() %>%
   filter(current_status == "MARKETED"  |
            (current_status == "DORMANT" & current_status_date > ccdd_start_date)|
            current_status == "CANCELLED POST MARKET" & current_status_date > ccdd_start_date|
-           current_status == "CANCELLED POST MARKET" & lubridate::dmy(expiration_date) > ymd(ccdd_start_date)|
+# Needs to be coerced to dates
+                      current_status == "CANCELLED POST MARKET" & lubridate::dmy(expiration_date) > lubridate::ymd(ccdd_start_date)|
 #temporary fudge for previously published DINs
                       drug_identification_number %in% c("00313580", "00578487", "00870943", "02245686", "02248454", "02240341", "02312530", "02312549",
                                                          "02316544", "02324326", "02324334", "00636533", "00519367", "02229760", "02229761"))
@@ -253,7 +255,8 @@ ntp_dosage_form_map <- collect(ccdd_ntp_dosage_forms)
 # with ingredients flagged in the ingredient stem table 
 
 #This is an intermdediate (QA) file
-dpd_ccdd_form_route_combinations_products <- dpd_human_ccdd_products %>% 
+dpd_ccdd_form_route_combinations_products <- dpd_human_ccdd_products %>%
+  {copy_to(dpd, ., temporary = TRUE, overwrite = TRUE)} %>%
   left_join(ing) %>% 
   select(extract, drug_code, dpd_ingredient = ingredient) %>% 
   left_join(form) %>% 
@@ -287,7 +290,9 @@ dpd_ccdd_form_route_combinations_summary <- dpd_ccdd_form_route_combinations_pro
                                                 n_any_ccdd = sum(any_ccdd, na.rm = TRUE),
                                                 n_all_ccdd = sum(all_ccdd, na.rm = TRUE),
                                                 n_tm = n_distinct(tm_formal_name)) %>%
-                                      full_join(ntp_dosage_form_map) %>%
+                                      full_join(ntp_dosage_form_map %>% 
+                                                  mutate(route_of_administration_code = str_replace_all(route_of_administration_code, "-", "\\|"),
+                                                         pharm_form_code = str_replace_all(pharm_form_code, "-", "\\|"))) %>%
                                       select(-audit_id, -validated, -validated_by, -date_validated, -ntp_dosage_form_id)
 
 # Rows from the dpd_ccdd combos that are not in the ntp_dosage_form_route_map
