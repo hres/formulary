@@ -80,6 +80,7 @@ Y,AMPHETAMINE,AMPHETAMINE SULFATE,amphetamine,FALSE,amphetamine sulfate
 ,,AMPHOTERICIN B,amphotericin b,FALSE,amphotericin b
 Y,AMPICILLIN,AMPICILLIN,ampicillin,FALSE,ampicillin
 Y,AMPICILLIN,AMPICILLIN (AMPICILLIN SODIUM),ampicillin,FALSE,ampicillin (ampicillin sodium)
+Y,,AMPICILLIN (AMPICILLIN TRIHYDRATE),ampicillin,TRUE,ampicillin (ampicillin trihydrate)
 ,,AMSACRINE,amsacrine,FALSE,amsacrine
 ,,AMYLASE,amylase,FALSE,amylase
 ,,AMYLMETACRESOL,amylmetacresol,FALSE,amylmetacresol
@@ -443,6 +444,7 @@ Y,,DEFIBROTIDE,defibrotide,FALSE,defibrotide
 Y,DESOGESTREL,DESOGESTREL,desogestrel,FALSE,desogestrel
 ,,DESONIDE,desonide,FALSE,desonide
 ,,DESOXIMETASONE,desoximetasone,FALSE,desoximetasone
+Y,,DESVENLAFAXINE,desvenlafaxine,FALSE,desvenlafaxine
 Y,DESVENLAFAXINE,DESVENLAFAXINE (DESVENLAFAXINE SUCCINATE),desvenlafaxine,FALSE,desvenlafaxine (desvenlafaxine succinate)
 Y,DEXAMETHASONE,DEXAMETHASONE,dexamethasone (base),FALSE,dexamethasone
 Y,DEXAMETHASONE,DEXAMETHASONE (DEXAMETHASONE SODIUM METASULPHOBENZOATE),dexamethasone (base),FALSE,dexamethasone (dexamethasone sodium metasulphobenzoate)
@@ -1664,6 +1666,7 @@ Y,TRAVOPROST,TRAVOPROST,travoprost,FALSE,travoprost
 Y,TRAZODONE,TRAZODONE HYDROCHLORIDE,trazodone,FALSE,trazodone hydrochloride
 ,,TREPROSTINIL (TREPROSTINIL SODIUM),treprostinil (treprostinil sodium),FALSE,treprostinil (treprostinil sodium)
 ,,TRETINOIN,tretinoin,FALSE,tretinoin
+Y,,TRIAMCINOLONE DIACETATE,triamcinolone,FALSE,triamcinolone
 Y,TRIAMCINOLONE ACETONIDE,TRIAMCINOLONE ACETONIDE,triamcinolone acetonide,FALSE,triamcinolone acetonide
 Y,TRIAMCINOLONE ACETONIDE,TRIAMCINOLONE HEXACETONIDE,triamcinolone hexacetonide,FALSE,triamcinolone hexacetonide
 Y,TRIAMTERENE,TRIAMTERENE,triamterene,FALSE,triamterene
