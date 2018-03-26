@@ -67,6 +67,7 @@ pseudodin,drug_code,unit_of_presentation,uop_size_amount,uop_size_unit
 "700241","1620","vial","6","mL"
 "700242","36481","vial","10","mL"
 "700243","36481","vial","1","mL"
+"700244","36480","vial","1","mL"
 "700250","5936","vial","1","mL"
 "700251","5936","vial","50","mL"
 "700252","5936","vial","5","mL"
@@ -161,3 +162,5 @@ pseudodin,drug_code,unit_of_presentation,uop_size_amount,uop_size_unit
 "700519","12664","ampoule","20","mL"
 "700520","12664","vial","10","mL"
 "700521","12664","vial","20","mL"
+"700522","94899","vial","2","mL"
+"700523","94899","vial","4","mL"

@@ -1,6 +1,6 @@
 LOAD CSV
   FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Combination%20Products_master.csv
-    WITH ENCODING LATIN-1
+    WITH ENCODING UTF-8
     (
       drug_code,
       drug_identification_number,
@@ -52,7 +52,7 @@ LOAD CSV
 
 LOAD CSV
   FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Units_of_Presentation_master.csv
-    WITH ENCODING LATIN-1
+    WITH ENCODING UTF-8
     (
       drug_code,
       unit_of_presentation,
@@ -78,8 +78,8 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ntp_dosage_form_map_master.csv
-    WITH ENCODING UTF-8
+  FROM https://raw.githubusercontent.com/hres/formulary/sql-views/src/ntp_dosage_form_map_master.csv
+    WITH ENCODING LATIN-1
     (
       ntp_dosage_form_code,
       ntp_dosage_form,
@@ -116,7 +116,7 @@ LOAD CSV
 
 LOAD CSV
   FROM ./test/ccdd-mp-brand-override-draft.csv
-    WITH ENCODING LATIN-1
+    WITH ENCODING UTF-8
     (
       drug_code,
       brand
@@ -198,7 +198,7 @@ LOAD CSV
 
 LOAD CSV
   FROM http://raw.githubusercontent.com/hres/formulary/master/src/Julie/TMs%20for%20Final%20Filter%2020180115.csv
-    WITH ENCODING LATIN-1
+    WITH ENCODING UTF-8
     (
       tm_code
     )
