@@ -80,7 +80,7 @@ Y,AMPHETAMINE,AMPHETAMINE SULFATE,amphetamine,FALSE,amphetamine sulfate
 ,,AMPHOTERICIN B,amphotericin b,FALSE,amphotericin b
 Y,AMPICILLIN,AMPICILLIN,ampicillin,FALSE,ampicillin
 Y,AMPICILLIN,AMPICILLIN (AMPICILLIN SODIUM),ampicillin,FALSE,ampicillin (ampicillin sodium)
-Y,,AMPICILLIN (AMPICILLIN TRIHYDRATE),ampicillin,TRUE,ampicillin (ampicillin trihydrate)
+Y,,AMPICILLIN (AMPICILLIN TRIHYDRATE),ampicillin,TRUE,ampicillin
 ,,AMSACRINE,amsacrine,FALSE,amsacrine
 ,,AMYLASE,amylase,FALSE,amylase
 ,,AMYLMETACRESOL,amylmetacresol,FALSE,amylmetacresol
@@ -269,7 +269,7 @@ Y,CARVEDILOL,CARVEDILOL,carvedilol,FALSE,carvedilol
 ,,Catridecacog,catridecacog,FALSE,catridecacog
 ,,CEFACLOR,cefaclor,FALSE,cefaclor
 Y,CEFADROXIL,CEFADROXIL,cefadroxil,FALSE,cefadroxil
-Y,CEFADROXIL,CEFADROXIL (CEFADROXIL MONOHYDRATE),cefadroxil,TRUE,cefadroxil (cefadroxil monohydrate)
+Y,CEFADROXIL,CEFADROXIL (CEFADROXIL MONOHYDRATE),cefadroxil,TRUE,cefadroxil
 ,,CEFAZOLIN (CEFAZOLIN SODIUM),cefazolin (cefazolin sodium),FALSE,cefazolin (cefazolin sodium)
 ,,CEFEPIME (CEFEPIME HYDROCHLORIDE),cefepime (cefepime hydrochloride),FALSE,cefepime (cefepime hydrochloride)
 ,,CEFIXIME,cefixime,FALSE,cefixime
@@ -864,7 +864,7 @@ Y,IPRATROPIUM,IPRATROPIUM BROMIDE,ipratropium,FALSE,ipratropium bromide
 Y,IPRATROPIUM,IPRATROPIUM BROMIDE (IPRATROPIUM BROMIDE MONOHYDRATE),ipratropium,TRUE,ipratropium bromide
 Y,IRBESARTAN,IRBESARTAN,irbesartan,FALSE,irbesartan
 Y,,IRINOTECAN HYDROCHLORIDE,irinotecan,FALSE,irinotecan hydrochloride
-Y,,IRINOTECAN HYDROCHLORIDE (IRINOTECAN HYDROCHLORIDE TRIHYDRATE),irinotecan,TRUE,irinotecan hydrochloride (irinotecan hydrochloride trihydrate)
+Y,,IRINOTECAN HYDROCHLORIDE (IRINOTECAN HYDROCHLORIDE TRIHYDRATE),irinotecan,TRUE,irinotecan hydrochloride (irinotecan hydrochloride)
 Y,,IRINOTECAN HYDROCHLORIDE (IRINOTECAN SUCROSE OCTASULFATE),irinotecan,TRUE,irinotecan hydrochloride (irinotecan sucrose octasulfate)
 ,,IRON (FERROUS FUMARATE),iron (ferrous fumarate),FALSE,iron (ferrous fumarate)
 ,,IRON (IRON DEXTRAN COMPLEX),iron (iron dextran complex),FALSE,iron (iron dextran complex)
@@ -1091,7 +1091,7 @@ Y,MORPHINE,MORPHINE SULFATE,morphine,FALSE,morphine sulfate
 Y,MOXIFLOXACIN,MOXIFLOXACIN (MOXIFLOXACIN HYDROCHLORIDE),moxifloxacin,FALSE,moxifloxacin (moxifloxacin hydrochloride)
 ,,MUMPS VIRUS VACCINE LIVE ATTENUATED (JERYL LYNN STRAIN),mumps virus vaccine live attenuated (jeryl lynn strain),FALSE,mumps virus vaccine live attenuated (jeryl lynn strain)
 Y,MUPIROCIN,MUPIROCIN,mupirocin,FALSE,mupirocin
-Y,MUPIROCIN,MUPIROCIN (MUPIROCIN CALCIUM DIHYDRATE),mupirocin,TRUE,mupirocin (mupirocin calcium dihydrate)
+Y,MUPIROCIN,MUPIROCIN (MUPIROCIN CALCIUM DIHYDRATE),mupirocin,TRUE,mupirocin (mupirocin calcium)
 ,,MYCOPHENOLATE MOFETIL,mycophenolate mofetil,FALSE,mycophenolate mofetil
 ,,MYCOPHENOLATE MOFETIL (MYCOPHENOLATE MOFETIL HYDROCHLORIDE),mycophenolate mofetil (mycophenolate mofetil hydrochloride),FALSE,mycophenolate mofetil (mycophenolate mofetil hydrochloride)
 ,,MYCOPHENOLIC ACID (MYCOPHENOLATE SODIUM),mycophenolic acid (mycophenolate sodium),FALSE,mycophenolic acid (mycophenolate sodium)
@@ -1180,7 +1180,7 @@ Y,OMEPRAZOLE,OMEPRAZOLE,omeprazole,FALSE,omeprazole
 Y,OMEPRAZOLE,OMEPRAZOLE (OMEPRAZOLE MAGNESIUM),omeprazole,FALSE,omeprazole (omeprazole magnesium)
 ,,OnabotulinumtoxinA,onabotulinumtoxina,FALSE,onabotulinumtoxina
 Y,,ONDANSETRON,ondansetron,FALSE,ondansetron
-Y,,ONDANSETRON (ONDANSETRON HYDROCHLORIDE DIHYDRATE),ondansetron ,TRUE,ondansetron (ondansetron hydrochloride dihydrate)
+Y,,ONDANSETRON (ONDANSETRON HYDROCHLORIDE DIHYDRATE),ondansetron ,TRUE,ondansetron (ondansetron hydrochloride)
 Y,,ONDANSETRON (ONDANSETRON HYDROCHLORIDE),ondansetron,FALSE,ondansetron (ondansetron hydrochloride)
 Y,,OPIUM,opium,FALSE,opium
 Y,ORCIPRENALINE,ORCIPRENALINE SULFATE,orciprenaline,FALSE,orciprenaline sulfate
@@ -1670,7 +1670,7 @@ Y,TRAVOPROST,TRAVOPROST,travoprost,FALSE,travoprost
 Y,TRAZODONE,TRAZODONE HYDROCHLORIDE,trazodone,FALSE,trazodone hydrochloride
 ,,TREPROSTINIL (TREPROSTINIL SODIUM),treprostinil (treprostinil sodium),FALSE,treprostinil (treprostinil sodium)
 ,,TRETINOIN,tretinoin,FALSE,tretinoin
-Y,,TRIAMCINOLONE DIACETATE,triamcinolone,FALSE,triamcinolone
+Y,,TRIAMCINOLONE DIACETATE,triamcinolone diacetate,FALSE,triamcinolone diacetate
 Y,TRIAMCINOLONE ACETONIDE,TRIAMCINOLONE ACETONIDE,triamcinolone acetonide,FALSE,triamcinolone acetonide
 Y,TRIAMCINOLONE ACETONIDE,TRIAMCINOLONE HEXACETONIDE,triamcinolone hexacetonide,FALSE,triamcinolone hexacetonide
 Y,TRIAMTERENE,TRIAMTERENE,triamterene,FALSE,triamterene
