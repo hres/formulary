@@ -466,3 +466,5 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 79003,bag,200,mL,Y,N,,,
 74200,vial,20,mL,Y,N,,,
 74200,vial,40,mL,Y,N,,,
+95624,pen,3,mL,N,Y,,,
+95623,pen,3,mL,N,Y,,,
