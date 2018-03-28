@@ -451,3 +451,4 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 95935,syringe,2,mL,Y,N,,,
 94760,vial,20,mL,Y,N,,,
 95016,vial,25,mL,Y,N,,,
+76591,tube,5,g,N,Y,,,
