@@ -183,7 +183,7 @@ dpd_human_ccdd_products <- drug %>%
 # Taking only the ingredients that are used in the ccdd products.
 # Left-join Ingredient_stem file when available. 
 dpd_ccdd_ingredient_names <- ing %>%
-  semi_join(dpd_human_ccdd_products) %>%
+  semi_join(dpd_human_ccdd_products, copy = TRUE) %>%
   distinct(ingredient, active_ingredient_code) %>%
   collect() %>%
   select(dpd_ingredient = ingredient, everything()) %>%
@@ -309,7 +309,7 @@ missing_form_routes <- filter(dpd_ccdd_form_route_combinations_summary, is.na(nt
 # 
 
 ccdd_drug_ingredients_raw <- ing %>%
-                             semi_join(dpd_human_ccdd_products) %>%
+                             semi_join(dpd_human_ccdd_products, copy = TRUE) %>%
                              select(dpd_ingredient = ingredient, everything()) %>%
                              collect() %>%
                              left_join(dpd_ccdd_ingredient_names)
@@ -437,7 +437,7 @@ ccdd_mp_source_raw <- dpd_human_ccdd_products %>%
                        left_join(comp %>% select(extract,
                                                  drug_code,
                                                  company_code,
-                                                 company_name)) %>%
+                                                 company_name), copy = TRUE) %>%
   left_join(form %>% 
               select(extract,
                      drug_code,
