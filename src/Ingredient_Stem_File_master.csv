@@ -535,6 +535,7 @@ Y,,DOXYLAMINE SUCCINATE,doxylamine,FALSE,doxylamine succinate
 Y,DROSPIRENONE,DROSPIRENONE,drospirenone,FALSE,drospirenone
 ,,DULAGLUTIDE,dulaglutide,FALSE,dulaglutide
 Y,DULOXETINE,DULOXETINE (DULOXETINE HYDROCHLORIDE),duloxetine,FALSE,duloxetine (duloxetine hydrochloride)
+Y,,DUPILUMAB,dupilumab,FALSE,dupilumab
 Y,,DURVALUMAB,durvalumab,FALSE,durvalumab
 Y,DUTASTERIDE,DUTASTERIDE,dutasteride,FALSE,dutasteride
 ,,DYCLONINE HYDROCHLORIDE,dyclonine hydrochloride,FALSE,dyclonine hydrochloride
@@ -932,6 +933,7 @@ Y,LEVOTHYROXINE,LEVOTHYROXINE SODIUM,levothyroxine,FALSE,levothyroxine sodium
 ,,LIDOCAINE (LIDOCAINE HYDROCHLORIDE),lidocaine (lidocaine hydrochloride),FALSE,lidocaine (lidocaine hydrochloride)
 ,,LIDOCAINE HYDROCHLORIDE,lidocaine hydrochloride,FALSE,lidocaine hydrochloride
 ,,LIDOCAINE HYDROCHLORIDE (LIDOCAINE HYDROCHLORIDE MONOHYDRATE),lidocaine hydrochloride (lidocaine hydrochloride monohydrate),TRUE,lidocaine hydrochloride (lidocaine hydrochloride monohydrate)
+Y,,LIFITEGRAST,lifitegrast,FALSE,lifitegrast
 Y,,Linaclotide,linaclotide,FALSE,linaclotide
 ,,LINAGLIPTIN,linagliptin,FALSE,linagliptin
 ,,LINEZOLID,linezolid,FALSE,linezolid
@@ -1063,6 +1065,7 @@ Y,,MIDAZOLAM,midazolam,FALSE,midazolam
 Y,,MIDAZOLAM (MIDAZOLAM HYDROCHLORIDE),midazolam,FALSE,midazolam (midazolam hydrochloride)
 ,,MIDODRINE HYDROCHLORIDE,midodrine hydrochloride,FALSE,midodrine hydrochloride
 ,,MIFEPRISTONE,mifepristone,FALSE,mifepristone
+Y,,MIGALASTAT (MIGALASTAT HYDROCHLORIDE),migalastat,FALSE,migalastat (migalastat hydrochloride)
 ,,MIGLUSTAT,miglustat,FALSE,miglustat
 ,,MILRINONE (MILRINONE LACTATE),milrinone (milrinone lactate),FALSE,milrinone (milrinone lactate)
 ,,MINERAL OIL,mineral oil,FALSE,mineral oil
@@ -1248,6 +1251,7 @@ Y,PENTAZOCINE,PENTAZOCINE (PENTAZOCINE HYDROCHLORIDE),pentazocine,FALSE,pentazoc
 Y,PENTAZOCINE,PENTAZOCINE (PENTAZOCINE LACTATE),pentazocine,FALSE,pentazocine (pentazocine lactate)
 ,,PENTOSAN POLYSULFATE SODIUM,pentosan polysulfate sodium,FALSE,pentosan polysulfate sodium
 ,,PENTOXIFYLLINE,pentoxifylline,FALSE,pentoxifylline
+Y,,PERAMIVIR,peramivir,FALSE,peramivir
 ,,Perampanel,perampanel,FALSE,perampanel
 ,,PERFLUTREN,perflutren,FALSE,perflutren
 ,,PERICIAZINE,periciazine,FALSE,periciazine
@@ -1723,12 +1727,14 @@ Y,,VELPATASVIR,velpatasvir,FALSE,velpatasvir
 Y,VENLAFAXINE,VENLAFAXINE (VENLAFAXINE HYDROCHLORIDE),venlafaxine,FALSE,venlafaxine (venlafaxine hydrochloride)
 Y,VERAPAMIL,VERAPAMIL HYDROCHLORIDE,verapamil,FALSE,verapamil hydrochloride
 ,,VERTEPORFIN,verteporfin,FALSE,verteporfin
+Y,,VERNAKALANT HYDROCHLORIDE,vernakalant,FALSE,vernakalant hydrochloride
 ,,VESPULA SPP VENOM PROTEIN EXTRACT,vespula spp venom protein extract,FALSE,vespula spp venom protein extract
 ,,"VIBRIO CHOLERAE INABA 48 CLASSICAL BIOTYPE, HEAT INACTIVATED","vibrio cholerae inaba 48 classical biotype, heat inactivated",FALSE,"vibrio cholerae inaba 48 classical biotype, heat inactivated"
 ,,"VIBRIO CHOLERAE INABA 6973 E1 TOR BIOTYPE, FORMALIN INACTIVATED","vibrio cholerae inaba 6973 e1 tor biotype, formalin inactivated",FALSE,"vibrio cholerae inaba 6973 e1 tor biotype, formalin inactivated"
 ,,"VIBRIO CHOLERAE OGAWA 50 CLASSICAL BIOTYPE, FORMALIN INACTIVATED","vibrio cholerae ogawa 50 classical biotype, formalin inactivated",FALSE,"vibrio cholerae ogawa 50 classical biotype, formalin inactivated"
 ,,"VIBRIO CHOLERAE OGAWA 50 CLASSICAL BIOTYPE, HEAT INACTIVATED","vibrio cholerae ogawa 50 classical biotype, heat inactivated",FALSE,"vibrio cholerae ogawa 50 classical biotype, heat inactivated"
 ,,VIGABATRIN,vigabatrin,FALSE,vigabatrin
+Y,,VILAZODONE HYDROCHLORIDE,vilazodone,FALSE,vilazodone hydrochloride
 Y,VILANTEROL,Vilanterol (Vilanterol trifenatate),vilanterol,FALSE,vilanterol (vilanterol trifenatate)
 ,,VINBLASTINE SULFATE,vinblastine sulfate,FALSE,vinblastine sulfate
 ,,VINCRISTINE SULFATE,vincristine sulfate,FALSE,vincristine sulfate
