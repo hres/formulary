@@ -13,6 +13,7 @@ REFRESH MATERIALIZED VIEW public.dpd_drug_ingredient_option_source;
 REFRESH MATERIALIZED VIEW public.dpd_drug_form_source;
 REFRESH MATERIALIZED VIEW public.dpd_drug_route_source;
 REFRESH MATERIALIZED VIEW public.dpd_drug_status_source;
+REFRESH MATERIALIZED VIEW public.dpd_drug_schedule_source;
 
 -- depending on DPD data
 REFRESH MATERIALIZED VIEW public.ccdd_ingredient_stem_source;
@@ -82,6 +83,14 @@ INSERT INTO public.dpd_drug_ingredient(
     dpd_named_ingredient_name,
     dpd_active_ingredient_code_id
 FROM public.dpd_drug_ingredient_source;
+
+INSERT INTO public.dpd_drug_schedule(
+    dpd_drug_code,
+    schedule
+) SELECT
+    dpd_drug_code,
+    schedule
+FROM public.dpd_drug_schedule_source;
 
 INSERT INTO public.dpd_drug_ingredient_option(
     dpd_drug_code,
@@ -241,9 +250,13 @@ REFRESH MATERIALIZED VIEW ccdd_drug_dosage_form_by_route;
 REFRESH MATERIALIZED VIEW ccdd_drug_dosage_form;
 REFRESH MATERIALIZED VIEW ccdd_drug_ingredient_summary;
 REFRESH MATERIALIZED VIEW ccdd_drug_tm;
+REFRESH MATERIALIZED VIEW ccdd_tm_special_groupings;
 REFRESH MATERIALIZED VIEW ccdd_drug_status;
+REFRESH MATERIALIZED VIEW ccdd_drug_schedule;
 
 REFRESH MATERIALIZED VIEW ccdd_mp_table;
 REFRESH MATERIALIZED VIEW ccdd_ntp_table;
 REFRESH MATERIALIZED VIEW ccdd_tm_table;
 REFRESH MATERIALIZED VIEW ccdd_mp_ntp_tm_relationship;
+REFRESH MATERIALIZED VIEW ccdd_mp_special_groupings;
+REFRESH MATERIALIZED VIEW ccdd_special_groupings;

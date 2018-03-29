@@ -1,0 +1,23 @@
+LOAD CSV
+  FROM ./test/ccdd-config.csv
+    WITH ENCODING UTF-8
+    (
+      ccdd_date,
+      dpd_extract_date
+    )
+  INTO postgresql:///?public.ccdd_config
+    (
+      ccdd_date,
+      dpd_extract_date
+    )
+  WITH
+    skip header = 1,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+  BEFORE LOAD DO
+  $$ CREATE TABLE public.ccdd_config(
+      ccdd_date date,
+      dpd_extract_date date
+  ) WITH (oids = false); $$
+;

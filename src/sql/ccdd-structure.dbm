@@ -3,7 +3,7 @@
 CAUTION: Do not modify this file unless you know what you are doing.
          Unexpected results may occur if the code is changed deliberately.
 -->
-<dbmodel pgmodeler-ver="0.9.0" last-position="177,1126" last-zoom="1"
+<dbmodel pgmodeler-ver="0.9.0" last-position="1296,1107" last-zoom="1.05"
 	 default-owner="postgres">
 <database name="sandbox">
 </database>
@@ -410,7 +410,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="active_ingredient" sql-disabled="true">
 	<schema name="dpd"/>
 	<role name="postgres"/>
-	<position x="620" y="1280"/>
+	<position x="900" y="1280"/>
 	<column name="extract" default-value="'approved'">
 		<type name="text" length="0"/>
 	</column>
@@ -464,7 +464,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="companies" sql-disabled="true">
 	<schema name="dpd"/>
 	<role name="postgres"/>
-	<position x="1040" y="1540"/>
+	<position x="980" y="1560"/>
 	<column name="extract" default-value="'approved'">
 		<type name="text" length="0"/>
 	</column>
@@ -581,7 +581,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="pharmaceutical_form" sql-disabled="true">
 	<schema name="dpd"/>
 	<role name="postgres"/>
-	<position x="620" y="1600"/>
+	<position x="540" y="1600"/>
 	<column name="extract" default-value="'approved'">
 		<type name="text" length="0"/>
 	</column>
@@ -602,7 +602,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="route" sql-disabled="true">
 	<schema name="dpd"/>
 	<role name="postgres"/>
-	<position x="620" y="1760"/>
+	<position x="500" y="1760"/>
 	<column name="extract" default-value="'approved'">
 		<type name="text" length="0"/>
 	</column>
@@ -623,7 +623,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="status" sql-disabled="true">
 	<schema name="dpd"/>
 	<role name="postgres"/>
-	<position x="220" y="1580"/>
+	<position x="220" y="1640"/>
 	<column name="extract" default-value="'approved'">
 		<type name="text" length="0"/>
 	</column>
@@ -650,10 +650,16 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	</column>
 </table>
 
+<table name="dpd_drug_route">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="660" y="540"/>
+</table>
+
 <view name="dpd_drug_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="660" y="980"/>
+	<position x="220" y="1140"/>
 	<reference table="dpd.drug_product" column="drug_code" alias="dp" column-alias="code"/>
 	<reference table="dpd.drug_product" column="drug_identification_number" alias="dp" column-alias="din"/>
 	<reference table="dpd.drug_product" column="brand_name" alias="dp" column-alias="brand_name_en"/>
@@ -674,19 +680,19 @@ LEFT JOIN dpd.status cs ON(cs.drug_code = dp.drug_code AND cs.current_status_fla
 (
 	cs.status = 'DORMANT'
 	AND
-	cs.history_date > '2017-07-04'
+	cs.history_date > (SELECT ccdd_date FROM ccdd_config LIMIT 1)
 )
 OR
 (
 	cs.status = 'CANCELLED POST MARKET'
 	AND
 	(
-		cs.history_date > '2017-07-04'
+		cs.history_date > (SELECT ccdd_date FROM ccdd_config LIMIT 1)
 		OR
 		(CASE
 			WHEN cs.expiration_date LIKE '____-__-__' THEN to_date(cs.expiration_date, 'YYYY-MM-DD')
 			ELSE to_date(cs.expiration_date, 'DD-MON-YYYY')
-		END) > '2017-07-04'
+		END) > (SELECT ccdd_date FROM ccdd_config LIMIT 1)
 	)
 )
 OR
@@ -718,12 +724,6 @@ OR
 		<object name="dpd_drug_fk" index="1"/>
 		<object name="dpd_drug_form_pk" index="0"/>
 	</customidxs>
-</table>
-
-<table name="dpd_drug_route">
-	<schema name="public"/>
-	<role name="postgres"/>
-	<position x="660" y="540"/>
 </table>
 
 <relationship name="dpd_drug_has_many_dpd_drug_form" type="rel1n"
@@ -776,6 +776,24 @@ OR
 	<special-pk-cols indexes="0"/>
 </relationship>
 
+<table name="schedule" sql-disabled="true">
+	<schema name="dpd"/>
+	<role name="postgres"/>
+	<position x="600" y="1280"/>
+	<column name="drug_code" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="extract" default-value="'approved'">
+		<type name="text" length="0"/>
+	</column>
+	<column name="schedule">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="schedule_f">
+		<type name="varchar" length="0"/>
+	</column>
+</table>
+
 <schema name="ccdd" rect-visible="true" fill-color="#e1e1e1">
 	<role name="postgres"/>
 </schema>
@@ -816,7 +834,7 @@ OR
 <view name="dpd_drug_form_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1020" y="1040"/>
+	<position x="760" y="1920"/>
 	<reference table="dpd.pharmaceutical_form" column="drug_code" alias="pf" column-alias="dpd_drug_code"/>
 	<reference table="dpd.pharmaceutical_form" column="pharm_form_code" alias="pf" column-alias="dpd_form_code"/>
 	<reference table="dpd.pharmaceutical_form" alias="pf"/>
@@ -836,7 +854,7 @@ OR
 <view name="dpd_drug_route_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1020" y="1100"/>
+	<position x="520" y="1920"/>
 	<reference table="dpd.route" column="drug_code" alias="r" column-alias="dpd_drug_code"/>
 	<reference alias="dpd_route_code">
 		<expression><![CDATA[CAST(r.route_of_administration_code as bigint)]]></expression>
@@ -858,7 +876,7 @@ OR
 <view name="dpd_active_ingredient_code_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="920" y="980"/>
+	<position x="780" y="1060"/>
 	<reference table="dpd.active_ingredient" column="active_ingredient_code" alias="ai" column-alias="id"/>
 	<reference table="dpd.active_ingredient" alias="ai"/>
 	<reference>
@@ -877,10 +895,18 @@ OR
 	 dst-table="dpd.active_ingredient"
 	 src-required="false" dst-required="false"/>
 
+<sequence name="dpd_drug_ingredient_option_source_order"
+	 start="1" increment="1"
+	 min-value="0" max-value="2147483647"
+	 cache="1" cycle="false">
+	<schema name="public"/>
+	<role name="postgres"/>
+</sequence>
+
 <view name="dpd_named_ingredient_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="920" y="940"/>
+	<position x="580" y="1060"/>
 	<reference table="dpd.active_ingredient" column="ingredient" alias="ai" column-alias="name"/>
 	<reference table="dpd.active_ingredient" alias="ai"/>
 	<reference>
@@ -896,38 +922,6 @@ OR
 
 <relationship name="rel_dpd_active_ingredient_code_source_cp_active_ingredient" type="reltv"
 	 src-table="public.dpd_named_ingredient_source"
-	 dst-table="dpd.active_ingredient"
-	 src-required="false" dst-required="false"/>
-
-<sequence name="dpd_drug_ingredient_option_source_order"
-	 start="1" increment="1"
-	 min-value="0" max-value="2147483647"
-	 cache="1" cycle="false">
-	<schema name="public"/>
-	<role name="postgres"/>
-</sequence>
-
-<view name="dpd_drug_ingredient_source" materialized="true">
-	<schema name="public"/>
-	<role name="postgres"/>
-	<position x="1280" y="920"/>
-	<reference table="dpd.active_ingredient" column="drug_code" alias="ai" column-alias="dpd_drug_code"/>
-	<reference table="dpd.active_ingredient" column="ingredient" alias="ai" column-alias="dpd_named_ingredient_name"/>
-	<reference table="dpd.active_ingredient" column="active_ingredient_code" alias="ai" column-alias="dpd_active_ingredient_code_id"/>
-	<reference table="dpd.active_ingredient" alias="ai"/>
-	<reference>
-		<expression><![CDATA[EXISTS(select * from public.dpd_drug_source ds where ds.code = ai.drug_code)]]></expression>
-	</reference>
-	<reference>
-		<expression><![CDATA[GROUP BY dpd_drug_code, dpd_named_ingredient_name, dpd_active_ingredient_code_id]]></expression>
-	</reference>
-	<expression type="select-exp">0,1,2</expression>
-	<expression type="from-exp">3</expression>
-	<expression type="simple-exp">4,5</expression>
-</view>
-
-<relationship name="rel_dpd_drug_ingredient_source_active_ingredient" type="reltv"
-	 src-table="public.dpd_drug_ingredient_source"
 	 dst-table="dpd.active_ingredient"
 	 src-required="false" dst-required="false"/>
 
@@ -999,10 +993,34 @@ OR
 );]]></definition>
 </function>
 
+<view name="dpd_drug_ingredient_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1040" y="1080"/>
+	<reference table="dpd.active_ingredient" column="drug_code" alias="ai" column-alias="dpd_drug_code"/>
+	<reference table="dpd.active_ingredient" column="ingredient" alias="ai" column-alias="dpd_named_ingredient_name"/>
+	<reference table="dpd.active_ingredient" column="active_ingredient_code" alias="ai" column-alias="dpd_active_ingredient_code_id"/>
+	<reference table="dpd.active_ingredient" alias="ai"/>
+	<reference>
+		<expression><![CDATA[EXISTS(select * from public.dpd_drug_source ds where ds.code = ai.drug_code)]]></expression>
+	</reference>
+	<reference>
+		<expression><![CDATA[GROUP BY dpd_drug_code, dpd_named_ingredient_name, dpd_active_ingredient_code_id]]></expression>
+	</reference>
+	<expression type="select-exp">0,1,2</expression>
+	<expression type="from-exp">3</expression>
+	<expression type="simple-exp">4,5</expression>
+</view>
+
+<relationship name="rel_dpd_drug_ingredient_source_active_ingredient" type="reltv"
+	 src-table="public.dpd_drug_ingredient_source"
+	 dst-table="dpd.active_ingredient"
+	 src-required="false" dst-required="false"/>
+
 <view name="dpd_drug_ingredient_option_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1380" y="1000"/>
+	<position x="1400" y="1100"/>
 	<reference table="dpd.active_ingredient" column="drug_code" alias="ai" column-alias="dpd_drug_code"/>
 	<reference table="dpd.active_ingredient" column="ingredient" alias="ai" column-alias="dpd_named_ingredient_name"/>
 	<reference table="dpd.active_ingredient" column="active_ingredient_code" alias="ai" column-alias="dpd_active_ingredient_code_id"/>
@@ -1035,7 +1053,7 @@ OR
 <view name="dpd_route_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="660" y="1140"/>
+	<position x="580" y="1000"/>
 	<reference>
 		<expression><![CDATA[SELECT code, max(name_en) as name_en FROM (
 	SELECT
@@ -1053,7 +1071,7 @@ OR
 		null as name_en
 	FROM
 	   ccdd.ntp_dosage_forms AS df,
-	   regexp_split_to_table(df.route_of_administration_code, '\s*-\s*', 'i') AS route_code_part
+	   regexp_split_to_table(df.route_of_administration_code, '\s*\D\s*', 'i') AS route_code_part
 ) allcodes
 GROUP BY code
 ]]></expression>
@@ -1122,29 +1140,6 @@ GROUP BY code
 	 dst-table="ccdd.ingredient_stem_csv"
 	 src-required="false" dst-required="false"/>
 
-<view name="ccdd_dpd_ingredient_ntp_mapping_source" materialized="true">
-	<schema name="public"/>
-	<role name="postgres"/>
-	<position x="1800" y="360"/>
-	<reference table="ccdd.ingredient_stem_csv" column="dpd_ingredient" alias="isc" column-alias="dpd_named_ingredient_name"/>
-	<reference table="ccdd.ingredient_stem_csv" column="ntp_ing" alias="isc" column-alias="ccdd_ntp_ingredient_name"/>
-	<reference alias="ccdd">
-		<expression><![CDATA[coalesce(isc.ccdd = 'Y', false)]]></expression>
-	</reference>
-	<reference table="ccdd.ingredient_stem_csv" alias="isc"/>
-	<reference>
-		<expression><![CDATA[exists(select * from dpd_named_ingredient_source dni where dni.name = isc.dpd_ingredient)]]></expression>
-	</reference>
-	<expression type="select-exp">0,1,2</expression>
-	<expression type="from-exp">3</expression>
-	<expression type="simple-exp">4</expression>
-</view>
-
-<relationship name="rel_ccdd_dpd_ingredient_ntp_mapping_source_ingredient_stem_csv" type="reltv"
-	 src-table="public.ccdd_dpd_ingredient_ntp_mapping_source"
-	 dst-table="ccdd.ingredient_stem_csv"
-	 src-required="false" dst-required="false"/>
-
 <table name="ccdd_tm_ingredient_stem">
 	<schema name="public"/>
 	<position x="1440" y="540"/>
@@ -1181,6 +1176,29 @@ GROUP BY code
 	 identifier="true"
 />
 
+<view name="ccdd_dpd_ingredient_ntp_mapping_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1800" y="360"/>
+	<reference table="ccdd.ingredient_stem_csv" column="dpd_ingredient" alias="isc" column-alias="dpd_named_ingredient_name"/>
+	<reference table="ccdd.ingredient_stem_csv" column="ntp_ing" alias="isc" column-alias="ccdd_ntp_ingredient_name"/>
+	<reference alias="ccdd">
+		<expression><![CDATA[coalesce(isc.ccdd = 'Y', false)]]></expression>
+	</reference>
+	<reference table="ccdd.ingredient_stem_csv" alias="isc"/>
+	<reference>
+		<expression><![CDATA[exists(select * from dpd_named_ingredient_source dni where dni.name = isc.dpd_ingredient)]]></expression>
+	</reference>
+	<expression type="select-exp">0,1,2</expression>
+	<expression type="from-exp">3</expression>
+	<expression type="simple-exp">4</expression>
+</view>
+
+<relationship name="rel_ccdd_dpd_ingredient_ntp_mapping_source_ingredient_stem_csv" type="reltv"
+	 src-table="public.ccdd_dpd_ingredient_ntp_mapping_source"
+	 dst-table="ccdd.ingredient_stem_csv"
+	 src-required="false" dst-required="false"/>
+
 <view name="ccdd_ingredient_stem_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -1213,8 +1231,12 @@ GROUP BY name
 	<position x="1920" y="1020"/>
 	<reference table="ccdd.tm_definition" column="code" alias="tt" column-alias="code"/>
 	<reference table="ccdd.tm_definition" alias="tt"/>
+	<reference>
+		<expression><![CDATA[tt.code IS NOT NULL]]></expression>
+	</reference>
 	<expression type="select-exp">0</expression>
 	<expression type="from-exp">1</expression>
+	<expression type="simple-exp">2</expression>
 </view>
 
 <relationship name="rel_ccdd_tm_source_tm_definition" type="reltv"
@@ -1242,34 +1264,6 @@ GROUP BY name
 	 src-table="public.ccdd_tm_ingredient_stem_source"
 	 dst-table="ccdd.tm_definition"
 	 src-required="false" dst-required="false"/>
-
-<view name="dpd_form_source" materialized="true">
-	<schema name="public"/>
-	<role name="postgres"/>
-	<position x="660" y="1080"/>
-	<reference>
-		<expression><![CDATA[SELECT code, max(name_en) as name_en FROM (
-	SELECT
-	   pf.pharm_form_code AS code,
-	   pf.pharmaceutical_form AS name_en
-	FROM
-	   dpd.pharmaceutical_form AS pf
-	WHERE
-	   EXISTS(select * from public.dpd_drug_source ds where ds.code = pf.drug_code)
-
-	UNION
-
-	SELECT
-	   CAST(form_code_part as bigint) AS code,
-		null as name_en
-	FROM
-	   ccdd.ntp_dosage_forms AS df,
-	   regexp_split_to_table(df.pharm_form_code, '\s*-\s*', 'i') AS form_code_part
-) allcodes
-GROUP BY code
-]]></expression>
-	</reference>
-</view>
 
 <table name="ccdd_dosage_form_mapping_dpd_form">
 	<schema name="public"/>
@@ -1347,6 +1341,34 @@ GROUP BY code
 	 identifier="true"
 />
 
+<view name="dpd_form_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="580" y="960"/>
+	<reference>
+		<expression><![CDATA[SELECT code, max(name_en) as name_en FROM (
+	SELECT
+	   pf.pharm_form_code AS code,
+	   pf.pharmaceutical_form AS name_en
+	FROM
+	   dpd.pharmaceutical_form AS pf
+	WHERE
+	   EXISTS(select * from public.dpd_drug_source ds where ds.code = pf.drug_code)
+
+	UNION
+
+	SELECT
+	   CAST(form_code_part as bigint) AS code,
+		null as name_en
+	FROM
+	   ccdd.ntp_dosage_forms AS df,
+	   regexp_split_to_table(df.pharm_form_code, '\s*\D\s*', 'i') AS form_code_part
+) allcodes
+GROUP BY code
+]]></expression>
+	</reference>
+</view>
+
 <view name="ccdd_dosage_form_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -1408,7 +1430,7 @@ GROUP BY code
 	</reference>
 	<reference table="ccdd.ntp_dosage_forms" alias="df"/>
 	<reference>
-		<expression><![CDATA[regexp_split_to_table(df.pharm_form_code, '\s*-\s*', 'i') AS form_code_part]]></expression>
+		<expression><![CDATA[regexp_split_to_table(df.pharm_form_code, '\s*\D\s*', 'i') AS form_code_part]]></expression>
 	</reference>
 	<reference>
 		<expression><![CDATA[true]]></expression>
@@ -1433,7 +1455,7 @@ GROUP BY code
 	</reference>
 	<reference table="ccdd.ntp_dosage_forms" alias="df"/>
 	<reference>
-		<expression><![CDATA[regexp_split_to_table(df.route_of_administration_code, '\s*-\s*', 'i') AS route_code_part]]></expression>
+		<expression><![CDATA[regexp_split_to_table(df.route_of_administration_code, '\s*\D\s*', 'i') AS route_code_part]]></expression>
 	</reference>
 	<reference>
 		<expression><![CDATA[true]]></expression>
@@ -1444,6 +1466,45 @@ GROUP BY code
 	<expression type="select-exp">0,1</expression>
 	<expression type="from-exp">2,3</expression>
 	<expression type="simple-exp">4,5</expression>
+</view>
+
+<view name="ccdd_drug_dosage_form_by_route" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1460" y="1480"/>
+	<reference>
+		<expression><![CDATA[select dd.code as dpd_drug_code, dform.id as mapping_id, dform.ccdd_dosage_form_name from
+	dpd_drug dd,
+	ccdd_dosage_form_mapping dform
+where
+	exists(
+		select * from
+			dpd_drug_route ddr
+			INNER JOIN ccdd_dosage_form_mapping_dpd_route dformRoute ON (dformRoute.dpd_route_code = ddr.dpd_route_code)
+		where ddr.dpd_drug_code = dd.code AND dformRoute.ccdd_dosage_form_mapping_id = dform.id
+	)
+	AND
+	not exists(
+		select * from
+			ccdd_dosage_form_mapping_dpd_route dformRouteOther
+		where dformRouteOther.ccdd_dosage_form_mapping_id = dform.id AND not exists(
+			select * from
+				dpd_drug_route ddr
+			where ddr.dpd_drug_code = dd.code AND dformRouteOther.dpd_route_code = ddr.dpd_route_code
+		)
+	)
+	AND
+	not exists(
+		select * from
+			dpd_drug_route ddrOther
+		where ddrOther.dpd_drug_code = dd.code AND not exists(
+			select * from
+				ccdd_dosage_form_mapping_dpd_route dformRoute
+			where dformRoute.ccdd_dosage_form_mapping_id = dform.id AND dformRoute.dpd_route_code = ddrOther.dpd_route_code
+		)
+	)
+]]></expression>
+	</reference>
 </view>
 
 <table name="combination_products_csv">
@@ -1469,52 +1530,6 @@ GROUP BY code
 		<columns names="drug_code" ref-type="src-columns"/>
 	</constraint>
 </table>
-
-<table name="unit_of_presentation_csv">
-	<schema name="ccdd"/>
-	<role name="postgres"/>
-	<position x="2320" y="660"/>
-	<column name="drug_code">
-		<type name="bigint" length="0"/>
-	</column>
-	<column name="unit_of_presentation">
-		<type name="varchar" length="0"/>
-	</column>
-	<column name="uop_size">
-		<type name="varchar" length="0"/>
-	</column>
-	<column name="uop_unit_of_measure">
-		<type name="varchar" length="0"/>
-	</column>
-	<column name="calculation">
-		<type name="varchar" length="0"/>
-	</column>
-	<column name="uop_size_insert">
-		<type name="varchar" length="0"/>
-	</column>
-</table>
-
-<view name="ccdd_combination_product_source" materialized="true">
-	<schema name="public"/>
-	<role name="postgres"/>
-	<position x="2140" y="980"/>
-	<reference table="ccdd.combination_products_csv" column="drug_code" alias="cp" column-alias="dpd_drug_code"/>
-	<reference table="ccdd.combination_products_csv" column="mp_formal_name" alias="cp"/>
-	<reference table="ccdd.combination_products_csv" column="ntp_formal_name" alias="cp"/>
-	<reference table="ccdd.combination_products_csv" column="ntp_type" alias="cp"/>
-	<reference table="ccdd.combination_products_csv" alias="cp"/>
-	<reference>
-		<expression><![CDATA[exists(select * from dpd_drug_source dd where dd.code = cp.drug_code)]]></expression>
-	</reference>
-	<expression type="select-exp">0,1,2,3</expression>
-	<expression type="from-exp">4</expression>
-	<expression type="simple-exp">5</expression>
-</view>
-
-<relationship name="rel_ccdd_combination_product_source_combination_products_csv" type="reltv"
-	 src-table="public.ccdd_combination_product_source"
-	 dst-table="ccdd.combination_products_csv"
-	 src-required="false" dst-required="false"/>
 
 <function name="ccdd_normalize_ingredient"
 		window-func="false"
@@ -1577,6 +1592,30 @@ FROM
 	</reference>
 </view>
 
+<table name="unit_of_presentation_csv">
+	<schema name="ccdd"/>
+	<role name="postgres"/>
+	<position x="2320" y="660"/>
+	<column name="drug_code">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="unit_of_presentation">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="uop_size">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="uop_unit_of_measure">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="calculation">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="uop_size_insert">
+		<type name="varchar" length="0"/>
+	</column>
+</table>
+
 <view name="ccdd_drug_dosage_form_by_form" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -1610,45 +1649,6 @@ where
 			select * from
 				ccdd_dosage_form_mapping_dpd_form dformForm
 			where dformForm.ccdd_dosage_form_mapping_id = dform.id AND dformForm.dpd_form_code = ddfOther.dpd_form_code
-		)
-	)
-]]></expression>
-	</reference>
-</view>
-
-<view name="ccdd_drug_dosage_form_by_route" materialized="true">
-	<schema name="public"/>
-	<role name="postgres"/>
-	<position x="1460" y="1480"/>
-	<reference>
-		<expression><![CDATA[select dd.code as dpd_drug_code, dform.id as mapping_id, dform.ccdd_dosage_form_name from
-	dpd_drug dd,
-	ccdd_dosage_form_mapping dform
-where
-	exists(
-		select * from
-			dpd_drug_route ddr
-			INNER JOIN ccdd_dosage_form_mapping_dpd_route dformRoute ON (dformRoute.dpd_route_code = ddr.dpd_route_code)
-		where ddr.dpd_drug_code = dd.code AND dformRoute.ccdd_dosage_form_mapping_id = dform.id
-	)
-	AND
-	not exists(
-		select * from
-			ccdd_dosage_form_mapping_dpd_route dformRouteOther
-		where dformRouteOther.ccdd_dosage_form_mapping_id = dform.id AND not exists(
-			select * from
-				dpd_drug_route ddr
-			where ddr.dpd_drug_code = dd.code AND dformRouteOther.dpd_route_code = ddr.dpd_route_code
-		)
-	)
-	AND
-	not exists(
-		select * from
-			dpd_drug_route ddrOther
-		where ddrOther.dpd_drug_code = dd.code AND not exists(
-			select * from
-				ccdd_dosage_form_mapping_dpd_route dformRoute
-			where dformRoute.ccdd_dosage_form_mapping_id = dform.id AND dformRoute.dpd_route_code = ddrOther.dpd_route_code
 		)
 	)
 ]]></expression>
@@ -1693,7 +1693,7 @@ from
 	STRING_AGG(
 		format('%s %s', dod.ntp_ingredient_name, dod.strength_description),
 		' and '
-		order by dod.ingredient_stem_name, dod.ntp_ingredient_name
+		order by dod.ingredient_stem_name, dod.ntp_ingredient_name, dod.source_order
 	) as ntp_ingredient_detail_set,
 	bool_and(dod.ccdd) as ccdd_all
 from
@@ -1835,6 +1835,28 @@ group by
 		</idxelement>
 </index>
 
+<view name="ccdd_combination_product_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2140" y="980"/>
+	<reference table="ccdd.combination_products_csv" column="drug_code" alias="cp" column-alias="dpd_drug_code"/>
+	<reference table="ccdd.combination_products_csv" column="mp_formal_name" alias="cp"/>
+	<reference table="ccdd.combination_products_csv" column="ntp_formal_name" alias="cp"/>
+	<reference table="ccdd.combination_products_csv" column="ntp_type" alias="cp"/>
+	<reference table="ccdd.combination_products_csv" alias="cp"/>
+	<reference>
+		<expression><![CDATA[exists(select * from dpd_drug_source dd where dd.code = cp.drug_code)]]></expression>
+	</reference>
+	<expression type="select-exp">0,1,2,3</expression>
+	<expression type="from-exp">4</expression>
+	<expression type="simple-exp">5</expression>
+</view>
+
+<relationship name="rel_ccdd_combination_product_source_combination_products_csv" type="reltv"
+	 src-table="public.ccdd_combination_product_source"
+	 dst-table="ccdd.combination_products_csv"
+	 src-required="false" dst-required="false"/>
+
 <table name="mp_brand_override">
 	<schema name="ccdd"/>
 	<role name="postgres"/>
@@ -1964,6 +1986,68 @@ group by dd.code]]></expression>
 	</reference>
 </view>
 
+<view name="dpd_drug_schedule_source" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="520" y="1140"/>
+	<reference table="dpd.schedule" column="drug_code" alias="sch" column-alias="dpd_drug_code"/>
+	<reference table="dpd.schedule" column="schedule" alias="sch" column-alias="schedule"/>
+	<reference>
+		<expression><![CDATA[	dpd.schedule AS sch]]></expression>
+	</reference>
+	<reference>
+		<expression><![CDATA[EXISTS(select * from public.dpd_drug_source ds where ds.code = sch.drug_code)
+GROUP BY dpd_drug_code, sch.schedule;]]></expression>
+	</reference>
+	<expression type="select-exp">0,1</expression>
+	<expression type="from-exp">2</expression>
+	<expression type="simple-exp">3</expression>
+</view>
+
+<relationship name="rel_dpd_drug_schedule_source_schedule" type="reltv"
+	 src-table="public.dpd_drug_schedule_source"
+	 dst-table="dpd.schedule"
+	 src-required="false" dst-required="false"/>
+
+<table name="dpd_drug_schedule">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="520" y="280"/>
+	<column name="schedule">
+		<type name="varchar" length="0"/>
+	</column>
+
+	<customidxs object-type="column">
+		<object name="dpd_drug_code" index="1"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="dpd_drug_fk" index="0"/>
+	</customidxs>
+</table>
+
+<view name="ccdd_drug_schedule" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="720" y="1140"/>
+	<reference>
+		<expression><![CDATA[SELECT
+	sch.dpd_drug_code AS dpd_drug_code,
+	sch.schedule AS schedule,
+	schedule_policy_mapping.policy_type AS policy_type
+FROM
+	(VALUES
+		('Narcotic (CDSA I)', 500002),
+		('Schedule G (CDSA I)', 500003),
+		('Schedule G (CDSA III)', 500004),
+		('Schedule G (CDSA IV)', 500005),
+		('Targeted (CDSA IV)', 500006)
+	) AS schedule_policy_mapping (schedule, policy_type)
+	INNER JOIN public.dpd_drug_schedule sch ON schedule_policy_mapping.schedule = sch.schedule
+GROUP BY dpd_drug_code, sch.schedule, schedule_policy_mapping.policy_type;]]></expression>
+	</reference>
+</view>
+
 <view name="ccdd_mp_table_candidate">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -2001,14 +2085,15 @@ group by dd.code]]></expression>
 			ELSE COALESCE(ddform.dosage_form, 'NA')
 		END)
 	)) as ntp_formal_name,
+	cp.ntp_type,
 	(CASE
 		WHEN ds.current_status = 'MARKETED' THEN ds.first_market_date
-		WHEN ds.current_status = 'CANCELLED POST MARKET' AND ds.current_status_date < '2017-07-04' AND ds.current_expiration_date > '2018-01-05' THEN ds.first_market_date
+		WHEN ds.current_status = 'CANCELLED POST MARKET' AND ds.current_status_date < (SELECT ccdd_date FROM ccdd_config LIMIT 1) AND ds.current_expiration_date::date > (SELECT dpd_extract_date FROM ccdd_config LIMIT 1) THEN ds.first_market_date
 		ELSE ds.current_status_date
 	END) as mp_status_effective_date,
 	(CASE
 		WHEN ds.current_status = 'MARKETED' THEN 'ACTIVE'
-		WHEN ds.current_status = 'CANCELLED POST MARKET' AND ds.current_expiration_date > '2018-01-05' THEN 'ACTIVE'
+		WHEN ds.current_status = 'CANCELLED POST MARKET' AND ds.current_expiration_date::date > (SELECT dpd_extract_date FROM ccdd_config LIMIT 1)  THEN 'ACTIVE'
 		ELSE 'INACTIVE'
 	END) as mp_status,
 	ds.first_market_date,
@@ -2056,55 +2141,65 @@ where
 	<role name="postgres"/>
 	<position x="1780" y="1720"/>
 	<reference>
-		<expression><![CDATA[select
+		<expression><![CDATA[SELECT
 	(
-		select
+		SELECT
 			code
-		from ccdd.ntp_definition prevntp
-		where prevntp.formal_name = candidate.ntp_formal_name
-	) as ntp_code,
+		FROM ccdd.ntp_definition prevntp
+		WHERE prevntp.formal_name = candidate.ntp_formal_name
+	) AS ntp_code,
 	candidate.ntp_formal_name,
 	(CASE
 		WHEN bool_and(candidate.mp_status = 'INACTIVE') THEN 'INACTIVE'
 		ELSE 'ACTIVE'
-	END) as ntp_status,
-	NULL::varchar as ntp_type,
+	END) AS ntp_status,
+	candidate.ntp_type,
 	to_char((CASE
 		WHEN bool_and(candidate.mp_status = 'INACTIVE') THEN max(candidate.mp_status_effective_date)
 		ELSE min(candidate.first_market_date)
-	END), 'YYYYMMDD') as ntp_status_effective_time
-from
+	END), 'YYYYMMDD') AS ntp_status_effective_time,
+	bool_or(candidate.tm_is_publishable) AS tm_is_publishable
+FROM
 	ccdd_mp_table_candidate candidate
 GROUP BY
-	candidate.ntp_formal_name
-order by ntp_status_effective_time
+	candidate.ntp_formal_name, candidate.ntp_type
+ORDER BY ntp_status_effective_time
 ]]></expression>
 	</reference>
 </view>
+
+<index name="ccdd_drug_status_code" table="public.ccdd_drug_status"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<expression><![CDATA[dpd_drug_code]]></expression>
+		</idxelement>
+</index>
 
 <view name="ccdd_tm_table" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
 	<position x="1580" y="1820"/>
 	<reference>
-		<expression><![CDATA[select
+		<expression><![CDATA[SELECT
 	dtm.tm_code,
 	dtm.tm_formal_name,
 	(CASE
 		WHEN bool_and(candidate.mp_status = 'INACTIVE') THEN 'INACTIVE'
 		ELSE 'ACTIVE'
-	END) as tm_status,
+	END) AS tm_status,
 	to_char((CASE
 		WHEN bool_and(candidate.mp_status = 'INACTIVE') THEN max(candidate.mp_status_effective_date)
 		ELSE min(candidate.first_market_date)
-	END), 'YYYYMMDD') as tm_status_effective_time
-from
+	END), 'YYYYMMDD') AS tm_status_effective_time,
+	bool_or(candidate.tm_is_publishable) AS tm_is_publishable
+FROM
 	ccdd_mp_table_candidate candidate
-	LEFT JOIN ccdd_drug_tm dtm on(candidate.dpd_drug_code = dtm.dpd_drug_code)
+	LEFT JOIN ccdd_drug_tm dtm ON(candidate.dpd_drug_code = dtm.dpd_drug_code)
 GROUP BY
 	dtm.tm_code,
 	dtm.tm_formal_name
-order by tm_status_effective_time
+ORDER BY tm_status_effective_time
 ]]></expression>
 	</reference>
 </view>
@@ -2142,29 +2237,39 @@ order by tm_status_effective_time
 	</column>
 </table>
 
+<relationship name="dpd_drug_has_many_dpd_drug_status" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#83af1f"
+	 src-table="public.dpd_drug"
+	 dst-table="public.dpd_drug_status"
+	 src-required="true" dst-required="false"/>
+
 <view name="ccdd_mp_ntp_tm_relationship" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
 	<position x="1580" y="1920"/>
 	<reference>
-		<expression><![CDATA[select
+		<expression><![CDATA[SELECT
 	(CASE
-		WHEN candidate.presentation_count > 1 THEN COALESCE(cast(candidate.pseudodin as varchar), candidate.ccdd_presentation_id)
+		WHEN candidate.presentation_count > 1 THEN COALESCE(cast(candidate.pseudodin AS varchar), candidate.ccdd_presentation_id)
 		ELSE candidate.din
-	END) as mp_code,
+	END) AS mp_code,
 	candidate.mp_formal_name,
 	(
-		select
+		SELECT
 			code
-		from ccdd.ntp_definition prevntp
-		where prevntp.formal_name = candidate.ntp_formal_name
-	) as ntp_code,
+		FROM ccdd.ntp_definition prevntp
+		WHERE prevntp.formal_name = candidate.ntp_formal_name
+	) AS ntp_code,
 	candidate.ntp_formal_name,
 	dtm.tm_code,
-	dtm.tm_formal_name
-from
+	dtm.tm_formal_name,
+	candidate.tm_is_publishable AS tm_is_publishable
+FROM
 	ccdd_mp_table_candidate candidate
-	LEFT JOIN ccdd_drug_tm dtm on(candidate.dpd_drug_code = dtm.dpd_drug_code)
+	LEFT JOIN ccdd_drug_tm dtm ON(candidate.dpd_drug_code = dtm.dpd_drug_code)
 ]]></expression>
 	</reference>
 </view>
@@ -2174,29 +2279,30 @@ from
 	<role name="postgres"/>
 	<position x="1580" y="1720"/>
 	<reference>
-		<expression><![CDATA[select
+		<expression><![CDATA[SELECT
 	(CASE
-		WHEN candidate.presentation_count > 1 THEN COALESCE(cast(candidate.pseudodin as varchar), candidate.ccdd_presentation_id)
+		WHEN candidate.presentation_count > 1 THEN COALESCE(cast(candidate.pseudodin AS varchar), candidate.ccdd_presentation_id)
 		ELSE candidate.din
-	END) as mp_code,
+	END) AS mp_code,
 	candidate.mp_formal_name,
-	null as mp_en_description,
-	null as mp_fr_description,
+	NULL::text AS mp_en_description,
+	NULL::text AS mp_fr_description,
 	candidate.mp_status,
-	to_char(candidate.mp_status_effective_date, 'YYYYMMDD') as mp_status_effective_time,
+	to_char(candidate.mp_status_effective_date, 'YYYYMMDD') AS mp_status_effective_time,
 	(CASE
 		WHEN candidate.presentation_count > 1 THEN 'CCDD'
 		ELSE 'DIN'
-	END) as mp_type,
-	candidate.din as "Health_Canada_identifier",
-	candidate.brand_name_en as "Health_Canada_product_name"
-from
+	END) AS mp_type,
+	candidate.din AS "Health_Canada_identifier",
+	candidate.brand_name_en AS "Health_Canada_product_name",
+	candidate.tm_is_publishable AS tm_is_publishable
+FROM
 	ccdd_mp_table_candidate candidate
 ]]></expression>
 	</reference>
 </view>
 
-<index name="ccdd_drug_status_code" table="public.ccdd_drug_status"
+<index name="ccdd_drug_tm_drug_code" table="public.ccdd_drug_tm"
 	 concurrent="false" unique="false" fast-update="false" buffering="false"
 	 index-type="btree" factor="0">
 		<idxelement use-sorting="false">
@@ -2207,7 +2313,7 @@ from
 <view name="dpd_drug_status_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1340" y="1140"/>
+	<position x="220" y="1920"/>
 	<reference table="dpd.status" column="drug_code" alias="s" column-alias="dpd_drug_code"/>
 	<reference table="dpd.status" column="status" alias="s"/>
 	<reference table="dpd.status" column="history_date" alias="s" column-alias="status_date"/>
@@ -2259,15 +2365,6 @@ END)
 	</constraint>
 </table>
 
-<relationship name="dpd_drug_has_many_dpd_drug_status" type="rel1n"
-	 src-col-pattern="{st}_{sc}"
-	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
-	 src-fk-pattern="{st}_fk"
-	 custom-color="#83af1f"
-	 src-table="public.dpd_drug"
-	 dst-table="public.dpd_drug_status"
-	 src-required="true" dst-required="false"/>
-
 <view name="ccdd_presentation_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -2313,14 +2410,6 @@ order by pseudodin limit 1)]]></expression>
 	 src-table="public.ccdd_presentation_source"
 	 dst-table="ccdd.unit_of_presentation_csv"
 	 src-required="false" dst-required="false"/>
-
-<index name="ccdd_drug_tm_drug_code" table="public.ccdd_drug_tm"
-	 concurrent="false" unique="false" fast-update="false" buffering="false"
-	 index-type="btree" factor="0">
-		<idxelement use-sorting="false">
-			<expression><![CDATA[dpd_drug_code]]></expression>
-		</idxelement>
-</index>
 
 <view name="qa_release_changes_mp">
 	<schema name="public"/>
@@ -2396,6 +2485,62 @@ WHERE
 		<type name="varchar" length="0"/>
 	</column>
 </table>
+
+<index name="ccdd_mp_table_code" table="public.ccdd_mp_table"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<expression><![CDATA[mp_code]]></expression>
+		</idxelement>
+</index>
+
+<index name="ccdd_mp_table_name" table="public.ccdd_mp_table"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<expression><![CDATA[mp_formal_name]]></expression>
+		</idxelement>
+</index>
+
+<index name="ccdd_ntp_table_code" table="public.ccdd_ntp_table"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<expression><![CDATA[ntp_code]]></expression>
+		</idxelement>
+</index>
+
+<index name="ccdd_ntp_table_name" table="public.ccdd_ntp_table"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<expression><![CDATA[ntp_formal_name]]></expression>
+		</idxelement>
+</index>
+
+<index name="tm_table_code" table="public.ccdd_tm_table"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<expression><![CDATA[tm_code]]></expression>
+		</idxelement>
+</index>
+
+<index name="tm_table_name" table="public.ccdd_tm_table"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<expression><![CDATA[tm_formal_name]]></expression>
+		</idxelement>
+</index>
+
+<index name="ccdd_mp_ntp_tm_relationship_mp" table="public.ccdd_mp_ntp_tm_relationship"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<expression><![CDATA[mp_code]]></expression>
+		</idxelement>
+</index>
 
 <table name="tm_release">
 	<schema name="ccdd"/>
@@ -2530,62 +2675,6 @@ WHERE
 	</reference>
 </view>
 
-<index name="ccdd_mp_table_code" table="public.ccdd_mp_table"
-	 concurrent="false" unique="false" fast-update="false" buffering="false"
-	 index-type="btree" factor="0">
-		<idxelement use-sorting="false">
-			<expression><![CDATA[mp_code]]></expression>
-		</idxelement>
-</index>
-
-<index name="ccdd_mp_table_name" table="public.ccdd_mp_table"
-	 concurrent="false" unique="false" fast-update="false" buffering="false"
-	 index-type="btree" factor="0">
-		<idxelement use-sorting="false">
-			<expression><![CDATA[mp_formal_name]]></expression>
-		</idxelement>
-</index>
-
-<index name="ccdd_ntp_table_code" table="public.ccdd_ntp_table"
-	 concurrent="false" unique="false" fast-update="false" buffering="false"
-	 index-type="btree" factor="0">
-		<idxelement use-sorting="false">
-			<expression><![CDATA[ntp_code]]></expression>
-		</idxelement>
-</index>
-
-<index name="ccdd_ntp_table_name" table="public.ccdd_ntp_table"
-	 concurrent="false" unique="false" fast-update="false" buffering="false"
-	 index-type="btree" factor="0">
-		<idxelement use-sorting="false">
-			<expression><![CDATA[ntp_formal_name]]></expression>
-		</idxelement>
-</index>
-
-<index name="tm_table_code" table="public.ccdd_tm_table"
-	 concurrent="false" unique="false" fast-update="false" buffering="false"
-	 index-type="btree" factor="0">
-		<idxelement use-sorting="false">
-			<expression><![CDATA[tm_code]]></expression>
-		</idxelement>
-</index>
-
-<index name="tm_table_name" table="public.ccdd_tm_table"
-	 concurrent="false" unique="false" fast-update="false" buffering="false"
-	 index-type="btree" factor="0">
-		<idxelement use-sorting="false">
-			<expression><![CDATA[tm_formal_name]]></expression>
-		</idxelement>
-</index>
-
-<index name="ccdd_mp_ntp_tm_relationship_mp" table="public.ccdd_mp_ntp_tm_relationship"
-	 concurrent="false" unique="false" fast-update="false" buffering="false"
-	 index-type="btree" factor="0">
-		<idxelement use-sorting="false">
-			<expression><![CDATA[mp_code]]></expression>
-		</idxelement>
-</index>
-
 <view name="qa_mp_duplicates_code">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -2704,6 +2793,14 @@ order by
 	</reference>
 </view>
 
+<index name="dpd_drug_ingredient_option_drug_code" table="public.dpd_drug_ingredient_option"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<column name="dpd_drug_code"/>
+		</idxelement>
+</index>
+
 <view name="qa_missing_concepts_tm">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -2729,13 +2826,13 @@ order by
 		<expression><![CDATA[select
 	dd.code as dpd_drug_code,
 	dd.din,
-	(select string_agg(cast(ddf.dpd_form_code as varchar), '-' order by ddf.dpd_form_code) from
+	(select string_agg(cast(ddf.dpd_form_code as varchar), '|' order by ddf.dpd_form_code) from
 		dpd_drug_form ddf
 	where ddf.dpd_drug_code = dd.code) as dpd_form_code_combo,
 	(select string_agg(df.name_en, ', ' order by ddf.dpd_form_code) from
 		dpd_drug_form ddf left join dpd_form df on(df.code = ddf.dpd_form_code)
 	where ddf.dpd_drug_code = dd.code) as dpd_form_name_combo,
-	(select string_agg(cast(ddr.dpd_route_code as varchar), '-' order by ddr.dpd_route_code) from
+	(select string_agg(cast(ddr.dpd_route_code as varchar), '|' order by ddr.dpd_route_code) from
 		dpd_drug_route ddr
 	where ddr.dpd_drug_code = dd.code) as dpd_route_code_combo,
 	(select string_agg(dr.name_en, ', ' order by ddr.dpd_route_code) from
@@ -2779,14 +2876,6 @@ order by dd.din
 ]]></expression>
 	</reference>
 </view>
-
-<index name="dpd_drug_ingredient_option_drug_code" table="public.dpd_drug_ingredient_option"
-	 concurrent="false" unique="false" fast-update="false" buffering="false"
-	 index-type="btree" factor="0">
-		<idxelement use-sorting="false">
-			<column name="dpd_drug_code"/>
-		</idxelement>
-</index>
 
 <view name="qa_release_changes_mp_ntp_tm_relationship">
 	<schema name="public"/>
@@ -2833,6 +2922,14 @@ WHERE
 	not exists(select * from ccdd.mp_ntp_tm_relationship_release cur where cur.mp_code = nxt.mp_code)]]></expression>
 	</reference>
 </view>
+
+<index name="ccdd_tm_ingredient_stem_tm_code" table="public.ccdd_tm_ingredient_stem"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<column name="ccdd_tm_code"/>
+		</idxelement>
+</index>
 
 <view name="qa_mp_ntp_tm_relationship_duplicates_code">
 	<schema name="public"/>
@@ -2888,7 +2985,7 @@ order by
 <view name="dpd_ingredient_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1280" y="860"/>
+	<position x="840" y="1000"/>
 	<reference table="dpd.active_ingredient" column="ingredient" alias="ai" column-alias="dpd_named_ingredient_name"/>
 	<reference table="dpd.active_ingredient" column="active_ingredient_code" alias="ai" column-alias="dpd_active_ingredient_code_id"/>
 	<reference table="dpd.active_ingredient" alias="ai"/>
@@ -2912,13 +3009,18 @@ order by
 	</label>
 </relationship>
 
-<index name="ccdd_tm_ingredient_stem_tm_code" table="public.ccdd_tm_ingredient_stem"
-	 concurrent="false" unique="false" fast-update="false" buffering="false"
-	 index-type="btree" factor="0">
-		<idxelement use-sorting="false">
-			<column name="ccdd_tm_code"/>
-		</idxelement>
-</index>
+<relationship name="dpd_drug_has_many_dpd_drug_schedule" type="rel1n"
+	 src-col-pattern="{st}_{sc}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#7dab1e"
+	 src-table="public.dpd_drug"
+	 dst-table="public.dpd_drug_schedule"
+	 src-required="false" dst-required="false">
+	<label ref-type="src-label">
+		<position x="1.58624" y="-1.2"/>
+	</label>
+</relationship>
 
 <view name="qa_missing_concepts_pseudodin">
 	<schema name="public"/>
@@ -2946,6 +3048,155 @@ order by
 ]]></expression>
 	</reference>
 </view>
+
+<table name="tm_groupings">
+	<schema name="ccdd"/>
+	<role name="postgres"/>
+	<position x="2800" y="940"/>
+	<column name="tm_code" not-null="true">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="policy_type" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="policy_reference" not-null="true">
+		<type name="varchar" length="0"/>
+	</column>
+</table>
+
+<view name="ccdd_tm_special_groupings" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1780" y="1840"/>
+	<reference>
+		<expression><![CDATA[SELECT
+	tsg.tm_code AS tm_code,
+	tsg.policy_type AS policy_type,
+	tsg.policy_reference AS policy_reference
+FROM
+	ccdd.tm_groupings tsg;]]></expression>
+	</reference>
+</view>
+
+<view name="ccdd_mp_special_groupings" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1780" y="1800"/>
+	<reference>
+		<expression><![CDATA[SELECT
+	msg.mp_code AS mp_code,
+	msg.mp_formal_name AS mp_formal_name,
+	msg.policy_type AS policy_type,
+	msg.policy_reference AS policy_reference
+FROM (
+	(
+		SELECT
+			(CASE
+				WHEN can.presentation_count > 1 THEN COALESCE(cast(can.pseudodin as varchar), can.ccdd_presentation_id)
+				ELSE can.din
+			END)::varchar AS mp_code,
+			can.mp_formal_name AS mp_formal_name,
+			sch.policy_type AS policy_type,
+			'http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html'::varchar AS policy_reference
+		FROM
+			ccdd_drug_schedule sch
+			INNER JOIN ccdd_mp_table_candidate can
+			ON sch.dpd_drug_code = can.dpd_drug_code
+	)
+	UNION
+	(
+		SELECT
+			(CASE
+				WHEN can.presentation_count > 1 THEN COALESCE(cast(can.pseudodin as varchar), can.ccdd_presentation_id)
+				ELSE can.din
+			END)::varchar AS mp_code,
+			can.mp_formal_name AS mp_formal_name,
+			tsg.policy_type AS policy_type,
+			tsg.policy_reference AS policy_reference
+		FROM
+			ccdd_tm_special_groupings tsg
+			JOIN ccdd_drug_tm cdt ON cdt.tm_code = tsg.tm_code
+			JOIN ccdd_mp_table_candidate can ON can.dpd_drug_code = cdt.dpd_drug_code
+	)
+) msg;]]></expression>
+	</reference>
+</view>
+
+<view name="ccdd_special_groupings" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1780" y="1880"/>
+	<reference>
+		<expression><![CDATA[SELECT
+	csg.ccdd_code,
+	csg.ccdd_formal_name,
+	csg.ccdd_type,
+	csg.policy_type,
+	csg.policy_reference,
+	'active'::text AS special_groupings_status,
+	'20170919'::text AS special_groupings_status_effective_time
+FROM (
+	(
+		SELECT DISTINCT
+			reltm.tm_code::varchar AS ccdd_code,
+			reltm.tm_formal_name AS ccdd_formal_name,
+			CAST('TM' AS varchar) AS ccdd_type,
+			policy_type AS policy_type,
+			policy_reference AS policy_reference
+		FROM
+			ccdd_mp_special_groupings msg
+			JOIN (
+				SELECT
+					rel.tm_code,
+					rel.tm_formal_name,
+					rel.mp_code
+				FROM ccdd_mp_ntp_tm_relationship rel
+			) reltm ON reltm.mp_code = msg.mp_code
+	)
+	UNION ALL
+	(
+		SELECT DISTINCT
+			relntp.ntp_code::varchar AS ccdd_code,
+			relntp.ntp_formal_name AS ccdd_formal_name,
+			CAST('NTP' AS varchar) AS ccdd_type,
+			msg.policy_type AS policy_type,
+			msg.policy_reference AS policy_reference
+		FROM
+			ccdd_mp_special_groupings msg
+			JOIN (
+				SELECT
+				rel.ntp_code,
+				rel.ntp_formal_name,
+				rel.mp_code
+				FROM ccdd_mp_ntp_tm_relationship rel
+			) relntp ON relntp.mp_code = msg.mp_code
+	)
+	UNION ALL
+	(
+		SELECT
+			msg.mp_code AS ccdd_code,
+			msg.mp_formal_name AS ccdd_formal_name,
+			CAST('MP' AS varchar) AS ccdd_type,
+			msg.policy_type AS policy_type,
+			msg.policy_reference AS policy_reference
+		FROM
+			ccdd_mp_special_groupings msg
+	)
+) csg;]]></expression>
+	</reference>
+</view>
+
+<table name="ccdd_config" sql-disabled="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1640" y="800"/>
+	<column name="ccdd_date">
+		<type name="date" length="0"/>
+	</column>
+	<column name="dpd_extract_date">
+		<type name="date" length="0"/>
+	</column>
+</table>
 
 <constraint name="active_ingredient_drug_code_fkey" type="fk-constr" comparison-type="MATCH SIMPLE"
 	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="dpd.drug_product" sql-disabled="true" table="dpd.active_ingredient">
@@ -2977,6 +3228,12 @@ order by
 	<columns names="extract,drug_code" ref-type="dst-columns"/>
 </constraint>
 
+<constraint name="schedule_drug_code_fkey" type="fk-constr" comparison-type="MATCH FULL"
+	 upd-action="CASCADE" del-action="CASCADE" ref-table="dpd.drug_product" sql-disabled="true" table="dpd.schedule">
+	<columns names="drug_code" ref-type="src-columns"/>
+	<columns names="drug_code" ref-type="dst-columns"/>
+</constraint>
+
 <relationship name="rel_active_ingredient_drug_product" type="relfk"
 	 src-table="dpd.active_ingredient"
 	 dst-table="dpd.drug_product"
@@ -2999,6 +3256,11 @@ order by
 
 <relationship name="rel_status_drug_product" type="relfk"
 	 src-table="dpd.status"
+	 dst-table="dpd.drug_product"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_schedule_drug_product" type="relfk"
+	 src-table="dpd.schedule"
 	 dst-table="dpd.drug_product"
 	 src-required="false" dst-required="false"/>
 
