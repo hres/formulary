@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-ccdd_current_release_date="20180322"
+ccdd_current_release_date="20180315"
 
 
 baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
