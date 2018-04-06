@@ -3,7 +3,7 @@
 CAUTION: Do not modify this file unless you know what you are doing.
          Unexpected results may occur if the code is changed deliberately.
 -->
-<dbmodel pgmodeler-ver="0.9.0" last-position="1296,1107" last-zoom="1.05"
+<dbmodel pgmodeler-ver="0.9.0" last-position="722,714" last-zoom="0.85"
 	 default-owner="postgres">
 <database name="sandbox">
 </database>
@@ -35,7 +35,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="dpd_ingredient">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="720" y="220"/>
+	<position x="740" y="40"/>
 
 	<customidxs object-type="column">
 		<object name="dpd_named_ingredient_name" index="0"/>
@@ -50,7 +50,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="dpd_named_ingredient">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="340" y="100"/>
+	<position x="1140" y="140"/>
 	<column name="name" not-null="true">
 		<type name="varchar" length="0"/>
 	</column>
@@ -76,7 +76,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="dpd_drug_ingredient">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="600" y="380"/>
+	<position x="560" y="240"/>
 
 	<customidxs object-type="column">
 		<object name="dpd_drug_code" index="0"/>
@@ -105,7 +105,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="dpd_active_ingredient_code">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="300" y="180"/>
+	<position x="1300" y="20"/>
 	<column name="id" not-null="true">
 		<type name="bigint" length="0"/>
 	</column>
@@ -139,7 +139,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="ccdd_ingredient_stem">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1440" y="400"/>
+	<position x="1480" y="460"/>
 	<column name="name" not-null="true">
 		<type name="varchar" length="0"/>
 	</column>
@@ -151,7 +151,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="ccdd_ntp_ingredient">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1440" y="280"/>
+	<position x="1460" y="300"/>
 	<column name="name" not-null="true">
 		<type name="varchar" length="0"/>
 	</column>
@@ -184,7 +184,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="ccdd_dpd_ingredient_ntp_mapping">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1240" y="120"/>
+	<position x="1580" y="80"/>
 	<column name="ccdd">
 		<type name="bool" length="0"/>
 	</column>
@@ -220,7 +220,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="ccdd_tm">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1560" y="700"/>
+	<position x="1540" y="760"/>
 	<column name="code" not-null="true">
 		<type name="bigint" length="0"/>
 	</column>
@@ -232,7 +232,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="ccdd_dosage_form">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="620" y="860"/>
+	<position x="1500" y="960"/>
 	<column name="name" not-null="true">
 		<type name="varchar" length="0"/>
 	</column>
@@ -250,7 +250,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="ccdd_dosage_form_mapping">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="920" y="840"/>
+	<position x="1120" y="860"/>
 	<column name="id" not-null="true">
 		<type name="varchar" length="0"/>
 	</column>
@@ -283,7 +283,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="dpd_route">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1100" y="600"/>
+	<position x="1260" y="420"/>
 	<column name="code" not-null="true">
 		<type name="bigint" length="0"/>
 	</column>
@@ -298,7 +298,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="dpd_form">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="340" y="680"/>
+	<position x="560" y="660"/>
 	<column name="code" not-null="true">
 		<type name="bigint" length="0"/>
 	</column>
@@ -313,7 +313,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="ccdd_combination_product">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="280" y="780"/>
+	<position x="720" y="520"/>
 	<column name="mp_formal_name">
 		<type name="varchar" length="0"/>
 	</column>
@@ -352,7 +352,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="ccdd_presentation">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="280" y="940"/>
+	<position x="220" y="940"/>
 	<column name="id" not-null="true">
 		<type name="varchar" length="0"/>
 	</column>
@@ -653,7 +653,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="dpd_drug_route">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="660" y="540"/>
+	<position x="860" y="380"/>
 </table>
 
 <view name="dpd_drug_source" materialized="true">
@@ -714,7 +714,7 @@ OR
 <table name="dpd_drug_form">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="300" y="540"/>
+	<position x="420" y="820"/>
 
 	<customidxs object-type="column">
 		<object name="dpd_drug_code" index="0"/>
@@ -928,7 +928,7 @@ OR
 <table name="dpd_drug_ingredient_option">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1020" y="420"/>
+	<position x="1120" y="220"/>
 	<column name="strength_amount" not-null="true">
 		<type name="double precision" length="0"/>
 	</column>
@@ -1142,7 +1142,7 @@ GROUP BY code
 
 <table name="ccdd_tm_ingredient_stem">
 	<schema name="public"/>
-	<position x="1440" y="540"/>
+	<position x="1480" y="600"/>
 
 	<customidxs object-type="column">
 		<object name="ccdd_tm_code" index="0"/>
@@ -1267,7 +1267,7 @@ GROUP BY name
 
 <table name="ccdd_dosage_form_mapping_dpd_form">
 	<schema name="public"/>
-	<position x="640" y="700"/>
+	<position x="820" y="700"/>
 
 	<customidxs object-type="column">
 		<object name="ccdd_dosage_form_mapping_id" index="0"/>
@@ -1309,7 +1309,7 @@ GROUP BY name
 
 <table name="ccdd_dosage_form_mapping_dpd_route">
 	<schema name="public"/>
-	<position x="1040" y="700"/>
+	<position x="1140" y="580"/>
 
 	<customidxs object-type="column">
 		<object name="ccdd_dosage_form_mapping_id" index="0"/>
@@ -1678,29 +1678,35 @@ from
 	<role name="postgres"/>
 	<position x="1460" y="1300"/>
 	<reference>
-		<expression><![CDATA[select
-	dd.code as dpd_drug_code,
-	p.id as ccdd_presentation_id,
-	(case
-		when p.unit_has_explicit_size then format('%s %s %s', p.size_amount, p.size_unit, p.unit)
-		else p.unit
-	end) as uop_suffix,
+		<expression><![CDATA[SELECT
+	dd.code AS dpd_drug_code,
+	p.id AS ccdd_presentation_id,
+	(CASE
+		WHEN p.unit_has_explicit_size THEN format('%s %s %s', p.size_amount, p.size_unit, p.unit)
+		ELSE p.unit
+	END) AS uop_suffix,
 	STRING_AGG(
 		format('%s %s', dod.drug_ingredient_name, dod.strength_description),
 		' and '
-		order by dod.ingredient_stem_name, dod.drug_ingredient_name, dod.source_order
-	) as drug_ingredient_detail_set,
+		ORDER BY
+			regexp_replace(dod.ingredient_stem_name, '[[:punct:]]', '', 'g'),
+			regexp_replace(dod.drug_ingredient_name, '[[:punct:]]', '', 'g'),
+			dod.source_order
+	) AS drug_ingredient_detail_set,
 	STRING_AGG(
 		format('%s %s', dod.ntp_ingredient_name, dod.strength_description),
 		' and '
-		order by dod.ingredient_stem_name, dod.ntp_ingredient_name, dod.source_order
-	) as ntp_ingredient_detail_set,
-	bool_and(dod.ccdd) as ccdd_all
-from
+		ORDER BY
+			regexp_replace(dod.ingredient_stem_name, '[[:punct:]]', '', 'g'),
+			regexp_replace(dod.ntp_ingredient_name, '[[:punct:]]', '', 'g'),
+			dod.source_order
+	) AS ntp_ingredient_detail_set,
+	bool_and(dod.ccdd) AS ccdd_all
+FROM
 	dpd_drug dd
-	LEFT JOIN ccdd_presentation p on(p.dpd_drug_code = dd.code)
-	LEFT JOIN ccdd_drug_ingredient_option_description dod on(dod.dpd_drug_code = dd.code and dod.ccdd_presentation_id is not distinct from p.id)
-group by
+	LEFT JOIN ccdd_presentation p ON(p.dpd_drug_code = dd.code)
+	LEFT JOIN ccdd_drug_ingredient_option_description dod ON(dod.dpd_drug_code = dd.code AND dod.ccdd_presentation_id IS NOT DISTINCT FROM p.id)
+GROUP BY
 	dd.code,
 	p.id
 ]]></expression>
@@ -1877,55 +1883,55 @@ group by
 	<role name="postgres"/>
 	<position x="1800" y="1200"/>
 	<reference>
-		<expression><![CDATA[select
-	dd.code as dpd_drug_code,
-	tm.code as tm_code,
+		<expression><![CDATA[SELECT
+	dd.code AS dpd_drug_code,
+	tm.code AS tm_code,
 	(
-		select
-			string_agg(stemList.stem, ' and ')
-		from (
-			select
-				tmistem.ccdd_ingredient_stem_name as stem
-			from ccdd_tm_ingredient_stem tmistem
-			where tmistem.ccdd_tm_code = tm.code
-			group by tmistem.ccdd_ingredient_stem_name
-			order by tmistem.ccdd_ingredient_stem_name
-		) as stemList
-	) as tm_formal_name
-from
+		SELECT
+			STRING_AGG(stemList.stem, ' and ')
+		FROM (
+			SELECT
+				tmistem.ccdd_ingredient_stem_name AS stem
+			FROM ccdd_tm_ingredient_stem tmistem
+			WHERE tmistem.ccdd_tm_code = tm.code
+			GROUP BY tmistem.ccdd_ingredient_stem_name
+			ORDER BY regexp_replace(tmistem.ccdd_ingredient_stem_name, '[[:punct:]]', '', 'g')
+		) AS stemList
+	) AS tm_formal_name
+FROM
 	dpd_drug dd,
 	ccdd_tm tm
 WHERE
-	exists(
-		select * from
+	EXISTS(
+		SELECT * FROM
 			dpd_drug_ingredient ddi
-			INNER JOIN ccdd_dpd_ingredient_ntp_mapping dintp on(dintp.dpd_named_ingredient_name = ddi.dpd_named_ingredient_name)
-			INNER JOIN ccdd_ntp_ingredient ntpi on(ntpi.name = dintp.ccdd_ntp_ingredient_name)
-			INNER JOIN ccdd_tm_ingredient_stem tmistem on(tmistem.ccdd_ingredient_stem_name = ntpi.ccdd_ingredient_stem_name)
-		where ddi.dpd_drug_code = dd.code AND tmistem.ccdd_tm_code = tm.code
+			INNER JOIN ccdd_dpd_ingredient_ntp_mapping dintp ON(dintp.dpd_named_ingredient_name = ddi.dpd_named_ingredient_name)
+			INNER JOIN ccdd_ntp_ingredient ntpi ON(ntpi.name = dintp.ccdd_ntp_ingredient_name)
+			INNER JOIN ccdd_tm_ingredient_stem tmistem ON(tmistem.ccdd_ingredient_stem_name = ntpi.ccdd_ingredient_stem_name)
+		WHERE ddi.dpd_drug_code = dd.code AND tmistem.ccdd_tm_code = tm.code
 	)
 	AND
-	not exists(
-		select * from
+	NOT EXISTS(
+		SELECT * FROM
 			ccdd_tm_ingredient_stem tmistemOther
-		where tmistemOther.ccdd_tm_code = tm.code AND not exists(
-			select * from
+		WHERE tmistemOther.ccdd_tm_code = tm.code AND NOT EXISTS(
+			SELECT * FROM
 				dpd_drug_ingredient ddi
-				INNER JOIN ccdd_dpd_ingredient_ntp_mapping dintp on(dintp.dpd_named_ingredient_name = ddi.dpd_named_ingredient_name)
-				INNER JOIN ccdd_ntp_ingredient ntpi on(ntpi.name = dintp.ccdd_ntp_ingredient_name)
-			where ddi.dpd_drug_code = dd.code and ntpi.ccdd_ingredient_stem_name = tmistemOther.ccdd_ingredient_stem_name
+				INNER JOIN ccdd_dpd_ingredient_ntp_mapping dintp ON(dintp.dpd_named_ingredient_name = ddi.dpd_named_ingredient_name)
+				INNER JOIN ccdd_ntp_ingredient ntpi ON(ntpi.name = dintp.ccdd_ntp_ingredient_name)
+			WHERE ddi.dpd_drug_code = dd.code AND ntpi.ccdd_ingredient_stem_name = tmistemOther.ccdd_ingredient_stem_name
 		)
 	)
 	AND
-	not exists(
-		select * from
+	NOT EXISTS(
+		SELECT * FROM
 			dpd_drug_ingredient ddiOther
-		where ddiOther.dpd_drug_code = dd.code AND not exists(
-			select * from
+		WHERE ddiOther.dpd_drug_code = dd.code AND NOT EXISTS(
+			SELECT * FROM
 				ccdd_dpd_ingredient_ntp_mapping dintp
-				INNER JOIN ccdd_ntp_ingredient ntpi on(ntpi.name = dintp.ccdd_ntp_ingredient_name)
-				INNER JOIN ccdd_tm_ingredient_stem tmistem on(tmistem.ccdd_ingredient_stem_name = ntpi.ccdd_ingredient_stem_name)
-			where tmistem.ccdd_tm_code = tm.code and dintp.dpd_named_ingredient_name = ddiOther.dpd_named_ingredient_name
+				INNER JOIN ccdd_ntp_ingredient ntpi ON(ntpi.name = dintp.ccdd_ntp_ingredient_name)
+				INNER JOIN ccdd_tm_ingredient_stem tmistem ON(tmistem.ccdd_ingredient_stem_name = ntpi.ccdd_ingredient_stem_name)
+			WHERE tmistem.ccdd_tm_code = tm.code AND dintp.dpd_named_ingredient_name = ddiOther.dpd_named_ingredient_name
 		)
 	)
 ]]></expression>
@@ -1944,7 +1950,7 @@ WHERE
 <table name="dpd_drug_status">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="280" y="280"/>
+	<position x="280" y="40"/>
 	<column name="status_date" not-null="true">
 		<type name="date" length="0"/>
 	</column>
@@ -2012,7 +2018,7 @@ GROUP BY dpd_drug_code, sch.schedule;]]></expression>
 <table name="dpd_drug_schedule">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="520" y="280"/>
+	<position x="500" y="60"/>
 	<column name="schedule">
 		<type name="varchar" length="0"/>
 	</column>
@@ -2176,6 +2182,42 @@ ORDER BY ntp_status_effective_time
 		</idxelement>
 </index>
 
+<view name="ccdd_drug_tm_fallback" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1800" y="1360"/>
+	<reference>
+		<expression><![CDATA[SELECT
+	dd.code AS dpd_drug_code,
+	(
+		SELECT
+			STRING_AGG(stemList.stem, ' and ')
+		FROM (
+			SELECT
+				ntpi.ccdd_ingredient_stem_name AS stem
+			FROM
+				dpd_drug_ingredient ddi
+				INNER JOIN ccdd_dpd_ingredient_ntp_mapping dintp ON(dintp.dpd_named_ingredient_name = ddi.dpd_named_ingredient_name)
+				INNER JOIN ccdd_ntp_ingredient ntpi ON(ntpi.name = dintp.ccdd_ntp_ingredient_name)
+			WHERE ddi.dpd_drug_code = dd.code
+			GROUP BY ntpi.ccdd_ingredient_stem_name
+			ORDER BY regexp_replace(ntpi.ccdd_ingredient_stem_name, '[[:punct:]]', '', 'g')
+		) AS stemList
+	) AS tm_fallback_formal_name
+FROM
+	dpd_drug dd
+]]></expression>
+	</reference>
+</view>
+
+<index name="ccdd_drug_tm_fallback_code" table="public.ccdd_drug_tm_fallback"
+	 concurrent="false" unique="false" fast-update="false" buffering="false"
+	 index-type="btree" factor="0">
+		<idxelement use-sorting="false">
+			<expression><![CDATA[dpd_drug_code]]></expression>
+		</idxelement>
+</index>
+
 <view name="ccdd_tm_table" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -2183,7 +2225,7 @@ ORDER BY ntp_status_effective_time
 	<reference>
 		<expression><![CDATA[SELECT
 	dtm.tm_code,
-	dtm.tm_formal_name,
+	COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name) as tm_formal_name,
 	(CASE
 		WHEN bool_and(candidate.mp_status = 'INACTIVE') THEN 'INACTIVE'
 		ELSE 'ACTIVE'
@@ -2196,9 +2238,11 @@ ORDER BY ntp_status_effective_time
 FROM
 	ccdd_mp_table_candidate candidate
 	LEFT JOIN ccdd_drug_tm dtm ON(candidate.dpd_drug_code = dtm.dpd_drug_code)
+	LEFT JOIN ccdd_drug_tm_fallback dtmf ON(candidate.dpd_drug_code = dtmf.dpd_drug_code)
 GROUP BY
 	dtm.tm_code,
-	dtm.tm_formal_name
+	dtm.tm_formal_name,
+	dtmf.tm_fallback_formal_name
 ORDER BY tm_status_effective_time
 ]]></expression>
 	</reference>
@@ -2265,11 +2309,12 @@ ORDER BY tm_status_effective_time
 	) AS ntp_code,
 	candidate.ntp_formal_name,
 	dtm.tm_code,
-	dtm.tm_formal_name,
+	COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name) as tm_formal_name,
 	candidate.tm_is_publishable AS tm_is_publishable
 FROM
 	ccdd_mp_table_candidate candidate
 	LEFT JOIN ccdd_drug_tm dtm ON(candidate.dpd_drug_code = dtm.dpd_drug_code)
+	LEFT JOIN ccdd_drug_tm_fallback dtmf ON(candidate.dpd_drug_code = dtmf.dpd_drug_code)
 ]]></expression>
 	</reference>
 </view>
@@ -3189,7 +3234,7 @@ FROM (
 <table name="ccdd_config" sql-disabled="true">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1640" y="800"/>
+	<position x="1640" y="840"/>
 	<column name="ccdd_date">
 		<type name="date" length="0"/>
 	</column>

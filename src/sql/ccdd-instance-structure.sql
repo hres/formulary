@@ -1209,29 +1209,35 @@ ALTER MATERIALIZED VIEW public.ccdd_drug_dosage_form OWNER TO postgres;
 CREATE MATERIALIZED VIEW public.ccdd_drug_ingredient_summary
 AS 
 
-select
-	dd.code as dpd_drug_code,
-	p.id as ccdd_presentation_id,
-	(case
-		when p.unit_has_explicit_size then format('%s %s %s', p.size_amount, p.size_unit, p.unit)
-		else p.unit
-	end) as uop_suffix,
+SELECT
+	dd.code AS dpd_drug_code,
+	p.id AS ccdd_presentation_id,
+	(CASE
+		WHEN p.unit_has_explicit_size THEN format('%s %s %s', p.size_amount, p.size_unit, p.unit)
+		ELSE p.unit
+	END) AS uop_suffix,
 	STRING_AGG(
 		format('%s %s', dod.drug_ingredient_name, dod.strength_description),
 		' and '
-		order by dod.ingredient_stem_name, dod.drug_ingredient_name, dod.source_order
-	) as drug_ingredient_detail_set,
+		ORDER BY
+			regexp_replace(dod.ingredient_stem_name, '[[:punct:]]', '', 'g'),
+			regexp_replace(dod.drug_ingredient_name, '[[:punct:]]', '', 'g'),
+			dod.source_order
+	) AS drug_ingredient_detail_set,
 	STRING_AGG(
 		format('%s %s', dod.ntp_ingredient_name, dod.strength_description),
 		' and '
-		order by dod.ingredient_stem_name, dod.ntp_ingredient_name, dod.source_order
-	) as ntp_ingredient_detail_set,
-	bool_and(dod.ccdd) as ccdd_all
-from
+		ORDER BY
+			regexp_replace(dod.ingredient_stem_name, '[[:punct:]]', '', 'g'),
+			regexp_replace(dod.ntp_ingredient_name, '[[:punct:]]', '', 'g'),
+			dod.source_order
+	) AS ntp_ingredient_detail_set,
+	bool_and(dod.ccdd) AS ccdd_all
+FROM
 	dpd_drug dd
-	LEFT JOIN ccdd_presentation p on(p.dpd_drug_code = dd.code)
-	LEFT JOIN ccdd_drug_ingredient_option_description dod on(dod.dpd_drug_code = dd.code and dod.ccdd_presentation_id is not distinct from p.id)
-group by
+	LEFT JOIN ccdd_presentation p ON(p.dpd_drug_code = dd.code)
+	LEFT JOIN ccdd_drug_ingredient_option_description dod ON(dod.dpd_drug_code = dd.code AND dod.ccdd_presentation_id IS NOT DISTINCT FROM p.id)
+GROUP BY
 	dd.code,
 	p.id;
 -- ddl-end --
@@ -1417,55 +1423,55 @@ ALTER TABLE ccdd.mp_brand_override OWNER TO postgres;
 CREATE MATERIALIZED VIEW public.ccdd_drug_tm
 AS 
 
-select
-	dd.code as dpd_drug_code,
-	tm.code as tm_code,
+SELECT
+	dd.code AS dpd_drug_code,
+	tm.code AS tm_code,
 	(
-		select
-			string_agg(stemList.stem, ' and ')
-		from (
-			select
-				tmistem.ccdd_ingredient_stem_name as stem
-			from ccdd_tm_ingredient_stem tmistem
-			where tmistem.ccdd_tm_code = tm.code
-			group by tmistem.ccdd_ingredient_stem_name
-			order by tmistem.ccdd_ingredient_stem_name
-		) as stemList
-	) as tm_formal_name
-from
+		SELECT
+			STRING_AGG(stemList.stem, ' and ')
+		FROM (
+			SELECT
+				tmistem.ccdd_ingredient_stem_name AS stem
+			FROM ccdd_tm_ingredient_stem tmistem
+			WHERE tmistem.ccdd_tm_code = tm.code
+			GROUP BY tmistem.ccdd_ingredient_stem_name
+			ORDER BY regexp_replace(tmistem.ccdd_ingredient_stem_name, '[[:punct:]]', '', 'g')
+		) AS stemList
+	) AS tm_formal_name
+FROM
 	dpd_drug dd,
 	ccdd_tm tm
 WHERE
-	exists(
-		select * from
+	EXISTS(
+		SELECT * FROM
 			dpd_drug_ingredient ddi
-			INNER JOIN ccdd_dpd_ingredient_ntp_mapping dintp on(dintp.dpd_named_ingredient_name = ddi.dpd_named_ingredient_name)
-			INNER JOIN ccdd_ntp_ingredient ntpi on(ntpi.name = dintp.ccdd_ntp_ingredient_name)
-			INNER JOIN ccdd_tm_ingredient_stem tmistem on(tmistem.ccdd_ingredient_stem_name = ntpi.ccdd_ingredient_stem_name)
-		where ddi.dpd_drug_code = dd.code AND tmistem.ccdd_tm_code = tm.code
+			INNER JOIN ccdd_dpd_ingredient_ntp_mapping dintp ON(dintp.dpd_named_ingredient_name = ddi.dpd_named_ingredient_name)
+			INNER JOIN ccdd_ntp_ingredient ntpi ON(ntpi.name = dintp.ccdd_ntp_ingredient_name)
+			INNER JOIN ccdd_tm_ingredient_stem tmistem ON(tmistem.ccdd_ingredient_stem_name = ntpi.ccdd_ingredient_stem_name)
+		WHERE ddi.dpd_drug_code = dd.code AND tmistem.ccdd_tm_code = tm.code
 	)
 	AND
-	not exists(
-		select * from
+	NOT EXISTS(
+		SELECT * FROM
 			ccdd_tm_ingredient_stem tmistemOther
-		where tmistemOther.ccdd_tm_code = tm.code AND not exists(
-			select * from
+		WHERE tmistemOther.ccdd_tm_code = tm.code AND NOT EXISTS(
+			SELECT * FROM
 				dpd_drug_ingredient ddi
-				INNER JOIN ccdd_dpd_ingredient_ntp_mapping dintp on(dintp.dpd_named_ingredient_name = ddi.dpd_named_ingredient_name)
-				INNER JOIN ccdd_ntp_ingredient ntpi on(ntpi.name = dintp.ccdd_ntp_ingredient_name)
-			where ddi.dpd_drug_code = dd.code and ntpi.ccdd_ingredient_stem_name = tmistemOther.ccdd_ingredient_stem_name
+				INNER JOIN ccdd_dpd_ingredient_ntp_mapping dintp ON(dintp.dpd_named_ingredient_name = ddi.dpd_named_ingredient_name)
+				INNER JOIN ccdd_ntp_ingredient ntpi ON(ntpi.name = dintp.ccdd_ntp_ingredient_name)
+			WHERE ddi.dpd_drug_code = dd.code AND ntpi.ccdd_ingredient_stem_name = tmistemOther.ccdd_ingredient_stem_name
 		)
 	)
 	AND
-	not exists(
-		select * from
+	NOT EXISTS(
+		SELECT * FROM
 			dpd_drug_ingredient ddiOther
-		where ddiOther.dpd_drug_code = dd.code AND not exists(
-			select * from
+		WHERE ddiOther.dpd_drug_code = dd.code AND NOT EXISTS(
+			SELECT * FROM
 				ccdd_dpd_ingredient_ntp_mapping dintp
-				INNER JOIN ccdd_ntp_ingredient ntpi on(ntpi.name = dintp.ccdd_ntp_ingredient_name)
-				INNER JOIN ccdd_tm_ingredient_stem tmistem on(tmistem.ccdd_ingredient_stem_name = ntpi.ccdd_ingredient_stem_name)
-			where tmistem.ccdd_tm_code = tm.code and dintp.dpd_named_ingredient_name = ddiOther.dpd_named_ingredient_name
+				INNER JOIN ccdd_ntp_ingredient ntpi ON(ntpi.name = dintp.ccdd_ntp_ingredient_name)
+				INNER JOIN ccdd_tm_ingredient_stem tmistem ON(tmistem.ccdd_ingredient_stem_name = ntpi.ccdd_ingredient_stem_name)
+			WHERE tmistem.ccdd_tm_code = tm.code AND dintp.dpd_named_ingredient_name = ddiOther.dpd_named_ingredient_name
 		)
 	);
 -- ddl-end --
@@ -1688,6 +1694,43 @@ CREATE INDEX ccdd_drug_status_code ON public.ccdd_drug_status
 	);
 -- ddl-end --
 
+-- object: public.ccdd_drug_tm_fallback | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_drug_tm_fallback CASCADE;
+CREATE MATERIALIZED VIEW public.ccdd_drug_tm_fallback
+AS 
+
+SELECT
+	dd.code AS dpd_drug_code,
+	(
+		SELECT
+			STRING_AGG(stemList.stem, ' and ')
+		FROM (
+			SELECT
+				ntpi.ccdd_ingredient_stem_name AS stem
+			FROM
+				dpd_drug_ingredient ddi
+				INNER JOIN ccdd_dpd_ingredient_ntp_mapping dintp ON(dintp.dpd_named_ingredient_name = ddi.dpd_named_ingredient_name)
+				INNER JOIN ccdd_ntp_ingredient ntpi ON(ntpi.name = dintp.ccdd_ntp_ingredient_name)
+			WHERE ddi.dpd_drug_code = dd.code
+			GROUP BY ntpi.ccdd_ingredient_stem_name
+			ORDER BY regexp_replace(ntpi.ccdd_ingredient_stem_name, '[[:punct:]]', '', 'g')
+		) AS stemList
+	) AS tm_fallback_formal_name
+FROM
+	dpd_drug dd;
+-- ddl-end --
+ALTER MATERIALIZED VIEW public.ccdd_drug_tm_fallback OWNER TO postgres;
+-- ddl-end --
+
+-- object: ccdd_drug_tm_fallback_code | type: INDEX --
+-- DROP INDEX IF EXISTS public.ccdd_drug_tm_fallback_code CASCADE;
+CREATE INDEX ccdd_drug_tm_fallback_code ON public.ccdd_drug_tm_fallback
+	USING btree
+	(
+	  dpd_drug_code
+	);
+-- ddl-end --
+
 -- object: public.ccdd_tm_table | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_tm_table CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_tm_table
@@ -1695,7 +1738,7 @@ AS
 
 SELECT
 	dtm.tm_code,
-	dtm.tm_formal_name,
+	COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name) as tm_formal_name,
 	(CASE
 		WHEN bool_and(candidate.mp_status = 'INACTIVE') THEN 'INACTIVE'
 		ELSE 'ACTIVE'
@@ -1708,9 +1751,11 @@ SELECT
 FROM
 	ccdd_mp_table_candidate candidate
 	LEFT JOIN ccdd_drug_tm dtm ON(candidate.dpd_drug_code = dtm.dpd_drug_code)
+	LEFT JOIN ccdd_drug_tm_fallback dtmf ON(candidate.dpd_drug_code = dtmf.dpd_drug_code)
 GROUP BY
 	dtm.tm_code,
-	dtm.tm_formal_name
+	dtm.tm_formal_name,
+	dtmf.tm_fallback_formal_name
 ORDER BY tm_status_effective_time;
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_tm_table OWNER TO postgres;
@@ -1759,11 +1804,12 @@ SELECT
 	) AS ntp_code,
 	candidate.ntp_formal_name,
 	dtm.tm_code,
-	dtm.tm_formal_name,
+	COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name) as tm_formal_name,
 	candidate.tm_is_publishable AS tm_is_publishable
 FROM
 	ccdd_mp_table_candidate candidate
-	LEFT JOIN ccdd_drug_tm dtm ON(candidate.dpd_drug_code = dtm.dpd_drug_code);
+	LEFT JOIN ccdd_drug_tm dtm ON(candidate.dpd_drug_code = dtm.dpd_drug_code)
+	LEFT JOIN ccdd_drug_tm_fallback dtmf ON(candidate.dpd_drug_code = dtmf.dpd_drug_code);
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_mp_ntp_tm_relationship OWNER TO postgres;
 -- ddl-end --

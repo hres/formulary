@@ -250,6 +250,7 @@ REFRESH MATERIALIZED VIEW ccdd_drug_dosage_form_by_route;
 REFRESH MATERIALIZED VIEW ccdd_drug_dosage_form;
 REFRESH MATERIALIZED VIEW ccdd_drug_ingredient_summary;
 REFRESH MATERIALIZED VIEW ccdd_drug_tm;
+REFRESH MATERIALIZED VIEW ccdd_drug_tm_fallback;
 REFRESH MATERIALIZED VIEW ccdd_tm_special_groupings;
 REFRESH MATERIALIZED VIEW ccdd_drug_status;
 REFRESH MATERIALIZED VIEW ccdd_drug_schedule;
