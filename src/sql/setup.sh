@@ -1,10 +1,11 @@
 #!/bin/bash -e
 
 ccdd_current_release_date="20180315"
+ccdd_current_date=$(date +'%Y%m%d')
 
 
 baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-distDir="$baseDir/../dist"
+distDir="$baseDir/../dist/$ccdd_current_date"
 
 if [ "$PGDATABASE" != '' ]; then
     echo 'Must not specify PGDATABASE'
@@ -39,17 +40,32 @@ psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-run-views.sql"
 # create output folder, then export CCDD concepts as CSV files to output
 mkdir -p "$distDir"
 
-psql -c "copy (select mp_code, mp_formal_name, mp_en_description, mp_fr_description, mp_status, mp_status_effective_time, mp_type, \"Health_Canada_identifier\", \"Health_Canada_product_name\" FROM ccdd_mp_table) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/mp_qa_release.csv"
-psql -c "copy (select ntp_code, ntp_formal_name, ntp_status, ntp_type, ntp_status_effective_time FROM ccdd_ntp_table) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/ntp_qa_release.csv"
-psql -c "copy (select tm_code, tm_formal_name, tm_status, tm_status_effective_time FROM ccdd_tm_table) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/tm_qa_release.csv"
-psql -c "copy (select mp_code, mp_formal_name, ntp_code, ntp_formal_name, tm_code, tm_formal_name FROM ccdd_mp_ntp_tm_relationship) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/mp_ntp_tm_relationship_qa_release.csv"
+# QA release and candidate CSVs
+psql -c "copy (select mp_code, mp_formal_name, mp_en_description, mp_fr_description, mp_status, mp_status_effective_time, mp_type, \"Health_Canada_identifier\", \"Health_Canada_product_name\" FROM ccdd_mp_table) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/mp_qa_release_${ccdd_current_date}.csv"
+psql -c "copy (select ntp_code, ntp_formal_name, ntp_status, ntp_type, ntp_status_effective_time FROM ccdd_ntp_table) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/ntp_qa_release_${ccdd_current_date}.csv"
+psql -c "copy (select tm_code, tm_formal_name, tm_status, tm_status_effective_time FROM ccdd_tm_table) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/tm_qa_release_${ccdd_current_date}.csv"
+psql -c "copy (select mp_code, mp_formal_name, ntp_code, ntp_formal_name, tm_code, tm_formal_name FROM ccdd_mp_ntp_tm_relationship) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/mp_ntp_tm_relationship_qa_release_${ccdd_current_date}.csv"
 
-psql -c "copy (select mp_code, mp_formal_name, mp_en_description, mp_fr_description, mp_status, mp_status_effective_time, mp_type, \"Health_Canada_identifier\", \"Health_Canada_product_name\" FROM ccdd_mp_table WHERE tm_is_publishable = true) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/mp_release_candidate.csv"
-psql -c "copy (select ntp_code, ntp_formal_name, ntp_status, ntp_type, ntp_status_effective_time FROM ccdd_ntp_table WHERE tm_is_publishable = true) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/ntp_release_candidate.csv"
-psql -c "copy (select tm_code, tm_formal_name, tm_status, tm_status_effective_time FROM ccdd_tm_table WHERE tm_is_publishable = true) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/tm_release_candidate.csv"
-psql -c "copy (select mp_code, mp_formal_name, ntp_code, ntp_formal_name, tm_code, tm_formal_name FROM ccdd_mp_ntp_tm_relationship WHERE tm_is_publishable = true) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/mp_ntp_tm_relationship_release_candidate.csv"
+psql -c "copy (select mp_code, mp_formal_name, mp_en_description, mp_fr_description, mp_status, mp_status_effective_time, mp_type, \"Health_Canada_identifier\", \"Health_Canada_product_name\" FROM ccdd_mp_table WHERE tm_is_publishable = true) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/mp_release_candidate_${ccdd_current_date}.csv"
+psql -c "copy (select ntp_code, ntp_formal_name, ntp_status, ntp_type, ntp_status_effective_time FROM ccdd_ntp_table WHERE tm_is_publishable = true) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/ntp_release_candidate_${ccdd_current_date}.csv"
+psql -c "copy (select tm_code, tm_formal_name, tm_status, tm_status_effective_time FROM ccdd_tm_table WHERE tm_is_publishable = true) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/tm_release_candidate_${ccdd_current_date}.csv"
+psql -c "copy (select mp_code, mp_formal_name, ntp_code, ntp_formal_name, tm_code, tm_formal_name FROM ccdd_mp_ntp_tm_relationship WHERE tm_is_publishable = true) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/mp_ntp_tm_relationship_release_candidate_${ccdd_current_date}.csv"
 
 psql -c "copy (select * from ccdd_special_groupings) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/ccdd_special_groupings.csv"
+
+# extra QA report CSVs
+# @todo add more once the team is briefed on the new ones
+psql -c "copy (select * from qa_release_changes_mp) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_mp.csv"
+psql -c "copy (select * from qa_release_changes_ntp) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_ntp.csv"
+psql -c "copy (select * from qa_release_changes_tm) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_tm.csv"
+psql -c "copy (select * from qa_release_changes_mp_ntp_tm_relationship) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_mp_ntp_tm_relationship.csv"
+psql -c "copy (select * from qa_mp_duplicates_code) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_mp_duplicates_code.csv"
+psql -c "copy (select * from qa_mp_duplicates_name) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_mp_duplicates_name.csv"
+psql -c "copy (select * from qa_ntp_duplicates_code) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_ntp_duplicates_code.csv"
+psql -c "copy (select * from qa_ntp_duplicates_name) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_ntp_duplicates_name.csv"
+psql -c "copy (select * from qa_tm_duplicates_code) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_tm_duplicates_code.csv"
+psql -c "copy (select * from qa_tm_duplicates_name) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_tm_duplicates_name.csv"
+psql -c "copy (select * from qa_mp_ntp_tm_relationship_duplicates_code) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_mp_ntp_tm_relationship_duplicates_code.csv"
 
 echo
 echo Generated "$PGDATABASE" and output in "$distDir"
