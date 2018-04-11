@@ -444,7 +444,7 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 86832,ampoule,1,mL,Y,N,,,
 86843,ampoule,1,mL,Y,N,,,
 87828,vial,1,mL,Y,N,,,
-93978,vial,1,mL,Y,N,,,
+93978,ampoule,1,mL,Y,N,,,
 94280,vial,1,mL,Y,N,,,
 18024,vial,2,mL,Y,N,,,
 87829,vial,2,mL,Y,N,,,
