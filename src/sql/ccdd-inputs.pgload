@@ -197,7 +197,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM http://raw.githubusercontent.com/hres/formulary/master/src/Julie/TMs%20for%20Final%20Filter%2020180115.csv
+  FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/TM_filter_master.csv
     WITH ENCODING UTF-8
     (
       tm_code
