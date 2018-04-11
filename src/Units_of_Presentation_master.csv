@@ -472,3 +472,6 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 72232,bag,100,mL,Y,N,,,
 72794,vial,100,mL,Y,N,,,
 72035,vial,100,mL,Y,N,,,
+80046,bag,50,mL,Y,N,,,
+80046,bag,100,mL,Y,N,,,
+80046,bag,150,mL,Y,N,,,
