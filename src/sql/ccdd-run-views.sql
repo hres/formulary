@@ -261,3 +261,8 @@ REFRESH MATERIALIZED VIEW ccdd_tm_table;
 REFRESH MATERIALIZED VIEW ccdd_mp_ntp_tm_relationship;
 REFRESH MATERIALIZED VIEW ccdd_mp_special_groupings;
 REFRESH MATERIALIZED VIEW ccdd_special_groupings;
+
+REFRESH MATERIALIZED VIEW ccdd_mp_release_candidate;
+REFRESH MATERIALIZED VIEW ccdd_ntp_release_candidate;
+REFRESH MATERIALIZED VIEW ccdd_tm_release_candidate;
+REFRESH MATERIALIZED VIEW ccdd_mp_ntp_tm_relationship_release_candidate;

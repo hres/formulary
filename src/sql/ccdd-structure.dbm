@@ -3,7 +3,7 @@
 CAUTION: Do not modify this file unless you know what you are doing.
          Unexpected results may occur if the code is changed deliberately.
 -->
-<dbmodel pgmodeler-ver="0.9.0" last-position="722,714" last-zoom="0.85"
+<dbmodel pgmodeler-ver="0.9.0" last-position="722,861" last-zoom="0.85"
 	 default-owner="postgres">
 <database name="sandbox">
 </database>
@@ -1081,7 +1081,7 @@ GROUP BY code
 <table name="ingredient_stem_csv">
 	<schema name="ccdd"/>
 	<role name="postgres"/>
-	<position x="2140" y="660"/>
+	<position x="2080" y="620"/>
 	<column name="ccdd">
 		<type name="varchar" length="0"/>
 	</column>
@@ -1510,7 +1510,7 @@ where
 <table name="combination_products_csv">
 	<schema name="ccdd"/>
 	<role name="postgres"/>
-	<position x="2160" y="800"/>
+	<position x="2100" y="880"/>
 	<column name="drug_code" not-null="true">
 		<type name="bigint" length="0"/>
 	</column>
@@ -1845,7 +1845,7 @@ GROUP BY
 <view name="ccdd_combination_product_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2140" y="980"/>
+	<position x="2220" y="1040"/>
 	<reference table="ccdd.combination_products_csv" column="drug_code" alias="cp" column-alias="dpd_drug_code"/>
 	<reference table="ccdd.combination_products_csv" column="mp_formal_name" alias="cp"/>
 	<reference table="ccdd.combination_products_csv" column="ntp_formal_name" alias="cp"/>
@@ -2146,7 +2146,7 @@ where
 <view name="ccdd_ntp_table" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1780" y="1720"/>
+	<position x="1580" y="1800"/>
 	<reference>
 		<expression><![CDATA[SELECT
 	(
@@ -2224,7 +2224,7 @@ FROM
 <view name="ccdd_tm_table" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1580" y="1820"/>
+	<position x="1580" y="1880"/>
 	<reference>
 		<expression><![CDATA[SELECT
 	dtm.tm_code,
@@ -2254,7 +2254,7 @@ ORDER BY tm_status_effective_time
 <table name="mp_release">
 	<schema name="ccdd"/>
 	<role name="postgres"/>
-	<position x="2560" y="560"/>
+	<position x="2480" y="560"/>
 	<column name="mp_code">
 		<type name="varchar" length="0"/>
 	</column>
@@ -2296,7 +2296,7 @@ ORDER BY tm_status_effective_time
 <view name="ccdd_mp_ntp_tm_relationship" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1580" y="1920"/>
+	<position x="1580" y="1960"/>
 	<reference>
 		<expression><![CDATA[SELECT
 	(CASE
@@ -2611,7 +2611,7 @@ WHERE
 <table name="mp_ntp_tm_relationship_release">
 	<schema name="ccdd"/>
 	<role name="postgres"/>
-	<position x="2820" y="800"/>
+	<position x="2780" y="800"/>
 	<column name="mp_code">
 		<type name="varchar" length="0"/>
 	</column>
@@ -3115,7 +3115,7 @@ order by
 <view name="ccdd_tm_special_groupings" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1780" y="1840"/>
+	<position x="1580" y="2060"/>
 	<reference>
 		<expression><![CDATA[SELECT
 	tsg.tm_code AS tm_code,
@@ -3129,13 +3129,14 @@ FROM
 <view name="ccdd_mp_special_groupings" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1780" y="1800"/>
+	<position x="1580" y="2020"/>
 	<reference>
 		<expression><![CDATA[SELECT
 	msg.mp_code AS mp_code,
 	msg.mp_formal_name AS mp_formal_name,
 	msg.policy_type AS policy_type,
-	msg.policy_reference AS policy_reference
+	msg.policy_reference AS policy_reference,
+	msg.tm_is_publishable AS tm_is_publishable
 FROM (
 	(
 		SELECT
@@ -3145,6 +3146,7 @@ FROM (
 			END)::varchar AS mp_code,
 			can.mp_formal_name AS mp_formal_name,
 			sch.policy_type AS policy_type,
+			can.tm_is_publishable AS tm_is_publishable,
 			'http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html'::varchar AS policy_reference
 		FROM
 			ccdd_drug_schedule sch
@@ -3160,6 +3162,7 @@ FROM (
 			END)::varchar AS mp_code,
 			can.mp_formal_name AS mp_formal_name,
 			tsg.policy_type AS policy_type,
+			can.tm_is_publishable AS tm_is_publishable,
 			tsg.policy_reference AS policy_reference
 		FROM
 			ccdd_tm_special_groupings tsg
@@ -3173,7 +3176,7 @@ FROM (
 <view name="ccdd_special_groupings" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="1780" y="1880"/>
+	<position x="1580" y="2100"/>
 	<reference>
 		<expression><![CDATA[SELECT
 	csg.ccdd_code,
@@ -3181,6 +3184,7 @@ FROM (
 	csg.ccdd_type,
 	csg.policy_type,
 	csg.policy_reference,
+	csg.tm_is_publishable,
 	'active'::text AS special_groupings_status,
 	'20170919'::text AS special_groupings_status_effective_time
 FROM (
@@ -3190,6 +3194,7 @@ FROM (
 			reltm.tm_formal_name AS ccdd_formal_name,
 			CAST('TM' AS varchar) AS ccdd_type,
 			policy_type AS policy_type,
+			reltm.tm_is_publishable AS tm_is_publishable,
 			policy_reference AS policy_reference
 		FROM
 			ccdd_mp_special_groupings msg
@@ -3197,7 +3202,8 @@ FROM (
 				SELECT
 					rel.tm_code,
 					rel.tm_formal_name,
-					rel.mp_code
+					rel.mp_code,
+					rel.tm_is_publishable
 				FROM ccdd_mp_ntp_tm_relationship rel
 			) reltm ON reltm.mp_code = msg.mp_code
 	)
@@ -3208,14 +3214,16 @@ FROM (
 			relntp.ntp_formal_name AS ccdd_formal_name,
 			CAST('NTP' AS varchar) AS ccdd_type,
 			msg.policy_type AS policy_type,
+			relntp.tm_is_publishable AS tm_is_publishable,
 			msg.policy_reference AS policy_reference
 		FROM
 			ccdd_mp_special_groupings msg
 			JOIN (
 				SELECT
-				rel.ntp_code,
-				rel.ntp_formal_name,
-				rel.mp_code
+					rel.ntp_code,
+					rel.ntp_formal_name,
+					rel.mp_code,
+					rel.tm_is_publishable
 				FROM ccdd_mp_ntp_tm_relationship rel
 			) relntp ON relntp.mp_code = msg.mp_code
 	)
@@ -3226,6 +3234,7 @@ FROM (
 			msg.mp_formal_name AS ccdd_formal_name,
 			CAST('MP' AS varchar) AS ccdd_type,
 			msg.policy_type AS policy_type,
+			msg.tm_is_publishable AS tm_is_publishable,
 			msg.policy_reference AS policy_reference
 		FROM
 			ccdd_mp_special_groupings msg
@@ -3245,6 +3254,365 @@ FROM (
 		<type name="date" length="0"/>
 	</column>
 </table>
+
+<table name="mp_release_candidate">
+	<schema name="ccdd"/>
+	<role name="postgres"/>
+	<position x="2500" y="580"/>
+	<column name="mp_code">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="mp_formal_name">
+		<type name="text" length="0"/>
+	</column>
+	<column name="mp_en_description">
+		<type name="text" length="0"/>
+	</column>
+	<column name="mp_fr_description">
+		<type name="text" length="0"/>
+	</column>
+	<column name="mp_status">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="mp_status_effective_time">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="mp_type">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="Health_Canada_identifier">
+		<type name="text" length="0"/>
+	</column>
+	<column name="Health_Canada_product_name">
+		<type name="text" length="0"/>
+	</column>
+</table>
+
+<table name="mp_ntp_tm_relationship_release_candidate">
+	<schema name="ccdd"/>
+	<role name="postgres"/>
+	<position x="2800" y="820"/>
+	<column name="mp_code">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="mp_formal_name">
+		<type name="text" length="0"/>
+	</column>
+	<column name="ntp_code">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="ntp_formal_name">
+		<type name="text" length="0"/>
+	</column>
+	<column name="tm_code">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="tm_formal_name">
+		<type name="text" length="0"/>
+	</column>
+</table>
+
+<table name="tm_release_candidate">
+	<schema name="ccdd"/>
+	<role name="postgres"/>
+	<position x="2840" y="720"/>
+	<column name="tm_code">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="tm_formal_name">
+		<type name="text" length="0"/>
+	</column>
+	<column name="tm_status">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="tm_status_effective_time">
+		<type name="varchar" length="0"/>
+	</column>
+</table>
+
+<table name="ntp_release_candidate">
+	<schema name="ccdd"/>
+	<role name="postgres"/>
+	<position x="2840" y="580"/>
+	<column name="ntp_code">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="ntp_formal_name">
+		<type name="text" length="0"/>
+	</column>
+	<column name="ntp_en_description">
+		<type name="text" length="0"/>
+	</column>
+	<column name="ntp_fr_description">
+		<type name="text" length="0"/>
+	</column>
+	<column name="ntp_status">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="ntp_status_effective_time">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="ntp_type">
+		<type name="varchar" length="0"/>
+	</column>
+</table>
+
+<view name="ccdd_mp_release_candidate" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1760" y="1720"/>
+	<reference>
+		<expression><![CDATA[SELECT
+	mp_code,
+	mp_formal_name,
+	mp_en_description,
+	mp_fr_description,
+	mp_status,
+	mp_status_effective_time,
+	mp_type,
+	"Health_Canada_identifier",
+	"Health_Canada_product_name"
+FROM ccdd_mp_table
+WHERE tm_is_publishable = true]]></expression>
+	</reference>
+</view>
+
+<view name="qa_release_changes_mp_release_candidate">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1940" y="1720"/>
+	<reference>
+		<expression><![CDATA[SELECT
+	cur.mp_code,
+	cur.mp_formal_name,
+	(CASE
+		WHEN nxt.mp_code IS NULL THEN 'DELETED'
+		ELSE string_agg(FORMAT(
+			'%s: "%s" -> %s',
+			cmp.field_name,
+			cmp.cur_value,
+			(CASE WHEN cmp.nxt_value IS NOT NULL THEN FORMAT('"%s"', cmp.nxt_value) ELSE 'NULL' END)
+		), E'\n' ORDER BY cmp.field_name)
+	END) AS changes
+FROM
+	ccdd.mp_release_candidate cur
+	LEFT JOIN ccdd_mp_release_candidate nxt ON(nxt.mp_code = cur.mp_code)
+	LEFT JOIN LATERAL (VALUES
+		('mp_formal_name', cur.mp_formal_name, nxt.mp_formal_name),
+		('mp_status', UPPER(cur.mp_status), UPPER(nxt.mp_status)),
+		('mp_status_effective_time', cur.mp_status_effective_time, nxt.mp_status_effective_time),
+		('mp_type', cur.mp_type, nxt.mp_type),
+		('Health_Canada_identifier', cur."Health_Canada_identifier", nxt."Health_Canada_identifier"),
+		('Health_Canada_product_name', cur."Health_Canada_product_name", nxt."Health_Canada_product_name")
+	) AS cmp (
+		field_name, cur_value, nxt_value
+	) ON true
+WHERE
+	cmp.cur_value IS DISTINCT FROM cmp.nxt_value
+GROUP BY cur.mp_code, cur.mp_formal_name, nxt.mp_code
+
+UNION
+
+SELECT
+	nxt.mp_code,
+	nxt.mp_formal_name,
+	'ADDED' AS changes
+FROM
+	ccdd_mp_release_candidate nxt
+WHERE
+	NOT EXISTS(SELECT * FROM ccdd.mp_release_candidate cur WHERE cur.mp_code = nxt.mp_code)
+]]></expression>
+	</reference>
+</view>
+
+<view name="ccdd_ntp_release_candidate" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1760" y="1800"/>
+	<reference>
+		<expression><![CDATA[SELECT
+	ntp_code,
+	ntp_formal_name,
+	ntp_status,
+	ntp_type,
+	ntp_status_effective_time
+FROM ccdd_ntp_table
+WHERE tm_is_publishable = true]]></expression>
+	</reference>
+</view>
+
+<view name="qa_release_changes_ntp_release_candidate">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2240" y="1580"/>
+	<reference>
+		<expression><![CDATA[select
+	cur.ntp_code,
+	cur.ntp_formal_name,
+	(CASE
+		WHEN nxt.ntp_code is null THEN 'DELETED'
+		ELSE string_agg(FORMAT(
+			'%s: "%s" -> %s',
+			cmp.field_name,
+			cmp.cur_value,
+			(CASE WHEN cmp.nxt_value is not null THEN FORMAT('"%s"', cmp.nxt_value) ELSE 'NULL' END)
+		), E'\n' ORDER BY cmp.field_name)
+	END) as changes
+from
+	ccdd.ntp_release_candidate cur
+	LEFT JOIN ccdd_ntp_release_candidate nxt ON(cur.ntp_code = CAST(nxt.ntp_code AS varchar))
+	LEFT JOIN LATERAL (VALUES
+		('ntp_formal_name', cur.ntp_formal_name, nxt.ntp_formal_name),
+		('ntp_status', UPPER(cur.ntp_status), UPPER(nxt.ntp_status)),
+		('ntp_status_effective_time', cur.ntp_status_effective_time, nxt.ntp_status_effective_time),
+		('ntp_type', cur.ntp_type, COALESCE(nxt.ntp_type, 'NA'))
+	) AS cmp (
+		field_name, cur_value, nxt_value
+	) ON true
+WHERE
+	cmp.cur_value is distinct from cmp.nxt_value
+GROUP BY cur.ntp_code, cur.ntp_formal_name, nxt.ntp_code
+
+UNION
+
+select
+	CAST(nxt.ntp_code AS varchar) as ntp_code,
+	nxt.ntp_formal_name,
+	'ADDED' as changes
+from
+	ccdd_ntp_release_candidate nxt
+WHERE
+	not exists(select * from ccdd.ntp_release_candidate cur where cur.ntp_code = CAST(nxt.ntp_code AS varchar))
+]]></expression>
+	</reference>
+</view>
+
+<view name="ccdd_tm_release_candidate" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1760" y="1880"/>
+	<reference>
+		<expression><![CDATA[SELECT
+	tm_code,
+	tm_formal_name,
+	tm_status,
+	tm_status_effective_time
+FROM
+	ccdd_tm_table
+WHERE tm_is_publishable = true;
+]]></expression>
+	</reference>
+</view>
+
+<view name="qa_release_changes_tm_release_candidate">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2140" y="1620"/>
+	<reference>
+		<expression><![CDATA[select
+	cur.tm_code,
+	cur.tm_formal_name,
+	(CASE
+		WHEN nxt.tm_code is null THEN 'DELETED'
+		ELSE string_agg(FORMAT(
+			'%s: "%s" -> %s',
+			cmp.field_name,
+			cmp.cur_value,
+			(CASE WHEN cmp.nxt_value is not null THEN FORMAT('"%s"', cmp.nxt_value) ELSE 'NULL' END)
+		), E'\n' ORDER BY cmp.field_name)
+	END) as changes
+from
+	ccdd.tm_release_candidate cur
+	LEFT JOIN ccdd_tm_release_candidate nxt ON(cur.tm_code = CAST(nxt.tm_code AS varchar))
+	LEFT JOIN LATERAL (VALUES
+		('tm_formal_name', cur.tm_formal_name, nxt.tm_formal_name),
+		('tm_status', UPPER(cur.tm_status), UPPER(nxt.tm_status)),
+		('tm_status_effective_time', cur.tm_status_effective_time, nxt.tm_status_effective_time)
+	) AS cmp (
+		field_name, cur_value, nxt_value
+	) ON true
+WHERE
+	cmp.cur_value is distinct from cmp.nxt_value
+GROUP BY cur.tm_code, cur.tm_formal_name, nxt.tm_code
+
+UNION
+
+select
+	CAST(nxt.tm_code AS varchar) as tm_code,
+	nxt.tm_formal_name,
+	'ADDED' as changes
+from
+	ccdd_tm_release_candidate nxt
+WHERE
+	not exists(select * from ccdd.tm_release_candidate cur where cur.tm_code = CAST(nxt.tm_code AS varchar))
+]]></expression>
+	</reference>
+</view>
+
+<view name="ccdd_mp_ntp_tm_relationship_release_candidate" materialized="true">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="1860" y="1880"/>
+	<reference>
+		<expression><![CDATA[select
+	mp_code,
+	mp_formal_name,
+	ntp_code,
+	ntp_formal_name,
+	tm_code,
+	tm_formal_name
+FROM
+	ccdd_mp_ntp_tm_relationship
+WHERE tm_is_publishable = true
+]]></expression>
+	</reference>
+</view>
+
+<view name="qa_release_changes_mp_ntp_tm_relationship_release_candidate">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2140" y="1500"/>
+	<reference>
+		<expression><![CDATA[select
+	cur.mp_code,
+	cur.mp_formal_name,
+	(CASE
+		WHEN nxt.mp_code is null THEN 'DELETED'
+		ELSE string_agg(FORMAT(
+			'%s: "%s" -> %s',
+			cmp.field_name,
+			cmp.cur_value,
+			(CASE WHEN cmp.nxt_value is not null THEN FORMAT('"%s"', cmp.nxt_value) ELSE 'NULL' END)
+		), E'\n' ORDER BY cmp.field_name)
+	END) as changes
+from
+	ccdd.mp_ntp_tm_relationship_release_candidate cur
+	LEFT JOIN ccdd_mp_ntp_tm_relationship_release_candidate nxt ON(nxt.mp_code = cur.mp_code)
+	LEFT JOIN LATERAL (VALUES
+		('mp_formal_name', cur.mp_formal_name, nxt.mp_formal_name),
+		('ntp_code', cur.ntp_code, CAST(nxt.ntp_code as varchar)),
+		('ntp_formal_name', cur.ntp_formal_name, nxt.ntp_formal_name),
+		('tm_code', cur.tm_code, CAST(nxt.tm_code as varchar)),
+		('tm_formal_name', cur.tm_formal_name, nxt.tm_formal_name)
+	) AS cmp (
+		field_name, cur_value, nxt_value
+	) ON true
+WHERE
+	cmp.cur_value is distinct from cmp.nxt_value
+GROUP BY cur.mp_code, cur.mp_formal_name, nxt.mp_code
+
+UNION
+
+select
+	nxt.mp_code,
+	nxt.mp_formal_name,
+	'ADDED' as changes
+from
+	ccdd_mp_ntp_tm_relationship_release_candidate nxt
+WHERE
+	not exists(select * from ccdd.mp_ntp_tm_relationship_release_candidate cur where cur.mp_code = nxt.mp_code)]]></expression>
+	</reference>
+</view>
 
 <constraint name="active_ingredient_drug_code_fkey" type="fk-constr" comparison-type="MATCH SIMPLE"
 	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="dpd.drug_product" sql-disabled="true" table="dpd.active_ingredient">
