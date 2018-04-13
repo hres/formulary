@@ -432,6 +432,28 @@ CREATE TABLE public.dpd_drug_route(
 ALTER TABLE public.dpd_drug_route OWNER TO postgres;
 -- ddl-end --
 
+-- object: ccdd.mp_whitelist | type: TABLE --
+-- DROP TABLE IF EXISTS ccdd.mp_whitelist CASCADE;
+CREATE TABLE ccdd.mp_whitelist(
+	drug_code varchar NOT NULL,
+	CONSTRAINT mp_whitelist_pk PRIMARY KEY (drug_code)
+
+);
+-- ddl-end --
+ALTER TABLE ccdd.mp_whitelist OWNER TO postgres;
+-- ddl-end --
+
+-- object: ccdd.ntp_deprecations | type: TABLE --
+-- DROP TABLE IF EXISTS ccdd.ntp_deprecations CASCADE;
+CREATE TABLE ccdd.ntp_deprecations(
+	code varchar NOT NULL,
+	CONSTRAINT ntp_deprecations_pk PRIMARY KEY (code)
+
+);
+-- ddl-end --
+ALTER TABLE ccdd.ntp_deprecations OWNER TO postgres;
+-- ddl-end --
+
 -- object: public.dpd_drug_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.dpd_drug_source CASCADE;
 CREATE MATERIALIZED VIEW public.dpd_drug_source
@@ -474,6 +496,8 @@ OR
 (
 	cs.status = 'MARKETED'
 )
+OR
+EXISTS(select * from ccdd.mp_whitelist wl where wl.drug_code = CAST(dp.drug_code as varchar))
 );
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.dpd_drug_source OWNER TO postgres;
@@ -1614,9 +1638,9 @@ select
 		ELSE ds.current_status_date
 	END) as mp_status_effective_date,
 	(CASE
-		WHEN ds.current_status = 'MARKETED' THEN 'ACTIVE'
-		WHEN ds.current_status = 'CANCELLED POST MARKET' AND ds.current_expiration_date::date > (SELECT dpd_extract_date FROM ccdd_config LIMIT 1)  THEN 'ACTIVE'
-		ELSE 'INACTIVE'
+		WHEN ds.current_status = 'MARKETED' THEN 'Active'
+		WHEN ds.current_status = 'CANCELLED POST MARKET' AND ds.current_expiration_date::date > (SELECT dpd_extract_date FROM ccdd_config LIMIT 1)  THEN 'Active'
+		ELSE 'Inactive'
 	END) as mp_status,
 	ds.first_market_date,
 	exists(
@@ -1658,7 +1682,7 @@ ALTER TABLE ccdd.ntp_definition OWNER TO postgres;
 CREATE MATERIALIZED VIEW public.ccdd_ntp_table
 AS 
 
-SELECT
+(SELECT
 	(
 		SELECT
 			code
@@ -1667,12 +1691,12 @@ SELECT
 	) AS ntp_code,
 	candidate.ntp_formal_name,
 	(CASE
-		WHEN bool_and(candidate.mp_status = 'INACTIVE') THEN 'INACTIVE'
-		ELSE 'ACTIVE'
+		WHEN bool_and(candidate.mp_status = 'Inactive') THEN 'Inactive'
+		ELSE 'Active'
 	END) AS ntp_status,
 	candidate.ntp_type,
 	to_char((CASE
-		WHEN bool_and(candidate.mp_status = 'INACTIVE') THEN max(candidate.mp_status_effective_date)
+		WHEN bool_and(candidate.mp_status = 'Inactive') THEN max(candidate.mp_status_effective_date)
 		ELSE min(candidate.first_market_date)
 	END), 'YYYYMMDD') AS ntp_status_effective_time,
 	bool_or(candidate.tm_is_publishable) AS tm_is_publishable
@@ -1680,7 +1704,19 @@ FROM
 	ccdd_mp_table_candidate candidate
 GROUP BY
 	candidate.ntp_formal_name, candidate.ntp_type
-ORDER BY ntp_status_effective_time;
+ORDER BY ntp_status_effective_time
+) UNION ALL (
+SELECT
+	CAST(depr.code as bigint) as ntp_code,
+	deprntp.formal_name as ntp_formal_name,
+	'Deprec' as ntp_status,
+	null::varchar as ntp_type,
+	to_char((SELECT dpd_extract_date FROM ccdd_config LIMIT 1), 'YYYYMMDD') as ntp_status_effective_time,
+	false as tm_is_publishable
+FROM
+	ccdd.ntp_deprecations depr
+	LEFT JOIN ccdd.ntp_definition deprntp ON(CAST(deprntp.code as varchar) = depr.code)
+);
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_ntp_table OWNER TO postgres;
 -- ddl-end --
@@ -1742,11 +1778,11 @@ SELECT
 	dtm.tm_code,
 	COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name) as tm_formal_name,
 	(CASE
-		WHEN bool_and(candidate.mp_status = 'INACTIVE') THEN 'INACTIVE'
-		ELSE 'ACTIVE'
+		WHEN bool_and(candidate.mp_status = 'Inactive') THEN 'Inactive'
+		ELSE 'Active'
 	END) AS tm_status,
 	to_char((CASE
-		WHEN bool_and(candidate.mp_status = 'INACTIVE') THEN max(candidate.mp_status_effective_date)
+		WHEN bool_and(candidate.mp_status = 'Inactive') THEN max(candidate.mp_status_effective_date)
 		ELSE min(candidate.first_market_date)
 	END), 'YYYYMMDD') AS tm_status_effective_time,
 	bool_or(candidate.tm_is_publishable) AS tm_is_publishable
