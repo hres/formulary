@@ -1586,7 +1586,8 @@ FROM
 		('Schedule G (CDSA I)', 500003),
 		('Schedule G (CDSA III)', 500004),
 		('Schedule G (CDSA IV)', 500005),
-		('Targeted (CDSA IV)', 500006)
+		('Targeted (CDSA IV)', 500006),
+		('Narcotic (CDSA II)', 500007)
 	) AS schedule_policy_mapping (schedule, policy_type)
 	INNER JOIN public.dpd_drug_schedule sch ON schedule_policy_mapping.schedule = sch.schedule
 GROUP BY dpd_drug_code, sch.schedule, schedule_policy_mapping.policy_type;
@@ -1712,7 +1713,7 @@ SELECT
 	'Deprec' as ntp_status,
 	null::varchar as ntp_type,
 	to_char((SELECT dpd_extract_date FROM ccdd_config LIMIT 1), 'YYYYMMDD') as ntp_status_effective_time,
-	false as tm_is_publishable
+	true as tm_is_publishable
 FROM
 	ccdd.ntp_deprecations depr
 	LEFT JOIN ccdd.ntp_definition deprntp ON(CAST(deprntp.code as varchar) = depr.code)
@@ -2852,8 +2853,8 @@ SELECT
 	ntp_code,
 	ntp_formal_name,
 	ntp_status,
-	ntp_type,
-	ntp_status_effective_time
+	ntp_status_effective_time,
+	ntp_type
 FROM ccdd_ntp_table
 WHERE tm_is_publishable = true;
 -- ddl-end --
