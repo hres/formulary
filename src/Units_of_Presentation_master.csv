@@ -410,7 +410,7 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 95389,vial,5,mL,Y,N,,,
 95561,vial,10,mL,Y,N,,,
 95790,vial,50,mL,N,N,,,
-94712,syringe,1,mL,N,N,,,
+94712,syringe,1,mL,Y,N,,,
 94711,syringe,0.5,mL,N,N,,,
 75098,vial,2,mL,Y,N,,,
 75098,vial,4,mL,Y,N,,,
