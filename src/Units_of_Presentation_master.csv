@@ -477,3 +477,5 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 80046,bag,150,mL,Y,N,,,
 51050,unit dose vial,2.5,mL,Y,N,,,
 86757,vial,5,mL,N,N,,,
+95190,sachet,5,g,N,Y,,,
+95189,sachet,2.5,g,N,Y,,,
