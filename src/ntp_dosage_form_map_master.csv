@@ -566,5 +566,6 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40129,wipe,70,TOPICAL,Topique,105,WIPE,Serviette,29514,TRUE,2017-11-28,dbuijs,e93c548c-d459-11e7-8749-aa0000cecfa6
 40129,wipe,107,TOPICAL (HOSPITAL/HC FACILITIES),"Topique (H?pitaux, ?tablissements de soins de sant?)",105,WIPE,Serviette,29522,TRUE,2017-11-28,dbuijs,e93c5914-d459-11e7-8749-aa0000cecfa6
 40129,wipe,104,TOPICAL (HOUSEHOLD),Topique (Maison),105,WIPE,Serviette,29528,TRUE,2017-11-28,dbuijs,e93c5b44-d459-11e7-8749-aa0000cecfa6
-40055,prolonged-release eye drops,55,OPHTHALMIC,Ophtalmique,155,SOLUTION (EXTENDED RELEASE),Solution (? lib?ration prolong?e),,,,,
+40055,prolonged-release ophthalmic drops,55,OPHTHALMIC,Ophtalmique,155,SOLUTION (EXTENDED RELEASE),Solution (? lib?ration prolong?e),,,,,
 ,buccal film,3,BUCCAL,Buccale,167,"FILM, SOLUBLE","Pellicule, soluble",,,,,
+,transdermal solution,71,TRANSDERMAL,Transdermique,134,SOLUTION,Solution,,,,,
