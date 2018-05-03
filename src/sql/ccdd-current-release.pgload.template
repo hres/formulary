@@ -69,12 +69,12 @@ LOAD CSV
     WITH ENCODING UTF-8
     (
       ntp_code,
+      ntp_formal_name,
       ntp_en_description,
       ntp_fr_description,
       ntp_status,
       ntp_status_effective_time,
-      ntp_type,
-      ntp_formal_name
+      ntp_type
     )
   INTO postgresql:///?ccdd.ntp_release
     (

@@ -3,7 +3,7 @@
 CAUTION: Do not modify this file unless you know what you are doing.
          Unexpected results may occur if the code is changed deliberately.
 -->
-<dbmodel pgmodeler-ver="0.9.0" last-position="739,941" last-zoom="0.85"
+<dbmodel pgmodeler-ver="0.9.0" last-position="739,186" last-zoom="0.85"
 	 default-owner="postgres">
 <database name="sandbox">
 </database>
@@ -276,7 +276,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	 dst-table="public.ccdd_dosage_form_mapping"
 	 src-required="true" dst-required="false">
 	<label ref-type="name-label">
-		<position x="0" y="0"/>
+		<position x="2.76535" y="-4.56066"/>
 	</label>
 </relationship>
 
@@ -663,7 +663,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <table name="mp_whitelist">
 	<schema name="ccdd"/>
 	<role name="postgres"/>
-	<position x="2160" y="800"/>
+	<position x="2140" y="780"/>
 	<column name="drug_code" not-null="true">
 		<type name="varchar" length="0"/>
 	</column>

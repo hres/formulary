@@ -15,7 +15,7 @@ SET check_function_bodies = false;
 -- CREATE DATABASE sandbox
 -- ;
 -- -- ddl-end --
---
+-- 
 
 -- -- object: dpd | type: SCHEMA --
 -- -- DROP SCHEMA IF EXISTS dpd CASCADE;
@@ -23,7 +23,7 @@ SET check_function_bodies = false;
 -- -- ddl-end --
 -- ALTER SCHEMA dpd OWNER TO postgres;
 -- -- ddl-end --
---
+-- 
 -- object: ccdd | type: SCHEMA --
 -- DROP SCHEMA IF EXISTS ccdd CASCADE;
 CREATE SCHEMA ccdd;
@@ -325,7 +325,7 @@ ON DELETE RESTRICT ON UPDATE CASCADE;
 -- -- ddl-end --
 -- ALTER TABLE dpd.active_ingredient OWNER TO postgres;
 -- -- ddl-end --
---
+-- 
 -- -- object: dpd.companies | type: TABLE --
 -- -- DROP TABLE IF EXISTS dpd.companies CASCADE;
 -- CREATE TABLE dpd.companies(
@@ -352,7 +352,7 @@ ON DELETE RESTRICT ON UPDATE CASCADE;
 -- -- ddl-end --
 -- ALTER TABLE dpd.companies OWNER TO postgres;
 -- -- ddl-end --
---
+-- 
 -- -- object: dpd.drug_product | type: TABLE --
 -- -- DROP TABLE IF EXISTS dpd.drug_product CASCADE;
 -- CREATE TABLE dpd.drug_product(
@@ -372,12 +372,12 @@ ON DELETE RESTRICT ON UPDATE CASCADE;
 -- 	brand_name_f text,
 -- 	descriptor_f text,
 -- 	CONSTRAINT drug_product_drug_code PRIMARY KEY ("extract",drug_code)
---
+-- 
 -- );
 -- -- ddl-end --
 -- ALTER TABLE dpd.drug_product OWNER TO postgres;
 -- -- ddl-end --
---
+-- 
 -- -- object: dpd.pharmaceutical_form | type: TABLE --
 -- -- DROP TABLE IF EXISTS dpd.pharmaceutical_form CASCADE;
 -- CREATE TABLE dpd.pharmaceutical_form(
@@ -390,7 +390,7 @@ ON DELETE RESTRICT ON UPDATE CASCADE;
 -- -- ddl-end --
 -- ALTER TABLE dpd.pharmaceutical_form OWNER TO postgres;
 -- -- ddl-end --
---
+-- 
 -- -- object: dpd.route | type: TABLE --
 -- -- DROP TABLE IF EXISTS dpd.route CASCADE;
 -- CREATE TABLE dpd.route(
@@ -403,7 +403,7 @@ ON DELETE RESTRICT ON UPDATE CASCADE;
 -- -- ddl-end --
 -- ALTER TABLE dpd.route OWNER TO postgres;
 -- -- ddl-end --
---
+-- 
 -- -- object: dpd.status | type: TABLE --
 -- -- DROP TABLE IF EXISTS dpd.status CASCADE;
 -- CREATE TABLE dpd.status(
@@ -419,7 +419,7 @@ ON DELETE RESTRICT ON UPDATE CASCADE;
 -- -- ddl-end --
 -- ALTER TABLE dpd.status OWNER TO postgres;
 -- -- ddl-end --
---
+-- 
 -- object: public.dpd_drug_route | type: TABLE --
 -- DROP TABLE IF EXISTS public.dpd_drug_route CASCADE;
 CREATE TABLE public.dpd_drug_route(
@@ -457,7 +457,7 @@ ALTER TABLE ccdd.ntp_deprecations OWNER TO postgres;
 -- object: public.dpd_drug_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.dpd_drug_source CASCADE;
 CREATE MATERIALIZED VIEW public.dpd_drug_source
-AS
+AS 
 
 SELECT
    dp.drug_code AS code,
@@ -554,7 +554,7 @@ ON DELETE RESTRICT ON UPDATE CASCADE;
 -- -- ddl-end --
 -- ALTER TABLE dpd.schedule OWNER TO postgres;
 -- -- ddl-end --
---
+-- 
 -- object: ccdd.ntp_dosage_forms | type: TABLE --
 -- DROP TABLE IF EXISTS ccdd.ntp_dosage_forms CASCADE;
 CREATE TABLE ccdd.ntp_dosage_forms(
@@ -575,7 +575,7 @@ ALTER TABLE ccdd.ntp_dosage_forms OWNER TO postgres;
 -- object: public.dpd_drug_form_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.dpd_drug_form_source CASCADE;
 CREATE MATERIALIZED VIEW public.dpd_drug_form_source
-AS
+AS 
 
 SELECT
    pf.drug_code AS dpd_drug_code,
@@ -591,7 +591,7 @@ ALTER MATERIALIZED VIEW public.dpd_drug_form_source OWNER TO postgres;
 -- object: public.dpd_drug_route_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.dpd_drug_route_source CASCADE;
 CREATE MATERIALIZED VIEW public.dpd_drug_route_source
-AS
+AS 
 
 SELECT
    r.drug_code AS dpd_drug_code,
@@ -607,7 +607,7 @@ ALTER MATERIALIZED VIEW public.dpd_drug_route_source OWNER TO postgres;
 -- object: public.dpd_active_ingredient_code_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.dpd_active_ingredient_code_source CASCADE;
 CREATE MATERIALIZED VIEW public.dpd_active_ingredient_code_source
-AS
+AS 
 
 SELECT
    ai.active_ingredient_code AS id
@@ -636,7 +636,7 @@ ALTER SEQUENCE public.dpd_drug_ingredient_option_source_order OWNER TO postgres;
 -- object: public.dpd_named_ingredient_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.dpd_named_ingredient_source CASCADE;
 CREATE MATERIALIZED VIEW public.dpd_named_ingredient_source
-AS
+AS 
 
 SELECT
    ai.ingredient AS name
@@ -676,7 +676,7 @@ ON DELETE RESTRICT ON UPDATE CASCADE;
 CREATE FUNCTION public.ccdd_normalized_unit ( dpd_unit varchar)
 	RETURNS varchar
 	LANGUAGE sql
-	STABLE
+	STABLE 
 	RETURNS NULL ON NULL INPUT
 	SECURITY INVOKER
 	COST 1
@@ -698,7 +698,7 @@ ALTER FUNCTION public.ccdd_normalized_unit(varchar) OWNER TO postgres;
 -- object: public.dpd_drug_ingredient_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.dpd_drug_ingredient_source CASCADE;
 CREATE MATERIALIZED VIEW public.dpd_drug_ingredient_source
-AS
+AS 
 
 SELECT
    ai.drug_code AS dpd_drug_code,
@@ -715,7 +715,7 @@ ALTER MATERIALIZED VIEW public.dpd_drug_ingredient_source OWNER TO postgres;
 -- object: public.dpd_drug_ingredient_option_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.dpd_drug_ingredient_option_source CASCADE;
 CREATE MATERIALIZED VIEW public.dpd_drug_ingredient_option_source
-AS
+AS 
 
 SELECT
    ai.drug_code AS dpd_drug_code,
@@ -736,7 +736,7 @@ ALTER MATERIALIZED VIEW public.dpd_drug_ingredient_option_source OWNER TO postgr
 -- object: public.dpd_route_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.dpd_route_source CASCADE;
 CREATE MATERIALIZED VIEW public.dpd_route_source
-AS
+AS 
 
 SELECT code, max(name_en) as name_en FROM (
 	SELECT
@@ -790,7 +790,7 @@ ALTER TABLE ccdd.tm_definition OWNER TO postgres;
 -- object: public.ccdd_ntp_ingredient_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_ntp_ingredient_source CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_ntp_ingredient_source
-AS
+AS 
 
 SELECT
    isc.ntp_ing AS name,
@@ -830,7 +830,7 @@ ON DELETE CASCADE ON UPDATE CASCADE;
 -- object: public.ccdd_dpd_ingredient_ntp_mapping_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_dpd_ingredient_ntp_mapping_source CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_dpd_ingredient_ntp_mapping_source
-AS
+AS 
 
 SELECT
    isc.dpd_ingredient AS dpd_named_ingredient_name,
@@ -847,7 +847,7 @@ ALTER MATERIALIZED VIEW public.ccdd_dpd_ingredient_ntp_mapping_source OWNER TO p
 -- object: public.ccdd_ingredient_stem_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_ingredient_stem_source CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_ingredient_stem_source
-AS
+AS 
 
 SELECT name FROM (
 	SELECT
@@ -873,7 +873,7 @@ ALTER MATERIALIZED VIEW public.ccdd_ingredient_stem_source OWNER TO postgres;
 -- object: public.ccdd_tm_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_tm_source CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_tm_source
-AS
+AS 
 
 SELECT
    tt.code AS code
@@ -888,7 +888,7 @@ ALTER MATERIALIZED VIEW public.ccdd_tm_source OWNER TO postgres;
 -- object: public.ccdd_tm_ingredient_stem_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_tm_ingredient_stem_source CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_tm_ingredient_stem_source
-AS
+AS 
 
 SELECT
    tt.code AS ccdd_tm_code,
@@ -951,7 +951,7 @@ ON DELETE CASCADE ON UPDATE CASCADE;
 -- object: public.dpd_form_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.dpd_form_source CASCADE;
 CREATE MATERIALIZED VIEW public.dpd_form_source
-AS
+AS 
 
 SELECT code, max(name_en) as name_en FROM (
 	SELECT
@@ -979,7 +979,7 @@ ALTER MATERIALIZED VIEW public.dpd_form_source OWNER TO postgres;
 -- object: public.ccdd_dosage_form_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_dosage_form_source CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_dosage_form_source
-AS
+AS 
 
 SELECT
    df.ntp_dosage_form AS name,
@@ -995,7 +995,7 @@ ALTER MATERIALIZED VIEW public.ccdd_dosage_form_source OWNER TO postgres;
 -- object: public.ccdd_dosage_form_mapping_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_dosage_form_mapping_source CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_dosage_form_mapping_source
-AS
+AS 
 
 SELECT
    CONCAT(df.ntp_dosage_form_code, '|', df.route_of_administration_code, '|', df.pharm_form_code) AS id,
@@ -1013,7 +1013,7 @@ ALTER MATERIALIZED VIEW public.ccdd_dosage_form_mapping_source OWNER TO postgres
 -- object: public.ccdd_dosage_form_mapping_dpd_form_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_dosage_form_mapping_dpd_form_source CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_dosage_form_mapping_dpd_form_source
-AS
+AS 
 
 SELECT
    CONCAT(df.ntp_dosage_form_code, '|', df.route_of_administration_code, '|', df.pharm_form_code) AS ccdd_dosage_form_mapping_id,
@@ -1030,7 +1030,7 @@ ALTER MATERIALIZED VIEW public.ccdd_dosage_form_mapping_dpd_form_source OWNER TO
 -- object: public.ccdd_dosage_form_mapping_dpd_route_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_dosage_form_mapping_dpd_route_source CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_dosage_form_mapping_dpd_route_source
-AS
+AS 
 
 SELECT
    CONCAT(df.ntp_dosage_form_code, '|', df.route_of_administration_code, '|', df.pharm_form_code) AS ccdd_dosage_form_mapping_id,
@@ -1047,7 +1047,7 @@ ALTER MATERIALIZED VIEW public.ccdd_dosage_form_mapping_dpd_route_source OWNER T
 -- object: public.ccdd_drug_dosage_form_by_route | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_drug_dosage_form_by_route CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_drug_dosage_form_by_route
-AS
+AS 
 
 select dd.code as dpd_drug_code, dform.id as mapping_id, dform.ccdd_dosage_form_name from
 	dpd_drug dd,
@@ -1103,7 +1103,7 @@ ALTER TABLE ccdd.combination_products_csv OWNER TO postgres;
 CREATE FUNCTION public.ccdd_normalize_ingredient ( raw_ingredient varchar)
 	RETURNS varchar
 	LANGUAGE sql
-	VOLATILE
+	VOLATILE 
 	CALLED ON NULL INPUT
 	SECURITY INVOKER
 	COST 1
@@ -1125,7 +1125,7 @@ ALTER FUNCTION public.ccdd_normalize_ingredient(varchar) OWNER TO postgres;
 -- object: public.ccdd_drug_ingredient_option_description | type: VIEW --
 -- DROP VIEW IF EXISTS public.ccdd_drug_ingredient_option_description CASCADE;
 CREATE VIEW public.ccdd_drug_ingredient_option_description
-AS
+AS 
 
 SELECT
 	ddio.dpd_drug_code,
@@ -1173,7 +1173,7 @@ ALTER TABLE ccdd.unit_of_presentation_csv OWNER TO postgres;
 -- object: public.ccdd_drug_dosage_form_by_form | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_drug_dosage_form_by_form CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_drug_dosage_form_by_form
-AS
+AS 
 
 select dd.code as dpd_drug_code, dform.id as mapping_id, dform.ccdd_dosage_form_name from
 	dpd_drug dd,
@@ -1212,7 +1212,7 @@ ALTER MATERIALIZED VIEW public.ccdd_drug_dosage_form_by_form OWNER TO postgres;
 -- object: public.ccdd_drug_dosage_form | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_drug_dosage_form CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_drug_dosage_form
-AS
+AS 
 
 select
 	dd.code as dpd_drug_code,
@@ -1231,7 +1231,7 @@ ALTER MATERIALIZED VIEW public.ccdd_drug_dosage_form OWNER TO postgres;
 -- object: public.ccdd_drug_ingredient_summary | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_drug_ingredient_summary CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_drug_ingredient_summary
-AS
+AS 
 
 SELECT
 	dd.code AS dpd_drug_code,
@@ -1415,7 +1415,7 @@ CREATE INDEX ccdd_drug_ingredient_summary_drug_code ON public.ccdd_drug_ingredie
 -- object: public.ccdd_combination_product_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_combination_product_source CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_combination_product_source
-AS
+AS 
 
 SELECT
    cp.drug_code AS dpd_drug_code,
@@ -1445,7 +1445,7 @@ ALTER TABLE ccdd.mp_brand_override OWNER TO postgres;
 -- object: public.ccdd_drug_tm | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_drug_tm CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_drug_tm
-AS
+AS 
 
 SELECT
 	dd.code AS dpd_drug_code,
@@ -1527,7 +1527,7 @@ ALTER TABLE public.dpd_drug_status OWNER TO postgres;
 -- object: public.ccdd_drug_status | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_drug_status CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_drug_status
-AS
+AS 
 
 select
 	dd.code as dpd_drug_code,
@@ -1547,7 +1547,7 @@ ALTER MATERIALIZED VIEW public.ccdd_drug_status OWNER TO postgres;
 -- object: public.dpd_drug_schedule_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.dpd_drug_schedule_source CASCADE;
 CREATE MATERIALIZED VIEW public.dpd_drug_schedule_source
-AS
+AS 
 
 SELECT
    sch.drug_code AS dpd_drug_code,
@@ -1574,7 +1574,7 @@ ALTER TABLE public.dpd_drug_schedule OWNER TO postgres;
 -- object: public.ccdd_drug_schedule | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_drug_schedule CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_drug_schedule
-AS
+AS 
 
 SELECT
 	sch.dpd_drug_code AS dpd_drug_code,
@@ -1598,7 +1598,7 @@ ALTER MATERIALIZED VIEW public.ccdd_drug_schedule OWNER TO postgres;
 -- object: public.ccdd_mp_table_candidate | type: VIEW --
 -- DROP VIEW IF EXISTS public.ccdd_mp_table_candidate CASCADE;
 CREATE VIEW public.ccdd_mp_table_candidate
-AS
+AS 
 
 select
 	dd.code as dpd_drug_code,
@@ -1681,7 +1681,7 @@ ALTER TABLE ccdd.ntp_definition OWNER TO postgres;
 -- object: public.ccdd_ntp_table | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_ntp_table CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_ntp_table
-AS
+AS 
 
 (SELECT
 	(
@@ -1734,7 +1734,7 @@ CREATE INDEX ccdd_drug_status_code ON public.ccdd_drug_status
 -- object: public.ccdd_drug_tm_fallback | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_drug_tm_fallback CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_drug_tm_fallback
-AS
+AS 
 
 SELECT
 	dd.code AS dpd_drug_code,
@@ -1773,7 +1773,7 @@ CREATE INDEX ccdd_drug_tm_fallback_code ON public.ccdd_drug_tm_fallback
 -- object: public.ccdd_tm_table | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_tm_table CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_tm_table
-AS
+AS 
 
 SELECT
 	dtm.tm_code,
@@ -1827,7 +1827,7 @@ ON DELETE RESTRICT ON UPDATE CASCADE;
 -- object: public.ccdd_mp_ntp_tm_relationship | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_mp_ntp_tm_relationship CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_mp_ntp_tm_relationship
-AS
+AS 
 
 SELECT
 	(CASE
@@ -1856,7 +1856,7 @@ ALTER MATERIALIZED VIEW public.ccdd_mp_ntp_tm_relationship OWNER TO postgres;
 -- object: public.ccdd_mp_table | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_mp_table CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_mp_table
-AS
+AS 
 
 SELECT
 	(CASE
@@ -1893,7 +1893,7 @@ CREATE INDEX ccdd_drug_tm_drug_code ON public.ccdd_drug_tm
 -- object: public.dpd_drug_status_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.dpd_drug_status_source CASCADE;
 CREATE MATERIALIZED VIEW public.dpd_drug_status_source
-AS
+AS 
 
 SELECT
    s.drug_code AS dpd_drug_code,
@@ -1931,7 +1931,7 @@ ALTER TABLE ccdd.pseudodin_map OWNER TO postgres;
 -- object: public.ccdd_presentation_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_presentation_source CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_presentation_source
-AS
+AS 
 
 SELECT
    md5(concat(drug_code, unit_of_presentation, uop_size, uop_unit_of_measure)) AS id,
@@ -1961,7 +1961,7 @@ ALTER MATERIALIZED VIEW public.ccdd_presentation_source OWNER TO postgres;
 -- object: public.qa_release_changes_mp | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_release_changes_mp CASCADE;
 CREATE VIEW public.qa_release_changes_mp
-AS
+AS 
 
 select
 	cur.mp_code,
@@ -2113,7 +2113,7 @@ ALTER TABLE ccdd.mp_ntp_tm_relationship_release OWNER TO postgres;
 -- object: public.qa_release_changes_ntp | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_release_changes_ntp CASCADE;
 CREATE VIEW public.qa_release_changes_ntp
-AS
+AS 
 
 select
 	cur.ntp_code,
@@ -2159,7 +2159,7 @@ ALTER VIEW public.qa_release_changes_ntp OWNER TO postgres;
 -- object: public.qa_release_changes_tm | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_release_changes_tm CASCADE;
 CREATE VIEW public.qa_release_changes_tm
-AS
+AS 
 
 select
 	cur.tm_code,
@@ -2204,7 +2204,7 @@ ALTER VIEW public.qa_release_changes_tm OWNER TO postgres;
 -- object: public.qa_mp_duplicates_code | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_mp_duplicates_code CASCADE;
 CREATE VIEW public.qa_mp_duplicates_code
-AS
+AS 
 
 select
 	*
@@ -2221,7 +2221,7 @@ ALTER VIEW public.qa_mp_duplicates_code OWNER TO postgres;
 -- object: public.qa_mp_duplicates_name | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_mp_duplicates_name CASCADE;
 CREATE VIEW public.qa_mp_duplicates_name
-AS
+AS 
 
 select
 	*
@@ -2238,7 +2238,7 @@ ALTER VIEW public.qa_mp_duplicates_name OWNER TO postgres;
 -- object: public.qa_ntp_duplicates_code | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_ntp_duplicates_code CASCADE;
 CREATE VIEW public.qa_ntp_duplicates_code
-AS
+AS 
 
 select
 	*
@@ -2255,7 +2255,7 @@ ALTER VIEW public.qa_ntp_duplicates_code OWNER TO postgres;
 -- object: public.qa_ntp_duplicates_name | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_ntp_duplicates_name CASCADE;
 CREATE VIEW public.qa_ntp_duplicates_name
-AS
+AS 
 
 select
 	*
@@ -2272,7 +2272,7 @@ ALTER VIEW public.qa_ntp_duplicates_name OWNER TO postgres;
 -- object: public.qa_tm_duplicates_code | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_tm_duplicates_code CASCADE;
 CREATE VIEW public.qa_tm_duplicates_code
-AS
+AS 
 
 select
 	*
@@ -2289,7 +2289,7 @@ ALTER VIEW public.qa_tm_duplicates_code OWNER TO postgres;
 -- object: public.qa_tm_duplicates_name | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_tm_duplicates_name CASCADE;
 CREATE VIEW public.qa_tm_duplicates_name
-AS
+AS 
 
 select
 	*
@@ -2306,7 +2306,7 @@ ALTER VIEW public.qa_tm_duplicates_name OWNER TO postgres;
 -- object: public.qa_missing_concepts_ntp | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_missing_concepts_ntp CASCADE;
 CREATE VIEW public.qa_missing_concepts_ntp
-AS
+AS 
 
 select
 	*
@@ -2332,7 +2332,7 @@ CREATE INDEX dpd_drug_ingredient_option_drug_code ON public.dpd_drug_ingredient_
 -- object: public.qa_missing_concepts_tm | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_missing_concepts_tm CASCADE;
 CREATE VIEW public.qa_missing_concepts_tm
-AS
+AS 
 
 select
 	*
@@ -2349,7 +2349,7 @@ ALTER VIEW public.qa_missing_concepts_tm OWNER TO postgres;
 -- object: public.qa_missing_concepts_dosage_form | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_missing_concepts_dosage_form CASCADE;
 CREATE VIEW public.qa_missing_concepts_dosage_form
-AS
+AS 
 
 select
 	dd.code as dpd_drug_code,
@@ -2386,7 +2386,7 @@ ALTER VIEW public.qa_missing_concepts_dosage_form OWNER TO postgres;
 -- object: public.qa_missing_concepts_ingredient_stem | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_missing_concepts_ingredient_stem CASCADE;
 CREATE VIEW public.qa_missing_concepts_ingredient_stem
-AS
+AS 
 
 select
 	dd.code as dpd_drug_code,
@@ -2408,7 +2408,7 @@ ALTER VIEW public.qa_missing_concepts_ingredient_stem OWNER TO postgres;
 -- object: public.qa_release_changes_mp_ntp_tm_relationship | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_release_changes_mp_ntp_tm_relationship CASCADE;
 CREATE VIEW public.qa_release_changes_mp_ntp_tm_relationship
-AS
+AS 
 
 select
 	cur.mp_code,
@@ -2464,7 +2464,7 @@ CREATE INDEX ccdd_tm_ingredient_stem_tm_code ON public.ccdd_tm_ingredient_stem
 -- object: public.qa_mp_ntp_tm_relationship_duplicates_code | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_mp_ntp_tm_relationship_duplicates_code CASCADE;
 CREATE VIEW public.qa_mp_ntp_tm_relationship_duplicates_code
-AS
+AS 
 
 select
 	*
@@ -2481,7 +2481,7 @@ ALTER VIEW public.qa_mp_ntp_tm_relationship_duplicates_code OWNER TO postgres;
 -- object: public.qa_mp_ntp_tm_relationship_missing_rows | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_mp_ntp_tm_relationship_missing_rows CASCADE;
 CREATE VIEW public.qa_mp_ntp_tm_relationship_missing_rows
-AS
+AS 
 
 select
 	*
@@ -2498,7 +2498,7 @@ ALTER VIEW public.qa_mp_ntp_tm_relationship_missing_rows OWNER TO postgres;
 -- object: public.qa_mp_ntp_tm_relationship_missing_parents | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_mp_ntp_tm_relationship_missing_parents CASCADE;
 CREATE VIEW public.qa_mp_ntp_tm_relationship_missing_parents
-AS
+AS 
 
 select
 	*
@@ -2515,7 +2515,7 @@ ALTER VIEW public.qa_mp_ntp_tm_relationship_missing_parents OWNER TO postgres;
 -- object: public.dpd_ingredient_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.dpd_ingredient_source CASCADE;
 CREATE MATERIALIZED VIEW public.dpd_ingredient_source
-AS
+AS 
 
 SELECT
    ai.ingredient AS dpd_named_ingredient_name,
@@ -2538,7 +2538,7 @@ ON DELETE SET NULL ON UPDATE CASCADE;
 -- object: public.qa_missing_concepts_pseudodin | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_missing_concepts_pseudodin CASCADE;
 CREATE VIEW public.qa_missing_concepts_pseudodin
-AS
+AS 
 
 select
 	nxt.din,
@@ -2576,7 +2576,7 @@ ALTER TABLE ccdd.tm_groupings OWNER TO postgres;
 -- object: public.ccdd_tm_special_groupings | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_tm_special_groupings CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_tm_special_groupings
-AS
+AS 
 
 SELECT
 	tsg.tm_code AS tm_code,
@@ -2591,7 +2591,7 @@ ALTER MATERIALIZED VIEW public.ccdd_tm_special_groupings OWNER TO postgres;
 -- object: public.ccdd_mp_special_groupings | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_mp_special_groupings CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_mp_special_groupings
-AS
+AS 
 
 SELECT
 	msg.mp_code AS mp_code,
@@ -2639,7 +2639,7 @@ ALTER MATERIALIZED VIEW public.ccdd_mp_special_groupings OWNER TO postgres;
 -- object: public.ccdd_special_groupings | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_special_groupings CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_special_groupings
-AS
+AS 
 
 SELECT
 	csg.ccdd_code,
@@ -2716,7 +2716,7 @@ ALTER MATERIALIZED VIEW public.ccdd_special_groupings OWNER TO postgres;
 -- -- ddl-end --
 -- ALTER TABLE public.ccdd_config OWNER TO postgres;
 -- -- ddl-end --
---
+-- 
 -- object: ccdd.mp_release_candidate | type: TABLE --
 -- DROP TABLE IF EXISTS ccdd.mp_release_candidate CASCADE;
 CREATE TABLE ccdd.mp_release_candidate(
@@ -2778,7 +2778,7 @@ ALTER TABLE ccdd.ntp_release_candidate OWNER TO postgres;
 -- object: public.ccdd_mp_release_candidate | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_mp_release_candidate CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_mp_release_candidate
-AS
+AS 
 
 SELECT
 	mp_code,
@@ -2799,7 +2799,7 @@ ALTER MATERIALIZED VIEW public.ccdd_mp_release_candidate OWNER TO postgres;
 -- object: public.qa_release_changes_mp_release_candidate | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_release_changes_mp_release_candidate CASCADE;
 CREATE VIEW public.qa_release_changes_mp_release_candidate
-AS
+AS 
 
 SELECT
 	cur.mp_code,
@@ -2847,7 +2847,7 @@ ALTER VIEW public.qa_release_changes_mp_release_candidate OWNER TO postgres;
 -- object: public.ccdd_ntp_release_candidate | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_ntp_release_candidate CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_ntp_release_candidate
-AS
+AS 
 
 SELECT
 	ntp_code,
@@ -2864,7 +2864,7 @@ ALTER MATERIALIZED VIEW public.ccdd_ntp_release_candidate OWNER TO postgres;
 -- object: public.qa_release_changes_ntp_release_candidate | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_release_changes_ntp_release_candidate CASCADE;
 CREATE VIEW public.qa_release_changes_ntp_release_candidate
-AS
+AS 
 
 select
 	cur.ntp_code,
@@ -2910,7 +2910,7 @@ ALTER VIEW public.qa_release_changes_ntp_release_candidate OWNER TO postgres;
 -- object: public.ccdd_tm_release_candidate | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_tm_release_candidate CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_tm_release_candidate
-AS
+AS 
 
 SELECT
 	tm_code,
@@ -2927,7 +2927,7 @@ ALTER MATERIALIZED VIEW public.ccdd_tm_release_candidate OWNER TO postgres;
 -- object: public.qa_release_changes_tm_release_candidate | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_release_changes_tm_release_candidate CASCADE;
 CREATE VIEW public.qa_release_changes_tm_release_candidate
-AS
+AS 
 
 select
 	cur.tm_code,
@@ -2972,7 +2972,7 @@ ALTER VIEW public.qa_release_changes_tm_release_candidate OWNER TO postgres;
 -- object: public.ccdd_mp_ntp_tm_relationship_release_candidate | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_mp_ntp_tm_relationship_release_candidate CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_mp_ntp_tm_relationship_release_candidate
-AS
+AS 
 
 select
 	mp_code,
@@ -2991,7 +2991,7 @@ ALTER MATERIALIZED VIEW public.ccdd_mp_ntp_tm_relationship_release_candidate OWN
 -- object: public.qa_release_changes_mp_ntp_tm_relationship_release_candidate | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_release_changes_mp_ntp_tm_relationship_release_candidate CASCADE;
 CREATE VIEW public.qa_release_changes_mp_ntp_tm_relationship_release_candidate
-AS
+AS 
 
 select
 	cur.mp_code,
@@ -3041,39 +3041,40 @@ ALTER VIEW public.qa_release_changes_mp_ntp_tm_relationship_release_candidate OW
 -- REFERENCES dpd.drug_product ("extract",drug_code) MATCH SIMPLE
 -- ON DELETE NO ACTION ON UPDATE NO ACTION;
 -- -- ddl-end --
---
+-- 
 -- -- object: companies_drug_code_fkey | type: CONSTRAINT --
 -- -- ALTER TABLE dpd.companies DROP CONSTRAINT IF EXISTS companies_drug_code_fkey CASCADE;
 -- ALTER TABLE dpd.companies ADD CONSTRAINT companies_drug_code_fkey FOREIGN KEY ("extract",drug_code)
 -- REFERENCES dpd.drug_product ("extract",drug_code) MATCH SIMPLE
 -- ON DELETE NO ACTION ON UPDATE NO ACTION;
 -- -- ddl-end --
---
+-- 
 -- -- object: pharmaceutical_form_drug_code_fkey | type: CONSTRAINT --
 -- -- ALTER TABLE dpd.pharmaceutical_form DROP CONSTRAINT IF EXISTS pharmaceutical_form_drug_code_fkey CASCADE;
 -- ALTER TABLE dpd.pharmaceutical_form ADD CONSTRAINT pharmaceutical_form_drug_code_fkey FOREIGN KEY ("extract",drug_code)
 -- REFERENCES dpd.drug_product ("extract",drug_code) MATCH SIMPLE
 -- ON DELETE NO ACTION ON UPDATE NO ACTION;
 -- -- ddl-end --
---
+-- 
 -- -- object: route_drug_code_fkey | type: CONSTRAINT --
 -- -- ALTER TABLE dpd.route DROP CONSTRAINT IF EXISTS route_drug_code_fkey CASCADE;
 -- ALTER TABLE dpd.route ADD CONSTRAINT route_drug_code_fkey FOREIGN KEY ("extract",drug_code)
 -- REFERENCES dpd.drug_product ("extract",drug_code) MATCH SIMPLE
 -- ON DELETE NO ACTION ON UPDATE NO ACTION;
 -- -- ddl-end --
---
+-- 
 -- -- object: status_drug_code_fkey | type: CONSTRAINT --
 -- -- ALTER TABLE dpd.status DROP CONSTRAINT IF EXISTS status_drug_code_fkey CASCADE;
 -- ALTER TABLE dpd.status ADD CONSTRAINT status_drug_code_fkey FOREIGN KEY ("extract",drug_code)
 -- REFERENCES dpd.drug_product ("extract",drug_code) MATCH SIMPLE
 -- ON DELETE NO ACTION ON UPDATE NO ACTION;
 -- -- ddl-end --
---
+-- 
 -- -- object: schedule_drug_code_fkey | type: CONSTRAINT --
 -- -- ALTER TABLE dpd.schedule DROP CONSTRAINT IF EXISTS schedule_drug_code_fkey CASCADE;
 -- ALTER TABLE dpd.schedule ADD CONSTRAINT schedule_drug_code_fkey FOREIGN KEY (drug_code)
 -- REFERENCES dpd.drug_product (drug_code) MATCH FULL
 -- ON DELETE CASCADE ON UPDATE CASCADE;
 -- -- ddl-end --
---
+-- 
+
