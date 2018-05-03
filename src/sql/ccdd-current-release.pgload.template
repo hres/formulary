@@ -70,18 +70,15 @@ LOAD CSV
     (
       ntp_code,
       ntp_formal_name,
-      ntp_en_description,
-      ntp_fr_description,
       ntp_status,
-      ntp_status_effective_time,
-      ntp_type
+      ntp_type,
+      ntp_status_effective_time
+      
     )
   INTO postgresql:///?ccdd.ntp_release
     (
       ntp_code,
       ntp_formal_name,
-      ntp_en_description,
-      ntp_fr_description,
       ntp_status,
       ntp_status_effective_time,
       ntp_type
