@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 ccdd_qa_release_date="20180411"
-ccdd_current_release_date="20180316"
+ccdd_current_release_date="20180416"
 ccdd_current_date=$(date +'%Y%m%d')
 
 
