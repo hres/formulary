@@ -11,12 +11,27 @@ ccdd_sql <- src_postgres(dbname = "ccdd_2018_05_03_135357",
 
 qa_missing_concepts_ntp <- tbl(ccdd_sql, "qa_missing_concepts_ntp")
 qa_missing_concepts_pseudodin <- tbl(ccdd_sql, "qa_missing_concepts_pseudodin")
-qa_missing_concepts_tm <- tbl(ccdd_sql, "qa_missing_coincepts_tm")
+qa_missing_concepts_tm <- tbl(ccdd_sql, "qa_missing_concepts_tm")
 
 # This are the reference codes that are used to look up newly generated concepts. 
 ccdd_pseudodin_map_draft <- read_csv("~/formulary/src/sql/test/ccdd-pseudodin-map-draft.csv")
 ccdd_ntp_definitions_draft <- read_csv("~/formulary/src/sql/test/ccdd-ntp-definitions-draft.csv")
+ccdd_tm_definitions_draft <- read_csv("~/formulary/src/sql/test/ccdd-tm-definitions-draft.csv")
 
+# We need to check publication set for previously published concepts
+ccdd_tm_published <- read_csv("https://raw.githubusercontent.com/hres/formulary/folder_reorg/releases/20180418%20-%20April%202018%20Release/tm_full_release_20180418.csv")
+ccdd_ntp_published <- read_csv("https://raw.githubusercontent.com/hres/formulary/folder_reorg/releases/20180418%20-%20April%202018%20Release/ntp_full_release_20180418.csv")
+ccdd_mp_published <- read_csv("https://raw.githubusercontent.com/hres/formulary/folder_reorg/releases/20180418%20-%20April%202018%20Release/mp_full_release_20180418.csv")
+
+
+# What's already published
+
+new_tms <- qa_missing_concepts_tm %>%
+              collect() %>%
+              mutate(code = 1:n() + max(ccdd_tm_published$tm_code)) %>% 
+              select(code, formal_name = tm_formal_name) %>%
+              {bind_rows(ccdd_tm_definitions_draft, .)} %>%
+              mutate_all(as.character)
 
 new_pseudodins <- qa_missing_concepts_pseudodin %>%
                     collect() %>%
@@ -26,7 +41,7 @@ new_pseudodins <- qa_missing_concepts_pseudodin %>%
                   mutate_all(as.character)
 
 new_ntps <- qa_missing_concepts_ntp %>%
-              collect() %>%
+              collect() %>% 
               mutate(code = 1:n() + max(ccdd_ntp_definitions_draft$code)) %>%
               select(code, formal_name = ntp_formal_name) %>%
               {bind_rows(ccdd_ntp_definitions_draft, .)} %>%
