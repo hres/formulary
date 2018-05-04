@@ -46,3 +46,9 @@ new_ntps <- qa_missing_concepts_ntp %>%
               select(code, formal_name = ntp_formal_name) %>%
               {bind_rows(ccdd_ntp_definitions_draft, .)} %>%
               mutate_all(as.character)
+
+
+write.csv(new_tms, file = "~/formulary/src/sql/test/ccdd-tm-definitions-draft.csv", row.names = FALSE)
+write.csv(new_pseudodins, file = "~/formulary/src/sql/test/ccdd-pseudodin-map-draft.csv", row.names = FALSE)
+write.csv(new_ntps, file = "~/formulary/src/sql/test/ccdd-ntp-definitions-draft.csv", row.names = FALSE)
+
