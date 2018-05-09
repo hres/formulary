@@ -199,7 +199,7 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 94145,syringe,0.35,mL,N,N,,,
 94163,syringe,0.4,mL,N,N,,,
 94146,syringe,0.45,mL,N,N,,,
-94164,syringe,0.5,mL,N,N,,
+94164,syringe,0.5,mL,N,N,,,
 19681,vial,2,mL,Y,N,,,
 19681,vial,20,mL,Y,N,,,
 19681,vial,40,mL,Y,N,,,
