@@ -490,3 +490,5 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 18242,bag,100,mL,Y,N,,,
 18243,bag,50,mL,Y,N,,,
 12674,bag,100,mL,Y,N,,,
+75820,unit dose vial,2.5,mL,N,N,,,
+67727,unit dose vial,2.5,mL,N,N,,,
