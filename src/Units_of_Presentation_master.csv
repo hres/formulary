@@ -109,7 +109,7 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 86845,vial,50,mL,N,Y,,,
 94804,ampoule,1,mL,Y,N,,,
 94804,ampoule,10,mL,Y,N,,,
-68787,vial,10,mL,N,Y,,,
+68787,vial,10,mL,N,N,,,
 5937,ampoule,1,mL,Y,N,,,
 18315,ampoule,1,mL,Y,N,,,
 94803,ampoule,1,mL,Y,N,,,
