@@ -3,7 +3,7 @@
 CAUTION: Do not modify this file unless you know what you are doing.
          Unexpected results may occur if the code is changed deliberately.
 -->
-<dbmodel pgmodeler-ver="0.9.0" last-position="739,186" last-zoom="0.85"
+<dbmodel pgmodeler-ver="0.9.0" last-position="1202,0" last-zoom="0.95"
 	 default-owner="postgres">
 <database name="sandbox">
 </database>
@@ -1494,7 +1494,7 @@ GROUP BY code
 	<expression type="simple-exp">4,5</expression>
 </view>
 
-<view name="ccdd_drug_dosage_form_by_route" materialized="true">
+<view name="ccdd_drug_dosage_form_by_route" materialized="true" hide-ext-attribs="true">
 	<schema name="public"/>
 	<role name="postgres"/>
 	<position x="1460" y="1480"/>
@@ -2673,7 +2673,7 @@ WHERE
 <view name="qa_release_changes_ntp">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2140" y="1580"/>
+	<position x="2180" y="1620"/>
 	<reference>
 		<expression><![CDATA[select
 	cur.ntp_code,
@@ -2719,7 +2719,7 @@ WHERE
 <view name="qa_release_changes_tm">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2140" y="1620"/>
+	<position x="2180" y="1680"/>
 	<reference>
 		<expression><![CDATA[select
 	cur.tm_code,
@@ -2764,7 +2764,7 @@ WHERE
 <view name="qa_mp_duplicates_code">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2140" y="1680"/>
+	<position x="2180" y="1720"/>
 	<reference>
 		<expression><![CDATA[select
 	*
@@ -2781,7 +2781,7 @@ order by
 <view name="qa_mp_duplicates_name">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2140" y="1720"/>
+	<position x="2180" y="1760"/>
 	<reference>
 		<expression><![CDATA[select
 	*
@@ -2798,7 +2798,7 @@ order by
 <view name="qa_ntp_duplicates_code">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2140" y="1780"/>
+	<position x="2180" y="1820"/>
 	<reference>
 		<expression><![CDATA[select
 	*
@@ -2815,7 +2815,7 @@ order by
 <view name="qa_ntp_duplicates_name">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2140" y="1820"/>
+	<position x="2180" y="1860"/>
 	<reference>
 		<expression><![CDATA[select
 	*
@@ -2832,7 +2832,7 @@ order by
 <view name="qa_tm_duplicates_code">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2140" y="1880"/>
+	<position x="2180" y="1900"/>
 	<reference>
 		<expression><![CDATA[select
 	*
@@ -2848,7 +2848,7 @@ order by
 <view name="qa_tm_duplicates_name">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2140" y="1920"/>
+	<position x="2180" y="1960"/>
 	<reference>
 		<expression><![CDATA[select
 	*
@@ -2890,7 +2890,7 @@ order by
 <view name="qa_missing_concepts_tm">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2360" y="1580"/>
+	<position x="2400" y="1620"/>
 	<reference>
 		<expression><![CDATA[select
 	*
@@ -2907,7 +2907,7 @@ order by
 <view name="qa_missing_concepts_dosage_form">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2360" y="1620"/>
+	<position x="2400" y="1660"/>
 	<reference>
 		<expression><![CDATA[select
 	dd.code as dpd_drug_code,
@@ -2944,7 +2944,7 @@ where
 <view name="qa_missing_concepts_ingredient_stem">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2360" y="1660"/>
+	<position x="2400" y="1700"/>
 	<reference>
 		<expression><![CDATA[select
 	dd.code as dpd_drug_code,
@@ -3020,7 +3020,7 @@ WHERE
 <view name="qa_mp_ntp_tm_relationship_duplicates_code">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2360" y="1720"/>
+	<position x="2400" y="1760"/>
 	<reference>
 		<expression><![CDATA[select
 	*
@@ -3037,7 +3037,7 @@ order by
 <view name="qa_mp_ntp_tm_relationship_missing_rows">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2360" y="1760"/>
+	<position x="2400" y="1800"/>
 	<reference>
 		<expression><![CDATA[select
 	*
@@ -3054,7 +3054,7 @@ order by
 <view name="qa_mp_ntp_tm_relationship_missing_parents">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2360" y="1800"/>
+	<position x="2400" y="1840"/>
 	<reference>
 		<expression><![CDATA[select
 	*
@@ -3482,7 +3482,7 @@ WHERE tm_is_publishable = true]]></expression>
 <view name="qa_release_changes_ntp_release_candidate">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2240" y="1580"/>
+	<position x="2280" y="1620"/>
 	<reference>
 		<expression><![CDATA[select
 	cur.ntp_code,
@@ -3545,7 +3545,7 @@ WHERE tm_is_publishable = true;
 <view name="qa_release_changes_tm_release_candidate">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<position x="2140" y="1620"/>
+	<position x="2180" y="1660"/>
 	<reference>
 		<expression><![CDATA[select
 	cur.tm_code,
@@ -3649,6 +3649,163 @@ from
 	ccdd_mp_ntp_tm_relationship_release_candidate nxt
 WHERE
 	not exists(select * from ccdd.mp_ntp_tm_relationship_release_candidate cur where cur.mp_code = nxt.mp_code)]]></expression>
+	</reference>
+</view>
+
+<table name="ntp_full_release">
+	<schema name="ccdd"/>
+	<role name="postgres"/>
+	<position x="2860" y="600"/>
+	<column name="ntp_code">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="ntp_formal_name">
+		<type name="text" length="0"/>
+	</column>
+	<column name="ntp_en_description">
+		<type name="text" length="0"/>
+	</column>
+	<column name="ntp_fr_description">
+		<type name="text" length="0"/>
+	</column>
+	<column name="ntp_status">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="ntp_status_effective_time">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="ntp_type">
+		<type name="varchar" length="0"/>
+	</column>
+</table>
+
+<table name="tm_full_release">
+	<schema name="ccdd"/>
+	<role name="postgres"/>
+	<position x="2860" y="740"/>
+	<column name="tm_code">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="tm_formal_name">
+		<type name="text" length="0"/>
+	</column>
+	<column name="tm_status">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="tm_status_effective_time">
+		<type name="varchar" length="0"/>
+	</column>
+</table>
+
+<view name="qa_new_concepts_ntp">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2700" y="1500"/>
+	<reference>
+		<expression><![CDATA[SELECT 
+	((SELECT max(ntd.code) FROM ccdd.ntp_definition ntd)) + (row_number() OVER ()) AS ntp_code,
+	mcn.ntp_formal_name
+FROM qa_missing_concepts_ntp mcn;]]></expression>
+	</reference>
+</view>
+
+<view name="qa_new_concepts_ntp_test">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2720" y="1520"/>
+	<reference>
+		<expression><![CDATA[SELECT
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_ntp ncn 
+		WHERE EXISTS(SELECT * FROM ccdd.ntp_definition ntpd WHERE ntpd.code = ncn.ntp_code)
+	) AS draft_overlap_codes,
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_ntp ncn 
+		WHERE EXISTS(SELECT * FROM ccdd.ntp_definition ntpd WHERE ntpd.formal_name = ncn.ntp_formal_name)
+	) AS draft_overlap_names,
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_ntp ncn 
+		WHERE EXISTS(SELECT * FROM ccdd.ntp_full_release nfr WHERE CAST(nfr.ntp_code AS bigint) = ncn.ntp_code)
+	) AS release_overlap_codes,
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_ntp ncn 
+		WHERE EXISTS(SELECT * FROM ccdd.ntp_full_release nfr WHERE nfr.ntp_formal_name = ncn.ntp_formal_name)
+	) AS release_overlap_names]]></expression>
+	</reference>
+</view>
+
+<view name="qa_new_concepts_pseudodin">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2700" y="1560"/>
+	<reference>
+		<expression><![CDATA[SELECT 
+	((SELECT max(psm.pseudodin) FROM ccdd.pseudodin_map psm)) + (row_number() OVER ()) AS pseudodin,
+	mcp.drug_code,
+	mcp.unit_of_presentation,
+	CAST(mcp.uop_size_amount AS varchar),
+	mcp.uop_size_unit
+FROM qa_missing_concepts_pseudodin mcp;]]></expression>
+	</reference>
+</view>
+
+<view name="qa_new_concepts_pseudodin_test">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2720" y="1580"/>
+	<reference>
+		<expression><![CDATA[SELECT
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_pseudodin ncp 
+		WHERE EXISTS(SELECT * FROM ccdd.pseudodin_map psm WHERE psm.pseudodin = ncp.pseudodin)
+	) AS draft_overlap_pseudodin
+	]]></expression>
+	</reference>
+</view>
+
+<view name="qa_new_concepts_tm">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2700" y="1620"/>
+	<reference>
+		<expression><![CDATA[SELECT 
+	((SELECT max(tmd.code) FROM ccdd.tm_definition tmd)) + (row_number() OVER ()) AS tm_code,
+	mct.tm_formal_name
+FROM qa_missing_concepts_tm mct;]]></expression>
+	</reference>
+</view>
+
+<view name="qa_new_concepts_tm_test">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2720" y="1640"/>
+	<reference>
+		<expression><![CDATA[SELECT
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_tm nct 
+		WHERE EXISTS(SELECT * FROM ccdd.tm_definition tmd WHERE tmd.code = nct.tm_code)
+	) AS draft_overlap_codes,
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_tm nct
+		WHERE EXISTS(SELECT * FROM ccdd.tm_definition tmd WHERE tmd.formal_name = nct.tm_formal_name)
+	) AS draft_overlap_names,
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_tm nct 
+		WHERE EXISTS(SELECT * FROM ccdd.tm_full_release tfr WHERE CAST(tfr.tm_code AS bigint) = nct.tm_code)
+	) AS release_overlap_codes,
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_tm nct 
+		WHERE EXISTS(SELECT * FROM ccdd.tm_full_release tfr WHERE tfr.tm_formal_name = nct.tm_formal_name)
+	) AS release_overlap_names]]></expression>
 	</reference>
 </view>
 
