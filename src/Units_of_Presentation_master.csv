@@ -315,7 +315,7 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 12208,vial,1,mL,Y,N,,,
 18325,vial,1,mL,Y,N,,,
 18325,vial,5,mL,Y,N,,,
-18325,vial,50,mL,Y,N,,,
+18325,vial,50,mL,N,Y,,,
 86244,vial,4,mL,Y,N,,,
 86244,vial,8,mL,Y,N,,,
 6872,vial,30,mL,N,Y,,,
