@@ -73,7 +73,7 @@ LOAD CSV
       ntp_status,
       ntp_type,
       ntp_status_effective_time
-      
+
     )
   INTO postgresql:///?ccdd.ntp_release
     (
@@ -95,12 +95,12 @@ LOAD CSV
     WITH ENCODING UTF-8
     (
       ntp_code,
+      ntp_formal_name,
       ntp_en_description,
       ntp_fr_description,
       ntp_status,
       ntp_status_effective_time,
-      ntp_type,
-      ntp_formal_name
+      ntp_type
     )
   INTO postgresql:///?ccdd.ntp_release_candidate
     (
@@ -169,12 +169,12 @@ LOAD CSV
   FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/QAfiles/%QA_DATE%/mp_ntp_tm_relationship_qa_release_%QA_DATE%.csv
     WITH ENCODING UTF-8
     (
-      tm_code,
-      tm_formal_name,
+      mp_code,
+      mp_formal_name,
       ntp_code,
       ntp_formal_name,
-      mp_code,
-      mp_formal_name
+      tm_code,
+      tm_formal_name
     )
   INTO postgresql:///?ccdd.mp_ntp_tm_relationship_release
     (
@@ -196,12 +196,12 @@ LOAD CSV
   FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/releases/%RELEASE_DATE%/mp_ntp_tm_relationship_release_candidate_%RELEASE_DATE%.csv
     WITH ENCODING UTF-8
     (
-      tm_code,
-      tm_formal_name,
+      mp_code,
+      mp_formal_name,
       ntp_code,
       ntp_formal_name,
-      mp_code,
-      mp_formal_name
+      tm_code,
+      tm_formal_name
     )
   INTO postgresql:///?ccdd.mp_ntp_tm_relationship_release_candidate
     (
