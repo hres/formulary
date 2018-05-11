@@ -3,6 +3,7 @@ tm_code,tm_formal_name
 8000003,epinephrine
 8000004,phenytoin sodium
 8000005,phenytoin (base)
+8000006,testosterone
 8000008,hydrocortisone
 8000009,hydroxyzine
 8000010,methylphenidate
@@ -17,6 +18,7 @@ tm_code,tm_formal_name
 8000024,amitriptyline
 8000026,nortriptyline
 8000027,azathioprine
+8000028,dexamethasone (base)
 8000029,quinine sulfate
 8000030,triamcinolone acetonide
 8000031,hydrochlorothiazide
@@ -68,6 +70,7 @@ tm_code,tm_formal_name
 8000108,valproic acid (divalproex)
 8000109,lorazepam
 8000110,acebutolol
+8000114,dexamethasone phosphate
 8000115,glyburide
 8000117,doxycycline
 8000119,ethinyl estradiol and levonorgestrel
@@ -89,9 +92,9 @@ tm_code,tm_formal_name
 8000143,zopiclone
 8000147,clozapine
 8000148,mometasone
-8000850,fluconazole
 8000153,amlodipine
 8000154,amoxicillin and clavulanic acid
+8000159,ciprofloxacin
 8000160,clarithromycin
 8000161,clobetasol
 8000162,dextroamphetamine
@@ -118,6 +121,7 @@ tm_code,tm_formal_name
 8000198,digoxin
 8000200,gabapentin
 8000201,hydrochlorothiazide and lisinopril
+8000202,ipratropium
 8000203,isosorbide mononitrate
 8000204,lithium (ion)
 8000205,minocycline
@@ -252,6 +256,7 @@ tm_code,tm_formal_name
 8000792,betamethasone valerate
 8000793,triamcinolone hexacetonide
 8000794,betamethasone acetate and betamethasone (base)
+8000795,acetylsalicylic acid
 8000799,phenobarbital
 8000800,bisacodyl
 8000802,hydrochlorothiazide and spironolactone
@@ -273,6 +278,8 @@ tm_code,tm_formal_name
 8000844,amiloride and hydrochlorothiazide
 8000846,betamethasone dipropionate and clotrimazole
 8000847,captopril
+8000848,dexamethasone (base) and tobramycin
+8000850,fluconazole
 8000851,hydralazine
 8000866,mupirocin
 8000870,acetylsalicylic acid and caffeine
@@ -280,6 +287,7 @@ tm_code,tm_formal_name
 8000873,bumetanide
 8000874,cilazapril
 8000879,atenolol and chlorthalidone
+8000891,naloxone
 8000893,sotalol
 8000894,labetalol
 8000895,esmolol
@@ -288,6 +296,7 @@ tm_code,tm_formal_name
 8000905,salmeterol
 8000908,fusidic acid and hydrocortisone
 8000909,cilazapril and hydrochlorothiazide
+8000915,levonorgestrel
 8000919,trimethoprim
 8000921,misoprostol
 8000924,benzoyl peroxide and clindamycin
@@ -296,7 +305,9 @@ tm_code,tm_formal_name
 8000929,bosentan
 8000930,budesonide and formoterol
 8000931,trandolapril and verapamil
+8000933,latanoprost and timolol
 8000943,amiloride
+8000947,levofloxacin
 8000954,amlodipine and atorvastatin
 8000955,timolol and travoprost
 8000956,acetaminophen and doxylamine and phenylephrine
@@ -307,6 +318,7 @@ tm_code,tm_formal_name
 8000973,eplerenone
 8000975,aliskiren and hydrochlorothiazide
 8000982,formoterol and mometasone
+8000985,amlodipine and telmisartan
 8000986,tolvaptan
 8000988,dutasteride and tamsulosin
 8000999,nebivolol
@@ -322,8 +334,10 @@ tm_code,tm_formal_name
 8001049,aminophylline
 8001053,zafirlukast
 8001057,cefadroxil
+8001060,omalizumab
 8001066,mepolizumab
 8001067,reslizumab
+8001068,ampicillin
 8001069,oxtriphylline
 8001070,aclidinium
 8001071,aclidinium and formoterol
@@ -332,6 +346,7 @@ tm_code,tm_formal_name
 8001074,azilsartan
 8001075,azilsartan and chlorthalidone
 8001076,cefuroxime
+8001077,cromolyn
 8001078,ephedrine
 8001079,eprosartan
 8001080,eprosartan and hydrochlorothiazide
@@ -351,6 +366,7 @@ tm_code,tm_formal_name
 8001094,theophylline
 8001095,triazolam
 8001096,tamoxifen
+8001097,chloral hydrate
 8001099,brinzolamide and timolol
 8001100,brinzolamide
 8001101,anastrozole
@@ -358,6 +374,8 @@ tm_code,tm_formal_name
 8001103,brimonidine
 8001104,naratriptan
 8001105,zolmitriptan
+8001106,ondansetron
+8001108,ibutilide
 8001109,exemestane
 8001110,almotriptan
 8001111,brimonidine and timolol
@@ -394,6 +412,7 @@ tm_code,tm_formal_name
 8001150,metformin and rosiglitazone
 8001151,migalastat
 8001152,netupitant and palonosetron
+8001153,palonosetron
 8001154,peramivir
 8001155,roflumilast
 8001156,sofosbuvir
@@ -402,3 +421,69 @@ tm_code,tm_formal_name
 8001159,triamcinolone diacetate
 8001160,vernakalant
 8001161,vilazodone
+8001162,abacavir
+8001163,abacavir and dolutegravir and lamivudine
+8001164,abacavir and lamivudine
+8001165,abacavir and lamivudine and zidovudine
+8001166,acetaminophen and diphenhydramine
+8001168,adefovir
+8001169,amikacin
+8001170,anidulafungin
+8001171,atazanavir
+8001174,caspofungin
+8001176,cefepime
+8001177,cefotaxime
+8001178,cefoxitin
+8001181,colistin
+8001182,daclatasvir
+8001183,dapsone
+8001184,daptomycin
+8001185,darunavir
+8001186,didanosine
+8001189,diphenhydramine and naproxen
+8001191,dolutegravir
+8001192,efavirenz
+8001193,efavirenz and emtricitabine and tenofovir disoproxil
+8001194,elbasvir and grazoprevir
+8001195,emtricitabine and rilpivirine and tenofovir alafenamide
+8001197,emtricitabine and tenofovir alafenamide
+8001198,emtricitabine and tenofovir disoproxil
+8001200,ertapenem
+8001201,ethambutol
+8001202,etravirine
+8001203,famciclovir
+8001204,fosamprenavir
+8001205,ganciclovir
+8001206,gentamicin
+8001207,inosine pranobex
+8001208,itraconazole
+8001209,ketoconazole
+8001210,lamivudine
+8001211,lamivudine and zidovudine
+8001212,ledipasvir and sofosbuvir
+8001214,maraviroc
+8001215,meropenem
+8001216,micafungin
+8001217,nelfinavir
+8001218,nevirapine
+8001219,norfloxacin
+8001220,ombitasvir and paritaprevir and ritonavir
+8001222,piperacillin
+8001223,pyrazinamide
+8001224,raltegravir
+8001225,raltitrexed
+8001226,rifabutin
+8001227,rifampin
+8001228,rilpivirine
+8001229,ritonavir
+8001230,saquinavir
+8001231,simeprevir
+8001232,spiramycin
+8001233,stavudine
+8001234,streptomycin
+8001235,telavancin
+8001236,tenofovir alafenamide
+8001237,tenofovir disoproxil
+8001238,tigecycline
+8001239,tipranavir
+8001240,zidovudine
