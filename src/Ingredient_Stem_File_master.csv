@@ -562,7 +562,7 @@ Y,ENALAPRIL,ENALAPRIL SODIUM (ENALAPRIL MALEATE),enalapril,FALSE,enalapril sodiu
 ,,ENSULIZOLE,ensulizole,FALSE,ensulizole
 ,,ENTACAPONE,entacapone,FALSE,entacapone
 Y,,ENTECAVIR,entecavir,FALSE,entecavir
-,,ENTECAVIR (ENTECAVIR MONOHYDRATE),entecavir (entecavir monohydrate),TRUE,entecavir (entecavir monohydrate)
+Y,,ENTECAVIR (ENTECAVIR MONOHYDRATE),entecavir,TRUE,entecavir (entecavir monohydrate)
 ,,ENZACAMENE,enzacamene,FALSE,enzacamene
 ,,Enzalutamide,enzalutamide,FALSE,enzalutamide
 Y,EPHEDRINE,EPHEDRINE SULFATE,ephedrine,FALSE,ephedrine sulfate
