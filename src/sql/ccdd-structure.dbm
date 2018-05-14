@@ -699,11 +699,6 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	</customidxs>
 </table>
 
-<relationship name="rel_dpd_drug_source_drug_product" type="reltv"
-	 src-table="public.dpd_drug_source"
-	 dst-table="dpd.drug_product"
-	 src-required="false" dst-required="false"/>
-
 <view name="dpd_drug_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -756,6 +751,11 @@ AND NOT EXISTS(SELECT * FROM ccdd.mp_blacklist bl WHERE bl.drug_code = CAST(dp.d
 	<expression type="from-exp">4</expression>
 	<expression type="simple-exp">5</expression>
 </view>
+
+<relationship name="rel_dpd_drug_source_drug_product" type="reltv"
+	 src-table="public.dpd_drug_source"
+	 dst-table="dpd.drug_product"
+	 src-required="false" dst-required="false"/>
 
 <relationship name="dpd_drug_has_many_dpd_drug_form" type="rel1n"
 	 src-col-pattern="{st}_{sc}"
@@ -870,11 +870,6 @@ AND NOT EXISTS(SELECT * FROM ccdd.mp_blacklist bl WHERE bl.drug_code = CAST(dp.d
 	</column>
 </table>
 
-<relationship name="rel_dpd_drug_form_source_pharmaceutical_form" type="reltv"
-	 src-table="public.dpd_drug_form_source"
-	 dst-table="dpd.pharmaceutical_form"
-	 src-required="false" dst-required="false"/>
-
 <view name="dpd_drug_form_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -890,9 +885,9 @@ AND NOT EXISTS(SELECT * FROM ccdd.mp_blacklist bl WHERE bl.drug_code = CAST(dp.d
 	<expression type="simple-exp">3</expression>
 </view>
 
-<relationship name="rel_dpd_route_source_cp_route" type="reltv"
-	 src-table="public.dpd_drug_route_source"
-	 dst-table="dpd.route"
+<relationship name="rel_dpd_drug_form_source_pharmaceutical_form" type="reltv"
+	 src-table="public.dpd_drug_form_source"
+	 dst-table="dpd.pharmaceutical_form"
 	 src-required="false" dst-required="false"/>
 
 <view name="dpd_drug_route_source" materialized="true">
@@ -912,9 +907,9 @@ AND NOT EXISTS(SELECT * FROM ccdd.mp_blacklist bl WHERE bl.drug_code = CAST(dp.d
 	<expression type="simple-exp">3</expression>
 </view>
 
-<relationship name="rel_dpd_active_ingredient_code_source_active_ingredient" type="reltv"
-	 src-table="public.dpd_active_ingredient_code_source"
-	 dst-table="dpd.active_ingredient"
+<relationship name="rel_dpd_route_source_cp_route" type="reltv"
+	 src-table="public.dpd_drug_route_source"
+	 dst-table="dpd.route"
 	 src-required="false" dst-required="false"/>
 
 <view name="dpd_active_ingredient_code_source" materialized="true">
@@ -934,6 +929,11 @@ AND NOT EXISTS(SELECT * FROM ccdd.mp_blacklist bl WHERE bl.drug_code = CAST(dp.d
 	<expression type="simple-exp">2,3</expression>
 </view>
 
+<relationship name="rel_dpd_active_ingredient_code_source_active_ingredient" type="reltv"
+	 src-table="public.dpd_active_ingredient_code_source"
+	 dst-table="dpd.active_ingredient"
+	 src-required="false" dst-required="false"/>
+
 <sequence name="dpd_drug_ingredient_option_source_order"
 	 start="1" increment="1"
 	 min-value="0" max-value="2147483647"
@@ -941,11 +941,6 @@ AND NOT EXISTS(SELECT * FROM ccdd.mp_blacklist bl WHERE bl.drug_code = CAST(dp.d
 	<schema name="public"/>
 	<role name="postgres"/>
 </sequence>
-
-<relationship name="rel_dpd_active_ingredient_code_source_cp_active_ingredient" type="reltv"
-	 src-table="public.dpd_named_ingredient_source"
-	 dst-table="dpd.active_ingredient"
-	 src-required="false" dst-required="false"/>
 
 <table name="dpd_drug_ingredient_option">
 	<schema name="public"/>
@@ -1004,6 +999,11 @@ AND NOT EXISTS(SELECT * FROM ccdd.mp_blacklist bl WHERE bl.drug_code = CAST(dp.d
 	<expression type="simple-exp">2,3</expression>
 </view>
 
+<relationship name="rel_dpd_active_ingredient_code_source_cp_active_ingredient" type="reltv"
+	src-table="public.dpd_named_ingredient_source"
+	dst-table="dpd.active_ingredient"
+	src-required="false" dst-required="false"/>
+
 <function name="ccdd_normalized_unit"
 		window-func="false"
 		returns-setof="false"
@@ -1032,11 +1032,6 @@ AND NOT EXISTS(SELECT * FROM ccdd.mp_blacklist bl WHERE bl.drug_code = CAST(dp.d
 );]]></definition>
 </function>
 
-<relationship name="rel_dpd_drug_ingredient_source_active_ingredient" type="reltv"
-	 src-table="public.dpd_drug_ingredient_source"
-	 dst-table="dpd.active_ingredient"
-	 src-required="false" dst-required="false"/>
-
 <view name="dpd_drug_ingredient_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -1056,10 +1051,11 @@ AND NOT EXISTS(SELECT * FROM ccdd.mp_blacklist bl WHERE bl.drug_code = CAST(dp.d
 	<expression type="simple-exp">4,5</expression>
 </view>
 
-<relationship name="rel_dpd_drug_ingredient_option_source_active_ingredient" type="reltv"
-	 src-table="public.dpd_drug_ingredient_option_source"
-	 dst-table="dpd.active_ingredient"
-	 src-required="false" dst-required="false"/>
+<relationship name="rel_dpd_drug_ingredient_source_active_ingredient" type="reltv"
+	src-table="public.dpd_drug_ingredient_source"
+	dst-table="dpd.active_ingredient"
+	src-required="false" dst-required="false"/>
+
 
 <view name="dpd_drug_ingredient_option_source" materialized="true">
 	<schema name="public"/>
@@ -1088,6 +1084,11 @@ AND NOT EXISTS(SELECT * FROM ccdd.mp_blacklist bl WHERE bl.drug_code = CAST(dp.d
 	<expression type="from-exp">7</expression>
 	<expression type="simple-exp">8</expression>
 </view>
+
+<relationship name="rel_dpd_drug_ingredient_option_source_active_ingredient" type="reltv"
+	src-table="public.dpd_drug_ingredient_option_source"
+	dst-table="dpd.active_ingredient"
+	src-required="false" dst-required="false"/>
 
 <view name="dpd_route_source" materialized="true">
 	<schema name="public"/>
@@ -1156,11 +1157,6 @@ GROUP BY code
 	</constraint>
 </table>
 
-<relationship name="rel_ccdd_ntp_ingredient_source_ingredient_stem_csv" type="reltv"
-	 src-table="public.ccdd_ntp_ingredient_source"
-	 dst-table="ccdd.ingredient_stem_csv"
-	 src-required="false" dst-required="false"/>
-
 <table name="ccdd_tm_ingredient_stem">
 	<schema name="public"/>
 	<position x="1480" y="600"/>
@@ -1215,10 +1211,11 @@ GROUP BY code
 	<expression type="simple-exp">3,4</expression>
 </view>
 
-<relationship name="rel_ccdd_dpd_ingredient_ntp_mapping_source_ingredient_stem_csv" type="reltv"
-	 src-table="public.ccdd_dpd_ingredient_ntp_mapping_source"
+<relationship name="rel_ccdd_ntp_ingredient_source_ingredient_stem_csv" type="reltv"
+	 src-table="public.ccdd_ntp_ingredient_source"
 	 dst-table="ccdd.ingredient_stem_csv"
 	 src-required="false" dst-required="false"/>
+
 
 <view name="ccdd_dpd_ingredient_ntp_mapping_source" materialized="true">
 	<schema name="public"/>
@@ -1238,6 +1235,11 @@ GROUP BY code
 	<expression type="simple-exp">4</expression>
 </view>
 
+<relationship name="rel_ccdd_dpd_ingredient_ntp_mapping_source_ingredient_stem_csv" type="reltv"
+	src-table="public.ccdd_dpd_ingredient_ntp_mapping_source"
+	dst-table="ccdd.ingredient_stem_csv"
+	src-required="false" dst-required="false"/>
+	
 <view name="ccdd_ingredient_stem_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
