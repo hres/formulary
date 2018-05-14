@@ -3,7 +3,7 @@
 CAUTION: Do not modify this file unless you know what you are doing.
          Unexpected results may occur if the code is changed deliberately.
 -->
-<dbmodel pgmodeler-ver="0.9.0" last-position="10,591" last-zoom="0.75"
+<dbmodel pgmodeler-ver="0.9.0" last-position="1193,1149" last-zoom="1"
 	 default-owner="postgres">
 <database name="sandbox">
 </database>
@@ -1000,9 +1000,9 @@ AND NOT EXISTS(SELECT * FROM ccdd.mp_blacklist bl WHERE bl.drug_code = CAST(dp.d
 </view>
 
 <relationship name="rel_dpd_active_ingredient_code_source_cp_active_ingredient" type="reltv"
-	src-table="public.dpd_named_ingredient_source"
-	dst-table="dpd.active_ingredient"
-	src-required="false" dst-required="false"/>
+	 src-table="public.dpd_named_ingredient_source"
+	 dst-table="dpd.active_ingredient"
+	 src-required="false" dst-required="false"/>
 
 <function name="ccdd_normalized_unit"
 		window-func="false"
@@ -1052,10 +1052,9 @@ AND NOT EXISTS(SELECT * FROM ccdd.mp_blacklist bl WHERE bl.drug_code = CAST(dp.d
 </view>
 
 <relationship name="rel_dpd_drug_ingredient_source_active_ingredient" type="reltv"
-	src-table="public.dpd_drug_ingredient_source"
-	dst-table="dpd.active_ingredient"
-	src-required="false" dst-required="false"/>
-
+	 src-table="public.dpd_drug_ingredient_source"
+	 dst-table="dpd.active_ingredient"
+	 src-required="false" dst-required="false"/>
 
 <view name="dpd_drug_ingredient_option_source" materialized="true">
 	<schema name="public"/>
@@ -1086,9 +1085,9 @@ AND NOT EXISTS(SELECT * FROM ccdd.mp_blacklist bl WHERE bl.drug_code = CAST(dp.d
 </view>
 
 <relationship name="rel_dpd_drug_ingredient_option_source_active_ingredient" type="reltv"
-	src-table="public.dpd_drug_ingredient_option_source"
-	dst-table="dpd.active_ingredient"
-	src-required="false" dst-required="false"/>
+	 src-table="public.dpd_drug_ingredient_option_source"
+	 dst-table="dpd.active_ingredient"
+	 src-required="false" dst-required="false"/>
 
 <view name="dpd_route_source" materialized="true">
 	<schema name="public"/>
@@ -1216,7 +1215,6 @@ GROUP BY code
 	 dst-table="ccdd.ingredient_stem_csv"
 	 src-required="false" dst-required="false"/>
 
-
 <view name="ccdd_dpd_ingredient_ntp_mapping_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -1236,10 +1234,10 @@ GROUP BY code
 </view>
 
 <relationship name="rel_ccdd_dpd_ingredient_ntp_mapping_source_ingredient_stem_csv" type="reltv"
-	src-table="public.ccdd_dpd_ingredient_ntp_mapping_source"
-	dst-table="ccdd.ingredient_stem_csv"
-	src-required="false" dst-required="false"/>
-	
+	 src-table="public.ccdd_dpd_ingredient_ntp_mapping_source"
+	 dst-table="ccdd.ingredient_stem_csv"
+	 src-required="false" dst-required="false"/>
+
 <view name="ccdd_ingredient_stem_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -1266,11 +1264,6 @@ GROUP BY name
 	</reference>
 </view>
 
-<relationship name="rel_ccdd_tm_source_tm_definition" type="reltv"
-	 src-table="public.ccdd_tm_source"
-	 dst-table="ccdd.tm_definition"
-	 src-required="false" dst-required="false"/>
-
 <table name="ccdd_dosage_form_mapping_dpd_form">
 	<schema name="public"/>
 	<position x="820" y="700"/>
@@ -1284,11 +1277,6 @@ GROUP BY name
 		<object name="ccdd_dosage_form_mapping_fk" index="1"/>
 	</customidxs>
 </table>
-
-<relationship name="rel_ccdd_tm_ingredient_stem_source_tm_definition" type="reltv"
-	 src-table="public.ccdd_tm_ingredient_stem_source"
-	 dst-table="ccdd.tm_definition"
-	 src-required="false" dst-required="false"/>
 
 <view name="ccdd_tm_ingredient_stem_source" materialized="true">
 	<schema name="public"/>
@@ -1305,6 +1293,11 @@ GROUP BY name
 	<expression type="select-exp">0,1</expression>
 	<expression type="from-exp">2,3</expression>
 </view>
+
+<relationship name="rel_ccdd_tm_ingredient_stem_source_tm_definition" type="reltv"
+	 src-table="public.ccdd_tm_ingredient_stem_source"
+	 dst-table="ccdd.tm_definition"
+	 src-required="false" dst-required="false"/>
 
 <relationship name="ccdd_dosage_form_mapping_has_many_ccdd_dfm_form" type="rel1n"
 	 src-col-pattern="{st}_{sc}"
@@ -1382,6 +1375,11 @@ GROUP BY name
 	<expression type="simple-exp">2</expression>
 </view>
 
+<relationship name="rel_ccdd_tm_source_tm_definition" type="reltv"
+	 src-table="public.ccdd_tm_source"
+	 dst-table="ccdd.tm_definition"
+	 src-required="false" dst-required="false"/>
+
 <view name="dpd_form_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -1410,11 +1408,6 @@ GROUP BY code
 	</reference>
 </view>
 
-<relationship name="rel_ccdd_dosage_form_source_ntp_dosage_forms" type="reltv"
-	 src-table="public.ccdd_dosage_form_source"
-	 dst-table="ccdd.ntp_dosage_forms"
-	 src-required="false" dst-required="false"/>
-
 <view name="ccdd_dosage_form_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -1433,8 +1426,8 @@ GROUP BY code
 	<expression type="simple-exp">3,4</expression>
 </view>
 
-<relationship name="rel_ccdd_dosage_form_mapping_source_ntp_dosage_forms" type="reltv"
-	 src-table="public.ccdd_dosage_form_mapping_source"
+<relationship name="rel_ccdd_dosage_form_source_ntp_dosage_forms" type="reltv"
+	 src-table="public.ccdd_dosage_form_source"
 	 dst-table="ccdd.ntp_dosage_forms"
 	 src-required="false" dst-required="false"/>
 
@@ -1458,6 +1451,11 @@ GROUP BY code
 	<expression type="from-exp">2</expression>
 	<expression type="simple-exp">3,4</expression>
 </view>
+
+<relationship name="rel_ccdd_dosage_form_mapping_source_ntp_dosage_forms" type="reltv"
+	 src-table="public.ccdd_dosage_form_mapping_source"
+	 dst-table="ccdd.ntp_dosage_forms"
+	 src-required="false" dst-required="false"/>
 
 <view name="ccdd_dosage_form_mapping_dpd_form_source" materialized="true">
 	<schema name="public"/>
@@ -1883,11 +1881,6 @@ GROUP BY
 		</idxelement>
 </index>
 
-<relationship name="rel_ccdd_combination_product_source_combination_products_csv" type="reltv"
-	 src-table="public.ccdd_combination_product_source"
-	 dst-table="ccdd.combination_products_csv"
-	 src-required="false" dst-required="false"/>
-
 <view name="ccdd_combination_product_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -1904,6 +1897,11 @@ GROUP BY
 	<expression type="from-exp">4</expression>
 	<expression type="simple-exp">5</expression>
 </view>
+
+<relationship name="rel_ccdd_combination_product_source_combination_products_csv" type="reltv"
+	 src-table="public.ccdd_combination_product_source"
+	 dst-table="ccdd.combination_products_csv"
+	 src-required="false" dst-required="false"/>
 
 <table name="mp_brand_override">
 	<schema name="ccdd"/>
@@ -2034,11 +2032,6 @@ group by dd.code]]></expression>
 	</reference>
 </view>
 
-<relationship name="rel_dpd_drug_schedule_source_schedule" type="reltv"
-	 src-table="public.dpd_drug_schedule_source"
-	 dst-table="dpd.schedule"
-	 src-required="false" dst-required="false"/>
-
 <view name="dpd_drug_schedule_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -2056,6 +2049,11 @@ GROUP BY dpd_drug_code, sch.schedule;]]></expression>
 	<expression type="from-exp">2</expression>
 	<expression type="simple-exp">3</expression>
 </view>
+
+<relationship name="rel_dpd_drug_schedule_source_schedule" type="reltv"
+	 src-table="public.dpd_drug_schedule_source"
+	 dst-table="dpd.schedule"
+	 src-required="false" dst-required="false"/>
 
 <table name="dpd_drug_schedule">
 	<schema name="public"/>
@@ -2411,11 +2409,6 @@ FROM
 		</idxelement>
 </index>
 
-<relationship name="rel_dpd_drug_status_source_status" type="reltv"
-	 src-table="public.dpd_drug_status_source"
-	 dst-table="dpd.status"
-	 src-required="false" dst-required="false"/>
-
 <view name="dpd_drug_status_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -2442,6 +2435,11 @@ END)
 	<expression type="simple-exp">6</expression>
 </view>
 
+<relationship name="rel_dpd_drug_status_source_status" type="reltv"
+	 src-table="public.dpd_drug_status_source"
+	 dst-table="dpd.status"
+	 src-required="false" dst-required="false"/>
+
 <table name="pseudodin_map">
 	<schema name="ccdd"/>
 	<role name="postgres"/>
@@ -2465,11 +2463,6 @@ END)
 		<columns names="pseudodin" ref-type="src-columns"/>
 	</constraint>
 </table>
-
-<relationship name="rel_ccdd_presentation_source_unit_of_presentation_csv" type="reltv"
-	 src-table="public.ccdd_presentation_source"
-	 dst-table="ccdd.unit_of_presentation_csv"
-	 src-required="false" dst-required="false"/>
 
 <view name="ccdd_presentation_source" materialized="true">
 	<schema name="public"/>
@@ -2511,6 +2504,11 @@ order by pseudodin limit 1)]]></expression>
 	<expression type="from-exp">8</expression>
 	<expression type="simple-exp">9</expression>
 </view>
+
+<relationship name="rel_ccdd_presentation_source_unit_of_presentation_csv" type="reltv"
+	 src-table="public.ccdd_presentation_source"
+	 dst-table="ccdd.unit_of_presentation_csv"
+	 src-required="false" dst-required="false"/>
 
 <view name="qa_release_changes_mp">
 	<schema name="public"/>
@@ -3083,15 +3081,6 @@ order by
 	</reference>
 </view>
 
-<relationship name="rel_dpd_named_ingredient_source_cp_active_ingredient" type="reltv"
-	 src-table="public.dpd_ingredient_source"
-	 dst-table="dpd.active_ingredient"
-	 src-required="false" dst-required="false">
-	<label ref-type="name-label">
-		<position x="0" y="0"/>
-	</label>
-</relationship>
-
 <relationship name="dpd_drug_has_many_dpd_drug_schedule" type="rel1n"
 	 src-col-pattern="{st}_{sc}"
 	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
@@ -3122,6 +3111,15 @@ order by
 	<expression type="from-exp">2</expression>
 	<expression type="simple-exp">3,4</expression>
 </view>
+
+<relationship name="rel_dpd_named_ingredient_source_cp_active_ingredient" type="reltv"
+	 src-table="public.dpd_ingredient_source"
+	 dst-table="dpd.active_ingredient"
+	 src-required="false" dst-required="false">
+	<label ref-type="name-label">
+		<position x="0" y="0"/>
+	</label>
+</relationship>
 
 <view name="qa_missing_concepts_pseudodin">
 	<schema name="public"/>
@@ -3238,7 +3236,7 @@ FROM (
 	csg.policy_type,
 	csg.policy_reference,
 	csg.tm_is_publishable,
-	'active'::text AS special_groupings_status,
+	'Active'::text AS special_groupings_status,
 	'20170919'::text AS special_groupings_status_effective_time
 FROM (
 	(

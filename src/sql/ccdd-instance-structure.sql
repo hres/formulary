@@ -2660,7 +2660,7 @@ SELECT
 	csg.policy_type,
 	csg.policy_reference,
 	csg.tm_is_publishable,
-	'active'::text AS special_groupings_status,
+	'Active'::text AS special_groupings_status,
 	'20170919'::text AS special_groupings_status_effective_time
 FROM (
 	(
