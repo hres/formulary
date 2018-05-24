@@ -493,3 +493,6 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 75820,unit dose vial,2.5,mL,N,N
 67727,unit dose vial,2.5,mL,N,N
 74379,vial,0.8,mL,N,N
+43078,vial,0.5,mL,N,N
+94546,syringe,0.4,mL,N,N
+94543,pen,0.4,mL,N,N
