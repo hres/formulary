@@ -29,6 +29,14 @@ LOAD CSV
     fields optionally enclosed by '"',
     fields terminated by ',',
     fields escaped by double-quote
+    
+AFTER LOAD DO
+$$ update ccdd.mp_release
+set mp_code = case 
+        when mp_code = "Health_Canada_identifier" then lpad(mp_code, 8, '0')
+        else mp_code
+    end,
+    "Health_Canada_identifier" = lpad("Health_Canada_identifier", 8, '0'); $$
 ;
 
 LOAD CSV
@@ -70,15 +78,20 @@ LOAD CSV
     (
       ntp_code,
       ntp_formal_name,
+      ntp_en_description,
+      ntp_fr_description,
       ntp_status,
-      ntp_type,
-      ntp_status_effective_time
+      ntp_status_effective_time,
+      ntp_type
+      
 
     )
   INTO postgresql:///?ccdd.ntp_release
     (
       ntp_code,
       ntp_formal_name,
+      ntp_en_description,
+      ntp_fr_description,
       ntp_status,
       ntp_status_effective_time,
       ntp_type
@@ -88,6 +101,7 @@ LOAD CSV
     fields optionally enclosed by '"',
     fields terminated by ',',
     fields escaped by double-quote
+
 ;
 
 LOAD CSV
