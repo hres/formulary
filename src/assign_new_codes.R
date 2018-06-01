@@ -3,7 +3,7 @@
 library(dplyr)
 library(readr)
 
-ccdd_sql <- src_postgres(dbname = "ccdd_2018_05_03_135357",
+ccdd_sql <- src_postgres(dbname = "ccdd_2018_06_01_152354",
                      host = "rest.hc.local",
                      port = 5432,
                      user = Sys.getenv("rest_user"),
@@ -19,9 +19,9 @@ ccdd_ntp_definitions_draft <- read_csv("~/formulary/src/sql/test/ccdd-ntp-defini
 ccdd_tm_definitions_draft <- read_csv("~/formulary/src/sql/test/ccdd-tm-definitions-draft.csv")
 
 # We need to check publication set for previously published concepts
-ccdd_tm_published <- read_csv("https://raw.githubusercontent.com/hres/formulary/folder_reorg/releases/20180418%20-%20April%202018%20Release/tm_full_release_20180418.csv")
-ccdd_ntp_published <- read_csv("https://raw.githubusercontent.com/hres/formulary/folder_reorg/releases/20180418%20-%20April%202018%20Release/ntp_full_release_20180418.csv")
-ccdd_mp_published <- read_csv("https://raw.githubusercontent.com/hres/formulary/folder_reorg/releases/20180418%20-%20April%202018%20Release/mp_full_release_20180418.csv")
+ccdd_tm_published <- read_csv("https://raw.githubusercontent.com/hres/formulary/folder_reorg/releases/20180516%20-%20May%202018%20Release/tm_full_release_20180516.csv")
+ccdd_ntp_published <- read_csv("https://raw.githubusercontent.com/hres/formulary/folder_reorg/releases/20180516%20-%20May%202018%20Release/ntp_full_release_20180516.csv")
+ccdd_mp_published <- read_csv("https://raw.githubusercontent.com/hres/formulary/folder_reorg/releases/20180516%20-%20May%202018%20Release/mp_full_release_20180516.csv")
 
 
 # What's already published
