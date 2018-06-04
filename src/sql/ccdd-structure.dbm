@@ -3,7 +3,7 @@
 CAUTION: Do not modify this file unless you know what you are doing.
          Unexpected results may occur if the code is changed deliberately.
 -->
-<dbmodel pgmodeler-ver="0.9.0" last-position="1193,1149" last-zoom="1"
+<dbmodel pgmodeler-ver="0.9.0" last-position="0,955" last-zoom="1"
 	 default-owner="postgres">
 <database name="sandbox">
 </database>
@@ -706,16 +706,10 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	<reference table="dpd.drug_product" column="drug_code" alias="dp" column-alias="code"/>
 	<reference table="dpd.drug_product" column="drug_identification_number" alias="dp" column-alias="din"/>
 	<reference table="dpd.drug_product" column="brand_name" alias="dp" column-alias="brand_name_en"/>
-	<reference alias="company_name">
-		<expression><![CDATA[(SELECT
-   dc.company_name
-FROM
-   dpd.companies AS dc
-WHERE
-   dc.drug_code = dp.drug_code)]]></expression>
-	</reference>
+	<reference table="dpd.companies" column="company_name" alias="dc" column-alias="company_name"/>
 	<reference>
 		<expression><![CDATA[dpd.drug_product dp
+LEFT JOIN dpd.companies dc ON(dc.drug_code = dp.drug_code)
 LEFT JOIN dpd.status cs ON(cs.drug_code = dp.drug_code AND cs.current_status_flag = 'Y')]]></expression>
 	</reference>
 	<reference>
@@ -3664,6 +3658,173 @@ WHERE
 	not exists(select * from ccdd.mp_ntp_tm_relationship_release_candidate cur where cur.mp_code = nxt.mp_code)]]></expression>
 	</reference>
 </view>
+
+<table name="ntp_full_release">
+	<schema name="ccdd"/>
+	<role name="postgres"/>
+	<position x="2860" y="600"/>
+	<column name="ntp_code">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="ntp_formal_name">
+		<type name="text" length="0"/>
+	</column>
+	<column name="ntp_en_description">
+		<type name="text" length="0"/>
+	</column>
+	<column name="ntp_fr_description">
+		<type name="text" length="0"/>
+	</column>
+	<column name="ntp_status">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="ntp_status_effective_time">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="ntp_type">
+		<type name="varchar" length="0"/>
+	</column>
+</table>
+
+<table name="tm_full_release">
+	<schema name="ccdd"/>
+	<role name="postgres"/>
+	<position x="2860" y="740"/>
+	<column name="tm_code">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="tm_formal_name">
+		<type name="text" length="0"/>
+	</column>
+	<column name="tm_status">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="tm_status_effective_time">
+		<type name="varchar" length="0"/>
+	</column>
+</table>
+
+<view name="qa_new_concepts_ntp">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2360" y="1900"/>
+	<reference>
+		<expression><![CDATA[SELECT 
+	((SELECT max(ntd.code) FROM ccdd.ntp_definition ntd)) + (row_number() OVER ()) AS ntp_code,
+	mcn.ntp_formal_name
+FROM qa_missing_concepts_ntp mcn;
+]]></expression>
+	</reference>
+</view>
+
+<view name="qa_new_concepts_ntp_test">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2360" y="1940"/>
+	<reference>
+		<expression><![CDATA[SELECT
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_ntp ncn 
+		WHERE EXISTS(SELECT * FROM ccdd.ntp_definition ntpd WHERE ntpd.code = ncn.ntp_code)
+	) AS draft_overlap_codes,
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_ntp ncn 
+		WHERE EXISTS(SELECT * FROM ccdd.ntp_definition ntpd WHERE ntpd.formal_name = ncn.ntp_formal_name)
+	) AS draft_overlap_names,
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_ntp ncn 
+		WHERE EXISTS(SELECT * FROM ccdd.ntp_full_release nfr WHERE CAST(nfr.ntp_code AS bigint) = ncn.ntp_code)
+	) AS release_overlap_codes,
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_ntp ncn 
+		WHERE EXISTS(SELECT * FROM ccdd.ntp_full_release nfr WHERE nfr.ntp_formal_name = ncn.ntp_formal_name)
+	) AS release_overlap_names;
+]]></expression>
+	</reference>
+</view>
+
+<view name="qa_new_concepts_pseudodin">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2360" y="2060"/>
+	<reference>
+		<expression><![CDATA[SELECT 
+	((SELECT max(psm.pseudodin) FROM ccdd.pseudodin_map psm)) + (row_number() OVER ()) AS pseudodin,
+	mcp.drug_code,
+	mcp.unit_of_presentation,
+	CAST(mcp.uop_size_amount AS varchar),
+	mcp.uop_size_unit
+FROM qa_missing_concepts_pseudodin mcp;
+]]></expression>
+	</reference>
+</view>
+
+<view name="qa_new_concepts_pseudodin_test">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2360" y="2100"/>
+	<reference>
+		<expression><![CDATA[SELECT
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_pseudodin ncp 
+		WHERE EXISTS(SELECT * FROM ccdd.pseudodin_map psm WHERE psm.pseudodin = ncp.pseudodin)
+	) AS draft_overlap_pseudodin;
+]]></expression>
+	</reference>
+</view>
+
+<view name="qa_new_concepts_tm">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2360" y="1980"/>
+	<reference>
+		<expression><![CDATA[SELECT 
+	((SELECT max(tmd.code) FROM ccdd.tm_definition tmd)) + (row_number() OVER ()) AS tm_code,
+	mct.tm_formal_name
+FROM qa_missing_concepts_tm mct;
+]]></expression>
+	</reference>
+</view>
+
+<view name="qa_new_concepts_tm_test">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="2360" y="2020"/>
+	<reference>
+		<expression><![CDATA[SELECT
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_tm nct 
+		WHERE EXISTS(SELECT * FROM ccdd.tm_definition tmd WHERE tmd.code = nct.tm_code)
+	) AS draft_overlap_codes,
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_tm nct
+		WHERE EXISTS(SELECT * FROM ccdd.tm_definition tmd WHERE tmd.formal_name = nct.tm_formal_name)
+	) AS draft_overlap_names,
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_tm nct 
+		WHERE EXISTS(SELECT * FROM ccdd.tm_full_release tfr WHERE CAST(tfr.tm_code AS bigint) = nct.tm_code)
+	) AS release_overlap_codes,
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_tm nct 
+		WHERE EXISTS(SELECT * FROM ccdd.tm_full_release tfr WHERE tfr.tm_formal_name = nct.tm_formal_name)
+	) AS release_overlap_names;
+]]></expression>
+	</reference>
+</view>
+
+<relationship name="rel_dpd_drug_source_companies" type="reltv"
+	 src-table="public.dpd_drug_source"
+	 dst-table="dpd.companies"
+	 src-required="false" dst-required="false"/>
 
 <constraint name="active_ingredient_drug_code_fkey" type="fk-constr" comparison-type="MATCH SIMPLE"
 	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="dpd.drug_product" sql-disabled="true" table="dpd.active_ingredient">

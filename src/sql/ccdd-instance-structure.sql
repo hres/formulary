@@ -475,14 +475,10 @@ SELECT
    dp.drug_code AS code,
    dp.drug_identification_number AS din,
    dp.brand_name AS brand_name_en,
-   (SELECT
-   dc.company_name
-FROM
-   dpd.companies AS dc
-WHERE
-   dc.drug_code = dp.drug_code) AS company_name
+   dc.company_name AS company_name
 FROM
    dpd.drug_product dp
+LEFT JOIN dpd.companies dc ON(dc.drug_code = dp.drug_code)
 LEFT JOIN dpd.status cs ON(cs.drug_code = dp.drug_code AND cs.current_status_flag = 'Y')
 WHERE
    dp.class = 'Human' AND (
@@ -3045,6 +3041,150 @@ WHERE
 	not exists(select * from ccdd.mp_ntp_tm_relationship_release_candidate cur where cur.mp_code = nxt.mp_code);
 -- ddl-end --
 ALTER VIEW public.qa_release_changes_mp_ntp_tm_relationship_release_candidate OWNER TO postgres;
+-- ddl-end --
+
+-- object: ccdd.ntp_full_release | type: TABLE --
+-- DROP TABLE IF EXISTS ccdd.ntp_full_release CASCADE;
+CREATE TABLE ccdd.ntp_full_release(
+	ntp_code varchar,
+	ntp_formal_name text,
+	ntp_en_description text,
+	ntp_fr_description text,
+	ntp_status varchar,
+	ntp_status_effective_time varchar,
+	ntp_type varchar
+);
+-- ddl-end --
+ALTER TABLE ccdd.ntp_full_release OWNER TO postgres;
+-- ddl-end --
+
+-- object: ccdd.tm_full_release | type: TABLE --
+-- DROP TABLE IF EXISTS ccdd.tm_full_release CASCADE;
+CREATE TABLE ccdd.tm_full_release(
+	tm_code varchar,
+	tm_formal_name text,
+	tm_status varchar,
+	tm_status_effective_time varchar
+);
+-- ddl-end --
+ALTER TABLE ccdd.tm_full_release OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.qa_new_concepts_ntp | type: VIEW --
+-- DROP VIEW IF EXISTS public.qa_new_concepts_ntp CASCADE;
+CREATE VIEW public.qa_new_concepts_ntp
+AS 
+
+SELECT 
+	((SELECT max(ntd.code) FROM ccdd.ntp_definition ntd)) + (row_number() OVER ()) AS ntp_code,
+	mcn.ntp_formal_name
+FROM qa_missing_concepts_ntp mcn;
+-- ddl-end --
+ALTER VIEW public.qa_new_concepts_ntp OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.qa_new_concepts_ntp_test | type: VIEW --
+-- DROP VIEW IF EXISTS public.qa_new_concepts_ntp_test CASCADE;
+CREATE VIEW public.qa_new_concepts_ntp_test
+AS 
+
+SELECT
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_ntp ncn 
+		WHERE EXISTS(SELECT * FROM ccdd.ntp_definition ntpd WHERE ntpd.code = ncn.ntp_code)
+	) AS draft_overlap_codes,
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_ntp ncn 
+		WHERE EXISTS(SELECT * FROM ccdd.ntp_definition ntpd WHERE ntpd.formal_name = ncn.ntp_formal_name)
+	) AS draft_overlap_names,
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_ntp ncn 
+		WHERE EXISTS(SELECT * FROM ccdd.ntp_full_release nfr WHERE CAST(nfr.ntp_code AS bigint) = ncn.ntp_code)
+	) AS release_overlap_codes,
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_ntp ncn 
+		WHERE EXISTS(SELECT * FROM ccdd.ntp_full_release nfr WHERE nfr.ntp_formal_name = ncn.ntp_formal_name)
+	) AS release_overlap_names;
+-- ddl-end --
+ALTER VIEW public.qa_new_concepts_ntp_test OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.qa_new_concepts_pseudodin | type: VIEW --
+-- DROP VIEW IF EXISTS public.qa_new_concepts_pseudodin CASCADE;
+CREATE VIEW public.qa_new_concepts_pseudodin
+AS 
+
+SELECT 
+	((SELECT max(psm.pseudodin) FROM ccdd.pseudodin_map psm)) + (row_number() OVER ()) AS pseudodin,
+	mcp.drug_code,
+	mcp.unit_of_presentation,
+	CAST(mcp.uop_size_amount AS varchar),
+	mcp.uop_size_unit
+FROM qa_missing_concepts_pseudodin mcp;
+-- ddl-end --
+ALTER VIEW public.qa_new_concepts_pseudodin OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.qa_new_concepts_pseudodin_test | type: VIEW --
+-- DROP VIEW IF EXISTS public.qa_new_concepts_pseudodin_test CASCADE;
+CREATE VIEW public.qa_new_concepts_pseudodin_test
+AS 
+
+SELECT
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_pseudodin ncp 
+		WHERE EXISTS(SELECT * FROM ccdd.pseudodin_map psm WHERE psm.pseudodin = ncp.pseudodin)
+	) AS draft_overlap_pseudodin;
+-- ddl-end --
+ALTER VIEW public.qa_new_concepts_pseudodin_test OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.qa_new_concepts_tm | type: VIEW --
+-- DROP VIEW IF EXISTS public.qa_new_concepts_tm CASCADE;
+CREATE VIEW public.qa_new_concepts_tm
+AS 
+
+SELECT 
+	((SELECT max(tmd.code) FROM ccdd.tm_definition tmd)) + (row_number() OVER ()) AS tm_code,
+	mct.tm_formal_name
+FROM qa_missing_concepts_tm mct;
+-- ddl-end --
+ALTER VIEW public.qa_new_concepts_tm OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.qa_new_concepts_tm_test | type: VIEW --
+-- DROP VIEW IF EXISTS public.qa_new_concepts_tm_test CASCADE;
+CREATE VIEW public.qa_new_concepts_tm_test
+AS 
+
+SELECT
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_tm nct 
+		WHERE EXISTS(SELECT * FROM ccdd.tm_definition tmd WHERE tmd.code = nct.tm_code)
+	) AS draft_overlap_codes,
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_tm nct
+		WHERE EXISTS(SELECT * FROM ccdd.tm_definition tmd WHERE tmd.formal_name = nct.tm_formal_name)
+	) AS draft_overlap_names,
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_tm nct 
+		WHERE EXISTS(SELECT * FROM ccdd.tm_full_release tfr WHERE CAST(tfr.tm_code AS bigint) = nct.tm_code)
+	) AS release_overlap_codes,
+	(
+		SELECT COUNT(*) 
+		FROM qa_new_concepts_tm nct 
+		WHERE EXISTS(SELECT * FROM ccdd.tm_full_release tfr WHERE tfr.tm_formal_name = nct.tm_formal_name)
+	) AS release_overlap_names;
+-- ddl-end --
+ALTER VIEW public.qa_new_concepts_tm_test OWNER TO postgres;
 -- ddl-end --
 
 -- -- object: active_ingredient_drug_code_fkey | type: CONSTRAINT --
