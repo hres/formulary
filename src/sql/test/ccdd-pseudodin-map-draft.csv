@@ -1,4 +1,4 @@
-"pseudodin","drug_code","unit_of_presentation","uop_size_amount","uop_size_unit"
+pseudodin,drug_code,unit_of_presentation,uop_size_amount,uop_size_unit
 "700013","9398","ampoule","2","mL"
 "700014","9398","ampoule","5","mL"
 "700015","10871","bag","100","mL"
