@@ -544,3 +544,8 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 94284,syringe,1.315,mL,N,N
 94285,syringe,1.75,mL,N,N
 94286,syringe,2.625,mL,N,N
+77729,syringe,2,mL,N,N
+63832,cartridge,3,mL,N,Y
+88823,pen,3,mL,N,Y
+63835,cartridge,3,mL,N,Y
+88824,pen,3,mL,N,Y
