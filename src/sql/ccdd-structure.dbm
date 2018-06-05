@@ -3,7 +3,7 @@
 CAUTION: Do not modify this file unless you know what you are doing.
          Unexpected results may occur if the code is changed deliberately.
 -->
-<dbmodel pgmodeler-ver="0.9.0" last-position="0,955" last-zoom="1"
+<dbmodel pgmodeler-ver="0.9.0" last-position="1213,967" last-zoom="1"
 	 default-owner="postgres">
 <database name="sandbox">
 </database>
@@ -749,6 +749,11 @@ AND NOT EXISTS(SELECT * FROM ccdd.mp_blacklist bl WHERE bl.drug_code = CAST(dp.d
 <relationship name="rel_dpd_drug_source_drug_product" type="reltv"
 	 src-table="public.dpd_drug_source"
 	 dst-table="dpd.drug_product"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_dpd_drug_source_companies" type="reltv"
+	 src-table="public.dpd_drug_source"
+	 dst-table="dpd.companies"
 	 src-required="false" dst-required="false"/>
 
 <relationship name="dpd_drug_has_many_dpd_drug_form" type="rel1n"
@@ -3820,11 +3825,6 @@ FROM qa_missing_concepts_tm mct;
 ]]></expression>
 	</reference>
 </view>
-
-<relationship name="rel_dpd_drug_source_companies" type="reltv"
-	 src-table="public.dpd_drug_source"
-	 dst-table="dpd.companies"
-	 src-required="false" dst-required="false"/>
 
 <constraint name="active_ingredient_drug_code_fkey" type="fk-constr" comparison-type="MATCH SIMPLE"
 	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="dpd.drug_product" sql-disabled="true" table="dpd.active_ingredient">
