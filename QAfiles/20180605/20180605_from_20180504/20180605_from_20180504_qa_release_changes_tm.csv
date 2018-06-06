@@ -30,6 +30,7 @@ tm_code,tm_formal_name,changes
 "8001286","lovastatin","ADDED"
 "8001245","benzydamine","ADDED"
 "8001288","memantine","ADDED"
+"8000905","salmeterol","tm_status_effective_time: ""19980211"" -> ""19980401"""
 "8001270","fluocinonide","ADDED"
 "8001311","cholestyramine","ADDED"
 "8001291","methylprednisolone acetate","ADDED"
