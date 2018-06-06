@@ -3,7 +3,8 @@
 -- Run after dpdload.pgload and before dpdload_ap.pgload
 
 LOAD ARCHIVE
-  FROM http://www.hc-sc.gc.ca/dhp-mps/alt_formats/zip/prodpharma/databasdon/allfiles_dr.zip
+FROM https://www.canada.ca/content/dam/hc-sc/documents/services/drug-product-database/allfiles_dr.zip
+--  FROM http://www.hc-sc.gc.ca/dhp-mps/alt_formats/zip/prodpharma/databasdon/allfiles_dr.zip
 --  FROM /home/shared/dpd_data/allfiles_dr.zip
   INTO postgresql:///
 
