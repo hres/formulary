@@ -549,3 +549,10 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 88823,pen,3,mL,N,Y
 63835,cartridge,3,mL,N,Y
 88824,pen,3,mL,N,Y
+95270,vial,2,mL,Y,N
+95270,vial,4,mL,Y,N
+68907,vial,10,mL,Y,N
+95912,pen,3,mL,N,Y
+85449,vial,1,mL,Y,N
+5430,vial,1,mL,Y,N
+37198,vial,1,mL,Y,N
