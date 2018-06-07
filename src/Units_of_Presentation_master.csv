@@ -535,7 +535,7 @@ drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size
 94710,cartridge,3.5,mL,Y,N
 78217,vial,0.23,mL,Y,N
 91026,syringe,0.165,mL,Y,N
-3499,vial,1,mL,N,Y
+3499,vial,30,mL,N,Y
 83943,syringe,1,mL,Y,N
 83944,syringe,1.5,mL,N,N
 83941,syringe,0.5,mL,N,N
