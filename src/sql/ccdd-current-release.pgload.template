@@ -29,7 +29,16 @@ LOAD CSV
     fields optionally enclosed by '"',
     fields terminated by ',',
     fields escaped by double-quote
-  
+
+    AFTER LOAD DO
+    $$ UPDATE ccdd.mp_release
+        SET mp_code = CASE
+            WHEN length(mp_code) = 6 AND mp_type = 'CCDD' THEN lpad(mp_code, 8, '7')
+            WHEN mp_code = "Health_Canada_identifier" THEN lpad(mp_code, 8, '0')
+            ELSE mp_code
+        END,
+        "Health_Canada_identifier" = lpad("Health_Canada_identifier", 8, '0'); $$
+
 ;
 
 LOAD CSV
@@ -63,6 +72,13 @@ LOAD CSV
     fields optionally enclosed by '"',
     fields terminated by ',',
     fields escaped by double-quote
+
+    AFTER LOAD DO
+    $$ UPDATE ccdd.mp_release_candidate
+        SET mp_code = CASE
+          WHEN length(mp_code) = 6 AND mp_type = 'CCDD' THEN lpad(mp_code, 8, '7')
+          ELSE mp_code
+        END; $$
 ;
 
 LOAD CSV
@@ -76,7 +92,7 @@ LOAD CSV
       ntp_status,
       ntp_status_effective_time,
       ntp_type
-      
+
 
     )
   INTO postgresql:///?ccdd.ntp_release
@@ -197,6 +213,13 @@ LOAD CSV
     fields optionally enclosed by '"',
     fields terminated by ',',
     fields escaped by double-quote
+
+  AFTER LOAD DO
+  $$ UPDATE ccdd.mp_ntp_tm_relationship_release
+      SET mp_code = CASE
+          WHEN length(mp_code) = 6 THEN lpad(mp_code, 8, '7')
+          ELSE mp_code
+      END; $$
 ;
 
 LOAD CSV
@@ -224,10 +247,17 @@ LOAD CSV
     fields optionally enclosed by '"',
     fields terminated by ',',
     fields escaped by double-quote
+
+    AFTER LOAD DO
+    $$ UPDATE ccdd.mp_ntp_tm_relationship_release_candidate
+        SET mp_code = CASE
+            WHEN length(mp_code) = 6 THEN lpad(mp_code, 8, '7')
+            ELSE mp_code
+        END; $$
 ;
 
 LOAD CSV
-  FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/releases/20180418%20-%20April%202018%20Release/ntp_full_release_20180418.csv
+  FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/releases/20180516%20-%20May%202018%20Release/ntp_full_release_20180516.csv
     WITH ENCODING UTF-8
     (
       ntp_code,
@@ -256,7 +286,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/releases/20180418%20-%20April%202018%20Release/tm_full_release_20180418.csv
+  FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/releases/20180516%20-%20May%202018%20Release/tm_full_release_20180516.csv
     WITH ENCODING UTF-8
     (
       tm_code,
