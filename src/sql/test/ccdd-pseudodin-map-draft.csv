@@ -227,3 +227,5 @@ pseudodin,drug_code,unit_of_presentation,uop_size_amount,uop_size_unit
 "77700584","5790","ampoule","1","mL"
 "77700585","43078","vial","0.5","mL"
 "77700586","43078","syringe","0.5","mL"
+"77700587","95270","vial","2","mL"
+"77700588","95270","vial","4","mL"
