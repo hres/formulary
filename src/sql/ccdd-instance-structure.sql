@@ -1614,6 +1614,23 @@ CREATE TABLE ccdd.mp_deprecations(
 ALTER TABLE ccdd.mp_deprecations OWNER TO postgres;
 -- ddl-end --
 
+-- object: ccdd.mp_release | type: TABLE --
+-- DROP TABLE IF EXISTS ccdd.mp_release CASCADE;
+CREATE TABLE ccdd.mp_release(
+	mp_code varchar,
+	mp_formal_name text,
+	mp_en_description text,
+	mp_fr_description text,
+	mp_status varchar,
+	mp_status_effective_time varchar,
+	mp_type varchar,
+	"Health_Canada_identifier" text,
+	"Health_Canada_product_name" text
+);
+-- ddl-end --
+ALTER TABLE ccdd.mp_release OWNER TO postgres;
+-- ddl-end --
+
 -- object: public.ccdd_mp_table_candidate | type: VIEW --
 -- DROP VIEW IF EXISTS public.ccdd_mp_table_candidate CASCADE;
 CREATE VIEW public.ccdd_mp_table_candidate
@@ -1653,11 +1670,13 @@ select
 	)) as ntp_formal_name,
 	cp.ntp_type,
 	(CASE
-		WHEN (
-			COALESCE(CAST(p.pseudodin AS varchar), dd.din)
+		WHEN (COALESCE(CAST(p.pseudodin AS varchar), dd.din)
 				IN
-			(SELECT * FROM ccdd.mp_deprecations)
-		) THEN (SELECT ccdd_date FROM ccdd_config LIMIT 1)
+			(SELECT * FROM ccdd.mp_deprecations))
+	 		THEN COALESCE(
+				CAST((SELECT prevmp.mp_status_effective_time FROM ccdd.mp_release prevmp WHERE prevmp.mp_code = COALESCE(CAST(p.pseudodin AS varchar), dd.din)) AS date),
+				(SELECT ccdd_date FROM ccdd_config LIMIT 1)
+			)
 		WHEN ds.current_status = 'MARKETED' THEN ds.first_market_date
 		WHEN ds.current_status = 'CANCELLED POST MARKET' AND ds.current_status_date < (SELECT ccdd_date FROM ccdd_config LIMIT 1) AND ds.current_expiration_date::date > (SELECT dpd_extract_date FROM ccdd_config LIMIT 1) THEN ds.first_market_date
 		ELSE ds.current_status_date
@@ -1790,67 +1809,11 @@ FROM
 ALTER MATERIALIZED VIEW public.ccdd_drug_tm_fallback OWNER TO postgres;
 -- ddl-end --
 
--- object: ccdd_drug_tm_fallback_code | type: INDEX --
--- DROP INDEX IF EXISTS public.ccdd_drug_tm_fallback_code CASCADE;
-CREATE INDEX ccdd_drug_tm_fallback_code ON public.ccdd_drug_tm_fallback
-	USING btree
-	(
-	  dpd_drug_code
-	);
--- ddl-end --
-
 -- object: dpd_drug_fk | type: CONSTRAINT --
 -- ALTER TABLE public.dpd_drug_status DROP CONSTRAINT IF EXISTS dpd_drug_fk CASCADE;
 ALTER TABLE public.dpd_drug_status ADD CONSTRAINT dpd_drug_fk FOREIGN KEY (dpd_drug_code)
 REFERENCES public.dpd_drug (code) MATCH FULL
 ON DELETE RESTRICT ON UPDATE CASCADE;
--- ddl-end --
-
--- object: public.ccdd_tm_table | type: MATERIALIZED VIEW --
--- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_tm_table CASCADE;
-CREATE MATERIALIZED VIEW public.ccdd_tm_table
-AS 
-
-SELECT
-	dtm.tm_code,
-	COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name) as tm_formal_name,
-	(CASE
-		WHEN bool_and(candidate.mp_status = 'Inactive') THEN 'Inactive'
-		ELSE 'Active'
-	END) AS tm_status,
-	to_char((CASE
-		WHEN bool_and(candidate.mp_status = 'Inactive') THEN max(candidate.mp_status_effective_date)
-		ELSE min(candidate.first_market_date)
-	END), 'YYYYMMDD') AS tm_status_effective_time,
-	bool_or(candidate.tm_is_publishable) AS tm_is_publishable
-FROM
-	ccdd_mp_table_candidate candidate
-	LEFT JOIN ccdd_drug_tm dtm ON(candidate.dpd_drug_code = dtm.dpd_drug_code)
-	LEFT JOIN ccdd_drug_tm_fallback dtmf ON(candidate.dpd_drug_code = dtmf.dpd_drug_code)
-GROUP BY
-	dtm.tm_code,
-	dtm.tm_formal_name,
-	dtmf.tm_fallback_formal_name
-ORDER BY tm_status_effective_time;
--- ddl-end --
-ALTER MATERIALIZED VIEW public.ccdd_tm_table OWNER TO postgres;
--- ddl-end --
-
--- object: ccdd.mp_release | type: TABLE --
--- DROP TABLE IF EXISTS ccdd.mp_release CASCADE;
-CREATE TABLE ccdd.mp_release(
-	mp_code varchar,
-	mp_formal_name text,
-	mp_en_description text,
-	mp_fr_description text,
-	mp_status varchar,
-	mp_status_effective_time varchar,
-	mp_type varchar,
-	"Health_Canada_identifier" text,
-	"Health_Canada_product_name" text
-);
--- ddl-end --
-ALTER TABLE ccdd.mp_release OWNER TO postgres;
 -- ddl-end --
 
 -- object: public.ccdd_mp_ntp_tm_relationship | type: MATERIALIZED VIEW --
@@ -1886,6 +1849,45 @@ WHERE (
 );
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_mp_ntp_tm_relationship OWNER TO postgres;
+-- ddl-end --
+
+-- object: ccdd_drug_tm_fallback_code | type: INDEX --
+-- DROP INDEX IF EXISTS public.ccdd_drug_tm_fallback_code CASCADE;
+CREATE INDEX ccdd_drug_tm_fallback_code ON public.ccdd_drug_tm_fallback
+	USING btree
+	(
+	  dpd_drug_code
+	);
+-- ddl-end --
+
+-- object: public.ccdd_tm_table | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_tm_table CASCADE;
+CREATE MATERIALIZED VIEW public.ccdd_tm_table
+AS 
+
+SELECT
+	dtm.tm_code,
+	COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name) as tm_formal_name,
+	(CASE
+		WHEN bool_and(candidate.mp_status = 'Inactive') THEN 'Inactive'
+		ELSE 'Active'
+	END) AS tm_status,
+	to_char((CASE
+		WHEN bool_and(candidate.mp_status = 'Inactive') THEN max(candidate.mp_status_effective_date)
+		ELSE min(candidate.first_market_date)
+	END), 'YYYYMMDD') AS tm_status_effective_time,
+	bool_or(candidate.tm_is_publishable) AS tm_is_publishable
+FROM
+	ccdd_mp_table_candidate candidate
+	LEFT JOIN ccdd_drug_tm dtm ON(candidate.dpd_drug_code = dtm.dpd_drug_code)
+	LEFT JOIN ccdd_drug_tm_fallback dtmf ON(candidate.dpd_drug_code = dtmf.dpd_drug_code)
+GROUP BY
+	dtm.tm_code,
+	dtm.tm_formal_name,
+	dtmf.tm_fallback_formal_name
+ORDER BY tm_status_effective_time;
+-- ddl-end --
+ALTER MATERIALIZED VIEW public.ccdd_tm_table OWNER TO postgres;
 -- ddl-end --
 
 -- object: public.ccdd_mp_table | type: MATERIALIZED VIEW --

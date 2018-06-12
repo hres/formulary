@@ -3,7 +3,7 @@
 CAUTION: Do not modify this file unless you know what you are doing.
          Unexpected results may occur if the code is changed deliberately.
 -->
-<dbmodel pgmodeler-ver="0.9.0" last-position="963,1256" last-zoom="1"
+<dbmodel pgmodeler-ver="0.9.0" last-position="888,1256" last-zoom="1"
 	 default-owner="postgres">
 <database name="sandbox">
 </database>
@@ -2145,11 +2145,13 @@ GROUP BY dpd_drug_code, sch.schedule, schedule_policy_mapping.policy_type;]]></e
 	)) as ntp_formal_name,
 	cp.ntp_type,
 	(CASE
-		WHEN (
-			COALESCE(CAST(p.pseudodin AS varchar), dd.din)
+		WHEN (COALESCE(CAST(p.pseudodin AS varchar), dd.din)
 				IN
-			(SELECT * FROM ccdd.mp_deprecations)
-		) THEN (SELECT ccdd_date FROM ccdd_config LIMIT 1)
+			(SELECT * FROM ccdd.mp_deprecations))
+	 		THEN COALESCE(
+				CAST((SELECT prevmp.mp_status_effective_time FROM ccdd.mp_release prevmp WHERE prevmp.mp_code = COALESCE(CAST(p.pseudodin AS varchar), dd.din)) AS date),
+				(SELECT ccdd_date FROM ccdd_config LIMIT 1)
+			)
 		WHEN ds.current_status = 'MARKETED' THEN ds.first_market_date
 		WHEN ds.current_status = 'CANCELLED POST MARKET' AND ds.current_status_date < (SELECT ccdd_date FROM ccdd_config LIMIT 1) AND ds.current_expiration_date::date > (SELECT dpd_extract_date FROM ccdd_config LIMIT 1) THEN ds.first_market_date
 		ELSE ds.current_status_date
@@ -2181,8 +2183,7 @@ from
 	LEFT JOIN ccdd_combination_product cp on(cp.dpd_drug_code = dd.code)
 	LEFT JOIN ccdd.mp_brand_override mbo on(mbo.drug_code = dd.code)
 where
-	dsum.ccdd_all
-]]></expression>
+	dsum.ccdd_all;]]></expression>
 	</reference>
 </view>
 
