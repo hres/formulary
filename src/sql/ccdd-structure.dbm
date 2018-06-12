@@ -3,7 +3,7 @@
 CAUTION: Do not modify this file unless you know what you are doing.
          Unexpected results may occur if the code is changed deliberately.
 -->
-<dbmodel pgmodeler-ver="0.9.0" last-position="963,1163" last-zoom="1"
+<dbmodel pgmodeler-ver="0.9.0" last-position="963,1256" last-zoom="1"
 	 default-owner="postgres">
 <database name="sandbox">
 </database>
@@ -2390,6 +2390,12 @@ FROM
 	ccdd_mp_table_candidate candidate
 	LEFT JOIN ccdd_drug_tm dtm ON(candidate.dpd_drug_code = dtm.dpd_drug_code)
 	LEFT JOIN ccdd_drug_tm_fallback dtmf ON(candidate.dpd_drug_code = dtmf.dpd_drug_code)
+WHERE (
+	(CASE
+		WHEN candidate.presentation_count > 1 THEN COALESCE(cast(candidate.pseudodin AS varchar), candidate.ccdd_presentation_id)
+		ELSE candidate.din
+	END) NOT IN (SELECT * FROM ccdd.mp_deprecations)
+)
 ]]></expression>
 	</reference>
 </view>
