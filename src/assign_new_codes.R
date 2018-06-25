@@ -1,7 +1,9 @@
+# This is to generate new concept codes. Not great to be doign this in R. Needs an SQL implementation.
+
 library(dplyr)
 library(readr)
 
-ccdd_sql <- src_postgres(dbname = "ccdd_2018_04_11_155740",
+ccdd_sql <- src_postgres(dbname = "ccdd_2018_05_03_135357",
                      host = "rest.hc.local",
                      port = 5432,
                      user = Sys.getenv("rest_user"),
@@ -9,9 +11,9 @@ ccdd_sql <- src_postgres(dbname = "ccdd_2018_04_11_155740",
 
 qa_missing_concepts_ntp <- tbl(ccdd_sql, "qa_missing_concepts_ntp")
 qa_missing_concepts_pseudodin <- tbl(ccdd_sql, "qa_missing_concepts_pseudodin")
+qa_missing_concepts_tm <- tbl(ccdd_sql, "qa_missing_coincepts_tm")
 
-
-
+# This are the reference codes that are used to look up newly generated concepts. 
 ccdd_pseudodin_map_draft <- read_csv("~/formulary/src/sql/test/ccdd-pseudodin-map-draft.csv")
 ccdd_ntp_definitions_draft <- read_csv("~/formulary/src/sql/test/ccdd-ntp-definitions-draft.csv")
 
