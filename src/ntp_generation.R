@@ -24,7 +24,7 @@ dpd <- src_postgres(dbname = "dpd",
                     port = 5432,
                     user = Sys.getenv("rest_user"),
                     password = Sys.getenv("rest_password"),
-                    options = "-c search_path=dpd_20180301")
+                    options = "-c search_path=dpd_20180501")
 
 ccdd <- src_postgres(dbname = "ccdd",
                      host = "rest.hc.local",
