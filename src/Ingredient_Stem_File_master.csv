@@ -146,8 +146,8 @@ Y,,AZTREONAM,aztreonam,FALSE,aztreonam
 ,,BACILLUS CALMETTE-GUERIN (BCG) STRAIN TICE,bacillus calmette-guerin (bcg) strain tice,FALSE,bacillus calmette-guerin (bcg) strain tice
 ,,BACILLUS CALMETTE-GUERIN (BCG) SUBSTRAIN CONNAUGHT,bacillus calmette-guerin (bcg) substrain connaught,FALSE,bacillus calmette-guerin (bcg) substrain connaught
 ,,BACITRACIN,bacitracin,FALSE,bacitracin
-,,BACITRACIN (BACITRACIN ZINC),bacitracin (bacitracin zinc),FALSE,bacitracin (bacitracin zinc)
-,,BACITRACIN ZINC,bacitracin zinc,FALSE,bacitracin zinc
+,,BACITRACIN (BACITRACIN ZINC),bacitracin,FALSE,bacitracin (bacitracin zinc)
+,,BACITRACIN ZINC,bacitracin,FALSE,bacitracin zinc
 Y,BACLOFEN,BACLOFEN,baclofen,FALSE,baclofen
 ,,BASILIXIMAB,basiliximab,FALSE,basiliximab
 ,,BAZEDOXIFENE (BAZEDOXIFENE ACETATE),bazedoxifene (bazedoxifene acetate),FALSE,bazedoxifene (bazedoxifene acetate)
@@ -363,8 +363,8 @@ Y,CLONIDINE,CLONIDINE HYDROCHLORIDE,clonidine,FALSE,clonidine hydrochloride
 Y,CLOPIDOGREL,CLOPIDOGREL (CLOPIDOGREL BISULFATE),clopidogrel,FALSE,clopidogrel (clopidogrel bisulfate)
 ,,CLORAZEPATE DIPOTASSIUM,clorazepate dipotassium,FALSE,clorazepate dipotassium
 Y,CLOTRIMAZOLE,CLOTRIMAZOLE,clotrimazole,FALSE,clotrimazole
-,,CLOXACILLIN (CLOXACILLIN SODIUM),cloxacillin (cloxacillin sodium),FALSE,cloxacillin (cloxacillin sodium)
-,,CLOXACILLIN SODIUM,cloxacillin sodium,FALSE,cloxacillin sodium
+Y,,CLOXACILLIN (CLOXACILLIN SODIUM),cloxacillin,FALSE,cloxacillin (cloxacillin sodium)
+Y,,CLOXACILLIN SODIUM,cloxacillin,FALSE,cloxacillin (cloxacillin sodium)
 Y,CLOZAPINE,CLOZAPINE,clozapine,FALSE,clozapine
 ,,COAGULATION FACTOR II (HUMAN),coagulation factor ii (human),FALSE,coagulation factor ii (human)
 ,,COAGULATION FACTOR IX (HUMAN),coagulation factor ix (human),FALSE,coagulation factor ix (human)
@@ -828,24 +828,24 @@ Y,,INFLIXIMAB,infliximab,FALSE,infliximab
 ,,Ingenol Mebutate,ingenol mebutate,FALSE,ingenol mebutate
 Y,,INOSINE PRANOBEX,inosine pranobex,FALSE,inosine pranobex
 ,,INOSITOL,inositol,FALSE,inositol
-,,INSULIN,insulin human,FALSE,insulin human
-Y,,INSULIN,insulin,FALSE,insulin
+Y,,INSULIN,insulin human,FALSE,insulin human
+Y,,INSULIN,insulin human,FALSE,insulin human
 Y,INSULIN ASPART,INSULIN ASPART,insulin aspart,FALSE,insulin aspart
 Y,,INSULIN ASPART PROTAMINE,insulin aspart protamine,FALSE,insulin aspart protamine
-Y,,INSULIN BIOSYNTHETIC HUMAN BR,insulin biosynthetic human br,FALSE,insulin biosynthetic human br
+Y,,INSULIN BIOSYNTHETIC HUMAN BR,insulin human,FALSE,insulin human
 Y,,INSULIN DEGLUDEC,insulin degludec,FALSE,insulin degludec
 Y,INSULIN DETEMIR,INSULIN DETEMIR,insulin detemir,FALSE,insulin detemir
 Y,INSULIN GLARGINE,INSULIN GLARGINE,insulin glargine,FALSE,insulin glargine
-Y,,INSULIN GLULISINE (RECOMBINANT DNA ORIGIN),insulin glulisine (recombinant dna origin),FALSE,insulin glulisine (recombinant dna origin)
-Y,,INSULIN INJECTION HUMAN BIOSYNTHETIC,insulin injection human biosynthetic,FALSE,insulin injection human biosynthetic
-Y,,INSULIN INJECTION PORK,insulin pork,FALSE,insulin injection pork
+Y,,INSULIN GLULISINE (RECOMBINANT DNA ORIGIN),insulin glulisine,FALSE,insulin glulisine
+Y,,INSULIN INJECTION HUMAN BIOSYNTHETIC,insulin human,FALSE,insulin human
+Y,,INSULIN INJECTION PORK,insulin pork,FALSE,insulin pork
 Y,HUMAN INSULIN ISOPHANE,INSULIN ISOPHANE (NPH),insulin isophane human,FALSE,insulin isophane human
 Y,HUMAN INSULIN ISOPHANE,INSULIN ISOPHANE HUMAN BIOSYNTHETIC,insulin isophane human,FALSE,insulin isophane human
-Y,,INSULIN ISOPHANE INJECTION PORK,insulin isophane injection pork,FALSE,insulin isophane injection pork
+Y,,INSULIN ISOPHANE INJECTION PORK,insulin isophane pork,FALSE,insulin isophane pork
 Y,INSULIN LISPRO,INSULIN LISPRO,insulin lispro,FALSE,insulin lispro
-Y,,INSULIN LISPRO PROTAMINE SUSPENSION,insulin lispro protamine suspension,FALSE,insulin lispro protamine suspension
-Y,,INSULIN NPH HUMAN DNA ORIGIN,insulin nph human dna origin,FALSE,insulin nph human dna origin
-Y,,INSULIN SEMI SYNTHETIC HUMAN,insulin semi synthetic human,FALSE,insulin semi synthetic human
+Y,,INSULIN LISPRO PROTAMINE SUSPENSION,insulin lispro protamine,FALSE,insulin lispro protamine
+Y,,INSULIN NPH HUMAN DNA ORIGIN,insulin isophane human,FALSE,insulin isophane human
+Y,,INSULIN SEMI SYNTHETIC HUMAN,insulin human,FALSE,insulin human
 ,,INTERFERON ALFA-2B,interferon alfa-2b,FALSE,interferon alfa-2b
 ,,INTERFERON BETA-1A,interferon beta-1a,FALSE,interferon beta-1a
 ,,INTERFERON BETA-1B,interferon beta-1b,FALSE,interferon beta-1b
@@ -1646,7 +1646,7 @@ Y,,Ticagrelor,ticagrelor,FALSE,ticagrelor
 Y,,TIGECYCLINE,tigecycline,FALSE,tigecycline
 Y,TIMOLOL,TIMOLOL (TIMOLOL MALEATE),timolol,FALSE,timolol (timolol maleate)
 Y,TIMOLOL,TIMOLOL MALEATE,timolol,FALSE,timolol maleate
-,,TINZAPARIN SODIUM,tinzaparin sodium,FALSE,tinzaparin sodium
+Y,,TINZAPARIN SODIUM,tinzaparin,FALSE,tinzaparin sodium
 Y,TIOTROPIUM,TIOTROPIUM (TIOTROPIUM BROMIDE MONOHYDRATE),tiotropium,TRUE,tiotropium (tiotropium bromide)
 Y,,TIPRANAVIR,tipranavir,FALSE,tipranavir
 ,,TIROFIBAN (TIROFIBAN HYDROCHLORIDE),tirofiban (tirofiban hydrochloride),FALSE,tirofiban (tirofiban hydrochloride)
@@ -1713,8 +1713,8 @@ Y,VALPROIC ACID,VALPROIC ACID,valproic acid,FALSE,valproic acid
 Y,DIVALPROEX,VALPROIC ACID (DIVALPROEX SODIUM),valproic acid (divalproex),FALSE,valproic acid (divalproex sodium)
 Y,VALPROIC ACID,VALPROIC ACID (SODIUM VALPROATE),valproic acid (valproate),FALSE,valproic acid (sodium valproate)
 Y,VALSARTAN,VALSARTAN,valsartan,FALSE,valsartan
-,,VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE),vancomycin (vancomycin hydrochloride),FALSE,vancomycin (vancomycin hydrochloride)
-,,VANCOMYCIN HYDROCHLORIDE,vancomycin hydrochloride,FALSE,vancomycin hydrochloride
+Y,,VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE),vancomycin,FALSE,vancomycin (vancomycin hydrochloride)
+,,VANCOMYCIN HYDROCHLORIDE,vancomycin,FALSE,vancomycin hydrochloride
 ,,VARDENAFIL (VARDENAFIL HYDROCHLORIDE),vardenafil (vardenafil hydrochloride),FALSE,vardenafil (vardenafil hydrochloride)
 Y,,VANDETANIB,vandetanib,FALSE,vandetanib
 Y,VARENICLINE,VARENICLINE (VARENICLINE TARTRATE),varenicline,FALSE,varenicline (varenicline tartrate)
@@ -1798,8 +1798,8 @@ Y,,ZIDOVUDINE,zidovudine,FALSE,zidovudine
 ,,ZINC SULFATE,zinc sulfate,FALSE,zinc sulfate
 ,,ZINC SULFATE HEPTAHYDRATE,zinc sulfate heptahydrate,TRUE,zinc sulfate heptahydrate
 ,,Zinc sulfate monohydrate,zinc sulfate monohydrate,TRUE,zinc sulfate monohydrate
-,,ZIPRASIDONE (ZIPRASIDONE HYDROCHLORIDE MONOHYDRATE),ziprasidone (ziprasidone hydrochloride monohydrate),TRUE,ziprasidone (ziprasidone hydrochloride monohydrate)
-,,ZOLEDRONIC ACID (Zoledronic acid monohydrate),zoledronic acid (zoledronic acid monohydrate),TRUE,zoledronic acid (zoledronic acid monohydrate)
+Y,,ZIPRASIDONE (ZIPRASIDONE HYDROCHLORIDE MONOHYDRATE),ziprasidone,TRUE,ziprasidone (ziprasidone hydrochloride monohydrate)
+,,ZOLEDRONIC ACID (Zoledronic acid monohydrate),zoledronic acid,TRUE,zoledronic acid (zoledronic acid monohydrate)
 Y,,ZOLMITRIPTAN,zolmitriptan,FALSE,zolmitriptan
 Y,,ZOLPIDEM TARTRATE,zolpidem,FALSE,zolpidem tartrate
 Y,ZOPICLONE,ZOPICLONE,zopiclone,FALSE,zopiclone
