@@ -1836,14 +1836,27 @@ SELECT
 		ELSE candidate.din
 	END) AS mp_code,
 	candidate.mp_formal_name,
-	(
-		SELECT
-			code
-		FROM ccdd.ntp_definition prevntp
-		WHERE prevntp.formal_name = candidate.ntp_formal_name
+	(CASE WHEN CAST(
+		(
+			SELECT code FROM ccdd.ntp_definition prevntp
+			WHERE prevntp.formal_name = candidate.ntp_formal_name
+		) as varchar) IS NULL THEN md5(COALESCE(candidate.ntp_formal_name))
+		ELSE CAST(
+			(
+				SELECT
+					code
+				FROM ccdd.ntp_definition prevntp
+				WHERE prevntp.formal_name = candidate.ntp_formal_name) as varchar
+		)
+	END
 	) AS ntp_code,
 	candidate.ntp_formal_name,
-	dtm.tm_code,
+	(
+		CASE
+			WHEN CAST(dtm.tm_code as varchar) IS NULL THEN md5(COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name))
+			ELSE CAST(dtm.tm_code as varchar)
+		END
+	) as tm_code,
 	COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name) as tm_formal_name,
 	candidate.tm_is_publishable AS tm_is_publishable
 FROM
