@@ -1728,12 +1728,7 @@ ALTER TABLE ccdd.ntp_definition OWNER TO postgres;
 
 -- object: public.ccdd_ntp_table | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_ntp_table CASCADE;
--- (
--- 	CASE
--- 		WHEN CAST(dtm.tm_code as varchar) IS NULL THEN md5(COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name))
--- 		ELSE CAST(dtm.tm_code as varchar)
--- 	END
--- ) as tm_code,
+
 CREATE MATERIALIZED VIEW public.ccdd_ntp_table
 AS
 

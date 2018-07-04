@@ -2212,11 +2212,21 @@ where
 	<reference>
 		<expression><![CDATA[(SELECT
 	(
-		SELECT
-			code
-		FROM ccdd.ntp_definition prevntp
-		WHERE prevntp.formal_name = candidate.ntp_formal_name
-	) AS ntp_code,
+	SELECT
+		(CASE WHEN CAST(
+			(
+				SELECT code FROM ccdd.ntp_definition prevntp
+				WHERE prevntp.formal_name = candidate.ntp_formal_name
+			) as varchar) IS NULL THEN md5(COALESCE(candidate.ntp_formal_name))
+			ELSE CAST(
+				(
+					SELECT
+						code
+					FROM ccdd.ntp_definition prevntp
+					WHERE prevntp.formal_name = candidate.ntp_formal_name) as varchar
+			)
+		END
+		) AS ntp_code,
 	candidate.ntp_formal_name,
 	(CASE
 		WHEN bool_and(candidate.mp_status = 'Inactive') THEN 'Inactive'
@@ -2235,7 +2245,7 @@ GROUP BY
 ORDER BY ntp_status_effective_time
 ) UNION ALL (
 SELECT
-	CAST(depr.code as bigint) as ntp_code,
+	CAST(depr.code as varchar) as ntp_code,
 	deprntp.formal_name as ntp_formal_name,
 	'Deprec' as ntp_status,
 	null::varchar as ntp_type,
@@ -2309,7 +2319,12 @@ FROM
 	<position x="1580" y="1880"/>
 	<reference>
 		<expression><![CDATA[SELECT
-	dtm.tm_code,
+	(
+		CASE
+      WHEN CAST(dtm.tm_code as varchar) IS NULL THEN md5(COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name))
+      ELSE CAST(dtm.tm_code as varchar)
+  	END
+	) as tm_code,
 	COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name) as tm_formal_name,
 	(CASE
 		WHEN bool_and(candidate.mp_status = 'Inactive') THEN 'Inactive'
@@ -2437,11 +2452,6 @@ FROM
 		</idxelement>
 </index>
 
-<relationship name="rel_dpd_drug_status_source_status" type="reltv"
-	 src-table="public.dpd_drug_status_source"
-	 dst-table="dpd.status"
-	 src-required="false" dst-required="false"/>
-
 <view name="dpd_drug_status_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -2468,6 +2478,11 @@ END)
 	<expression type="simple-exp">6</expression>
 </view>
 
+<relationship name="rel_dpd_drug_status_source_status" type="reltv"
+	 src-table="public.dpd_drug_status_source"
+	 dst-table="dpd.status"
+	 src-required="false" dst-required="false"/>
+
 <table name="pseudodin_map">
 	<schema name="ccdd"/>
 	<role name="postgres"/>
@@ -2491,11 +2506,6 @@ END)
 		<columns names="pseudodin" ref-type="src-columns"/>
 	</constraint>
 </table>
-
-<relationship name="rel_ccdd_presentation_source_unit_of_presentation_csv" type="reltv"
-	 src-table="public.ccdd_presentation_source"
-	 dst-table="ccdd.unit_of_presentation_csv"
-	 src-required="false" dst-required="false"/>
 
 <view name="ccdd_presentation_source" materialized="true">
 	<schema name="public"/>
@@ -2537,6 +2547,11 @@ order by pseudodin limit 1)]]></expression>
 	<expression type="from-exp">8</expression>
 	<expression type="simple-exp">9</expression>
 </view>
+
+<relationship name="rel_ccdd_presentation_source_unit_of_presentation_csv" type="reltv"
+	 src-table="public.ccdd_presentation_source"
+	 dst-table="ccdd.unit_of_presentation_csv"
+	 src-required="false" dst-required="false"/>
 
 <view name="qa_release_changes_mp">
 	<schema name="public"/>
@@ -3122,15 +3137,6 @@ order by
 	</reference>
 </view>
 
-<relationship name="rel_dpd_named_ingredient_source_cp_active_ingredient" type="reltv"
-	 src-table="public.dpd_ingredient_source"
-	 dst-table="dpd.active_ingredient"
-	 src-required="false" dst-required="false">
-	<label ref-type="name-label">
-		<position x="0" y="0"/>
-	</label>
-</relationship>
-
 <view name="dpd_ingredient_source" materialized="true">
 	<schema name="public"/>
 	<role name="postgres"/>
@@ -3175,6 +3181,15 @@ order by
 ]]></expression>
 	</reference>
 </view>
+
+<relationship name="rel_dpd_named_ingredient_source_cp_active_ingredient" type="reltv"
+	 src-table="public.dpd_ingredient_source"
+	 dst-table="dpd.active_ingredient"
+	 src-required="false" dst-required="false">
+	<label ref-type="name-label">
+		<position x="0" y="0"/>
+	</label>
+</relationship>
 
 <table name="tm_groupings">
 	<schema name="ccdd"/>
@@ -3743,9 +3758,9 @@ WHERE
 	<role name="postgres"/>
 	<position x="2360" y="1900"/>
 	<reference>
-		<expression><![CDATA[SELECT 
-	((SELECT max(ntd.code) FROM ccdd.ntp_definition ntd)) + (row_number() OVER ()) AS ntp_code,
-	mcn.ntp_formal_name
+		<expression><![CDATA[SELECT
+CAST(((SELECT max(ntd.code) FROM ccdd.ntp_definition ntd)) + (row_number() OVER ()) as varchar) AS ntp_code,
+mcn.ntp_formal_name
 FROM qa_missing_concepts_ntp mcn;
 ]]></expression>
 	</reference>
@@ -3758,23 +3773,23 @@ FROM qa_missing_concepts_ntp mcn;
 	<reference>
 		<expression><![CDATA[SELECT
 	(
-		SELECT COUNT(*) 
-		FROM qa_new_concepts_ntp ncn 
-		WHERE EXISTS(SELECT * FROM ccdd.ntp_definition ntpd WHERE ntpd.code = ncn.ntp_code)
+		SELECT COUNT(*)
+		FROM qa_new_concepts_ntp ncn
+		WHERE EXISTS(SELECT * FROM ccdd.ntp_definition ntpd WHERE cast(ntpd.code as varchar) = ncn.ntp_code)
 	) AS draft_overlap_codes,
 	(
-		SELECT COUNT(*) 
-		FROM qa_new_concepts_ntp ncn 
+		SELECT COUNT(*)
+		FROM qa_new_concepts_ntp ncn
 		WHERE EXISTS(SELECT * FROM ccdd.ntp_definition ntpd WHERE ntpd.formal_name = ncn.ntp_formal_name)
 	) AS draft_overlap_names,
 	(
-		SELECT COUNT(*) 
-		FROM qa_new_concepts_ntp ncn 
+		SELECT COUNT(*)
+		FROM qa_new_concepts_ntp ncn
 		WHERE EXISTS(SELECT * FROM ccdd.ntp_full_release nfr WHERE CAST(nfr.ntp_code AS bigint) = ncn.ntp_code)
 	) AS release_overlap_codes,
 	(
-		SELECT COUNT(*) 
-		FROM qa_new_concepts_ntp ncn 
+		SELECT COUNT(*)
+		FROM qa_new_concepts_ntp ncn
 		WHERE EXISTS(SELECT * FROM ccdd.ntp_full_release nfr WHERE nfr.ntp_formal_name = ncn.ntp_formal_name)
 	) AS release_overlap_names;
 ]]></expression>
@@ -3786,7 +3801,7 @@ FROM qa_missing_concepts_ntp mcn;
 	<role name="postgres"/>
 	<position x="2360" y="2060"/>
 	<reference>
-		<expression><![CDATA[SELECT 
+		<expression><![CDATA[SELECT
 	((SELECT max(psm.pseudodin) FROM ccdd.pseudodin_map psm)) + (row_number() OVER ()) AS pseudodin,
 	mcp.drug_code,
 	mcp.unit_of_presentation,
@@ -3804,8 +3819,8 @@ FROM qa_missing_concepts_pseudodin mcp;
 	<reference>
 		<expression><![CDATA[SELECT
 	(
-		SELECT COUNT(*) 
-		FROM qa_new_concepts_pseudodin ncp 
+		SELECT COUNT(*)
+		FROM qa_new_concepts_pseudodin ncp
 		WHERE EXISTS(SELECT * FROM ccdd.pseudodin_map psm WHERE psm.pseudodin = ncp.pseudodin)
 	) AS draft_overlap_pseudodin;
 ]]></expression>
@@ -3817,9 +3832,9 @@ FROM qa_missing_concepts_pseudodin mcp;
 	<role name="postgres"/>
 	<position x="2360" y="1980"/>
 	<reference>
-		<expression><![CDATA[SELECT 
-	((SELECT max(tmd.code) FROM ccdd.tm_definition tmd)) + (row_number() OVER ()) AS tm_code,
-	mct.tm_formal_name
+		<expression><![CDATA[SELECT
+CAST(((SELECT max(tmd.code) FROM ccdd.tm_definition tmd)) + (row_number() OVER ()) AS VARCHAR) AS tm_code,
+mct.tm_formal_name
 FROM qa_missing_concepts_tm mct;
 ]]></expression>
 	</reference>
@@ -3832,23 +3847,23 @@ FROM qa_missing_concepts_tm mct;
 	<reference>
 		<expression><![CDATA[SELECT
 	(
-		SELECT COUNT(*) 
-		FROM qa_new_concepts_tm nct 
-		WHERE EXISTS(SELECT * FROM ccdd.tm_definition tmd WHERE tmd.code = nct.tm_code)
+		SELECT COUNT(*)
+		FROM qa_new_concepts_tm nct
+		WHERE EXISTS(SELECT * FROM ccdd.tm_definition tmd WHERE cast(tmd.code as varchar) = nct.tm_code)
 	) AS draft_overlap_codes,
 	(
-		SELECT COUNT(*) 
+		SELECT COUNT(*)
 		FROM qa_new_concepts_tm nct
 		WHERE EXISTS(SELECT * FROM ccdd.tm_definition tmd WHERE tmd.formal_name = nct.tm_formal_name)
 	) AS draft_overlap_names,
 	(
-		SELECT COUNT(*) 
-		FROM qa_new_concepts_tm nct 
+		SELECT COUNT(*)
+		FROM qa_new_concepts_tm nct
 		WHERE EXISTS(SELECT * FROM ccdd.tm_full_release tfr WHERE CAST(tfr.tm_code AS bigint) = nct.tm_code)
 	) AS release_overlap_codes,
 	(
-		SELECT COUNT(*) 
-		FROM qa_new_concepts_tm nct 
+		SELECT COUNT(*)
+		FROM qa_new_concepts_tm nct
 		WHERE EXISTS(SELECT * FROM ccdd.tm_full_release tfr WHERE tfr.tm_formal_name = nct.tm_formal_name)
 	) AS release_overlap_names;
 ]]></expression>
