@@ -800,7 +800,7 @@ Y,,IBUTILIDE FUMARATE,ibutilide,FALSE,ibutilide fumarate
 ,,IFOSFAMIDE,ifosfamide,FALSE,ifosfamide
 ,,IMATINIB (IMATINIB MESYLATE),imatinib (imatinib mesylate),FALSE,imatinib (imatinib mesylate)
 ,,IMIGLUCERASE,imiglucerase,FALSE,imiglucerase
-,,IMIPENEM,imipenem,FALSE,imipenem
+Y,,IMIPENEM,imipenem,FALSE,imipenem
 Y,,IMIPRAMINE HYDROCHLORIDE,imipramine,FALSE,imipramine hydrochloride
 ,,IMIQUIMOD,imiquimod,FALSE,imiquimod
 ,,IMMUNE GLOBULIN (HUMAN),immune globulin (human),FALSE,immune globulin (human)
@@ -1587,7 +1587,7 @@ Y,TAMSULOSIN,TAMSULOSIN HYDROCHLORIDE,tamsulosin,FALSE,tamsulosin hydrochloride
 Y,TAPENTADOL,Tapentadol (Tapentadol Hydrochloride),tapentadol,FALSE,tapentadol (tapentadol hydrochloride)
 ,,TAURINE,taurine,FALSE,taurine
 ,,TAZAROTENE,tazarotene,FALSE,tazarotene
-,,TAZOBACTAM (TAZOBACTAM SODIUM),tazobactam (tazobactam sodium),FALSE,tazobactam (tazobactam sodium)
+Y,,TAZOBACTAM (TAZOBACTAM SODIUM),tazobactam,FALSE,tazobactam (tazobactam sodium)
 Y,,TELAVANCIN (TELAVANCIN HYDROCHLORIDE),telavancin,FALSE,telavancin (telavancin hydrochloride)
 ,,TELBIVUDINE,telbivudine,FALSE,telbivudine
 Y,TELMISARTAN,TELMISARTAN,telmisartan,FALSE,telmisartan
