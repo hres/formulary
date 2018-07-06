@@ -354,7 +354,7 @@ Y,CLOBAZAM,CLOBAZAM,clobazam,FALSE,clobazam
 Y,CLOBETASOL,CLOBETASOL PROPIONATE,clobetasol,FALSE,clobetasol propionate
 ,,CLOBETASONE BUTYRATE,clobetasone butyrate,FALSE,clobetasone butyrate
 Y,,CLODRONATE DISODIUM,clodronate,FALSE,clodronate disodium
-Y,,CLODRONATE DISODIUM (CLODRONATE DISODIUM TETRAHYDRATE),clodronate ,TRUE,clodronate disodium (clodronate disodium tetrahydrate)
+Y,,CLODRONATE DISODIUM (CLODRONATE DISODIUM TETRAHYDRATE),clodronate ,TRUE,clodronate disodium
 ,,CLOFARABINE,clofarabine,FALSE,clofarabine
 ,,CLOFEDANOL HYDROCHLORIDE,clofedanol hydrochloride,FALSE,clofedanol hydrochloride
 Y,,CLOMIPRAMINE HYDROCHLORIDE,clomipramine,FALSE,clomipramine hydrochloride
@@ -558,7 +558,7 @@ Y,ENALAPRIL,ENALAPRIL SODIUM,enalapril,FALSE,enalapril sodium
 Y,ENALAPRIL,ENALAPRIL SODIUM (ENALAPRIL MALEATE),enalapril,FALSE,enalapril sodium (enalapril maleate)
 Y,,ENALAPRILAT,enalaprilat,FALSE,enalaprilat
 ,,ENFUVIRTIDE,enfuvirtide,FALSE,enfuvirtide
-Y,,ENOXAPARIN SODIUM,enoxaparin sodium,FALSE,enoxaparin sodium
+Y,,ENOXAPARIN SODIUM,enoxaparin,FALSE,enoxaparin sodium
 ,,ENSULIZOLE,ensulizole,FALSE,ensulizole
 ,,ENTACAPONE,entacapone,FALSE,entacapone
 Y,,ENTECAVIR,entecavir,FALSE,entecavir
@@ -1797,8 +1797,8 @@ Y,,ZIDOVUDINE,zidovudine,FALSE,zidovudine
 ,,ZINC SULFATE,zinc sulfate,FALSE,zinc sulfate
 ,,ZINC SULFATE HEPTAHYDRATE,zinc sulfate heptahydrate,TRUE,zinc sulfate heptahydrate
 ,,Zinc sulfate monohydrate,zinc sulfate monohydrate,TRUE,zinc sulfate monohydrate
-Y,,ZIPRASIDONE (ZIPRASIDONE HYDROCHLORIDE MONOHYDRATE),ziprasidone,TRUE,ziprasidone (ziprasidone hydrochloride monohydrate)
-Y,,ZOLEDRONIC ACID (Zoledronic acid monohydrate),zoledronic acid,TRUE,zoledronic acid (zoledronic acid)
+Y,,ZIPRASIDONE (ZIPRASIDONE HYDROCHLORIDE MONOHYDRATE),ziprasidone,TRUE,ziprasidone (ziprasidone hydrochloride)
+Y,,ZOLEDRONIC ACID (Zoledronic acid monohydrate),zoledronic acid,TRUE,zoledronic acid
 Y,,ZOLMITRIPTAN,zolmitriptan,FALSE,zolmitriptan
 Y,,ZOLPIDEM TARTRATE,zolpidem,FALSE,zolpidem tartrate
 Y,ZOPICLONE,ZOPICLONE,zopiclone,FALSE,zopiclone
