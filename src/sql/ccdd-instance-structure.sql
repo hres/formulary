@@ -1695,7 +1695,7 @@ select
 	exists(
 		select * from
 			ccdd_drug_tm dtm
-			inner join ccdd.tm_filter tf on (cast(tf.tm_code as bigint) = dtm.tm_code)
+			inner join ccdd.tm_filter tf on tf.tm_code = cast(dtm.tm_code as varchar)
 		where dtm.dpd_drug_code = dd.code
 	) as tm_is_publishable,
 	(select count(*) from ccdd_presentation pc where pc.dpd_drug_code = dd.code) as presentation_count
@@ -2377,7 +2377,7 @@ select
 from
 	ccdd_ntp_table nxt
 where
-	nxt.ntp_code is null
+	nxt.ntp_code is not null AND length(nxt.ntp_code) = 32
 order by
 	nxt.ntp_formal_name;
 -- ddl-end --
@@ -2403,7 +2403,7 @@ select
 from
 	ccdd_tm_table nxt
 where
-	nxt.tm_code is null
+	nxt.tm_code is not null AND length(nxt.tm_code) = 32
 order by
 	nxt.tm_formal_name;
 -- ddl-end --
