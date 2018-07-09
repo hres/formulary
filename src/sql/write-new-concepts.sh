@@ -56,11 +56,13 @@ do
 
   if [ "$write_all_full" == true ]; then
     printf "\nWriting ${dff[$i]} directly...\n"
-    psql -c "copy (SELECT * FROM ${dft[$i]} UNION ALL (SELECT * FROM ${ncn[$i]})) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$testDir/${dff[$i]}";
+    psql -c "copy (SELECT * FROM ${dft[$i]}) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$testDir/${dff[$i]}";
+    psql -c "copy (SELECT * FROM ${ncn[$i]}) to STDOUT with CSV FORCE QUOTE * DELIMITER ',';" > "$testDir/${dff[$i]}";
     printf "done\n"
   elif [ "$write_all_temp" == true ]; then
     printf "\nWriting ${dff[$i]}...\n"
-    psql -c "copy (SELECT * FROM ${dft[$i]} UNION ALL (SELECT * FROM ${ncn[$i]})) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/${dff[$i]}.temp";
+    psql -c "copy (SELECT * FROM ${dft[$i]}) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/${dff[$i]}.temp";
+    psql -c "copy (SELECT * FROM ${ncn[$i]}) to STDOUT with CSV FORCE QUOTE * DELIMITER ',';" > "$distDir/${dff[$i]}.temp";
     printf "done\n"
   else
     printf "\nActions:\n\t[a] Write updated version of ${dff[$i]} to a temporary file\n\t[b] Write directly to definition file\n\t[c] Skip this concept" && echo
@@ -69,10 +71,12 @@ do
 
     case $choice in
       "a" )
-        psql -c "copy (SELECT * FROM ${dft[$i]} UNION ALL (SELECT * FROM ${ncn[$i]})) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/${dff[$i]}.temp"
+        psql -c "copy (SELECT * FROM ${dft[$i]}) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/${dff[$i]}.temp"
+        psql -c "copy (SELECT * FROM ${ncn[$i]}) to STDOUT with CSV FORCE QUOTE * DELIMITER ',';" > "$distDir/${dff[$i]}.temp"
         continue;;
       "b" )
-        psql -c "copy (SELECT * FROM ${dft[$i]} UNION ALL (SELECT * FROM ${ncn[$i]})) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$testDir/${dff[$i]}"
+        psql -c "copy (SELECT * FROM ${dft[$i]}) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$testDir/${dff[$i]}"
+        psql -c "copy (SELECT * FROM ${ncn[$i]}) to STDOUT with CSV FORCE QUOTE * DELIMITER ',';" > "$testDir/${dff[$i]}"
         continue;;
       "c" )
         echo Skipped
