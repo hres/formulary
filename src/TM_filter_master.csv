@@ -102,7 +102,6 @@ tm_code,tm_formal_name
 8000164,ethinyl estradiol and norgestimate
 8000165,felodipine
 8000166,finasteride
-8000168,insulin isophane human
 8000169,ketorolac
 8000170,quinapril
 8000171,sertraline
@@ -546,8 +545,6 @@ tm_code,tm_formal_name
 8001333,acetaminophen and dextromethorphan and guaifenesin and pseudoephedrine
 8001338,acetaminophen and pseudoephedrine
 8001339,alfacalcidol
-8001340,amantadine
-8001144,apomorphine
 8001310,atazanavir and cobicistat
 8001341,azelaic acid
 8000224,azithromycin
@@ -569,7 +566,6 @@ tm_code,tm_formal_name
 8000984,clindamycin and tretinoin
 8001360,clodronate
 8001361,clorazepate
-8001363,cobicistat and darunavir and emtricitabine and tenofovir alafenamide
 8001365,cyproheptadine
 8001256,dapagliflozin
 8001257,dapagliflozin and metformin
@@ -577,7 +573,6 @@ tm_code,tm_formal_name
 8001367,desloratadine and pseudoephedrine
 8001371,dextromethorphan and guaifenesin and pseudoephedrine
 8001374,dicyclomine
-8001375,dimenhydrinate
 8001262,dipyridamole
 8001376,disopyramide
 8001377,dolutegravir and rilpivirine
@@ -585,18 +580,11 @@ tm_code,tm_formal_name
 8001268,evolocumab
 8001380,famotidine
 8001381,flecainide
-8001269,fludrocortisone
 8001383,fluticasone and umeclidinium and vilanterol
 8001384,frovatriptan
 8001386,guaifenesin and pseudoephedrine
 8001387,ibuprofen and pseudoephedrine
 8001388,imipramine
-8001391,insulin human
-8001392,insulin human and insulin isophane human
-8000168,insulin isophane human
-8001393,insulin isophane pork
-8001394,insulin lispro and insulin lispro protamine
-8001281,insulin pork
 8000903,ipratropium and salbutamol
 8001395,isoniazid
 8001396,ketotifen
@@ -618,7 +606,6 @@ tm_code,tm_formal_name
 8001408,olsalazine
 8001409,orphenadrine
 8001410,pamidronate
-8001411,penicillin g
 8001412,pentoxifylline
 8001413,piperacillin and tazobactam
 8001414,pizotifen
