@@ -145,9 +145,9 @@ Y,AZITHROMYCIN,AZITHROMYCIN (AZITHROMYCIN MONOHYDRATE),azithromycin,TRUE,azithro
 Y,,AZTREONAM,aztreonam,FALSE,aztreonam
 ,,BACILLUS CALMETTE-GUERIN (BCG) STRAIN TICE,bacillus calmette-guerin (bcg) strain tice,FALSE,bacillus calmette-guerin (bcg) strain tice
 ,,BACILLUS CALMETTE-GUERIN (BCG) SUBSTRAIN CONNAUGHT,bacillus calmette-guerin (bcg) substrain connaught,FALSE,bacillus calmette-guerin (bcg) substrain connaught
-,,BACITRACIN,bacitracin,FALSE,bacitracin
-,,BACITRACIN (BACITRACIN ZINC),bacitracin,FALSE,bacitracin (bacitracin zinc)
-,,BACITRACIN ZINC,bacitracin,FALSE,bacitracin zinc
+Y,,BACITRACIN,bacitracin,FALSE,bacitracin
+Y,,BACITRACIN (BACITRACIN ZINC),bacitracin,FALSE,bacitracin (bacitracin zinc)
+Y,,BACITRACIN ZINC,bacitracin,FALSE,bacitracin zinc
 Y,BACLOFEN,BACLOFEN,baclofen,FALSE,baclofen
 ,,BASILIXIMAB,basiliximab,FALSE,basiliximab
 ,,BAZEDOXIFENE (BAZEDOXIFENE ACETATE),bazedoxifene (bazedoxifene acetate),FALSE,bazedoxifene (bazedoxifene acetate)
