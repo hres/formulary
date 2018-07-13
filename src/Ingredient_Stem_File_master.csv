@@ -1713,7 +1713,7 @@ Y,DIVALPROEX,VALPROIC ACID (DIVALPROEX SODIUM),valproic acid (divalproex),FALSE,
 Y,VALPROIC ACID,VALPROIC ACID (SODIUM VALPROATE),valproic acid (valproate),FALSE,valproic acid (sodium valproate)
 Y,VALSARTAN,VALSARTAN,valsartan,FALSE,valsartan
 Y,,VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE),vancomycin,FALSE,vancomycin (vancomycin hydrochloride)
-,,VANCOMYCIN HYDROCHLORIDE,vancomycin,FALSE,vancomycin (vancomycin hydrochloride)
+Y,,VANCOMYCIN HYDROCHLORIDE,vancomycin,FALSE,vancomycin hydrochloride
 ,,VARDENAFIL (VARDENAFIL HYDROCHLORIDE),vardenafil (vardenafil hydrochloride),FALSE,vardenafil (vardenafil hydrochloride)
 Y,,VANDETANIB,vandetanib,FALSE,vandetanib
 Y,VARENICLINE,VARENICLINE (VARENICLINE TARTRATE),varenicline,FALSE,varenicline (varenicline tartrate)
