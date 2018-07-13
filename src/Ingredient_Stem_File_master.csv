@@ -273,7 +273,7 @@ Y,CEFADROXIL,CEFADROXIL,cefadroxil,FALSE,cefadroxil
 Y,CEFADROXIL,CEFADROXIL (CEFADROXIL MONOHYDRATE),cefadroxil,TRUE,cefadroxil
 Y,,CEFAZOLIN (CEFAZOLIN SODIUM),cefazolin,FALSE,cefazolin (cefazolin sodium)
 Y,,CEFEPIME (CEFEPIME HYDROCHLORIDE),cefepime,FALSE,cefepime (cefepime hydrochloride)
-,,CEFIXIME,cefixime,FALSE,cefixime
+Y,,CEFIXIME,cefixime,FALSE,cefixime
 Y,,CEFOTAXIME (CEFOTAXIME SODIUM),cefotaxime,FALSE,cefotaxime (cefotaxime sodium)
 Y,,CEFOTAXIME SODIUM,cefotaxime,FALSE,cefotaxime sodium
 Y,,CEFOXITIN (CEFOXITIN SODIUM),cefoxitin,FALSE,cefoxitin (cefoxitin sodium)
