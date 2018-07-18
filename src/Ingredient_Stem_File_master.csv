@@ -268,7 +268,7 @@ Y,CARVEDILOL,CARVEDILOL,carvedilol,FALSE,carvedilol
 Y,,CASPOFUNGIN (CASPOFUNGIN ACETATE),caspofungin,FALSE,caspofungin (caspofungin acetate)
 ,,CAT (FELIS DOMESTICUS) PELT AND CAT DANDER,cat (felis domesticus) pelt and cat dander,FALSE,cat (felis domesticus) pelt and cat dander
 ,,Catridecacog,catridecacog,FALSE,catridecacog
-,,CEFACLOR,cefaclor,FALSE,cefaclor
+Y,,CEFACLOR,cefaclor,FALSE,cefaclor
 Y,CEFADROXIL,CEFADROXIL,cefadroxil,FALSE,cefadroxil
 Y,CEFADROXIL,CEFADROXIL (CEFADROXIL MONOHYDRATE),cefadroxil,TRUE,cefadroxil
 Y,,CEFAZOLIN (CEFAZOLIN SODIUM),cefazolin,FALSE,cefazolin (cefazolin sodium)
