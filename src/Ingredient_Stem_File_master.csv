@@ -64,7 +64,7 @@ Y,ALPRAZOLAM,ALPRAZOLAM,alprazolam,FALSE,alprazolam
 ,,ALUMINUM HYDROXIDE,aluminum hydroxide,FALSE,aluminum hydroxide
 ,,ALUMINUM HYDROXIDE (DRIED ALUMINUM HYDROXIDE GEL),aluminum hydroxide (dried aluminum hydroxide gel),FALSE,aluminum hydroxide (dried aluminum hydroxide gel)
 ,,ALUMINUM HYDROXIDE-MAGNESIUM CARBONATE-CO DRIED GEL,aluminum hydroxide-magnesium carbonate-co dried gel,FALSE,aluminum hydroxide-magnesium carbonate-co dried gel
-N,,ALUMINUM HYDROXIDE-SUCROSE DRIED GEL,aluminum hydroxide-sucrose dried gel,FALSE,aluminum hydroxide-sucrose dried gel
+,,ALUMINUM HYDROXIDE-SUCROSE DRIED GEL,aluminum hydroxide-sucrose dried gel,FALSE,aluminum hydroxide-sucrose dried gel
 Y,,AMANTADINE HYDROCHLORIDE,amantadine,FALSE,amantadine hydrochloride
 Y,AMBRISENTAN,AMBRISENTAN,ambrisentan,FALSE,ambrisentan
 Y,,AMCINONIDE,amcinonide,FALSE,amcinonide
@@ -94,7 +94,7 @@ Y,,ANASTROZOLE,anastrozole,FALSE,anastrozole
 ,,ANETHOLE TRITHIONE,anethole trithione,FALSE,anethole trithione
 Y,,ANIDULAFUNGIN,anidulafungin,FALSE,anidulafungin
 ,,ANTAZOLINE PHOSPHATE,antazoline phosphate,FALSE,antazoline phosphate
-N,,ANTI-D (RH) IMMUNOGLOBULIN (HUMAN),anti-d (rh) immunoglobulin (human),FALSE,anti-d (rh) immunoglobulin (human)
+,,ANTI-D (RH) IMMUNOGLOBULIN (HUMAN),anti-d (rh) immunoglobulin (human),FALSE,anti-d (rh) immunoglobulin (human)
 ,,ANTIHEMOPHILIC FACTOR (HUMAN),antihemophilic factor (human),FALSE,antihemophilic factor (human)
 ,,"Antihemophilic Factor (Recombinant BDD), FC Fusion Protein",antihemophilic factor (recombinant BDD) FC fusion protein,FALSE,antihemophilic factor (recombinant BDD) FC fusion protein
 ,,ANTIHEMOPHILIC FACTOR (RECOMBINANT),antihemophilic factor (recombinant),FALSE,antihemophilic factor (recombinant)
@@ -111,7 +111,7 @@ Y,,APRACLONIDINE (APRACLONIDINE HYDROCHLORIDE),apraclonidine,FALSE,apraclonidine
 ,,APREMILAST,apremilast,FALSE,apremilast
 ,,APREPITANT,aprepitant,FALSE,aprepitant
 ,,APROTININ (BOVINE),aprotinin (bovine),FALSE,aprotinin (bovine)
-N,,APROTININ (SYNTHETIC),aprotinin (synthetic),FALSE,aprotinin (synthetic)
+,,APROTININ (SYNTHETIC),aprotinin (synthetic),FALSE,aprotinin (synthetic)
 Y,,ARGATROBAN,argatroban,FALSE,argatroban
 ,,ARGININE,arginine,FALSE,arginine
 ,,ARGININE HYDROCHLORIDE,arginine hydrochloride,FALSE,arginine hydrochloride
@@ -381,7 +381,7 @@ Y,CLOZAPINE,CLOZAPINE,clozapine,FALSE,clozapine
 ,,COAGULATION FACTOR II (HUMAN),coagulation factor ii (human),FALSE,coagulation factor ii (human)
 ,,COAGULATION FACTOR IX (HUMAN),coagulation factor ix (human),FALSE,coagulation factor ix (human)
 ,,COAGULATION FACTOR IX (RECOMBINANT),coagulation factor ix (recombinant),FALSE,coagulation factor ix (recombinant)
-N,,"COAGULATION FACTOR IX (RECOMBINANT), PEGYLATED","coagulation factor ix (recombinant), pegylated",FALSE,"coagulation factor ix (recombinant), pegylated"
+,,"COAGULATION FACTOR IX (RECOMBINANT), PEGYLATED","coagulation factor ix (recombinant), pegylated",FALSE,"coagulation factor ix (recombinant), pegylated"
 ,,COAGULATION FACTOR VII (HUMAN),coagulation factor vii (human),FALSE,coagulation factor vii (human)
 ,,COAGULATION FACTOR X (HUMAN),coagulation factor x (human),FALSE,coagulation factor x (human)
 ,,COAL TAR,coal tar,FALSE,coal tar
@@ -418,7 +418,7 @@ Y,CYPROTERONE,CYPROTERONE ACETATE,cyproterone,FALSE,cyproterone acetate
 Y,,CYSTEAMINE (CYSTEAMINE BITARTRATE),cysteamine,FALSE,cysteamine (cysteamine bitartrate)
 ,,CYTARABINE,cytarabine,FALSE,cytarabine
 ,,CYTOMEGALOVIRUS IMMUNE GLOBULIN (HUMAN),cytomegalovirus immune globulin (human),FALSE,cytomegalovirus immune globulin (human)
-N,,CYTOMEGALOVIRUS IMMUNOLOBULIN (HUMAN),cytomegalovirus immunolobulin (human),FALSE,cytomegalovirus immunolobulin (human)
+,,CYTOMEGALOVIRUS IMMUNOLOBULIN (HUMAN),cytomegalovirus immunolobulin (human),FALSE,cytomegalovirus immunolobulin (human)
 ,,D&C RED NO. 28,d&c red no. 28,FALSE,d&c red no. 28
 Y,DABIGATRAN ETEXILATE,DABIGATRAN ETEXILATE (DABIGATRAN ETEXILATE MESILATE),dabigatran,FALSE,dabigatran etexilate (dabigatran etexilate mesilate)
 ,,Dabrafenib (Dabrafenib mesylate),dabrafenib (dabrafenib mesylate),FALSE,dabrafenib (dabrafenib mesylate)
@@ -625,7 +625,7 @@ Y,ESTRADIOL,ESTRADIOL (ESTRADIOL HEMIHYDRATE),estradiol,TRUE,estradiol
 ,,ESTRONE,estrone,FALSE,estrone
 Y,,ETAFEDRIN HYDROCHLORIDE,etafedrin,FALSE,etafedrin hydrochloride
 Y,,ETANERCEPT,etanercept,FALSE,etanercept
-N,,ETHACRYNATE SODIUM (ETHACRYNIC ACID),ethacrynate sodium (ethacrynic acid),FALSE,ethacrynate sodium (ethacrynic acid)
+,,ETHACRYNATE SODIUM (ETHACRYNIC ACID),ethacrynate sodium (ethacrynic acid),FALSE,ethacrynate sodium (ethacrynic acid)
 Y,ETHACRYNIC ACID,ETHACRYNIC ACID,ethacrynic acid,FALSE,ethacrynic acid
 Y,ETHACRYNIC ACID,ETHACRYNIC ACID (ETHACRYNATE SODIUM),ethacrynic acid,FALSE,ethacrynic acid (ethacrynate sodium)
 Y,,ETHAMBUTOL HYDROCHLORIDE,ethambutol,FALSE,ethambutol hydrochloride
@@ -680,7 +680,7 @@ Y,,FLUOCINONIDE,fluocinonide,FALSE,fluocinonide
 Y,,FLUORESCEIN (FLUORESCEIN SODIUM),fluorescein,FALSE,fluorescein (fluorescein sodium)
 Y,,FLUORESCEIN SODIUM,fluorescein,FALSE,fluorescein sodium
 ,,FLUOROMETHOLONE,fluorometholone,FALSE,fluorometholone
-N,,FLUOROMETHOLONE ACETATE,fluorometholone acetate,FALSE,fluorometholone acetate
+,,FLUOROMETHOLONE ACETATE,fluorometholone acetate,FALSE,fluorometholone acetate
 ,,FLUOROURACIL,fluorouracil,FALSE,fluorouracil
 Y,FLUOXETINE,FLUOXETINE (FLUOXETINE HYDROCHLORIDE),fluoxetine,FALSE,fluoxetine (fluoxetine hydrochloride)
 ,,FLUPENTIXOL (FLUPENTIXOL DIHYDROCHLORIDE),flupentixol (flupentixol dihydrochloride),FALSE,flupentixol (flupentixol dihydrochloride)
@@ -781,7 +781,7 @@ Y,,HEPARIN (HEPARIN SODIUM),heparin,FALSE,heparin (heparin sodium)
 Y,,HEPARIN SODIUM,heparin,FALSE,heparin sodium
 ,,"HEPATITIS A VACCINE, INACTIVATED","hepatitis a vaccine, inactivated",FALSE,"hepatitis a vaccine, inactivated"
 ,,HEPATITIS B IMMUNE GLOBULIN HUMAN,hepatitis b immune globulin human,FALSE,hepatitis b immune globulin human
-N,,HEPATITIS B IMMUNOGLOBULIN (HUMAN),hepatitis b immunoglobulin (human),FALSE,hepatitis b immunoglobulin (human)
+,,HEPATITIS B IMMUNOGLOBULIN (HUMAN),hepatitis b immunoglobulin (human),FALSE,hepatitis b immunoglobulin (human)
 ,,HEPATITIS B SURFACE ANTIGEN (RECOMBINANT),hepatitis b surface antigen (recombinant),FALSE,hepatitis b surface antigen (recombinant)
 ,,Hexaminolevulinate hydrochloride,hexaminolevulinate hydrochloride,FALSE,hexaminolevulinate hydrochloride
 ,,HEXYLRESORCINOL,hexylresorcinol,FALSE,hexylresorcinol
@@ -832,7 +832,7 @@ Y,,IMIPENEM,imipenem,FALSE,imipenem
 Y,,IMIPRAMINE HYDROCHLORIDE,imipramine,FALSE,imipramine hydrochloride
 ,,IMIQUIMOD,imiquimod,FALSE,imiquimod
 ,,IMMUNE GLOBULIN (HUMAN),immune globulin (human),FALSE,immune globulin (human)
-N,,IMMUNOGLOBULIN (HUMAN),immunoglobulin (human),FALSE,immunoglobulin (human)
+,,IMMUNOGLOBULIN (HUMAN),immunoglobulin (human),FALSE,immunoglobulin (human)
 ,,INACT.JAPANESE ENCEPHAL VIRUS(ATTENUAT. STRAIN SA14-14-2 PRODUCED IN VERO CELLS),inact.japanese encephal virus(attenuat. strain sa14-14-2 produced in vero cells),FALSE,inact.japanese encephal virus(attenuat. strain sa14-14-2 produced in vero cells)
 ,,INACTIVATED POLIOMYELITIS VACCINE (D.C.O.) TYPE 1 MAHONEY,inactivated poliomyelitis vaccine (d.c.o.) type 1 mahoney,FALSE,inactivated poliomyelitis vaccine (d.c.o.) type 1 mahoney
 ,,INACTIVATED POLIOMYELITIS VACCINE (D.C.O.) TYPE 2 MEF1,inactivated poliomyelitis vaccine (d.c.o.) type 2 mef1,FALSE,inactivated poliomyelitis vaccine (d.c.o.) type 2 mef1
@@ -1010,7 +1010,7 @@ Y,,Lurasidone Hydrochloride,lurasidone,FALSE,lurasidone hydrochloride
 ,,LUTROPIN ALFA,lutropin alfa,FALSE,lutropin alfa
 ,,L-VALINE,l-valine,FALSE,l-valine
 ,,LYMPHOCYTE IMMUNE GLOBULIN ANTI-THYMOCYTE GLOBULIN (EQUINE),lymphocyte immune globulin anti-thymocyte globulin (equine),FALSE,lymphocyte immune globulin anti-thymocyte globulin (equine)
-N,,LYMPHOCYTE IMMUNOGLOBULIN ANTI-THYMOCYTE GLOBULIN (EQUINE),lymphocyte immunoglobulin anti-thymocyte globulin (equine),FALSE,lymphocyte immunoglobulin anti-thymocyte globulin (equine)
+,,LYMPHOCYTE IMMUNOGLOBULIN ANTI-THYMOCYTE GLOBULIN (EQUINE),lymphocyte immunoglobulin anti-thymocyte globulin (equine),FALSE,lymphocyte immunoglobulin anti-thymocyte globulin (equine)
 ,,LYSINE (L-LYSINE ACETATE),lysine (l-lysine acetate),FALSE,lysine (l-lysine acetate)
 ,,LYSINE (L-LYSINE HYDROCHLORIDE),lysine (l-lysine hydrochloride),FALSE,lysine (l-lysine hydrochloride)
 ,,LYSINE (LYSINE ACETATE),lysine (lysine acetate),FALSE,lysine (lysine acetate)
@@ -1020,7 +1020,7 @@ N,,LYMPHOCYTE IMMUNOGLOBULIN ANTI-THYMOCYTE GLOBULIN (EQUINE),lymphocyte immunog
 ,,MAGNESIUM (MAGNESIUM OXIDE),magnesium (magnesium oxide),FALSE,magnesium (magnesium oxide)
 ,,MAGNESIUM ACETATE,magnesium acetate,FALSE,magnesium acetate
 ,,MAGNESIUM CHLORIDE,magnesium chloride,FALSE,magnesium chloride
-N,,MAGNESIUM CHLORIDE (MAGNESIUM CHLORIDE HEXAHYDRATE),magnesium chloride,TRUE,magnesium chloride (magnesium chloride hexahydrate)
+,,MAGNESIUM CHLORIDE (MAGNESIUM CHLORIDE HEXAHYDRATE),magnesium chloride,TRUE,magnesium chloride (magnesium chloride hexahydrate)
 ,,MAGNESIUM HYDROXIDE,magnesium hydroxide,FALSE,magnesium hydroxide
 ,,MAGNESIUM HYDROXIDE (DRIED ALUMINUM HYDROXIDE GEL),magnesium hydroxide (dried aluminum hydroxide gel),FALSE,magnesium hydroxide (dried aluminum hydroxide gel)
 ,,MAGNESIUM OXIDE,magnesium oxide,FALSE,magnesium oxide
@@ -1156,8 +1156,8 @@ Y,,NARATRIPTAN (NARATRIPTAN HYDROCHLORIDE),naratriptan,FALSE,naratriptan (naratr
 ,,NATALIZUMAB,natalizumab,FALSE,natalizumab
 Y,NEBIVOLOL,Nebivolol (Nebivolol Hydrochloride),nebivolol,FALSE,nebivolol (nebivolol hydrochloride)
 Y,,NEDOCROMIL SODIUM,nedocromil,FALSE,nedocromil sodium
-N,,NEISSERIA MENINGITIDIS GRP B RECOMBINANT LIPOPROTEIN 2086 SUBFAMILY A,neisseria meningitidis grp b recombinant lipoprotein 2086 subfamily a,FALSE,neisseria meningitidis grp b recombinant lipoprotein 2086 subfamily a
-N,,NEISSERIA MENINGITIDIS GRP B RECOMBINANT LIPOPROTEIN 2086 SUBFAMILY B,neisseria meningitidis grp b recombinant lipoprotein 2086 subfamily b,FALSE,neisseria meningitidis grp b recombinant lipoprotein 2086 subfamily b
+,,NEISSERIA MENINGITIDIS GRP B RECOMBINANT LIPOPROTEIN 2086 SUBFAMILY A,neisseria meningitidis grp b recombinant lipoprotein 2086 subfamily a,FALSE,neisseria meningitidis grp b recombinant lipoprotein 2086 subfamily a
+,,NEISSERIA MENINGITIDIS GRP B RECOMBINANT LIPOPROTEIN 2086 SUBFAMILY B,neisseria meningitidis grp b recombinant lipoprotein 2086 subfamily b,FALSE,neisseria meningitidis grp b recombinant lipoprotein 2086 subfamily b
 ,,NELARABINE,nelarabine,FALSE,nelarabine
 Y,,NELFINAVIR (NELFINAVIR MESYLATE),nelfinavir,FALSE,nelfinavir (nelfinavir mesylate)
 ,,NEOMYCIN (NEOMYCIN SULFATE),neomycin (neomycin sulfate),FALSE,neomycin (neomycin sulfate)
@@ -1343,15 +1343,15 @@ Y,,PIPERACILLIN (PIPERACILLIN SODIUM),piperacillin,FALSE,piperacillin (piperacil
 ,,PITCHER PLANT,pitcher plant,FALSE,pitcher plant
 Y,,PIZOTIFEN (PIZOTIFEN MALATE),pizotifen,FALSE,pizotifen (pizotifen malate)
 ,,Plerixafor,plerixafor,FALSE,plerixafor
-N,,PNEUMOCOCCAL POLYSACC. SEROT. 18C CONJUG. TO TETANUS TOXOID CARRIER PROT.,pneumococcal polysacc. serot. 18c conjug. to tetanus toxoid carrier prot.,FALSE,pneumococcal polysacc. serot. 18c conjug. to tetanus toxoid carrier prot.
-N,,PNEUMOCOCCAL POLYSACCHARID SEROT. 19F CONJUG. TO DIPHTHERIA TOXOID CARRIER PROT.,pneumococcal polysaccharid serot. 19f conjug. to diphtheria toxoid carrier prot.,FALSE,pneumococcal polysaccharid serot. 19f conjug. to diphtheria toxoid carrier prot.
+,,PNEUMOCOCCAL POLYSACC. SEROT. 18C CONJUG. TO TETANUS TOXOID CARRIER PROT.,pneumococcal polysacc. serot. 18c conjug. to tetanus toxoid carrier prot.,FALSE,pneumococcal polysacc. serot. 18c conjug. to tetanus toxoid carrier prot.
+,,PNEUMOCOCCAL POLYSACCHARID SEROT. 19F CONJUG. TO DIPHTHERIA TOXOID CARRIER PROT.,pneumococcal polysaccharid serot. 19f conjug. to diphtheria toxoid carrier prot.,FALSE,pneumococcal polysaccharid serot. 19f conjug. to diphtheria toxoid carrier prot.
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 1,pneumococcal polysaccharide serotype 1,FALSE,pneumococcal polysaccharide serotype 1
-N,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 1 CONJUGATED TO PROTEIN D CARRIER PROTEIN,pneumococcal polysaccharide serotype 1 conjugated to protein d carrier protein,FALSE,pneumococcal polysaccharide serotype 1 conjugated to protein d carrier protein
+,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 1 CONJUGATED TO PROTEIN D CARRIER PROTEIN,pneumococcal polysaccharide serotype 1 conjugated to protein d carrier protein,FALSE,pneumococcal polysaccharide serotype 1 conjugated to protein d carrier protein
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 10A,pneumococcal polysaccharide serotype 10a,FALSE,pneumococcal polysaccharide serotype 10a
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 11A,pneumococcal polysaccharide serotype 11a,FALSE,pneumococcal polysaccharide serotype 11a
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 12F,pneumococcal polysaccharide serotype 12f,FALSE,pneumococcal polysaccharide serotype 12f
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 14,pneumococcal polysaccharide serotype 14,FALSE,pneumococcal polysaccharide serotype 14
-N,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 14 CONJUGATED TO PROTEIN D CARRIER PROTEIN,pneumococcal polysaccharide serotype 14 conjugated to protein d carrier protein,FALSE,pneumococcal polysaccharide serotype 14 conjugated to protein d carrier protein
+,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 14 CONJUGATED TO PROTEIN D CARRIER PROTEIN,pneumococcal polysaccharide serotype 14 conjugated to protein d carrier protein,FALSE,pneumococcal polysaccharide serotype 14 conjugated to protein d carrier protein
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 15B,pneumococcal polysaccharide serotype 15b,FALSE,pneumococcal polysaccharide serotype 15b
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 17F,pneumococcal polysaccharide serotype 17f,FALSE,pneumococcal polysaccharide serotype 17f
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 18C,pneumococcal polysaccharide serotype 18c,FALSE,pneumococcal polysaccharide serotype 18c
@@ -1361,22 +1361,22 @@ N,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 14 CONJUGATED TO PROTEIN D CARRIER PROTE
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 20,pneumococcal polysaccharide serotype 20,FALSE,pneumococcal polysaccharide serotype 20
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 22F,pneumococcal polysaccharide serotype 22f,FALSE,pneumococcal polysaccharide serotype 22f
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 23F,pneumococcal polysaccharide serotype 23f,FALSE,pneumococcal polysaccharide serotype 23f
-N,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 23F CONJUGATED TO PROTEIN D CARRIER PROTEIN,pneumococcal polysaccharide serotype 23f conjugated to protein d carrier protein,FALSE,pneumococcal polysaccharide serotype 23f conjugated to protein d carrier protein
+,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 23F CONJUGATED TO PROTEIN D CARRIER PROTEIN,pneumococcal polysaccharide serotype 23f conjugated to protein d carrier protein,FALSE,pneumococcal polysaccharide serotype 23f conjugated to protein d carrier protein
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 3,pneumococcal polysaccharide serotype 3,FALSE,pneumococcal polysaccharide serotype 3
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 33F,pneumococcal polysaccharide serotype 33f,FALSE,pneumococcal polysaccharide serotype 33f
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 4,pneumococcal polysaccharide serotype 4,FALSE,pneumococcal polysaccharide serotype 4
-N,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 4 CONJUGATED TO PROTEIN D CARRIER PROTEIN,pneumococcal polysaccharide serotype 4 conjugated to protein d carrier protein,FALSE,pneumococcal polysaccharide serotype 4 conjugated to protein d carrier protein
+,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 4 CONJUGATED TO PROTEIN D CARRIER PROTEIN,pneumococcal polysaccharide serotype 4 conjugated to protein d carrier protein,FALSE,pneumococcal polysaccharide serotype 4 conjugated to protein d carrier protein
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 5,pneumococcal polysaccharide serotype 5,FALSE,pneumococcal polysaccharide serotype 5
-N,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 5 CONJUGATED TO PROTEIN D CARRIER PROTEIN,pneumococcal polysaccharide serotype 5 conjugated to protein d carrier protein,FALSE,pneumococcal polysaccharide serotype 5 conjugated to protein d carrier protein
+,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 5 CONJUGATED TO PROTEIN D CARRIER PROTEIN,pneumococcal polysaccharide serotype 5 conjugated to protein d carrier protein,FALSE,pneumococcal polysaccharide serotype 5 conjugated to protein d carrier protein
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 6A,pneumococcal polysaccharide serotype 6a,FALSE,pneumococcal polysaccharide serotype 6a
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 6B,pneumococcal polysaccharide serotype 6b,FALSE,pneumococcal polysaccharide serotype 6b
-N,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 6B CONJUGATED TO PROTEIN D CARRIER PROTEIN,pneumococcal polysaccharide serotype 6b conjugated to protein d carrier protein,FALSE,pneumococcal polysaccharide serotype 6b conjugated to protein d carrier protein
+,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 6B CONJUGATED TO PROTEIN D CARRIER PROTEIN,pneumococcal polysaccharide serotype 6b conjugated to protein d carrier protein,FALSE,pneumococcal polysaccharide serotype 6b conjugated to protein d carrier protein
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 7F,pneumococcal polysaccharide serotype 7f,FALSE,pneumococcal polysaccharide serotype 7f
-N,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 7F CONJUGATED TO PROTEIN D CARRIER PROTEIN,pneumococcal polysaccharide serotype 7f conjugated to protein d carrier protein,FALSE,pneumococcal polysaccharide serotype 7f conjugated to protein d carrier protein
+,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 7F CONJUGATED TO PROTEIN D CARRIER PROTEIN,pneumococcal polysaccharide serotype 7f conjugated to protein d carrier protein,FALSE,pneumococcal polysaccharide serotype 7f conjugated to protein d carrier protein
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 8,pneumococcal polysaccharide serotype 8,FALSE,pneumococcal polysaccharide serotype 8
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 9N,pneumococcal polysaccharide serotype 9n,FALSE,pneumococcal polysaccharide serotype 9n
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 9V,pneumococcal polysaccharide serotype 9v,FALSE,pneumococcal polysaccharide serotype 9v
-N,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 9V CONJUGATED TO PROTEIN D CARRIER PROTEIN,pneumococcal polysaccharide serotype 9v conjugated to protein d carrier protein,FALSE,pneumococcal polysaccharide serotype 9v conjugated to protein d carrier protein
+,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 9V CONJUGATED TO PROTEIN D CARRIER PROTEIN,pneumococcal polysaccharide serotype 9v conjugated to protein d carrier protein,FALSE,pneumococcal polysaccharide serotype 9v conjugated to protein d carrier protein
 ,,PODOPHYLLIN,podophyllin,FALSE,podophyllin
 ,,PODOPHYLLOTOXIN,podophyllotoxin,FALSE,podophyllotoxin
 Y,,POLIDOCANOL,polidocanol,FALSE,polidocanol
@@ -1460,7 +1460,7 @@ Y,QUINAPRIL,QUINAPRIL (QUINAPRIL HYDROCHLORIDE),quinapril,FALSE,quinapril (quina
 Y,QUININE,QUININE SULFATE,quinine sulfate,FALSE,quinine sulfate
 Y,RABEPRAZOLE SODIUM,RABEPRAZOLE SODIUM,rabeprazole,FALSE,rabeprazole sodium
 ,,RABIES IMMUNE GLOBULIN HUMAN,rabies immune globulin human,FALSE,rabies immune globulin human
-N,,RABIES IMMUNOGLOBULIN (HUMAN),rabies immunoglobulin (human),FALSE,rabies immunoglobulin (human)
+,,RABIES IMMUNOGLOBULIN (HUMAN),rabies immunoglobulin (human),FALSE,rabies immunoglobulin (human)
 ,,RABIES VACCINE INACTIVATED (HUMAN DIPLOID-CELL CULTURE),rabies vaccine inactivated (human diploid-cell culture),FALSE,rabies vaccine inactivated (human diploid-cell culture)
 ,,RABIES VACCINE INACTIVATED (PURIFIED CHICK EMBRYO CELL CULTURE),rabies vaccine inactivated (purified chick embryo cell culture),FALSE,rabies vaccine inactivated (purified chick embryo cell culture)
 ,,RALOXIFENE HYDROCHLORIDE,raloxifene hydrochloride,FALSE,raloxifene hydrochloride
@@ -1473,7 +1473,7 @@ Y,RANITIDINE,RANITIDINE (RANITIDINE HYDROCHLORIDE),ranitidine,FALSE,ranitidine (
 ,,RASAGILINE (RASAGILINE MESYLATE),rasagiline (rasagiline mesylate),FALSE,rasagiline (rasagiline mesylate)
 ,,RASBURICASE,rasburicase,FALSE,rasburicase
 ,,RECOMBINANT CHOLERA TOXIN B SUBUNIT,recombinant cholera toxin b subunit,FALSE,recombinant cholera toxin b subunit
-N,,"Recombinant human coagulation factor IX, FC Fusion protein","recombinant human coagulation factor ix, fc fusion protein",FALSE,"recombinant human coagulation factor ix, fc fusion protein"
+,,"Recombinant human coagulation factor IX, FC Fusion protein","recombinant human coagulation factor ix, fc fusion protein",FALSE,"recombinant human coagulation factor ix, fc fusion protein"
 ,,RECOMBINANT HUMAN PAPILLOMAVIRUS TYPE 11 L1 PROTEIN,recombinant human papillomavirus type 11 l1 protein,FALSE,recombinant human papillomavirus type 11 l1 protein
 ,,RECOMBINANT HUMAN PAPILLOMAVIRUS TYPE 16 L1 PROTEIN,recombinant human papillomavirus type 16 l1 protein,FALSE,recombinant human papillomavirus type 16 l1 protein
 ,,RECOMBINANT HUMAN PAPILLOMAVIRUS TYPE 18 L1 PROTEIN,recombinant human papillomavirus type 18 l1 protein,FALSE,recombinant human papillomavirus type 18 l1 protein
@@ -1534,8 +1534,8 @@ Y,,SAQUINAVIR (SAQUINAVIR MESYLATE),saquinavir,FALSE,saquinavir (saquinavir mesy
 ,,SARILUMAB,sarilumab,FALSE,sarilumab
 Y,SAXAGLIPTIN,SAXAGLIPTIN (SAXAGLIPTIN HYDROCHLORIDE),saxagliptin,FALSE,saxagliptin (saxagliptin hydrochloride)
 ,,SCOPOLAMINE HYDROBROMIDE,scopolamine hydrobromide,FALSE,scopolamine hydrobromide
-N,,SEALER PROTEIN (HUMAN),sealer protein (human),FALSE,sealer protein (human)
-N,,SEBELIPASE ALFA,sebelipase alfa,FALSE,sebelipase alfa
+,,SEALER PROTEIN (HUMAN),sealer protein (human),FALSE,sealer protein (human)
+,,SEBELIPASE ALFA,sebelipase alfa,FALSE,sebelipase alfa
 ,,Secukinumab,secukinumab,FALSE,secukinumab
 Y,,SELEGILINE HYDROCHLORIDE,selegiline,FALSE,selegiline hydrochloride
 ,,SELENIUM (SELENIOUS ACID),selenium (selenious acid),FALSE,selenium (selenious acid)
@@ -1680,7 +1680,7 @@ Y,TESTOSTERONE,TESTOSTERONE ENANTHATE,testosterone,FALSE,testosterone enanthate
 Y,TESTOSTERONE,TESTOSTERONE PROPIONATE,testosterone,FALSE,testosterone propionate
 Y,TESTOSTERONE,TESTOSTERONE UNDECANOATE,testosterone,FALSE,testosterone undecanoate
 ,,TETANUS IMMUNE GLOBULIN (HUMAN),tetanus immune globulin (human),FALSE,tetanus immune globulin (human)
-N,,TETANUS IMMUNOGLOBULIN (HUMAN),tetanus immunoglobulin (human),FALSE,tetanus immunoglobulin (human)
+,,TETANUS IMMUNOGLOBULIN (HUMAN),tetanus immunoglobulin (human),FALSE,tetanus immunoglobulin (human)
 ,,TETANUS PROTEIN,tetanus protein,FALSE,tetanus protein
 ,,TETANUS TOXOID,tetanus toxoid,FALSE,tetanus toxoid
 ,,TETANUS TOXOID ADSORBED,tetanus toxoid adsorbed,FALSE,tetanus toxoid adsorbed
@@ -1765,7 +1765,7 @@ Y,,TRIMIPRAMINE (TRIMIPRAMINE MALEATE),trimipramine,FALSE,trimipramine (trimipra
 Y,,TROSPIUM CHLORIDE,trospium,FALSE,trospium chloride
 ,,TRYPAN BLUE,trypan blue,FALSE,trypan blue
 ,,TRYPTOPHAN,tryptophan,FALSE,tryptophan
-N,,TUROCTOCOG ALFA,turoctocog alfa,FALSE,turoctocog alfa
+,,TUROCTOCOG ALFA,turoctocog alfa,FALSE,turoctocog alfa
 ,,TYPHOID VACCINE (SALMONELLA TYPHI TY21A),typhoid vaccine (salmonella typhi ty21a),FALSE,typhoid vaccine (salmonella typhi ty21a)
 ,,TYROSINE,tyrosine,FALSE,tyrosine
 ,,Ulipristal Acetate,ulipristal acetate,FALSE,ulipristal acetate
@@ -1788,7 +1788,7 @@ Y,,VANDETANIB,vandetanib,FALSE,vandetanib
 ,,VARDENAFIL (VARDENAFIL HYDROCHLORIDE),vardenafil (vardenafil hydrochloride),FALSE,vardenafil (vardenafil hydrochloride)
 Y,VARENICLINE,VARENICLINE (VARENICLINE TARTRATE),varenicline,FALSE,varenicline (varenicline tartrate)
 ,,VARICELLA ZOSTER IMMUNE GLOBULIN HUMAN,varicella zoster immune globulin human,FALSE,varicella zoster immune globulin human
-N,,VARICELLA ZOSTER IMMUNOGLOBULIN (HUMAN),varicella zoster immunoglobulin (human),FALSE,varicella zoster immunoglobulin (human)
+,,VARICELLA ZOSTER IMMUNOGLOBULIN (HUMAN),varicella zoster immunoglobulin (human),FALSE,varicella zoster immunoglobulin (human)
 ,,VARICELLA-ZOSTER VIRUS GLYCOPROTEIN E ANTIGEN,varicella-zoster virus glycoprotein E antigen,FALSE,varicella-zoster virus glycoprotein E antigen
 ,,VARICELLA-ZOSTER VIRUS VACCINE LIVE ATTENUATED (OKA/MERCK STRAIN),varicella-zoster virus vaccine live attenuated (oka/merck strain),FALSE,varicella-zoster virus vaccine live attenuated (oka/merck strain)
 ,,VASOPRESSIN,vasopressin,FALSE,vasopressin
