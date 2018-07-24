@@ -579,4 +579,4 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40006,kit,22,INTRAMUSCULAR,Intramusculaire,32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",,,,,
 40006,kit,56,ORAL,Orale,5-32,"CAPSULE, KIT","Capsule, Trousse",,,,,
 40006,kit,56-70,"ORAL, TOPICAL","Orale, Topique",5-9-32,"CAPSULE, CREAM, KIT","Capsule, Créme, Trousse",,,,,
-,anticoagulant and preservative solution for blood,92,0-UNASSIGNED,0-Non attribuée,134,,SOLUTION,Solution,,,,,
+,anticoagulant and preservative solution for blood,92,0-UNASSIGNED,0-Non attribuée,134,SOLUTION,Solution,,,,,
