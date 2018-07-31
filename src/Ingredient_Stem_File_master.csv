@@ -625,7 +625,7 @@ Y,ESTRADIOL,ESTRADIOL (ESTRADIOL HEMIHYDRATE),estradiol,TRUE,estradiol
 ,,ESTRONE,estrone,FALSE,estrone
 Y,,ETAFEDRIN HYDROCHLORIDE,etafedrin,FALSE,etafedrin hydrochloride
 Y,,ETANERCEPT,etanercept,FALSE,etanercept
-,,ETHACRYNATE SODIUM (ETHACRYNIC ACID),ethacrynate sodium (ethacrynic acid),FALSE,ethacrynate sodium (ethacrynic acid)
+Y,ETHACRYNIC ACID,ETHACRYNATE SODIUM (ETHACRYNIC ACID),ethacrynate acid,FALSE,ethacrynate sodium (ethacrynic acid)
 Y,ETHACRYNIC ACID,ETHACRYNIC ACID,ethacrynic acid,FALSE,ethacrynic acid
 Y,ETHACRYNIC ACID,ETHACRYNIC ACID (ETHACRYNATE SODIUM),ethacrynic acid,FALSE,ethacrynic acid (ethacrynate sodium)
 Y,,ETHAMBUTOL HYDROCHLORIDE,ethambutol,FALSE,ethambutol hydrochloride
