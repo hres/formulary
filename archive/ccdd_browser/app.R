@@ -16,7 +16,7 @@ library(magrittr)
 library(DT)
 
 load("ccdd_main.RData")
-
+ccdd_main <- m2
 ccddoptions <- c(unique(ccdd_main$formal_description_tm), 
                  unique(ccdd_main$formal_description_ntp), 
                  unique(ccdd_main$formal_description_mp))
