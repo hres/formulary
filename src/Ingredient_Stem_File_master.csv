@@ -680,7 +680,7 @@ Y,,FLUOCINONIDE,fluocinonide,FALSE,fluocinonide
 Y,,FLUORESCEIN (FLUORESCEIN SODIUM),fluorescein,FALSE,fluorescein (fluorescein sodium)
 Y,,FLUORESCEIN SODIUM,fluorescein,FALSE,fluorescein sodium
 Y,,FLUOROMETHOLONE,fluorometholone,FALSE,fluorometholone
-Y,,FLUOROMETHOLONE ACETATE,fluorometholone,FALSE,fluorometholone acetate
+Y,,FLUOROMETHOLONE ACETATE,fluorometholone acetate,FALSE,fluorometholone acetate
 ,,FLUOROURACIL,fluorouracil,FALSE,fluorouracil
 Y,FLUOXETINE,FLUOXETINE (FLUOXETINE HYDROCHLORIDE),fluoxetine,FALSE,fluoxetine (fluoxetine hydrochloride)
 Y,,FLUPENTIXOL (FLUPENTIXOL DIHYDROCHLORIDE),flupentixol,FALSE,flupentixol (flupentixol dihydrochloride)
@@ -1043,7 +1043,7 @@ Y,,MEGESTROL ACETATE,megestrol,FALSE,megestrol acetate
 ,,MEGLUMINE IOXITALAMATE,meglumine ioxitalamate,FALSE,meglumine ioxitalamate
 Y,MELOXICAM,MELOXICAM,meloxicam,FALSE,meloxicam
 Y,,MELPHALAN,melphalan,FALSE,melphalan
-Y,,MELPHALAN (MELPHALAN HYDROCHLORIDE),melphalan (melphalan hydrochloride),FALSE,melphalan (melphalan hydrochloride)
+Y,,MELPHALAN (MELPHALAN HYDROCHLORIDE),melphalan,FALSE,melphalan (melphalan hydrochloride)
 Y,,MEMANTINE HYDROCHLORIDE,memantine,FALSE,memantine hydrochloride
 ,,MENINGOCOCCAL GROUP A OLIGOSACCHARIDE,meningococcal group a oligosaccharide,FALSE,meningococcal group a oligosaccharide
 ,,MENINGOCOCCAL GROUP C OLIGOSACCHARIDE,meningococcal group c oligosaccharide,FALSE,meningococcal group c oligosaccharide
