@@ -1286,8 +1286,8 @@ Y,PAROXETINE,"PAROXETINE (PAROXETINE HYDROCHLORIDE, ISOPROPYL SOLVATE)",paroxeti
 ,,PEGINTERFERON BETA-1A,peginterferon beta-1a,FALSE,peginterferon beta-1a
 ,,PEGVISOMANT,pegvisomant,FALSE,pegvisomant
 ,,Pembrolizumab,pembrolizumab,FALSE,pembrolizumab
-Y,,PEMETREXED (Pemetrexed disodium hemipentahydrate),pemetrexed,TRUE,pemetrexed (pemetrexed disodium hemipentahydrate)
-Y,,PEMETREXED (PEMETREXED DISODIUM),pemetrexed (pemetrexed disodium),FALSE,pemetrexed (pemetrexed disodium)
+Y,,PEMETREXED (Pemetrexed disodium hemipentahydrate),pemetrexed,TRUE,pemetrexed (pemetrexed disodium)
+Y,,PEMETREXED (PEMETREXED DISODIUM),pemetrexed,FALSE,pemetrexed (pemetrexed disodium)
 Y,,PENICILLIN G (PENICILLIN G SODIUM),penicillin g,FALSE,penicillin g (penicillin g sodium)
 Y,,PENICILLIN G SODIUM,penicillin g,FALSE,penicillin g sodium
 Y,,PENICILLIN G BENZATHINE,penicillin g benzathine,FALSE,penicillin g benzathine
@@ -1748,7 +1748,7 @@ Y,TRIAMTERENE,TRIAMTERENE,triamterene,FALSE,triamterene
 Y,,TRIAZOLAM,triazolam,FALSE,triazolam
 ,,TRICLOSAN,triclosan,FALSE,triclosan
 ,,TRIFLUOPERAZINE (TRIFLUOPERAZINE HYDROCHLORIDE),trifluoperazine (trifluoperazine hydrochloride),FALSE,trifluoperazine (trifluoperazine hydrochloride)
-,,TRIFLURIDINE,trifluridine,FALSE,trifluridine
+Y,,TRIFLURIDINE,trifluridine,FALSE,trifluridine
 Y,,TRIHEXYPHENIDYL HYDROCHLORIDE,trihexyphenidyl,FALSE,trihexyphenidyl hydrochloride
 ,,TRIMEBUTINE MALEATE,trimebutine maleate,FALSE,trimebutine maleate
 Y,,TRIMEPRAZINE (TRIMEPRAZINE TARTRATE),trimeprazine,FALSE,trimeprazine (trimeprazine tartrate)
