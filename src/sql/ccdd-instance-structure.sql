@@ -1141,6 +1141,7 @@ SELECT
 	ccdd_normalize_ingredient(ddio.dpd_named_ingredient_name) as drug_ingredient_name,
 	ntpmap.ccdd_ntp_ingredient_name as ntp_ingredient_name,
 	ntpi.ccdd_ingredient_stem_name as ingredient_stem_name,
+	ingst.hydrate as hydrate,
 	CASE
 		WHEN p.unit is not null AND p.strength_is_per_size_unit THEN format('%s %s per %s %s', strength_amount * p.size_amount, strength_unit, p.size_amount, p.size_unit)
 		WHEN (
@@ -1159,7 +1160,8 @@ FROM
 	public.dpd_drug_ingredient_option AS ddio
 	LEFT JOIN public.ccdd_dpd_ingredient_ntp_mapping ntpmap ON (ntpmap.dpd_named_ingredient_name = ddio.dpd_named_ingredient_name)
 	LEFT JOIN ccdd_ntp_ingredient ntpi on(ntpi.name = ntpmap.ccdd_ntp_ingredient_name)
-	LEFT JOIN public.ccdd_presentation p on(p.dpd_drug_code = ddio.dpd_drug_code);
+	LEFT JOIN public.ccdd_presentation p on(p.dpd_drug_code = ddio.dpd_drug_code)
+	LEFT JOIN ccdd.ingredient_stem_csv ingst on(ingst.dpd_ingredient = ddio.dpd_named_ingredient_name);
 -- ddl-end --
 ALTER VIEW public.ccdd_drug_ingredient_option_description OWNER TO postgres;
 -- ddl-end --
@@ -1249,7 +1251,7 @@ SELECT
 		ELSE p.unit
 	END) AS uop_suffix,
 	STRING_AGG(
-		format('%s %s', dod.drug_ingredient_name, dod.strength_description),
+		format('%s %s', (CASE WHEN dod.hydrate = 'TRUE' THEN dod.drug_ingredient_name ELSE dod.ntp_ingredient_name END), dod.strength_description),
 		' and '
 		ORDER BY
 			regexp_replace(dod.ingredient_stem_name, '[[:punct:]]', '', 'g'),
