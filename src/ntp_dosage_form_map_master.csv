@@ -567,8 +567,10 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40129,wipe,70,TOPICAL,Topique,105,WIPE,Serviette,29514,TRUE,2017-11-28,dbuijs,e93c548c-d459-11e7-8749-aa0000cecfa6
 40129,wipe,107,TOPICAL (HOSPITAL/HC FACILITIES),"Topique (H?pitaux, ?tablissements de soins de sant?)",105,WIPE,Serviette,29522,TRUE,2017-11-28,dbuijs,e93c5914-d459-11e7-8749-aa0000cecfa6
 40129,wipe,104,TOPICAL (HOUSEHOLD),Topique (Maison),105,WIPE,Serviette,29528,TRUE,2017-11-28,dbuijs,e93c5b44-d459-11e7-8749-aa0000cecfa6
-40055,prolonged-release eye drops,55,OPHTHALMIC,Ophtalmique,155,SOLUTION (EXTENDED RELEASE),Solution (? lib?ration prolong?e),,,,,
+40055,prolonged-release ophthalmic drops,55,OPHTHALMIC,Ophtalmique,155,SOLUTION (EXTENDED RELEASE),Solution (? lib?ration prolong?e),,,,,
 40144,buccal film,3,BUCCAL,Buccale,167,"FILM, SOLUBLE","Pellicule, soluble",,,,,
+40006,kit,22-49,"INTRAMUSCULAR, INTRAVENOUS","Intramusculaire, Intraveineuse",32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",,,,,
+40001,solution for injection,1-49,"BLOCK/INFILTRATION, INTRAVENOUS","Bloc/Infiltration, Intraveineuse",134,SOLUTION,Solution,,,,,
 40006,kit,22,INTRAMUSCULAR,,32-118,"KIT, POWDER FOR SUSPENSION, SUSTAINED-RELEASE",,,TRUE,2018-03-28,dbuijs,
 40006,kit,5,DENTAL,,32-134,"KIT, SOLUTION",,,TRUE,2018-03-28,dbuijs,
 40029,nasal spray,53,NASAL,,134-98,"SOLUTION, SPRAY",,,TRUE,2018-03-28,dbuijs,
@@ -577,6 +579,8 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40006,kit,56,ORAL,,32-85,"KIT, TABLET",,,TRUE,2018-03-28,dbuijs,
 40006,kit,56,ORAL,,5-137-32-85,"CAPSULE, CAPSULE (DELAYED RELEASE), KIT, TABLET",,,TRUE,2018-03-28,dbuijs,
 40001,solution for injection,65,SUBCUTANEOUS,,32-134,"KIT, SOLUTION",,,TRUE,2018-03-28,dbuijs,
+40006,kit,70-74,"TOPICAL, VAGINAL","Topique, Vaginale",9-15,"CREAM, OVULE","Créme, Ovule",,,,,
+40006,kit,70-74,"TOPICAL, VAGINAL","Topique, Vaginale",9-78,"CREAM, SUPPOSITORY","Créme, Suppositoire",,,,,
 40112,cutaneous gel,70,TOPICAL,,114-32,"GEL, KIT",,,TRUE,2018-03-28,dbuijs,
 40006,kit,70,TOPICAL,,114-32-36,"GEL, KIT, LOTION",,,TRUE,2018-03-28,dbuijs,
 40006,kit,70,TOPICAL,,114-32-52,"GEL, KIT, PASTE",,,TRUE,2018-03-28,dbuijs,
@@ -584,3 +588,10 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40006,kit,70,TOPICAL,,32-36,"KIT, LOTION",,,TRUE,2018-03-28,dbuijs,
 40006,kit,70,TOPICAL,,9-114-32-36,"CREAM, GEL, KIT, LOTION",,,TRUE,2018-03-28,dbuijs,
 40146,transdermal solution,71,TRANSDERMAL,Transdermique,134,SOLUTION,Solution,,TRUE,2018-05-01,dbuijs,
+40004,gargle/mouthwash,3-56,"BUCCAL, ORAL","Buccale, Orale",42,MOUTHWASH/GARGLE,Rince-bouche/Gargarisme,,,,,
+40006,kit,22-49-65,"INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intraveineuse, Sous-cutanée",32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",,,,,
+40080,modified-release oral tablet,56,ORAL,Orale,141|161,"CAPSULE (EXTENDED RELEASE), CAPSULE (IMMEDIATE RELEASE)","Capsule (libération prolongée),Capsule (libération immédiate)",,,,,
+40006,kit,22,INTRAMUSCULAR,Intramusculaire,32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",,,,,
+40006,kit,56,ORAL,Orale,5-32,"CAPSULE, KIT","Capsule, Trousse",,,,,
+40006,kit,56-70,"ORAL, TOPICAL","Orale, Topique",5-9-32,"CAPSULE, CREAM, KIT","Capsule, Créme, Trousse",,,,,
+40146,anticoagulant and preservative solution for blood,92,0-UNASSIGNED,0-Non attribuée,134,SOLUTION,Solution,,,,,
