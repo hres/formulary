@@ -220,7 +220,7 @@ Y,,BROMOCRIPTINE (BROMOCRIPTINE MESYLATE),bromocriptine,FALSE,bromocriptine (bro
 Y,,BROMPHENIRAMINE MALEATE,brompheniramine,FALSE,brompheniramine maleate
 ,,BRONOPOL,bronopol,FALSE,bronopol
 Y,BUDESONIDE,BUDESONIDE,budesonide,FALSE,budesonide
-,,BUFFER SOLUTION,buffer solution,FALSE,buffer solution
+Y,,BUFFER SOLUTION,buffer solution,FALSE,buffer solution
 Y,BUMETANIDE,BUMETANIDE,bumetanide,FALSE,bumetanide
 ,,BUPIVACAINE HYDROCHLORIDE,bupivacaine hydrochloride,FALSE,bupivacaine hydrochloride
 Y,BUPRENORPHINE,BUPRENORPHINE,buprenorphine,FALSE,buprenorphine
@@ -696,8 +696,8 @@ Y,,FLUVASTATIN (FLUVASTATIN SODIUM),fluvastatin,FALSE,fluvastatin (fluvastatin s
 Y,,FLUVOXAMINE MALEATE,fluvoxamine,FALSE,fluvoxamine maleate
 Y,FOLIC ACID,FOLIC ACID,folic acid,FALSE,folic acid
 Y,FOLIC ACID,FOLIC ACID (SODIUM FOLATE),folic acid,FALSE,folic acid (sodium folate)
-,,FOLLITROPIN ALFA,follitropin alfa,FALSE,follitropin alfa
-,,FOLLITROPIN BETA,follitropin beta,FALSE,follitropin beta
+Y,,FOLLITROPIN ALFA,follitropin alfa,FALSE,follitropin alfa
+Y,,FOLLITROPIN BETA,follitropin beta,FALSE,follitropin beta
 Y,,FOLLITROPIN DELTA,follitropin delta,FALSE,follitropin delta
 ,,FOMEPIZOLE,fomepizole,FALSE,fomepizole
 ,,FONDAPARINUX SODIUM,fondaparinux sodium,FALSE,fondaparinux sodium
@@ -1573,7 +1573,7 @@ Y,,SITAGLIPTIN (SITAGLIPTIN PHOSPHATE),sitagliptin,FALSE,sitagliptin (sitaglipti
 ,,SODIUM CARBOXYMETHYL CELLULOSE,sodium carboxymethyl cellulose,FALSE,sodium carboxymethyl cellulose
 ,,SODIUM CHLORIDE,sodium chloride,FALSE,sodium chloride
 Y,,SODIUM CITRATE,sodium citrate,FALSE,sodium citrate
-,,SODIUM CITRATE DIHYDRATE,sodium citrate dihydrate,TRUE,sodium citrate dihydrate
+Y,,SODIUM CITRATE DIHYDRATE,sodium citrate dihydrate,TRUE,sodium citrate dihydrate
 ,,SODIUM FLUORIDE,sodium fluoride,FALSE,sodium fluoride
 ,,SODIUM GLUCONATE,sodium gluconate,FALSE,sodium gluconate
 ,,SODIUM GLYCEROPHOSPHATE,sodium glycerophosphate,FALSE,sodium glycerophosphate
@@ -1842,7 +1842,7 @@ Y,VITAMIN D3,VITAMIN D3 (CHOLECALCIFEROL),vitamin D3 (cholecalciferol),FALSE,vit
 ,,VITAMIN E (DL-ALPHA TOCOPHERYL ACETATE),vitamin E (dl-alpha tocopheryl acetate),FALSE,vitamin E (dl-alpha tocopheryl acetate)
 ,,VITAMIN K1,vitamin K1,FALSE,vitamin K1
 ,,VON WILLEBRAND FACTOR (HUMAN),von willebrand factor (human),FALSE,von willebrand factor (human)
-,,VORICONAZOLE,voriconazole,FALSE,voriconazole
+Y,,VORICONAZOLE,voriconazole,FALSE,voriconazole
 ,,VORINOSTAT,vorinostat,FALSE,vorinostat
 ,,VORTIOXETINE (VORTIOXETINE HYDROBROMIDE),vortioxetine (vortioxetine hydrobromide),FALSE,vortioxetine (vortioxetine hydrobromide)
 Y,,VOXILAPREVIR,voxilaprevir,FALSE,voxilaprevir
