@@ -220,7 +220,7 @@ Y,,BROMOCRIPTINE (BROMOCRIPTINE MESYLATE),bromocriptine,FALSE,bromocriptine (bro
 Y,,BROMPHENIRAMINE MALEATE,brompheniramine,FALSE,brompheniramine maleate
 ,,BRONOPOL,bronopol,FALSE,bronopol
 Y,BUDESONIDE,BUDESONIDE,budesonide,FALSE,budesonide
-,,BUFFER SOLUTION,buffer solution,FALSE,buffer solution
+Y,,BUFFER SOLUTION,buffer solution,FALSE,buffer solution
 Y,BUMETANIDE,BUMETANIDE,bumetanide,FALSE,bumetanide
 ,,BUPIVACAINE HYDROCHLORIDE,bupivacaine hydrochloride,FALSE,bupivacaine hydrochloride
 Y,BUPRENORPHINE,BUPRENORPHINE,buprenorphine,FALSE,buprenorphine
@@ -577,7 +577,7 @@ Y,ENALAPRIL,ENALAPRIL MALEATE,enalapril,FALSE,enalapril maleate
 Y,ENALAPRIL,ENALAPRIL SODIUM,enalapril,FALSE,enalapril sodium
 Y,ENALAPRIL,ENALAPRIL SODIUM (ENALAPRIL MALEATE),enalapril,FALSE,enalapril sodium (enalapril maleate)
 Y,,ENALAPRILAT,enalaprilat,FALSE,enalaprilat
-,,ENFUVIRTIDE,enfuvirtide,FALSE,enfuvirtide
+Y,,ENFUVIRTIDE,enfuvirtide,FALSE,enfuvirtide
 Y,,ENOXAPARIN SODIUM,enoxaparin,FALSE,enoxaparin sodium
 ,,ENSULIZOLE,ensulizole,FALSE,ensulizole
 Y,,ENTACAPONE,entacapone,FALSE,entacapone
@@ -625,7 +625,7 @@ Y,ESTRADIOL,ESTRADIOL (ESTRADIOL HEMIHYDRATE),estradiol,TRUE,estradiol
 ,,ESTRONE,estrone,FALSE,estrone
 Y,,ETAFEDRIN HYDROCHLORIDE,etafedrin,FALSE,etafedrin hydrochloride
 Y,,ETANERCEPT,etanercept,FALSE,etanercept
-Y,ETHACRYNIC ACID,ETHACRYNATE SODIUM (ETHACRYNIC ACID),ethacrynic acid,FALSE,ethacrynate sodium (ethacrynic acid)
+Y,ETHACRYNIC ACID,ETHACRYNATE SODIUM (ETHACRYNIC ACID),ethacrynic acid,FALSE,ethacrynic acid (ethacrynate sodium)
 Y,ETHACRYNIC ACID,ETHACRYNIC ACID,ethacrynic acid,FALSE,ethacrynic acid
 Y,ETHACRYNIC ACID,ETHACRYNIC ACID (ETHACRYNATE SODIUM),ethacrynic acid,FALSE,ethacrynic acid (ethacrynate sodium)
 Y,,ETHAMBUTOL HYDROCHLORIDE,ethambutol,FALSE,ethambutol hydrochloride
@@ -696,8 +696,8 @@ Y,,FLUVASTATIN (FLUVASTATIN SODIUM),fluvastatin,FALSE,fluvastatin (fluvastatin s
 Y,,FLUVOXAMINE MALEATE,fluvoxamine,FALSE,fluvoxamine maleate
 Y,FOLIC ACID,FOLIC ACID,folic acid,FALSE,folic acid
 Y,FOLIC ACID,FOLIC ACID (SODIUM FOLATE),folic acid,FALSE,folic acid (sodium folate)
-,,FOLLITROPIN ALFA,follitropin alfa,FALSE,follitropin alfa
-,,FOLLITROPIN BETA,follitropin beta,FALSE,follitropin beta
+Y,,FOLLITROPIN ALFA,follitropin alfa,FALSE,follitropin alfa
+Y,,FOLLITROPIN BETA,follitropin beta,FALSE,follitropin beta
 Y,,FOLLITROPIN DELTA,follitropin delta,FALSE,follitropin delta
 ,,FOMEPIZOLE,fomepizole,FALSE,fomepizole
 ,,FONDAPARINUX SODIUM,fondaparinux sodium,FALSE,fondaparinux sodium
@@ -1520,7 +1520,7 @@ Y,ROSUVASTATIN,ROSUVASTATIN (ROSUVASTATIN CALCIUM),rosuvastatin,FALSE,rosuvastat
 ,,"ROTAVIRUS VACCINE (RIX4414 STRAIN), LIVE, ORAL, ATTENUATED (HUMAN)","rotavirus vaccine (rix4414 strain), live, oral, attenuated (human)",FALSE,"rotavirus vaccine (rix4414 strain), live, oral, attenuated (human)"
 Y,,ROTIGOTINE,rotigotine,FALSE,rotigotine
 ,,RUBELLA VIRUS VACCINE LIVE ATTENUATED (WISTAR RA27/3 STRAIN),rubella virus vaccine live attenuated (wistar ra27/3 strain),FALSE,rubella virus vaccine live attenuated (wistar ra27/3 strain)
-,,RUFINAMIDE,rufinamide,FALSE,rufinamide
+Y,,RUFINAMIDE,rufinamide,FALSE,rufinamide
 Y,,RUPATADINE (RUPATADINE FUMARATE),rupatadine,FALSE,rupatadine (rupatadine fumarate)
 ,,Ruxolitinib (Ruxolitinib Phosphate),ruxolitinib (ruxolitinib phosphate),FALSE,ruxolitinib (ruxolitinib phosphate)
 Y,,SACUBITRIL (SACUBITRIL VALSARTAN SODIUM HYDRATE COMPLEX),sacubitril,FALSE,sacubitril (sacubitril valsartan sodium hydrate complex)
@@ -1573,7 +1573,7 @@ Y,,SITAGLIPTIN (SITAGLIPTIN PHOSPHATE),sitagliptin,FALSE,sitagliptin (sitaglipti
 ,,SODIUM CARBOXYMETHYL CELLULOSE,sodium carboxymethyl cellulose,FALSE,sodium carboxymethyl cellulose
 ,,SODIUM CHLORIDE,sodium chloride,FALSE,sodium chloride
 Y,,SODIUM CITRATE,sodium citrate,FALSE,sodium citrate
-,,SODIUM CITRATE DIHYDRATE,sodium citrate dihydrate,TRUE,sodium citrate dihydrate
+Y,,SODIUM CITRATE DIHYDRATE,sodium citrate dihydrate,TRUE,sodium citrate dihydrate
 ,,SODIUM FLUORIDE,sodium fluoride,FALSE,sodium fluoride
 ,,SODIUM GLUCONATE,sodium gluconate,FALSE,sodium gluconate
 ,,SODIUM GLYCEROPHOSPHATE,sodium glycerophosphate,FALSE,sodium glycerophosphate
