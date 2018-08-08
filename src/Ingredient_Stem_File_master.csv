@@ -571,7 +571,7 @@ Y,,ELIGLUSTAT (ELIGLUSTAT TARTRATE),eliglustat,FALSE,eliglustat (eliglustat tart
 ,,ELTROMBOPAG (ELTROMBOPAG OLAMINE),eltrombopag (eltrombopag olamine),FALSE,eltrombopag (eltrombopag olamine)
 ,,ELUXADOLINE,eluxadoline,FALSE,eluxadoline
 Y,,Elvitegravir,elvitegravir,FALSE,elvitegravir
-,,EMPAGLIFLOZIN,empagliflozin,FALSE,empagliflozin
+Y,,EMPAGLIFLOZIN,empagliflozin,FALSE,empagliflozin
 Y,,EMTRICITABINE,emtricitabine,FALSE,emtricitabine
 Y,ENALAPRIL,ENALAPRIL MALEATE,enalapril,FALSE,enalapril maleate
 Y,ENALAPRIL,ENALAPRIL SODIUM,enalapril,FALSE,enalapril sodium
@@ -679,7 +679,7 @@ Y,,FLUNARIZINE (FLUNARIZINE HYDROCHLORIDE),flunarizine,FALSE,flunarizine (flunar
 Y,,FLUOCINONIDE,fluocinonide,FALSE,fluocinonide
 Y,,FLUORESCEIN (FLUORESCEIN SODIUM),fluorescein,FALSE,fluorescein (fluorescein sodium)
 Y,,FLUORESCEIN SODIUM,fluorescein,FALSE,fluorescein sodium
-Y,,FLUOROMETHOLONE,fluorometholone,FALSE,fluorometholone
+Y,,FLUOROMETHOLONE,fluorometholone (base),FALSE,fluorometholone
 Y,,FLUOROMETHOLONE ACETATE,fluorometholone acetate,FALSE,fluorometholone acetate
 ,,FLUOROURACIL,fluorouracil,FALSE,fluorouracil
 Y,FLUOXETINE,FLUOXETINE (FLUOXETINE HYDROCHLORIDE),fluoxetine,FALSE,fluoxetine (fluoxetine hydrochloride)
@@ -775,7 +775,7 @@ Y,HALOPERIDOL,HALOPERIDOL,haloperidol,FALSE,haloperidol
 Y,HALOPERIDOL,HALOPERIDOL (HALOPERIDOL DECANOATE),haloperidol,FALSE,haloperidol (haloperidol decanoate)
 Y,,HALOTHANE,halothane,FALSE,halothane
 ,,HAMAMELIS VIRGINIANA,hamamelis virginiana,FALSE,hamamelis virginiana
-Y,,HAPTENS,haptens,FALSE,haptens
+,,HAPTENS,haptens,FALSE,haptens
 ,,HELIUM,helium,FALSE,helium
 Y,,HEPARIN (HEPARIN SODIUM),heparin,FALSE,heparin (heparin sodium)
 Y,,HEPARIN SODIUM,heparin,FALSE,heparin sodium
@@ -1015,7 +1015,7 @@ Y,,Lurasidone Hydrochloride,lurasidone,FALSE,lurasidone hydrochloride
 ,,LYSINE (L-LYSINE HYDROCHLORIDE),lysine (l-lysine hydrochloride),FALSE,lysine (l-lysine hydrochloride)
 ,,LYSINE (LYSINE ACETATE),lysine (lysine acetate),FALSE,lysine (lysine acetate)
 ,,LYSINE (LYSINE MONOHYDROCHLORIDE),lysine (lysine monohydrochloride),FALSE,lysine (lysine monohydrochloride)
-,,MACITENTAN,macitentan,FALSE,macitentan
+Y,,MACITENTAN,macitentan,FALSE,macitentan
 ,,MACROGOL,macrogol,FALSE,macrogol
 ,,MAGNESIUM (MAGNESIUM OXIDE),magnesium (magnesium oxide),FALSE,magnesium (magnesium oxide)
 ,,MAGNESIUM ACETATE,magnesium acetate,FALSE,magnesium acetate
@@ -1654,7 +1654,7 @@ Y,TAPENTADOL,Tapentadol (Tapentadol Hydrochloride),tapentadol,FALSE,tapentadol (
 Y,,TAZOBACTAM (TAZOBACTAM SODIUM),tazobactam,FALSE,tazobactam (tazobactam sodium)
 Y,,TEDUGLUTIDE,teduglutide,FALSE,teduglutide
 Y,,TELAVANCIN (TELAVANCIN HYDROCHLORIDE),telavancin,FALSE,telavancin (telavancin hydrochloride)
-,,TELBIVUDINE,telbivudine,FALSE,telbivudine
+Y,,TELBIVUDINE,telbivudine,FALSE,telbivudine
 Y,TELMISARTAN,TELMISARTAN,telmisartan,FALSE,telmisartan
 Y,TELMISARTAN,TELMISARTAN (TELMISARTAN SODIUM),telmisartan,FALSE,telmisartan (telmisartan sodium)
 Y,TEMAZEPAM,TEMAZEPAM,temazepam,FALSE,temazepam
