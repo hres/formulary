@@ -126,7 +126,7 @@ Y,,ATAZANAVIR (ATAZANAVIR SULFATE),atazanavir,FALSE,atazanavir (atazanavir sulfa
 Y,ATENOLOL,ATENOLOL,atenolol,FALSE,atenolol
 ,,ATEZOLIZUMAB,atezolizumab,FALSE,atezolizumab
 Y,ATOMOXETINE,ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE),atomoxetine,FALSE,atomoxetine (atomoxetine hydrochloride)
-Y,ATORVASTATIN,ATORVASTATIN (ATORVASTATIN CALCIUM PROPYLENE GLYCOL SOLVATE),atorvastatin,FALSE,atorvastatin (atorvastatin calcium)
+Y,ATORVASTATIN,ATORVASTATIN (ATORVASTATIN CALCIUM PROPYLENE GLYCOL SOLVATE),atorvastatin,TRUE,atorvastatin (atorvastatin calcium)
 Y,ATORVASTATIN,ATORVASTATIN (ATORVASTATIN CALCIUM),atorvastatin,FALSE,atorvastatin (atorvastatin calcium)
 Y,,ATOVAQUONE,atovaquone,FALSE,atovaquone
 ,,ATRACURIUM BESYLATE,atracurium besylate,FALSE,atracurium besylate
@@ -1269,7 +1269,7 @@ Y,PANTOPRAZOLE,PANTOPRAZOLE (PANTOPRAZOLE SODIUM),pantoprazole,FALSE,pantoprazol
 ,,PARACHLOROPHENOL,parachlorophenol,FALSE,parachlorophenol
 Y,,Paritaprevir,paritaprevir,FALSE,paritaprevir
 ,,PAROMOMYCIN (PAROMOMYCIN SULFATE),paromomycin (paromomycin sulfate),FALSE,paromomycin (paromomycin sulfate)
-Y,PAROXETINE,PAROXETINE (PAROXETINE HYDROCHLORIDE ACETONE SOLVATE),paroxetine,FALSE,paroxetine (paroxetine hydrochloride)
+Y,PAROXETINE,PAROXETINE (PAROXETINE HYDROCHLORIDE ACETONE SOLVATE),paroxetine,TRUE,paroxetine (paroxetine hydrochloride)
 Y,PAROXETINE,PAROXETINE (PAROXETINE HYDROCHLORIDE HEMIHYDRATE),paroxetine,TRUE,paroxetine (paroxetine hydrochloride)
 Y,PAROXETINE,PAROXETINE (PAROXETINE HYDROCHLORIDE),paroxetine,FALSE,paroxetine (paroxetine hydrochloride)
 Y,PAROXETINE,"PAROXETINE (PAROXETINE HYDROCHLORIDE, ISOPROPYL SOLVATE)",paroxetine,FALSE,paroxetine (paroxetine hydrochloride)
