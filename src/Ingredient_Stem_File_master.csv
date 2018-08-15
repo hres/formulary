@@ -506,7 +506,7 @@ Y,DIGOXIN,DIGOXIN,digoxin,FALSE,digoxin
 ,,DIGOXIN IMMUNE FAB (OVINE),digoxin immune fab (ovine),FALSE,digoxin immune fab (ovine)
 ,,DIHYDROERGOTAMINE MESYLATE,dihydroergotamine mesylate,FALSE,dihydroergotamine mesylate
 Y,DILTIAZEM,DILTIAZEM HYDROCHLORIDE,diltiazem,FALSE,diltiazem hydrochloride
-,,DILUENT,diluent,FALSE,diluent
+Y,,DILUENT,diluent,FALSE,diluent
 Y,,DIMENHYDRINATE,dimenhydrinate,FALSE,dimenhydrinate
 ,,DIMERCAPROL,dimercaprol,FALSE,dimercaprol
 ,,DIMETHICONE,dimethicone,FALSE,dimethicone
@@ -1272,7 +1272,7 @@ Y,,Paritaprevir,paritaprevir,FALSE,paritaprevir
 Y,PAROXETINE,PAROXETINE (PAROXETINE HYDROCHLORIDE ACETONE SOLVATE),paroxetine,TRUE,paroxetine (paroxetine hydrochloride)
 Y,PAROXETINE,PAROXETINE (PAROXETINE HYDROCHLORIDE HEMIHYDRATE),paroxetine,TRUE,paroxetine (paroxetine hydrochloride)
 Y,PAROXETINE,PAROXETINE (PAROXETINE HYDROCHLORIDE),paroxetine,FALSE,paroxetine (paroxetine hydrochloride)
-Y,PAROXETINE,"PAROXETINE (PAROXETINE HYDROCHLORIDE, ISOPROPYL SOLVATE)",paroxetine,FALSE,paroxetine (paroxetine hydrochloride)
+Y,PAROXETINE,"PAROXETINE (PAROXETINE HYDROCHLORIDE, ISOPROPYL SOLVATE)",paroxetine,TRUE,paroxetine (paroxetine hydrochloride)
 ,,PASIREOTIDE (Pasireotide diaspartate),pasireotide (pasireotide diaspartate),FALSE,pasireotide (pasireotide diaspartate)
 ,,PASIREOTIDE (Pasireotide Pamoate),pasireotide (pasireotide pamoate),FALSE,pasireotide (pasireotide pamoate)
 ,,PATENT BLUE SODIUM,patent blue sodium,FALSE,patent blue sodium
