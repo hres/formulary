@@ -407,10 +407,10 @@ Y,,CORTISONE ACETATE,cortisone,FALSE,cortisone acetate
 ,,CORYNEBACTERIUM DIPHTHERIAE CRM-197 PROTEIN,corynebacterium diphtheriae crm-197 protein,FALSE,corynebacterium diphtheriae crm-197 protein
 ,,Crizotinib,crizotinib,FALSE,crizotinib
 Y,CROMOLYN,CROMOLYN SODIUM,cromolyn,FALSE,cromolyn sodium
-,,CROTAMITON,crotamiton,FALSE,crotamiton
+Y,,CROTAMITON,crotamiton,FALSE,crotamiton
 ,,CUPRIC CHLORIDE,cupric chloride,FALSE,cupric chloride
 Y,CYCLOBENZAPRINE,CYCLOBENZAPRINE HYDROCHLORIDE,cyclobenzaprine,FALSE,cyclobenzaprine hydrochloride
-,,CYCLOPENTOLATE HYDROCHLORIDE,cyclopentolate,FALSE,cyclopentolate hydrochloride
+Y,,CYCLOPENTOLATE HYDROCHLORIDE,cyclopentolate,FALSE,cyclopentolate hydrochloride
 ,,CYCLOPHOSPHAMIDE,cyclophosphamide,FALSE,cyclophosphamide
 Y,,CYCLOSPORINE,cyclosporine,FALSE,cyclosporine
 Y,,CYPROHEPTADINE HYDROCHLORIDE,cyproheptadine,FALSE,cyproheptadine hydrochloride
@@ -421,35 +421,35 @@ Y,,CYSTEAMINE (CYSTEAMINE BITARTRATE),cysteamine,FALSE,cysteamine (cysteamine bi
 ,,CYTOMEGALOVIRUS IMMUNOLOBULIN (HUMAN),cytomegalovirus immunolobulin (human),FALSE,cytomegalovirus immunolobulin (human)
 ,,D&C RED NO. 28,d&c red no. 28,FALSE,d&c red no. 28
 Y,DABIGATRAN ETEXILATE,DABIGATRAN ETEXILATE (DABIGATRAN ETEXILATE MESILATE),dabigatran,FALSE,dabigatran etexilate (dabigatran etexilate mesilate)
-,,Dabrafenib (Dabrafenib mesylate),dabrafenib (dabrafenib mesylate),FALSE,dabrafenib (dabrafenib mesylate)
+Y,,Dabrafenib (Dabrafenib mesylate),dabrafenib,FALSE,dabrafenib (dabrafenib mesylate)
 Y,,DACARBAZINE,dacarbazine,FALSE,dacarbazine
 Y,,Daclatasvir (Daclatasvir Dihydrochloride),daclatasvir,FALSE,daclatasvir (daclatasvir dihydrochloride)
 ,,DACLIZUMAB BETA,daclizumab beta,FALSE,daclizumab beta
 ,,DACTINOMYCIN,dactinomycin,FALSE,dactinomycin
 Y,,DALTEPARIN SODIUM,dalteparin,FALSE,dalteparin sodium
 Y,,DANAPAROID SODIUM,danaparoid,FALSE,danaparoid sodium
-,,DANAZOL,danazol,FALSE,danazol
+Y,,DANAZOL,danazol,FALSE,danazol
 Y,,DANTROLENE SODIUM,dantrolene,FALSE,dantrolene sodium
 Y,,Dapagliflozin (Dapagliflozin propanediol monohydrate),dapagliflozin,TRUE,dapagliflozin (dapagliflozin propanediol)
 Y,,DAPSONE,dapsone,FALSE,dapsone
 Y,,DAPTOMYCIN,daptomycin,FALSE,daptomycin
 ,,DARATUMUMAB,daratumumab,FALSE,daratumumab
-,,DARBEPOETIN ALFA,darbepoetin alfa,FALSE,darbepoetin alfa
+Y,,DARBEPOETIN ALFA,darbepoetin alfa,FALSE,darbepoetin alfa
 Y,,DARIFENACIN (DARIFENACIN HYDROBROMIDE),darifenacin,FALSE,darifenacin (darifenacin hydrobromide)
 Y,,DARUNAVIR (DARUNAVIR ETHANOLATE),darunavir,FALSE,darunavir (darunavir ethanolate)
 ,,Dasabuvir (Dasabuvir sodium monohydrate),dasabuvir (dasabuvir sodium monohydrate),TRUE,dasabuvir (dasabuvir sodium monohydrate)
 ,,DASATINIB (DASATINIB MONOHYDRATE),dasatinib (dasatinib monohydrate),TRUE,dasatinib (dasatinib monohydrate)
 ,,DAUNORUBICIN (DAUNORUBICIN HYDROCHLORIDE),daunorubicin (daunorubicin hydrochloride),FALSE,daunorubicin (daunorubicin hydrochloride)
-,,DEFERASIROX,deferasirox,FALSE,deferasirox
-,,Deferiprone,deferiprone,FALSE,deferiprone
+Y,,DEFERASIROX,deferasirox,FALSE,deferasirox
+Y,,Deferiprone,deferiprone,FALSE,deferiprone
 ,,DEFEROXAMINE MESYLATE,deferoxamine mesylate,FALSE,deferoxamine mesylate
 Y,,DEFIBROTIDE,defibrotide,FALSE,defibrotide
 ,,DEGARELIX (DEGARELIX ACETATE),degarelix (degarelix acetate),FALSE,degarelix (degarelix acetate)
 Y,,DELAVIRDINE MESYLATE,delavirdine,FALSE,delavirdine mesylate
 ,,DELTA-9-TETRAHYDROCANNABINOL (CANNABIS SATIVA EXTRACT),delta-9-tetrahydrocannabinol (cannabis sativa extract),FALSE,delta-9-tetrahydrocannabinol (cannabis sativa extract)
-,,DENOSUMAB,denosumab,FALSE,denosumab
-,,DEOXYCHOLIC ACID,deoxycholic acid,FALSE,deoxycholic acid
-,,DEQUALINIUM CHLORIDE,dequalinium chloride,FALSE,dequalinium chloride
+Y,,DENOSUMAB,denosumab,FALSE,denosumab
+Y,,DEOXYCHOLIC ACID,deoxycholic acid,FALSE,deoxycholic acid
+Y,,DEQUALINIUM CHLORIDE,dequalinium chloride,FALSE,dequalinium chloride
 ,,DERMATOPHAGOIDES FARINAE,dermatophagoides farinae,FALSE,dermatophagoides farinae
 ,,DERMATOPHAGOIDES PTERONYSSINUS,dermatophagoides pteronyssinus,FALSE,dermatophagoides pteronyssinus
 Y,,DERQUANTEL,derquantel,FALSE,derquantel
@@ -489,7 +489,7 @@ Y,,DEXTROMETHORPHAN HYDROBROMIDE (DEXTROMETHORPHAN POLISTIREX),dextromethorphan,
 ,,DIATRIZOATE MEGLUMINE,diatrizoate meglumine,FALSE,diatrizoate meglumine
 ,,DIATRIZOATE SODIUM,diatrizoate sodium,FALSE,diatrizoate sodium
 Y,DIAZEPAM,DIAZEPAM,diazepam,FALSE,diazepam
-,,DIAZOXIDE,diazoxide,FALSE,diazoxide
+Y,,DIAZOXIDE,diazoxide,FALSE,diazoxide
 Y,DIBUCAINE,DIBUCAINE HYDROCHLORIDE,dibucaine,FALSE,dibucaine hydrochloride
 ,,DICHLOROBENZENE,dichlorobenzene,FALSE,dichlorobenzene
 ,,DICHLOROBENZYL ALCOHOL,dichlorobenzyl alcohol,FALSE,dichlorobenzyl alcohol
@@ -504,16 +504,16 @@ Y,,DIFLUNISAL,diflunisal,FALSE,diflunisal
 Y,,Difluprednate,difluprednate,FALSE,difluprednate
 Y,DIGOXIN,DIGOXIN,digoxin,FALSE,digoxin
 ,,DIGOXIN IMMUNE FAB (OVINE),digoxin immune fab (ovine),FALSE,digoxin immune fab (ovine)
-,,DIHYDROERGOTAMINE MESYLATE,dihydroergotamine mesylate,FALSE,dihydroergotamine mesylate
+Y,,DIHYDROERGOTAMINE MESYLATE,dihydroergotamine,FALSE,dihydroergotamine mesylate
 Y,DILTIAZEM,DILTIAZEM HYDROCHLORIDE,diltiazem,FALSE,diltiazem hydrochloride
 Y,,DILUENT,diluent,FALSE,diluent
 Y,,DIMENHYDRINATE,dimenhydrinate,FALSE,dimenhydrinate
 ,,DIMERCAPROL,dimercaprol,FALSE,dimercaprol
-,,DIMETHICONE,dimethicone,FALSE,dimethicone
+Y,,DIMETHICONE,dimethicone,FALSE,dimethicone
 ,,Dimethyl Fumarate,dimethyl fumarate,FALSE,dimethyl fumarate
 ,,DIMETHYL SULFOXIDE,dimethyl sulfoxide,FALSE,dimethyl sulfoxide
-,,DINOPROST (DINOPROST TROMETHAMINE),dinoprost (dinoprost tromethamine),FALSE,dinoprost (dinoprost tromethamine)
-,,DINOPROSTONE,dinoprostone,FALSE,dinoprostone
+Y,,DINOPROST (DINOPROST TROMETHAMINE),dinoprost,FALSE,dinoprost (dinoprost tromethamine)
+Y,,DINOPROSTONE,dinoprostone,FALSE,dinoprostone
 ,,DIOCTYL DIMETHYL AMMONIUM CHLORIDE,dioctyl dimethyl ammonium chloride,FALSE,dioctyl dimethyl ammonium chloride
 Y,,DIPHENHYDRAMINE CITRATE,diphenhydramine,FALSE,diphenhydramine citrate
 Y,,DIPHENHYDRAMINE HYDROCHLORIDE,diphenhydramine,FALSE,diphenhydramine hydrochloride
@@ -526,7 +526,7 @@ Y,,DIPYRIDAMOLE,dipyridamole,FALSE,dipyridamole
 ,,DISODIUM EDETATE,disodium edetate,FALSE,disodium edetate
 Y,,DISOPYRAMIDE,disopyramide,FALSE,disopyramide
 ,,DL-METHIONINE,dl-methionine,FALSE,dl-methionine
-,,DOBUTAMINE (DOBUTAMINE HYDROCHLORIDE),dobutamine (dobutamine hydrochloride),FALSE,dobutamine (dobutamine hydrochloride)
+Y,,DOBUTAMINE (DOBUTAMINE HYDROCHLORIDE),dobutamine,FALSE,dobutamine (dobutamine hydrochloride)
 ,,DOCETAXEL,docetaxel,FALSE,docetaxel
 ,,DOCOSANOL,docosanol,FALSE,docosanol
 Y,DOCUSATE,DOCUSATE CALCIUM,docusate,FALSE,docusate calcium
@@ -538,7 +538,7 @@ Y,DOMPERIDONE,DOMPERIDONE (DOMPERIDONE MALEATE),domperidone,FALSE,domperidone (d
 Y,DONEPEZIL,DONEPEZIL HYDROCHLORIDE,donepezil,FALSE,donepezil hydrochloride
 Y,DONEPEZIL,DONEPEZIL HYDROCHLORIDE (DONEPEZIL HYDROCHLORIDE MONOHYDRATE),donepezil,TRUE,donepezil hydrochloride
 ,,DOPAMINE HYDROCHLORIDE,dopamine hydrochloride,FALSE,dopamine hydrochloride
-,,DORNASE ALFA,dornase alfa,FALSE,dornase alfa
+Y,,DORNASE ALFA,dornase alfa,FALSE,dornase alfa
 Y,DORZOLAMIDE,DORZOLAMIDE (DORZOLAMIDE HYDROCHLORIDE),dorzolamide,FALSE,dorzolamide (dorzolamide hydrochloride)
 Y,DOXAZOSIN,DOXAZOSIN (DOXAZOSIN MESYLATE),doxazosin,FALSE,doxazosin (doxazosin mesylate)
 Y,,DOXEPIN (DOXEPIN HYDROCHLORIDE),doxepin,FALSE,doxepin (doxepin hydrochloride)
@@ -548,22 +548,22 @@ Y,DOXYCYCLINE,DOXYCYCLINE (Doxycycline Monohydrate),doxycycline,TRUE,doxycycline
 Y,,DOXYLAMINE SUCCINATE,doxylamine,FALSE,doxylamine succinate
 ,,D-PANTOTHENIC ACID (CALCIUM D-PANTOTHENATE),d-pantothenic acid (calcium d-pantothenate),FALSE,d-pantothenic acid (calcium d-pantothenate)
 ,,"D-PANTOTHENIC ACID (CALCIUM D-PANTOTHENATE, RIBOFLAVIN-5-PHOSPHATE)","d-pantothenic acid (calcium d-pantothenate, riboflavin-5-phosphate)",FALSE,"d-pantothenic acid (calcium d-pantothenate, riboflavin-5-phosphate)"
-,,D-PENICILLAMINE,d-penicillamine,FALSE,d-penicillamine
+Y,,D-PENICILLAMINE,d-penicillamine,FALSE,d-penicillamine
 ,,DROMETRIZOLE TRISILOXANE,drometrizole trisiloxane,FALSE,drometrizole trisiloxane
-,,DRONEDARONE (DRONEDARONE HYDROCHLORIDE),dronedarone (dronedarone hydrochloride),FALSE,dronedarone (dronedarone hydrochloride)
+Y,,DRONEDARONE (DRONEDARONE HYDROCHLORIDE),dronedarone,FALSE,dronedarone (dronedarone hydrochloride)
 Y,,DROPERIDOL,droperidol,FALSE,droperidol
 Y,DROSPIRENONE,DROSPIRENONE,drospirenone,FALSE,drospirenone
-,,DULAGLUTIDE,dulaglutide,FALSE,dulaglutide
+Y,,DULAGLUTIDE,dulaglutide,FALSE,dulaglutide
 Y,DULOXETINE,DULOXETINE (DULOXETINE HYDROCHLORIDE),duloxetine,FALSE,duloxetine (duloxetine hydrochloride)
 Y,,DUPILUMAB,dupilumab,FALSE,dupilumab
 Y,,DURVALUMAB,durvalumab,FALSE,durvalumab
 Y,DUTASTERIDE,DUTASTERIDE,dutasteride,FALSE,dutasteride
-,,DYCLONINE HYDROCHLORIDE,dyclonine hydrochloride,FALSE,dyclonine hydrochloride
-,,ECULIZUMAB,eculizumab,FALSE,eculizumab
+Y,,DYCLONINE HYDROCHLORIDE,dyclonine,FALSE,dyclonine hydrochloride
+Y,,ECULIZUMAB,eculizumab,FALSE,eculizumab
 ,,EDOXABAN (EDOXABAN TOSYLATE),edoxaban (edoxaban tosylate),FALSE,edoxaban (edoxaban tosylate)
 Y,,EFAVIRENZ,efavirenz,FALSE,efavirenz
 Y,,Efinaconazole,efinaconazole,FALSE,efinaconazole
-,,EFLORNITHINE HYDROCHLORIDE,eflornithine hydrochloride,FALSE,eflornithine hydrochloride
+Y,,EFLORNITHINE HYDROCHLORIDE,eflornithine,FALSE,eflornithine hydrochloride
 Y,,ELBASVIR,elbasvir,FALSE,elbasvir
 Y,,ELETRIPTAN (ELETRIPTAN HYDROBROMIDE),eletriptan,FALSE,eletriptan (eletriptan hydrobromide)
 Y,,ELIGLUSTAT (ELIGLUSTAT TARTRATE),eliglustat,FALSE,eliglustat (eliglustat tartrate)
@@ -579,12 +579,12 @@ Y,ENALAPRIL,ENALAPRIL SODIUM (ENALAPRIL MALEATE),enalapril,FALSE,enalapril sodiu
 Y,,ENALAPRILAT,enalaprilat,FALSE,enalaprilat
 Y,,ENFUVIRTIDE,enfuvirtide,FALSE,enfuvirtide
 Y,,ENOXAPARIN SODIUM,enoxaparin,FALSE,enoxaparin sodium
-,,ENSULIZOLE,ensulizole,FALSE,ensulizole
+Y,,ENSULIZOLE,ensulizole,FALSE,ensulizole
 Y,,ENTACAPONE,entacapone,FALSE,entacapone
 Y,,ENTECAVIR,entecavir,FALSE,entecavir
 Y,,ENTECAVIR (ENTECAVIR MONOHYDRATE),entecavir,TRUE,entecavir
 ,,ENZACAMENE,enzacamene,FALSE,enzacamene
-,,Enzalutamide,enzalutamide,FALSE,enzalutamide
+Y,,Enzalutamide,enzalutamide,FALSE,enzalutamide
 Y,EPHEDRINE,EPHEDRINE SULFATE,ephedrine,FALSE,ephedrine sulfate
 Y,EPINEPHRINE,EPINEPHRINE,epinephrine,FALSE,epinephrine
 Y,EPINEPHRINE,EPINEPHRINE (EPINEPHRINE BITARTRATE),epinephrine,FALSE,epinephrine (epinephrine bitartrate)
@@ -601,8 +601,8 @@ Y,,EPROSARTAN (EPROSARTAN MESYLATE),eprosartan,FALSE,eprosartan (eprosartan mesy
 ,,ERGOLOID MESYLATES,ergoloid mesylates,FALSE,ergoloid mesylates
 ,,ERGONOVINE MALEATE,ergonovine maleate,FALSE,ergonovine maleate
 Y,,ERGOTAMINE TARTRATE,ergotamine,FALSE,ergotamine tartrate
-,,Eribulin Mesylate,eribulin mesylate,FALSE,eribulin mesylate
-,,ERLOTINIB (ERLOTINIB HYDROCHLORIDE),erlotinib (erlotinib hydrochloride),FALSE,erlotinib (erlotinib hydrochloride)
+Y,,Eribulin Mesylate,eribulin,FALSE,eribulin mesylate
+Y,,ERLOTINIB (ERLOTINIB HYDROCHLORIDE),erlotinib,FALSE,erlotinib (erlotinib hydrochloride)
 Y,,ERTAPENEM (ERTAPENEM SODIUM),ertapenem,FALSE,ertapenem (ertapenem sodium)
 Y,,ERTUGLIFLOZIN,ertugliflozin,FALSE,ertugliflozin
 Y,ERYTHROMYCIN,ERYTHROMYCIN,erythromycin,FALSE,erythromycin
@@ -622,7 +622,7 @@ Y,ESOMEPRAZOLE,ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM),esomeprazole,FALSE,esomepra
 Y,ESTRADIOL,ESTRADIOL,estradiol,FALSE,estradiol
 Y,ESTRADIOL,ESTRADIOL (ESTRADIOL HEMIHYDRATE),estradiol,TRUE,estradiol
 ,,ESTRAMUSTINE PHOSPHATE SODIUM,estramustine phosphate sodium,FALSE,estramustine phosphate sodium
-,,ESTRONE,estrone,FALSE,estrone
+Y,,ESTRONE,estrone,FALSE,estrone
 Y,,ETAFEDRIN HYDROCHLORIDE,etafedrin,FALSE,etafedrin hydrochloride
 Y,,ETANERCEPT,etanercept,FALSE,etanercept
 Y,ETHACRYNIC ACID,ETHACRYNATE SODIUM (ETHACRYNIC ACID),ethacrynic acid,FALSE,ethacrynic acid (ethacrynate sodium)
@@ -630,7 +630,7 @@ Y,ETHACRYNIC ACID,ETHACRYNIC ACID,ethacrynic acid,FALSE,ethacrynic acid
 Y,ETHACRYNIC ACID,ETHACRYNIC ACID (ETHACRYNATE SODIUM),ethacrynic acid,FALSE,ethacrynic acid (ethacrynate sodium)
 Y,,ETHAMBUTOL HYDROCHLORIDE,ethambutol,FALSE,ethambutol hydrochloride
 Y,ETHINYL ESTRADIOL,ETHINYL ESTRADIOL,ethinyl estradiol,FALSE,ethinyl estradiol
-,,ETHOPROPAZINE (ETHOPROPAZINE HYDROCHLORIDE),ethopropazine (ethopropazine hydrochloride),FALSE,ethopropazine (ethopropazine hydrochloride)
+Y,,ETHOPROPAZINE (ETHOPROPAZINE HYDROCHLORIDE),ethopropazine,FALSE,ethopropazine (ethopropazine hydrochloride)
 Y,,ETHOSUXIMIDE,ethosuximide,FALSE,ethosuximide
 ,,ETHYNODIOL DIACETATE,ethynodiol diacetate,FALSE,ethynodiol diacetate
 Y,,ETIDRONATE DISODIUM,etidronate,FALSE,etidronate disodium
@@ -639,7 +639,7 @@ Y,ETONOGESTREL,ETONOGESTREL,etonogestrel,FALSE,etonogestrel
 ,,ETOPOSIDE,etoposide,FALSE,etoposide
 Y,,ETRAVIRINE,etravirine,FALSE,etravirine
 ,,EUCALYPTOL,eucalyptol,FALSE,eucalyptol
-,,EVEROLIMUS,everolimus,FALSE,everolimus
+Y,,EVEROLIMUS,everolimus,FALSE,everolimus
 Y,,EVOLOCUMAB,evolocumab,FALSE,evolocumab
 Y,,EXEMESTANE,exemestane,FALSE,exemestane
 Y,,EXENATIDE,exenatide,FALSE,exenatide
@@ -647,8 +647,8 @@ Y,EZETIMIBE,EZETIMIBE,ezetimibe,FALSE,ezetimibe
 ,,FACTOR XIII,factor xiii,FALSE,factor xiii
 Y,,FAMCICLOVIR,famciclovir,FALSE,famciclovir
 Y,,FAMOTIDINE,famotidine,FALSE,famotidine
-,,FAMPRIDINE,fampridine,FALSE,fampridine
-,,FEBUXOSTAT,febuxostat,FALSE,febuxostat
+Y,,FAMPRIDINE,fampridine,FALSE,fampridine
+Y,,FEBUXOSTAT,febuxostat,FALSE,febuxostat
 Y,FELODIPINE,FELODIPINE,felodipine,FALSE,felodipine
 Y,FENOFIBRATE,FENOFIBRATE,fenofibrate,FALSE,fenofibrate
 Y,FENTANYL,FENTANYL,fentanyl,FALSE,fentanyl
@@ -667,7 +667,7 @@ Y,FINASTERIDE,FINASTERIDE,finasteride,FALSE,finasteride
 ,,FISH OIL,fish oil,FALSE,fish oil
 ,,FLAVOXATE HYDROCHLORIDE,flavoxate hydrochloride,FALSE,flavoxate hydrochloride
 Y,,FLECAINIDE ACETATE,flecainide,FALSE,flecainide acetate
-,,FLOCTAFENINE,floctafenine,FALSE,floctafenine
+Y,,FLOCTAFENINE,floctafenine,FALSE,floctafenine
 Y,FLUCONAZOLE,FLUCONAZOLE,fluconazole,FALSE,fluconazole
 ,,FLUDARABINE PHOSPHATE,fludarabine phosphate,FALSE,fludarabine phosphate
 Y,,FLUDROCORTISONE 21-ACETATE,fludrocortisone,FALSE,fludrocortisone acetate
@@ -675,7 +675,7 @@ Y,,FLUDROCORTISONE 21-ACETATE,fludrocortisone,FALSE,fludrocortisone acetate
 ,,FLUMETHASONE PIVALATE,flumethasone pivalate,FALSE,flumethasone pivalate
 Y,,FLUNARIZINE (FLUNARIZINE HYDROCHLORIDE),flunarizine,FALSE,flunarizine (flunarizine hydrochloride)
 ,,FLUNISOLIDE,flunisolide,FALSE,flunisolide
-,,FLUOCINOLONE ACETONIDE,fluocinolone acetonide,FALSE,fluocinolone acetonide
+,,FLUOCINOLONE ACETONIDE,fluocinolone,FALSE,fluocinolone acetonide
 Y,,FLUOCINONIDE,fluocinonide,FALSE,fluocinonide
 Y,,FLUORESCEIN (FLUORESCEIN SODIUM),fluorescein,FALSE,fluorescein (fluorescein sodium)
 Y,,FLUORESCEIN SODIUM,fluorescein,FALSE,fluorescein sodium
@@ -689,7 +689,7 @@ Y,,FLUPHENAZINE DECANOATE,fluphenazine,FALSE,fluphenazine decanoate
 Y,,FLUPHENAZINE HYDROCHLORIDE,fluphenazine,FALSE,fluphenazine hydrochloride
 Y,FLURAZEPAM,FLURAZEPAM HYDROCHLORIDE,flurazepam,FALSE,flurazepam hydrochloride
 Y,,FLURBIPROFEN,flurbiprofen,FALSE,flurbiprofen
-,,FLUTAMIDE,flutamide,FALSE,flutamide
+Y,,FLUTAMIDE,flutamide,FALSE,flutamide
 Y,FLUTICASONE,FLUTICASONE FUROATE,fluticasone,FALSE,fluticasone furoate
 Y,FLUTICASONE,FLUTICASONE PROPIONATE,fluticasone,FALSE,fluticasone propionate
 Y,,FLUVASTATIN (FLUVASTATIN SODIUM),fluvastatin,FALSE,fluvastatin (fluvastatin sodium)
@@ -700,11 +700,11 @@ Y,,FOLLITROPIN ALFA,follitropin alfa,FALSE,follitropin alfa
 Y,,FOLLITROPIN BETA,follitropin beta,FALSE,follitropin beta
 Y,,FOLLITROPIN DELTA,follitropin delta,FALSE,follitropin delta
 ,,FOMEPIZOLE,fomepizole,FALSE,fomepizole
-,,FONDAPARINUX SODIUM,fondaparinux sodium,FALSE,fondaparinux sodium
+Y,,FONDAPARINUX SODIUM,fondaparinux,FALSE,fondaparinux sodium
 Y,FORMOTEROL,FORMOTEROL FUMARATE,formoterol,FALSE,formoterol fumarate
 Y,FORMOTEROL,FORMOTEROL FUMARATE DIHYDRATE,formoterol,TRUE,formoterol fumarate
 Y,,FOSAMPRENAVIR (FOSAMPRENAVIR CALCIUM),fosamprenavir,FALSE,fosamprenavir (fosamprenavir calcium)
-,,FOSAPREPITANT (FOSAPREPITANT DIMEGLUMINE),fosaprepitant (fosaprepitant dimeglumine),FALSE,fosaprepitant (fosaprepitant dimeglumine)
+Y,,FOSAPREPITANT (FOSAPREPITANT DIMEGLUMINE),fosaprepitant,FALSE,fosaprepitant (fosaprepitant dimeglumine)
 ,,FOSFOMYCIN (FOSFOMYCIN TROMETHAMINE),fosfomycin (fosfomycin tromethamine),FALSE,fosfomycin (fosfomycin tromethamine)
 Y,FOSINOPRIL,FOSINOPRIL SODIUM,fosinopril,FALSE,fosinopril sodium
 Y,,FOSPHENYTOIN SODIUM,fosphenytoin,FALSE,fosphenytoin sodium
@@ -732,7 +732,7 @@ Y,,GATIFLOXACIN,gatifloxacin,FALSE,gatifloxacin
 ,,GEFITINIB,gefitinib,FALSE,gefitinib
 ,,GELATIN,gelatin,FALSE,gelatin
 ,,GEMCITABINE (GEMCITABINE HYDROCHLORIDE),gemcitabine (gemcitabine hydrochloride),FALSE,gemcitabine (gemcitabine hydrochloride)
-,,GEMFIBROZIL,gemfibrozil,FALSE,gemfibrozil
+Y,,GEMFIBROZIL,gemfibrozil,FALSE,gemfibrozil
 Y,,GENTAMICIN (GENTAMICIN SULFATE),gentamicin,FALSE,gentamicin (gentamicin sulfate)
 ,,GENTIAN VIOLET,gentian violet,FALSE,gentian violet
 ,,GLATIRAMER ACETATE,glatiramer acetate,FALSE,glatiramer acetate
@@ -748,7 +748,7 @@ Y,GLYBURIDE,GLYBURIDE,glyburide,FALSE,glyburide
 ,,GLYCEROL PHENYLBUTYRATE,glycerol phenylbutyrate,FALSE,glycerol phenylbutyrate
 ,,GLYCINE,glycine,FALSE,glycine
 ,,GLYCOL SALICYLATE,glycol salicylate,FALSE,glycol salicylate
-,,GLYCOPYRROLATE,glycopyrrolate,FALSE,glycopyrrolate
+Y,,GLYCOPYRROLATE,glycopyrrolate,FALSE,glycopyrrolate
 Y,,GLYCOPYRRONIUM (Glycopyrronium Bromide),glycopyrronium,FALSE,glycopyrronium (glycopyrronium bromide)
 ,,GOLD SODIUM THIOMALATE,gold sodium thiomalate,FALSE,gold sodium thiomalate
 ,,GOLIMUMAB,golimumab,FALSE,golimumab
@@ -770,7 +770,7 @@ Y,,GUSELKUMAB,guselkumab,FALSE,guselkumab
 ,,HAEMAGGLUTININ-STRAIN B (Yamagata),haemagglutinin-strain b (yamagata),FALSE,haemagglutinin-strain b (yamagata)
 ,,HAEMOPHILUS INFLUENZAE TYPE B-PRP,haemophilus influenzae type b-prp,FALSE,haemophilus influenzae type b-prp
 ,,HAEMOPHILUS INFLUENZAE TYPE B-PRP AND TETANUS TOXOID CONJUGATE (PRP-T),haemophilus influenzae type b-prp and tetanus toxoid conjugate (prp-t),FALSE,haemophilus influenzae type b-prp and tetanus toxoid conjugate (prp-t)
-,,HALOBETASOL PROPIONATE,halobetasol propionate,FALSE,halobetasol propionate
+Y,,HALOBETASOL PROPIONATE,halobetasol,FALSE,halobetasol propionate
 Y,HALOPERIDOL,HALOPERIDOL,haloperidol,FALSE,haloperidol
 Y,HALOPERIDOL,HALOPERIDOL (HALOPERIDOL DECANOATE),haloperidol,FALSE,haloperidol (haloperidol decanoate)
 Y,,HALOTHANE,halothane,FALSE,halothane
@@ -805,11 +805,11 @@ Y,HYDROCORTISONE,HYDROCORTISONE (HYDROCORTISONE SODIUM SUCCINATE),hydrocortisone
 Y,HYDROCORTISONE,HYDROCORTISONE ACETATE,hydrocortisone,FALSE,hydrocortisone acetate
 Y,HYDROCORTISONE,HYDROCORTISONE VALERATE,hydrocortisone,FALSE,hydrocortisone valerate
 Y,HYDROMORPHONE,HYDROMORPHONE HYDROCHLORIDE,hydromorphone,FALSE,hydromorphone hydrochloride
-,,HYDROQUINONE,hydroquinone,FALSE,hydroquinone
+Y,,HYDROQUINONE,hydroquinone,FALSE,hydroquinone
 ,,HYDROXOCOBALAMIN,hydroxocobalamin,FALSE,hydroxocobalamin
 Y,HYDROXYCHLOROQUINE,HYDROXYCHLOROQUINE SULFATE,hydroxychloroquine,FALSE,hydroxychloroquine sulfate
 ,,HYDROXYETHYL STARCH 130/0.4,hydroxyethyl starch 130/0.4,FALSE,hydroxyethyl starch 130/0.4
-,,HYDROXYUREA,hydroxyurea,FALSE,hydroxyurea
+Y,,HYDROXYUREA,hydroxyurea,FALSE,hydroxyurea
 Y,HYDROXYZINE,HYDROXYZINE HYDROCHLORIDE,hydroxyzine,FALSE,hydroxyzine hydrochloride
 Y,,HYOSCINE BUTYLBROMIDE,hyoscine,FALSE,hyoscine butylbromide
 Y,,HYPROLOSE,hyprolose,FALSE,hyprolose
@@ -969,7 +969,7 @@ Y,,Linaclotide,linaclotide,FALSE,linaclotide
 Y,,LINAGLIPTIN,linagliptin,FALSE,linagliptin
 Y,,LINCOMYCIN (LINCOMYCIN HYDROCHLORIDE),lincomycin,FALSE,lincomycin (lincomycin hydrochloride)
 Y,,LINEZOLID,linezolid,FALSE,linezolid
-,,LIOTHYRONINE (LIOTHYRONINE SODIUM),liothyronine (liothyronine sodium),FALSE,liothyronine (liothyronine sodium)
+Y,,LIOTHYRONINE (LIOTHYRONINE SODIUM),liothyronine,FALSE,liothyronine (liothyronine sodium)
 ,,LIPASE,lipase,FALSE,lipase
 Y,,LIRAGLUTIDE,liraglutide,FALSE,liraglutide
 Y,LISDEXAMFETAMINE,LISDEXAMFETAMINE DIMESYLATE,lisdexamfetamine,FALSE,lisdexamfetamine dimesylate
@@ -998,8 +998,8 @@ Y,LORAZEPAM,LORAZEPAM,lorazepam,FALSE,lorazepam
 Y,LOSARTAN,LOSARTAN POTASSIUM,losartan,FALSE,losartan potassium
 Y,,LOTEPREDNOL ETABONATE,loteprednol,FALSE,loteprednol etabonate
 Y,,LOVASTATIN,lovastatin,FALSE,lovastatin
-,,LOXAPINE (LOXAPINE HYDROCHLORIDE),loxapine (loxapine hydrochloride),FALSE,loxapine (loxapine hydrochloride)
-,,LOXAPINE (LOXAPINE SUCCINATE),loxapine (loxapine succinate),FALSE,loxapine (loxapine succinate)
+Y,,LOXAPINE (LOXAPINE HYDROCHLORIDE),loxapine,FALSE,loxapine (loxapine hydrochloride)
+Y,,LOXAPINE (LOXAPINE SUCCINATE),loxapine,FALSE,loxapine (loxapine succinate)
 ,,L-PHENYLALANINE,l-phenylalanine,FALSE,l-phenylalanine
 ,,L-PHENYLALANINE HYDROCHLORIDE,l-phenylalanine hydrochloride,FALSE,l-phenylalanine hydrochloride
 ,,L-PROLINE,l-proline,FALSE,l-proline
@@ -1117,7 +1117,7 @@ Y,MISOPROSTOL,MISOPROSTOL,misoprostol,FALSE,misoprostol
 ,,MITOMYCIN,mitomycin,FALSE,mitomycin
 ,,MITOTANE,mitotane,FALSE,mitotane
 ,,MITOXANTRONE (MITOXANTRONE HYDROCHLORIDE),mitoxantrone (mitoxantrone hydrochloride),FALSE,mitoxantrone (mitoxantrone hydrochloride)
-,,MOCLOBEMIDE,moclobemide,FALSE,moclobemide
+Y,,MOCLOBEMIDE,moclobemide,FALSE,moclobemide
 ,,MODAFINIL,modafinil,FALSE,modafinil
 ,,MODIFIED RAGWEED TYROSINE ADSORBATE,modified ragweed tyrosine adsorbate,FALSE,modified ragweed tyrosine adsorbate
 ,,Modified Vaccinia Virus (Ankara-Bavarian Nordic),modified vaccinia virus (ankara-bavarian nordic),FALSE,modified vaccinia virus (ankara-bavarian nordic)
@@ -1136,11 +1136,11 @@ Y,,MYCOPHENOLATE MOFETIL (MYCOPHENOLATE MOFETIL HYDROCHLORIDE),mycophenolic acid
 Y,,MYCOPHENOLIC ACID (MYCOPHENOLATE SODIUM),mycophenolic acid,FALSE,mycophenolic acid (mycophenolate sodium)
 ,,MYROXYLON BALSAMUM,myroxylon balsamum,FALSE,myroxylon balsamum
 Y,,NABILONE,nabilone,FALSE,nabilone
-,,NABUMETONE,nabumetone,FALSE,nabumetone
+Y,,NABUMETONE,nabumetone,FALSE,nabumetone
 ,,N-ACETYL-L-TYROSINE,n-acetyl-l-tyrosine,FALSE,n-acetyl-l-tyrosine
 Y,NADOLOL,NADOLOL,nadolol,FALSE,nadolol
 Y,,NADROPARIN CALCIUM,nadroparin,FALSE,nadroparin calcium
-,,NAFARELIN (NAFARELIN ACETATE),nafarelin (nafarelin acetate),FALSE,nafarelin (nafarelin acetate)
+Y,,NAFARELIN (NAFARELIN ACETATE),nafarelin,FALSE,nafarelin (nafarelin acetate)
 Y,,NALBUPHINE HYDROCHLORIDE,nalbuphine,FALSE,nalbuphine hydrochloride
 ,,Naloxegol (Naloxegol oxalate),naloxegol (naloxegol oxalate),FALSE,naloxegol (naloxegol oxalate)
 Y,NALOXONE,NALOXONE (NALOXONE HYDROCHLORIDE DIHYDRATE),naloxone,TRUE,naloxone (naloxone hydrochloride)
@@ -1158,7 +1158,7 @@ Y,NEBIVOLOL,Nebivolol (Nebivolol Hydrochloride),nebivolol,FALSE,nebivolol (nebiv
 Y,,NEDOCROMIL SODIUM,nedocromil,FALSE,nedocromil sodium
 ,,NEISSERIA MENINGITIDIS GRP B RECOMBINANT LIPOPROTEIN 2086 SUBFAMILY A,neisseria meningitidis grp b recombinant lipoprotein 2086 subfamily a,FALSE,neisseria meningitidis grp b recombinant lipoprotein 2086 subfamily a
 ,,NEISSERIA MENINGITIDIS GRP B RECOMBINANT LIPOPROTEIN 2086 SUBFAMILY B,neisseria meningitidis grp b recombinant lipoprotein 2086 subfamily b,FALSE,neisseria meningitidis grp b recombinant lipoprotein 2086 subfamily b
-,,NELARABINE,nelarabine,FALSE,nelarabine
+Y,,NELARABINE,nelarabine,FALSE,nelarabine
 Y,,NELFINAVIR (NELFINAVIR MESYLATE),nelfinavir,FALSE,nelfinavir (nelfinavir mesylate)
 ,,NEOMYCIN (NEOMYCIN SULFATE),neomycin (neomycin sulfate),FALSE,neomycin (neomycin sulfate)
 ,,NEOMYCIN SULFATE,neomycin sulfate,FALSE,neomycin sulfate
@@ -1172,17 +1172,17 @@ Y,,NICOTINAMIDE,nicotinamide,FALSE,nicotinamide
 Y,,NICOTINIC ACID,nicotinic acid,FALSE,nicotinic acid
 Y,NIFEDIPINE,NIFEDIPINE,nifedipine,FALSE,nifedipine
 ,,NILOTINIB (NILOTINIB HYDROCHLORIDE MONOHYDRATE),nilotinib (nilotinib hydrochloride monohydrate),TRUE,nilotinib (nilotinib hydrochloride monohydrate)
-,,NILUTAMIDE,nilutamide,FALSE,nilutamide
-,,NIMODIPINE,nimodipine,FALSE,nimodipine
+Y,,NILUTAMIDE,nilutamide,FALSE,nilutamide
+Y,,NIMODIPINE,nimodipine,FALSE,nimodipine
 ,,NINTEDANIB (NINTEDANIB ESILATE),nintedanib (nintedanib esilate),FALSE,nintedanib (nintedanib esilate)
-,,NITISINONE,nitisinone,FALSE,nitisinone
+Y,,NITISINONE,nitisinone,FALSE,nitisinone
 Y,,NITRAZEPAM,nitrazepam,FALSE,nitrazepam
 ,,NITRIC OXIDE,nitric oxide,FALSE,nitric oxide
 Y,NITROFURANTOIN,NITROFURANTOIN,nitrofurantoin,FALSE,nitrofurantoin
 ,,NITROGEN,nitrogen,FALSE,nitrogen
 Y,NITROGLYCERIN,NITROGLYCERIN,nitroglycerin,FALSE,nitroglycerin
 ,,NITROUS OXIDE,nitrous oxide,FALSE,nitrous oxide
-,,NIVOLUMAB,nivolumab,FALSE,nivolumab
+Y,,NIVOLUMAB,nivolumab,FALSE,nivolumab
 Y,,NIZATIDINE,nizatidine,FALSE,nizatidine
 ,,NON POLLEN,non pollen,FALSE,non pollen
 ,,Nonacog Gamma,nonacog gamma,FALSE,nonacog gamma
@@ -1228,7 +1228,7 @@ Y,,ONDANSETRON (ONDANSETRON HYDROCHLORIDE),ondansetron,FALSE,ondansetron (ondans
 Y,,ONDANSETRON (ONDANSETRON HYDROCHLORIDE DIHYDRATE),ondansetron ,TRUE,ondansetron (ondansetron hydrochloride)
 Y,,OPIUM,opium,FALSE,opium
 Y,ORCIPRENALINE,ORCIPRENALINE SULFATE,orciprenaline,FALSE,orciprenaline sulfate
-,,ORLISTAT,orlistat,FALSE,orlistat
+Y,,ORLISTAT,orlistat,FALSE,orlistat
 Y,,ORPHENADRINE CITRATE,orphenadrine,FALSE,orphenadrine citrate
 Y,,OSELTAMIVIR (OSELTAMIVIR PHOSPHATE),oseltamivir,FALSE,oseltamivir (oseltamivir phosphate)
 ,,OSIMERTINIB (OSIMERTINIB MESYLATE),osimertinib (osimertinib mesylate),FALSE,osimertinib (osimertinib mesylate)
@@ -1377,8 +1377,8 @@ Y,,PIZOTIFEN (PIZOTIFEN MALATE),pizotifen,FALSE,pizotifen (pizotifen malate)
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 9N,pneumococcal polysaccharide serotype 9n,FALSE,pneumococcal polysaccharide serotype 9n
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 9V,pneumococcal polysaccharide serotype 9v,FALSE,pneumococcal polysaccharide serotype 9v
 ,,PNEUMOCOCCAL POLYSACCHARIDE SEROTYPE 9V CONJUGATED TO PROTEIN D CARRIER PROTEIN,pneumococcal polysaccharide serotype 9v conjugated to protein d carrier protein,FALSE,pneumococcal polysaccharide serotype 9v conjugated to protein d carrier protein
-,,PODOPHYLLIN,podophyllin,FALSE,podophyllin
-,,PODOPHYLLOTOXIN,podophyllotoxin,FALSE,podophyllotoxin
+Y,,PODOPHYLLIN,podophyllin,FALSE,podophyllin
+Y,,PODOPHYLLOTOXIN,podophyllotoxin,FALSE,podophyllotoxin
 Y,,POLIDOCANOL,polidocanol,FALSE,polidocanol
 ,,POLISTES SPP VENOM PROTEIN EXTRACT,polistes spp venom protein extract,FALSE,polistes spp venom protein extract
 ,,POLLEN,pollen,FALSE,pollen
@@ -1404,7 +1404,7 @@ Y,,POSACONAZOLE,posaconazole,FALSE,posaconazole
 ,,POVIDONE,povidone,FALSE,povidone
 Y,PRAMIPEXOLE,PRAMIPEXOLE DIHYDROCHLORIDE MONOHYDRATE,pramipexole,TRUE,pramipexole dihydrochloride
 ,,PRAMOXINE HYDROCHLORIDE,pramoxine hydrochloride,FALSE,pramoxine hydrochloride
-,,Prasugrel (Prasugrel Hydrochloride),prasugrel (prasugrel hydrochloride),FALSE,prasugrel (prasugrel hydrochloride)
+Y,,Prasugrel (Prasugrel Hydrochloride),prasugrel,FALSE,prasugrel (prasugrel hydrochloride)
 Y,PRAVASTATIN,PRAVASTATIN SODIUM,pravastatin,FALSE,pravastatin sodium
 Y,,PRAZIQUANTEL,praziquantel,FALSE,praziquantel
 Y,PRAZOSIN,PRAZOSIN (PRAZOSIN HYDROCHLORIDE),prazosin,FALSE,prazosin (prazosin hydrochloride)
@@ -1463,14 +1463,14 @@ Y,RABEPRAZOLE SODIUM,RABEPRAZOLE SODIUM,rabeprazole,FALSE,rabeprazole sodium
 ,,RABIES IMMUNOGLOBULIN (HUMAN),rabies immunoglobulin (human),FALSE,rabies immunoglobulin (human)
 ,,RABIES VACCINE INACTIVATED (HUMAN DIPLOID-CELL CULTURE),rabies vaccine inactivated (human diploid-cell culture),FALSE,rabies vaccine inactivated (human diploid-cell culture)
 ,,RABIES VACCINE INACTIVATED (PURIFIED CHICK EMBRYO CELL CULTURE),rabies vaccine inactivated (purified chick embryo cell culture),FALSE,rabies vaccine inactivated (purified chick embryo cell culture)
-,,RALOXIFENE HYDROCHLORIDE,raloxifene hydrochloride,FALSE,raloxifene hydrochloride
+Y,,RALOXIFENE HYDROCHLORIDE,raloxifene,FALSE,raloxifene hydrochloride
 Y,,RALTEGRAVIR (RALTEGRAVIR POTASSIUM),raltegravir,FALSE,raltegravir (raltegravir potassium)
 Y,,RALTITREXED (RALTITREXED DISODIUM),raltitrexed,FALSE,raltitrexed (raltitrexed disodium)
 Y,RAMIPRIL,RAMIPRIL,ramipril,FALSE,ramipril
 ,,RAMUCIRUMAB,ramucirumab,FALSE,ramucirumab
 Y,,RANIBIZUMAB,ranibizumab,FALSE,ranibizumab
 Y,RANITIDINE,RANITIDINE (RANITIDINE HYDROCHLORIDE),ranitidine,FALSE,ranitidine (ranitidine hydrochloride)
-,,RASAGILINE (RASAGILINE MESYLATE),rasagiline (rasagiline mesylate),FALSE,rasagiline (rasagiline mesylate)
+Y,,RASAGILINE (RASAGILINE MESYLATE),rasagiline,FALSE,rasagiline (rasagiline mesylate)
 ,,RASBURICASE,rasburicase,FALSE,rasburicase
 ,,RECOMBINANT CHOLERA TOXIN B SUBUNIT,recombinant cholera toxin b subunit,FALSE,recombinant cholera toxin b subunit
 ,,"Recombinant human coagulation factor IX, FC Fusion protein","recombinant human coagulation factor ix, fc fusion protein",FALSE,"recombinant human coagulation factor ix, fc fusion protein"
@@ -1630,7 +1630,7 @@ Y,,SUCRALFATE,sucralfate,FALSE,sucralfate
 ,,SULFACETAMIDE SODIUM,sulfacetamide sodium,FALSE,sulfacetamide sodium
 Y,,SULFAMETHOXAZOLE,sulfamethoxazole,FALSE,sulfamethoxazole
 Y,,SULFASALAZINE,sulfasalazine,FALSE,sulfasalazine
-,,SULFINPYRAZONE,sulfinpyrazone,FALSE,sulfinpyrazone
+Y,,SULFINPYRAZONE,sulfinpyrazone,FALSE,sulfinpyrazone
 ,,SULFISOXAZOLE,sulfisoxazole,FALSE,sulfisoxazole
 ,,SULFISOXAZOLE (SULFISOXAZOLE ACETYL),sulfisoxazole (sulfisoxazole acetyl),FALSE,sulfisoxazole (sulfisoxazole acetyl)
 ,,SULFUR,sulfur,FALSE,sulfur
@@ -1659,7 +1659,7 @@ Y,TELMISARTAN,TELMISARTAN,telmisartan,FALSE,telmisartan
 Y,TELMISARTAN,TELMISARTAN (TELMISARTAN SODIUM),telmisartan,FALSE,telmisartan (telmisartan sodium)
 Y,TEMAZEPAM,TEMAZEPAM,temazepam,FALSE,temazepam
 ,,TEMOZOLOMIDE,temozolomide,FALSE,temozolomide
-,,TEMSIROLIMUS,temsirolimus,FALSE,temsirolimus
+Y,,TEMSIROLIMUS,temsirolimus,FALSE,temsirolimus
 ,,TENECTEPLASE,tenecteplase,FALSE,tenecteplase
 ,,TENIPOSIDE,teniposide,FALSE,teniposide
 Y,,TENOFOVIR ALAFENAMIDE (TENOFOVIR ALAFENAMIDE HEMIFUMARATE),tenofovir alafenamide,TRUE,tenofovir alafenamide (tenofovir alafenamide hemifumarate)
@@ -1671,8 +1671,8 @@ Y,TERBINAFINE,TERBINAFINE HYDROCHLORIDE,terbinafine,FALSE,terbinafine hydrochlor
 Y,TERBUTALINE,TERBUTALINE SULFATE,terbutaline,FALSE,terbutaline sulfate
 Y,,TERCONAZOLE,terconazole,FALSE,terconazole
 ,,TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID,terephthalylidene dicamphor sulfonic acid,FALSE,terephthalylidene dicamphor sulfonic acid
-,,Teriflunomide,teriflunomide,FALSE,teriflunomide
-,,TERIPARATIDE,teriparatide,FALSE,teriparatide
+Y,,Teriflunomide,teriflunomide,FALSE,teriflunomide
+Y,,TERIPARATIDE,teriparatide,FALSE,teriparatide
 ,,Tesamorelin (Tesamorelin acetate),tesamorelin (tesamorelin acetate),FALSE,tesamorelin (tesamorelin acetate)
 Y,TESTOSTERONE,TESTOSTERONE,testosterone,FALSE,testosterone
 Y,TESTOSTERONE,TESTOSTERONE CYPIONATE,testosterone,FALSE,testosterone cypionate
