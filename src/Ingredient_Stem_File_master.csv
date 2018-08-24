@@ -1090,7 +1090,7 @@ Y,,METHYLDOPA,methyldopa,FALSE,methyldopa
 ,,METHYLENE BLUE,methylene blue,FALSE,methylene blue
 ,,METHYLNALTREXONE BROMIDE,methylnaltrexone bromide,FALSE,methylnaltrexone bromide
 Y,METHYLPHENIDATE,METHYLPHENIDATE HYDROCHLORIDE,methylphenidate,FALSE,methylphenidate hydrochloride
-Y,,METHYLPREDNISOLONE,methylprednisolone,FALSE,methylprednisolone
+Y,,METHYLPREDNISOLONE,methylprednisolone (base),FALSE,methylprednisolone
 Y,,METHYLPREDNISOLONE (METHYLPREDNISOLONE SODIUM SUCCINATE),methylprednisolone,FALSE,methylprednisolone (methylprednisolone sodium succinate)
 Y,,METHYLPREDNISOLONE ACETATE,methylprednisolone acetate,FALSE,methylprednisolone acetate
 Y,METOCLOPRAMIDE,METOCLOPRAMIDE HYDROCHLORIDE,metoclopramide,FALSE,metoclopramide hydrochloride
@@ -1448,7 +1448,7 @@ Y,,PSEUDOEPHEDRINE SULFATE,pseudoephedrine,FALSE,pseudoephedrine sulfate
 ,,PURIFIED PROTEIN DERIVATIVE OF TUBERCULIN,purified protein derivative of tuberculin,FALSE,purified protein derivative of tuberculin
 ,,PYRANTEL (PYRANTEL PAMOATE),pyrantel (pyrantel pamoate),FALSE,pyrantel (pyrantel pamoate)
 Y,,PYRAZINAMIDE,pyrazinamide,FALSE,pyrazinamide
-,,PYRETHRINS,pyrethrins,FALSE,pyrethrins
+Y,,PYRETHRINS,pyrethrins,FALSE,pyrethrins
 Y,,PYRIDOSTIGMINE BROMIDE,pyridostigmine,FALSE,pyridostigmine bromide
 ,,PYRIDOXINE HYDROCHLORIDE,pyridoxine hydrochloride,FALSE,pyridoxine hydrochloride
 ,,PYRILAMINE MALEATE,pyrilamine maleate,FALSE,pyrilamine maleate
