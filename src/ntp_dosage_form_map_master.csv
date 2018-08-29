@@ -598,3 +598,4 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40091,rectal foam,62,RECTAL,Rectale,175,FOAM,Mousse,,,,,
 40001,solution for injection,29-49-56,"INHALATION, INTRAVENOUS, ORAL","Inhalation, Orale, Intraveineuse",134,SOLUTION,Solution,,,,,
 40001,solution for injection,29-49-56,"INHALATION, INTRAVENOUS, ORAL","Inhalation, Orale, Intraveineuse",34,LIQUID,Liquide,,,,,
+40017,powder for solution for injection,12-17-22-49-65,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS",,56,"POWDER FOR SOLUTION","Poudre pour solution",,,,,
