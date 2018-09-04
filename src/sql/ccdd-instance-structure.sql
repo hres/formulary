@@ -2190,7 +2190,8 @@ select
 	cur.ntp_code,
 	cur.ntp_formal_name,
 	(CASE
-		WHEN nxt.ntp_code is null THEN 'DELETED'
+		WHEN nxt.ntp_code is null THEN
+		(CASE WHEN LENGTH(cur.ntp_code) = 32 AND cur.ntp_formal_name = (SELECT ntp_formal_name FROM ccdd_ntp_table WHERE ntp_formal_name = cur.ntp_formal_name) THEN 'CHANGED' ELSE 'DELETED' END)
 		ELSE string_agg(FORMAT(
 			'%s: "%s" -> %s',
 			cmp.field_name,
@@ -2218,7 +2219,8 @@ UNION
 select
 	CAST(nxt.ntp_code AS varchar) as ntp_code,
 	nxt.ntp_formal_name,
-	'ADDED' as changes
+	(CASE WHEN nxt.ntp_formal_name = (SELECT ntp_formal_name FROM ccdd.ntp_release WHERE ntp_formal_name = nxt.ntp_formal_name) THEN 'CHANGED' ELSE 'ADDED' END)
+	 as changes
 from
 	ccdd_ntp_table nxt
 WHERE
@@ -2236,7 +2238,8 @@ select
 	cur.tm_code,
 	cur.tm_formal_name,
 	(CASE
-		WHEN nxt.tm_code is null THEN 'DELETED'
+		WHEN nxt.tm_code is null THEN
+		(CASE WHEN LENGTH(cur.tm_code) = 32 AND cur.tm_formal_name = (SELECT tm_formal_name FROM ccdd_tm_table WHERE tm_formal_name = cur.tm_formal_name) THEN 'CHANGED' ELSE 'DELETED' END)
 		ELSE string_agg(FORMAT(
 			'%s: "%s" -> %s',
 			cmp.field_name,
@@ -2263,7 +2266,8 @@ UNION
 select
 	CAST(nxt.tm_code AS varchar) as tm_code,
 	nxt.tm_formal_name,
-	'ADDED' as changes
+	(CASE WHEN nxt.tm_formal_name = (SELECT tm_formal_name FROM ccdd.tm_release WHERE tm_formal_name = nxt.tm_formal_name) THEN 'CHANGED' ELSE 'ADDED' END)
+	as changes
 from
 	ccdd_tm_table nxt
 WHERE
