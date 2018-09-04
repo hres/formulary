@@ -705,7 +705,7 @@ Y,FORMOTEROL,FORMOTEROL FUMARATE,formoterol,FALSE,formoterol fumarate
 Y,FORMOTEROL,FORMOTEROL FUMARATE DIHYDRATE,formoterol,TRUE,formoterol fumarate
 Y,,FOSAMPRENAVIR (FOSAMPRENAVIR CALCIUM),fosamprenavir,FALSE,fosamprenavir (fosamprenavir calcium)
 Y,,FOSAPREPITANT (FOSAPREPITANT DIMEGLUMINE),fosaprepitant,FALSE,fosaprepitant (fosaprepitant dimeglumine)
-,,FOSFOMYCIN (FOSFOMYCIN TROMETHAMINE),fosfomycin (fosfomycin tromethamine),FALSE,fosfomycin (fosfomycin tromethamine)
+Y,,FOSFOMYCIN (FOSFOMYCIN TROMETHAMINE),fosfomycin,FALSE,fosfomycin (fosfomycin tromethamine)
 Y,FOSINOPRIL,FOSINOPRIL SODIUM,fosinopril,FALSE,fosinopril sodium
 Y,,FOSPHENYTOIN SODIUM,fosphenytoin,FALSE,fosphenytoin sodium
 Y,FRAMYCETIN SULFATE,FRAMYCETIN SULFATE,framycetin,FALSE,framycetin sulfate
