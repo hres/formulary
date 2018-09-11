@@ -60,7 +60,7 @@ psql -c "copy ((select
                 \"Health_Canada_identifier\",
                 \"Health_Canada_product_name\" FROM ccdd_mp_table WHERE tm_is_publishable = true)
                 UNION ALL
-                (select * from ccdd.mp_release_candidate where mp_code = '00525103' OR mp_code = '02212188')) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/mp_release_candidate_${ccdd_current_date}.csv"
+                (select * from ccdd.mp_release_candidate where mp_code = '02212188')) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/mp_release_candidate_${ccdd_current_date}.csv"
 psql -c "copy ((select
                   ntp_code,
                   ntp_formal_name,
@@ -78,8 +78,7 @@ psql -c "copy ((select
                 ntp_formal_name,
                 tm_code,
                 tm_formal_name FROM ccdd_mp_ntp_tm_relationship WHERE tm_is_publishable = true)
-                UNION ALL
-                (select * from ccdd.mp_ntp_tm_relationship_release_candidate where mp_code = '00525103')) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/mp_ntp_tm_relationship_release_candidate_${ccdd_current_date}.csv"
+                ) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/mp_ntp_tm_relationship_release_candidate_${ccdd_current_date}.csv"
 psql -c "copy (select ccdd_code, ccdd_formal_name, ccdd_type, policy_type, policy_reference, special_groupings_status, special_groupings_status_effective_time from ccdd_special_groupings WHERE tm_is_publishable = true) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/special_groupings_release_candidate_${ccdd_current_date}.csv"
 
 # copy hand-curated files
