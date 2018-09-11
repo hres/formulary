@@ -69,8 +69,7 @@ psql -c "copy ((select
                   ntp_status,
                   ntp_status_effective_time,
                   COALESCE(ntp_type, 'NA') as ntp_type FROM ccdd_ntp_table WHERE tm_is_publishable = true)
-                  UNION ALL
-                  (select * from ccdd.ntp_release_candidate where ntp_code = '9006260')) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/ntp_release_candidate_${ccdd_current_date}.csv"
+                ) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/ntp_release_candidate_${ccdd_current_date}.csv"
 psql -c "copy (select tm_code, tm_formal_name, tm_status, tm_status_effective_time FROM ccdd_tm_table WHERE tm_is_publishable = true) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/tm_release_candidate_${ccdd_current_date}.csv"
 psql -c "copy ((select
                 mp_code,
