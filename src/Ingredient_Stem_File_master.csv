@@ -1091,7 +1091,7 @@ Y,,METHYLDOPA,methyldopa,FALSE,methyldopa
 ,,METHYLNALTREXONE BROMIDE,methylnaltrexone bromide,FALSE,methylnaltrexone bromide
 Y,METHYLPHENIDATE,METHYLPHENIDATE HYDROCHLORIDE,methylphenidate,FALSE,methylphenidate hydrochloride
 Y,,METHYLPREDNISOLONE,methylprednisolone (base),FALSE,methylprednisolone
-Y,,METHYLPREDNISOLONE (METHYLPREDNISOLONE SODIUM SUCCINATE),methylprednisolone,FALSE,methylprednisolone (methylprednisolone sodium succinate)
+Y,,METHYLPREDNISOLONE (METHYLPREDNISOLONE SODIUM SUCCINATE),methylprednisolone (base),FALSE,methylprednisolone (methylprednisolone sodium succinate)
 Y,,METHYLPREDNISOLONE ACETATE,methylprednisolone acetate,FALSE,methylprednisolone acetate
 Y,METOCLOPRAMIDE,METOCLOPRAMIDE HYDROCHLORIDE,metoclopramide,FALSE,metoclopramide hydrochloride
 Y,,METOLAZONE,metolazone,FALSE,metolazone
@@ -1147,8 +1147,8 @@ Y,NALOXONE,NALOXONE (NALOXONE HYDROCHLORIDE DIHYDRATE),naloxone,TRUE,naloxone (n
 Y,NALOXONE,NALOXONE HYDROCHLORIDE,naloxone,FALSE,naloxone hydrochloride
 Y,NALOXONE,NALOXONE HYDROCHLORIDE (NALOXONE HYDROCHLORIDE DIHYDRATE),naloxone,TRUE,naloxone hydrochloride
 Y,,NALTREXONE HYDROCHLORIDE,naltrexone,FALSE,naltrexone hydrochloride
-Y,,NAPHAZOLINE HYDROCHLORIDE,naphazoline hydrochloride,FALSE,naphazoline hydrochloride
-Y,,NAPHAZOLINE NITRATE,naphazoline nitrate,FALSE,naphazoline nitrate
+Y,,NAPHAZOLINE HYDROCHLORIDE,naphazoline,FALSE,naphazoline hydrochloride
+Y,,NAPHAZOLINE NITRATE,naphazoline,FALSE,naphazoline nitrate
 Y,NAPROXEN,NAPROXEN,naproxen,FALSE,naproxen
 Y,NAPROXEN,NAPROXEN SODIUM,naproxen,FALSE,naproxen sodium
 Y,NAPROXEN,"NAPROXEN (NAPROXEN SODIUM, NAPROXEN)",naproxen,FALSE,"naproxen (naproxen sodium, naproxen)"
@@ -1403,7 +1403,7 @@ Y,,POSACONAZOLE,posaconazole,FALSE,posaconazole
 ,,POTASSIUM PHOSPHATE MONOBASIC,potassium phosphate monobasic,FALSE,potassium phosphate monobasic
 ,,POVIDONE,povidone,FALSE,povidone
 Y,PRAMIPEXOLE,PRAMIPEXOLE DIHYDROCHLORIDE MONOHYDRATE,pramipexole,TRUE,pramipexole dihydrochloride
-Y,,PRAMOXINE HYDROCHLORIDE,pramoxine hydrochloride,FALSE,pramoxine hydrochloride
+Y,,PRAMOXINE HYDROCHLORIDE,pramoxine,FALSE,pramoxine hydrochloride
 Y,,Prasugrel (Prasugrel Hydrochloride),prasugrel,FALSE,prasugrel (prasugrel hydrochloride)
 Y,PRAVASTATIN,PRAVASTATIN SODIUM,pravastatin,FALSE,pravastatin sodium
 Y,,PRAZIQUANTEL,praziquantel,FALSE,praziquantel
@@ -1573,7 +1573,7 @@ Y,,SITAGLIPTIN (SITAGLIPTIN PHOSPHATE),sitagliptin,FALSE,sitagliptin (sitaglipti
 ,,SODIUM CARBOXYMETHYL CELLULOSE,sodium carboxymethyl cellulose,FALSE,sodium carboxymethyl cellulose
 ,,SODIUM CHLORIDE,sodium chloride,FALSE,sodium chloride
 Y,,SODIUM CITRATE,sodium citrate,FALSE,sodium citrate
-Y,,SODIUM CITRATE DIHYDRATE,sodium citrate dihydrate,TRUE,sodium citrate dihydrate
+Y,,SODIUM CITRATE DIHYDRATE,sodium citrate,TRUE,sodium citrate
 ,,SODIUM FLUORIDE,sodium fluoride,FALSE,sodium fluoride
 ,,SODIUM GLUCONATE,sodium gluconate,FALSE,sodium gluconate
 ,,SODIUM GLYCEROPHOSPHATE,sodium glycerophosphate,FALSE,sodium glycerophosphate
