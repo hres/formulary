@@ -360,7 +360,7 @@ Y,CLINDAMYCIN,CLINDAMYCIN (CLINDAMYCIN HYDROCHLORIDE),clindamycin,FALSE,clindamy
 Y,CLINDAMYCIN,CLINDAMYCIN (CLINDAMYCIN PHOSPHATE),clindamycin,FALSE,clindamycin (clindamycin phosphate)
 Y,CLINDAMYCIN,CLINDAMYCIN HYDROCHLORIDE,clindamycin,FALSE,clindamycin hydrochloride
 Y,CLINDAMYCIN,CLINDAMYCIN PHOSPHATE,clindamycin,FALSE,clindamycin phosphate
-,,CLIOQUINOL,clioquinol,FALSE,clioquinol
+Y,,CLIOQUINOL,clioquinol,FALSE,clioquinol
 Y,CLOBAZAM,CLOBAZAM,clobazam,FALSE,clobazam
 Y,CLOBETASOL,CLOBETASOL PROPIONATE,clobetasol,FALSE,clobetasol propionate
 Y,,CLOBETASONE BUTYRATE,clobetasone,FALSE,clobetasone butyrate
