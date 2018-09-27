@@ -503,7 +503,6 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40001,solution for injection,65,SUBCUTANEOUS,Sous-cutan?e,155,SOLUTION (EXTENDED RELEASE),Solution (? lib?ration prolong?e),29473,TRUE,2017-11-28,dbuijs,e93c4460-d459-11e7-8749-aa0000cecfa6
 40001,solution for injection,109,SUBMUCOSAL,Sous-muqueuse,134,SOLUTION,Solution,29484,TRUE,2017-11-28,dbuijs,e93c4898-d459-11e7-8749-aa0000cecfa6
 40036,solution for peritoneal dialysis,33,INTRAPERITONEAL,Intrap?riton?ale,134,SOLUTION,Solution,29292,TRUE,2017-11-28,dbuijs,e93beca4-d459-11e7-8749-aa0000cecfa6
-40125,spray (bag-on-valve),70,TOPICAL,Topique,164,"SPRAY, BAG-ON-VALVE","Pulv?risation, sac-sur-valve",29509,TRUE,2017-11-28,dbuijs,e93c5252-d459-11e7-8749-aa0000cecfa6
 40104,sublingual spray,66,SUBLINGUAL,Sublinguale,1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29479,TRUE,2017-11-28,dbuijs,e93c46a4-d459-11e7-8749-aa0000cecfa6
 40104,sublingual spray,66,SUBLINGUAL,Sublinguale,117,METERED-DOSE PUMP,Pompe ? dose mesur?e,29480,TRUE,2017-11-28,dbuijs,e93c4708-d459-11e7-8749-aa0000cecfa6
 40105,sublingual tablet,66,SUBLINGUAL,Sublinguale,85,TABLET,Comprim?,29481,TRUE,2017-11-28,dbuijs,e93c476c-d459-11e7-8749-aa0000cecfa6
