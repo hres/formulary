@@ -75,7 +75,7 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40071,gastro-resistant granules for oral suspension,56,ORAL,Orale,148,"GRANULES FOR SUSPENSION, DELAYED RELEASE","Granules pour suspension, ? lib?ration retard?e",29405,TRUE,2017-11-28,dbuijs,e93c24ee-d459-11e7-8749-aa0000cecfa6
 40081,gastro-resistant tablet,56,ORAL,Orale,109,TABLET (DELAYED-RELEASE),Comprim? (? lib?ration retard?e),29425,TRUE,2017-11-28,dbuijs,e93c2e62-d459-11e7-8749-aa0000cecfa6
 40081,gastro-resistant tablet,56,ORAL,Orale,17,TABLET (ENTERIC-COATED),Comprim? (ent?rosoluble),29427,TRUE,2017-11-28,dbuijs,e93c2f34-d459-11e7-8749-aa0000cecfa6
-40069,granules for oral solution,56,ORAL,Orale,163,GRANULES FOR SOLUTION,Granules pour solution,29403,TRUE,2017-11-28,dbuijs,e93c2430-d459-11e7-8749-aa0000cecfa6
+40064,oral solution,56,ORAL,Orale,163,GRANULES FOR SOLUTION,Granules pour solution,,,,,
 40068,granules for oral suspension,56,ORAL,Orale,53,GRANULES,Granules,29402,TRUE,2017-11-28,dbuijs,e93c23cc-d459-11e7-8749-aa0000cecfa6
 40101,implant,65,SUBCUTANEOUS,Sous-cutan?e,30,IMPLANT,Implant,29468,TRUE,2017-11-28,dbuijs,e93c424e-d459-11e7-8749-aa0000cecfa6
 40025,inhalation powder,29,INHALATION,Inhalation,1-55,"METERED-DOSE AEROSOL, POWDER","A?rosol ? dose mesur?e, Poudre",29032,TRUE,2017-11-28,dbuijs,e93b4484-d459-11e7-8749-aa0000cecfa6
