@@ -601,3 +601,4 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40017,powder for solution for injection,12-17-22-49-65,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS",,56,"POWDER FOR SOLUTION","Poudre pour solution",,,,,
 40026,powder for nebuliser solution,29,INHALATION,Inhalation,2-56,"AEROSOL, POWDER FOR SOLUTION","A?rosol, Poudre pour solution",,,,,
 40001,solution for injection,90,EXTRACORPOREAL,Extracorporelle,134,SOLUTION,Solution,,,,,
+40106,cutaneous spray,70,TOPICAL,Topique,164,"SPRAY,BAG-ON-VALVE","Pulverisation,sac-sur-valve",,,,,
