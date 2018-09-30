@@ -811,7 +811,7 @@ Y,HYDROXYCHLOROQUINE,HYDROXYCHLOROQUINE SULFATE,hydroxychloroquine,FALSE,hydroxy
 ,,HYDROXYETHYL STARCH 130/0.4,hydroxyethyl starch 130/0.4,FALSE,hydroxyethyl starch 130/0.4
 Y,,HYDROXYUREA,hydroxyurea,FALSE,hydroxyurea
 Y,HYDROXYZINE,HYDROXYZINE HYDROCHLORIDE,hydroxyzine,FALSE,hydroxyzine hydrochloride
-Y,,HYDROXYZINE HYDROCHLORIDE,hyoscine,FALSE,hyoscine butylbromide
+Y,,HYOSCINE BUTYLBROMIDE,hyoscine,FALSE,hyoscine butylbromide
 Y,,HYPROLOSE,hyprolose,FALSE,hyprolose
 Y,,HYPROMELLOSE,hypromellose,FALSE,hypromellose
 Y,,Ibrutinib,ibrutinib,FALSE,ibrutinib
@@ -1084,11 +1084,11 @@ Y,,METHOTRIMEPRAZINE (METHOTRIMEPRAZINE HYDROCHLORIDE),methotrimeprazine,FALSE,m
 Y,,METHOTRIMEPRAZINE (METHOTRIMEPRAZINE MALEATE),methotrimeprazine,FALSE,methotrimeprazine (methotrimeprazine maleate)
 Y,,METHOXSALEN,methoxsalen,FALSE,methoxsalen
 Y,,METHOXYFLURANE,methoxyflurane,FALSE,methoxyflurane
-,,METHYL AMINOLEVULINATE (METHYL AMINOLEVULINATE HYDROCHLORIDE),methyl aminolevulinate,FALSE,methyl aminolevulinate (methyl aminolevulinate hydrochloride)
+Y,,METHYL AMINOLEVULINATE (METHYL AMINOLEVULINATE HYDROCHLORIDE),methyl aminolevulinate,FALSE,methyl aminolevulinate (methyl aminolevulinate hydrochloride)
 ,,METHYL HEPTYL COLAMINO FORMYLMETHYL PYRIDINIUM CHL,methyl heptyl colamino formylmethyl pyridinium chl,FALSE,methyl heptyl colamino formylmethyl pyridinium chl
 Y,,METHYLDOPA,methyldopa,FALSE,methyldopa
 ,,METHYLENE BLUE,methylene blue,FALSE,methylene blue
-,,METHYLNALTREXONE BROMIDE,methylnaltrexone,FALSE,methylnaltrexone bromide
+Y,,METHYLNALTREXONE BROMIDE,methylnaltrexone,FALSE,methylnaltrexone bromide
 Y,METHYLPHENIDATE,METHYLPHENIDATE HYDROCHLORIDE,methylphenidate,FALSE,methylphenidate hydrochloride
 Y,,METHYLPREDNISOLONE,methylprednisolone (base),FALSE,methylprednisolone
 Y,,METHYLPREDNISOLONE (METHYLPREDNISOLONE SODIUM SUCCINATE),methylprednisolone (base),FALSE,methylprednisolone (methylprednisolone sodium succinate)
