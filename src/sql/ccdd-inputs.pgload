@@ -78,7 +78,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM https://raw.githubusercontent.com/hres/formulary/sql-views/src/ntp_dosage_form_map_master.csv
+  FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ntp_dosage_form_map_master.csv
     WITH ENCODING LATIN-1
     (
       ntp_dosage_form_code,

@@ -1,8 +1,8 @@
 #!/bin/bash -e
 # Must set environment variables PGHOST, PGUSER and PGPASSWORD. PGDATABASE must be unset
 
-ccdd_qa_release_date="20180802"
-ccdd_current_release_date="20180810"
+ccdd_qa_release_date="20180905"
+ccdd_current_release_date="20180911"
 ccdd_current_date=$(date +'%Y%m%d')
 
 
