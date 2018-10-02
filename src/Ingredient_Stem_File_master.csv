@@ -93,7 +93,7 @@ Y,,ANAKINRA,anakinra,FALSE,anakinra
 Y,,ANASTROZOLE,anastrozole,FALSE,anastrozole
 Y,,ANETHOLE TRITHIONE,anethole trithione,FALSE,anethole trithione
 Y,,ANIDULAFUNGIN,anidulafungin,FALSE,anidulafungin
-Y,,ANTAZOLINE PHOSPHATE,antazoline phosphate,FALSE,antazoline phosphate
+Y,,ANTAZOLINE PHOSPHATE,antazoline,FALSE,antazoline phosphate
 ,,ANTI-D (RH) IMMUNOGLOBULIN (HUMAN),anti-d (rh) immunoglobulin (human),FALSE,anti-d (rh) immunoglobulin (human)
 ,,ANTIHEMOPHILIC FACTOR (HUMAN),antihemophilic factor (human),FALSE,antihemophilic factor (human)
 ,,"Antihemophilic Factor (Recombinant BDD), FC Fusion Protein",antihemophilic factor (recombinant BDD) FC fusion protein,FALSE,antihemophilic factor (recombinant BDD) FC fusion protein
@@ -117,7 +117,7 @@ Y,,ARGATROBAN,argatroban,FALSE,argatroban
 ,,ARGININE HYDROCHLORIDE,arginine hydrochloride,FALSE,arginine hydrochloride
 Y,ARIPIPRAZOLE,ARIPIPRAZOLE,aripiprazole,FALSE,aripiprazole
 ,,ARSENIC TRIOXIDE,arsenic trioxide,FALSE,arsenic trioxide
-Y,,ARTICAINE HYDROCHLORIDE,articaine hydrochloride,FALSE,articaine hydrochloride
+Y,,ARTICAINE HYDROCHLORIDE,articaine,FALSE,articaine hydrochloride
 Y,,Asenapine (Asenapine maleate),asenapine,FALSE,asenapine (asenapine maleate)
 Y,,ASFOTASE ALFA,asfotase alfa,FALSE,asfotase alfa
 Y,,ASPARAGINASE,asparaginase,FALSE,asparaginase
@@ -752,7 +752,7 @@ Y,,GLYCOPYRROLATE,glycopyrrolate,FALSE,glycopyrrolate
 Y,,GLYCOPYRRONIUM (Glycopyrronium Bromide),glycopyrronium,FALSE,glycopyrronium (glycopyrronium bromide)
 Y,,GOLD SODIUM THIOMALATE,gold sodium thiomalate,FALSE,gold sodium thiomalate
 Y,,GOLIMUMAB,golimumab,FALSE,golimumab
-Y,,GONADORELIN ACETATE,gonadorelin acetate,FALSE,gonadorelin acetate
+Y,,GONADORELIN ACETATE,gonadorelin,FALSE,gonadorelin acetate
 Y,,GOSERELIN (GOSERELIN ACETATE),goserelin,FALSE,goserelin (goserelin acetate)
 Y,,GRAMICIDIN,gramicidin,FALSE,gramicidin
 Y,,GRANISETRON (GRANISETRON HYDROCHLORIDE),granisetron,FALSE,granisetron (granisetron hydrochloride)
@@ -1160,8 +1160,8 @@ Y,,NEDOCROMIL SODIUM,nedocromil,FALSE,nedocromil sodium
 ,,NEISSERIA MENINGITIDIS GRP B RECOMBINANT LIPOPROTEIN 2086 SUBFAMILY B,neisseria meningitidis grp b recombinant lipoprotein 2086 subfamily b,FALSE,neisseria meningitidis grp b recombinant lipoprotein 2086 subfamily b
 Y,,NELARABINE,nelarabine,FALSE,nelarabine
 Y,,NELFINAVIR (NELFINAVIR MESYLATE),nelfinavir,FALSE,nelfinavir (nelfinavir mesylate)
-Y,,NEOMYCIN (NEOMYCIN SULFATE),neomycin (neomycin sulfate),FALSE,neomycin (neomycin sulfate)
-Y,,NEOMYCIN SULFATE,neomycin sulfate,FALSE,neomycin sulfate
+Y,,NEOMYCIN (NEOMYCIN SULFATE),neomycin,FALSE,neomycin (neomycin sulfate)
+Y,,NEOMYCIN SULFATE,neomycin,FALSE,neomycin sulfate
 ,,NEON,neon,FALSE,neon
 ,,NEOSTIGMINE BROMIDE,neostigmine bromide,FALSE,neostigmine bromide
 ,,NEOSTIGMINE METHYLSULFATE,neostigmine methylsulfate,FALSE,neostigmine methylsulfate
