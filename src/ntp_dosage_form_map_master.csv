@@ -171,7 +171,7 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40078,oral tablet,56,ORAL,Orale,85,TABLET,Comprim?,29421,TRUE,2017-11-28,dbuijs,e93c2cc8-d459-11e7-8749-aa0000cecfa6
 40078,oral tablet,56,ORAL,Orale,150,TABLET (IMMEDIATE RELEASE),Comprim? (? lib?ration imm?diate),29432,TRUE,2017-11-28,dbuijs,e93c313c-d459-11e7-8749-aa0000cecfa6
 40066,orodispersible film,56,ORAL,Orale,167,"FILM, SOLUBLE","Pellicule, soluble",29400,TRUE,2017-11-28,dbuijs,e93c2304-d459-11e7-8749-aa0000cecfa6
-40076,orodispersible tablet,56,ORAL,Orale,77,STRIP,Bandelette,29417,TRUE,2017-11-28,dbuijs,e93c2b42-d459-11e7-8749-aa0000cecfa6
+40066,orodispersible film,56,ORAL,Orale,77,STRIP,Bandelette,29417,TRUE,2017-11-28,dbuijs,e93c2b42-d459-11e7-8749-aa0000cecfa6
 40076,orodispersible tablet,56,ORAL,Orale,132,TABLET (ORALLY DISINTEGRATING),Comprim? (? d?sint?gration orale),29433,TRUE,2017-11-28,dbuijs,e93c31a0-d459-11e7-8749-aa0000cecfa6
 40076,orodispersible tablet,66,SUBLINGUAL,Sublinguale,132,TABLET (ORALLY DISINTEGRATING),Comprim? (? d?sint?gration orale),29482,TRUE,2017-11-28,dbuijs,e93c47d0-d459-11e7-8749-aa0000cecfa6
 40002,oromucosal gel,3,BUCCAL,Buccale,114,GEL,Gel,28981,TRUE,2017-11-28,dbuijs,e93b271a-d459-11e7-8749-aa0000cecfa6
