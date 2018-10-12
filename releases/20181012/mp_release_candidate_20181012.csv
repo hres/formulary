@@ -9139,5 +9139,5 @@ mp_code,mp_formal_name,mp_en_description,mp_fr_description,mp_status,mp_status_e
 "02230769","DALMACOL (alcohol anhydrous 0.25 mL per 5 mL and doxylamine succinate 6 mg per 5 mL and etafedrin hydrochloride 16.65 mg per 5 mL and hydrocodone bitartrate 1.65 mg per 5 mL and sodium citrate 200 mg per 5 mL syrup) LABORATOIRE RIVA INC","NA","NA","Active","19970326","DIN","02230769","DALMACOL"
 "02351110","FAMOTIDINE TABLETS (famotidine 40 mg oral tablet) SANIS HEALTH INC","NA","NA","Active","20100615","DIN","02351110","FAMOTIDINE TABLETS"
 "02212188","IMITREX (sumatriptan (sumatriptan succinate) 6 mg per 0.5 mL solution for injection syringe) GLAXOSMITHKLINE INC","NA","NA","Deprec","20180601","DIN","02212188","IMITREX"
-"02480360","AUVI-Q (epinephrine 0.15 mg per 0.15 mL solution for injection syringe) KALEO INC","NA","NA","Active","20181001","NA","02480360","AUVI-Q"
-"02480379","AUVI-Q (epinephrine 0.3 mg per 0.3 mL solution for injection syringe) KALEO INC","NA","NA","Active","20181001","NA","02480379","AUVI-Q"
+"02480360","AUVI-Q (epinephrine 0.15 mg per 0.15 mL solution for injection syringe) KALEO INC","NA","NA","Active","20181001","DIN","02480360","AUVI-Q"
+"02480379","AUVI-Q (epinephrine 0.3 mg per 0.3 mL solution for injection syringe) KALEO INC","NA","NA","Active","20181001","DIN","02480379","AUVI-Q"
