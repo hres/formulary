@@ -1724,55 +1724,55 @@ Y,TOBRAMYCIN,TOBRAMYCIN (TOBRAMYCIN SULFATE),tobramycin,FALSE,tobramycin (tobram
 ,,TOCILIZUMAB,tocilizumab,FALSE,tocilizumab
 ,,Tofacitinib (Tofacitinib citrate),tofacitinib (tofacitinib citrate),FALSE,tofacitinib (tofacitinib citrate)
 Y,TOLBUTAMIDE,TOLBUTAMIDE,tolbutamide,FALSE,tolbutamide
-,,TOLNAFTATE,tolnaftate,FALSE,tolnaftate
+Y,,TOLNAFTATE,tolnaftate,FALSE,tolnaftate
 Y,TOLTERODINE,TOLTERODINE TARTRATE,tolterodine,FALSE,tolterodine tartrate
 Y,TOLVAPTAN,Tolvaptan,tolvaptan,FALSE,tolvaptan
 Y,TOPIRAMATE,TOPIRAMATE,topiramate,FALSE,topiramate
-,,TOPOTECAN (TOPOTECAN HYDROCHLORIDE),topotecan,FALSE,topotecan (topotecan hydrochloride)
-,,TRABECTEDIN,trabectedin,FALSE,trabectedin
+Y,,TOPOTECAN (TOPOTECAN HYDROCHLORIDE),topotecan,FALSE,topotecan (topotecan hydrochloride)
+Y,,TRABECTEDIN,trabectedin,FALSE,trabectedin
 Y,TRAMADOL,TRAMADOL HYDROCHLORIDE,tramadol,FALSE,tramadol hydrochloride
-,,Trametinib,trametinib,FALSE,trametinib
+Y,,Trametinib,trametinib,FALSE,trametinib
 Y,TRANDOLAPRIL,TRANDOLAPRIL,trandolapril,FALSE,trandolapril
-,,TRANEXAMIC ACID,tranexamic acid,FALSE,tranexamic acid
+Y,,TRANEXAMIC ACID,tranexamic acid,FALSE,tranexamic acid
 Y,,TRANYLCYPROMINE (TRANYLCYPROMINE SULFATE),tranylcypromine,FALSE,tranylcypromine (tranylcypromine sulfate)
-,,TRASTUZUMAB,trastuzumab,FALSE,trastuzumab
-,,TRASTUZUMAB EMTANSINE,trastuzumab emtansine,FALSE,trastuzumab emtansine
+Y,,TRASTUZUMAB,trastuzumab,FALSE,trastuzumab
+Y,,TRASTUZUMAB EMTANSINE,trastuzumab emtansine,FALSE,trastuzumab emtansine
 Y,TRAVOPROST,TRAVOPROST,travoprost,FALSE,travoprost
 Y,TRAZODONE,TRAZODONE HYDROCHLORIDE,trazodone,FALSE,trazodone hydrochloride
-,,TREPROSTINIL (TREPROSTINIL SODIUM),treprostinil (treprostinil sodium),FALSE,treprostinil (treprostinil sodium)
+Y,,TREPROSTINIL (TREPROSTINIL SODIUM),treprostinil,FALSE,treprostinil (treprostinil sodium)
 Y,,TRETINOIN,tretinoin,FALSE,tretinoin
 Y,TRIAMCINOLONE ACETONIDE,TRIAMCINOLONE ACETONIDE,triamcinolone acetonide,FALSE,triamcinolone acetonide
 Y,,TRIAMCINOLONE DIACETATE,triamcinolone diacetate,FALSE,triamcinolone diacetate
 Y,TRIAMCINOLONE ACETONIDE,TRIAMCINOLONE HEXACETONIDE,triamcinolone hexacetonide,FALSE,triamcinolone hexacetonide
 Y,TRIAMTERENE,TRIAMTERENE,triamterene,FALSE,triamterene
 Y,,TRIAZOLAM,triazolam,FALSE,triazolam
-,,TRICLOSAN,triclosan,FALSE,triclosan
-,,TRIFLUOPERAZINE (TRIFLUOPERAZINE HYDROCHLORIDE),trifluoperazine (trifluoperazine hydrochloride),FALSE,trifluoperazine (trifluoperazine hydrochloride)
+Y,,TRICLOSAN,triclosan,FALSE,triclosan
+Y,,TRIFLUOPERAZINE (TRIFLUOPERAZINE HYDROCHLORIDE),trifluoperazine,FALSE,trifluoperazine (trifluoperazine hydrochloride)
 Y,,TRIFLURIDINE,trifluridine,FALSE,trifluridine
 Y,,TRIHEXYPHENIDYL HYDROCHLORIDE,trihexyphenidyl,FALSE,trihexyphenidyl hydrochloride
-,,TRIMEBUTINE MALEATE,trimebutine maleate,FALSE,trimebutine maleate
+Y,,TRIMEBUTINE MALEATE,trimebutine,FALSE,trimebutine maleate
 Y,,TRIMEPRAZINE (TRIMEPRAZINE TARTRATE),trimeprazine,FALSE,trimeprazine (trimeprazine tartrate)
 Y,TRIMETHOPRIM,TRIMETHOPRIM,trimethoprim,FALSE,trimethoprim
 Y,TRIMETHOPRIM,TRIMETHOPRIM (TRIMETHOPRIM SULFATE),trimethoprim,FALSE,trimethoprim (trimethoprim sulfate)
 Y,,TRIMIPRAMINE (TRIMIPRAMINE MALEATE),trimipramine,FALSE,trimipramine (trimipramine maleate)
 ,,TRIPELENNAMINE HYDROCHLORIDE,tripelennamine hydrochloride,FALSE,tripelennamine hydrochloride
 ,,TRIPROLIDINE HYDROCHLORIDE,triprolidine hydrochloride,FALSE,triprolidine hydrochloride
-,,TRIPTORELIN (TRIPTORELIN PAMOATE),triptorelin (triptorelin pamoate),FALSE,triptorelin (triptorelin pamoate)
-,,Triptorelin Acetate,triptorelin acetate,FALSE,triptorelin acetate
-,,TROLAMINE SALICYLATE,trolamine salicylate,FALSE,trolamine salicylate
-,,TROMETAMOL,trometamol,FALSE,trometamol
+Y,,TRIPTORELIN (TRIPTORELIN PAMOATE),triptorelin,FALSE,triptorelin (triptorelin pamoate)
+Y,,Triptorelin Acetate,triptorelin,FALSE,triptorelin acetate
+Y,,TROLAMINE SALICYLATE,trolamine salicylate,FALSE,trolamine salicylate
+Y,,TROMETAMOL,trometamol,FALSE,trometamol
 Y,,TROPICAMIDE,tropicamide,FALSE,tropicamide
 Y,,TROSPIUM CHLORIDE,trospium,FALSE,trospium chloride
-,,TRYPAN BLUE,trypan blue,FALSE,trypan blue
+Y,,TRYPAN BLUE,trypan blue,FALSE,trypan blue
 ,,TRYPTOPHAN,tryptophan,FALSE,tryptophan
 ,,TUROCTOCOG ALFA,turoctocog alfa,FALSE,turoctocog alfa
 ,,TYPHOID VACCINE (SALMONELLA TYPHI TY21A),typhoid vaccine (salmonella typhi ty21a),FALSE,typhoid vaccine (salmonella typhi ty21a)
 ,,TYROSINE,tyrosine,FALSE,tyrosine
-,,Ulipristal Acetate,ulipristal acetate,FALSE,ulipristal acetate
+Y,,Ulipristal Acetate,ulipristal,FALSE,ulipristal acetate
 Y,UMECLIDINIUM,Umeclidinium (Umeclidinium bromide),umeclidinium,FALSE,umeclidinium (umeclidinium bromide)
 ,,UREA,urea,FALSE,urea
 Y,,URSODIOL,ursodiol,FALSE,ursodiol
-,,USTEKINUMAB,ustekinumab,FALSE,ustekinumab
+Y,,USTEKINUMAB,ustekinumab,FALSE,ustekinumab
 Y,VALACYCLOVIR,VALACYCLOVIR (VALACYCLOVIR HYDROCHLORIDE MONOHYDRATE),valacyclovir,TRUE,valacyclovir (valacyclovir hydrochloride)
 Y,VALACYCLOVIR,VALACYCLOVIR (VALACYCLOVIR HYDROCHLORIDE),valacyclovir,FALSE,valacyclovir (valacyclovir hydrochloride)
 Y,,VALGANCICLOVIR (VALGANCICLOVIR HYDROCHLORIDE),valganciclovir,FALSE,valganciclovir (valganciclovir hydrochloride)
@@ -1791,17 +1791,17 @@ Y,VARENICLINE,VARENICLINE (VARENICLINE TARTRATE),varenicline,FALSE,varenicline (
 ,,VARICELLA ZOSTER IMMUNOGLOBULIN (HUMAN),varicella zoster immunoglobulin (human),FALSE,varicella zoster immunoglobulin (human)
 ,,VARICELLA-ZOSTER VIRUS GLYCOPROTEIN E ANTIGEN,varicella-zoster virus glycoprotein E antigen,FALSE,varicella-zoster virus glycoprotein E antigen
 ,,VARICELLA-ZOSTER VIRUS VACCINE LIVE ATTENUATED (OKA/MERCK STRAIN),varicella-zoster virus vaccine live attenuated (oka/merck strain),FALSE,varicella-zoster virus vaccine live attenuated (oka/merck strain)
-,,VASOPRESSIN,vasopressin,FALSE,vasopressin
+Y,,VASOPRESSIN,vasopressin,FALSE,vasopressin
 ,,VECURONIUM BROMIDE,vecuronium bromide,FALSE,vecuronium bromide
-,,Vedolizumab,vedolizumab,FALSE,vedolizumab
-,,VELAGLUCERASE ALFA,velaglucerase alfa,FALSE,velaglucerase alfa
+Y,,Vedolizumab,vedolizumab,FALSE,vedolizumab
+Y,,VELAGLUCERASE ALFA,velaglucerase alfa,FALSE,velaglucerase alfa
 Y,,VELPATASVIR,velpatasvir,FALSE,velpatasvir
-,,Vemurafenib,vemurafenib,FALSE,vemurafenib
-,,VENETOCLAX,venetoclax,FALSE,venetoclax
+Y,,Vemurafenib,vemurafenib,FALSE,vemurafenib
+Y,,VENETOCLAX,venetoclax,FALSE,venetoclax
 Y,VENLAFAXINE,VENLAFAXINE (VENLAFAXINE HYDROCHLORIDE),venlafaxine,FALSE,venlafaxine (venlafaxine hydrochloride)
 Y,VERAPAMIL,VERAPAMIL HYDROCHLORIDE,verapamil,FALSE,verapamil hydrochloride
 Y,,VERNAKALANT HYDROCHLORIDE,vernakalant,FALSE,vernakalant hydrochloride
-,,VERTEPORFIN,verteporfin,FALSE,verteporfin
+Y,,VERTEPORFIN,verteporfin,FALSE,verteporfin
 ,,VESPULA SPP VENOM PROTEIN EXTRACT,vespula spp venom protein extract,FALSE,vespula spp venom protein extract
 ,,"VIBRIO CHOLERAE INABA 48 CLASSICAL BIOTYPE, HEAT INACTIVATED","vibrio cholerae inaba 48 classical biotype, heat inactivated",FALSE,"vibrio cholerae inaba 48 classical biotype, heat inactivated"
 ,,"VIBRIO CHOLERAE INABA 6973 E1 TOR BIOTYPE, FORMALIN INACTIVATED","vibrio cholerae inaba 6973 e1 tor biotype, formalin inactivated",FALSE,"vibrio cholerae inaba 6973 e1 tor biotype, formalin inactivated"
@@ -1810,52 +1810,52 @@ Y,,VERNAKALANT HYDROCHLORIDE,vernakalant,FALSE,vernakalant hydrochloride
 Y,,VIGABATRIN,vigabatrin,FALSE,vigabatrin
 Y,VILANTEROL,Vilanterol (Vilanterol trifenatate),vilanterol,FALSE,vilanterol (vilanterol trifenatate)
 Y,,VILAZODONE HYDROCHLORIDE,vilazodone,FALSE,vilazodone hydrochloride
-,,VINBLASTINE SULFATE,vinblastine sulfate,FALSE,vinblastine sulfate
-,,VINCRISTINE SULFATE,vincristine sulfate,FALSE,vincristine sulfate
-,,VINORELBINE (VINORELBINE TARTRATE),vinorelbine (vinorelbine tartrate),FALSE,vinorelbine (vinorelbine tartrate)
-,,Vismodegib,vismodegib,FALSE,vismodegib
-,,VITAMIN A,vitamin A,FALSE,vitamin A
-,,VITAMIN A (RETINOL PALMITATE),vitamin A (retinol palmitate),FALSE,vitamin A (retinol palmitate)
-,,VITAMIN A (RETINYL PALMITATE),vitamin A (retinyl palmitate),FALSE,vitamin A (retinyl palmitate)
-,,VITAMIN B1,vitamin B1,FALSE,vitamin B1
-,,VITAMIN B1 (THIAMINE HYDROCHLORIDE),vitamin B1 (thiamine hydrochloride),FALSE,vitamin B1 (thiamine hydrochloride)
-,,VITAMIN B1 (THIAMINE MONONITRATE),vitamin B1 (thiamine mononitrate),FALSE,vitamin B1 (thiamine mononitrate)
-,,VITAMIN B12,vitamin B12,FALSE,vitamin B12
-,,VITAMIN B12 (CYANOCOBALAMIN),vitamin B12 (cyanocobalamin),FALSE,vitamin B12 (cyanocobalamin)
-,,VITAMIN B12 (VITAMIN B12),vitamin B12 (vitamin B12),FALSE,vitamin B12 (vitamin B12)
-,,VITAMIN B2,vitamin B2,FALSE,vitamin B2
-,,VITAMIN B2 (RIBOFLAVIN 5'-PHOSPHATE SODIUM),vitamin B2 (riboflavin 5'-phosphate sodium),FALSE,vitamin B2 (riboflavin 5'-phosphate sodium)
-,,VITAMIN B2 (RIBOFLAVIN),vitamin B2 (riboflavin),FALSE,vitamin B2 (riboflavin)
-,,VITAMIN B2 (RIBOFLAVIN-5-PHOSPHATE),vitamin B2 (riboflavin-5-phosphate),FALSE,vitamin B2 (riboflavin-5-phosphate)
-,,VITAMIN B6 (PYRIDOXINE HYDROCHLORIDE),vitamin B6 (pyridoxine hydrochloride),FALSE,vitamin B6 (pyridoxine hydrochloride)
-,,VITAMIN C,vitamin C,FALSE,vitamin C
-,,VITAMIN C (ASCORBIC ACID),vitamin C (ascorbic acid),FALSE,vitamin C (ascorbic acid)
-,,VITAMIN C (CALCIUM ASCORBATE),vitamin C (calcium ascorbate),FALSE,vitamin C (calcium ascorbate)
-,,VITAMIN C (SODIUM ASCORBATE),vitamin C (sodium ascorbate),FALSE,vitamin C (sodium ascorbate)
-,,VITAMIN D,vitamin D,FALSE,vitamin D
-,VITAMIN D2,VITAMIN D2,vitamin D2,FALSE,vitamin D2
+Y,,VINBLASTINE SULFATE,vinblastine,FALSE,vinblastine sulfate
+Y,,VINCRISTINE SULFATE,vincristine,FALSE,vincristine sulfate
+Y,,VINORELBINE (VINORELBINE TARTRATE),vinorelbine,FALSE,vinorelbine (vinorelbine tartrate)
+Y,,Vismodegib,vismodegib,FALSE,vismodegib
+Y,,VITAMIN A,vitamin A,FALSE,vitamin A
+Y,,VITAMIN A (RETINOL PALMITATE),vitamin A (retinol palmitate),FALSE,vitamin A (retinol palmitate)
+Y,,VITAMIN A (RETINYL PALMITATE),vitamin A (retinyl palmitate),FALSE,vitamin A (retinyl palmitate)
+Y,,VITAMIN B1,vitamin B1,FALSE,vitamin B1
+Y,,VITAMIN B1 (THIAMINE HYDROCHLORIDE),vitamin B1 (thiamine hydrochloride),FALSE,vitamin B1 (thiamine hydrochloride)
+Y,,VITAMIN B1 (THIAMINE MONONITRATE),vitamin B1 (thiamine mononitrate),FALSE,vitamin B1 (thiamine mononitrate)
+Y,,VITAMIN B12,vitamin B12,FALSE,vitamin B12
+Y,,VITAMIN B12 (CYANOCOBALAMIN),vitamin B12 (cyanocobalamin),FALSE,vitamin B12 (cyanocobalamin)
+Y,,VITAMIN B12 (VITAMIN B12),vitamin B12 (vitamin B12),FALSE,vitamin B12 (vitamin B12)
+Y,,VITAMIN B2,vitamin B2,FALSE,vitamin B2
+Y,,VITAMIN B2 (RIBOFLAVIN 5'-PHOSPHATE SODIUM),vitamin B2 (riboflavin 5'-phosphate sodium),FALSE,vitamin B2 (riboflavin 5'-phosphate sodium)
+Y,,VITAMIN B2 (RIBOFLAVIN),vitamin B2 (riboflavin),FALSE,vitamin B2 (riboflavin)
+Y,,VITAMIN B2 (RIBOFLAVIN-5-PHOSPHATE),vitamin B2 (riboflavin-5-phosphate),FALSE,vitamin B2 (riboflavin-5-phosphate)
+Y,,VITAMIN B6 (PYRIDOXINE HYDROCHLORIDE),vitamin B6 (pyridoxine hydrochloride),FALSE,vitamin B6 (pyridoxine hydrochloride)
+Y,,VITAMIN C,vitamin C,FALSE,vitamin C
+Y,,VITAMIN C (ASCORBIC ACID),vitamin C (ascorbic acid),FALSE,vitamin C (ascorbic acid)
+Y,,VITAMIN C (CALCIUM ASCORBATE),vitamin C (calcium ascorbate),FALSE,vitamin C (calcium ascorbate)
+Y,,VITAMIN C (SODIUM ASCORBATE),vitamin C (sodium ascorbate),FALSE,vitamin C (sodium ascorbate)
+Y,,VITAMIN D,vitamin D,FALSE,vitamin D
+Y,VITAMIN D2,VITAMIN D2,vitamin D2,FALSE,vitamin D2
 Y,VITAMIN D3,VITAMIN D (VITAMIN D3),vitamin D3 (cholecalciferol),FALSE,vitamin D3 (cholecalciferol)
 Y,VITAMIN D3,VITAMIN D3,vitamin D3 (cholecalciferol),FALSE,vitamin D3 (cholecalciferol)
 Y,VITAMIN D3,VITAMIN D3 (CHOLECALCIFEROL),vitamin D3 (cholecalciferol),FALSE,vitamin D3 (cholecalciferol)
-,,VITAMIN E,vitamin E,FALSE,vitamin E
-,,VITAMIN E (D-ALPHA TOCOPHERYL ACETATE),vitamin E (d-alpha tocopheryl acetate),FALSE,vitamin E (d-alpha tocopheryl acetate)
-,,VITAMIN E (DL-ALPHA TOCOPHERYL ACETATE),vitamin E (dl-alpha tocopheryl acetate),FALSE,vitamin E (dl-alpha tocopheryl acetate)
-,,VITAMIN K1,vitamin K1,FALSE,vitamin K1
+Y,,VITAMIN E,vitamin E,FALSE,vitamin E
+Y,,VITAMIN E (D-ALPHA TOCOPHERYL ACETATE),vitamin E (d-alpha tocopheryl acetate),FALSE,vitamin E (d-alpha tocopheryl acetate)
+Y,,VITAMIN E (DL-ALPHA TOCOPHERYL ACETATE),vitamin E (dl-alpha tocopheryl acetate),FALSE,vitamin E (dl-alpha tocopheryl acetate)
+Y,,VITAMIN K1,vitamin K1,FALSE,vitamin K1
 ,,VON WILLEBRAND FACTOR (HUMAN),von willebrand factor (human),FALSE,von willebrand factor (human)
 Y,,VORICONAZOLE,voriconazole,FALSE,voriconazole
-,,VORINOSTAT,vorinostat,FALSE,vorinostat
-,,VORTIOXETINE (VORTIOXETINE HYDROBROMIDE),vortioxetine (vortioxetine hydrobromide),FALSE,vortioxetine (vortioxetine hydrobromide)
+Y,,VORINOSTAT,vorinostat,FALSE,vorinostat
+Y,,VORTIOXETINE (VORTIOXETINE HYDROBROMIDE),vortioxetine,FALSE,vortioxetine (vortioxetine hydrobromide)
 Y,,VOXILAPREVIR,voxilaprevir,FALSE,voxilaprevir
 Y,WARFARIN,WARFARIN SODIUM,warfarin,FALSE,warfarin sodium
 ,,WASP VENOM PROTEIN,wasp venom protein,FALSE,wasp venom protein
 Y,,WATER,water,FALSE,water
 ,,WHITE FACED HORNET VENOM PROTEIN,white faced hornet venom protein,FALSE,white faced hornet venom protein
 Y,,WHITE PETROLATUM,white petrolatum,FALSE,white petrolatum
-,,XYLOMETAZOLINE HYDROCHLORIDE,xylometazoline hydrochloride,FALSE,xylometazoline hydrochloride
+Y,,XYLOMETAZOLINE HYDROCHLORIDE,xylometazoline,FALSE,xylometazoline hydrochloride
 ,,YELLOW FEVER VACCINE,yellow fever vaccine,FALSE,yellow fever vaccine
 ,,YELLOW HORNET VENOM PROTEIN,yellow hornet venom protein,FALSE,yellow hornet venom protein
 ,,YELLOW JACKET VENOM PROTEIN,yellow jacket venom protein,FALSE,yellow jacket venom protein
-,,YOHIMBINE HYDROCHLORIDE,yohimbine hydrochloride,FALSE,yohimbine hydrochloride
+Y,,YOHIMBINE HYDROCHLORIDE,yohimbine,FALSE,yohimbine hydrochloride
 Y,ZAFIRLUKAST,ZAFIRLUKAST,zafirlukast,FALSE,zafirlukast
 Y,,ZANAMIVIR,zanamivir,FALSE,zanamivir
 Y,,ZIDOVUDINE,zidovudine,FALSE,zidovudine
