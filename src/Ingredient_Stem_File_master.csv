@@ -879,9 +879,9 @@ Y,,INTERFERON ALFA-2B,interferon alfa-2b,FALSE,interferon alfa-2b
 Y,,INTERFERON BETA-1A,interferon beta-1a,FALSE,interferon beta-1a
 Y,,INTERFERON BETA-1B,interferon beta-1b,FALSE,interferon beta-1b
 Y,,IODIDE (SODIUM IODIDE),sodium iodide,FALSE,iodide (sodium iodide)
-,,IODINE,iodine,FALSE,iodine
-,,IODINE (ETHIODIZED OIL),iodine (ethiodized oil),FALSE,iodine (ethiodized oil)
-,,IODINE (POTASSIUM IODIDE),iodine (potassium iodide),FALSE,iodine (potassium iodide)
+Y,,IODINE,iodine,FALSE,iodine
+Y,,IODINE (ETHIODIZED OIL),iodine (ethiodized oil),FALSE,iodine (ethiodized oil)
+Y,,IODINE (POTASSIUM IODIDE),iodine (potassium iodide),FALSE,iodine (potassium iodide)
 Y,,IODINE (SODIUM IODIDE),iodine (sodium iodide),FALSE,iodine (sodium iodide)
 ,,IODIXANOL,iodixanol,FALSE,iodixanol
 ,,IODOFORM,iodoform,FALSE,iodoform
