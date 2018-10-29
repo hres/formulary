@@ -574,7 +574,7 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40006,kit,5,DENTAL,,32-134,"KIT, SOLUTION",,,TRUE,2018-03-28,dbuijs,
 40029,nasal spray,53,NASAL,,134-98,"SOLUTION, SPRAY",,,TRUE,2018-03-28,dbuijs,
 40063,oral drops,56,ORAL,,12-34,"DROPS, LIQUID",,,TRUE,2018-03-28,dbuijs,
-40145,"oral drops, suspension",56,ORAL,,12-79,"DROPS, SUSPENSION",,,TRUE,2018-03-28,dbuijs,
+40145,"oral drops suspension",56,ORAL,,12-79,"DROPS, SUSPENSION",,,TRUE,2018-03-28,dbuijs,
 40006,kit,56,ORAL,,32-85,"KIT, TABLET",,,TRUE,2018-03-28,dbuijs,
 40006,kit,56,ORAL,,5-137-32-85,"CAPSULE, CAPSULE (DELAYED RELEASE), KIT, TABLET",,,TRUE,2018-03-28,dbuijs,
 40001,solution for injection,65,SUBCUTANEOUS,,32-134,"KIT, SOLUTION",,,TRUE,2018-03-28,dbuijs,
@@ -601,3 +601,4 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40026,powder for nebuliser solution,29,INHALATION,Inhalation,2-56,"AEROSOL, POWDER FOR SOLUTION","A?rosol, Poudre pour solution",,,,,
 40001,solution for injection,90,EXTRACORPOREAL,Extracorporelle,134,SOLUTION,Solution,,,,,
 40106,cutaneous spray,70,TOPICAL,Topique,164,"SPRAY,BAG-ON-VALVE","Pulverisation,sac-sur-valve",,,,,
+,cutaneous spray powder,70,TOPICAL,Topique,2-55,"AEROSOL,POWDER","A?rosol,Poudre",,,,,
