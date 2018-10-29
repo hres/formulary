@@ -579,7 +579,7 @@ Y,ENALAPRIL,ENALAPRIL SODIUM (ENALAPRIL MALEATE),enalapril,FALSE,enalapril sodiu
 Y,,ENALAPRILAT,enalaprilat,FALSE,enalaprilat
 Y,,ENFUVIRTIDE,enfuvirtide,FALSE,enfuvirtide
 Y,,ENOXAPARIN SODIUM,enoxaparin,FALSE,enoxaparin sodium
-Y,,ENSULIZOLE,ensulizole,FALSE,ensulizole
+,,ENSULIZOLE,ensulizole,FALSE,ensulizole
 Y,,ENTACAPONE,entacapone,FALSE,entacapone
 Y,,ENTECAVIR,entecavir,FALSE,entecavir
 Y,,ENTECAVIR (ENTECAVIR MONOHYDRATE),entecavir,TRUE,entecavir
@@ -1583,7 +1583,7 @@ Y,,SODIUM FLUORIDE,sodium fluoride,FALSE,sodium fluoride
 ,,SODIUM LACTATE,sodium lactate,FALSE,sodium lactate
 ,,SODIUM LAURYL SULFOACETATE,sodium lauryl sulfoacetate,FALSE,sodium lauryl sulfoacetate
 ,,SODIUM NITRITE,sodium nitrite,FALSE,sodium nitrite
-Y,,SODIUM NITROPRUSSIDE,sodium nitroprusside,FALSE,sodium nitroprusside
+Y,,SODIUM NITROPRUSSIDE,nitroprusside,FALSE,sodium nitroprusside
 Y,,SODIUM OXYBATE,sodium oxybate,FALSE,sodium oxybate
 Y,,Sodium phenylbutyrate,phenylbutyric acid,FALSE,sodium phenylbutyrate
 ,,SODIUM PHOSPHATE DIBASIC,sodium phosphate dibasic,FALSE,sodium phosphate dibasic
