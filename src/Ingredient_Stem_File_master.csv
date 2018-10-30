@@ -1,4 +1,4 @@
-ccdd,top250name,dpd_ingredient,ing_stem,hydrate,ntp_ing,comments
+ccdd,top250name,dpd_ingredient,ing_stem,hydrate,ntp_ing,comments_do not use commas or special characters 
 Y,,ABACAVIR (ABACAVIR SULFATE),abacavir,FALSE,abacavir (abacavir sulfate),
 Y,,ABATACEPT,abatacept,FALSE,abatacept,
 Y,,ABCIXIMAB,abciximab,FALSE,abciximab,
@@ -672,7 +672,7 @@ Y,FLUCONAZOLE,FLUCONAZOLE,fluconazole,FALSE,fluconazole,
 Y,,FLUDARABINE PHOSPHATE,fludarabine,FALSE,fludarabine phosphate,
 Y,,FLUDROCORTISONE 21-ACETATE,fludrocortisone,FALSE,fludrocortisone acetate,
 Y,,FLUMAZENIL,flumazenil,FALSE,flumazenil,
-Y,,FLUMETHASONE PIVALATE,flumethasone pivalate,FALSE,flumethasone pivalate,
+Y,,FLUMETHASONE PIVALATE,flumethasone,FALSE,flumethasone pivalate,
 Y,,FLUNARIZINE (FLUNARIZINE HYDROCHLORIDE),flunarizine,FALSE,flunarizine (flunarizine hydrochloride),
 Y,,FLUNISOLIDE,flunisolide,FALSE,flunisolide,
 Y,,FLUOCINOLONE ACETONIDE,fluocinolone,FALSE,fluocinolone acetonide,
