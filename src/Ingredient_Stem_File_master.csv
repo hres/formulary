@@ -53,9 +53,9 @@ Y,,ALLANTOIN,allantoin,FALSE,allantoin,Released,Combinations only
 ,,ALLERGENIC EXTRACTS POLLENS,allergenic extracts pollens,FALSE,allergenic extracts pollens,Allergen,
 Y,ALLOPURINOL,ALLOPURINOL,allopurinol,FALSE,allopurinol,Released,
 Y,,ALMOTRIPTAN (ALMOTRIPTAN MALATE),almotriptan,FALSE,almotriptan (almotriptan malate),Released,
-,,ALOE,aloe,FALSE,aloe,To Do,December
+Y,,ALOE,aloe,FALSE,aloe,To Do,December
 Y,,Alogliptin (Alogliptin benzoate),alogliptin ,FALSE,alogliptin (alogliptin benzoate),Released,
-,,ALPHA 1-PROTEINASE INHIBITOR (HUMAN),alpha 1-proteinase inhibitor (human),FALSE,alpha 1-proteinase inhibitor (human),To Do,December
+Y,,ALPHA 1-PROTEINASE INHIBITOR (HUMAN),alpha 1-proteinase inhibitor (human),FALSE,alpha 1-proteinase inhibitor (human),To Do,December
 Y,ALPRAZOLAM,ALPRAZOLAM,alprazolam,FALSE,alprazolam,Released,
 Y,,ALPROSTADIL,alprostadil,FALSE,alprostadil,Released,
 Y,,ALTEPLASE,alteplase,FALSE,alteplase,Issue - in QA,
@@ -85,8 +85,8 @@ Y,AMPICILLIN,AMPICILLIN,ampicillin,FALSE,ampicillin,Released,
 Y,AMPICILLIN,AMPICILLIN (AMPICILLIN SODIUM),ampicillin,FALSE,ampicillin (ampicillin sodium),Released,
 Y,,AMPICILLIN (AMPICILLIN TRIHYDRATE),ampicillin,TRUE,ampicillin,Released,
 Y,,AMSACRINE,amsacrine,FALSE,amsacrine,No live products,
-,,AMYLASE,amylase,FALSE,amylase,To Do,December
-,,AMYLMETACRESOL,amylmetacresol,FALSE,amylmetacresol,To Do,December
+Y,,AMYLASE,amylase,FALSE,amylase,To Do,December
+Y,,AMYLMETACRESOL,amylmetacresol,FALSE,amylmetacresol,To Do,December
 Y,,ANAGRELIDE (ANAGRELIDE HYDROCHLORIDE MONOHYDRATE),anagrelide,TRUE,anagrelide (anagrelide hydrochloride),Released,
 Y,,ANAGRELIDE (ANAGRELIDE HYDROCHLORIDE),anagrelide,FALSE,anagrelide (anagrelide hydrochloride),Released,
 Y,,ANAKINRA,anakinra,FALSE,anakinra,Released,
@@ -102,7 +102,7 @@ Y,,ANTAZOLINE PHOSPHATE,antazoline,FALSE,antazoline phosphate,Released,
 ,,ANTI-INHIBITOR COAGULANT COMPLEX,anti-inhibitor coagulant complex,FALSE,anti-inhibitor coagulant complex,Haematology,
 Y,,ANTIPYRINE,antipyrine,FALSE,antipyrine,Released,
 ,,ANTITHROMBIN III (HUMAN),antithrombin iii (human),FALSE,antithrombin iii (human),Haematology,
-,,ANTI-THYMOCYTE GLOBULIN (RABBIT),anti-thymocyte globulin (rabbit),FALSE,anti-thymocyte globulin (rabbit),To Do,December
+Y,,ANTI-THYMOCYTE GLOBULIN (RABBIT),anti-thymocyte globulin (rabbit),FALSE,anti-thymocyte globulin (rabbit),To Do,December
 ,,APIS MELLIFERA VENOM PROTEIN EXTRACT,apis mellifera venom protein extract,FALSE,apis mellifera venom protein extract,Antidote,
 Y,,Apixaban,apixaban,FALSE,apixaban,Released,
 Y,,APOMORPHINE,apomorphine,FALSE,apomorphine,Released,
@@ -110,8 +110,8 @@ Y,,APOMORPHINE HYDROCHLORIDE,apomorphine,FALSE,apomorphine hydrochloride,Release
 Y,,APRACLONIDINE (APRACLONIDINE HYDROCHLORIDE),apraclonidine,FALSE,apraclonidine (apraclonidine hydrochloride),Released,
 Y,,APREMILAST,apremilast,FALSE,apremilast,Released,
 Y,,APREPITANT,aprepitant,FALSE,aprepitant,Released,
-,,APROTININ (BOVINE),aprotinin (bovine),FALSE,aprotinin (bovine),To Do,December
-,,APROTININ (SYNTHETIC),aprotinin (synthetic),FALSE,aprotinin (synthetic),To Do,December
+Y,,APROTININ (BOVINE),aprotinin (bovine),FALSE,aprotinin (bovine),To Do,December
+Y,,APROTININ (SYNTHETIC),aprotinin (synthetic),FALSE,aprotinin (synthetic),To Do,December
 Y,,ARGATROBAN,argatroban,FALSE,argatroban,Released,
 ,,ARGININE,arginine,FALSE,arginine,TPN,
 ,,ARGININE HYDROCHLORIDE,arginine hydrochloride,FALSE,arginine hydrochloride,TPN,
@@ -149,31 +149,31 @@ Y,AZITHROMYCIN,AZITHROMYCIN (AZITHROMYCIN ISOPROPANOLATE MONOHYDRATE),azithromyc
 Y,AZITHROMYCIN,AZITHROMYCIN (AZITHROMYCIN MONOHYDRATE HEMIETHANOLATE),azithromycin,TRUE,azithromycin,Released,
 Y,AZITHROMYCIN,AZITHROMYCIN (AZITHROMYCIN MONOHYDRATE),azithromycin,TRUE,azithromycin,Released,
 Y,,AZTREONAM,aztreonam,FALSE,aztreonam,Released,
-,,BACILLUS CALMETTE-GUERIN (BCG) STRAIN TICE,bacillus calmette-guerin (bcg) strain tice,FALSE,bacillus calmette-guerin (bcg) strain tice,,
-,,BACILLUS CALMETTE-GUERIN (BCG) SUBSTRAIN CONNAUGHT,bacillus calmette-guerin (bcg) substrain connaught,FALSE,bacillus calmette-guerin (bcg) substrain connaught,,
-Y,,BACITRACIN,bacitracin,FALSE,bacitracin,,
-Y,,BACITRACIN (BACITRACIN ZINC),bacitracin,FALSE,bacitracin (bacitracin zinc),,
-Y,,BACITRACIN ZINC,bacitracin,FALSE,bacitracin zinc,,
-Y,BACLOFEN,BACLOFEN,baclofen,FALSE,baclofen,,
-Y,,BASILIXIMAB,basiliximab,FALSE,basiliximab,,
-Y,,BAZEDOXIFENE (BAZEDOXIFENE ACETATE),bazedoxifene,FALSE,bazedoxifene (bazedoxifene acetate),,
-Y,BECLOMETHASONE,BECLOMETHASONE DIPROPIONATE,beclomethasone,FALSE,beclomethasone dipropionate,,
-Y,,BELIMUMAB,belimumab,FALSE,belimumab,,
-Y,,BELLADONNA,belladonna,FALSE,belladonna,,
-Y,,BEMOTRIZINOL,bemotrizinol,FALSE,bemotrizinol,,
-Y,BENAZEPRIL,BENAZEPRIL HYDROCHLORIDE,benazepril,FALSE,benazepril hydrochloride,,
-Y,,BENDAMUSTINE HYDROCHLORIDE,bendamustine,FALSE,bendamustine hydrochloride,,
-Y,,BENOXINATE HYDROCHLORIDE,benoxinate,FALSE,benoxinate hydrochloride,,
-Y,,BENRALIZUMAB,benralizumab,FALSE,benralizumab,,
-Y,,BENSERAZIDE (BENSERAZIDE HYDROCHLORIDE),benserazide,FALSE,benserazide (benserazide hydrochloride),,
-Y,BENZALKONIUM,BENZALKONIUM CHLORIDE,benzalkonium,FALSE,benzalkonium chloride,,
-Y,,BENZETHONIUM CHLORIDE,benzethonium,FALSE,benzethonium chloride,,
-Y,,BENZOCAINE,benzocaine,FALSE,benzocaine,,
-Y,,BENZOIN,benzoin,FALSE,benzoin,,
-Y,BENZOYL PEROXIDE,BENZOYL PEROXIDE,benzoyl peroxide,FALSE,benzoyl peroxide,,
-Y,BENZTROPINE,BENZTROPINE MESYLATE,benztropine,FALSE,benztropine mesylate,,
-Y,,BENZYDAMINE HYDROCHLORIDE,benzydamine,FALSE,benzydamine hydrochloride,,
-,,BENZYLPENICILLOYL-POLYLYSINE,benzylpenicilloyl-polylysine,FALSE,benzylpenicilloyl-polylysine,,
+,,BACILLUS CALMETTE-GUERIN (BCG) STRAIN TICE,bacillus calmette-guerin (bcg) strain tice,FALSE,bacillus calmette-guerin (bcg) strain tice,Immunologic,
+,,BACILLUS CALMETTE-GUERIN (BCG) SUBSTRAIN CONNAUGHT,bacillus calmette-guerin (bcg) substrain connaught,FALSE,bacillus calmette-guerin (bcg) substrain connaught,Immunologic,
+Y,,BACITRACIN,bacitracin,FALSE,bacitracin,Issue - in QA,
+Y,,BACITRACIN (BACITRACIN ZINC),bacitracin,FALSE,bacitracin (bacitracin zinc),Issue - in QA,
+Y,,BACITRACIN ZINC,bacitracin,FALSE,bacitracin zinc,Issue - in QA,
+Y,BACLOFEN,BACLOFEN,baclofen,FALSE,baclofen,Released,
+Y,,BASILIXIMAB,basiliximab,FALSE,basiliximab,Released,
+Y,,BAZEDOXIFENE (BAZEDOXIFENE ACETATE),bazedoxifene,FALSE,bazedoxifene (bazedoxifene acetate),Released,Combination only
+Y,BECLOMETHASONE,BECLOMETHASONE DIPROPIONATE,beclomethasone,FALSE,beclomethasone dipropionate,Released,
+Y,,BELIMUMAB,belimumab,FALSE,belimumab,Released,
+Y,,BELLADONNA,belladonna,FALSE,belladonna,Released,Combination only
+Y,,BEMOTRIZINOL,bemotrizinol,FALSE,bemotrizinol,Sunscreen,
+Y,BENAZEPRIL,BENAZEPRIL HYDROCHLORIDE,benazepril,FALSE,benazepril hydrochloride,Released,
+Y,,BENDAMUSTINE HYDROCHLORIDE,bendamustine,FALSE,bendamustine hydrochloride,Released,
+Y,,BENOXINATE HYDROCHLORIDE,benoxinate,FALSE,benoxinate hydrochloride,Released,Combination only
+Y,,BENRALIZUMAB,benralizumab,FALSE,benralizumab,Released,
+Y,,BENSERAZIDE (BENSERAZIDE HYDROCHLORIDE),benserazide,FALSE,benserazide (benserazide hydrochloride),Released,Combinations only
+Y,BENZALKONIUM,BENZALKONIUM CHLORIDE,benzalkonium,FALSE,benzalkonium chloride,Released,Combinations only
+Y,,BENZETHONIUM CHLORIDE,benzethonium,FALSE,benzethonium chloride,Released,Combinations only
+Y,,BENZOCAINE,benzocaine,FALSE,benzocaine,Released,Combinations only
+Y,,BENZOIN,benzoin,FALSE,benzoin,To Do,December
+Y,BENZOYL PEROXIDE,BENZOYL PEROXIDE,benzoyl peroxide,FALSE,benzoyl peroxide,Issue - in QA,
+Y,BENZTROPINE,BENZTROPINE MESYLATE,benztropine,FALSE,benztropine mesylate,Released,
+Y,,BENZYDAMINE HYDROCHLORIDE,benzydamine,FALSE,benzydamine hydrochloride,Released,
+,,BENZYLPENICILLOYL-POLYLYSINE,benzylpenicilloyl-polylysine,FALSE,benzylpenicilloyl-polylysine,Allergen,
 Y,,BEPOTASTINE BESILATE,bepotastine,FALSE,bepotastine besilate,,
 Y,,BERACTANT,beractant,FALSE,beractant,,
 Y,,BESIFLOXACIN,besifloxacin,FALSE,besifloxacin,,
