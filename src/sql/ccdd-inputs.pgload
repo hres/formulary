@@ -251,11 +251,13 @@ LOAD CSV
   FROM ./test/ccdd-tm-deprecations-draft.csv
     WITH ENCODING UTF-8
     (
-      code
+      code,
+      status_effective_time
     )
   INTO postgresql:///?ccdd.tm_deprecations
     (
-      code
+      code,
+      status_effective_time
     )
   WITH
     skip header = 1,

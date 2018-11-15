@@ -552,8 +552,8 @@ ALTER TABLE ccdd.ntp_deprecations OWNER TO postgres;
 
 CREATE TABLE ccdd.tm_deprecations(
 	code varchar NOT NULL,
+	status_effective_time date NOT NULL,
 	CONSTRAINT tm_deprecations_pk PRIMARY KEY (code)
-
 );
 -- ddl-end --
 ALTER TABLE ccdd.tm_deprecations OWNER TO postgres;
@@ -1916,6 +1916,7 @@ AS
 			ELSE 'Active'
 		END) AS tm_status,
 		to_char((CASE
+			WHEN CAST(depr.code as varchar) IS NOT NULL THEN depr.status_effective_time
 			WHEN bool_and(candidate.mp_status = 'Inactive') THEN max(candidate.mp_status_effective_date)
 			ELSE min(candidate.first_market_date)
 		END), 'YYYYMMDD') AS tm_status_effective_time,
