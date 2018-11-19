@@ -708,7 +708,7 @@ Y,,FOSAPREPITANT (FOSAPREPITANT DIMEGLUMINE),fosaprepitant,FALSE,fosaprepitant (
 Y,,FOSFOMYCIN (FOSFOMYCIN TROMETHAMINE),fosfomycin,FALSE,fosfomycin (fosfomycin tromethamine),Issue - in QA,
 Y,FOSINOPRIL,FOSINOPRIL SODIUM,fosinopril,FALSE,fosinopril sodium,Released,
 Y,,FOSPHENYTOIN SODIUM,fosphenytoin,FALSE,fosphenytoin sodium,Released,
-Y,FRAMYCETIN SULFATE,FRAMYCETIN SULFATE,framycetin,FALSE,framycetin sulfate,,
+Y,FRAMYCETIN SULFATE,FRAMYCETIN SULFATE,framycetin,FALSE,framycetin sulfate,Released,
 Y,,FROVATRIPTAN (Frovatriptan Succinate Monohydrate),frovatriptan,TRUE,frovatriptan (frovatriptan succinate),Released,
 Y,,FROVATRIPTAN (FROVATRIPTAN SUCCINATE),frovatriptan,FALSE,frovatriptan (frovatriptan succinate),Released,
 Y,,FULVESTRANT,fulvestrant,FALSE,fulvestrant,Released,
@@ -749,7 +749,7 @@ Y,,GLYCEROL PHENYLBUTYRATE,phenylbutyric acid,FALSE,glycerol phenylbutyrate,Rele
 ,,GLYCINE,glycine,FALSE,glycine,No products in scope,Mostly TPN; also single ingredient irrigation solution
 Y,,GLYCOL SALICYLATE,glycol salicylate,FALSE,glycol salicylate,Issue - in QA,Combination only
 Y,,GLYCOPYRROLATE,glycopyrrolate,FALSE,glycopyrrolate,Released,
-Y,,GLYCOPYRRONIUM (Glycopyrronium Bromide),glycopyrronium,FALSE,glycopyrronium (glycopyrronium bromide),,
+Y,,GLYCOPYRRONIUM (Glycopyrronium Bromide),glycopyrronium,FALSE,glycopyrronium (glycopyrronium bromide),Released,
 Y,,GOLD SODIUM THIOMALATE,gold sodium thiomalate,FALSE,gold sodium thiomalate,Issue - in QA,
 Y,,GOLIMUMAB,golimumab,FALSE,golimumab,Released,
 Y,,GONADORELIN ACETATE,gonadorelin,FALSE,gonadorelin acetate,Released,
