@@ -1147,7 +1147,7 @@ Y,NALOXONE,NALOXONE (NALOXONE HYDROCHLORIDE DIHYDRATE),naloxone,TRUE,naloxone (n
 Y,NALOXONE,NALOXONE HYDROCHLORIDE,naloxone,FALSE,naloxone hydrochloride,Released,
 Y,NALOXONE,NALOXONE HYDROCHLORIDE (NALOXONE HYDROCHLORIDE DIHYDRATE),naloxone,TRUE,naloxone hydrochloride,Released,
 Y,,NALTREXONE HYDROCHLORIDE,naltrexone,FALSE,naltrexone hydrochloride,Released,
-Y,,NAPHAZOLINE HYDROCHLORIDE,naphazoline,FALSE,naphazoline hydrochlorideReleased,,
+Y,,NAPHAZOLINE HYDROCHLORIDE,naphazoline,FALSE,naphazoline hydrochloride,Released,
 Y,,NAPHAZOLINE NITRATE,naphazoline,FALSE,naphazoline nitrate,Released,
 Y,NAPROXEN,NAPROXEN,naproxen,FALSE,naproxen,Released,
 Y,NAPROXEN,NAPROXEN SODIUM,naproxen,FALSE,naproxen sodium,Released,
@@ -1199,7 +1199,7 @@ Y,,NYLIDRIN HYDROCHLORIDE,nylidrin hydrochloride,FALSE,nylidrin hydrochloride,No
 Y,NYSTATIN,NYSTATIN,nystatin,FALSE,nystatin,Released,
 ,,OBETICHOLIC ACID,obeticholic acid,FALSE,obeticholic acid,To Do,December
 ,,Obinutuzumab,obinutuzumab,FALSE,obinutuzumab,To Do,December
-Y,,OCRELIZUMAB,ocrelizumab,FALSE,ocrelizumab,,
+Y,,OCRELIZUMAB,ocrelizumab,FALSE,ocrelizumab,Released,
 ,,OCRIPLASMIN,ocriplasmin,FALSE,ocriplasmin,To Do,December
 ,,OCTINOXATE,octinoxate,FALSE,octinoxate,Sunscreen,
 ,,OCTISALATE,octisalate,FALSE,octisalate,Sunscreen,
