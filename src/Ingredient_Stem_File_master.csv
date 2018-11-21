@@ -45,7 +45,7 @@ Y,,ALGLUCOSIDASE ALFA,alglucosidase alfa,FALSE,alglucosidase alfa,Released,
 Y,,ALIROCUMAB,alirocumab,FALSE,alirocumab,Released,
 Y,ALISKIREN,ALISKIREN (ALISKIREN FUMARATE),aliskiren,FALSE,aliskiren (aliskiren fumarate),Released,
 Y,,ALITRETINOIN,alitretinoin,FALSE,alitretinoin,Released,
-Y,,ALLANTOIN,allantoin,FALSE,allantoin,Released,Combinations only
+Y,,ALLANTOIN,allantoin,FALSE,allantoin,Released,Combination only
 ,,ALLERGEN EXTRACT - ALUM PRECIPITATED,allergen extract - alum precipitated,FALSE,allergen extract - alum precipitated,Allergen,
 ,,ALLERGEN EXTRACT - DIAGNOSTIC,allergen extract - diagnostic,FALSE,allergen extract - diagnostic,Allergen,
 ,,ALLERGENIC EXTRACT NON-POLLEN,allergenic extract non-pollen,FALSE,allergenic extract non-pollen,Allergen,
@@ -168,7 +168,7 @@ Y,,BENRALIZUMAB,benralizumab,FALSE,benralizumab,Released,
 Y,,BENSERAZIDE (BENSERAZIDE HYDROCHLORIDE),benserazide,FALSE,benserazide (benserazide hydrochloride),Released,Combination only
 Y,BENZALKONIUM,BENZALKONIUM CHLORIDE,benzalkonium,FALSE,benzalkonium chloride,Released,Combination only
 Y,,BENZETHONIUM CHLORIDE,benzethonium,FALSE,benzethonium chloride,Released,Combination only
-Y,,BENZOCAINE,benzocaine,FALSE,benzocaine,Released,Combinations only
+Y,,BENZOCAINE,benzocaine,FALSE,benzocaine,Released,Combination only
 Y,,BENZOIN,benzoin,FALSE,benzoin,To Do,December
 Y,BENZOYL PEROXIDE,BENZOYL PEROXIDE,benzoyl peroxide,FALSE,benzoyl peroxide,Issue - in QA,
 Y,BENZTROPINE,BENZTROPINE MESYLATE,benztropine,FALSE,benztropine mesylate,Released,
@@ -217,7 +217,7 @@ Y,,BRIVARACETAM,brivaracetam,FALSE,brivaracetam,Released,
 Y,BROMAZEPAM,BROMAZEPAM,bromazepam,FALSE,bromazepam,Released,
 Y,,Bromfenac (Bromfenac sodium sesquihydrate),bromfenac,TRUE,bromfenac (bromfenac sodium),Released,
 Y,,BROMOCRIPTINE (BROMOCRIPTINE MESYLATE),bromocriptine,FALSE,bromocriptine (bromocriptine mesylate),Released,
-Y,,BROMPHENIRAMINE MALEATE,brompheniramine,FALSE,brompheniramine maleate,Released,Combinations only
+Y,,BROMPHENIRAMINE MALEATE,brompheniramine,FALSE,brompheniramine maleate,Released,Combination only
 Y,,BRONOPOL,bronopol,FALSE,bronopol,Issue - in QA,
 Y,BUDESONIDE,BUDESONIDE,budesonide,FALSE,budesonide,Released,
 Y,,BUFFER SOLUTION,buffer solution,FALSE,buffer solution,Excipient,
@@ -229,7 +229,7 @@ Y,BUPROPION,BUPROPION HYDROCHLORIDE,bupropion,FALSE,bupropion hydrochloride,Rele
 Y,,BUSERELIN (BUSERELIN ACETATE),buserelin,FALSE,buserelin (buserelin acetate),Issue - in QA,
 Y,,BUSPIRONE HYDROCHLORIDE,buspirone,FALSE,buspirone hydrochloride,Released,
 Y,,BUSULFAN,busulfan,FALSE,busulfan,Released,
-Y,,BUTALBITAL,butalbital,FALSE,butalbital,Released,Combinations only
+Y,,BUTALBITAL,butalbital,FALSE,butalbital,Released,Combination only
 Y,,BUTAMBEN,butamben,FALSE,butamben,To Do,December
 Y,,BUTANEDIOL,butanediol,FALSE,butanediol,To Do,December Combination antiseptic
 Y,,BUTORPHANOL TARTRATE,butorphanol,FALSE,butorphanol tartrate,Released,
@@ -239,7 +239,7 @@ Y,,CABERGOLINE,cabergoline,FALSE,cabergoline,Released,
 Y,CAFFEINE,CAFFEINE,caffeine,FALSE,caffeine,Released,Combination only
 Y,CAFFEINE,CAFFEINE CITRATE,caffeine,FALSE,caffeine citrate,Released,Combination only
 Y,,CAFFEINE (CAFFEINE CITRATE),caffeine,FALSE,caffeine (caffeine citrate),Released,Combination only
-Y,,CALAMINE,calamine,FALSE,calamine,Released,Combinations only
+Y,,CALAMINE,calamine,FALSE,calamine,Released,Combination only
 Y,,CALCIPOTRIOL,calcipotriol,FALSE,calcipotriol,Released,
 Y,,CALCIPOTRIOL (CALCIPOTRIOL MONOHYDRATE),calcipotriol,TRUE,calcipotriol,Released,
 Y,,CALCITONIN (SALMON SYNTHETIC),calcitonin (salmon),FALSE,calcitonin (salmon),Released,
@@ -252,8 +252,8 @@ Y,,CALCIUM GLUCONATE,calcium gluconate,FALSE,calcium gluconate,Issue - in QA,Com
 Y,,CALCIUM GLYCEROPHOSPHATE,calcium glycerophosphate,FALSE,calcium glycerophosphate,No live products,
 Y,,CALCIUM LEVULINATE,calcium levulinate,FALSE,calcium levulinate,No live products,
 Y,,CALCIUM POLYSTYRENE SULFONATE,calcium polystyrene sulfonate,FALSE,calcium polystyrene sulfonate,Released,
-Y,,CALCIUM SACCHARATE,calcium saccharate,FALSE,calcium saccharate,Issue - in QA,Combinations only
-Y,,CAMPHOR,camphor,FALSE,camphor,Issue - in QA,Combinations only
+Y,,CALCIUM SACCHARATE,calcium saccharate,FALSE,calcium saccharate,Issue - in QA,Combination only
+Y,,CAMPHOR,camphor,FALSE,camphor,Issue - in QA,Combination only
 Y,,CANAGLIFLOZIN,canagliflozin,FALSE,canagliflozin,Released,
 Y,,CANAKINUMAB,canakinumab,FALSE,canakinumab,Released,
 Y,CANDESARTAN CILEXETIL,CANDESARTAN CILEXETIL,candesartan,FALSE,candesartan cilexetil,Released,
@@ -552,7 +552,7 @@ Y,,D-PENICILLAMINE,penicillamine,FALSE,penicillamine,Released,
 ,,DROMETRIZOLE TRISILOXANE,drometrizole trisiloxane,FALSE,drometrizole trisiloxane,Sunscreen,
 Y,,DRONEDARONE (DRONEDARONE HYDROCHLORIDE),dronedarone,FALSE,dronedarone (dronedarone hydrochloride),Released,
 Y,,DROPERIDOL,droperidol,FALSE,droperidol,Released,
-Y,DROSPIRENONE,DROSPIRENONE,drospirenone,FALSE,drospirenone,Released,Combinations only
+Y,DROSPIRENONE,DROSPIRENONE,drospirenone,FALSE,drospirenone,Released,Combination only
 Y,,DULAGLUTIDE,dulaglutide,FALSE,dulaglutide,Released,
 Y,DULOXETINE,DULOXETINE (DULOXETINE HYDROCHLORIDE),duloxetine,FALSE,duloxetine (duloxetine hydrochloride),Released,
 Y,,DUPILUMAB,dupilumab,FALSE,dupilumab,Released,
@@ -570,9 +570,9 @@ Y,,ELIGLUSTAT (ELIGLUSTAT TARTRATE),eliglustat,FALSE,eliglustat (eliglustat tart
 Y,,Elosulfase Alfa,elosulfase alfa,FALSE,elosulfase alfa,Released,
 Y,,ELTROMBOPAG (ELTROMBOPAG OLAMINE),eltrombopag,FALSE,eltrombopag (eltrombopag olamine),Released,
 Y,,ELUXADOLINE,eluxadoline,FALSE,eluxadoline,Released,
-Y,,Elvitegravir,elvitegravir,FALSE,elvitegravir,Released,Combinations only
+Y,,Elvitegravir,elvitegravir,FALSE,elvitegravir,Released,Combination only
 Y,,EMPAGLIFLOZIN,empagliflozin,FALSE,empagliflozin,Released,
-Y,,EMTRICITABINE,emtricitabine,FALSE,emtricitabine,Released,Combinations only
+Y,,EMTRICITABINE,emtricitabine,FALSE,emtricitabine,Released,Combination only
 Y,ENALAPRIL,ENALAPRIL MALEATE,enalapril,FALSE,enalapril maleate,Issue - in QA,
 Y,ENALAPRIL,ENALAPRIL SODIUM,enalapril,FALSE,enalapril sodium,Issue - in QA,
 Y,ENALAPRIL,ENALAPRIL SODIUM (ENALAPRIL MALEATE),enalapril,FALSE,enalapril sodium (enalapril maleate),Issue - in QA,
