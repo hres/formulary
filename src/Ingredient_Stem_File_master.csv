@@ -277,7 +277,7 @@ Y,,CARMUSTINE,carmustine,FALSE,carmustine,Released,
 Y,CARVEDILOL,CARVEDILOL,carvedilol,FALSE,carvedilol,Released,
 Y,,CASPOFUNGIN (CASPOFUNGIN ACETATE),caspofungin,FALSE,caspofungin (caspofungin acetate),Released,
 ,,CAT (FELIS DOMESTICUS) PELT AND CAT DANDER,cat (felis domesticus) pelt and cat dander,FALSE,cat (felis domesticus) pelt and cat dander,Allergen,
-,,Catridecacog,catridecacog,FALSE,catridecacog,To Do,December
+Y,,Catridecacog,catridecacog,FALSE,catridecacog,To Do,December
 Y,,CEFACLOR,cefaclor,FALSE,cefaclor,No live products,
 Y,CEFADROXIL,CEFADROXIL,cefadroxil,FALSE,cefadroxil,Released,
 Y,CEFADROXIL,CEFADROXIL (CEFADROXIL MONOHYDRATE),cefadroxil,TRUE,cefadroxil,Released,
@@ -916,7 +916,7 @@ Y,,IVACAFTOR,ivacaftor,FALSE,ivacaftor,Released,
 Y,,IVERMECTIN,ivermectin,FALSE,ivermectin,Released,
 Y,,IXAZOMIB (IXAZOMIB CITRATE),ixazomib,FALSE,ixazomib (ixazomib citrate),Released,
 Y,,IXEKIZUMAB,ixekizumab,FALSE,ixekizumab,Released,
-,,KETAMINE (KETAMINE HYDROCHLORIDE),ketamine (ketamine hydrochloride),FALSE,ketamine (ketamine hydrochloride),To Do,December
+Y,,KETAMINE (KETAMINE HYDROCHLORIDE),ketamine,FALSE,ketamine (ketamine hydrochloride),To Do,December
 Y,,KETOCONAZOLE,ketoconazole,FALSE,ketoconazole,Released,
 Y,,KETOPROFEN,ketoprofen,FALSE,ketoprofen,Released,
 Y,KETOROLAC,KETOROLAC TROMETHAMINE,ketorolac,FALSE,ketorolac tromethamine,Released,
@@ -1009,8 +1009,8 @@ Y,,LUMACAFTOR,lumacaftor,FALSE,lumacaftor,Released,Combination only
 Y,,Lurasidone Hydrochloride,lurasidone,FALSE,lurasidone hydrochloride,Released,
 Y,,LUTROPIN ALFA,lutropin alfa,FALSE,lutropin alfa,Released,
 ,,L-VALINE,l-valine,FALSE,l-valine,TPN,
-,,LYMPHOCYTE IMMUNE GLOBULIN ANTI-THYMOCYTE GLOBULIN (EQUINE),lymphocyte immune globulin anti-thymocyte globulin (equine),FALSE,lymphocyte immune globulin anti-thymocyte globulin (equine),To Do,
-,,LYMPHOCYTE IMMUNOGLOBULIN ANTI-THYMOCYTE GLOBULIN (EQUINE),lymphocyte immunoglobulin anti-thymocyte globulin (equine),FALSE,lymphocyte immunoglobulin anti-thymocyte globulin (equine),To Do,
+,,LYMPHOCYTE IMMUNE GLOBULIN ANTI-THYMOCYTE GLOBULIN (EQUINE),lymphocyte immune globulin anti-thymocyte globulin (equine),FALSE,lymphocyte immune globulin anti-thymocyte globulin (equine),Not in DPD,"DPD changed these products to ""immunoglobulin"".jh"
+Y,,LYMPHOCYTE IMMUNOGLOBULIN ANTI-THYMOCYTE GLOBULIN (EQUINE),lymphocyte immunoglobulin anti-thymocyte globulin (equine),FALSE,lymphocyte immunoglobulin anti-thymocyte globulin (equine),To Do,
 ,,LYSINE (L-LYSINE ACETATE),lysine (l-lysine acetate),FALSE,lysine (l-lysine acetate),TPN,
 ,,LYSINE (L-LYSINE HYDROCHLORIDE),lysine (l-lysine hydrochloride),FALSE,lysine (l-lysine hydrochloride),TPN,
 ,,LYSINE (LYSINE ACETATE),lysine (lysine acetate),FALSE,lysine (lysine acetate),TPN,
@@ -1153,7 +1153,7 @@ Y,NAPROXEN,NAPROXEN,naproxen,FALSE,naproxen,Released,
 Y,NAPROXEN,NAPROXEN SODIUM,naproxen,FALSE,naproxen sodium,Released,
 Y,NAPROXEN,"NAPROXEN (NAPROXEN SODIUM, NAPROXEN)",naproxen,FALSE,"naproxen (naproxen sodium, naproxen)",Released,
 Y,,NARATRIPTAN (NARATRIPTAN HYDROCHLORIDE),naratriptan,FALSE,naratriptan (naratriptan hydrochloride),Released,
-,,NATALIZUMAB,natalizumab,FALSE,natalizumab,To Do,December
+Y,,NATALIZUMAB,natalizumab,FALSE,natalizumab,To Do,December
 Y,NEBIVOLOL,Nebivolol (Nebivolol Hydrochloride),nebivolol,FALSE,nebivolol (nebivolol hydrochloride),Released,
 Y,,NEDOCROMIL SODIUM,nedocromil,FALSE,nedocromil sodium,Released,
 ,,NEISSERIA MENINGITIDIS GRP B RECOMBINANT LIPOPROTEIN 2086 SUBFAMILY A,neisseria meningitidis grp b recombinant lipoprotein 2086 subfamily a,FALSE,neisseria meningitidis grp b recombinant lipoprotein 2086 subfamily a,Immunologic,
@@ -1163,18 +1163,18 @@ Y,,NELFINAVIR (NELFINAVIR MESYLATE),nelfinavir,FALSE,nelfinavir (nelfinavir mesy
 Y,,NEOMYCIN (NEOMYCIN SULFATE),neomycin,FALSE,neomycin (neomycin sulfate),Released,Combination only
 Y,,NEOMYCIN SULFATE,neomycin,FALSE,neomycin sulfate,Released,Combination only
 ,,NEON,neon,FALSE,neon,Medical gas,
-,,NEOSTIGMINE BROMIDE,neostigmine bromide,FALSE,neostigmine bromide,To Do,December
-,,NEOSTIGMINE METHYLSULFATE,neostigmine methylsulfate,FALSE,neostigmine methylsulfate,To Do,December
+Y,,NEOSTIGMINE BROMIDE,neostigmine,FALSE,neostigmine bromide,No live products,
+Y,,NEOSTIGMINE METHYLSULFATE,neostigmine,FALSE,neostigmine methylsulfate,To Do,December
 Y,,NEPAFENAC,nepafenac,FALSE,nepafenac,Released,
 Y,,NETUPITANT,netupitant,FALSE,netupitant,Released,Combination only
 Y,,NEVIRAPINE,nevirapine,FALSE,nevirapine,Released,
 Y,,NICOTINAMIDE,nicotinamide,FALSE,nicotinamide,Released,
 Y,,NICOTINIC ACID,nicotinic acid,FALSE,nicotinic acid,Released,
 Y,NIFEDIPINE,NIFEDIPINE,nifedipine,FALSE,nifedipine,Released,
-,,NILOTINIB (NILOTINIB HYDROCHLORIDE MONOHYDRATE),nilotinib (nilotinib hydrochloride monohydrate),TRUE,nilotinib (nilotinib hydrochloride monohydrate),To Do,December
+Y,,NILOTINIB (NILOTINIB HYDROCHLORIDE MONOHYDRATE),nilotinib,TRUE,nilotinib (nilotinib hydrochloride),To Do,December
 Y,,NILUTAMIDE,nilutamide,FALSE,nilutamide,Released,
 Y,,NIMODIPINE,nimodipine,FALSE,nimodipine,Released,
-,,NINTEDANIB (NINTEDANIB ESILATE),nintedanib (nintedanib esilate),FALSE,nintedanib (nintedanib esilate),To Do,December
+Y,,NINTEDANIB (NINTEDANIB ESILATE),nintedanib,FALSE,nintedanib (nintedanib esilate),To Do,December
 Y,,NITISINONE,nitisinone,FALSE,nitisinone,Issue - in QA,
 Y,,NITRAZEPAM,nitrazepam,FALSE,nitrazepam,Released,
 ,,NITRIC OXIDE,nitric oxide,FALSE,nitric oxide,Medical gas,
@@ -1187,7 +1187,7 @@ Y,,NIZATIDINE,nizatidine,FALSE,nizatidine,Released,
 ,,NON POLLEN,non pollen,FALSE,non pollen,Allergen,
 ,,Nonacog Gamma,nonacog gamma,FALSE,nonacog gamma,Haematology,
 Y,NORELGESTROMIN,NORELGESTROMIN,norelgestromin,FALSE,norelgestromin,Released,Combination only
-,,NOREPINEPHRINE (NOREPINEPHRINE BITARTRATE),norepinephrine (norepinephrine bitartrate),FALSE,norepinephrine (norepinephrine bitartrate),To Do,December
+Y,,NOREPINEPHRINE (NOREPINEPHRINE BITARTRATE),norepinephrine,FALSE,norepinephrine (norepinephrine bitartrate),To Do,December
 Y,NORETHINDRONE,NORETHINDRONE,norethindrone,FALSE,norethindrone,Released,
 Y,NORETHINDRONE,NORETHINDRONE ACETATE,norethindrone,FALSE,norethindrone acetate,Released,
 Y,,NORFLOXACIN,norfloxacin,FALSE,norfloxacin,Released,
@@ -1197,21 +1197,21 @@ Y,NORTRIPTYLINE,NORTRIPTYLINE (NORTRIPTYLINE HYDROCHLORIDE),nortriptyline,FALSE,
 Y,,NUSINERSEN (NUSINERSEN SODIUM),nusinersen,FALSE,nusinersen (nusinersen sodium),Released,
 Y,,NYLIDRIN HYDROCHLORIDE,nylidrin hydrochloride,FALSE,nylidrin hydrochloride,No live products,
 Y,NYSTATIN,NYSTATIN,nystatin,FALSE,nystatin,Released,
-,,OBETICHOLIC ACID,obeticholic acid,FALSE,obeticholic acid,To Do,December
-,,Obinutuzumab,obinutuzumab,FALSE,obinutuzumab,To Do,December
+Y,,OBETICHOLIC ACID,obeticholic acid,FALSE,obeticholic acid,To Do,December
+Y,,Obinutuzumab,obinutuzumab,FALSE,obinutuzumab,To Do,December
 Y,,OCRELIZUMAB,ocrelizumab,FALSE,ocrelizumab,Released,
-,,OCRIPLASMIN,ocriplasmin,FALSE,ocriplasmin,To Do,December
+Y,,OCRIPLASMIN,ocriplasmin,FALSE,ocriplasmin,To Do,December
 ,,OCTINOXATE,octinoxate,FALSE,octinoxate,Sunscreen,
 ,,OCTISALATE,octisalate,FALSE,octisalate,Sunscreen,
 ,,OCTOCRYLENE,octocrylene,FALSE,octocrylene,Sunscreen,
-,,OCTREOTIDE (OCTREOTIDE ACETATE),octreotide (octreotide acetate),FALSE,octreotide (octreotide acetate),To Do,December
+Y,,OCTREOTIDE (OCTREOTIDE ACETATE),octreotide,FALSE,octreotide (octreotide acetate),To Do,December
 ,,OCTYL DECYL DIMETHYL AMMONIUM CHLORIDE,octyl decyl dimethyl ammonium chloride,FALSE,octyl decyl dimethyl ammonium chloride,Not in scope,Disinfectant
 Y,,Ofatumumab,ofatumumab,FALSE,ofatumumab,Released,
 Y,,OFLOXACIN,ofloxacin,FALSE,ofloxacin,Released,
 ,,OIL OF TURPENTINE,oil of turpentine,FALSE,oil of turpentine,To Do,Cerumol
 Y,OLANZAPINE,OLANZAPINE,olanzapine,FALSE,olanzapine,Released,
 Y,OLANZAPINE,OLANZAPINE (OLANZAPINE TARTRATE),olanzapine,FALSE,olanzapine (olanzapine tartrate),Released,
-,,OLAPARIB,olaparib,FALSE,olaparib,To Do,December
+Y,,OLAPARIB,olaparib,FALSE,olaparib,To Do,December
 Y,,OLARATUMAB,olaratumab,FALSE,olaratumab,Released,
 ,,OLIVE OIL,olive oil,FALSE,olive oil,TPN,
 Y,OLMESARTAN MEDOXOMIL,OLMESARTAN MEDOXOMIL,olmesartan,FALSE,olmesartan medoxomil,Released,
@@ -1231,61 +1231,61 @@ Y,ORCIPRENALINE,ORCIPRENALINE SULFATE,orciprenaline,FALSE,orciprenaline sulfate,
 Y,,ORLISTAT,orlistat,FALSE,orlistat,Released,
 Y,,ORPHENADRINE CITRATE,orphenadrine,FALSE,orphenadrine citrate,Released,
 Y,,OSELTAMIVIR (OSELTAMIVIR PHOSPHATE),oseltamivir,FALSE,oseltamivir (oseltamivir phosphate),Released,
-,,OSIMERTINIB (OSIMERTINIB MESYLATE),osimertinib (osimertinib mesylate),FALSE,osimertinib (osimertinib mesylate),To Do,December
+Y,,OSIMERTINIB (OSIMERTINIB MESYLATE),osimertinib,FALSE,osimertinib (osimertinib mesylate),To Do,December
 ,,Outer membrane vesicles (Neisseria meningitidis group B NZ98/254 strain),outer membrane vesicles (neisseria meningitidis group b nz98/254 strain),FALSE,outer membrane vesicles (neisseria meningitidis group b nz98/254 strain),Immunologic,
-,,OXALIPLATIN,oxaliplatin,FALSE,oxaliplatin,To Do,December
+Y,,OXALIPLATIN,oxaliplatin,FALSE,oxaliplatin,To Do,December
 ,,OXAPROZIN,oxaprozin,FALSE,oxaprozin,To Do,December
 Y,OXAZEPAM,OXAZEPAM,oxazepam,FALSE,oxazepam,Released,
-,,OXCARBAZEPINE,oxcarbazepine,FALSE,oxcarbazepine,To Do,December
-,,OXETACAINE,oxetacaine,FALSE,oxetacaine,To Do,December
+Y,,OXCARBAZEPINE,oxcarbazepine,FALSE,oxcarbazepine,To Do,December
+Y,,OXETACAINE,oxetacaine,FALSE,oxetacaine,No live products,
 Y,OXTRIPHYLLINE,OXTRIPHYLLINE,oxtriphylline,FALSE,oxtriphylline,Released,
 ,,OXYBENZONE,oxybenzone,FALSE,oxybenzone,Sunscreen,
 Y,OXYBUTYNIN,OXYBUTYNIN CHLORIDE,oxybutynin,FALSE,oxybutynin chloride,Released,
 Y,OXYBUTYNIN,OXYBUTYNIN,oxybutynin,FALSE,oxybutynin,Released,
 Y,OXYCODONE,OXYCODONE HYDROCHLORIDE,oxycodone,FALSE,oxycodone hydrochloride,Released,
 ,,OXYGEN,oxygen,FALSE,oxygen,Medical gas,
-,,OXYMETAZOLINE HYDROCHLORIDE,oxymetazoline hydrochloride,FALSE,oxymetazoline hydrochloride,To Do,December
+Y,,OXYMETAZOLINE HYDROCHLORIDE,oxymetazoline hydrochloride,FALSE,oxymetazoline hydrochloride,To Do,December
 Y,OXYMORPHONE,OXYMORPHONE HYDROCHLORIDE,oxymorphone,FALSE,oxymorphone hydrochloride,No live products,
 ,,OXYQUINOLINE SULFATE,oxyquinoline sulfate,FALSE,oxyquinoline sulfate,No live products,
-,,OXYTOCIN,oxytocin,FALSE,oxytocin,To Do,December
+Y,,OXYTOCIN,oxytocin,FALSE,oxytocin,To Do,December
 Y,,OZENOXACIN,ozenoxacin,FALSE,ozenoxacin,Released,
-,,PACLITAXEL,paclitaxel,FALSE,paclitaxel,To Do,December
-,,PACLITAXEL (TAXUS CANADENSIS),paclitaxel (taxus canadensis),FALSE,paclitaxel (taxus canadensis),To Do,December
+Y,,PACLITAXEL,paclitaxel,FALSE,paclitaxel,To Do,December
+,,PACLITAXEL (TAXUS CANADENSIS),paclitaxel (taxus canadensis),FALSE,paclitaxel (taxus canadensis),No live products,
 ,,PADIMATE O,padimate o,FALSE,padimate o,Sunscreen,
-,,PALBOCICLIB,palbociclib,FALSE,palbociclib,To Do,December
+Y,,PALBOCICLIB,palbociclib,FALSE,palbociclib,To Do,December
 Y,,PALIPERIDONE,paliperidone,FALSE,paliperidone,Released,
 Y,,PALIPERIDONE (Paliperidone Palmitate),paliperidone,FALSE,paliperidone (paliperidone palmitate),Released,
-,,PALIVIZUMAB,palivizumab,FALSE,palivizumab,To Do,December
+Y,,PALIVIZUMAB,palivizumab,FALSE,palivizumab,To Do,December
 Y,,PALONOSETRON (PALONOSETRON HYDROCHLORIDE),palonosetron,FALSE,palonosetron (palonosetron hydrochloride),Released,
-,,PAMABROM,pamabrom,FALSE,pamabrom,To Do,December
+Y,,PAMABROM,pamabrom,FALSE,pamabrom,To Do,December
 Y,,PAMIDRONATE DISODIUM,pamidronate,FALSE,pamidronate disodium,Released,
-,,PANCURONIUM BROMIDE,pancuronium bromide,FALSE,pancuronium bromide,To Do,December
-,,PANITUMUMAB,panitumumab,FALSE,panitumumab,To Do,December
+Y,,PANCURONIUM BROMIDE,pancuronium,FALSE,pancuronium bromide,No live products,
+Y,,PANITUMUMAB,panitumumab,FALSE,panitumumab,To Do,December
 Y,PANTOPRAZOLE,PANTOPRAZOLE (Pantoprazole magnesium hemipentahydrate),pantoprazole,TRUE,pantoprazole (pantoprazole magnesium),Released,
 Y,PANTOPRAZOLE,PANTOPRAZOLE (PANTOPRAZOLE MAGNESIUM),pantoprazole,FALSE,pantoprazole (pantoprazole magnesium),Released,
 Y,PANTOPRAZOLE,PANTOPRAZOLE (PANTOPRAZOLE SODIUM SESQUIHYDRATE),pantoprazole,TRUE,pantoprazole (pantoprazole sodium),Released,
 Y,PANTOPRAZOLE,PANTOPRAZOLE (PANTOPRAZOLE SODIUM),pantoprazole,FALSE,pantoprazole (pantoprazole sodium),Released,
-,,PAPAVERINE HYDROCHLORIDE,papaverine hydrochloride,FALSE,papaverine hydrochloride,To Do,December
+Y,,PAPAVERINE HYDROCHLORIDE,papaverine,FALSE,papaverine hydrochloride,To Do,December
 ,,PARACHLOROPHENOL,parachlorophenol,FALSE,parachlorophenol,No live products,
 Y,,Paritaprevir,paritaprevir,FALSE,paritaprevir,Released,Combination only
-,,PAROMOMYCIN (PAROMOMYCIN SULFATE),paromomycin (paromomycin sulfate),FALSE,paromomycin (paromomycin sulfate),To Do,December
+Y,,PAROMOMYCIN (PAROMOMYCIN SULFATE),paromomycin,FALSE,paromomycin (paromomycin sulfate),To Do,December
 Y,PAROXETINE,PAROXETINE (PAROXETINE HYDROCHLORIDE ACETONE SOLVATE),paroxetine,TRUE,paroxetine (paroxetine hydrochloride),Released,
 Y,PAROXETINE,PAROXETINE (PAROXETINE HYDROCHLORIDE HEMIHYDRATE),paroxetine,TRUE,paroxetine (paroxetine hydrochloride),Released,
 Y,PAROXETINE,PAROXETINE (PAROXETINE HYDROCHLORIDE),paroxetine,FALSE,paroxetine (paroxetine hydrochloride),Released,
 Y,PAROXETINE,"PAROXETINE (PAROXETINE HYDROCHLORIDE, ISOPROPYL SOLVATE)",paroxetine,TRUE,paroxetine (paroxetine hydrochloride),Released,
-,,PASIREOTIDE (Pasireotide diaspartate),pasireotide (pasireotide diaspartate),FALSE,pasireotide (pasireotide diaspartate),To Do,December
-,,PASIREOTIDE (Pasireotide Pamoate),pasireotide (pasireotide pamoate),FALSE,pasireotide (pasireotide pamoate),To Do,December
+Y,,PASIREOTIDE (Pasireotide diaspartate),pasireotide,FALSE,pasireotide (pasireotide diaspartate),To Do,December
+Y,,PASIREOTIDE (Pasireotide Pamoate),pasireotide,FALSE,pasireotide (pasireotide pamoate),To Do,December
 ,,PATENT BLUE SODIUM,patent blue sodium,FALSE,patent blue sodium,Contrast media,
-,,Pazopanib (Pazopanib Hydrochloride),pazopanib (pazopanib hydrochloride),FALSE,pazopanib (pazopanib hydrochloride),To Do,December
+Y,,Pazopanib (Pazopanib Hydrochloride),pazopanib,FALSE,pazopanib (pazopanib hydrochloride),To Do,December
 ,,PEANUT OIL,peanut oil,FALSE,peanut oil,To Do,Cerumol
 ,,PECTIN,pectin,FALSE,pectin,To Do,Orabase paste
-,,PEGASPARGASE,pegaspargase,FALSE,pegaspargase,To Do,December
-,,PEGFILGRASTIM,pegfilgrastim,FALSE,pegfilgrastim,To Do,December
-,,PEGINTERFERON ALFA-2A,peginterferon alfa-2a,FALSE,peginterferon alfa-2a,To Do,December
+Y,,PEGASPARGASE,pegaspargase,FALSE,pegaspargase,To Do,December
+Y,,PEGFILGRASTIM,pegfilgrastim,FALSE,pegfilgrastim,To Do,December
+Y,,PEGINTERFERON ALFA-2A,peginterferon alfa-2a,FALSE,peginterferon alfa-2a,To Do,December
 ,,PEGINTERFERON ALFA-2B,peginterferon alfa-2b,FALSE,peginterferon alfa-2b,No live products,
-,,PEGINTERFERON BETA-1A,peginterferon beta-1a,FALSE,peginterferon beta-1a,To Do,December
-,,PEGVISOMANT,pegvisomant,FALSE,pegvisomant,To Do,December
-,,Pembrolizumab,pembrolizumab,FALSE,pembrolizumab,To Do,December
+Y,,PEGINTERFERON BETA-1A,peginterferon beta-1a,FALSE,peginterferon beta-1a,To Do,December
+Y,,PEGVISOMANT,pegvisomant,FALSE,pegvisomant,To Do,December
+Y,,Pembrolizumab,pembrolizumab,FALSE,pembrolizumab,To Do,December
 Y,,PEMETREXED (Pemetrexed disodium hemipentahydrate),pemetrexed,TRUE,pemetrexed (pemetrexed disodium),Released,
 Y,,PEMETREXED (PEMETREXED DISODIUM),pemetrexed,FALSE,pemetrexed (pemetrexed disodium),Released,
 Y,,PENICILLIN G (PENICILLIN G SODIUM),penicillin g,FALSE,penicillin g (penicillin g sodium),Released,
@@ -1295,10 +1295,10 @@ Y,PENICILLIN V,PENICILLIN V POTASSIUM,penicillin v,FALSE,penicillin v potassium,
 Y,,PENTAMIDINE ISETIONATE,pentamidine,FALSE,pentamidine isetionate,Released,
 Y,PENTAZOCINE,PENTAZOCINE (PENTAZOCINE HYDROCHLORIDE),pentazocine,FALSE,pentazocine (pentazocine hydrochloride),Released,
 Y,PENTAZOCINE,PENTAZOCINE (PENTAZOCINE LACTATE),pentazocine,FALSE,pentazocine (pentazocine lactate),Released,
-,,PENTOSAN POLYSULFATE SODIUM,pentosan polysulfate sodium,FALSE,pentosan polysulfate sodium,To Do,December
+Y,,PENTOSAN POLYSULFATE SODIUM,pentosan polysulfate sodium,FALSE,pentosan polysulfate sodium,To Do,December
 Y,,PENTOXIFYLLINE,pentoxifylline,FALSE,pentoxifylline,Released,
 Y,,PERAMIVIR,peramivir,FALSE,peramivir,Released,
-,,Perampanel,perampanel,FALSE,perampanel,To Do,December
+Y,,Perampanel,perampanel,FALSE,perampanel,To Do,December
 ,,PERFLUTREN,perflutren,FALSE,perflutren,Contrast media,
 Y,,PERICIAZINE,periciazine,FALSE,periciazine,Released,
 Y,PERINDOPRIL,PERINDOPRIL ARGININE,perindopril,FALSE,perindopril arginine,Released,
@@ -1309,15 +1309,15 @@ Y,,PERPHENAZINE,perphenazine,FALSE,perphenazine,Released,
 ,,PERTACTIN ADSORBED,pertactin adsorbed,FALSE,pertactin adsorbed,Immunologic,
 ,,PERTUSSIS TOXOID,pertussis toxoid,FALSE,pertussis toxoid,Immunologic,
 ,,PERTUSSIS TOXOID ADSORBED,pertussis toxoid adsorbed,FALSE,pertussis toxoid adsorbed,Immunologic,
-,,Pertuzumab,pertuzumab,FALSE,pertuzumab,To Do,December
+Y,,Pertuzumab,pertuzumab,FALSE,pertuzumab,To Do,December
 Y,,PETROLATUM,petrolatum,FALSE,petrolatum,Issue - in QA,
 Y,,PHENAZOPYRIDINE HYDROCHLORIDE,phenazopyridine hydrochloride,FALSE,phenazopyridine hydrochloride,No live products,
 Y,,PHENELZINE (PHENELZINE SULFATE),phenelzine,FALSE,phenelzine (phenelzine sulfate),Released,
 Y,,PHENIRAMINE MALEATE,pheniramine,FALSE,pheniramine maleate,Released,
 Y,PHENOBARBITAL,PHENOBARBITAL,phenobarbital,FALSE,phenobarbital,Released,
-,,PHENOBARBITAL SODIUM,phenobarbital sodium,FALSE,phenobarbital sodium,Released,
-,,PHENOL,phenol,FALSE,phenol,To Do,December
-,,PHENTOLAMINE MESYLATE,phentolamine mesylate,FALSE,phentolamine mesylate,To Do,December
+Y,,PHENOBARBITAL SODIUM,phenobarbital,FALSE,phenobarbital sodium,To Do,December
+Y,,PHENOL,phenol,FALSE,phenol,To Do,December
+Y,,PHENTOLAMINE MESYLATE,phentolamine,FALSE,phentolamine mesylate,To Do,December
 ,,PHENYLALANINE,phenylalanine,FALSE,phenylalanine,TPN,
 Y,,PHENYLEPHRINE (PHENYLEPHRINE HYDROCHLORIDE),phenylephrine,FALSE,phenylephrine (phenylephrine hydrochloride),Issue - in QA,
 Y,,PHENYLEPHRINE HYDROCHLORIDE,phenylephrine,FALSE,phenylephrine hydrochloride,Issue - in QA,
@@ -1329,16 +1329,16 @@ Y,,P-HYDROXYEPHEDRINE HYDROCHLORIDE,p-hydroxyephedrine,FALSE,p-hydroxyephedrine 
 Y,,PIBRENTASVIR,pibrentasvir,FALSE,pibrentasvir,Released,Combination only
 Y,,PILOCARPINE HYDROCHLORIDE,pilocarpine,FALSE,pilocarpine hydrochloride,Issue - in QA,
 Y,,PILOCARPINE NITRATE,pilocarpine,FALSE,pilocarpine nitrate,Issue - in QA,
-,,PIMECROLIMUS,pimecrolimus,FALSE,pimecrolimus,To Do,December
+Y,,PIMECROLIMUS,pimecrolimus,FALSE,pimecrolimus,To Do,December
 Y,,PIMOZIDE,pimozide,FALSE,pimozide,Released,
 Y,,PINAVERIUM BROMIDE,pinaverium,FALSE,pinaverium bromide,Released,
 Y,PINDOLOL,PINDOLOL,pindolol,FALSE,pindolol,Released,
 Y,PIOGLITAZONE,PIOGLITAZONE (PIOGLITAZONE HYDROCHLORIDE),pioglitazone,FALSE,pioglitazone (pioglitazone hydrochloride),Released,
 Y,,PIPERACILLIN (PIPERACILLIN SODIUM),piperacillin,FALSE,piperacillin (piperacillin sodium),Released,
-,,PIPERAZINE,piperazine,FALSE,piperazine,To Do,December
-,,PIPERONYL BUTOXIDE,piperonyl butoxide,FALSE,piperonyl butoxide,To Do,December
+Y,,PIPERAZINE,piperazine,FALSE,piperazine,To Do,December
+Y,,PIPERONYL BUTOXIDE,piperonyl butoxide,FALSE,piperonyl butoxide,To Do,December
 ,,PIPRADROL HYDROCHLORIDE,pipradrol hydrochloride,FALSE,pipradrol hydrochloride,To Do,December
-,,PIRFENIDONE,pirfenidone,FALSE,pirfenidone,To Do,December
+Y,,PIRFENIDONE,pirfenidone,FALSE,pirfenidone,To Do,December
 Y,,PIROXICAM,piroxicam,FALSE,piroxicam,Released,
 ,,PITCHER PLANT,pitcher plant,FALSE,pitcher plant,Allergen,
 Y,,PIZOTIFEN (PIZOTIFEN MALATE),pizotifen,FALSE,pizotifen (pizotifen malate),Released,
@@ -1388,7 +1388,7 @@ Y,,POLIDOCANOL,polidocanol,FALSE,polidocanol,Issue - in QA,
 ,,POLYETHYLENE GLYCOL 400,polyethylene glycol 400,FALSE,polyethylene glycol 400,To Do,December
 Y,,POLYMYXIN B (POLYMYXIN B SULFATE),polymyxin b,FALSE,polymyxin b (polymyxin b sulfate),Issue - in QA,
 Y,,POLYMYXIN B SULFATE,polymyxin b,FALSE,polymyxin b sulfate,Issue - in QA,
-,,POLYSORBATE 80,polysorbate 80,FALSE,polysorbate 80,To Do,December
+Y,,POLYSORBATE 80,polysorbate 80,FALSE,polysorbate 80,To Do,December
 ,,POLYVINYL ALCOHOL,polyvinyl alcohol,FALSE,polyvinyl alcohol,To Do,December
 ,,Pomalidomide,pomalidomide,FALSE,pomalidomide,To Do,December
 ,,Ponatinib (Ponatinib Hydrochloride),ponatinib (ponatinib hydrochloride),FALSE,ponatinib (ponatinib hydrochloride),To Do,December
@@ -1570,7 +1570,7 @@ Y,,SITAGLIPTIN (SITAGLIPTIN PHOSPHATE),sitagliptin,FALSE,sitagliptin (sitaglipti
 ,,SODIUM BICARBONATE,sodium bicarbonate,FALSE,sodium bicarbonate,,
 ,,SODIUM BISULFITE,sodium bisulfite,FALSE,sodium bisulfite,,
 ,,SODIUM CARBONATE (ANHYDROUS),sodium carbonate (anhydrous),FALSE,sodium carbonate (anhydrous),,
-,,SODIUM CARBOXYMETHYL CELLULOSE,sodium carboxymethyl cellulose,FALSE,sodium carboxymethyl cellulose,To Do,December
+Y,,SODIUM CARBOXYMETHYL CELLULOSE,sodium carboxymethyl cellulose,FALSE,sodium carboxymethyl cellulose,To Do,December
 ,,SODIUM CHLORIDE,sodium chloride,FALSE,sodium chloride,,
 Y,,SODIUM CITRATE,sodium citrate,FALSE,sodium citrate,Released,
 Y,,SODIUM CITRATE DIHYDRATE,sodium citrate,TRUE,sodium citrate,Released,
