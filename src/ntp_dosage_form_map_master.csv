@@ -500,7 +500,7 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40001,solution for injection,64,SUBARACHNOIDAL,Sous-arachno?dienne,134,SOLUTION,Solution,29467,TRUE,2017-11-28,dbuijs,e93c41ea-d459-11e7-8749-aa0000cecfa6
 40001,solution for injection,65,SUBCUTANEOUS,Sous-cutan?e,34,LIQUID,Liquide,29469,TRUE,2017-11-28,dbuijs,e93c42b2-d459-11e7-8749-aa0000cecfa6
 40001,solution for injection,65,SUBCUTANEOUS,Sous-cutan?e,134,SOLUTION,Solution,29472,TRUE,2017-11-28,dbuijs,e93c43f2-d459-11e7-8749-aa0000cecfa6
-40001,solution for injection,65,SUBCUTANEOUS,Sous-cutan?e,155,SOLUTION (EXTENDED RELEASE),Solution (? lib?ration prolong?e),29473,TRUE,2017-11-28,dbuijs,e93c4460-d459-11e7-8749-aa0000cecfa6
+,prolonged-release solution for injection,65,SUBCUTANEOUS,Sous-cutan?e,155,SOLUTION (EXTENDED RELEASE),Solution (? lib?ration prolong?e),29473,TRUE,2017-11-28,dbuijs,e93c4460-d459-11e7-8749-aa0000cecfa6
 40001,solution for injection,109,SUBMUCOSAL,Sous-muqueuse,134,SOLUTION,Solution,29484,TRUE,2017-11-28,dbuijs,e93c4898-d459-11e7-8749-aa0000cecfa6
 40036,solution for peritoneal dialysis,33,INTRAPERITONEAL,Intrap?riton?ale,134,SOLUTION,Solution,29292,TRUE,2017-11-28,dbuijs,e93beca4-d459-11e7-8749-aa0000cecfa6
 40104,sublingual spray,66,SUBLINGUAL,Sublinguale,1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29479,TRUE,2017-11-28,dbuijs,e93c46a4-d459-11e7-8749-aa0000cecfa6
