@@ -603,3 +603,5 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40106,cutaneous spray,70,TOPICAL,Topique,164,"SPRAY, BAG-ON-VALVE","Pulverisation, sac-sur-valve",,,,,
 ,cutaneous spray powder,70,TOPICAL,Topique,2-55,"AEROSOL, POWDER","A?rosol, Poudre",,,,,
 40085,powder for oral/rectal suspension,56-62,"ORAL, RECTAL","Orale, Rectale",126,POWDER FOR SUSPENSION,Poudre pour suspension,,,,,
+40019,suspension for injection,13,INTRABURSAL,NA,79,SUSPENSION,Suspension,29182,TRUE,2017-11-28,dbuijs,e93b93f8-d459-11e7-8749-aa0000cecfa6
+40019,suspension for injection,10-42-112,"INTRA-ARTICULAR, INTRASYNOVIAL, PERIARTICULAR","Intra-articulaire, Intrasynoviale, Périarticulaire",79,SUSPENSION,Suspension,,,,,
