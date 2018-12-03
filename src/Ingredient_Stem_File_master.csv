@@ -588,7 +588,7 @@ Y,ENALAPRIL,ENALAPRIL SODIUM (ENALAPRIL MALEATE),enalapril,FALSE,enalapril sodiu
 Y,,ENALAPRILAT,enalaprilat,FALSE,enalaprilat,Released,
 Y,,ENFUVIRTIDE,enfuvirtide,FALSE,enfuvirtide,Released,
 Y,,ENOXAPARIN SODIUM,enoxaparin,FALSE,enoxaparin sodium,Released,
-,,ENSULIZOLE,ensulizole,FALSE,ensulizole,Sunscreen,Y flag removed because is a sunscreen and therefore out of scope of CCDD
+Y,,ENSULIZOLE,ensulizole,FALSE,ensulizole,Sunscreen,Y flag added back
 Y,,ENTACAPONE,entacapone,FALSE,entacapone,Released,
 Y,,ENTECAVIR,entecavir,FALSE,entecavir,Released,
 Y,,ENTECAVIR (ENTECAVIR MONOHYDRATE),entecavir,TRUE,entecavir,Released,
