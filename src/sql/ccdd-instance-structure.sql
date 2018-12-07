@@ -1744,52 +1744,44 @@ ALTER TABLE ccdd.ntp_definition OWNER TO postgres;
 
 -- object: public.ccdd_ntp_table | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_ntp_table CASCADE;
-
 CREATE MATERIALIZED VIEW public.ccdd_ntp_table
 AS
-	(SELECT
-		(CASE WHEN CAST(
-	    (
-				SELECT code FROM ccdd.ntp_definition prevntp
-	      WHERE prevntp.formal_name = candidate.ntp_formal_name
-			) as varchar) IS NULL THEN md5(COALESCE(candidate.ntp_formal_name))
-	    ELSE CAST(
-	      (
-					SELECT
-	        	code
-	        FROM ccdd.ntp_definition prevntp
-	        WHERE prevntp.formal_name = candidate.ntp_formal_name) as varchar
-	    )
-	  END
-		) AS ntp_code,
-		candidate.ntp_formal_name,
-		(CASE
-			WHEN bool_and(candidate.mp_status = 'Inactive') THEN 'Inactive'
-			ELSE 'Active'
-		END) AS ntp_status,
-		candidate.ntp_type,
-		to_char((CASE
-			WHEN bool_and(candidate.mp_status = 'Inactive') THEN max(candidate.mp_status_effective_date)
-			ELSE min(candidate.first_market_date)
-		END), 'YYYYMMDD') AS ntp_status_effective_time,
-		bool_or(candidate.tm_is_publishable) AS tm_is_publishable
-	FROM
-		ccdd_mp_table_candidate candidate
-	GROUP BY
-		candidate.ntp_formal_name, candidate.ntp_type
-	ORDER BY ntp_status_effective_time
-	) UNION ALL (
-	SELECT
-		CAST(depr.code as varchar) as ntp_code,
-		deprntp.formal_name as ntp_formal_name,
-		'Deprec' as ntp_status,
-		null::varchar as ntp_type,
-		to_char((SELECT dpd_extract_date FROM ccdd_config LIMIT 1), 'YYYYMMDD') as ntp_status_effective_time,
-		true as tm_is_publishable
-	FROM
-		ccdd.ntp_deprecations depr
-		LEFT JOIN ccdd.ntp_definition deprntp ON(CAST(deprntp.code as varchar) = depr.code)
-	);
+    (SELECT
+        (CASE
+            WHEN CAST(depr.code as varchar) IS NOT NULL THEN depr.code
+            WHEN defn.formal_name IS NULL THEN md5(COALESCE(candidate.ntp_formal_name))
+        ELSE defn.code::varchar
+            END
+        ) AS ntp_code,
+        (
+            CASE
+            WHEN CAST(depr.code as varchar) IS NOT NULL THEN (SELECT formal_name FROM ccdd.ntp_definition WHERE code::varchar = depr.code)
+            ELSE candidate.ntp_formal_name
+            END
+        ) AS ntp_formal_name,
+        (CASE
+            WHEN CAST(depr.code as varchar) IS NOT NULL THEN 'Deprec'
+            WHEN bool_and(candidate.mp_status = 'Inactive') THEN 'Inactive'
+            ELSE 'Active'
+        END) AS ntp_status,
+        (CASE
+            WHEN CAST(depr.code as varchar) IS NOT NULL THEN null::varchar
+            ELSE candidate.ntp_type
+            END) as ntp_type,
+        to_char((CASE
+            WHEN CAST(depr.code as varchar) IS NOT NULL THEN (SELECT dpd_extract_date as varchar FROM ccdd_config LIMIT 1)
+            WHEN bool_and(candidate.mp_status = 'Inactive') THEN max(candidate.mp_status_effective_date)
+            ELSE min(candidate.first_market_date)
+        END), 'YYYYMMDD') AS ntp_status_effective_time,
+        bool_or(candidate.tm_is_publishable) AS tm_is_publishable
+    FROM
+        ccdd_mp_table_candidate candidate
+        LEFT JOIN ccdd.ntp_definition defn ON (defn.formal_name = candidate.ntp_formal_name)
+        FULL OUTER JOIN ccdd.ntp_deprecations depr ON (depr.code = defn.code::varchar)
+    GROUP BY
+        candidate.ntp_formal_name, candidate.ntp_type, depr.code, defn.formal_name, defn.code
+    ORDER BY ntp_status_effective_time
+    );
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_ntp_table OWNER TO postgres;
 -- ddl-end --
