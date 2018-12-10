@@ -1773,7 +1773,12 @@ AS
             WHEN bool_and(candidate.mp_status = 'Inactive') THEN max(candidate.mp_status_effective_date)
             ELSE min(candidate.first_market_date)
         END), 'YYYYMMDD') AS ntp_status_effective_time,
-        bool_or(candidate.tm_is_publishable) AS tm_is_publishable
+				(
+					CASE
+					 	WHEN CAST(depr.code as varchar) IS NOT NULL THEN true
+						ELSE bool_or(candidate.tm_is_publishable)
+						END
+				) AS tm_is_publishable
     FROM
         ccdd_mp_table_candidate candidate
         LEFT JOIN ccdd.ntp_definition defn ON (defn.formal_name = candidate.ntp_formal_name)
