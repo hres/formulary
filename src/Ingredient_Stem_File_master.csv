@@ -350,7 +350,7 @@ Y,,CIMETIDINE (CIMETIDINE HYDROCHLORIDE),cimetidine (cimetidine hydrochloride),F
 Y,,CINACALCET (CINACALCET HYDROCHLORIDE),cinacalcet,FALSE,cinacalcet (cinacalcet hydrochloride),Released,,349
 Y,CIPROFLOXACIN,CIPROFLOXACIN,ciprofloxacin,FALSE,ciprofloxacin,Released,,350
 Y,CIPROFLOXACIN,CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE),ciprofloxacin,FALSE,ciprofloxacin (ciprofloxacin hydrochloride),Released,,351
-Y,CIPROFLOXACIN,"CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE, CIPROFLOXACIN)",ciprofloxacin,FALSE,ciprofloxacin (ciprofloxacin hydrochloride, ciprofloxacin),Released,,352
+Y,CIPROFLOXACIN,"CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE, CIPROFLOXACIN)",ciprofloxacin,FALSE,"ciprofloxacin (ciprofloxacin hydrochloride, ciprofloxacin)",Released,,352
 Y,CIPROFLOXACIN,CIPROFLOXACIN (CIPROFLOXACIN LACTATE),ciprofloxacin,FALSE,ciprofloxacin (ciprofloxacin lactate),Released,,353
 Y,,CISATRACURIUM (CISATRACURIUM BESYLATE),cisatracurium (cisatracurium besylate),FALSE,cisatracurium (cisatracurium besylate),To Do,December,354
 Y,,CISPLATIN,cisplatin,FALSE,cisplatin,Released,,355
@@ -389,7 +389,7 @@ Y,CLOZAPINE,CLOZAPINE,clozapine,FALSE,clozapine,Released,,387
 ,,COAGULATION FACTOR II (HUMAN),coagulation factor ii (human),FALSE,coagulation factor ii (human),Haematology,,388
 ,,COAGULATION FACTOR IX (HUMAN),coagulation factor ix (human),FALSE,coagulation factor ix (human),Haematology,,389
 ,,COAGULATION FACTOR IX (RECOMBINANT),coagulation factor ix (recombinant),FALSE,coagulation factor ix (recombinant),Haematology,,390
-,,"COAGULATION FACTOR IX (RECOMBINANT), PEGYLATED",coagulation factor ix (recombinant), pegylated,FALSE,coagulation factor ix (recombinant), pegylated,Haematology,,391
+,,"COAGULATION FACTOR IX (RECOMBINANT), PEGYLATED","coagulation factor ix (recombinant), pegylated",FALSE,"coagulation factor ix (recombinant), pegylated",Haematology,,391
 ,,COAGULATION FACTOR VII (HUMAN),coagulation factor vii (human),FALSE,coagulation factor vii (human),Haematology,,392
 ,,COAGULATION FACTOR X (HUMAN),coagulation factor x (human),FALSE,coagulation factor x (human),Haematology,,393
 ,,COAL TAR,coal tar,FALSE,coal tar,To Do,January,394
@@ -397,7 +397,7 @@ Y,,COBICISTAT,cobicistat,FALSE,cobicistat,Released,,395
 Y,,COBIMETINIB (COBIMETINIB FUMARATE),cobimetinib,FALSE,cobimetinib (cobimetinib fumarate),Released,,396
 ,,COCAINE HYDROCHLORIDE,cocaine hydrochloride,FALSE,cocaine hydrochloride,No live products,,397
 ,,COCOA BUTTER,cocoa butter,FALSE,cocoa butter,Query,In suppository product with phenylephrine - is it active?,398
-Y,CODEINE,"CODEINE (CODEINE MONOHYDRATE, Codeine Sulfate Trihydrate)",codeine,TRUE,codeine (codeine, codeine sulfate),Released,,399
+Y,CODEINE,"CODEINE (CODEINE MONOHYDRATE, Codeine Sulfate Trihydrate)",codeine,TRUE,"codeine (codeine, codeine sulfate)",Released,,399
 Y,CODEINE,CODEINE PHOSPHATE,codeine,FALSE,codeine phosphate,Released,,400
 Y,COLCHICINE,COLCHICINE,colchicine,FALSE,colchicine,Released,,401
 Y,,Colesevelam hydrochloride,colesevelam,FALSE,colesevelam hydrochloride,Issue - in QA,,402
@@ -555,7 +555,7 @@ Y,DOXYCYCLINE,DOXYCYCLINE (DOXYCYCLINE HYCLATE),doxycycline,FALSE,doxycycline (d
 Y,DOXYCYCLINE,DOXYCYCLINE (Doxycycline Monohydrate),doxycycline,TRUE,doxycycline,Released,,554
 Y,,DOXYLAMINE SUCCINATE,doxylamine,FALSE,doxylamine succinate,Released,,555
 ,,D-PANTOTHENIC ACID (CALCIUM D-PANTOTHENATE),d-pantothenic acid (calcium d-pantothenate),FALSE,d-pantothenic acid (calcium d-pantothenate),No live products,No live products in scope. Vitamin B5,556
-,,"D-PANTOTHENIC ACID (CALCIUM D-PANTOTHENATE, RIBOFLAVIN-5-PHOSPHATE)",d-pantothenic acid (calcium d-pantothenate, riboflavin-5-phosphate),FALSE,d-pantothenic acid (calcium d-pantothenate, riboflavin-5-phosphate),No live products,No live products in scope. Vitamin B5,557
+,,"D-PANTOTHENIC ACID (CALCIUM D-PANTOTHENATE, RIBOFLAVIN-5-PHOSPHATE)","d-pantothenic acid (calcium d-pantothenate, riboflavin-5-phosphate)",FALSE,"d-pantothenic acid (calcium d-pantothenate, riboflavin-5-phosphate)",No live products,No live products in scope. Vitamin B5,557
 Y,,D-PENICILLAMINE,penicillamine,FALSE,penicillamine,Released,,558
 ,,DROMETRIZOLE TRISILOXANE,drometrizole trisiloxane,FALSE,drometrizole trisiloxane,Sunscreen,,559
 Y,,DRONEDARONE (DRONEDARONE HYDROCHLORIDE),dronedarone,FALSE,dronedarone (dronedarone hydrochloride),Released,,560
@@ -789,7 +789,7 @@ Y,,HALOTHANE,halothane,FALSE,halothane,Anaesthetic,,785
 ,,HELIUM,helium,FALSE,helium,Medical gas,,788
 Y,,HEPARIN (HEPARIN SODIUM),heparin,FALSE,heparin (heparin sodium),Issue - in QA,,789
 Y,,HEPARIN SODIUM,heparin,FALSE,heparin sodium,Issue - in QA,,790
-,,"HEPATITIS A VACCINE, INACTIVATED",hepatitis a vaccine, inactivated,FALSE,hepatitis a vaccine, inactivated,Immunologic,,791
+,,"HEPATITIS A VACCINE, INACTIVATED","hepatitis a vaccine, inactivated",FALSE,"hepatitis a vaccine, inactivated",Immunologic,,791
 ,,HEPATITIS B IMMUNE GLOBULIN HUMAN,hepatitis b immune globulin human,FALSE,hepatitis b immune globulin human,Immunologic,,792
 ,,HEPATITIS B IMMUNOGLOBULIN (HUMAN),hepatitis b immunoglobulin (human),FALSE,hepatitis b immunoglobulin (human),Immunologic,,793
 ,,HEPATITIS B SURFACE ANTIGEN (RECOMBINANT),hepatitis b surface antigen (recombinant),FALSE,hepatitis b surface antigen (recombinant),Immunologic,,794
@@ -826,7 +826,7 @@ Y,,HYPROLOSE,hyprolose,FALSE,hyprolose,Released,,824
 Y,,HYPROMELLOSE,hypromellose,FALSE,hypromellose,Issue - in QA,,825
 Y,,Ibrutinib,ibrutinib,FALSE,ibrutinib,Released,,826
 Y,IBUPROFEN,IBUPROFEN,ibuprofen,FALSE,ibuprofen,Released,,827
-Y,,"IBUPROFEN (IBUPROFEN, Ibuprofen potassium)",ibuprofen,FALSE,ibuprofen (ibuprofen, ibuprofen potassium),Released,,828
+Y,,"IBUPROFEN (IBUPROFEN, Ibuprofen potassium)",ibuprofen,FALSE,"ibuprofen (ibuprofen, ibuprofen potassium)",Released,,828
 Y,,IBUTILIDE FUMARATE,ibutilide,FALSE,ibutilide fumarate,Released,,829
 Y,,ICATIBANT (ICATIBANT ACETATE),icatibant,FALSE,icatibant (icatibant acetate),Released,,830
 ,,ICODEXTRIN,icodextrin,FALSE,icodextrin,Not in scope,Haemodialysis solution,831
@@ -1020,7 +1020,7 @@ Y,,LUMACAFTOR,lumacaftor,FALSE,lumacaftor,Released,Combination only,1018
 Y,,Lurasidone Hydrochloride,lurasidone,FALSE,lurasidone hydrochloride,Released,,1019
 Y,,LUTROPIN ALFA,lutropin alfa,FALSE,lutropin alfa,Released,,1020
 ,,L-VALINE,l-valine,FALSE,l-valine,TPN,,1021
-,,LYMPHOCYTE IMMUNE GLOBULIN ANTI-THYMOCYTE GLOBULIN (EQUINE),lymphocyte immune globulin anti-thymocyte globulin (equine),FALSE,lymphocyte immune globulin anti-thymocyte globulin (equine),Not in DPD,DPD changed these products to immunoglobulin.jh,1022
+,,LYMPHOCYTE IMMUNE GLOBULIN ANTI-THYMOCYTE GLOBULIN (EQUINE),lymphocyte immune globulin anti-thymocyte globulin (equine),FALSE,lymphocyte immune globulin anti-thymocyte globulin (equine),Not in DPD,DPD changed these products to "immunoglobulin".jh,1022
 Y,,LYMPHOCYTE IMMUNOGLOBULIN ANTI-THYMOCYTE GLOBULIN (EQUINE),lymphocyte immunoglobulin anti-thymocyte globulin (equine),FALSE,lymphocyte immunoglobulin anti-thymocyte globulin (equine),To Do,,1023
 ,,LYSINE (L-LYSINE ACETATE),lysine (l-lysine acetate),FALSE,lysine (l-lysine acetate),TPN,,1024
 ,,LYSINE (L-LYSINE HYDROCHLORIDE),lysine (l-lysine hydrochloride),FALSE,lysine (l-lysine hydrochloride),TPN,,1025
@@ -1065,10 +1065,10 @@ Y,,MEMANTINE HYDROCHLORIDE,memantine,FALSE,memantine hydrochloride,Released,,105
 ,,MENINGOCOCCAL POLYSACCHARIDE ANTIGEN GROUP W-135,meningococcal polysaccharide antigen group w-135,FALSE,meningococcal polysaccharide antigen group w-135,Immunologic,,1064
 ,,MENINGOCOCCAL POLYSACCHARIDE ANTIGEN GROUP Y,meningococcal polysaccharide antigen group y,FALSE,meningococcal polysaccharide antigen group y,Immunologic,,1065
 ,,MENINGOCOCCAL POLYSACCHARIDE VACCINE GRP C,meningococcal polysaccharide vaccine grp c,FALSE,meningococcal polysaccharide vaccine grp c,Immunologic,,1066
-,,"MENINGOCOCCAL POLYSACCHARIDE-DIPHTHERIA TOXOID CONJUGATE, GROUP A",meningococcal polysaccharide-diphtheria toxoid conjugate, group a,FALSE,meningococcal polysaccharide-diphtheria toxoid conjugate, group a,Immunologic,,1067
-,,"MENINGOCOCCAL POLYSACCHARIDE-DIPHTHERIA TOXOID CONJUGATE, GROUP C",meningococcal polysaccharide-diphtheria toxoid conjugate, group c,FALSE,meningococcal polysaccharide-diphtheria toxoid conjugate, group c,Immunologic,,1068
-,,"MENINGOCOCCAL POLYSACCHARIDE-DIPHTHERIA TOXOID CONJUGATE, GROUP W 135",meningococcal polysaccharide-diphtheria toxoid conjugate, group w 135,FALSE,meningococcal polysaccharide-diphtheria toxoid conjugate, group w 135,Immunologic,,1069
-,,"MENINGOCOCCAL POLYSACCHARIDE-DIPHTHERIA TOXOID CONJUGATE, GROUP Y",meningococcal polysaccharide-diphtheria toxoid conjugate, group y,FALSE,meningococcal polysaccharide-diphtheria toxoid conjugate, group y,Immunologic,,1070
+,,"MENINGOCOCCAL POLYSACCHARIDE-DIPHTHERIA TOXOID CONJUGATE, GROUP A","meningococcal polysaccharide-diphtheria toxoid conjugate, group a",FALSE,"meningococcal polysaccharide-diphtheria toxoid conjugate, group a",Immunologic,,1067
+,,"MENINGOCOCCAL POLYSACCHARIDE-DIPHTHERIA TOXOID CONJUGATE, GROUP C","meningococcal polysaccharide-diphtheria toxoid conjugate, group c",FALSE,"meningococcal polysaccharide-diphtheria toxoid conjugate, group c",Immunologic,,1068
+,,"MENINGOCOCCAL POLYSACCHARIDE-DIPHTHERIA TOXOID CONJUGATE, GROUP W 135","meningococcal polysaccharide-diphtheria toxoid conjugate, group w 135",FALSE,"meningococcal polysaccharide-diphtheria toxoid conjugate, group w 135",Immunologic,,1069
+,,"MENINGOCOCCAL POLYSACCHARIDE-DIPHTHERIA TOXOID CONJUGATE, GROUP Y","meningococcal polysaccharide-diphtheria toxoid conjugate, group y",FALSE,"meningococcal polysaccharide-diphtheria toxoid conjugate, group y",Immunologic,,1070
 Y,,MENOTROPINS,menotropins,FALSE,menotropins,Released,,1071
 Y,,MENTHOL,menthol,FALSE,menthol,Issue - in QA,,1072
 Y,MEPERIDINE,MEPERIDINE (MEPERIDINE HYDROCHLORIDE),meperidine,FALSE,meperidine (meperidine hydrochloride),Released,,1073
@@ -1163,7 +1163,7 @@ Y,,NAPHAZOLINE HYDROCHLORIDE,naphazoline,FALSE,naphazoline hydrochloride,Release
 Y,,NAPHAZOLINE NITRATE,naphazoline,FALSE,naphazoline nitrate,Released,,1162
 Y,NAPROXEN,NAPROXEN,naproxen,FALSE,naproxen,Released,,1163
 Y,NAPROXEN,NAPROXEN SODIUM,naproxen,FALSE,naproxen sodium,Released,,1164
-Y,NAPROXEN,"NAPROXEN (NAPROXEN SODIUM, NAPROXEN)",naproxen,FALSE,naproxen (naproxen sodium, naproxen),Released,,1165
+Y,NAPROXEN,"NAPROXEN (NAPROXEN SODIUM, NAPROXEN)",naproxen,FALSE,"naproxen (naproxen sodium, naproxen)",Released,,1165
 Y,,NARATRIPTAN (NARATRIPTAN HYDROCHLORIDE),naratriptan,FALSE,naratriptan (naratriptan hydrochloride),Released,,1166
 Y,,NATALIZUMAB,natalizumab,FALSE,natalizumab,To Do,December,1167
 Y,NEBIVOLOL,Nebivolol (Nebivolol Hydrochloride),nebivolol,FALSE,nebivolol (nebivolol hydrochloride),Released,,1168
@@ -1407,7 +1407,7 @@ Y,,Ponatinib (Ponatinib Hydrochloride),ponatinib,FALSE,ponatinib (ponatinib hydr
 Y,,PORACTANT ALFA,poractant alfa,FALSE,poractant alfa,To Do,December,1406
 Y,,PORFIMER SODIUM,porfimer,FALSE,porfimer sodium,Released,,1407
 Y,,POSACONAZOLE,posaconazole,FALSE,posaconazole,Issue - in QA,,1408
-,,"POTASSIUM (POTASSIUM CHLORIDE, POTASSIUM CITRATE)",potassium (potassium chloride, potassium citrate),FALSE,potassium (potassium chloride, potassium citrate),,,1409
+,,"POTASSIUM (POTASSIUM CHLORIDE, POTASSIUM CITRATE)","potassium (potassium chloride, potassium citrate)",FALSE,"potassium (potassium chloride, potassium citrate)",,,1409
 Y,,POTASSIUM ACETATE,potassium acetate,FALSE,potassium acetate,,,1410
 Y,,POTASSIUM CHLORIDE,potassium chloride,FALSE,potassium chloride,,,1411
 Y,,POTASSIUM CITRATE,potassium citrate,FALSE,potassium citrate,,,1412
@@ -1485,7 +1485,7 @@ Y,RANITIDINE,RANITIDINE (RANITIDINE HYDROCHLORIDE),ranitidine,FALSE,ranitidine (
 Y,,RASAGILINE (RASAGILINE MESYLATE),rasagiline,FALSE,rasagiline (rasagiline mesylate),Released,,1484
 Y,,RASBURICASE,rasburicase,FALSE,rasburicase,Released,,1485
 ,,RECOMBINANT CHOLERA TOXIN B SUBUNIT,recombinant cholera toxin b subunit,FALSE,recombinant cholera toxin b subunit,Immunologic,,1486
-,,"Recombinant human coagulation factor IX, FC Fusion protein",recombinant human coagulation factor ix, fc fusion protein,FALSE,recombinant human coagulation factor ix, fc fusion protein,Immunologic,,1487
+,,"Recombinant human coagulation factor IX, FC Fusion protein","recombinant human coagulation factor ix, fc fusion protein",FALSE,"recombinant human coagulation factor ix, fc fusion protein",Immunologic,,1487
 ,,RECOMBINANT HUMAN PAPILLOMAVIRUS TYPE 11 L1 PROTEIN,recombinant human papillomavirus type 11 l1 protein,FALSE,recombinant human papillomavirus type 11 l1 protein,Immunologic,,1488
 ,,RECOMBINANT HUMAN PAPILLOMAVIRUS TYPE 16 L1 PROTEIN,recombinant human papillomavirus type 16 l1 protein,FALSE,recombinant human papillomavirus type 16 l1 protein,Immunologic,,1489
 ,,RECOMBINANT HUMAN PAPILLOMAVIRUS TYPE 18 L1 PROTEIN,recombinant human papillomavirus type 18 l1 protein,FALSE,recombinant human papillomavirus type 18 l1 protein,Immunologic,,1490
@@ -1529,7 +1529,7 @@ Y,,ROPINIROLE (ROPINIROLE HYDROCHLORIDE),ropinirole,FALSE,ropinirole (ropinirole
 Y,,ROPIVACAINE HYDROCHLORIDE,ropivacaine,FALSE,ropivacaine hydrochloride,Released,,1528
 Y,ROSIGLITAZONE ,ROSIGLITAZONE (ROSIGLITAZONE MALEATE),rosiglitazone,FALSE,rosiglitazone (rosiglitazone maleate),Released,,1529
 Y,ROSUVASTATIN,ROSUVASTATIN (ROSUVASTATIN CALCIUM),rosuvastatin,FALSE,rosuvastatin (rosuvastatin calcium),Released,,1530
-,,"ROTAVIRUS VACCINE (RIX4414 STRAIN), LIVE, ORAL, ATTENUATED (HUMAN)",rotavirus vaccine (rix4414 strain), live, oral, attenuated (human),FALSE,rotavirus vaccine (rix4414 strain), live, oral, attenuated (human),Immunologic,,1531
+,,"ROTAVIRUS VACCINE (RIX4414 STRAIN), LIVE, ORAL, ATTENUATED (HUMAN)","rotavirus vaccine (rix4414 strain), live, oral, attenuated (human)",FALSE,"rotavirus vaccine (rix4414 strain), live, oral, attenuated (human)",Immunologic,,1531
 Y,,ROTIGOTINE,rotigotine,FALSE,rotigotine,Released,,1532
 ,,RUBELLA VIRUS VACCINE LIVE ATTENUATED (WISTAR RA27/3 STRAIN),rubella virus vaccine live attenuated (wistar ra27/3 strain),FALSE,rubella virus vaccine live attenuated (wistar ra27/3 strain),Immunologic,,1533
 Y,,RUFINAMIDE,rufinamide,FALSE,rufinamide,Released,,1534
@@ -1600,7 +1600,7 @@ Y,,SODIUM OXYBATE,sodium oxybate,FALSE,sodium oxybate,Released,,1598
 Y,,Sodium phenylbutyrate,phenylbutyric acid,FALSE,sodium phenylbutyrate,Released,,1599
 ,,SODIUM PHOSPHATE DIBASIC,sodium phosphate dibasic,FALSE,sodium phosphate dibasic,,,1600
 ,,SODIUM PHOSPHATE MONOBASIC,sodium phosphate monobasic,FALSE,sodium phosphate monobasic,,,1601
-,,"SODIUM PHOSPHATE MONOBASIC, MONOHYDRATE",sodium phosphate monobasic, monohydrate,TRUE,sodium phosphate monobasic, monohydrate,,,1602
+,,"SODIUM PHOSPHATE MONOBASIC, MONOHYDRATE","sodium phosphate monobasic, monohydrate",TRUE,"sodium phosphate monobasic, monohydrate",,,1602
 ,,SODIUM PICOSULFATE,sodium picosulfate,FALSE,sodium picosulfate,,,1603
 Y,,SODIUM POLYSTYRENE SULFONATE,sodium polystyrene sulfonate,FALSE,sodium polystyrene sulfonate,,,1604
 Y,,SODIUM SALICYLATE,sodium salicylate,FALSE,sodium salicylate,Released,,1605
@@ -1816,10 +1816,10 @@ Y,VERAPAMIL,VERAPAMIL HYDROCHLORIDE,verapamil,FALSE,verapamil hydrochloride,Rele
 Y,,VERNAKALANT HYDROCHLORIDE,vernakalant,FALSE,vernakalant hydrochloride,Released,,1815
 Y,,VERTEPORFIN,verteporfin,FALSE,verteporfin,Released,,1816
 ,,VESPULA SPP VENOM PROTEIN EXTRACT,vespula spp venom protein extract,FALSE,vespula spp venom protein extract,Allergen,,1817
-,,"VIBRIO CHOLERAE INABA 48 CLASSICAL BIOTYPE, HEAT INACTIVATED",vibrio cholerae inaba 48 classical biotype, heat inactivated,FALSE,vibrio cholerae inaba 48 classical biotype, heat inactivated,Immunologic,,1818
-,,"VIBRIO CHOLERAE INABA 6973 E1 TOR BIOTYPE, FORMALIN INACTIVATED",vibrio cholerae inaba 6973 e1 tor biotype, formalin inactivated,FALSE,vibrio cholerae inaba 6973 e1 tor biotype, formalin inactivated,Immunologic,,1819
-,,"VIBRIO CHOLERAE OGAWA 50 CLASSICAL BIOTYPE, FORMALIN INACTIVATED",vibrio cholerae ogawa 50 classical biotype, formalin inactivated,FALSE,vibrio cholerae ogawa 50 classical biotype, formalin inactivated,Immunologic,,1820
-,,"VIBRIO CHOLERAE OGAWA 50 CLASSICAL BIOTYPE, HEAT INACTIVATED",vibrio cholerae ogawa 50 classical biotype, heat inactivated,FALSE,vibrio cholerae ogawa 50 classical biotype, heat inactivated,Immunologic,,1821
+,,"VIBRIO CHOLERAE INABA 48 CLASSICAL BIOTYPE, HEAT INACTIVATED","vibrio cholerae inaba 48 classical biotype, heat inactivated",FALSE,"vibrio cholerae inaba 48 classical biotype, heat inactivated",Immunologic,,1818
+,,"VIBRIO CHOLERAE INABA 6973 E1 TOR BIOTYPE, FORMALIN INACTIVATED","vibrio cholerae inaba 6973 e1 tor biotype, formalin inactivated",FALSE,"vibrio cholerae inaba 6973 e1 tor biotype, formalin inactivated",Immunologic,,1819
+,,"VIBRIO CHOLERAE OGAWA 50 CLASSICAL BIOTYPE, FORMALIN INACTIVATED","vibrio cholerae ogawa 50 classical biotype, formalin inactivated",FALSE,"vibrio cholerae ogawa 50 classical biotype, formalin inactivated",Immunologic,,1820
+,,"VIBRIO CHOLERAE OGAWA 50 CLASSICAL BIOTYPE, HEAT INACTIVATED","vibrio cholerae ogawa 50 classical biotype, heat inactivated",FALSE,"vibrio cholerae ogawa 50 classical biotype, heat inactivated",Immunologic,,1821
 Y,,VIGABATRIN,vigabatrin,FALSE,vigabatrin,Issue - in QA,,1822
 Y,VILANTEROL,Vilanterol (Vilanterol trifenatate),vilanterol,FALSE,vilanterol (vilanterol trifenatate),Released,Combination only,1823
 Y,,VILAZODONE HYDROCHLORIDE,vilazodone,FALSE,vilazodone hydrochloride,Released,,1824
