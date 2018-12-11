@@ -9,7 +9,7 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40111,cutaneous emulsion,70,TOPICAL,Topique,19,EMULSION,?mulsion,29490,TRUE,2017-11-28,dbuijs,e93c4b5e-d459-11e7-8749-aa0000cecfa6,8
 40107,cutaneous foam,70,TOPICAL,Topique,166,"AEROSOL, FOAM","A?rosol, mousse",29486,TRUE,2017-11-28,dbuijs,e93c4960-d459-11e7-8749-aa0000cecfa6,9
 40112,cutaneous gel,70,TOPICAL,Topique,114,GEL,Gel,29491,TRUE,2017-11-28,dbuijs,e93c4bb8-d459-11e7-8749-aa0000cecfa6,10
-40112,cutaneous gel,70,TOPICAL,Topique,26,JELLY,NA,29492,TRUE,2017-11-28,dbuijs,e93c4c12-d459-11e7-8749-aa0000cecfa6,11
+40112,cutaneous gel,70,TOPICAL,Topique,26,JELLY,,29492,TRUE,2017-11-28,dbuijs,e93c4c12-d459-11e7-8749-aa0000cecfa6,11
 40112,cutaneous gel,104,TOPICAL (HOUSEHOLD),Topique (Maison),114,GEL,Gel,29523,TRUE,2017-11-28,dbuijs,e93c5978-d459-11e7-8749-aa0000cecfa6,12
 40113,cutaneous liquid,70,TOPICAL,Topique,34,LIQUID,Liquide,29494,TRUE,2017-11-28,dbuijs,e93c4ce4-d459-11e7-8749-aa0000cecfa6,13
 40116,cutaneous ointment,70,TOPICAL,Topique,43,OINTMENT,Pommade,29499,TRUE,2017-11-28,dbuijs,e93c4eba-d459-11e7-8749-aa0000cecfa6,14
@@ -38,16 +38,16 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40142,effervescent vaginal tablet,74,VAGINAL,Vaginale,165,"VAGINAL TABLET, EFFERVESCENT","Comprim? vaginal, effervescent",29545,TRUE,2017-11-28,dbuijs,e93c617a-d459-11e7-8749-aa0000cecfa6,37
 40015,emulsion for injection,7-22-49,"EPIDURAL, INTRAMUSCULAR, INTRAVENOUS","?pidurale, Intramusculaire, Intraveineuse",19,EMULSION,?mulsion,29008,TRUE,2017-11-28,dbuijs,e93b36a6-d459-11e7-8749-aa0000cecfa6,38
 40015,emulsion for injection,7-49-65,"EPIDURAL, INTRAVENOUS, SUBCUTANEOUS","?pidurale, Intraveineuse, Sous-cutan?e",19,EMULSION,?mulsion,29018,TRUE,2017-11-28,dbuijs,e93b3b4c-d459-11e7-8749-aa0000cecfa6,39
-40015,emulsion for injection,12-17-22-49-50,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",NA,19,EMULSION,?mulsion,29052,TRUE,2017-11-28,dbuijs,e93b4d62-d459-11e7-8749-aa0000cecfa6,40
+40015,emulsion for injection,12-17-22-49-50,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",,19,EMULSION,?mulsion,29052,TRUE,2017-11-28,dbuijs,e93b4d62-d459-11e7-8749-aa0000cecfa6,40
 40015,emulsion for injection,12-22-31-49,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-art?rielle, Intramusculaire, Intrath?cale, Intraveineuse",19,EMULSION,?mulsion,29064,TRUE,2017-11-28,dbuijs,e93b529e-d459-11e7-8749-aa0000cecfa6,41
 40015,emulsion for injection,12-22-31-49-50,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRAVENTRICULAR","Intra-art?rielle, Intramusculaire, Intrath?cale, Intraveineuse, Intraventriculaire",19,EMULSION,?mulsion,29071,TRUE,2017-11-28,dbuijs,e93b5a64-d459-11e7-8749-aa0000cecfa6,42
 40015,emulsion for injection,12-22-49,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRAVENOUS","Intra-art?rielle, Intramusculaire, Intraveineuse",19,EMULSION,?mulsion,29080,TRUE,2017-11-28,dbuijs,e93b5e06-d459-11e7-8749-aa0000cecfa6,43
 40015,emulsion for injection,10-13-19-22,"INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intradermique, Intramusculaire",19,EMULSION,?mulsion,29097,TRUE,2017-11-28,dbuijs,e93b66bc-d459-11e7-8749-aa0000cecfa6,44
 40015,emulsion for injection,10-13-22,"INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intramusculaire",19,EMULSION,?mulsion,29109,TRUE,2017-11-28,dbuijs,e93b6e5a-d459-11e7-8749-aa0000cecfa6,45
-40015,emulsion for injection,10-19-21-22,"INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",NA,19,EMULSION,?mulsion,29116,TRUE,2017-11-28,dbuijs,e93b71f2-d459-11e7-8749-aa0000cecfa6,46
-40015,emulsion for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",NA,19,EMULSION,?mulsion,29134,TRUE,2017-11-28,dbuijs,e93b7b66-d459-11e7-8749-aa0000cecfa6,47
-40015,emulsion for injection,10-21-22,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR",NA,19,EMULSION,?mulsion,29126,TRUE,2017-11-28,dbuijs,e93b76f2-d459-11e7-8749-aa0000cecfa6,48
-40015,emulsion for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",NA,19,EMULSION,?mulsion,29143,TRUE,2017-11-28,dbuijs,e93b8106-d459-11e7-8749-aa0000cecfa6,49
+40015,emulsion for injection,10-19-21-22,"INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",,19,EMULSION,?mulsion,29116,TRUE,2017-11-28,dbuijs,e93b71f2-d459-11e7-8749-aa0000cecfa6,46
+40015,emulsion for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",,19,EMULSION,?mulsion,29134,TRUE,2017-11-28,dbuijs,e93b7b66-d459-11e7-8749-aa0000cecfa6,47
+40015,emulsion for injection,10-21-22,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR",,19,EMULSION,?mulsion,29126,TRUE,2017-11-28,dbuijs,e93b76f2-d459-11e7-8749-aa0000cecfa6,48
+40015,emulsion for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",,19,EMULSION,?mulsion,29143,TRUE,2017-11-28,dbuijs,e93b8106-d459-11e7-8749-aa0000cecfa6,49
 40015,emulsion for injection,10-22,"INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire, Intramusculaire",19,EMULSION,?mulsion,29155,TRUE,2017-11-28,dbuijs,e93b866a-d459-11e7-8749-aa0000cecfa6,50
 40015,emulsion for injection,10-22-42-63,"INTRA-ARTICULAR, INTRAMUSCULAR, INTRASYNOVIAL, SOFT TISSUE INJECTION","Intra-articulaire, Intramusculaire, Intrasynoviale, Injection dans les tissus mous",19,EMULSION,?mulsion,29163,TRUE,2017-11-28,dbuijs,e93b8aca-d459-11e7-8749-aa0000cecfa6,51
 40015,emulsion for injection,10-22-49,"INTRA-ARTICULAR, INTRAMUSCULAR, INTRAVENOUS","Intra-articulaire, Intramusculaire, Intraveineuse",19,EMULSION,?mulsion,29173,TRUE,2017-11-28,dbuijs,e93b904c-d459-11e7-8749-aa0000cecfa6,52
@@ -75,7 +75,7 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40071,gastro-resistant granules for oral suspension,56,ORAL,Orale,148,"GRANULES FOR SUSPENSION, DELAYED RELEASE","Granules pour suspension, ? lib?ration retard?e",29405,TRUE,2017-11-28,dbuijs,e93c24ee-d459-11e7-8749-aa0000cecfa6,74
 40081,gastro-resistant tablet,56,ORAL,Orale,109,TABLET (DELAYED-RELEASE),Comprim? (? lib?ration retard?e),29425,TRUE,2017-11-28,dbuijs,e93c2e62-d459-11e7-8749-aa0000cecfa6,75
 40081,gastro-resistant tablet,56,ORAL,Orale,17,TABLET (ENTERIC-COATED),Comprim? (ent?rosoluble),29427,TRUE,2017-11-28,dbuijs,e93c2f34-d459-11e7-8749-aa0000cecfa6,76
-40064,oral solution,56,ORAL,Orale,163,GRANULES FOR SOLUTION,Granules pour solution,NA,NA,,,,77
+40064,oral solution,56,ORAL,Orale,163,GRANULES FOR SOLUTION,Granules pour solution,,,,,,77
 40068,granules for oral suspension,56,ORAL,Orale,53,GRANULES,Granules,29402,TRUE,2017-11-28,dbuijs,e93c23cc-d459-11e7-8749-aa0000cecfa6,78
 40101,implant,65,SUBCUTANEOUS,Sous-cutan?e,30,IMPLANT,Implant,29468,TRUE,2017-11-28,dbuijs,e93c424e-d459-11e7-8749-aa0000cecfa6,79
 40025,inhalation powder,29,INHALATION,Inhalation,1-55,"METERED-DOSE AEROSOL, POWDER","A?rosol ? dose mesur?e, Poudre",29032,TRUE,2017-11-28,dbuijs,e93b4484-d459-11e7-8749-aa0000cecfa6,80
@@ -101,7 +101,7 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40006,kit,56,ORAL,Orale,32,KIT,Trousse,29406,TRUE,2017-11-28,dbuijs,e93c2566-d459-11e7-8749-aa0000cecfa6,100
 40006,kit,62,RECTAL,Rectale,32,KIT,Trousse,29460,TRUE,2017-11-28,dbuijs,e93c3de4-d459-11e7-8749-aa0000cecfa6,101
 40006,kit,70,TOPICAL,Topique,32,KIT,Trousse,29493,TRUE,2017-11-28,dbuijs,e93c4c8a-d459-11e7-8749-aa0000cecfa6,102
-40115,liquid,70,TOPICAL,Topique,174,OIL,NA,29497,TRUE,2017-11-28,dbuijs,e93c4dfc-d459-11e7-8749-aa0000cecfa6,103
+40115,liquid,70,TOPICAL,Topique,174,OIL,,29497,TRUE,2017-11-28,dbuijs,e93c4dfc-d459-11e7-8749-aa0000cecfa6,103
 40115,liquid,70,TOPICAL,Topique,174,OIL,Huile,29498,TRUE,2017-11-28,dbuijs,e93c4e56-d459-11e7-8749-aa0000cecfa6,104
 40114,lotion,70,TOPICAL,Topique,36,LOTION,Lotion,29495,TRUE,2017-11-28,dbuijs,e93c4d3e-d459-11e7-8749-aa0000cecfa6,105
 40114,lotion,107,TOPICAL (HOSPITAL/HC FACILITIES),"Topique (H?pitaux, ?tablissements de soins de sant?)",36,LOTION,Lotion,29518,TRUE,2017-11-28,dbuijs,e93c55fe-d459-11e7-8749-aa0000cecfa6,106
@@ -208,16 +208,16 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40085,powder for oral/rectal suspension,56-62,"ORAL, RECTAL","Orale, Rectale",56,POWDER FOR SOLUTION,Poudre pour solution,29435,TRUE,2017-11-28,dbuijs,e93c3268-d459-11e7-8749-aa0000cecfa6,207
 40018,powder for prolonged-release suspension for injection,7-22-49,"EPIDURAL, INTRAMUSCULAR, INTRAVENOUS","?pidurale, Intramusculaire, Intraveineuse",118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29012,TRUE,2017-11-28,dbuijs,e93b38c2-d459-11e7-8749-aa0000cecfa6,208
 40018,powder for prolonged-release suspension for injection,7-49-65,"EPIDURAL, INTRAVENOUS, SUBCUTANEOUS","?pidurale, Intraveineuse, Sous-cutan?e",118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29023,TRUE,2017-11-28,dbuijs,e93b3d54-d459-11e7-8749-aa0000cecfa6,209
-40018,powder for prolonged-release suspension for injection,12-17-22-49-50,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",NA,118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29057,TRUE,2017-11-28,dbuijs,e93b4fd8-d459-11e7-8749-aa0000cecfa6,210
+40018,powder for prolonged-release suspension for injection,12-17-22-49-50,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",,118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29057,TRUE,2017-11-28,dbuijs,e93b4fd8-d459-11e7-8749-aa0000cecfa6,210
 40018,powder for prolonged-release suspension for injection,12-22-31-49,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-art?rielle, Intramusculaire, Intrath?cale, Intraveineuse",118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29067,TRUE,2017-11-28,dbuijs,e93b5528-d459-11e7-8749-aa0000cecfa6,211
 40018,powder for prolonged-release suspension for injection,12-22-31-49-50,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRAVENTRICULAR","Intra-art?rielle, Intramusculaire, Intrath?cale, Intraveineuse, Intraventriculaire",118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29076,TRUE,2017-11-28,dbuijs,e93b5c6c-d459-11e7-8749-aa0000cecfa6,212
 40018,powder for prolonged-release suspension for injection,12-22-49,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRAVENOUS","Intra-art?rielle, Intramusculaire, Intraveineuse",118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29085,TRUE,2017-11-28,dbuijs,e93b6004-d459-11e7-8749-aa0000cecfa6,213
 40018,powder for prolonged-release suspension for injection,10-13-19-22,"INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intradermique, Intramusculaire",118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29101,TRUE,2017-11-28,dbuijs,e93b6928-d459-11e7-8749-aa0000cecfa6,214
 40018,powder for prolonged-release suspension for injection,10-13-22,"INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intramusculaire",118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29113,TRUE,2017-11-28,dbuijs,e93b70bc-d459-11e7-8749-aa0000cecfa6,215
-40018,powder for prolonged-release suspension for injection,10-19-21-22,"INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",NA,118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29121,TRUE,2017-11-28,dbuijs,e93b749a-d459-11e7-8749-aa0000cecfa6,216
-40018,powder for prolonged-release suspension for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",NA,118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29139,TRUE,2017-11-28,dbuijs,e93b7eb8-d459-11e7-8749-aa0000cecfa6,217
+40018,powder for prolonged-release suspension for injection,10-19-21-22,"INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",,118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29121,TRUE,2017-11-28,dbuijs,e93b749a-d459-11e7-8749-aa0000cecfa6,216
+40018,powder for prolonged-release suspension for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",,118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29139,TRUE,2017-11-28,dbuijs,e93b7eb8-d459-11e7-8749-aa0000cecfa6,217
 40018,powder for prolonged-release suspension for injection,10-21-22,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR","Intra-articulaire, Intral?sionnelle, Intramusculaire",118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29132,TRUE,2017-11-28,dbuijs,e93b7a9e-d459-11e7-8749-aa0000cecfa6,218
-40018,powder for prolonged-release suspension for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",NA,118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29148,TRUE,2017-11-28,dbuijs,e93b8372-d459-11e7-8749-aa0000cecfa6,219
+40018,powder for prolonged-release suspension for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",,118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29148,TRUE,2017-11-28,dbuijs,e93b8372-d459-11e7-8749-aa0000cecfa6,219
 40018,powder for prolonged-release suspension for injection,10-22,"INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire, Intramusculaire",118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29159,TRUE,2017-11-28,dbuijs,e93b8840-d459-11e7-8749-aa0000cecfa6,220
 40018,powder for prolonged-release suspension for injection,10-22-42-63,"INTRA-ARTICULAR, INTRAMUSCULAR, INTRASYNOVIAL, SOFT TISSUE INJECTION","Intra-articulaire, Intramusculaire, Intrasynoviale, Injection dans les tissus mous",118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29168,TRUE,2017-11-28,dbuijs,e93b8cc8-d459-11e7-8749-aa0000cecfa6,221
 40018,powder for prolonged-release suspension for injection,10-22-49,"INTRA-ARTICULAR, INTRAMUSCULAR, INTRAVENOUS","Intra-articulaire, Intramusculaire, Intraveineuse",118,"POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Poudre pour suspension, ? lib?ration prolong?e",29177,TRUE,2017-11-28,dbuijs,e93b9204-d459-11e7-8749-aa0000cecfa6,222
@@ -235,25 +235,25 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40017,powder for solution for injection,7-22-49,"EPIDURAL, INTRAMUSCULAR, INTRAVENOUS","?pidurale, Intramusculaire, Intraveineuse",56,POWDER FOR SOLUTION,Poudre pour solution,29010,TRUE,2017-11-28,dbuijs,e93b37aa-d459-11e7-8749-aa0000cecfa6,234
 40017,powder for solution for injection,7-49-65,"EPIDURAL, INTRAVENOUS, SUBCUTANEOUS","?pidurale, Intraveineuse, Sous-cutan?e",56,POWDER FOR SOLUTION,Poudre pour solution,29021,TRUE,2017-11-28,dbuijs,e93b3c8c-d459-11e7-8749-aa0000cecfa6,235
 40017,powder for solution for injection,39,INSTILLATION,Instillation,56,POWDER FOR SOLUTION,Poudre pour solution,29046,TRUE,2017-11-28,dbuijs,e93b4a1a-d459-11e7-8749-aa0000cecfa6,236
-40017,powder for solution for injection,12,INTRA-ARTERIAL,NA,56,POWDER FOR SOLUTION,Poudre pour solution,29050,TRUE,2017-11-28,dbuijs,e93b4bd2-d459-11e7-8749-aa0000cecfa6,237
-40017,powder for solution for injection,12-17-22-49-50,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",NA,56,POWDER FOR SOLUTION,Poudre pour solution,29055,TRUE,2017-11-28,dbuijs,e93b4f10-d459-11e7-8749-aa0000cecfa6,238
+40017,powder for solution for injection,12,INTRA-ARTERIAL,,56,POWDER FOR SOLUTION,Poudre pour solution,29050,TRUE,2017-11-28,dbuijs,e93b4bd2-d459-11e7-8749-aa0000cecfa6,237
+40017,powder for solution for injection,12-17-22-49-50,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",,56,POWDER FOR SOLUTION,Poudre pour solution,29055,TRUE,2017-11-28,dbuijs,e93b4f10-d459-11e7-8749-aa0000cecfa6,238
 40017,powder for solution for injection,12-22-31-49,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-art?rielle, Intramusculaire, Intrath?cale, Intraveineuse",56,POWDER FOR SOLUTION,Poudre pour solution,29062,TRUE,2017-11-28,dbuijs,e93b51d6-d459-11e7-8749-aa0000cecfa6,239
 40017,powder for solution for injection,12-22-31-49-50,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRAVENTRICULAR","Intra-art?rielle, Intramusculaire, Intrath?cale, Intraveineuse, Intraventriculaire",56,POWDER FOR SOLUTION,Poudre pour solution,29074,TRUE,2017-11-28,dbuijs,e93b5b9a-d459-11e7-8749-aa0000cecfa6,240
 40017,powder for solution for injection,12-22-49,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRAVENOUS","Intra-art?rielle, Intramusculaire, Intraveineuse",56,POWDER FOR SOLUTION,Poudre pour solution,29083,TRUE,2017-11-28,dbuijs,e93b5f32-d459-11e7-8749-aa0000cecfa6,241
 40017,powder for solution for injection,12-49,"INTRA-ARTERIAL, INTRAVENOUS","Intra-art?rielle, Intraveineuse",56,POWDER FOR SOLUTION,Poudre pour solution,29090,TRUE,2017-11-28,dbuijs,e93b625c-d459-11e7-8749-aa0000cecfa6,242
-40017,powder for solution for injection,10-21-22,"INTRA-ARTICULAR,  INTRALESIONAL, INTRAMUSCULAR",NA,56,POWDER FOR SOLUTION,Poudre pour solution,29129,TRUE,2017-11-28,dbuijs,e93b7954-d459-11e7-8749-aa0000cecfa6,243
+40017,powder for solution for injection,10-21-22,"INTRA-ARTICULAR,  INTRALESIONAL, INTRAMUSCULAR",,56,POWDER FOR SOLUTION,Poudre pour solution,29129,TRUE,2017-11-28,dbuijs,e93b7954-d459-11e7-8749-aa0000cecfa6,243
 40017,powder for solution for injection,10-13-19-22,"INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intradermique, Intramusculaire",56,POWDER FOR SOLUTION,Poudre pour solution,29100,TRUE,2017-11-28,dbuijs,e93b68a6-d459-11e7-8749-aa0000cecfa6,244
 40017,powder for solution for injection,10-13-19-42,"INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRASYNOVIAL","Intra-articulaire, Intrabursique, Intradermique, Intrasynoviale",56,POWDER FOR SOLUTION,Poudre pour solution,29106,TRUE,2017-11-28,dbuijs,e93b6cb6-d459-11e7-8749-aa0000cecfa6,245
 40017,powder for solution for injection,10-13-22,"INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intramusculaire",56,POWDER FOR SOLUTION,Poudre pour solution,29111,TRUE,2017-11-28,dbuijs,e93b6f36-d459-11e7-8749-aa0000cecfa6,246
-40017,powder for solution for injection,10-19-21-22,"INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",NA,56,POWDER FOR SOLUTION,Poudre pour solution,29119,TRUE,2017-11-28,dbuijs,e93b7328-d459-11e7-8749-aa0000cecfa6,247
-40017,powder for solution for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",NA,56,POWDER FOR SOLUTION,Poudre pour solution,29137,TRUE,2017-11-28,dbuijs,e93b7c9c-d459-11e7-8749-aa0000cecfa6,248
-40017,powder for solution for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",NA,56,POWDER FOR SOLUTION,Poudre pour solution,29146,TRUE,2017-11-28,dbuijs,e93b82a0-d459-11e7-8749-aa0000cecfa6,249
+40017,powder for solution for injection,10-19-21-22,"INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",,56,POWDER FOR SOLUTION,Poudre pour solution,29119,TRUE,2017-11-28,dbuijs,e93b7328-d459-11e7-8749-aa0000cecfa6,247
+40017,powder for solution for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",,56,POWDER FOR SOLUTION,Poudre pour solution,29137,TRUE,2017-11-28,dbuijs,e93b7c9c-d459-11e7-8749-aa0000cecfa6,248
+40017,powder for solution for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",,56,POWDER FOR SOLUTION,Poudre pour solution,29146,TRUE,2017-11-28,dbuijs,e93b82a0-d459-11e7-8749-aa0000cecfa6,249
 40017,powder for solution for injection,10-22,"INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire, Intramusculaire",56,POWDER FOR SOLUTION,Poudre pour solution,29157,TRUE,2017-11-28,dbuijs,e93b8732-d459-11e7-8749-aa0000cecfa6,250
 40017,powder for solution for injection,10-22-42-63,"INTRA-ARTICULAR, INTRAMUSCULAR, INTRASYNOVIAL, SOFT TISSUE INJECTION","Intra-articulaire, Intramusculaire, Intrasynoviale, Injection dans les tissus mous",56,POWDER FOR SOLUTION,Poudre pour solution,29166,TRUE,2017-11-28,dbuijs,e93b8c00-d459-11e7-8749-aa0000cecfa6,251
 40017,powder for solution for injection,10-22-49,"INTRA-ARTICULAR, INTRAMUSCULAR, INTRAVENOUS","Intra-articulaire, Intramusculaire, Intraveineuse",56,POWDER FOR SOLUTION,Poudre pour solution,29175,TRUE,2017-11-28,dbuijs,e93b9132-d459-11e7-8749-aa0000cecfa6,252
 40017,powder for solution for injection,14-22-45-49-65,"INTRACARDIAC, INTRAMUSCULAR, INTRATRACHEAL, INTRAVENOUS, SUBCUTANEOUS","Intracardiaque, Intramusculaire, Intratrach?ale, Intraveineuse, Sous-cutan?e",56,POWDER FOR SOLUTION,Poudre pour solution,29188,TRUE,2017-11-28,dbuijs,e93b9650-d459-11e7-8749-aa0000cecfa6,253
 40017,powder for solution for injection,84,INTRACAVERNOSAL,Intracaverneuse,56,POWDER FOR SOLUTION,Poudre pour solution,29196,TRUE,2017-11-28,dbuijs,e93b9b8c-d459-11e7-8749-aa0000cecfa6,254
-40017,powder for solution for injection,17,INTRACAVITARY,NA,56,POWDER FOR SOLUTION,Poudre pour solution,29198,TRUE,2017-11-28,dbuijs,e93b9ce0-d459-11e7-8749-aa0000cecfa6,255
+40017,powder for solution for injection,17,INTRACAVITARY,,56,POWDER FOR SOLUTION,Poudre pour solution,29198,TRUE,2017-11-28,dbuijs,e93b9ce0-d459-11e7-8749-aa0000cecfa6,255
 40017,powder for solution for injection,19,INTRADERMAL,Intradermique,56,POWDER FOR SOLUTION,Poudre pour solution,29206,TRUE,2017-11-28,dbuijs,e93ba00a-d459-11e7-8749-aa0000cecfa6,256
 40017,powder for solution for injection,19-85-65,"INTRADERMAL, PERCUTANEOUS, SUBCUTANEOUS","Intradermique, Percutan?e, Sous-cutan?e",56,POWDER FOR SOLUTION,Poudre pour solution,29211,TRUE,2017-11-28,dbuijs,e93ba33e-d459-11e7-8749-aa0000cecfa6,257
 40017,powder for solution for injection,19-65,"INTRADERMAL, SUBCUTANEOUS","Intradermique, Sous-cutan?e",56,POWDER FOR SOLUTION,Poudre pour solution,29214,TRUE,2017-11-28,dbuijs,e93ba47e-d459-11e7-8749-aa0000cecfa6,258
@@ -267,7 +267,7 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40017,powder for solution for injection,22-65,"INTRAMUSCULAR, SUBCUTANEOUS","Intramusculaire, Sous-cutan?e",56,POWDER FOR SOLUTION,Poudre pour solution,29281,TRUE,2017-11-28,dbuijs,e93be6e6-d459-11e7-8749-aa0000cecfa6,266
 40017,powder for solution for injection,22-70,"INTRAMUSCULAR, TOPICAL","Intramusculaire, Topique",56,POWDER FOR SOLUTION,Poudre pour solution,29288,TRUE,2017-11-28,dbuijs,e93beaf6-d459-11e7-8749-aa0000cecfa6,267
 40017,powder for solution for injection,33,INTRAPERITONEAL,Intrap?riton?ale,56,POWDER FOR SOLUTION,Poudre pour solution,29293,TRUE,2017-11-28,dbuijs,e93bed08-d459-11e7-8749-aa0000cecfa6,268
-40017,powder for solution for injection,34,INTRAPLEURAL,NA,56,POWDER FOR SOLUTION,Poudre pour solution,29296,TRUE,2017-11-28,dbuijs,e93bee34-d459-11e7-8749-aa0000cecfa6,269
+40017,powder for solution for injection,34,INTRAPLEURAL,,56,POWDER FOR SOLUTION,Poudre pour solution,29296,TRUE,2017-11-28,dbuijs,e93bee34-d459-11e7-8749-aa0000cecfa6,269
 40017,powder for solution for injection,40,INTRASPINAL,Intrarachidienne,56,POWDER FOR SOLUTION,Poudre pour solution,29297,TRUE,2017-11-28,dbuijs,e93bee98-d459-11e7-8749-aa0000cecfa6,270
 40017,powder for solution for injection,31,INTRATHECAL,Intrath?cale,56,POWDER FOR SOLUTION,Poudre pour solution,29304,TRUE,2017-11-28,dbuijs,e93bf2a8-d459-11e7-8749-aa0000cecfa6,271
 40017,powder for solution for injection,31-49-65,"INTRATHECAL, INTRAVENOUS, SUBCUTANEOUS","Intrath?cale, Intraveineuse, Sous-cutan?e",56,POWDER FOR SOLUTION,Poudre pour solution,29305,TRUE,2017-11-28,dbuijs,e93bf352-d459-11e7-8749-aa0000cecfa6,272
@@ -283,8 +283,8 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40016,powder for suspension for injection,7-22-49,"EPIDURAL, INTRAMUSCULAR, INTRAVENOUS","?pidurale, Intramusculaire, Intraveineuse",126,POWDER FOR SUSPENSION,Poudre pour suspension,29011,TRUE,2017-11-28,dbuijs,e93b380e-d459-11e7-8749-aa0000cecfa6,282
 40016,powder for suspension for injection,7-49-65,"EPIDURAL, INTRAVENOUS, SUBCUTANEOUS","?pidurale, Intraveineuse, Sous-cutan?e",55,POWDER,Poudre,29020,TRUE,2017-11-28,dbuijs,e93b3c28-d459-11e7-8749-aa0000cecfa6,283
 40016,powder for suspension for injection,7-49-65,"EPIDURAL, INTRAVENOUS, SUBCUTANEOUS","?pidurale, Intraveineuse, Sous-cutan?e",126,POWDER FOR SUSPENSION,Poudre pour suspension,29022,TRUE,2017-11-28,dbuijs,e93b3cf0-d459-11e7-8749-aa0000cecfa6,284
-40016,powder for suspension for injection,12-17-22-49-50,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",NA,55,POWDER,Poudre,29054,TRUE,2017-11-28,dbuijs,e93b4ea2-d459-11e7-8749-aa0000cecfa6,285
-40016,powder for suspension for injection,12-17-22-49-50,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",NA,126,POWDER FOR SUSPENSION,Poudre pour suspension,29056,TRUE,2017-11-28,dbuijs,e93b4f74-d459-11e7-8749-aa0000cecfa6,286
+40016,powder for suspension for injection,12-17-22-49-50,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",,55,POWDER,Poudre,29054,TRUE,2017-11-28,dbuijs,e93b4ea2-d459-11e7-8749-aa0000cecfa6,285
+40016,powder for suspension for injection,12-17-22-49-50,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",,126,POWDER FOR SUSPENSION,Poudre pour suspension,29056,TRUE,2017-11-28,dbuijs,e93b4f74-d459-11e7-8749-aa0000cecfa6,286
 40016,powder for suspension for injection,12-22-31-49,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-art?rielle, Intramusculaire, Intrath?cale, Intraveineuse",55,POWDER,Poudre,29065,TRUE,2017-11-28,dbuijs,e93b53e8-d459-11e7-8749-aa0000cecfa6,287
 40016,powder for suspension for injection,12-22-31-49,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-art?rielle, Intramusculaire, Intrath?cale, Intraveineuse",126,POWDER FOR SUSPENSION,Poudre pour suspension,29066,TRUE,2017-11-28,dbuijs,e93b54a6-d459-11e7-8749-aa0000cecfa6,288
 40016,powder for suspension for injection,12-22-31-49-50,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRAVENTRICULAR","Intra-art?rielle, Intramusculaire, Intrath?cale, Intraveineuse, Intraventriculaire",55,POWDER,Poudre,29073,TRUE,2017-11-28,dbuijs,e93b5b36-d459-11e7-8749-aa0000cecfa6,289
@@ -294,14 +294,14 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40016,powder for suspension for injection,10-13-19-22,"INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intradermique, Intramusculaire",55,POWDER,Poudre,29099,TRUE,2017-11-28,dbuijs,e93b678e-d459-11e7-8749-aa0000cecfa6,293
 40016,powder for suspension for injection,10-13-22,"INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intramusculaire",55,POWDER,Poudre,29110,TRUE,2017-11-28,dbuijs,e93b6ebe-d459-11e7-8749-aa0000cecfa6,294
 40016,powder for suspension for injection,10-13-22,"INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intramusculaire",126,POWDER FOR SUSPENSION,Poudre pour suspension,29112,TRUE,2017-11-28,dbuijs,e93b703a-d459-11e7-8749-aa0000cecfa6,295
-40016,powder for suspension for injection,10-19-21-22,"INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",NA,55,POWDER,Poudre,29118,TRUE,2017-11-28,dbuijs,e93b72c4-d459-11e7-8749-aa0000cecfa6,296
-40016,powder for suspension for injection,10-19-21-22,"INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",NA,126,POWDER FOR SUSPENSION,Poudre pour suspension,29120,TRUE,2017-11-28,dbuijs,e93b7418-d459-11e7-8749-aa0000cecfa6,297
-40016,powder for suspension for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",NA,55,POWDER,Poudre,29136,TRUE,2017-11-28,dbuijs,e93b7c38-d459-11e7-8749-aa0000cecfa6,298
-40016,powder for suspension for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",NA,126,POWDER FOR SUSPENSION,Poudre pour suspension,29138,TRUE,2017-11-28,dbuijs,e93b7e40-d459-11e7-8749-aa0000cecfa6,299
-40016,powder for suspension for injection,10-21-22,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR",NA,55,POWDER,Poudre,29128,TRUE,2017-11-28,dbuijs,e93b78d2-d459-11e7-8749-aa0000cecfa6,300
+40016,powder for suspension for injection,10-19-21-22,"INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",,55,POWDER,Poudre,29118,TRUE,2017-11-28,dbuijs,e93b72c4-d459-11e7-8749-aa0000cecfa6,296
+40016,powder for suspension for injection,10-19-21-22,"INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",,126,POWDER FOR SUSPENSION,Poudre pour suspension,29120,TRUE,2017-11-28,dbuijs,e93b7418-d459-11e7-8749-aa0000cecfa6,297
+40016,powder for suspension for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",,55,POWDER,Poudre,29136,TRUE,2017-11-28,dbuijs,e93b7c38-d459-11e7-8749-aa0000cecfa6,298
+40016,powder for suspension for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",,126,POWDER FOR SUSPENSION,Poudre pour suspension,29138,TRUE,2017-11-28,dbuijs,e93b7e40-d459-11e7-8749-aa0000cecfa6,299
+40016,powder for suspension for injection,10-21-22,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR",,55,POWDER,Poudre,29128,TRUE,2017-11-28,dbuijs,e93b78d2-d459-11e7-8749-aa0000cecfa6,300
 40016,powder for suspension for injection,10-21-22,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR","Intra-articulaire, Intral?sionnelle, Intramusculaire",126,POWDER FOR SUSPENSION,Poudre pour suspension,29131,TRUE,2017-11-28,dbuijs,e93b7a26-d459-11e7-8749-aa0000cecfa6,301
-40016,powder for suspension for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",NA,55,POWDER,Poudre,29145,TRUE,2017-11-28,dbuijs,e93b823c-d459-11e7-8749-aa0000cecfa6,302
-40016,powder for suspension for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",NA,126,POWDER FOR SUSPENSION,Poudre pour suspension,29147,TRUE,2017-11-28,dbuijs,e93b830e-d459-11e7-8749-aa0000cecfa6,303
+40016,powder for suspension for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",,55,POWDER,Poudre,29145,TRUE,2017-11-28,dbuijs,e93b823c-d459-11e7-8749-aa0000cecfa6,302
+40016,powder for suspension for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",,126,POWDER FOR SUSPENSION,Poudre pour suspension,29147,TRUE,2017-11-28,dbuijs,e93b830e-d459-11e7-8749-aa0000cecfa6,303
 40016,powder for suspension for injection,10-22,"INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire, Intramusculaire",55,POWDER,Poudre,29156,TRUE,2017-11-28,dbuijs,e93b86ce-d459-11e7-8749-aa0000cecfa6,304
 40016,powder for suspension for injection,10-22,"INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire, Intramusculaire",126,POWDER FOR SUSPENSION,Poudre pour suspension,29158,TRUE,2017-11-28,dbuijs,e93b8796-d459-11e7-8749-aa0000cecfa6,305
 40016,powder for suspension for injection,10-22-42-63,"INTRA-ARTICULAR, INTRAMUSCULAR, INTRASYNOVIAL, SOFT TISSUE INJECTION","Intra-articulaire, Intramusculaire, Intrasynoviale, Injection dans les tissus mous",55,POWDER,Poudre,29165,TRUE,2017-11-28,dbuijs,e93b8b9c-d459-11e7-8749-aa0000cecfa6,306
@@ -333,28 +333,28 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40021,pressurised inhalation,29,INHALATION,Inhalation,1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29031,TRUE,2017-11-28,dbuijs,e93b4420-d459-11e7-8749-aa0000cecfa6,332
 40021,pressurised inhalation,29-56,"INHALATION, ORAL","Inhalation, Orale",1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29042,TRUE,2017-11-28,dbuijs,e93b4880-d459-11e7-8749-aa0000cecfa6,333
 40021,pressurised inhalation,56,ORAL,Orale,1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29409,TRUE,2017-11-28,dbuijs,e93c2822-d459-11e7-8749-aa0000cecfa6,334
-40055,prolonged-release eye drops,55,OPHTHALMIC,Ophtalmique,101,SOLUTION (LONG-ACTING),NA,29378,TRUE,2017-11-28,dbuijs,e93c18b4-d459-11e7-8749-aa0000cecfa6,335
+40055,prolonged-release eye drops,55,OPHTHALMIC,Ophtalmique,101,SOLUTION (LONG-ACTING),,29378,TRUE,2017-11-28,dbuijs,e93c18b4-d459-11e7-8749-aa0000cecfa6,335
 40062,prolonged-release oral capsule,56,ORAL,Orale,141,CAPSULE (EXTENDED RELEASE),Capsule (? lib?ration prolong?e),29392,TRUE,2017-11-28,dbuijs,e93c1e68-d459-11e7-8749-aa0000cecfa6,336
 40062,prolonged-release oral capsule,56,ORAL,Orale,68,CAPSULE (SUSTAINED-RELEASE),Capsule (? lib?ration prolong?e,29396,TRUE,2017-11-28,dbuijs,e93c216a-d459-11e7-8749-aa0000cecfa6,337
 40083,prolonged-release oral tablet,56,ORAL,Orale,75,TABLET (EXTENDED-RELEASE),Comprim? (? lib?ration prolong?e),29428,TRUE,2017-11-28,dbuijs,e93c2fa2-d459-11e7-8749-aa0000cecfa6,338
 40103,prolonged-release periodontal powder,89,SUBGINGIVAL,Sous-gingivale,152,POWDER (EXTENDED RELEASE),Poudre (? lib?ration prolong?e),29477,TRUE,2017-11-28,dbuijs,e93c45e6-d459-11e7-8749-aa0000cecfa6,339
 40020,prolonged-release suspension for injection,7-22-49,"EPIDURAL, INTRAMUSCULAR, INTRAVENOUS","?pidurale, Intramusculaire, Intraveineuse",143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29014,TRUE,2017-11-28,dbuijs,e93b39a8-d459-11e7-8749-aa0000cecfa6,340
 40020,prolonged-release suspension for injection,7-49-65,"EPIDURAL, INTRAVENOUS, SUBCUTANEOUS","?pidurale, Intraveineuse, Sous-cutan?e",143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29025,TRUE,2017-11-28,dbuijs,e93b3f0c-d459-11e7-8749-aa0000cecfa6,341
-40020,prolonged-release suspension for injection,12-17-22-49-50,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",NA,143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29060,TRUE,2017-11-28,dbuijs,e93b5104-d459-11e7-8749-aa0000cecfa6,342
+40020,prolonged-release suspension for injection,12-17-22-49-50,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",,143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29060,TRUE,2017-11-28,dbuijs,e93b5104-d459-11e7-8749-aa0000cecfa6,342
 40020,prolonged-release suspension for injection,12-22-31-49,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-art?rielle, Intramusculaire, Intrath?cale, Intraveineuse",143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29069,TRUE,2017-11-28,dbuijs,e93b57bc-d459-11e7-8749-aa0000cecfa6,343
 40020,prolonged-release suspension for injection,12-22-31-49-50,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRAVENTRICULAR","Intra-art?rielle, Intramusculaire, Intrath?cale, Intraveineuse, Intraventriculaire",143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29078,TRUE,2017-11-28,dbuijs,e93b5d34-d459-11e7-8749-aa0000cecfa6,344
 40020,prolonged-release suspension for injection,12-22-49,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRAVENOUS","Intra-art?rielle, Intramusculaire, Intraveineuse",143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29087,TRUE,2017-11-28,dbuijs,e93b60cc-d459-11e7-8749-aa0000cecfa6,345
 40020,prolonged-release suspension for injection,10-13-19-22,"INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intradermique, Intramusculaire",143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29103,TRUE,2017-11-28,dbuijs,e93b6b58-d459-11e7-8749-aa0000cecfa6,346
 40020,prolonged-release suspension for injection,10-13-22,"INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intramusculaire",143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29115,TRUE,2017-11-28,dbuijs,e93b718e-d459-11e7-8749-aa0000cecfa6,347
-40020,prolonged-release suspension for injection,10-19-21-22,"INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",NA,143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29124,TRUE,2017-11-28,dbuijs,e93b7620-d459-11e7-8749-aa0000cecfa6,348
-40020,prolonged-release suspension for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",NA,143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29142,TRUE,2017-11-28,dbuijs,e93b7fe4-d459-11e7-8749-aa0000cecfa6,349
+40020,prolonged-release suspension for injection,10-19-21-22,"INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",,143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29124,TRUE,2017-11-28,dbuijs,e93b7620-d459-11e7-8749-aa0000cecfa6,348
+40020,prolonged-release suspension for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",,143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29142,TRUE,2017-11-28,dbuijs,e93b7fe4-d459-11e7-8749-aa0000cecfa6,349
 40020,prolonged-release suspension for injection,10-21-22,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR","Intra-articulaire, Intral?sionnelle, Intramusculaire",143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29133,TRUE,2017-11-28,dbuijs,e93b7b02-d459-11e7-8749-aa0000cecfa6,350
-40020,prolonged-release suspension for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",NA,143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29151,TRUE,2017-11-28,dbuijs,e93b84a8-d459-11e7-8749-aa0000cecfa6,351
+40020,prolonged-release suspension for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",,143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29151,TRUE,2017-11-28,dbuijs,e93b84a8-d459-11e7-8749-aa0000cecfa6,351
 40020,prolonged-release suspension for injection,10-22,"INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire, Intramusculaire",143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29161,TRUE,2017-11-28,dbuijs,e93b891c-d459-11e7-8749-aa0000cecfa6,352
 40020,prolonged-release suspension for injection,10-22-42-63,"INTRA-ARTICULAR, INTRAMUSCULAR, INTRASYNOVIAL, SOFT TISSUE INJECTION","Intra-articulaire, Intramusculaire, Intrasynoviale, Injection dans les tissus mous",143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29170,TRUE,2017-11-28,dbuijs,e93b8d90-d459-11e7-8749-aa0000cecfa6,353
 40020,prolonged-release suspension for injection,10-22-49,"INTRA-ARTICULAR, INTRAMUSCULAR, INTRAVENOUS","Intra-articulaire, Intramusculaire, Intraveineuse",143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29179,TRUE,2017-11-28,dbuijs,e93b92cc-d459-11e7-8749-aa0000cecfa6,354
 40020,prolonged-release suspension for injection,14-22-45-49-65,"INTRACARDIAC, INTRAMUSCULAR, INTRATRACHEAL, INTRAVENOUS, SUBCUTANEOUS","Intracardiaque, Intramusculaire, Intratrach?ale, Intraveineuse, Sous-cutan?e",143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29192,TRUE,2017-11-28,dbuijs,e93b99ca-d459-11e7-8749-aa0000cecfa6,355
-40020,prolonged-release suspension for injection,22,INTRAMUSCULAR,Intramusculaire,143,SUSPENSION (EXTENDED-RELEASE),NA,29231,TRUE,2017-11-28,dbuijs,e93b6dec-d459-11e7-8749-aa0000cecfa6,356
+40020,prolonged-release suspension for injection,22,INTRAMUSCULAR,Intramusculaire,143,SUSPENSION (EXTENDED-RELEASE),,29231,TRUE,2017-11-28,dbuijs,e93b6dec-d459-11e7-8749-aa0000cecfa6,356
 40020,prolonged-release suspension for injection,22,INTRAMUSCULAR,Intramusculaire,143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29232,TRUE,2017-11-28,dbuijs,e93bab36-d459-11e7-8749-aa0000cecfa6,357
 40020,prolonged-release suspension for injection,22-33-49-65,"INTRAMUSCULAR, INTRAPERITONEAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrap?riton?ale, Intraveineuse, Sous-cutan?e",143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29242,TRUE,2017-11-28,dbuijs,e93bd386-d459-11e7-8749-aa0000cecfa6,358
 40020,prolonged-release suspension for injection,22-34-49-65,"INTRAMUSCULAR, INTRAPLEURAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intrapleurale, Intraveineuse, Sous-cutan?e",143,SUSPENSION (EXTENDED-RELEASE),Suspension (? lib?ration prolong?e),29251,TRUE,2017-11-28,dbuijs,e93bd89a-d459-11e7-8749-aa0000cecfa6,359
@@ -393,10 +393,10 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40001,solution for injection,7-49-65,"EPIDURAL, INTRAVENOUS, SUBCUTANEOUS","?pidurale, Intraveineuse, Sous-cutan?e",134,SOLUTION,Solution,29017,TRUE,2017-11-28,dbuijs,e93b3ade-d459-11e7-8749-aa0000cecfa6,392
 40001,solution for injection,7-60,"EPIDURAL, RETROBULBAR","?pidurale, R?trobulbaire",134,SOLUTION,Solution,29026,TRUE,2017-11-28,dbuijs,e93b3f7a-d459-11e7-8749-aa0000cecfa6,393
 40001,solution for injection,11,INTRA-AMNIOTIC,Intra-amniotique,134,SOLUTION,Solution,29048,TRUE,2017-11-28,dbuijs,e93b4ae2-d459-11e7-8749-aa0000cecfa6,394
-40001,solution for injection,12,INTRA-ARTERIAL,NA,34,LIQUID,Liquide,29049,TRUE,2017-11-28,dbuijs,e93b4b5a-d459-11e7-8749-aa0000cecfa6,395
-40001,solution for injection,12,INTRA-ARTERIAL,NA,134,SOLUTION,Solution,29051,TRUE,2017-11-28,dbuijs,e93b4c40-d459-11e7-8749-aa0000cecfa6,396
-40001,solution for injection,12-17-22-49-50,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",NA,34,LIQUID,Liquide,29053,TRUE,2017-11-28,dbuijs,e93b4e2a-d459-11e7-8749-aa0000cecfa6,397
-40001,solution for injection,12-17-22-49-50,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",NA,134,SOLUTION,Solution,29058,TRUE,2017-11-28,dbuijs,e93b503c-d459-11e7-8749-aa0000cecfa6,398
+40001,solution for injection,12,INTRA-ARTERIAL,,34,LIQUID,Liquide,29049,TRUE,2017-11-28,dbuijs,e93b4b5a-d459-11e7-8749-aa0000cecfa6,395
+40001,solution for injection,12,INTRA-ARTERIAL,,134,SOLUTION,Solution,29051,TRUE,2017-11-28,dbuijs,e93b4c40-d459-11e7-8749-aa0000cecfa6,396
+40001,solution for injection,12-17-22-49-50,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",,34,LIQUID,Liquide,29053,TRUE,2017-11-28,dbuijs,e93b4e2a-d459-11e7-8749-aa0000cecfa6,397
+40001,solution for injection,12-17-22-49-50,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",,134,SOLUTION,Solution,29058,TRUE,2017-11-28,dbuijs,e93b503c-d459-11e7-8749-aa0000cecfa6,398
 40001,solution for injection,12-22-31-49,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-art?rielle, Intramusculaire, Intrath?cale, Intraveineuse",34,LIQUID,Liquide,29061,TRUE,2017-11-28,dbuijs,e93b5172-d459-11e7-8749-aa0000cecfa6,399
 40001,solution for injection,12-22-31-49,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-art?rielle, Intramusculaire, Intrath?cale, Intraveineuse",134,SOLUTION,Solution,29063,TRUE,2017-11-28,dbuijs,e93b523a-d459-11e7-8749-aa0000cecfa6,400
 40001,solution for injection,12-22-31-49-50,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRAVENTRICULAR","Intra-art?rielle, Intramusculaire, Intrath?cale, Intraveineuse, Intraventriculaire",34,LIQUID,Liquide,29072,TRUE,2017-11-28,dbuijs,e93b5ac8-d459-11e7-8749-aa0000cecfa6,401
@@ -407,39 +407,39 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40001,solution for injection,12-49,"INTRA-ARTERIAL, INTRAVENOUS","Intra-art?rielle, Intraveineuse",134,SOLUTION,Solution,29089,TRUE,2017-11-28,dbuijs,e93b61da-d459-11e7-8749-aa0000cecfa6,406
 40001,solution for injection,10,INTRA-ARTICULAR,Intra-articulaire,34,LIQUID,Liquide,29091,TRUE,2017-11-28,dbuijs,e93b62d4-d459-11e7-8749-aa0000cecfa6,407
 40001,solution for injection,10,INTRA-ARTICULAR,Intra-articulaire,134,SOLUTION,Solution,29092,TRUE,2017-11-28,dbuijs,e93b6338-d459-11e7-8749-aa0000cecfa6,408
-40001,solution for injection,10-21-22,"INTRA-ARTICULAR,  INTRALESIONAL, INTRAMUSCULAR",NA,34,LIQUID,Liquide,29127,TRUE,2017-11-28,dbuijs,e93b779c-d459-11e7-8749-aa0000cecfa6,409
+40001,solution for injection,10-21-22,"INTRA-ARTICULAR,  INTRALESIONAL, INTRAMUSCULAR",,34,LIQUID,Liquide,29127,TRUE,2017-11-28,dbuijs,e93b779c-d459-11e7-8749-aa0000cecfa6,409
 40001,solution for injection,10-13,"INTRA-ARTICULAR, INTRABURSAL","Intra-articulaire, Intrabursique",134,SOLUTION,Solution,29094,TRUE,2017-11-28,dbuijs,e93b6400-d459-11e7-8749-aa0000cecfa6,410
 40001,solution for injection,10-13-19-22,"INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intradermique, Intramusculaire",34,LIQUID,Liquide,29098,TRUE,2017-11-28,dbuijs,e93b672a-d459-11e7-8749-aa0000cecfa6,411
 40001,solution for injection,10-13-19-22,"INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intradermique, Intramusculaire",134,SOLUTION,Solution,29102,TRUE,2017-11-28,dbuijs,e93b6996-d459-11e7-8749-aa0000cecfa6,412
 40001,solution for injection,10-13-19-42,"INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRASYNOVIAL","Intra-articulaire, Intrabursique, Intradermique, Intrasynoviale",34,LIQUID,Liquide,29105,TRUE,2017-11-28,dbuijs,e93b6c3e-d459-11e7-8749-aa0000cecfa6,413
 40001,solution for injection,10-13-19-42,"INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRASYNOVIAL","Intra-articulaire, Intrabursique, Intradermique, Intrasynoviale",134,SOLUTION,Solution,29107,TRUE,2017-11-28,dbuijs,e93b6d1a-d459-11e7-8749-aa0000cecfa6,414
-40001,solution for injection,10-13-22,"INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR",NA,34,LIQUID,Liquide,29180,TRUE,2017-11-28,dbuijs,e93b9330-d459-11e7-8749-aa0000cecfa6,415
+40001,solution for injection,10-13-22,"INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR",,34,LIQUID,Liquide,29180,TRUE,2017-11-28,dbuijs,e93b9330-d459-11e7-8749-aa0000cecfa6,415
 40001,solution for injection,10-13-22,"INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intramusculaire",134,SOLUTION,Solution,29114,TRUE,2017-11-28,dbuijs,e93b712a-d459-11e7-8749-aa0000cecfa6,416
-40001,solution for injection,10-19-21-22,"INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",NA,34,LIQUID,Liquide,29117,TRUE,2017-11-28,dbuijs,e93b7256-d459-11e7-8749-aa0000cecfa6,417
-40001,solution for injection,10-19-21-22,"INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",NA,134,SOLUTION,Solution,29122,TRUE,2017-11-28,dbuijs,e93b7508-d459-11e7-8749-aa0000cecfa6,418
-40001,solution for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",NA,34,LIQUID,Liquide,29135,TRUE,2017-11-28,dbuijs,e93b7bd4-d459-11e7-8749-aa0000cecfa6,419
-40001,solution for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",NA,134,SOLUTION,Solution,29140,TRUE,2017-11-28,dbuijs,e93b7f1c-d459-11e7-8749-aa0000cecfa6,420
-40001,solution for injection,10-21-22,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR",NA,134,SOLUTION,Solution,29125,TRUE,2017-11-28,dbuijs,e93b768e-d459-11e7-8749-aa0000cecfa6,421
-40001,solution for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",NA,34,LIQUID,Liquide,29144,TRUE,2017-11-28,dbuijs,e93b81c4-d459-11e7-8749-aa0000cecfa6,422
+40001,solution for injection,10-19-21-22,"INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",,34,LIQUID,Liquide,29117,TRUE,2017-11-28,dbuijs,e93b7256-d459-11e7-8749-aa0000cecfa6,417
+40001,solution for injection,10-19-21-22,"INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",,134,SOLUTION,Solution,29122,TRUE,2017-11-28,dbuijs,e93b7508-d459-11e7-8749-aa0000cecfa6,418
+40001,solution for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",,34,LIQUID,Liquide,29135,TRUE,2017-11-28,dbuijs,e93b7bd4-d459-11e7-8749-aa0000cecfa6,419
+40001,solution for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",,134,SOLUTION,Solution,29140,TRUE,2017-11-28,dbuijs,e93b7f1c-d459-11e7-8749-aa0000cecfa6,420
+40001,solution for injection,10-21-22,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR",,134,SOLUTION,Solution,29125,TRUE,2017-11-28,dbuijs,e93b768e-d459-11e7-8749-aa0000cecfa6,421
+40001,solution for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",,34,LIQUID,Liquide,29144,TRUE,2017-11-28,dbuijs,e93b81c4-d459-11e7-8749-aa0000cecfa6,422
 40001,solution for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION","Intra-articulaire, Intral?sionnelle, Intramusculaire, Intraveineuse, Injection dans les tissus mous",34,LIQUID,Liquide,29152,TRUE,2017-11-28,dbuijs,e93b8516-d459-11e7-8749-aa0000cecfa6,423
-40001,solution for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",NA,134,SOLUTION,Solution,29149,TRUE,2017-11-28,dbuijs,e93b83d6-d459-11e7-8749-aa0000cecfa6,424
+40001,solution for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",,134,SOLUTION,Solution,29149,TRUE,2017-11-28,dbuijs,e93b83d6-d459-11e7-8749-aa0000cecfa6,424
 40001,solution for injection,10-22,"INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire, Intramusculaire",34,LIQUID,Liquide,29153,TRUE,2017-11-28,dbuijs,e93b858e-d459-11e7-8749-aa0000cecfa6,425
 40001,solution for injection,10-22,"INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire, Intramusculaire",134,SOLUTION,Solution,29160,TRUE,2017-11-28,dbuijs,e93b88b8-d459-11e7-8749-aa0000cecfa6,426
 40001,solution for injection,10-22-42-63,"INTRA-ARTICULAR, INTRAMUSCULAR, INTRASYNOVIAL, SOFT TISSUE INJECTION","Intra-articulaire, Intramusculaire, Intrasynoviale, Injection dans les tissus mous",34,LIQUID,Liquide,29164,TRUE,2017-11-28,dbuijs,e93b8b2e-d459-11e7-8749-aa0000cecfa6,427
 40001,solution for injection,10-22-42-63,"INTRA-ARTICULAR, INTRAMUSCULAR, INTRASYNOVIAL, SOFT TISSUE INJECTION","Intra-articulaire, Intramusculaire, Intrasynoviale, Injection dans les tissus mous",134,SOLUTION,Solution,29169,TRUE,2017-11-28,dbuijs,e93b8d2c-d459-11e7-8749-aa0000cecfa6,428
 40001,solution for injection,10-22-49,"INTRA-ARTICULAR, INTRAMUSCULAR, INTRAVENOUS","Intra-articulaire, Intramusculaire, Intraveineuse",34,LIQUID,Liquide,29171,TRUE,2017-11-28,dbuijs,e93b8f5c-d459-11e7-8749-aa0000cecfa6,429
 40001,solution for injection,10-22-49,"INTRA-ARTICULAR, INTRAMUSCULAR, INTRAVENOUS","Intra-articulaire, Intramusculaire, Intraveineuse",134,SOLUTION,Solution,29172,TRUE,2017-11-28,dbuijs,e93b8fde-d459-11e7-8749-aa0000cecfa6,430
-40001,solution for injection,13,INTRABURSAL,NA,134,SOLUTION,Solution,29181,TRUE,2017-11-28,dbuijs,e93b9394-d459-11e7-8749-aa0000cecfa6,431
-40001,solution for injection,14,INTRACARDIAC,NA,134,SOLUTION,Solution,29183,TRUE,2017-11-28,dbuijs,e93b945c-d459-11e7-8749-aa0000cecfa6,432
+40001,solution for injection,13,INTRABURSAL,,134,SOLUTION,Solution,29181,TRUE,2017-11-28,dbuijs,e93b9394-d459-11e7-8749-aa0000cecfa6,431
+40001,solution for injection,14,INTRACARDIAC,,134,SOLUTION,Solution,29183,TRUE,2017-11-28,dbuijs,e93b945c-d459-11e7-8749-aa0000cecfa6,432
 40001,solution for injection,14-22-45-49-65,"INTRACARDIAC, INTRAMUSCULAR, INTRATRACHEAL, INTRAVENOUS, SUBCUTANEOUS","Intracardiaque, Intramusculaire, Intratrach?ale, Intraveineuse, Sous-cutan?e",34,LIQUID,Liquide,29186,TRUE,2017-11-28,dbuijs,e93b9588-d459-11e7-8749-aa0000cecfa6,433
 40001,solution for injection,14-22-45-49-65,"INTRACARDIAC, INTRAMUSCULAR, INTRATRACHEAL, INTRAVENOUS, SUBCUTANEOUS","Intracardiaque, Intramusculaire, Intratrach?ale, Intraveineuse, Sous-cutan?e",134,SOLUTION,Solution,29184,TRUE,2017-11-28,dbuijs,e93b94c0-d459-11e7-8749-aa0000cecfa6,434
 40001,solution for injection,14-49,"INTRACARDIAC, INTRAVENOUS","Intracardiaque, Intraveineuse",134,SOLUTION,Solution,29193,TRUE,2017-11-28,dbuijs,e93b9a42-d459-11e7-8749-aa0000cecfa6,435
-40001,solution for injection,4,INTRACAUDAL,NA,134,SOLUTION,Solution,29194,TRUE,2017-11-28,dbuijs,e93b9ab0-d459-11e7-8749-aa0000cecfa6,436
+40001,solution for injection,4,INTRACAUDAL,,134,SOLUTION,Solution,29194,TRUE,2017-11-28,dbuijs,e93b9ab0-d459-11e7-8749-aa0000cecfa6,436
 40001,solution for injection,84,INTRACAVERNOSAL,Intracaverneuse,34,LIQUID,Liquide,29195,TRUE,2017-11-28,dbuijs,e93b9b28-d459-11e7-8749-aa0000cecfa6,437
-40001,solution for injection,17,INTRACAVITARY,NA,34,LIQUID,Liquide,29197,TRUE,2017-11-28,dbuijs,e93b9c72-d459-11e7-8749-aa0000cecfa6,438
+40001,solution for injection,17,INTRACAVITARY,,34,LIQUID,Liquide,29197,TRUE,2017-11-28,dbuijs,e93b9c72-d459-11e7-8749-aa0000cecfa6,438
 40001,solution for injection,16,INTRACRANIAL,Intracr?niale,134,SOLUTION,Solution,29200,TRUE,2017-11-28,dbuijs,e93b9da8-d459-11e7-8749-aa0000cecfa6,439
-40001,solution for injection,18,INTRACUTANEOUS,NA,34,LIQUID,Liquide,29201,TRUE,2017-11-28,dbuijs,e93b9e0c-d459-11e7-8749-aa0000cecfa6,440
-40001,solution for injection,18,INTRACUTANEOUS,NA,134,SOLUTION,Solution,29202,TRUE,2017-11-28,dbuijs,e93b9e70-d459-11e7-8749-aa0000cecfa6,441
+40001,solution for injection,18,INTRACUTANEOUS,,34,LIQUID,Liquide,29201,TRUE,2017-11-28,dbuijs,e93b9e0c-d459-11e7-8749-aa0000cecfa6,440
+40001,solution for injection,18,INTRACUTANEOUS,,134,SOLUTION,Solution,29202,TRUE,2017-11-28,dbuijs,e93b9e70-d459-11e7-8749-aa0000cecfa6,441
 40001,solution for injection,18-65,"INTRACUTANEOUS, SUBCUTANEOUS","Intracutan?e, Sous-cutan?e",34,LIQUID,Liquide,29203,TRUE,2017-11-28,dbuijs,e93b9ed4-d459-11e7-8749-aa0000cecfa6,442
 40001,solution for injection,18-65,"INTRACUTANEOUS, SUBCUTANEOUS","Intracutan?e, Sous-cutan?e",134,SOLUTION,Solution,29204,TRUE,2017-11-28,dbuijs,e93b9f38-d459-11e7-8749-aa0000cecfa6,443
 40001,solution for injection,19,INTRADERMAL,Intradermique,34,LIQUID,Liquide,29205,TRUE,2017-11-28,dbuijs,e93b9f9c-d459-11e7-8749-aa0000cecfa6,444
@@ -470,8 +470,8 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40001,solution for injection,33-36,"INTRAPERITONEAL, IRRIGATION","Intrap?riton?ale, Irrigation",34,LIQUID,Liquide,29294,TRUE,2017-11-28,dbuijs,e93bed6c-d459-11e7-8749-aa0000cecfa6,469
 40001,solution for injection,33-36,"INTRAPERITONEAL, IRRIGATION","Intrap?riton?ale, Irrigation",134,SOLUTION,Solution,29295,TRUE,2017-11-28,dbuijs,e93bedd0-d459-11e7-8749-aa0000cecfa6,470
 40001,solution for injection,40,INTRASPINAL,Intrarachidienne,134,SOLUTION,Solution,29298,TRUE,2017-11-28,dbuijs,e93beefc-d459-11e7-8749-aa0000cecfa6,471
-40001,solution for injection,42,INTRASYNOVIAL,NA,34,LIQUID,Liquide,29299,TRUE,2017-11-28,dbuijs,e93bef60-d459-11e7-8749-aa0000cecfa6,472
-40001,solution for injection,42,INTRASYNOVIAL,NA,134,SOLUTION,Solution,29300,TRUE,2017-11-28,dbuijs,e93befce-d459-11e7-8749-aa0000cecfa6,473
+40001,solution for injection,42,INTRASYNOVIAL,,34,LIQUID,Liquide,29299,TRUE,2017-11-28,dbuijs,e93bef60-d459-11e7-8749-aa0000cecfa6,472
+40001,solution for injection,42,INTRASYNOVIAL,,134,SOLUTION,Solution,29300,TRUE,2017-11-28,dbuijs,e93befce-d459-11e7-8749-aa0000cecfa6,473
 40001,solution for injection,31,INTRATHECAL,Intrath?cale,134,SOLUTION,Solution,29302,TRUE,2017-11-28,dbuijs,e93bf0aa-d459-11e7-8749-aa0000cecfa6,474
 40001,solution for injection,31-49-65,"INTRATHECAL, INTRAVENOUS, SUBCUTANEOUS","Intrath?cale, Intraveineuse, Sous-cutan?e",34,LIQUID,Liquide,29308,TRUE,2017-11-28,dbuijs,e93bf71c-d459-11e7-8749-aa0000cecfa6,475
 40001,solution for injection,31-49-65,"INTRATHECAL, INTRAVENOUS, SUBCUTANEOUS","Intrath?cale, Intraveineuse, Sous-cutan?e",134,SOLUTION,Solution,29306,TRUE,2017-11-28,dbuijs,e93bf4b0-d459-11e7-8749-aa0000cecfa6,476
@@ -487,20 +487,20 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40001,solution for injection,49-56,"INTRAVENOUS, ORAL","Intraveineuse, Orale",134,SOLUTION,Solution,29334,TRUE,2017-11-28,dbuijs,e93c03c4-d459-11e7-8749-aa0000cecfa6,486
 40001,solution for injection,49-65,"INTRAVENOUS, SUBCUTANEOUS","Intraveineuse, Sous-cutan?e",34,LIQUID,Liquide,29335,TRUE,2017-11-28,dbuijs,e93c0428-d459-11e7-8749-aa0000cecfa6,487
 40001,solution for injection,49-65,"INTRAVENOUS, SUBCUTANEOUS","Intraveineuse, Sous-cutan?e",134,SOLUTION,Solution,29337,TRUE,2017-11-28,dbuijs,e93c07b6-d459-11e7-8749-aa0000cecfa6,488
-40001,solution for injection,50,INTRAVENTRICULAR,NA,134,SOLUTION,Solution,29342,TRUE,2017-11-28,dbuijs,e93c09dc-d459-11e7-8749-aa0000cecfa6,489
+40001,solution for injection,50,INTRAVENTRICULAR,,134,SOLUTION,Solution,29342,TRUE,2017-11-28,dbuijs,e93c09dc-d459-11e7-8749-aa0000cecfa6,489
 40001,solution for injection,80,INTRAVITREAL,Intravitreuse,134,SOLUTION,Solution,29347,TRUE,2017-11-28,dbuijs,e93c0bda-d459-11e7-8749-aa0000cecfa6,490
 40001,solution for injection,59,PARENTERAL (UNSPECIFIED),Parent?rale (non sp?cifi?e),34,LIQUID,Liquide,29444,TRUE,2017-11-28,dbuijs,e93c3524-d459-11e7-8749-aa0000cecfa6,491
 40001,solution for injection,59,PARENTERAL (UNSPECIFIED),Parent?rale (non sp?cifi?e),134,SOLUTION,Solution,29445,TRUE,2017-11-28,dbuijs,e93c3592-d459-11e7-8749-aa0000cecfa6,492
-40001,solution for injection,85,PERCUTANEOUS,NA,34,LIQUID,Liquide,29446,TRUE,2017-11-28,dbuijs,e93c35f6-d459-11e7-8749-aa0000cecfa6,493
+40001,solution for injection,85,PERCUTANEOUS,,34,LIQUID,Liquide,29446,TRUE,2017-11-28,dbuijs,e93c35f6-d459-11e7-8749-aa0000cecfa6,493
 40001,solution for injection,85,PERCUTANEOUS,Percutan?e,134,SOLUTION,Solution,29447,TRUE,2017-11-28,dbuijs,e93c365a-d459-11e7-8749-aa0000cecfa6,494
 40001,solution for injection,85-65,"PERCUTANEOUS, SUBCUTANEOUS","Percutan?e, Sous-cutan?e",34,LIQUID,Liquide,29449,TRUE,2017-11-28,dbuijs,e93c3722-d459-11e7-8749-aa0000cecfa6,495
 40001,solution for injection,85-65,"PERCUTANEOUS, SUBCUTANEOUS","Percutan?e, Sous-cutan?e",134,SOLUTION,Solution,29448,TRUE,2017-11-28,dbuijs,e93c36be-d459-11e7-8749-aa0000cecfa6,496
-40001,solution for injection,60,RETROBULBAR,NA,134,SOLUTION,Solution,29464,TRUE,2017-11-28,dbuijs,e93c40aa-d459-11e7-8749-aa0000cecfa6,497
-40001,solution for injection,63,SOFT TISSUE INJECTION,NA,34,LIQUID,Liquide,29465,TRUE,2017-11-28,dbuijs,e93c4122-d459-11e7-8749-aa0000cecfa6,498
+40001,solution for injection,60,RETROBULBAR,,134,SOLUTION,Solution,29464,TRUE,2017-11-28,dbuijs,e93c40aa-d459-11e7-8749-aa0000cecfa6,497
+40001,solution for injection,63,SOFT TISSUE INJECTION,,34,LIQUID,Liquide,29465,TRUE,2017-11-28,dbuijs,e93c4122-d459-11e7-8749-aa0000cecfa6,498
 40001,solution for injection,64,SUBARACHNOIDAL,Sous-arachno?dienne,134,SOLUTION,Solution,29467,TRUE,2017-11-28,dbuijs,e93c41ea-d459-11e7-8749-aa0000cecfa6,499
 40001,solution for injection,65,SUBCUTANEOUS,Sous-cutan?e,34,LIQUID,Liquide,29469,TRUE,2017-11-28,dbuijs,e93c42b2-d459-11e7-8749-aa0000cecfa6,500
 40001,solution for injection,65,SUBCUTANEOUS,Sous-cutan?e,134,SOLUTION,Solution,29472,TRUE,2017-11-28,dbuijs,e93c43f2-d459-11e7-8749-aa0000cecfa6,501
-NA,prolonged-release solution for injection,65,SUBCUTANEOUS,Sous-cutan?e,155,SOLUTION (EXTENDED RELEASE),Solution (? lib?ration prolong?e),29473,TRUE,2017-11-28,dbuijs,e93c4460-d459-11e7-8749-aa0000cecfa6,502
+,prolonged-release solution for injection,65,SUBCUTANEOUS,Sous-cutan?e,155,SOLUTION (EXTENDED RELEASE),Solution (? lib?ration prolong?e),29473,TRUE,2017-11-28,dbuijs,e93c4460-d459-11e7-8749-aa0000cecfa6,502
 40001,solution for injection,109,SUBMUCOSAL,Sous-muqueuse,134,SOLUTION,Solution,29484,TRUE,2017-11-28,dbuijs,e93c4898-d459-11e7-8749-aa0000cecfa6,503
 40036,solution for peritoneal dialysis,33,INTRAPERITONEAL,Intrap?riton?ale,134,SOLUTION,Solution,29292,TRUE,2017-11-28,dbuijs,e93beca4-d459-11e7-8749-aa0000cecfa6,504
 40104,sublingual spray,66,SUBLINGUAL,Sublinguale,1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29479,TRUE,2017-11-28,dbuijs,e93c46a4-d459-11e7-8749-aa0000cecfa6,505
@@ -509,7 +509,7 @@ NA,prolonged-release solution for injection,65,SUBCUTANEOUS,Sous-cutan?e,155,SOL
 40097,suppository,62,RECTAL,Rectale,78,SUPPOSITORY,Suppositoire,29457,TRUE,2017-11-28,dbuijs,e93c3b5a-d459-11e7-8749-aa0000cecfa6,508
 40019,suspension for injection,7-22-49,"EPIDURAL, INTRAMUSCULAR, INTRAVENOUS","?pidurale, Intramusculaire, Intraveineuse",79,SUSPENSION,Suspension,29013,TRUE,2017-11-28,dbuijs,e93b393a-d459-11e7-8749-aa0000cecfa6,509
 40019,suspension for injection,7-49-65,"EPIDURAL, INTRAVENOUS, SUBCUTANEOUS","?pidurale, Intraveineuse, Sous-cutan?e",79,SUSPENSION,Suspension,29024,TRUE,2017-11-28,dbuijs,e93b3e9e-d459-11e7-8749-aa0000cecfa6,510
-40019,suspension for injection,12-17-22-49-50,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",NA,79,SUSPENSION,Suspension,29059,TRUE,2017-11-28,dbuijs,e93b50a0-d459-11e7-8749-aa0000cecfa6,511
+40019,suspension for injection,12-17-22-49-50,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, INTRAVENTRICULAR",,79,SUSPENSION,Suspension,29059,TRUE,2017-11-28,dbuijs,e93b50a0-d459-11e7-8749-aa0000cecfa6,511
 40019,suspension for injection,12-22-31-49,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-art?rielle, Intramusculaire, Intrath?cale, Intraveineuse",79,SUSPENSION,Suspension,29068,TRUE,2017-11-28,dbuijs,e93b573a-d459-11e7-8749-aa0000cecfa6,512
 40019,suspension for injection,12-22-31-49-50,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRAVENTRICULAR","Intra-art?rielle, Intramusculaire, Intrath?cale, Intraveineuse, Intraventriculaire",79,SUSPENSION,Suspension,29077,TRUE,2017-11-28,dbuijs,e93b5cd0-d459-11e7-8749-aa0000cecfa6,513
 40019,suspension for injection,12-22-49,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRAVENOUS","Intra-art?rielle, Intramusculaire, Intraveineuse",79,SUSPENSION,Suspension,29086,TRUE,2017-11-28,dbuijs,e93b6068-d459-11e7-8749-aa0000cecfa6,514
@@ -518,14 +518,14 @@ NA,prolonged-release solution for injection,65,SUBCUTANEOUS,Sous-cutan?e,155,SOL
 40019,suspension for injection,10-13-19-22,"INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intradermique, Intramusculaire",79,SUSPENSION,Suspension,29096,TRUE,2017-11-28,dbuijs,e93b664e-d459-11e7-8749-aa0000cecfa6,517
 40019,suspension for injection,10-13-19-42,"INTRA-ARTICULAR, INTRABURSAL, INTRADERMAL, INTRASYNOVIAL","Intra-articulaire, Intrabursique, Intradermique, Intrasynoviale",79,SUSPENSION,Suspension,29104,TRUE,2017-11-28,dbuijs,e93b6bda-d459-11e7-8749-aa0000cecfa6,518
 40019,suspension for injection,10-13-22,"INTRA-ARTICULAR, INTRABURSAL, INTRAMUSCULAR","Intra-articulaire, Intrabursique, Intramusculaire",79,SUSPENSION,Suspension,29108,TRUE,2017-11-28,dbuijs,e93b6d7e-d459-11e7-8749-aa0000cecfa6,519
-40019,suspension for injection,10-19-21-22,"INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",NA,79,SUSPENSION,Suspension,29123,TRUE,2017-11-28,dbuijs,e93b75a8-d459-11e7-8749-aa0000cecfa6,520
-40019,suspension for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",NA,79,SUSPENSION,Suspension,29141,TRUE,2017-11-28,dbuijs,e93b7f80-d459-11e7-8749-aa0000cecfa6,521
+40019,suspension for injection,10-19-21-22,"INTRA-ARTICULAR, INTRADERMAL, INTRALESIONAL, INTRAMUSCULAR",,79,SUSPENSION,Suspension,29123,TRUE,2017-11-28,dbuijs,e93b75a8-d459-11e7-8749-aa0000cecfa6,520
+40019,suspension for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL",,79,SUSPENSION,Suspension,29141,TRUE,2017-11-28,dbuijs,e93b7f80-d459-11e7-8749-aa0000cecfa6,521
 40019,suspension for injection,10-21-22,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR","Intra-articulaire, Intral?sionnelle, Intramusculaire",79,SUSPENSION,Suspension,29130,TRUE,2017-11-28,dbuijs,e93b79b8-d459-11e7-8749-aa0000cecfa6,522
-40019,suspension for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",NA,79,SUSPENSION,Suspension,29150,TRUE,2017-11-28,dbuijs,e93b843a-d459-11e7-8749-aa0000cecfa6,523
+40019,suspension for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",,79,SUSPENSION,Suspension,29150,TRUE,2017-11-28,dbuijs,e93b843a-d459-11e7-8749-aa0000cecfa6,523
 40019,suspension for injection,10-22,"INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire, Intramusculaire",79,SUSPENSION,Suspension,29154,TRUE,2017-11-28,dbuijs,e93b85fc-d459-11e7-8749-aa0000cecfa6,524
 40019,suspension for injection,10-22-42-63,"INTRA-ARTICULAR, INTRAMUSCULAR, INTRASYNOVIAL, SOFT TISSUE INJECTION","Intra-articulaire, Intramusculaire, Intrasynoviale, Injection dans les tissus mous",79,SUSPENSION,Suspension,29162,TRUE,2017-11-28,dbuijs,e93b8a52-d459-11e7-8749-aa0000cecfa6,525
 40019,suspension for injection,10-22-49,"INTRA-ARTICULAR, INTRAMUSCULAR, INTRAVENOUS","Intra-articulaire, Intramusculaire, Intraveineuse",79,SUSPENSION,Suspension,29178,TRUE,2017-11-28,dbuijs,e93b9268-d459-11e7-8749-aa0000cecfa6,526
-40019,suspension for injection,13,INTRABURSAL,NA,79,SUSPENSION,Suspension,29182,TRUE,2017-11-28,dbuijs,e93b93f8-d459-11e7-8749-aa0000cecfa6,527
+40019,suspension for injection,13,INTRABURSAL,,79,SUSPENSION,Suspension,29182,TRUE,2017-11-28,dbuijs,e93b93f8-d459-11e7-8749-aa0000cecfa6,527
 40019,suspension for injection,14-22-45-49-65,"INTRACARDIAC, INTRAMUSCULAR, INTRATRACHEAL, INTRAVENOUS, SUBCUTANEOUS","Intracardiaque, Intramusculaire, Intratrach?ale, Intraveineuse, Sous-cutan?e",79,SUSPENSION,Suspension,29191,TRUE,2017-11-28,dbuijs,e93b9790-d459-11e7-8749-aa0000cecfa6,528
 40019,suspension for injection,19,INTRADERMAL,Intradermique,79,SUSPENSION,Suspension,29208,TRUE,2017-11-28,dbuijs,e93ba0d2-d459-11e7-8749-aa0000cecfa6,529
 40019,suspension for injection,19-85-65,"INTRADERMAL, PERCUTANEOUS, SUBCUTANEOUS","Intradermique, Percutan?e, Sous-cutan?e",79,SUSPENSION,Suspension,29212,TRUE,2017-11-28,dbuijs,e93ba3b6-d459-11e7-8749-aa0000cecfa6,530
@@ -538,13 +538,13 @@ NA,prolonged-release solution for injection,65,SUBCUTANEOUS,Sous-cutan?e,155,SOL
 40019,suspension for injection,22-49,"INTRAMUSCULAR, INTRAVENOUS","Intramusculaire, Intraveineuse",79,SUSPENSION,Suspension,29268,TRUE,2017-11-28,dbuijs,e93be0a6-d459-11e7-8749-aa0000cecfa6,537
 40019,suspension for injection,22-49-65,"INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intraveineuse, Sous-cutan?e",79,SUSPENSION,Suspension,29277,TRUE,2017-11-28,dbuijs,e93be448-d459-11e7-8749-aa0000cecfa6,538
 40019,suspension for injection,22-65,"INTRAMUSCULAR, SUBCUTANEOUS","Intramusculaire, Sous-cutan?e",79,SUSPENSION,Suspension,29284,TRUE,2017-11-28,dbuijs,e93be81c-d459-11e7-8749-aa0000cecfa6,539
-40019,suspension for injection,42,INTRASYNOVIAL,NA,79,SUSPENSION,Suspension,29301,TRUE,2017-11-28,dbuijs,e93bf046-d459-11e7-8749-aa0000cecfa6,540
+40019,suspension for injection,42,INTRASYNOVIAL,,79,SUSPENSION,Suspension,29301,TRUE,2017-11-28,dbuijs,e93bf046-d459-11e7-8749-aa0000cecfa6,540
 40019,suspension for injection,31,INTRATHECAL,Intrath?cale,79,SUSPENSION,Suspension,29303,TRUE,2017-11-28,dbuijs,e93bf118-d459-11e7-8749-aa0000cecfa6,541
 40019,suspension for injection,31-49-65,"INTRATHECAL, INTRAVENOUS, SUBCUTANEOUS","Intrath?cale, Intraveineuse, Sous-cutan?e",79,SUSPENSION,Suspension,29312,TRUE,2017-11-28,dbuijs,e93bf8d4-d459-11e7-8749-aa0000cecfa6,542
 40019,suspension for injection,49,INTRAVENOUS,Intraveineuse,79,SUSPENSION,Suspension,29328,TRUE,2017-11-28,dbuijs,e93c0162-d459-11e7-8749-aa0000cecfa6,543
 40019,suspension for injection,49-65,"INTRAVENOUS, SUBCUTANEOUS","Intraveineuse, Sous-cutan?e",79,SUSPENSION,Suspension,29341,TRUE,2017-11-28,dbuijs,e93c0964-d459-11e7-8749-aa0000cecfa6,544
 40019,suspension for injection,80,INTRAVITREAL,Intravitreuse,79,SUSPENSION,Suspension,29348,TRUE,2017-11-28,dbuijs,e93c0c3e-d459-11e7-8749-aa0000cecfa6,545
-40019,suspension for injection,63,SOFT TISSUE INJECTION,NA,79,SUSPENSION,Suspension,29466,TRUE,2017-11-28,dbuijs,e93c4186-d459-11e7-8749-aa0000cecfa6,546
+40019,suspension for injection,63,SOFT TISSUE INJECTION,,79,SUSPENSION,Suspension,29466,TRUE,2017-11-28,dbuijs,e93c4186-d459-11e7-8749-aa0000cecfa6,546
 40019,suspension for injection,65,SUBCUTANEOUS,Sous-cutan?e,79,SUSPENSION,Suspension,29474,TRUE,2017-11-28,dbuijs,e93c44ba-d459-11e7-8749-aa0000cecfa6,547
 40128,swab,70,TOPICAL,Topique,129,SWAB,Coton-tige,29513,TRUE,2017-11-28,dbuijs,e93c541e-d459-11e7-8749-aa0000cecfa6,548
 40128,swab,107,TOPICAL (HOSPITAL/HC FACILITIES),"Topique (H?pitaux, ?tablissements de soins de sant?)",129,SWAB,Coton-tige,29521,TRUE,2017-11-28,dbuijs,e93c58ba-d459-11e7-8749-aa0000cecfa6,549
@@ -555,7 +555,7 @@ NA,prolonged-release solution for injection,65,SUBCUTANEOUS,Sous-cutan?e,155,SOL
 40133,transdermal patch,71,TRANSDERMAL,Transdermique,145,PATCH,Timbre,29531,TRUE,2017-11-28,dbuijs,e93c5c52-d459-11e7-8749-aa0000cecfa6,554
 40133,transdermal patch,71,TRANSDERMAL,Transdermique,160,PATCH (EXTENDED RELEASE),Timbre (? lib?ration prolong?e),29532,TRUE,2017-11-28,dbuijs,e93c5cac-d459-11e7-8749-aa0000cecfa6,555
 40135,urethral gel,72,URETHRAL,Ur?trale,114,GEL,Gel,29535,TRUE,2017-11-28,dbuijs,e93c5dd8-d459-11e7-8749-aa0000cecfa6,556
-40135,urethral gel,72,URETHRAL,Ur?trale,26,JELLY,NA,29536,TRUE,2017-11-28,dbuijs,e93c5e3c-d459-11e7-8749-aa0000cecfa6,557
+40135,urethral gel,72,URETHRAL,Ur?trale,26,JELLY,,29536,TRUE,2017-11-28,dbuijs,e93c5e3c-d459-11e7-8749-aa0000cecfa6,557
 40134,urethral stick,72,URETHRAL,Ur?trale,78,SUPPOSITORY,Suppositoire,29534,TRUE,2017-11-28,dbuijs,e93c5d6a-d459-11e7-8749-aa0000cecfa6,558
 40131,vaginal cream,70-74,"TOPICAL, VAGINAL","Topique, Vaginale",9,CREAM,Cr?me,29529,TRUE,2017-11-28,dbuijs,e93c5b9e-d459-11e7-8749-aa0000cecfa6,559
 40131,vaginal cream,74,VAGINAL,Vaginale,9,CREAM,Cr?me,29537,TRUE,2017-11-28,dbuijs,e93c5e96-d459-11e7-8749-aa0000cecfa6,560
@@ -566,41 +566,41 @@ NA,prolonged-release solution for injection,65,SUBCUTANEOUS,Sous-cutan?e,155,SOL
 40129,wipe,70,TOPICAL,Topique,105,WIPE,Serviette,29514,TRUE,2017-11-28,dbuijs,e93c548c-d459-11e7-8749-aa0000cecfa6,565
 40129,wipe,107,TOPICAL (HOSPITAL/HC FACILITIES),"Topique (H?pitaux, ?tablissements de soins de sant?)",105,WIPE,Serviette,29522,TRUE,2017-11-28,dbuijs,e93c5914-d459-11e7-8749-aa0000cecfa6,566
 40129,wipe,104,TOPICAL (HOUSEHOLD),Topique (Maison),105,WIPE,Serviette,29528,TRUE,2017-11-28,dbuijs,e93c5b44-d459-11e7-8749-aa0000cecfa6,567
-40055,prolonged-release eye drops,55,OPHTHALMIC,Ophtalmique,155,SOLUTION (EXTENDED RELEASE),Solution (? lib?ration prolong?e),NA,NA,,,,568
-40144,buccal film,3,BUCCAL,Buccale,167,"FILM, SOLUBLE","Pellicule, soluble",NA,NA,,,,569
-40006,kit,22-49,"INTRAMUSCULAR, INTRAVENOUS","Intramusculaire, Intraveineuse",32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",NA,NA,,,,570
-40001,solution for injection,1-49,"BLOCK/INFILTRATION, INTRAVENOUS","Bloc/Infiltration, Intraveineuse",134,SOLUTION,Solution,NA,NA,,,,571
-40006,kit,22,INTRAMUSCULAR,,32-118,"KIT, POWDER FOR SUSPENSION, SUSTAINED-RELEASE",,NA,TRUE,2018-03-28,dbuijs,,572
-40006,kit,5,DENTAL,,32-134,"KIT, SOLUTION",,NA,TRUE,2018-03-28,dbuijs,,573
-40029,nasal spray,53,NASAL,,134-98,"SOLUTION, SPRAY",,NA,TRUE,2018-03-28,dbuijs,,574
-40063,oral drops,56,ORAL,,12-34,"DROPS, LIQUID",,NA,TRUE,2018-03-28,dbuijs,,575
-40145,oral drops suspension,56,ORAL,,12-79,"DROPS, SUSPENSION",,NA,TRUE,2018-03-28,dbuijs,,576
-40006,kit,56,ORAL,,32-85,"KIT, TABLET",,NA,TRUE,2018-03-28,dbuijs,,577
-40006,kit,56,ORAL,,5-137-32-85,"CAPSULE, CAPSULE (DELAYED RELEASE), KIT, TABLET",,NA,TRUE,2018-03-28,dbuijs,,578
-40001,solution for injection,65,SUBCUTANEOUS,,32-134,"KIT, SOLUTION",,NA,TRUE,2018-03-28,dbuijs,,579
-40006,kit,70-74,"TOPICAL, VAGINAL","Topique, Vaginale",9-15,"CREAM, OVULE","Créme, Ovule",NA,NA,,,,580
-40006,kit,70-74,"TOPICAL, VAGINAL","Topique, Vaginale",9-78,"CREAM, SUPPOSITORY","Créme, Suppositoire",NA,NA,,,,581
-40112,cutaneous gel,70,TOPICAL,,114-32,"GEL, KIT",,NA,TRUE,2018-03-28,dbuijs,,582
-40006,kit,70,TOPICAL,,114-32-36,"GEL, KIT, LOTION",,NA,TRUE,2018-03-28,dbuijs,,583
-40006,kit,70,TOPICAL,,114-32-52,"GEL, KIT, PASTE",,NA,TRUE,2018-03-28,dbuijs,,584
-40112,cutaneous gel,70,TOPICAL,,114-36,"GEL, LOTION",,NA,TRUE,2018-03-28,dbuijs,,585
-40006,kit,70,TOPICAL,,32-36,"KIT, LOTION",,NA,TRUE,2018-03-28,dbuijs,,586
-40006,kit,70,TOPICAL,,9-114-32-36,"CREAM, GEL, KIT, LOTION",,NA,TRUE,2018-03-28,dbuijs,,587
-40146,transdermal solution,71,TRANSDERMAL,Transdermique,134,SOLUTION,Solution,NA,TRUE,2018-05-01,dbuijs,,588
-40004,gargle/mouthwash,3-56,"BUCCAL, ORAL","Buccale, Orale",42,MOUTHWASH/GARGLE,Rince-bouche/Gargarisme,NA,NA,,,,589
-40006,kit,22-49-65,"INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intraveineuse, Sous-cutanée",32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",NA,NA,,,,590
-40080,modified-release oral tablet,56,ORAL,Orale,141|161,"CAPSULE (EXTENDED RELEASE), CAPSULE (IMMEDIATE RELEASE)","Capsule (libération prolongée),Capsule (libération immédiate)",NA,NA,,,,591
-40006,kit,22,INTRAMUSCULAR,Intramusculaire,32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",NA,NA,,,,592
-40006,kit,56,ORAL,Orale,5-32,"CAPSULE, KIT","Capsule, Trousse",NA,NA,,,,593
-40006,kit,56-70,"ORAL, TOPICAL","Orale, Topique",5-9-32,"CAPSULE, CREAM, KIT","Capsule, Créme, Trousse",NA,NA,,,,594
-40147,anticoagulant and preservative solution for blood,92,0-UNASSIGNED,0-Non attribuée,134,SOLUTION,Solution,NA,NA,,,,595
-40091,rectal foam,62,RECTAL,Rectale,175,FOAM,Mousse,NA,NA,,,,596
-40001,solution for injection,29-49-56,"INHALATION, INTRAVENOUS, ORAL","Inhalation, Orale, Intraveineuse",134,SOLUTION,Solution,NA,NA,,,,597
-40001,solution for injection,29-49-56,"INHALATION, INTRAVENOUS, ORAL","Inhalation, Orale, Intraveineuse",34,LIQUID,Liquide,NA,NA,,,,598
-40017,powder for solution for injection,12-17-22-49-65,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS",,56,POWDER FOR SOLUTION,Poudre pour solution,NA,NA,,,,599
-40026,powder for nebuliser solution,29,INHALATION,Inhalation,2-56,"AEROSOL, POWDER FOR SOLUTION","A?rosol, Poudre pour solution",NA,NA,,,,600
-40001,solution for injection,90,EXTRACORPOREAL,Extracorporelle,134,SOLUTION,Solution,NA,NA,,,,601
-40106,cutaneous spray,70,TOPICAL,Topique,164,"SPRAY, BAG-ON-VALVE","Pulverisation, sac-sur-valve",NA,NA,,,,602
-NA,cutaneous spray powder,70,TOPICAL,Topique,2-55,"AEROSOL, POWDER","A?rosol, Poudre",NA,NA,,,,603
-40085,powder for oral/rectal suspension,56-62,"ORAL, RECTAL","Orale, Rectale",126,POWDER FOR SUSPENSION,Poudre pour suspension,NA,NA,,,,604
-40019,suspension for injection,10-42-112,"INTRA-ARTICULAR, INTRASYNOVIAL, PERIARTICULAR","Intra-articulaire, Intrasynoviale, Périarticulaire",79,SUSPENSION,Suspension,NA,NA,,,,605
+40055,prolonged-release eye drops,55,OPHTHALMIC,Ophtalmique,155,SOLUTION (EXTENDED RELEASE),Solution (? lib?ration prolong?e),,,,,,568
+40144,buccal film,3,BUCCAL,Buccale,167,"FILM, SOLUBLE","Pellicule, soluble",,,,,,569
+40006,kit,22-49,"INTRAMUSCULAR, INTRAVENOUS","Intramusculaire, Intraveineuse",32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",,,,,,570
+40001,solution for injection,1-49,"BLOCK/INFILTRATION, INTRAVENOUS","Bloc/Infiltration, Intraveineuse",134,SOLUTION,Solution,,,,,,571
+40006,kit,22,INTRAMUSCULAR,,32-118,"KIT, POWDER FOR SUSPENSION, SUSTAINED-RELEASE",,,TRUE,2018-03-28,dbuijs,,572
+40006,kit,5,DENTAL,,32-134,"KIT, SOLUTION",,,TRUE,2018-03-28,dbuijs,,573
+40029,nasal spray,53,NASAL,,134-98,"SOLUTION, SPRAY",,,TRUE,2018-03-28,dbuijs,,574
+40063,oral drops,56,ORAL,,12-34,"DROPS, LIQUID",,,TRUE,2018-03-28,dbuijs,,575
+40145,oral drops suspension,56,ORAL,,12-79,"DROPS, SUSPENSION",,,TRUE,2018-03-28,dbuijs,,576
+40006,kit,56,ORAL,,32-85,"KIT, TABLET",,,TRUE,2018-03-28,dbuijs,,577
+40006,kit,56,ORAL,,5-137-32-85,"CAPSULE, CAPSULE (DELAYED RELEASE), KIT, TABLET",,,TRUE,2018-03-28,dbuijs,,578
+40001,solution for injection,65,SUBCUTANEOUS,,32-134,"KIT, SOLUTION",,,TRUE,2018-03-28,dbuijs,,579
+40006,kit,70-74,"TOPICAL, VAGINAL","Topique, Vaginale",9-15,"CREAM, OVULE","Créme, Ovule",,,,,,580
+40006,kit,70-74,"TOPICAL, VAGINAL","Topique, Vaginale",9-78,"CREAM, SUPPOSITORY","Créme, Suppositoire",,,,,,581
+40112,cutaneous gel,70,TOPICAL,,114-32,"GEL, KIT",,,TRUE,2018-03-28,dbuijs,,582
+40006,kit,70,TOPICAL,,114-32-36,"GEL, KIT, LOTION",,,TRUE,2018-03-28,dbuijs,,583
+40006,kit,70,TOPICAL,,114-32-52,"GEL, KIT, PASTE",,,TRUE,2018-03-28,dbuijs,,584
+40112,cutaneous gel,70,TOPICAL,,114-36,"GEL, LOTION",,,TRUE,2018-03-28,dbuijs,,585
+40006,kit,70,TOPICAL,,32-36,"KIT, LOTION",,,TRUE,2018-03-28,dbuijs,,586
+40006,kit,70,TOPICAL,,9-114-32-36,"CREAM, GEL, KIT, LOTION",,,TRUE,2018-03-28,dbuijs,,587
+40146,transdermal solution,71,TRANSDERMAL,Transdermique,134,SOLUTION,Solution,,TRUE,2018-05-01,dbuijs,,588
+40004,gargle/mouthwash,3-56,"BUCCAL, ORAL","Buccale, Orale",42,MOUTHWASH/GARGLE,Rince-bouche/Gargarisme,,,,,,589
+40006,kit,22-49-65,"INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intraveineuse, Sous-cutanée",32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",,,,,,590
+40080,modified-release oral tablet,56,ORAL,Orale,141|161,"CAPSULE (EXTENDED RELEASE), CAPSULE (IMMEDIATE RELEASE)","Capsule (libération prolongée),Capsule (libération immédiate)",,,,,,591
+40006,kit,22,INTRAMUSCULAR,Intramusculaire,32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",,,,,,592
+40006,kit,56,ORAL,Orale,5-32,"CAPSULE, KIT","Capsule, Trousse",,,,,,593
+40006,kit,56-70,"ORAL, TOPICAL","Orale, Topique",5-9-32,"CAPSULE, CREAM, KIT","Capsule, Créme, Trousse",,,,,,594
+40147,anticoagulant and preservative solution for blood,92,0-UNASSIGNED,0-Non attribuée,134,SOLUTION,Solution,,,,,,595
+40091,rectal foam,62,RECTAL,Rectale,175,FOAM,Mousse,,,,,,596
+40001,solution for injection,29-49-56,"INHALATION, INTRAVENOUS, ORAL","Inhalation, Orale, Intraveineuse",134,SOLUTION,Solution,,,,,,597
+40001,solution for injection,29-49-56,"INHALATION, INTRAVENOUS, ORAL","Inhalation, Orale, Intraveineuse",34,LIQUID,Liquide,,,,,,598
+40017,powder for solution for injection,12-17-22-49-65,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS",,56,POWDER FOR SOLUTION,Poudre pour solution,,,,,,599
+40026,powder for nebuliser solution,29,INHALATION,Inhalation,2-56,"AEROSOL, POWDER FOR SOLUTION","A?rosol, Poudre pour solution",,,,,,600
+40001,solution for injection,90,EXTRACORPOREAL,Extracorporelle,134,SOLUTION,Solution,,,,,,601
+40106,cutaneous spray,70,TOPICAL,Topique,164,"SPRAY, BAG-ON-VALVE","Pulverisation, sac-sur-valve",,,,,,602
+,cutaneous spray powder,70,TOPICAL,Topique,2-55,"AEROSOL, POWDER","A?rosol, Poudre",,,,,,603
+40085,powder for oral/rectal suspension,56-62,"ORAL, RECTAL","Orale, Rectale",126,POWDER FOR SUSPENSION,Poudre pour suspension,,,,,,604
+40019,suspension for injection,10-42-112,"INTRA-ARTICULAR, INTRASYNOVIAL, PERIARTICULAR","Intra-articulaire, Intrasynoviale, Périarticulaire",79,SUSPENSION,Suspension,,,,,,605
