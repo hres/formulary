@@ -352,7 +352,7 @@ Y,CIPROFLOXACIN,CIPROFLOXACIN,ciprofloxacin,FALSE,ciprofloxacin,Released,,350
 Y,CIPROFLOXACIN,CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE),ciprofloxacin,FALSE,ciprofloxacin (ciprofloxacin hydrochloride),Released,,351
 Y,CIPROFLOXACIN,"CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE, CIPROFLOXACIN)",ciprofloxacin,FALSE,"ciprofloxacin (ciprofloxacin hydrochloride, ciprofloxacin)",Released,,352
 Y,CIPROFLOXACIN,CIPROFLOXACIN (CIPROFLOXACIN LACTATE),ciprofloxacin,FALSE,ciprofloxacin (ciprofloxacin lactate),Released,,353
-Y,,CISATRACURIUM (CISATRACURIUM BESYLATE),cisatracurium (cisatracurium besylate),FALSE,cisatracurium (cisatracurium besylate),To Do,December,354
+Y,,CISATRACURIUM (CISATRACURIUM BESYLATE),cisatracurium,FALSE,cisatracurium (cisatracurium besylate),To Do,December,354
 Y,,CISPLATIN,cisplatin,FALSE,cisplatin,Released,,355
 Y,CITALOPRAM,CITALOPRAM (CITALOPRAM HYDROBROMIDE),citalopram,FALSE,citalopram (citalopram hydrobromide),Released,,356
 Y,,CITRIC ACID,citric acid,FALSE,citric acid,,,357
@@ -997,7 +997,7 @@ Y,,LIXISENATIDE,lixisenatide,FALSE,lixisenatide,Issue - in QA,,991
 ,,L-LYSINE (L-LYSINE HYDROCHLORIDE),l-lysine (l-lysine hydrochloride),FALSE,l-lysine (l-lysine hydrochloride),TPN,,996
 ,,L-LYSINE (LYSINE ACETATE),l-lysine (lysine acetate),FALSE,l-lysine (lysine acetate),TPN,,997
 ,,L-LYSINE HYDROCHLORIDE,l-lysine hydrochloride,FALSE,l-lysine hydrochloride,TPN,,998
-Y,,L-MENTHOL,l-menthol,FALSE,l-menthol,Issue - in QA,,999
+Y,,L-MENTHOL,levomenthol,FALSE,levomenthol,Issue - in QA,,999
 Y,,LODOXAMIDE (LODOXAMIDE TROMETHAMINE),lodoxamide,FALSE,lodoxamide (lodoxamide tromethamine),Released,,1000
 Y,,Lomitapide (Lomitapide Mesylate),lomitapide,FALSE,lomitapide (lomitapide mesylate),Released,,1001
 Y,,LOMUSTINE,lomustine,FALSE,lomustine,Released,,1002
@@ -1256,7 +1256,7 @@ Y,OXYBUTYNIN,OXYBUTYNIN CHLORIDE,oxybutynin,FALSE,oxybutynin chloride,Released,,
 Y,OXYBUTYNIN,OXYBUTYNIN,oxybutynin,FALSE,oxybutynin,Released,,1255
 Y,OXYCODONE,OXYCODONE HYDROCHLORIDE,oxycodone,FALSE,oxycodone hydrochloride,Released,,1256
 ,,OXYGEN,oxygen,FALSE,oxygen,Medical gas,,1257
-Y,,OXYMETAZOLINE HYDROCHLORIDE,oxymetazoline hydrochloride,FALSE,oxymetazoline hydrochloride,To Do,December,1258
+Y,,OXYMETAZOLINE HYDROCHLORIDE,oxymetazoline,FALSE,oxymetazoline hydrochloride,To Do,December,1258
 Y,OXYMORPHONE,OXYMORPHONE HYDROCHLORIDE,oxymorphone,FALSE,oxymorphone hydrochloride,No live products,,1259
 ,,OXYQUINOLINE SULFATE,oxyquinoline sulfate,FALSE,oxyquinoline sulfate,No live products,,1260
 Y,,OXYTOCIN,oxytocin,FALSE,oxytocin,To Do,December,1261
@@ -1639,7 +1639,7 @@ Y,,SUCCINYLCHOLINE CHLORIDE,succinylcholine,FALSE,succinylcholine chloride,Relea
 Y,,SUCRALFATE,sucralfate,FALSE,sucralfate,Released,,1638
 Y,,SUFENTANIL (SUFENTANIL CITRATE),sufentanil,FALSE,sufentanil (sufentanil citrate),Released,,1639
 Y,,SUGAMMADEX (SUGAMMADEX SODIUM),sugammadex,FALSE,sugammadex (sugammadex sodium),Released,,1640
-Y,,SULFACETAMIDE SODIUM,sulfacetamide sodium,FALSE,sulfacetamide sodium,To Do,December,1641
+Y,,SULFACETAMIDE SODIUM,sulfacetamide,FALSE,sulfacetamide sodium,To Do,December,1641
 Y,,SULFAMETHOXAZOLE,sulfamethoxazole,FALSE,sulfamethoxazole,Released,,1642
 Y,,SULFASALAZINE,sulfasalazine,FALSE,sulfasalazine,Released,,1643
 Y,,SULFINPYRAZONE,sulfinpyrazone,FALSE,sulfinpyrazone,Released,,1644
