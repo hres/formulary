@@ -2721,6 +2721,19 @@ ALTER MATERIALIZED VIEW public.ccdd_mp_special_groupings OWNER TO postgres;
 
 -- object: public.ccdd_special_groupings | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_special_groupings CASCADE;
+
+CREATE TABLE ccdd.special_groupings(
+	ccdd_code varchar NOT NULL,
+	ccdd_formal_name text NOT NULL,
+	ccdd_type varchar,
+	policy_type varchar,
+	policy_reference varchar,
+	special_groupings_status text,
+	special_groupings_status_effective_time text
+);
+-- ddl-end --
+ALTER TABLE ccdd.special_groupings OWNER TO postgres;
+
 CREATE MATERIALIZED VIEW public.ccdd_special_groupings
 AS
 
