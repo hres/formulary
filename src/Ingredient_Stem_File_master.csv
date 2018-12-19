@@ -62,9 +62,9 @@ Y,,ALTEPLASE,alteplase,FALSE,alteplase,Issue - in QA,,60
 Y,,ALUMINUM CHLORIDE,aluminum chloride,FALSE,aluminum chloride,,,61
 Y,,ALUMINUM CHLOROHYDRATE,aluminum chlorohydrate,TRUE,aluminum chlorohydrate,,,62
 Y,,ALUMINUM HYDROXIDE,aluminum hydroxide,FALSE,aluminum hydroxide,,,63
-Y,,ALUMINUM HYDROXIDE (DRIED ALUMINUM HYDROXIDE GEL),aluminum hydroxide (dried aluminum hydroxide gel),FALSE,aluminum hydroxide (dried aluminum hydroxide gel),,,64
+Y,,ALUMINUM HYDROXIDE (DRIED ALUMINUM HYDROXIDE GEL),aluminum hydroxide,FALSE,aluminum hydroxide (dried aluminum hydroxide gel),,,64
 Y,,ALUMINUM HYDROXIDE-MAGNESIUM CARBONATE-CO DRIED GEL,aluminum hydroxide-magnesium carbonate-co dried gel,FALSE,aluminum hydroxide-magnesium carbonate-co dried gel,,,65
-Y,,ALUMINUM HYDROXIDE-SUCROSE DRIED GEL,aluminum hydroxide-sucrose dried gel,FALSE,aluminum hydroxide-sucrose dried gel,,,66
+Y,,ALUMINUM HYDROXIDE-SUCROSE DRIED GEL,aluminum hydroxide,FALSE,aluminum hydroxide-sucrose dried gel,,,66
 Y,,AMANTADINE HYDROCHLORIDE,amantadine,FALSE,amantadine hydrochloride,Released,,67
 Y,AMBRISENTAN,AMBRISENTAN,ambrisentan,FALSE,ambrisentan,Released,,68
 Y,,AMCINONIDE,amcinonide,FALSE,amcinonide,Released,,69
@@ -754,7 +754,7 @@ Y,,GLUCAGON (RECOMBINANT DNA ORIGIN) (GLUCAGON HYDROCHLORIDE),glucagon,FALSE,glu
 ,,GLUTAMIC ACID,glutamic acid,FALSE,glutamic acid,TPN,,753
 ,,GLUTATHIONE DISULFIDE,glutathione disulfide,FALSE,glutathione disulfide,No products in scope,Balanced Salts Solution only,754
 Y,GLYBURIDE,GLYBURIDE,glyburide,FALSE,glyburide,Released,,755
-Y,,GLYCERINE,glycerine,FALSE,glycerine,To Do,December,756
+Y,,GLYCERINE,glycerin,FALSE,glycerin,To Do,December,756
 Y,,GLYCEROL PHENYLBUTYRATE,phenylbutyric acid,FALSE,glycerol phenylbutyrate,Released,,757
 ,,GLYCINE,glycine,FALSE,glycine,No products in scope,Mostly TPN; also single ingredient irrigation solution,758
 Y,,GLYCOL SALICYLATE,glycol salicylate,FALSE,glycol salicylate,Issue - in QA,Combination only,759
