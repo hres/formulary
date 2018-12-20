@@ -94,7 +94,15 @@ psql -c "copy ((select
                 UNION ALL
                 (select * from ccdd.mp_ntp_tm_relationship_release_candidate where mp_code IN ('02212188', '02480360', '02480379'))
                 ) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/mp_ntp_tm_relationship_release_candidate_${ccdd_current_date}.csv"
-psql -c "copy (select ccdd_code, ccdd_formal_name, ccdd_type, policy_type, policy_reference, special_groupings_status, special_groupings_status_effective_time from ccdd_special_groupings WHERE tm_is_publishable = true) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/special_groupings_release_candidate_${ccdd_current_date}.csv"
+psql -c "copy ((
+          select ccdd_code, ccdd_formal_name, ccdd_type, policy_type, policy_reference, special_groupings_status, special_groupings_status_effective_time from ccdd_special_groupings WHERE tm_is_publishable = true)
+          UNION ALL
+          (
+            select cur.ccdd_code, cur.ccdd_formal_name, cur.ccdd_type, cur.policy_type::int, cur.policy_reference, 'Inactive' as special_groupings_status,
+            cur.special_groupings_status_effective_time from ccdd.special_groupings cur
+            WHERE not exists (SELECT 1 from ccdd_special_groupings nxt WHERE (nxt.ccdd_code = cur.ccdd_code AND CAST(nxt.policy_type as text) = cur.policy_type)))
+          )
+          to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/special_groupings_release_candidate_${ccdd_current_date}.csv"
 
 # copy hand-curated files
 cp "$baseDir/test/ccdd-device-ntp-draft.csv" "$distDir/device-ntp_full_release_${ccdd_current_date}.csv"
