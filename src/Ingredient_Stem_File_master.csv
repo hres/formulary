@@ -3,7 +3,7 @@ Y,,ABACAVIR (ABACAVIR SULFATE),abacavir,FALSE,abacavir (abacavir sulfate),Releas
 Y,,ABATACEPT,abatacept,FALSE,abatacept,Released,,2
 Y,,ABCIXIMAB,abciximab,FALSE,abciximab,Released,,3
 Y,,Abiraterone acetate,abiraterone,FALSE,abiraterone acetate,Released,,4
-Y,,AbobotulinumtoxinA,abobotulinumtoxina,FALSE,abobotulinumtoxina,,,5
+Y,,AbobotulinumtoxinA,botulinum toxin type a,FALSE,abobotulinumtoxina,,,5
 Y,,ACAMPROSATE CALCIUM,acamprosate,FALSE,acamprosate calcium,Released,,6
 Y,,ACARBOSE,acarbose,FALSE,acarbose,Released,,7
 Y,ACEBUTOLOL,ACEBUTOLOL (ACEBUTOLOL HYDROCHLORIDE),acebutolol,FALSE,acebutolol (acebutolol hydrochloride),Released,,8
@@ -85,7 +85,7 @@ Y,AMPICILLIN,AMPICILLIN,ampicillin,FALSE,ampicillin,Released,,83
 Y,AMPICILLIN,AMPICILLIN (AMPICILLIN SODIUM),ampicillin,FALSE,ampicillin (ampicillin sodium),Released,,84
 Y,,AMPICILLIN (AMPICILLIN TRIHYDRATE),ampicillin,TRUE,ampicillin,Released,,85
 Y,,AMSACRINE,amsacrine,FALSE,amsacrine,No live products,,86
-Y,,AMYLASE,amylase,FALSE,amylase,To Do,December,87
+Y,,AMYLASE,pancrelipase,FALSE,amylase,To Do,December,87
 Y,,AMYLMETACRESOL,amylmetacresol,FALSE,amylmetacresol,To Do,December,88
 Y,,ANAGRELIDE (ANAGRELIDE HYDROCHLORIDE MONOHYDRATE),anagrelide,TRUE,anagrelide (anagrelide hydrochloride),Released,,89
 Y,,ANAGRELIDE (ANAGRELIDE HYDROCHLORIDE),anagrelide,FALSE,anagrelide (anagrelide hydrochloride),Released,,90
@@ -853,7 +853,7 @@ Y,,IMIQUIMOD,imiquimod,FALSE,imiquimod,Issue - in QA,,842
 ,,INACTIVATED POLIOVIRUS TYPE I,inactivated poliovirus type i,FALSE,inactivated poliovirus type i,Immunologic,,852
 ,,INACTIVATED POLIOVIRUS TYPE II,inactivated poliovirus type ii,FALSE,inactivated poliovirus type ii,Immunologic,,853
 ,,INACTIVATED POLIOVIRUS TYPE III,inactivated poliovirus type iii,FALSE,inactivated poliovirus type iii,Immunologic,,854
-Y,,IncobotulinumtoxinA,incobotulinumtoxina,FALSE,incobotulinumtoxina,To Do,,855
+Y,,IncobotulinumtoxinA,botulinum toxin type a,FALSE,incobotulinumtoxina,To Do,,855
 Y,INDACATEROL,Indacaterol (Indacaterol Maleate),indacaterol,FALSE,indacaterol (indacaterol maleate),Released,,856
 Y,INDAPAMIDE,INDAPAMIDE,indapamide,FALSE,indapamide,Released,,857
 ,,INDIGO CARMINE,indigo carmine,FALSE,indigo carmine,Contrast media,,858
@@ -981,7 +981,7 @@ Y,,LINAGLIPTIN,linagliptin,FALSE,linagliptin,Released,,979
 Y,,LINCOMYCIN (LINCOMYCIN HYDROCHLORIDE),lincomycin,FALSE,lincomycin (lincomycin hydrochloride),Released,,980
 Y,,LINEZOLID,linezolid,FALSE,linezolid,Issue - in QA,,981
 Y,,LIOTHYRONINE (LIOTHYRONINE SODIUM),liothyronine,FALSE,liothyronine (liothyronine sodium),Released,,982
-Y,,LIPASE,lipase,FALSE,lipase,To Do,Pancreatin products,983
+Y,,LIPASE,pancrelipase,FALSE,lipase,To Do,Pancreatin products,983
 Y,,LIRAGLUTIDE,liraglutide,FALSE,liraglutide,Released,,984
 Y,LISDEXAMFETAMINE,LISDEXAMFETAMINE DIMESYLATE,lisdexamfetamine,FALSE,lisdexamfetamine dimesylate,Released,,985
 Y,LISINOPRIL,LISINOPRIL,lisinopril,FALSE,lisinopril,Released,,986
@@ -1234,7 +1234,7 @@ Y,OMALIZUMAB,OMALIZUMAB,omalizumab,FALSE,omalizumab,Released,,1232
 Y,,Ombitasvir,ombitasvir,FALSE,ombitasvir,Released,Combination only,1233
 Y,OMEPRAZOLE,OMEPRAZOLE,omeprazole,FALSE,omeprazole,Released,,1234
 Y,OMEPRAZOLE,OMEPRAZOLE (OMEPRAZOLE MAGNESIUM),omeprazole,FALSE,omeprazole (omeprazole magnesium),Released,,1235
-Y,,OnabotulinumtoxinA,onabotulinumtoxina,FALSE,onabotulinumtoxina,To Do,January,1236
+Y,,OnabotulinumtoxinA,botulinum toxin type a,FALSE,onabotulinumtoxina,To Do,January,1236
 Y,,ONDANSETRON,ondansetron,FALSE,ondansetron,Released,,1237
 Y,,ONDANSETRON (ONDANSETRON HYDROCHLORIDE),ondansetron,FALSE,ondansetron (ondansetron hydrochloride),Released,,1238
 Y,,ONDANSETRON (ONDANSETRON HYDROCHLORIDE DIHYDRATE),ondansetron ,TRUE,ondansetron (ondansetron hydrochloride),Released,,1239
@@ -1450,7 +1450,7 @@ Y,,PROPYL ALCOHOL,propyl alcohol,FALSE,propyl alcohol,To Do,With chlorhexidine,1
 Y,,PROPYLENE GLYCOL,propylene glycol,FALSE,propylene glycol,To Do,Artificial tears etc.,1449
 Y,,PROPYLTHIOURACIL,propylthiouracil,FALSE,propylthiouracil,Released,,1450
 Y,,PROTAMINE SULFATE,protamine,FALSE,protamine sulfate,To Do,December,1451
-Y,,PROTEASE,protease,FALSE,protease,To Do,Pancreatin products,1452
+Y,,PROTEASE,pancrelipase,FALSE,protease,To Do,Pancreatin products,1452
 ,,PROTEIN C,protein c,FALSE,protein c,Haematology,,1453
 ,,PROTEIN S,protein s,FALSE,protein s,Haematology,,1454
 Y,,PROXYMETACAINE HYDROCHLORIDE,proxymetacaine,FALSE,proxymetacaine hydrochloride,Issue - in QA,,1455
