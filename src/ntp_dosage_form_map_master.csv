@@ -604,3 +604,4 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 ,cutaneous spray powder,70,TOPICAL,Topique,2-55,"AEROSOL, POWDER","A?rosol, Poudre",,,,,,
 40085,powder for oral/rectal suspension,56-62,"ORAL, RECTAL","Orale, Rectale",126,POWDER FOR SUSPENSION,Poudre pour suspension,,,,,,40085
 40019,suspension for injection,10-42-112,"INTRA-ARTICULAR, INTRASYNOVIAL, PERIARTICULAR","Intra-articulaire, Intrasynoviale, Périarticulaire",79,SUSPENSION,Suspension,,,,,,40019
+40001,solution for injection,7-111,"EPIDURAL, INFILTRATION","?pidurale, infiltration",134,SOLUTION,Solution,,,,,,
