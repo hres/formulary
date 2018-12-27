@@ -309,7 +309,7 @@ Y,,CERITINIB,ceritinib,FALSE,ceritinib,Released,,307
 Y,,CERTOLIZUMAB PEGOL,certolizumab pegol,FALSE,certolizumab pegol,Released,,308
 Y,CETIRIZINE,CETIRIZINE HYDROCHLORIDE,cetirizine,FALSE,cetirizine hydrochloride,Released,,309
 Y,,CETRIMIDE,cetrimide,FALSE,cetrimide,To Do,January,310
-Y,,CETRIMONIUM BROMIDE,cetrimonium bromide,FALSE,cetrimonium bromide,To Do,January,311
+Y,,CETRIMONIUM BROMIDE,cetrimonium,FALSE,cetrimonium bromide,To Do,January,311
 Y,,CETRORELIX (CETRORELIX ACETATE),cetrorelix,FALSE,cetrorelix (cetrorelix acetate),Released,,312
 Y,,CETUXIMAB,cetuximab,FALSE,cetuximab,Released,,313
 Y,,CETYLPYRIDINIUM CHLORIDE,cetylpyridinium,FALSE,cetylpyridinium chloride,Issue - in QA,,314
@@ -1154,7 +1154,7 @@ Y,NADOLOL,NADOLOL,nadolol,FALSE,nadolol,Released,,1152
 Y,,NADROPARIN CALCIUM,nadroparin,FALSE,nadroparin calcium,Released,,1153
 Y,,NAFARELIN (NAFARELIN ACETATE),nafarelin,FALSE,nafarelin (nafarelin acetate),Issue - in QA,,1154
 Y,,NALBUPHINE HYDROCHLORIDE,nalbuphine,FALSE,nalbuphine hydrochloride,Released,,1155
-Y,,Naloxegol (Naloxegol oxalate),naloxegol (naloxegol oxalate),FALSE,naloxegol (naloxegol oxalate),To Do,January,1156
+Y,,Naloxegol (Naloxegol oxalate),naloxegol,FALSE,naloxegol (naloxegol oxalate),To Do,January,1156
 Y,NALOXONE,NALOXONE (NALOXONE HYDROCHLORIDE DIHYDRATE),naloxone,TRUE,naloxone (naloxone hydrochloride),Released,,1157
 Y,NALOXONE,NALOXONE HYDROCHLORIDE,naloxone,FALSE,naloxone hydrochloride,Released,,1158
 Y,NALOXONE,NALOXONE HYDROCHLORIDE (NALOXONE HYDROCHLORIDE DIHYDRATE),naloxone,TRUE,naloxone hydrochloride,Released,,1159
