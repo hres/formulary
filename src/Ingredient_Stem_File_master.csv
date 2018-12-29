@@ -85,7 +85,7 @@ Y,AMPICILLIN,AMPICILLIN,ampicillin,FALSE,ampicillin,Released,,83
 Y,AMPICILLIN,AMPICILLIN (AMPICILLIN SODIUM),ampicillin,FALSE,ampicillin (ampicillin sodium),Released,,84
 Y,,AMPICILLIN (AMPICILLIN TRIHYDRATE),ampicillin,TRUE,ampicillin,Released,,85
 Y,,AMSACRINE,amsacrine,FALSE,amsacrine,No live products,,86
-Y,,AMYLASE,pancrelipase,FALSE,amylase,To Do,December,87
+Y,,AMYLASE,pancrelipase,FALSE,amylase,To Do,Pancreatin products - Pancrelipase refers to the combination of amylase and lipase and protease and labeled as such in Canada. Currently all amylase products in dpd are truly pancrelipase,87
 Y,,AMYLMETACRESOL,amylmetacresol,FALSE,amylmetacresol,To Do,December,88
 Y,,ANAGRELIDE (ANAGRELIDE HYDROCHLORIDE MONOHYDRATE),anagrelide,TRUE,anagrelide (anagrelide hydrochloride),Released,,89
 Y,,ANAGRELIDE (ANAGRELIDE HYDROCHLORIDE),anagrelide,FALSE,anagrelide (anagrelide hydrochloride),Released,,90
@@ -981,7 +981,7 @@ Y,,LINAGLIPTIN,linagliptin,FALSE,linagliptin,Released,,979
 Y,,LINCOMYCIN (LINCOMYCIN HYDROCHLORIDE),lincomycin,FALSE,lincomycin (lincomycin hydrochloride),Released,,980
 Y,,LINEZOLID,linezolid,FALSE,linezolid,Issue - in QA,,981
 Y,,LIOTHYRONINE (LIOTHYRONINE SODIUM),liothyronine,FALSE,liothyronine (liothyronine sodium),Released,,982
-Y,,LIPASE,pancrelipase,FALSE,lipase,To Do,Pancreatin products,983
+Y,,LIPASE,pancrelipase,FALSE,lipase,To Do,Pancreatin products - Pancrelipase refers to the combination of amylase and lipase and protease and labeled as such in Canada. Currently all marketed in-scope lipase products in dpd are truly pancrelipase - there is one 8 ingredient product at Approved but this would not be in scope,983
 Y,,LIRAGLUTIDE,liraglutide,FALSE,liraglutide,Released,,984
 Y,LISDEXAMFETAMINE,LISDEXAMFETAMINE DIMESYLATE,lisdexamfetamine,FALSE,lisdexamfetamine dimesylate,Released,,985
 Y,LISINOPRIL,LISINOPRIL,lisinopril,FALSE,lisinopril,Released,,986
@@ -1450,7 +1450,7 @@ Y,,PROPYL ALCOHOL,propyl alcohol,FALSE,propyl alcohol,To Do,With chlorhexidine,1
 Y,,PROPYLENE GLYCOL,propylene glycol,FALSE,propylene glycol,To Do,Artificial tears etc.,1449
 Y,,PROPYLTHIOURACIL,propylthiouracil,FALSE,propylthiouracil,Released,,1450
 Y,,PROTAMINE SULFATE,protamine,FALSE,protamine sulfate,To Do,December,1451
-Y,,PROTEASE,pancrelipase,FALSE,protease,To Do,Pancreatin products,1452
+Y,,PROTEASE,pancrelipase,FALSE,protease,To Do,Pancreatin products - Pancrelipase refers to the combination of amylase and lipase and protease and labeled as such in Canada. Currently all marketed in-scope protease products in dpd are truly pancrelipase - there is one 8 ingredient product at Approved but this would not be in scope,1452
 ,,PROTEIN C,protein c,FALSE,protein c,Haematology,,1453
 ,,PROTEIN S,protein s,FALSE,protein s,Haematology,,1454
 Y,,PROXYMETACAINE HYDROCHLORIDE,proxymetacaine,FALSE,proxymetacaine hydrochloride,Issue - in QA,,1455
