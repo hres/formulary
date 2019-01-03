@@ -500,7 +500,7 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40001,solution for injection,64,SUBARACHNOIDAL,Sous-arachno?dienne,134,SOLUTION,Solution,29467,TRUE,2017-11-28,dbuijs,e93c41ea-d459-11e7-8749-aa0000cecfa6,40001
 40001,solution for injection,65,SUBCUTANEOUS,Sous-cutan?e,34,LIQUID,Liquide,29469,TRUE,2017-11-28,dbuijs,e93c42b2-d459-11e7-8749-aa0000cecfa6,40001
 40001,solution for injection,65,SUBCUTANEOUS,Sous-cutan?e,134,SOLUTION,Solution,29472,TRUE,2017-11-28,dbuijs,e93c43f2-d459-11e7-8749-aa0000cecfa6,40001
-,prolonged-release solution for injection,65,SUBCUTANEOUS,Sous-cutan?e,155,SOLUTION (EXTENDED RELEASE),Solution (? lib?ration prolong?e),29473,TRUE,2017-11-28,dbuijs,e93c4460-d459-11e7-8749-aa0000cecfa6,
+40148,prolonged-release solution for injection,65,SUBCUTANEOUS,Sous-cutan?e,155,SOLUTION (EXTENDED RELEASE),Solution (? lib?ration prolong?e),29473,TRUE,2017-11-28,dbuijs,e93c4460-d459-11e7-8749-aa0000cecfa6,
 40001,solution for injection,109,SUBMUCOSAL,Sous-muqueuse,134,SOLUTION,Solution,29484,TRUE,2017-11-28,dbuijs,e93c4898-d459-11e7-8749-aa0000cecfa6,40001
 40036,solution for peritoneal dialysis,33,INTRAPERITONEAL,Intrap?riton?ale,134,SOLUTION,Solution,29292,TRUE,2017-11-28,dbuijs,e93beca4-d459-11e7-8749-aa0000cecfa6,40036
 40104,sublingual spray,66,SUBLINGUAL,Sublinguale,1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29479,TRUE,2017-11-28,dbuijs,e93c46a4-d459-11e7-8749-aa0000cecfa6,40104
@@ -601,7 +601,7 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40026,powder for nebuliser solution,29,INHALATION,Inhalation,2-56,"AEROSOL, POWDER FOR SOLUTION","A?rosol, Poudre pour solution",,,,,,40026
 40001,solution for injection,90,EXTRACORPOREAL,Extracorporelle,134,SOLUTION,Solution,,,,,,40001
 40106,cutaneous spray,70,TOPICAL,Topique,164,"SPRAY, BAG-ON-VALVE","Pulverisation, sac-sur-valve",,,,,,40106
-,cutaneous spray powder,70,TOPICAL,Topique,2-55,"AEROSOL, POWDER","A?rosol, Poudre",,,,,,
+40149,cutaneous spray powder,70,TOPICAL,Topique,2-55,"AEROSOL, POWDER","A?rosol, Poudre",,,,,,
 40085,powder for oral/rectal suspension,56-62,"ORAL, RECTAL","Orale, Rectale",126,POWDER FOR SUSPENSION,Poudre pour suspension,,,,,,40085
 40019,suspension for injection,10-42-112,"INTRA-ARTICULAR, INTRASYNOVIAL, PERIARTICULAR","Intra-articulaire, Intrasynoviale, Périarticulaire",79,SUSPENSION,Suspension,,,,,,40019
 40001,solution for injection,7-111,"EPIDURAL, INFILTRATION","?pidurale, infiltration",134,SOLUTION,Solution,,,,,,
