@@ -1,0 +1,87 @@
+---
+title: "Generation of the Canadian Clinical Drug Data Set"
+author: "Daniel Buijs"
+date: "6/26/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE, cache=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+source("../src/ntp_generation.R")
+```
+
+## Source Data
+
+The generation of the Canadian Clinical Drug Data Set starts with the most current public data extract of the Drug Product Database (DPD). A summary of the current DDP active extract of `r dpdextractdate` follows:
+
+```{r dpdsummary, echo=FALSE, message=FALSE}
+library(knitr)
+library(dplyr)
+dpd_summary <- list(drug_codes = n_distinct(dpd_drug$DRUG_CODE),
+                    dins = n_distinct(dpd_drug$DRUG_CODE),
+                    routes = n_distinct(dpd_route$ROUTE_OF_ADMINISTRATION),
+                    forms = n_distinct(dpd_form$PHARMACEUTICAL_FORM),
+                    actives = n_distinct(dpd_ingred$INGREDIENT),
+                    active_codes = n_distinct(dpd_ingred$ACTIVE_INGREDIENT_CODE),
+                    units = n_distinct(dpd_ingred$STRENGTH_UNIT),
+                    companies = n_distinct(dpd_comp$COMPANY_NAME))
+
+```
+
+Number of Distinct | Number
+--------------| ------------------
+Drug Codes    | `r dpd_summary$drug_codes`
+Drug Identification Numbers      | `r dpd_summary$dins`
+Dosage Forms  | `r dpd_summary$forms`
+Routes of Administration  | `r dpd_summary$routes`
+Active Ingredients (Precise Ingredients)  | `r dpd_summary$actives`
+Active Ingredients (Ingredient Codes) | `r dpd_summary$active_codes`
+Strength Units  | `r dpd_summary$units`
+Companies | `r dpd_summary$companies`
+
+: Summary of DPD Marketed Products Extract of `r dpdextractdate`
+
+## Top 250
+
+As per the editorial guidelines (include link here), the scope of the Canadian Clinical Drug Data Set at this time is limited to Human products containing one the top 250 most dispensed therapeutic moeities in retail pharmacies in Canada (IMS citation here).
+
+```{r top250, echo = FALSE, cache = TRUE}
+library(dplyr)
+library(ggplot2)
+library(ggrepel)
+library(scales)
+rx_retail <- tbl(src_postgres("hcref", "shiny.hc.local", user = "hcreader", password = "canada1"), "rx_retail_usage") %>% select(ai_set, total) %>%
+  collect() %>%
+  mutate(cumsum = cumsum(as.numeric(total)),
+         pcum = cumsum/sum(as.numeric(total)),
+         num_ing = 1:nrow(.)) %>%
+  select(num_ing, pcum)
+
+rx_cplot <- rx_retail %>% 
+            ggplot(aes(x = num_ing, y = pcum)) +
+            geom_line() +
+            labs(title = "Proportion of Total Retail Prescriptions Dispensed in Canada 2010-2015", 
+                 x = "Number of Therapeutic Moeities", 
+                 y = "Proportion of Total") +
+            theme_classic() +
+            geom_vline(colour = "red", xintercept = 250) + 
+            geom_point(data = filter(rx_retail, num_ing == 250), colour = "red") +
+            geom_label_repel(data = filter(rx_retail, num_ing == 250),
+                             arrow = arrow(length = unit(0.02, 'npc')),
+                             nudge_x = 300,
+                             nudge_y = -0.25,
+                             aes(label = paste(percent(pcum), "covered by top 250 TMs")))
+
+rx_cplot
+            
+```
+
+```{r top250_Table, echo=FALSE}
+library(DT)
+top250_table <- tbl(src_postgres("hcref", "shiny.hc.local", user = "hcreader", password = "canada1"), "rx_retail_usage") %>% 
+  select(ai_set) %>%
+  collect() %>%
+  "["(1:250,)
+datatable(top250_table)
+```
+

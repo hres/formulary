@@ -139,7 +139,7 @@ cells_df <- rc %>%
 
 
 library(readxl)
-Special_Groupings <- read_excel("~/formulary/Special Groupings.xlsx")
+Special_Groupings <- read_excel("~/formulary/src/Special Groupings.xlsx")
 
 cdsa_dpd <- ccdd_mp_source %>% 
             left_join(schedule, copy = TRUE) %>%
@@ -149,7 +149,8 @@ cdsa_dpd <- ccdd_mp_source %>%
               "Schedule G (CDSA III)",
               "Narcotic (CDSA II)",
               "Targeted (CDSA IV)",
-              "Schedule G (CDSA I)"
+              "Schedule G (CDSA I)",
+              "Narcotic (CDSA II)"
             ), ccdd == TRUE) %>%
   select(extract, drug_code, drug_identification_number, schedule, tm_code, tm_formal_name) %>%
   left_join(ccdd_mp_table) %>%
@@ -207,7 +208,11 @@ ccdd_opioid_codes <- tm_reg_local %>%
                         8000349,
                         8000369)) %>%
   mutate_all(as.character) %>%
+<<<<<<< HEAD
   left_join(mp_ntp_tm_relationship_release_fix) %>%
+=======
+  left_join(mp_ntp_tm_relationship_rc) %>%
+>>>>>>> folder_reorg
   filter(!is.na(mp_code)) %>%
   {bind_rows(distinct(., mp_code, mp_formal_name, tm_formal_name) %>%
                rename(ccdd_code = mp_code,
@@ -229,14 +234,15 @@ ccdd_opioid_codes <- tm_reg_local %>%
   
 
 ccdd_special_groupings <- bind_rows(cdsa_dpd, ccdd_opioid_codes) %>%
-                        mutate(special_groupings_status = "active",
+                        mutate(special_groupings_status = "Active",
                                special_groupings_status_effective_time = "20170919",
                                policy_type = recode(policy, `Opioid Patient Info - Health Canada` = 500001,
                                                     `Narcotic (CDSA I)` = 500002,
                                                     `Schedule G (CDSA I)` = 500003,
                                                     `Schedule G (CDSA III)` = 500004,
                                                     `Schedule G (CDSA IV)` = 500005,
-                                                    `Targeted (CDSA IV)` = 500006)) %>%
+                                                    `Targeted (CDSA IV)` = 500006,
+                                                    `Narcotic (CDSA II)` = 500007)) %>%
                         select(ccdd_code,
                                ccdd_formal_name,
                                ccdd_type,
@@ -244,9 +250,15 @@ ccdd_special_groupings <- bind_rows(cdsa_dpd, ccdd_opioid_codes) %>%
                                policy_reference,
                                special_groupings_status,
                                special_groupings_status_effective_time) %>%
+<<<<<<< HEAD
   filter(ccdd_code %in% c(mp_ntp_tm_relationship_release_fix$tm_code, 
                           mp_ntp_tm_relationship_release_fix$ntp_code,
                           mp_ntp_tm_relationship_release_fix$mp_code))
+=======
+  filter(ccdd_code %in% c(mp_ntp_tm_relationship_rc$tm_code, 
+                          mp_ntp_tm_relationship_rc$ntp_code,
+                          mp_ntp_tm_relationship_rc$mp_code))
+>>>>>>> folder_reorg
 
 ccdd_dev <- src_postgres(dbname = "ccdd",
                          host = "rest.hc.local",

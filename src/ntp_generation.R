@@ -24,7 +24,11 @@ dpd <- src_postgres(dbname = "dpd",
                     port = 5432,
                     user = Sys.getenv("rest_user"),
                     password = Sys.getenv("rest_password"),
+<<<<<<< HEAD
                     options = "-c search_path=dpd_20180202")
+=======
+                    options = "-c search_path=dpd_20180501")
+>>>>>>> folder_reorg
 
 ccdd <- src_postgres(dbname = "ccdd",
                      host = "rest.hc.local",
@@ -59,20 +63,32 @@ ccdd_start_date <- "2017-07-04"
 
 # Get raw data from dpd database on rest.hc.local. Naming convention for schema based on extracts is dpd_[yyyymmdd] 
 
+<<<<<<< HEAD
 dpdextractdate <- "2018-02-02"
+=======
+dpdextractdate <- "2018-03-01"
+>>>>>>> folder_reorg
 
 # Text files required for generation process
 
 # Ingredient Stem
 
 #ingredient_stem_file <- fread("ing_stem_20170822.csv")[-1,-1]
+<<<<<<< HEAD
 ingredient_stem_file <- fread("Ingredient Stem/Ingredient_Stem_File_20180201.csv")
+=======
+ingredient_stem_file <- fread("~/formulary/src/Ingredient_Stem_File_master.csv")
+>>>>>>> folder_reorg
 
 
 
 # Unit of Presentation
 
+<<<<<<< HEAD
 packaging_file <- fread("Julie/Units of Presentation 20180205.csv", data.table = TRUE)
+=======
+packaging_file <- fread("~/formulary/src/Units_of_Presentation_master.csv", data.table = TRUE) %>% filter(!is.na(drug_code))
+>>>>>>> folder_reorg
 
 # Combination Products
 
@@ -89,7 +105,11 @@ packaging_file <- fread("Julie/Units of Presentation 20180205.csv", data.table =
 #library(readxl)
 #combination_products_file <- read_excel("Julie/Combination Products 20171004.xlsx") %>%
 
+<<<<<<< HEAD
  combination_products_file <- fread("Julie/Combination Products 20180205.csv",
+=======
+ combination_products_file <- fread("~/formulary/src/Combination Products_master.csv",
+>>>>>>> folder_reorg
                                     colClasses = c("integer", 
                                                   "character",
                                                   "character",
@@ -170,14 +190,23 @@ dpd_human_ccdd_products <- drug %>%
   filter(class == "Human") %>%
   left_join(dpd_first_market_date) %>%
   left_join(dpd_current_status) %>%
+<<<<<<< HEAD
+=======
+  collect() %>%
+>>>>>>> folder_reorg
   filter(current_status == "MARKETED"  |
            (current_status == "DORMANT" & current_status_date > ccdd_start_date)|
-           current_status == "CANCELLED POST MARKET" & current_status_date > ccdd_start_date)
+           current_status == "CANCELLED POST MARKET" & current_status_date > ccdd_start_date|
+# Needs to be coerced to dates
+                      current_status == "CANCELLED POST MARKET" & lubridate::dmy(expiration_date) > lubridate::ymd(ccdd_start_date)|
+#temporary fudge for previously published DINs
+                      drug_identification_number %in% c("00313580", "00578487", "00870943", "02245686", "02248454", "02240341", "02312530", "02312549",
+                                                         "02316544", "02324326", "02324334", "00636533", "00519367", "02229760", "02229761"))
 
 # Taking only the ingredients that are used in the ccdd products.
 # Left-join Ingredient_stem file when available. 
 dpd_ccdd_ingredient_names <- ing %>%
-  semi_join(dpd_human_ccdd_products) %>%
+  semi_join(dpd_human_ccdd_products, copy = TRUE) %>%
   distinct(ingredient, active_ingredient_code) %>%
   collect() %>%
   select(dpd_ingredient = ingredient, everything()) %>%
@@ -249,21 +278,51 @@ ntp_dosage_form_map <- collect(ccdd_ntp_dosage_forms)
 # with ingredients flagged in the ingredient stem table 
 
 #This is an intermdediate (QA) file
-dpd_ccdd_form_route_combinations <- dpd_human_ccdd_products %>% 
+dpd_ccdd_form_route_combinations_products <- dpd_human_ccdd_products %>%
+  {copy_to(dpd, ., temporary = TRUE, overwrite = TRUE)} %>%
   left_join(ing) %>% 
   select(extract, drug_code, dpd_ingredient = ingredient) %>% 
   left_join(form) %>% 
   left_join(route) %>% 
-  collect() %>% 
+  collect() %>%
   left_join(dpd_ccdd_ingredient_names) %>% 
-  filter(ccdd == "Y") %>% 
-  distinct(pharmaceutical_form, route_of_administration)
+  arrange(route_of_administration, pharmaceutical_form, ing_stem) %>%
+  group_by(drug_code) %>%
+  summarize(all_ccdd = all(ccdd == "Y"),
+            any_ccdd = any(ccdd == "Y"),
+            tm_formal_name = unique(ing_stem) %>% paste(collapse = " and "),
+            route_of_administration_code = unique(route_of_administration_code) %>% 
+             paste(collapse = "|"),
+            route_of_administration = unique(route_of_administration) %>%
+              paste(collapse = ", "),
+            route_of_administration_f = unique(route_of_administration_f) %>%
+              paste(collapse = ", "),
+            pharm_form_code = as.character(pharm_form_code) %>% unique() %>%
+              paste(collapse = "|"),
+            pharmaceutical_form = unique(pharmaceutical_form) %>%
+             paste(collapse = ", "),
+            pharmaceutical_form_f = unique(pharmaceutical_form_f) %>%
+              paste(collapse = ", ")) %>%
+  left_join(drug %>% select(extract, drug_code), copy = TRUE)
+
+dpd_ccdd_form_route_combinations_summary <- dpd_ccdd_form_route_combinations_products %>%
+                                      group_by(route_of_administration_code, pharm_form_code) %>%
+                                      summarize(route_of_administration = first(route_of_administration),
+                                                pharmaceutical_form = first(pharmaceutical_form),
+                                                n_human_din = n_distinct(drug_code),
+                                                n_any_ccdd = sum(any_ccdd, na.rm = TRUE),
+                                                n_all_ccdd = sum(all_ccdd, na.rm = TRUE),
+                                                n_tm = n_distinct(tm_formal_name)) %>%
+                                      full_join(ntp_dosage_form_map %>% 
+                                                  mutate(route_of_administration_code = str_replace_all(route_of_administration_code, "-", "\\|"),
+                                                         pharm_form_code = str_replace_all(pharm_form_code, "-", "\\|"))) %>%
+                                      select(-audit_id, -validated, -validated_by, -date_validated, -ntp_dosage_form_id)
 
 # Rows from the dpd_ccdd combos that are not in the ntp_dosage_form_route_map
 # This file should be empty
 
 # This is a QA file
-missing_form_routes <- anti_join(dpd_ccdd_form_route_combinations, ntp_dosage_form_map)
+missing_form_routes <- filter(dpd_ccdd_form_route_combinations_summary, is.na(ntp_dosage_form), n_all_ccdd > 0)
 
 
 # The table used for string manipulation of INGREDIENT and strength/dosage values.
@@ -273,7 +332,7 @@ missing_form_routes <- anti_join(dpd_ccdd_form_route_combinations, ntp_dosage_fo
 # 
 
 ccdd_drug_ingredients_raw <- ing %>%
-                             semi_join(dpd_human_ccdd_products) %>%
+                             semi_join(dpd_human_ccdd_products, copy = TRUE) %>%
                              select(dpd_ingredient = ingredient, everything()) %>%
                              collect() %>%
                              left_join(dpd_ccdd_ingredient_names)
@@ -329,12 +388,12 @@ ccdd_drug_ingredients_raw <- ccdd_drug_ingredients_raw %>%
 
 # This is an important intermediate
 ccdd_packaging_raw <- packaging_file %>%
-                      mutate(uop_suffix = ifelse(calculation == "N", 
+                      mutate(uop_suffix = ifelse(uop_size_insert == "Y", 
                                                  paste(uop_size,
                                                        uop_unit_of_measure,
                                                        unit_of_presentation),
                                                  NA),
-                             uop_suffix = ifelse(calculation == "Y", 
+                             uop_suffix = ifelse(uop_size_insert == "N", 
                                                  unit_of_presentation,
                                                  uop_suffix)) %>%
                       left_join(ccdd_drug_ingredients_raw %>%
@@ -367,7 +426,7 @@ ccdd_packaging_raw <- packaging_file %>%
                                                             sprintf("%s %s", ing_stem %>% tolower(),
                                                                     strength_w_uop_if_exists %>% tolower() %>% str_replace_all("ml", "mL"))),
                                                           mp_ingredient_name)) %>%
-                       group_by(drug_code, unit_of_presentation, uop_size, uop_unit_of_measure, uop_suffix, calculation) %>%
+                       group_by(drug_code, unit_of_presentation, uop_size, uop_unit_of_measure, uop_suffix, calculation, uop_size_insert) %>%
                        summarize(ntp_ing_formal_name_uop = paste(ntp_ingredient_name, collapse = " and "),
                                  mp_ing_formal_name_uop = paste(mp_ingredient_name, collapse = " and "))
 
@@ -401,7 +460,7 @@ ccdd_mp_source_raw <- dpd_human_ccdd_products %>%
                        left_join(comp %>% select(extract,
                                                  drug_code,
                                                  company_code,
-                                                 company_name)) %>%
+                                                 company_name), copy = TRUE) %>%
   left_join(form %>% 
               select(extract,
                      drug_code,
@@ -468,18 +527,32 @@ ccdd_mp_source <- ccdd_mp_source_raw %>%
          mp_status_effective_time = if_else(current_status == "MARKETED", 
                                             first_market_date,
                                             current_status_date),
-         mp_status = case_when(current_status == "MARKETED" ~ "active",
-                               current_status == "CANCELLED POST MARKET" & expiration_date > dpdextractdate ~ "active",
-                               TRUE ~ "inactive")) %T>%
+         mp_status = case_when(current_status == "MARKETED" ~ "Active",
+                               current_status == "CANCELLED POST MARKET" & lubridate::dmy(expiration_date) > lubridate::ymd(dpdextractdate) ~ "Active",
+                               TRUE ~ "Inactive")) %T>%
          {ccdd_pseudodins <<- group_by(., drug_identification_number) %>% 
                          filter(n() > 1) %>%
                          ungroup() %>%
                          distinct(., drug_code, mp_formal_name, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
+<<<<<<< HEAD
                          left_join(mp_full_release_20180123 %>% select(mp_code, mp_formal_name)) %>%
                          mutate(mp_code = if_else(is.na(mp_code), 1:n() + 700521, as.numeric(mp_code))) %>%
+=======
+                         left_join(ccdd_pseudodins_reg %>% select(mp_code, mp_formal_name), copy = TRUE) %>%
+         
+         #                mutate(mp_code = if_else(is.na(mp_code), 1:n() + 700521, as.numeric(mp_code))) %>%
+>>>>>>> folder_reorg
            select(mp_code, drug_code, drug_identification_number, mp_formal_name, tm_code, ccdd) %>%
            as.data.table() %>%
-           setkey(mp_formal_name)}
+           setkey(mp_formal_name)} %>%
+           group_by(mp_formal_name) %T>%
+           {mp_names_with_descriptor <<- filter(., n() > 1) %>%
+                                         ungroup() %>%
+                                         mutate(mp_formal_name = str_replace(mp_formal_name, brand_name, str_trim(paste(brand_name, descriptor, sep = " "))))} %>%
+           filter(n() == 1) %>%
+           ungroup() %>%
+           bind_rows(mp_names_with_descriptor)
+          
   
 
 ccdd_pseudodins_top250 <- ccdd_pseudodins %>%
@@ -564,8 +637,8 @@ ccdd_ntp_table <- ccdd_mp_source %>%
                    n_mp = n_distinct(drug_identification_number),
                    greater_than_5_AIs = any(greater_than_5_AIs),
                    #din_list = DRUG_IDENTIFICATION_NUMBER %>% unique() %>% paste(collapse = "!"),
-                   ntp_status = if_else(all(mp_status == "inactive"), "inactive", "active"),
-                   ntp_status_effective_time = if_else(ntp_status == "inactive", 
+                   ntp_status = if_else(all(mp_status == "Inactive"), "Inactive", "Active"),
+                   ntp_status_effective_time = if_else(ntp_status == "Inactive", 
                                                        max(mp_status_effective_time),
                                                        min(first_market_date)),
                    ntp_type = first(ntp_type)) %>%
@@ -604,8 +677,8 @@ ccdd_tm_table <- ccdd_mp_source %>%
                    greater_than_5_AIs = any(greater_than_5_AIs),
                    n_dins = n_distinct(drug_identification_number),
                    n_ntps = n_distinct(ntp_dosage_form), #this isn't an accurate count 
-                   tm_status = if_else(all(mp_status == "inactive"), "inactive", "active"),
-                   tm_status_effective_time = if_else(tm_status == "inactive", 
+                   tm_status = if_else(all(mp_status == "Inactive"), "Inactive", "Active"),
+                   tm_status_effective_time = if_else(tm_status == "Inactive", 
                                                       max(mp_status_effective_time),
                                                       min(first_market_date))) %>%
   ungroup() %>%
@@ -655,14 +728,26 @@ ccdd_mapping_table <- ccdd_mp_source %>%
 # http://www.fda.gov/downloads/ForIndustry/DataStandards/StructuredProductLabeling/UCM362965.zip
 # These are the final output tables filtered for CCDD == TRUE
 ccdd_mp_table_release <- ccdd_mp_table %>%
+<<<<<<< HEAD
     filter(ccdd == TRUE, greater_than_5_AIs == FALSE) %>% 
+=======
+    filter(ccdd == TRUE, greater_than_5_AIs == FALSE) %>%
+    mutate(mp_type = if_else(str_detect(mp_code, "^7"), "CCDD", "DIN")) %>%
+>>>>>>> folder_reorg
   #ccdd_mp_table_release2 <- ccdd_mp_table2 %>%
   select(mp_code, 
          mp_formal_name, 
          mp_en_description, 
          mp_fr_description, 
          mp_status, 
+<<<<<<< HEAD
          mp_status_effective_time) %>% mutate_all(as.character)
+=======
+         mp_status_effective_time,
+         mp_type,
+         Health_Canada_identifier = drug_identification_number,
+         Health_Canada_product_name = brand_name) %>% mutate_all(as.character)
+>>>>>>> folder_reorg
 
 ccdd_tm_table_release <- ccdd_tm_table %>%
     filter(ccdd == TRUE, greater_than_5_AIs == FALSE) %>% 

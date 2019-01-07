@@ -1,0 +1,72 @@
+---
+title: "NTP Dosage Forms"
+author: "Daniel Buijs"
+date: "11/8/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(dplyr)
+library(dtplyr)
+library(dbplyr)
+library(data.table)
+library(lubridate)
+library(stringr)
+library(magrittr)
+library(testthat)
+library(purrr)
+library(tibble)
+
+# Check for database connections. The connection credentials are provided by environment variables (not included in git repo)
+# Important for updating CCDD but not necessary for the first generation
+dpd <- src_postgres(dbname = "dpd",
+                    host = "rest.hc.local",
+                    port = 5432,
+                    user = Sys.getenv("rest_user"),
+                    password = Sys.getenv("rest_password"),
+                    options = "-c search_path=dpd_20171103")
+
+drug <- tbl(dpd, "drug_product")
+ing <- tbl(dpd, "active_ingredient")
+comp <- tbl(dpd, "companies")
+form <- tbl(dpd, "pharmaceutical_form")
+route <- tbl(dpd, "route")
+schedule <- tbl(dpd, "schedule")
+status <- tbl(dpd, "status")
+ther <- tbl(dpd, "therapeutic_class")
+packaging <- tbl(dpd, "packaging")
+
+ntp_form_route_file <- fread("Julie/NTP Dosage Form Transform 20170904.txt") %>% 
+                       as.tibble() %>%
+                       select_all(funs(tolower)) %>%
+                       rename(dpd_pharmaceutical_form = `dpd pharmaceutical_form`)
+
+# Manual override for NAs
+ntp_form_route_file <- ntp_form_route_file %>%
+                        add_row(dpd_route_of_administration = "INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION",
+                                dpd_pharmaceutical_form = "LIQUID",
+                                ntp_dosage_form = "solution for injection")
+
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

@@ -1,0 +1,153 @@
+tm_code,tm_formal_name,changes
+8001044,acetaminophen,ADDED
+8000837,acetaminophen and caffeine,ADDED
+8000828,acetaminophen and codeine and doxylamine,ADDED
+8000956,acetaminophen and doxylamine and phenylephrine,ADDED
+8001035,acetaminophen and guaifenesin and phenylephrine,ADDED
+8000843,acetaminophen and phenylephrine,ADDED
+8000795,acetylsalicylic acid,ADDED
+8000870,acetylsalicylic acid and caffeine,ADDED
+8000806,acetylsalicylic acid and caffeine and codeine,ADDED
+8001003,acyclovir and hydrocortisone,ADDED
+8000817,alcohol anhydrous,ADDED
+8000946,alcohol anhydrous and benzalkonium,ADDED
+8000912,alcohol anhydrous and chlorhexidine,ADDED
+8000779,alcohol anhydrous and doxylamine and etafedrin and hydrocodone and sodium citrate,DELETED
+NA,almotriptan,ADDED
+8000985,amlodipine and telmisartan,ADDED
+8000907,amoxicillin and clarithromycin and lansoprazole,ADDED
+8000941,amphetamine and dextroamphetamine,ADDED
+8001068,ampicillin,ADDED
+NA,anastrozole,ADDED
+NA,asparaginase,ADDED
+NA,avelumab,ADDED
+8000224,azithromycin,ADDED
+8000796,benzalkonium,ADDED
+8000829,benzoyl peroxide,ADDED
+8000924,benzoyl peroxide and clindamycin,ADDED
+8000897,benzoyl peroxide and erythromycin,ADDED
+8000846,betamethasone dipropionate and clotrimazole,ADDED
+8000792,betamethasone valerate,ADDED
+8000800,bisacodyl,ADDED
+NA,brimonidine,ADDED
+NA,brimonidine and brinzolamide,ADDED
+NA,brimonidine and timolol,ADDED
+8001100,brinzolamide,DELETED
+NA,brinzolamide,ADDED
+8001099,brinzolamide and timolol,DELETED
+NA,brinzolamide and timolol,ADDED
+8000926,brompheniramine and codeine and guaifenesin and phenylephrine,ADDED
+8000925,brompheniramine and codeine and phenylephrine,ADDED
+8000922,brompheniramine and phenylephrine,ADDED
+NA,canagliflozin,ADDED
+8001016,canagliflozin and metformin,ADDED
+8001057,cefadroxil,ADDED
+8001076,cefuroxime,ADDED
+NA,chloral hydrate,ADDED
+NA,chlorambucil,ADDED
+8000809,chlorhexidine,ADDED
+8000159,ciprofloxacin,ADDED
+8000036,clindamycin,ADDED
+8000978,clotrimazole and fluconazole,ADDED
+8001036,conjugated estrogens and medroxyprogesterone,ADDED
+8001077,cromolyn,ADDED
+8000841,cyproterone,ADDED
+NA,cysteamine,ADDED
+NA,darifenacin,ADDED
+NA,defibrotide,ADDED
+8000028,dexamethasone (base),ADDED
+8000848,dexamethasone (base) and tobramycin,ADDED
+8000114,dexamethasone phosphate,ADDED
+8000137,dexamethasone sodium phosphate,ADDED
+NA,dexmedetomidine,ADDED
+8000898,dibucaine and esculin and framycetin and hydrocortisone,ADDED
+8001045,docusate,ADDED
+8000811,docusate and sennosides,ADDED
+8000899,dorzolamide,ADDED
+8001033,doxylamine,ADDED
+8000970,drospirenone and estradiol,ADDED
+NA,durvalumab,ADDED
+8000988,dutasteride and tamsulosin,ADDED
+NA,eletriptan,ADDED
+8000118,enalapril,ADDED
+8000849,enalapril and hydrochlorothiazide,ADDED
+8001078,ephedrine,ADDED
+8000003,epinephrine,ADDED
+8000969,estradiol and levonorgestrel,ADDED
+8000917,estradiol and norethindrone,ADDED
+NA,exemestane,ADDED
+NA,fesoterodine,ADDED
+8000850,fluconazole,ADDED
+8001081,fluticasone and vilanterol,ADDED
+8000902,formoterol,ADDED
+8001030,framycetin,ADDED
+8000908,fusidic acid and hydrocortisone,ADDED
+NA,glecaprevir and pibrentasvir,ADDED
+8001082,glycopyrronium,ADDED
+8001083,glycopyrronium and indacaterol,ADDED
+NA,granisetron,ADDED
+8000821,guaifenesin,ADDED
+8000826,guaifenesin and oxtriphylline,ADDED
+NA,guselkumab,ADDED
+NA,haptens,ADDED
+8000301,hydrochlorothiazide and telmisartan,ADDED
+8000106,hydromorphone,ADDED
+NA,ibutilide,ADDED
+8001084,indacaterol,ADDED
+NA,insulin degludec,ADDED
+8000202,ipratropium,ADDED
+8000903,ipratropium and salbutamol,ADDED
+NA,irinotecan,ADDED
+8000933,latanoprost and timolol,ADDED
+NA,letermovir,ADDED
+NA,letrozole,ADDED
+8000947,levofloxacin,ADDED
+8000915,levonorgestrel,ADDED
+NA,linaclotide,ADDED
+NA,liraglutide,ADDED
+NA,lixisenatide,ADDED
+8001066,mepolizumab,ADDED
+8001001,metformin and saxagliptin,ADDED
+8000217,methotrexate,ADDED
+NA,methotrimeprazine,ADDED
+8000814,metronidazole and nystatin,ADDED
+NA,midazolam,ADDED
+NA,mirabegron,ADDED
+8000921,misoprostol,ADDED
+8000071,morphine,ADDED
+8000866,mupirocin,ADDED
+NA,nabilone,ADDED
+8000891,naloxone,ADDED
+NA,naratriptan,ADDED
+NA,nitrazepam,ADDED
+NA,nusinersen,ADDED
+NA,ocrelizumab,ADDED
+NA,olaratumab,ADDED
+8001085,olodaterol and tiotropium,ADDED
+8001060,omalizumab,ADDED
+NA,ondansetron,ADDED
+8001086,orciprenaline,ADDED
+8001069,oxtriphylline,ADDED
+NA,ozenoxacin,ADDED
+8000799,phenobarbital,ADDED
+8000823,phenylephrine,ADDED
+8001067,reslizumab,ADDED
+8000132,salbutamol,ADDED
+8000905,salmeterol,ADDED
+NA,silodosin,ADDED
+NA,tamoxifen,ADDED
+8001088,terbutaline,ADDED
+8000006,testosterone,ADDED
+NA,theophylline,ADDED
+NA,thiotepa,ADDED
+8000955,timolol and travoprost,ADDED
+8000827,tobramycin,ADDED
+NA,triazolam,ADDED
+NA,trospium,ADDED
+8001089,umeclidinium,ADDED
+8001090,umeclidinium and vilanterol,ADDED
+8000072,valproic acid (valproate),ADDED
+NA,vandetanib,ADDED
+8001053,zafirlukast,ADDED
+NA,zolmitriptan,ADDED
+NA,zolpidem,ADDED
