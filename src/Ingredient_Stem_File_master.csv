@@ -60,7 +60,7 @@ Y,ALPRAZOLAM,ALPRAZOLAM,alprazolam,FALSE,alprazolam,Released,,58
 Y,,ALPROSTADIL,alprostadil,FALSE,alprostadil,Released,,59
 Y,,ALTEPLASE,alteplase,FALSE,alteplase,Issue - in QA,,60
 Y,,ALUMINUM CHLORIDE,aluminum chloride,FALSE,aluminum chloride,,,61
-Y,,ALUMINUM CHLOROHYDRATE,aluminum chlorohydrate,TRUE,aluminum chlorohydrate,,,62
+Y,,ALUMINUM CHLOROHYDRATE,aluminum chlorohydrate,TRUE,aluminum chlorohydrate,Released,Combination only,62
 Y,,ALUMINUM HYDROXIDE,aluminum hydroxide,FALSE,aluminum hydroxide,,,63
 Y,,ALUMINUM HYDROXIDE (DRIED ALUMINUM HYDROXIDE GEL),aluminum hydroxide,FALSE,aluminum hydroxide (dried aluminum hydroxide gel),,,64
 Y,,ALUMINUM HYDROXIDE-MAGNESIUM CARBONATE-CO DRIED GEL,aluminum hydroxide-magnesium carbonate-co dried gel,FALSE,aluminum hydroxide-magnesium carbonate-co dried gel,,,65
@@ -179,7 +179,7 @@ Y,,BENZYDAMINE HYDROCHLORIDE,benzydamine,FALSE,benzydamine hydrochloride,Release
 Y,,BEPOTASTINE BESILATE,bepotastine,FALSE,bepotastine besilate,Released,,178
 Y,,BERACTANT,beractant,FALSE,beractant,Released,,179
 Y,,BESIFLOXACIN,besifloxacin,FALSE,besifloxacin,No live products,Now besifloxacin (besifloxacin hydrochloride) in DPD. New row created.,180
-Y,,BESIFLOXACIN (BESIFLOXACIN HYDROCHLORIDE),besifloxacin,FALSE,besifloxacin (besifloxacin hydrochloride),To Do,,1891
+Y,,BESIFLOXACIN (BESIFLOXACIN HYDROCHLORIDE),besifloxacin,FALSE,besifloxacin (besifloxacin hydrochloride),Released,,1891
 ,,BETA-CAROTENE,beta-carotene,FALSE,beta-carotene,No live products,No live products in scope. Is a pro-vitamin A.  In NPN?,181
 Y,BETAHISTINE,BETAHISTINE HYDROCHLORIDE,betahistine,FALSE,betahistine hydrochloride,Released,,182
 Y,,BETAINE,betaine,FALSE,betaine,Issue - in QA,,183
@@ -1271,7 +1271,7 @@ Y,,PALIPERIDONE,paliperidone,FALSE,paliperidone,Released,,1267
 Y,,PALIPERIDONE (Paliperidone Palmitate),paliperidone,FALSE,paliperidone (paliperidone palmitate),Released,,1268
 Y,,PALIVIZUMAB,palivizumab,FALSE,palivizumab,To Do,December,1269
 Y,,PALONOSETRON (PALONOSETRON HYDROCHLORIDE),palonosetron,FALSE,palonosetron (palonosetron hydrochloride),Released,,1270
-Y,,PAMABROM,pamabrom,FALSE,pamabrom,To Do,December,1271
+Y,,PAMABROM,pamabrom,FALSE,pamabrom,Released,Combination only,1271
 Y,,PAMIDRONATE DISODIUM,pamidronate,FALSE,pamidronate disodium,Released,,1272
 Y,,PANCURONIUM BROMIDE,pancuronium,FALSE,pancuronium bromide,No live products,,1273
 Y,,PANITUMUMAB,panitumumab,FALSE,panitumumab,To Do,December,1274
