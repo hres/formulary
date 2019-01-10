@@ -94,14 +94,14 @@ Y,,ANASTROZOLE,anastrozole,FALSE,anastrozole,Released,,92
 Y,,ANETHOLE TRITHIONE,anethole trithione,FALSE,anethole trithione,Released,,93
 Y,,ANIDULAFUNGIN,anidulafungin,FALSE,anidulafungin,Released,,94
 Y,,ANTAZOLINE PHOSPHATE,antazoline,FALSE,antazoline phosphate,Released,,95
-,,ANTI-D (RH) IMMUNOGLOBULIN (HUMAN),anti-d (rh) immunoglobulin (human),FALSE,anti-d (rh) immunoglobulin (human),Haematology,,96
-,,ANTIHEMOPHILIC FACTOR (HUMAN),antihemophilic factor (human),FALSE,antihemophilic factor (human),Haematology,,97
-,,"Antihemophilic Factor (Recombinant BDD), FC Fusion Protein",antihemophilic factor (recombinant BDD) FC fusion protein,FALSE,antihemophilic factor (recombinant BDD) FC fusion protein,Haematology,,98
-,,ANTIHEMOPHILIC FACTOR (RECOMBINANT),antihemophilic factor (recombinant),FALSE,antihemophilic factor (recombinant),Haematology,,99
-,,ANTIHEMOPHILIC FACTOR (RECOMBINANT) PORCINE SEQUENCE,antihemophilic factor (recombinant) porcine sequence,FALSE,antihemophilic factor (recombinant) porcine sequence,Haematology,,100
-,,ANTI-INHIBITOR COAGULANT COMPLEX,anti-inhibitor coagulant complex,FALSE,anti-inhibitor coagulant complex,Haematology,,101
+,,ANTI-D (RH) IMMUNOGLOBULIN (HUMAN),anti-d (rh) immunoglobulin (human),FALSE,anti-d (rh) immunoglobulin (human),Immunologic,,96
+Y,,ANTIHEMOPHILIC FACTOR (HUMAN),antihemophilic factor (human),FALSE,antihemophilic factor (human),,,97
+Y,,"Antihemophilic Factor (Recombinant BDD), FC Fusion Protein",antihemophilic factor (recombinant BDD) FC fusion protein,FALSE,antihemophilic factor (recombinant BDD) FC fusion protein,,,98
+Y,,ANTIHEMOPHILIC FACTOR (RECOMBINANT),antihemophilic factor (recombinant),FALSE,antihemophilic factor (recombinant),,,99
+Y,,ANTIHEMOPHILIC FACTOR (RECOMBINANT) PORCINE SEQUENCE,antihemophilic factor (recombinant) porcine sequence,FALSE,antihemophilic factor (recombinant) porcine sequence,,,100
+Y,,ANTI-INHIBITOR COAGULANT COMPLEX,anti-inhibitor coagulant complex,FALSE,anti-inhibitor coagulant complex,,,101
 Y,,ANTIPYRINE,antipyrine,FALSE,antipyrine,Released,,102
-,,ANTITHROMBIN III (HUMAN),antithrombin iii (human),FALSE,antithrombin iii (human),Haematology,,103
+Y,,ANTITHROMBIN III (HUMAN),antithrombin iii (human),FALSE,antithrombin iii (human),,,103
 Y,,ANTI-THYMOCYTE GLOBULIN (RABBIT),anti-thymocyte globulin (rabbit),FALSE,anti-thymocyte globulin (rabbit),To Do,December,104
 Y,,APALUTAMIDE,apalutamide,FALSE,apalutamide,Released,,105
 ,,APIS MELLIFERA VENOM PROTEIN EXTRACT,apis mellifera venom protein extract,FALSE,apis mellifera venom protein extract,Antidote,,106
@@ -240,7 +240,7 @@ Y,,BUTALBITAL,butalbital,FALSE,butalbital,Released,Combination only,236
 Y,,BUTAMBEN,butamben,FALSE,butamben,To Do,December,237
 Y,,BUTANEDIOL,butanediol,FALSE,butanediol,To Do,December Combination antiseptic,238
 Y,,BUTORPHANOL TARTRATE,butorphanol,FALSE,butorphanol tartrate,Released,,239
-,,C1 Esterase Inhibitor (Human),c1 esterase inhibitor (human),FALSE,c1 esterase inhibitor (human),Haematology,,240
+Y,,C1 Esterase Inhibitor (Human),c1 esterase inhibitor (human),FALSE,c1 esterase inhibitor (human),,,240
 Y,,CABAZITAXEL,cabazitaxel,FALSE,cabazitaxel,Released,,241
 Y,,CABERGOLINE,cabergoline,FALSE,cabergoline,Released,,242
 Y,,CABOZANTINIB (CABOZANTINIB MALATE),cabozantinib,FALSE,cabozantinib (cabozantinib malate),Released,December; added to file 20181202,243
@@ -388,12 +388,12 @@ Y,CLOTRIMAZOLE,CLOTRIMAZOLE,clotrimazole,FALSE,clotrimazole,Released,,384
 Y,,CLOXACILLIN (CLOXACILLIN SODIUM),cloxacillin,FALSE,cloxacillin (cloxacillin sodium),Released,,385
 Y,,CLOXACILLIN SODIUM,cloxacillin,FALSE,cloxacillin sodium,Released,,386
 Y,CLOZAPINE,CLOZAPINE,clozapine,FALSE,clozapine,Released,,387
-,,COAGULATION FACTOR II (HUMAN),coagulation factor ii (human),FALSE,coagulation factor ii (human),Haematology,,388
-,,COAGULATION FACTOR IX (HUMAN),coagulation factor ix (human),FALSE,coagulation factor ix (human),Haematology,,389
-,,COAGULATION FACTOR IX (RECOMBINANT),coagulation factor ix (recombinant),FALSE,coagulation factor ix (recombinant),Haematology,,390
-,,"COAGULATION FACTOR IX (RECOMBINANT), PEGYLATED","coagulation factor ix (recombinant), pegylated",FALSE,"coagulation factor ix (recombinant), pegylated",Haematology,,391
-,,COAGULATION FACTOR VII (HUMAN),coagulation factor vii (human),FALSE,coagulation factor vii (human),Haematology,,392
-,,COAGULATION FACTOR X (HUMAN),coagulation factor x (human),FALSE,coagulation factor x (human),Haematology,,393
+Y,,COAGULATION FACTOR II (HUMAN),coagulation factor ii (human),FALSE,coagulation factor ii (human),,,388
+Y,,COAGULATION FACTOR IX (HUMAN),coagulation factor ix (human),FALSE,coagulation factor ix (human),,,389
+Y,,COAGULATION FACTOR IX (RECOMBINANT),coagulation factor ix (recombinant),FALSE,coagulation factor ix (recombinant),,,390
+Y,,"COAGULATION FACTOR IX (RECOMBINANT), PEGYLATED","coagulation factor ix (recombinant), pegylated",FALSE,"coagulation factor ix (recombinant), pegylated",,,391
+Y,,COAGULATION FACTOR VII (HUMAN),coagulation factor vii (human),FALSE,coagulation factor vii (human),,,392
+Y,,COAGULATION FACTOR X (HUMAN),coagulation factor x (human),FALSE,coagulation factor x (human),,,393
 Y,,COAL TAR,coal tar,FALSE,coal tar,To Do,January,394
 Y,,COBICISTAT,cobicistat,FALSE,cobicistat,Released,,395
 Y,,COBIMETINIB (COBIMETINIB FUMARATE),cobimetinib,FALSE,cobimetinib (cobimetinib fumarate),Released,,396
@@ -1199,7 +1199,7 @@ Y,NITROGLYCERIN,NITROGLYCERIN,nitroglycerin,FALSE,nitroglycerin,Released,,1194
 Y,,NIVOLUMAB,nivolumab,FALSE,nivolumab,Released,,1196
 Y,,NIZATIDINE,nizatidine,FALSE,nizatidine,Released,,1197
 ,,NON POLLEN,non pollen,FALSE,non pollen,Allergen,,1198
-Y,,Nonacog Gamma,nonacog gamma,FALSE,nonacog gamma,Haematology,,1199
+Y,,Nonacog Gamma,nonacog gamma,FALSE,nonacog gamma,,,1199
 Y,NORELGESTROMIN,NORELGESTROMIN,norelgestromin,FALSE,norelgestromin,Released,Combination only,1200
 Y,,NOREPINEPHRINE (NOREPINEPHRINE BITARTRATE),norepinephrine,FALSE,norepinephrine (norepinephrine bitartrate),Released,,1201
 Y,NORETHINDRONE,NORETHINDRONE,norethindrone,FALSE,norethindrone,Released,,1202
@@ -1453,8 +1453,8 @@ Y,,PROPYLENE GLYCOL,propylene glycol,FALSE,propylene glycol,To Do,Artificial tea
 Y,,PROPYLTHIOURACIL,propylthiouracil,FALSE,propylthiouracil,Released,,1450
 Y,,PROTAMINE SULFATE,protamine,FALSE,protamine sulfate,To Do,December,1451
 Y,,PROTEASE,pancrelipase,FALSE,protease,To Do,Pancreatin products - Pancrelipase refers to the combination of amylase and lipase and protease and labeled as such in Canada. Currently all marketed in-scope protease products in dpd are truly pancrelipase - there is one 8 ingredient product at Approved but this would not be in scope,1452
-,,PROTEIN C,protein c,FALSE,protein c,Haematology,,1453
-,,PROTEIN S,protein s,FALSE,protein s,Haematology,,1454
+Y,,PROTEIN C,protein c,FALSE,protein c,Haematology,,1453
+Y,,PROTEIN S,protein s,FALSE,protein s,Haematology,,1454
 Y,,PROXYMETACAINE HYDROCHLORIDE,proxymetacaine,FALSE,proxymetacaine hydrochloride,Issue - in QA,,1455
 Y,,Prucalopride (Prucalopride Succinate),prucalopride,FALSE,prucalopride (prucalopride succinate),Released,,1456
 Y,,PSEUDOEPHEDRINE HYDROCHLORIDE,pseudoephedrine,FALSE,pseudoephedrine hydrochloride,Issue - in QA,Combinations,1457
@@ -1595,8 +1595,8 @@ Y,,SODIUM GLYCEROPHOSPHATE,sodium glycerophosphate,FALSE,sodium glycerophosphate
 Y,,SODIUM IODIDE,sodium iodide,FALSE,sodium iodide,,,1592
 ,,SODIUM IOXITALAMATE,sodium ioxitalamate,FALSE,sodium ioxitalamate,Contrast media,,1593
 Y,,SODIUM LACTATE,sodium lactate,FALSE,sodium lactate,,,1594
-,,SODIUM LAURYL SULFOACETATE,sodium lauryl sulfoacetate,FALSE,sodium lauryl sulfoacetate,,,1595
-,,SODIUM NITRITE,sodium nitrite,FALSE,sodium nitrite,,,1596
+Y,,SODIUM LAURYL SULFOACETATE,sodium lauryl sulfoacetate,FALSE,sodium lauryl sulfoacetate,,,1595
+Y,,SODIUM NITRITE,sodium nitrite,FALSE,sodium nitrite,,,1596
 Y,,SODIUM NITROPRUSSIDE,nitroprusside,FALSE,sodium nitroprusside,Released,,1597
 Y,,SODIUM OXYBATE,sodium oxybate,FALSE,sodium oxybate,Released,,1598
 Y,,Sodium phenylbutyrate,phenylbutyric acid,FALSE,sodium phenylbutyrate,Released,,1599
@@ -1717,7 +1717,7 @@ Y,,THIOGUANINE,thioguanine,FALSE,thioguanine,Released,,1711
 Y,,THIOTEPA,thiotepa,FALSE,thiotepa,Released,,1714
 ,,THIOTHIXENE,thiothixene,FALSE,thiothixene,No live products,,1715
 ,,THREONINE,threonine,FALSE,threonine,TPN,,1716
-,,THROMBIN (HUMAN),thrombin (human),FALSE,thrombin (human),Haematology,,1717
+Y,,THROMBIN (HUMAN),thrombin (human),FALSE,thrombin (human),Haematology,,1717
 ,,THYMOL,thymol,FALSE,thymol,No live products,,1718
 Y,,THYROID,thyroid,FALSE,thyroid,Released,,1719
 Y,,THYROTROPIN ALFA,thyrotropin alfa,FALSE,thyrotropin alfa,Issue - in QA,,1720
@@ -1856,7 +1856,7 @@ Y,,VITAMIN E,vitamin E,FALSE,vitamin E,,,1852
 Y,,VITAMIN E (D-ALPHA TOCOPHERYL ACETATE),vitamin E (d-alpha tocopheryl acetate),FALSE,vitamin E (d-alpha tocopheryl acetate),,,1853
 Y,,VITAMIN E (DL-ALPHA TOCOPHERYL ACETATE),vitamin E (dl-alpha tocopheryl acetate),FALSE,vitamin E (dl-alpha tocopheryl acetate),,,1854
 Y,,VITAMIN K1,vitamin K1,FALSE,vitamin K1,,,1855
-,,VON WILLEBRAND FACTOR (HUMAN),von willebrand factor (human),FALSE,von willebrand factor (human),Haematology,,1856
+Y,,VON WILLEBRAND FACTOR (HUMAN),von willebrand factor (human),FALSE,von willebrand factor (human),,,1856
 Y,,VORICONAZOLE,voriconazole,FALSE,voriconazole,Released,,1857
 Y,,VORINOSTAT,vorinostat,FALSE,vorinostat,Released,,1858
 Y,,VORTIOXETINE (VORTIOXETINE HYDROBROMIDE),vortioxetine,FALSE,vortioxetine (vortioxetine hydrobromide),Released,,1859
