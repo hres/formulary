@@ -415,6 +415,7 @@ Y,,CORBADRINE,corbadrine,FALSE,corbadrine,Issue - in QA,,411
 Y,,CORBADRINE (CORBADRINE HYDROCHLORIDE),corbadrine,FALSE,corbadrine (corbadrine hydrochloride),Issue - in QA,,412
 Y,,CORTISONE ACETATE,cortisone,FALSE,cortisone acetate,Released,,413
 ,,CORYNEBACTERIUM DIPHTHERIAE CRM-197 PROTEIN,corynebacterium diphtheriae crm-197 protein,FALSE,corynebacterium diphtheriae crm-197 protein,Immunologic,,414
+Y,,CRISABOROLE,crisaborole,FALSE,crisaborole,To Do,Added in Jan 2019- new product,
 Y,,Crizotinib,crizotinib,FALSE,crizotinib,Released,,415
 Y,CROMOLYN,CROMOLYN SODIUM,cromolyn,FALSE,cromolyn sodium,Released,,416
 Y,,CROTAMITON,crotamiton,FALSE,crotamiton,Released,,417
@@ -528,7 +529,7 @@ Y,,DINOPROSTONE,dinoprostone,FALSE,dinoprostone,Released,,523
 Y,,DIPHENHYDRAMINE CITRATE,diphenhydramine,FALSE,diphenhydramine citrate,Issue - in QA,,525
 Y,,DIPHENHYDRAMINE HYDROCHLORIDE,diphenhydramine,FALSE,diphenhydramine hydrochloride,Issue - in QA,,526
 Y,,DIPHENOXYLATE HYDROCHLORIDE,diphenoxylate,FALSE,diphenoxylate hydrochloride,Released,Combination only,527
-Y,,DIPHENYLPYRALINE HYDROCHLORIDE,diphenylpyraline hydrochloride,FALSE,diphenylpyraline hydrochloride,To Do,Combination only,528
+Y,,DIPHENYLPYRALINE HYDROCHLORIDE,diphenylpyraline,FALSE,diphenylpyraline hydrochloride,To Do,Combination only,528
 ,,DIPHTHERIA TOXOID,diphtheria toxoid,FALSE,diphtheria toxoid,Immunologic,,529
 ,,DIPHTHERIA TOXOID ADSORBED,diphtheria toxoid adsorbed,FALSE,diphtheria toxoid adsorbed,Immunologic,,530
 ,,DIPIVEFRIN HYDROCHLORIDE,dipivefrin hydrochloride,FALSE,dipivefrin hydrochloride,No live products,,531
@@ -762,7 +763,7 @@ Y,,GLYCEROL PHENYLBUTYRATE,phenylbutyric acid,FALSE,glycerol phenylbutyrate,Rele
 Y,,GLYCOL SALICYLATE,glycol salicylate,FALSE,glycol salicylate,Issue - in QA,Combination only,759
 Y,,GLYCOPYRROLATE,glycopyrrolate,FALSE,glycopyrrolate,Released,,760
 Y,,GLYCOPYRRONIUM (Glycopyrronium Bromide),glycopyrronium,FALSE,glycopyrronium (glycopyrronium bromide),Released,,761
-Y,,GOLD SODIUM THIOMALATE,gold sodium thiomalate,FALSE,gold sodium thiomalate,Issue - in QA,,762
+Y,,GOLD SODIUM THIOMALATE,sodium aurothiomalate,FALSE,sodium aurothiomalate,Issue - in QA,,762
 Y,,GOLIMUMAB,golimumab,FALSE,golimumab,Released,,763
 Y,,GONADORELIN ACETATE,gonadorelin,FALSE,gonadorelin acetate,Released,,764
 Y,,GOSERELIN (GOSERELIN ACETATE),goserelin,FALSE,goserelin (goserelin acetate),Released,,765
