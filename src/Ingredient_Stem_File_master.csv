@@ -484,8 +484,8 @@ Y,DEXAMETHASONE,DEXAMETHASONE SODIUM PHOSPHATE,dexamethasone sodium phosphate,FA
 Y,,DEXBROMPHENIRAMINE MALEATE,dexbrompheniramine maleate,FALSE,dexbrompheniramine maleate,No live products,,480
 Y,DEXLANSOPRAZOLE,DEXLANSOPRAZOLE,dexlansoprazole,FALSE,dexlansoprazole,Released,,481
 Y,,DEXMEDETOMIDINE (DEXMEDETOMIDINE HYDROCHLORIDE),dexmedetomidine,FALSE,dexmedetomidine (dexmedetomidine hydrochloride),Released,,482
-,,DEXPANTHENOL,dexpanthenol,FALSE,dexpanthenol,No live products,Vitamin B5,483
-,,DEXPANTHENOL (PANTHENOL),dexpanthenol (panthenol),FALSE,dexpanthenol (panthenol),No live products,Vitamin B5,484
+,,DEXPANTHENOL,dexpanthenol,FALSE,dexpanthenol,No live products,Vitamin B5 provitamin,483
+,,DEXPANTHENOL (PANTHENOL),dexpanthenol (panthenol),FALSE,dexpanthenol (panthenol),No live products,Vitamin B5 provitamin,484
 Y,,DEXRAZOXANE,dexrazoxane,FALSE,dexrazoxane,Released,,485
 Y,,DEXTRAN,dextran,FALSE,dextran,To Do,January,486
 Y,,DEXTRAN 40,dextran 40,FALSE,dextran 40,No live products,,487
@@ -1581,7 +1581,7 @@ Y,SITAGLIPTIN,SITAGLIPTIN (SITAGLIPTIN PHOSPHATE MONOHYDRATE),sitagliptin,TRUE,s
 Y,,SITAGLIPTIN (SITAGLIPTIN PHOSPHATE),sitagliptin,FALSE,sitagliptin (sitagliptin phosphate),Released,,1577
 Y,,SODIUM ACETATE,sodium acetate,FALSE,sodium acetate,,,1578
 Y,,SODIUM ACETATE TRIHYDRATE,sodium acetate trihydrate,TRUE,sodium acetate trihydrate,,,1579
-Y,,SODIUM ASCORBATE,sodium ascorbate,FALSE,sodium ascorbate,,,1580
+Y,,SODIUM ASCORBATE,ascorbic acid,FALSE,sodium ascorbate,,,1580
 Y,,SODIUM BICARBONATE,sodium bicarbonate,FALSE,sodium bicarbonate,,,1581
 Y,,SODIUM BISULFITE,sodium bisulfite,FALSE,sodium bisulfite,,,1582
 Y,,SODIUM CARBONATE (ANHYDROUS),sodium carbonate (anhydrous),FALSE,sodium carbonate (anhydrous),,,1583
@@ -1830,33 +1830,33 @@ Y,,VINBLASTINE SULFATE,vinblastine,FALSE,vinblastine sulfate,Released,,1825
 Y,,VINCRISTINE SULFATE,vincristine,FALSE,vincristine sulfate,Released,,1826
 Y,,VINORELBINE (VINORELBINE TARTRATE),vinorelbine,FALSE,vinorelbine (vinorelbine tartrate),Released,,1827
 Y,,Vismodegib,vismodegib,FALSE,vismodegib,Released,,1828
-Y,,VITAMIN A,vitamin A,FALSE,vitamin A,,,1829
-Y,,VITAMIN A (RETINOL PALMITATE),vitamin A (retinol palmitate),FALSE,vitamin A (retinol palmitate),,,1830
-Y,,VITAMIN A (RETINYL PALMITATE),vitamin A (retinyl palmitate),FALSE,vitamin A (retinyl palmitate),,,1831
-Y,,VITAMIN B1,vitamin B1,FALSE,vitamin B1,,,1832
-Y,,VITAMIN B1 (THIAMINE HYDROCHLORIDE),vitamin B1 (thiamine hydrochloride),FALSE,vitamin B1 (thiamine hydrochloride),,,1833
-Y,,VITAMIN B1 (THIAMINE MONONITRATE),vitamin B1 (thiamine mononitrate),FALSE,vitamin B1 (thiamine mononitrate),,,1834
-Y,,VITAMIN B12,vitamin B12,FALSE,vitamin B12,,,1835
-Y,,VITAMIN B12 (CYANOCOBALAMIN),vitamin B12 (cyanocobalamin),FALSE,vitamin B12 (cyanocobalamin),,,1836
-Y,,VITAMIN B12 (VITAMIN B12),vitamin B12 (vitamin B12),FALSE,vitamin B12 (vitamin B12),,,1837
-Y,,VITAMIN B2,vitamin B2,FALSE,vitamin B2,,,1838
-Y,,VITAMIN B2 (RIBOFLAVIN 5'-PHOSPHATE SODIUM),vitamin B2 (riboflavin 5'-phosphate sodium),FALSE,vitamin B2 (riboflavin 5'-phosphate sodium),,,1839
-Y,,VITAMIN B2 (RIBOFLAVIN),vitamin B2 (riboflavin),FALSE,vitamin B2 (riboflavin),,,1840
-Y,,VITAMIN B2 (RIBOFLAVIN-5-PHOSPHATE),vitamin B2 (riboflavin-5-phosphate),FALSE,vitamin B2 (riboflavin-5-phosphate),,,1841
-Y,,VITAMIN B6 (PYRIDOXINE HYDROCHLORIDE),vitamin B6 (pyridoxine hydrochloride),FALSE,vitamin B6 (pyridoxine hydrochloride),,,1842
-Y,,VITAMIN C,vitamin C,FALSE,vitamin C,,,1843
-Y,,VITAMIN C (ASCORBIC ACID),vitamin C (ascorbic acid),FALSE,vitamin C (ascorbic acid),,,1844
-Y,,VITAMIN C (CALCIUM ASCORBATE),vitamin C (calcium ascorbate),FALSE,vitamin C (calcium ascorbate),,,1845
-Y,,VITAMIN C (SODIUM ASCORBATE),vitamin C (sodium ascorbate),FALSE,vitamin C (sodium ascorbate),,,1846
-Y,,VITAMIN D,vitamin D,FALSE,vitamin D,,,1847
-Y,VITAMIN D2,VITAMIN D2,vitamin D2,FALSE,vitamin D2,,,1848
-Y,VITAMIN D3,VITAMIN D (VITAMIN D3),vitamin D3 (cholecalciferol),FALSE,vitamin D3 (cholecalciferol),Released,,1849
-Y,VITAMIN D3,VITAMIN D3,vitamin D3 (cholecalciferol),FALSE,vitamin D3 (cholecalciferol),Released,,1850
-Y,VITAMIN D3,VITAMIN D3 (CHOLECALCIFEROL),vitamin D3 (cholecalciferol),FALSE,vitamin D3 (cholecalciferol),Released,,1851
-Y,,VITAMIN E,vitamin E,FALSE,vitamin E,,,1852
-Y,,VITAMIN E (D-ALPHA TOCOPHERYL ACETATE),vitamin E (d-alpha tocopheryl acetate),FALSE,vitamin E (d-alpha tocopheryl acetate),,,1853
-Y,,VITAMIN E (DL-ALPHA TOCOPHERYL ACETATE),vitamin E (dl-alpha tocopheryl acetate),FALSE,vitamin E (dl-alpha tocopheryl acetate),,,1854
-Y,,VITAMIN K1,vitamin K1,FALSE,vitamin K1,,,1855
+Y,,VITAMIN A,vitamin A,FALSE,vitamin A,,No products in scope and precise vitamer not specified,1829
+Y,,VITAMIN A (RETINOL PALMITATE),retinol,FALSE,retinol palmitate,,,1830
+Y,,VITAMIN A (RETINYL PALMITATE),retinol,FALSE,retinyl palmitate,,No products in scope,1831
+Y,,VITAMIN B1,thiamine,FALSE,thiamine,,,1832
+Y,,VITAMIN B1 (THIAMINE HYDROCHLORIDE),thiamine,FALSE,thiamine hydrochloride,,,1833
+Y,,VITAMIN B1 (THIAMINE MONONITRATE),thiamine,FALSE,thiamine mononitrate,,,1834
+Y,,VITAMIN B12,cyanocobalamin,FALSE,cyanocobalamin,,,1835
+Y,,VITAMIN B12 (CYANOCOBALAMIN),cyanocobalamin,FALSE,cyanocobalamin,,,1836
+Y,,VITAMIN B12 (VITAMIN B12),cyanocobalamin,FALSE,cyanocobalamin,,,1837
+Y,,VITAMIN B2,riboflavin,FALSE,riboflavin,,,1838
+Y,,VITAMIN B2 (RIBOFLAVIN 5'-PHOSPHATE SODIUM),riboflavin,FALSE,riboflavin phosphate sodium,,,1839
+Y,,VITAMIN B2 (RIBOFLAVIN),riboflavin,FALSE,riboflavin,,,1840
+Y,,VITAMIN B2 (RIBOFLAVIN-5-PHOSPHATE),riboflavin,FALSE,riboflavin phosphate,,,1841
+Y,,VITAMIN B6 (PYRIDOXINE HYDROCHLORIDE),pyridoxine,FALSE,pyridoxine hydrochloride,,,1842
+Y,,VITAMIN C,ascorbic acid,FALSE,ascorbic acid,,,1843
+Y,,VITAMIN C (ASCORBIC ACID),ascorbic acid,FALSE,ascorbic acid,,,1844
+Y,,VITAMIN C (CALCIUM ASCORBATE),ascorbic acid,FALSE,ascorbic acid (calcium ascorbate),,,1845
+Y,,VITAMIN C (SODIUM ASCORBATE),ascorbic acid,FALSE,ascorbic acid (sodium ascorbate),,,1846
+Y,,VITAMIN D,vitamin D,FALSE,vitamin D,,No products in scope and precise vitamer not specified,1847
+Y,VITAMIN D2,VITAMIN D2,ergocalciferol,FALSE,ergocalciferol,,,1848
+Y,VITAMIN D3,VITAMIN D (VITAMIN D3),cholecalciferol,FALSE,cholecalciferol,Released,,1849
+Y,VITAMIN D3,VITAMIN D3,cholecalciferol,FALSE,cholecalciferol,Released,,1850
+Y,VITAMIN D3,VITAMIN D3 (CHOLECALCIFEROL),cholecalciferol,FALSE,cholecalciferol,Released,,1851
+Y,,VITAMIN E,vitamin E,FALSE,vitamin E,,No products in scope and vitamer not specified,1852
+Y,,VITAMIN E (D-ALPHA TOCOPHERYL ACETATE),alpha tocopherol,FALSE,d-alpha tocopheryl acetate,,No products in scope ,1853
+Y,,VITAMIN E (DL-ALPHA TOCOPHERYL ACETATE),alpha tocopherol,FALSE,dl-alpha tocopheryl acetate),,,1854
+Y,,VITAMIN K1,phytonadione,FALSE,phytonadione,,,1855
 Y,,VON WILLEBRAND FACTOR (HUMAN),von willebrand factor (human),FALSE,von willebrand factor (human),,,1856
 Y,,VORICONAZOLE,voriconazole,FALSE,voriconazole,Released,,1857
 Y,,VORINOSTAT,vorinostat,FALSE,vorinostat,Released,,1858
