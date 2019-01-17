@@ -265,7 +265,7 @@ Y,,CAMPHOR,camphor,FALSE,camphor,Issue - in QA,Combination only,261
 Y,,CANAGLIFLOZIN,canagliflozin,FALSE,canagliflozin,Released,,262
 Y,,CANAKINUMAB,canakinumab,FALSE,canakinumab,Released,,263
 Y,CANDESARTAN CILEXETIL,CANDESARTAN CILEXETIL,candesartan,FALSE,candesartan cilexetil,Released,,264
-Y,,CANNABIDIOL (CANNABIS SATIVA EXTRACT),cannabidiol,FALSE,cannabidiol (cannabis sativa extract),Issue - in QA,,265
+Y,,CANNABIDIOL (CANNABIS SATIVA EXTRACT),cannabidiol,FALSE,cannabidiol,Issue - in QA,,265
 Y,,CANTHARIDIN,cantharidin,FALSE,cantharidin,Issue - in QA,Combinations only,266
 Y,,CAPECITABINE,capecitabine,FALSE,capecitabine,Released,,267
 Y,,CAPSAICIN,capsaicin,FALSE,capsaicin,Released,Combination only,268
@@ -457,7 +457,7 @@ Y,,DEFEROXAMINE MESYLATE,deferoxamine,FALSE,deferoxamine mesylate,Released,,452
 Y,,DEFIBROTIDE,defibrotide,FALSE,defibrotide,Released,,453
 Y,,DEGARELIX (DEGARELIX ACETATE),degarelix,FALSE,degarelix (degarelix acetate),Released,,454
 Y,,DELAVIRDINE MESYLATE,delavirdine,FALSE,delavirdine mesylate,Released,,455
-Y,,DELTA-9-TETRAHYDROCANNABINOL (CANNABIS SATIVA EXTRACT),delta-9-tetrahydrocannabinol,FALSE,delta-9-tetrahydrocannabinol (cannabis sativa extract),Issue - in QA,,456
+Y,,DELTA-9-TETRAHYDROCANNABINOL (CANNABIS SATIVA EXTRACT),tetrahydrocannabinol,FALSE,tetrahydrocannabinol,Issue - in QA,,456
 Y,,DENOSUMAB,denosumab,FALSE,denosumab,Released,,457
 Y,,DEOXYCHOLIC ACID,deoxycholic acid,FALSE,deoxycholic acid,Released,,458
 Y,,DEQUALINIUM CHLORIDE,dequalinium,FALSE,dequalinium chloride,Released,,459
@@ -1585,7 +1585,7 @@ Y,,SODIUM ASCORBATE,ascorbic acid,FALSE,sodium ascorbate,,,1580
 Y,,SODIUM BICARBONATE,sodium bicarbonate,FALSE,sodium bicarbonate,,,1581
 Y,,SODIUM BISULFITE,sodium bisulfite,FALSE,sodium bisulfite,,,1582
 Y,,SODIUM CARBONATE (ANHYDROUS),sodium carbonate (anhydrous),FALSE,sodium carbonate (anhydrous),,,1583
-Y,,SODIUM CARBOXYMETHYL CELLULOSE,sodium carboxymethyl cellulose,FALSE,sodium carboxymethyl cellulose,To Do,December,1584
+Y,,SODIUM CARBOXYMETHYL CELLULOSE,carboxymethylcellulose,FALSE,sodium carboxymethylcellulose,To Do,December,1584
 ,,SODIUM CHLORIDE,sodium chloride,FALSE,sodium chloride,,,1585
 Y,,SODIUM CITRATE,sodium citrate,FALSE,sodium citrate,Released,,1586
 Y,,SODIUM CITRATE DIHYDRATE,sodium citrate,TRUE,sodium citrate,Released,,1587
