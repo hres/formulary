@@ -231,6 +231,7 @@ Y,,BUFFER SOLUTION,buffer solution,FALSE,buffer solution,Excipient,,227
 Y,BUMETANIDE,BUMETANIDE,bumetanide,FALSE,bumetanide,Released,,228
 Y,,BUPIVACAINE HYDROCHLORIDE,bupivacaine,FALSE,bupivacaine hydrochloride,Released,,229
 Y,BUPRENORPHINE,BUPRENORPHINE,buprenorphine,FALSE,buprenorphine,Released,,230
+Y,,BUPRENORPHINE HYDROCHLORIDE,buprenorphine,FALSE,buprenorphine hydrochloride,New 2019-01,,
 Y,BUPRENORPHINE,BUPRENORPHINE (BUPRENORPHINE HYDROCHLORIDE),buprenorphine,FALSE,buprenorphine (buprenorphine hydrochloride),Released,,231
 Y,BUPROPION,BUPROPION HYDROCHLORIDE,bupropion,FALSE,bupropion hydrochloride,Released,,232
 Y,,BUSERELIN (BUSERELIN ACETATE),buserelin,FALSE,buserelin (buserelin acetate),Released,,233
@@ -548,6 +549,7 @@ Y,DOMPERIDONE,DOMPERIDONE (DOMPERIDONE MALEATE),domperidone,FALSE,domperidone (d
 Y,DONEPEZIL,DONEPEZIL HYDROCHLORIDE,donepezil,FALSE,donepezil hydrochloride,Released,,545
 Y,DONEPEZIL,DONEPEZIL HYDROCHLORIDE (DONEPEZIL HYDROCHLORIDE MONOHYDRATE),donepezil,TRUE,donepezil hydrochloride,Released,,546
 Y,,DOPAMINE HYDROCHLORIDE,dopamine hydrochloride,FALSE,dopamine hydrochloride,,Not coming through without Dextrose flagged as Y,547
+Y,,DORAVIRINE,doravirine,FALSE,doravirine,New 2019-01,,
 Y,,DORNASE ALFA,dornase alfa,FALSE,dornase alfa,Released,,548
 Y,DORZOLAMIDE,DORZOLAMIDE (DORZOLAMIDE HYDROCHLORIDE),dorzolamide,FALSE,dorzolamide (dorzolamide hydrochloride),Released,,549
 Y,DOXAZOSIN,DOXAZOSIN (DOXAZOSIN MESYLATE),doxazosin,FALSE,doxazosin (doxazosin mesylate),Released,,550
@@ -609,6 +611,7 @@ Y,,EPOPROSTENOL (EPOPROSTENOL SODIUM),epoprostenol,FALSE,epoprostenol (epoproste
 Y,,EPROSARTAN (EPROSARTAN MESYLATE),eprosartan,FALSE,eprosartan (eprosartan mesylate),Released,,606
 Y,,EPTACOG ALFA (ACTIVATED),eptacog alfa (activated),FALSE,eptacog alfa (activated),To Do,January,607
 Y,,EPTIFIBATIDE,eptifibatide,FALSE,eptifibatide,Released,,608
+Y,,ERENUMAB,erenumab,FALSE,erenumab,New 2019-01,,
 Y,,ERGOLOID MESYLATES,ergoloid mesylates,FALSE,ergoloid mesylates,Released,,609
 Y,,ERGONOVINE MALEATE,ergonovine,FALSE,ergonovine maleate,Released,,610
 Y,,ERGOTAMINE TARTRATE,ergotamine,FALSE,ergotamine tartrate,Released,Combination only,611
@@ -679,6 +682,7 @@ Y,,Fingolimod (Fingolimod Hydrochloride),fingolimod,FALSE,fingolimod (fingolimod
 Y,,FISH OIL,fish oil,FALSE,fish oil,,,676
 Y,,FLAVOXATE HYDROCHLORIDE,flavoxate hydrochloride,FALSE,flavoxate hydrochloride,No live products,,677
 Y,,FLECAINIDE ACETATE,flecainide,FALSE,flecainide acetate,Released,,678
+Y,,FLIBANSERIN,flibanserin,FALSE,flibanserin,New 2019-01,,
 Y,,FLOCTAFENINE,floctafenine,FALSE,floctafenine,Released,,679
 Y,FLUCONAZOLE,FLUCONAZOLE,fluconazole,FALSE,fluconazole,Released,,680
 Y,,FLUDARABINE PHOSPHATE,fludarabine,FALSE,fludarabine phosphate,Released,,681
@@ -789,6 +793,7 @@ Y,,HALOTHANE,halothane,FALSE,halothane,Anaesthetic,,785
 Y,,HAMAMELIS VIRGINIANA,hamamelis virginiana,FALSE,hamamelis virginiana,To Do,One product in scope,786
 ,,HAPTENS,haptens,FALSE,haptens,Allergen,,787
 ,,HELIUM,helium,FALSE,helium,Medical gas,,788
+Y,,HEMIN,hemin,FALSE,hemin,New 2019-01,,
 Y,,HEPARIN (HEPARIN SODIUM),heparin,FALSE,heparin (heparin sodium),Issue - in QA,,789
 Y,,HEPARIN SODIUM,heparin,FALSE,heparin sodium,Issue - in QA,,790
 ,,"HEPATITIS A VACCINE, INACTIVATED","hepatitis a vaccine, inactivated",FALSE,"hepatitis a vaccine, inactivated",Immunologic,,791
@@ -843,6 +848,7 @@ Y,,IMIGLUCERASE,imiglucerase,FALSE,imiglucerase,Released,,839
 Y,,IMIPENEM,imipenem,FALSE,imipenem,Released,Combination only,840
 Y,,IMIPRAMINE HYDROCHLORIDE,imipramine,FALSE,imipramine hydrochloride,Released,,841
 Y,,IMIQUIMOD,imiquimod,FALSE,imiquimod,Issue - in QA,,842
+,,IMMUNOGLOBULIN G (HUMAN),immune globulin G (human),FALSE,immune globulin G (human),New 2019-01,,
 ,,IMMUNE GLOBULIN (HUMAN),immune globulin (human),FALSE,immune globulin (human),Haematology,,843
 ,,IMMUNOGLOBULIN (HUMAN),immunoglobulin (human),FALSE,immunoglobulin (human),Haematology,,844
 ,,INACT.JAPANESE ENCEPHAL VIRUS(ATTENUAT. STRAIN SA14-14-2 PRODUCED IN VERO CELLS),inact.japanese encephal virus(attenuat. strain sa14-14-2 produced in vero cells),FALSE,inact.japanese encephal virus(attenuat. strain sa14-14-2 produced in vero cells),Immunologic,,845
@@ -913,6 +919,7 @@ Y,,IRON (FERROUS FUMARATE),iron (ferrous fumarate),FALSE,iron (ferrous fumarate)
 Y,,IRON (IRON DEXTRAN COMPLEX),iron (iron dextran complex),FALSE,iron (iron dextran complex),Issue - in QA,,910
 Y,,IRON (IRON SUCROSE),iron (iron sucrose),FALSE,iron (iron sucrose),Issue - in QA,,911
 Y,,IRON (SODIUM FERRIC GLUCONATE COMPLEX IN SUCROSE INJECTION),iron (sodium ferric gluconate complex in sucrose injection),FALSE,iron (sodium ferric gluconate complex in sucrose injection),Issue - in QA,,912
+Y,,IRON (IRON ISOMALTOSIDE 1000),iron (iron isomaltoside 1000),FALSE,iron (iron isomaltoside 1000),New 2019-01,,
 ,,ISOFLURANE,isoflurane,FALSE,isoflurane,Anaesthetic,,913
 ,,ISOLEUCINE,isoleucine,FALSE,isoleucine,TPN,,914
 Y,,ISONIAZID,isoniazid,FALSE,isoniazid,Released,,915
@@ -1671,6 +1678,7 @@ Y,,TELAVANCIN (TELAVANCIN HYDROCHLORIDE),telavancin,FALSE,telavancin (telavancin
 Y,,TELBIVUDINE,telbivudine,FALSE,telbivudine,Released,,1668
 Y,TELMISARTAN,TELMISARTAN,telmisartan,FALSE,telmisartan,Released,,1669
 Y,TELMISARTAN,TELMISARTAN (TELMISARTAN SODIUM),telmisartan,FALSE,telmisartan (telmisartan sodium),Released,,1670
+Y,,TELOTRISTAT ETHYL (TELOTRISTAT ETIPRATE),telotristat,FALSE, telotristat ethyl (telotristat etiprate),New 2019-01,,
 Y,TEMAZEPAM,TEMAZEPAM,temazepam,FALSE,temazepam,Released,,1671
 Y,,TEMOZOLOMIDE,temozolomide,FALSE,temozolomide,Released,,1672
 Y,,TEMSIROLIMUS,temsirolimus,FALSE,temsirolimus,Released,,1673
@@ -1800,6 +1808,7 @@ Y,,VALSARTAN (SACUBITRIL VALSARTAN SODIUM HYDRATE COMPLEX),valsartan,FALSE,valsa
 Y,,VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE),vancomycin,FALSE,vancomycin (vancomycin hydrochloride),Released,,1797
 Y,,VANCOMYCIN HYDROCHLORIDE,vancomycin,FALSE,vancomycin hydrochloride,Released,,1798
 Y,,VANDETANIB,vandetanib,FALSE,vandetanib,Released,,1799
+Y,,VARDENAFIL (VARDENAFIL HYDROCHLORIDE TRIHYDRATE),vardenafil,TRUE,vardenafil (vardenafil hydrochloride),New 2019-01,,
 Y,,VARDENAFIL (VARDENAFIL HYDROCHLORIDE),vardenafil,FALSE,vardenafil (vardenafil hydrochloride),Released,,1800
 Y,VARENICLINE,VARENICLINE (VARENICLINE TARTRATE),varenicline,FALSE,varenicline (varenicline tartrate),Released,,1801
 ,,VARICELLA ZOSTER IMMUNE GLOBULIN HUMAN,varicella zoster immune globulin human,FALSE,varicella zoster immune globulin human,Immunologic,,1802
