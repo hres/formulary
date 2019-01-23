@@ -266,7 +266,7 @@ Y,,CAMPHOR,camphor,FALSE,camphor,Issue - in QA,Combination only,261
 Y,,CANAGLIFLOZIN,canagliflozin,FALSE,canagliflozin,Released,,262
 Y,,CANAKINUMAB,canakinumab,FALSE,canakinumab,Released,,263
 Y,CANDESARTAN CILEXETIL,CANDESARTAN CILEXETIL,candesartan,FALSE,candesartan cilexetil,Released,,264
-Y,,CANNABIDIOL (CANNABIS SATIVA EXTRACT),cannabidiol,FALSE,cannabidiol (cannabis sativa extract),Issue - in QA,,265
+Y,,CANNABIDIOL (CANNABIS SATIVA EXTRACT),cannabidiol,FALSE,cannabidiol,Issue - in QA,,265
 Y,,CANTHARIDIN,cantharidin,FALSE,cantharidin,Issue - in QA,Combinations only,266
 Y,,CAPECITABINE,capecitabine,FALSE,capecitabine,Released,,267
 Y,,CAPSAICIN,capsaicin,FALSE,capsaicin,Released,Combination only,268
@@ -416,6 +416,7 @@ Y,,CORBADRINE,corbadrine,FALSE,corbadrine,Issue - in QA,,411
 Y,,CORBADRINE (CORBADRINE HYDROCHLORIDE),corbadrine,FALSE,corbadrine (corbadrine hydrochloride),Issue - in QA,,412
 Y,,CORTISONE ACETATE,cortisone,FALSE,cortisone acetate,Released,,413
 ,,CORYNEBACTERIUM DIPHTHERIAE CRM-197 PROTEIN,corynebacterium diphtheriae crm-197 protein,FALSE,corynebacterium diphtheriae crm-197 protein,Immunologic,,414
+Y,,CRISABOROLE,crisaborole,FALSE,crisaborole,To Do,Added in Jan 2019- new product,
 Y,,Crizotinib,crizotinib,FALSE,crizotinib,Released,,415
 Y,CROMOLYN,CROMOLYN SODIUM,cromolyn,FALSE,cromolyn sodium,Released,,416
 Y,,CROTAMITON,crotamiton,FALSE,crotamiton,Released,,417
@@ -457,7 +458,7 @@ Y,,DEFEROXAMINE MESYLATE,deferoxamine,FALSE,deferoxamine mesylate,Released,,452
 Y,,DEFIBROTIDE,defibrotide,FALSE,defibrotide,Released,,453
 Y,,DEGARELIX (DEGARELIX ACETATE),degarelix,FALSE,degarelix (degarelix acetate),Released,,454
 Y,,DELAVIRDINE MESYLATE,delavirdine,FALSE,delavirdine mesylate,Released,,455
-Y,,DELTA-9-TETRAHYDROCANNABINOL (CANNABIS SATIVA EXTRACT),delta-9-tetrahydrocannabinol,FALSE,delta-9-tetrahydrocannabinol (cannabis sativa extract),Issue - in QA,,456
+Y,,DELTA-9-TETRAHYDROCANNABINOL (CANNABIS SATIVA EXTRACT),tetrahydrocannabinol,FALSE,tetrahydrocannabinol,Issue - in QA,,456
 Y,,DENOSUMAB,denosumab,FALSE,denosumab,Released,,457
 Y,,DEOXYCHOLIC ACID,deoxycholic acid,FALSE,deoxycholic acid,Released,,458
 Y,,DEQUALINIUM CHLORIDE,dequalinium,FALSE,dequalinium chloride,Released,,459
@@ -484,8 +485,8 @@ Y,DEXAMETHASONE,DEXAMETHASONE SODIUM PHOSPHATE,dexamethasone sodium phosphate,FA
 Y,,DEXBROMPHENIRAMINE MALEATE,dexbrompheniramine maleate,FALSE,dexbrompheniramine maleate,No live products,,480
 Y,DEXLANSOPRAZOLE,DEXLANSOPRAZOLE,dexlansoprazole,FALSE,dexlansoprazole,Released,,481
 Y,,DEXMEDETOMIDINE (DEXMEDETOMIDINE HYDROCHLORIDE),dexmedetomidine,FALSE,dexmedetomidine (dexmedetomidine hydrochloride),Released,,482
-,,DEXPANTHENOL,dexpanthenol,FALSE,dexpanthenol,No live products,Vitamin B5,483
-,,DEXPANTHENOL (PANTHENOL),dexpanthenol (panthenol),FALSE,dexpanthenol (panthenol),No live products,Vitamin B5,484
+,,DEXPANTHENOL,dexpanthenol,FALSE,dexpanthenol,No live products,Vitamin B5 provitamin,483
+,,DEXPANTHENOL (PANTHENOL),dexpanthenol (panthenol),FALSE,dexpanthenol (panthenol),No live products,Vitamin B5 provitamin,484
 Y,,DEXRAZOXANE,dexrazoxane,FALSE,dexrazoxane,Released,,485
 Y,,DEXTRAN,dextran,FALSE,dextran,To Do,January,486
 Y,,DEXTRAN 40,dextran 40,FALSE,dextran 40,No live products,,487
@@ -529,7 +530,7 @@ Y,,DINOPROSTONE,dinoprostone,FALSE,dinoprostone,Released,,523
 Y,,DIPHENHYDRAMINE CITRATE,diphenhydramine,FALSE,diphenhydramine citrate,Issue - in QA,,525
 Y,,DIPHENHYDRAMINE HYDROCHLORIDE,diphenhydramine,FALSE,diphenhydramine hydrochloride,Issue - in QA,,526
 Y,,DIPHENOXYLATE HYDROCHLORIDE,diphenoxylate,FALSE,diphenoxylate hydrochloride,Released,Combination only,527
-Y,,DIPHENYLPYRALINE HYDROCHLORIDE,diphenylpyraline hydrochloride,FALSE,diphenylpyraline hydrochloride,To Do,Combination only,528
+Y,,DIPHENYLPYRALINE HYDROCHLORIDE,diphenylpyraline,FALSE,diphenylpyraline hydrochloride,To Do,Combination only,528
 ,,DIPHTHERIA TOXOID,diphtheria toxoid,FALSE,diphtheria toxoid,Immunologic,,529
 ,,DIPHTHERIA TOXOID ADSORBED,diphtheria toxoid adsorbed,FALSE,diphtheria toxoid adsorbed,Immunologic,,530
 ,,DIPIVEFRIN HYDROCHLORIDE,dipivefrin hydrochloride,FALSE,dipivefrin hydrochloride,No live products,,531
@@ -766,7 +767,7 @@ Y,,GLYCEROL PHENYLBUTYRATE,phenylbutyric acid,FALSE,glycerol phenylbutyrate,Rele
 Y,,GLYCOL SALICYLATE,glycol salicylate,FALSE,glycol salicylate,Issue - in QA,Combination only,759
 Y,,GLYCOPYRROLATE,glycopyrrolate,FALSE,glycopyrrolate,Released,,760
 Y,,GLYCOPYRRONIUM (Glycopyrronium Bromide),glycopyrronium,FALSE,glycopyrronium (glycopyrronium bromide),Released,,761
-Y,,GOLD SODIUM THIOMALATE,gold sodium thiomalate,FALSE,gold sodium thiomalate,Issue - in QA,,762
+Y,,GOLD SODIUM THIOMALATE,sodium aurothiomalate,FALSE,sodium aurothiomalate,Issue - in QA,,762
 Y,,GOLIMUMAB,golimumab,FALSE,golimumab,Released,,763
 Y,,GONADORELIN ACETATE,gonadorelin,FALSE,gonadorelin acetate,Released,,764
 Y,,GOSERELIN (GOSERELIN ACETATE),goserelin,FALSE,goserelin (goserelin acetate),Released,,765
@@ -1127,7 +1128,7 @@ Y,,MIFEPRISTONE,mifepristone,FALSE,mifepristone,To Do,January,1116
 Y,,MIGALASTAT (MIGALASTAT HYDROCHLORIDE),migalastat,FALSE,migalastat (migalastat hydrochloride),Released,,1117
 Y,,MIGLUSTAT,miglustat,FALSE,miglustat,Released,,1118
 Y,,MILRINONE (MILRINONE LACTATE),milrinone,FALSE,milrinone (milrinone lactate),Released,,1119
-Y,,MINERAL OIL,mineral oil,FALSE,mineral oil,To Do,Dermatologicals,1120
+Y,,MINERAL OIL,mineral oil heavy,FALSE,mineral oil heavy,To Do,Dermatologicals,1120
 Y,,MINERAL OIL LIGHT,mineral oil light,FALSE,mineral oil light,To Do,Artificial tears,1121
 Y,MINOCYCLINE,MINOCYCLINE (MINOCYCLINE HYDROCHLORIDE),minocycline,FALSE,minocycline (minocycline hydrochloride),Released,,1122
 Y,MINOXIDIL,MINOXIDIL,minoxidil,FALSE,minoxidil,Released,,1123
@@ -1587,11 +1588,11 @@ Y,SITAGLIPTIN,SITAGLIPTIN (SITAGLIPTIN PHOSPHATE MONOHYDRATE),sitagliptin,TRUE,s
 Y,,SITAGLIPTIN (SITAGLIPTIN PHOSPHATE),sitagliptin,FALSE,sitagliptin (sitagliptin phosphate),Released,,1577
 Y,,SODIUM ACETATE,sodium acetate,FALSE,sodium acetate,,,1578
 Y,,SODIUM ACETATE TRIHYDRATE,sodium acetate trihydrate,TRUE,sodium acetate trihydrate,,,1579
-Y,,SODIUM ASCORBATE,sodium ascorbate,FALSE,sodium ascorbate,,,1580
+Y,,SODIUM ASCORBATE,ascorbic acid,FALSE,sodium ascorbate,,,1580
 Y,,SODIUM BICARBONATE,sodium bicarbonate,FALSE,sodium bicarbonate,,,1581
 Y,,SODIUM BISULFITE,sodium bisulfite,FALSE,sodium bisulfite,,,1582
 Y,,SODIUM CARBONATE (ANHYDROUS),sodium carbonate (anhydrous),FALSE,sodium carbonate (anhydrous),,,1583
-Y,,SODIUM CARBOXYMETHYL CELLULOSE,sodium carboxymethyl cellulose,FALSE,sodium carboxymethyl cellulose,To Do,December,1584
+Y,,SODIUM CARBOXYMETHYL CELLULOSE,carboxymethylcellulose,FALSE,sodium carboxymethylcellulose,To Do,December,1584
 ,,SODIUM CHLORIDE,sodium chloride,FALSE,sodium chloride,,,1585
 Y,,SODIUM CITRATE,sodium citrate,FALSE,sodium citrate,Released,,1586
 Y,,SODIUM CITRATE DIHYDRATE,sodium citrate,TRUE,sodium citrate,Released,,1587
@@ -1838,33 +1839,33 @@ Y,,VINBLASTINE SULFATE,vinblastine,FALSE,vinblastine sulfate,Released,,1825
 Y,,VINCRISTINE SULFATE,vincristine,FALSE,vincristine sulfate,Released,,1826
 Y,,VINORELBINE (VINORELBINE TARTRATE),vinorelbine,FALSE,vinorelbine (vinorelbine tartrate),Released,,1827
 Y,,Vismodegib,vismodegib,FALSE,vismodegib,Released,,1828
-Y,,VITAMIN A,vitamin A,FALSE,vitamin A,,,1829
-Y,,VITAMIN A (RETINOL PALMITATE),vitamin A (retinol palmitate),FALSE,vitamin A (retinol palmitate),,,1830
-Y,,VITAMIN A (RETINYL PALMITATE),vitamin A (retinyl palmitate),FALSE,vitamin A (retinyl palmitate),,,1831
-Y,,VITAMIN B1,vitamin B1,FALSE,vitamin B1,,,1832
-Y,,VITAMIN B1 (THIAMINE HYDROCHLORIDE),vitamin B1 (thiamine hydrochloride),FALSE,vitamin B1 (thiamine hydrochloride),,,1833
-Y,,VITAMIN B1 (THIAMINE MONONITRATE),vitamin B1 (thiamine mononitrate),FALSE,vitamin B1 (thiamine mononitrate),,,1834
-Y,,VITAMIN B12,vitamin B12,FALSE,vitamin B12,,,1835
-Y,,VITAMIN B12 (CYANOCOBALAMIN),vitamin B12 (cyanocobalamin),FALSE,vitamin B12 (cyanocobalamin),,,1836
-Y,,VITAMIN B12 (VITAMIN B12),vitamin B12 (vitamin B12),FALSE,vitamin B12 (vitamin B12),,,1837
-Y,,VITAMIN B2,vitamin B2,FALSE,vitamin B2,,,1838
-Y,,VITAMIN B2 (RIBOFLAVIN 5'-PHOSPHATE SODIUM),vitamin B2 (riboflavin 5'-phosphate sodium),FALSE,vitamin B2 (riboflavin 5'-phosphate sodium),,,1839
-Y,,VITAMIN B2 (RIBOFLAVIN),vitamin B2 (riboflavin),FALSE,vitamin B2 (riboflavin),,,1840
-Y,,VITAMIN B2 (RIBOFLAVIN-5-PHOSPHATE),vitamin B2 (riboflavin-5-phosphate),FALSE,vitamin B2 (riboflavin-5-phosphate),,,1841
-Y,,VITAMIN B6 (PYRIDOXINE HYDROCHLORIDE),vitamin B6 (pyridoxine hydrochloride),FALSE,vitamin B6 (pyridoxine hydrochloride),,,1842
-Y,,VITAMIN C,vitamin C,FALSE,vitamin C,,,1843
-Y,,VITAMIN C (ASCORBIC ACID),vitamin C (ascorbic acid),FALSE,vitamin C (ascorbic acid),,,1844
-Y,,VITAMIN C (CALCIUM ASCORBATE),vitamin C (calcium ascorbate),FALSE,vitamin C (calcium ascorbate),,,1845
-Y,,VITAMIN C (SODIUM ASCORBATE),vitamin C (sodium ascorbate),FALSE,vitamin C (sodium ascorbate),,,1846
-Y,,VITAMIN D,vitamin D,FALSE,vitamin D,,,1847
-Y,VITAMIN D2,VITAMIN D2,vitamin D2,FALSE,vitamin D2,,,1848
-Y,VITAMIN D3,VITAMIN D (VITAMIN D3),vitamin D3 (cholecalciferol),FALSE,vitamin D3 (cholecalciferol),Released,,1849
-Y,VITAMIN D3,VITAMIN D3,vitamin D3 (cholecalciferol),FALSE,vitamin D3 (cholecalciferol),Released,,1850
-Y,VITAMIN D3,VITAMIN D3 (CHOLECALCIFEROL),vitamin D3 (cholecalciferol),FALSE,vitamin D3 (cholecalciferol),Released,,1851
-Y,,VITAMIN E,vitamin E,FALSE,vitamin E,,,1852
-Y,,VITAMIN E (D-ALPHA TOCOPHERYL ACETATE),vitamin E (d-alpha tocopheryl acetate),FALSE,vitamin E (d-alpha tocopheryl acetate),,,1853
-Y,,VITAMIN E (DL-ALPHA TOCOPHERYL ACETATE),vitamin E (dl-alpha tocopheryl acetate),FALSE,vitamin E (dl-alpha tocopheryl acetate),,,1854
-Y,,VITAMIN K1,vitamin K1,FALSE,vitamin K1,,,1855
+Y,,VITAMIN A,vitamin A,FALSE,vitamin A,,No products in scope and precise vitamer not specified,1829
+Y,,VITAMIN A (RETINOL PALMITATE),retinol,FALSE,retinol palmitate,,No products in scope,1830
+Y,,VITAMIN A (RETINYL PALMITATE),retinol,FALSE,retinyl palmitate,,,1831
+Y,,VITAMIN B1,thiamine,FALSE,thiamine,,,1832
+Y,,VITAMIN B1 (THIAMINE HYDROCHLORIDE),thiamine,FALSE,thiamine hydrochloride,,,1833
+Y,,VITAMIN B1 (THIAMINE MONONITRATE),thiamine,FALSE,thiamine mononitrate,,,1834
+Y,,VITAMIN B12,cyanocobalamin,FALSE,cyanocobalamin,,,1835
+Y,,VITAMIN B12 (CYANOCOBALAMIN),cyanocobalamin,FALSE,cyanocobalamin,,,1836
+Y,,VITAMIN B12 (VITAMIN B12),cyanocobalamin,FALSE,cyanocobalamin,,,1837
+Y,,VITAMIN B2,riboflavin,FALSE,riboflavin,,,1838
+Y,,VITAMIN B2 (RIBOFLAVIN 5'-PHOSPHATE SODIUM),riboflavin,FALSE,riboflavin phosphate sodium,,,1839
+Y,,VITAMIN B2 (RIBOFLAVIN),riboflavin,FALSE,riboflavin,,,1840
+Y,,VITAMIN B2 (RIBOFLAVIN-5-PHOSPHATE),riboflavin,FALSE,riboflavin phosphate,,,1841
+Y,,VITAMIN B6 (PYRIDOXINE HYDROCHLORIDE),pyridoxine,FALSE,pyridoxine hydrochloride,,,1842
+Y,,VITAMIN C,ascorbic acid,FALSE,ascorbic acid,,,1843
+Y,,VITAMIN C (ASCORBIC ACID),ascorbic acid,FALSE,ascorbic acid,,,1844
+Y,,VITAMIN C (CALCIUM ASCORBATE),ascorbic acid,FALSE,ascorbic acid (calcium ascorbate),,,1845
+Y,,VITAMIN C (SODIUM ASCORBATE),ascorbic acid,FALSE,ascorbic acid (sodium ascorbate),,,1846
+Y,,VITAMIN D,vitamin D,FALSE,vitamin D,,No products in scope and precise vitamer not specified,1847
+Y,VITAMIN D2,VITAMIN D2,ergocalciferol,FALSE,ergocalciferol,,,1848
+Y,VITAMIN D3,VITAMIN D (VITAMIN D3),cholecalciferol,FALSE,cholecalciferol,Released,,1849
+Y,VITAMIN D3,VITAMIN D3,cholecalciferol,FALSE,cholecalciferol,Released,,1850
+Y,VITAMIN D3,VITAMIN D3 (CHOLECALCIFEROL),cholecalciferol,FALSE,cholecalciferol,Released,,1851
+Y,,VITAMIN E,vitamin E,FALSE,vitamin E,,No products in scope and vitamer not specified,1852
+Y,,VITAMIN E (D-ALPHA TOCOPHERYL ACETATE),alpha tocopherol,FALSE,d-alpha tocopheryl acetate,,No products in scope ,1853
+Y,,VITAMIN E (DL-ALPHA TOCOPHERYL ACETATE),alpha tocopherol,FALSE,dl-alpha tocopheryl acetate),,,1854
+Y,,VITAMIN K1,phytonadione,FALSE,phytonadione,,,1855
 Y,,VON WILLEBRAND FACTOR (HUMAN),von willebrand factor (human),FALSE,von willebrand factor (human),,,1856
 Y,,VORICONAZOLE,voriconazole,FALSE,voriconazole,Released,,1857
 Y,,VORINOSTAT,vorinostat,FALSE,vorinostat,Released,,1858
