@@ -913,9 +913,9 @@ Y,,Ipilimumab,ipilimumab,FALSE,ipilimumab,Released,,902
 Y,IPRATROPIUM,IPRATROPIUM BROMIDE,ipratropium,FALSE,ipratropium bromide,Released,,903
 Y,IPRATROPIUM,IPRATROPIUM BROMIDE (IPRATROPIUM BROMIDE MONOHYDRATE),ipratropium,TRUE,ipratropium bromide,Released,,904
 Y,IRBESARTAN,IRBESARTAN,irbesartan,FALSE,irbesartan,Released,,905
-Y,,IRINOTECAN HYDROCHLORIDE,irinotecan,FALSE,irinotecan hydrochloride,Issue - in QA,,906
-Y,,IRINOTECAN HYDROCHLORIDE (IRINOTECAN HYDROCHLORIDE TRIHYDRATE),irinotecan,TRUE,irinotecan hydrochloride,Issue - in QA,,907
-Y,,IRINOTECAN HYDROCHLORIDE (IRINOTECAN SUCROSE OCTASULFATE),irinotecan,TRUE,irinotecan hydrochloride (irinotecan sucrose octasulfate),Issue - in QA,,908
+Y,,IRINOTECAN HYDROCHLORIDE,irinotecan (conventional),FALSE,irinotecan hydrochloride,Issue - in QA,,906
+Y,,IRINOTECAN HYDROCHLORIDE (IRINOTECAN HYDROCHLORIDE TRIHYDRATE),irinotecan (conventional),TRUE,irinotecan hydrochloride,Issue - in QA,,907
+Y,,IRINOTECAN HYDROCHLORIDE (IRINOTECAN SUCROSE OCTASULFATE),irinotecan (liposomal),TRUE,irinotecan hydrochloride liposomal (irinotecan sucrose octasulfate),Issue - in QA,,908
 Y,,IRON (FERROUS FUMARATE),iron (ferrous fumarate),FALSE,iron (ferrous fumarate),To Do,,909
 Y,,IRON (IRON DEXTRAN COMPLEX),iron (iron dextran complex),FALSE,iron (iron dextran complex),Issue - in QA,,910
 Y,,IRON (IRON SUCROSE),iron (iron sucrose),FALSE,iron (iron sucrose),Issue - in QA,,911
