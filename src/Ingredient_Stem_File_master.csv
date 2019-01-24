@@ -829,7 +829,7 @@ Y,HYDROXYCHLOROQUINE,HYDROXYCHLOROQUINE SULFATE,hydroxychloroquine,FALSE,hydroxy
 ,,HYDROXYETHYL STARCH 130/0.4,hydroxyethyl starch 130/0.4,FALSE,hydroxyethyl starch 130/0.4,Not in scope,Plasma expander,820
 Y,,HYDROXYUREA,hydroxyurea,FALSE,hydroxyurea,Released,,821
 Y,HYDROXYZINE,HYDROXYZINE HYDROCHLORIDE,hydroxyzine,FALSE,hydroxyzine hydrochloride,Released,,822
-Y,,HYOSCINE BUTYLBROMIDE,hyoscine,FALSE,hyoscine butylbromide,Released,,823
+Y,,HYOSCINE BUTYLBROMIDE,scopolamine butylbromide,FALSE,scopolamine butylbromide,Released,,823
 Y,,HYPROLOSE,hyprolose,FALSE,hyprolose,Released,,824
 Y,,HYPROMELLOSE,hypromellose,FALSE,hypromellose,Issue - in QA,,825
 Y,,Ibrutinib,ibrutinib,FALSE,ibrutinib,Released,,826
@@ -1555,7 +1555,7 @@ Y,,SAPROPTERIN DIHYDROCHLORIDE,sapropterin,FALSE,sapropterin dihydrochloride,Rel
 Y,,SAQUINAVIR (SAQUINAVIR MESYLATE),saquinavir,FALSE,saquinavir (saquinavir mesylate),Released,,1544
 Y,,SARILUMAB,sarilumab,FALSE,sarilumab,Released,,1545
 Y,SAXAGLIPTIN,SAXAGLIPTIN (SAXAGLIPTIN HYDROCHLORIDE),saxagliptin,FALSE,saxagliptin (saxagliptin hydrochloride),Released,,1546
-Y,,SCOPOLAMINE HYDROBROMIDE,scopolamine,FALSE,scopolamine hydrobromide,Issue - in QA,,1547
+Y,,SCOPOLAMINE HYDROBROMIDE,scopolamine hydrobromide,FALSE,scopolamine hydrobromide,Issue - in QA,,1547
 ,,SEALER PROTEIN (HUMAN),sealer protein (human),FALSE,sealer protein (human),Haematology,,1548
 Y,,SEBELIPASE ALFA,sebelipase alfa,FALSE,sebelipase alfa,Released,,1549
 Y,,Secukinumab,secukinumab,FALSE,secukinumab,Released,,1550
