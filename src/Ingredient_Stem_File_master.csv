@@ -1864,7 +1864,7 @@ Y,VITAMIN D3,VITAMIN D3,cholecalciferol,FALSE,cholecalciferol,Released,,1850
 Y,VITAMIN D3,VITAMIN D3 (CHOLECALCIFEROL),cholecalciferol,FALSE,cholecalciferol,Released,,1851
 Y,,VITAMIN E,vitamin E,FALSE,vitamin E,,No products in scope and vitamer not specified,1852
 Y,,VITAMIN E (D-ALPHA TOCOPHERYL ACETATE),alpha tocopherol,FALSE,d-alpha tocopheryl acetate,,No products in scope ,1853
-Y,,VITAMIN E (DL-ALPHA TOCOPHERYL ACETATE),alpha tocopherol,FALSE,dl-alpha tocopheryl acetate),,,1854
+Y,,VITAMIN E (DL-ALPHA TOCOPHERYL ACETATE),alpha tocopherol,FALSE,dl-alpha tocopheryl acetate,,,1854
 Y,,VITAMIN K1,phytonadione,FALSE,phytonadione,,,1855
 Y,,VON WILLEBRAND FACTOR (HUMAN),von willebrand factor (human),FALSE,von willebrand factor (human),,,1856
 Y,,VORICONAZOLE,voriconazole,FALSE,voriconazole,Released,,1857
