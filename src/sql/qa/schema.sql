@@ -29,7 +29,7 @@ DROP TABLE IF EXISTS post_qa.tm_changes;
 CREATE TABLE post_qa.tm_changes AS
 (SELECT public.ccdd_tm_release_candidate.tm_formal_name as rc_formal_name, ccdd.tm_release.tm_formal_name as formal_name, ccdd.tm_release.tm_code
 FROM public.ccdd_tm_release_candidate
-right join ccdd.tm_release on public.ccdd_tm_release_candidate.tm_code = ccdd.tm_release.tm_code
+right join ccdd.tm_release_candidate on public.ccdd_tm_release_candidate.tm_code = ccdd.tm_release.tm_code
 where public.ccdd_tm_release_candidate.tm_formal_name != ccdd.tm_release.tm_formal_name);
 
 ALTER TABLE post_qa.tm_changes OWNER TO postgres;
@@ -47,7 +47,7 @@ With tmp (mp_code,mp_formal_name,ntp_code,ntp_formal_name,tm_code,tm_formal_name
     WHERE T1.tm_code = T2.tm_code
    )
 ) select * from tmp where NOT EXISTS (
-  SELECT * FROM ccdd.mp_release as T3
+  SELECT * FROM ccdd.mp_release_candidate as T3
 	WHERE tmp.mp_code = T3.mp_code
 ) order by tm_formal_name, ntp_formal_name, mp_formal_name;
 
@@ -64,7 +64,7 @@ With tmp (mp_code,mp_formal_name,ntp_code,ntp_formal_name,tm_code,tm_formal_name
     SELECT * FROM ccdd.tm_release as T2 WHERE T1.tm_code = T2.tm_code
   )
 ) select * from tmp where NOT EXISTS (
-  SELECT * FROM ccdd.ntp_release as T3 WHERE tmp.ntp_code = T3.ntp_code
+  SELECT * FROM ccdd.ntp_release_candidate as T3 WHERE tmp.ntp_code = T3.ntp_code
 ) order by tm_formal_name, ntp_formal_name;
 
 ALTER TABLE post_qa.new_ntp_existing_tm OWNER TO postgres;
