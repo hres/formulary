@@ -126,6 +126,13 @@ psql -c "copy (select * from qa_tm_duplicates_code) to STDOUT with CSV HEADER FO
 psql -c "copy (select * from qa_tm_duplicates_name) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_tm_duplicates_name.csv"
 psql -c "copy (select * from qa_mp_ntp_tm_relationship_duplicates_code) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_mp_ntp_tm_relationship_duplicates_code.csv"
 
+psql -v ON_ERROR_STOP=1 < "$baseDir/qa/schema.sql"
+psql -c "copy (select * from post_qa.tm_changes) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_post_qa_tm_changes.csv"
+psql -c "copy (select * from post_qa.ntp_changes) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_post_qa_ntp_changes.csv"
+psql -c "copy (select * from post_qa.mp_changes) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_post_qa_mp_changes.csv"
+psql -c "copy (select * from post_qa.new_ntp_existing_tm) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_post_qa_new_ntp_existing_tm.csv"
+psql -c "copy (select * from post_qa.new_mp_existing_tm) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_post_qa_new_mp_existing_tm.csv"
+
 
 echo
 echo Generated "$PGDATABASE" and output in "$distDir"
