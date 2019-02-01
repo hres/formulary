@@ -5,10 +5,10 @@ ALTER SCHEMA post_qa OWNER TO postgres;
 DROP TABLE IF EXISTS post_qa.mp_changes;
 
 CREATE TABLE post_qa.mp_changes AS
-(SELECT public.ccdd_mp_release_candidate.mp_formal_name as rc_formal_name, ccdd.mp_release.mp_formal_name as formal_name, ccdd.mp_release.mp_code
+(SELECT public.ccdd_mp_release_candidate.mp_formal_name as rc_formal_name, ccdd.mp_release_candidate.mp_formal_name as formal_name, ccdd.mp_release_candidate.mp_code
 FROM public.ccdd_mp_release_candidate
-right join ccdd.mp_release on public.ccdd_mp_release_candidate.mp_code = ccdd.mp_release.mp_code
-where public.ccdd_mp_release_candidate.mp_formal_name != ccdd.mp_release.mp_formal_name);
+right join ccdd.mp_release_candidate on public.ccdd_mp_release_candidate.mp_code = ccdd.mp_release_candidate.mp_code
+where public.ccdd_mp_release_candidate.mp_formal_name != ccdd.mp_release_candidate.mp_formal_name);
 
 ALTER TABLE post_qa.mp_changes OWNER TO postgres;
 
@@ -16,10 +16,10 @@ ALTER TABLE post_qa.mp_changes OWNER TO postgres;
 DROP TABLE IF EXISTS post_qa.ntp_changes;
 
 CREATE TABLE post_qa.ntp_changes AS
-(SELECT public.ccdd_ntp_release_candidate.ntp_formal_name as rc_formal_name, ccdd.ntp_release.ntp_formal_name as formal_name, ccdd.ntp_release.ntp_code
+(SELECT public.ccdd_ntp_release_candidate.ntp_formal_name as rc_formal_name, ccdd.ntp_release_candidate.ntp_formal_name as formal_name, ccdd.ntp_release_candidate.ntp_code
 FROM public.ccdd_ntp_release_candidate
-right join ccdd.ntp_release on public.ccdd_ntp_release_candidate.ntp_code = ccdd.ntp_release.ntp_code
-where public.ccdd_ntp_release_candidate.ntp_formal_name != ccdd.ntp_release.ntp_formal_name);
+right join ccdd.ntp_release_candidate on public.ccdd_ntp_release_candidate.ntp_code = ccdd.ntp_release_candidate.ntp_code
+where public.ccdd_ntp_release_candidate.ntp_formal_name != ccdd.ntp_release_candidate.ntp_formal_name);
 
 ALTER TABLE post_qa.ntp_changes OWNER TO postgres;
 
@@ -27,10 +27,10 @@ ALTER TABLE post_qa.ntp_changes OWNER TO postgres;
 DROP TABLE IF EXISTS post_qa.tm_changes;
 
 CREATE TABLE post_qa.tm_changes AS
-(SELECT public.ccdd_tm_release_candidate.tm_formal_name as rc_formal_name, ccdd.tm_release.tm_formal_name as formal_name, ccdd.tm_release.tm_code
+(SELECT public.ccdd_tm_release_candidate.tm_formal_name as rc_formal_name, ccdd.tm_release_candidate.tm_formal_name as formal_name, ccdd.tm_release_candidate.tm_code
 FROM public.ccdd_tm_release_candidate
-right join ccdd.tm_release_candidate on public.ccdd_tm_release_candidate.tm_code = ccdd.tm_release.tm_code
-where public.ccdd_tm_release_candidate.tm_formal_name != ccdd.tm_release.tm_formal_name);
+right join ccdd.tm_release_candidate on public.ccdd_tm_release_candidate.tm_code = ccdd.tm_release_candidate.tm_code
+where public.ccdd_tm_release_candidate.tm_formal_name != ccdd.tm_release_candidate.tm_formal_name);
 
 ALTER TABLE post_qa.tm_changes OWNER TO postgres;
 
