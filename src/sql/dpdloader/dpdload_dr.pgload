@@ -6,7 +6,11 @@ LOAD ARCHIVE
 FROM https://www.canada.ca/content/dam/hc-sc/documents/services/drug-product-database/allfiles_dr.zip
 --  FROM http://www.hc-sc.gc.ca/dhp-mps/alt_formats/zip/prodpharma/databasdon/allfiles_dr.zip
 -- FROM /home/dbuijs/Databases/dpd_load/dpd_20180801/Allfiles_dr.zip
+<<<<<<< HEAD
   --  FROM /home/nzhu/dpd_extract_20190102/allfiles_dr.zip
+=======
+   FROM /home/nzhu/dpd_extract_20190128/allfile_dr.zip
+>>>>>>> qa-sql-views
   INTO postgresql:///
 
 
