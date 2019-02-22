@@ -6,7 +6,7 @@ LOAD ARCHIVE
 -- FROM http://www.hc-sc.gc.ca/dhp-mps/alt_formats/zip/prodpharma/databasdon/allfiles.zip
 -- FROM /home/dbuijs/Databases/dpd_load/dpd_20180801/Allfiles_.zip
 
-   FROM /home/nzhu/dpd_extract_20190201/allfiles.zip
+   FROM /home/nzhu/dpd_extract_20190222/allfiles.zip
 
   INTO postgresql:///
 
