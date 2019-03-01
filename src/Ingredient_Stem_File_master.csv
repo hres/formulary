@@ -1792,7 +1792,7 @@ Y,VALACYCLOVIR,VALACYCLOVIR (VALACYCLOVIR HYDROCHLORIDE MONOHYDRATE),valacyclovi
 Y,VALACYCLOVIR,VALACYCLOVIR (VALACYCLOVIR HYDROCHLORIDE),valacyclovir,FALSE,valacyclovir (valacyclovir hydrochloride),Released,,1789,Valaciclovir (Chlorhydrate de valaciclovir),,
 Y,,VALGANCICLOVIR (VALGANCICLOVIR HYDROCHLORIDE),valganciclovir,FALSE,valganciclovir (valganciclovir hydrochloride),Released,,1790,Valganciclovir (Chlorhydrate de valganciclovir),,
 ,,VALINE,valine,FALSE,valine,TPN,,1791,Valine,,
-Y,VALPROIC ACID,VALPROIC ACID,valproic acid (base),FALSE,valproic acid (base),Released,,1792,Acide valproïque,,
+Y,VALPROIC ACID,VALPROIC ACID,valproic acid (base),FALSE,valproic acid,Released,,1792,Acide valproïque,,
 Y,DIVALPROEX,VALPROIC ACID (DIVALPROEX SODIUM),valproic acid (divalproex),FALSE,valproic acid (divalproex sodium),Released,,1793,Acide valproïque (Divalproex de sodium),,
 Y,VALPROIC ACID,VALPROIC ACID (SODIUM VALPROATE),valproic acid (valproate),FALSE,valproic acid (sodium valproate),Released,,1794,Acide valproïque (Valproate de sodium),,
 Y,VALSARTAN,VALSARTAN,valsartan,FALSE,valsartan,Released,,1795,Valsartan,,
