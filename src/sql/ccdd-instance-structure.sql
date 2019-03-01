@@ -1441,6 +1441,10 @@ SELECT
    cp.mp_formal_name,
    cp.ntp_formal_name,
    cp.ntp_type
+   (case 
+        when cp.ntp_type='NA' then null
+        else cp.ntp_type
+    END)
     
 FROM
    ccdd.combination_products_csv AS cp
