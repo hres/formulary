@@ -24,7 +24,8 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Ingredient_Stem_File_master.csv
+--  FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Ingredient_Stem_File_master.csv
+    FROM ../Ingredient_Stem_File_master.csv
     WITH ENCODING UTF-8
     (
       ccdd,
