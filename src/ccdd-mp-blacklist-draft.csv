@@ -1,6 +1,8 @@
-drug_code
-"77009"
-"43155"
-"95963"
-"93939"
-"96526"
+"drug_code","drug_identification_number","brand_name","status","history_date","comments"
+"77009","02284529","PMS-ASA EC","Cancelled Post Market",2018-05-07,Not now in generation - leave for now
+"43155","02215187","CAVERJECT STERILE POWDER - PWS 23.2MCG/VIAL","Marketed",2005-11-09,Part of a kit.  DIN needs to be discontinued; keep on blacklist
+"89812","02413469","PMS-DICLOFENAC-MISOPROSTOL","Marketed",2018-12-11,Needs DPD change for dose form correction
+"89813","02413477","PMS-DICLOFENAC-MISOPROSTOL","Marketed",2018-12-11,Needs DPD change for dose form correction
+"97065","02480131","COVERGIRL TRUBLEND BASE BUSINESS SKIN PRIMER BASE POUR LA PEAU","Marketed",2018-12-11,Out of scope - to stay on Blacklist so as not to add into the release
+"8042","00727520","HEPARIN LEO 100UNIT/ML","Marketed",1984-12-31,Dose form issue (should be solution for injection; used as a lock/flush)
+"3228","00438898","FORMULE C34 HERBAGES NATURBEC LTÉE","Marketed",2007-08-10, Dose form issue no information in DPD low usage - to stay on Blacklist

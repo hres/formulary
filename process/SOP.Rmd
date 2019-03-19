@@ -1,0 +1,109 @@
+---
+title: "CCDD Standard operating procedure (SOP)"
+author: "Nancy Zhu, Daniel Buijs"
+date: "October 25 2018"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 4
+    theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Introduction
+The Canadian Clinical Drug Data Set (CCDD) is a national medicinal product terminology owned and maintaiend by Health Canada in partnership with Canada Health Infoway. It is used to support electronic prescribing in Canada, filling the gap in drug terminology.
+
+For a detailed description of the scope, please visit: [Canada Clinical Drug Data Set HomePage](https://infoscribe.infoway-inforoute.ca/display/CCDD/Canadian+Clinical+Drug+Data+Set)
+
+### CCDD monthly generation SOP
+The monthly CCDD generation process can be roughly divided into two stages: QA generation and Generation. All codes used for generation and the relevant documents are documented in a public Github account, accessible at (https://github.com/hres/formulary)
+
+This SOP will list processes performed at **the Data Science Unit in RMOD at Health Canada**.
+
+### QA generation
+* Input files:
+    + DPD extract [Online DPD extract updated monthly](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database/what-data-extract-drug-product-database.html)
+    + CCDD release in previous month
+    + CCDD QA release in previous month
+    + Combination Products_master.csv
+    + Units_of_Presentation_master.csv
+    + Ingredient_Stem_file_master.csv
+    + Special Grouping.xlsx [The above files can be found here](https://github.com/hres/formulary/tree/folder_reorg)
+    + ccdd-config.csv (for date updates)
+    + ntp_dosage_form_map_master.csv 
+    + ccdd-mp-brand-override-draft.csv
+    + ccdd-tm-definitions-draft.csv
+    + ccdd-ntp-definition-draft.csv
+    + ccdd-pseudodin-map-draft.csv
+    + ccdd-mp-whitelist-draft.csv
+    + ccdd-ntp-deprecation-draft.csv
+    + ccdd-mtp-deprecations-draft.csv
+    + TM_filter_master.csv
+    + ccdd-tm-groupings-draft.csv [The above files can be found here](https://github.com/hres/formulary/tree/sql-views/src)
+
+
+* Output files:
+     + qa_release files (ntp,tm,mp,mp_ntp_tm_relationship, special_groupings)
+     + qa_release_changes files
+     + qa_duplicates files
+
+Scripts for the generation procedures are stored [in the sql-views branch in the hres/formulary Github account](https://github.com/hres/formulary/tree/sql-views/src/sql)
+
+**Steps to run QA generation:**
+
+1. update ccdd_date and dpd_extract_date in [ccdd-config.csv](https://github.com/hres/formulary/blob/sql-views/src/sql/test/ccdd-config.csv) file. ccdd_date is the date on which QA generation are performed. dpd_extract_date is the date on which DPD online extract is updated each month.
+
+2. update line 1,2 in [setup.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh) file. Input *ccdd_qa_release_date* and *ccdd_current_release_date*, these are the dates from previous cycle of generation.
+
+3. update filepath for DPD extracts in [dpdload.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload.pgload), [dpdload_ap.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_ap.pgload), 
+[dpdload_dr.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_dr.pgload),
+[dpdload_ia.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_ia.pgload)
+
+4. run script [setup.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh) in command line
+
+
+The files from QA generation are stored in the folder [QAfiles](https://github.com/hres/formulary/tree/folder_reorg/QAfiles) and passed on to the QA team at Infoway for validation.
+
+### Generation
+Before running generation, changes from the QA team are incoporated in the following manners:
+
+* Assign new tm code to some of the TM concepts in the TM_filter_master.csv
+
+* Add previously published MPs (products being made dormant or cancelled post market),to whitelist (ccdd-mp-whitelist-draft.csv), so those products will be returned to the CCDD generation as 'Inactive' 
+
+* Add MP products that need to be removed from CCDD to blacklist (ccdd-mp-blacklist-draft.csv)
+
+* Assign MP products which have the same MP formal name with descriptors (ccdd-mp-brand-override-draft.csv)
+
+* Therefore the following input files are updated or incorporated at the Generation step
+    + ccdd-mp-whitelist-draft.csv
+    + ccdd-mp-blacklist-draft.csv
+    + ccdd-tm-definitions-draft.csv
+    + ccdd-ntp-definitions-draft.csv
+    + ccdd-pseudodin-map-draft.csv
+    + ccdd-mp-brand-override-draft.csv
+   
+
+* Output files:
+     + release candidate files (ntp,tm,mp,mp_ntp_tm_relationship, special_groupings)
+     + release_changes files
+     + qa_duplicates files
+
+
+
+**Steps to run generation:**
+
+1. run script [write-new-concepts.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/write-new-concepts.sh) to update [ccdd-ntp-definitions-draft.csv](), [ccdd-pseudodin-map-draft.csv](), [ccdd-tm-definitions-draft.csv]() files
+
+2. generate [TM_filter_master.csv]() file from ccdd-tm-definitions-draft.csv file with TM filter provided from the QA team at Infoway
+
+3. update ccdd-mp-whitelist-draft.csv, ccdd-mp-blacklist-draft.csv, ccdd-mp-brand-override-draft.csv manually with feedbacks from the QA team at Infoway
+
+2. run script [setup.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh) in command line
+
+
+
+All releases are saved in the folder [releases](https://github.com/hres/formulary/tree/folder_reorg/releases) with the filename including date of generation.
