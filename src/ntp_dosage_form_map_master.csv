@@ -578,8 +578,8 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40006,kit,56,ORAL,,32-85,"KIT, TABLET",,,TRUE,2018-03-28,dbuijs,,40006
 40006,kit,56,ORAL,,5-137-32-85,"CAPSULE, CAPSULE (DELAYED RELEASE), KIT, TABLET",,,TRUE,2018-03-28,dbuijs,,40006
 40001,solution for injection,65,SUBCUTANEOUS,,32-134,"KIT, SOLUTION",,,TRUE,2018-03-28,dbuijs,,40001
-40006,kit,70-74,"TOPICAL, VAGINAL","Topique, Vaginale",9-15,"CREAM, OVULE","Créme, Ovule",,,,,,40006
-40006,kit,70-74,"TOPICAL, VAGINAL","Topique, Vaginale",9-78,"CREAM, SUPPOSITORY","Créme, Suppositoire",,,,,,40006
+40006,kit,70-74,"TOPICAL, VAGINAL","Topique, Vaginale",9-15,"CREAM, OVULE","CrÃ©me, Ovule",,,,,,40006
+40006,kit,70-74,"TOPICAL, VAGINAL","Topique, Vaginale",9-78,"CREAM, SUPPOSITORY","CrÃ©me, Suppositoire",,,,,,40006
 40112,cutaneous gel,70,TOPICAL,,114-32,"GEL, KIT",,,TRUE,2018-03-28,dbuijs,,40112
 40006,kit,70,TOPICAL,,114-32-36,"GEL, KIT, LOTION",,,TRUE,2018-03-28,dbuijs,,40006
 40006,kit,70,TOPICAL,,114-32-52,"GEL, KIT, PASTE",,,TRUE,2018-03-28,dbuijs,,40006
@@ -588,12 +588,12 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40006,kit,70,TOPICAL,,9-114-32-36,"CREAM, GEL, KIT, LOTION",,,TRUE,2018-03-28,dbuijs,,40006
 40146,transdermal solution,71,TRANSDERMAL,Transdermique,134,SOLUTION,Solution,,TRUE,2018-05-01,dbuijs,,40146
 40004,gargle/mouthwash,3-56,"BUCCAL, ORAL","Buccale, Orale",42,MOUTHWASH/GARGLE,Rince-bouche/Gargarisme,,,,,,40004
-40006,kit,22-49-65,"INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intraveineuse, Sous-cutanée",32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",,,,,,40006
-40080,modified-release oral tablet,56,ORAL,Orale,141|161,"CAPSULE (EXTENDED RELEASE), CAPSULE (IMMEDIATE RELEASE)","Capsule (libération prolongée),Capsule (libération immédiate)",,,,,,40080
+40006,kit,22-49-65,"INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire, Intraveineuse, Sous-cutanÃ©e",32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",,,,,,40006
+40080,modified-release oral tablet,56,ORAL,Orale,141|161,"CAPSULE (EXTENDED RELEASE), CAPSULE (IMMEDIATE RELEASE)","Capsule (libÃ©ration prolongÃ©e),Capsule (libÃ©ration immÃ©diate)",,,,,,40080
 40006,kit,22,INTRAMUSCULAR,Intramusculaire,32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",,,,,,40006
 40006,kit,56,ORAL,Orale,5-32,"CAPSULE, KIT","Capsule, Trousse",,,,,,40006
-40006,kit,56-70,"ORAL, TOPICAL","Orale, Topique",5-9-32,"CAPSULE, CREAM, KIT","Capsule, Créme, Trousse",,,,,,40006
-40147,anticoagulant and preservative solution for blood,92,0-UNASSIGNED,0-Non attribuée,134,SOLUTION,Solution,,,,,,40147
+40006,kit,56-70,"ORAL, TOPICAL","Orale, Topique",5-9-32,"CAPSULE, CREAM, KIT","Capsule, CrÃ©me, Trousse",,,,,,40006
+40147,anticoagulant and preservative solution for blood,92,0-UNASSIGNED,0-Non attribuÃ©e,134,SOLUTION,Solution,,,,,,40147
 40091,rectal foam,62,RECTAL,Rectale,175,FOAM,Mousse,,,,,,40091
 40001,solution for injection,29-49-56,"INHALATION, INTRAVENOUS, ORAL","Inhalation, Orale, Intraveineuse",134,SOLUTION,Solution,,,,,,40001
 40001,solution for injection,29-49-56,"INHALATION, INTRAVENOUS, ORAL","Inhalation, Orale, Intraveineuse",34,LIQUID,Liquide,,,,,,40001
@@ -603,7 +603,7 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40106,cutaneous spray,70,TOPICAL,Topique,164,"SPRAY, BAG-ON-VALVE","Pulverisation, sac-sur-valve",,,,,,40106
 40149,cutaneous spray powder,70,TOPICAL,Topique,2-55,"AEROSOL, POWDER","A?rosol, Poudre",,,,,,
 40085,powder for oral/rectal suspension,56-62,"ORAL, RECTAL","Orale, Rectale",126,POWDER FOR SUSPENSION,Poudre pour suspension,,,,,,40085
-40019,suspension for injection,10-42-112,"INTRA-ARTICULAR, INTRASYNOVIAL, PERIARTICULAR","Intra-articulaire, Intrasynoviale, Périarticulaire",79,SUSPENSION,Suspension,,,,,,40019
+40019,suspension for injection,10-42-112,"INTRA-ARTICULAR, INTRASYNOVIAL, PERIARTICULAR","Intra-articulaire, Intrasynoviale, PÃ©riarticulaire",79,SUSPENSION,Suspension,,,,,,40019
 40001,solution for injection,7-111,"EPIDURAL, INFILTRATION","?pidurale, infiltration",134,SOLUTION,Solution,,,,,,
 40124,cutaneous solution,70,TOPICAL,Topique,88,TINCTURE,Teinture,,,,,,
 40075,oral paste,56-70,"ORAL, TOPICAL","Orale, Topique",52,PASTE,P?te,,,,,,
@@ -612,4 +612,4 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40035,irrigation solution,33-36-70,"INTRAPERITONEAL, IRRIGATION, TOPICAL","Intrap?riton?ale, Irrigation, Topique",34,LIQUID,Liquide,,,,,,
 40003,mouthwash,3,BUCCAL,Buccale,182,MOUTHWASH,Rince-bouche,,,,,,
 40094,rectal solution,62,RECTAL,Rectale,20-34,"ENEMA, LIQUID","Lavement, Liquide",,,,,,
-40001,solution for injection,12-22-31-49-114,"INTRA-ARTERIAL, INTRACEREBROVENTRICULAR, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS","Intra-art?rielle, Intrac�r�broventriculaire, Intramusculaire, Intrath?cale, Intraveineuse",134,SOLUTION,Solution,,,,,,
+40001,solution for injection,12-22-31-49-114,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRACEREBROVENTRICULAR","Intra-art?rielle, Intramusculaire, Intrath?cale, Intraveineuse, Intracérébroventriculaire",134,SOLUTION,Solution,,,,,,
