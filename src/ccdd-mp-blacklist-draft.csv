@@ -11,3 +11,5 @@ drug_code,drug_identification_number,brand_name,status,history_date,comments
 3546,469203,FORMULE L2,Marketed,1979-12-31,Product problematic - brandname change not reflected in DPD and dose form issue no information in DPD and assume low usage
 14491,2020793,SCLERODINE 6 INJECTION,Marketed,1977-12-31,Product D/C but still marketed status in DPD
 72815,02248463,VIONEXUS NO-RINSE SPRAY,Marketed,2004-11-20,Hand antiseptic for professional use - out of scope 
+71113,02246888,AVAGARD,Marketed,2003-07-02,Hand antiseptic for professional use - out of scope
+64391,02240800,STERIGEL PLUS,Marketed,2014-03-20,Hand antiseptic for professional use - out of scope
