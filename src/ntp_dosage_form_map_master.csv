@@ -613,3 +613,4 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40003,mouthwash,3,BUCCAL,Buccale,182,MOUTHWASH,Rince-bouche,,,,,,
 40094,rectal solution,62,RECTAL,Rectale,20-34,"ENEMA, LIQUID","Lavement, Liquide",,,,,,
 40001,solution for injection,12-22-31-49-114,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRACEREBROVENTRICULAR","Intra-art?rielle, Intramusculaire, Intrath?cale, Intraveineuse, Intracérébroventriculaire",134,SOLUTION,Solution,,,,,,
+40005,oromucosal spray,3,BUCCAL,Buccale,158,"SPRAY, METERED DOSE","pULv?risation, ? dose mesur?e",,,,,,
