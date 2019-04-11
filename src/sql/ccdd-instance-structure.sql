@@ -1521,7 +1521,13 @@ SELECT * FROM (
 				WHERE tmistem.ccdd_tm_code = tm.code AND dintp.dpd_named_ingredient_name = ddiOther.dpd_named_ingredient_name
 			)
 		)
-) drug_tm WHERE tm_formal_name NOT ILIKE '% and water%' AND tm_formal_name NOT ILIKE '%diluent and%' AND tm_formal_name NOT ILIKE '% and melphalan%';
+) drug_tm WHERE (
+	tm_formal_name NOT ILIKE '%and%'
+	AND (
+		tm_formal_name NOT ILIKE '%water%'
+		 AND tm_formal_name NOT ILIKE '%diluent%'
+		 AND tm_formal_name NOT ILIKE '%buffer solution%'
+));
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_drug_tm OWNER TO postgres;
 -- ddl-end --
