@@ -1522,12 +1522,12 @@ SELECT * FROM (
 			)
 		)
 ) drug_tm WHERE (
-	tm_formal_name NOT ILIKE '%and%'
-	AND (
-		tm_formal_name NOT ILIKE '%water%'
-		 AND tm_formal_name NOT ILIKE '%diluent%'
-		 AND tm_formal_name NOT ILIKE '%buffer solution%'
-));
+	tm_formal_name NOT ILIKE
+	CASE WHEN tm_formal_name ILIKE '%water%' THEN '%and%'
+    WHEN tm_formal_name ILIKE '%diluent%' THEN '%and%'
+    WHEN tm_formal_name ILIKE '%buffer solution%' THEN '%and%'
+	else '' END
+);
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_drug_tm OWNER TO postgres;
 -- ddl-end --
