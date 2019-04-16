@@ -8,6 +8,7 @@ LOAD ARCHIVE
 
    FROM /home/nzhu/dpd_extract_20190401/allfiles.zip
 
+
   INTO postgresql:///
 
   BEFORE LOAD EXECUTE dpd_structure.sql
