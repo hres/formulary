@@ -110,6 +110,23 @@ INSERT INTO public.dpd_drug_ingredient_option(
     dosage_unit
 FROM public.dpd_drug_ingredient_option_source;
 
+DELETE FROM public.dpd_drug_ingredient_option WHERE dpd_drug_code IN (
+SELECT dpd_drug_code FROM (
+        select
+        CASE
+            WHEN STRING_AGG(ou.dpd_named_ingredient_name, ' and ') ILIKE '%WATER%' THEN STRING_AGG(ou.dpd_named_ingredient_name, ' and ')
+            WHEN STRING_AGG(ou.dpd_named_ingredient_name, ' and ') ILIKE '%DILUENT%' THEN STRING_AGG(ou.dpd_named_ingredient_name, ' and ')
+            WHEN STRING_AGG(ou.dpd_named_ingredient_name, ' and ') ILIKE '%BUFFER SOLUTION%' THEN STRING_AGG(ou.dpd_named_ingredient_name, ' and ')
+          END
+         as ingredients, dpd_drug_code from public.dpd_drug_ingredient_option ou
+    where
+    (
+        select count(*) from public.dpd_drug_ingredient_option inr
+        where inr.dpd_drug_code = ou.dpd_drug_code GROUP BY dpd_drug_code
+    ) > 1 GROUP BY ou.dpd_drug_code ORDER BY dpd_drug_code ASC
+    ) ab WHERE ingredients IS NOT NULL
+);
+
 INSERT INTO public.ccdd_ingredient_stem(
     name
 ) SELECT
