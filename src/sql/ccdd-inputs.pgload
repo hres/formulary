@@ -1,5 +1,6 @@
 LOAD CSV
-  FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Combination%20Products_master.csv
+    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Combination%20Products_master.csv
+  --FROM ./test/combination_table_test.csv 
     WITH ENCODING UTF-8
     (
       drug_code,
