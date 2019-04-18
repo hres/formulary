@@ -1433,6 +1433,8 @@ CREATE INDEX ccdd_drug_ingredient_summary_drug_code ON public.ccdd_drug_ingredie
 
 -- object: public.ccdd_combination_product_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_combination_product_source CASCADE;
+
+
 CREATE MATERIALIZED VIEW public.ccdd_combination_product_source
 AS
 
