@@ -53,7 +53,7 @@ With tmp (mp_code,mp_formal_name,ntp_code,ntp_formal_name,tm_code,tm_formal_name
 
 ALTER TABLE post_qa.new_mp_existing_tm OWNER TO postgres;
 
--- start new_mp_existing_tm.sql;
+-- start new_ntp_existing_tm.sql;
 DROP TABLE IF EXISTS post_qa.new_ntp_existing_tm;
 
 CREATE TABLE post_qa.new_ntp_existing_tm AS
@@ -68,3 +68,20 @@ With tmp (mp_code,mp_formal_name,ntp_code,ntp_formal_name,tm_code,tm_formal_name
 ) order by tm_formal_name, ntp_formal_name;
 
 ALTER TABLE post_qa.new_ntp_existing_tm OWNER TO postgres;
+
+
+-- relationship table for QA team:
+CREATE TABLE post_qa.qa_relationship_table AS 
+
+SELECT *
+          FROM 
+          (select mp_code, mp_formal_name, ntp_code, ntp_formal_name, tm_code, tm_formal_name FROM public.ccdd_mp_ntp_tm_relationship
+        UNION ALL
+        (select * from ccdd.mp_ntp_tm_relationship_release_candidate where mp_code IN ('02212188', '02480360', '02480379'))) as T1
+          WHERE NOT EXISTS (
+          SELECT * FROM ccdd.tm_release as T2
+          WHERE T1.tm_code = T2.tm_code
+          )
+          order by tm_formal_name, ntp_formal_name;
+
+ALTER TABLE post_qa.qa_relationship_table OWNER TO postgres;
