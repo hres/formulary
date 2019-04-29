@@ -1433,6 +1433,8 @@ CREATE INDEX ccdd_drug_ingredient_summary_drug_code ON public.ccdd_drug_ingredie
 
 -- object: public.ccdd_combination_product_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_combination_product_source CASCADE;
+
+
 CREATE MATERIALIZED VIEW public.ccdd_combination_product_source
 AS
 
@@ -1469,65 +1471,57 @@ ALTER TABLE ccdd.mp_brand_override OWNER TO postgres;
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_drug_tm CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_drug_tm
 AS
-SELECT * FROM (
-	SELECT
-		dd.code AS dpd_drug_code,
-		tm.code AS tm_code,
-		(
+SELECT
+	dd.code AS dpd_drug_code,
+	tm.code AS tm_code,
+	(
+		SELECT
+			STRING_AGG(stemList.stem, ' and ')
+		FROM (
 			SELECT
-				STRING_AGG(stemList.stem, ' and ')
-			FROM (
-				SELECT
-					tmistem.ccdd_ingredient_stem_name AS stem
-				FROM ccdd_tm_ingredient_stem tmistem
-				WHERE tmistem.ccdd_tm_code = tm.code
-				GROUP BY tmistem.ccdd_ingredient_stem_name
-				ORDER BY regexp_replace(tmistem.ccdd_ingredient_stem_name, '[[:punct:]]', '', 'g')
-			) AS stemList
-		) AS tm_formal_name
-	FROM
-		dpd_drug dd,
-		ccdd_tm tm
-	WHERE
-		EXISTS(
+				tmistem.ccdd_ingredient_stem_name AS stem
+			FROM ccdd_tm_ingredient_stem tmistem
+			WHERE tmistem.ccdd_tm_code = tm.code
+			GROUP BY tmistem.ccdd_ingredient_stem_name
+			ORDER BY regexp_replace(tmistem.ccdd_ingredient_stem_name, '[[:punct:]]', '', 'g')
+		) AS stemList
+	) AS tm_formal_name
+FROM
+	dpd_drug dd,
+	ccdd_tm tm
+WHERE
+	EXISTS(
+		SELECT * FROM
+			dpd_drug_ingredient ddi
+			INNER JOIN ccdd_dpd_ingredient_ntp_mapping dintp ON(dintp.dpd_named_ingredient_name = ddi.dpd_named_ingredient_name)
+			INNER JOIN ccdd_ntp_ingredient ntpi ON(ntpi.name = dintp.ccdd_ntp_ingredient_name)
+			INNER JOIN ccdd_tm_ingredient_stem tmistem ON(tmistem.ccdd_ingredient_stem_name = ntpi.ccdd_ingredient_stem_name)
+		WHERE ddi.dpd_drug_code = dd.code AND tmistem.ccdd_tm_code = tm.code
+	)
+	AND
+	NOT EXISTS(
+		SELECT * FROM
+			ccdd_tm_ingredient_stem tmistemOther
+		WHERE tmistemOther.ccdd_tm_code = tm.code AND NOT EXISTS(
 			SELECT * FROM
 				dpd_drug_ingredient ddi
 				INNER JOIN ccdd_dpd_ingredient_ntp_mapping dintp ON(dintp.dpd_named_ingredient_name = ddi.dpd_named_ingredient_name)
 				INNER JOIN ccdd_ntp_ingredient ntpi ON(ntpi.name = dintp.ccdd_ntp_ingredient_name)
+			WHERE ddi.dpd_drug_code = dd.code AND ntpi.ccdd_ingredient_stem_name = tmistemOther.ccdd_ingredient_stem_name
+		)
+	)
+	AND
+	NOT EXISTS(
+		SELECT * FROM
+			dpd_drug_ingredient ddiOther
+		WHERE ddiOther.dpd_drug_code = dd.code AND NOT EXISTS(
+			SELECT * FROM
+				ccdd_dpd_ingredient_ntp_mapping dintp
+				INNER JOIN ccdd_ntp_ingredient ntpi ON(ntpi.name = dintp.ccdd_ntp_ingredient_name)
 				INNER JOIN ccdd_tm_ingredient_stem tmistem ON(tmistem.ccdd_ingredient_stem_name = ntpi.ccdd_ingredient_stem_name)
-			WHERE ddi.dpd_drug_code = dd.code AND tmistem.ccdd_tm_code = tm.code
+			WHERE tmistem.ccdd_tm_code = tm.code AND dintp.dpd_named_ingredient_name = ddiOther.dpd_named_ingredient_name
 		)
-		AND
-		NOT EXISTS(
-			SELECT * FROM
-				ccdd_tm_ingredient_stem tmistemOther
-			WHERE tmistemOther.ccdd_tm_code = tm.code AND NOT EXISTS(
-				SELECT * FROM
-					dpd_drug_ingredient ddi
-					INNER JOIN ccdd_dpd_ingredient_ntp_mapping dintp ON(dintp.dpd_named_ingredient_name = ddi.dpd_named_ingredient_name)
-					INNER JOIN ccdd_ntp_ingredient ntpi ON(ntpi.name = dintp.ccdd_ntp_ingredient_name)
-				WHERE ddi.dpd_drug_code = dd.code AND ntpi.ccdd_ingredient_stem_name = tmistemOther.ccdd_ingredient_stem_name
-			)
-		)
-		AND
-		NOT EXISTS(
-			SELECT * FROM
-				dpd_drug_ingredient ddiOther
-			WHERE ddiOther.dpd_drug_code = dd.code AND NOT EXISTS(
-				SELECT * FROM
-					ccdd_dpd_ingredient_ntp_mapping dintp
-					INNER JOIN ccdd_ntp_ingredient ntpi ON(ntpi.name = dintp.ccdd_ntp_ingredient_name)
-					INNER JOIN ccdd_tm_ingredient_stem tmistem ON(tmistem.ccdd_ingredient_stem_name = ntpi.ccdd_ingredient_stem_name)
-				WHERE tmistem.ccdd_tm_code = tm.code AND dintp.dpd_named_ingredient_name = ddiOther.dpd_named_ingredient_name
-			)
-		)
-) drug_tm WHERE (
-	tm_formal_name NOT ILIKE
-	CASE WHEN tm_formal_name ILIKE '%water%' THEN '%and%'
-    WHEN tm_formal_name ILIKE '%diluent%' THEN '%and%'
-    WHEN tm_formal_name ILIKE '%buffer solution%' THEN '%and%'
-	else '' END
-);
+	);
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_drug_tm OWNER TO postgres;
 -- ddl-end --
