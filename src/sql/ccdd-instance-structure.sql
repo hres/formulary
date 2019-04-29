@@ -2068,7 +2068,7 @@ select
 		), E'\n' ORDER BY cmp.field_name)
 	END) as changes
 from
-	ccdd.mp_release cur
+	ccdd.mp_release_candidate cur
 	LEFT JOIN ccdd_mp_table nxt ON(nxt.mp_code = cur.mp_code)
 	LEFT JOIN LATERAL (VALUES
 		('mp_formal_name', cur.mp_formal_name, nxt.mp_formal_name),
@@ -2093,7 +2093,7 @@ select
 from
 	ccdd_mp_table nxt
 WHERE
-	not exists(select * from ccdd.mp_release cur where cur.mp_code = nxt.mp_code);
+	not exists(select * from ccdd.mp_release_candidate cur where cur.mp_code = nxt.mp_code);
 -- ddl-end --
 ALTER VIEW public.qa_release_changes_mp OWNER TO postgres;
 -- ddl-end --
@@ -2221,7 +2221,7 @@ select
 		), E'\n' ORDER BY cmp.field_name)
 	END) as changes
 from
-	ccdd.ntp_release cur
+	ccdd.ntp_release_candidate cur
 	LEFT JOIN ccdd_ntp_table nxt ON(cur.ntp_code = CAST(nxt.ntp_code AS varchar))
 	LEFT JOIN LATERAL (VALUES
 		('ntp_formal_name', cur.ntp_formal_name, nxt.ntp_formal_name),
@@ -2245,7 +2245,7 @@ select
 from
 	ccdd_ntp_table nxt
 WHERE
-	not exists(select * from ccdd.ntp_release cur where cur.ntp_code = CAST(nxt.ntp_code AS varchar));
+	not exists(select * from ccdd.ntp_release_candidate cur where cur.ntp_code = CAST(nxt.ntp_code AS varchar));
 -- ddl-end --
 ALTER VIEW public.qa_release_changes_ntp OWNER TO postgres;
 -- ddl-end --
@@ -2269,7 +2269,7 @@ select
 		), E'\n' ORDER BY cmp.field_name)
 	END) as changes
 from
-	ccdd.tm_release cur
+	ccdd.tm_release_candidate cur
 	LEFT JOIN ccdd_tm_table nxt ON(cur.tm_code = CAST(nxt.tm_code AS varchar))
 	LEFT JOIN LATERAL (VALUES
 		('tm_formal_name', cur.tm_formal_name, nxt.tm_formal_name),
@@ -2287,12 +2287,12 @@ UNION
 select
 	CAST(nxt.tm_code AS varchar) as tm_code,
 	nxt.tm_formal_name,
-	(CASE WHEN nxt.tm_formal_name = (SELECT tm_formal_name FROM ccdd.tm_release WHERE tm_formal_name = nxt.tm_formal_name) THEN 'CHANGED' ELSE 'ADDED' END)
+	(CASE WHEN nxt.tm_formal_name = (SELECT tm_formal_name FROM ccdd.tm_release_candidate WHERE tm_formal_name = nxt.tm_formal_name) THEN 'CHANGED' ELSE 'ADDED' END)
 	as changes
 from
 	ccdd_tm_table nxt
 WHERE
-	not exists(select * from ccdd.tm_release cur where cur.tm_code = CAST(nxt.tm_code AS varchar));
+	not exists(select * from ccdd.tm_release_candidate cur where cur.tm_code = CAST(nxt.tm_code AS varchar));
 -- ddl-end --
 ALTER VIEW public.qa_release_changes_tm OWNER TO postgres;
 -- ddl-end --
@@ -2519,7 +2519,7 @@ select
 		), E'\n' ORDER BY cmp.field_name)
 	END) as changes
 from
-	ccdd.mp_ntp_tm_relationship_release cur
+	ccdd.mp_ntp_tm_relationship_release_candidate cur
 	LEFT JOIN ccdd_mp_ntp_tm_relationship nxt ON(nxt.mp_code = cur.mp_code)
 	LEFT JOIN LATERAL (VALUES
 		('mp_formal_name', cur.mp_formal_name, nxt.mp_formal_name),
@@ -2543,7 +2543,7 @@ select
 from
 	ccdd_mp_ntp_tm_relationship nxt
 WHERE
-	not exists(select * from ccdd.mp_ntp_tm_relationship_release cur where cur.mp_code = nxt.mp_code);
+	not exists(select * from ccdd.mp_ntp_tm_relationship_release_candidate cur where cur.mp_code = nxt.mp_code);
 -- ddl-end --
 ALTER VIEW public.qa_release_changes_mp_ntp_tm_relationship OWNER TO postgres;
 -- ddl-end --
