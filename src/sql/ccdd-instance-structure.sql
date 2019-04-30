@@ -2042,8 +2042,43 @@ WHERE
 ALTER MATERIALIZED VIEW public.ccdd_presentation_source OWNER TO postgres;
 -- ddl-end --
 
+CREATE TABLE ccdd.mp_release_candidate(
+	mp_code varchar,
+	mp_formal_name text,
+	mp_en_description text,
+	mp_fr_description text,
+	mp_status varchar,
+	mp_status_effective_time varchar,
+	mp_type varchar,
+	"Health_Canada_identifier" text,
+	"Health_Canada_product_name" text
+);
+-- ddl-end --
+ALTER TABLE ccdd.mp_release_candidate OWNER TO postgres;
 
+CREATE TABLE ccdd.tm_release_candidate(
+	tm_code varchar,
+	tm_formal_name text,
+	tm_status varchar,
+	tm_status_effective_time varchar
+);
+-- ddl-end --
+ALTER TABLE ccdd.tm_release_candidate OWNER TO postgres;
+-- ddl-end --
 
+-- object: ccdd.ntp_release_candidate | type: TABLE --
+-- DROP TABLE IF EXISTS ccdd.ntp_release_candidate CASCADE;
+CREATE TABLE ccdd.ntp_release_candidate(
+	ntp_code varchar,
+	ntp_formal_name text,
+	ntp_en_description text,
+	ntp_fr_description text,
+	ntp_status varchar,
+	ntp_status_effective_time varchar,
+	ntp_type varchar
+);
+-- ddl-end --
+ALTER TABLE ccdd.ntp_release_candidate OWNER TO postgres;
 -- object: public.qa_release_changes_mp | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_release_changes_mp CASCADE;
 CREATE VIEW public.qa_release_changes_mp
@@ -2494,7 +2529,16 @@ order by dd.din;
 -- ddl-end --
 ALTER VIEW public.qa_missing_concepts_ingredient_stem OWNER TO postgres;
 -- ddl-end --
-
+CREATE TABLE ccdd.mp_ntp_tm_relationship_release_candidate(
+	mp_code varchar,
+	mp_formal_name text,
+	ntp_code varchar,
+	ntp_formal_name text,
+	tm_code varchar,
+	tm_formal_name text
+);
+-- ddl-end --
+ALTER TABLE ccdd.mp_ntp_tm_relationship_release_candidate OWNER TO postgres;
 -- object: public.qa_release_changes_mp_ntp_tm_relationship | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_release_changes_mp_ntp_tm_relationship CASCADE;
 CREATE VIEW public.qa_release_changes_mp_ntp_tm_relationship
@@ -2822,60 +2866,17 @@ ALTER MATERIALIZED VIEW public.ccdd_special_groupings OWNER TO postgres;
 --
 -- object: ccdd.mp_release_candidate | type: TABLE --
 -- DROP TABLE IF EXISTS ccdd.mp_release_candidate CASCADE;
-CREATE TABLE ccdd.mp_release_candidate(
-	mp_code varchar,
-	mp_formal_name text,
-	mp_en_description text,
-	mp_fr_description text,
-	mp_status varchar,
-	mp_status_effective_time varchar,
-	mp_type varchar,
-	"Health_Canada_identifier" text,
-	"Health_Canada_product_name" text
-);
--- ddl-end --
-ALTER TABLE ccdd.mp_release_candidate OWNER TO postgres;
+
 -- ddl-end --
 
 -- object: ccdd.mp_ntp_tm_relationship_release_candidate | type: TABLE --
 -- DROP TABLE IF EXISTS ccdd.mp_ntp_tm_relationship_release_candidate CASCADE;
-CREATE TABLE ccdd.mp_ntp_tm_relationship_release_candidate(
-	mp_code varchar,
-	mp_formal_name text,
-	ntp_code varchar,
-	ntp_formal_name text,
-	tm_code varchar,
-	tm_formal_name text
-);
--- ddl-end --
-ALTER TABLE ccdd.mp_ntp_tm_relationship_release_candidate OWNER TO postgres;
+
 -- ddl-end --
 
 -- object: ccdd.tm_release_candidate | type: TABLE --
 -- DROP TABLE IF EXISTS ccdd.tm_release_candidate CASCADE;
-CREATE TABLE ccdd.tm_release_candidate(
-	tm_code varchar,
-	tm_formal_name text,
-	tm_status varchar,
-	tm_status_effective_time varchar
-);
--- ddl-end --
-ALTER TABLE ccdd.tm_release_candidate OWNER TO postgres;
--- ddl-end --
 
--- object: ccdd.ntp_release_candidate | type: TABLE --
--- DROP TABLE IF EXISTS ccdd.ntp_release_candidate CASCADE;
-CREATE TABLE ccdd.ntp_release_candidate(
-	ntp_code varchar,
-	ntp_formal_name text,
-	ntp_en_description text,
-	ntp_fr_description text,
-	ntp_status varchar,
-	ntp_status_effective_time varchar,
-	ntp_type varchar
-);
--- ddl-end --
-ALTER TABLE ccdd.ntp_release_candidate OWNER TO postgres;
 -- ddl-end --
 
 -- object: public.ccdd_mp_release_candidate | type: MATERIALIZED VIEW --

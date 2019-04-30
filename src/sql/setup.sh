@@ -27,6 +27,17 @@ pgloader "$baseDir/dpdloader/dpdload_ia.pgload"
 pgloader "$baseDir/dpdloader/dpdload_dr.pgload"
 pgloader "$baseDir/dpdloader/dpdload_ap.pgload"
 
+dpd_old_database="dpd";
+dpd_old_schema="dpd_old_one";
+
+pg_dump -C dpd --schema="$dpd_old_schema" > dpdchanges.sql
+pg_dump dpd --schema="$dpd_old_schema" > dpdchanges.sql
+
+psql -v "$PGDATABASE" < dpdchanges.sql
+
+psql -c "ALTER SCHEMA $dpd_old_schema RENAME TO dpd_old"
+rm -f dpdchanges.sql
+
 # global config for CCDD generation process
 pgloader "$baseDir/ccdd-config.pgload"
 
@@ -38,6 +49,9 @@ pgloader "$baseDir/ccdd-current-release.pgload" && rm "$baseDir/ccdd-current-rel
 
 # load the data from views into main schema
 psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-run-views.sql"
+
+pgloader "$baseDir/dpdchanges/ingredient_stem_csv.pgload"
+psql -v ON_ERROR_STOP=1 < dpdchanges/schema.sql
 
 # create output folder, then export CCDD concepts as CSV files to output
 mkdir -p "$distDir"
