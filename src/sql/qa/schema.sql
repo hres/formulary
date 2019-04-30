@@ -79,7 +79,7 @@ SELECT *
         UNION ALL
         (select * from ccdd.mp_ntp_tm_relationship_release_candidate where mp_code IN ('02212188', '02480360', '02480379'))) as T1
           WHERE NOT EXISTS (
-          SELECT * FROM ccdd.tm_release as T2
+          SELECT * FROM ccdd.tm_release_candidate as T2
           WHERE T1.tm_code = T2.tm_code
           )
           order by tm_formal_name, ntp_formal_name;
