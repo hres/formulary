@@ -1,8 +1,6 @@
 drug_code,drug_identification_number,brand_name,status,history_date,comments
 77009,2284529,PMS-ASA EC,Cancelled Post Market,2018-05-07,Not now in generation - leave for now
 43155,2215187,CAVERJECT STERILE POWDER - PWS 23.2MCG/VIAL,Marketed,2005-11-09,Part of a kit.  DIN needs to be discontinued; keep on blacklist
-89812,2413469,PMS-DICLOFENAC-MISOPROSTOL,Marketed,2018-12-11,Needs DPD change for dose form correction
-89813,2413477,PMS-DICLOFENAC-MISOPROSTOL,Marketed,2018-12-11,Needs DPD change for dose form correction
 97065,2480131,COVERGIRL TRUBLEND BASE BUSINESS SKIN PRIMER BASE POUR LA PEAU,Marketed,2018-12-11,Out of scope - to stay on Blacklist so as not to add into the release
 8042,727520,HEPARIN LEO 100UNIT/ML,Marketed,1984-12-31,Dose form issue (should be solution for injection; used as a lock/flush)
 3228,438898,FORMULE C34 HERBAGES NATURBEC LTÉE,Marketed,2007-08-10, Dose form issue no information in DPD low usage - to stay on Blacklist
@@ -16,3 +14,11 @@ drug_code,drug_identification_number,brand_name,status,history_date,comments
 72560,2248224,MANORAPID SYNERGY,Cancelled Post Market,2019-01-01,Hand antiseptic for professional use - out of scope
 89891,2414252,SATINIQUE ANTI-DANDRUFF SHAMPOO,Cancelled Post Market,2017-11-09,Cancelled post market and has problematic strength - leave out
 13600,1974548,MICRO I,Marketed,2006-06-17,TPN additive Out of scope. Keep on blacklist
+96586,2475480,NEOSTIGMINE METHYLSULFATE INJECTION USP,Marketed,2019-03-26,Needs UoP. TM already released
+96587,2475499,NEOSTIGMINE METHYLSULFATE INJECTION USP	Marketed,2019-03-26,Needs UoP. TM already released
+96812,2477254,PHENYLEPHRINE HYDROCHLORIDE INJECTION USP,Marketed,2019-03-26,Needs UoP. TM already released
+96981,2479109,SODIUM NITROPRUSSIDE FOR INJECTION,Marketed,2019-04-15,Needs UoP. TM already released
+91135,2426781,TEVA-VARENICLINE,Marketed,2019-04-23,Needs CP entry. TM already released
+94162,2454858,METOJECT SUBCUTANEOUS,Marketed,2018-11-30,Needs UoP
+96492,2474735,METHOTREXATE INJECTION BP,Marketed,2019-04-23,Needs UoP
+96511,2474891,METHOTREXATE INJECTION BP,Marketed,2019-04-23,Needs UoP
