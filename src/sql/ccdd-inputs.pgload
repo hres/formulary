@@ -1,6 +1,7 @@
 LOAD CSV
-    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Combination%20Products_master.csv
-  --FROM ./test/combination_table_test.csv 
+  FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Combination%20Products_master.csv
+  --FROM ./test/combination_table_test.csv
+  --FROM ./CCDD_French/combination_table_fr.csv
     WITH ENCODING UTF-8
     (
       drug_code,
@@ -25,7 +26,10 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Ingredient_Stem_File_master.csv
+      FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Ingredient_Stem_File_master.csv
+  --  FROM ../../test_ingredient_stem.csv
+  --  FROM ./CCDD_French/stem_ingredient_fr.csv
+    
     WITH ENCODING UTF-8
     (
       ccdd,
@@ -52,7 +56,9 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Units_of_Presentation_master.csv
+    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Units_of_Presentation_master.csv
+  --FROM ./CCDD_French/unit_of_presentation_fr.csv
+    
     WITH ENCODING UTF-8
     (
       drug_code,
@@ -79,8 +85,10 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ntp_dosage_form_map_master.csv
-    WITH ENCODING LATIN-1
+     FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ntp_dosage_form_map_master.csv
+  -- FROM ./CCDD_French/ntp_dosage_fr.csv  
+  
+    WITH ENCODING UTF-8
     (
       ntp_dosage_form_code,
       ntp_dosage_form,

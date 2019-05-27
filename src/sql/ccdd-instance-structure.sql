@@ -880,7 +880,7 @@ SELECT name FROM (
 		tm_name_part AS name
 	FROM
 		ccdd.tm_definition AS tt,
-		regexp_split_to_table(tt.formal_name, '\s+and\s+', 'i') AS tm_name_part
+		regexp_split_to_table(tt.formal_name, '\s+and\s+(?!sp-c)', 'i') AS tm_name_part
 ) allstems
 GROUP BY name;
 -- ddl-end --
