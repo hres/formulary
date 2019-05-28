@@ -1,5 +1,5 @@
 LOAD CSV
-  FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Combination%20Products_master.csv
+    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Combination%20Products_master.csv
   --FROM ./test/combination_table_test.csv
   --FROM ./CCDD_French/combination_table_fr.csv
     WITH ENCODING UTF-8
@@ -56,8 +56,8 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Units_of_Presentation_master.csv
-  --FROM ./CCDD_French/unit_of_presentation_fr.csv
+      FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Units_of_Presentation_master.csv
+  --  FROM ./CCDD_French/unit_of_presentation_fr.csv
     
     WITH ENCODING UTF-8
     (
@@ -86,7 +86,7 @@ LOAD CSV
 
 LOAD CSV
      FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ntp_dosage_form_map_master.csv
-  -- FROM ./CCDD_French/ntp_dosage_fr.csv  
+   --  FROM ./CCDD_French/ntp_dosage_fr.csv  
   
     WITH ENCODING UTF-8
     (
@@ -143,7 +143,8 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM ./test/ccdd-tm-definitions-draft.csv
+    FROM ./test/ccdd-tm-definitions-draft.csv
+  --FROM ./CCDD_French/tm_definition_draft_fr.csv
     WITH ENCODING UTF-8
     (
       code,
