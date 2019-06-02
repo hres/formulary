@@ -396,4 +396,5 @@ drug_code,drug_identification_number,mp_formal_name,ntp_formal_name,ntp_type,ntp
 10516,60437,OSMITROL 20% INJ USP (mannitol 20 % solution for injection 500 mL bag) BAXTER CORPORATION,mannitol 20 % solution for injection 500 mL bag,NA,,,,Str - Unit,
 9829,799963,CYSTOSOL W 3% HEXITOLS (mannitol 5 mg per mL and sorbitol 25 mg per mL irrigation solution 3000 mL bag) BAXTER CORPORATION,mannitol 5 mg per mL and sorbitol 25 mg per mL irrigation solution 3000 mL bag,NA,,,,Str - Desc,
 67055,2243176,MANNITOL INJECTION (mannitol 25 % solution for injection 50 mL vial) FRESENIUS KABI CANADA LTD,mannitol 25 % solution for injection 50 mL vial,NA,,,,Str - Unit,
-89069,02405946,DRY COUGH RELIEF EXTRA STRENGTH (dextromethorphan hydrobromide 15 mg per 5 mL syrup) TRILLIUM HEALTH CARE PRODUCTS INC,dextromethorphan hydrobromide 15 mg per 5 mL syrup,,9001832,,,Str - Desc,
+89069,2405946,DRY COUGH RELIEF EXTRA STRENGTH (dextromethorphan hydrobromide 15 mg per 5 mL syrup) TRILLIUM HEALTH CARE PRODUCTS INC,dextromethorphan hydrobromide 15 mg per 5 mL syrup,,9001832,,,Str - Desc,
+83536,2350122,SAIZEN (somatropin 6 mg per 1.03 mL solution for injection cartridge) EMD SERONO A DIVISION OF EMD INC CANADA,somatropin 6 mg per 1.03 mL solution for injection cartridge,NA,,,,Str - Desc,DPD change pending
