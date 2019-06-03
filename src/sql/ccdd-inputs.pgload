@@ -1,14 +1,17 @@
 LOAD CSV
-    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Combination%20Products_master.csv
-  --FROM ./test/combination_table_test.csv
-  --FROM ./CCDD_French/combination_table_fr.csv
+    FROM ./CCDD_French/combination_products_master.csv
     WITH ENCODING UTF-8
     (
       drug_code,
       drug_identification_number,
       mp_formal_name,
       ntp_formal_name,
-      ntp_type
+      ntp_type,
+      ntp_code,
+      Entry.type,
+      Change.Plan,
+      mp_formal_name_fr,
+      ntp_formal_name_fr
     )
   INTO postgresql:///?ccdd.combination_products_csv
     (
@@ -16,7 +19,9 @@ LOAD CSV
       drug_identification_number,
       mp_formal_name,
       ntp_formal_name,
-      ntp_type
+      ntp_type,
+      mp_formal_name_fr,
+      ntp_formal_name_fr
     )
   WITH
     skip header = 1,
@@ -26,9 +31,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-      FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Ingredient_Stem_File_master.csv
-  --  FROM ../../test_ingredient_stem.csv
-  --  FROM ./CCDD_French/stem_ingredient_fr.csv
+  --  FROM ./CCDD_French/stem_ingredient.csv
     
     WITH ENCODING UTF-8
     (
@@ -37,7 +40,13 @@ LOAD CSV
       dpd_ingredient,
       ing_stem,
       hydrate,
-      ntp_ing
+      ntp_ing,
+      CCDD.Status,
+      comments_do.not.use.commas.or.special.characters,
+      index_num,
+      dpd_ingredient_FR,
+      ing_stem_fr,
+      ntp_ing_fr
     )
   INTO postgresql:///?ccdd.ingredient_stem_csv
     (
@@ -46,7 +55,9 @@ LOAD CSV
       dpd_ingredient,
       ing_stem,
       hydrate,
-      ntp_ing
+      ntp_ing,
+      ing_stem_fr,
+      ntp_ing_fr
     )
   WITH
     skip header = 1,
@@ -56,8 +67,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-      FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Units_of_Presentation_master.csv
-  --  FROM ./CCDD_French/unit_of_presentation_fr.csv
+    FROM ./CCDD_French/units_of_presentation_master.csv
     
     WITH ENCODING UTF-8
     (
@@ -66,7 +76,12 @@ LOAD CSV
       uop_size,
       uop_unit_of_measure,
       calculation,
-      uop_size_insert
+      uop_size_insert,
+      DIN,
+      Product_and_Company_Name,
+      X,
+      index_num,
+      unit_of_presentation_fr
     )
   INTO postgresql:///?ccdd.unit_of_presentation_csv
     (
@@ -75,7 +90,8 @@ LOAD CSV
       uop_size,
       uop_unit_of_measure,
       calculation,
-      uop_size_insert
+      uop_size_insert,
+      unit_of_presentation_fr
     )
   WITH
     skip header = 1,
@@ -85,8 +101,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-     FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ntp_dosage_form_map_master.csv
-   --  FROM ./CCDD_French/ntp_dosage_fr.csv  
+    FROM ./CCDD_French/ntp_dosage_form_map_master.csv  
   
     WITH ENCODING UTF-8
     (
@@ -102,7 +117,9 @@ LOAD CSV
       validated,
       date_validated,
       validated_by,
-      ntp_dosage_form_id
+      ntp_dosage_form_id,
+      index_num,
+      ntp_dosage_form_fr
     )
   INTO postgresql:///?ccdd.ntp_dosage_forms
     (
@@ -114,7 +131,8 @@ LOAD CSV
       pharm_form_code,
       pharmaceutical_form,
       pharmaceutical_form_f,
-      audit_id
+      audit_id,
+      ntp_dosage_form_fr
     )
   WITH
     skip header = 1,
@@ -143,17 +161,19 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM ./test/ccdd-tm-definitions-draft.csv
-  --FROM ./CCDD_French/tm_definition_draft_fr.csv
+    FROM ./CCDD_French/tm_definition_draft.csv
+    
     WITH ENCODING UTF-8
     (
       code,
-      formal_name
+      formal_name,
+      formal_name_fr
     )
   INTO postgresql:///?ccdd.tm_definition
     (
       code,
-      formal_name
+      formal_name,
+      formal_name_fr
     )
   WITH
     skip header = 1,
@@ -163,16 +183,18 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM ./test/ccdd-ntp-definitions-draft.csv
+  FROM ./CCDD_French/ntp_definitions_draft.csv
     WITH ENCODING UTF-8
     (
       code,
-      formal_name
+      formal_name,
+      formal_name_fr
     )
   INTO postgresql:///?ccdd.ntp_definition
     (
       code,
-      formal_name
+      formal_name,
+      formal_name_fr
     )
   WITH
     skip header = 1,
@@ -182,14 +204,15 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM ./test/ccdd-pseudodin-map-draft.csv
+  FROM ./CCDD_French/ccdd_pseudodin_map_draft.csv
     WITH ENCODING UTF-8
     (
       pseudodin,
       drug_code,
       unit_of_presentation,
       uop_size_amount,
-      uop_size_unit
+      uop_size_unit,
+      unit_of_presentation_fr
     )
   INTO postgresql:///?ccdd.pseudodin_map
     (
@@ -197,7 +220,8 @@ LOAD CSV
       drug_code,
       unit_of_presentation,
       uop_size_amount,
-      uop_size_unit
+      uop_size_unit,
+      unit_of_presentation_fr
     )
   WITH
     skip header = 1,
