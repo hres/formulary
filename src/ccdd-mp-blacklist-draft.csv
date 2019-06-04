@@ -14,12 +14,6 @@ drug_code,drug_identification_number,brand_name,status,history_date,comments
 72560,2248224,MANORAPID SYNERGY,Cancelled Post Market,2019-01-01,Hand antiseptic for professional use - out of scope
 89891,2414252,SATINIQUE ANTI-DANDRUFF SHAMPOO,Cancelled Post Market,2017-11-09,Cancelled post market and has problematic strength - leave out
 13600,1974548,MICRO I,Marketed,2006-06-17,TPN additive Out of scope. Keep on blacklist
-96586,2475480,NEOSTIGMINE METHYLSULFATE INJECTION USP,Marketed,2019-03-26,Needs UoP. TM already released
-96587,2475499,NEOSTIGMINE METHYLSULFATE INJECTION USP,Marketed,2019-03-26,Needs UoP. TM already released
-96812,2477254,PHENYLEPHRINE HYDROCHLORIDE INJECTION USP,Marketed,2019-03-26,Needs UoP. TM already released
-96981,2479109,SODIUM NITROPRUSSIDE FOR INJECTION,Marketed,2019-04-15,Needs UoP. TM already released
-91135,2426781,TEVA-VARENICLINE,Marketed,2019-04-23,Needs CP entry. TM already released
-94162,2454858,METOJECT SUBCUTANEOUS,Marketed,2018-11-30,Needs UoP
 96492,2474735,METHOTREXATE INJECTION BP,Marketed,2019-04-23,Needs UoP
 96511,2474891,METHOTREXATE INJECTION BP,Marketed,2019-04-23,Needs UoP
 6775,691623,BICARBONATE CONCENTRATE D17000,Marketed,2001-10-01,Out of scope. Haemodialysis
@@ -33,3 +27,5 @@ drug_code,drug_identification_number,brand_name,status,history_date,comments
 88829,2403498,BICART,Marketed,2016-04-05,Out of scope. Haemodialysis
 88830,2403501,BICART,Marketed,2016-03-24,Out of scope. Haemodialysis
 91307,2428601,BIFLEXY 900,Marketed,2016-08-08,Out of scope. Haemodialysis
+57,50520,MINERALE LEGERE HUILE,Marketed,1951-12-31,UoP discussion
+14042,1935321,LIGHT MINERAL OIL 100% NF,Marketed,1993-12-31,UoP discussion
