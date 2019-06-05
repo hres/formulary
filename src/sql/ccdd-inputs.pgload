@@ -31,8 +31,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-  --  FROM ./CCDD_French/stem_ingredient.csv
-    
+    FROM ./CCDD_French/stem_ingredient.csv
     WITH ENCODING UTF-8
     (
       ccdd,
@@ -68,7 +67,7 @@ LOAD CSV
 
 LOAD CSV
     FROM ./CCDD_French/units_of_presentation_master.csv
-    
+
     WITH ENCODING UTF-8
     (
       drug_code,
@@ -101,8 +100,8 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM ./CCDD_French/ntp_dosage_form_map_master.csv  
-  
+    FROM ./CCDD_French/ntp_dosage_form_map_master.csv
+
     WITH ENCODING UTF-8
     (
       ntp_dosage_form_code,
@@ -162,7 +161,7 @@ LOAD CSV
 
 LOAD CSV
     FROM ./CCDD_French/tm_definition_draft.csv
-    
+
     WITH ENCODING UTF-8
     (
       code,
@@ -183,7 +182,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM ./CCDD_French/ntp_definitions_draft.csv
+  FROM ./CCDD_French/ntp_definition_draft.csv
     WITH ENCODING UTF-8
     (
       code,

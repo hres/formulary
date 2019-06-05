@@ -31,8 +31,10 @@ pgloader "$baseDir/dpdloader/dpdload_ap.pgload"
 pgloader "$baseDir/ccdd-config.pgload"
 
 # CCDD schema and source data
-psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-instance-structure.sql"
+psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-csv.sql"
 pgloader "$baseDir/ccdd-inputs.pgload"
+
+psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-instance-structure.sql"
 sed -e "s/%QA_DATE%/$ccdd_qa_release_date/g" "$baseDir/ccdd-current-release.pgload.template" | sed -e "s/%RELEASE_DATE%/$ccdd_current_release_date/g" > "$baseDir/ccdd-current-release.pgload"
 pgloader "$baseDir/ccdd-current-release.pgload" && rm "$baseDir/ccdd-current-release.pgload"
 
