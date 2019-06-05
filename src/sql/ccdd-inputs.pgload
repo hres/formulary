@@ -31,7 +31,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-  --  FROM ./CCDD_French/stem_ingredient.csv
+    FROM ./CCDD_French/stem_ingredient.csv
     
     WITH ENCODING UTF-8
     (
