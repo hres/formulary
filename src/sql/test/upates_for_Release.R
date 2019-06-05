@@ -8,7 +8,7 @@ library(tidyr)
 
 ccdd <- dbPool(drv      = RPostgreSQL::PostgreSQL(),
                    host     = "rest.hc.local",
-                   dbname   = "ccdd_2019_04_03_100715",
+                   dbname   = "ccdd_2019_06_03_110903",
                    user     = "nzhu",
                    password = "nzhu_rest" )
 
@@ -17,7 +17,7 @@ dpd_drug<-tbl(ccdd, in_schema("dpd","drug_product"))%>%as.data.frame()
 changes_mp<-tbl(ccdd, in_schema("public","qa_release_changes_mp_release_candidate"))%>%as.data.frame()
 
 #changes_mp<-read.xlsx('TM NTP and MP Concepts to be added back for September 2018 CCDD Release.xlsx',3,stringsAsFactors=F,header=T)
-julie_whitelist<-read.csv('./src/sql/test/whitelist_20190404.csv',stringsAsFactors = F)
+julie_whitelist<-read.csv('./src/sql/test/whitelist_20190605.csv',stringsAsFactors = F)
 code_to_add<-changes_mp[changes_mp$changes=='DELETED',1:2]
 code_to_add<-left_join(code_to_add,dpd_drug[,c('drug_code','drug_identification_number')],by=c('mp_code'='drug_identification_number'))
 code_to_add<-code_to_add%>%filter(drug_code %in% julie_whitelist$drug_code)
