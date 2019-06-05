@@ -614,7 +614,7 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40124,cutaneous solution,70,TOPICAL,Topique,88,TINCTURE,Teinture,NA,NA,,,,NA,solution pour application cutanée
 40075,oral paste,56-70,"ORAL, TOPICAL","Orale,Topique",52,PASTE,Pâte,NA,NA,,,,NA,pâte orale
 40029,nasal spray,53,NASAL,Nasale,98-79,"SPRAY, SUSPENSION","Pulvérisation,Suspension",NA,NA,,,,NA,vaporisation nasale
-NA,oral/rectal suspension,56-62,"ORAL, RECTAL","Orale,Rectale",79,SUSPENSION,Suspension,NA,NA,,,,NA,solution orale/rectale
+,oral/rectal suspension,56-62,"ORAL, RECTAL","Orale,Rectale",79,SUSPENSION,Suspension,NA,NA,,,,NA,solution orale/rectale
 40035,irrigation solution,33-36-70,"INTRAPERITONEAL, IRRIGATION, TOPICAL","Intrapéritonéale,Irrigation,Topique",34,LIQUID,Liquide,NA,NA,,,,NA,solution pour irrigation
 40003,mouthwash,3,BUCCAL,Buccale,182,MOUTHWASH,Rince-bouche,NA,NA,,,,NA,solution pour bain de bouche
 40094,rectal solution,62,RECTAL,Rectale,20-34,"ENEMA, LIQUID","Lavement,Liquide",NA,NA,,,,NA,solution rectale
