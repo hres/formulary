@@ -45,7 +45,7 @@ write.csv(whitelist,'./src/sql/test/ccdd-mp-whitelist-draft.csv',row.names = F)
 
 # first run write-new-concetps.sql script to update tm_definition_draft
 #update TM_filter_master.csv
-tm_filter<-read.csv('./src/sql/test/tm_filter_20190404.csv',stringsAsFactors = F)
+tm_filter<-read.csv('./src/sql/test/tm_filter_20190605.csv',stringsAsFactors = F)
 tm_definition<-read.csv('./src/sql/test/ccdd-tm-definitions-draft.csv',stringsAsFactors = F)
 tm_filter_master<-tm_definition%>%filter(formal_name%in% tm_filter$tm_formal_name)
 
