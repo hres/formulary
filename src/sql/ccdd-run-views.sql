@@ -190,10 +190,12 @@ FROM public.ccdd_dosage_form_source;
 
 INSERT INTO public.ccdd_dosage_form_mapping(
     id,
-    ccdd_dosage_form_name
+    ccdd_dosage_form_name,
+    ccdd_dosage_form_name_fr
 ) SELECT
     id,
-    ccdd_dosage_form_name
+    ccdd_dosage_form_name,
+    ccdd_dosage_form_name_fr
 FROM public.ccdd_dosage_form_mapping_source;
 
 INSERT INTO public.ccdd_dosage_form_mapping_dpd_form(
