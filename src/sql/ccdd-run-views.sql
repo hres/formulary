@@ -111,9 +111,11 @@ INSERT INTO public.dpd_drug_ingredient_option(
 FROM public.dpd_drug_ingredient_option_source;
 
 INSERT INTO public.ccdd_ingredient_stem(
-    name
+    name,
+    name_fr
 ) SELECT
-    name
+    name,
+    name_fr
 FROM public.ccdd_ingredient_stem_source;
 
 INSERT INTO public.ccdd_ntp_ingredient(
@@ -142,10 +144,12 @@ FROM public.ccdd_tm_source;
 
 INSERT INTO public.ccdd_tm_ingredient_stem(
     ccdd_tm_code,
-    ccdd_ingredient_stem_name
+    ccdd_ingredient_stem_name,
+    ccdd_ingredient_stem_name_fr
 ) SELECT
     ccdd_tm_code,
-    ccdd_ingredient_stem_name
+    ccdd_ingredient_stem_name,
+    ccdd_ingredient_stem_name_fr
 FROM public.ccdd_tm_ingredient_stem_source;
 
 INSERT INTO public.dpd_route(

@@ -566,6 +566,7 @@ ALTER MATERIALIZED VIEW public.dpd_route_source OWNER TO postgres;
 CREATE TABLE public.ccdd_tm_ingredient_stem(
 	ccdd_tm_code bigint,
 	ccdd_ingredient_stem_name varchar,
+	ccdd_ingredient_stem_name_fr varchar,
 	CONSTRAINT ccdd_tm_ingredient_stem_pk PRIMARY KEY (ccdd_tm_code,ccdd_ingredient_stem_name)
 
 );
@@ -623,9 +624,10 @@ ALTER MATERIALIZED VIEW public.ccdd_dpd_ingredient_ntp_mapping_source OWNER TO p
 CREATE MATERIALIZED VIEW public.ccdd_ingredient_stem_source
 AS
 
-SELECT name FROM (
+SELECT name, name_fr FROM (
 	SELECT
-		isc.ing_stem AS name
+		isc.ing_stem AS name,
+		isc.ing_stem_fr AS name_fr
 	FROM
 		ccdd.ingredient_stem_csv AS isc
 	WHERE
@@ -634,12 +636,13 @@ SELECT name FROM (
 	UNION
 
 	SELECT
-		tm_name_part AS name
+	unnest(string_to_array(formal_name, ' and ')) as name,
+	unnest(string_to_array(formal_name_fr, ' et ')) as name_fr
+
 	FROM
-		ccdd.tm_definition AS tt,
-		regexp_split_to_table(tt.formal_name, '\s+and\s+(?!sp-c)', 'i') AS tm_name_part
+		ccdd.tm_definition
 ) allstems
-GROUP BY name;
+GROUP BY name, name_fr;
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_ingredient_stem_source OWNER TO postgres;
 -- ddl-end --
@@ -660,11 +663,11 @@ CREATE MATERIALIZED VIEW public.ccdd_tm_ingredient_stem_source
 AS
 
 SELECT
-   tt.code AS ccdd_tm_code,
-   tm_name_part AS ccdd_ingredient_stem_name
+   code AS ccdd_tm_code,
+   unnest(string_to_array(formal_name, ' and ')) as ccdd_ingredient_stem_name,
+   unnest(string_to_array(formal_name_fr, ' et ')) as ccdd_ingredient_stem_name_fr
 FROM
-   ccdd.tm_definition AS tt,
-   regexp_split_to_table(tt.formal_name, '\s+and\s+(?!sp-c)', 'i') AS tm_name_part;
+   ccdd.tm_definition;
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_tm_ingredient_stem_source OWNER TO postgres;
 -- ddl-end --
