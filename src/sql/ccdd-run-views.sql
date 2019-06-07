@@ -240,8 +240,10 @@ INSERT INTO public.ccdd_presentation(
     id,
     dpd_drug_code,
     unit,
+    unit_fr,
     size_amount,
     size_unit,
+    size_unit_fr,
     strength_is_per_size_unit,
     unit_has_explicit_size,
     pseudodin
@@ -249,8 +251,10 @@ INSERT INTO public.ccdd_presentation(
     id,
     dpd_drug_code,
     unit,
+    unit_fr,
     size_amount,
     size_unit,
+    size_unit_fr,
     strength_is_per_size_unit,
     unit_has_explicit_size,
     pseudodin
