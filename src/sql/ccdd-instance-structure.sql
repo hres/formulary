@@ -97,6 +97,7 @@ ON DELETE RESTRICT ON UPDATE CASCADE;
 -- DROP TABLE IF EXISTS public.ccdd_ingredient_stem CASCADE;
 CREATE TABLE public.ccdd_ingredient_stem(
 	name varchar NOT NULL,
+	name_fr varchar,
 	CONSTRAINT ccdd_ingredient_stem_pk PRIMARY KEY (name)
 
 );
@@ -624,7 +625,7 @@ ALTER MATERIALIZED VIEW public.ccdd_dpd_ingredient_ntp_mapping_source OWNER TO p
 CREATE MATERIALIZED VIEW public.ccdd_ingredient_stem_source
 AS
 
-SELECT name, name_fr FROM (
+SELECT DISTINCT name, name_fr FROM (
 	SELECT
 		isc.ing_stem AS name,
 		isc.ing_stem_fr AS name_fr
