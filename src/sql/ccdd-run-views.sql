@@ -95,19 +95,25 @@ FROM public.dpd_drug_schedule_source;
 INSERT INTO public.dpd_drug_ingredient_option(
     dpd_drug_code,
     dpd_named_ingredient_name,
+    dpd_named_ingredient_name_fr,
     dpd_active_ingredient_code_id,
     strength_amount,
     strength_unit,
+    strength_unit_fr,
     dosage_amount,
-    dosage_unit
+    dosage_unit,
+    dosage_unit_fr
 ) SELECT
     dpd_drug_code,
     dpd_named_ingredient_name,
+    dpd_named_ingredient_name_fr,
     dpd_active_ingredient_code_id,
     strength_amount,
     strength_unit,
+    strength_unit_fr,
     dosage_amount,
-    dosage_unit
+    dosage_unit,
+    dosage_unit_fr
 FROM public.dpd_drug_ingredient_option_source;
 
 INSERT INTO public.ccdd_ingredient_stem(

@@ -439,11 +439,14 @@ ALTER SEQUENCE public.dpd_drug_ingredient_option_source_order OWNER TO postgres;
 CREATE TABLE public.dpd_drug_ingredient_option(
 	dpd_drug_code bigint NOT NULL,
 	dpd_named_ingredient_name varchar NOT NULL,
+	dpd_named_ingredient_name_fr varchar,
 	dpd_active_ingredient_code_id bigint NOT NULL,
 	strength_amount double precision NOT NULL,
 	strength_unit varchar NOT NULL,
+	strength_unit_fr varchar,
 	dosage_amount double precision,
 	dosage_unit varchar,
+	dosage_unit_fr varchar,
 	source_order bigint DEFAULT nextval('public.dpd_drug_ingredient_option_source_order'::regclass)
 );
 -- ddl-end --
@@ -521,11 +524,14 @@ AS
 SELECT
    ai.drug_code AS dpd_drug_code,
    ai.ingredient AS dpd_named_ingredient_name,
+	 ai.ingredient_f AS dpd_named_ingredient_name_fr,
    ai.active_ingredient_code AS dpd_active_ingredient_code_id,
    CAST (ai.strength AS double precision) AS strength_amount,
    ccdd_normalized_unit(ai.strength_unit) AS strength_unit,
+	 ccdd_normalized_unit(ai.strength_unit_f) AS strength_unit_fr,
    CAST (nullif(ai.dosage_value, '') AS double precision) AS dosage_amount,
-   ccdd_normalized_unit(ai.dosage_unit) AS dosage_unit
+   ccdd_normalized_unit(ai.dosage_unit) AS dosage_unit,
+	 ccdd_normalized_unit(ai.dosage_unit_f) AS dosage_unit_fr
 FROM
    dpd.active_ingredient AS ai
 WHERE
