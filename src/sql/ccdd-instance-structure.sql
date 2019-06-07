@@ -129,7 +129,8 @@ ON DELETE RESTRICT ON UPDATE CASCADE;
 CREATE TABLE public.ccdd_dpd_ingredient_ntp_mapping(
 	dpd_named_ingredient_name varchar NOT NULL,
 	ccdd bool,
-	ccdd_ntp_ingredient_name varchar NOT NULL
+	ccdd_ntp_ingredient_name varchar NOT NULL,
+	ccdd_ntp_ingredient_name_fr varchar
 );
 -- ddl-end --
 ALTER TABLE public.ccdd_dpd_ingredient_ntp_mapping OWNER TO postgres;
@@ -619,6 +620,7 @@ AS
 SELECT
    isc.dpd_ingredient AS dpd_named_ingredient_name,
    isc.ntp_ing AS ccdd_ntp_ingredient_name,
+	 isc.ntp_ing_fr AS ccdd_ntp_ingredient_name_fr,
    coalesce(isc.ccdd = 'Y', false) AS ccdd
 FROM
    ccdd.ingredient_stem_csv AS isc

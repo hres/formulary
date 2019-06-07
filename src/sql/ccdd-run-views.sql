@@ -135,11 +135,13 @@ FROM public.ccdd_ntp_ingredient_source;
 INSERT INTO public.ccdd_dpd_ingredient_ntp_mapping(
     dpd_named_ingredient_name,
     ccdd,
-    ccdd_ntp_ingredient_name
+    ccdd_ntp_ingredient_name,
+    ccdd_ntp_ingredient_name_fr
 ) SELECT
     dpd_named_ingredient_name,
     ccdd,
-    ccdd_ntp_ingredient_name
+    ccdd_ntp_ingredient_name,
+    ccdd_ntp_ingredient_name_fr
 FROM public.ccdd_dpd_ingredient_ntp_mapping_source;
 
 INSERT INTO public.ccdd_tm(
