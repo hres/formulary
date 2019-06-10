@@ -97,6 +97,7 @@ ON DELETE RESTRICT ON UPDATE CASCADE;
 -- DROP TABLE IF EXISTS public.ccdd_ingredient_stem CASCADE;
 CREATE TABLE public.ccdd_ingredient_stem(
 	name varchar NOT NULL,
+	name_fr varchar,
 	CONSTRAINT ccdd_ingredient_stem_pk PRIMARY KEY (name)
 
 );
@@ -128,7 +129,8 @@ ON DELETE RESTRICT ON UPDATE CASCADE;
 CREATE TABLE public.ccdd_dpd_ingredient_ntp_mapping(
 	dpd_named_ingredient_name varchar NOT NULL,
 	ccdd bool,
-	ccdd_ntp_ingredient_name varchar NOT NULL
+	ccdd_ntp_ingredient_name varchar NOT NULL,
+	ccdd_ntp_ingredient_name_fr varchar
 );
 -- ddl-end --
 ALTER TABLE public.ccdd_dpd_ingredient_ntp_mapping OWNER TO postgres;
@@ -182,6 +184,7 @@ ALTER TABLE public.ccdd_dosage_form OWNER TO postgres;
 CREATE TABLE public.ccdd_dosage_form_mapping(
 	id varchar NOT NULL,
 	ccdd_dosage_form_name varchar NOT NULL,
+	ccdd_dosage_form_name_fr varchar,
 	CONSTRAINT ccdd_dosage_form_mapping_pk PRIMARY KEY (id)
 
 );
@@ -252,8 +255,10 @@ CREATE TABLE public.ccdd_presentation(
 	id varchar NOT NULL,
 	dpd_drug_code bigint NOT NULL,
 	unit varchar,
+	unit_fr varchar,
 	size_amount double precision,
 	size_unit varchar,
+	size_unit_fr varchar,
 	strength_is_per_size_unit bool,
 	unit_has_explicit_size bool,
 	pseudodin bigint,
@@ -272,124 +277,6 @@ REFERENCES public.dpd_drug (code) MATCH FULL
 ON DELETE RESTRICT ON UPDATE CASCADE;
 -- ddl-end --
 
--- -- object: dpd.active_ingredient | type: TABLE --
--- -- DROP TABLE IF EXISTS dpd.active_ingredient CASCADE;
--- CREATE TABLE dpd.active_ingredient(
--- 	"extract" text DEFAULT 'approved',
--- 	drug_code integer NOT NULL,
--- 	active_ingredient_code integer NOT NULL,
--- 	ingredient text NOT NULL,
--- 	ingredient_supplied_ind text,
--- 	strength text NOT NULL,
--- 	strength_unit text NOT NULL,
--- 	strength_type text,
--- 	dosage_value text,
--- 	base text,
--- 	dosage_unit text,
--- 	notes text,
--- 	ingredient_f text,
--- 	strength_unit_f text,
--- 	strength_type_f text,
--- 	dosage_unit_f text
--- );
--- -- ddl-end --
--- ALTER TABLE dpd.active_ingredient OWNER TO postgres;
--- -- ddl-end --
---
--- -- object: dpd.companies | type: TABLE --
--- -- DROP TABLE IF EXISTS dpd.companies CASCADE;
--- CREATE TABLE dpd.companies(
--- 	"extract" text DEFAULT 'approved',
--- 	drug_code integer NOT NULL,
--- 	mfr_code text,
--- 	company_code integer NOT NULL,
--- 	company_name text NOT NULL,
--- 	company_type text,
--- 	address_mailing_flag text,
--- 	address_billing_flag text,
--- 	address_notification_flag text,
--- 	address_other text,
--- 	suite_number text,
--- 	street_name text,
--- 	city_name text,
--- 	province text,
--- 	country text,
--- 	postal_code text,
--- 	post_office_box text,
--- 	province_f text,
--- 	country_f text
--- );
--- -- ddl-end --
--- ALTER TABLE dpd.companies OWNER TO postgres;
--- -- ddl-end --
---
--- -- object: dpd.drug_product | type: TABLE --
--- -- DROP TABLE IF EXISTS dpd.drug_product CASCADE;
--- CREATE TABLE dpd.drug_product(
--- 	"extract" text NOT NULL DEFAULT 'approved',
--- 	drug_code integer NOT NULL,
--- 	product_categorization text,
--- 	class text,
--- 	drug_identification_number text NOT NULL,
--- 	brand_name text NOT NULL,
--- 	descriptor text,
--- 	pediatric_flag text,
--- 	accession_number text,
--- 	number_of_ais text,
--- 	last_update_date date,
--- 	ai_group_no text,
--- 	class_f text,
--- 	brand_name_f text,
--- 	descriptor_f text,
--- 	CONSTRAINT drug_product_drug_code PRIMARY KEY ("extract",drug_code)
---
--- );
--- -- ddl-end --
--- ALTER TABLE dpd.drug_product OWNER TO postgres;
--- -- ddl-end --
---
--- -- object: dpd.pharmaceutical_form | type: TABLE --
--- -- DROP TABLE IF EXISTS dpd.pharmaceutical_form CASCADE;
--- CREATE TABLE dpd.pharmaceutical_form(
--- 	"extract" text DEFAULT 'approved',
--- 	drug_code integer NOT NULL,
--- 	pharm_form_code integer,
--- 	pharmaceutical_form text,
--- 	pharmaceutical_form_f text
--- );
--- -- ddl-end --
--- ALTER TABLE dpd.pharmaceutical_form OWNER TO postgres;
--- -- ddl-end --
---
--- -- object: dpd.route | type: TABLE --
--- -- DROP TABLE IF EXISTS dpd.route CASCADE;
--- CREATE TABLE dpd.route(
--- 	"extract" text DEFAULT 'approved',
--- 	drug_code integer NOT NULL,
--- 	route_of_administration_code text,
--- 	route_of_administration text,
--- 	route_of_administration_f text
--- );
--- -- ddl-end --
--- ALTER TABLE dpd.route OWNER TO postgres;
--- -- ddl-end --
---
--- -- object: dpd.status | type: TABLE --
--- -- DROP TABLE IF EXISTS dpd.status CASCADE;
--- CREATE TABLE dpd.status(
--- 	"extract" text DEFAULT 'approved',
--- 	drug_code integer NOT NULL,
--- 	current_status_flag text,
--- 	status text,
--- 	history_date date,
--- 	status_f text,
--- 	lot_number text,
--- 	expiration_date text
--- );
--- -- ddl-end --
--- ALTER TABLE dpd.status OWNER TO postgres;
--- -- ddl-end --
---
 -- object: public.dpd_drug_route | type: TABLE --
 -- DROP TABLE IF EXISTS public.dpd_drug_route CASCADE;
 CREATE TABLE public.dpd_drug_route(
@@ -555,11 +442,14 @@ ALTER SEQUENCE public.dpd_drug_ingredient_option_source_order OWNER TO postgres;
 CREATE TABLE public.dpd_drug_ingredient_option(
 	dpd_drug_code bigint NOT NULL,
 	dpd_named_ingredient_name varchar NOT NULL,
+	dpd_named_ingredient_name_fr varchar,
 	dpd_active_ingredient_code_id bigint NOT NULL,
 	strength_amount double precision NOT NULL,
 	strength_unit varchar NOT NULL,
+	strength_unit_fr varchar,
 	dosage_amount double precision,
 	dosage_unit varchar,
+	dosage_unit_fr varchar,
 	source_order bigint DEFAULT nextval('public.dpd_drug_ingredient_option_source_order'::regclass)
 );
 -- ddl-end --
@@ -637,11 +527,14 @@ AS
 SELECT
    ai.drug_code AS dpd_drug_code,
    ai.ingredient AS dpd_named_ingredient_name,
+	 ai.ingredient_f AS dpd_named_ingredient_name_fr,
    ai.active_ingredient_code AS dpd_active_ingredient_code_id,
    CAST (ai.strength AS double precision) AS strength_amount,
    ccdd_normalized_unit(ai.strength_unit) AS strength_unit,
+	 ccdd_normalized_unit(ai.strength_unit_f) AS strength_unit_fr,
    CAST (nullif(ai.dosage_value, '') AS double precision) AS dosage_amount,
-   ccdd_normalized_unit(ai.dosage_unit) AS dosage_unit
+   ccdd_normalized_unit(ai.dosage_unit) AS dosage_unit,
+	 ccdd_normalized_unit(ai.dosage_unit_f) AS dosage_unit_fr
 FROM
    dpd.active_ingredient AS ai
 WHERE
@@ -683,6 +576,7 @@ ALTER MATERIALIZED VIEW public.dpd_route_source OWNER TO postgres;
 CREATE TABLE public.ccdd_tm_ingredient_stem(
 	ccdd_tm_code bigint,
 	ccdd_ingredient_stem_name varchar,
+	ccdd_ingredient_stem_name_fr varchar,
 	CONSTRAINT ccdd_tm_ingredient_stem_pk PRIMARY KEY (ccdd_tm_code,ccdd_ingredient_stem_name)
 
 );
@@ -726,6 +620,7 @@ AS
 SELECT
    isc.dpd_ingredient AS dpd_named_ingredient_name,
    isc.ntp_ing AS ccdd_ntp_ingredient_name,
+	 isc.ntp_ing_fr AS ccdd_ntp_ingredient_name_fr,
    coalesce(isc.ccdd = 'Y', false) AS ccdd
 FROM
    ccdd.ingredient_stem_csv AS isc
@@ -740,9 +635,10 @@ ALTER MATERIALIZED VIEW public.ccdd_dpd_ingredient_ntp_mapping_source OWNER TO p
 CREATE MATERIALIZED VIEW public.ccdd_ingredient_stem_source
 AS
 
-SELECT name FROM (
+SELECT DISTINCT name, name_fr FROM (
 	SELECT
-		isc.ing_stem AS name
+		isc.ing_stem AS name,
+		isc.ing_stem_fr AS name_fr
 	FROM
 		ccdd.ingredient_stem_csv AS isc
 	WHERE
@@ -751,12 +647,13 @@ SELECT name FROM (
 	UNION
 
 	SELECT
-		tm_name_part AS name
+	unnest(string_to_array(formal_name, ' and ')) as name,
+	unnest(string_to_array(formal_name_fr, ' et ')) as name_fr
+
 	FROM
-		ccdd.tm_definition AS tt,
-		regexp_split_to_table(tt.formal_name, '\s+and\s+(?!sp-c)', 'i') AS tm_name_part
+		ccdd.tm_definition
 ) allstems
-GROUP BY name;
+GROUP BY name, name_fr;
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_ingredient_stem_source OWNER TO postgres;
 -- ddl-end --
@@ -777,11 +674,11 @@ CREATE MATERIALIZED VIEW public.ccdd_tm_ingredient_stem_source
 AS
 
 SELECT
-   tt.code AS ccdd_tm_code,
-   tm_name_part AS ccdd_ingredient_stem_name
+   code AS ccdd_tm_code,
+   unnest(string_to_array(formal_name, ' and ')) as ccdd_ingredient_stem_name,
+   unnest(string_to_array(formal_name_fr, ' et ')) as ccdd_ingredient_stem_name_fr
 FROM
-   ccdd.tm_definition AS tt,
-   regexp_split_to_table(tt.formal_name, '\s+and\s+(?!sp-c)', 'i') AS tm_name_part;
+   ccdd.tm_definition;
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_tm_ingredient_stem_source OWNER TO postgres;
 -- ddl-end --
@@ -890,11 +787,13 @@ AS
 
 SELECT
    CONCAT(df.ntp_dosage_form_code, '|', df.route_of_administration_code, '|', df.pharm_form_code) AS id,
-   df.ntp_dosage_form AS ccdd_dosage_form_name
+   df.ntp_dosage_form AS ccdd_dosage_form_name,
+	 df.ntp_dosage_form_fr AS ccdd_dosage_form_name_fr
 FROM
    ccdd.ntp_dosage_forms AS df
 WHERE
-   true   GROUP BY id, ccdd_dosage_form_name;
+   true
+GROUP BY id, ccdd_dosage_form_name, ccdd_dosage_form_name_fr;
 -- ddl-end --
 COMMENT ON MATERIALIZED VIEW public.ccdd_dosage_form_mapping_source IS 'Grouped to eliminate possible duplicates';
 -- ddl-end --
@@ -940,7 +839,7 @@ ALTER MATERIALIZED VIEW public.ccdd_dosage_form_mapping_dpd_route_source OWNER T
 CREATE MATERIALIZED VIEW public.ccdd_drug_dosage_form_by_route
 AS
 
-select dd.code as dpd_drug_code, dform.id as mapping_id, dform.ccdd_dosage_form_name from
+select dd.code as dpd_drug_code, dform.id as mapping_id, dform.ccdd_dosage_form_name, dform.ccdd_dosage_form_name_fr from
 	dpd_drug dd,
 	ccdd_dosage_form_mapping dform
 where
@@ -1039,7 +938,7 @@ ALTER VIEW public.ccdd_drug_ingredient_option_description OWNER TO postgres;
 CREATE MATERIALIZED VIEW public.ccdd_drug_dosage_form_by_form
 AS
 
-select dd.code as dpd_drug_code, dform.id as mapping_id, dform.ccdd_dosage_form_name from
+select dd.code as dpd_drug_code, dform.id as mapping_id, dform.ccdd_dosage_form_name, dform.ccdd_dosage_form_name_fr from
 	dpd_drug dd,
 	ccdd_dosage_form_mapping dform
 where
@@ -1085,7 +984,13 @@ select
 			ccdd_drug_dosage_form_by_form dfbf
 			INNER JOIN ccdd_drug_dosage_form_by_route dfbr USING(dpd_drug_code, mapping_id)
 		where dfbf.dpd_drug_code = dd.code
-	) as dosage_form
+	) as dosage_form,
+	(
+		select dfbf.ccdd_dosage_form_name_fr from
+			ccdd_drug_dosage_form_by_form dfbf
+			INNER JOIN ccdd_drug_dosage_form_by_route dfbr USING(dpd_drug_code, mapping_id)
+		where dfbf.dpd_drug_code = dd.code
+	) as name_fr
 from
 	dpd_drug dd;
 -- ddl-end --
@@ -1318,7 +1223,19 @@ SELECT
 			GROUP BY tmistem.ccdd_ingredient_stem_name
 			ORDER BY regexp_replace(tmistem.ccdd_ingredient_stem_name, '[[:punct:]]', '', 'g')
 		) AS stemList
-	) AS tm_formal_name
+	) AS tm_formal_name,
+	(
+		SELECT
+			STRING_AGG(stemList.stem, ' et ')
+		FROM (
+			SELECT
+				tmistem.ccdd_ingredient_stem_name_fr AS stem
+			FROM ccdd_tm_ingredient_stem tmistem
+			WHERE tmistem.ccdd_tm_code = tm.code
+			GROUP BY tmistem.ccdd_ingredient_stem_name_fr
+			ORDER BY regexp_replace(tmistem.ccdd_ingredient_stem_name_fr, '[[:punct:]]', '', 'g')
+		) AS stemList
+	) AS tm_formal_name_fr
 FROM
 	dpd_drug dd,
 	ccdd_tm tm
@@ -1806,8 +1723,10 @@ SELECT
    md5(concat(drug_code, unit_of_presentation, uop_size, uop_unit_of_measure)) AS id,
    uop.drug_code AS dpd_drug_code,
    uop.unit_of_presentation AS unit,
+	 uop.unit_of_presentation_fr AS unit_fr,
    CAST(uop.uop_size as double precision) AS size_amount,
    ccdd_normalized_unit(uop.uop_unit_of_measure) AS size_unit,
+	 ccdd_normalized_unit(uop.uop_unit_of_measure) AS size_unit_fr,
    uop.calculation = 'Y' AS strength_is_per_size_unit,
    uop.uop_size_insert = 'Y' AS unit_has_explicit_size,
    (select pseudodin from ccdd.pseudodin_map map where
@@ -3112,46 +3031,3 @@ WHERE
 	not exists(select * from ccdd.special_groupings cur where cur.ccdd_code = nxt.ccdd_code);
 -- ddl-end --
 ALTER VIEW public.release_changes_special_groupings OWNER TO postgres;
-
--- -- object: active_ingredient_drug_code_fkey | type: CONSTRAINT --
--- -- ALTER TABLE dpd.active_ingredient DROP CONSTRAINT IF EXISTS active_ingredient_drug_code_fkey CASCADE;
--- ALTER TABLE dpd.active_ingredient ADD CONSTRAINT active_ingredient_drug_code_fkey FOREIGN KEY ("extract",drug_code)
--- REFERENCES dpd.drug_product ("extract",drug_code) MATCH SIMPLE
--- ON DELETE NO ACTION ON UPDATE NO ACTION;
--- -- ddl-end --
---
--- -- object: companies_drug_code_fkey | type: CONSTRAINT --
--- -- ALTER TABLE dpd.companies DROP CONSTRAINT IF EXISTS companies_drug_code_fkey CASCADE;
--- ALTER TABLE dpd.companies ADD CONSTRAINT companies_drug_code_fkey FOREIGN KEY ("extract",drug_code)
--- REFERENCES dpd.drug_product ("extract",drug_code) MATCH SIMPLE
--- ON DELETE NO ACTION ON UPDATE NO ACTION;
--- -- ddl-end --
---
--- -- object: pharmaceutical_form_drug_code_fkey | type: CONSTRAINT --
--- -- ALTER TABLE dpd.pharmaceutical_form DROP CONSTRAINT IF EXISTS pharmaceutical_form_drug_code_fkey CASCADE;
--- ALTER TABLE dpd.pharmaceutical_form ADD CONSTRAINT pharmaceutical_form_drug_code_fkey FOREIGN KEY ("extract",drug_code)
--- REFERENCES dpd.drug_product ("extract",drug_code) MATCH SIMPLE
--- ON DELETE NO ACTION ON UPDATE NO ACTION;
--- -- ddl-end --
---
--- -- object: route_drug_code_fkey | type: CONSTRAINT --
--- -- ALTER TABLE dpd.route DROP CONSTRAINT IF EXISTS route_drug_code_fkey CASCADE;
--- ALTER TABLE dpd.route ADD CONSTRAINT route_drug_code_fkey FOREIGN KEY ("extract",drug_code)
--- REFERENCES dpd.drug_product ("extract",drug_code) MATCH SIMPLE
--- ON DELETE NO ACTION ON UPDATE NO ACTION;
--- -- ddl-end --
---
--- -- object: status_drug_code_fkey | type: CONSTRAINT --
--- -- ALTER TABLE dpd.status DROP CONSTRAINT IF EXISTS status_drug_code_fkey CASCADE;
--- ALTER TABLE dpd.status ADD CONSTRAINT status_drug_code_fkey FOREIGN KEY ("extract",drug_code)
--- REFERENCES dpd.drug_product ("extract",drug_code) MATCH SIMPLE
--- ON DELETE NO ACTION ON UPDATE NO ACTION;
--- -- ddl-end --
---
--- -- object: schedule_drug_code_fkey | type: CONSTRAINT --
--- -- ALTER TABLE dpd.schedule DROP CONSTRAINT IF EXISTS schedule_drug_code_fkey CASCADE;
--- ALTER TABLE dpd.schedule ADD CONSTRAINT schedule_drug_code_fkey FOREIGN KEY (drug_code)
--- REFERENCES dpd.drug_product (drug_code) MATCH FULL
--- ON DELETE CASCADE ON UPDATE CASCADE;
--- -- ddl-end --
---

@@ -95,25 +95,33 @@ FROM public.dpd_drug_schedule_source;
 INSERT INTO public.dpd_drug_ingredient_option(
     dpd_drug_code,
     dpd_named_ingredient_name,
+    dpd_named_ingredient_name_fr,
     dpd_active_ingredient_code_id,
     strength_amount,
     strength_unit,
+    strength_unit_fr,
     dosage_amount,
-    dosage_unit
+    dosage_unit,
+    dosage_unit_fr
 ) SELECT
     dpd_drug_code,
     dpd_named_ingredient_name,
+    dpd_named_ingredient_name_fr,
     dpd_active_ingredient_code_id,
     strength_amount,
     strength_unit,
+    strength_unit_fr,
     dosage_amount,
-    dosage_unit
+    dosage_unit,
+    dosage_unit_fr
 FROM public.dpd_drug_ingredient_option_source;
 
 INSERT INTO public.ccdd_ingredient_stem(
-    name
+    name,
+    name_fr
 ) SELECT
-    name
+    name,
+    name_fr
 FROM public.ccdd_ingredient_stem_source;
 
 INSERT INTO public.ccdd_ntp_ingredient(
@@ -127,11 +135,13 @@ FROM public.ccdd_ntp_ingredient_source;
 INSERT INTO public.ccdd_dpd_ingredient_ntp_mapping(
     dpd_named_ingredient_name,
     ccdd,
-    ccdd_ntp_ingredient_name
+    ccdd_ntp_ingredient_name,
+    ccdd_ntp_ingredient_name_fr
 ) SELECT
     dpd_named_ingredient_name,
     ccdd,
-    ccdd_ntp_ingredient_name
+    ccdd_ntp_ingredient_name,
+    ccdd_ntp_ingredient_name_fr
 FROM public.ccdd_dpd_ingredient_ntp_mapping_source;
 
 INSERT INTO public.ccdd_tm(
@@ -142,10 +152,12 @@ FROM public.ccdd_tm_source;
 
 INSERT INTO public.ccdd_tm_ingredient_stem(
     ccdd_tm_code,
-    ccdd_ingredient_stem_name
+    ccdd_ingredient_stem_name,
+    ccdd_ingredient_stem_name_fr
 ) SELECT
     ccdd_tm_code,
-    ccdd_ingredient_stem_name
+    ccdd_ingredient_stem_name,
+    ccdd_ingredient_stem_name_fr
 FROM public.ccdd_tm_ingredient_stem_source;
 
 INSERT INTO public.dpd_route(
@@ -190,10 +202,12 @@ FROM public.ccdd_dosage_form_source;
 
 INSERT INTO public.ccdd_dosage_form_mapping(
     id,
-    ccdd_dosage_form_name
+    ccdd_dosage_form_name,
+    ccdd_dosage_form_name_fr
 ) SELECT
     id,
-    ccdd_dosage_form_name
+    ccdd_dosage_form_name,
+    ccdd_dosage_form_name_fr
 FROM public.ccdd_dosage_form_mapping_source;
 
 INSERT INTO public.ccdd_dosage_form_mapping_dpd_form(
@@ -228,8 +242,10 @@ INSERT INTO public.ccdd_presentation(
     id,
     dpd_drug_code,
     unit,
+    unit_fr,
     size_amount,
     size_unit,
+    size_unit_fr,
     strength_is_per_size_unit,
     unit_has_explicit_size,
     pseudodin
@@ -237,8 +253,10 @@ INSERT INTO public.ccdd_presentation(
     id,
     dpd_drug_code,
     unit,
+    unit_fr,
     size_amount,
     size_unit,
+    size_unit_fr,
     strength_is_per_size_unit,
     unit_has_explicit_size,
     pseudodin
