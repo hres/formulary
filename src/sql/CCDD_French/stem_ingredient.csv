@@ -55,7 +55,7 @@ Y,ALLOPURINOL,ALLOPURINOL,allopurinol,FALSE,allopurinol,Released,,53,Allopurinol
 Y,,ALMOTRIPTAN (ALMOTRIPTAN MALATE),almotriptan,FALSE,almotriptan (almotriptan malate),Released,,54,Almotriptan (Malate d'almotriptan),allopurinol,almotriptan (malate d'almotriptan)
 Y,,ALOE,aloe,FALSE,aloe,Released,Combination only,55,Aloès,aloès,aloès
 Y,,Alogliptin (Alogliptin benzoate),alogliptin ,FALSE,alogliptin (alogliptin benzoate),Released,Single and multi-ingredient TMs,56,Alogliptine (Benzoate d'alogliptine),alogliptine,alogliptine (benzoate d'alogliptine)
-Y,,ALFA 1-PROTEINASE INHIBITOR (HUMAN),alfa 1-proteinase inhibitor human,FALSE,alfa 1-proteinase inhibitor human,Released,,57,Inhibiteur de l'alpha 1-protéinase (humain),inhibiteur de l'alfa 1-protéinase (humain),inhibiteur de l'alfa 1-protéinase humaine
+Y,,ALFA 1-PROTEINASE INHIBITOR (HUMAN),alfa 1-proteinase inhibitor human,FALSE,alfa 1-proteinase inhibitor human,Released,,57,Inhibiteur de l'alpha 1-protéinase (humain),inhibiteur de l'alfa 1-protéinase humaine,inhibiteur de l'alfa 1-protéinase humaine
 Y,ALPRAZOLAM,ALPRAZOLAM,alprazolam,FALSE,alprazolam,Released,,58,Alprazolam,alprazolam,alprazolam
 Y,,ALPROSTADIL,alprostadil,FALSE,alprostadil,Released,,59,Alprostadil,alprostadil,alprostadil
 Y,,ALTEPLASE,alteplase,FALSE,alteplase,Released,,60,Altéplase,altéplase,altéplase
@@ -77,7 +77,7 @@ Y,AMITRIPTYLINE,AMITRIPTYLINE HYDROCHLORIDE,amitriptyline,FALSE,amitriptyline hy
 Y,AMLODIPINE,AMLODIPINE (AMLODIPINE BESYLATE),amlodipine,FALSE,amlodipine (amlodipine besylate),Released,Single and multi-ingredient TMs,76,Amlodipine (Bésylate d'amlodipine),amlodipine,amlodipine (bésylate d'amlodipine)
 Y,,AMMONIUM CHLORIDE,ammonium chloride,FALSE,ammonium chloride,Released,Combination only,77,Chlorure d'ammonium,chlorure d'ammonium,chlorure d'ammonium
 Y,AMOXICILLIN,AMOXICILLIN,amoxicillin,FALSE,amoxicillin,Released,Single and multi-ingredient TMs,78,Amoxicilline,amoxicilline,amoxicilline
-Y,AMOXICILLIN,AMOXICILLIN (AMOXICILLIN TRIHYDRATE),amoxicillin,TRUE,amoxicillin,Released,Single and multi-ingredient TMs,79,Amoxicilline (Trihydrate d'amoxicilline),amoxicilline,amoxicilline (trihydrate d'amoxicilline)
+Y,AMOXICILLIN,AMOXICILLIN (AMOXICILLIN TRIHYDRATE),amoxicillin,TRUE,amoxicillin,Released,Single and multi-ingredient TMs,79,Amoxicilline (Trihydrate d'amoxicilline),amoxicilline,amoxicilline
 Y,AMPHETAMINE,AMPHETAMINE ASPARTATE MONOHYDRATE,amphetamine,TRUE,amphetamine aspartate,Released,Combination only (mixed salts amphetamine),80,Aspartate d'amphétamine monohydraté,amphétamine,aspartate d'amphétamine
 Y,AMPHETAMINE,AMPHETAMINE SULFATE,amphetamine,FALSE,amphetamine sulfate,Released,Combination only (mixed salts amphetamine),81,Sulfate d'amphétamine,amphétamine,sulfate d'amphétamine
 Y,,AMPHOTERICIN B,amphotericin B,FALSE,amphotericin B,Issue - in QA,,82,Amphotéricine b,amphotéricine B,amphotéricine B
@@ -96,7 +96,7 @@ Y,,ANIDULAFUNGIN,anidulafungin,FALSE,anidulafungin,Released,,94,Anidulafungine,a
 Y,,ANTAZOLINE PHOSPHATE,antazoline,FALSE,antazoline phosphate,Released,Combination only,95,Phosphate d'antazoline,anidulafungine,phosphate d'antazoline
 ,,ANTI-D (RH) IMMUNOGLOBULIN (HUMAN),anti-d (rh) immunoglobulin (human),FALSE,anti-d (rh) immunoglobulin (human),Immunologic,,96,Immunoglobuline anti-D (Rh) (Humaine),anti-d (rh) immunoglobulin (human),anti-d (rh) immunoglobulin (human)
 Y,,ANTIHEMOPHILIC FACTOR (HUMAN),antihemophilic factor (human),FALSE,antihemophilic factor (human),In QA,,97,Facteur antihémophilique (humain),facteur antihémophilique (humain),facteur antihémophilique (humain)
-Y,,"Antihemophilic Factor (Recombinant BDD), FC Fusion Protein",antihemophilic factor (recombinant BDD) FC fusion protein,FALSE,antihemophilic factor (recombinant BDD) FC fusion protein,In QA,,98,"Facteur Antihémophilique (Recombiné BDD), Protéine Hybride FC",antihemophilic factor (recombinant BDD) FC fusion protein,"facteur antihémophilique (recombiné BDD), protéine hybride FC"
+Y,,"Antihemophilic Factor (Recombinant BDD), FC Fusion Protein",antihemophilic factor (recombinant BDD) FC fusion protein,FALSE,antihemophilic factor (recombinant BDD) FC fusion protein,In QA,,98,"Facteur Antihémophilique (Recombiné BDD), Protéine Hybride FC","facteur antihémophilique (recombiné BDD), protéine hybride FC","facteur antihémophilique (recombiné BDD), protéine hybride FC"
 Y,,ANTIHEMOPHILIC FACTOR (RECOMBINANT),antihemophilic factor (recombinant),FALSE,antihemophilic factor (recombinant),In QA,,99,Facteur antihémophilique (recombiné),facteur antihémophilique (recombiné),facteur antihémophilique (recombiné)
 Y,,ANTIHEMOPHILIC FACTOR (RECOMBINANT) PORCINE SEQUENCE,antihemophilic factor (recombinant) porcine sequence,FALSE,antihemophilic factor (recombinant) porcine sequence,In QA,,100,Facteur Antihémophilique (Recombiné) Séquence Porcine,facteur antihémophilique (recombiné) séquence porcine,facteur antihémophilique (recombiné) séquence porcine
 Y,,ANTI-INHIBITOR COAGULANT COMPLEX,anti-inhibitor coagulant complex,FALSE,anti-inhibitor coagulant complex,In QA,,101,Complexe coagulant anti-inhibiteur,complexe coagulant anti-inhibiteur,complexe coagulant anti-inhibiteur
@@ -117,7 +117,7 @@ Y,,ARGATROBAN,argatroban,FALSE,argatroban,Released,,115,Argatroban,argatroban,ar
 ,,ARGININE,arginine,FALSE,arginine,TPN,,116,Arginine,arginine,arginine
 ,,ARGININE HYDROCHLORIDE,arginine hydrochloride,FALSE,arginine hydrochloride,TPN,,117,Chlorhydrate d'arginine,arginine hydrochloride,arginine hydrochloride
 Y,ARIPIPRAZOLE,ARIPIPRAZOLE,aripiprazole,FALSE,aripiprazole,Released,,118,Aripiprazole,aripiprazole,aripiprazole
-Y,,ARSENIC TRIOXIDE,arsenic trioxide,FALSE,arsenic trioxide,Released,,119,Trioxyde d'arsénic,arsenic trioxide,trioxyde d'arsénic
+Y,,ARSENIC TRIOXIDE,arsenic trioxide,FALSE,arsenic trioxide,Released,,119,Trioxyde d'arsénic,trioxyde d'arsénic,trioxyde d'arsénic
 Y,,ARTICAINE HYDROCHLORIDE,articaine,FALSE,articaine hydrochloride,Issue - in QA,,120,Chlorhydrate d'articaïne,articaïne,chlorhydrate d'articaïne
 Y,,Asenapine (Asenapine maleate),asenapine,FALSE,asenapine (asenapine maleate),Released,,121,Asénapine (Maléate d'asénapine),asénapine,asénapine (maléate d'asénapine)
 Y,,ASFOTASE ALFA,asfotase alfa,FALSE,asfotase alfa,Released,,122,ASFOTASE ALFA,asfotase alfa,asfotase alfa
@@ -149,7 +149,7 @@ Y,AZITHROMYCIN,AZITHROMYCIN (AZITHROMYCIN HYDROGEN CITRATE),azithromycin,FALSE,a
 Y,AZITHROMYCIN,AZITHROMYCIN (AZITHROMYCIN ISOPROPANOLATE MONOHYDRATE),azithromycin,TRUE,azithromycin,Released,,148,Azithromycine (Isopropanolate d'azithromycine monohydrate),azithromycine,azithromycine
 Y,AZITHROMYCIN,AZITHROMYCIN (AZITHROMYCIN MONOHYDRATE HEMIETHANOLATE),azithromycin,TRUE,azithromycin,Released,,149,Azithromycine (HÉMIÉTHANOLATE MONOHYDRATE D'AZITHROMYCINE),azithromycine,azithromycine
 Y,AZITHROMYCIN,AZITHROMYCIN (AZITHROMYCIN MONOHYDRATE),azithromycin,TRUE,azithromycin,Released,,150,Azithromycine (Monohydrate d'azithromycine),azithromycine,azithromycine
-Y,,AZTREONAM,aztreonam,FALSE,aztreonam,Released,,151,Aztréonam,aztreonam,aztréonam
+Y,,AZTREONAM,aztreonam,FALSE,aztreonam,Released,,151,Aztréonam,aztréonam,aztréonam
 ,,BACILLUS CALMETTE-GUERIN (BCG) STRAIN TICE,bacillus calmette-guerin (bcg) strain tice,FALSE,bacillus calmette-guerin (bcg) strain tice,Immunologic,,152,Bacille de calmette-guérin (bcg) (souche tice),bacillus calmette-guerin (bcg) strain tice,bacillus calmette-guerin (bcg) strain tice
 ,,BACILLUS CALMETTE-GUERIN (BCG) SUBSTRAIN CONNAUGHT,bacillus calmette-guerin (bcg) substrain connaught,FALSE,bacillus calmette-guerin (bcg) substrain connaught,Immunologic,,153,Bacille de calmette-guérin (bcg) (sous-souche connaught),bacillus calmette-guerin (bcg) substrain connaught,bacillus calmette-guerin (bcg) substrain connaught
 Y,,BACITRACIN,bacitracin,FALSE,bacitracin,Partially released,Single and multi-ingredient TMs,154,Bacitracine,bacitracine,bacitracine
@@ -238,7 +238,7 @@ Y,,BUTALBITAL,butalbital,FALSE,butalbital,Released,Combination only,236,Butalbit
 Y,,BUTAMBEN,butamben,FALSE,butamben,Released,Combination only,237,Butambène,butambène,butambène
 Y,,BUTANEDIOL,butanediol,FALSE,butanediol,No products in scope, Combination antiseptic,238,Butanédiol,butanédiol,butanédiol
 Y,,BUTORPHANOL TARTRATE,butorphanol,FALSE,butorphanol tartrate,Released,,239,Tartrate de butorphanol,butorphanol,tartrate de butorphanol
-Y,,C1 Esterase Inhibitor (Human),C1 esterase inhibitor human,FALSE,C1 esterase inhibitor human,Released,,240,Inhibiteur de la C1 Esterase (humaine),inhibiteur de la C1 estérase (humaine),inhibiteur de la c1 estérase humaine
+Y,,C1 Esterase Inhibitor (Human),C1 esterase inhibitor human,FALSE,C1 esterase inhibitor human,Released,,240,Inhibiteur de la C1 Esterase (humaine),inhibiteur de la C1 estérase humaine,inhibiteur de la C1 estérase humaine
 Y,,CABAZITAXEL,cabazitaxel,FALSE,cabazitaxel,Released,,241,Cabazitaxel,cabazitaxel,cabazitaxel
 Y,,CABERGOLINE,cabergoline,FALSE,cabergoline,Released,,242,Cabergoline,cabergoline,cabergoline
 Y,,CABOZANTINIB (CABOZANTINIB MALATE),cabozantinib,FALSE,cabozantinib (cabozantinib malate),Released,,243,CABOZANTINIB (CABOZANTINIB MALATE),cabozantinib,cabozantinib (malate de cabozantinib)
@@ -875,7 +875,7 @@ Y,INSULIN DETEMIR,INSULIN DETEMIR,insulin detemir,FALSE,insulin detemir,Released
 Y,INSULIN GLARGINE,INSULIN GLARGINE,insulin glargine,FALSE,insulin glargine,Released,,874,Insuline glargine,insuline glargine,insuline glargine
 Y,,INSULIN GLULISINE (RECOMBINANT DNA ORIGIN),insulin glulisine,FALSE,insulin glulisine,Released,,875,Insuline glulisine (source: ADN recombiné),insuline glulisine,insuline glulisine
 Y,,INSULIN,insulin human,FALSE,insulin human,Released,,876,Insuline,insuline humaine,insuline humaine
-Y,,INSULIN BIOSYNTHETIC HUMAN BR,insulin human,FALSE,insulin human,Released,,877,Insulin humaine biosynthétique  br,insuline humaine,insulin humaine
+Y,,INSULIN BIOSYNTHETIC HUMAN BR,insulin human,FALSE,insulin human,Released,,877,Insulin humaine biosynthétique  br,insuline humaine,insuline humaine
 Y,,INSULIN INJECTION HUMAN BIOSYNTHETIC,insulin human,FALSE,insulin human,Released,,878,Insuline humaine biosynthétique,insuline humaine,insuline humaine
 Y,,INSULIN SEMI SYNTHETIC HUMAN,insulin human,FALSE,insulin human,Released,,879,Insuline semi-synthétique humaine,insuline humaine,insuline humaine
 Y,HUMAN INSULIN ISOPHANE,INSULIN ISOPHANE (NPH),insulin isophane human,FALSE,insulin isophane human,Released,,880,Insulin isophane (NPH),insuline isophane humaine,insuline isophane humaine
@@ -1027,7 +1027,7 @@ Y,,LYMPHOCYTE IMMUNOGLOBULIN ANTI-THYMOCYTE GLOBULIN (EQUINE),anti-thymocyte imm
 ,,LYSINE (LYSINE ACETATE),lysine (lysine acetate),FALSE,lysine (lysine acetate),TPN,,1026,Lysine (Acétate de lysine),lysine (lysine acetate),lysine (lysine acetate)
 ,,LYSINE (LYSINE MONOHYDROCHLORIDE),lysine (lysine monohydrochloride),FALSE,lysine (lysine monohydrochloride),TPN,,1027,Lysine (Monochlorhydrate de lysine),lysine (lysine monohydrochloride),lysine (lysine monohydrochloride)
 Y,,MACITENTAN,macitentan,FALSE,macitentan,Released,,1028,MACITENTAN,macitentan,macitentan
-Y,,MACROGOL,polyethylene glycol 3350,FALSE,polyethylene glycol 3350,Issue - in QA,,1029,Macrogol,macrogol,macrogol
+Y,,MACROGOL,polyethylene glycol 3350,FALSE,polyethylene glycol 3350,Issue - in QA,,1029,Macrogol,polyethylene glycol 3350,polyethylene glycol 3350
 Y,,MAGNESIUM (MAGNESIUM OXIDE),magnesium (magnesium oxide),FALSE,magnesium (magnesium oxide),,,1030,Magnésium (Oxyde de magnésium),magnésium (oxyde de magnésium),magnésium (oxyde de magnésium)
 Y,,MAGNESIUM ACETATE,magnesium acetate,FALSE,magnesium acetate,,,1031,Acétate de magnésium,acétate de magnésium,acétate de magnésium
 Y,,MAGNESIUM CHLORIDE,magnesium chloride,FALSE,magnesium chloride,,,1032,Chlorure de magnésium,chlorure de magnésium,chlorure de magnésium
@@ -1209,7 +1209,7 @@ Y,NORTRIPTYLINE,NORTRIPTYLINE (NORTRIPTYLINE HYDROCHLORIDE),nortriptyline,FALSE,
 Y,,NUSINERSEN (NUSINERSEN SODIUM),nusinersen,FALSE,nusinersen (nusinersen sodium),Released,,1208,Nusinersen (Nusinersen sodique),nusinersen,nusinersen (nusinersen sodique)
 Y,,NYLIDRIN HYDROCHLORIDE,nylidrin hydrochloride,FALSE,nylidrin hydrochloride,No live products,,1209,Chlorhydrate de nylidrine,nylidrine,chlorhydrate de nylidrine
 Y,NYSTATIN,NYSTATIN,nystatin,FALSE,nystatin,Released,,1210,Nystatine,nystatine,nystatine
-Y,,OBETICHOLIC ACID,obeticholic acid,FALSE,obeticholic acid,Released,,1211,Acide obéticholique,obéticholique,acide obéticholique
+Y,,OBETICHOLIC ACID,obeticholic acid,FALSE,obeticholic acid,Released,,1211,Acide obéticholique,acide obéticholique,acide obéticholique
 Y,,Obinutuzumab,obinutuzumab,FALSE,obinutuzumab,Released,,1212,Obinutuzumab,obinutuzumab,obinutuzumab
 Y,,OCRELIZUMAB,ocrelizumab,FALSE,ocrelizumab,Released,,1213,Ocrélizumab,ocrélizumab,ocrélizumab
 Y,,OCRIPLASMIN,ocriplasmin,FALSE,ocriplasmin,Released,,1214,OCRIPLASMINE,ocriplasmine,ocriplasmine
@@ -1234,7 +1234,7 @@ Y,OMALIZUMAB,OMALIZUMAB,omalizumab,FALSE,omalizumab,Released,,1232,Omalizumab,om
 Y,,Ombitasvir,ombitasvir,FALSE,ombitasvir,Released,Combination only,1233,Ombitasvir,ombitasvir,ombitasvir
 Y,OMEPRAZOLE,OMEPRAZOLE,omeprazole,FALSE,omeprazole,Released,,1234,Oméprazole,oméprazole,oméprazole
 Y,OMEPRAZOLE,OMEPRAZOLE (OMEPRAZOLE MAGNESIUM),omeprazole,FALSE,omeprazole (omeprazole magnesium),Released,,1235,Oméprazole (Oméprazole magnésium),oméprazole,oméprazole (oméprazole magnésium)
-Y,,OnabotulinumtoxinA,onabotulinumtoxinA,FALSE,onabotulinumtoxinA,Issue - in QA,,1236,OnabotulinumtoxineA,toxine botulique de type A,onabotulinumtoxineA
+Y,,OnabotulinumtoxinA,onabotulinumtoxinA,FALSE,onabotulinumtoxinA,Issue - in QA,,1236,OnabotulinumtoxineA,toxine botulique de type A,toxine botulique de type A
 Y,,ONDANSETRON,ondansetron,FALSE,ondansetron,Released,,1237,Ondansétron,ondansétron,ondansétron
 Y,,ONDANSETRON (ONDANSETRON HYDROCHLORIDE),ondansetron,FALSE,ondansetron (ondansetron hydrochloride),Released,,1238,Ondansétron (Chlorhydrate d'ondansétron),ondansétron,ondansétron (chlorhydrate d'ondansétron)
 Y,,ONDANSETRON (ONDANSETRON HYDROCHLORIDE DIHYDRATE),ondansetron ,TRUE,ondansetron (ondansetron hydrochloride),Released,,1239,Ondansétron (Chlorhydrate d'ondansétron dihydraté),ondansétron,ondansétron (chlorhydrate d'ondansétron)
@@ -1468,8 +1468,8 @@ Y,,PYRITHIONE ZINC,pyrithione zinc,FALSE,pyrithione zinc,Released,,1466,Pyrithio
 Y,QUETIAPINE,QUETIAPINE (QUETIAPINE FUMARATE),quetiapine,FALSE,quetiapine (quetiapine fumarate),Released,,1467,Quétiapine (Fumarate de quétiapine),quétiapine,quétiapine (fumarate de quétiapine)
 Y,,QUINAGOLIDE (QUINAGOLIDE HYDROCHLORIDE),quinagolide,FALSE,quinagolide (quinagolide hydrochloride),Released,,1468,Quinagolide (Chlorhydrate de quinagolide),quinagolide,quinagolide (chlorhydrate de quinagolide)
 Y,QUINAPRIL,QUINAPRIL (QUINAPRIL HYDROCHLORIDE),quinapril,FALSE,quinapril (quinapril hydrochloride),Released,,1469,Quinapril (Chlorhydrate de quinapril),quinapril,quinapril (chlorhydrate de quinapril)
-Y,,QUINIDINE SULFATE,quinidine,FALSE,quinidine sulfate,No live products,,1470,Sulfate de quinidine,quinidine,sulfate de quinidine
-Y,QUININE,QUININE SULFATE,quinine sulfate,FALSE,quinine sulfate,Released,,1471,Sulfate de quinine,quinine,sulfate de quinine
+Y,,QUINIDINE SULFATE,quinidine,FALSE,quinidine sulfate,No live products,,1470,Sulfate de quinidine,sulfate de quinidine,sulfate de quinidine
+Y,QUININE,QUININE SULFATE,quinine sulfate,FALSE,quinine sulfate,Released,,1471,Sulfate de quinine,sulfate de quinine,sulfate de quinine
 Y,RABEPRAZOLE SODIUM,RABEPRAZOLE SODIUM,rabeprazole,FALSE,rabeprazole sodium,Released,,1472,Rabéprazole sodique,rabéprazole,rabéprazole sodique
 ,,RABIES IMMUNE GLOBULIN HUMAN,rabies immune globulin human,FALSE,rabies immune globulin human,Immunologic,,1473,NA,rabies immune globulin human,rabies immune globulin human
 ,,RABIES IMMUNOGLOBULIN (HUMAN),rabies immunoglobulin (human),FALSE,rabies immunoglobulin (human),Immunologic,,1474,Immunoglobuline antirabique (humaine),rabies immunoglobulin (human),rabies immunoglobulin (human)
@@ -1545,7 +1545,7 @@ Y,,SAPROPTERIN DIHYDROCHLORIDE,sapropterin,FALSE,sapropterin dihydrochloride,Rel
 Y,,SAQUINAVIR (SAQUINAVIR MESYLATE),saquinavir,FALSE,saquinavir (saquinavir mesylate),Released,,1544,Saquinavir (Mésylate de saquinavir),saquinavir,saquinavir (mésylate de saquinavir)
 Y,,SARILUMAB,sarilumab,FALSE,sarilumab,Released,,1545,Sarilumab,sarilumab,sarilumab
 Y,SAXAGLIPTIN,SAXAGLIPTIN (SAXAGLIPTIN HYDROCHLORIDE),saxagliptin,FALSE,saxagliptin (saxagliptin hydrochloride),Released,,1546,Saxagliptine (Chlorhydrate de saxagliptine),saxagliptine,saxagliptine (chlorhydrate de saxagliptine)
-Y,,SCOPOLAMINE HYDROBROMIDE,scopolamine hydrobromide,FALSE,scopolamine hydrobromide,Released,,1547,Bromhydrate de scopolamine,scopolamine,bromhydrate de scopolamine
+Y,,SCOPOLAMINE HYDROBROMIDE,scopolamine hydrobromide,FALSE,scopolamine hydrobromide,Released,,1547,Bromhydrate de scopolamine,bromhydrate de scopolamine,bromhydrate de scopolamine
 ,,SEALER PROTEIN (HUMAN),sealer protein (human),FALSE,sealer protein (human),Haematology,,1548,Protéine scellante (humaine),sealer protein (human),sealer protein (human)
 Y,,SEBELIPASE ALFA,sebelipase alfa,FALSE,sebelipase alfa,Released,,1549,Sébélipase alfa,sébélipase alfa,sébélipase alfa
 Y,,Secukinumab,secukinumab,FALSE,secukinumab,Released,,1550,Secukinumab,sécukinumab,sécukinumab
