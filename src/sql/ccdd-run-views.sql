@@ -234,11 +234,15 @@ INSERT INTO public.ccdd_combination_product(
     dpd_drug_code,
     mp_formal_name,
     ntp_formal_name,
+    mp_formal_name_fr,
+    ntp_formal_name_fr,
     ntp_type
 ) SELECT
     dpd_drug_code,
     mp_formal_name,
     ntp_formal_name,
+    mp_formal_name_fr,
+    ntp_formal_name_fr,
     ntp_type
 FROM public.ccdd_combination_product_source;
 

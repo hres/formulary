@@ -231,6 +231,8 @@ CREATE TABLE public.ccdd_combination_product(
 	dpd_drug_code bigint NOT NULL,
 	mp_formal_name varchar,
 	ntp_formal_name varchar,
+	mp_formal_name_fr varchar,
+	ntp_formal_name_fr varchar,
 	ntp_type varchar,
 	CONSTRAINT ccdd_combination_product_pk PRIMARY KEY (dpd_drug_code)
 
@@ -1227,7 +1229,9 @@ AS
 SELECT
    cp.drug_code AS dpd_drug_code,
    cp.mp_formal_name,
+	 cp.mp_formal_name_fr,
    cp.ntp_formal_name,
+	 cp.ntp_formal_name_fr,
     (case
         when cp.ntp_type='NA' then null
         else cp.ntp_type
@@ -1424,9 +1428,7 @@ select
 	p.pseudodin,
 	dd.din,
 	dd.brand_name_en,
-	COALESCE(cp.mp_formal_name, format(
-		'%s (%s %s) %s',
-		COALESCE(mbo.brand, dd.brand_name_en),
+	COALESCE(cp.mp_formal_name, format('%s (%s %s) %s', COALESCE(mbo.brand, dd.brand_name_en),
 		dsum.drug_ingredient_detail_set,
 		(CASE
 			WHEN p.id is not null THEN format(
