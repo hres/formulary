@@ -198,9 +198,11 @@ FROM public.dpd_drug_route_source;
 
 INSERT INTO public.ccdd_dosage_form(
     name,
+    name_fr,
     code
 ) SELECT
     name,
+    name_fr,
     code
 FROM public.ccdd_dosage_form_source;
 

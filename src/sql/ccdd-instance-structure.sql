@@ -172,6 +172,7 @@ ALTER TABLE public.ccdd_tm OWNER TO postgres;
 -- DROP TABLE IF EXISTS public.ccdd_dosage_form CASCADE;
 CREATE TABLE public.ccdd_dosage_form(
 	name varchar NOT NULL,
+	name_fr varchar,
 	code bigint,
 	CONSTRAINT ccdd_dosage_form_pk PRIMARY KEY (name),
 	CONSTRAINT ccdd_dosage_form_code_unique UNIQUE (code)
@@ -777,11 +778,12 @@ AS
 
 SELECT
    df.ntp_dosage_form AS name,
+	 df.ntp_dosage_form_fr AS name_fr,
    df.ntp_dosage_form_code AS code
 FROM
    ccdd.ntp_dosage_forms AS df
 WHERE
-   true   GROUP BY name, code;
+   true   GROUP BY name, name_fr, code;
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_dosage_form_source OWNER TO postgres;
 -- ddl-end --
@@ -1011,7 +1013,7 @@ select
 			ccdd_drug_dosage_form_by_form dfbf
 			INNER JOIN ccdd_drug_dosage_form_by_route dfbr USING(dpd_drug_code, mapping_id)
 		where dfbf.dpd_drug_code = dd.code
-	) as name_fr
+	) as dosage_form_fr
 from
 	dpd_drug dd;
 -- ddl-end --
