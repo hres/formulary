@@ -647,8 +647,8 @@ SELECT DISTINCT name, name_fr FROM (
 	UNION
 
 	SELECT
-	unnest(string_to_array(formal_name, ' and ')) as name,
-	unnest(string_to_array(formal_name_fr, ' et ')) as name_fr
+	unnest(string_to_array(formal_name, '\s+and\s+(?!sp-c)')) as name,
+	unnest(string_to_array(formal_name_fr, '\s+et\s+(?!sp-c)')) as name_fr
 
 	FROM
 		ccdd.tm_definition
