@@ -910,6 +910,7 @@ SELECT
 	ddio.dpd_drug_code,
 	p.id as ccdd_presentation_id,
 	ccdd_normalize_ingredient(ddio.dpd_named_ingredient_name) as drug_ingredient_name,
+	ccdd_normalize_ingredient(ddio.dpd_named_ingredient_name_fr) as drug_ingredient_name_fr,
 	ntpmap.ccdd_ntp_ingredient_name as ntp_ingredient_name,
 	ntpmap.ccdd_ntp_ingredient_name_fr as ntp_ingredient_name_fr,
 	ntpi.ccdd_ingredient_stem_name as ingredient_stem_name,
@@ -1023,10 +1024,11 @@ AS
 SELECT
 	dd.code AS dpd_drug_code,
 	p.id AS ccdd_presentation_id,
-	(CASE
-		WHEN p.unit_has_explicit_size THEN format('%s %s %s', p.size_amount, p.size_unit, p.unit)
-		ELSE p.unit
-	END) AS uop_suffix,
+	(
+		CASE
+			WHEN p.unit_has_explicit_size THEN format('%s %s %s', p.size_amount, p.size_unit, p.unit)
+			ELSE p.unit END
+	) AS uop_suffix,
 	STRING_AGG(
 		format('%s %s', (CASE WHEN dod.hydrate = 'TRUE' THEN dod.drug_ingredient_name ELSE dod.ntp_ingredient_name END), dod.strength_description),
 		' and '
@@ -1036,6 +1038,14 @@ SELECT
 			dod.source_order
 	) AS drug_ingredient_detail_set,
 	STRING_AGG(
+		format('%s %s', (CASE WHEN dod.hydrate = 'TRUE' THEN dod.drug_ingredient_name_fr ELSE dod.ntp_ingredient_name_fr END), dod.strength_description_fr),
+		' et '
+		ORDER BY
+			regexp_replace(dod.ingredient_stem_name_fr, '[[:punct:]]', '', 'g'),
+			regexp_replace(dod.drug_ingredient_name_fr, '[[:punct:]]', '', 'g'),
+			dod.source_order
+	) AS drug_ingredient_detail_set_fr,
+	STRING_AGG(
 		(CASE WHEN dod.ntp_ingredient_name is not null then format('%s %s', dod.ntp_ingredient_name, dod.strength_description) else '<UNKNOWN>' END),
 		' and '
 		ORDER BY
@@ -1043,6 +1053,14 @@ SELECT
 			regexp_replace(dod.ntp_ingredient_name, '[[:punct:]]', '', 'g'),
 			dod.source_order
 	) AS ntp_ingredient_detail_set,
+	STRING_AGG(
+		(CASE WHEN dod.ntp_ingredient_name_fr is not null then format('%s %s', dod.ntp_ingredient_name_fr, dod.strength_description_fr) else '<UNKNOWN>' END),
+		' et '
+		ORDER BY
+			regexp_replace(dod.ingredient_stem_name_fr, '[[:punct:]]', '', 'g'),
+			regexp_replace(dod.ntp_ingredient_name_fr, '[[:punct:]]', '', 'g'),
+			dod.source_order
+	) AS ntp_ingredient_detail_set_fr,
 	bool_and(dod.ccdd) AS ccdd_all
 FROM
 	dpd_drug dd
