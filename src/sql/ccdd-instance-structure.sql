@@ -109,7 +109,9 @@ ALTER TABLE public.ccdd_ingredient_stem OWNER TO postgres;
 -- DROP TABLE IF EXISTS public.ccdd_ntp_ingredient CASCADE;
 CREATE TABLE public.ccdd_ntp_ingredient(
 	name varchar NOT NULL,
+	name_fr varchar,
 	ccdd_ingredient_stem_name varchar NOT NULL,
+	ccdd_ingredient_stem_name_fr varchar,
 	CONSTRAINT ccdd_ntp_ingredient_pk PRIMARY KEY (name)
 
 );
@@ -603,11 +605,13 @@ AS
 
 SELECT
    isc.ntp_ing AS name,
-   isc.ing_stem AS ccdd_ingredient_stem_name
+	 isc.ntp_ing_fr AS name_fr,
+   isc.ing_stem AS ccdd_ingredient_stem_name,
+	 isc.ing_stem_fr AS ccdd_ingredient_stem_name_fr
 FROM
    ccdd.ingredient_stem_csv AS isc
 WHERE
-   exists(select * from dpd_named_ingredient_source dni where dni.name = isc.dpd_ingredient)   GROUP BY name, ccdd_ingredient_stem_name;
+   exists(select * from dpd_named_ingredient_source dni where dni.name = isc.dpd_ingredient)   GROUP BY name, name_fr, ccdd_ingredient_stem_name, ccdd_ingredient_stem_name_fr;
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_ntp_ingredient_source OWNER TO postgres;
 -- ddl-end --
@@ -647,8 +651,8 @@ SELECT DISTINCT name, name_fr FROM (
 	UNION
 
 	SELECT
-	unnest(string_to_array(formal_name, ' and ')) as name,
-	unnest(string_to_array(formal_name_fr, ' et ')) as name_fr
+	unnest(string_to_array(formal_name, '\s+and\s+(?!sp-c)')) as name,
+	unnest(string_to_array(formal_name_fr, '\s+et\s+(?!sp-c)')) as name_fr
 
 	FROM
 		ccdd.tm_definition
@@ -675,8 +679,8 @@ AS
 
 SELECT
    code AS ccdd_tm_code,
-   unnest(string_to_array(formal_name, ' and ')) as ccdd_ingredient_stem_name,
-   unnest(string_to_array(formal_name_fr, ' et ')) as ccdd_ingredient_stem_name_fr
+   unnest(string_to_array(formal_name, '\s+and\s+(?!sp-c)')) as ccdd_ingredient_stem_name,
+   unnest(string_to_array(formal_name_fr, '\s+et\s+(?!sp-c)')) as ccdd_ingredient_stem_name_fr
 FROM
    ccdd.tm_definition;
 -- ddl-end --

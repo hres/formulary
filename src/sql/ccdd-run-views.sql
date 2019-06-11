@@ -126,10 +126,14 @@ FROM public.ccdd_ingredient_stem_source;
 
 INSERT INTO public.ccdd_ntp_ingredient(
     name,
-    ccdd_ingredient_stem_name
+    name_fr,
+    ccdd_ingredient_stem_name,
+    ccdd_ingredient_stem_name_fr
 ) SELECT
     name,
-    ccdd_ingredient_stem_name
+    name_fr,
+    ccdd_ingredient_stem_name,
+    ccdd_ingredient_stem_name_fr
 FROM public.ccdd_ntp_ingredient_source;
 
 INSERT INTO public.ccdd_dpd_ingredient_ntp_mapping(
