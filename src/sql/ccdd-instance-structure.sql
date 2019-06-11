@@ -911,7 +911,9 @@ SELECT
 	p.id as ccdd_presentation_id,
 	ccdd_normalize_ingredient(ddio.dpd_named_ingredient_name) as drug_ingredient_name,
 	ntpmap.ccdd_ntp_ingredient_name as ntp_ingredient_name,
+	ntpmap.ccdd_ntp_ingredient_name_fr as ntp_ingredient_name_fr,
 	ntpi.ccdd_ingredient_stem_name as ingredient_stem_name,
+	ntpi.ccdd_ingredient_stem_name_fr as ingredient_stem_name_fr,
 	ingst.hydrate as hydrate,
 	CASE
 		WHEN p.unit is not null AND p.strength_is_per_size_unit THEN format('%s %s per %s %s', strength_amount * p.size_amount, strength_unit, p.size_amount, p.size_unit)
@@ -925,6 +927,18 @@ SELECT
 		)
 		ELSE format('%s %s', strength_amount, strength_unit)
 	END AS strength_description,
+	CASE
+		WHEN p.unit_fr is not null AND p.strength_is_per_size_unit THEN format('%s %s par %s %s', strength_amount * p.size_amount, strength_unit_fr, p.size_amount, p.size_unit_fr)
+		WHEN (
+			upper(ddio.dosage_unit_fr) not in ('', '%', 'PLAQUETTE', 'CAPSULE', 'DOSE', 'ECC', 'ECT', 'TROUSSE', 'PASTILLE', 'NIL', 'PATCH', 'SLT', 'SRC', 'SRD', 'SRT', 'SUPPOSITOIRE', 'SYRINGUE', 'COMPRIMÉ', 'V/V', 'P/V', 'P/P')
+		) THEN (
+			CASE
+				WHEN dosage_amount is not null THEN format('%s %s par %s %s', strength_amount, strength_unit_fr, dosage_amount, dosage_unit_fr)
+				ELSE format('%s %s par %s', strength_amount, strength_unit_fr, dosage_unit_fr)
+			END
+		)
+		ELSE format('%s %s', strength_amount, strength_unit_fr)
+	END AS strength_description_fr,
 	ddio.source_order,
 	COALESCE(ntpmap.ccdd, false) as ccdd
 FROM
