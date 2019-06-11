@@ -1593,25 +1593,30 @@ AS
 
 SELECT
 	dd.code AS dpd_drug_code,
-	(CASE WHEN stemResult.all_stems_mapped THEN stemResult.name END) AS tm_fallback_formal_name
+	(CASE WHEN stemResult.all_stems_mapped THEN stemResult.name END) AS tm_fallback_formal_name,
+	(CASE WHEN stemResult.all_stems_mapped_fr THEN stemResult.name_fr END) AS tm_fallback_formal_name_fr
 FROM
 	dpd_drug dd
 	LEFT JOIN LATERAL (
 		SELECT
 			STRING_AGG(stemList.stem, ' and ') as name,
-			bool_and(stemList.stem IS NOT NULL) as all_stems_mapped
+			STRING_AGG(stemList.stem_fr, ' et ') as name_fr,
+			bool_and(stemList.stem IS NOT NULL) as all_stems_mapped,
+			bool_and(stemList.stem_fr IS NOT NULL) as all_stems_mapped_fr
 		FROM (
 			SELECT
-				ntpi.ccdd_ingredient_stem_name AS stem
+				ntpi.ccdd_ingredient_stem_name AS stem,
+				ntpi.ccdd_ingredient_stem_name_fr AS stem_fr
 			FROM
 				dpd_drug_ingredient ddi
 				LEFT JOIN ccdd_dpd_ingredient_ntp_mapping dintp ON(dintp.dpd_named_ingredient_name = ddi.dpd_named_ingredient_name)
 				LEFT JOIN ccdd_ntp_ingredient ntpi ON(ntpi.name = dintp.ccdd_ntp_ingredient_name)
 			WHERE ddi.dpd_drug_code = dd.code
-			GROUP BY ntpi.ccdd_ingredient_stem_name
+			GROUP BY ntpi.ccdd_ingredient_stem_name, ntpi.ccdd_ingredient_stem_name_fr
 			ORDER BY regexp_replace(ntpi.ccdd_ingredient_stem_name, '[[:punct:]]', '', 'g')
 		) AS stemList
 	) AS stemResult ON(true);
+
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_drug_tm_fallback OWNER TO postgres;
 -- ddl-end --
