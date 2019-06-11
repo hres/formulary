@@ -1442,6 +1442,18 @@ select
 		END),
 		dd.company_name
 	)) as mp_formal_name,
+	COALESCE(cp.mp_formal_name_fr, format('%s (%s %s) %s', COALESCE(mbo.brand, dd.brand_name_en),
+		dsum.drug_ingredient_detail_set_fr,
+		(CASE
+			WHEN p.id is not null THEN format(
+				'%s %s',
+				COALESCE(ddform.dosage_form_fr, 'NA'),
+				dsum.uop_suffix
+			)
+			ELSE COALESCE(ddform.dosage_form_fr, 'NA')
+		END),
+		dd.company_name
+	)) as mp_formal_name_fr,
 	COALESCE(cp.ntp_formal_name, format(
 		'%s %s',
 		dsum.ntp_ingredient_detail_set,
@@ -1454,6 +1466,18 @@ select
 			ELSE COALESCE(ddform.dosage_form, 'NA')
 		END)
 	)) as ntp_formal_name,
+	COALESCE(cp.ntp_formal_name_fr, format(
+		'%s %s',
+		dsum.ntp_ingredient_detail_set_fr,
+		(CASE
+			WHEN p.id is not null THEN format(
+				'%s %s',
+				COALESCE(ddform.dosage_form_fr, 'NA'),
+				dsum.uop_suffix
+			)
+			ELSE COALESCE(ddform.dosage_form_fr, 'NA')
+		END)
+	)) as ntp_formal_name_fr,
 	cp.ntp_type,
 	(CASE
 		WHEN (COALESCE(CAST(p.pseudodin AS varchar), dd.din)
