@@ -1638,6 +1638,7 @@ SELECT
 		ELSE candidate.din
 	END) AS mp_code,
 	candidate.mp_formal_name,
+	candidate.mp_formal_name_fr,
 	(CASE WHEN CAST(
 		(
 			SELECT code FROM ccdd.ntp_definition prevntp
@@ -1653,6 +1654,7 @@ SELECT
 	END
 	) AS ntp_code,
 	candidate.ntp_formal_name,
+	candidate.ntp_formal_name_fr,
 	(
 		CASE
 			WHEN CAST(dtm.tm_code as varchar) IS NULL THEN md5(COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name))
@@ -1660,6 +1662,7 @@ SELECT
 		END
 	) as tm_code,
 	COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name) as tm_formal_name,
+	COALESCE(dtm.tm_formal_name_fr, dtmf.tm_fallback_formal_name_fr) as tm_formal_name_fr,
 	candidate.tm_is_publishable AS tm_is_publishable
 FROM
 	ccdd_mp_table_candidate candidate
