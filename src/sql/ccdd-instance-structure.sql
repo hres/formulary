@@ -2652,6 +2652,7 @@ AS
 SELECT
 	mp_code,
 	mp_formal_name,
+	mp_formal_name_fr,
 	mp_en_description,
 	mp_fr_description,
 	mp_status,
