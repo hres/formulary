@@ -2416,7 +2416,8 @@ select
 	p.dpd_drug_code as drug_code,
 	p.unit as unit_of_presentation,
 	p.size_amount as uop_size_amount,
-	p.size_unit as uop_size_unit
+	p.size_unit as uop_size_unit,
+	p.size_unit_fr as uop_size_unit_fr
 from
 	ccdd_mp_table_candidate nxt
 	left join ccdd_presentation p on(p.id = nxt.ccdd_presentation_id)
