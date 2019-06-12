@@ -2454,6 +2454,7 @@ AS
 SELECT
 	msg.mp_code AS mp_code,
 	msg.mp_formal_name AS mp_formal_name,
+	msg.mp_formal_name_fr AS mp_formal_name_fr,
 	msg.policy_type AS policy_type,
 	msg.policy_reference AS policy_reference,
 	msg.tm_is_publishable AS tm_is_publishable
@@ -2465,6 +2466,7 @@ FROM (
 				ELSE can.din
 			END)::varchar AS mp_code,
 			can.mp_formal_name AS mp_formal_name,
+			can.mp_formal_name_fr AS mp_formal_name_fr,
 			sch.policy_type AS policy_type,
 			can.tm_is_publishable AS tm_is_publishable,
 			'http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html'::varchar AS policy_reference
@@ -2481,6 +2483,7 @@ FROM (
 				ELSE can.din
 			END)::varchar AS mp_code,
 			can.mp_formal_name AS mp_formal_name,
+			can.mp_formal_name_fr AS mp_formal_name_fr,
 			tsg.policy_type AS policy_type,
 			can.tm_is_publishable AS tm_is_publishable,
 			tsg.policy_reference AS policy_reference
