@@ -2997,6 +2997,7 @@ SELECT
 	((SELECT max(psm.pseudodin) FROM ccdd.pseudodin_map psm)) + (row_number() OVER ()) AS pseudodin,
 	mcp.drug_code,
 	mcp.unit_of_presentation,
+	mcp.unit_of_presentation_fr,
 	CAST(mcp.uop_size_amount AS varchar),
 	mcp.uop_size_unit
 FROM qa_missing_concepts_pseudodin mcp;
