@@ -1698,6 +1698,7 @@ AS
 			END
 		) as tm_code,
 		COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name) as tm_formal_name,
+		COALESCE(dtm.tm_formal_name_fr, dtmf.tm_fallback_formal_name_fr) as tm_formal_name_fr,
 		(CASE
 			WHEN CAST(depr.code as varchar) IS NOT NULL THEN 'Deprec'
 			WHEN bool_and(candidate.mp_status = 'Inactive') THEN 'Inactive'
@@ -1717,7 +1718,9 @@ AS
 	GROUP BY
 		dtm.tm_code,
 		dtm.tm_formal_name,
+		dtm.tm_formal_name_fr,
 		dtmf.tm_fallback_formal_name,
+		dtmf.tm_fallback_formal_name_fr,
 		depr.code;
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_tm_table OWNER TO postgres;
