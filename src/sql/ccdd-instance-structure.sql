@@ -1737,6 +1737,7 @@ SELECT
 		ELSE candidate.din
 	END) AS mp_code,
 	candidate.mp_formal_name,
+	candidate.mp_formal_name_fr,
 	NULL::text AS mp_en_description,
 	NULL::text AS mp_fr_description,
 	candidate.mp_status,
