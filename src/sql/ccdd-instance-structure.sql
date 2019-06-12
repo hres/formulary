@@ -2412,6 +2412,7 @@ AS
 select
 	nxt.din,
 	nxt.mp_formal_name,
+	nxt.mp_formal_name_fr,
 	p.dpd_drug_code as drug_code,
 	p.unit as unit_of_presentation,
 	p.size_amount as uop_size_amount,
