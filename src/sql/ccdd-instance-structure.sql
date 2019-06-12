@@ -2415,6 +2415,7 @@ select
 	nxt.mp_formal_name_fr,
 	p.dpd_drug_code as drug_code,
 	p.unit as unit_of_presentation,
+	p.unit_fr as unit_of_presentation_fr,
 	p.size_amount as uop_size_amount,
 	p.size_unit as uop_size_unit,
 	p.size_unit_fr as uop_size_unit_fr
@@ -2950,7 +2951,8 @@ AS
 
 SELECT
 	CAST(((SELECT max(ntd.code) FROM ccdd.ntp_definition ntd)) + (row_number() OVER ()) as varchar) AS ntp_code,
-	mcn.ntp_formal_name
+	mcn.ntp_formal_name,
+	mcn.ntp_formal_name_fr
 FROM qa_missing_concepts_ntp mcn;
 -- ddl-end --
 ALTER VIEW public.qa_new_concepts_ntp OWNER TO postgres;
