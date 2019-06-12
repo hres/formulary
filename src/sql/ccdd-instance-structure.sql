@@ -2850,10 +2850,13 @@ AS
 select
 	mp_code,
 	mp_formal_name,
+	mp_formal_name_fr,
 	ntp_code,
 	ntp_formal_name,
+	ntp_formal_name_fr,
 	tm_code,
-	tm_formal_name
+	tm_formal_name,
+	tm_formal_name_fr
 FROM
 	ccdd_mp_ntp_tm_relationship
 WHERE tm_is_publishable = true;
