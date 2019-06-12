@@ -2721,6 +2721,7 @@ AS
 SELECT
 	ntp_code,
 	ntp_formal_name,
+	ntp_formal_name_fr,
 	ntp_status,
 	ntp_status_effective_time,
 	ntp_type
