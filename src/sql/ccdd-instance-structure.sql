@@ -3027,7 +3027,8 @@ AS
 
 SELECT
 	CAST(((SELECT max(tmd.code) FROM ccdd.tm_definition tmd)) + (row_number() OVER ()) AS VARCHAR) AS tm_code,
-	mct.tm_formal_name
+	mct.tm_formal_name,
+	mct.tm_formal_name_fr
 FROM qa_missing_concepts_tm mct;
 -- ddl-end --
 ALTER VIEW public.qa_new_concepts_tm OWNER TO postgres;
