@@ -45,26 +45,31 @@ psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-run-views.sql"
 mkdir -p "$distDir"
 
 # QA release and candidate CSVs
-psql -c "copy ((select mp_code, mp_formal_name, COALESCE(mp_en_description, 'NA') as mp_en_description, COALESCE(mp_fr_description, 'NA')
+psql -c "copy ((select mp_code, mp_formal_name,mp_formal_name_fr, COALESCE(mp_en_description, 'NA') as mp_en_description, COALESCE(mp_fr_description, 'NA')
         as mp_fr_description, mp_status, mp_status_effective_time, mp_type, \"Health_Canada_identifier\", \"Health_Canada_product_name\" FROM ccdd_mp_table)
         UNION ALL
         (select * from ccdd.mp_release_candidate where mp_code IN ('02212188', '02480360', '02480379')))
         to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/mp_qa_release_${ccdd_current_date}.csv"
-psql -c "copy ((select ntp_code, ntp_formal_name, COALESCE(null::varchar, 'NA') as ntp_en_description, COALESCE(null::varchar, 'NA') as ntp_fr_description, ntp_status, ntp_status_effective_time, COALESCE(ntp_type, 'NA') as ntp_type FROM ccdd_ntp_table)
+psql -c "copy ((select ntp_code, ntp_formal_name,ntp_formal_name_fr, COALESCE(null::varchar, 'NA') as ntp_en_description, COALESCE(null::varchar, 'NA') as ntp_fr_description, ntp_status, ntp_status_effective_time, COALESCE(ntp_type, 'NA') as ntp_type FROM ccdd_ntp_table)
         UNION ALL
         (select * from ccdd.ntp_release_candidate where ntp_code IN ('9013250')))
         to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/ntp_qa_release_${ccdd_current_date}.csv"
-psql -c "copy (select tm_code, tm_formal_name, tm_status, tm_status_effective_time FROM ccdd_tm_table) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/tm_qa_release_${ccdd_current_date}.csv"
+psql -c "copy (select tm_code, tm_formal_name,tm_formal_name_fr, tm_status, tm_status_effective_time FROM ccdd_tm_table) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/tm_qa_release_${ccdd_current_date}.csv"
 psql -c "copy ((select mp_code, mp_formal_name, ntp_code, ntp_formal_name, tm_code, tm_formal_name FROM ccdd_mp_ntp_tm_relationship)
         UNION ALL
         (select * from ccdd.mp_ntp_tm_relationship_release_candidate where mp_code IN ('02212188', '02480360', '02480379')))
         to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/mp_ntp_tm_relationship_qa_release_${ccdd_current_date}.csv"
+psql -c "copy ((select mp_code, mp_formal_name_fr, ntp_code, ntp_formal_name_fr, tm_code, tm_formal_name_fr FROM ccdd_mp_ntp_tm_relationship)
+        UNION ALL
+        (select * from ccdd.mp_ntp_tm_relationship_release_candidate where mp_code IN ('02212188', '02480360', '02480379')))
+        to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/mp_ntp_tm_relationship_qa_release_fr_${ccdd_current_date}.csv"
 psql -c "copy (select ccdd_code, ccdd_formal_name, ccdd_type, policy_type, policy_reference, special_groupings_status, special_groupings_status_effective_time from ccdd_special_groupings) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/special_groupings_qa_release_${ccdd_current_date}.csv"
 psql -c "copy (select * from release_changes_special_groupings) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_special_groupings.csv"
 
 psql -c "copy ((select
                 mp_code,
                 mp_formal_name,
+                mp_formal_name_fr,
                 COALESCE(mp_en_description, 'NA') as mp_en_description,
                 COALESCE(mp_fr_description, 'NA') as mp_fr_description,
                 mp_status,
@@ -77,6 +82,7 @@ psql -c "copy ((select
 psql -c "copy ((select
                   ntp_code,
                   ntp_formal_name,
+                  ntp_formal_name_fr,
                   COALESCE(null::varchar, 'NA') as ntp_en_description,
                   COALESCE(null::varchar, 'NA') as ntp_fr_description,
                   ntp_status,
@@ -85,7 +91,7 @@ psql -c "copy ((select
                   UNION ALL
                   (select * from ccdd.ntp_release_candidate where ntp_code IN ('9013250'))
                 ) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/ntp_release_candidate_${ccdd_current_date}.csv"
-psql -c "copy (select tm_code, tm_formal_name, tm_status, tm_status_effective_time FROM ccdd_tm_table WHERE tm_is_publishable = true) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/tm_release_candidate_${ccdd_current_date}.csv"
+psql -c "copy (select tm_code, tm_formal_name,tm_formal_name_fr,tm_status, tm_status_effective_time FROM ccdd_tm_table WHERE tm_is_publishable = true) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/tm_release_candidate_${ccdd_current_date}.csv"
 psql -c "copy ((select
                 mp_code,
                 mp_formal_name,
@@ -96,6 +102,18 @@ psql -c "copy ((select
                 UNION ALL
                 (select * from ccdd.mp_ntp_tm_relationship_release_candidate where mp_code IN ('02212188', '02480360', '02480379'))
                 ) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/mp_ntp_tm_relationship_release_candidate_${ccdd_current_date}.csv"
+psql -c "copy ((select
+                mp_code,
+                mp_formal_name_fr,
+                ntp_code,
+                ntp_formal_name_fr,
+                tm_code,
+                tm_formal_name_fr FROM ccdd_mp_ntp_tm_relationship WHERE tm_is_publishable = true)
+                UNION ALL
+                (select * from ccdd.mp_ntp_tm_relationship_release_candidate where mp_code IN ('02212188', '02480360', '02480379'))
+                ) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/mp_ntp_tm_relationship_release_candidate_fr_${ccdd_current_date}.csv"
+
+
 psql -c "copy ((
           select ccdd_code, ccdd_formal_name, ccdd_type, policy_type, policy_reference, special_groupings_status, special_groupings_status_effective_time from ccdd_special_groupings WHERE tm_is_publishable = true)
           UNION ALL
