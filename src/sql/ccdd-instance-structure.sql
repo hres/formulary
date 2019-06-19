@@ -935,7 +935,7 @@ SELECT
 	CASE
 		WHEN p.unit_fr is not null AND p.strength_is_per_size_unit THEN format('%s %s par %s %s', strength_amount * p.size_amount, strength_unit_fr, p.size_amount, p.size_unit_fr)
 		WHEN (
-			upper(ddio.dosage_unit_fr) not in ('', '%', 'PLAQUETTE', 'CAPSULE', 'DOSE', 'ECC', 'ECT', 'TROUSSE', 'PASTILLE', 'NIL', 'PATCH', 'SLT', 'SRC', 'SRD', 'SRT', 'SUPPOSITOIRE', 'SYRINGUE', 'COMPRIMÉ', 'V/V', 'P/V', 'P/P')
+		  upper(ddio.dosage_unit) not in ('', '%', 'BLISTER', 'CAP', 'DOSE', 'ECC', 'ECT', 'KIT', 'LOZ', 'NIL', 'PATCH', 'SLT', 'SRC', 'SRD', 'SRT', 'SUP', 'SYR', 'TAB', 'V/V', 'W/V', 'W/W')
 		) THEN (
 			CASE
 				WHEN dosage_amount is not null THEN format('%s %s par %s %s', strength_amount, strength_unit_fr, dosage_amount, dosage_unit_fr)
