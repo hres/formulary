@@ -654,8 +654,8 @@ SELECT DISTINCT name, name_fr FROM (
 	UNION
 
 	SELECT
-	unnest(string_to_array(formal_name, ' and ')) as name,
-	unnest(string_to_array(formal_name_fr, ' et ')) as name_fr
+	unnest(regexp_split_to_array(formal_name, '\s+and\s+(?!sp-c)')) as name,
+	unnest(regexp_split_to_array(formal_name_fr, '\s+et\s+(?!sp-c)')) as name_fr
 
 	FROM
 		ccdd.tm_definition
@@ -682,8 +682,8 @@ AS
 
 SELECT
    code AS ccdd_tm_code,
-   unnest(string_to_array(formal_name, ' and ')) as ccdd_ingredient_stem_name,
-   unnest(string_to_array(formal_name_fr, ' et ')) as ccdd_ingredient_stem_name_fr
+   unnest(regexp_split_to_array(formal_name, '\s+and\s+(?!sp-c)')) as ccdd_ingredient_stem_name,
+   unnest(regexp_split_to_array(formal_name_fr, '\s+et\s+(?!sp-c)')) as ccdd_ingredient_stem_name_fr
 FROM
    ccdd.tm_definition;
 -- ddl-end --
