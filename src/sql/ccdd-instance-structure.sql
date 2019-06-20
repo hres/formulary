@@ -1041,14 +1041,15 @@ SELECT
 			regexp_replace(dod.drug_ingredient_name, '[[:punct:]]', '', 'g'),
 			dod.source_order
 	) AS drug_ingredient_detail_set,
-	STRING_AGG(
-		format('%s %s', (CASE WHEN dod.hydrate = 'TRUE' THEN dod.drug_ingredient_name_fr ELSE dod.ntp_ingredient_name_fr END), dod.strength_description_fr),
-		' et '
-		ORDER BY
-			regexp_replace(dod.ingredient_stem_name_fr, '[[:punct:]]', '', 'g'),
-			regexp_replace(dod.drug_ingredient_name_fr, '[[:punct:]]', '', 'g'),
-			dod.source_order
-	) AS drug_ingredient_detail_set_fr,
+	REPLACE(
+			STRING_AGG(
+			format('%s %s', (CASE WHEN dod.hydrate = 'TRUE' THEN dod.drug_ingredient_name_fr ELSE dod.ntp_ingredient_name_fr END), dod.strength_description_fr),
+			' et '
+			ORDER BY
+				regexp_replace(dod.ingredient_stem_name_fr, '[[:punct:]]', '', 'g'),
+				regexp_replace(dod.drug_ingredient_name_fr, '[[:punct:]]', '', 'g'),
+				dod.source_order
+		), '.', ',') AS drug_ingredient_detail_set_fr,
 	STRING_AGG(
 		(CASE WHEN dod.ntp_ingredient_name is not null then format('%s %s', dod.ntp_ingredient_name, dod.strength_description) else '<UNKNOWN>' END),
 		' and '
@@ -1057,14 +1058,15 @@ SELECT
 			regexp_replace(dod.ntp_ingredient_name, '[[:punct:]]', '', 'g'),
 			dod.source_order
 	) AS ntp_ingredient_detail_set,
-	STRING_AGG(
+	REPLACE(
+		STRING_AGG(
 		(CASE WHEN dod.ntp_ingredient_name_fr is not null then format('%s %s', dod.ntp_ingredient_name_fr, dod.strength_description_fr) else '<UNKNOWN>' END),
 		' et '
 		ORDER BY
 			regexp_replace(dod.ingredient_stem_name_fr, '[[:punct:]]', '', 'g'),
 			regexp_replace(dod.ntp_ingredient_name_fr, '[[:punct:]]', '', 'g'),
 			dod.source_order
-	) AS ntp_ingredient_detail_set_fr,
+	), '.', ',') AS ntp_ingredient_detail_set_fr,
 	bool_and(dod.ccdd) AS ccdd_all
 FROM
 	dpd_drug dd
