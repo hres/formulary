@@ -1028,11 +1028,11 @@ AS
 SELECT
 	dd.code AS dpd_drug_code,
 	p.id AS ccdd_presentation_id,
-	(
+	REPLACE((
 		CASE
 			WHEN p.unit_has_explicit_size THEN format('%s %s %s', p.size_amount, p.size_unit, p.unit)
 			ELSE p.unit END
-	) AS uop_suffix,
+	), '.', ',') AS uop_suffix,
 	STRING_AGG(
 		format('%s %s', (CASE WHEN dod.hydrate = 'TRUE' THEN dod.drug_ingredient_name ELSE dod.ntp_ingredient_name END), dod.strength_description),
 		' and '
