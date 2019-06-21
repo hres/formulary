@@ -1028,11 +1028,16 @@ AS
 SELECT
 	dd.code AS dpd_drug_code,
 	p.id AS ccdd_presentation_id,
-	REPLACE((
+	(
 		CASE
 			WHEN p.unit_has_explicit_size THEN format('%s %s %s', p.size_amount, p.size_unit, p.unit)
 			ELSE p.unit END
-	), '.', ',') AS uop_suffix,
+	) AS uop_suffix,
+	REPLACE((
+		CASE
+			WHEN p.unit_has_explicit_size THEN format('%s %s %s', p.size_amount, p.size_unit_fr, p.unit_fr)
+			ELSE p.unit_fr END
+	), '.', ',') AS uop_suffix_fr,
 	STRING_AGG(
 		format('%s %s', (CASE WHEN dod.hydrate = 'TRUE' THEN dod.drug_ingredient_name ELSE dod.ntp_ingredient_name END), dod.strength_description),
 		' and '
@@ -1450,7 +1455,7 @@ select
 			WHEN p.id is not null THEN format(
 				'%s %s',
 				COALESCE(ddform.dosage_form_fr, 'NA'),
-				dsum.uop_suffix
+				dsum.uop_suffix_fr
 			)
 			ELSE COALESCE(ddform.dosage_form_fr, 'NA')
 		END),
@@ -1475,7 +1480,7 @@ select
 			WHEN p.id is not null THEN format(
 				'%s %s',
 				COALESCE(ddform.dosage_form_fr, 'NA'),
-				dsum.uop_suffix
+				dsum.uop_suffix_fr
 			)
 			ELSE COALESCE(ddform.dosage_form_fr, 'NA')
 		END)
