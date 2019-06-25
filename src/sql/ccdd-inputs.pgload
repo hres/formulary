@@ -237,11 +237,13 @@ LOAD CSV
   FROM ./test/ccdd-ntp-deprecations-draft.csv
     WITH ENCODING UTF-8
     (
-      code
+      code,
+      status_effective_date
     )
   INTO postgresql:///?ccdd.ntp_deprecations
     (
-      code
+      code,
+      status_effective_date
     )
   WITH
     skip header = 1,

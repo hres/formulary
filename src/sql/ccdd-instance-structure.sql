@@ -544,6 +544,7 @@ ON DELETE RESTRICT ON UPDATE CASCADE;
 -- DROP TABLE IF EXISTS ccdd.ntp_deprecations CASCADE;
 CREATE TABLE ccdd.ntp_deprecations(
 	code varchar NOT NULL,
+	status_effective_date date NOT NULL,
 	CONSTRAINT ntp_deprecations_pk PRIMARY KEY (code)
 
 );
@@ -1774,7 +1775,7 @@ AS
             ELSE candidate.ntp_type
             END) as ntp_type,
         to_char((CASE
-            WHEN CAST(depr.code as varchar) IS NOT NULL THEN (SELECT dpd_extract_date as varchar FROM ccdd_config LIMIT 1)
+            WHEN CAST(depr.code as varchar) IS NOT NULL THEN depr.status_effective_date
             WHEN bool_and(candidate.mp_status = 'Inactive') THEN max(candidate.mp_status_effective_date)
             ELSE min(candidate.first_market_date)
         END), 'YYYYMMDD') AS ntp_status_effective_time,
