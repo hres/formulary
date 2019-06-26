@@ -3297,8 +3297,7 @@ select
 			cmp.field_name,
 			cmp.cur_value,
 			cmp.nxt_value
-		), E'\n' ORDER BY cmp.field_name)
-	END) as changes
+		), E'\n' ORDER BY cmp.field_name) as changes
 from
 	ccdd.special_groupings cur
 	LEFT JOIN ccdd_special_groupings nxt ON(nxt.ccdd_code = cur.ccdd_code AND CAST(nxt.policy_type as text) = cur.policy_type)
