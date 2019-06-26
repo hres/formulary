@@ -381,57 +381,6 @@ ON DELETE RESTRICT ON UPDATE CASCADE;
 -- ddl-end --
 
 
--- object: ccdd.ntp_deprecations | type: TABLE --
--- DROP TABLE IF EXISTS ccdd.ntp_deprecations CASCADE;
-CREATE TABLE ccdd.ntp_deprecations(
-	code varchar NOT NULL,
-	status_effective_date date NOT NULL,
-	CONSTRAINT ntp_deprecations_pk PRIMARY KEY (code)
-
-);
--- ddl-end --
-ALTER TABLE ccdd.ntp_deprecations OWNER TO postgres;
-
-CREATE TABLE ccdd.tm_deprecations(
-	code varchar NOT NULL,
-	status_effective_time date NOT NULL,
-	CONSTRAINT tm_deprecations_pk PRIMARY KEY (code)
-);
--- ddl-end --
-ALTER TABLE ccdd.tm_deprecations OWNER TO postgres;
-
--- ddl-end --
-
--- -- object: dpd.schedule | type: TABLE --
--- -- DROP TABLE IF EXISTS dpd.schedule CASCADE;
--- CREATE TABLE dpd.schedule(
--- 	drug_code integer NOT NULL,
--- 	"extract" text DEFAULT 'approved',
--- 	schedule varchar,
--- 	schedule_f varchar
--- );
--- -- ddl-end --
--- ALTER TABLE dpd.schedule OWNER TO postgres;
--- -- ddl-end --
---
--- object: ccdd.ntp_dosage_forms | type: TABLE --
--- DROP TABLE IF EXISTS ccdd.ntp_dosage_forms CASCADE;
-CREATE TABLE ccdd.ntp_dosage_forms(
-	ntp_dosage_form_code bigint,
-	ntp_dosage_form text,
-	route_of_administration_code text,
-	route_of_administration text,
-	route_of_administration_f text,
-	pharm_form_code text,
-	pharmaceutical_form text,
-	pharmaceutical_form_f text,
-	audit_id bigint
-);
--- ddl-end --
-ALTER TABLE ccdd.ntp_dosage_forms OWNER TO postgres;
--- ddl-end --
-
-
 -- object: public.dpd_drug_form_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.dpd_drug_form_source CASCADE;
 CREATE MATERIALIZED VIEW public.dpd_drug_form_source
@@ -1605,7 +1554,6 @@ AS
         END) AS ntp_status,
         candidate.ntp_type as ntp_type,
         to_char((CASE 
-            WHEN CAST(depr.code as varchar) IS NOT NULL THEN depr.status_effective_date
             WHEN bool_and(candidate.mp_status = 'Inactive') THEN max(candidate.mp_status_effective_date)
             ELSE min(candidate.first_market_date)
         END), 'YYYYMMDD') AS ntp_status_effective_time,
@@ -1623,7 +1571,7 @@ AS
 			deprntp.formal_name_fr as ntp_formal_name_fr,
 			'Deprec' as ntp_status,
 			NULL as ntp_type,
-			to_char((SELECT dpd_extract_date FROM ccdd_config LIMIT 1), 'YYYYMMDD') as ntp_status_effective_time,
+			to_char(depr.status_effective_date, 'YYYYMMDD') as ntp_status_effective_time,
 			true as tm_is_publishable
 		FROM
 			ccdd.ntp_deprecations depr
@@ -3137,8 +3085,7 @@ select
 			cmp.field_name,
 			cmp.cur_value,
 			cmp.nxt_value
-		), E'\n' ORDER BY cmp.field_name)
-	END) as changes
+		), E'\n' ORDER BY cmp.field_name) as changes
 from
 	ccdd.special_groupings cur
 	LEFT JOIN ccdd_special_groupings nxt ON(nxt.ccdd_code = cur.ccdd_code AND CAST(nxt.policy_type as text) = cur.policy_type)

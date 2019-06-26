@@ -118,6 +118,7 @@ ALTER TABLE ccdd.mp_blacklist OWNER TO postgres;
 --
 CREATE TABLE ccdd.ntp_deprecations(
 	code varchar NOT NULL,
+  status_effective_date date NOT NULL,
 	CONSTRAINT ntp_deprecations_pk PRIMARY KEY (code)
 
 );
