@@ -3290,21 +3290,13 @@ select
 	cur.ccdd_type,
 	cur.policy_type,
 	cur.policy_reference,
-	(CASE
-		WHEN nxt.ccdd_code is null THEN 'Inactive'
-		ELSE cur.special_groupings_status END
-	),
-	(
-		CASE WHEN nxt.ccdd_code is null THEN (SELECT ccdd_date::text FROM ccdd_config LIMIT 1)
-		ELSE cur.special_groupings_status_effective_time END
-	),
-	(CASE
-		WHEN nxt.ccdd_code is null THEN 'DELETED'
-		ELSE string_agg(FORMAT(
+	cur.special_groupings_status,
+	cur.special_groupings_status_effective_time,
+	string_agg(FORMAT(
 			'%s: "%s" -> %s',
 			cmp.field_name,
 			cmp.cur_value,
-			(CASE WHEN cmp.nxt_value is not null THEN FORMAT('"%s"', cmp.nxt_value) ELSE 'NULL' END)
+			cmp.nxt_value
 		), E'\n' ORDER BY cmp.field_name)
 	END) as changes
 from
@@ -3321,7 +3313,7 @@ from
 		field_name, cur_value, nxt_value
 	) ON true
 WHERE
-	cmp.cur_value is distinct from cmp.nxt_value
+	cmp.cur_value is distinct from cmp.nxt_value AND cmp.nxt_value is not NULL
 GROUP BY cur.ccdd_code, cur.ccdd_formal_name, cur.ccdd_type, cur.policy_type, cur.policy_reference, cur.special_groupings_status, cur.special_groupings_status_effective_time, nxt.ccdd_code
 UNION
 select
