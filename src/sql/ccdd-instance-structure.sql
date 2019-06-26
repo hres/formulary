@@ -380,8 +380,7 @@ REFERENCES public.dpd_route (code) MATCH FULL
 ON DELETE RESTRICT ON UPDATE CASCADE;
 -- ddl-end --
 
-<<<<<<< HEAD
-=======
+
 -- object: ccdd.ntp_deprecations | type: TABLE --
 -- DROP TABLE IF EXISTS ccdd.ntp_deprecations CASCADE;
 CREATE TABLE ccdd.ntp_deprecations(
@@ -431,7 +430,7 @@ CREATE TABLE ccdd.ntp_dosage_forms(
 -- ddl-end --
 ALTER TABLE ccdd.ntp_dosage_forms OWNER TO postgres;
 -- ddl-end --
->>>>>>> sql-views
+
 
 -- object: public.dpd_drug_form_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.dpd_drug_form_source CASCADE;
@@ -1605,11 +1604,8 @@ AS
             ELSE 'Active'
         END) AS ntp_status,
         candidate.ntp_type as ntp_type,
-        to_char((CASE
-<<<<<<< HEAD
-=======
+        to_char((CASE 
             WHEN CAST(depr.code as varchar) IS NOT NULL THEN depr.status_effective_date
->>>>>>> sql-views
             WHEN bool_and(candidate.mp_status = 'Inactive') THEN max(candidate.mp_status_effective_date)
             ELSE min(candidate.first_market_date)
         END), 'YYYYMMDD') AS ntp_status_effective_time,
