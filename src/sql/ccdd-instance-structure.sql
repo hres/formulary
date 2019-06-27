@@ -2051,8 +2051,14 @@ CREATE VIEW public.qa_release_changes_mp
 AS
 
 select
-	cur.mp_code,
-	cur.mp_formal_name,
+	(CASE 
+    WHEN nxt.mp_code is null THEN cur.mp_code
+    ELSE nxt.mp_code
+    END) as mp_code,
+(CASE 
+    WHEN nxt.mp_code is null THEN cur.mp_formal_name
+    ELSE nxt.mp_formal_name
+    END) as mp_formal_name,
 	(CASE
 		WHEN nxt.mp_code is null THEN 'DELETED'
 		ELSE string_agg(FORMAT(
@@ -2077,7 +2083,7 @@ from
 	) ON true
 WHERE
 	cmp.cur_value is distinct from cmp.nxt_value
-GROUP BY cur.mp_code, cur.mp_formal_name, nxt.mp_code
+GROUP BY cur.mp_code, cur.mp_formal_name,nxt.mp_code,nxt.mp_formal_name
 
 UNION
 
@@ -2203,8 +2209,14 @@ CREATE VIEW public.qa_release_changes_ntp
 AS
 
 select
-	cur.ntp_code,
-	cur.ntp_formal_name,
+	(CASE 
+    WHEN nxt.ntp_code is null THEN cur.ntp_code
+    ELSE nxt.ntp_code
+    END) as ntp_code,
+  (CASE 
+    WHEN nxt.ntp_code is null THEN cur.ntp_formal_name
+    ELSE nxt.ntp_formal_name
+    END) as ntp_formal_name,
 	(CASE
 		WHEN nxt.ntp_code is null THEN
 		(CASE WHEN LENGTH(cur.ntp_code) = 32 AND cur.ntp_formal_name = (SELECT ntp_formal_name FROM ccdd_ntp_table WHERE ntp_formal_name = cur.ntp_formal_name) THEN 'CHANGED' ELSE 'DELETED' END)
@@ -2228,7 +2240,7 @@ from
 	) ON true
 WHERE
 	cmp.cur_value is distinct from cmp.nxt_value
-GROUP BY cur.ntp_code, cur.ntp_formal_name, nxt.ntp_code
+GROUP BY cur.ntp_code, cur.ntp_formal_name, nxt.ntp_code, nxt.ntp_formal_name
 
 UNION
 
@@ -2251,8 +2263,14 @@ CREATE VIEW public.qa_release_changes_tm
 AS
 
 select
-	cur.tm_code,
-	cur.tm_formal_name,
+	 (CASE 
+    WHEN nxt.tm_code is null THEN cur.tm_code
+    ELSE nxt.tm_code
+    END) as tm_code,
+   (CASE 
+    WHEN nxt.tm_code is null THEN cur.tm_formal_name
+    ELSE nxt.tm_formal_name
+    END) as tm_formal_name,
 	(CASE
 		WHEN nxt.tm_code is null THEN
 		(CASE WHEN LENGTH(cur.tm_code) = 32 AND cur.tm_formal_name = (SELECT tm_formal_name FROM ccdd_tm_table WHERE tm_formal_name = cur.tm_formal_name) THEN 'CHANGED' ELSE 'DELETED' END)
@@ -2275,7 +2293,7 @@ from
 	) ON true
 WHERE
 	cmp.cur_value is distinct from cmp.nxt_value
-GROUP BY cur.tm_code, cur.tm_formal_name, nxt.tm_code
+GROUP BY cur.tm_code, cur.tm_formal_name, nxt.tm_code, nxt.tm_formal_name
 
 UNION
 
@@ -2906,8 +2924,14 @@ CREATE VIEW public.qa_release_changes_mp_release_candidate
 AS
 
 SELECT
-	cur.mp_code,
-	cur.mp_formal_name,
+	(CASE 
+    WHEN nxt.mp_code is null THEN cur.mp_code
+    ELSE nxt.mp_code
+    END) as mp_code,
+(CASE 
+    WHEN nxt.mp_code is null THEN cur.mp_formal_name
+    ELSE nxt.mp_formal_name
+    END) as mp_formal_name,
 	(CASE
 		WHEN nxt.mp_code IS NULL THEN 'DELETED'
 		ELSE string_agg(FORMAT(
@@ -2932,7 +2956,7 @@ FROM
 	) ON true
 WHERE
 	cmp.cur_value IS DISTINCT FROM cmp.nxt_value
-GROUP BY cur.mp_code, cur.mp_formal_name, nxt.mp_code
+GROUP BY cur.mp_code, cur.mp_formal_name, nxt.mp_code,nxt.mp_formal_name
 
 UNION
 
@@ -2971,8 +2995,14 @@ CREATE VIEW public.qa_release_changes_ntp_release_candidate
 AS
 
 select
-	cur.ntp_code,
-	cur.ntp_formal_name,
+	(CASE 
+    WHEN nxt.ntp_code is null THEN cur.ntp_code
+    ELSE nxt.ntp_code
+    END) as ntp_code,
+  (CASE 
+    WHEN nxt.ntp_code is null THEN cur.ntp_formal_name
+    ELSE nxt.ntp_formal_name
+    END) as ntp_formal_name,
 	(CASE
 		WHEN nxt.ntp_code is null THEN 'DELETED'
 		ELSE string_agg(FORMAT(
@@ -2995,7 +3025,7 @@ from
 	) ON true
 WHERE
 	cmp.cur_value is distinct from cmp.nxt_value
-GROUP BY cur.ntp_code, cur.ntp_formal_name, nxt.ntp_code
+GROUP BY cur.ntp_code, cur.ntp_formal_name, nxt.ntp_code, nxt.ntp_formal_name
 
 UNION
 
@@ -3034,8 +3064,14 @@ CREATE VIEW public.qa_release_changes_tm_release_candidate
 AS
 
 select
-	cur.tm_code,
-	cur.tm_formal_name,
+	(CASE 
+    WHEN nxt.tm_code is null THEN cur.tm_code
+    ELSE nxt.tm_code
+    END) as tm_code,
+  (CASE 
+    WHEN nxt.tm_code is null THEN cur.tm_formal_name
+    ELSE nxt.tm_formal_name
+    END) as tm_formal_name,
 	(CASE
 		WHEN nxt.tm_code is null THEN 'DELETED'
 		ELSE string_agg(FORMAT(
@@ -3057,7 +3093,7 @@ from
 	) ON true
 WHERE
 	cmp.cur_value is distinct from cmp.nxt_value
-GROUP BY cur.tm_code, cur.tm_formal_name, nxt.tm_code
+GROUP BY cur.tm_code, cur.tm_formal_name, nxt.tm_code, nxt.tm_formal_name
 
 UNION
 
@@ -3285,13 +3321,13 @@ ALTER VIEW public.qa_new_concepts_tm_test OWNER TO postgres;
 CREATE VIEW public.release_changes_special_groupings
 AS
 select
-	cur.ccdd_code,
-	cur.ccdd_formal_name,
-	cur.ccdd_type,
-	cur.policy_type,
-	cur.policy_reference,
-	cur.special_groupings_status,
-	cur.special_groupings_status_effective_time,
+  nxt.ccdd_code,
+	nxt.ccdd_formal_name,
+	nxt.ccdd_type,
+	nxt.policy_type,
+	nxt.policy_reference,
+	nxt.special_groupings_status,
+	nxt.special_groupings_status_effective_time,
 	string_agg(FORMAT(
 			'%s: "%s" -> %s',
 			cmp.field_name,
@@ -3313,7 +3349,7 @@ from
 	) ON true
 WHERE
 	cmp.cur_value is distinct from cmp.nxt_value AND cmp.nxt_value is not NULL
-GROUP BY cur.ccdd_code, cur.ccdd_formal_name, cur.ccdd_type, cur.policy_type, cur.policy_reference, cur.special_groupings_status, cur.special_groupings_status_effective_time, nxt.ccdd_code
+GROUP BY nxt.ccdd_code, nxt.ccdd_formal_name, nxt.ccdd_type, nxt.policy_type, nxt.policy_reference, nxt.special_groupings_status, nxt.special_groupings_status_effective_time
 UNION
 select
 	nxt.ccdd_code,
