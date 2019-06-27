@@ -2520,8 +2520,14 @@ CREATE VIEW public.qa_release_changes_mp_ntp_tm_relationship
 AS
 
 select
-	cur.mp_code,
-	cur.mp_formal_name,
+	(CASE
+    WHEN nxt.mp_code is null THEN cur.mp_code
+    ELSE nxt.mp_code
+    END) as mp_code,
+  (CASE
+    WHEN nxt.mp_code is null THEN cur.mp_formal_name
+    ELSE nxt.mp_formal_name
+    END) as mp_formal_name,
 	(CASE
 		WHEN nxt.mp_code is null THEN 'DELETED'
 		ELSE string_agg(FORMAT(
@@ -2545,7 +2551,7 @@ from
 	) ON true
 WHERE
 	cmp.cur_value is distinct from cmp.nxt_value
-GROUP BY cur.mp_code, cur.mp_formal_name, nxt.mp_code
+GROUP BY cur.mp_code, cur.mp_formal_name, nxt.mp_code, nxt.mp_formal_name
 
 UNION
 
@@ -3134,8 +3140,14 @@ CREATE VIEW public.qa_release_changes_mp_ntp_tm_relationship_release_candidate
 AS
 
 select
-	cur.mp_code,
-	cur.mp_formal_name,
+	(CASE
+    WHEN nxt.mp_code is null THEN cur.mp_code
+    ELSE nxt.mp_code
+    END) as mp_code,
+  (CASE
+    WHEN nxt.mp_code is null THEN cur.mp_formal_name
+    ELSE nxt.mp_formal_name
+    END) as mp_formal_name,
 	(CASE
 		WHEN nxt.mp_code is null THEN 'DELETED'
 		ELSE string_agg(FORMAT(
@@ -3159,7 +3171,7 @@ from
 	) ON true
 WHERE
 	cmp.cur_value is distinct from cmp.nxt_value
-GROUP BY cur.mp_code, cur.mp_formal_name, nxt.mp_code
+GROUP BY cur.mp_code, cur.mp_formal_name, nxt.mp_code, nxt.mp_formal_name
 
 UNION
 
