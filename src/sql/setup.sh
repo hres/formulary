@@ -52,7 +52,10 @@ psql -c "copy ((select ntp_code, ntp_formal_name, COALESCE(null::varchar, 'NA') 
         UNION ALL
         (select * from ccdd.ntp_release_candidate where ntp_code IN ('9013250')))
         to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/ntp_qa_release_${ccdd_current_date}.csv"
-psql -c "copy (select tm_code, tm_formal_name, tm_status, tm_status_effective_time FROM ccdd_tm_table) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/tm_qa_release_${ccdd_current_date}.csv"
+psql -c "copy ((select tm_code, tm_formal_name, tm_status, tm_status_effective_time FROM ccdd_tm_table)
+               UNION ALL
+              (select * from ccdd.tm_release where tm_code IN ('8001659')))
+              to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/tm_qa_release_${ccdd_current_date}.csv"
 psql -c "copy ((select mp_code, mp_formal_name, ntp_code, ntp_formal_name, tm_code, tm_formal_name FROM ccdd_mp_ntp_tm_relationship)
         UNION ALL
         (select * from ccdd.mp_ntp_tm_relationship_release_candidate where mp_code IN ('02212188', '02480360', '02480379')))
@@ -83,7 +86,10 @@ psql -c "copy ((select
                   UNION ALL
                   (select * from ccdd.ntp_release_candidate where ntp_code IN ('9013250'))
                 ) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/ntp_release_candidate_${ccdd_current_date}.csv"
-psql -c "copy (select tm_code, tm_formal_name, tm_status, tm_status_effective_time FROM ccdd_tm_table WHERE tm_is_publishable = true) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/tm_release_candidate_${ccdd_current_date}.csv"
+psql -c "copy ((select tm_code, tm_formal_name, tm_status, tm_status_effective_time FROM ccdd_tm_table WHERE tm_is_publishable = true) 
+          UNION ALL
+         (select * from ccdd.tm_release where tm_code IN ('8001659')))
+         to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/tm_release_candidate_${ccdd_current_date}.csv"
 psql -c "copy ((select
                 mp_code,
                 mp_formal_name,
