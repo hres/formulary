@@ -3336,7 +3336,7 @@ select
   nxt.ccdd_code,
 	nxt.ccdd_formal_name,
 	nxt.ccdd_type,
-	nxt.policy_type,
+	nxt.policy_type::text,
 	nxt.policy_reference,
 	nxt.special_groupings_status,
 	nxt.special_groupings_status_effective_time,
