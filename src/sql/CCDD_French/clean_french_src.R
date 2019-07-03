@@ -109,7 +109,7 @@ dosage<-dosage%>%select(ntp_dosage_form_code,ntp_dosage_form,route_of_administra
                         pharm_form_code,pharmaceutical_form,pharmaceutical_form_f,audit_id,validated,date_validated,validated_by,ntp_dosage_form_id)
 
 dosage[is.na(dosage)]<-''
-write.csv(dosage,'./CCDD_French/ntp_dosage_fr.csv',row.names = F,quote=FALSE, fileEncoding = 'UTF-8')
+write.csv(dosage,'./src/sql/CCDD_French/ntp_dosage_form_map_master.csv',row.names = F,quote=FALSE, fileEncoding = 'UTF-8')
 
 
 #translate pseudodin map:

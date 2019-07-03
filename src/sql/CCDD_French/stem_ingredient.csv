@@ -1904,3 +1904,29 @@ Y,,VARDENAFIL (VARDENAFIL HYDROCHLORIDE TRIHYDRATE),vardenafil,TRUE,vardenafil (
 Y,,LEVOMENTHOL,levomenthol,FALSE,levomenthol,Released,,1904,NA,lévomenthol,lévomenthol
 Y,,MIXED SALTS AMPHETAMINE,amphetamine mixed salts,FALSE,amphetamine mixed salts,Issue - waiting on DPD change,,1905,NA,sels mixtes d’amphétamine,sels mixtes d’amphétamine
 Y,,POLYETHYLENE GLYCOL 3350,polyethylene glycol 3350,FALSE,polyethylene glycol 3350,Issue - in QA,,1398,POLYETHYLENE GLYCOL 3350,polyethylene glycol 3350,polyethylene glycol 3350
+Y,NA,FOSFOMYCIN (FOSFOMYCIN SODIUM),fosfomycin,FALSE,fosfomycin (fosfomycin sodium),No live products,NA,NA,Fosfomycine (FOSFOMYCIN SODIUM),fosfomycine,fosfomycine (fosfomycine sodique)
+Y,NA,TIBOLONE,tibolone,FALSE,tibolone,No live products,NA,NA,TIBOLONE,tibolone,tibolone
+Y,NA,FEBUXOSTAT (FEBUXOSTAT HEMIHYDRATE),febuxostat,TRUE,febuxostat,In QA,NA,NA,Fébuxostat (FEBUXOSTAT HEMIHYDRATE),fébuxostat,fébuxostat
+Y,NA,ABEMACICLIB,abemaciclib,FALSE,abemaciclib,In QA,NA,NA,Abemaciclib,abémaciclib,abémaciclib
+Y,NA,CEMIPLIMAB,cemiplimab,FALSE,cemiplimab,In QA,NA,NA,CÉMIPLIMAB,cémiplimab,cémiplimab
+Y,NA,RISANKIZUMAB,risankizumab,FALSE,risankizumab,In QA,NA,NA,Risankizumab,risankizumab,risankizumab
+Y,NA,BUROSUMAB,burosumab,FALSE,burosumab,In QA,NA,NA,BUROSUMAB,burosumab,burosumab
+Y,NA,CERLIPONASE ALFA,cerliponase alfa,FALSE,cerliponase alfa,In QA,NA,NA,Cerliponase Alfa,cerliponase alfa,cerliponase alfa
+Y,NA,CYSTEAMINE (CYSTEAMINE HYDROCHLORIDE),cysteamine,FALSE,cysteamine (cysteamine hydrochloride),In QA,NA,NA,Cystéamine (CYSTEAMINE HYDROCHLORIDE),cystéamine,cystéamine (chlorhydrate de cystéamine)
+Y,NA,DACOMITINIB (DACOMITINIB MONOHYDRATE),dacomitinib,TRUE,dacomitinib,In QA,NA,NA,Dacomitinib (DACOMITINIB MONOHYDRATE),dacomitinib,dacomitinib
+Y,NA,DINUTUXIMAB,dinutuximab,FALSE,dinutuximab,In QA,NA,NA,Dinutuximab,dinutuximab,dinutuximab
+Y,NA,ENASIDENIB (ENASIDENIB MESYLATE),enasidenib,FALSE,enasidenib (enasidenib mesylate),In QA,NA,NA,ÉNASIDÉNIB (ENASIDENIB MESYLATE),énasidénib,énasidénib (mésylate d'énasidénib)
+Y,NA,INOTERSEN (INOTERSEN SODIUM),inotersen,FALSE,inotersen (inotersen sodium),In QA,NA,NA,Inotersen (INOTERSEN SODIUM),inotersen,inotersen (sodium d’inotersen)
+Y,NA,ISAVUCONAZOLE (ISAVUCONAZONIUM SULFATE),isavuconazole,FALSE,isavuconazole (isavuconazonium sulfate),In QA,NA,NA,ISAVUCONAZOLE (ISAVUCONAZONIUM SULFATE),isavuconazonium,isavuconazonium (sulfate d’isavuconazonium)
+Y,NA,LATANOPROSTENE BUNOD,latanoprostene bunod,FALSE,latanoprostene bunod,In QA,NA,NA,Latanoprostène BUNOD,latanoprostène bunod,latanoprostène bunod
+Y,NA,LORLATINIB,lorlatinib,FALSE,lorlatinib,In QA,NA,NA,LORLATINIB,lorlatinib,lorlatinib
+Y,NA,PRALATREXATE,pralatrexate,FALSE,pralatrexate,In QA,NA,NA,Prelatrexate,pralatrexate,pralatrexate
+Y,NA,SUVOREXANT,suvorexant,FALSE,suvorexant,In QA,NA,NA,Suvorexant,suvorexant,suvorexant
+Y,NA,"ANTIHEMOPHILIC FACTOR (RECOMBINANT, B-DOMAIN DELETED, PEGYLATED)","antihemophilic factor (recombinant, b-domain deleted, pegylated)",FALSE,"antihemophilic factor (recombinant, b-domain deleted, pegylated)",No live products,NA,NA,Facteur antihémophilique (recombinant péglylé à domaine B tronqué),facteur antihémophilique (recombinant pégylé à domaine B tronqué),facteur antihémophilique (recombinant pégylé à domaine B tronqué)
+Y,NA,CENEGERMIN,cenegermin,FALSE,cenegermin,No live products,NA,NA,Cénégermine,cénégermine,cénégermine
+Y,NA,DECITABINE,decitabine,FALSE,decitabine,No live products,NA,NA,DÉCITABINE,décitamine,décitamine
+Y,NA,EDARAVONE,edaravone,FALSE,edaravone,No live products,NA,NA,édaravone,édavarone,édavarone
+Y,NA,FLUOROURACIL (FLUOROURACIL SODIUM),fluorouracil,FALSE,fluorouracil (fluorouracil sodium),In QA,NA,NA,Fluorouracil (FLUOROURACIL SODIUM),fluoro-uracile,fluoro-uracile (fluoro-uracile sodique)
+Y,NA,PATIROMER (PATIROMER SORBITEX CALCIUM),patiromer,FALSE,patiromer (patiromer sorbitex calcium),No live products,NA,NA,Patiromère (PATIROMER SORBITEX CALCIUM),patiromer ,patiromer (calcium de sorbitex de patiromer)
+Y,NA,SAFINAMIDE (SAFINAMIDE MESYLATE),safinamide,FALSE,safinamide (safinamide mesylate),No live products,NA,NA,SAFINAMIDE (SAFINAMIDE MESYLATE),safinamide,safinamide (mésylate de safinamide)
+Y,NA,VON WILLEBRAND FACTOR (RECOMBINANT),von willebrand factor (recombinant),FALSE,von willebrand factor (recombinant),No live products,NA,NA,FACTEUR DE VON WILLEBRAND (RECOMBINANT),facteur de von Willebrand (recombinant),facteur de von Willebrand (recombinant)

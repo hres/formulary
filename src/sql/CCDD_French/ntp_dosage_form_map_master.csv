@@ -75,7 +75,7 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40071,gastro-resistant granules for oral suspension,56,ORAL,Orale,148,"GRANULES FOR SUSPENSION, DELAYED RELEASE","Granules pour suspension, à libération retardée",29405,TRUE,2017-11-28,dbuijs,e93c24ee-d459-11e7-8749-aa0000cecfa6,40071,granulés gastrorésistants pour suspension orale
 40081,gastro-resistant tablet,56,ORAL,Orale,109,TABLET (DELAYED-RELEASE),Comprimé (à libération retardée),29425,TRUE,2017-11-28,dbuijs,e93c2e62-d459-11e7-8749-aa0000cecfa6,40081,comprimé gastrorésistant
 40081,gastro-resistant tablet,56,ORAL,Orale,17,TABLET (ENTERIC-COATED),Comprimé (entérosoluble),29427,TRUE,2017-11-28,dbuijs,e93c2f34-d459-11e7-8749-aa0000cecfa6,40081,comprimé gastrorésistant
-40064,oral solution,56,ORAL,Orale,163,GRANULES FOR SOLUTION,Granules pour solution,NA,NA,,,,40064,solution orale
+40064,oral solution,56,ORAL,Orale,163,GRANULES FOR SOLUTION,Granules pour solution,,,,,,40064,solution orale
 40068,granules for oral suspension,56,ORAL,Orale,53,GRANULES,Granules,29402,TRUE,2017-11-28,dbuijs,e93c23cc-d459-11e7-8749-aa0000cecfa6,40068,granulés pour suspension orale
 40101,implant,65,SUBCUTANEOUS,Sous-cutanée,30,IMPLANT,Implant,29468,TRUE,2017-11-28,dbuijs,e93c424e-d459-11e7-8749-aa0000cecfa6,40101,implant
 40025,inhalation powder,29,INHALATION,Inhalation,1-55,"METERED-DOSE AEROSOL, POWDER","Aérosol à dose mesurée,Poudre",29032,TRUE,2017-11-28,dbuijs,e93b4484-d459-11e7-8749-aa0000cecfa6,40025,poudre pour inhalation
@@ -102,8 +102,6 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40006,kit,62,RECTAL,Rectale,32,KIT,Trousse,29460,TRUE,2017-11-28,dbuijs,e93c3de4-d459-11e7-8749-aa0000cecfa6,40006,kit
 40006,kit,70,TOPICAL,Topique,32,KIT,Trousse,29493,TRUE,2017-11-28,dbuijs,e93c4c8a-d459-11e7-8749-aa0000cecfa6,40006,kit
 40115,liquid,70,TOPICAL,Topique,174,OIL,Huile,29497,TRUE,2017-11-28,dbuijs,e93c4dfc-d459-11e7-8749-aa0000cecfa6,40115,liquide
-40115,liquid,70,TOPICAL,Topique,174,OIL,Huile,29497,TRUE,2017-11-28,dbuijs,e93c4dfc-d459-11e7-8749-aa0000cecfa6,40115,liquide
-40115,liquid,70,TOPICAL,Topique,174,OIL,Huile,29498,TRUE,2017-11-28,dbuijs,e93c4e56-d459-11e7-8749-aa0000cecfa6,40115,liquide
 40115,liquid,70,TOPICAL,Topique,174,OIL,Huile,29498,TRUE,2017-11-28,dbuijs,e93c4e56-d459-11e7-8749-aa0000cecfa6,40115,liquide
 40114,lotion,70,TOPICAL,Topique,36,LOTION,Lotion,29495,TRUE,2017-11-28,dbuijs,e93c4d3e-d459-11e7-8749-aa0000cecfa6,40114,lotion
 40114,lotion,107,TOPICAL (HOSPITAL/HC FACILITIES),"Topique (Hôpitaux, établissements de soins de santé)",36,LOTION,Lotion,29518,TRUE,2017-11-28,dbuijs,e93c55fe-d459-11e7-8749-aa0000cecfa6,40114,lotion
@@ -155,7 +153,7 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40058,ophthalmic/otic drops,55-57,"OPHTHALMIC, OTIC","Ophtalmique,Otique",12,DROPS,Gouttes,29382,TRUE,2017-11-28,dbuijs,e93c1a4e-d459-11e7-8749-aa0000cecfa6,40058,gouttes otiques/ophtalmiques
 40058,ophthalmic/otic drops,55-57,"OPHTHALMIC, OTIC","Ophtalmique,Otique",134,SOLUTION,Solution,29384,TRUE,2017-11-28,dbuijs,e93c1b20-d459-11e7-8749-aa0000cecfa6,40058,gouttes otiques/ophtalmiques
 40058,ophthalmic/otic drops,55-57,"OPHTHALMIC, OTIC","Ophtalmique,Otique",79,SUSPENSION,Suspension,29385,TRUE,2017-11-28,dbuijs,e93c1b84-d459-11e7-8749-aa0000cecfa6,40058,gouttes otiques/ophtalmiques
-40059,ophthalmic/otic ointment,55-57,"OPHTHALMIC, OTIC","Ophtalmique,Otique",43,OINTMENT,Pommade,29383,TRUE,2017-11-28,dbuijs,e93c1abc-d459-11e7-8749-aa0000cecfa6,40059,pommade otiques/ophtalmiques
+40059,ophthalmic/otic ointment,55-57,"OPHTHALMIC, OTIC","Ophtalmique,Otique",43,OINTMENT,Pommade,29383,TRUE,2017-11-28,dbuijs,e93c1abc-d459-11e7-8749-aa0000cecfa6,40059,pommade otique/ophtalmique
 40060,oral capsule,56,ORAL,Orale,5,CAPSULE,Capsule,29388,TRUE,2017-11-28,dbuijs,e93c1cc4-d459-11e7-8749-aa0000cecfa6,40060,capsule orale
 40060,oral capsule,56,ORAL,Orale,161,CAPSULE (IMMEDIATE RELEASE),Capsule (à libération immédiate),29395,TRUE,2017-11-28,dbuijs,e93c20f2-d459-11e7-8749-aa0000cecfa6,40060,capsule orale
 40063,oral drops,56,ORAL,Orale,12,DROPS,Gouttes,29397,TRUE,2017-11-28,dbuijs,e93c21d8-d459-11e7-8749-aa0000cecfa6,40063,gouttes orales
@@ -357,8 +355,6 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40020,prolonged-release suspension for injection,10-22-49,"INTRA-ARTICULAR, INTRAMUSCULAR, INTRAVENOUS","Intra-articulaire,Intramusculaire,Intraveineuse",143,SUSPENSION (EXTENDED-RELEASE),Suspension (à libération prolongée),29179,TRUE,2017-11-28,dbuijs,e93b92cc-d459-11e7-8749-aa0000cecfa6,40020,suspension injectable à libération prolongée
 40020,prolonged-release suspension for injection,14-22-45-49-65,"INTRACARDIAC, INTRAMUSCULAR, INTRATRACHEAL, INTRAVENOUS, SUBCUTANEOUS","Intracardiaque,Intramusculaire,Intratrachéale,Intraveineuse,Sous-cutanée",143,SUSPENSION (EXTENDED-RELEASE),Suspension (à libération prolongée),29192,TRUE,2017-11-28,dbuijs,e93b99ca-d459-11e7-8749-aa0000cecfa6,40020,suspension injectable à libération prolongée
 40020,prolonged-release suspension for injection,22,INTRAMUSCULAR,Intramusculaire,143,SUSPENSION (EXTENDED-RELEASE),Suspension (à libération prolongée),29231,TRUE,2017-11-28,dbuijs,e93b6dec-d459-11e7-8749-aa0000cecfa6,40020,suspension injectable à libération prolongée
-40020,prolonged-release suspension for injection,22,INTRAMUSCULAR,Intramusculaire,143,SUSPENSION (EXTENDED-RELEASE),Suspension (à libération prolongée),29231,TRUE,2017-11-28,dbuijs,e93b6dec-d459-11e7-8749-aa0000cecfa6,40020,suspension injectable à libération prolongée
-40020,prolonged-release suspension for injection,22,INTRAMUSCULAR,Intramusculaire,143,SUSPENSION (EXTENDED-RELEASE),Suspension (à libération prolongée),29232,TRUE,2017-11-28,dbuijs,e93bab36-d459-11e7-8749-aa0000cecfa6,40020,suspension injectable à libération prolongée
 40020,prolonged-release suspension for injection,22,INTRAMUSCULAR,Intramusculaire,143,SUSPENSION (EXTENDED-RELEASE),Suspension (à libération prolongée),29232,TRUE,2017-11-28,dbuijs,e93bab36-d459-11e7-8749-aa0000cecfa6,40020,suspension injectable à libération prolongée
 40020,prolonged-release suspension for injection,22-33-49-65,"INTRAMUSCULAR, INTRAPERITONEAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire,Intrapéritonéale,Intraveineuse,Sous-cutanée",143,SUSPENSION (EXTENDED-RELEASE),Suspension (à libération prolongée),29242,TRUE,2017-11-28,dbuijs,e93bd386-d459-11e7-8749-aa0000cecfa6,40020,suspension injectable à libération prolongée
 40020,prolonged-release suspension for injection,22-34-49-65,"INTRAMUSCULAR, INTRAPLEURAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire,Intrapleurale,Intraveineuse,Sous-cutanée",143,SUSPENSION (EXTENDED-RELEASE),Suspension (à libération prolongée),29251,TRUE,2017-11-28,dbuijs,e93bd89a-d459-11e7-8749-aa0000cecfa6,40020,suspension injectable à libération prolongée
@@ -425,8 +421,6 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40001,solution for injection,10-21-22-42,"INTRA-ARTICULAR, INTRALESIONAL,  INTRAMUSCULAR, INTRASYNOVIAL","Intra-articulaire,Intralésionnelle,Intramusculaire,Intrasynoviale",134,SOLUTION,Solution,29140,TRUE,2017-11-28,dbuijs,e93b7f1c-d459-11e7-8749-aa0000cecfa6,40001,solution injectable
 40001,solution for injection,10-21-22,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR","Intra-articulaire,Intralésionnelle,Intramusculaire",134,SOLUTION,Solution,29125,TRUE,2017-11-28,dbuijs,e93b768e-d459-11e7-8749-aa0000cecfa6,40001,solution injectable
 40001,solution for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION","Intra-articulaire,Intralésionnelle,Intramusculaire,Intraveineuse,Injection dans les tissus mous",34,LIQUID,Liquide,29144,TRUE,2017-11-28,dbuijs,e93b81c4-d459-11e7-8749-aa0000cecfa6,40001,solution injectable
-40001,solution for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION","Intra-articulaire,Intralésionnelle,Intramusculaire,Intraveineuse,Injection dans les tissus mous",34,LIQUID,Liquide,29144,TRUE,2017-11-28,dbuijs,e93b81c4-d459-11e7-8749-aa0000cecfa6,40001,solution injectable
-40001,solution for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION","Intra-articulaire,Intralésionnelle,Intramusculaire,Intraveineuse,Injection dans les tissus mous",34,LIQUID,Liquide,29152,TRUE,2017-11-28,dbuijs,e93b8516-d459-11e7-8749-aa0000cecfa6,40001,solution injectable
 40001,solution for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION","Intra-articulaire,Intralésionnelle,Intramusculaire,Intraveineuse,Injection dans les tissus mous",34,LIQUID,Liquide,29152,TRUE,2017-11-28,dbuijs,e93b8516-d459-11e7-8749-aa0000cecfa6,40001,solution injectable
 40001,solution for injection,10-21-22-49-63,"INTRA-ARTICULAR, INTRALESIONAL, INTRAMUSCULAR, INTRAVENOUS, SOFT TISSUE INJECTION","Intra-articulaire,Intralésionnelle,Intramusculaire,Intraveineuse,Injection dans les tissus mous",134,SOLUTION,Solution,29149,TRUE,2017-11-28,dbuijs,e93b83d6-d459-11e7-8749-aa0000cecfa6,40001,solution injectable
 40001,solution for injection,10-22,"INTRA-ARTICULAR, INTRAMUSCULAR","Intra-articulaire,Intramusculaire",34,LIQUID,Liquide,29153,TRUE,2017-11-28,dbuijs,e93b858e-d459-11e7-8749-aa0000cecfa6,40001,solution injectable
@@ -506,11 +500,11 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40001,solution for injection,64,SUBARACHNOIDAL,Sous-arachnoÏdienne,134,SOLUTION,Solution,29467,TRUE,2017-11-28,dbuijs,e93c41ea-d459-11e7-8749-aa0000cecfa6,40001,solution injectable
 40001,solution for injection,65,SUBCUTANEOUS,Sous-cutanée,34,LIQUID,Liquide,29469,TRUE,2017-11-28,dbuijs,e93c42b2-d459-11e7-8749-aa0000cecfa6,40001,solution injectable
 40001,solution for injection,65,SUBCUTANEOUS,Sous-cutanée,134,SOLUTION,Solution,29472,TRUE,2017-11-28,dbuijs,e93c43f2-d459-11e7-8749-aa0000cecfa6,40001,solution injectable
-40148,prolonged-release solution for injection,65,SUBCUTANEOUS,Sous-cutanée,155,SOLUTION (EXTENDED RELEASE),Solution (à libération prolongée),29473,TRUE,2017-11-28,dbuijs,e93c4460-d459-11e7-8749-aa0000cecfa6,NA,solution injectable à libération prolongée
+40148,prolonged-release solution for injection,65,SUBCUTANEOUS,Sous-cutanée,155,SOLUTION (EXTENDED RELEASE),Solution (à libération prolongée),29473,TRUE,2017-11-28,dbuijs,e93c4460-d459-11e7-8749-aa0000cecfa6,,solution injectable à libération prolongée
 40001,solution for injection,109,SUBMUCOSAL,Sous-muqueuse,134,SOLUTION,Solution,29484,TRUE,2017-11-28,dbuijs,e93c4898-d459-11e7-8749-aa0000cecfa6,40001,solution injectable
 40036,solution for peritoneal dialysis,33,INTRAPERITONEAL,Intrapéritonéale,134,SOLUTION,Solution,29292,TRUE,2017-11-28,dbuijs,e93beca4-d459-11e7-8749-aa0000cecfa6,40036,solution pour dialyse péritonéale
-40104,sublingual spray,66,SUBLINGUAL,Sublinguale,1,METERED-DOSE AEROSOL,Aérosol à dose mesurée,29479,TRUE,2017-11-28,dbuijs,e93c46a4-d459-11e7-8749-aa0000cecfa6,40104,solution pour vaporisation sublinguale
-40104,sublingual spray,66,SUBLINGUAL,Sublinguale,117,METERED-DOSE PUMP,Pompe à dose mesurée,29480,TRUE,2017-11-28,dbuijs,e93c4708-d459-11e7-8749-aa0000cecfa6,40104,solution pour vaporisation sublinguale
+40104,sublingual spray,66,SUBLINGUAL,Sublinguale,1,METERED-DOSE AEROSOL,Aérosol à dose mesurée,29479,TRUE,2017-11-28,dbuijs,e93c46a4-d459-11e7-8749-aa0000cecfa6,40104,vaporisation sublinguale
+40104,sublingual spray,66,SUBLINGUAL,Sublinguale,117,METERED-DOSE PUMP,Pompe à dose mesurée,29480,TRUE,2017-11-28,dbuijs,e93c4708-d459-11e7-8749-aa0000cecfa6,40104,vaporisation sublinguale
 40105,sublingual tablet,66,SUBLINGUAL,Sublinguale,85,TABLET,Comprimé,29481,TRUE,2017-11-28,dbuijs,e93c476c-d459-11e7-8749-aa0000cecfa6,40105,comprimé sublingual
 40097,suppository,62,RECTAL,Rectale,78,SUPPOSITORY,Suppositoire,29457,TRUE,2017-11-28,dbuijs,e93c3b5a-d459-11e7-8749-aa0000cecfa6,40097,suppositoire
 40019,suspension for injection,7-22-49,"EPIDURAL, INTRAMUSCULAR, INTRAVENOUS","Épidurale,Intramusculaire,Intraveineuse",79,SUSPENSION,Suspension,29013,TRUE,2017-11-28,dbuijs,e93b393a-d459-11e7-8749-aa0000cecfa6,40019,suspension injectable
@@ -572,51 +566,53 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40129,wipe,70,TOPICAL,Topique,105,WIPE,Serviette,29514,TRUE,2017-11-28,dbuijs,e93c548c-d459-11e7-8749-aa0000cecfa6,40129,lingette
 40129,wipe,107,TOPICAL (HOSPITAL/HC FACILITIES),"Topique (Hôpitaux, établissements de soins de santé)",105,WIPE,Serviette,29522,TRUE,2017-11-28,dbuijs,e93c5914-d459-11e7-8749-aa0000cecfa6,40129,lingette
 40129,wipe,104,TOPICAL (HOUSEHOLD),Topique (Maison),105,WIPE,Serviette,29528,TRUE,2017-11-28,dbuijs,e93c5b44-d459-11e7-8749-aa0000cecfa6,40129,lingette
-40055,prolonged-release eye drops,55,OPHTHALMIC,Ophtalmique,155,SOLUTION (EXTENDED RELEASE),Solution (à libération prolongée),NA,NA,,,,40055,gouttes ophtalmiques à libération prolongée
-40144,buccal film,3,BUCCAL,Buccale,167,"FILM, SOLUBLE","Pellicule, soluble",NA,NA,,,,40144,film buccogingival
-40006,kit,22-49,"INTRAMUSCULAR, INTRAVENOUS","Intramusculaire,Intraveineuse",32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",NA,NA,,,,40006,kit
-40001,solution for injection,1-49,"BLOCK/INFILTRATION, INTRAVENOUS","Bloc/Infiltration,Intraveineuse",134,SOLUTION,Solution,NA,NA,,,,40001,solution injectable
-40006,kit,22,INTRAMUSCULAR,Intramusculaire,32-118,"KIT, POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Trousse,Poudre pour suspension, à libération prolongée",NA,TRUE,2018-03-28,dbuijs,,40006,kit
-40006,kit,5,DENTAL,Dentaire,32-134,"KIT, SOLUTION","Trousse,Solution",NA,TRUE,2018-03-28,dbuijs,,40006,kit
-40029,nasal spray,53,NASAL,Nasale,134-98,"SOLUTION, SPRAY","Solution,Pulvérisation",NA,TRUE,2018-03-28,dbuijs,,40029,vaporisation nasale
-40063,oral drops,56,ORAL,Orale,12-34,"DROPS, LIQUID","Gouttes,Liquide",NA,TRUE,2018-03-28,dbuijs,,40063,gouttes orales
-40145,oral drops suspension,56,ORAL,Orale,12-79,"DROPS, SUSPENSION","Gouttes,Suspension",NA,TRUE,2018-03-28,dbuijs,,40145,suspension orale en gouttes
-40006,kit,56,ORAL,Orale,32-85,"KIT, TABLET","Trousse,Comprimé",NA,TRUE,2018-03-28,dbuijs,,40006,kit
-40006,kit,56,ORAL,Orale,5-137-32-85,"CAPSULE, CAPSULE (DELAYED RELEASE), KIT, TABLET","Capsule,Capsule (à libération retardée),Trousse,Comprimé",NA,TRUE,2018-03-28,dbuijs,,40006,kit
-40001,solution for injection,65,SUBCUTANEOUS,Sous-cutanée,32-134,"KIT, SOLUTION","Trousse,Solution",NA,TRUE,2018-03-28,dbuijs,,40001,solution injectable
-40006,kit,70-74,"TOPICAL, VAGINAL","Topique,Vaginale",9-15,"CREAM, OVULE","Crème,NA",NA,NA,,,,40006,kit
-40006,kit,70-74,"TOPICAL, VAGINAL","Topique,Vaginale",9-78,"CREAM, SUPPOSITORY","Crème,Suppositoire",NA,NA,,,,40006,kit
-40112,cutaneous gel,70,TOPICAL,Topique,114-32,"GEL, KIT","Gel,Trousse",NA,TRUE,2018-03-28,dbuijs,,40112,gel cutané
-40006,kit,70,TOPICAL,Topique,114-32-36,"GEL, KIT, LOTION","Gel,Trousse,Lotion",NA,TRUE,2018-03-28,dbuijs,,40006,kit
-40006,kit,70,TOPICAL,Topique,114-32-52,"GEL, KIT, PASTE","Gel,Trousse,Pâte",NA,TRUE,2018-03-28,dbuijs,,40006,kit
-40112,cutaneous gel,70,TOPICAL,Topique,114-36,"GEL, LOTION","Gel,Lotion",NA,TRUE,2018-03-28,dbuijs,,40112,gel cutané
-40006,kit,70,TOPICAL,Topique,32-36,"KIT, LOTION","Trousse,Lotion",NA,TRUE,2018-03-28,dbuijs,,40006,kit
-40006,kit,70,TOPICAL,Topique,9-114-32-36,"CREAM, GEL, KIT, LOTION","Crème,Gel,Trousse,Lotion",NA,TRUE,2018-03-28,dbuijs,,40006,kit
-40146,transdermal solution,71,TRANSDERMAL,Transdermique,134,SOLUTION,Solution,NA,TRUE,2018-05-01,dbuijs,,40146,transdermal solution
-40004,gargle/mouthwash,3-56,"BUCCAL, ORAL","Buccale,Orale",42,MOUTHWASH/GARGLE,Rince-bouche/Gargarisme,NA,NA,,,,40004,solution pour gargarisme/bain de bouche
-40006,kit,22-49-65,"INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire,Intraveineuse,Sous-cutanée",32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",NA,NA,,,,40006,kit
-40080,modified-release oral tablet,56,ORAL,Orale,141|161,"CAPSULE (EXTENDED RELEASE), CAPSULE (IMMEDIATE RELEASE)","Capsule (à libération prolongée),Capsule (à libération immédiate)",NA,NA,,,,40080,comprimé oral à libération modifiée
-40006,kit,22,INTRAMUSCULAR,Intramusculaire,32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",NA,NA,,,,40006,kit
-40006,kit,56,ORAL,Orale,5-32,"CAPSULE, KIT","Capsule,Trousse",NA,NA,,,,40006,kit
-40006,kit,56-70,"ORAL, TOPICAL","Orale,Topique",5-9-32,"CAPSULE, CREAM, KIT","Capsule,Crème,Trousse",NA,NA,,,,40006,kit
-40147,anticoagulant and preservative solution for blood,92,0-UNASSIGNED,0-Non attribuée,134,SOLUTION,Solution,NA,NA,,,,40147,solution anticoagulante et de conservation du sang humain
-40091,rectal foam,62,RECTAL,Rectale,175,FOAM,MOUSSE,NA,NA,,,,40091,mousse rectale
-40001,solution for injection,29-49-56,"INHALATION, INTRAVENOUS, ORAL","Inhalation,Intraveineuse,Orale",134,SOLUTION,Solution,NA,NA,,,,40001,solution injectable
-40001,solution for injection,29-49-56,"INHALATION, INTRAVENOUS, ORAL","Inhalation,Intraveineuse,Orale",34,LIQUID,Liquide,NA,NA,,,,40001,solution injectable
-40017,powder for solution for injection,12-17-22-49-65,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intra-artérielle,Intracavitaire,Intramusculaire,Intraveineuse,Sous-cutanée",56,POWDER FOR SOLUTION,Poudre pour solution,NA,NA,,,,40017,poudre pour solution injectable
-40026,powder for nebuliser solution,29,INHALATION,Inhalation,2-56,"AEROSOL, POWDER FOR SOLUTION","Aérosol,Poudre pour solution",NA,NA,,,,40026,poudre pour solution pour inhalation par nébuliseur
-40001,solution for injection,90,EXTRACORPOREAL,Extracorporelle,134,SOLUTION,Solution,NA,NA,,,,40001,solution injectable
-40106,cutaneous spray,70,TOPICAL,Topique,164,"SPRAY, BAG-ON-VALVE","Pulvérisation, sac-sur-valve",NA,NA,,,,40106,vaporisation cutanée
-40149,cutaneous spray powder,70,TOPICAL,Topique,2-55,"AEROSOL, POWDER","Aérosol,Poudre",NA,NA,,,,NA,poudre pour vaporisation cutanée
-40085,powder for oral/rectal suspension,56-62,"ORAL, RECTAL","Orale,Rectale",126,POWDER FOR SUSPENSION,Poudre pour suspension,NA,NA,,,,40085,poudre pour suspension orale/rectale
-40019,suspension for injection,10-42-112,"INTRA-ARTICULAR, INTRASYNOVIAL, PERIARTICULAR","Intra-articulaire,Intrasynoviale,Périarticulaire",79,SUSPENSION,Suspension,NA,NA,,,,40019,suspension injectable
-40001,solution for injection,7-111,"EPIDURAL, INFILTRATION","Épidurale,INFILTRATION",134,SOLUTION,Solution,NA,NA,,,,NA,solution injectable
-40124,cutaneous solution,70,TOPICAL,Topique,88,TINCTURE,Teinture,NA,NA,,,,NA,solution pour application cutanée
-40075,oral paste,56-70,"ORAL, TOPICAL","Orale,Topique",52,PASTE,Pâte,NA,NA,,,,NA,pâte orale
-40029,nasal spray,53,NASAL,Nasale,98-79,"SPRAY, SUSPENSION","Pulvérisation,Suspension",NA,NA,,,,NA,vaporisation nasale
-,oral/rectal suspension,56-62,"ORAL, RECTAL","Orale,Rectale",79,SUSPENSION,Suspension,NA,NA,,,,NA,solution orale/rectale
-40035,irrigation solution,33-36-70,"INTRAPERITONEAL, IRRIGATION, TOPICAL","Intrapéritonéale,Irrigation,Topique",34,LIQUID,Liquide,NA,NA,,,,NA,solution pour irrigation
-40003,mouthwash,3,BUCCAL,Buccale,182,MOUTHWASH,Rince-bouche,NA,NA,,,,NA,solution pour bain de bouche
-40094,rectal solution,62,RECTAL,Rectale,20-34,"ENEMA, LIQUID","Lavement,Liquide",NA,NA,,,,NA,solution rectale
-40001,solution for injection,12-22-31-49-114,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRACEREBROVENTRICULAR","Intra-artérielle,Intramusculaire,Intrathécale,Intraveineuse,Intracérébroventriculaire",134,SOLUTION,Solution,NA,NA,,,,NA,solution injectable
-40005,oromucosal spray,3,BUCCAL,Buccale,158,"SPRAY, METERED DOSE","Pulvérisation, à dose mesurée",NA,NA,,,,NA,vaporisation buccale
+40055,prolonged-release eye drops,55,OPHTHALMIC,Ophtalmique,155,SOLUTION (EXTENDED RELEASE),Solution (à libération prolongée),,,,,,40055,gouttes ophtalmiques à libération prolongée
+40144,buccal film,3,BUCCAL,Buccale,167,"FILM, SOLUBLE","Pellicule, soluble",,,,,,40144,film buccogingival
+40006,kit,22-49,"INTRAMUSCULAR, INTRAVENOUS","Intramusculaire,Intraveineuse",32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",,,,,,40006,kit
+40001,solution for injection,1-49,"BLOCK/INFILTRATION, INTRAVENOUS","Bloc/Infiltration,Intraveineuse",134,SOLUTION,Solution,,,,,,40001,solution injectable
+40006,kit,22,INTRAMUSCULAR,Intramusculaire,32-118,"KIT, POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Trousse,Poudre pour suspension, à libération prolongée",,TRUE,2018-03-28,dbuijs,,40006,kit
+40006,kit,5,DENTAL,Dentaire,32-134,"KIT, SOLUTION","Trousse,Solution",,TRUE,2018-03-28,dbuijs,,40006,kit
+40029,nasal spray,53,NASAL,Nasale,134-98,"SOLUTION, SPRAY","Solution,Pulvérisation",,TRUE,2018-03-28,dbuijs,,40029,vaporisation nasale
+40063,oral drops,56,ORAL,Orale,12-34,"DROPS, LIQUID","Gouttes,Liquide",,TRUE,2018-03-28,dbuijs,,40063,gouttes orales
+40145,oral drops suspension,56,ORAL,Orale,12-79,"DROPS, SUSPENSION","Gouttes,Suspension",,TRUE,2018-03-28,dbuijs,,40145,suspension orale en gouttes
+40006,kit,56,ORAL,Orale,32-85,"KIT, TABLET","Trousse,Comprimé",,TRUE,2018-03-28,dbuijs,,40006,kit
+40006,kit,56,ORAL,Orale,5-137-32-85,"CAPSULE, CAPSULE (DELAYED RELEASE), KIT, TABLET","Capsule,Capsule (à libération retardée),Trousse,Comprimé",,TRUE,2018-03-28,dbuijs,,40006,kit
+40001,solution for injection,65,SUBCUTANEOUS,Sous-cutanée,32-134,"KIT, SOLUTION","Trousse,Solution",,TRUE,2018-03-28,dbuijs,,40001,solution injectable
+40006,kit,70-74,"TOPICAL, VAGINAL","Topique,Vaginale",9-15,"CREAM, OVULE","Crème,NA",,,,,,40006,kit
+40006,kit,70-74,"TOPICAL, VAGINAL","Topique,Vaginale",9-78,"CREAM, SUPPOSITORY","Crème,Suppositoire",,,,,,40006,kit
+40112,cutaneous gel,70,TOPICAL,Topique,114-32,"GEL, KIT","Gel,Trousse",,TRUE,2018-03-28,dbuijs,,40112,gel cutané
+40006,kit,70,TOPICAL,Topique,114-32-36,"GEL, KIT, LOTION","Gel,Trousse,Lotion",,TRUE,2018-03-28,dbuijs,,40006,kit
+40006,kit,70,TOPICAL,Topique,114-32-52,"GEL, KIT, PASTE","Gel,Trousse,Pâte",,TRUE,2018-03-28,dbuijs,,40006,kit
+40112,cutaneous gel,70,TOPICAL,Topique,114-36,"GEL, LOTION","Gel,Lotion",,TRUE,2018-03-28,dbuijs,,40112,gel cutané
+40006,kit,70,TOPICAL,Topique,32-36,"KIT, LOTION","Trousse,Lotion",,TRUE,2018-03-28,dbuijs,,40006,kit
+40006,kit,70,TOPICAL,Topique,9-114-32-36,"CREAM, GEL, KIT, LOTION","Crème,Gel,Trousse,Lotion",,TRUE,2018-03-28,dbuijs,,40006,kit
+40146,transdermal solution,71,TRANSDERMAL,Transdermique,134,SOLUTION,Solution,,TRUE,2018-05-01,dbuijs,,40146,transdermal solution
+40004,gargle/mouthwash,3-56,"BUCCAL, ORAL","Buccale,Orale",42,MOUTHWASH/GARGLE,Rince-bouche/Gargarisme,,,,,,40004,solution pour gargarisme/bain de bouche
+40006,kit,22-49-65,"INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire,Intraveineuse,Sous-cutanée",32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",,,,,,40006,kit
+40080,modified-release oral tablet,56,ORAL,Orale,141|161,"CAPSULE (EXTENDED RELEASE), CAPSULE (IMMEDIATE RELEASE)","Capsule (à libération prolongée),Capsule (à libération immédiate)",,,,,,40080,comprimé oral à libération modifiée
+40006,kit,22,INTRAMUSCULAR,Intramusculaire,32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",,,,,,40006,kit
+40006,kit,56,ORAL,Orale,5-32,"CAPSULE, KIT","Capsule,Trousse",,,,,,40006,kit
+40006,kit,56-70,"ORAL, TOPICAL","Orale,Topique",5-9-32,"CAPSULE, CREAM, KIT","Capsule,Crème,Trousse",,,,,,40006,kit
+40147,anticoagulant and preservative solution for blood,92,0-UNASSIGNED,0-Non attribuée,134,SOLUTION,Solution,,,,,,40147,solution anticoagulante et de conservation du sang humain
+40091,rectal foam,62,RECTAL,Rectale,175,FOAM,MOUSSE,,,,,,40091,mousse rectale
+40001,solution for injection,29-49-56,"INHALATION, INTRAVENOUS, ORAL","Inhalation,Intraveineuse,Orale",134,SOLUTION,Solution,,,,,,40001,solution injectable
+40001,solution for injection,29-49-56,"INHALATION, INTRAVENOUS, ORAL","Inhalation,Intraveineuse,Orale",34,LIQUID,Liquide,,,,,,40001,solution injectable
+40017,powder for solution for injection,12-17-22-49-65,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intra-artérielle,Intracavitaire,Intramusculaire,Intraveineuse,Sous-cutanée",56,POWDER FOR SOLUTION,Poudre pour solution,,,,,,40017,poudre pour solution injectable
+40026,powder for nebuliser solution,29,INHALATION,Inhalation,2-56,"AEROSOL, POWDER FOR SOLUTION","Aérosol,Poudre pour solution",,,,,,40026,poudre pour solution pour inhalation par nébuliseur
+40001,solution for injection,90,EXTRACORPOREAL,Extracorporelle,134,SOLUTION,Solution,,,,,,40001,solution injectable
+40106,cutaneous spray,70,TOPICAL,Topique,164,"SPRAY, BAG-ON-VALVE","Pulvérisation, sac-sur-valve",,,,,,40106,vaporisation cutanée
+40149,cutaneous spray powder,70,TOPICAL,Topique,2-55,"AEROSOL, POWDER","Aérosol,Poudre",,,,,,,poudre pour vaporisation cutanée
+40085,powder for oral/rectal suspension,56-62,"ORAL, RECTAL","Orale,Rectale",126,POWDER FOR SUSPENSION,Poudre pour suspension,,,,,,40085,poudre pour suspension orale/rectale
+40019,suspension for injection,10-42-112,"INTRA-ARTICULAR, INTRASYNOVIAL, PERIARTICULAR","Intra-articulaire,Intrasynoviale,Périarticulaire",79,SUSPENSION,Suspension,,,,,,40019,suspension injectable
+40001,solution for injection,7-111,"EPIDURAL, INFILTRATION","Épidurale,INFILTRATION",134,SOLUTION,Solution,,,,,,,solution injectable
+40124,cutaneous solution,70,TOPICAL,Topique,88,TINCTURE,Teinture,,,,,,,solution pour application cutanée
+40075,oral paste,56-70,"ORAL, TOPICAL","Orale,Topique",52,PASTE,Pâte,,,,,,,pâte orale
+40029,nasal spray,53,NASAL,Nasale,98-79,"SPRAY, SUSPENSION","Pulvérisation,Suspension",,,,,,,vaporisation nasale
+,oral/rectal suspension,56-62,"ORAL, RECTAL","Orale,Rectale",79,SUSPENSION,Suspension,,,,,,,solution orale/rectale
+40035,irrigation solution,33-36-70,"INTRAPERITONEAL, IRRIGATION, TOPICAL","Intrapéritonéale,Irrigation,Topique",34,LIQUID,Liquide,,,,,,,solution pour irrigation
+40003,mouthwash,3,BUCCAL,Buccale,182,MOUTHWASH,Rince-bouche,,,,,,,solution pour bain de bouche
+40094,rectal solution,62,RECTAL,Rectale,20-34,"ENEMA, LIQUID","Lavement,Liquide",,,,,,,solution rectale
+40001,solution for injection,12-22-31-49-114,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRACEREBROVENTRICULAR","Intra-artérielle,Intramusculaire,Intrathécale,Intraveineuse,Intracérébroventriculaire",134,SOLUTION,Solution,,,,,,,solution injectable
+40005,oromucosal spray,3,BUCCAL,Buccale,158,"SPRAY, METERED DOSE","Pulvérisation, à dose mesurée",,,,,,,vaporisation buccale
+NA,oral/rectal suspension,56-62,"ORAL, RECTAL","Orale,Rectale",79,SUSPENSION,Suspension,NA,NA,,,,NA,solution orale/rectale
+40001,solution for injection,114,INTRACEREBROVENTRICULAR,INTRACÉRÉBROVENTRICULAR,134,SOLUTION,solution,,,,,,,solution injectable
