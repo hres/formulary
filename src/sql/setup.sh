@@ -21,12 +21,20 @@ createdb "$PGDATABASE"
 # psql -v ON_ERROR_STOP=1 < dpdloader/dpd_structure.sql # empty schema for testing
 # psql -v ON_ERROR_STOP=1 < dpdloader/dpd_constraints.sql # empty schema for testing
 
+
+#
 # DPD extract load
 pgloader "$baseDir/dpdloader/dpdload.pgload"
 pgloader "$baseDir/dpdloader/dpdload_ia.pgload"
 pgloader "$baseDir/dpdloader/dpdload_dr.pgload"
 pgloader "$baseDir/dpdloader/dpdload_ap.pgload"
+#
 
+psql -c "ALTER SCHEMA dpd RENAME TO dpd_new"
+psql -v ON_ERROR_STOP=0 < "$baseDir/registry/dpd_shadow.sql"
+psql -c "ALTER SCHEMA dpd RENAME TO dpd_shadow"
+psql -c "ALTER SCHEMA dpd_new RENAME TO dpd"
+psql -v ON_ERROR_STOP=1 < "$baseDir/registry/schema.sql"
 # global config for CCDD generation process
 pgloader "$baseDir/ccdd-config.pgload"
 
@@ -86,7 +94,7 @@ psql -c "copy ((select
                   UNION ALL
                   (select * from ccdd.ntp_release_candidate where ntp_code IN ('9013250'))
                 ) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/ntp_release_candidate_${ccdd_current_date}.csv"
-psql -c "copy ((select tm_code, tm_formal_name, tm_status, tm_status_effective_time FROM ccdd_tm_table WHERE tm_is_publishable = true) 
+psql -c "copy ((select tm_code, tm_formal_name, tm_status, tm_status_effective_time FROM ccdd_tm_table WHERE tm_is_publishable = true)
           UNION ALL
          (select * from ccdd.tm_release where tm_code IN ('8001659')))
          to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/tm_release_candidate_${ccdd_current_date}.csv"
