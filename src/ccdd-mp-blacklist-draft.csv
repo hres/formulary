@@ -26,9 +26,13 @@ drug_code,drug_identification_number,brand_name,status,history_date,comments
 88829,2403498,BICART,Marketed,2016-04-05,Out of scope. Haemodialysis
 88830,2403501,BICART,Marketed,2016-03-24,Out of scope. Haemodialysis
 91307,2428601,BIFLEXY 900,Marketed,2016-08-08,Out of scope. Haemodialysis
-57,50520,MINERALE LEGERE HUILE,Marketed,1951-12-31,UoP discussion
-14042,1935321,LIGHT MINERAL OIL 100% NF,Marketed,1993-12-31,UoP discussion
+57,50520,MINERALE LEGERE HUILE,Marketed,1951-12-31,DPD dose form change pending
+14042,1935321,LIGHT MINERAL OIL 100% NF,Marketed,1993-12-31,DPD dose form change pending
 18321,2160986,CALCIUM-45 0.5-4.5,Marketed,2001-10-01,Out of scope. Haemodialysis
 18310,2161060,CALCIUM-45 0.25-4.5,Marketed,2001-10-01,Out of scope. Haemodialysis
 87315,2387549,CALCIUM CHLORIDE FOR HAEMODIALYSIS,Marketed,2013-03-26,Out of scope. Haemodialysis
 95780,2469146,JELIDO,Marketed,2018-05-28,DPD dose form change pending
+96245,02473119,HYDRALAX,Marketed,2019-04-26,DPD strength change pending
+97095,02480425,SIGNIFOR LAR,Marketed,2019-05-30,pending correction in combo product table
+97096,02480433,SIGNIFOR LAR,Marketed,2019-05-30,pending correction in combo product table
+97746,02487306,AIMOVIG,Marketed,2019-05-22,Needs UoP
