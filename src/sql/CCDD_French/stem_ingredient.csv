@@ -1027,7 +1027,7 @@ Y,,LYMPHOCYTE IMMUNOGLOBULIN ANTI-THYMOCYTE GLOBULIN (EQUINE),anti-thymocyte imm
 ,,LYSINE (LYSINE ACETATE),lysine (lysine acetate),FALSE,lysine (lysine acetate),TPN,,1026,Lysine (Acétate de lysine),lysine (lysine acetate),lysine (lysine acetate)
 ,,LYSINE (LYSINE MONOHYDROCHLORIDE),lysine (lysine monohydrochloride),FALSE,lysine (lysine monohydrochloride),TPN,,1027,Lysine (Monochlorhydrate de lysine),lysine (lysine monohydrochloride),lysine (lysine monohydrochloride)
 Y,,MACITENTAN,macitentan,FALSE,macitentan,Released,,1028,MACITENTAN,macitentan,macitentan
-Y,,MACROGOL,polyethylene glycol 3350,FALSE,polyethylene glycol 3350,Issue - in QA,,1029,Macrogol,polyethylene glycol 3350,polyethylene glycol 3350
+Y,,MACROGOL,polyethylene glycol 3350,FALSE,polyethylene glycol 3350,Issue - in QA,,1029,Macrogol,polyéthylène glycol 3350,polyéthylène glycol 3350
 Y,,MAGNESIUM (MAGNESIUM OXIDE),magnesium (magnesium oxide),FALSE,magnesium (magnesium oxide),,,1030,Magnésium (Oxyde de magnésium),magnésium (oxyde de magnésium),magnésium (oxyde de magnésium)
 Y,,MAGNESIUM ACETATE,magnesium acetate,FALSE,magnesium acetate,,,1031,Acétate de magnésium,acétate de magnésium,acétate de magnésium
 Y,,MAGNESIUM CHLORIDE,magnesium chloride,FALSE,magnesium chloride,,,1032,Chlorure de magnésium,chlorure de magnésium,chlorure de magnésium
@@ -1396,7 +1396,7 @@ Y,,POLIDOCANOL,polidocanol,FALSE,polidocanol,Released,,1393,POLIDOCANOL,polidoca
 ,,POLLEN,pollen,FALSE,pollen,Allergen,,1395,Pollen,pollen,pollen
 ,,POLLEN AND NON POLLEN,pollen and non pollen,FALSE,pollen and non pollen,Allergen,,1396,Pollen et allergène non-pollénique,pollen and non pollen,pollen and non pollen
 ,,POLYCARBOPHIL (CALCIUM POLYCARBOPHIL),polycarbophil (calcium polycarbophil),FALSE,polycarbophil (calcium polycarbophil),No live products,,1397,Polycarbophile (Polycarbophile de calcium),polycarbophil (calcium polycarbophil),polycarbophil (calcium polycarbophil)
-Y,,POLYETHYLENE GLYCOL 400,polyethylene glycol 400,FALSE,polyethylene glycol 400,Released,,1399,Polyéthylène glycol 400,polyethylene glycol 400,polyethylene glycol 400
+Y,,POLYETHYLENE GLYCOL 400,polyethylene glycol 400,FALSE,polyethylene glycol 400,Released,,1399,Polyéthylène glycol 400,polyéthylène glycol 400,polyéthylène glycol 400
 Y,,POLYMYXIN B (POLYMYXIN B SULFATE),polymyxin B,FALSE,polymyxin B (polymyxin B sulfate),Partial released,,1400,Polymyxine B (Sulfate de polymyxine b),polymyxine B,polymyxine B (sulfate de polymyxine B)
 Y,,POLYMYXIN B SULFATE,polymyxin B,FALSE,polymyxin B (polymyxin B sulfate),Partial released,,1401,Sulfate de polymyxine b,polymyxine B,polymyxine B (sulfate de polymyxine B)
 Y,,POLYSORBATE 80,polysorbate 80,FALSE,polysorbate 80,Issue - in QA,,1402,Polysorbate-80,polysorbate-80,polysorbate-80
@@ -1903,7 +1903,7 @@ Y,,TELOTRISTAT ETHYL (TELOTRISTAT ETIPRATE),telotristat,FALSE, telotristat ethyl
 Y,,VARDENAFIL (VARDENAFIL HYDROCHLORIDE TRIHYDRATE),vardenafil,TRUE,vardenafil (vardenafil hydrochloride),Released,,1903,Vardénafil (trihydrate de chlorhydrate de vardénafil),vardénafil,vardénafil (chlorhydrate de vardénafil)
 Y,,LEVOMENTHOL,levomenthol,FALSE,levomenthol,Released,,1904,NA,lévomenthol,lévomenthol
 Y,,MIXED SALTS AMPHETAMINE,amphetamine mixed salts,FALSE,amphetamine mixed salts,Issue - waiting on DPD change,,1905,NA,sels mixtes d’amphétamine,sels mixtes d’amphétamine
-Y,,POLYETHYLENE GLYCOL 3350,polyethylene glycol 3350,FALSE,polyethylene glycol 3350,Issue - in QA,,1398,POLYETHYLENE GLYCOL 3350,polyethylene glycol 3350,polyethylene glycol 3350
+Y,,POLYETHYLENE GLYCOL 3350,polyethylene glycol 3350,FALSE,polyethylene glycol 3350,Issue - in QA,,1398,POLYETHYLENE GLYCOL 3350,polyéthylène glycol 3350,polyéthylène glycol 3350
 Y,NA,FOSFOMYCIN (FOSFOMYCIN SODIUM),fosfomycin,FALSE,fosfomycin (fosfomycin sodium),No live products,NA,NA,Fosfomycine (FOSFOMYCIN SODIUM),fosfomycine,fosfomycine (fosfomycine sodique)
 Y,NA,TIBOLONE,tibolone,FALSE,tibolone,No live products,NA,NA,TIBOLONE,tibolone,tibolone
 Y,NA,FEBUXOSTAT (FEBUXOSTAT HEMIHYDRATE),febuxostat,TRUE,febuxostat,In QA,NA,NA,Fébuxostat (FEBUXOSTAT HEMIHYDRATE),fébuxostat,fébuxostat
