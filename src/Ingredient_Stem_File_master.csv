@@ -1707,7 +1707,7 @@ Y,,TETRAHYDROZOLINE HYDROCHLORIDE,tetrahydrozoline,FALSE,tetrahydrozoline hydroc
 Y,,TEZACAFTOR,tezacaftor,FALSE,tezacaftor,Released,Combination only,1706,TEZACAFTOR,,
 Y,,THALIDOMIDE,thalidomide,FALSE,thalidomide,Released,,1707,Thalidomide,,
 Y,,THEOPHYLLINE,theophylline,FALSE,theophylline,Released,,1708,Théophylline,,
-Y,,THIAMAZOLE,thiamazole,FALSE,thiamazole,Issue - in QA,,1709,Thiamazol,,
+Y,,THIAMAZOLE,thiamazole,FALSE,thiamazole,Now as METHIMAZOLE in DPD,,1709,Thiamazol,,
 Y,,THIAMINE HYDROCHLORIDE,thiamine,FALSE,thiamine hydrochloride,Released,Vitamin,1710,Chlorhydrate de thiamine,,
 Y,,THIOGUANINE,thioguanine,FALSE,thioguanine,Released,,1711,Thioguanine,,
 ,,THIOPENTAL SODIUM,thiopental sodium,FALSE,thiopental sodium,No live products,,1712,Thiopental sodique,,
@@ -1930,3 +1930,4 @@ Y,,FLUOROURACIL (FLUOROURACIL SODIUM),fluorouracil,FALSE,fluorouracil (fluoroura
 Y,,PATIROMER (PATIROMER SORBITEX CALCIUM),patiromer,FALSE,patiromer (patiromer sorbitex calcium),No live products,,,Patiromère (PATIROMER SORBITEX CALCIUM),,
 Y,,SAFINAMIDE (SAFINAMIDE MESYLATE),safinamide,FALSE,safinamide (safinamide mesylate),No live products,,,SAFINAMIDE (SAFINAMIDE MESYLATE),,
 Y,,VON WILLEBRAND FACTOR (RECOMBINANT),von willebrand factor (recombinant),FALSE,von willebrand factor (recombinant),No live products,,,FACTEUR DE VON WILLEBRAND (RECOMBINANT),,
+Y,,METHIMAZOLE,methimazole,FALSE,methimazole,In QA,,,méthimazole,,
