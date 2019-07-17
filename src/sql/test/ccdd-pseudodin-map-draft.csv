@@ -648,3 +648,5 @@ pseudodin,drug_code,unit_of_presentation,uop_size_amount,uop_size_unit
 "77701007","82603","sachet","250","mg"
 "77701008","85046","sachet","250","mg"
 "77701009","85046","pump","15","g"
+"77701010","10770","vial","50","mL"
+"77701011","10770","vial","10","mL"

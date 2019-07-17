@@ -320,7 +320,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/TM_filter_master.csv
+  FROM ./test/TM_filter_master.csv
     WITH ENCODING UTF-8
     (
       tm_code
