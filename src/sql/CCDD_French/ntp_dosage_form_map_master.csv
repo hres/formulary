@@ -589,7 +589,7 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40146,transdermal solution,71,TRANSDERMAL,Transdermique,134,SOLUTION,Solution,,TRUE,2018-05-01,dbuijs,,40146,transdermal solution
 40004,gargle/mouthwash,3-56,"BUCCAL, ORAL","Buccale,Orale",42,MOUTHWASH/GARGLE,Rince-bouche/Gargarisme,,,,,,40004,solution pour gargarisme/bain de bouche
 40006,kit,22-49-65,"INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire,Intraveineuse,Sous-cutanée",32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",,,,,,40006,kit
-40080,modified-release oral tablet,56,ORAL,Orale,141|161,"CAPSULE (EXTENDED RELEASE), CAPSULE (IMMEDIATE RELEASE)","Capsule (à libération prolongée),Capsule (à libération immédiate)",,,,,,40080,comprimé oral à libération modifiée
+40080,modified-release oral tablet,56,ORAL,Orale,141-161,"CAPSULE (EXTENDED RELEASE), CAPSULE (IMMEDIATE RELEASE)","Capsule (à libération prolongée),Capsule (à libération immédiate)",,,,,,40080,comprimé oral à libération modifiée
 40006,kit,22,INTRAMUSCULAR,Intramusculaire,32-56,"KIT, POWDER FOR SOLUTION","Trousse,Poudre pour solution",,,,,,40006,kit
 40006,kit,56,ORAL,Orale,5-32,"CAPSULE, KIT","Capsule,Trousse",,,,,,40006,kit
 40006,kit,56-70,"ORAL, TOPICAL","Orale,Topique",5-9-32,"CAPSULE, CREAM, KIT","Capsule,Crème,Trousse",,,,,,40006,kit
