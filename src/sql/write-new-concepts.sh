@@ -20,7 +20,7 @@ done
 
 baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 distDir="$baseDir/../dist"
-testDir="$baseDir/../sql/test"
+testDir="$baseDir/../sql/CCDD_French"
 
 dbName=$(psql -d ccdd -c 'SELECT datname FROM pg_database' | grep -E 'ccdd_[0-9]{4}_[0-9]{2}_[0-9]{2}_[0-9]{6}' | tail -1 | sed 's/[[:space:]]//g')
 [ -z "$dbName" ] && echo "CCDD database not found" && echo && echo "Generate first, then rerun to continue." && exit 1
