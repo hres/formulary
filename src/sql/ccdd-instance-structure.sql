@@ -1561,6 +1561,9 @@ AS
     FROM
         ccdd_mp_table_candidate candidate
         LEFT JOIN ccdd.ntp_definition defn ON (defn.formal_name = candidate.ntp_formal_name)
+    WHERE not exists (select depr.code 
+                          from ccdd.ntp_deprecations depr
+                          where defn.code::varchar = depr.code)
     GROUP BY
         candidate.ntp_formal_name,candidate.ntp_formal_name_fr, candidate.ntp_type, defn.formal_name, defn.code
     ORDER BY ntp_status_effective_time
@@ -2837,6 +2840,7 @@ AS
 SELECT
 	tm_code,
 	tm_formal_name,
+	tm_formal_name_fr,
 	tm_status,
 	tm_status_effective_time
 FROM
