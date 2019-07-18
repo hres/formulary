@@ -161,7 +161,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM ./CCDD_French/tm_definition_draft.csv
+    FROM ./CCDD_French/ccdd-tm-definitions-draft.csv
 
     WITH ENCODING UTF-8
     (
@@ -183,7 +183,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM ./CCDD_French/ntp_definition_draft.csv
+  FROM ./CCDD_French/ccdd-ntp-definitions-draft.csv
     WITH ENCODING UTF-8
     (
       code,
@@ -204,7 +204,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM ./CCDD_French/ccdd_pseudodin_map_draft.csv
+  FROM ./CCDD_French/ccdd-pseudodin-map-draft.csv
     WITH ENCODING UTF-8
     (
       pseudodin,

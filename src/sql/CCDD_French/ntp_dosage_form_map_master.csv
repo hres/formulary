@@ -614,5 +614,5 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40094,rectal solution,62,RECTAL,Rectale,20-34,"ENEMA, LIQUID","Lavement,Liquide",,,,,,,solution rectale
 40001,solution for injection,12-22-31-49-114,"INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRACEREBROVENTRICULAR","Intra-artérielle,Intramusculaire,Intrathécale,Intraveineuse,Intracérébroventriculaire",134,SOLUTION,Solution,,,,,,,solution injectable
 40005,oromucosal spray,3,BUCCAL,Buccale,158,"SPRAY, METERED DOSE","Pulvérisation, à dose mesurée",,,,,,,vaporisation buccale
-NA,oral/rectal suspension,56-62,"ORAL, RECTAL","Orale,Rectale",79,SUSPENSION,Suspension,NA,NA,,,,NA,solution orale/rectale
+,oral/rectal suspension,56-62,"ORAL, RECTAL","Orale,Rectale",79,SUSPENSION,Suspension,,,,,,,solution orale/rectale
 40001,solution for injection,114,INTRACEREBROVENTRICULAR,INTRACÉRÉBROVENTRICULAR,134,SOLUTION,solution,,,,,,,solution injectable
