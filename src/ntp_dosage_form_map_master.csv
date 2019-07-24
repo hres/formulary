@@ -329,10 +329,10 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40016,powder for suspension for injection,49,INTRAVENOUS,Intraveineuse,126,POWDER FOR SUSPENSION,Poudre pour suspension,29326,TRUE,2017-11-28,dbuijs,e93c009a-d459-11e7-8749-aa0000cecfa6,40016
 40016,powder for suspension for injection,49-65,"INTRAVENOUS, SUBCUTANEOUS","Intraveineuse, Sous-cutan?e",126,POWDER FOR SUSPENSION,Poudre pour suspension,29340,TRUE,2017-11-28,dbuijs,e93c08f6-d459-11e7-8749-aa0000cecfa6,40016
 40016,powder for suspension for injection,65,SUBCUTANEOUS,Sous-cutan?e,126,POWDER FOR SUSPENSION,Poudre pour suspension,29471,TRUE,2017-11-28,dbuijs,e93c437a-d459-11e7-8749-aa0000cecfa6,40016
-40021,pressurised inhalation,29,INHALATION,Inhalation,162,"AEROSOL, METERED DOSE","A?rosol, dose mesur?e",29027,TRUE,2017-11-28,dbuijs,e93b4182-d459-11e7-8749-aa0000cecfa6,40021
-40021,pressurised inhalation,29,INHALATION,Inhalation,1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29031,TRUE,2017-11-28,dbuijs,e93b4420-d459-11e7-8749-aa0000cecfa6,40021
-40021,pressurised inhalation,29-56,"INHALATION, ORAL","Inhalation, Orale",1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29042,TRUE,2017-11-28,dbuijs,e93b4880-d459-11e7-8749-aa0000cecfa6,40021
-40021,pressurised inhalation,56,ORAL,Orale,1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29409,TRUE,2017-11-28,dbuijs,e93c2822-d459-11e7-8749-aa0000cecfa6,40021
+40021,pressurized inhalation,29,INHALATION,Inhalation,162,"AEROSOL, METERED DOSE","A?rosol, dose mesur?e",29027,TRUE,2017-11-28,dbuijs,e93b4182-d459-11e7-8749-aa0000cecfa6,40021
+40021,pressurized inhalation,29,INHALATION,Inhalation,1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29031,TRUE,2017-11-28,dbuijs,e93b4420-d459-11e7-8749-aa0000cecfa6,40021
+40021,pressurized inhalation,29-56,"INHALATION, ORAL","Inhalation, Orale",1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29042,TRUE,2017-11-28,dbuijs,e93b4880-d459-11e7-8749-aa0000cecfa6,40021
+40021,pressurized inhalation,56,ORAL,Orale,1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29409,TRUE,2017-11-28,dbuijs,e93c2822-d459-11e7-8749-aa0000cecfa6,40021
 40055,prolonged-release eye drops,55,OPHTHALMIC,Ophtalmique,101,SOLUTION (LONG-ACTING),,29378,TRUE,2017-11-28,dbuijs,e93c18b4-d459-11e7-8749-aa0000cecfa6,40055
 40062,prolonged-release oral capsule,56,ORAL,Orale,141,CAPSULE (EXTENDED RELEASE),Capsule (? lib?ration prolong?e),29392,TRUE,2017-11-28,dbuijs,e93c1e68-d459-11e7-8749-aa0000cecfa6,40062
 40062,prolonged-release oral capsule,56,ORAL,Orale,68,CAPSULE (SUSTAINED-RELEASE),Capsule (? lib?ration prolong?e,29396,TRUE,2017-11-28,dbuijs,e93c216a-d459-11e7-8749-aa0000cecfa6,40062
