@@ -2045,60 +2045,6 @@ ALTER MATERIALIZED VIEW public.ccdd_presentation_source OWNER TO postgres;
 
 
 
--- object: public.qa_release_changes_mp | type: VIEW --
--- DROP VIEW IF EXISTS public.qa_release_changes_mp CASCADE;
-CREATE VIEW public.qa_release_changes_mp
-AS
-
-select
-	(CASE 
-    WHEN nxt.mp_code is null THEN cur.mp_code
-    ELSE nxt.mp_code
-    END) as mp_code,
-(CASE 
-    WHEN nxt.mp_code is null THEN cur.mp_formal_name
-    ELSE nxt.mp_formal_name
-    END) as mp_formal_name,
-	(CASE
-		WHEN nxt.mp_code is null THEN 'DELETED'
-		ELSE string_agg(FORMAT(
-			'%s: "%s" -> %s',
-			cmp.field_name,
-			cmp.cur_value,
-			(CASE WHEN cmp.nxt_value is not null THEN FORMAT('"%s"', cmp.nxt_value) ELSE 'NULL' END)
-		), E'\n' ORDER BY cmp.field_name)
-	END) as changes
-from
-	ccdd.mp_release cur
-	LEFT JOIN ccdd_mp_table nxt ON(nxt.mp_code = cur.mp_code)
-	LEFT JOIN LATERAL (VALUES
-		('mp_formal_name', cur.mp_formal_name, nxt.mp_formal_name),
-		('mp_status', UPPER(cur.mp_status), UPPER(nxt.mp_status)),
-		('mp_status_effective_time', cur.mp_status_effective_time, nxt.mp_status_effective_time),
-		('mp_type', cur.mp_type, nxt.mp_type),
-		('Health_Canada_identifier', cur."Health_Canada_identifier", nxt."Health_Canada_identifier"),
-		('Health_Canada_product_name', cur."Health_Canada_product_name", nxt."Health_Canada_product_name")
-	) AS cmp (
-		field_name, cur_value, nxt_value
-	) ON true
-WHERE
-	cmp.cur_value is distinct from cmp.nxt_value
-GROUP BY cur.mp_code, cur.mp_formal_name,nxt.mp_code,nxt.mp_formal_name
-
-UNION
-
-select
-	nxt.mp_code,
-	nxt.mp_formal_name,
-	'ADDED' as changes
-from
-	ccdd_mp_table nxt
-WHERE
-	not exists(select * from ccdd.mp_release cur where cur.mp_code = nxt.mp_code);
--- ddl-end --
-ALTER VIEW public.qa_release_changes_mp OWNER TO postgres;
--- ddl-end --
-
 -- object: ccdd.ntp_release | type: TABLE --
 -- DROP TABLE IF EXISTS ccdd.ntp_release CASCADE;
 CREATE TABLE ccdd.ntp_release(
@@ -2203,112 +2149,7 @@ CREATE TABLE ccdd.mp_ntp_tm_relationship_release(
 ALTER TABLE ccdd.mp_ntp_tm_relationship_release OWNER TO postgres;
 -- ddl-end --
 
--- object: public.qa_release_changes_ntp | type: VIEW --
--- DROP VIEW IF EXISTS public.qa_release_changes_ntp CASCADE;
-CREATE VIEW public.qa_release_changes_ntp
-AS
 
-select
-	(CASE 
-    WHEN nxt.ntp_code is null THEN cur.ntp_code
-    ELSE nxt.ntp_code
-    END) as ntp_code,
-  (CASE 
-    WHEN nxt.ntp_code is null THEN cur.ntp_formal_name
-    ELSE nxt.ntp_formal_name
-    END) as ntp_formal_name,
-	(CASE
-		WHEN nxt.ntp_code is null THEN
-		(CASE WHEN LENGTH(cur.ntp_code) = 32 AND cur.ntp_formal_name = (SELECT ntp_formal_name FROM ccdd_ntp_table WHERE ntp_formal_name = cur.ntp_formal_name) THEN 'CHANGED' ELSE 'DELETED' END)
-		ELSE string_agg(FORMAT(
-			'%s: "%s" -> %s',
-			cmp.field_name,
-			cmp.cur_value,
-			(CASE WHEN cmp.nxt_value is not null THEN FORMAT('"%s"', cmp.nxt_value) ELSE 'NULL' END)
-		), E'\n' ORDER BY cmp.field_name)
-	END) as changes
-from
-	ccdd.ntp_release cur
-	LEFT JOIN ccdd_ntp_table nxt ON(cur.ntp_code = CAST(nxt.ntp_code AS varchar))
-	LEFT JOIN LATERAL (VALUES
-		('ntp_formal_name', cur.ntp_formal_name, nxt.ntp_formal_name),
-		('ntp_status', UPPER(cur.ntp_status), UPPER(nxt.ntp_status)),
-		('ntp_status_effective_time', cur.ntp_status_effective_time, nxt.ntp_status_effective_time),
-		('ntp_type', cur.ntp_type, COALESCE(nxt.ntp_type, 'NA'))
-	) AS cmp (
-		field_name, cur_value, nxt_value
-	) ON true
-WHERE
-	cmp.cur_value is distinct from cmp.nxt_value
-GROUP BY cur.ntp_code, cur.ntp_formal_name, nxt.ntp_code, nxt.ntp_formal_name
-
-UNION
-
-select
-	CAST(nxt.ntp_code AS varchar) as ntp_code,
-	nxt.ntp_formal_name,
-	(CASE WHEN nxt.ntp_formal_name = (SELECT ntp_formal_name FROM ccdd.ntp_release WHERE ntp_formal_name = nxt.ntp_formal_name) THEN 'CHANGED' ELSE 'ADDED' END)
-	 as changes
-from
-	ccdd_ntp_table nxt
-WHERE
-	not exists(select * from ccdd.ntp_release cur where cur.ntp_code = CAST(nxt.ntp_code AS varchar));
--- ddl-end --
-ALTER VIEW public.qa_release_changes_ntp OWNER TO postgres;
--- ddl-end --
-
--- object: public.qa_release_changes_tm | type: VIEW --
--- DROP VIEW IF EXISTS public.qa_release_changes_tm CASCADE;
-CREATE VIEW public.qa_release_changes_tm
-AS
-
-select
-	 (CASE 
-    WHEN nxt.tm_code is null THEN cur.tm_code
-    ELSE nxt.tm_code
-    END) as tm_code,
-   (CASE 
-    WHEN nxt.tm_code is null THEN cur.tm_formal_name
-    ELSE nxt.tm_formal_name
-    END) as tm_formal_name,
-	(CASE
-		WHEN nxt.tm_code is null THEN
-		(CASE WHEN LENGTH(cur.tm_code) = 32 AND cur.tm_formal_name = (SELECT tm_formal_name FROM ccdd_tm_table WHERE tm_formal_name = cur.tm_formal_name) THEN 'CHANGED' ELSE 'DELETED' END)
-		ELSE string_agg(FORMAT(
-			'%s: "%s" -> %s',
-			cmp.field_name,
-			cmp.cur_value,
-			(CASE WHEN cmp.nxt_value is not null THEN FORMAT('"%s"', cmp.nxt_value) ELSE 'NULL' END)
-		), E'\n' ORDER BY cmp.field_name)
-	END) as changes
-from
-	ccdd.tm_release cur
-	LEFT JOIN ccdd_tm_table nxt ON(cur.tm_code = CAST(nxt.tm_code AS varchar))
-	LEFT JOIN LATERAL (VALUES
-		('tm_formal_name', cur.tm_formal_name, nxt.tm_formal_name),
-		('tm_status', UPPER(cur.tm_status), UPPER(nxt.tm_status)),
-		('tm_status_effective_time', cur.tm_status_effective_time, nxt.tm_status_effective_time)
-	) AS cmp (
-		field_name, cur_value, nxt_value
-	) ON true
-WHERE
-	cmp.cur_value is distinct from cmp.nxt_value
-GROUP BY cur.tm_code, cur.tm_formal_name, nxt.tm_code, nxt.tm_formal_name
-
-UNION
-
-select
-	CAST(nxt.tm_code AS varchar) as tm_code,
-	nxt.tm_formal_name,
-	(CASE WHEN nxt.tm_formal_name = (SELECT tm_formal_name FROM ccdd.tm_release WHERE tm_formal_name = nxt.tm_formal_name) THEN 'CHANGED' ELSE 'ADDED' END)
-	as changes
-from
-	ccdd_tm_table nxt
-WHERE
-	not exists(select * from ccdd.tm_release cur where cur.tm_code = CAST(nxt.tm_code AS varchar));
--- ddl-end --
-ALTER VIEW public.qa_release_changes_tm OWNER TO postgres;
--- ddl-end --
 
 -- object: public.qa_mp_duplicates_code | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_mp_duplicates_code CASCADE;
@@ -2514,67 +2355,7 @@ order by dd.din;
 ALTER VIEW public.qa_missing_concepts_ingredient_stem OWNER TO postgres;
 -- ddl-end --
 
--- object: public.qa_release_changes_mp_ntp_tm_relationship | type: VIEW --
--- DROP VIEW IF EXISTS public.qa_release_changes_mp_ntp_tm_relationship CASCADE;
-CREATE VIEW public.qa_release_changes_mp_ntp_tm_relationship
-AS
 
-select
-	(CASE
-    WHEN nxt.mp_code is null THEN cur.mp_code
-    ELSE nxt.mp_code
-    END) as mp_code,
-  (CASE
-    WHEN nxt.mp_code is null THEN cur.mp_formal_name
-    ELSE nxt.mp_formal_name
-    END) as mp_formal_name,
-	(CASE
-		WHEN nxt.mp_code is null THEN 'DELETED'
-		ELSE string_agg(FORMAT(
-			'%s: "%s" -> %s',
-			cmp.field_name,
-			cmp.cur_value,
-			(CASE WHEN cmp.nxt_value is not null THEN FORMAT('"%s"', cmp.nxt_value) ELSE 'NULL' END)
-		), E'\n' ORDER BY cmp.field_name)
-	END) as changes
-from
-	ccdd.mp_ntp_tm_relationship_release cur
-	LEFT JOIN ccdd_mp_ntp_tm_relationship nxt ON(nxt.mp_code = cur.mp_code)
-	LEFT JOIN LATERAL (VALUES
-		('mp_formal_name', cur.mp_formal_name, nxt.mp_formal_name),
-		('ntp_code', cur.ntp_code, CAST(nxt.ntp_code as varchar)),
-		('ntp_formal_name', cur.ntp_formal_name, nxt.ntp_formal_name),
-		('tm_code', cur.tm_code, CAST(nxt.tm_code as varchar)),
-		('tm_formal_name', cur.tm_formal_name, nxt.tm_formal_name)
-	) AS cmp (
-		field_name, cur_value, nxt_value
-	) ON true
-WHERE
-	cmp.cur_value is distinct from cmp.nxt_value
-GROUP BY cur.mp_code, cur.mp_formal_name, nxt.mp_code, nxt.mp_formal_name
-
-UNION
-
-select
-	nxt.mp_code,
-	nxt.mp_formal_name,
-	'ADDED' as changes
-from
-	ccdd_mp_ntp_tm_relationship nxt
-WHERE
-	not exists(select * from ccdd.mp_ntp_tm_relationship_release cur where cur.mp_code = nxt.mp_code);
--- ddl-end --
-ALTER VIEW public.qa_release_changes_mp_ntp_tm_relationship OWNER TO postgres;
--- ddl-end --
-
--- object: ccdd_tm_ingredient_stem_tm_code | type: INDEX --
--- DROP INDEX IF EXISTS public.ccdd_tm_ingredient_stem_tm_code CASCADE;
-CREATE INDEX ccdd_tm_ingredient_stem_tm_code ON public.ccdd_tm_ingredient_stem
-	USING btree
-	(
-	  ccdd_tm_code
-	);
--- ddl-end --
 
 -- object: public.qa_mp_ntp_tm_relationship_duplicates_code | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_mp_ntp_tm_relationship_duplicates_code CASCADE;
@@ -2924,6 +2705,63 @@ WHERE tm_is_publishable = true;
 ALTER MATERIALIZED VIEW public.ccdd_mp_release_candidate OWNER TO postgres;
 -- ddl-end --
 
+
+-- object: public.qa_release_changes_mp | type: VIEW --
+-- DROP VIEW IF EXISTS public.qa_release_changes_mp CASCADE;
+CREATE VIEW public.qa_release_changes_mp
+AS
+
+select
+	(CASE 
+    WHEN nxt.mp_code is null THEN cur.mp_code
+    ELSE nxt.mp_code
+    END) as mp_code,
+(CASE 
+    WHEN nxt.mp_code is null THEN cur.mp_formal_name
+    ELSE nxt.mp_formal_name
+    END) as mp_formal_name,
+	(CASE
+		WHEN nxt.mp_code is null THEN 'DELETED'
+		ELSE string_agg(FORMAT(
+			'%s: "%s" -> %s',
+			cmp.field_name,
+			cmp.cur_value,
+			(CASE WHEN cmp.nxt_value is not null THEN FORMAT('"%s"', cmp.nxt_value) ELSE 'NULL' END)
+		), E'\n' ORDER BY cmp.field_name)
+	END) as changes
+from
+	ccdd.mp_release_candidate cur
+	LEFT JOIN ccdd_mp_table nxt ON(nxt.mp_code = cur.mp_code)
+	LEFT JOIN LATERAL (VALUES
+		('mp_formal_name', cur.mp_formal_name, nxt.mp_formal_name),
+		('mp_status', UPPER(cur.mp_status), UPPER(nxt.mp_status)),
+		('mp_status_effective_time', cur.mp_status_effective_time, nxt.mp_status_effective_time),
+		('mp_type', cur.mp_type, nxt.mp_type),
+		('Health_Canada_identifier', cur."Health_Canada_identifier", nxt."Health_Canada_identifier"),
+		('Health_Canada_product_name', cur."Health_Canada_product_name", nxt."Health_Canada_product_name")
+	) AS cmp (
+		field_name, cur_value, nxt_value
+	) ON true
+WHERE
+	cmp.cur_value is distinct from cmp.nxt_value
+GROUP BY cur.mp_code, cur.mp_formal_name,nxt.mp_code,nxt.mp_formal_name
+
+UNION
+
+select
+	nxt.mp_code,
+	nxt.mp_formal_name,
+	'ADDED' as changes
+from
+	ccdd_mp_table nxt
+WHERE
+	not exists(select * from ccdd.mp_release_candidate cur where cur.mp_code = nxt.mp_code);
+-- ddl-end --
+ALTER VIEW public.qa_release_changes_mp OWNER TO postgres;
+-- ddl-end --
+
+
+
 -- object: public.qa_release_changes_mp_release_candidate | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_release_changes_mp_release_candidate CASCADE;
 CREATE VIEW public.qa_release_changes_mp_release_candidate
@@ -2994,6 +2832,115 @@ WHERE tm_is_publishable = true;
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_ntp_release_candidate OWNER TO postgres;
 -- ddl-end --
+
+
+-- object: public.qa_release_changes_ntp | type: VIEW --
+-- DROP VIEW IF EXISTS public.qa_release_changes_ntp CASCADE;
+CREATE VIEW public.qa_release_changes_ntp
+AS
+
+select
+	(CASE 
+    WHEN nxt.ntp_code is null THEN cur.ntp_code
+    ELSE nxt.ntp_code
+    END) as ntp_code,
+  (CASE 
+    WHEN nxt.ntp_code is null THEN cur.ntp_formal_name
+    ELSE nxt.ntp_formal_name
+    END) as ntp_formal_name,
+	(CASE
+		WHEN nxt.ntp_code is null THEN
+		(CASE WHEN LENGTH(cur.ntp_code) = 32 AND cur.ntp_formal_name = (SELECT ntp_formal_name FROM ccdd_ntp_table WHERE ntp_formal_name = cur.ntp_formal_name) THEN 'CHANGED' ELSE 'DELETED' END)
+		ELSE string_agg(FORMAT(
+			'%s: "%s" -> %s',
+			cmp.field_name,
+			cmp.cur_value,
+			(CASE WHEN cmp.nxt_value is not null THEN FORMAT('"%s"', cmp.nxt_value) ELSE 'NULL' END)
+		), E'\n' ORDER BY cmp.field_name)
+	END) as changes
+from
+	ccdd.ntp_release_candidate cur
+	LEFT JOIN ccdd_ntp_table nxt ON(cur.ntp_code = CAST(nxt.ntp_code AS varchar))
+	LEFT JOIN LATERAL (VALUES
+		('ntp_formal_name', cur.ntp_formal_name, nxt.ntp_formal_name),
+		('ntp_status', UPPER(cur.ntp_status), UPPER(nxt.ntp_status)),
+		('ntp_status_effective_time', cur.ntp_status_effective_time, nxt.ntp_status_effective_time),
+		('ntp_type', cur.ntp_type, COALESCE(nxt.ntp_type, 'NA'))
+	) AS cmp (
+		field_name, cur_value, nxt_value
+	) ON true
+WHERE
+	cmp.cur_value is distinct from cmp.nxt_value
+GROUP BY cur.ntp_code, cur.ntp_formal_name, nxt.ntp_code, nxt.ntp_formal_name
+
+UNION
+
+select
+	CAST(nxt.ntp_code AS varchar) as ntp_code,
+	nxt.ntp_formal_name,
+	(CASE WHEN nxt.ntp_formal_name = (SELECT ntp_formal_name FROM ccdd.ntp_release WHERE ntp_formal_name = nxt.ntp_formal_name) THEN 'CHANGED' ELSE 'ADDED' END)
+	 as changes
+from
+	ccdd_ntp_table nxt
+WHERE
+	not exists(select * from ccdd.ntp_release_candidate cur where cur.ntp_code = CAST(nxt.ntp_code AS varchar));
+-- ddl-end --
+ALTER VIEW public.qa_release_changes_ntp OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.qa_release_changes_tm | type: VIEW --
+-- DROP VIEW IF EXISTS public.qa_release_changes_tm CASCADE;
+CREATE VIEW public.qa_release_changes_tm
+AS
+
+select
+	 (CASE 
+    WHEN nxt.tm_code is null THEN cur.tm_code
+    ELSE nxt.tm_code
+    END) as tm_code,
+   (CASE 
+    WHEN nxt.tm_code is null THEN cur.tm_formal_name
+    ELSE nxt.tm_formal_name
+    END) as tm_formal_name,
+	(CASE
+		WHEN nxt.tm_code is null THEN
+		(CASE WHEN LENGTH(cur.tm_code) = 32 AND cur.tm_formal_name = (SELECT tm_formal_name FROM ccdd_tm_table WHERE tm_formal_name = cur.tm_formal_name) THEN 'CHANGED' ELSE 'DELETED' END)
+		ELSE string_agg(FORMAT(
+			'%s: "%s" -> %s',
+			cmp.field_name,
+			cmp.cur_value,
+			(CASE WHEN cmp.nxt_value is not null THEN FORMAT('"%s"', cmp.nxt_value) ELSE 'NULL' END)
+		), E'\n' ORDER BY cmp.field_name)
+	END) as changes
+from
+	ccdd.tm_release_candidate cur
+	LEFT JOIN ccdd_tm_table nxt ON(cur.tm_code = CAST(nxt.tm_code AS varchar))
+	LEFT JOIN LATERAL (VALUES
+		('tm_formal_name', cur.tm_formal_name, nxt.tm_formal_name),
+		('tm_status', UPPER(cur.tm_status), UPPER(nxt.tm_status)),
+		('tm_status_effective_time', cur.tm_status_effective_time, nxt.tm_status_effective_time)
+	) AS cmp (
+		field_name, cur_value, nxt_value
+	) ON true
+WHERE
+	cmp.cur_value is distinct from cmp.nxt_value
+GROUP BY cur.tm_code, cur.tm_formal_name, nxt.tm_code, nxt.tm_formal_name
+
+UNION
+
+select
+	CAST(nxt.tm_code AS varchar) as tm_code,
+	nxt.tm_formal_name,
+	(CASE WHEN nxt.tm_formal_name = (SELECT tm_formal_name FROM ccdd.tm_release WHERE tm_formal_name = nxt.tm_formal_name) THEN 'CHANGED' ELSE 'ADDED' END)
+	as changes
+from
+	ccdd_tm_table nxt
+WHERE
+	not exists(select * from ccdd.tm_release_candidate cur where cur.tm_code = CAST(nxt.tm_code AS varchar));
+-- ddl-end --
+ALTER VIEW public.qa_release_changes_tm OWNER TO postgres;
+-- ddl-end --
+
 
 -- object: public.qa_release_changes_ntp_release_candidate | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_release_changes_ntp_release_candidate CASCADE;
@@ -3133,6 +3080,71 @@ WHERE tm_is_publishable = true;
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_mp_ntp_tm_relationship_release_candidate OWNER TO postgres;
 -- ddl-end --
+
+
+-- object: public.qa_release_changes_mp_ntp_tm_relationship | type: VIEW --
+-- DROP VIEW IF EXISTS public.qa_release_changes_mp_ntp_tm_relationship CASCADE;
+CREATE VIEW public.qa_release_changes_mp_ntp_tm_relationship
+AS
+
+select
+	(CASE
+    WHEN nxt.mp_code is null THEN cur.mp_code
+    ELSE nxt.mp_code
+    END) as mp_code,
+  (CASE
+    WHEN nxt.mp_code is null THEN cur.mp_formal_name
+    ELSE nxt.mp_formal_name
+    END) as mp_formal_name,
+	(CASE
+		WHEN nxt.mp_code is null THEN 'DELETED'
+		ELSE string_agg(FORMAT(
+			'%s: "%s" -> %s',
+			cmp.field_name,
+			cmp.cur_value,
+			(CASE WHEN cmp.nxt_value is not null THEN FORMAT('"%s"', cmp.nxt_value) ELSE 'NULL' END)
+		), E'\n' ORDER BY cmp.field_name)
+	END) as changes
+from
+	ccdd.mp_ntp_tm_relationship_release_candidate cur
+	LEFT JOIN ccdd_mp_ntp_tm_relationship nxt ON(nxt.mp_code = cur.mp_code)
+	LEFT JOIN LATERAL (VALUES
+		('mp_formal_name', cur.mp_formal_name, nxt.mp_formal_name),
+		('ntp_code', cur.ntp_code, CAST(nxt.ntp_code as varchar)),
+		('ntp_formal_name', cur.ntp_formal_name, nxt.ntp_formal_name),
+		('tm_code', cur.tm_code, CAST(nxt.tm_code as varchar)),
+		('tm_formal_name', cur.tm_formal_name, nxt.tm_formal_name)
+	) AS cmp (
+		field_name, cur_value, nxt_value
+	) ON true
+WHERE
+	cmp.cur_value is distinct from cmp.nxt_value
+GROUP BY cur.mp_code, cur.mp_formal_name, nxt.mp_code, nxt.mp_formal_name
+
+UNION
+
+select
+	nxt.mp_code,
+	nxt.mp_formal_name,
+	'ADDED' as changes
+from
+	ccdd_mp_ntp_tm_relationship nxt
+WHERE
+	not exists(select * from ccdd.mp_ntp_tm_relationship_release_candidate cur where cur.mp_code = nxt.mp_code);
+-- ddl-end --
+ALTER VIEW public.qa_release_changes_mp_ntp_tm_relationship OWNER TO postgres;
+-- ddl-end --
+
+-- object: ccdd_tm_ingredient_stem_tm_code | type: INDEX --
+-- DROP INDEX IF EXISTS public.ccdd_tm_ingredient_stem_tm_code CASCADE;
+CREATE INDEX ccdd_tm_ingredient_stem_tm_code ON public.ccdd_tm_ingredient_stem
+	USING btree
+	(
+	  ccdd_tm_code
+	);
+-- ddl-end --
+
+
 
 -- object: public.qa_release_changes_mp_ntp_tm_relationship_release_candidate | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_release_changes_mp_ntp_tm_relationship_release_candidate CASCADE;
