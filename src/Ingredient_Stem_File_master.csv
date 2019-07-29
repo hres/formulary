@@ -115,7 +115,7 @@ Y,,APROTININ (BOVINE),aprotinin (bovine),FALSE,aprotinin (bovine),No live produc
 Y,,APROTININ (SYNTHETIC),aprotinin (synthetic),FALSE,aprotinin (synthetic),No products in scope,Haemostatic sealant products,114,Aprotinin (synthétique),,
 Y,,ARGATROBAN,argatroban,FALSE,argatroban,Released,,115,Argatroban,,
 ,,ARGININE,arginine,FALSE,arginine,TPN,,116,Arginine,,
-,,ARGININE HYDROCHLORIDE,arginine hydrochloride,FALSE,arginine hydrochloride,TPN,,117,Chlorhydrate d'arginine,,
+Y,,ARGININE HYDROCHLORIDE,arginine hydrochloride,FALSE,arginine hydrochloride,To do,,117,Chlorhydrate d'arginine,,
 Y,ARIPIPRAZOLE,ARIPIPRAZOLE,aripiprazole,FALSE,aripiprazole,Released,,118,Aripiprazole,,
 Y,,ARSENIC TRIOXIDE,arsenic trioxide,FALSE,arsenic trioxide,Released,,119,Trioxyde d'arsénic,,
 Y,,ARTICAINE HYDROCHLORIDE,articaine,FALSE,articaine hydrochloride,Issue - in QA,,120,Chlorhydrate d'articaïne,,
