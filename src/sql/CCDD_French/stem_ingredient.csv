@@ -61,10 +61,10 @@ Y,,ALPROSTADIL,alprostadil,FALSE,alprostadil,Released,,59,Alprostadil,alprostadi
 Y,,ALTEPLASE,alteplase,FALSE,alteplase,Released,,60,Altéplase,altéplase,altéplase
 Y,,ALUMINUM CHLORIDE,aluminum chloride,FALSE,aluminum chloride,,,61,Chlorure d'aluminium,chlorure d'aluminium,chlorure d'aluminium
 Y,,ALUMINUM CHLOROHYDRATE,aluminum chlorohydrate,TRUE,aluminum chlorohydrate,Released,Combination only,62,Chlorhydrate d'aluminium,chlorhydrate d'aluminium,chlorhydrate d'aluminium
-Y,,ALUMINUM HYDROXIDE,aluminum hydroxide,FALSE,aluminum hydroxide,Partially released,Combination only,63,Hydroxyde d'aluminium,hydroxyde d'aluminium,hydroxyde d'aluminium
-Y,,ALUMINUM HYDROXIDE (DRIED ALUMINUM HYDROXIDE GEL),aluminum hydroxide,FALSE,aluminum hydroxide (dried aluminum hydroxide gel),Partially released,Combination only,64,Hydroxyde d'aluminium (Gel d'hydroxyde d'aluminium séché (en poudre)),hydroxyde d'aluminium,hydroxyde d'aluminium
-Y,,ALUMINUM HYDROXIDE-MAGNESIUM CARBONATE-CO DRIED GEL,aluminum magnesium hydroxide carbonate,FALSE,aluminum magnesium hydroxide carbonate	,Partially released,Combination only,65,Gel d'hydroxyde d'aluminium et carbonate de magnésium co-séchés (en poudre),aluminium magnésium hydroxyde carbonate,aluminium magnésium hydroxyde carbonate
-Y,,ALUMINUM HYDROXIDE-SUCROSE DRIED GEL,aluminum hydroxide,FALSE,aluminum hydroxide-sucrose dried gel,Partially released,Combination only,66,Gel d'hydroxyde d'aluminium et sucrose séchés (en poudre),hydroxyde d'aluminium,hydroxyde d'aluminium
+Y,,ALUMINUM HYDROXIDE,aluminum hydroxide,FALSE,aluminum hydroxide,Released,Combination only,63,Hydroxyde d'aluminium,hydroxyde d'aluminium,hydroxyde d'aluminium
+Y,,ALUMINUM HYDROXIDE (DRIED ALUMINUM HYDROXIDE GEL),aluminum hydroxide,FALSE,aluminum hydroxide,Released,Combination only,64,Hydroxyde d'aluminium (Gel d'hydroxyde d'aluminium séché (en poudre)),hydroxyde d'aluminium,hydroxyde d'aluminium
+Y,,ALUMINUM HYDROXIDE-MAGNESIUM CARBONATE-CO DRIED GEL,aluminum magnesium hydroxide carbonate,FALSE,aluminum magnesium hydroxide carbonate,Released,Combination only,65,Gel d'hydroxyde d'aluminium et carbonate de magnésium co-séchés (en poudre),aluminium magnésium hydroxyde carbonate,aluminium magnésium hydroxyde carbonate
+Y,,ALUMINUM HYDROXIDE-SUCROSE DRIED GEL,aluminum hydroxide,FALSE,aluminum hydroxide,Released,Combination only,66,Gel d'hydroxyde d'aluminium et sucrose séchés (en poudre),hydroxyde d'aluminium,hydroxyde d'aluminium
 Y,,AMANTADINE HYDROCHLORIDE,amantadine,FALSE,amantadine hydrochloride,Released,,67,Chlorhydrate d'amantadine,amantadine,chlorhydrate d'amantadine
 Y,AMBRISENTAN,AMBRISENTAN,ambrisentan,FALSE,ambrisentan,Released,,68,Ambrisentan,ambrisentan,ambrisentan
 Y,,AMCINONIDE,amcinonide,FALSE,amcinonide,Released,,69,Amcinonide,amcinonide,amcinonide
@@ -102,7 +102,7 @@ Y,,ANTIHEMOPHILIC FACTOR (RECOMBINANT) PORCINE SEQUENCE,antihemophilic factor (r
 Y,,ANTI-INHIBITOR COAGULANT COMPLEX,anti-inhibitor coagulant complex,FALSE,anti-inhibitor coagulant complex,In QA,,101,Complexe coagulant anti-inhibiteur,complexe coagulant anti-inhibiteur,complexe coagulant anti-inhibiteur
 Y,,ANTIPYRINE,antipyrine,FALSE,antipyrine,Released,Combination only; Formule 2 product blacklisted,102,Antipyrine,antipyrine,antipyrine
 Y,,ANTITHROMBIN III (HUMAN),antithrombin iii (human),FALSE,antithrombin iii (human),In QA,,103,Antithrombine iii (humaine),antithrombine III (humaine),antithrombine III (humaine)
-Y,,ANTI-THYMOCYTE GLOBULIN (RABBIT),anti-thymocyte immunoglobulin rabbit,FALSE,anti-thymocyte immunoglobulin rabbit,Released,,104,Globuline (lapin) anti-thymocyte,globuline (lapin) anti-thymocyte,globuline (lapin) anti-thymocyte
+Y,,ANTI-THYMOCYTE GLOBULIN (RABBIT),anti-thymocyte immunoglobulin rabbit,FALSE,anti-thymocyte immunoglobulin rabbit,Released,,104,Globuline (lapin) anti-thymocyte,globuline anti-thymocyte lapin,globuline anti-thymocyte lapin
 Y,,APALUTAMIDE,apalutamide,FALSE,apalutamide,Released,,105,APALUTAMIDE,apalutamide,apalutamide
 ,,APIS MELLIFERA VENOM PROTEIN EXTRACT,apis mellifera venom protein extract,FALSE,apis mellifera venom protein extract,Antidote,,106,Extrait protéique de venin d'Abeille mellifère,apis mellifera venom protein extract,apis mellifera venom protein extract
 Y,,Apixaban,apixaban,FALSE,apixaban,Released,,107,Apixaban,apixaban,apixaban
@@ -127,8 +127,8 @@ Y,,ATAZANAVIR (ATAZANAVIR SULFATE),atazanavir,FALSE,atazanavir (atazanavir sulfa
 Y,ATENOLOL,ATENOLOL,atenolol,FALSE,atenolol,Released,Single and multi-ingredient TMs,126,Aténolol,aténolol,aténolol
 Y,,ATEZOLIZUMAB,atezolizumab,FALSE,atezolizumab,Released,,127,ATÉZOLIZUMAB,atézolizumab,atézolizumab
 Y,ATOMOXETINE,ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE),atomoxetine,FALSE,atomoxetine (atomoxetine hydrochloride),Released,,128,Atomoxétine (Chlorhydrate d'atomoxétine),atomoxétine,atomoxétine (chlorhydrate d'atomoxétine)
-Y,ATORVASTATIN,ATORVASTATIN (ATORVASTATIN CALCIUM PROPYLENE GLYCOL SOLVATE),atorvastatin,TRUE,atorvastatin (atorvastatin calcium),Released,Single and multi-ingredient TMs,129,Atorvastatine (Solvate de propylène glycol d'atorvastatine calcique),atorvastatine,atorvastatine (d'atorvastatine calcique)
-Y,ATORVASTATIN,ATORVASTATIN (ATORVASTATIN CALCIUM),atorvastatin,FALSE,atorvastatin (atorvastatin calcium),Released,Single and multi-ingredient TMs,130,Atorvastatine (Atorvastatine calcique),atorvastatine,atorvastatine (d'atorvastatine calcique)
+Y,ATORVASTATIN,ATORVASTATIN (ATORVASTATIN CALCIUM PROPYLENE GLYCOL SOLVATE),atorvastatin,TRUE,atorvastatin (atorvastatin calcium),Released,Single and multi-ingredient TMs,129,Atorvastatine (Solvate de propylène glycol d'atorvastatine calcique),atorvastatine,atorvastatine (atorvastatine calcique)
+Y,ATORVASTATIN,ATORVASTATIN (ATORVASTATIN CALCIUM),atorvastatin,FALSE,atorvastatin (atorvastatin calcium),Released,Single and multi-ingredient TMs,130,Atorvastatine (Atorvastatine calcique),atorvastatine,atorvastatine (atorvastatine calcique)
 Y,,ATOVAQUONE,atovaquone,FALSE,atovaquone,Released,Single and multi-ingredient TMs,131,Atovaquone,atovaquone,atovaquone
 Y,,ATRACURIUM BESYLATE,atracurium besylate,FALSE,atracurium besylate,No live products,,132,Bésilate d'atracurium,atracurium,bésilate d'atracurium
 Y,,ATROPINE SULFATE,atropine,FALSE,atropine sulfate,Released,Single and multi-ingredient TMs,133,Sulfate d'atropine,atropine,sulfate d'atropine
@@ -142,7 +142,7 @@ Y,AZATHIOPRINE,AZATHIOPRINE (AZATHIOPRINE SODIUM),azathioprine,FALSE,azathioprin
 Y,,AZELAIC ACID,azelaic acid,FALSE,azelaic acid,Released,,141,Acide azélaïque,acide azélaïque,acide azélaïque
 Y,,AZELASTINE HYDROCHLORIDE,azelastine,FALSE,azelastine hydrochloride,Released,Combination only,142,Chlorhydrate d'azélastine,azélastine,chlorhydrate d'azélastine
 Y,,azelastine hydrochloride,azelastine hydrochloride,FALSE,azelastine hydrochloride,Released,Combination only,143,,azélastine,chlorhydrate d'azélastine
-Y,,Azilsartan Medoxomil (Azilsartan Medoxomil Potassium),azilsartan,FALSE,azilsartan medoxomil (azilsartan medoxomil potassium),Released,Single and multi-ingredient TMs,144,Azilsartan Médoxomil (Azilsartan Médoxomil Potassium),azilsartan,azilsartan médoxomil (azilsartan médoxomil potassium)
+Y,,Azilsartan Medoxomil (Azilsartan Medoxomil Potassium),azilsartan,FALSE,azilsartan medoxomil (azilsartan medoxomil potassium),Released,Single and multi-ingredient TMs,144,Azilsartan Médoxomil (Azilsartan Médoxomil Potassium),azilsartan,azilsartan médoxomil (azilsartan médoxomil potassique)
 Y,AZITHROMYCIN,AZITHROMYCIN,azithromycin,FALSE,azithromycin,Released,,145,Azithromycine,azithromycine,azithromycine
 Y,AZITHROMYCIN,AZITHROMYCIN (AZITHROMYCIN DIHYDRATE),azithromycin,TRUE,azithromycin,Released,,146,Azithromycine (Dihydrate d'Azithromycine),azithromycine,azithromycine
 Y,AZITHROMYCIN,AZITHROMYCIN (AZITHROMYCIN HYDROGEN CITRATE),azithromycin,FALSE,azithromycin (azithromycin hydrogen citrate),Released,,147,Azithromycine (Hydrogénocitrate d'azithromycine),azithromycine,azithromycine (hydrogénocitrate d'azithromycine)
@@ -297,7 +297,7 @@ Y,CEFPROZIL,CEFPROZIL,cefprozil,FALSE,cefprozil,Released,,295,Cefprozil,cefprozi
 Y,CEFPROZIL,CEFPROZIL (CEFPROZIL MONOHYDRATE),cefprozil,TRUE,cefprozil,Released,,296,Cefprozil (Monohydrate de cefprozil),cefprozil,cefprozil
 Y,,CEFTAZIDIME,ceftazidime,FALSE,ceftazidime,Released,,297,Ceftazidime,ceftazidime,ceftazidime
 Y,,CEFTAZIDIME (CEFTAZIDIME PENTAHYDRATE),ceftazidime,TRUE,ceftazidime,Released,,298,Ceftazidime (Ceftazidime pentahydratée),ceftazidime,ceftazidime
-Y,,CEFTOBIPROLE (CEFTOBIPROLE MEDOCARIL SODIUM),ceftobiprole,FALSE,ceftobiprole (ceftobiprole medocaril sodium),Released,,299,Ceftobiprole (Ceptobiprole médocaril sodique),ceftobiprole,ceftobiprole (ceptobiprole médocaril sodique)
+Y,,CEFTOBIPROLE (CEFTOBIPROLE MEDOCARIL SODIUM),ceftobiprole,FALSE,ceftobiprole (ceftobiprole medocaril sodium),Released,,299,Ceftobiprole (Ceptobiprole médocaril sodique),ceftobiprole,ceftobiprole (ceftobiprole médocaril sodique)
 Y,,CEFTOLOZANE (CEFTOLOZANE SULFATE),ceftolozane,FALSE,ceftolozane (ceftolozane sulfate),Released,,300,Ceftolozane (Sulfate de Ceftolozane),ceftolozane,ceftolozane (sulfate de ceftolozane)
 Y,,CEFTRIAXONE (CEFTRIAXONE SODIUM),ceftriaxone,FALSE,ceftriaxone (ceftriaxone sodium),Released,,301,Ceftriaxone (Ceftriaxone sodique),ceftriaxone,ceftriaxone (ceftriaxone sodique)
 Y,CEFUROXIME,CEFUROXIME (CEFUROXIME AXETIL),cefuroxime,FALSE,cefuroxime (cefuroxime axetil),Released,,302,Céfuroxime (Céfuroxime axétil),céfuroxime,céfuroxime (céfuroxime axétil)
@@ -610,7 +610,7 @@ Y,,EPTIFIBATIDE,eptifibatide,FALSE,eptifibatide,Released,,608,Eptifibatide,eptif
 Y,,ERGOLOID MESYLATES,ergoloid mesylates,FALSE,ergoloid mesylates,Released,,609,Mésylates d'ergoloïdes,mésylates d'ergoloïdes,mésylates d'ergoloïdes
 Y,,ERGONOVINE MALEATE,ergonovine,FALSE,ergonovine maleate,Released,,610,Maléate d'ergonovine,ergonovine,maléate d'ergonovine
 Y,,ERGOTAMINE TARTRATE,ergotamine,FALSE,ergotamine tartrate,Released,Combination only,611,Ergotamine tartrate,ergotamine,tartrate d'ergotamine
-Y,,Eribulin Mesylate,eribulin,FALSE,eribulin mesylate,Released,,612,Mésylate d'Éribuline,mésylate d'éribuline,mésylate d'éribuline
+Y,,Eribulin Mesylate,eribulin,FALSE,eribulin mesylate,Released,,612,Mésylate d'Éribuline,éribuline,mésylate d'éribuline
 Y,,ERLOTINIB (ERLOTINIB HYDROCHLORIDE),erlotinib,FALSE,erlotinib (erlotinib hydrochloride),Released,,613,Erlotinib (Chlorhydrate d'erlotinib),erlotinib,erlotinib (chlorhydrate d'erlotinib)
 Y,,ERTAPENEM (ERTAPENEM SODIUM),ertapenem,FALSE,ertapenem (ertapenem sodium),Released,,614,Ertapénem (Ertapénem sodique),ertapénem,ertapénem (ertapénem sodique)
 Y,,ERTUGLIFLOZIN,ertugliflozin,FALSE,ertugliflozin,Released,,615,Ertugliflozine,ertugliflozine,ertugliflozine
@@ -828,7 +828,7 @@ Y,,Ibrutinib,ibrutinib,FALSE,ibrutinib,Released,,826,Ibrutinib,ibrutinib,ibrutin
 Y,IBUPROFEN,IBUPROFEN,ibuprofen,FALSE,ibuprofen,Released,,827,Ibuprofène,ibuprofène,ibuprofène
 Y,,"IBUPROFEN (IBUPROFEN, Ibuprofen potassium)",ibuprofen,FALSE,"ibuprofen (ibuprofen, ibuprofen potassium)",Released,,828,"Ibuprofène (Ibuprofène, Ibuprofène potassique)",ibuprofène,"ibuprofène (ibuprofène, ibuprofène potassique)"
 Y,,IBUTILIDE FUMARATE,ibutilide,FALSE,ibutilide fumarate,Released,,829,Fumarate d'ibutilide,ibutilide,fumarate d'ibutilide
-Y,,ICATIBANT (ICATIBANT ACETATE),icatibant,FALSE,icatibant (icatibant acetate),Released,,830,ICATIBANT (ICATIBANT ACETATE),icatibant,icatibant (acétate d'icatibant )
+Y,,ICATIBANT (ICATIBANT ACETATE),icatibant,FALSE,icatibant (icatibant acetate),Released,,830,ICATIBANT (ICATIBANT ACETATE),icatibant,icatibant (acétate d'icatibant)
 ,,ICODEXTRIN,icodextrin,FALSE,icodextrin,Not in scope,Haemodialysis solution,831,Icodextrine,icodextrin,icodextrin
 Y,,IDARUBICIN HYDROCHLORIDE,idarubicin,FALSE,idarubicin hydrochloride,Released,,832,Chlorhydrate d'idarubicine,idarubicine,chlorhydrate d'idarubicine
 Y,,IDARUCIZUMAB,idarucizumab,FALSE,idarucizumab,Released,,833,IDARUCIZUMAB,idarucizumab,idarucizumab
@@ -1199,7 +1199,7 @@ Y,,NIZATIDINE,nizatidine,FALSE,nizatidine,Released,,1197,Nizatidine,nizatidine,n
 ,,NON POLLEN,non pollen,FALSE,non pollen,Allergen,,1198,Allergène non-pollinique,non pollen,non pollen
 Y,,Nonacog Gamma,nonacog gamma,FALSE,nonacog gamma,Released,,1199,Nonacog Gamma,nonacog gamma,nonacog gamma
 Y,NORELGESTROMIN,NORELGESTROMIN,norelgestromin,FALSE,norelgestromin,Released,Combination only,1200,Norelgestromine,norelgestromine,norelgestromine
-Y,,NOREPINEPHRINE (NOREPINEPHRINE BITARTRATE),norepinephrine,FALSE,norepinephrine (norepinephrine bitartrate),Released,,1201, (Bitartrate de norépinéphrine),norépinéphrine,(bitartrate de norépinéphrine)
+Y,,NOREPINEPHRINE (NOREPINEPHRINE BITARTRATE),norepinephrine,FALSE,norepinephrine (norepinephrine bitartrate),Released,,1201, (Bitartrate de norépinéphrine),norépinéphrine,norépinéphrine (bitartrate de norépinéphrine)
 Y,NORETHINDRONE,NORETHINDRONE,norethindrone,FALSE,norethindrone,Released,,1202,Noréthindrone,noréthindrone,noréthindrone
 Y,NORETHINDRONE,NORETHINDRONE ACETATE,norethindrone,FALSE,norethindrone acetate,Released,,1203,Acétate de noréthindrone,noréthindrone,acétate de noréthindrone
 Y,,NORFLOXACIN,norfloxacin,FALSE,norfloxacin,Released,,1204,Norfloxacine,norfloxacine,norfloxacine
@@ -1280,7 +1280,7 @@ Y,PANTOPRAZOLE,PANTOPRAZOLE (PANTOPRAZOLE SODIUM),pantoprazole,FALSE,pantoprazol
 Y,,PAPAVERINE HYDROCHLORIDE,papaverine,FALSE,papaverine hydrochloride,Released,,1279,Chlorhydrate de papavérine,papavérine,chlorhydrate de papavérine
 ,,PARACHLOROPHENOL,parachlorophenol,FALSE,parachlorophenol,No live products,,1280,Parachlorophénol,parachlorophenol,parachlorophenol
 Y,,Paritaprevir,paritaprevir,FALSE,paritaprevir,Released,Combination only,1281,Paritaprévir,paritaprévir,paritaprévir
-Y,,PAROMOMYCIN (PAROMOMYCIN SULFATE),paromomycin,FALSE,paromomycin (paromomycin sulfate),Released,,1282,Paromomycine (Sulfate de paromycine),paromomycine,paromomycine (sulfate de paromycine)
+Y,,PAROMOMYCIN (PAROMOMYCIN SULFATE),paromomycin,FALSE,paromomycin (paromomycin sulfate),Released,,1282,Paromomycine (Sulfate de paromycine),paromomycine,paromomycine (sulfate de paromomycine)
 Y,PAROXETINE,PAROXETINE (PAROXETINE HYDROCHLORIDE ACETONE SOLVATE),paroxetine,TRUE,paroxetine (paroxetine hydrochloride),Released,,1283,"Paroxétine (Chlorhydrate de paroxétine, solvate d'acétone)",paroxétine,paroxétine (chlorhydrate de paroxétine)
 Y,PAROXETINE,PAROXETINE (PAROXETINE HYDROCHLORIDE HEMIHYDRATE),paroxetine,TRUE,paroxetine (paroxetine hydrochloride),Released,,1284,Paroxétine (Chlorhydrate de Paroxétine Semihydraté),paroxétine,paroxétine (chlorhydrate de paroxétine)
 Y,PAROXETINE,PAROXETINE (PAROXETINE HYDROCHLORIDE),paroxetine,FALSE,paroxetine (paroxetine hydrochloride),Released,,1285,Paroxétine (Chlorhydrate de paroxétine),paroxétine,paroxétine (chlorhydrate de paroxétine)
@@ -1328,7 +1328,7 @@ Y,,PHENELZINE (PHENELZINE SULFATE),phenelzine,FALSE,phenelzine (phenelzine sulfa
 Y,,PHENIRAMINE MALEATE,pheniramine,FALSE,pheniramine maleate,Released,,1327,Maléate de phéniramine,phéniramine,maléate de phéniramine
 Y,PHENOBARBITAL,PHENOBARBITAL,phenobarbital,FALSE,phenobarbital,Released,,1328,Phénobarbital,phénobarbital,phénobarbital
 Y,,PHENOBARBITAL SODIUM,phenobarbital,FALSE,phenobarbital sodium,Released,,1329,Phénobarbital sodique,phénobarbital,phénobarbital sodique
-Y,,PHENOL,phenol,FALSE,phenol,Issue - in QA,,1330,Phénol,phénol,phénol
+Y,,PHENOL,phenol,FALSE,phenol,No products in scope,,1330,Phénol,phénol,phénol
 Y,,PHENTOLAMINE MESYLATE,phentolamine,FALSE,phentolamine mesylate,Released,,1331,Mésylate de phentolamine,phentolamine,mésylate de phentolamine
 ,,PHENYLALANINE,phenylalanine,FALSE,phenylalanine,TPN,,1332,Phénylalanine,phenylalanine,phenylalanine
 Y,,PHENYLEPHRINE (PHENYLEPHRINE HYDROCHLORIDE),phenylephrine,FALSE,phenylephrine (phenylephrine hydrochloride),Released,,1333,Phényléphrine (Chlorhydrate de phényléphrine),phényléphrine,phényléphrine (chlorhydrate de phényléphrine)
@@ -1396,10 +1396,11 @@ Y,,POLIDOCANOL,polidocanol,FALSE,polidocanol,Released,,1393,POLIDOCANOL,polidoca
 ,,POLLEN,pollen,FALSE,pollen,Allergen,,1395,Pollen,pollen,pollen
 ,,POLLEN AND NON POLLEN,pollen and non pollen,FALSE,pollen and non pollen,Allergen,,1396,Pollen et allergène non-pollénique,pollen and non pollen,pollen and non pollen
 ,,POLYCARBOPHIL (CALCIUM POLYCARBOPHIL),polycarbophil (calcium polycarbophil),FALSE,polycarbophil (calcium polycarbophil),No live products,,1397,Polycarbophile (Polycarbophile de calcium),polycarbophil (calcium polycarbophil),polycarbophil (calcium polycarbophil)
+Y,,POLYETHYLENE GLYCOL 3350,polyethylene glycol 3350,FALSE,polyethylene glycol 3350,Issue - in QA,,1398,POLYETHYLENE GLYCOL 3350,polyéthylèneglycol 3350,polyéthylèneglycol 3350
 Y,,POLYETHYLENE GLYCOL 400,polyethylene glycol 400,FALSE,polyethylene glycol 400,Released,,1399,Polyéthylène glycol 400,polyethylene glycol 400,polyethylene glycol 400
 Y,,POLYMYXIN B (POLYMYXIN B SULFATE),polymyxin B,FALSE,polymyxin B (polymyxin B sulfate),Partial released,,1400,Polymyxine B (Sulfate de polymyxine b),polymyxine B,polymyxine B (sulfate de polymyxine B)
 Y,,POLYMYXIN B SULFATE,polymyxin B,FALSE,polymyxin B (polymyxin B sulfate),Partial released,,1401,Sulfate de polymyxine b,polymyxine B,polymyxine B (sulfate de polymyxine B)
-Y,,POLYSORBATE 80,polysorbate 80,FALSE,polysorbate 80,Issue - in QA,,1402,Polysorbate-80,polysorbate-80,polysorbate-80
+Y,,POLYSORBATE 80,polysorbate 80,FALSE,polysorbate 80,Released,Combination only,1402,Polysorbate-80,polysorbate 80,polysorbate 80
 Y,,POLYVINYL ALCOHOL,polyvinyl alcohol,FALSE,polyvinyl alcohol,Released,,1403,Alcool polyvinylique,alcool polyvinylique,alcool polyvinylique
 Y,,Pomalidomide,pomalidomide,FALSE,pomalidomide,Released,,1404,Pomalidomide,pomalidomide,pomalidomide
 Y,,Ponatinib (Ponatinib Hydrochloride),ponatinib,FALSE,ponatinib (ponatinib hydrochloride),Released,,1405,Ponatinib (Chlorhydrate de Ponatinib),ponatinib,ponatinib (chlorhydrate de ponatinib)
@@ -1518,7 +1519,7 @@ Y,,RITONAVIR,ritonavir,FALSE,ritonavir,Released,,1517,Ritonavir,ritonavir,ritona
 Y,,RITUXIMAB,rituximab,FALSE,rituximab,Released,,1518,Rituximab,rituximab,rituximab
 Y,RIVAROXABAN,RIVAROXABAN,rivaroxaban,FALSE,rivaroxaban,Released,,1519,Rivaroxaban,rivaroxaban,rivaroxaban
 Y,RIVASTIGMINE,RIVASTIGMINE,rivastigmine,FALSE,rivastigmine,Released,,1520,Rivastigmine,rivastigmine,rivastigmine
-Y,RIVASTIGMINE,RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE),rivastigmine,FALSE,rivastigmine (rivastigmine hydrogen tartrate),Released,,1521,Rivastigmine (Tartrate hydrogénée de rivastigmine),rivastigmine,rivastigmine (tartrate hydrogénée de rivastigmine)
+Y,RIVASTIGMINE,RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE),rivastigmine,FALSE,rivastigmine (rivastigmine hydrogen tartrate),Released,,1521,Rivastigmine (Tartrate hydrogénée de rivastigmine),rivastigmine,rivastigmine (tartrate hydrogéné de rivastigmine)
 Y,RIZATRIPTAN,RIZATRIPTAN (RIZATRIPTAN BENZOATE),rizatriptan,FALSE,rizatriptan (rizatriptan benzoate),Released,,1522,Rizatriptan (Benzoate de rizatriptan),rizatriptan,rizatriptan (benzoate de rizatriptan)
 Y,,ROCURONIUM BROMIDE,rocuronium,FALSE,rocuronium bromide,Released,,1523,Bromure de rocuronium,rocuronium,bromure de rocuronium
 Y,,Roflumilast,roflumilast,FALSE,roflumilast,Released,,1524,Roflumilast,roflumilast,roflumilast
@@ -1534,7 +1535,7 @@ Y,,ROTIGOTINE,rotigotine,FALSE,rotigotine,Released,,1532,Rotigotine,rotigotine,r
 Y,,RUFINAMIDE,rufinamide,FALSE,rufinamide,Released,,1534,Rufinamide,rufinamide,rufinamide
 Y,,RUPATADINE (RUPATADINE FUMARATE),rupatadine,FALSE,rupatadine (rupatadine fumarate),Released,,1535,Rupatadine (Fumarate de rupatadine),rupatadine,rupatadine (fumarate de rupatadine)
 Y,,Ruxolitinib (Ruxolitinib Phosphate),ruxolitinib,FALSE,ruxolitinib (ruxolitinib phosphate),Released,,1536,Ruxolitinib (Phosphate de Ruxolitinib),ruxolitinib,ruxolitinib (phosphate de ruxolitinib)
-Y,,SACUBITRIL (SACUBITRIL VALSARTAN SODIUM HYDRATE COMPLEX),sacubitril,FALSE,sacubitril (sacubitril valsartan sodium hydrate complex),Issue - in QA,,1537,Sacubitril (Complexe sodique hydraté de sacubitril/valsartan),sacubitril,sacubitril (sacubitril valsartan sodium hydrate complex)
+Y,,SACUBITRIL (SACUBITRIL VALSARTAN SODIUM HYDRATE COMPLEX),sacubitril,FALSE,sacubitril (sacubitril valsartan sodium hydrate complex),Issue - in QA,,1537,Sacubitril (Complexe sodique hydraté de sacubitril/valsartan),sacubitril,sacubitril (complexe sodique hydraté de sacubitril et valsartan)
 Y,SALBUTAMOL,SALBUTAMOL,salbutamol,FALSE,salbutamol,Released,,1538,Salbutamol,salbutamol,salbutamol
 Y,SALBUTAMOL,SALBUTAMOL (SALBUTAMOL SULFATE),salbutamol,FALSE,salbutamol (salbutamol sulfate),Released,,1539,Salbutamol (Sulfate de salbutamol),salbutamol,salbutamol (sulfate de salbutamol)
 Y,,SALICYLIC ACID,salicylic acid,FALSE,salicylic acid,Released,Combinations only,1540,Acide salicylique,acide salicylique,acide salicylique
@@ -1706,7 +1707,7 @@ Y,,TETRAHYDROZOLINE HYDROCHLORIDE,tetrahydrozoline,FALSE,tetrahydrozoline hydroc
 Y,,TEZACAFTOR,tezacaftor,FALSE,tezacaftor,Released,Combination only,1706,TEZACAFTOR,tézacaftor,tézacaftor
 Y,,THALIDOMIDE,thalidomide,FALSE,thalidomide,Released,,1707,Thalidomide,thalidomide,thalidomide
 Y,,THEOPHYLLINE,theophylline,FALSE,theophylline,Released,,1708,Théophylline,théophylline,théophylline
-Y,,THIAMAZOLE,methimazole,FALSE,methimazole,Issue - in QA,,1709,Thiamazol,méthimazole,méthimazole
+Y,,THIAMAZOLE,methimazole,FALSE,methimazole,Now as METHIMAZOLE in DPD,,1709,Thiamazol,méthimazole,méthimazole
 Y,,THIAMINE HYDROCHLORIDE,thiamine,FALSE,thiamine hydrochloride,Released,Vitamin,1710,Chlorhydrate de thiamine,thiamine,chlorhydrate de thiamine
 Y,,THIOGUANINE,thioguanine,FALSE,thioguanine,Released,,1711,Thioguanine,thioguanine,thioguanine
 ,,THIOPENTAL SODIUM,thiopental sodium,FALSE,thiopental sodium,No live products,,1712,Thiopental sodique,thiopental sodique,thiopental sodique
@@ -1737,7 +1738,7 @@ Y,,TOCILIZUMAB,tocilizumab,FALSE,tocilizumab,Released,,1736,Tocilizumab,tocilizu
 Y,,Tofacitinib (Tofacitinib citrate),tofacitinib,FALSE,tofacitinib (tofacitinib citrate),Released,,1737,Tofacitinib (Citrate de Tofacitinib),tofacitinib,tofacitinib (citrate de tofacitinib)
 Y,TOLBUTAMIDE,TOLBUTAMIDE,tolbutamide,FALSE,tolbutamide,Released,,1738,Tolbutamide,tolbutamide,tolbutamide
 Y,,TOLNAFTATE,tolnaftate,FALSE,tolnaftate,Released,,1739,Tolnaftate,tolnaftate,tolnaftate
-Y,TOLTERODINE,TOLTERODINE TARTRATE,tolterodine,FALSE,tolterodine tartrate,Released,,1740,Toltérodine Tartrate,toltérodine,toltérodine tartrate
+Y,TOLTERODINE,TOLTERODINE TARTRATE,tolterodine,FALSE,tolterodine tartrate,Released,,1740,Toltérodine Tartrate,toltérodine,tartrate de toltérodine
 Y,TOLVAPTAN,Tolvaptan,tolvaptan,FALSE,tolvaptan,Released,,1741,Tolvaptan,tolvaptan,tolvaptan
 Y,TOPIRAMATE,TOPIRAMATE,topiramate,FALSE,topiramate,Released,,1742,Topiramate,topiramate,topiramate
 Y,,TOPOTECAN (TOPOTECAN HYDROCHLORIDE),topotecan,FALSE,topotecan (topotecan hydrochloride),Released,,1743,Topotécane (Chlorhydrate de topotécan),topotécan,topotécan (chlorhydrate de topotécan)
@@ -1790,7 +1791,7 @@ Y,VALACYCLOVIR,VALACYCLOVIR (VALACYCLOVIR HYDROCHLORIDE),valacyclovir,FALSE,vala
 Y,,VALGANCICLOVIR (VALGANCICLOVIR HYDROCHLORIDE),valganciclovir,FALSE,valganciclovir (valganciclovir hydrochloride),Released,,1790,Valganciclovir (Chlorhydrate de valganciclovir),valganciclovir,valganciclovir (chlorhydrate de valganciclovir)
 ,,VALINE,valine,FALSE,valine,TPN,,1791,Valine,valine,valine
 Y,VALPROIC ACID,VALPROIC ACID,valproic acid (base),FALSE,valproic acid,Released,,1792,Acide valproïque,acide valproïque (base),acide valproïque
-Y,DIVALPROEX,VALPROIC ACID (DIVALPROEX SODIUM),valproic acid (divalproex),FALSE,valproic acid (divalproex sodium),Released,,1793,Acide valproïque (Divalproex de sodium),acide valproïque (divalproex de sodium),acide valproïque (divalproex de sodium)
+Y,DIVALPROEX,VALPROIC ACID (DIVALPROEX SODIUM),valproic acid (divalproex),FALSE,valproic acid (divalproex sodium),Released,,1793,Acide valproïque (Divalproex de sodium),acide valproïque (divalproex),acide valproïque (divalproex sodique)
 Y,VALPROIC ACID,VALPROIC ACID (SODIUM VALPROATE),valproic acid (valproate),FALSE,valproic acid (sodium valproate),Released,,1794,Acide valproïque (Valproate de sodium),acide valproïque (valproate de sodium),acide valproïque (valproate de sodium)
 Y,VALSARTAN,VALSARTAN,valsartan,FALSE,valsartan,Released,,1795,Valsartan,valsartan,valsartan
 Y,,VALSARTAN (SACUBITRIL VALSARTAN SODIUM HYDRATE COMPLEX),valsartan,FALSE,valsartan (sacubitril valsartan sodium hydrate complex),Issue - in QA,,1796,Valsartan (Complexe sodique hydraté de sacubitril/valsartan),valsartan,valsartan (complexe sodique hydraté de sacubitril et valsartan)
@@ -1903,7 +1904,6 @@ Y,,TELOTRISTAT ETHYL (TELOTRISTAT ETIPRATE),telotristat,FALSE, telotristat ethyl
 Y,,VARDENAFIL (VARDENAFIL HYDROCHLORIDE TRIHYDRATE),vardenafil,TRUE,vardenafil (vardenafil hydrochloride),Released,,1903,Vardénafil (trihydrate de chlorhydrate de vardénafil),vardénafil,vardénafil (chlorhydrate de vardénafil)
 Y,,LEVOMENTHOL,levomenthol,FALSE,levomenthol,Released,,1904,,lévomenthol,lévomenthol
 Y,,MIXED SALTS AMPHETAMINE,amphetamine mixed salts,FALSE,amphetamine mixed salts,Issue - waiting on DPD change,,1905,,sels mixtes d’amphétamine,sels mixtes d’amphétamine
-Y,,POLYETHYLENE GLYCOL 3350,polyethylene glycol 3350,FALSE,polyethylene glycol 3350,Issue - in QA,,1398,POLYETHYLENE GLYCOL 3350,polyéthylèneglycol 3350,polyéthylèneglycol 3350
 Y,,FOSFOMYCIN (FOSFOMYCIN SODIUM),fosfomycin,FALSE,fosfomycin (fosfomycin sodium),No live products,,1906,Fosfomycine (FOSFOMYCIN SODIUM),fosfomycine,fosfomycine (fosfomycine sodique)
 Y,,TIBOLONE,tibolone,FALSE,tibolone,No live products,,1907,TIBOLONE,tibolone,tibolone
 Y,,FEBUXOSTAT (FEBUXOSTAT HEMIHYDRATE),febuxostat,TRUE,febuxostat,In QA,,1908,Fébuxostat (FEBUXOSTAT HEMIHYDRATE),fébuxostat,fébuxostat
@@ -1917,7 +1917,7 @@ Y,,DACOMITINIB (DACOMITINIB MONOHYDRATE),dacomitinib,TRUE,dacomitinib,In QA,,191
 Y,,DINUTUXIMAB,dinutuximab,FALSE,dinutuximab,In QA,,1916,Dinutuximab,dinutuximab,dinutuximab
 Y,,ENASIDENIB (ENASIDENIB MESYLATE),enasidenib,FALSE,enasidenib (enasidenib mesylate),In QA,,1917,ÉNASIDÉNIB (ENASIDENIB MESYLATE),énasidénib,énasidénib (mésylate d'énasidénib)
 Y,,INOTERSEN (INOTERSEN SODIUM),inotersen,FALSE,inotersen (inotersen sodium),In QA,,1918,Inotersen (INOTERSEN SODIUM),inotersen,inotersen (sodium d’inotersen)
-Y,,ISAVUCONAZOLE (ISAVUCONAZONIUM SULFATE),isavuconazole,FALSE,isavuconazole (isavuconazonium sulfate),In QA,,1919,ISAVUCONAZOLE (ISAVUCONAZONIUM SULFATE),isavuconazonium,isavuconazonium (sulfate d’isavuconazonium)
+Y,,ISAVUCONAZOLE (ISAVUCONAZONIUM SULFATE),isavuconazole,FALSE,isavuconazole (isavuconazonium sulfate),In QA,,1919,ISAVUCONAZOLE (ISAVUCONAZONIUM SULFATE),isavuconazole,isavuconazonium (sulfate d’isavuconazonium)
 Y,,LATANOPROSTENE BUNOD,latanoprostene bunod,FALSE,latanoprostene bunod,In QA,,1920,Latanoprostène BUNOD,latanoprostène bunod,latanoprostène bunod
 Y,,LORLATINIB,lorlatinib,FALSE,lorlatinib,In QA,,1921,LORLATINIB,lorlatinib,lorlatinib
 Y,,PRALATREXATE,pralatrexate,FALSE,pralatrexate,In QA,,1922,Prelatrexate,pralatrexate,pralatrexate
@@ -1926,8 +1926,11 @@ Y,,"ANTIHEMOPHILIC FACTOR (RECOMBINANT, B-DOMAIN DELETED, PEGYLATED)","antihemop
 Y,,CENEGERMIN,cenegermin,FALSE,cenegermin,No live products,,1925,Cénégermine,cénégermine,cénégermine
 Y,,DECITABINE,decitabine,FALSE,decitabine,No live products,,1926,DÉCITABINE,décitamine,décitamine
 Y,,EDARAVONE,edaravone,FALSE,edaravone,No live products,,1927,édaravone,édavarone,édavarone
-Y,,FLUOROURACIL (FLUOROURACIL SODIUM),fluorouracil,FALSE,fluorouracil (fluorouracil sodium),In QA,,1928,Fluorouracil (FLUOROURACIL SODIUM),fluorouracil,fluorouracil (fluorouracil sodique)
+Y,,FLUOROURACIL (FLUOROURACIL SODIUM),fluorouracil,FALSE,fluorouracil (fluorouracil sodium),In QA,,1928,Fluorouracil (FLUOROURACIL SODIUM),fluoro-uracile,fluoro-uracile (fluoro-uracile sodique)
 Y,,PATIROMER (PATIROMER SORBITEX CALCIUM),patiromer,FALSE,patiromer (patiromer sorbitex calcium),No live products,,1929,Patiromère (PATIROMER SORBITEX CALCIUM),patiromer ,patiromer (calcium de sorbitex de patiromer)
 Y,,SAFINAMIDE (SAFINAMIDE MESYLATE),safinamide,FALSE,safinamide (safinamide mesylate),No live products,,1930,SAFINAMIDE (SAFINAMIDE MESYLATE),safinamide,safinamide (mésylate de safinamide)
 Y,,VON WILLEBRAND FACTOR (RECOMBINANT),von willebrand factor (recombinant),FALSE,von willebrand factor (recombinant),No live products,,1931,FACTEUR DE VON WILLEBRAND (RECOMBINANT),facteur de von Willebrand (recombinant),facteur de von Willebrand (recombinant)
 Y,,METHIMAZOLE,methimazole,FALSE,methimazole,In QA,,1932,méthimazole,méthimazole,méthimazole
+Y,,"Coagulation Factor IX (Recombinant), Albumin Fusion Protein (rIX-FP)","coagulation Factor IX (recombinant), albumin fusion protein (rIX-FP)",FALSE,"coagulation factor IX (recombinant), albumin fusion protein (rIX-FP)",No live products,,1933,"Facteur IX de coagulation (Recombiné), Protéine de fusion albumine (rIX-FP)","facteur IX de coagulation (fecombiné), protéine de fusion albumine (rIX-FP)","facteur IX de coagulation (recombiné), protéine de fusion albumine (rIX-FP)"
+Y,,PATISIRAN (PATISIRAN SODIUM),patisiran,FALSE,patisiran (patisiran sodium),No live products,,1934,Patisiran (PATISIRAN SODIUM),patisiran,patisiran (patisiran sodique)
+Y,,ROMOSOZUMAB,romosozumab,FALSE,romosozumab,No live products,,1935,Romosozumab,romosozumab,romosozumab
