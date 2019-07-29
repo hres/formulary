@@ -83,7 +83,7 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40025,inhalation powder,29,INHALATION,Inhalation,153,POWDER (METERED DOSE),Poudre (? dose mesur?e),29035,TRUE,2017-11-28,dbuijs,e93b45ba-d459-11e7-8749-aa0000cecfa6,40025
 40025,inhalation powder,29-56,"INHALATION, ORAL","Inhalation, Orale",55,POWDER,Poudre,29043,TRUE,2017-11-28,dbuijs,e93b48e4-d459-11e7-8749-aa0000cecfa6,40025
 40022,inhalation powder capsule,29,INHALATION,Inhalation,5,CAPSULE,Capsule,29028,TRUE,2017-11-28,dbuijs,e93b424a-d459-11e7-8749-aa0000cecfa6,40022
-40027,inhalation solution,29,INHALATION,Inhalation,134,SOLUTION,Solution,29036,TRUE,2017-11-28,dbuijs,e93b461e-d459-11e7-8749-aa0000cecfa6,40027
+40031,nebulizer solution,29,INHALATION,Inhalation,134,SOLUTION,Solution,29036,TRUE,2017-11-28,dbuijs,e93b461e-d459-11e7-8749-aa0000cecfa6,40027
 40027,inhalation solution,29,INHALATION,Inhalation,88,TINCTURE,Teinture,29039,TRUE,2017-11-28,dbuijs,e93b4754-d459-11e7-8749-aa0000cecfa6,40027
 40027,inhalation solution,29-70,"INHALATION, TOPICAL","Inhalation, Topique",88,TINCTURE,Teinture,29045,TRUE,2017-11-28,dbuijs,e93b49b6-d459-11e7-8749-aa0000cecfa6,40027
 40024,inhalation vapour (liquid),29,INHALATION,Inhalation,34,LIQUID,Liquide,29030,TRUE,2017-11-28,dbuijs,e93b434e-d459-11e7-8749-aa0000cecfa6,40024
@@ -136,8 +136,8 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40029,nasal spray,53,NASAL,Nasale,79,SUSPENSION,Suspension,29361,TRUE,2017-11-28,dbuijs,e93c12a6-d459-11e7-8749-aa0000cecfa6,40029
 40029,nasal spray,53-56,"NASAL, ORAL","Nasale, Orale",98,SPRAY,Pulv?risation,29365,TRUE,2017-11-28,dbuijs,e93c144a-d459-11e7-8749-aa0000cecfa6,40029
 40047,nasal stick,53,NASAL,Nasale,76,STICK,B?ton,29364,TRUE,2017-11-28,dbuijs,e93c13e6-d459-11e7-8749-aa0000cecfa6,40047
-40031,nebuliser solution,29-56,"INHALATION, ORAL","Inhalation, Orale",134,SOLUTION,Solution,29044,TRUE,2017-11-28,dbuijs,e93b4952-d459-11e7-8749-aa0000cecfa6,40031
-40028,nebuliser suspension,29,INHALATION,Inhalation,79,SUSPENSION,Suspension,29037,TRUE,2017-11-28,dbuijs,e93b4682-d459-11e7-8749-aa0000cecfa6,40028
+40031,nebulizer solution,29-56,"INHALATION, ORAL","Inhalation, Orale",134,SOLUTION,Solution,29044,TRUE,2017-11-28,dbuijs,e93b4952-d459-11e7-8749-aa0000cecfa6,40031
+40028,nebulizer suspension,29,INHALATION,Inhalation,79,SUSPENSION,Suspension,29037,TRUE,2017-11-28,dbuijs,e93b4682-d459-11e7-8749-aa0000cecfa6,40028
 40057,ophthalmic cream,55,OPHTHALMIC,Ophtalmique,9,CREAM,Cr?me,29381,TRUE,2017-11-28,dbuijs,e93c19ea-d459-11e7-8749-aa0000cecfa6,40057
 40050,ophthalmic drops,55,OPHTHALMIC,Ophtalmique,12,DROPS,Gouttes,29370,TRUE,2017-11-28,dbuijs,e93c1576-d459-11e7-8749-aa0000cecfa6,40050
 40050,ophthalmic drops,55,OPHTHALMIC,Ophtalmique,19,EMULSION,?mulsion,29371,TRUE,2017-11-28,dbuijs,e93c15e4-d459-11e7-8749-aa0000cecfa6,40050
@@ -199,8 +199,8 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40014,powder for concentrate for solution for haemodialysis,6,DIALYSIS,Dialyse,56,POWDER FOR SOLUTION,Poudre pour solution,29001,TRUE,2017-11-28,dbuijs,e93b30ca-d459-11e7-8749-aa0000cecfa6,40014
 40122,powder for cutaneous solution,70,TOPICAL,Topique,56,POWDER FOR SOLUTION,Poudre pour solution,29505,TRUE,2017-11-28,dbuijs,e93c50e0-d459-11e7-8749-aa0000cecfa6,40122
 40040,powder for intravesical suspension,96,INTRAVESICAL,Intrav?sicale,126,POWDER FOR SUSPENSION,Poudre pour suspension,29344,TRUE,2017-11-28,dbuijs,e93c0aa4-d459-11e7-8749-aa0000cecfa6,40040
-40026,powder for nebuliser solution,29,INHALATION,Inhalation,2,AEROSOL,A?rosol,29038,TRUE,2017-11-28,dbuijs,e93b46e6-d459-11e7-8749-aa0000cecfa6,40026
-40026,powder for nebuliser solution,29,INHALATION,Inhalation,56,POWDER FOR SOLUTION,Poudre pour solution,29034,TRUE,2017-11-28,dbuijs,e93b454c-d459-11e7-8749-aa0000cecfa6,40026
+40026,powder for nebulizer solution,29,INHALATION,Inhalation,2,AEROSOL,A?rosol,29038,TRUE,2017-11-28,dbuijs,e93b46e6-d459-11e7-8749-aa0000cecfa6,40026
+40026,powder for nebulizer solution,29,INHALATION,Inhalation,56,POWDER FOR SOLUTION,Poudre pour solution,29034,TRUE,2017-11-28,dbuijs,e93b454c-d459-11e7-8749-aa0000cecfa6,40026
 40054,powder for ophthalmic drops,55,OPHTHALMIC,Ophtalmique,56,POWDER FOR SOLUTION,Poudre pour solution,29376,TRUE,2017-11-28,dbuijs,e93c17ec-d459-11e7-8749-aa0000cecfa6,40054
 40049,powder for oral solution,108-56,"NASOGASTRIC, ORAL","NASOGASTRIQUE, Orale",56,POWDER FOR SOLUTION,Poudre pour solution,29369,TRUE,2017-11-28,dbuijs,e93c1512-d459-11e7-8749-aa0000cecfa6,40049
 40049,powder for oral solution,56,ORAL,Orale,56,POWDER FOR SOLUTION,Poudre pour solution,29414,TRUE,2017-11-28,dbuijs,e93c2a16-d459-11e7-8749-aa0000cecfa6,40049
@@ -329,10 +329,10 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40016,powder for suspension for injection,49,INTRAVENOUS,Intraveineuse,126,POWDER FOR SUSPENSION,Poudre pour suspension,29326,TRUE,2017-11-28,dbuijs,e93c009a-d459-11e7-8749-aa0000cecfa6,40016
 40016,powder for suspension for injection,49-65,"INTRAVENOUS, SUBCUTANEOUS","Intraveineuse, Sous-cutan?e",126,POWDER FOR SUSPENSION,Poudre pour suspension,29340,TRUE,2017-11-28,dbuijs,e93c08f6-d459-11e7-8749-aa0000cecfa6,40016
 40016,powder for suspension for injection,65,SUBCUTANEOUS,Sous-cutan?e,126,POWDER FOR SUSPENSION,Poudre pour suspension,29471,TRUE,2017-11-28,dbuijs,e93c437a-d459-11e7-8749-aa0000cecfa6,40016
-40021,pressurised inhalation,29,INHALATION,Inhalation,162,"AEROSOL, METERED DOSE","A?rosol, dose mesur?e",29027,TRUE,2017-11-28,dbuijs,e93b4182-d459-11e7-8749-aa0000cecfa6,40021
-40021,pressurised inhalation,29,INHALATION,Inhalation,1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29031,TRUE,2017-11-28,dbuijs,e93b4420-d459-11e7-8749-aa0000cecfa6,40021
-40021,pressurised inhalation,29-56,"INHALATION, ORAL","Inhalation, Orale",1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29042,TRUE,2017-11-28,dbuijs,e93b4880-d459-11e7-8749-aa0000cecfa6,40021
-40021,pressurised inhalation,56,ORAL,Orale,1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29409,TRUE,2017-11-28,dbuijs,e93c2822-d459-11e7-8749-aa0000cecfa6,40021
+40021,pressurized inhalation,29,INHALATION,Inhalation,162,"AEROSOL, METERED DOSE","A?rosol, dose mesur?e",29027,TRUE,2017-11-28,dbuijs,e93b4182-d459-11e7-8749-aa0000cecfa6,40021
+40021,pressurized inhalation,29,INHALATION,Inhalation,1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29031,TRUE,2017-11-28,dbuijs,e93b4420-d459-11e7-8749-aa0000cecfa6,40021
+40021,pressurized inhalation,29-56,"INHALATION, ORAL","Inhalation, Orale",1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29042,TRUE,2017-11-28,dbuijs,e93b4880-d459-11e7-8749-aa0000cecfa6,40021
+40021,pressurized inhalation,56,ORAL,Orale,1,METERED-DOSE AEROSOL,A?rosol ? dose mesur?e,29409,TRUE,2017-11-28,dbuijs,e93c2822-d459-11e7-8749-aa0000cecfa6,40021
 40055,prolonged-release eye drops,55,OPHTHALMIC,Ophtalmique,101,SOLUTION (LONG-ACTING),,29378,TRUE,2017-11-28,dbuijs,e93c18b4-d459-11e7-8749-aa0000cecfa6,40055
 40062,prolonged-release oral capsule,56,ORAL,Orale,141,CAPSULE (EXTENDED RELEASE),Capsule (? lib?ration prolong?e),29392,TRUE,2017-11-28,dbuijs,e93c1e68-d459-11e7-8749-aa0000cecfa6,40062
 40062,prolonged-release oral capsule,56,ORAL,Orale,68,CAPSULE (SUSTAINED-RELEASE),Capsule (? lib?ration prolong?e,29396,TRUE,2017-11-28,dbuijs,e93c216a-d459-11e7-8749-aa0000cecfa6,40062
@@ -598,7 +598,7 @@ ntp_dosage_form_code,ntp_dosage_form,route_of_administration_code,route_of_admin
 40001,solution for injection,29-49-56,"INHALATION, INTRAVENOUS, ORAL","Inhalation, Orale, Intraveineuse",134,SOLUTION,Solution,,,,,,40001
 40001,solution for injection,29-49-56,"INHALATION, INTRAVENOUS, ORAL","Inhalation, Orale, Intraveineuse",34,LIQUID,Liquide,,,,,,40001
 40017,powder for solution for injection,12-17-22-49-65,"INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS",,56,POWDER FOR SOLUTION,Poudre pour solution,,,,,,40017
-40026,powder for nebuliser solution,29,INHALATION,Inhalation,2-56,"AEROSOL, POWDER FOR SOLUTION","A?rosol, Poudre pour solution",,,,,,40026
+40026,powder for nebulizer solution,29,INHALATION,Inhalation,2-56,"AEROSOL, POWDER FOR SOLUTION","A?rosol, Poudre pour solution",,,,,,40026
 40001,solution for injection,90,EXTRACORPOREAL,Extracorporelle,134,SOLUTION,Solution,,,,,,40001
 40106,cutaneous spray,70,TOPICAL,Topique,164,"SPRAY, BAG-ON-VALVE","Pulverisation, sac-sur-valve",,,,,,40106
 40149,cutaneous spray powder,70,TOPICAL,Topique,2-55,"AEROSOL, POWDER","A?rosol, Poudre",,,,,,
