@@ -1,0 +1,12 @@
+tm_code,tm_formal_name,changes
+"8001510","porfimer","DELETED"
+"8002006","acetaminophen and pamabrom and pyrilamine","tm_status_effective_time: ""19990622"" -> ""20060731"""
+"8001354","chlorpheniramine and dextromethorphan","tm_status_effective_time: ""20040112"" -> ""20060721"""
+"8002146","mineral oil light","tm_status_effective_time: ""20010727"" -> ""19511231"""
+"8001296","nicotinic acid","tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19791231"" -> ""20190722"""
+"8001759","edoxaban","DELETED"
+"8001274","heparin","tm_status_effective_time: ""19871231"" -> ""19841231"""
+"8002156","prednisolone and sulfacetamide","tm_status_effective_time: ""19741231"" -> ""19891231"""
+"8001640","dyclonine","DELETED"
+"8001782","follitropin alfa and lutropin alfa","DELETED"
