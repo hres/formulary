@@ -1269,7 +1269,6 @@ SELECT
 				tmistem.ccdd_ingredient_stem_name AS stem
 			FROM ccdd_tm_ingredient_stem tmistem
 			WHERE tmistem.ccdd_tm_code = tm.code
-			GROUP BY tmistem.ccdd_ingredient_stem_name
 			ORDER BY regexp_replace(tmistem.ccdd_ingredient_stem_name, '[[:punct:]]', '', 'g')
 		) AS stemList
 	) AS tm_formal_name,
@@ -1281,8 +1280,7 @@ SELECT
 				tmistem.ccdd_ingredient_stem_name_fr AS stem
 			FROM ccdd_tm_ingredient_stem tmistem
 			WHERE tmistem.ccdd_tm_code = tm.code
-			GROUP BY tmistem.ccdd_ingredient_stem_name_fr
-			ORDER BY regexp_replace(tmistem.ccdd_ingredient_stem_name_fr, '[[:punct:]]', '', 'g')
+			ORDER BY regexp_replace(tmistem.ccdd_ingredient_stem_name, '[[:punct:]]', '', 'g')
 		) AS stemList
 	) AS tm_formal_name_fr
 FROM
