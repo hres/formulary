@@ -13,8 +13,6 @@ drug_code,drug_identification_number,brand_name,status,history_date,comments
 72560,2248224,MANORAPID SYNERGY,Cancelled Post Market,2019-01-01,Hand antiseptic for professional use - out of scope
 89891,2414252,SATINIQUE ANTI-DANDRUFF SHAMPOO,Cancelled Post Market,2017-11-09,Cancelled post market and has problematic strength - leave out
 13600,1974548,MICRO I,Marketed,2006-06-17,TPN additive Out of scope. Keep on blacklist
-96492,2474735,METHOTREXATE INJECTION BP,Marketed,2019-04-23,Needs UoP
-96511,2474891,METHOTREXATE INJECTION BP,Marketed,2019-04-23,Needs UoP
 6775,691623,BICARBONATE CONCENTRATE D17000,Marketed,2001-10-01,Out of scope. Haemodialysis
 8587,774995,800 SODIUM BICARBONATE POWDER,Marketed,2001-10-01,Out of scope. Haemodialysis
 13833,1905740,K + 45,Marketed,2001-10-01,Out of scope. Haemodialysis
@@ -33,6 +31,7 @@ drug_code,drug_identification_number,brand_name,status,history_date,comments
 87315,2387549,CALCIUM CHLORIDE FOR HAEMODIALYSIS,Marketed,2013-03-26,Out of scope. Haemodialysis
 95780,2469146,JELIDO,Marketed,2018-05-28,DPD dose form change pending
 96245,02473119,HYDRALAX,Marketed,2019-04-26,DPD strength change pending
-97095,02480425,SIGNIFOR LAR,Marketed,2019-05-30,pending correction in combo product table
-97096,02480433,SIGNIFOR LAR,Marketed,2019-05-30,pending correction in combo product table
-97746,02487306,AIMOVIG,Marketed,2019-05-22,Needs UoP
+92593,02441551,CLENZIDERM ACNE THERAPEUTIC SYSTEM,Marketed,2016-08-22,Out of scope. Benzoyl peroxide kit with NPN
+88701,02402149,ACNE TREATMENT SYSTEM,Marketed,2013-11-15,Out of scope. Benzoyl peroxide kit with NPN
+90520,02420678,RODAN+FIELDS UNBLEMISH,Marketed,2015-02-02,Out of scope. Benzoyl peroxide kit with NPN
+90316,02418614,REGULAR STRENGTH BISMUTH,Cancelled Post Market,2019-07-09,Last expiry 2019-10-31
