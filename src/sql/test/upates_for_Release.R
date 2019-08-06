@@ -8,7 +8,7 @@ library(tidyr)
 
 ccdd <- dbPool(drv      = RPostgreSQL::PostgreSQL(),
                    host     = "rest.hc.local",
-                   dbname   = "ccdd_2019_07_02_100803",
+                   dbname   = "ccdd_2019_08_01_103718",
                    user     = "nzhu",
                    password = "nzhu_rest" )
 
@@ -20,9 +20,22 @@ changes_mp<-tbl(ccdd, in_schema("public","qa_release_changes_mp_release_candidat
 code_to_add<-changes_mp[changes_mp$changes=='DELETED',1:2]
 code_to_add<-left_join(code_to_add,dpd_drug[,c('drug_code','drug_identification_number')],by=c('mp_code'='drug_identification_number'))
 
+# if there is a product with pseudo din on the list:
+if(sum(is.na(code_to_add$drug_code))>0){
+  pseudodin<-read.csv('./src/sql/test/ccdd-pseudodin-map-draft.csv',stringsAsFactors = F)
+  
+  pseudodin$pseudodin<-as.character(pseudodin$pseudodin)
+  code_to_add<-left_join(code_to_add,pseudodin[,c('pseudodin','drug_code')],by=c('mp_code'='pseudodin'))
+  code_to_add$drug_code<-coalesce(code_to_add$drug_code.x,code_to_add$drug_code.y)
+  
+  code_to_add<-code_to_add[,c(1,2,5)]
+}else{
+  
+  code_to_add<-code_to_add
+}
 
 #confirm with QA whitelist
-qa_whitelist_filepath<-'./src/sql/test/whitelist_20190704.xlsx'
+qa_whitelist_filepath<-'./src/sql/test/whitelist_20190806.xlsx'
 qa_whitelist<-read.xlsx2(qa_whitelist_filepath,1,stringsAsFactors = F)
 code_to_add<-code_to_add%>%filter(drug_code %in% qa_whitelist$drug_code)
 
@@ -30,19 +43,7 @@ code_to_add<-code_to_add%>%filter(drug_code %in% qa_whitelist$drug_code)
 whitelist<-read.csv('./src/sql/test/ccdd-mp-whitelist-draft.csv',stringsAsFactors = F,
                     colClasses = c('mp_code'='character'))
 
-# if there is a product with pseudo din on the list:
-if(sum(is.na(code_to_add$drug_code))>0){
-pseudodin<-read.csv('./src/sql/test/ccdd-pseudodin-map-draft.csv',stringsAsFactors = F)
 
-pseudodin$pseudodin<-as.character(pseudodin$pseudodin)
-code_to_add<-left_join(code_to_add,pseudodin[,c('pseudodin','drug_code')],by=c('mp_code'='pseudodin'))
-code_to_add$drug_code<-coalesce(code_to_add$drug_code.x,code_to_add$drug_code.y)
-
-code_to_add<-code_to_add[,c(1,2,5)]
-}else{
-  
-code_to_add<-code_to_add
-}
 
 #include DIN and mp concept name to whitelist:
 # whitelist<-left_join(whitelist,dpd_drug[,c('drug_code','drug_identification_number')],copy=T)
@@ -68,8 +69,13 @@ tm_filter_master<-tm_definition%>%filter(formal_name%in% tm_filter$tm_formal_nam
 #save the TM_filter_master.csv and move to folder-reorg branch:
 write.csv(tm_filter_master,'./src/sql/test/TM_filter_master.csv',row.names = F)
 
+#############################################################################################################################
 
+#ntp definition name changes for existing code:
+ntp_definition<-read.csv('./src/sql/test/ccdd-ntp-definitions-draft.csv',stringsAsFactors = F)
 
+ntp_definition$code[match(ntp_name_change$ntp._formal_name,ntp_definition$formal_name)]<-NA
+ntp_definition$formal_name[match(ntp_name_change$ntp_code..to.keep.,ntp_definition$code)]<-ntp_name_change$ntp._formal_name
 
 
 #update brand overide list :
