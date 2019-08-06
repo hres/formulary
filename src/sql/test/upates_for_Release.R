@@ -60,7 +60,7 @@ write.csv(whitelist,'./src/sql/test/ccdd-mp-whitelist-draft.csv',row.names = F)
 #update TM_filter_master.csv
 
 #load tm filter from QA file, change filepath if necessary
-tm_filter<-read.csv('./src/sql/test/tm_filter_20190704.csv',stringsAsFactors = F)
+tm_filter<-read.csv('./src/sql/test/tm_filter_20190806.csv',stringsAsFactors = F)
 
 #load tm_definition after running write-new-concepts.sh 
 tm_definition<-read.csv('./src/sql/test/ccdd-tm-definitions-draft.csv',stringsAsFactors = F)
@@ -76,6 +76,12 @@ ntp_definition<-read.csv('./src/sql/test/ccdd-ntp-definitions-draft.csv',strings
 
 ntp_definition$code[match(ntp_name_change$ntp._formal_name,ntp_definition$formal_name)]<-NA
 ntp_definition$formal_name[match(ntp_name_change$ntp_code..to.keep.,ntp_definition$code)]<-ntp_name_change$ntp._formal_name
+
+ntp_definition<-ntp_definition%>%filter(!is.na(code))
+
+ntp_definition$code<-as.character(ntp_definition$code)
+
+write.csv(ntp_definition,'./src/sql/test/ccdd-ntp-definitions-draft.csv',row.names = F)
 
 
 #update brand overide list :
