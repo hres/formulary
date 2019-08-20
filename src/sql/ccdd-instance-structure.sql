@@ -881,6 +881,24 @@ where
 ALTER MATERIALIZED VIEW public.ccdd_drug_dosage_form_by_route OWNER TO postgres;
 -- ddl-end --
 
+
+-- create function that translate upper case accent to lower case accent
+CREATE FUNCTION public.unaccent_string(text)
+RETURNS text
+IMMUTABLE
+STRICT
+LANGUAGE SQL
+AS $$
+SELECT translate(
+    $1,
+    'âãäåāăąÁÂÃÄÅĀĂĄèééêëēĕėęěĒÉĔĖĘĚìíîïìĩīĭÌÍÎÏÌĨĪĬóôõöōŏőÒÓÔÕÖŌŎŐùúûüũūŭůÙÚÛÜŨŪŬŮ',
+    'aaaaaaaaaaaaaaaeeeeeeeeeeeéeeeeiiiiiiiiiiiiiiiiooooooooooooooouuuuuuuuuuuuuuuu'
+);
+$$;
+-- end 
+ALTER FUNCTION public.public.unaccent_string(text) OWNER TO postgres;
+-- end
+
 -- object: public.ccdd_normalize_ingredient | type: FUNCTION --
 -- DROP FUNCTION IF EXISTS public.ccdd_normalize_ingredient(varchar) CASCADE;
 CREATE FUNCTION public.ccdd_normalize_ingredient ( raw_ingredient varchar)
@@ -895,11 +913,11 @@ WITH src AS (SELECT raw_ingredient as ingredient)
 SELECT
 	string_agg(CASE
 		WHEN vitamatch is not null THEN concat(vitamatch[1], upper(vitamatch[2]), vitamatch[3])
-		ELSE lower(src.ingredient)
+		ELSE lower(unaccent_string(src.ingredient))
 	END, '') as name
 FROM
 	src
-	left join lateral regexp_matches(lower(src.ingredient), '(vitamin )([a-z])((?:(?!vitamin [a-z]).)*)', 'g') as vitamatch on(true)
+	left join lateral regexp_matches(lower(unaccent_string(src.ingredient)), '(vitamin )([a-z])((?:(?!vitamin [a-z]).)*)', 'g') as vitamatch on(true)
 $$;
 -- ddl-end --
 ALTER FUNCTION public.ccdd_normalize_ingredient(varchar) OWNER TO postgres;
