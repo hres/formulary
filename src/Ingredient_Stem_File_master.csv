@@ -914,7 +914,7 @@ Y,,IRON (SODIUM FERRIC GLUCONATE COMPLEX IN SUCROSE INJECTION),sodium ferric glu
 ,,ISOFLURANE,isoflurane,FALSE,isoflurane,Anaesthetic,,913,Isoflurane,,
 ,,ISOLEUCINE,isoleucine,FALSE,isoleucine,TPN,,914,Isoleucine,,
 Y,,ISONIAZID,isoniazid,FALSE,isoniazid,Released,,915,Isoniazide,,
-Y,,ISOPROPYL ALCOHOL,isopropyl alcohol,FALSE,isopropyl alcohol,To Do,,916,Alcool isopropylique,,
+,,ISOPROPYL ALCOHOL,isopropyl alcohol,FALSE,isopropyl alcohol,No products in scope,Used in combination only as antiseptic,916,Alcool isopropylique,,
 Y,,ISOPROPYL MYRISTATE,isopropyl myristate,FALSE,isopropyl myristate,Released,,917,Myristate d'isopropyle,,
 Y,,ISOPROTERENOL HYDROCHLORIDE,isoproterenol,FALSE,isoproterenol hydrochloride,Released,,918,Chlorhydrate d'isoprotérénol,,
 Y,ISOSORBIDE DINITRATE,ISOSORBIDE DINITRATE,isosorbide dinitrate,FALSE,isosorbide dinitrate,Released,,919,Dinitrate d'isosorbide,,
