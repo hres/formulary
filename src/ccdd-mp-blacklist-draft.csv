@@ -24,8 +24,6 @@ drug_code,drug_identification_number,brand_name,status,history_date,comments
 88829,2403498,BICART,Marketed,2016-04-05,Out of scope. Haemodialysis
 88830,2403501,BICART,Marketed,2016-03-24,Out of scope. Haemodialysis
 91307,2428601,BIFLEXY 900,Marketed,2016-08-08,Out of scope. Haemodialysis
-57,50520,MINERALE LEGERE HUILE,Marketed,1951-12-31,DPD dose form change pending
-14042,1935321,LIGHT MINERAL OIL 100% NF,Marketed,1993-12-31,DPD dose form change pending
 18321,2160986,CALCIUM-45 0.5-4.5,Marketed,2001-10-01,Out of scope. Haemodialysis
 18310,2161060,CALCIUM-45 0.25-4.5,Marketed,2001-10-01,Out of scope. Haemodialysis
 87315,2387549,CALCIUM CHLORIDE FOR HAEMODIALYSIS,Marketed,2013-03-26,Out of scope. Haemodialysis
@@ -36,4 +34,4 @@ drug_code,drug_identification_number,brand_name,status,history_date,comments
 90520,02420678,RODAN+FIELDS UNBLEMISH,Marketed,2015-02-02,Out of scope. Benzoyl peroxide kit with NPN
 90316,02418614,REGULAR STRENGTH BISMUTH,Cancelled Post Market,2019-07-09,Last expiry 2019-10-31
 71290,02247055,SANDOZ FLUVOXAMINE,Cancelled Post Market,2019-08-31,dormant to cancelled with a future date in error in DPD
-96432,02474271,METOPROLOL TARTRATE INJECTION USP,Marketed,2019-07-08,Needs UoP
+97569,02485443,ROBITUSSIN HONEY COUGH & COLD NIGHTTIME,Marketed,2019-08-01,needs correction to strength in override
