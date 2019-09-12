@@ -903,7 +903,7 @@ Y,,IPILIMUMAB,ipilimumab,FALSE,ipilimumab,Released,,902,Ipilimumab,ipilimumab,ip
 Y,IPRATROPIUM,IPRATROPIUM BROMIDE,ipratropium,FALSE,ipratropium bromide,Released,,903,Bromure d'ipratropium,ipratropium,bromure d'ipratropium
 Y,IPRATROPIUM,IPRATROPIUM BROMIDE (IPRATROPIUM BROMIDE MONOHYDRATE),ipratropium,TRUE,ipratropium bromide,Released,,904,Bromure d'ipratropium (Bromure d'ipratropium monohydraté),ipratropium,bromure d'ipratropium
 Y,IRBESARTAN,IRBESARTAN,irbesartan,FALSE,irbesartan,Released,,905,Irbésartan,irbésartan,irbésartan
-Y,,IRINOTECAN HYDROCHLORIDE,irinotecan (conventional),FALSE,irinotecan hydrochloride,Issue - in QA,,906,Chlorhydrate d'irinotécan,irinotécan (classique),chlorhydrate d'irinotécan classique
+Y,,IRINOTECAN HYDROCHLORIDE,irinotecan (conventional),FALSE,irinotecan hydrochloride,Issue - in QA,,906,Chlorhydrate d'irinotécan,irinotécan (classique),chlorhydrate d'irinotécan
 Y,,IRINOTECAN HYDROCHLORIDE (IRINOTECAN HYDROCHLORIDE TRIHYDRATE),irinotecan (conventional),TRUE,irinotecan hydrochloride,Issue - in QA,,907,Chlorhydrate d'irinotécan (Chlorhydrate trihydraté d'irinotécan),irinotécan (classique),chlorhydrate d'irinotécan
 Y,,IRINOTECAN HYDROCHLORIDE (IRINOTECAN SUCROSE OCTASULFATE),irinotecan (liposomal),TRUE,irinotecan hydrochloride liposomal (irinotecan sucrose octasulfate),Issue - in QA,,908,Chlorhydrate d'irinotécan (Octasulfate de sucrose d'Irinotécan),irinotécan (liposomale),chlorhydrate d'irinotécan (octasulfate de sucrose d'Irinotécan)
 Y,,IRON (FERROUS FUMARATE),iron (ferrous fumarate),FALSE,iron (ferrous fumarate),To Do,,909,Fer (Fumarate ferreux),fer (fumarate ferreux),fer (fumarate ferreux)
@@ -1925,7 +1925,7 @@ Y,,"ANTIHEMOPHILIC FACTOR (RECOMBINANT, B-DOMAIN DELETED, PEGYLATED)","antihemop
 Y,,CENEGERMIN,cenegermin,FALSE,cenegermin,No live products,,1925,Cénégermine,cénégermine,cénégermine
 Y,,DECITABINE,decitabine,FALSE,decitabine,No live products,,1926,DÉCITABINE,décitamine,décitamine
 Y,,EDARAVONE,edaravone,FALSE,edaravone,No live products,,1927,édaravone,édavarone,édavarone
-Y,,FLUOROURACIL (FLUOROURACIL SODIUM),fluorouracil,FALSE,fluorouracil (fluorouracil sodium),In QA,,1928,Fluorouracil (FLUOROURACIL SODIUM),fluoro-uracile,fluoro-uracile (fluoro-uracile sodique)
+Y,,FLUOROURACIL (FLUOROURACIL SODIUM),fluorouracil,FALSE,fluorouracil (fluorouracil sodium),In QA,,1928,Fluorouracil (FLUOROURACIL SODIUM),fluorouracile,fluorouracile (fluorouracile sodique)
 Y,,PATIROMER (PATIROMER SORBITEX CALCIUM),patiromer,FALSE,patiromer (patiromer sorbitex calcium),No live products,,1929,Patiromère (PATIROMER SORBITEX CALCIUM),patiromer ,patiromer (calcium de sorbitex de patiromer)
 Y,,SAFINAMIDE (SAFINAMIDE MESYLATE),safinamide,FALSE,safinamide (safinamide mesylate),Released,,1930,SAFINAMIDE (SAFINAMIDE MESYLATE),safinamide,safinamide (mésylate de safinamide)
 Y,,VON WILLEBRAND FACTOR (RECOMBINANT),von willebrand factor (recombinant),FALSE,von willebrand factor (recombinant),No live products,,1931,FACTEUR DE VON WILLEBRAND (RECOMBINANT),facteur de von Willebrand (recombinant),facteur de von Willebrand (recombinant)
@@ -1933,7 +1933,7 @@ Y,,METHIMAZOLE,methimazole,FALSE,methimazole,Released,,1932,méthimazole,méthim
 Y,,"COAGULATION FACTOR IX (RECOMBINANT), ALBUMIN FUSION PROTEIN (RIX-FP)","coagulation Factor IX (recombinant), albumin fusion protein (rIX-FP)",FALSE,"coagulation factor IX (recombinant), albumin fusion protein (rIX-FP)",No live products,,1933,"Facteur IX de coagulation (Recombiné), Protéine de fusion albumine (rIX-FP)","facteur IX de coagulation (fecombiné), protéine de fusion albumine (rIX-FP)","facteur IX de coagulation (recombiné), protéine de fusion albumine (rIX-FP)"
 Y,,PATISIRAN (PATISIRAN SODIUM),patisiran,FALSE,patisiran (patisiran sodium),No live products,,1934,Patisiran (PATISIRAN SODIUM),patisiran,patisiran (patisiran sodique)
 Y,,ROMOSOZUMAB,romosozumab,FALSE,romosozumab,No live products,,1935,Romosozumab,romosozumab,romosozumab
-Y,,EDOXABAN (EDOXABAN TOSYLATE MONOHYDRATE),edoxaban,TRUE,edoxaban (edoxaban tosylate),Released,,1936,Édoxaban (EDOXABAN TOSYLATE MONOHYDRATE),édoxaban (tosilate d'édoxaban),édoxaban
+Y,,EDOXABAN (EDOXABAN TOSYLATE MONOHYDRATE),edoxaban,TRUE,edoxaban (edoxaban tosylate),Released,,1936,Édoxaban (EDOXABAN TOSYLATE MONOHYDRATE),édoxaban,édoxaban (tosilate d'édoxaban)
 Y,,"ANTIHEMOPHILIC FACTOR VIII (RECOMBINANT, B-DOMAIN TRUNCATED), PEGYLATED",turoctocog alfa pegol,,turoctocog alfa pegol,No live products,,1937,"Facteur antihémophilique (recombinant, Domaine-B tronqué), Pégylé",turoctocog alfa pégol,turoctocog alfa pégol
 Y,,LAROTRECTINIB (LAROTRECTINIB SULFATE),larotrectinib,,larotrectinib (larotrectinib sulfate),No live products,,1938,Larotrectinib (LAROTRECTINIB SULFATE),larotrectinib,larotrectinib (larotrectinib sulfate)
 Y,,NIRAPARIB (NIRAPARIB TOSYLATE),niraparib,,niraparib (niraparib tosylate),No live products,,1939,NIRAPARIB (NIRAPARIB TOSYLATE),niraparib,niraparib (tosylate de niraparib)
