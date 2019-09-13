@@ -896,7 +896,7 @@ SELECT translate(
 );
 $$;
 -- end 
-ALTER FUNCTION public.public.unaccent_string(text) OWNER TO postgres;
+ALTER FUNCTION public.unaccent_string(text) OWNER TO postgres;
 -- end
 
 -- object: public.ccdd_normalize_ingredient | type: FUNCTION --

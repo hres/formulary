@@ -210,9 +210,9 @@ LOAD CSV
       pseudodin,
       drug_code,
       unit_of_presentation,
+      unit_of_presentation_fr,
       uop_size_amount,
-      uop_size_unit,
-      unit_of_presentation_fr
+      uop_size_unit
     )
   INTO postgresql:///?ccdd.pseudodin_map
     (
