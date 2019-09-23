@@ -147,7 +147,7 @@ psql -d registry -c "CREATE TABLE $PGDATABASE.tm_release_candidate(
                         tm_status varchar,
                         tm_status_effective_time varchar
                       )";
-psql -d registry -c "COPY $PGDATABASE.tm_release_candidate FROM '$distDir/tm_release_candidate_${ccdd_current_date}.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $PGDATABASE.tm_release_candidate FROM '$distDir/tm_release_candidate_${ccdd_current_date}.csv' delimiter ',' CSV HEADER";
 psql -d registry -c "CREATE TABLE $PGDATABASE.ntp_release_candidate(
                         ntp_code varchar,
                         ntp_formal_name text,
@@ -157,7 +157,7 @@ psql -d registry -c "CREATE TABLE $PGDATABASE.ntp_release_candidate(
                         ntp_status_effective_time varchar,
                         ntp_type varchar
                     )";
-psql -d registry -c "COPY $PGDATABASE.ntp_release_candidate FROM '$distDir/ntp_release_candidate_${ccdd_current_date}.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $PGDATABASE.ntp_release_candidate FROM '$distDir/ntp_release_candidate_${ccdd_current_date}.csv' delimiter ',' CSV HEADER";
 psql -d registry -c "CREATE TABLE $PGDATABASE.mp_release_candidate(
                         mp_code varchar,
                         mp_formal_name text,
@@ -169,7 +169,7 @@ psql -d registry -c "CREATE TABLE $PGDATABASE.mp_release_candidate(
                         "Health_Canada_identifier" text,
                         "Health_Canada_product_name" text
 );"
-psql -d registry -c "COPY $PGDATABASE.mp_release_candidate FROM '$distDir/mp_release_candidate_${ccdd_current_date}.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $PGDATABASE.mp_release_candidate FROM '$distDir/mp_release_candidate_${ccdd_current_date}.csv' delimiter ',' CSV HEADER";
 psql -d registry -c "CREATE TABLE $PGDATABASE.mp_ntp_tm_relationship_release_candidate(
                         mp_code varchar,
                         mp_formal_name text,
@@ -178,35 +178,35 @@ psql -d registry -c "CREATE TABLE $PGDATABASE.mp_ntp_tm_relationship_release_can
                         tm_code varchar,
                         tm_formal_name text
 );"
-psql -d registry -c "COPY $PGDATABASE.mp_ntp_tm_relationship_release_candidate FROM '$distDir/mp_ntp_tm_relationship_release_candidate_${ccdd_current_date}.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $PGDATABASE.mp_ntp_tm_relationship_release_candidate FROM '$distDir/mp_ntp_tm_relationship_release_candidate_${ccdd_current_date}.csv' delimiter ',' CSV HEADER";
 # comparison tables
 psql -d registry -c "CREATE TABLE $PGDATABASE.release_changes_mp_${ccdd_current_date}_from_${ccdd_qa_release_date}(
                         mp_code varchar,
                         mp_formal_name text,
                         changes text
 );"
-psql -d registry -c "COPY $PGDATABASE.release_changes_mp_${ccdd_current_date}_from_${ccdd_qa_release_date} FROM '$distDir/${ccdd_current_date}_from_${ccdd_qa_release_date}_qa_release_changes_mp.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $PGDATABASE.release_changes_mp_${ccdd_current_date}_from_${ccdd_qa_release_date} FROM '$distDir/${ccdd_current_date}_from_${ccdd_qa_release_date}_qa_release_changes_mp.csv' delimiter ',' CSV HEADER";
 
 psql -d registry -c "CREATE TABLE $PGDATABASE.release_changes_ntp_${ccdd_current_date}_from_${ccdd_qa_release_date}(
                         ntp_code varchar,
                         ntp_formal_name text,
                         changes text
 );";
-psql -d registry -c "COPY $PGDATABASE.release_changes_ntp_${ccdd_current_date}_from_${ccdd_qa_release_date} FROM '$distDir/${ccdd_current_date}_from_${ccdd_qa_release_date}_qa_release_changes_ntp.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $PGDATABASE.release_changes_ntp_${ccdd_current_date}_from_${ccdd_qa_release_date} FROM '$distDir/${ccdd_current_date}_from_${ccdd_qa_release_date}_qa_release_changes_ntp.csv' delimiter ',' CSV HEADER";
 
 psql -d registry -c "CREATE TABLE $PGDATABASE.release_changes_tm_${ccdd_current_date}_from_${ccdd_qa_release_date}(
                         tm_code varchar,
                         tm_formal_name text,
                         changes text
 );"
-psql -d registry -c "COPY $PGDATABASE.release_changes_tm_${ccdd_current_date}_from_${ccdd_qa_release_date} FROM '$distDir/${ccdd_current_date}_from_${ccdd_qa_release_date}_qa_release_changes_tm.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $PGDATABASE.release_changes_tm_${ccdd_current_date}_from_${ccdd_qa_release_date} FROM '$distDir/${ccdd_current_date}_from_${ccdd_qa_release_date}_qa_release_changes_tm.csv' delimiter ',' CSV HEADER";
 
 psql -d registry -c "CREATE TABLE $PGDATABASE.release_changes_mp_ntp_tm_relationship_${ccdd_current_date}_from_${ccdd_qa_release_date}(
                         mp_code varchar,
                         mp_formal_name text,
                         changes text
 );";
-psql -d registry -c "COPY $PGDATABASE.release_changes_mp_ntp_tm_relationship_${ccdd_current_date}_from_${ccdd_qa_release_date} FROM '$distDir/${ccdd_current_date}_from_${ccdd_qa_release_date}_qa_release_changes_mp_ntp_tm_relationship.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $PGDATABASE.release_changes_mp_ntp_tm_relationship_${ccdd_current_date}_from_${ccdd_qa_release_date} FROM '$distDir/${ccdd_current_date}_from_${ccdd_qa_release_date}_qa_release_changes_mp_ntp_tm_relationship.csv' delimiter ',' CSV HEADER";
 
 psql -d registry -c "CREATE TABLE $PGDATABASE.combination_products(
                       dpd_drug_code bigint NOT NULL,
@@ -215,13 +215,13 @@ psql -d registry -c "CREATE TABLE $PGDATABASE.combination_products(
                       ntp_type varchar,
                       CONSTRAINT ccdd_combination_product_pk PRIMARY KEY (dpd_drug_code)
 );"
-psql -d $PGDATABASE -c 'COPY public.ccdd_combination_product TO stdout' | psql -d registry -c 'COPY '$PGDATABASE'.combination_products FROM stdin';
+psql -d $PGDATABASE -c 'COPY public.ccdd_combination_product TO stdout' | psql -d registry -c '\COPY '$PGDATABASE'.combination_products FROM stdin';
 
 psql -d registry -c "CREATE TABLE $PGDATABASE.ingredient_stem(
                       name varchar NOT NULL,
                       CONSTRAINT ingredient_stem_pk PRIMARY KEY (name)
 );";
-psql -d $PGDATABASE -c 'COPY public.ccdd_ingredient_stem TO stdout' | psql -d registry -c 'COPY '$PGDATABASE'.ingredient_stem FROM stdin';
+psql -d $PGDATABASE -c 'COPY public.ccdd_ingredient_stem TO stdout' | psql -d registry -c '\COPY '$PGDATABASE'.ingredient_stem FROM stdin';
 
 psql -d registry -c "CREATE TABLE $PGDATABASE.ntp_dosage_forms(
                       ntp_dosage_form_code bigint,
@@ -234,7 +234,7 @@ psql -d registry -c "CREATE TABLE $PGDATABASE.ntp_dosage_forms(
                       pharmaceutical_form_f text,
                       audit_id bigint
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.ntp_dosage_forms TO stdout' | psql -d registry -c 'COPY '$PGDATABASE'.ntp_dosage_forms FROM stdin';
+psql -d $PGDATABASE -c 'COPY ccdd.ntp_dosage_forms TO stdout' | psql -d registry -c '\COPY '$PGDATABASE'.ntp_dosage_forms FROM stdin';
 
 psql -d registry -c "CREATE TABLE $PGDATABASE.unit_of_presentation(
                       drug_code bigint,
@@ -244,48 +244,48 @@ psql -d registry -c "CREATE TABLE $PGDATABASE.unit_of_presentation(
                       calculation varchar,
                       uop_size_insert varchar
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.unit_of_presentation_csv TO stdout' | psql -d registry -c 'COPY '$PGDATABASE'.unit_of_presentation FROM stdin';
+psql -d $PGDATABASE -c 'COPY ccdd.unit_of_presentation_csv TO stdout' | psql -d registry -c '\COPY '$PGDATABASE'.unit_of_presentation FROM stdin';
 
 psql -d registry -c "CREATE TABLE $PGDATABASE.tm_filter(
                       tm_code varchar
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.tm_filter TO stdout' | psql -d registry -c 'COPY '$PGDATABASE'.tm_filter FROM stdin';
+psql -d $PGDATABASE -c 'COPY ccdd.tm_filter TO stdout' | psql -d registry -c '\COPY '$PGDATABASE'.tm_filter FROM stdin';
 
 psql -d registry -c "CREATE TABLE $PGDATABASE.blacklist(
                       drug_code varchar NOT NULL,
                       CONSTRAINT blacklist_pk PRIMARY KEY (drug_code)
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.mp_blacklist TO stdout' | psql -d registry -c 'COPY '$PGDATABASE'.blacklist FROM stdin';
+psql -d $PGDATABASE -c 'COPY ccdd.mp_blacklist TO stdout' | psql -d registry -c '\COPY '$PGDATABASE'.blacklist FROM stdin';
 
 psql -d registry -c "CREATE TABLE $PGDATABASE.whitelist(
                       drug_code varchar NOT NULL,
                       CONSTRAINT whitelist_pk PRIMARY KEY (drug_code)
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.mp_whitelist TO stdout' | psql -d registry -c 'COPY '$PGDATABASE'.whitelist FROM stdin';
+psql -d $PGDATABASE -c 'COPY ccdd.mp_whitelist TO stdout' | psql -d registry -c '\COPY '$PGDATABASE'.whitelist FROM stdin';
 
 psql -d registry -c "CREATE TABLE $PGDATABASE.mp_brand_override(
                       drug_code bigint NOT NULL,
                       brand text,
                       CONSTRAINT mp_brand_override_pk PRIMARY KEY (drug_code)
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.mp_brand_override TO stdout' | psql -d registry -c 'COPY '$PGDATABASE'.mp_brand_override FROM stdin';
+psql -d $PGDATABASE -c 'COPY ccdd.mp_brand_override TO stdout' | psql -d registry -c '\COPY '$PGDATABASE'.mp_brand_override FROM stdin';
 
 psql -d registry -c "CREATE TABLE $PGDATABASE.mp_deprecations(
                       mp_code varchar NOT NULL,
                       CONSTRAINT mp_deprecation_pk PRIMARY KEY (mp_code)
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.mp_deprecations TO stdout' | psql -d registry -c 'COPY '$PGDATABASE'.mp_deprecations FROM stdin';
+psql -d $PGDATABASE -c 'COPY ccdd.mp_deprecations TO stdout' | psql -d registry -c '\COPY '$PGDATABASE'.mp_deprecations FROM stdin';
 
 psql -d registry -c "CREATE TABLE $PGDATABASE.ntp_deprecations(
                       code varchar NOT NULL,
                       status_effective_date date NOT NULL,
                       CONSTRAINT ntp_deprecation_pk PRIMARY KEY (code)
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.ntp_deprecations TO stdout' | psql -d registry -c 'COPY '$PGDATABASE'.ntp_deprecations FROM stdin';
+psql -d $PGDATABASE -c 'COPY ccdd.ntp_deprecations TO stdout' | psql -d registry -c '\COPY '$PGDATABASE'.ntp_deprecations FROM stdin';
 
 psql -d registry -c "CREATE TABLE $PGDATABASE.tm_deprecations(
                       code varchar NOT NULL,
                       status_effective_time date NOT NULL,
                       CONSTRAINT tm_deprecation_pk PRIMARY KEY (code)
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.tm_deprecations TO stdout' | psql -d registry -c 'COPY '$PGDATABASE'.tm_deprecations FROM stdin';
+psql -d $PGDATABASE -c 'COPY ccdd.tm_deprecations TO stdout' | psql -d registry -c '\COPY '$PGDATABASE'.tm_deprecations FROM stdin';
