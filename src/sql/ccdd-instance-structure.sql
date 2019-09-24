@@ -891,8 +891,8 @@ LANGUAGE SQL
 AS $$
 SELECT translate(
     $1,
-    'âãäåāăąÁÂÃÄÅĀĂĄèééêëēĕėęěĒÉĔĖĘĚìíîïìĩīĭÌÍÎÏÌĨĪĬóôõöōŏőÒÓÔÕÖŌŎŐùúûüũūŭůÙÚÛÜŨŪŬŮ',
-    'aaaaaaaaaaaaaaaeeeeeeeeeeeéeeeeiiiiiiiiiiiiiiiiooooooooooooooouuuuuuuuuuuuuuuu'
+    'ÁÂÃÄÅĀĂĄĒÉĔĖĘĚÌÍÎÏÌĨĪĬÒÓÔÕÖŌŎŐÙÚÛÜŨŪŬŮ',
+    'aâãäåāăąééééeéìíîïìĩīĭóóôõöōŏőùúûüũūŭů'
 );
 $$;
 -- end 
