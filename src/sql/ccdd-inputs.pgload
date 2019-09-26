@@ -43,7 +43,6 @@ LOAD CSV
       ntp_ing,
       CCDD.Status,
       comments_do.not.use.commas.or.special.characters,
-      index_num,
       dpd_ingredient_FR,
       ing_stem_fr,
       ntp_ing_fr
@@ -79,8 +78,6 @@ LOAD CSV
       uop_size_insert,
       DIN,
       Product_and_Company_Name,
-      X,
-      index_num,
       unit_of_presentation_fr
     )
   INTO postgresql:///?ccdd.unit_of_presentation_csv
@@ -118,7 +115,6 @@ LOAD CSV
       date_validated,
       validated_by,
       ntp_dosage_form_id,
-      index_num,
       ntp_dosage_form_fr
     )
   INTO postgresql:///?ccdd.ntp_dosage_forms
