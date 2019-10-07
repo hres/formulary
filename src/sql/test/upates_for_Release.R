@@ -8,7 +8,7 @@ library(tidyr)
 
 ccdd <- dbPool(drv      = RPostgreSQL::PostgreSQL(),
                    host     = "rest.hc.local",
-                   dbname   = "ccdd_2019_09_03_100257",
+                   dbname   = "ccdd_2019_10_01_115118",
                    user     = "nzhu",
                    password = "nzhu_rest" )
 
@@ -35,7 +35,7 @@ if(sum(is.na(code_to_add$drug_code))>0){
 }
 
 #confirm with QA whitelist
-qa_whitelist_filepath<-'./src/sql/test/whitelist_20190904.xlsx'
+qa_whitelist_filepath<-'./src/sql/test/whitelist_20191002.xlsx'
 qa_whitelist<-read.xlsx2(qa_whitelist_filepath,1,stringsAsFactors = F)
 code_to_add<-code_to_add%>%filter(drug_code %in% qa_whitelist$drug_code)
 
@@ -60,7 +60,7 @@ write.csv(whitelist,'./src/sql/test/ccdd-mp-whitelist-draft.csv',row.names = F)
 #update TM_filter_master.csv
 
 #load tm filter from QA file, change filepath if necessary
-tm_filter<-read.csv('./src/sql/test/tm_filter_20190904.csv',stringsAsFactors = F)
+tm_filter<-read.csv('./src/sql/test/tm_filter_20191002.csv',stringsAsFactors = F)
 
 #load tm_definition after running write-new-concepts.sh 
 tm_definition<-read.csv('./src/sql/test/ccdd-tm-definitions-draft.csv',stringsAsFactors = F)
