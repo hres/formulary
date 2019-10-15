@@ -1,5 +1,5 @@
 LOAD CSV
-    FROM ./CCDD_French/combination_products_master.csv
+    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Combination%20Products_master.csv
     WITH ENCODING UTF-8
     (
       drug_code,
@@ -8,10 +8,10 @@ LOAD CSV
       ntp_formal_name,
       ntp_type,
       ntp_code,
-      Entry.type,
-      Change.Plan,
       mp_formal_name_fr,
-      ntp_formal_name_fr
+      ntp_formal_name_fr,
+      Entry.type,
+      Change.Plan
     )
   INTO postgresql:///?ccdd.combination_products_csv
     (
@@ -31,7 +31,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM ./CCDD_French/stem_ingredient.csv
+    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Ingredient_Stem_File_master.csv
 
     WITH ENCODING UTF-8
     (
@@ -42,8 +42,8 @@ LOAD CSV
       hydrate,
       ntp_ing,
       CCDD.Status,
-      comments_do.not.use.commas.or.special.characters,
-      dpd_ingredient_FR,
+      Comments,
+      DPD_Ingredient_FR,
       ing_stem_fr,
       ntp_ing_fr
     )
@@ -66,7 +66,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM ./CCDD_French/units_of_presentation_master.csv
+    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Units_of_Presentation_master.csv
 
     WITH ENCODING UTF-8
     (
@@ -98,7 +98,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM ./CCDD_French/ntp_dosage_form_map_master.csv
+    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ntp_dosage_form_map_master.csv
 
     WITH ENCODING UTF-8
     (
