@@ -1,6 +1,7 @@
 #!/bin/bash -e
 # Must set environment variables PGHOST, PGUSER and PGPASSWORD. PGDATABASE must be unset
 reg_schema="ccdd_history"
+# echo $db_previous_month
 
 schema=`psql -d registry -t -c "select schema_name from information_schema.schemata where schema_name like 'ccdd_%' and schema_name != '$reg_schema'"`
 for sch in $schema
@@ -76,20 +77,34 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.release_changes_mp_ntp_tm_relationsh
 );";
 psql -d registry -c "\COPY $PGSCHEMA.release_changes_mp_ntp_tm_relationship_${ccdd_current_date}_from_${ccdd_current_release_date} FROM '$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_mp_ntp_tm_relationship.csv' delimiter ',' CSV HEADER";
 
-psql -d registry -c "CREATE TABLE $PGSCHEMA.combination_products(
-                      dpd_drug_code bigint NOT NULL,
+psql -d registry -c "CREATE TABLE $PGSCHEMA.combination_products_csv(
+                      drug_code bigint NOT NULL,
+                      drug_identification_number varchar,
                       mp_formal_name varchar,
                       ntp_formal_name varchar,
                       ntp_type varchar,
-                      CONSTRAINT ccdd_combination_product_pk PRIMARY KEY (dpd_drug_code)
-);"
-psql -d $PGDATABASE -c 'COPY public.ccdd_combination_product TO stdout' | psql -d registry -c '\COPY '$PGSCHEMA'.combination_products FROM stdin';
-
-psql -d registry -c "CREATE TABLE $PGSCHEMA.ingredient_stem(
-                      name varchar NOT NULL,
-                      CONSTRAINT ingredient_stem_pk PRIMARY KEY (name)
+                      CONSTRAINT combination_products_csv_pk PRIMARY KEY (drug_code)
 );";
-psql -d $PGDATABASE -c 'COPY public.ccdd_ingredient_stem TO stdout' | psql -d registry -c '\COPY '$PGSCHEMA'.ingredient_stem FROM stdin';
+pg_dump -a -t ccdd.combination_products_csv -d $PGDATABASE > temp_dump
+echo dumped
+sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+echo replaced
+psql -d registry < temp_dump
+echo inserted
+rm temp_dump
+
+psql -d registry -c "CREATE TABLE $PGSCHEMA.ingredient_stem_csv(
+                      ccdd varchar,
+                      top250name varchar,
+                      dpd_ingredient varchar,
+                      ing_stem varchar,
+                      hydrate varchar,
+                      ntp_ing varchar
+);";
+pg_dump -a -t ccdd.ingredient_stem_csv -d $PGDATABASE > temp_dump
+sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+psql -d registry < temp_dump
+rm temp_dump
 
 psql -d registry -c "CREATE TABLE $PGSCHEMA.ntp_dosage_forms(
                       ntp_dosage_form_code bigint,
@@ -102,9 +117,12 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.ntp_dosage_forms(
                       pharmaceutical_form_f text,
                       audit_id bigint
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.ntp_dosage_forms TO stdout' | psql -d registry -c '\COPY '$PGSCHEMA'.ntp_dosage_forms FROM stdin';
+pg_dump -a -t ccdd.ntp_dosage_forms -d $PGDATABASE > temp_dump
+sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+psql -d registry < temp_dump
+rm temp_dump
 
-psql -d registry -c "CREATE TABLE $PGSCHEMA.unit_of_presentation(
+psql -d registry -c "CREATE TABLE $PGSCHEMA.unit_of_presentation_csv(
                       drug_code bigint,
                       unit_of_presentation varchar,
                       uop_size varchar,
@@ -112,51 +130,75 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.unit_of_presentation(
                       calculation varchar,
                       uop_size_insert varchar
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.unit_of_presentation_csv TO stdout' | psql -d registry -c '\COPY '$PGSCHEMA'.unit_of_presentation FROM stdin';
+pg_dump -a -t ccdd.unit_of_presentation_csv -d $PGDATABASE > temp_dump
+sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+psql -d registry < temp_dump
+rm temp_dump
 
 psql -d registry -c "CREATE TABLE $PGSCHEMA.tm_filter(
                       tm_code varchar
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.tm_filter TO stdout' | psql -d registry -c '\COPY '$PGSCHEMA'.tm_filter FROM stdin';
+pg_dump -a -t ccdd.tm_filter -d $PGDATABASE > temp_dump
+sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+psql -d registry < temp_dump
+rm temp_dump
 
-psql -d registry -c "CREATE TABLE $PGSCHEMA.blacklist(
+psql -d registry -c "CREATE TABLE $PGSCHEMA.mp_blacklist(
                       drug_code varchar NOT NULL,
-                      CONSTRAINT blacklist_pk PRIMARY KEY (drug_code)
+                      CONSTRAINT mp_blacklist_pk PRIMARY KEY (drug_code)
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.mp_blacklist TO stdout' | psql -d registry -c '\COPY '$PGSCHEMA'.blacklist FROM stdin';
+pg_dump -a -t ccdd.mp_blacklist -d $PGDATABASE > temp_dump
+sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+psql -d registry < temp_dump
+rm temp_dump
 
-psql -d registry -c "CREATE TABLE $PGSCHEMA.whitelist(
+psql -d registry -c "CREATE TABLE $PGSCHEMA.mp_whitelist(
                       drug_code varchar NOT NULL,
-                      CONSTRAINT whitelist_pk PRIMARY KEY (drug_code)
+                      CONSTRAINT mp_whitelist_pk PRIMARY KEY (drug_code)
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.mp_whitelist TO stdout' | psql -d registry -c '\COPY '$PGSCHEMA'.whitelist FROM stdin';
+pg_dump -a -t ccdd.mp_whitelist -d $PGDATABASE > temp_dump
+sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+psql -d registry < temp_dump
+rm temp_dump
 
 psql -d registry -c "CREATE TABLE $PGSCHEMA.mp_brand_override(
                       drug_code bigint NOT NULL,
                       brand text,
                       CONSTRAINT mp_brand_override_pk PRIMARY KEY (drug_code)
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.mp_brand_override TO stdout' | psql -d registry -c '\COPY '$PGSCHEMA'.mp_brand_override FROM stdin';
+pg_dump -a -t ccdd.mp_brand_override -d $PGDATABASE > temp_dump
+sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+psql -d registry < temp_dump
+rm temp_dump
 
 psql -d registry -c "CREATE TABLE $PGSCHEMA.mp_deprecations(
                       mp_code varchar NOT NULL,
                       CONSTRAINT mp_deprecation_pk PRIMARY KEY (mp_code)
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.mp_deprecations TO stdout' | psql -d registry -c '\COPY '$PGSCHEMA'.mp_deprecations FROM stdin';
+pg_dump -a -t ccdd.mp_deprecations -d $PGDATABASE > temp_dump
+sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+psql -d registry < temp_dump
+rm temp_dump
 
 psql -d registry -c "CREATE TABLE $PGSCHEMA.ntp_deprecations(
                       code varchar NOT NULL,
                       status_effective_date date NOT NULL,
                       CONSTRAINT ntp_deprecation_pk PRIMARY KEY (code)
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.ntp_deprecations TO stdout' | psql -d registry -c '\COPY '$PGSCHEMA'.ntp_deprecations FROM stdin';
+pg_dump -a -t ccdd.ntp_deprecations -d $PGDATABASE > temp_dump
+sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+psql -d registry < temp_dump
+rm temp_dump
 
 psql -d registry -c "CREATE TABLE $PGSCHEMA.tm_deprecations(
                       code varchar NOT NULL,
                       status_effective_time date NOT NULL,
                       CONSTRAINT tm_deprecation_pk PRIMARY KEY (code)
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.tm_deprecations TO stdout' | psql -d registry -c '\COPY '$PGSCHEMA'.tm_deprecations FROM stdin';
+pg_dump -a -t ccdd.tm_deprecations -d $PGDATABASE > temp_dump
+sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+psql -d registry < temp_dump
+rm temp_dump
 
 psql -d registry -c "CREATE TABLE $PGSCHEMA.special_groupings(
                       ccdd_code varchar NOT NULL,
@@ -167,7 +209,10 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.special_groupings(
                       special_groupings_status text,
                       special_groupings_status_effective_time text
 );";
-psql -d $PGDATABASE -c 'COPY ccdd.special_groupings TO stdout' | psql -d registry -c '\COPY '$PGSCHEMA'.special_groupings FROM stdin';
+pg_dump -a -t ccdd.special_groupings -d $PGDATABASE > temp_dump
+sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+psql -d registry < temp_dump
+rm temp_dump
 
 schema_date=$(date +'%Y-%m-%d')
 schema_date_ym=$(date +'%Y-%m-')
@@ -187,3 +232,46 @@ psql -d registry -c "UPDATE $reg_schema.release_changes_tm SET date = '$schema_d
 psql -d registry -c "DELETE from $reg_schema.release_changes_special_groupings where date::text like '$schema_date_ym%'"
 psql -d registry -c "\COPY $reg_schema.release_changes_special_groupings(ccdd_code, ccdd_formal_name, ccdd_type, policy_type, policy_reference, special_groupings_status, special_groupings_status_effective_time, changes) FROM '$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_special_groupings.csv' delimiter ',' CSV HEADER";
 psql -d registry -c "UPDATE $reg_schema.release_changes_special_groupings SET date = '$schema_date' WHERE date IS NULL;"
+
+psql -d registry -c "DROP schema if exists ccdd cascade";
+psql -d registry -c "CREATE schema ccdd";
+
+pg_dump -t ccdd.combination_products_csv -d $db_previous_month > t1.sql
+psql -d registry < ./t1.sql
+pg_dump -t ccdd.ingredient_stem_csv -d $db_previous_month > t2.sql
+psql -d registry < ./t2.sql
+pg_dump -t ccdd.ntp_dosage_forms -d $db_previous_month > t3.sql
+psql -d registry < ./t3.sql
+pg_dump -t ccdd.unit_of_presentation_csv -d $db_previous_month > t4.sql
+psql -d registry < ./t4.sql
+pg_dump -t ccdd.tm_filter -d $db_previous_month > t5.sql
+psql -d registry < ./t5.sql
+pg_dump -t ccdd.mp_blacklist -d $db_previous_month > t6.sql
+psql -d registry < ./t6.sql
+pg_dump -t ccdd.mp_whitelist -d $db_previous_month > t7.sql
+psql -d registry < ./t7.sql
+pg_dump -t ccdd.mp_brand_override -d $db_previous_month > t8.sql
+psql -d registry < ./t8.sql
+pg_dump -t ccdd.mp_deprecations -d $db_previous_month > t9.sql
+psql -d registry < ./t9.sql
+pg_dump -t ccdd.ntp_deprecations -d $db_previous_month > t10.sql
+psql -d registry < ./t10.sql
+pg_dump -t ccdd.tm_deprecations -d $db_previous_month > t11.sql
+psql -d registry < ./t11.sql
+
+rm t1.sql t2.sql t3.sql t4.sql t5.sql t6.sql t7.sql t8.sql t9.sql t10.sql t11.sql
+
+declare -a arr=("combination_products_csv_changes" "ingredient_stem_csv_changes" "ntp_dosage_forms_changes" "unit_of_presentation_csv_changes" "tm_filter_changes" "mp_blacklist_changes" "mp_whitelist_changes" "mp_brand_override_changes" "mp_deprecations_changes" "ntp_deprecations_changes" "tm_deprecations_changes")
+
+for i in "${arr[@]}"
+do
+  echo $reg_schema.$i
+  psql -d registry -c "DELETE from $reg_schema.$i where date like '$schema_date_ym%'"
+done
+
+psql -v v1='ccdd' -v v2=$PGSCHEMA -d registry < ./registry/source_changes.sql
+for i in "${arr[@]}"
+do
+  psql -d registry -c "UPDATE $reg_schema.$i SET date = '$schema_date' WHERE date IS NULL;"
+done
+psql -d registry -c "drop schema ccdd cascade";
