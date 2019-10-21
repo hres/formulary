@@ -110,11 +110,6 @@ LOAD CSV
       pharm_form_code,
       pharmaceutical_form,
       pharmaceutical_form_f,
-      audit_id,
-      validated,
-      date_validated,
-      validated_by,
-      ntp_dosage_form_id,
       ntp_dosage_form_fr
     )
   INTO postgresql:///?ccdd.ntp_dosage_forms
