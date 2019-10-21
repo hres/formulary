@@ -1300,7 +1300,7 @@ SELECT
 			WHERE tmistem.ccdd_tm_code = tm.code
 			ORDER BY regexp_replace(tmistem.ccdd_ingredient_stem_name, '[[:punct:]]', '', 'g')
 		) AS stemList
-	) AS tm_formal_name_fr
+	) AS tm_fr_description
 FROM
 	dpd_drug dd,
 	ccdd_tm tm
@@ -1476,7 +1476,7 @@ select
 			ELSE COALESCE(ddform.dosage_form_fr, 'NA')
 		END),
 		dd.company_name
-	)) as mp_formal_name_fr,
+	)) as mp_fr_description,
 	COALESCE(cp.ntp_formal_name, format(
 		'%s %s',
 		dsum.ntp_ingredient_detail_set,
@@ -1500,7 +1500,7 @@ select
 			)
 			ELSE COALESCE(ddform.dosage_form_fr, 'NA')
 		END)
-	)) as ntp_formal_name_fr,
+	)) as ntp_fr_description,
 	cp.ntp_type,
 	(CASE
 		WHEN (COALESCE(CAST(p.pseudodin AS varchar), dd.din)
@@ -1563,7 +1563,7 @@ AS
             END
         ) AS ntp_code,
         candidate.ntp_formal_name AS ntp_formal_name,
-				candidate.ntp_formal_name_fr AS ntp_formal_name_fr,
+				candidate.ntp_fr_description AS ntp_fr_description,
         (CASE
             WHEN bool_and(candidate.mp_status = 'Inactive') THEN 'Inactive'
             ELSE 'Active'
@@ -1581,13 +1581,13 @@ AS
                           from ccdd.ntp_deprecations depr
                           where defn.code::varchar = depr.code)
     GROUP BY
-        candidate.ntp_formal_name,candidate.ntp_formal_name_fr, candidate.ntp_type, defn.formal_name, defn.code
+        candidate.ntp_formal_name,candidate.ntp_fr_description, candidate.ntp_type, defn.formal_name, defn.code
     ORDER BY ntp_status_effective_time
 	) UNION ALL (
 		SELECT
 			CAST(depr.code as varchar) as ntp_code,
 			deprntp.formal_name as ntp_formal_name,
-			deprntp.formal_name_fr as ntp_formal_name_fr,
+			deprntp.formal_name_fr as ntp_fr_description,
 			'Deprec' as ntp_status,
 			NULL as ntp_type,
 			to_char(depr.status_effective_date, 'YYYYMMDD') as ntp_status_effective_time,
@@ -1664,7 +1664,7 @@ SELECT
 		ELSE candidate.din
 	END) AS mp_code,
 	candidate.mp_formal_name,
-	candidate.mp_formal_name_fr,
+	candidate.mp_fr_description,
 	(CASE WHEN CAST(
 		(
 			SELECT code FROM ccdd.ntp_definition prevntp
@@ -1680,7 +1680,7 @@ SELECT
 	END
 	) AS ntp_code,
 	candidate.ntp_formal_name,
-	candidate.ntp_formal_name_fr,
+	candidate.ntp_fr_description,
 	(
 		CASE
 			WHEN CAST(dtm.tm_code as varchar) IS NULL THEN md5(COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name))
@@ -1688,7 +1688,7 @@ SELECT
 		END
 	) as tm_code,
 	COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name) as tm_formal_name,
-	COALESCE(dtm.tm_formal_name_fr, dtmf.tm_fallback_formal_name_fr) as tm_formal_name_fr,
+	COALESCE(dtm.tm_fr_description, dtmf.tm_fallback_formal_name_fr) as tm_fr_description,
 	candidate.tm_is_publishable AS tm_is_publishable
 FROM
 	ccdd_mp_table_candidate candidate
@@ -1726,7 +1726,7 @@ AS
 			END
 		) as tm_code,
 		COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name) as tm_formal_name,
-		COALESCE(dtm.tm_formal_name_fr, dtmf.tm_fallback_formal_name_fr) as tm_formal_name_fr,
+		COALESCE(dtm.tm_fr_description, dtmf.tm_fallback_formal_name_fr) as tm_fr_description,
 		(CASE
 			WHEN CAST(depr.code as varchar) IS NOT NULL THEN 'Deprec'
 			WHEN bool_and(candidate.mp_status = 'Inactive') THEN 'Inactive'
@@ -1746,7 +1746,7 @@ AS
 	GROUP BY
 		dtm.tm_code,
 		dtm.tm_formal_name,
-		dtm.tm_formal_name_fr,
+		dtm.tm_fr_description,
 		dtmf.tm_fallback_formal_name,
 		dtmf.tm_fallback_formal_name_fr,
 		depr.code;
@@ -1765,7 +1765,7 @@ SELECT
 		ELSE candidate.din
 	END) AS mp_code,
 	candidate.mp_formal_name,
-	candidate.mp_formal_name_fr,
+	candidate.mp_fr_description,
 	NULL::text AS mp_en_description,
 	NULL::text AS mp_fr_description,
 	candidate.mp_status,
@@ -2477,7 +2477,7 @@ AS
 select
 	nxt.din,
 	nxt.mp_formal_name,
-	nxt.mp_formal_name_fr,
+	nxt.mp_fr_description,
 	p.dpd_drug_code as drug_code,
 	p.unit as unit_of_presentation,
 	p.unit_fr as unit_of_presentation_fr,
@@ -2522,7 +2522,7 @@ AS
 SELECT
 	msg.mp_code AS mp_code,
 	msg.mp_formal_name AS mp_formal_name,
-	msg.mp_formal_name_fr AS mp_formal_name_fr,
+	msg.mp_fr_description AS mp_fr_description,
 	msg.policy_type AS policy_type,
 	msg.policy_reference AS policy_reference,
 	msg.tm_is_publishable AS tm_is_publishable
@@ -2534,7 +2534,7 @@ FROM (
 				ELSE can.din
 			END)::varchar AS mp_code,
 			can.mp_formal_name AS mp_formal_name,
-			can.mp_formal_name_fr AS mp_formal_name_fr,
+			can.mp_fr_description AS mp_fr_description,
 			sch.policy_type AS policy_type,
 			can.tm_is_publishable AS tm_is_publishable,
 			'http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html'::varchar AS policy_reference
@@ -2551,7 +2551,7 @@ FROM (
 				ELSE can.din
 			END)::varchar AS mp_code,
 			can.mp_formal_name AS mp_formal_name,
-			can.mp_formal_name_fr AS mp_formal_name_fr,
+			can.mp_fr_description AS mp_fr_description,
 			tsg.policy_type AS policy_type,
 			can.tm_is_publishable AS tm_is_publishable,
 			tsg.policy_reference AS policy_reference
@@ -2710,7 +2710,7 @@ AS
 SELECT
 	mp_code,
 	mp_formal_name,
-	mp_formal_name_fr,
+	mp_fr_description,
 	mp_en_description,
 	mp_fr_description,
 	mp_status,
@@ -2786,7 +2786,7 @@ AS
 SELECT
 	ntp_code,
 	ntp_formal_name,
-	ntp_formal_name_fr,
+	ntp_fr_description,
 	ntp_status,
 	ntp_status_effective_time,
 	ntp_type
@@ -2856,7 +2856,7 @@ AS
 SELECT
 	tm_code,
 	tm_formal_name,
-	tm_formal_name_fr,
+	tm_fr_description,
 	tm_status,
 	tm_status_effective_time
 FROM
@@ -2925,13 +2925,13 @@ AS
 select
 	mp_code,
 	mp_formal_name,
-	mp_formal_name_fr,
+	mp_fr_description,
 	ntp_code,
 	ntp_formal_name,
-	ntp_formal_name_fr,
+	ntp_fr_description,
 	tm_code,
 	tm_formal_name,
-	tm_formal_name_fr
+	tm_fr_description
 FROM
 	ccdd_mp_ntp_tm_relationship
 WHERE tm_is_publishable = true;
@@ -3027,7 +3027,7 @@ AS
 SELECT
 	CAST(((SELECT max(ntd.code) FROM ccdd.ntp_definition ntd)) + (row_number() OVER ()) as varchar) AS ntp_code,
 	mcn.ntp_formal_name,
-	mcn.ntp_formal_name_fr
+	mcn.ntp_fr_description
 FROM qa_missing_concepts_ntp mcn;
 -- ddl-end --
 ALTER VIEW public.qa_new_concepts_ntp OWNER TO postgres;
@@ -3103,7 +3103,7 @@ AS
 SELECT
 	CAST(((SELECT max(tmd.code) FROM ccdd.tm_definition tmd)) + (row_number() OVER ()) AS VARCHAR) AS tm_code,
 	mct.tm_formal_name,
-	mct.tm_formal_name_fr
+	mct.tm_fr_description
 FROM qa_missing_concepts_tm mct;
 -- ddl-end --
 ALTER VIEW public.qa_new_concepts_tm OWNER TO postgres;
