@@ -895,7 +895,7 @@ SELECT translate(
     'aâãäåāăąééééeéìíîïìĩīĭóóôõöōŏőùúûüũūŭů'
 );
 $$;
--- end 
+-- end
 ALTER FUNCTION public.unaccent_string(text) OWNER TO postgres;
 -- end
 
@@ -1569,7 +1569,7 @@ AS
             ELSE 'Active'
         END) AS ntp_status,
         candidate.ntp_type as ntp_type,
-        to_char((CASE 
+        to_char((CASE
             WHEN bool_and(candidate.mp_status = 'Inactive') THEN max(candidate.mp_status_effective_date)
             ELSE min(candidate.first_market_date)
         END), 'YYYYMMDD') AS ntp_status_effective_time,
@@ -1577,7 +1577,7 @@ AS
     FROM
         ccdd_mp_table_candidate candidate
         LEFT JOIN ccdd.ntp_definition defn ON (defn.formal_name = candidate.ntp_formal_name)
-    WHERE not exists (select depr.code 
+    WHERE not exists (select depr.code
                           from ccdd.ntp_deprecations depr
                           where defn.code::varchar = depr.code)
     GROUP BY
@@ -1855,11 +1855,11 @@ CREATE VIEW public.qa_release_changes_mp
 AS
 
 select
-	(CASE 
+	(CASE
     WHEN nxt.mp_code is null THEN cur.mp_code
     ELSE nxt.mp_code
     END) as mp_code,
-(CASE 
+(CASE
     WHEN nxt.mp_code is null THEN cur.mp_formal_name
     ELSE nxt.mp_formal_name
     END) as mp_formal_name,
@@ -2007,17 +2007,32 @@ CREATE TABLE ccdd.mp_ntp_tm_relationship_release(
 ALTER TABLE ccdd.mp_ntp_tm_relationship_release OWNER TO postgres;
 -- ddl-end --
 
+-- object: ccdd.ntp_release_candidate | type: TABLE --
+-- DROP TABLE IF EXISTS ccdd.ntp_release_candidate CASCADE;
+CREATE TABLE ccdd.ntp_release_candidate(
+	ntp_code varchar,
+	ntp_formal_name text,
+	ntp_en_description text,
+	ntp_fr_description text,
+	ntp_status varchar,
+	ntp_status_effective_time varchar,
+	ntp_type varchar
+);
+-- ddl-end --
+ALTER TABLE ccdd.ntp_release_candidate OWNER TO postgres;
+-- ddl-end --
+
 -- object: public.qa_release_changes_ntp | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_release_changes_ntp CASCADE;
 CREATE VIEW public.qa_release_changes_ntp
 AS
 
 select
-	(CASE 
+	(CASE
     WHEN nxt.ntp_code is null THEN cur.ntp_code
     ELSE nxt.ntp_code
     END) as ntp_code,
-  (CASE 
+  (CASE
     WHEN nxt.ntp_code is null THEN cur.ntp_formal_name
     ELSE nxt.ntp_formal_name
     END) as ntp_formal_name,
@@ -2032,7 +2047,7 @@ select
 		), E'\n' ORDER BY cmp.field_name)
 	END) as changes
 from
-	ccdd.ntp_release cur
+	ccdd.ntp_release_candidate cur
 	LEFT JOIN ccdd_ntp_table nxt ON(cur.ntp_code = CAST(nxt.ntp_code AS varchar))
 	LEFT JOIN LATERAL (VALUES
 		('ntp_formal_name', cur.ntp_formal_name, nxt.ntp_formal_name),
@@ -2056,7 +2071,7 @@ select
 from
 	ccdd_ntp_table nxt
 WHERE
-	not exists(select * from ccdd.ntp_release cur where cur.ntp_code = CAST(nxt.ntp_code AS varchar));
+	not exists(select * from ccdd.ntp_release_candidate cur where cur.ntp_code = CAST(nxt.ntp_code AS varchar));
 -- ddl-end --
 ALTER VIEW public.qa_release_changes_ntp OWNER TO postgres;
 -- ddl-end --
@@ -2067,11 +2082,11 @@ CREATE VIEW public.qa_release_changes_tm
 AS
 
 select
-	 (CASE 
+	 (CASE
     WHEN nxt.tm_code is null THEN cur.tm_code
     ELSE nxt.tm_code
     END) as tm_code,
-   (CASE 
+   (CASE
     WHEN nxt.tm_code is null THEN cur.tm_formal_name
     ELSE nxt.tm_formal_name
     END) as tm_formal_name,
@@ -2687,21 +2702,6 @@ CREATE TABLE ccdd.tm_release_candidate(
 ALTER TABLE ccdd.tm_release_candidate OWNER TO postgres;
 -- ddl-end --
 
--- object: ccdd.ntp_release_candidate | type: TABLE --
--- DROP TABLE IF EXISTS ccdd.ntp_release_candidate CASCADE;
-CREATE TABLE ccdd.ntp_release_candidate(
-	ntp_code varchar,
-	ntp_formal_name text,
-	ntp_en_description text,
-	ntp_fr_description text,
-	ntp_status varchar,
-	ntp_status_effective_time varchar,
-	ntp_type varchar
-);
--- ddl-end --
-ALTER TABLE ccdd.ntp_release_candidate OWNER TO postgres;
--- ddl-end --
-
 -- object: public.ccdd_mp_release_candidate | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_mp_release_candidate CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_mp_release_candidate
@@ -2730,11 +2730,11 @@ CREATE VIEW public.qa_release_changes_mp_release_candidate
 AS
 
 SELECT
-	(CASE 
+	(CASE
     WHEN nxt.mp_code is null THEN cur.mp_code
     ELSE nxt.mp_code
     END) as mp_code,
-(CASE 
+(CASE
     WHEN nxt.mp_code is null THEN cur.mp_formal_name
     ELSE nxt.mp_formal_name
     END) as mp_formal_name,
@@ -2802,11 +2802,11 @@ CREATE VIEW public.qa_release_changes_ntp_release_candidate
 AS
 
 select
-	(CASE 
+	(CASE
     WHEN nxt.ntp_code is null THEN cur.ntp_code
     ELSE nxt.ntp_code
     END) as ntp_code,
-  (CASE 
+  (CASE
     WHEN nxt.ntp_code is null THEN cur.ntp_formal_name
     ELSE nxt.ntp_formal_name
     END) as ntp_formal_name,
@@ -2872,11 +2872,11 @@ CREATE VIEW public.qa_release_changes_tm_release_candidate
 AS
 
 select
-	(CASE 
+	(CASE
     WHEN nxt.tm_code is null THEN cur.tm_code
     ELSE nxt.tm_code
     END) as tm_code,
-  (CASE 
+  (CASE
     WHEN nxt.tm_code is null THEN cur.tm_formal_name
     ELSE nxt.tm_formal_name
     END) as tm_formal_name,
