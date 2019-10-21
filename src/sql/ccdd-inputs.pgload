@@ -122,7 +122,6 @@ LOAD CSV
       pharm_form_code,
       pharmaceutical_form,
       pharmaceutical_form_f,
-      audit_id,
       ntp_dosage_form_fr
     )
   WITH
