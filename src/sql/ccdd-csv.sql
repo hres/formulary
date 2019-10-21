@@ -52,7 +52,6 @@ CREATE TABLE ccdd.ntp_dosage_forms(
 	pharm_form_code text,
 	pharmaceutical_form text,
 	pharmaceutical_form_f text,
-	audit_id text,
   ntp_dosage_form_fr text
 );
 -- ddl-end --
