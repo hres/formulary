@@ -107,8 +107,7 @@ LOAD CSV
       route_of_administration_f,
       pharm_form_code,
       pharmaceutical_form,
-      pharmaceutical_form_f,
-      audit_id
+      pharmaceutical_form_f
     )
   WITH
     skip header = 1,
