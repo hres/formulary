@@ -86,11 +86,8 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.combination_products_csv(
                       CONSTRAINT combination_products_csv_pk PRIMARY KEY (drug_code)
 );";
 pg_dump -a -t ccdd.combination_products_csv -d $PGDATABASE > temp_dump
-echo dumped
-sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
-echo replaced
+sed -i -e '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
 psql -d registry < temp_dump
-echo inserted
 rm temp_dump
 
 psql -d registry -c "CREATE TABLE $PGSCHEMA.ingredient_stem_csv(
@@ -102,7 +99,7 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.ingredient_stem_csv(
                       ntp_ing varchar
 );";
 pg_dump -a -t ccdd.ingredient_stem_csv -d $PGDATABASE > temp_dump
-sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+sed -i -e '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
 psql -d registry < temp_dump
 rm temp_dump
 
@@ -118,7 +115,7 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.ntp_dosage_forms(
                       audit_id bigint
 );";
 pg_dump -a -t ccdd.ntp_dosage_forms -d $PGDATABASE > temp_dump
-sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+sed -i -e '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
 psql -d registry < temp_dump
 rm temp_dump
 
@@ -131,7 +128,7 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.unit_of_presentation_csv(
                       uop_size_insert varchar
 );";
 pg_dump -a -t ccdd.unit_of_presentation_csv -d $PGDATABASE > temp_dump
-sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+sed -i -e '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
 psql -d registry < temp_dump
 rm temp_dump
 
@@ -139,7 +136,7 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.tm_filter(
                       tm_code varchar
 );";
 pg_dump -a -t ccdd.tm_filter -d $PGDATABASE > temp_dump
-sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+sed -i -e '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
 psql -d registry < temp_dump
 rm temp_dump
 
@@ -148,7 +145,7 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.mp_blacklist(
                       CONSTRAINT mp_blacklist_pk PRIMARY KEY (drug_code)
 );";
 pg_dump -a -t ccdd.mp_blacklist -d $PGDATABASE > temp_dump
-sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+sed -i -e '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
 psql -d registry < temp_dump
 rm temp_dump
 
@@ -157,7 +154,7 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.mp_whitelist(
                       CONSTRAINT mp_whitelist_pk PRIMARY KEY (drug_code)
 );";
 pg_dump -a -t ccdd.mp_whitelist -d $PGDATABASE > temp_dump
-sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+sed -i -e '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
 psql -d registry < temp_dump
 rm temp_dump
 
@@ -167,7 +164,7 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.mp_brand_override(
                       CONSTRAINT mp_brand_override_pk PRIMARY KEY (drug_code)
 );";
 pg_dump -a -t ccdd.mp_brand_override -d $PGDATABASE > temp_dump
-sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+sed -i -e '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
 psql -d registry < temp_dump
 rm temp_dump
 
@@ -176,7 +173,7 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.mp_deprecations(
                       CONSTRAINT mp_deprecation_pk PRIMARY KEY (mp_code)
 );";
 pg_dump -a -t ccdd.mp_deprecations -d $PGDATABASE > temp_dump
-sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+sed -i -e '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
 psql -d registry < temp_dump
 rm temp_dump
 
@@ -186,7 +183,7 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.ntp_deprecations(
                       CONSTRAINT ntp_deprecation_pk PRIMARY KEY (code)
 );";
 pg_dump -a -t ccdd.ntp_deprecations -d $PGDATABASE > temp_dump
-sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+sed -i -e '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
 psql -d registry < temp_dump
 rm temp_dump
 
@@ -196,7 +193,7 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.tm_deprecations(
                       CONSTRAINT tm_deprecation_pk PRIMARY KEY (code)
 );";
 pg_dump -a -t ccdd.tm_deprecations -d $PGDATABASE > temp_dump
-sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+sed -i -e '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
 psql -d registry < temp_dump
 rm temp_dump
 
@@ -210,7 +207,7 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.special_groupings(
                       special_groupings_status_effective_time text
 );";
 pg_dump -a -t ccdd.special_groupings -d $PGDATABASE > temp_dump
-sed -i '' '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
+sed -i -e '1,/ccdd/s/ccdd/'$PGSCHEMA'/' temp_dump
 psql -d registry < temp_dump
 rm temp_dump
 
