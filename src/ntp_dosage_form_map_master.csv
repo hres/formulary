@@ -1,4 +1,5 @@
 "ntp_dosage_form_code","ntp_dosage_form","route_of_administration_code","route_of_administration","route_of_administration_f","pharm_form_code","pharmaceutical_form","pharmaceutical_form_f","ntp_dosage_form_fr"
+"40123","shampoo","70","TOPICAL","Topique","59","SHAMPOO","Shampoing","shampoing"
 "40007","buccal tablet","3","BUCCAL","Buccale","85","TABLET","Comprimé","comprimé buccogingival"
 "40007","buccal tablet","3","BUCCAL","Buccale","23","TABLET (EFFERVESCENT)","Comprimé (effervescent)","comprimé buccogingival"
 "40007","buccal tablet","3-66","BUCCAL, SUBLINGUAL","Buccale,Sublinguale","23","TABLET (EFFERVESCENT)","Comprimé (effervescent)","comprimé buccogingival"
