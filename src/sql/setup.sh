@@ -1,8 +1,8 @@
 #!/bin/bash -e
 # Must set environment variables PGHOST, PGUSER and PGPASSWORD. PGDATABASE must be unset
 
-ccdd_qa_release_date="20190903"
-ccdd_current_release_date="20190904"
+ccdd_qa_release_date="20191007"
+ccdd_current_release_date="20191007"
 ccdd_current_date=$(date +'%Y%m%d')
 
 
@@ -78,9 +78,9 @@ psql -c "copy (select
                 mp_type,
                 \"Health_Canada_identifier\",
                 \"Health_Canada_product_name\" FROM ccdd_mp_table WHERE tm_is_publishable = true) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/mp_full_release_${ccdd_current_date}.csv"
-                
- # UNION ALL (select * , mp_formal_name as mp_fr_description from ccdd.mp_release_candidate where mp_code IN ('02212188', '02480360', '02480379','02182971','02182777','01916947','00887056'))               
-                
+
+ # UNION ALL (select * , mp_formal_name as mp_fr_description from ccdd.mp_release_candidate where mp_code IN ('02212188', '02480360', '02480379','02182971','02182777','01916947','00887056'))
+
 psql -c "copy (select
                   ntp_code,
                   ntp_formal_name,
@@ -91,8 +91,8 @@ psql -c "copy (select
                   COALESCE(ntp_type, 'NA') as ntp_type FROM ccdd_ntp_table WHERE tm_is_publishable = true)
                   to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/ntp_full_release_${ccdd_current_date}.csv"
   #   UNION ALL (select *, ntp_formal_name as ntp_fr_description from ccdd.ntp_release_candidate where ntp_code IN ('9013250'))
-                 
-psql -c "copy (select tm_code, tm_formal_name,tm_formal_name_fr as tm_fr_description,tm_status, tm_status_effective_time FROM ccdd_tm_table WHERE tm_is_publishable = true) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/tm_full_release_${ccdd_current_date}.csv"
+
+psql -c "copy (select tm_code, tm_formal_name,tm_fr_description,tm_status, tm_status_effective_time FROM ccdd_tm_table WHERE tm_is_publishable = true) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/tm_full_release_${ccdd_current_date}.csv"
 psql -c "copy ((select
                 mp_code,
                 mp_formal_name,

@@ -305,7 +305,7 @@ LOAD CSV
       mp_code,
       mp_fr_description,
       ntp_code,
-      ntp_fr_descriiption,
+      ntp_fr_description,
       tm_code,
       tm_fr_description
     )
