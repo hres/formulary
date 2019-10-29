@@ -1,8 +1,8 @@
 #!/bin/bash -e
 # Must set environment variables PGHOST, PGUSER and PGPASSWORD. PGDATABASE must be unset
 
-ccdd_qa_release_date="20190903"
-ccdd_current_release_date="20190904"
+ccdd_qa_release_date="20191001"
+ccdd_current_release_date="20191002"
 ccdd_current_date=$(date +'%Y%m%d')
 
 
@@ -152,4 +152,4 @@ export PGSCHEMA=ccdd_$(date +'%Y_%m_%d')
 export distDir ccdd_current_date ccdd_current_release_date
 
 ### Registry code export
-./registry/registry.sh
+#./registry/registry.sh
