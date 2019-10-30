@@ -152,4 +152,4 @@ export PGSCHEMA=ccdd_$(date +'%Y_%m_%d')
 export distDir ccdd_current_date ccdd_current_release_date
 
 ### Registry code export
-#./registry/registry.sh
+./registry/registry.sh
