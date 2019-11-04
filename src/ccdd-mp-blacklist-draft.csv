@@ -31,8 +31,8 @@ drug_code,drug_identification_number,brand_name,status,history_date,comments
 92593,02441551,CLENZIDERM ACNE THERAPEUTIC SYSTEM,Marketed,2016-08-22,Out of scope. Benzoyl peroxide kit with NPN
 88701,02402149,ACNE TREATMENT SYSTEM,Marketed,2013-11-15,Out of scope. Benzoyl peroxide kit with NPN
 90520,02420678,RODAN+FIELDS UNBLEMISH,Marketed,2015-02-02,Out of scope. Benzoyl peroxide kit with NPN
-90316,02418614,REGULAR STRENGTH BISMUTH,Cancelled Post Market,2019-07-09,Last expiry 2019-10-31
 98107,02491060,EMGALITY,Marketed,2019-10-07,Needs UoP
 98110,02491087,EMGALITY,Marketed,2019-10-02,Needs UoP
 97382,02483467,TRAZIMERA,Marketed,2019-10-22,Needs CP
 93621,02450194,BIO-GABAPENTIN,NOC issued,2016-07-29,Incorrectly marketed in DPD extract - should have signed DNF by Dec
+97383,02483475,TRAZIMERA,Marketed,2019-10-22,Release with DIN 02483467
