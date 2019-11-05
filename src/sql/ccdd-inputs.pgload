@@ -200,9 +200,9 @@ LOAD CSV
       pseudodin,
       drug_code,
       unit_of_presentation,
-      unit_of_presentation_fr,
       uop_size_amount,
-      uop_size_unit
+      uop_size_unit,
+      unit_of_presentation_fr
     )
   INTO postgresql:///?ccdd.pseudodin_map
     (
@@ -238,8 +238,8 @@ LOAD CSV
 ;
 
 LOAD CSV
- --FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ccdd-mp-blacklist-draft.csv
-   FROM ./test/ccdd-mp-blacklist-draft.csv
+    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ccdd-mp-blacklist-draft.csv
+ --  FROM ./test/ccdd-mp-blacklist-draft.csv
     WITH ENCODING UTF-8
     (
       drug_code
