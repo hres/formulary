@@ -100,7 +100,7 @@ psql -c "copy ((select
      
 psql -c "copy ((select tm_code, tm_formal_name,tm_fr_description,tm_status, tm_status_effective_time FROM ccdd_tm_table WHERE tm_is_publishable = true)
          UNION ALL
-         (select * from ccdd.tm_release where tm_code IN ('8001659')))
+         (select * from ccdd.tm_release_candidate where tm_code IN ('8001659')))
          to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/tm_full_release_${ccdd_current_date}.csv"
 
 

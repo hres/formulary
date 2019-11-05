@@ -333,59 +333,6 @@ LOAD CSV
 ;
 
 
-LOAD CSV
-  FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/releases/20180516%20-%20May%202018%20Release/ntp_full_release_20180516.csv
-    WITH ENCODING UTF-8
-    (
-      ntp_code,
-      ntp_formal_name,
-      ntp_en_description,
-      ntp_fr_description,
-      ntp_status,
-      ntp_status_effective_time,
-      ntp_type
-    )
-  INTO postgresql:///?ccdd.ntp_full_release
-    (
-      ntp_code,
-      ntp_formal_name,
-      ntp_en_description,
-      ntp_fr_description,
-      ntp_status,
-      ntp_status_effective_time,
-      ntp_type
-    )
-  WITH
-    csv header,
-    fields optionally enclosed by '"',
-    fields terminated by ',',
-    fields escaped by double-quote
-;
-
-LOAD CSV
-  FROM http://raw.githubusercontent.com/hres/formulary/folder_reorg/releases/20180516%20-%20May%202018%20Release/tm_full_release_20180516.csv
-    WITH ENCODING UTF-8
-    (
-      tm_code,
-      tm_formal_name,
-      tm_status,
-      tm_status_effective_time
-    )
-  INTO postgresql:///?ccdd.tm_full_release
-    (
-      tm_code,
-      tm_formal_name,
-      tm_status,
-      tm_status_effective_time
-    )
-  WITH
-    csv header,
-    fields optionally enclosed by '"',
-    fields terminated by ',',
-    fields escaped by double-quote
-;
-
-
 
 
 LOAD CSV
