@@ -36,3 +36,4 @@ drug_code,drug_identification_number,brand_name,status,history_date,comments
 97382,02483467,TRAZIMERA,Marketed,2019-10-22,Needs CP
 93621,02450194,BIO-GABAPENTIN,NOC issued,2016-07-29,Incorrectly marketed in DPD extract - should have signed DNF by Dec
 97383,02483475,TRAZIMERA,Marketed,2019-10-22,Release with DIN 02483467
+83385,02348497,EVICEL,Marketed,2013-05-02,Out of scope - fibrin sealant
