@@ -122,6 +122,29 @@ GROUP BY (drug_code, active_ingredient_code)
 HAVING count(*) = 1
 );
 
+ALTER TABLE dpd_changes.active_ingredient_changes
+ADD COLUMN extract varchar,
+ADD COLUMN ingredient varchar,
+ADD COLUMN strength varchar,
+ADD COLUMN strength_unit varchar,
+ADD COLUMN drug_identification_number varchar;
+
+
+update dpd_changes.active_ingredient_changes a
+set  drug_identification_number= b.drug_identification_number,
+     extract = b.extract
+from dpd.drug_product  b
+where a.drug_code = b.drug_code 
+
+
+update dpd_changes.active_ingredient_changes a
+set  ingredient= b.ingredient,
+     strength = b.strength,
+     strength_unit = b.strength_unit
+from dpd.active_ingredient  b
+where a.drug_code = b.drug_code AND
+a.active_ingredient_code = b.active_ingredient_code
+
 -- SELECT ROW_NUMBER() OVER (ORDER BY dpd_ingredient) AS row_num, dpd_ingredient,
 -- string_agg( distinct case when ccdd is null then 'NULL' else ccdd end, 'changed to') AS ccdd,
 -- string_agg( distinct case when top250name is null then 'NULL' else top250name end, ' changed to ') AS top250name,
