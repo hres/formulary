@@ -1,0 +1,11 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+"8002299","acalabrutinib","acalabrutinib","ADDED"
+"8000108","valproic acid (divalproex)","acide valproïque (divalproex)","tm_fr_description: ""acide valproïque (divalproex sodique)"" -> ""acide valproïque (divalproex)"""
+"8001659","glycopyrrolate","glycopyrrolate","DELETED"
+"8002296","interferon beta-1a (peginterferon beta-1a)","interféron bêta-1a (peginterféron bêta-1a)","ADDED"
+"8000072","valproic acid (valproate)","acide valproïque (valproate)","tm_fr_description: ""acide valproïque (valproate de sodium)"" -> ""acide valproïque (valproate)"""
+"8002304","sulfacetamide","sulfacétamide","ADDED"
+"8001501","pemetrexed","pémétrexed","tm_fr_description: ""pemetrexed"" -> ""pémétrexed"""
+"8002290","coagulation factor VIII human and von Willebrand factor human","facteur VIII de coagulationhumain et facteur de von Willebrand humain","ADDED"
+"8002301","eftrenonacog alfa","eftrénonacog alfa","ADDED"
+"8002277","coagulation factor IX human","facteur IX de coagulation humain","ADDED"
