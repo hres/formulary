@@ -1,8 +1,8 @@
 #!/bin/bash -e
 # Must set environment variables PGHOST, PGUSER and PGPASSWORD. PGDATABASE must be unset
 
-ccdd_qa_release_date="20191007"
-ccdd_current_release_date="20191007"
+ccdd_qa_release_date="20191106"
+ccdd_current_release_date="20191106"
 ccdd_current_date=$(date +'%Y%m%d')
 
 
@@ -27,6 +27,20 @@ pgloader "$baseDir/dpdloader/dpdload_ia.pgload"
 pgloader "$baseDir/dpdloader/dpdload_dr.pgload"
 pgloader "$baseDir/dpdloader/dpdload_ap.pgload"
 
+
+# dpd_old_database="ccdd_2019_11_01_110923";
+# dpd_old_schema="dpd";
+# 
+# pg_dump $dpd_old_database --schema="$dpd_old_schema" > dpdchanges.sql
+# psql -v "$PGDATABASE" < dpdchanges.sql
+# 
+# 
+# psql -c "ALTER SCHEMA $dpd_old_schema RENAME TO dpd_old"
+# psql -c "ALTER SCHEMA dpd_temp RENAME TO dpd"
+# 
+# rm -f dpdchanges.sql
+
+
 # global config for CCDD generation process
 pgloader "$baseDir/ccdd-config.pgload"
 
@@ -40,6 +54,11 @@ pgloader "$baseDir/ccdd-current-release.pgload" && rm "$baseDir/ccdd-current-rel
 
 # load the data from views into main schema
 psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-run-views.sql"
+
+
+# pgloader "$baseDir/dpdchanges/ingredient_stem_csv.pgload"
+#psql -v ON_ERROR_STOP=1 < dpdchanges/schema.sql
+
 
 # create output folder, then export CCDD concepts as CSV files to output
 mkdir -p "$distDir"
