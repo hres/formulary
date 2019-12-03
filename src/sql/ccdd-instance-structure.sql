@@ -3352,3 +3352,25 @@ WHERE
 	not exists(select * from ccdd.special_groupings cur where cur.ccdd_code = nxt.ccdd_code);
 -- ddl-end --
 ALTER VIEW public.release_changes_special_groupings OWNER TO postgres;
+
+
+-- create post QA relationship table within public schema
+CREATE VIEW public.post_qa_relationship AS
+SELECT *
+          FROM 
+          (select mp_code, mp_formal_name, mp_fr_description, ntp_code, ntp_formal_name, ntp_fr_description,tm_code, tm_formal_name,tm_fr_description FROM public.ccdd_mp_ntp_tm_relationship
+        UNION ALL
+        (select a.mp_code, mp_formal_name,mp_fr_description, a.ntp_code, ntp_formal_name, ntp_fr_description, a.tm_code, tm_formal_name,tm_fr_description
+from ccdd.mp_ntp_tm_relationship_release_candidate a 
+left join ccdd.mp_ntp_tm_relationship_release_candidate_fr b 
+ON a.mp_code=b.mp_code
+where a.mp_code IN ('02212188', '02480360', '02480379') )) as T1
+          WHERE NOT EXISTS (
+          SELECT * FROM ccdd.tm_release_candidate as T2
+          WHERE T1.tm_code = T2.tm_code
+          )
+          order by tm_formal_name, ntp_formal_name;
+-- ddl end
+ALTER VIEW public.post_qa_relationship OWNER TO postgres;
+
+
