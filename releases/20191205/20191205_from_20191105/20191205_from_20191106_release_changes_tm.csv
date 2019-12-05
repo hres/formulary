@@ -1,0 +1,9 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+"8000931","trandolapril and verapamil","trandolapril et vérapamil","tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20020715"" -> ""20191119"""
+"8002290","coagulation factor VIII human and von Willebrand factor human","facteur VIII de coagulation humain et facteur de von Willebrand humain","tm_fr_description: ""facteur VIII de coagulationhumain et facteur de von Willebrand humain"" -> ""facteur VIII de coagulation humain et facteur de von Willebrand humain"""
+"8002118","dimethyl sulfoxide","diméthylsulfoxyde","ADDED"
+"8001720","chlorhexidine and lidocaine","chlorhexidine et lidocaïne","ADDED"
+"8002079","primaquine","primaquine","ADDED"
+"8002302","galcanezumab","galcanézumab","ADDED"
+"8002303","sodium zirconium cyclosilicate","cyclosilicate de zirconium sodique","ADDED"
