@@ -23,6 +23,14 @@ The monthly CCDD generation process can be roughly divided into two stages: QA g
 
 This SOP will list processes performed at **the Data Science Unit in RMOD at Health Canada**.
 
+### Set up in RStudio
+
+Clone formulary repository to RStudio
+```
+git clone https://github.com/hres/formulary.git
+```
+
+
 ### QA generation
 * Input files:
     + DPD extract [Online DPD extract updated monthly](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database/what-data-extract-drug-product-database.html)
@@ -42,7 +50,7 @@ This SOP will list processes performed at **the Data Science Unit in RMOD at Hea
     + ccdd-ntp-deprecation-draft.csv
     + ccdd-mtp-deprecations-draft.csv
     + TM_filter_master.csv
-    + ccdd-tm-groupings-draft.csv [The above files can be found here](https://github.com/hres/formulary/tree/sql-views/src)
+    + ccdd-tm-groupings-draft.csv [The above files can be found here](https://github.com/hres/formulary/tree/sql-views-french/src)
 
 
 * Output files:
@@ -50,22 +58,52 @@ This SOP will list processes performed at **the Data Science Unit in RMOD at Hea
      + qa_release_changes files
      + qa_duplicates files
 
-Scripts for the generation procedures are stored [in the sql-views branch in the hres/formulary Github account](https://github.com/hres/formulary/tree/sql-views/src/sql)
+Scripts for the generation procedures are stored [in the sql-views branch in the hres/formulary Github account](https://github.com/hres/formulary/tree/sql-views-french/src/sql)
 
 **Steps to run QA generation:**
 
-1. update ccdd_date and dpd_extract_date in [ccdd-config.csv](https://github.com/hres/formulary/blob/sql-views/src/sql/test/ccdd-config.csv) file. ccdd_date is the date on which QA generation are performed. dpd_extract_date is the date on which DPD online extract is updated each month.
+1. `git checkout sql-views-french` switch to sql-views-french branch in formulary repository
 
-2. update line 1,2 in [setup.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh) file. Input *ccdd_qa_release_date* and *ccdd_current_release_date*, these are the dates from previous cycle of generation.
+2. update ccdd_date and dpd_extract_date in [ccdd-config.csv](https://github.com/hres/formulary/blob/sql-views/src/sql/test/ccdd-config.csv) file. ccdd_date is the date on which QA generation are performed. dpd_extract_date is the date on which DPD online extract is updated each month.
 
-3. update filepath for DPD extracts in [dpdload.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload.pgload), [dpdload_ap.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_ap.pgload), 
+3. update line 1,2 in [setup.sh](https://github.com/hres/formulary/blob/sql-views-french/src/sql/setup.sh) file. Input *ccdd_qa_release_date* and *ccdd_current_release_date*, these are the dates from previous cycle of generation.
+
+4. update filepath for DPD extracts in [dpdload.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload.pgload), [dpdload_ap.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_ap.pgload), 
 [dpdload_dr.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_dr.pgload),
 [dpdload_ia.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_ia.pgload)
 
-4. run script [setup.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh) in command line
+5. run script [setup.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh) in command line (Terminal)
+```
+cd ./src/sql
+PGHOST=rest.hc.local PGUSER={username of database} PGPASSWORD={password} ./setup.sh
+```
 
+6. All files are generation in `./src/dist/{date of generation}`
 
-The files from QA generation are stored in the folder [QAfiles](https://github.com/hres/formulary/tree/folder_reorg/QAfiles) and passed on to the QA team at Infoway for validation.
+7. `git checkout folder_reorg` Switch to `folder_reorg` branch. 
+
+8. Create new folder with date as folder name in `~/QAfiles` and subfolder (This step can be done with user interface or at command line)
+```
+mkdir ~/formulary/QAfiles/{date of generation}
+mkdir ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
+
+cp  ~/formulary/src/dist/{date of generation}/*qa_release_[[:digit:]]*  ~/formulary/QAfiles/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_qa_release_fr_*  ~/formulary/QAfiles/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/*qa_release_changes_*  ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
+
+cp ~/formulary/src/dist/{date of generation}/*post_qa_relationship  ~formulary/QAfiles/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/coded_attribute*  ~/formulary/QAfiles/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/device-ntp*  ~/formulary/QAfiles/{date of generation}
+```
+
+9. Commit and push the files to remote Github repository
+```
+git commit -m "QA generation for CCDD"
+git push origin folder_reorg 
+```
+
+10. Check folder [QAfiles](https://github.com/hres/formulary/tree/folder_reorg/QAfiles) and email QA group
+
 
 ### Generation
 Before running generation, changes from the QA team are incoporated in the following manners:
@@ -74,13 +112,10 @@ Before running generation, changes from the QA team are incoporated in the follo
 
 * Add previously published MPs (products being made dormant or cancelled post market),to whitelist (ccdd-mp-whitelist-draft.csv), so those products will be returned to the CCDD generation as 'Inactive' 
 
-* Add MP products that need to be removed from CCDD to blacklist (ccdd-mp-blacklist-draft.csv)
-
 * Assign MP products which have the same MP formal name with descriptors (ccdd-mp-brand-override-draft.csv)
 
 * Therefore the following input files are updated or incorporated at the Generation step
     + ccdd-mp-whitelist-draft.csv
-    + ccdd-mp-blacklist-draft.csv
     + ccdd-tm-definitions-draft.csv
     + ccdd-ntp-definitions-draft.csv
     + ccdd-pseudodin-map-draft.csv
@@ -96,14 +131,55 @@ Before running generation, changes from the QA team are incoporated in the follo
 
 **Steps to run generation:**
 
-1. run script [write-new-concepts.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/write-new-concepts.sh) to update [ccdd-ntp-definitions-draft.csv](), [ccdd-pseudodin-map-draft.csv](), [ccdd-tm-definitions-draft.csv]() files
+1. run script [write-new-concepts.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/write-new-concepts.sh) to assign codes to new ntp, tm and pseudodin.
+```
+git checkout sql-views-french
+cd ./src/sql
+PGHOST=rest.hc.local PGUSER={username of database} PGPASSWORD={password} ./write-new-concepts.sh
 
-2. generate [TM_filter_master.csv]() file from ccdd-tm-definitions-draft.csv file with TM filter provided from the QA team at Infoway
+Press 'b' when prompt to continue
 
-3. update ccdd-mp-whitelist-draft.csv, ccdd-mp-blacklist-draft.csv, ccdd-mp-brand-override-draft.csv manually with feedbacks from the QA team at Infoway
+```
 
-2. run script [setup.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh) in command line
+2. save tm_filter.csv and qa_file.docx (sent in email from QA group) to `~/formulary/src/sql/test`
 
+3. Run script `~/formulary/src/sql/test/updates_for_Release.R` to update `ccdd-mp-whitelist-draft.csv` `ccdd-ntp-definitions-draft.csv` `ccdd-tm-definitions-draft.csv` `ccdd-pseudodin-map-draft.csv` 
 
+4. According to QA Release Data Changes report, update `ccdd-mp-deprecations-draft.csv` `ccdd-mp-brand-override-draft.csv` `ccdd-ntp-deprecations-draft.csv`
+
+5. `git commit -m 'Update definition files`
+
+6. `git push origin sql-views-french`
+
+5. Generate release files
+```
+PGHOST=rest.hc.local PGUSER={username of database} PGPASSWORD={password} ./setup.sh
+```
+
+6. All files are generation in `./src/dist/{date of generation}`
+
+7. `git checkout folder_reorg` Switch to `folder_reorg` branch. 
+
+8. Create new folder with date as folder name in `~/formulary/releases` and subfolder (This step can be done with user interface or at command line)
+```
+mkdir ~/formulary/releases/{date of generation}
+mkdir ~/formulary/releases/{date of generation}/{date of generation_from_{previous release date}}
+
+cp  ~/formulary/src/dist/{date of generation}/*full_release_[[:digit:]]*  ~/formulary/releases/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_release_fr_*  ~/formulary/releases/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_release_candidate_[[:digit:]]*  ~/formulary/releases/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/coded_attribute*  ~/formulary/releases/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/device-ntp*  ~/formulary/releases/{date of generation}
+
+cp  ~/formulary/src/dist/{date of generation}/*[[:digit:]]_release_changes_*  ~/formulary/releases/{date of generation}/{date of generation_from_{previous QA date}}
+
+```
+
+9. Commit and push the files to remote Github repository
+```
+git commit -m "release generation for CCDD"
+git push origin folder_reorg 
+```
+10. Check folder [releases](https://github.com/hres/formulary/tree/folder_reorg/releases) and email QA group
 
 All releases are saved in the folder [releases](https://github.com/hres/formulary/tree/folder_reorg/releases) with the filename including date of generation.
