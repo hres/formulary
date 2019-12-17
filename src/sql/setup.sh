@@ -87,8 +87,28 @@ psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-run-views.sql"
 
 
 # pgloader "$baseDir/dpdchanges/ingredient_stem_csv.pgload"
-#psql -v ON_ERROR_STOP=1 < dpdchanges/schema.sql
 
+# Check for QA flag in arguments
+if [ $# -gt 0 ] && [ $1 = "qa" ];
+  then  
+    echo "QA FLAG PRESENT"
+    
+    # START dpd import from old database 
+    dpd_old_database="ccdd_2019_12_17_113029";
+    dpd_old_schema="dpd";
+    pg_dump $dpd_old_database --schema="$dpd_old_schema" > dpd_old.sql
+    psql -c "ALTER SCHEMA $dpd_old_schema RENAME TO dpd_temp"
+    psql -v "$PGDATABASE" < dpd_old.sql
+    psql -c "ALTER SCHEMA dpd RENAME TO dpd_old"
+    psql -c "ALTER SCHEMA dpd_temp RENAME TO $dpd_old_schema"
+    rm -f dpd_old.sql
+    # DONE dpd import from old database 
+    
+    # Find dpd changes and export into dpd_changes schema
+    psql -v ON_ERROR_STOP=1 < dpdchanges/schema.sql
+else
+    echo "WRONG/NO FLAG"
+fi
 
 # create output folder, then export CCDD concepts as CSV files to output
 mkdir -p "$distDir"
