@@ -1,5 +1,12 @@
 #!/bin/bash -e
-# Must set environment variables PGHOST, PGUSER and PGPASSWORD. PGDATABASE must be unset
+
+###############################################################################
+# FILE              : setup.sh
+# USAGE             : PGHOST=testhost PGUSER=testuser PGPASSWORD=testpassword ./setup.sh qa
+# DESCRIPTION       : Generates CCDD database.
+# REQUIREMENTS      : Must set environment variables PGHOST, PGUSER and PGPASSWORD. PGDATABASE must be unset.
+# ARGS (optional)   : qa
+###############################################################################
 
 ccdd_qa_release_date="20191106"
 ccdd_current_release_date="20191106"
@@ -59,6 +66,17 @@ fi
 # CCDD schema and source data
 psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-csv.sql"
 pgloader "$baseDir/ccdd-inputs.pgload"
+
+# Check for QA flag in argument passed to setup.sh script
+if [ $# -gt 0 ] && [ $1 = "qa" ];
+  then  
+    echo "PROCEEDING GENERATION WITH QA FLAG"
+    # Empty the mp_blacklist table 
+    psql -d $PGDATABASE -c "TRUNCATE ccdd.mp_blacklist"
+else
+    echo "WRONG/NO FLAG"
+    echo "PROCEEDING GENERATION WITHOUT QA FLAG"
+fi
 
 psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-instance-structure.sql"
 sed -e "s/%QA_DATE%/$ccdd_qa_release_date/g" "$baseDir/ccdd-current-release.pgload.template" | sed -e "s/%RELEASE_DATE%/$ccdd_current_release_date/g" > "$baseDir/ccdd-current-release.pgload"
