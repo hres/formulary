@@ -1,7 +1,7 @@
 ---
 title: "CCDD Standard operating procedure (SOP)"
 author: "Nancy Zhu, Daniel Buijs"
-date: "October 25 2018"
+date: "December 18 2019"
 output: 
   html_document:
     toc: true
@@ -29,6 +29,68 @@ Clone formulary repository to RStudio
 ```
 git clone https://github.com/hres/formulary.git
 ```
+
+### Pre QA generation:
+Pre-QA generation is performed to capture any changes in DPD that would impact previously generated concepts. It is usually conducted 4-5 days before QA generation. Pre-QA generations are currently only provided in English
+
+**Steps to run Pre-QA generation:**
+
+1. `git checkout sql-views` switch to sql-views branch in formulary repository
+
+2. update ccdd_date in [ccdd-config.csv](https://github.com/hres/formulary/blob/sql-views/src/sql/test/ccdd-config.csv) file. ccdd_date is the date on which generation would be performed. 
+
+3. update DPD extract file path in [dpdloader] (https://github.com/hres/formulary/tree/sql-views/src/sql/dpdloader) update filepath in files [dpdload.pgload], [dpdload_ap.pgload],[dpdload_dr.pgload],[dpdload_ia.pgload] (the filepath should match where DPD extracts are stored)
+
+4. update source definition files by merging with sql-views-french branch 
+
+```
+git checkout sql-views-french ~/formulary/src/sql/test/ccdd-mp-whitelist-draft.csv
+git checkout sql-views-french ~/formulary/src/sql/test/ccdd-mp-deprecations-draft.csv
+git checkout sql-views-french ~/formulary/src/sql/test/TM_filter_master.csv
+git checkout sql-views-french ~/formulary/src/sql/test/ccdd-tm-definitions-draft.csv
+git checkout sql-views-french ~/formulary/src/sql/test/ccdd-ntp-definitions-draft.csv
+git checkout sql-views-french ~/formulary/src/sql/test/ccdd-pseudodin-map-draft.csv
+git checkout sql-views-french ~/formulary/src/sql/test/ccdd-mp-brand-override-draft.csv
+git checkout sql-views-french ~/formulary/src/sql/test/ccdd-mp-deprecations-draft.csv
+git checkout sql-views-french ~/formulary/src/sql/test/ccdd-ntp-deprecations-draft.csv
+
+git commit -m 'merge changes in source files from sql-views-french branch'
+git push
+
+```
+
+5. run script [setup.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh) in command line (Terminal)
+```
+cd ./src/sql
+PGHOST=rest.hc.local PGUSER={username of database} PGPASSWORD={password} ./setup.sh
+```
+
+6. All files are generation in `./src/dist/{date of generation}`
+
+7. `git checkout folder_reorg` Switch to `folder_reorg` branch. 
+
+8. Create new folder with date as folder name in `~/Pre-check` and subfolder (This step can be done with user interface or at command line)
+```
+mkdir ~/formulary/Pre-check/{date of generation}
+mkdir ~/formulary/Pre-check/{date of generation}/{date of generation_from_{previous release date}}
+
+cp  ~/formulary/src/dist/{date of generation}/*full_release_[[:digit:]]*  ~/formulary/Pre-check/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_release_fr_*  ~/formulary/Pre-check/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_release_candidate_[[:digit:]]*  ~/formulary/Pre-check/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/coded_attribute*  ~/formulary/Pre-check/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/device-ntp*  ~/formulary/Pre-check/{date of generation}
+
+cp  ~/formulary/src/dist/{date of generation}/*[[:digit:]]_release_changes_*  ~/formulary/Pre-check/{date of generation}/{date of generation_from_{previous QA date}}
+```
+
+9. Commit and push the files to remote Github repository
+```
+git commit -m "Precheck files for CCDD"
+git push origin folder_reorg 
+```
+
+10. Check folder [Pre-check](https://github.com/hres/formulary/tree/folder_reorg/Pre-check) and email QA group
+
 
 
 ### QA generation
