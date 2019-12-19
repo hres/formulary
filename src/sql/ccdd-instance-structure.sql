@@ -3199,32 +3199,6 @@ WHERE
 ALTER VIEW public.qa_release_changes_mp_ntp_tm_relationship_release_candidate OWNER TO postgres;
 -- ddl-end --
 
--- object: ccdd.ntp_full_release | type: TABLE --
--- DROP TABLE IF EXISTS ccdd.ntp_full_release CASCADE;
-CREATE TABLE ccdd.ntp_full_release(
-	ntp_code varchar,
-	ntp_formal_name text,
-	ntp_en_description text,
-	ntp_fr_description text,
-	ntp_status varchar,
-	ntp_status_effective_time varchar,
-	ntp_type varchar
-);
--- ddl-end --
-ALTER TABLE ccdd.ntp_full_release OWNER TO postgres;
--- ddl-end --
-
--- object: ccdd.tm_full_release | type: TABLE --
--- DROP TABLE IF EXISTS ccdd.tm_full_release CASCADE;
-CREATE TABLE ccdd.tm_full_release(
-	tm_code varchar,
-	tm_formal_name text,
-	tm_status varchar,
-	tm_status_effective_time varchar
-);
--- ddl-end --
-ALTER TABLE ccdd.tm_full_release OWNER TO postgres;
--- ddl-end --
 
 -- object: public.qa_new_concepts_ntp | type: VIEW --
 -- DROP VIEW IF EXISTS public.qa_new_concepts_ntp CASCADE;
