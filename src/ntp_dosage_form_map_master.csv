@@ -102,7 +102,7 @@
 "40006","kit","56","ORAL","Orale","32","KIT","Trousse","kit"
 "40006","kit","62","RECTAL","Rectale","32","KIT","Trousse","kit"
 "40006","kit","70","TOPICAL","Topique","32","KIT","Trousse","kit"
-"40115","liquid","70","TOPICAL","Topique","174","OIL","Huile","liquide"
+"40113","cutaneous liquid","70","TOPICAL","Topique","174","OIL","Huile","liquide"
 "40114","lotion","70","TOPICAL","Topique","36","LOTION","Lotion","lotion"
 "40114","lotion","107","TOPICAL (HOSPITAL/HC FACILITIES)","Topique (Hôpitaux, établissements de soins de santé)","36","LOTION","Lotion","lotion"
 "40114","lotion","104","TOPICAL (HOUSEHOLD)","Topique (Maison)","36","LOTION","Lotion","lotion"

@@ -1,4 +1,6 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"97920","vial","2","mL","Y","N","02489147","ERFA-AMIKACIN ERFA CANADA 2012 INC","fiole"
+"98251","syringe","1.14","mL","N","N","02492504","DUPIXENT SANOFI-AVENTIS CANADA INC","seringue"
 "96585","bag","100","mL","N","N","02475472","RADICAVA MITSUBISHI TANABE PHARMA CORPORATION","sac"
 "95880","pen","3","mL","N","Y","02469871","ADMELOG SOLOSTAR SANOFI-AVENTIS CANADA INC","stylo"
 "95881","vial","10","mL","N","Y","02469901","ADMELOG SANOFI-AVENTIS CANADA INC","fiole"
