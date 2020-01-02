@@ -1,8 +1,8 @@
 #!/bin/bash -e
 # Must set environment variables PGHOST, PGUSER and PGPASSWORD. PGDATABASE must be unset
 
-ccdd_qa_release_date="20191106"
-ccdd_current_release_date="20191106"
+ccdd_qa_release_date="20191202"
+ccdd_current_release_date="20191205"
 ccdd_current_date=$(date +'%Y%m%d')
 
 
@@ -195,9 +195,9 @@ psql -c "copy (select * from public.post_qa_relationship) to STDOUT with CSV HEA
 echo
 echo Generated "$PGDATABASE" and output in "$distDir"
 
-export PGSCHEMA=ccdd_$(date +'%Y_%m_%d')
-
-export distDir ccdd_current_date ccdd_current_release_date
-
-### Registry code export
-./registry/registry.sh
+# export PGSCHEMA=ccdd_$(date +'%Y_%m_%d')
+# 
+# export distDir ccdd_current_date ccdd_current_release_date
+# 
+# ### Registry code export
+# ./registry/registry.sh
