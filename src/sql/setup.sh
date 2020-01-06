@@ -8,8 +8,8 @@
 # ARGS (optional)   : qa
 ###############################################################################
 
-ccdd_qa_release_date="20191106"
-ccdd_current_release_date="20191106"
+ccdd_qa_release_date="20191202"
+ccdd_current_release_date="20191205"
 ccdd_current_date=$(date +'%Y%m%d')
 
 
@@ -94,7 +94,7 @@ if [ $# -gt 0 ] && [ $1 = "qa" ];
     echo "QA FLAG PRESENT"
     
     # START dpd import from old database 
-    dpd_old_database="ccdd_2019_12_17_113029";
+    dpd_old_database="ccdd_2019_12_02_145930";
     dpd_old_schema="dpd";
     pg_dump $dpd_old_database --schema="$dpd_old_schema" > dpd_old.sql
     psql -c "ALTER SCHEMA $dpd_old_schema RENAME TO dpd_temp"
