@@ -11,12 +11,12 @@ library(docxtractr)
 
 #params to update:
 
-qa_file_name<-'qa_file_20191205.docx'
-tm_filter_file_name<-'tm_filter_20191205.csv'
+qa_file_name<-'qa_file_20200107.docx'
+tm_filter_file_name<-'tm_filter_20200107.csv'
 
 ccdd <- dbPool(drv      = RPostgreSQL::PostgreSQL(),
                host     = "rest.hc.local",
-               dbname   = "ccdd_2019_12_02_145930",  #update date of database accordingly
+               dbname   = "ccdd_2020_01_02_145708",  #update date of database accordingly
                user     = "nzhu",
                password = "nzhu_rest" )
 

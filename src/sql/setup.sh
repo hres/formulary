@@ -195,9 +195,9 @@ psql -c "copy (select * from public.post_qa_relationship) to STDOUT with CSV HEA
 echo
 echo Generated "$PGDATABASE" and output in "$distDir"
 
-# export PGSCHEMA=ccdd_$(date +'%Y_%m_%d')
+export PGSCHEMA=ccdd_$(date +'%Y_%m_%d')
 # 
-# export distDir ccdd_current_date ccdd_current_release_date
+export distDir ccdd_current_date ccdd_current_release_date
 # 
 # ### Registry code export
-# ./registry/registry.sh
+./registry/registry.sh
