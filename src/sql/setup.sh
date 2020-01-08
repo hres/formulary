@@ -238,4 +238,11 @@ export PGSCHEMA=ccdd_$(date +'%Y_%m_%d')
 export distDir ccdd_current_date ccdd_current_release_date
 
 ### Registry code export
-./registry/registry.sh
+# Check for QA flag in arguments
+if [ $# -gt 0 ] && [ $1 = "qa" ];
+  then
+    echo "Skipping Registry generation"
+  else
+    echo "Proceeding with Registry generation"
+    ./registry/registry.sh
+fi
