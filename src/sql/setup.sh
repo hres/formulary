@@ -38,23 +38,23 @@ pgloader "$baseDir/dpdloader/dpdload_ap.pgload"
 
 # dpd_old_database="ccdd_2019_11_01_110923";
 # dpd_old_schema="dpd";
-# 
+#
 # pg_dump $dpd_old_database --schema="$dpd_old_schema" > dpdchanges.sql
 # psql -v "$PGDATABASE" < dpdchanges.sql
-# 
-# 
+#
+#
 # psql -c "ALTER SCHEMA $dpd_old_schema RENAME TO dpd_old"
 # psql -c "ALTER SCHEMA dpd_temp RENAME TO dpd"
-# 
+#
 # rm -f dpdchanges.sql
 
 
 # global config for CCDD generation process
 pgloader "$baseDir/ccdd-config.pgload"
 
-db_previous_month=`psql -t -c "SELECT dblist.datname FROM (SELECT datname, make_timestamp(substr(datname, 6,4)::int, substr(datname, 11,2)::int, substr(datname, 14,2)::int, substr(datname, 17,2)::int, substr(datname, 19,2)::int, substr(datname, 21,2)::int) AS date_timestamp FROM pg_database WHERE datistemplate = 'false' AND datname LIKE 'ccdd_%' ORDER BY datname DESC) as dblist
-WHERE date_timestamp < date_trunc('month', '$ccdd_current_date_time'::timestamp) LIMIT 1"`
-db_previous_month=`echo $db_previous_month | xargs`
+# db_previous_month=`psql -t -c "SELECT dblist.datname FROM (SELECT datname, make_timestamp(substr(datname, 6,4)::int, substr(datname, 11,2)::int, substr(datname, 14,2)::int, substr(datname, 17,2)::int, substr(datname, 19,2)::int, substr(datname, 21,2)::int) AS date_timestamp FROM pg_database WHERE datistemplate = 'false' AND datname LIKE 'ccdd_%' ORDER BY datname DESC) as dblist
+# WHERE date_timestamp < date_trunc('month', '$ccdd_current_date_time'::timestamp) LIMIT 1"`
+db_previous_month="ccdd_2019_11_01_110923"
 echo $db_previous_month
 if [ -z "$db_previous_month" ]
 then
@@ -69,9 +69,9 @@ pgloader "$baseDir/ccdd-inputs.pgload"
 
 # Check for QA flag in argument passed to setup.sh script
 if [ $# -gt 0 ] && [ $1 = "qa" ];
-  then  
+  then
     echo "PROCEEDING GENERATION WITH QA FLAG"
-    # Empty the mp_blacklist table 
+    # Empty the mp_blacklist table
     psql -d $PGDATABASE -c "TRUNCATE ccdd.mp_blacklist"
 else
     echo "WRONG/NO FLAG"
@@ -90,11 +90,11 @@ psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-run-views.sql"
 
 # Check for QA flag in arguments
 if [ $# -gt 0 ] && [ $1 = "qa" ];
-  then  
+  then
     echo "QA FLAG PRESENT"
-    
-    # START dpd import from old database 
-    dpd_old_database="ccdd_2019_12_17_113029";
+
+    # START dpd import from old database
+    dpd_old_database=$db_previous_month;
     dpd_old_schema="dpd";
     pg_dump $dpd_old_database --schema="$dpd_old_schema" > dpd_old.sql
     psql -c "ALTER SCHEMA $dpd_old_schema RENAME TO dpd_temp"
@@ -102,8 +102,8 @@ if [ $# -gt 0 ] && [ $1 = "qa" ];
     psql -c "ALTER SCHEMA dpd RENAME TO dpd_old"
     psql -c "ALTER SCHEMA dpd_temp RENAME TO $dpd_old_schema"
     rm -f dpd_old.sql
-    # DONE dpd import from old database 
-    
+    # DONE dpd import from old database
+
     # Find dpd changes and export into dpd_changes schema
     psql -v ON_ERROR_STOP=1 < dpdchanges/schema.sql
 else
@@ -151,7 +151,7 @@ psql -c "copy ((select
                 mp_type,
                 \"Health_Canada_identifier\",
                 \"Health_Canada_product_name\" FROM ccdd_mp_table WHERE tm_is_publishable = true)
-                
+
                 UNION ALL (select * from ccdd.mp_release_candidate where mp_code IN ('02212188', '02480360', '02480379','02182971','02182777','01916947')
                 )) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/mp_full_release_${ccdd_current_date}.csv"
 
@@ -166,7 +166,7 @@ psql -c "copy ((select
                   COALESCE(ntp_type, 'NA') as ntp_type FROM ccdd_ntp_table WHERE tm_is_publishable = true)
                   UNION ALL (select * from ccdd.ntp_release_candidate where ntp_code IN ('9013250')))
                   to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/ntp_full_release_${ccdd_current_date}.csv"
-     
+
 psql -c "copy ((select tm_code, tm_formal_name,tm_fr_description,tm_status, tm_status_effective_time FROM ccdd_tm_table WHERE tm_is_publishable = true)
          UNION ALL
          (select * from ccdd.tm_release_candidate where tm_code IN ('8001659')))
@@ -194,7 +194,7 @@ psql -c "copy ((select
                 UNION ALL (select * from ccdd.mp_ntp_tm_relationship_release_candidate_fr where mp_code IN ('02212188', '02480360', '02480379','02182971','02182777','01916947')))
                 to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/mp_ntp_tm_relationship_fr_${ccdd_current_date}.csv"
 
-   
+
 
 psql -c "copy ((
           select ccdd_code, ccdd_formal_name, ccdd_type, policy_type, policy_reference, special_groupings_status, special_groupings_status_effective_time from ccdd_special_groupings WHERE tm_is_publishable = true)
