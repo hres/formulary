@@ -1,5 +1,12 @@
 #!/bin/bash -e
-# Must set environment variables PGHOST, PGUSER and PGPASSWORD. PGDATABASE must be unset
+
+###############################################################################
+# FILE              : setup.sh
+# USAGE             : PGHOST=testhost PGUSER=testuser PGPASSWORD=testpassword ./setup.sh qa
+# DESCRIPTION       : Generates CCDD database.
+# REQUIREMENTS      : Must set environment variables PGHOST, PGUSER and PGPASSWORD. PGDATABASE must be unset.
+# ARGS (optional)   : qa
+###############################################################################
 
 ccdd_qa_release_date="20191202"
 ccdd_current_release_date="20191205"
@@ -60,6 +67,17 @@ fi
 psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-csv.sql"
 pgloader "$baseDir/ccdd-inputs.pgload"
 
+# Check for QA flag in argument passed to setup.sh script
+if [ $# -gt 0 ] && [ $1 = "qa" ];
+  then
+    echo "PROCEEDING GENERATION WITH QA FLAG"
+    # Empty the mp_blacklist table
+    psql -d $PGDATABASE -c "TRUNCATE ccdd.mp_blacklist"
+else
+    echo "WRONG/NO FLAG"
+    echo "PROCEEDING GENERATION WITHOUT QA FLAG"
+fi
+
 psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-instance-structure.sql"
 sed -e "s/%QA_DATE%/$ccdd_qa_release_date/g" "$baseDir/ccdd-current-release.pgload.template" | sed -e "s/%RELEASE_DATE%/$ccdd_current_release_date/g" > "$baseDir/ccdd-current-release.pgload"
 pgloader "$baseDir/ccdd-current-release.pgload" && rm "$baseDir/ccdd-current-release.pgload"
@@ -69,8 +87,28 @@ psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-run-views.sql"
 
 
 # pgloader "$baseDir/dpdchanges/ingredient_stem_csv.pgload"
-#psql -v ON_ERROR_STOP=1 < dpdchanges/schema.sql
 
+# Check for QA flag in arguments
+if [ $# -gt 0 ] && [ $1 = "qa" ];
+  then
+    echo "QA FLAG PRESENT"
+
+    # START dpd import from old database
+    dpd_old_database=$db_previous_month;
+    dpd_old_schema="dpd";
+    pg_dump $dpd_old_database --schema="$dpd_old_schema" > dpd_old.sql
+    psql -c "ALTER SCHEMA $dpd_old_schema RENAME TO dpd_temp"
+    psql -v "$PGDATABASE" < dpd_old.sql
+    psql -c "ALTER SCHEMA dpd RENAME TO dpd_old"
+    psql -c "ALTER SCHEMA dpd_temp RENAME TO $dpd_old_schema"
+    rm -f dpd_old.sql
+    # DONE dpd import from old database
+
+    # Find dpd changes and export into dpd_changes schema
+    psql -v ON_ERROR_STOP=1 < dpdchanges/schema.sql
+else
+    echo "WRONG/NO FLAG"
+fi
 
 # create output folder, then export CCDD concepts as CSV files to output
 mkdir -p "$distDir"
@@ -200,4 +238,11 @@ export PGSCHEMA=ccdd_$(date +'%Y_%m_%d')
 export distDir ccdd_current_date ccdd_current_release_date
 
 ### Registry code export
-./registry/registry.sh
+# Check for QA flag in arguments
+if [ $# -gt 0 ] && [ $1 = "qa" ];
+  then
+    echo "Skipping Registry generation"
+  else
+    echo "Proceeding with Registry generation"
+    ./registry/registry.sh
+fi
