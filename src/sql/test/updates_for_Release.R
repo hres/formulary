@@ -7,11 +7,20 @@ library(dbplyr)
 library(tidyr)
 library(docxtractr)
 
+#############################################################
+
+#params to update:
+
+qa_file_name<-'qa_file_20200107.docx'
+tm_filter_file_name<-'tm_filter_20200107.csv'
+
 ccdd <- dbPool(drv      = RPostgreSQL::PostgreSQL(),
                host     = "rest.hc.local",
-               dbname   = "ccdd_2019_12_02_145930",
+               dbname   = "ccdd_2020_01_02_145708",  #update date of database accordingly
                user     = "nzhu",
                password = "nzhu_rest" )
+
+################################################################
 
 dpd_drug<-tbl(ccdd, in_schema("dpd","drug_product"))%>%as.data.frame()
 
@@ -41,7 +50,7 @@ code_to_add<-code_to_add%>%
              filter(!is.na(drug_code))
 
 #load qa list from Jo-Anne:
-qa<-read_docx('./src/sql/test/qa_file_20191205.docx')
+qa<-read_docx(paste0('./src/sql/test/',qa_file_name))
 qa_whitelist<-docx_extract_tbl(qa,11) #the witelist table is always the 11th table
 
 #confirm with QA whitelist
@@ -60,10 +69,10 @@ write.csv(whitelist,'./src/sql/test/ccdd-mp-whitelist-draft.csv',row.names = F)
 #update TM_filter_master.csv
 
 #load tm filter from QA file, change filepath if necessary
-tm_filter<-read.csv('./src/sql/test/tm_filter_20191205.csv',stringsAsFactors = F)
+tm_filter<-read.csv(paste0('./src/sql/test/',tm_filter_file_name),stringsAsFactors = F)
 
 #load tm_definition after running write-new-concepts.sh 
-tm_definition<-read.csv('./src/sql/test/ccdd-tm-definitions-draft.csv',stringsAsFactors = F)
+tm_definition<-read.csv('./src/sql/test/ccdd-tm-definitions-draft.csv', stringsAsFactors = F)
 tm_filter_master<-tm_definition%>%filter(formal_name%in% tm_filter$tm_formal_name)%>%
                                   select(code,formal_name)
 

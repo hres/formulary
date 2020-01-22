@@ -8,8 +8,8 @@
 # ARGS (optional)   : qa
 ###############################################################################
 
-ccdd_qa_release_date="20191106"
-ccdd_current_release_date="20191106"
+ccdd_qa_release_date="20191202"
+ccdd_current_release_date="20191205"
 ccdd_current_date=$(date +'%Y%m%d')
 
 
@@ -54,7 +54,7 @@ pgloader "$baseDir/ccdd-config.pgload"
 
 # db_previous_month=`psql -t -c "SELECT dblist.datname FROM (SELECT datname, make_timestamp(substr(datname, 6,4)::int, substr(datname, 11,2)::int, substr(datname, 14,2)::int, substr(datname, 17,2)::int, substr(datname, 19,2)::int, substr(datname, 21,2)::int) AS date_timestamp FROM pg_database WHERE datistemplate = 'false' AND datname LIKE 'ccdd_%' ORDER BY datname DESC) as dblist
 # WHERE date_timestamp < date_trunc('month', '$ccdd_current_date_time'::timestamp) LIMIT 1"`
-db_previous_month="ccdd_2019_11_01_110923"
+db_previous_month="ccdd_2019_12_05_143954"
 echo $db_previous_month
 if [ -z "$db_previous_month" ]
 then
