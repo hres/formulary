@@ -134,17 +134,19 @@ Scripts for the generation procedures are stored [in the sql-views branch in the
 [dpdload_dr.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_dr.pgload),
 [dpdload_ia.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_ia.pgload)
 
-5. run script [setup.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh) in command line (Terminal)
+5. *Update line 57 in setup.sh* with the name of database for previous month release candidate generation (This will set up the correct reference data for comparisons)
+
+6. run script [setup.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh) in command line (Terminal)
 ```
 cd ./src/sql
-PGHOST=rest.hc.local PGUSER={username of database} PGPASSWORD={password} ./setup.sh
+PGHOST=rest.hc.local PGUSER={username of database} PGPASSWORD={password} ./setup.sh qa
 ```
 
-6. All files are generation in `./src/dist/{date of generation}`
+7. All files are generation in `./src/dist/{date of generation}`
 
-7. `git checkout folder_reorg` Switch to `folder_reorg` branch. 
+8. `git checkout folder_reorg` Switch to `folder_reorg` branch. 
 
-8. Create new folder with date as folder name in `~/QAfiles` and subfolder (This step can be done with user interface or at command line)
+9. Create new folder with date as folder name in `~/QAfiles` and subfolder (This step can be done with user interface or at command line)
 ```
 mkdir ~/formulary/QAfiles/{date of generation}
 mkdir ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
@@ -158,13 +160,13 @@ cp  ~/formulary/src/dist/{date of generation}/coded_attribute*  ~/formulary/QAfi
 cp  ~/formulary/src/dist/{date of generation}/device-ntp*  ~/formulary/QAfiles/{date of generation}
 ```
 
-9. Commit and push the files to remote Github repository
+10. Commit and push the files to remote Github repository
 ```
 git commit -m "QA generation for CCDD"
 git push origin folder_reorg 
 ```
 
-10. Check folder [QAfiles](https://github.com/hres/formulary/tree/folder_reorg/QAfiles) and email QA group
+11. Check folder [QAfiles](https://github.com/hres/formulary/tree/folder_reorg/QAfiles) and email QA group
 
 
 ### Generation
