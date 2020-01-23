@@ -1,470 +1,1497 @@
-drug_code,unit_of_presentation,uop_size,uop_unit_of_measure,calculation,uop_size_insert,,,
-69790,vial,10,mL,N,Y,,,
-73683,cartridge,3,mL,N,Y,,,
-93005,cartridge,3,mL,N,Y,,,
-77967,pen,3,mL,N,Y,,,
-93006,pen,3,mL,N,Y,,,
-71180,vial,3,mL,Y,N,,,
-66036,vial,3,mL,Y,N,,,
-86000,syringe,3,mL,Y,N,,,
-66036,vial,9,mL,Y,N,,,
-71180,vial,18,mL,Y,N,,,
-66036,vial,18,mL,Y,N,,,
-69271,vial,3,mL,Y,N,,,
-19798,unit dose vial,1,mL,Y,N,,,
-19798,unit dose vial,2,mL,Y,N,,,
-50443,bottle,20,mL,N,Y,,,
-50551,unit dose vial,1,mL,Y,N,,,
-50552,unit dose vial,2,mL,Y,N,,,
-43176,unit dose vial,1,mL,Y,N,,,
-43176,unit dose vial,2,mL,Y,N,,,
-62586,bottle,20,mL,N,Y,,,
-62586,unit dose vial,1,mL,Y,N,,,
-62586,unit dose vial,2,mL,Y,N,,,
-50824,unit dose vial,2,mL,Y,N,,,
-16947,bottle,20,mL,N,Y,,,
-67766,unit dose vial,2,mL,Y,N,,,
-43798,unit dose vial,2,mL,Y,N,,,
-50442,unit dose vial,2,mL,Y,N,,,
-69797,vial,3,mL,Y,N,,,
-69797,vial,6,mL,Y,N,,,
-60208,vial,20,mL,Y,N,,,
-60218,vial,10,mL,Y,N,,,
-60218,vial,20,mL,Y,N,,,
-17277,ampoule,1,mL,Y,N,,,
-89827,ampoule,1,mL,Y,N,,,
-17954,ampoule,20,mL,Y,N,,,
-89828,ampoule,20,mL,N,N,,,
-17276,ampoule,5,mL,Y,N,,,
-89829,ampoule,5,mL,N,N,,,
-62344,vial,2,mL,Y,N,,,
-69787,ampoule,1,mL,Y,N,,,
-88422,ampoule,1,mL,Y,N,,,
-88423,ampoule,2,mL,Y,N,,,
-4232,ampoule,1,mL,Y,N,,,
-4806,ampoule,1,mL,Y,N,,,
-4233,ampoule,1,mL,Y,N,,,
-3721,ampoule,2,mL,N,N,,,
-67132,ampoule,2,mL,N,N,,,
-87102,ampoule,2,mL,Y,N,,,
-87173,ampoule,2,mL,N,N,,,
-15756,ampoule,1,mL,Y,N,,,
-15757,ampoule,2,mL,N,N,,,
-49026,vial,5,mL,Y,N,,,
-49026,vial,10,mL,Y,N,,,
-68717,vial,5,mL,Y,N,,,
-68717,vial,10,mL,Y,N,,,
-12650,vial,2,mL,Y,N,,,
-87402,vial,1,mL,Y,N,,,
-87402,vial,2,mL,Y,N,,,
-12664,ampoule,2,mL,Y,N,,,
-12664,ampoule,5,mL,Y,N,,,
-12664,ampoule,10,mL,Y,N,,,
-12664,ampoule,20,mL,Y,N,,,
-12664,vial,10,mL,Y,N,,,
-12664,vial,20,mL,Y,N,,,
-63983,ampoule,2,mL,Y,N,,,
-63983,vial,5,mL,Y,N,,,
-63983,vial,10,mL,Y,N,,,
-63983,vial,20,mL,Y,N,,,
-63983,vial,50,mL,Y,N,,,
-86987,ampoule,2,mL,Y,N,,,
-86987,ampoule,10,mL,Y,N,,,
-87103,ampoule,2,mL,Y,N,,,
-87103,ampoule,10,mL,Y,N,,,
-12218,vial,25,mL,N,Y,,,
-4431,ampoule,2,mL,Y,N,,,
-4431,ampoule,4,mL,Y,N,,,
-4910,ampoule,2,mL,Y,N,,,
-4910,ampoule,4,mL,Y,N,,,
-4910,syringe,2,mL,Y,N,,,
-4910,syringe,4,mL,Y,N,,,
-84533,vial,2,mL,Y,N,,,
-84533,vial,4,mL,Y,N,,,
-84539,vial,25,mL,N,Y,,,
-86837,ampoule,2,mL,Y,N,,,
-86837,ampoule,4,mL,Y,N,,,
-86984,ampoule,2,mL,N,N,,,
-16902,ampoule,1,mL,Y,N,,,
-16902,vial,5,mL,Y,N,,,
-49967,vial,1,mL,Y,N,,,
-49967,vial,5,mL,Y,N,,,
-16901,vial,5,mL,Y,N,,,
-49965,vial,5,mL,Y,N,,,
-10026,ampoule,1,mL,Y,N,,,
-85088,vial,1,mL,Y,N,,,
-89112,vial,1,mL,Y,N,,,
-89112,vial,10,mL,Y,N,,,
-63112,vial,1,mL,Y,N,,,
-63111,vial,5,mL,Y,N,,,
-5936,vial,1,mL,Y,N,,,
-5936,vial,5,mL,Y,N,,,
-5936,vial,50,mL,N,Y,,,
-18323,vial,1,mL,Y,N,,,
-18323,vial,5,mL,Y,N,,,
-18323,vial,10,mL,Y,N,,,
-18323,vial,50,mL,N,Y,,,
-86845,vial,1,mL,Y,N,,,
-86845,vial,5,mL,Y,N,,,
-86845,vial,50,mL,N,Y,,,
-94804,ampoule,1,mL,Y,N,,,
-94804,ampoule,10,mL,Y,N,,,
-68787,vial,10,mL,N,Y,,,
-5937,ampoule,1,mL,Y,N,,,
-18315,ampoule,1,mL,Y,N,,,
-94803,ampoule,1,mL,Y,N,,,
-18324,vial,1,mL,Y,N,,,
-18324,vial,5,mL,Y,N,,,
-18324,vial,10,mL,Y,N,,,
-18324,vial,50,mL,N,Y,,,
-44090,ampoule,1,mL,Y,N,,,
-63447,vial,1,mL,Y,N,,,
-68945,vial,1,mL,Y,N,,,
-68945,vial,2,mL,Y,N,,,
-87600,vial,1,mL,Y,N,,,
-92801,vial,1,mL,Y,N,,,
-67933,vial,1,mL,Y,N,,,
-92310,vial,1,mL,Y,N,,,
-67176,vial,1,mL,Y,N,,,
-87417,vial,1,mL,Y,N,,,
-19667,vial,1,mL,Y,N,,,
-80771,vial,1,mL,Y,N,,,
-441,vial,5,mL,Y,N,,,
-19409,vial,2,mL,Y,N,,,
-19409,vial,10,mL,Y,N,,,
-19409,vial,30,mL,Y,N,,,
-67481,vial,2,mL,Y,N,,,
-67481,vial,10,mL,Y,N,,,
-67481,vial,30,mL,Y,N,,,
-7357,ampoule,5,mL,Y,N,,,
-75326,vial,5,mL,Y,N,,,
-7425,bag,100,mL,Y,N,,,
-10871,bag,100,mL,Y,N,,,
-10871,bag,300,mL,Y,N,,,
-10705,vial,10,mL,N,N,,,
-10706,vial,10,mL,N,N,,,
-12697,ampoule,2,mL,Y,N,,,
-12697,ampoule,5,mL,Y,N,,,
-13063,vial,2,mL,Y,N,,,
-13063,vial,5,mL,Y,N,,,
-9398,ampoule,2,mL,Y,N,,,
-9398,ampoule,5,mL,Y,N,,,
-91579,vial,2,mL,Y,N,,,
-91579,vial,5,mL,Y,N,,,
-43094,vial,2,mL,N,N,,,
-74194,vial,2,mL,N,N,,,
-43104,ampoule,5,mL,Y,N,,,
-43078,syringe,0.5,mL,N,Y,,,
-84675,syringe,0.5,mL,N,Y,,,
-1398,vial,10,mL,Y,N,,,
-13410,ampoule,2,mL,Y,N,,,
-1275,ampoule,5,mL,Y,N,,,
-15482,vial,5,mL,Y,N,,,
-15481,vial,1,mL,Y,N,,,
-15481,vial,5,mL,Y,N,,,
-85366,vial,1,mL,Y,N,,,
-17234,vial,2,mL,Y,N,,,
-17234,vial,4,mL,Y,N,,,
-17234,ampoule,4,mL,Y,N,,,
-18614,vial,2,mL,Y,N,,,
-89326,bag,50,mL,Y,N,,,
-1620,vial,2,mL,Y,N,,,
-1620,vial,4,mL,Y,N,,,
-1620,vial,6,mL,Y,N,,,
-1620,vial,60,mL,Y,N,,,
-18964,vial,2,mL,Y,N,,,
-18964,vial,4,mL,Y,N,,,
-18964,vial,6,mL,Y,N,,,
-18964,vial,60,mL,Y,N,,,
-87133,vial,2,mL,Y,N,,,
-87133,vial,4,mL,Y,N,,,
-87133,vial,6,mL,Y,N,,,
-89327,bag,50,mL,Y,N,,,
-940,ampoule,1,mL,Y,N,,,
-940,ampoule,30,mL,Y,N,,,
-8352,syringe,10,mL,Y,N,,,
-79244,syringe,0.3,mL,N,Y,,,
-79245,syringe,0.3,mL,N,Y,,,
-5970,syringe,0.3,mL,N,Y,,,
-91538,syringe,0.3,mL,N,Y,,,
-9164,ampoule,1,mL,Y,N,,,
-3883,syringe,0.3,mL,N,Y,,,
-81063,ampoule,1,mL,Y,N,,,
-91537,syringe,0.3,mL,N,Y,,,
-92016,ampoule,1,mL,Y,N,,,
-44261,vial,2,mL,Y,N,,,
-80550,syringe,1,mL,N,Y,,,
-80551,syringe,1.5,mL,N,Y,,,
-80549,syringe,0.75,mL,N,Y,,,
-94145,syringe,0.35,mL,N,Y,,,
-94163,syringe,0.4,mL,N,Y,,,
-94146,syringe,0.45,mL,N,Y,,,
-94164,syringe,0.5,mL,N,Y,,,
-19681,vial,2,mL,Y,N,,,
-19681,vial,20,mL,Y,N,,,
-19681,vial,40,mL,Y,N,,,
-42844,vial,20,mL,Y,N,,,
-44262,vial,2,mL,Y,N,,,
-44264,vial,40,mL,Y,N,,,
-88338,vial,2,mL,Y,N,,,
-88338,vial,20,mL,Y,N,,,
-90222,vial,2,mL,Y,N,,,
-90222,vial,40,mL,Y,N,,,
-90372,vial,2,mL,Y,N,,,
-90372,vial,40,mL,Y,N,,,
-90688,syringe,0.4,mL,N,Y,,,
-90689,syringe,0.6,mL,N,Y,,,
-90690,syringe,0.8,mL,N,Y,,,
-81253,vial,2,mL,Y,N,,,
-81253,vial,20,mL,Y,N,,,
-81253,vial,40,mL,Y,N,,,
-90691,syringe,1,mL,N,Y,,,
-90687,syringe,0.3,mL,N,Y,,,
-12968,ampoule,10,mL,Y,N,,,
-13966,ampoule,10,mL,Y,N,,,
-6871,vial,30,mL,Y,N,,,
-12728,ampoule,5,mL,Y,N,,,
-14020,ampoule,5,mL,Y,N,,,
-12991,ampoule,1,mL,Y,N,,,
-86878,ampoule,1,mL,Y,N,,,
-86878,ampoule,5,mL,Y,N,,,
-12992,ampoule,1,mL,Y,N,,,
-3042,ampoule,1,mL,Y,N,,,
-12990,ampoule,1,mL,Y,N,,,
-12701,ampoule,1,mL,Y,N,,,
-12701,ampoule,4,mL,Y,N,,,
-7136,vial,30,mL,Y,N,,,
-12702,ampoule,1,mL,Y,N,,,
-12702,vial,20,mL,N,Y,,,
-12702,vial,50,mL,N,Y,,,
-43511,unit dose vial,2,mL,Y,N,,,
-13191,unit dose vial,2,mL,Y,N,,,
-13190,unit dose vial,2,mL,Y,N,,,
-19761,unit dose vial,2.5,mL,Y,N,,,
-60224,unit dose vial,2.5,mL,Y,N,,,
-62834,unit dose vial,2.5,mL,Y,N,,,
-67769,unit dose vial,2.5,mL,Y,N,,,
-13550,unit dose vial,2.5,mL,Y,N,,,
-13668,bottle,10,mL,N,Y,,,
-19763,unit dose vial,2.5,mL,Y,N,,,
-50819,unit dose vial,2.5,mL,Y,N,,,
-43194,unit dose vial,2.5,mL,Y,N,,,
-60225,unit dose vial,2.5,mL,Y,N,,,
-43100,unit dose vial,2.5,mL,N,N,,,
-19058,unit dose vial,2.5,mL,Y,N,,,
-19762,unit dose vial,2.5,mL,Y,N,,,
-51054,unit dose vial,2.5,mL,Y,N,,,
-60226,unit dose vial,2.5,mL,Y,N,,,
-62835,unit dose vial,2.5,mL,Y,N,,,
-43101,unit dose vial,2.5,mL,N,N,,,
-10391,bottle,10,mL,N,Y,,,
-16521,bottle,10,mL,N,Y,,,
-16452,bottle,10,mL,N,Y,,,
-43108,bottle,10,mL,N,Y,,,
-68321,cartridge,3,mL,N,Y,,,
-69441,vial,10,mL,N,Y,,,
-86282,cartridge,3,mL,N,Y,,,
-94775,vial,10,mL,N,Y,,,
-94776,cartridge,3,mL,N,Y,,,
-94777,pen,3,mL,N,Y,,,
-75736,cartridge,3,mL,N,Y,,,
-89748,pen,3,mL,N,Y,,,
-92621,pen,1.5,mL,N,Y,,,
-12570,cartridge,3,mL,N,Y,,,
-14261,vial,10,mL,N,Y,,,
-14266,cartridge,3,mL,N,Y,,,
-88825,pen,3,mL,N,Y,,,
-47871,vial,10,mL,N,Y,,,
-47872,cartridge,3,mL,N,Y,,,
-88822,pen,3,mL,N,Y,,,
-92402,pen,3,mL,N,Y,,,
-5326,vial,10,mL,N,Y,,,
-61553,tube,0.5,mL,Y,N,,,
-61553,tube,1,mL,Y,N,,,
-61553,tube,1.5,mL,Y,N,,,
-61553,tube,3,mL,Y,N,,,
-61553,tube,4,mL,Y,N,,,
-69384,sachet,2.5,g,N,Y,,,
-69385,sachet,5,g,N,Y,,,
-11011,vial,10,mL,Y,N,,,
-74553,vial,10,mL,Y,N,,,
-9613,vial,5,mL,Y,N,,,
-10312,vial,10,mL,Y,N,,,
-31358,vial,10,mL,Y,N,,,
-8118,vial,1,mL,Y,N,,,
-50516,vial,10,mL,Y,N,,,
-16848,vial,10,mL,N,N,,,
-93234,vial,10,mL,Y,N,,,
-43431,ampoule,1,mL,Y,N,,,
-70198,vial,10,mL,Y,N,,,
-11224,vial,10,mL,Y,N,,,
-13414,vial,10,mL,Y,N,,,
-47450,vial,5,mL,Y,N,,,
-13998,vial,5,mL,Y,N,,,
-47461,vial,5,mL,Y,N,,,
-35794,vial,1,mL,Y,N,,,
-44212,ampoule,1,mL,Y,N,,,
-82711,vial,12.5,mL,Y,N,,,
-4703,ampoule,5,mL,Y,N,,,
-36481,vial,1,mL,Y,N,,,
-36481,vial,10,mL,Y,N,,,
-6593,vial,5,mL,Y,N,,,
-13255,vial,5,mL,Y,N,,,
-36480,vial,1,mL,Y,N,,,
-87333,vial,1,mL,Y,N,,,
-12208,vial,1,mL,Y,N,,,
-18325,vial,1,mL,Y,N,,,
-18325,vial,5,mL,Y,N,,,
-18325,vial,50,mL,Y,N,,,
-86244,vial,4,mL,Y,N,,,
-86244,vial,8,mL,Y,N,,,
-6872,vial,30,mL,N,Y,,,
-65676,vial,20,mL,N,Y,,,
-31288,vial,50,mL,N,Y,,,
-49612,vial,60,mL,N,Y,,,
-49612,vial,120,mL,N,Y,,,
-49605,vial,2,mL,Y,N,,,
-49605,vial,4,mL,Y,N,,,
-49605,vial,6,mL,Y,N,,,
-13077,vial,5,mL,Y,N,,,
-13077,vial,10,mL,Y,N,,,
-13077,vial,50,mL,N,Y,,,
-31285,vial,5,mL,Y,N,,,
-31285,vial,50,mL,N,Y,,,
-3043,ampoule,1,ml,Y,N,,,
-13078,vial,1,ml,Y,N,,,
-13078,vial,50,mL,N,Y,,,
-31286,vial,50,mL,N,Y,,,
-66221,vial,1,ml,Y,N,,,
-6690,ampoule,1,ml,Y,N,,,
-6690,ampoule,4,ml,Y,N,,,
-13079,vial,30,mL,N,Y,,,
-7421,vial,1,ml,Y,N,,,
-7421,vial,5,mL,Y,N,,,
-7421,vial,10,mL,Y,N,,,
-7421,vial,50,mL,N,Y,,,
-70586,bag,250,mL,N,Y,,,
-70586,bottle,250,mL,N,Y,,,
-91749,bag,250,mL,N,Y,,,
-65646,ampoule,1,mL,Y,N,,,
-10954,bottle,100,mL,Y,N,,,
-74685,bag,100,mL,Y,N,,,
-74685,bag,200,mL,Y,N,,,
-87397,bottle,100,mL,Y,N,,,
-51066,vial,20,mL,Y,N,,,
-87646,vial,20,mL,Y,N,,,
-87304,vial,20,mL,Y,N,,,
-87304,vial,40,mL,Y,N,,,
-42910,vial,10,mL,Y,N,,,
-79483,bag,250,mL,N,Y,,,
-65675,ampoule,1,mL,Y,N,,,
-8487,ampoule,1,mL,Y,N,,,
-65673,ampoule,1,mL,Y,N,,,
-8121,ampoule,1,mL,Y,N,,,
-65674,ampoule,1,mL,Y,N,,,
-8120,ampoule,1,mL,Y,N,,,
-4226,vial,10,mL,Y,N,,,
-5705,vial,10,mL,Y,N,,,
-5704,vial,10,mL,Y,N,,,
-94330,vial,10,mL,Y,N,,,
-12237,vial,1,mL,Y,N,,,
-94414,ampoule,1,mL,Y,N,,,
-94415,ampoule,20,mL,Y,N,,,
-94416,ampoule,5,mL,Y,N,,,
-94416,ampoule,20,mL,Y,N,,,
-790,ampoule,1,mL,N,N,,,
-11096,ampoule,1,mL,Y,N,,,
-14758,unit dose vial,2,mL,N,Y,,,
-50747,unit dose vial,2,mL,N,Y,,,
-95417,unit dose vial,2,mL,Y,N,,,
-95418,unit dose vial,2,mL,Y,N,,,
-94899,vial,2,mL,Y,N,,,
-94899,vial,4,mL,Y,N,,,
-94916,pen,3,mL,N,Y,,,
-92667,unit dose ampoule,2.4,mL,N,N,,,
-94632,pen,3,mL,Y,N,,,
-95856,vial,10,mL,Y,N,,,
-11880,ampoule,3,mL,Y,N,,,
-95424,vial,2.5,mL,Y,N,,,
-82498,vial,2,mL,Y,N,,,
-92145,vial,20,mL,Y,N,,,
-92145,vial,50,mL,Y,N,,,
-92145,vial,100,mL,Y,N,,,
-95736,vial,2.4,mL,Y,N,,,
-95736,vial,10,mL,Y,N,,,
-87104,ampoule,1,mL,Y,N,,,
-87104,ampoule,3,mL,Y,N,,,
-80824,vial,1,mL,Y,N,,,
-80824,vial,4,mL,Y,N,,,
-78998,vial,1,mL,Y,N,,,
-78998,vial,4,mL,Y,N,,,
-95860,syringe,1,mL,Y,N,,,
-66196,vial,10,mL,Y,N,,,
-89675,vial,2,mL,Y,N,,,
-89675,vial,5,mL,Y,N,,,
-89675,vial,15,mL,Y,N,,,
-89675,vial,25,mL,Y,N,,,
-95815,vial,12,mL,Y,N,,,
-95819,vial,24,mL,Y,N,,,
-13163,ampoule,1,mL,Y,N,,,
-95389,vial,5,mL,Y,N,,,
-95561,vial,10,mL,Y,N,,,
-95790,vial,50,mL,N,N,,,
-94712,syringe,1,mL,N,N,,,
-94711,syringe,0.5,mL,N,N,,,
-75098,vial,2,mL,Y,N,,,
-75098,vial,4,mL,Y,N,,,
-75099,vial,20,mL,N,Y,,,
-75986,vial,2,mL,Y,N,,,
-75986,vial,4,mL,Y,N,,,
-76501,vial,2,mL,Y,N,,,
-76501,vial,4,mL,Y,N,,,
-76502,vial,20,mL,N,Y,,,
-43137,ampoule,2,mL,Y,N,,,
-43137,ampoule,4,mL,Y,N,,,
-43137,vial,20,mL,N,Y,,,
-87549,ampoule,2,mL,Y,N,,,
-87549,ampoule,4,mL,Y,N,,,
-87549,vial,2,mL,Y,N,,,
-87549,vial,4,mL,Y,N,,,
-87552,vial,20,mL,N,Y,,,
-90500,ampoule,2,mL,Y,N,,,
-90500,ampoule,4,mL,Y,N,,,
-90500,vial,2,mL,Y,N,,,
-90500,vial,4,mL,Y,N,,,
-90501,vial,20,mL,N,Y,,,
-75730,vial,2,mL,Y,N,,,
-75730,vial,4,mL,Y,N,,,
-75731,vial,20,mL,N,Y,,,
-75987,vial,2,mL,Y,N,,,
-75987,vial,4,mL,Y,N,,,
-75988,vial,20,mL,N,Y,,,
-18025,ampoule,1,mL,Y,N,,,
-18025,vial,10,mL,Y,N,,,
-86832,ampoule,1,mL,Y,N,,,
-86843,ampoule,1,mL,Y,N,,,
-87828,vial,1,mL,Y,N,,,
-93978,vial,1,mL,Y,N,,,
-94280,vial,1,mL,Y,N,,,
-18024,vial,2,mL,Y,N,,,
-87829,vial,2,mL,Y,N,,,
-95935,syringe,2,mL,Y,N,,,
-94760,vial,20,mL,Y,N,,,
-95016,vial,25,mL,Y,N,,,
-76591,tube,5,g,N,Y,,,
-78663,bag,100,mL,Y,N,,,
-78663,bag,200,mL,Y,N,,,
-86325,bag,100,mL,Y,N,,,
-86325,bag,200,mL,Y,N,,,
-75287,bag,100,mL,Y,N,,,
-75287,bag,200,mL,Y,N,,,
-78723,bag,100,mL,Y,N,,,
-78723,bag,200,mL,Y,N,,,
-78981,bag,100,mL,Y,N,,,
-78981,bag,200,mL,Y,N,,,
-79003,bag,100,mL,Y,N,,,
-79003,bag,200,mL,Y,N,,,
-74200,vial,20,mL,Y,N,,,
-74200,vial,40,mL,Y,N,,,
-95624,pen,3,mL,N,Y,,,
-95623,pen,3,mL,N,Y,,,
+"drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"97920","vial","2","mL","Y","N","02489147","ERFA-AMIKACIN ERFA CANADA 2012 INC","fiole"
+"98251","syringe","1.14","mL","N","N","02492504","DUPIXENT SANOFI-AVENTIS CANADA INC","seringue"
+"96585","bag","100","mL","N","N","02475472","RADICAVA MITSUBISHI TANABE PHARMA CORPORATION","sac"
+"95880","pen","3","mL","N","Y","02469871","ADMELOG SOLOSTAR SANOFI-AVENTIS CANADA INC","stylo"
+"95881","vial","10","mL","N","Y","02469901","ADMELOG SANOFI-AVENTIS CANADA INC","fiole"
+"95877","cartridge","3","mL","N","Y","02469898","ADMELOG SANOFI-AVENTIS CANADA INC","cartouche"
+"97207","sachet","0.9","g","N","N","02481618","POLYSPORIN SINGLES JOHNSON & JOHNSON INC","sachet"
+"97762","pen","0.36","mL","N","N","02487462","REKOVELLE FERRING INC","stylo"
+"97763","pen","1.08","mL","N","N","02487470","REKOVELLE FERRING INC","stylo"
+"97764","pen","2.16","mL","N","N","02487489","REKOVELLE FERRING INC","stylo"
+"98048","vial","5","mL","Y","N","02490439","PDP-LEVETIRACETAM PENDOPHARM DIVISION OF PHARMASCIENCE INC","fiole"
+"98110","pen","1","mL","Y","N","02491087","EMGALITY ELI LILLY CANADA INC","stylo"
+"98107","syringe","1","mL","Y","N","02491060","EMGALITY ELI LILLY CANADA INC","seringue"
+"98241","vial","14","mL","N","N","02492393","TECENTRIQ HOFFMANN-LA ROCHE LIMITED","fiole"
+"97953","vial","16","mL","N","N","02489449","ZIRABEV PFIZER CANADA ULC","fiole"
+"97952","vial","4","mL","N","N","02489430","ZIRABEV PFIZER CANADA ULC","fiole"
+"97064","vial","5","mL","Y","N","02480042","LEUCOVORIN CALCIUM INJECTION GENERIC MEDICAL PARTNERS INC","fiole"
+"95254","vial","2","mL","Y","N","02464381","DEXMEDETOMIDINE HYDROCHLORIDE FOR INJECTION AURO PHARMA INC","fiole"
+"94161","syringe","0.2","mL","N","N","02454831","METOJECT SUBCUTANEOUS MEDEXUS INC","seringue"
+"94144","syringe","0.25","mL","N","N","02454750","METOJECT SUBCUTANEOUS MEDEXUS INC","seringue"
+"1181","vial","50","mL","N","Y","00038024","MANNITOL INJECTION USP PFIZER CANADA ULC","fiole"
+"10517","bag","1000","mL","N","Y","00060410","OSMITROL 10% INJ USP BAXTER CORPORATION","sac"
+"31283","vial","10","mL","Y","N","02137186","SODIUM THIOSULFATE INJECTION USP PFIZER CANADA ULC","fiole"
+"97578","bag","100","mL","N","N","02485540","HYDROMORPHONE HYDROCHLORIDE INJECTION USP STERINOVA INC","sac"
+"97577","bag","50","mL","N","N","02485532","HYDROMORPHONE HYDROCHLORIDE INJECTION USP STERINOVA INC","sac"
+"92837","vial","20","mL","Y","N","02443686","BUPIVACAINE INJECTION BP STERIMAX INC","fiole"
+"16161","ampoule","10","mL","Y","N","01976141","SENSORCAINE ASPEN PHARMACARE CANADA INC","ampoule"
+"16161","vial","20","mL","Y","N","01976141","SENSORCAINE ASPEN PHARMACARE CANADA INC","fiole"
+"65588","vial","10","mL","Y","N","02241918","MARCAINE PFIZER CANADA INC","fiole"
+"65588","vial","20","mL","Y","N","02241918","MARCAINE PFIZER CANADA INC","fiole"
+"65589","vial","10","mL","Y","N","02241919","MARCAINE PFIZER CANADA INC","fiole"
+"65589","vial","20","mL","Y","N","02241919","MARCAINE PFIZER CANADA INC","fiole"
+"16164","ampoule","10","mL","Y","N","01976168","SENSORCAINE ASPEN PHARMACARE CANADA INC","ampoule"
+"16164","vial","20","mL","Y","N","01976168","SENSORCAINE ASPEN PHARMACARE CANADA INC","fiole"
+"92838","vial","10","mL","Y","N","02443694","BUPIVACAINE INJECTION BP STERIMAX INC","fiole"
+"92838","vial","20","mL","Y","N","02443694","BUPIVACAINE INJECTION BP STERIMAX INC","fiole"
+"94807","ampoule","2","mL","Y","N","02460645","BUPIVACAINE HYDROCHLORIDE IN DEXTROSE INJECTION USP STERIMAX INC","ampoule"
+"65584","ampoule","2","mL","N","N","02241914","MARCAINE SPINAL PFIZER CANADA INC","ampoule"
+"65587","vial","20","mL","N","N","02241917","MARCAINE PFIZER CANADA INC","fiole"
+"79145","vial","50","mL","N","N","02305909","MARCAINE PFIZER CANADA INC","fiole"
+"79144","vial","50","mL","N","N","02305895","MARCAINE PFIZER CANADA INC","fiole"
+"64173","vial","10","mL","N","N","02240602","BUSULFEX OTSUKA PHARMACEUTICAL CO LTD","fiole"
+"95184","vial","10","mL","N","N","02463733","BUSULFAN FOR INJECTION STERIMAX INC","fiole"
+"12837","vial","2","mL","Y","N","01926691","CALCIMAR SOLUTION INJ 200UNIT/ML SANOFI-AVENTIS CANADA INC","fiole"
+"94767","vial","1","mL","Y","N","02460351","ILARIS NOVARTIS PHARMACEUTICALS CANADA INC","fiole"
+"3906","vial","1.5","mL","N","Y","00042544","MIOSTAT OPHTHALMIC LIQ 0.01% ALCON CANADA INC","fiole"
+"50960","vial","1","mL","Y","N","02231593","DURATOCIN INJECTION FERRING INC","fiole"
+"43846","vial","5","mL","Y","N","02126680","CARBOPLATIN INJECTION BP PFIZER CANADA INC","fiole"
+"43846","vial","15","mL","Y","N","02126680","CARBOPLATIN INJECTION BP PFIZER CANADA INC","fiole"
+"43846","vial","45","mL","Y","N","02126680","CARBOPLATIN INJECTION BP PFIZER CANADA INC","fiole"
+"43846","vial","60","mL","Y","N","02126680","CARBOPLATIN INJECTION BP PFIZER CANADA INC","fiole"
+"17830","vial","5","mL","Y","N","02125439","CARBOPLATIN INJECTION TEVA CANADA LIMITED","fiole"
+"17830","vial","15","mL","Y","N","02125439","CARBOPLATIN INJECTION TEVA CANADA LIMITED","fiole"
+"17830","vial","45","mL","Y","N","02125439","CARBOPLATIN INJECTION TEVA CANADA LIMITED","fiole"
+"17830","vial","60","mL","Y","N","02125439","CARBOPLATIN INJECTION TEVA CANADA LIMITED","fiole"
+"85093","vial","5","mL","Y","N","02366053","CARBOPLATIN INJECTION OMEGA LABORATORIES LTD","fiole"
+"85093","vial","15","mL","Y","N","02366053","CARBOPLATIN INJECTION OMEGA LABORATORIES LTD","fiole"
+"85093","vial","45","mL","Y","N","02366053","CARBOPLATIN INJECTION OMEGA LABORATORIES LTD","fiole"
+"85093","vial","60","mL","Y","N","02366053","CARBOPLATIN INJECTION OMEGA LABORATORIES LTD","fiole"
+"80581","vial","5","mL","Y","N","02320371","CARBOPLATIN INJECTION ACCORD HEALTHCARE INC","fiole"
+"80581","vial","15","mL","Y","N","02320371","CARBOPLATIN INJECTION ACCORD HEALTHCARE INC","fiole"
+"80581","vial","45","mL","Y","N","02320371","CARBOPLATIN INJECTION ACCORD HEALTHCARE INC","fiole"
+"49287","ampoule","1","mL","Y","N","02230417","HEMABATE PFIZER CANADA INC","ampoule"
+"75672","vial","50","mL","Y","N","02271249","ERBITUX IMCLONE LLC","fiole"
+"75672","vial","100","mL","Y","N","02271249","ERBITUX IMCLONE LLC","fiole"
+"84686","pre-filled pen","2.4","mL","N","N","02361817","BYETTA ASTRAZENECA CANADA INC","stylo prérempli"
+"84685","pre-filled pen","1.2","mL","N","N","02361809","BYETTA ASTRAZENECA CANADA INC","stylo prérempli"
+"96413","cartridge","1.08","mL","N","N","02474085","REKOVELLE FERRING INC","cartouche"
+"96412","cartridge","2.16","mL","N","N","02474077","REKOVELLE FERRING INC","cartouche"
+"96414","cartridge","0.36","mL","N","N","02474093","REKOVELLE FERRING INC","cartouche"
+"425","vial","2","mL","Y","N","00030732","LINCOCIN PFIZER CANADA INC","fiole"
+"96490","bottle","3","mL","N","Y","02474719","PENTHROX PURDUE PHARMA","bouteille"
+"19357","vial","10","mL","Y","N","02184486","PROCAINAMIDE HYDROCHLORIDE INJ. USP SANDOZ CANADA INCORPORATED","fiole"
+"96058","pre-filled pen","1.5","mL","N","N","02471469","OZEMPIC NOVO NORDISK CANADA INC","stylo prérempli"
+"96059","pen","1.5","mL","N","Y","02471477","OZEMPIC NOVO NORDISK CANADA INC","stylo"
+"43417","vial","5.5","mL","N","Y","02225166","SUPREFACT SANOFI-AVENTIS CANADA INC","fiole"
+"43196","vial","5","mL","Y","N","02216973","REOPRO JANSSEN INC","fiole"
+"70033","syringe","0.67","mL","N","Y","02245913","KINERET SWEDISH ORPHAN BIOVITRUM AB (PUBL)","seringue"
+"90487","vial","2","mL","Y","N","02420287","JAMP-TOBRAMYCIN JAMP PHARMA CORPORATION","fiole"
+"90487","vial","30","mL","N","Y","02420287","JAMP-TOBRAMYCIN JAMP PHARMA CORPORATION","fiole"
+"73983","pre-filled pen","3","mL","N","N","02254689","FORTEO ELI LILLY CANADA INC","stylo prérempli"
+"86314","vial","2","mL","Y","N","02377438","HALAVEN EISAI LIMITED","fiole"
+"50926","vial","20","mL","Y","N","02231590","ABELCET LEADIANT BIOSCIENCES INC","fiole"
+"10770","vial","50","mL","Y","N","00821780","CALCIJECT INJ 100MG/ML OMEGA LABORATORIES LTD","fiole"
+"81737","syringe","1","mL","Y","N","02331675","CIMZIA UCB CANADA INC","seringue"
+"95373","syringe","1","mL","Y","N","02465574","CIMZIA UCB CANADA INC","seringue"
+"74742","syringe","0.5","mL","N","N","02262088","OVIDREL EMD SERONO A DIVISION OF EMD INC CANADA","seringue"
+"85673","pen","0.5","mL","N","N","02371588","OVIDREL EMD SERONO A DIVISION OF EMD INC CANADA","stylo"
+"16224","vial","10","mL","Y","N","02091143","MICRO PLUS 4 CONCENTRATE SANDOZ CANADA INCORPORATED","fiole"
+"19923","vial","5","mL","Y","N","02091135","MICRO PLUS 4 REGULAR STRENGTH SANDOZ CANADA INCORPORATED","fiole"
+"13523","vial","10","mL","Y","N","00786985","MICRO CR SANDOZ CANADA INCORPORATED","fiole"
+"43840","vial","50","mL","Y","N","02126613","CISPLATIN INJECTION BP PFIZER CANADA INC","fiole"
+"43840","vial","100","mL","Y","N","02126613","CISPLATIN INJECTION BP PFIZER CANADA INC","fiole"
+"85155","vial","10","mL","Y","N","02366711","CISPLATIN INJECTION BP SANDOZ CANADA INCORPORATED","fiole"
+"85155","vial","50","mL","Y","N","02366711","CISPLATIN INJECTION BP SANDOZ CANADA INCORPORATED","fiole"
+"85155","vial","100","mL","Y","N","02366711","CISPLATIN INJECTION BP SANDOZ CANADA INCORPORATED","fiole"
+"88800","vial","10","mL","Y","N","02403188","CISPLATIN INJECTION TEVA CANADA LIMITED","fiole"
+"88800","vial","50","mL","Y","N","02403188","CISPLATIN INJECTION TEVA CANADA LIMITED","fiole"
+"88800","vial","100","mL","Y","N","02403188","CISPLATIN INJECTION TEVA CANADA LIMITED","fiole"
+"80536","vial","10","mL","Y","N","02319918","CLADRIBINE INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"81614","vial","20","mL","Y","N","02330407","CLOLAR SANOFI-AVENTIS CANADA INC","fiole"
+"13563","vial","10","mL","Y","N","00786969","MICRO CU SANDOZ CANADA INCORPORATED","fiole"
+"43843","vial","1","mL","Y","N","02126656","CYTARABINE INJECTION PFIZER CANADA INC","fiole"
+"43843","vial","10","mL","Y","N","02126656","CYTARABINE INJECTION PFIZER CANADA INC","fiole"
+"43843","vial","20","mL","Y","N","02126656","CYTARABINE INJECTION PFIZER CANADA INC","fiole"
+"89145","vial","10","mL","Y","N","02406772","PMS-CYTARABINE PHARMASCIENCE INC","fiole"
+"89145","vial","20","mL","Y","N","02406772","PMS-CYTARABINE PHARMASCIENCE INC","fiole"
+"89144","vial","5","mL","Y","N","02406764","PMS-CYTARABINE PHARMASCIENCE INC","fiole"
+"89144","vial","25","mL","Y","N","02406764","PMS-CYTARABINE PHARMASCIENCE INC","fiole"
+"94282","vial","5","mL","N","N","02455951","DARZALEX JANSSEN INC","fiole"
+"94283","vial","20","mL","N","N","02455978","DARZALEX JANSSEN INC","fiole"
+"84699","vial","2","mL","Y","N","02361957","DOCETAXEL INJECTION USP PFIZER CANADA INC","fiole"
+"84699","vial","8","mL","Y","N","02361957","DOCETAXEL INJECTION USP PFIZER CANADA INC","fiole"
+"84699","vial","16","mL","Y","N","02361957","DOCETAXEL INJECTION USP PFIZER CANADA INC","fiole"
+"92370","vial","2","mL","Y","N","02439336","DOCETAXEL INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"92370","vial","8","mL","Y","N","02439336","DOCETAXEL INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"92370","vial","16","mL","Y","N","02439336","DOCETAXEL INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"92134","vial","1","mL","Y","N","02437031","DOCETAXEL INJECTION ACCORD HEALTHCARE INC","fiole"
+"92134","vial","4","mL","Y","N","02437031","DOCETAXEL INJECTION ACCORD HEALTHCARE INC","fiole"
+"92134","vial","8","mL","Y","N","02437031","DOCETAXEL INJECTION ACCORD HEALTHCARE INC","fiole"
+"94508","vial","1","mL","Y","N","02458020","DOCETAXEL INJECTION BIOLYSE PHARMA CORPORATION","fiole"
+"94508","vial","4","mL","Y","N","02458020","DOCETAXEL INJECTION BIOLYSE PHARMA CORPORATION","fiole"
+"94508","vial","8","mL","Y","N","02458020","DOCETAXEL INJECTION BIOLYSE PHARMA CORPORATION","fiole"
+"86113","vial","5","mL","Y","N","02375710","DOXORUBICIN HYDROCHLORIDE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"86113","vial","25","mL","Y","N","02375710","DOXORUBICIN HYDROCHLORIDE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"86113","vial","100","mL","N","Y","02375710","DOXORUBICIN HYDROCHLORIDE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"86785","vial","5","mL","Y","N","02381982","DOXORUBICIN INJECTION ACCORD HEALTHCARE INC","fiole"
+"86785","vial","10","mL","Y","N","02381982","DOXORUBICIN INJECTION ACCORD HEALTHCARE INC","fiole"
+"86785","vial","25","mL","Y","N","02381982","DOXORUBICIN INJECTION ACCORD HEALTHCARE INC","fiole"
+"86785","vial","100","mL","N","Y","02381982","DOXORUBICIN INJECTION ACCORD HEALTHCARE INC","fiole"
+"89399","vial","5","mL","Y","N","02409275","DOXORUBICIN HYDROCHLORIDE INJECTION TEVA CANADA LIMITED","fiole"
+"89399","vial","25","mL","Y","N","02409275","DOXORUBICIN HYDROCHLORIDE INJECTION TEVA CANADA LIMITED","fiole"
+"89399","vial","100","mL","N","Y","02409275","DOXORUBICIN HYDROCHLORIDE INJECTION TEVA CANADA LIMITED","fiole"
+"89506","vial","5","mL","Y","N","02410397","DOXORUBICIN PFIZER CANADA INC","fiole"
+"89506","vial","25","mL","Y","N","02410397","DOXORUBICIN PFIZER CANADA INC","fiole"
+"89506","vial","100","mL","N","Y","02410397","DOXORUBICIN PFIZER CANADA INC","fiole"
+"61804","vial","10","mL","Y","N","02238389","CAELYX JANSSEN INC","fiole"
+"91171","vial","5","mL","Y","N","02427184","VIMIZIM BIOMARIN INTERNATIONAL LIMITED","fiole"
+"75043","vial","5","mL","Y","N","02264927","EPIRUBICIN HYDROCHLORIDE INJECTION PFIZER CANADA INC","fiole"
+"75043","vial","25","mL","Y","N","02264927","EPIRUBICIN HYDROCHLORIDE INJECTION PFIZER CANADA INC","fiole"
+"75043","vial","50","mL","Y","N","02264927","EPIRUBICIN HYDROCHLORIDE INJECTION PFIZER CANADA INC","fiole"
+"75043","vial","100","mL","N","Y","02264927","EPIRUBICIN HYDROCHLORIDE INJECTION PFIZER CANADA INC","fiole"
+"80958","vial","5","mL","Y","N","02324091","EPIRUBICIN FOR INJECTION TEVA CANADA LIMITED","fiole"
+"80958","vial","10","mL","Y","N","02324091","EPIRUBICIN FOR INJECTION TEVA CANADA LIMITED","fiole"
+"80958","vial","25","mL","Y","N","02324091","EPIRUBICIN FOR INJECTION TEVA CANADA LIMITED","fiole"
+"80958","vial","75","mL","Y","N","02324091","EPIRUBICIN FOR INJECTION TEVA CANADA LIMITED","fiole"
+"80958","vial","100","mL","N","Y","02324091","EPIRUBICIN FOR INJECTION TEVA CANADA LIMITED","fiole"
+"89507","vial","5","mL","Y","N","02410400","PMS-EPIRUBICIN PHARMASCIENCE INC","fiole"
+"89507","vial","25","mL","Y","N","02410400","PMS-EPIRUBICIN PHARMASCIENCE INC","fiole"
+"89507","vial","100","mL","N","Y","02410400","PMS-EPIRUBICIN PHARMASCIENCE INC","fiole"
+"50949","syringe","0.5","mL","N","N","02231583","EPREX STERILE SOLUTION 1000IU/0.5ML JANSSEN INC","seringue"
+"50953","syringe","1","mL","Y","N","02231587","EPREX STERILE SOLUTION 10000IU/1.0ML JANSSEN INC","seringue"
+"50950","syringe","0.5","mL","N","N","02231584","EPREX STERILE SOLUTION 2000IU/0.5ML JANSSEN INC","seringue"
+"67133","syringe","0.5","mL","N","N","02243239","EPREX STERILE SOLUTION JANSSEN INC","seringue"
+"50951","syringe","0.3","mL","N","N","02231585","EPREX STERILE SOLUTION 3000IU/0.3ML JANSSEN INC","seringue"
+"77409","syringe","0.75","mL","N","N","02288680","EPREX STERILE SOLUTION JANSSEN INC","seringue"
+"50952","syringe","0.4","mL","N","N","02231586","EPREX STERILE SOLUTION 4000IU/0.4ML JANSSEN INC","seringue"
+"64311","syringe","1","mL","Y","N","02240722","EPREX STERILE SOLUTION 40000IU/ML JANSSEN INC","seringue"
+"67308","syringe","0.5","mL","N","N","02243400","EPREX STERILE SOLUTION 5000IU/0.5ML JANSSEN INC","seringue"
+"67309","syringe","0.6","mL","N","N","02243401","EPREX STERILE SOLUTION 6000 IU/0.6 ML JANSSEN INC","seringue"
+"67311","syringe","0.8","mL","N","N","02243403","EPREX STERILE SOLUTION 8000 IU/0.8 ML JANSSEN INC","seringue"
+"63892","vial","100","mL","N","Y","02240351","INTEGRILIN MERCK CANADA INC","fiole"
+"63894","vial","10","mL","Y","N","02240352","INTEGRILIN MERCK CANADA INC","fiole"
+"92564","ampoule","1","mL","Y","N","02441241","ERGONOVINE MALEATE INJECTION TELIGENT OU","ampoule"
+"16507","vial","5","mL","Y","N","02080036","ETOPOSIDE INJECTION TEVA CANADA LIMITED","fiole"
+"16507","vial","10","mL","Y","N","02080036","ETOPOSIDE INJECTION TEVA CANADA LIMITED","fiole"
+"16507","vial","20","mL","Y","N","02080036","ETOPOSIDE INJECTION TEVA CANADA LIMITED","fiole"
+"16507","vial","25","mL","Y","N","02080036","ETOPOSIDE INJECTION TEVA CANADA LIMITED","fiole"
+"16507","vial","50","mL","Y","N","02080036","ETOPOSIDE INJECTION TEVA CANADA LIMITED","fiole"
+"86669","vial","5","mL","Y","N","02380935","ETOPOSIDE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"86669","vial","10","mL","Y","N","02380935","ETOPOSIDE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"86669","vial","25","mL","Y","N","02380935","ETOPOSIDE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"86669","vial","50","mL","Y","N","02380935","ETOPOSIDE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"92587","syringe","0.5","mL","N","N","02441489","GRASTOFIL APOTEX INC","seringue"
+"12474","vial","1","mL","Y","N","01968017","NEUPOGEN AMGEN CANADA INC","fiole"
+"12474","vial","1.6","mL","Y","N","01968017","NEUPOGEN AMGEN CANADA INC","fiole"
+"94117","syringe","0.8","mL","N","N","02454548","GRASTOFIL APOTEX INC","seringue"
+"90471","syringe","0.5","mL","Y","N","02420104","NEUPOGEN AMGEN CANADA INC","seringue"
+"90472","syringe","0.8","mL","Y","N","02420112","NEUPOGEN AMGEN CANADA INC","seringue"
+"76943","vial","2","mL","Y","N","02283859","FLUDARABINE PHOSPHATE FOR INJECTION TEVA CANADA LIMITED","fiole"
+"73439","vial","5","mL","Y","N","02249561","FLUMAZENIL INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"75176","vial","5","mL","Y","N","02266342","FLUMAZENIL INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"75176","vial","10","mL","Y","N","02266342","FLUMAZENIL INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"75578","pen","0.5","mL","N","N","02270404","GONAL-F PEN EMD SERONO A DIVISION OF EMD INC CANADA","stylo"
+"75577","pen","0.75","mL","N","N","02270390","GONAL-F PEN EMD SERONO A DIVISION OF EMD INC CANADA","stylo"
+"75576","pen","1.5","mL","N","N","02270382","GONAL-F PEN EMD SERONO A DIVISION OF EMD INC CANADA","stylo"
+"66154","vial","0.5","mL","N","N","02242441","PUREGON MERCK CANADA INC","fiole"
+"66152","vial","0.5","mL","N","N","02242439","PUREGON MERCK CANADA INC","fiole"
+"89735","vial","5","mL","Y","N","02412683","NAGLAZYME BIOMARIN PHARMACEUTICAL INC","fiole"
+"88767","vial","5.3","mL","N","Y","02402831","GEMCITABINE INJECTION PFIZER CANADA INC","fiole"
+"88767","vial","26.3","mL","N","Y","02402831","GEMCITABINE INJECTION PFIZER CANADA INC","fiole"
+"88767","vial","52.6","mL","N","Y","02402831","GEMCITABINE INJECTION PFIZER CANADA INC","fiole"
+"91752","vial","5.3","mL","N","Y","02433117","ACT GEMCITABINE ACTAVIS PHARMA COMPANY","fiole"
+"91752","vial","26.3","mL","N","Y","02433117","ACT GEMCITABINE ACTAVIS PHARMA COMPANY","fiole"
+"91752","vial","52.6","mL","N","Y","02433117","ACT GEMCITABINE ACTAVIS PHARMA COMPANY","fiole"
+"89685","vial","5","mL","N","Y","02412292","GEMCITABINE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"89685","vial","25","mL","N","Y","02412292","GEMCITABINE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"89685","vial","50","mL","N","Y","02412292","GEMCITABINE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"13156","ampoule","1","mL","Y","N","01927620","MYOCHRYSINE SANOFI-AVENTIS CANADA INC","ampoule"
+"12846","ampoule","1","mL","Y","N","01927612","MYOCHRYSINE SANOFI-AVENTIS CANADA INC","ampoule"
+"12845","ampoule","1","mL","Y","N","01927604","MYOCHRYSINE SANOFI-AVENTIS CANADA INC","ampoule"
+"89785","syringe","1","mL","N","N","02413175","SIMPONI JANSSEN INC","seringue"
+"89786","syringe","1","mL","N","N","02413183","SIMPONI JANSSEN INC","seringue"
+"81020","syringe","0.5","mL","N","N","02324776","SIMPONI JANSSEN INC","seringue"
+"81021","syringe","0.5","mL","N","N","02324784","SIMPONI JANSSEN INC","seringue"
+"90217","vial","4","mL","N","N","02417472","SIMPONI I.V. JANSSEN INC","fiole"
+"89467","vial","5","mL","Y","N","02410028","IDARUBICIN PFIZER CANADA INC","fiole"
+"89467","vial","10","mL","Y","N","02410028","IDARUBICIN PFIZER CANADA INC","fiole"
+"89467","vial","20","mL","Y","N","02410028","IDARUBICIN PFIZER CANADA INC","fiole"
+"78165","vial","3","mL","Y","N","02296314","ELAPRASE SHIRE HUMAN GENETIC THERAPIES INC","fiole"
+"6261","vial","10","mL","Y","N","00623571","SALIJECT 570MG/ML OMEGA LABORATORIES LTD","fiole"
+"1619","vial","1","mL","Y","N","00260428","DEPO-MEDROL WITH LIDOCAINE PFIZER CANADA INC","fiole"
+"1619","vial","2","mL","Y","N","00260428","DEPO-MEDROL WITH LIDOCAINE PFIZER CANADA INC","fiole"
+"1619","vial","5","mL","Y","N","00260428","DEPO-MEDROL WITH LIDOCAINE PFIZER CANADA INC","fiole"
+"72981","syringe","5","mL","Y","N","02248624","FASLODEX ASTRAZENECA CANADA INC","seringue"
+"84044","vial","10","mL","Y","N","02355183","CISPLATIN INJECTION BP ACCORD HEALTHCARE INC","fiole"
+"84044","vial","50","mL","Y","N","02355183","CISPLATIN INJECTION BP ACCORD HEALTHCARE INC","fiole"
+"84044","vial","100","mL","Y","N","02355183","CISPLATIN INJECTION BP ACCORD HEALTHCARE INC","fiole"
+"94091","vial","50","mL","Y","N","02454343","PRAXBIND BOEHRINGER INGELHEIM (CANADA) LTD LTEE","fiole"
+"78773","vial","20","mL","Y","N","02302411","XYLOCAINE 1% ASPEN PHARMACARE CANADA INC","fiole"
+"78773","vial","50","mL","Y","N","02302411","XYLOCAINE 1% ASPEN PHARMACARE CANADA INC","fiole"
+"78774","vial","20","mL","Y","N","02302438","XYLOCAINE 2% ASPEN PHARMACARE CANADA INC","fiole"
+"78774","vial","50","mL","Y","N","02302438","XYLOCAINE 2% ASPEN PHARMACARE CANADA INC","fiole"
+"62105","vial","3","mL","Y","N","02238674","INTRON A MERCK CANADA INC","fiole"
+"64280","pen","1.2","mL","N","Y","02240693","INTRON A MERCK CANADA INC","stylo"
+"64281","pen","1.2","mL","N","Y","02240694","INTRON A MERCK CANADA INC","stylo"
+"64282","pen","1.2","mL","N","Y","02240695","INTRON A MERCK CANADA INC","stylo"
+"60641","syringe","0.5","mL","N","N","02237319","REBIF EMD SERONO A DIVISION OF EMD INC CANADA","seringue"
+"60642","syringe","0.5","mL","N","N","02237320","REBIF EMD SERONO A DIVISION OF EMD INC CANADA","seringue"
+"80376","cartridge","1.5","mL","N","N","02318253","REBIF EMD SERONO A DIVISION OF EMD INC CANADA","cartouche"
+"80377","cartridge","1.5","mL","N","N","02318261","REBIF EMD SERONO A DIVISION OF EMD INC CANADA","cartouche"
+"13600","vial","10","mL","Y","N","01974548","MICRO I SANDOZ CANADA INCORPORATED","fiole"
+"86525","vial","10","mL","Y","N","02379384","YERVOY BRISTOL-MYERS SQUIBB CANADA","fiole"
+"86525","vial","40","mL","Y","N","02379384","YERVOY BRISTOL-MYERS SQUIBB CANADA","fiole"
+"11642","ampoule","1","mL","Y","N","00897639","ISOPROTERENOL HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","ampoule"
+"11642","vial","5","mL","Y","N","00897639","ISOPROTERENOL HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"94193","syringe","1","mL","Y","N","02455102","TALTZ ELI LILLY CANADA INC","seringue"
+"94194","syringe","1","mL","Y","N","02455110","TALTZ ELI LILLY CANADA INC","seringue"
+"76900","syringe","0.5","mL","N","N","02283395","SOMATULINE AUTOGEL IPSEN BIOPHARM LIMITED","seringue"
+"76901","syringe","0.5","mL","N","N","02283409","SOMATULINE AUTOGEL IPSEN BIOPHARM LIMITED","seringue"
+"76902","syringe","0.5","mL","N","N","02283417","SOMATULINE AUTOGEL IPSEN BIOPHARM LIMITED","seringue"
+"73940","vial","5","mL","Y","N","02254506","ALDURAZYME SANOFI GENZYME A DIVISION OF SANOFI-AVENTIS CANADA INC","fiole"
+"18209","vial","50","mL","Y","N","02087316","LEUCOVORIN CALCIUM INJECTION TEVA CANADA LIMITED","fiole"
+"44265","vial","50","mL","Y","N","02182998","LEUCOVORIN CALCIUM INJECTION USP PFIZER CANADA INC","fiole"
+"44266","vial","5","mL","Y","N","02183005","LEUCOVORIN CALCIUM INJECTION USP PFIZER CANADA INC","fiole"
+"585","ampoule","2","mL","Y","N","00001732","XYLOCAINE 1% ASPEN PHARMACARE CANADA INC","ampoule"
+"585","ampoule","5","mL","Y","N","00001732","XYLOCAINE 1% ASPEN PHARMACARE CANADA INC","ampoule"
+"585","ampoule","10","mL","Y","N","00001732","XYLOCAINE 1% ASPEN PHARMACARE CANADA INC","ampoule"
+"4478","ampoule","5","mL","N","N","00001937","XYLOCARD ASPEN PHARMACARE CANADA INC","ampoule"
+"7367","vial","2.8","mL","N","Y","00727695","LUPRON ABBVIE CORPORATION","fiole"
+"85810","vial","20","mL","Y","N","02372983","XYLOCAINE 0.5% ASPEN PHARMACARE CANADA INC","fiole"
+"587","ampoule","2","mL","Y","N","00036641","XYLOCAINE 2% ASPEN PHARMACARE CANADA INC","ampoule"
+"587","ampoule","5","mL","Y","N","00036641","XYLOCAINE 2% ASPEN PHARMACARE CANADA INC","ampoule"
+"587","ampoule","10","mL","Y","N","00036641","XYLOCAINE 2% ASPEN PHARMACARE CANADA INC","ampoule"
+"90668","ampoule","5","mL","Y","N","02421984","LIDOCAINE HCL INJECTION TELIGENT OU","ampoule"
+"90668","ampoule","10","mL","Y","N","02421984","LIDOCAINE HCL INJECTION TELIGENT OU","ampoule"
+"90668","vial","5","mL","Y","N","02421984","LIDOCAINE HCL INJECTION TELIGENT OU","fiole"
+"90671","ampoule","5","mL","Y","N","02421992","LIDOCAINE HCL INJECTION TELIGENT OU","ampoule"
+"90671","ampoule","10","mL","Y","N","02421992","LIDOCAINE HCL INJECTION TELIGENT OU","ampoule"
+"90672","vial","20","mL","Y","N","02422026","LIDOCAINE HCL INJECTION WITH PRESERVATIVE TELIGENT OU","fiole"
+"90672","vial","50","mL","Y","N","02422026","LIDOCAINE HCL INJECTION WITH PRESERVATIVE TELIGENT OU","fiole"
+"90670","vial","20","mL","Y","N","02422018","LIDOCAINE HCL INJECTION WITH PRESERVATIVE TELIGENT OU","fiole"
+"90670","vial","50","mL","Y","N","02422018","LIDOCAINE HCL INJECTION WITH PRESERVATIVE TELIGENT OU","fiole"
+"2743","cartridge","1.8","mL","N","Y","00364304","ISOCAINE HCL INJ 3% NOVOCOL PHARMACEUTICAL OF CANADA INC","cartouche"
+"3804","cartridge","1.8","mL","N","Y","00479934","SCANDONEST 3% PLAIN INJ SEPTODONT","cartouche"
+"65671","vial","20","mL","Y","N","02242001","CARBOCAINE 2% PFIZER CANADA INC","fiole"
+"81649","cartridge","1.8","mL","N","Y","02330733","3% POLOCAINE DENTAL DENTSPLY CANADA LIMITED","cartouche"
+"79388","vial","0.6","mL","Y","N","02308215","RELISTOR SALIX PHARMACEUTICALS INC","fiole"
+"68844","vial","10","mL","Y","N","02244854","MILRINONE LACTATE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"68844","vial","20","mL","Y","N","02244854","MILRINONE LACTATE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"68609","vial","10","mL","Y","N","02244622","MILRINONE LACTATE INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"68609","vial","20","mL","Y","N","02244622","MILRINONE LACTATE INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"77176","vial","10","mL","Y","N","02286300","MITOXANTRONE INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"91954","cartridge","1.8","mL","N","Y","02435276","4% CITANEST PLAIN DENTAL DENTSPLY CANADA LIMITED","cartouche"
+"4787","ampoule","1","mL","N","N","00541869","SCOPOLAMINE HYDROBROMIDE INJECTION USP PFIZER CANADA INC","ampoule"
+"66635","vial","1","mL","Y","N","02242810","SCOPOLAMINE HYDROBROMIDE INJECTION OMEGA LABORATORIES LTD","fiole"
+"4788","ampoule","1","mL","N","N","00541877","SCOPOLAMINE HYDROBROMIDE INJECTION USP PFIZER CANADA INC","ampoule"
+"66636","vial","1","mL","Y","N","02242811","SCOPOLAMINE HYDROBROMIDE INJECTION OMEGA LABORATORIES LTD","fiole"
+"13416","vial","10","mL","Y","N","00787000","MICRO ZN SANDOZ CANADA INCORPORATED","fiole"
+"13451","vial","10","mL","Y","N","00787019","MICRO ZN SANDOZ CANADA INCORPORATED","fiole"
+"68929","vial","10","mL","Y","N","02244931","MESNA FOR INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"89096","vial","10","mL","Y","N","02406233","UVADEX THERAKOS INC","fiole"
+"85696","vial","10","mL","Y","N","02371839","UROMITEXAN BAXTER CORPORATION","fiole"
+"85696","vial","50","mL","Y","N","02371839","UROMITEXAN BAXTER CORPORATION","fiole"
+"68601","vial","10","mL","Y","N","02244614","MITOXANTRONE INJECTION USP PFIZER CANADA INC","fiole"
+"68601","vial","12.5","mL","Y","N","02244614","MITOXANTRONE INJECTION USP PFIZER CANADA INC","fiole"
+"68601","vial","15","mL","Y","N","02244614","MITOXANTRONE INJECTION USP PFIZER CANADA INC","fiole"
+"65047","ampoule","4","mL","Y","N","02241411","UROMITEXAN BAXTER CORPORATION","ampoule"
+"65047","ampoule","10","mL","Y","N","02241411","UROMITEXAN BAXTER CORPORATION","ampoule"
+"13486","vial","10","mL","Y","N","00786942","MICRO MN SANDOZ CANADA INCORPORATED","fiole"
+"94341","vial","10","mL","Y","N","02456524","ACYCLOVIR SODIUM INJECTION STERIMAX INC","fiole"
+"94341","vial","20","mL","Y","N","02456524","ACYCLOVIR SODIUM INJECTION STERIMAX INC","fiole"
+"12645","ampoule","2","mL","Y","N","00884154","LIDOCAINE HYDROCHLORIDE INJECTION USP 1% HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"12645","ampoule","5","mL","Y","N","00884154","LIDOCAINE HYDROCHLORIDE INJECTION USP 1% HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"12645","vial","20","mL","Y","N","00884154","LIDOCAINE HYDROCHLORIDE INJECTION USP 1% HOSPIRA HEALTHCARE CORPORATION","fiole"
+"12645","vial","50","mL","Y","N","00884154","LIDOCAINE HYDROCHLORIDE INJECTION USP 1% HOSPIRA HEALTHCARE CORPORATION","fiole"
+"18012","vial","5","mL","Y","N","01901982","LIDOCAINE HYDROCHLORIDE INJECTION USP 2% HOSPIRA HEALTHCARE CORPORATION","fiole"
+"18012","vial","20","mL","Y","N","01901982","LIDOCAINE HYDROCHLORIDE INJECTION USP 2% HOSPIRA HEALTHCARE CORPORATION","fiole"
+"18012","vial","50","mL","Y","N","01901982","LIDOCAINE HYDROCHLORIDE INJECTION USP 2% HOSPIRA HEALTHCARE CORPORATION","fiole"
+"18012","ampoule","2","mL","Y","N","01901982","LIDOCAINE HYDROCHLORIDE INJECTION USP 2% HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"18012","ampoule","10","mL","Y","N","01901982","LIDOCAINE HYDROCHLORIDE INJECTION USP 2% HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"84276","vial","20","mL","Y","N","02357666","VIMPAT UCB CANADA INC","fiole"
+"62106","vial","1","mL","Y","N","02238675","INTRON A MERCK CANADA INC","fiole"
+"62106","vial","2.5","mL","Y","N","02238675","INTRON A MERCK CANADA INC","fiole"
+"79791","vial","2","mL","Y","N","02312409","IRINOTECAN FOR INJECTION TEVA CANADA LIMITED","fiole"
+"79791","vial","5","mL","Y","N","02312409","IRINOTECAN FOR INJECTION TEVA CANADA LIMITED","fiole"
+"79791","vial","25","mL","Y","N","02312409","IRINOTECAN FOR INJECTION TEVA CANADA LIMITED","fiole"
+"84269","vial","2","mL","Y","N","02357585","IRINOTECAN HYDROCHLORIDE INJECTION USP ACCORD HEALTHCARE INC","fiole"
+"84269","vial","5","mL","Y","N","02357585","IRINOTECAN HYDROCHLORIDE INJECTION USP ACCORD HEALTHCARE INC","fiole"
+"84269","vial","25","mL","Y","N","02357585","IRINOTECAN HYDROCHLORIDE INJECTION USP ACCORD HEALTHCARE INC","fiole"
+"9776","vial","10","mL","Y","N","00783978","ROBAXIMOL INJ 100MG/ML MONTREAL VETERINARY PRODUCTS INC.","fiole"
+"89508","vial","2","mL","Y","N","02410419","IRINOTECAN PFIZER CANADA INC","fiole"
+"89508","vial","5","mL","Y","N","02410419","IRINOTECAN PFIZER CANADA INC","fiole"
+"89508","vial","15","mL","Y","N","02410419","IRINOTECAN PFIZER CANADA INC","fiole"
+"74343","vial","2","mL","Y","N","02258218","IRINOTECAN HYDROCHLORIDE INJECTION USP PFIZER CANADA INC","fiole"
+"74343","vial","5","mL","Y","N","02258218","IRINOTECAN HYDROCHLORIDE INJECTION USP PFIZER CANADA INC","fiole"
+"74343","vial","25","mL","Y","N","02258218","IRINOTECAN HYDROCHLORIDE INJECTION USP PFIZER CANADA INC","fiole"
+"69741","syringe","0.5","mL","N","N","02245641","ORGALUTRAN MERCK CANADA INC","seringue"
+"94809","syringe","1","mL","Y","N","02460661","GLATECT PHARMASCIENCE INC","seringue"
+"69719","syringe","1","mL","Y","N","02245619","COPAXONE TEVA CANADA LIMITED","seringue"
+"94398","syringe","1","mL","Y","N","02456915","COPAXONE TEVA CANADA LIMITED","seringue"
+"91034","syringe","3","mL","Y","N","02425696","FIRAZYR SHIRE ORPHAN THERAPIES LLC","seringue"
+"96906","pen","3","mL","N","Y","02478293","SOLIQUA SANOFI-AVENTIS CANADA INC","stylo"
+"18936","vial","10","mL","Y","N","02141019","CALCIUM GLUCONATE INJECTION USP 10% FRESENIUS KABI CANADA LTD","fiole"
+"18936","vial","50","mL","Y","N","02141019","CALCIUM GLUCONATE INJECTION USP 10% FRESENIUS KABI CANADA LTD","fiole"
+"18936","vial","100","mL","N","Y","02141019","CALCIUM GLUCONATE INJECTION USP 10% FRESENIUS KABI CANADA LTD","fiole"
+"19437","syringe","2","mL","Y","N","02145820","ADENOCARD INJECTION -PRE-FILLED SYRINGE ASTELLAS PHARMA CANADA INC","seringue"
+"19437","syringe","4","mL","Y","N","02145820","ADENOCARD INJECTION -PRE-FILLED SYRINGE ASTELLAS PHARMA CANADA INC","seringue"
+"75307","vial","2","mL","Y","N","02267659","ADENOSINE INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"94452","syringe","2","mL","Y","N","02457474","ADENOSINE INJECTION FRESENIUS KABI CANADA LTD","seringue"
+"94453","syringe","4","mL","Y","N","02457482","ADENOSINE INJECTION FRESENIUS KABI CANADA LTD","seringue"
+"89255","ampoule","10","mL","N","N","02407833","TRISENOX TEVA CANADA LIMITED","ampoule"
+"66820","vial","1.5","mL","Y","N","02242980","ANTIZOL PALADIN LABS INC","fiole"
+"92000","vial","1.5","mL","Y","N","02435667","FOMEPIZOLE FOR INJECTION STERIMAX INC","fiole"
+"92855","vial","10","mL","Y","N","02443805","CYRAMZA ELI LILLY CANADA INC","fiole"
+"92855","vial","50","mL","Y","N","02443805","CYRAMZA ELI LILLY CANADA INC","fiole"
+"65597","vial","10","mL","Y","N","02241927","RITUXAN HOFFMANN-LA ROCHE LIMITED","fiole"
+"65597","vial","50","mL","Y","N","02241927","RITUXAN HOFFMANN-LA ROCHE LIMITED","fiole"
+"94441","vial","11.7","mL","N","N","02457350","RITUXAN SC HOFFMANN-LA ROCHE LIMITED","fiole"
+"96398","vial","13.4","mL","N","N","02473976","RITUXAN SC HOFFMANN-LA ROCHE LIMITED","fiole"
+"17797","vial","5","mL","Y","N","02108208","ZEMURON MERCK CANADA INC","fiole"
+"80363","vial","5","mL","Y","N","02318121","ROCURONIUM BROMIDE INJECTION PFIZER CANADA INC","fiole"
+"80390","vial","5","mL","Y","N","02318415","ROCURONIUM BROMIDE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"86826","vial","5","mL","Y","N","02382415","ROCURONIUM BROMIDE INJECTION OMEGA LABORATORIES LTD","fiole"
+"86826","vial","10","mL","Y","N","02382415","ROCURONIUM BROMIDE INJECTION OMEGA LABORATORIES LTD","fiole"
+"47216","bag","100","mL","Y","N","02229411","NAROPIN ASPEN PHARMACARE CANADA INC.","sac"
+"47216","bag","200","mL","Y","N","02229411","NAROPIN ASPEN PHARMACARE CANADA INC.","sac"
+"47220","ampoule","20","mL","Y","N","02229415","NAROPIN ASPEN PHARMACARE CANADA INC.","ampoule"
+"47225","ampoule","10","mL","Y","N","02229418","NAROPIN ASPEN PHARMACARE CANADA INC.","ampoule"
+"47225","ampoule","20","mL","Y","N","02229418","NAROPIN ASPEN PHARMACARE CANADA INC.","ampoule"
+"83319","vial","30","mL","Y","N","02347822","ROPIVACAINE HYDROCHLORIDE INJECTION USP PFIZER CANADA INC","fiole"
+"83320","vial","10","mL","Y","N","02347830","ROPIVACAINE HYDROCHLORIDE INJECTION USP PFIZER CANADA INC","fiole"
+"83320","vial","20","mL","Y","N","02347830","ROPIVACAINE HYDROCHLORIDE INJECTION USP PFIZER CANADA INC","fiole"
+"94796","syringe","1.14","mL","N","N","02460521","KEVZARA SANOFI-AVENTIS CANADA INC","seringue"
+"94797","syringe","1.14","mL","N","N","02460548","KEVZARA SANOFI-AVENTIS CANADA INC","seringue"
+"96232","pen","1.14","mL","N","N","02472961","KEVZARA SANOFI-AVENTIS CANADA INC","stylo"
+"96233","pen","1.14","mL","N","N","02472988","KEVZARA SANOFI-AVENTIS CANADA INC","stylo"
+"95840","vial","10","mL","Y","N","02469596","KANUMA ALEXION PHARMA GMBH","fiole"
+"92243","pen","1","mL","Y","N","02438070","COSENTYX NOVARTIS PHARMACEUTICALS CANADA INC","stylo"
+"92243","syringe","1","mL","Y","N","02438070","COSENTYX NOVARTIS PHARMACEUTICALS CANADA INC","seringue"
+"13559","vial","10","mL","Y","N","01986007","MICRO SE SANDOZ CANADA INCORPORATED","fiole"
+"84678","vial","2","mL","Y","N","02361736","NIPRIDE PFIZER CANADA INC","fiole"
+"8274","vial","2","mL","Y","N","00511226","TROMBOJECT 3% INJ 30MG/ML OMEGA LABORATORIES LTD","fiole"
+"8274","vial","5","mL","Y","N","00511226","TROMBOJECT 3% INJ 30MG/ML OMEGA LABORATORIES LTD","fiole"
+"8275","vial","2","mL","Y","N","00511234","TROMBOJECT 1% INJ 10MG/ML OMEGA LABORATORIES LTD","fiole"
+"90702","vial","10","mL","Y","N","02422336","SUCCINYLCHOLINE CHLORIDE INJECTION TELIGENT OU","fiole"
+"90702","vial","20","mL","Y","N","02422336","SUCCINYLCHOLINE CHLORIDE INJECTION TELIGENT OU","fiole"
+"68108","ampoule","1","mL","Y","N","02244147","SUFENTANIL CITRATE INJECTION USP SANDOZ CANADA INCORPORATED","ampoule"
+"68108","vial","5","mL","Y","N","02244147","SUFENTANIL CITRATE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"92657","ampoule","1","mL","Y","N","02442213","SUFENTANIL CITRATE INJECTION USP STERIMAX INC","ampoule"
+"92657","ampoule","5","mL","Y","N","02442213","SUFENTANIL CITRATE INJECTION USP STERIMAX INC","ampoule"
+"93817","vial","2","mL","Y","N","02451816","BRIDION MERCK CANADA INC","fiole"
+"93817","vial","5","mL","Y","N","02451816","BRIDION MERCK CANADA INC","fiole"
+"3725","ampoule","1","mL","Y","N","00253952","SYNACTHEN DEPOT MALLINCKRODT SPECIALTY PHARMACEUTICALS IRELAND LTD.","ampoule"
+"10063","ampoule","1","mL","Y","N","00816078","VITAMIN B1 SANDOZ CANADA INCORPORATED","ampoule"
+"10063","vial","10","mL","Y","N","00816078","VITAMIN B1 SANDOZ CANADA INCORPORATED","fiole"
+"35700","vial","10","mL","Y","N","02193221","THIAMIJECT INJECTION - LIQ IM IV 100MG/ML OMEGA LABORATORIES LTD","fiole"
+"64293","bag","250","mL","N","N","02240706","AGGRASTAT CIPHER PHARMACEUTICALS INC","sac"
+"83533","vial","4","mL","N","N","02350092","ACTEMRA HOFFMANN-LA ROCHE LIMITED","fiole"
+"83534","vial","10","mL","N","N","02350106","ACTEMRA HOFFMANN-LA ROCHE LIMITED","fiole"
+"83535","vial","20","mL","N","N","02350114","ACTEMRA HOFFMANN-LA ROCHE LIMITED","fiole"
+"90943","syringe","0.9","mL","N","N","02424770","ACTEMRA HOFFMANN-LA ROCHE LIMITED","seringue"
+"86529","vial","4","mL","Y","N","02379422","TOPOTECAN HYDROCHLORIDE FOR INJECTION PFIZER CANADA INC","fiole"
+"87637","vial","4","mL","Y","N","02390981","TOPOTECAN INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"88140","vial","1","mL","Y","N","02396378","TOPOTECAN HYDROCHLORIDE FOR INJECTION ACCORD HEALTHCARE INC","fiole"
+"88140","vial","4","mL","Y","N","02396378","TOPOTECAN HYDROCHLORIDE FOR INJECTION ACCORD HEALTHCARE INC","fiole"
+"18371","ampoule","5","mL","Y","N","02064413","CYKLOKAPRON 100 MG/ML PFIZER CANADA INC","ampoule"
+"18371","ampoule","10","mL","Y","N","02064413","CYKLOKAPRON 100 MG/ML PFIZER CANADA INC","ampoule"
+"70531","vial","5","mL","Y","N","02246365","TRANEXAMIC ACID INJECTION BP SANDOZ CANADA INCORPORATED","fiole"
+"70531","vial","10","mL","Y","N","02246365","TRANEXAMIC ACID INJECTION BP SANDOZ CANADA INCORPORATED","fiole"
+"70531","vial","50","mL","N","Y","02246365","TRANEXAMIC ACID INJECTION BP SANDOZ CANADA INCORPORATED","fiole"
+"87251","vial","5","mL","Y","N","02386933","TRANEXAMIC ACID INJECTION BP STERIMAX INC","fiole"
+"87251","vial","10","mL","Y","N","02386933","TRANEXAMIC ACID INJECTION BP STERIMAX INC","fiole"
+"87251","vial","50","mL","N","Y","02386933","TRANEXAMIC ACID INJECTION BP STERIMAX INC","fiole"
+"87801","vial","5","mL","Y","N","02392763","TRANEXAMIC ACID INJECTION OMEGA LABORATORIES LTD","fiole"
+"87801","vial","10","mL","Y","N","02392763","TRANEXAMIC ACID INJECTION OMEGA LABORATORIES LTD","fiole"
+"87801","vial","50","mL","N","Y","02392763","TRANEXAMIC ACID INJECTION OMEGA LABORATORIES LTD","fiole"
+"94449","vial","5","mL","Y","N","02457431","ERFA-TRANEXAMIC ERFA CANADA 2012 INC","fiole"
+"94449","vial","10","mL","Y","N","02457431","ERFA-TRANEXAMIC ERFA CANADA 2012 INC","fiole"
+"94449","vial","50","mL","N","Y","02457431","ERFA-TRANEXAMIC ERFA CANADA 2012 INC","fiole"
+"70735","vial","20","mL","Y","N","02246552","REMODULIN UNITED THERAPEUTICS CORPORATION","fiole"
+"70736","vial","20","mL","Y","N","02246553","REMODULIN UNITED THERAPEUTICS CORPORATION","fiole"
+"70737","vial","20","mL","Y","N","02246554","REMODULIN UNITED THERAPEUTICS CORPORATION","fiole"
+"70738","vial","20","mL","Y","N","02246555","REMODULIN UNITED THERAPEUTICS CORPORATION","fiole"
+"87478","syringe","1","mL","Y","N","02389282","DECAPEPTYL FERRING INC","seringue"
+"76514","syringe","0.5","mL","N","Y","02279525","D.O.R.C. VISION BLUE DUTCH OPHTHALMIC RESEARCH CENTER INTERNATIONAL BV","seringue"
+"80608","syringe","0.5","mL","N","N","02320673","STELARA JANSSEN INC","seringue"
+"80608","vial","0.5","mL","N","N","02320673","STELARA JANSSEN INC","fiole"
+"80609","syringe","1","mL","N","N","02320681","STELARA JANSSEN INC","seringue"
+"94698","vial","26","mL","Y","N","02459671","STELARA JANSSEN INC","fiole"
+"31359","vial","1","mL","Y","N","02139502","VASOPRESSIN INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"72248","vial","2","mL","Y","N","02247938","VASOPRESSIN INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"72248","vial","5","mL","Y","N","02247938","VASOPRESSIN INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"44270","vial","10","mL","Y","N","02183056","VINBLASTINE SULFATE INJECTION PFIZER CANADA INC","fiole"
+"88636","vial","10","mL","Y","N","02401460","VINBLASTINE SULPHATE INJECTION TEVA CANADA LIMITED","fiole"
+"19756","vial","1","mL","Y","N","02143305","VINCRISTINE SULFATE INJECTION TEVA CANADA LIMITED","fiole"
+"19756","vial","2","mL","Y","N","02143305","VINCRISTINE SULFATE INJECTION TEVA CANADA LIMITED","fiole"
+"19756","vial","5","mL","Y","N","02143305","VINCRISTINE SULFATE INJECTION TEVA CANADA LIMITED","fiole"
+"44267","vial","2","mL","Y","N","02183013","VINCRISTINE SULFATE INJECTION USP PFIZER CANADA INC","fiole"
+"44267","vial","5","mL","Y","N","02183013","VINCRISTINE SULFATE INJECTION USP PFIZER CANADA INC","fiole"
+"74301","vial","1","mL","Y","N","02257777","VINORELBINE TARTRATE FOR INJECTION PFIZER CANADA INC","fiole"
+"74301","vial","5","mL","Y","N","02257777","VINORELBINE TARTRATE FOR INJECTION PFIZER CANADA INC","fiole"
+"75143","vial","1","mL","Y","N","02265990","VINORELBINE INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"75143","vial","5","mL","Y","N","02265990","VINORELBINE INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"75669","vial","1","mL","Y","N","02271214","VINORELBINE TARTRATE FOR INJECTION TEVA CANADA LIMITED","fiole"
+"75669","vial","5","mL","Y","N","02271214","VINORELBINE TARTRATE FOR INJECTION TEVA CANADA LIMITED","fiole"
+"91557","vial","1","mL","Y","N","02431130","VINORELBINE INJECTION USP GENERIC MEDICAL PARTNERS INC","fiole"
+"91557","vial","5","mL","Y","N","02431130","VINORELBINE INJECTION USP GENERIC MEDICAL PARTNERS INC","fiole"
+"84117","vial","50","mL","N","Y","02355981","ASCOR L 500 MCGUFF PHARMACEUTICALS INC","fiole"
+"69229","vial","50","mL","N","Y","02245214","VITAMIN C MYLAN PHARMACEUTICALS ULC","fiole"
+"9992","ampoule","2","mL","Y","N","00780634","VITAMIN C SANDOZ CANADA INCORPORATED","ampoule"
+"9993","ampoule","0.5","mL","Y","N","00781878","VITAMIN K1 INJ 1MG/0.5ML USP SANDOZ CANADA INCORPORATED","ampoule"
+"9994","ampoule","1","mL","Y","N","00804312","VITAMIN K1 INJ 10MG/ML USP SANDOZ CANADA INCORPORATED","ampoule"
+"227","vial","10","mL","Y","N","00038172","QUELICIN PFIZER CANADA INC","fiole"
+"227","vial","20","mL","Y","N","00038172","QUELICIN PFIZER CANADA INC","fiole"
+"2526","vial","10","mL","Y","N","00296163","QUELICIN PFIZER CANADA INC","fiole"
+"8042","vial","10","mL","Y","N","00727520","HEPARIN LEO 100UNIT/ML LEO PHARMA INC","fiole"
+"67875","applicator","1.5","mL","N","Y","02243933","LEVULAN KERASTICK DUSA PHARMACEUTICALS INC","applicateur"
+"78032","syringe","6","mL","N","Y","02294990","INSTILLAGEL PENDOPHARM DIVISION OF PHARMASCIENCE INC","seringue"
+"78032","syringe","11","mL","N","Y","02294990","INSTILLAGEL PENDOPHARM DIVISION OF PHARMASCIENCE INC","seringue"
+"16225","vial","10","mL","Y","N","02091178","MICRO PLUS 5 CONCENTRATE SANDOZ CANADA INCORPORATED","fiole"
+"5708","vial","5","mL","Y","N","00569046","TRACE ELEMENTS INJECTION USP PFIZER CANADA INC","fiole"
+"2744","cartridge","1.8","mL","N","Y","00393711","ISOCAINE HCL INJ 2% NOVOCOL PHARMACEUTICAL OF CANADA INC","cartouche"
+"83536","cartridge","1.03","mL","N","N","02350122","SAIZEN EMD SERONO A DIVISION OF EMD INC CANADA","cartouche"
+"83537","cartridge","1.5","mL","Y","N","02350130","SAIZEN EMD SERONO A DIVISION OF EMD INC CANADA","cartouche"
+"83538","cartridge","2.5","mL","Y","N","02350149","SAIZEN EMD SERONO A DIVISION OF EMD INC CANADA","cartouche"
+"97124","vial","5","mL","N","N","02480697","HERCEPTIN SC HOFFMANN-LA ROCHE LIMITED","fiole"
+"95820","vial","1","mL","Y","N","02469413","HYDROMORPHONE HYDROCHLORIDE INJECTION HP 50 STERIMAX INC","fiole"
+"95820","vial","50","mL","N","Y","02469413","HYDROMORPHONE HYDROCHLORIDE INJECTION HP 50 STERIMAX INC","fiole"
+"10492","syringe","2.5","mL","N","N","00860786","PREPIDIL GEL PFIZER CANADA INC","seringue"
+"11830","syringe","3","g","N","N","01919679","PROSTIN E2 VAGINAL GEL PFIZER CANADA INC","seringue"
+"11831","syringe","3","g","N","N","01919687","PROSTIN E2 VAGINAL GEL PFIZER CANADA INC","seringue"
+"1214","vial","20","mL","Y","N","00224391","KETALAR ERFA CANADA 2012 INC","fiole"
+"1215","vial","10","mL","Y","N","00224405","KETALAR ERFA CANADA 2012 INC","fiole"
+"70995","vial","2","mL","Y","N","02246795","KETAMINE HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"70995","vial","20","mL","Y","N","02246795","KETAMINE HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"70996","vial","2","mL","Y","N","02246796","KETAMINE HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"70996","vial","10","mL","Y","N","02246796","KETAMINE HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"77184","vial","15","mL","N","N","02286386","TYSABRI BIOGEN CANADA INC","fiole"
+"49701","vial","10","mL","Y","N","02230592","NEOSTIGMINE OMEGA OMEGA LABORATORIES LTD","fiole"
+"49702","vial","1","mL","Y","N","02230593","NEOSTIGMINE OMEGA OMEGA LABORATORIES LTD","fiole"
+"49702","vial","10","mL","Y","N","02230593","NEOSTIGMINE OMEGA OMEGA LABORATORIES LTD","fiole"
+"87274","vial","5","mL","Y","N","02387166","NEOSTIGMINE OMEGA OMEGA LABORATORIES LTD","fiole"
+"11641","vial","4","mL","Y","N","00893285","NOREPINEPHRINE BITARTRATE INJ 1MG/ML USP SANDOZ CANADA INCORPORATED","fiole"
+"65651","ampoule","4","mL","Y","N","02241981","LEVOPHED PFIZER CANADA INC","ampoule"
+"91910","vial","40","mL","Y","N","02434806","GAZYVA HOFFMANN-LA ROCHE LIMITED","fiole"
+"89546","vial","0.2","mL","N","Y","02410818","JETREA THROMBOGENICS NV","fiole"
+"93860","vial","0.3","mL","N","Y","02452154","JETREA THROMBOGENICS NV","fiole"
+"9915","ampoule","1","mL","Y","N","00839191","SANDOSTATIN 50MCG/ML NOVARTIS PHARMACEUTICALS CANADA INC","ampoule"
+"9916","ampoule","1","mL","Y","N","00839205","SANDOSTATIN 100MCG/ML NOVARTIS PHARMACEUTICALS CANADA INC","ampoule"
+"19627","vial","5","mL","Y","N","02049392","SANDOSTATIN 200MCG/ML NOVARTIS PHARMACEUTICALS CANADA INC","fiole"
+"72996","vial","1","mL","Y","N","02248639","OCTREOTIDE ACETATE OMEGA 50MCG/ML OMEGA LABORATORIES LTD","fiole"
+"72997","vial","1","mL","Y","N","02248640","OCTREOTIDE ACETATE OMEGA 100MCG/ML OMEGA LABORATORIES LTD","fiole"
+"72998","vial","1","mL","Y","N","02248641","OCTREOTIDE ACETATE OMEGA 500MCG/ML OMEGA LABORATORIES LTD","fiole"
+"72999","vial","5","mL","Y","N","02248642","OCTREOTIDE ACETATE OMEGA 200MCG/ML OMEGA LABORATORIES LTD","fiole"
+"89787","syringe","1","mL","Y","N","02413191","OCPHYL PENDOPHARM DIVISION OF PHARMASCIENCE INC","seringue"
+"78161","vial","10","mL","Y","N","02296284","ELOXATIN SANOFI-AVENTIS CANADA INC","fiole"
+"91937","vial","10","mL","Y","N","02435071","OXALIPLATIN INJECTION TEVA CANADA LIMITED","fiole"
+"91937","vial","20","mL","Y","N","02435071","OXALIPLATIN INJECTION TEVA CANADA LIMITED","fiole"
+"91937","vial","40","mL","Y","N","02435071","OXALIPLATIN INJECTION TEVA CANADA LIMITED","fiole"
+"92050","vial","10","mL","Y","N","02436167","OXALIPLATIN INJECTION ACCORD HEALTHCARE INC","fiole"
+"92050","vial","20","mL","Y","N","02436167","OXALIPLATIN INJECTION ACCORD HEALTHCARE INC","fiole"
+"92050","vial","40","mL","Y","N","02436167","OXALIPLATIN INJECTION ACCORD HEALTHCARE INC","fiole"
+"92127","vial","10","mL","Y","N","02436957","OXALIPLATIN INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"92127","vial","20","mL","Y","N","02436957","OXALIPLATIN INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"92127","vial","30","mL","Y","N","02436957","OXALIPLATIN INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"92127","vial","40","mL","Y","N","02436957","OXALIPLATIN INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"92996","vial","10","mL","Y","N","02444763","OXALIPLATIN PFIZER CANADA INC","fiole"
+"92996","vial","20","mL","Y","N","02444763","OXALIPLATIN PFIZER CANADA INC","fiole"
+"92996","vial","40","mL","Y","N","02444763","OXALIPLATIN PFIZER CANADA INC","fiole"
+"4293","ampoule","1","mL","Y","N","00497398","OXYTOCIN INJECTION USP PFIZER CANADA INC","ampoule"
+"4293","ampoule","5","mL","Y","N","00497398","OXYTOCIN INJECTION USP PFIZER CANADA INC","ampoule"
+"31361","vial","1","mL","Y","N","02139561","OXYTOCIN INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"31361","vial","10","mL","Y","N","02139561","OXYTOCIN INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"160","vial","2","mL","N","N","00009881","PAPAVERINE HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"92274","vial","1","mL","Y","N","02438364","SYNAGIS ABBVIE CORPORATION","fiole"
+"92275","vial","0.5","mL","N","N","02438372","SYNAGIS ABBVIE CORPORATION","fiole"
+"79412","vial","5","mL","N","N","02308487","VECTIBIX AMGEN CANADA INC","fiole"
+"79414","vial","20","mL","N","N","02308509","VECTIBIX AMGEN CANADA INC","fiole"
+"89797","ampoule","1","mL","Y","N","02413299","SIGNIFOR NOVARTIS PHARMACEUTICALS CANADA INC","ampoule"
+"89798","ampoule","1","mL","Y","N","02413302","SIGNIFOR NOVARTIS PHARMACEUTICALS CANADA INC","ampoule"
+"89799","ampoule","1","mL","Y","N","02413310","SIGNIFOR NOVARTIS PHARMACEUTICALS CANADA INC","ampoule"
+"94965","vial","5","mL","Y","N","02461900","ONCASPAR SHIRE PHARMA CANADA ULC","fiole"
+"73463","syringe","0.6","mL","Y","N","02249790","NEULASTA AMGEN CANADA INC","seringue"
+"94388","vial","4","mL","Y","N","02456869","KEYTRUDA MERCK CANADA INC","fiole"
+"88984","vial","14","mL","N","N","02405016","PERJETA HOFFMANN-LA ROCHE LIMITED","fiole"
+"78939","ampoule","1","mL","Y","N","02304082","PHENOBARBITAL SODIUM INJECTION USP SANDOZ CANADA INCORPORATED","ampoule"
+"78940","ampoule","1","mL","Y","N","02304090","PHENOBARBITAL SODIUM INJECTION USP SANDOZ CANADA INCORPORATED","ampoule"
+"67670","vial","1","mL","Y","N","02243737","PHENTOLAMINE MESYLATE INJECTION SANDOZ STANDARD SANDOZ CANADA INCORPORATED","fiole"
+"86284","vial","1.2","mL","Y","N","02377225","MOZOBIL SANOFI-AVENTIS CANADA INC","fiole"
+"65204","vial","1.5","mL","Y","N","02241551","CUROSURF CHIESI FARMACEUTICI S.P.A.","fiole"
+"65204","vial","3","mL","Y","N","02241551","CUROSURF CHIESI FARMACEUTICI S.P.A.","fiole"
+"68347","vial","50","mL","Y","N","02244379","PMS-PROPOFOL PHARMASCIENCE INC","fiole"
+"68347","vial","100","mL","Y","N","02244379","PMS-PROPOFOL PHARMASCIENCE INC","fiole"
+"68347","ampoule","20","mL","Y","N","02244379","PMS-PROPOFOL PHARMASCIENCE INC","ampoule"
+"92203","vial","20","mL","Y","N","02437643","PROPOFOL INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"92203","vial","50","mL","Y","N","02437643","PROPOFOL INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"92203","vial","100","mL","Y","N","02437643","PROPOFOL INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"92233","vial","20","mL","Y","N","02437961","ACT PROPOFOL ACTAVIS PHARMA COMPANY","fiole"
+"92233","vial","50","mL","Y","N","02437961","ACT PROPOFOL ACTAVIS PHARMA COMPANY","fiole"
+"92233","vial","100","mL","Y","N","02437961","ACT PROPOFOL ACTAVIS PHARMA COMPANY","fiole"
+"95676","vial","20","mL","Y","N","02468336","PROPOFOL BAXTER CORPORATION","fiole"
+"95676","vial","50","mL","Y","N","02468336","PROPOFOL BAXTER CORPORATION","fiole"
+"95676","vial","100","mL","Y","N","02468336","PROPOFOL BAXTER CORPORATION","fiole"
+"19443","vial","5","mL","Y","N","02139537","PROTAMINE SULFATE INJECTION USP FRESENIUS KABI CANADA LTD","fiole"
+"19443","vial","25","mL","Y","N","02139537","PROTAMINE SULFATE INJECTION USP FRESENIUS KABI CANADA LTD","fiole"
+"51049","vial","5","mL","Y","N","02231674","PROTAMINE SULFATE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"51049","vial","25","mL","Y","N","02231674","PROTAMINE SULFATE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"10526","vial","10","mL","Y","N","00453811","HEPARIN LEO INJ 1000UNIT/ML LEO PHARMA INC","fiole"
+"43006","vial","2","mL","Y","N","02205963","DEXIRON LUITPOLD PHARMACEUTICALS INC","fiole"
+"67648","vial","5","mL","Y","N","02243716","VENOFER LUITPOLD PHARMACEUTICALS INC","fiole"
+"67236","vial","5","mL","Y","N","02243333","FERRLECIT SANOFI-AVENTIS CANADA INC","fiole"
+"3088","vial","10","mL","Y","N","00392618","MAGNESIUM SULFATE INJ 20% USP SANDOZ CANADA INCORPORATED","fiole"
+"19701","vial","10","mL","Y","N","02139499","MAGNESIUM SULFATE INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"19701","vial","50","mL","N","Y","02139499","MAGNESIUM SULFATE INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"95963","ampoule","1","mL","Y","N","02470632","TRIAMCINOLONE HEXACETONIDE INJECTABLE SUSPENSION MEDEXUS INC","ampoule"
+"93939","vial","5","mL","Y","N","02452995","BRIVLERA UCB CANADA INC","fiole"
+"96526","ampoule","1","mL","Y","N","02474980","MORPHINE SULFATE INJECTION BP STERIMAX","ampoule"
+"96302","syringe","1.5","mL","N","N","02473623","SILIQ VALEANT CANADA LP/VALEANT CANADA S.E.C.","seringue"
+"96392","vial","5","mL","N","N","02473925","MAR-CIDOFOVIR MARCAN PHARMACEUTICALS INC","fiole"
+"97159","vial","2","mL","N","N","02480948","TAKHZYRO SHIRE PHARMA CANADA ULC","fiole"
+"18903","vial","5","mL","Y","N","02144344","CARNITOR LEADIANT BIOSCIENCES INC","fiole"
+"69230","vial","30","mL","Y","N","02245215","PYRIDOXINE HYDROCHLORIDE INJECTION USP MYLAN PHARMACEUTICALS ULC","fiole"
+"89357","vial","10","mL","Y","N","02408813","CISATRACURIUM OMEGA MULTIDOSE OMEGA LABORATORIES LTD","fiole"
+"91035","vial","10","mL","Y","N","02425718","CISATRACURIUM BESYLATE INJECTION PFIZER CANADA ULC","fiole"
+"10015","vial","10","mL","Y","N","00012882","FLUOROURACIL INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"10015","vial","100","mL","N","Y","00012882","FLUOROURACIL INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"42841","vial","100","mL","N","Y","02182742","FLUOROURACIL INJECTION USP PFIZER CANADA ULC","fiole"
+"89810","vial","100","mL","N","Y","02413450","FLUOROURACIL INJECTION USP ACCORD HEALTHCARE INC","fiole"
+"93552","vial","10","mL","Y","N","02449692","TARO-OXALIPLATIN TARO PHARMACEUTICALS INC","fiole"
+"93552","vial","20","mL","Y","N","02449692","TARO-OXALIPLATIN TARO PHARMACEUTICALS INC","fiole"
+"93552","vial","40","mL","Y","N","02449692","TARO-OXALIPLATIN TARO PHARMACEUTICALS INC","fiole"
+"92374","ampoule","10","mL","Y","N","02439379","ROPIVACAINE HYDROCHLORIDE INJECTION USP FRESENIUS KABI CANADA LTD","ampoule"
+"92374","ampoule","20","mL","Y","N","02439379","ROPIVACAINE HYDROCHLORIDE INJECTION USP FRESENIUS KABI CANADA LTD","ampoule"
+"92374","bag","100","mL","Y","N","02439379","ROPIVACAINE HYDROCHLORIDE INJECTION USP FRESENIUS KABI CANADA LTD","sac"
+"92374","bag","200","mL","Y","N","02439379","ROPIVACAINE HYDROCHLORIDE INJECTION USP FRESENIUS KABI CANADA LTD","sac"
+"50032","vial","1","mL","Y","N","02230770","METHYLENE BLUE INJECTION USP OMEGA LABORATORIES LTD","fiole"
+"50032","vial","5","mL","Y","N","02230770","METHYLENE BLUE INJECTION USP OMEGA LABORATORIES LTD","fiole"
+"91597","ampoule","5","mL","Y","N","02431548","METHYLENE BLUE INJECTION TELIGENT OU","ampoule"
+"69524","vial","3","mL","Y","N","02245464","BLES BLES BIOCHEMICALS INC","fiole"
+"69524","vial","4","mL","Y","N","02245464","BLES BLES BIOCHEMICALS INC","fiole"
+"69524","vial","5","mL","Y","N","02245464","BLES BLES BIOCHEMICALS INC","fiole"
+"14476","vial","20","mL","Y","N","02018950","DIPRIVAN 1% ASPEN PHARMACARE CANADA INC.","fiole"
+"14476","vial","50","mL","Y","N","02018950","DIPRIVAN 1% ASPEN PHARMACARE CANADA INC.","fiole"
+"14476","vial","100","mL","Y","N","02018950","DIPRIVAN 1% ASPEN PHARMACARE CANADA INC.","fiole"
+"87223","vial","100","mL","Y","N","02386666","SEACALPHYX SEAFORD PHARMACEUTICALS INC","fiole"
+"91283","vial","50","mL","Y","N","02428393","SODIUM THIOSULFATE INJECTION USP HOPE PHARMACEUTICALS LTD","fiole"
+"4432","ampoule","1","mL","Y","N","00521515","VITAMIN B12 SANDOZ CANADA INCORPORATED","ampoule"
+"4432","vial","10","mL","Y","N","00521515","VITAMIN B12 SANDOZ CANADA INCORPORATED","fiole"
+"4432","vial","30","mL","Y","N","00521515","VITAMIN B12 SANDOZ CANADA INCORPORATED","fiole"
+"13324","vial","10","mL","Y","N","01987003","CYANOCOBALAMIN INJECTION USP STERIMAX INC","fiole"
+"13324","vial","30","mL","Y","N","01987003","CYANOCOBALAMIN INJECTION USP STERIMAX INC","fiole"
+"65140","ampoule","1","mL","Y","N","02241500","VITAMIN B12 SANDOZ CANADA INCORPORATED","ampoule"
+"89842","vial","10","mL","Y","N","02413795","CYANOCOBALAMIN INJECTION USP MYLAN PHARMACEUTICALS ULC","fiole"
+"89842","vial","30","mL","Y","N","02413795","CYANOCOBALAMIN INJECTION USP MYLAN PHARMACEUTICALS ULC","fiole"
+"90475","vial","10","mL","Y","N","02420147","JAMP-CYANOCOBALAMIN JAMP PHARMA CORPORATION","fiole"
+"90475","vial","30","mL","Y","N","02420147","JAMP-CYANOCOBALAMIN JAMP PHARMA CORPORATION","fiole"
+"95136","ampoule","1","mL","Y","N","02463393","CYANOCOBALAMIN INJECTION USP TELIGENT OU","ampoule"
+"81048","cartridge","1.5","mL","N","N","02325063","OMNITROPE SANDOZ CANADA INCORPORATED","cartouche"
+"81049","cartridge","1.5","mL","N","N","02325071","OMNITROPE SANDOZ CANADA INCORPORATED","cartouche"
+"82048","pen","1.5","mL","N","N","02334852","NORDITROPIN NORDIFLEX NOVO NORDISK CANADA INC","stylo"
+"82049","pen","1.5","mL","N","N","02334860","NORDITROPIN NORDIFLEX NOVO NORDISK CANADA INC","stylo"
+"82050","pen","1.5","mL","N","N","02334879","NORDITROPIN NORDIFLEX NOVO NORDISK CANADA INC","stylo"
+"86186","pen","2","mL","N","N","02376393","NUTROPIN AQ NUSPIN 10 HOFFMANN-LA ROCHE LIMITED","stylo"
+"88398","pen","2","mL","N","N","02399083","NUTROPIN AQ NUSPIN 20 HOFFMANN-LA ROCHE LIMITED","stylo"
+"88400","pen","2","mL","N","N","02399091","NUTROPIN AQ NUSPIN 5 HOFFMANN-LA ROCHE LIMITED","stylo"
+"94695","cartridge","1.5","mL","N","N","02459647","OMNITROPE SANDOZ CANADA INCORPORATED","cartouche"
+"97029","syringe","1","mL","Y","N","02479613","AIMOVIG NOVARTIS PHARMACEUTICALS CANADA INC","seringue"
+"96866","vial","1","mL","Y","N","02477777","MONOFERRIC PHARMACOSMOS A/S","fiole"
+"96866","vial","5","mL","Y","N","02477777","MONOFERRIC PHARMACOSMOS A/S","fiole"
+"96866","vial","10","mL","Y","N","02477777","MONOFERRIC PHARMACOSMOS A/S","fiole"
+"1740","bag","500","mL","N","Y","00038016","MANNITOL INJECTION USP ICU MEDICAL CANADA INC","sac"
+"10516","bag","500","mL","N","Y","00060437","OSMITROL 20% INJ USP BAXTER CORPORATION","sac"
+"15491","bottle","2000","mL","N","Y","01963953","RESECTISOL (5% MANNITOL IRRIGATION) B. BRAUN MEDICAL INC","bouteille"
+"67055","vial","50","mL","N","Y","02243176","MANNITOL INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"3823","bag","3000","mL","N","Y","00498807","SORBITOL MANNITOL IRRIGATION ICU MEDICAL CANADA INC","sac"
+"9829","bag","3000","mL","N","Y","00799963","CYSTOSOL W 3% HEXITOLS BAXTER CORPORATION","sac"
+"95899","vial","10","mL","Y","N","02470047","MILRINONE LACTATE INJECTION AURO PHARMA INC","fiole"
+"95899","vial","20","mL","Y","N","02470047","MILRINONE LACTATE INJECTION AURO PHARMA INC","fiole"
+"94743","syringe","5","mL","Y","N","02460130","TEVA-FULVESTRANT INJECTION SINGLE USE PRE-FILLED SYRINGE TEVA CANADA LIMITED","seringue"
+"95633","vial","2","mL","Y","N","02467976","DEXMEDETOMIDINE HYDROCHLORIDE FOR INJECTION SINGLE-USE MDA INC","fiole"
+"95863","vial","5","mL","Y","N","02469774","ROCURONIUM BROMIDE INJECTION MDA INC","fiole"
+"55838","ampoule","5","mL","Y","N","02234470","ATGAM PFIZER CANADA ULC","ampoule"
+"97398","syringe","5","mL","Y","N","02483610","FULVESTRANT INJECTION SANDOZ CANADA INCORPORATED","seringue"
+"96212","vial","5","mL","N","N","02472805","ZOLEDRONIC ACID FOR INJECTION MARCAN PHARMACEUTICALS INC","fiole"
+"65586","vial","20","mL","N","N","02241916","MARCAINE E PFIZER CANADA ULC","fiole"
+"16162","vial","20","mL","Y","N","01976184","SENSORCAINE WITH EPINEPHRINE ASPEN PHARMACARE CANADA INC.","fiole"
+"16163","vial","20","mL","Y","N","01976206","SENSORCAINE WITH EPINEPHRINE ASPEN PHARMACARE CANADA INC.","fiole"
+"65585","vial","20","mL","N","N","02241915","MARCAINE E PFIZER CANADA ULC","fiole"
+"90632","cartridge","1.7","mL","N","N","02421666","ORAVERSE SEPTODONT","cartouche"
+"96479","syringe","0.6","mL","N","N","02474565","LAPELGA APOTEX INC","seringue"
+"97163","vial","2","mL","N","N","02481073","AMIKACIN SULFATE INJECTION USP MARCAN PHARMACEUTICALS INC","fiole"
+"97376","syringe","0.9","mL","N","N","02483327","ACTEMRA HOFFMANN-LA ROCHE LIMITED","seringue"
+"95553","vial","10","mL","N","N","02467135","ONIVYDE SERVIER CANADA INC","fiole"
+"80560","vial","5","mL","Y","N","02320150","PACLITAXEL INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"80560","vial","25","mL","Y","N","02320150","PACLITAXEL INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"80560","vial","50","mL","N","Y","02320150","PACLITAXEL INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"80560","vial","100","mL","N","Y","02320150","PACLITAXEL INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"87681","vial","5","mL","Y","N","02391465","PACLITAXEL INJECTION USP ACCORD HEALTHCARE INC","fiole"
+"87681","vial","50","mL","N","Y","02391465","PACLITAXEL INJECTION USP ACCORD HEALTHCARE INC","fiole"
+"68340","vial","5","mL","Y","N","02244372","PACLITAXEL FOR INJECTION BIOLYSE PHARMA CORPORATION","fiole"
+"68340","vial","25","mL","Y","N","02244372","PACLITAXEL FOR INJECTION BIOLYSE PHARMA CORPORATION","fiole"
+"68340","vial","50","mL","N","Y","02244372","PACLITAXEL FOR INJECTION BIOLYSE PHARMA CORPORATION","fiole"
+"92377","ampoule","10","mL","Y","N","02439409","ROPIVACAINE HYDROCHLORIDE INJECTION USP FRESENIUS KABI CANADA LTD","ampoule"
+"92377","ampoule","20","mL","Y","N","02439409","ROPIVACAINE HYDROCHLORIDE INJECTION USP FRESENIUS KABI CANADA LTD","ampoule"
+"96831","vial","2","mL","Y","N","02477327","DEXMEDETOMIDINE HYDROCHLORIDE FOR INJECTION ACCORD HEALTHCARE INC","fiole"
+"96833","vial","10","mL","Y","N","02477343","PMS-BUSULFAN PHARMASCIENCE INC","fiole"
+"85829","vial","20","mL","Y","N","02373130","XYLOCAINE 2% WITH EPINEPHRINE 1:200000 ASPEN PHARMACARE CANADA INC.","fiole"
+"589","vial","20","mL","Y","N","00001791","XYLOCAINE 1% W EPINEPHRINE 1:100000 ASPEN PHARMACARE CANADA INC.","fiole"
+"636","cartridge","1.8","mL","N","Y","00151866","OCTOCAINE HCL 2% EPINEPHRINE 1:100000 NOVOCOL PHARMACEUTICAL OF CANADA INC","cartouche"
+"92056","vial","20","mL","Y","N","02436221","LIDOCAINE 2% AND EPINEPHRINE 1:100000 INJECTION TELIGENT OU","fiole"
+"92056","vial","50","mL","Y","N","02436221","LIDOCAINE 2% AND EPINEPHRINE 1:100000 INJECTION TELIGENT OU","fiole"
+"83052","cartridge","1.8","mL","N","Y","02345072","XYLOCAINE DENTAL LIDOCAINE HYDROCHLORIDE 2% AND EPINEPHRINE 1:50000 DENTSPLY CANADA LIMITED","cartouche"
+"635","cartridge","1.8","mL","N","Y","00151874","OCTOCAINE HCL 2% EPINEPHRINE 1:50000 NOVOCOL PHARMACEUTICAL OF CANADA INC","cartouche"
+"82603","sachet","250","mg","N","N","02340445","ZYCLARA VALEANT CANADA LP/VALEANT CANADA S.E.C.","sachet"
+"82603","pump","15","g","N","N","02340445","ZYCLARA VALEANT CANADA LP/VALEANT CANADA S.E.C.","pompe"
+"85046","sachet","250","mg","N","N","02365561","VYLOMA VALEANT CANADA LP/VALEANT CANADA S.E.C.","sachet"
+"85046","pump","15","g","N","N","02365561","VYLOMA VALEANT CANADA LP/VALEANT CANADA S.E.C.","pompe"
+"62979","sachet","250","mg","N","N","02239505","ALDARA P VALEANT CANADA LP/VALEANT CANADA S.E.C.","sachet"
+"62979","pump","7.5","g","N","N","02239505","ALDARA P VALEANT CANADA LP/VALEANT CANADA S.E.C.","pompe"
+"75459","syringe","0.5","mL","N","N","02269201","AVONEX BIOGEN CANADA INC","seringue"
+"8351","syringe","5","mL","Y","N","00436208","2% LIDOCAINE HYDROCHLORIDE INJECTION USP HOSPIRA HEALTHCARE CORPORATION","seringue"
+"94162","syringe","0.3","mL","N","N","02454858","METOJECT SUBCUTANEOUS MEDEXUS INC","seringue"
+"96492","vial","20","mL","Y","N","02474735","METHOTREXATE INJECTION BP ACCORD HEALTHCARE INC","fiole"
+"96511","vial","40","mL","Y","N","02474891","METHOTREXATE INJECTION BP ACCORD HEALTHCARE INC","fiole"
+"96586","vial","10","mL","Y","N","02475480","NEOSTIGMINE METHYLSULFATE INJECTION USP MARCAN PHARMACEUTICALS INC","fiole"
+"96587","vial","10","mL","Y","N","02475499","NEOSTIGMINE METHYLSULFATE INJECTION USP MARCAN PHARMACEUTICALS INC","fiole"
+"96812","vial","1","mL","Y","N","02477254","PHENYLEPHRINE HYDROCHLORIDE INJECTION USP MARCAN PHARMACEUTICALS INC","fiole"
+"96981","vial","2","mL","Y","N","02479109","SODIUM NITROPRUSSIDE FOR INJECTION MARCAN PHARMACEUTICALS INC","fiole"
+"95943","ampoule","2","mL","Y","N","02470462","GENTAMICIN INJECTION USP TELIGENT OU","ampoule"
+"97748","syringe","1","mL","N","N","02487314","TREMFYA ONE-PRESS JANSSEN INC","seringue"
+"97338","pump","7.5","g","N","N","02482983","TARO-IMIQUIMOD PUMP TARO PHARMACEUTICALS INC","pompe"
+"10770","vial","10","mL","Y","N","00821780","CALCIJECT INJ 100MG/ML OMEGA LABORATORIES LTD","fiole"
+"4230","syringe","10","mL","Y","N","00294748","CALCIUM CHLORIDE INJECTION USP PFIZER CANADA ULC","seringue"
+"97728","vial","7","mL","N","N","02487144","LIBTAYO SANOFI-AVENTIS CANADA INC","fiole"
+"97727","vial","5","mL","N","N","02487152","LIBTAYO SANOFI-AVENTIS CANADA INC","fiole"
+"97761","syringe","0.83","mL","Y","N","02487454","SKYRIZI ABBVIE CORPORATION","seringue"
+"97399","vial","1","mL","Y","N","02483629","CRYSVITA KYOWA KIRIN LIMITED","fiole"
+"97400","vial","1","mL","Y","N","02483637","CRYSVITA KYOWA KIRIN LIMITED","fiole"
+"97401","vial","1","mL","Y","N","02483645","CRYSVITA KYOWA KIRIN LIMITED","fiole"
+"97347","vial","5","mL","Y","N","02483076","UNITUXIN UNITED THERAPEUTICS CORPORATION","fiole"
+"97187","syringe","1.5","mL","N","N","02481383","TEGSEDI AKCEA THERAPEUTICS INC","seringue"
+"97230","vial","1","mL","Y","N","02481820","FOLOTYN SERVIER CANADA INC","fiole"
+"2828","cartridge","1.8","mL","N","Y","00393746","PRILOCAINE HCL 4% EPINEPH 1:200000INJ NOVOCOL PHARMACEUTICAL OF CANADA INC","cartouche"
+"83307","cartridge","1.8","mL","N","Y","02347695","4% CITANEST FORTE DENTAL WITH EPINEPHRINE 1:200,000 DENTSPLY CANADA LIMITED","cartouche"
+"97746","syringe","1","mL","Y","N","02487306","AIMOVIG NOVARTIS PHARMACEUTICALS CANADA INC","seringue"
+"96420","cartridge","1.8","mL","N","Y","02474174","CARBOCAINE 3% (mepivacaine hydrochloride 30 mg per mL solution for injection) SEPTODONT","cartouche"
+"42844","vial","2","mL","Y","N","02182777","METHOTREXATE INJECTION USP HOSPIRA HEALTHCARE CORPORATION","fiole"
+"44264","vial","20","mL","Y","N","02182971","METHOTREXATE INJECTION USP HOSPIRA HEALTHCARE CORPORATION","fiole"
+"44264","vial","100","mL","Y","N","02182971","METHOTREXATE INJECTION USP HOSPIRA HEALTHCARE CORPORATION","fiole"
+"3378","vial","30","mL","Y","N","00399736","ARGININE HYDROCHLORIDE INJECTION SANDOZ","fiole"
+"16851","cartridge","1.7","mL","N","Y","02123371","SEPTANEST N SEPTODONT","cartouche"
+"72841","cartridge","1.8","mL","N","Y","02248489","4% ASTRACAINE DENTAL WITH EPINEPHRINE 1:200,000 (0.005MG/ML) DENTSPLY CANADA LIMITED","cartouche"
+"86711","cartridge","1.7","mL","N","Y","02381311","POSICAINE N NOVOCOL PHARMACEUTICAL OF CANADA INC","cartouche"
+"16850","cartridge","1.7","mL","N","Y","02123398","SEPTANEST SP SEPTODONT","cartouche"
+"72840","cartridge","1.8","mL","N","Y","02248488","4% ASTRACAINE DENTAL WITH EPINEPHRINE FORTE 1:100,000 (0.01MG/ML) DENTSPLY CANADA LIMITED","cartouche"
+"86712","cartridge","1.7","mL","N","Y","02381338","POSICAINE SP NOVOCOL PHARMACEUTICAL OF CANADA INC","cartouche"
+"96424","cartridge","1.7","mL","N","Y","02474239","ZORCAINE SEPTODONT","cartouche"
+"92385","vial","20","mL","Y","N","02439468","LIDOCAINE HYDROCHLORIDE AND EPINEPHRINE INJECTION USP PFIZER CANADA ULC","fiole"
+"12649","vial","20","mL","Y","N","01901958","LIDOCAINE HYDROCHLORIDE AND EPINEPHRINE INJECTION USP PFIZER CANADA ULC","fiole"
+"12648","vial","20","mL","Y","N","01901915","LIDOCAINE HYDROCHLORIDE AND EPINEPHRINE INJECTION USP PFIZER CANADA ULC","fiole"
+"97689","vial","2","mL","Y","N","02486717","AMIKACIN SULFATE INJECTION OMEGA LABORATORIES LTD","fiole"
+"96421","cartridge","1.8","mL","N","Y","02474182","CARBOCAINE 2% WITH NEO-COBEFRIN NOVOCOL PHARMACEUTICAL OF CANADA INC","cartouche"
+"95974","vial","4","mL","Y","N","02470748","MVASI AMGEN CANADA INC","fiole"
+"95975","vial","16","mL","Y","N","02470756","MVASI AMGEN CANADA INC","fiole"
+"96432","vial","5","mL","Y","N","02474271","METOPROLOL TARTRATE INJECTION USP MDA INC.","fiole"
+"96290","cartridge","1.8","mL","N","Y","02473518","LIDOCAINE 2% AND EPINEPHRINE 1:100,000 SEPTODONT","cartouche"
+"96291","cartridge","1.8","mL","N","Y","02473526","LIDOCAINE 2% AND EPINEPHRINE 1:50,000 SEPTODONT","cartouche"
+"72399","syringe","0.5","mL","N","N","02248077","PEGASYS HOFFMANN-LA ROCHE LIMITED","seringue"
+"92943","syringe","0.5","mL","N","N","02444399","PLEGRIDY BIOGEN CANADA INC","seringue"
+"97933","vial","5","mL","Y","N","02489252","ONPATTRO ALNYLAM NETHERLANDS B.V.","fiole"
+"97967","syringe","1.17","mL","N","N","02489597","EVENITY AMGEN CANADA INC","seringue"
+"65670","vial","50","mL","Y","N","02242000","CARBOCAINE 1% PFIZER CANADA ULC","fiole"
+"65669","vial","30","mL","Y","N","02241999","CARBOCAINE 1% PFIZER CANADA ULC","fiole"
+"97378","bag","100","mL","Y","N","02483343","ACETAMINOPHEN INJECTION AVIR PHARMA INC","sac"
+"97384","unit dose vial","2.5","mL","N","N","02483394","IPRATROPIUM BROMIDE AND SALBUTAMOL SULPHATE INHALATION SOLUTION MDA INC.","fiole unidose"
+"69790","vial","10","mL","N","Y","02245689","LANTUS SANOFI-AVENTIS CANADA INC","fiole"
+"73683","cartridge","3","mL","N","Y","02251930","LANTUS SANOFI-AVENTIS CANADA INC","cartouche"
+"93005","cartridge","3","mL","N","Y","02444844","BASAGLAR ELI LILLY CANADA INC","cartouche"
+"77967","pen","3","mL","N","Y","02294338","LANTUS SANOFI-AVENTIS CANADA INC","stylo"
+"93006","pen","3","mL","N","Y","02444852","BASAGLAR ELI LILLY CANADA INC","stylo"
+"71180","vial","3","mL","Y","N","02246953","AMIODARONE FOR INJECTION 50MG/ML TEVA CANADA LIMITED","fiole"
+"66036","vial","3","mL","Y","N","02242325","AMIODARONE HYDROCHLORIDE FOR INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"86000","syringe","3","mL","Y","N","02374684","AMIODARONE SYRINGE SANDOZ CANADA INCORPORATED","seringue"
+"66036","vial","9","mL","Y","N","02242325","AMIODARONE HYDROCHLORIDE FOR INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"71180","vial","18","mL","Y","N","02246953","AMIODARONE FOR INJECTION 50MG/ML TEVA CANADA LIMITED","fiole"
+"66036","vial","18","mL","Y","N","02242325","AMIODARONE HYDROCHLORIDE FOR INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"69271","vial","3","mL","Y","N","02245248","AMIODARONE HYDROCHLORIDE INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"19798","unit dose vial","1","mL","Y","N","02097168","RATIO-IPRATROPIUM UDV TEVA CANADA LIMITED","fiole unidose"
+"19798","unit dose vial","2","mL","Y","N","02097168","RATIO-IPRATROPIUM UDV TEVA CANADA LIMITED","fiole unidose"
+"50443","bottle","20","mL","N","Y","02231136","PMS-IPRATROPIUM PHARMASCIENCE INC","bouteille"
+"50551","unit dose vial","1","mL","Y","N","02231244","PMS-IPRATROPIUM PHARMASCIENCE INC","fiole unidose"
+"50552","unit dose vial","2","mL","Y","N","02231245","PMS-IPRATROPIUM PHARMASCIENCE INC","fiole unidose"
+"43176","unit dose vial","1","mL","Y","N","02216221","TEVA-IPRATROPIUM STERINEBS TEVA CANADA LIMITED","fiole unidose"
+"43176","unit dose vial","2","mL","Y","N","02216221","TEVA-IPRATROPIUM STERINEBS TEVA CANADA LIMITED","fiole unidose"
+"62586","bottle","20","mL","N","Y","02239131","MYLAN-IPRATROPIUM SOLUTION MYLAN PHARMACEUTICALS ULC","bouteille"
+"62586","unit dose vial","1","mL","Y","N","02239131","MYLAN-IPRATROPIUM SOLUTION MYLAN PHARMACEUTICALS ULC","fiole unidose"
+"62586","unit dose vial","2","mL","Y","N","02239131","MYLAN-IPRATROPIUM SOLUTION MYLAN PHARMACEUTICALS ULC","fiole unidose"
+"50824","unit dose vial","2","mL","Y","N","02231494","APO-IPRAVENT STERULES APOTEX INC","fiole unidose"
+"16947","bottle","20","mL","N","Y","02126222","APO-IPRAVENT SOLUTION - INH 250MCG/ML APOTEX INC","bouteille"
+"67766","unit dose vial","2","mL","Y","N","02243827","APO-IPRAVENT STERULES APOTEX INC","fiole unidose"
+"43798","unit dose vial","2","mL","Y","N","02097176","RATIO-IPRATROPIUM UDV TEVA CANADA LIMITED","fiole unidose"
+"50442","unit dose vial","2","mL","Y","N","02231135","PMS-IPRATROPIUM PHARMASCIENCE INC","fiole unidose"
+"69797","vial","3","mL","Y","N","02245696","AMIODARONE HYDROCHLORIDE FOR INJECTION WITH PRESERVATIVE HOSPIRA HEALTHCARE CORPORATION","fiole"
+"69797","vial","6","mL","Y","N","02245696","AMIODARONE HYDROCHLORIDE FOR INJECTION WITH PRESERVATIVE HOSPIRA HEALTHCARE CORPORATION","fiole"
+"60208","vial","20","mL","Y","N","02236916","ACYCLOVIR SODIUM INJECTION HOSPIRA HEALTHCARE CORPORATION","fiole"
+"60218","vial","10","mL","Y","N","02236926","ACYCLOVIR SODIUM INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"60218","vial","20","mL","Y","N","02236926","ACYCLOVIR SODIUM INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"17277","ampoule","1","mL","Y","N","02131048","LIORESAL INTRATHECAL 0.05MG/ML NOVARTIS PHARMACEUTICALS CANADA INC","ampoule"
+"89827","ampoule","1","mL","Y","N","02413620","VAL-BACLOFEN INTRATHECAL VALEANT CANADA LP/VALEANT CANADA S.E.C.","ampoule"
+"17954","ampoule","20","mL","Y","N","02131056","LIORESAL INTRATHECAL 0.5MG/ML NOVARTIS PHARMACEUTICALS CANADA INC","ampoule"
+"89828","ampoule","20","mL","N","N","02413639","VAL-BACLOFEN INTRATHECAL VALEANT CANADA LP/VALEANT CANADA S.E.C.","ampoule"
+"17276","ampoule","5","mL","Y","N","02131064","LIORESAL INTRATHECAL 2MG/ML NOVARTIS PHARMACEUTICALS CANADA INC","ampoule"
+"89829","ampoule","5","mL","N","N","02413647","VAL-BACLOFEN INTRATHECAL VALEANT CANADA LP/VALEANT CANADA S.E.C.","ampoule"
+"62344","vial","2","mL","Y","N","02238903","BENZTROPINE OMEGA OMEGA LABORATORIES LTD","fiole"
+"69787","ampoule","1","mL","Y","N","02245686","CALCITRIOL INJECTION FRESENIUS KABI CANADA LTD","ampoule"
+"88422","ampoule","1","mL","Y","N","02399334","CALCITRIOL INJECTION USP STERIMAX INC","ampoule"
+"88423","ampoule","2","mL","Y","N","02399342","CALCITRIOL INJECTION USP STERIMAX INC","ampoule"
+"4232","ampoule","1","mL","Y","N","00497282","CODEINE PHOSPHATE INJ 30MG/ML HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"4806","ampoule","1","mL","Y","N","00544884","CODEINE PHOSPHATE INJECTION USP  SANDOZ CANADA INCORPORATED","ampoule"
+"4233","ampoule","1","mL","Y","N","00497290","CODEINE PHOSPHATE INJ 60MG/ML HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"3721","ampoule","2","mL","N","N","00399728","DIAZEPAM INJECTION USP SANDOZ CANADA INCORPORATED","ampoule"
+"67132","syringe","2","mL","N","N","02243240","DIAZEPAM AUTOINJECTOR MERIDIAN MEDICAL TECHNOLOGIES INC.","seringue"
+"87102","ampoule","2","mL","Y","N","02385392","DIAZEPAM INJECTION USP ALVEDA PHARMACEUTICALS INC","ampoule"
+"87173","ampoule","2","mL","N","N","02386143","DIAZEPAM INJECTION SDZ SANDOZ CANADA INCORPORATED","ampoule"
+"15756","ampoule","1","mL","Y","N","02048272","PEDIATRIC DIGOXIN INJECTION C.S.D. SANDOZ CANADA INCORPORATED","ampoule"
+"15757","ampoule","2","mL","N","N","02048264","DIGOXIN INJECTION C.S.D. SANDOZ CANADA INCORPORATED","ampoule"
+"49026","vial","5","mL","Y","N","02230274","DILTIAZEM HYDROCHLORIDE INJECTION TEVA CANADA LIMITED","fiole"
+"49026","vial","10","mL","Y","N","02230274","DILTIAZEM HYDROCHLORIDE INJECTION TEVA CANADA LIMITED","fiole"
+"68717","vial","5","mL","Y","N","02244728","DILTIAZEM HYDROCHLORIDE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"68717","vial","10","mL","Y","N","02244728","DILTIAZEM HYDROCHLORIDE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"12650","vial","2","mL","Y","N","01923846","VASOTEC IV SANDOZ CANADA INCORPORATED","fiole"
+"87402","vial","1","mL","Y","N","02388499","ENALAPRILAT INJECTION USP STERIMAX INC","fiole"
+"87402","vial","2","mL","Y","N","02388499","ENALAPRILAT INJECTION USP STERIMAX INC","fiole"
+"12664","ampoule","2","mL","Y","N","00888346","FENTANYL CITRATE INJECTION HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"12664","ampoule","5","mL","Y","N","00888346","FENTANYL CITRATE INJECTION HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"12664","ampoule","10","mL","Y","N","00888346","FENTANYL CITRATE INJECTION HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"12664","ampoule","20","mL","Y","N","00888346","FENTANYL CITRATE INJECTION HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"12664","vial","10","mL","Y","N","00888346","FENTANYL CITRATE INJECTION HOSPIRA HEALTHCARE CORPORATION","fiole"
+"12664","vial","20","mL","Y","N","00888346","FENTANYL CITRATE INJECTION HOSPIRA HEALTHCARE CORPORATION","fiole"
+"63983","ampoule","2","mL","Y","N","02240434","FENTANYL CITRATE INJECTION USP SANDOZ CANADA INCORPORATED","ampoule"
+"63983","vial","5","mL","Y","N","02240434","FENTANYL CITRATE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"63983","vial","10","mL","Y","N","02240434","FENTANYL CITRATE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"63983","vial","20","mL","Y","N","02240434","FENTANYL CITRATE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"63983","vial","50","mL","Y","N","02240434","FENTANYL CITRATE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"86987","ampoule","2","mL","Y","N","02384124","FENTANYL CITRATE INJECTION SDZ SANDOZ CANADA INCORPORATED","ampoule"
+"86987","ampoule","10","mL","Y","N","02384124","FENTANYL CITRATE INJECTION SDZ SANDOZ CANADA INCORPORATED","ampoule"
+"87103","ampoule","2","mL","Y","N","02385406","FENTANYL CITRATE INJECTION USP ALVEDA PHARMACEUTICALS INC","ampoule"
+"87103","ampoule","10","mL","Y","N","02385406","FENTANYL CITRATE INJECTION USP ALVEDA PHARMACEUTICALS INC","ampoule"
+"12218","vial","25","mL","N","N","00401633","FUROSEMIDE SPECIAL SANDOZ CANADA INCORPORATED","fiole"
+"4431","ampoule","2","mL","Y","N","00527033","FUROSEMIDE INJ USP SANDOZ CANADA INCORPORATED","ampoule"
+"4431","ampoule","4","mL","Y","N","00527033","FUROSEMIDE INJ USP SANDOZ CANADA INCORPORATED","ampoule"
+"4910","ampoule","2","mL","Y","N","00565040","FUROSEMIDE INJECTION USP HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"4910","ampoule","4","mL","Y","N","00565040","FUROSEMIDE INJECTION USP HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"4910","syringe","2","mL","Y","N","00565040","FUROSEMIDE INJECTION USP HOSPIRA HEALTHCARE CORPORATION","seringue"
+"4910","syringe","4","mL","Y","N","00565040","FUROSEMIDE INJECTION USP HOSPIRA HEALTHCARE CORPORATION","seringue"
+"84533","vial","2","mL","Y","N","02360365","FUROSEMIDE INJECTION OMEGA LABORATORIES LTD","fiole"
+"84533","vial","4","mL","Y","N","02360365","FUROSEMIDE INJECTION OMEGA LABORATORIES LTD","fiole"
+"84539","vial","25","mL","N","N","02360446","FUROSEMIDE SPECIAL INJECTION OMEGA LABORATORIES LTD","fiole"
+"86837","ampoule","2","mL","Y","N","02382539","FUROSEMIDE INJECTION SDZ SANDOZ CANADA INCORPORATED","ampoule"
+"86837","ampoule","4","mL","Y","N","02382539","FUROSEMIDE INJECTION SDZ SANDOZ CANADA INCORPORATED","ampoule"
+"86984","ampoule","2","mL","N","N","02384094","FUROSEMIDE INJECTION USP TELIGENT OU","ampoule"
+"16902","ampoule","1","mL","Y","N","02130300","HALOPERIDOL LA SANDOZ CANADA INCORPORATED","ampoule"
+"16902","vial","5","mL","Y","N","02130300","HALOPERIDOL LA SANDOZ CANADA INCORPORATED","fiole"
+"49967","vial","1","mL","Y","N","02230708","PMS-HALOPERIDOL-LA PHARMASCIENCE INC","fiole"
+"49967","vial","5","mL","Y","N","02230708","PMS-HALOPERIDOL-LA PHARMASCIENCE INC","fiole"
+"16901","vial","5","mL","Y","N","02130297","HALOPERIDOL LA SANDOZ CANADA INCORPORATED","fiole"
+"49965","vial","5","mL","Y","N","02230707","PMS-HALOPERIDOL-LA PHARMASCIENCE INC","fiole"
+"10026","ampoule","1","mL","Y","N","00808652","HALOPERIDOL INJ 5MG/ML USP SANDOZ CANADA INCORPORATED","ampoule"
+"85088","vial","1","mL","Y","N","02366010","HALOPERIDOL INJECTION OMEGA LABORATORIES LTD","fiole"
+"89112","vial","1","mL","Y","N","02406411","HALOPERIDOL INJECTION, USP FRESENIUS KABI CANADA LTD","fiole"
+"89112","vial","10","mL","Y","N","02406411","HALOPERIDOL INJECTION, USP FRESENIUS KABI CANADA LTD","fiole"
+"63112","vial","1","mL","Y","N","02239640","HALOPERIDOL-LA OMEGA OMEGA LABORATORIES LTD","fiole"
+"63111","vial","5","mL","Y","N","02239639","HALOPERIDOL-LA OMEGA OMEGA LABORATORIES LTD","fiole"
+"5936","vial","1","mL","Y","N","00622133","DILAUDID HP PURDUE PHARMA","fiole"
+"5936","vial","5","mL","Y","N","00622133","DILAUDID HP PURDUE PHARMA","fiole"
+"5936","vial","50","mL","N","Y","00622133","DILAUDID HP PURDUE PHARMA","fiole"
+"18323","vial","1","mL","Y","N","02145928","HYDROMORPHONE HP 10 SANDOZ CANADA INCORPORATED","fiole"
+"18323","vial","5","mL","Y","N","02145928","HYDROMORPHONE HP 10 SANDOZ CANADA INCORPORATED","fiole"
+"18323","vial","10","mL","Y","N","02145928","HYDROMORPHONE HP 10 SANDOZ CANADA INCORPORATED","fiole"
+"18323","vial","50","mL","N","Y","02145928","HYDROMORPHONE HP 10 SANDOZ CANADA INCORPORATED","fiole"
+"86845","vial","1","mL","Y","N","02382636","HYDROMORPHONE HYDROCHLORIDE INJECTION USP HP 10 HOSPIRA HEALTHCARE CORPORATION","fiole"
+"86845","vial","5","mL","Y","N","02382636","HYDROMORPHONE HYDROCHLORIDE INJECTION USP HP 10 HOSPIRA HEALTHCARE CORPORATION","fiole"
+"86845","vial","50","mL","N","Y","02382636","HYDROMORPHONE HYDROCHLORIDE INJECTION USP HP 10 HOSPIRA HEALTHCARE CORPORATION","fiole"
+"94804","ampoule","1","mL","Y","N","02460610","HYDROMORPHONE HYDROCHLORIDE INJECTION HP 10 STERIMAX INC","ampoule"
+"94804","ampoule","10","mL","Y","N","02460610","HYDROMORPHONE HYDROCHLORIDE INJECTION HP 10 STERIMAX INC","ampoule"
+"68787","vial","10","mL","N","N","02244797","HYDROMORPHONE HP FORTE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"5937","ampoule","1","mL","Y","N","00627100","DILAUDID PURDUE PHARMA","ampoule"
+"18315","ampoule","1","mL","Y","N","02145901","HYDROMORPHONE HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","ampoule"
+"94803","ampoule","1","mL","Y","N","02460602","HYDROMORPHONE HYDROCHLORIDE INJECTION STERIMAX INC","ampoule"
+"18324","vial","1","mL","Y","N","02146126","HYDROMORPHONE HP 50 SANDOZ CANADA INCORPORATED","fiole"
+"18324","vial","5","mL","Y","N","02146126","HYDROMORPHONE HP 50 SANDOZ CANADA INCORPORATED","fiole"
+"18324","vial","10","mL","Y","N","02146126","HYDROMORPHONE HP 50 SANDOZ CANADA INCORPORATED","fiole"
+"18324","vial","50","mL","N","Y","02146126","HYDROMORPHONE HP 50 SANDOZ CANADA INCORPORATED","fiole"
+"44090","ampoule","1","mL","Y","N","02162644","TORADOL IM ATNAHS PHARMA UK LIMITED","ampoule"
+"63447","vial","1","mL","Y","N","02239944","KETOROLAC TROMETHAMINE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"68945","vial","1","mL","Y","N","02244947","KETOROLAC TROMETHAMINE INJECTION, USP FRESENIUS KABI CANADA LTD","fiole"
+"68945","vial","2","mL","Y","N","02244947","KETOROLAC TROMETHAMINE INJECTION, USP FRESENIUS KABI CANADA LTD","fiole"
+"87600","vial","1","mL","Y","N","02390582","KETOROLAC TROMETHAMINE INJECTION, USP  HOSPIRA HEALTHCARE CORPORATION","fiole"
+"92801","vial","1","mL","Y","N","02443376","KETOROLAC TROMETHAMINE INJECTION, USP MDA INC.","fiole"
+"67933","vial","1","mL","Y","N","02243989","APO-KETOROLAC INJECTABLE APOTEX INC","fiole"
+"92310","vial","1","mL","Y","N","02438704","LORAZEPAM INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"67176","vial","1","mL","Y","N","02243278","LORAZEPAM INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"87417","vial","1","mL","Y","N","02388669","LORAZEPAM INJECTION USP HOSPIRA HEALTHCARE CORPORATION","fiole"
+"19667","vial","1","mL","Y","N","00585092","DEPO-PROVERA STERILE AQUEOUS SUSPENSION 150 MG/ML PFIZER CANADA INC","fiole"
+"80771","vial","1","mL","Y","N","02322250","MEDROXYPROGESTERONE ACETATE INJECTABLE SUSPENSION USP SANDOZ CANADA INCORPORATED","fiole"
+"441","vial","5","mL","Y","N","00030848","DEPO-PROVERA STERILE AQUEOUS SUSPENSION 50 MG/ML PFIZER CANADA INC","fiole"
+"19409","vial","2","mL","Y","N","02185431","METOCLOPRAMIDE HYDROCHLORIDE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"19409","vial","10","mL","Y","N","02185431","METOCLOPRAMIDE HYDROCHLORIDE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"19409","vial","30","mL","Y","N","02185431","METOCLOPRAMIDE HYDROCHLORIDE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"67481","vial","2","mL","Y","N","02243563","METOCLOPRAMIDE OMEGA OMEGA LABORATORIES LTD","fiole"
+"67481","vial","10","mL","Y","N","02243563","METOCLOPRAMIDE OMEGA OMEGA LABORATORIES LTD","fiole"
+"67481","vial","30","mL","Y","N","02243563","METOCLOPRAMIDE OMEGA OMEGA LABORATORIES LTD","fiole"
+"7357","ampoule","5","mL","Y","N","00590819","LOPRESOR INJ 1.0MG/ML NOVARTIS PHARMACEUTICALS CANADA INC","ampoule"
+"75326","vial","5","mL","Y","N","02267853","METOPROLOL TARTRATE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"7425","bag","100","mL","Y","N","00649074","METRONIDAZOLE INJECTION USP HOSPIRA HEALTHCARE CORPORATION","sac"
+"10871","bag","100","mL","Y","N","00870420","METRONIDAZOLE 5MG/ML INJECTION BAXTER CORPORATION","sac"
+"10871","bag","300","mL","Y","N","00870420","METRONIDAZOLE 5MG/ML INJECTION BAXTER CORPORATION","sac"
+"10705","vial","10","mL","N","N","00614262","NITROJECT INJ 1MG/ML OMEGA LABORATORIES LTD","fiole"
+"10706","vial","10","mL","N","N","00778869","NITROJECT INJ 5MG/ML OMEGA LABORATORIES LTD","fiole"
+"12697","ampoule","2","mL","Y","N","00497304","PHENYTOIN SODIUM INJ 50MG/ML USP HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"12697","ampoule","5","mL","Y","N","00497304","PHENYTOIN SODIUM INJ 50MG/ML USP HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"13063","vial","2","mL","Y","N","00498335","TREMYTOINE INJ 50MG/ML OMEGA LABORATORIES LTD","fiole"
+"13063","vial","5","mL","Y","N","00498335","TREMYTOINE INJ 50MG/ML OMEGA LABORATORIES LTD","fiole"
+"9398","ampoule","2","mL","Y","N","00780626","PHENYTOIN SODIUM INJECTION USP SANDOZ CANADA INCORPORATED","ampoule"
+"9398","ampoule","5","mL","Y","N","00780626","PHENYTOIN SODIUM INJECTION USP SANDOZ CANADA INCORPORATED","ampoule"
+"91579","vial","2","mL","Y","N","02431378","PHENYTOIN SODIUM INJECTION, USP STERIMAX INC","fiole"
+"91579","vial","5","mL","Y","N","02431378","PHENYTOIN SODIUM INJECTION, USP STERIMAX INC","fiole"
+"43094","vial","2","mL","N","N","02212366","ZANTAC GLAXOSMITHKLINE INC","fiole"
+"74194","vial","2","mL","N","N","02256711","RANITIDINE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"43104","ampoule","5","mL","Y","N","02213451","VENTOLIN I.V. INFUSION SOLUTION 5.0MG SALBUTAMOL IN 5ML (1000MCG/ML) GLAXOSMITHKLINE INC","ampoule"
+"43078","syringe","0.5","mL","N","N","02212188","IMITREX INJECTION 12MG/ML GLAXOSMITHKLINE INC","seringue"
+"84675","syringe","0.5","mL","N","N","02361698","TARO-SUMATRIPTAN TARO PHARMACEUTICALS INC","seringue"
+"1398","vial","10","mL","Y","N","00030783","DEPO-TESTOSTERONE INJ 100MG/ML PFIZER CANADA INC","fiole"
+"13410","ampoule","2","mL","Y","N","01977601","TESTOSTERONE CYPIONATE INJECTION, USP STERIMAX INC","ampoule"
+"1275","ampoule","5","mL","Y","N","00029246","DELATESTRYL VALEANT CANADA LP/VALEANT CANADA S.E.C.","ampoule"
+"15482","vial","5","mL","Y","N","01999761","KENALOG-10 INJECTION 10MG/ML BRISTOL-MYERS SQUIBB CANADA","fiole"
+"15481","vial","1","mL","Y","N","01999869","KENALOG-40 INJECTION 40MG/ML BRISTOL-MYERS SQUIBB CANADA","fiole"
+"15481","vial","5","mL","Y","N","01999869","KENALOG-40 INJECTION 40MG/ML BRISTOL-MYERS SQUIBB CANADA","fiole"
+"85366","vial","1","mL","Y","N","02368676","TRIESENCE NOVARTIS PHARMACEUTICALS CANADA INC","fiole"
+"17234","vial","2","mL","Y","N","00839299","VERAPAMIL HYDROCHLORIDE INJECTION, USP HOSPIRA HEALTHCARE CORPORATION","fiole"
+"17234","vial","4","mL","Y","N","00839299","VERAPAMIL HYDROCHLORIDE INJECTION, USP HOSPIRA HEALTHCARE CORPORATION","fiole"
+"17234","ampoule","4","mL","Y","N","00839299","VERAPAMIL HYDROCHLORIDE INJECTION, USP HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"18614","vial","2","mL","Y","N","02166739","VERAPAMIL HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"89326","bag","50","mL","Y","N","02408511","CLINDAMYCIN IV INFUSION 600MG/50ML MINIBAGS. SINGLE USE SANDOZ CANADA INCORPORATED","sac"
+"1620","vial","2","mL","Y","N","00260436","DALACIN C PHOSPHATE PFIZER CANADA INC","fiole"
+"1620","vial","4","mL","Y","N","00260436","DALACIN C PHOSPHATE PFIZER CANADA INC","fiole"
+"1620","vial","6","mL","Y","N","00260436","DALACIN C PHOSPHATE PFIZER CANADA INC","fiole"
+"1620","vial","60","mL","N","Y","00260436","DALACIN C PHOSPHATE PFIZER CANADA INC","fiole"
+"18964","vial","2","mL","Y","N","02139286","CLINDAMYCIN INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"18964","vial","4","mL","Y","N","02139286","CLINDAMYCIN INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"18964","vial","6","mL","Y","N","02139286","CLINDAMYCIN INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"18964","vial","60","mL","N","Y","02139286","CLINDAMYCIN INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"87133","vial","2","mL","Y","N","02385716","CLINDAMYCIN INJECTION SDZ SANDOZ CANADA INCORPORATED","fiole"
+"87133","vial","4","mL","Y","N","02385716","CLINDAMYCIN INJECTION SDZ SANDOZ CANADA INCORPORATED","fiole"
+"87133","vial","6","mL","Y","N","02385716","CLINDAMYCIN INJECTION SDZ SANDOZ CANADA INCORPORATED","fiole"
+"89327","bag","50","mL","Y","N","02408538","CLINDAMYCIN IV INFUSION 900MG/50ML MINIBAGS. SINGLE USE SANDOZ CANADA INCORPORATED","sac"
+"940","ampoule","1","mL","Y","N","00155357","ADRENALIN CHLORIDE SOL 1:1000 AMP ERFA CANADA 2012 INC","ampoule"
+"940","ampoule","30","mL","Y","N","00155357","ADRENALIN CHLORIDE SOL 1:1000 AMP ERFA CANADA 2012 INC","ampoule"
+"8352","syringe","10","mL","N","N","00710814","EPINEPHRINE INJ 0.1MG/ML USP HOSPIRA HEALTHCARE CORPORATION","seringue"
+"79244","syringe","0.3","mL","N","N","02306743","ANAPEN JUNIOR LINCOLN MEDICAL LIMITED","seringue"
+"79245","syringe","0.3","mL","N","N","02306751","ANAPEN LINCOLN MEDICAL LIMITED","seringue"
+"5970","syringe","0.3","mL","N","N","00578657","EPIPEN JR MYLAN SPECIALTY LP","seringue"
+"91538","syringe","0.3","mL","N","N","02430959","TARO-EPINEPHRINE AUTO-INJECTOR TARO PHARMACEUTICALS INC","seringue"
+"9164","ampoule","1","mL","Y","N","00721891","EPINEPHRINE INJ 1MG/ML USP HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"3883","syringe","0.3","mL","N","N","00509558","EPIPEN MYLAN SPECIALTY LP","seringue"
+"81063","ampoule","1","mL","Y","N","02325225","EPINEPHRINE INJECTION USP 1 MG/ML ALVEDA PHARMACEUTICALS INC","ampoule"
+"91537","syringe","0.3","mL","N","N","02430940","TARO-EPINEPHRINE AUTO-INJECTOR TARO PHARMACEUTICALS INC","seringue"
+"92016","ampoule","1","mL","Y","N","02435810","EPINEPHRINE INJECTION TELIGENT OU","ampoule"
+"44261","vial","2","mL","Y","N","02182947","METHOTREXATE INJECTION USP HOSPIRA HEALTHCARE CORPORATION","fiole"
+"80550","syringe","1","mL","Y","N","02320037","METOJECT MEDEXUS INC","seringue"
+"80551","syringe","1.5","mL","N","N","02320045","METOJECT MEDEXUS INC","seringue"
+"80549","syringe","0.75","mL","N","N","02320029","METOJECT MEDEXUS INC","seringue"
+"94145","syringe","0.35","mL","N","N","02454769","METOJECT SUBCUTANEOUS MEDEXUS INC","seringue"
+"94163","syringe","0.4","mL","N","N","02454866","METOJECT SUBCUTANEOUS MEDEXUS INC","seringue"
+"94146","syringe","0.45","mL","N","N","02454777","METOJECT SUBCUTANEOUS MEDEXUS INC","seringue"
+"94164","syringe","0.5","mL","N","N","02454874","METOJECT SUBCUTANEOUS MEDEXUS INC","seringue"
+"19681","vial","2","mL","Y","N","02099705","METHOTREXATE SODIUM INJECTION TEVA CANADA LIMITED","fiole"
+"19681","vial","20","mL","Y","N","02099705","METHOTREXATE SODIUM INJECTION TEVA CANADA LIMITED","fiole"
+"19681","vial","40","mL","Y","N","02099705","METHOTREXATE SODIUM INJECTION TEVA CANADA LIMITED","fiole"
+"42844","vial","20","mL","Y","N","02182777","METHOTREXATE INJECTION USP HOSPIRA HEALTHCARE CORPORATION","fiole"
+"44262","vial","2","mL","Y","N","02182955","METHOTREXATE INJECTION USP HOSPIRA HEALTHCARE CORPORATION","fiole"
+"44264","vial","40","mL","Y","N","02182971","METHOTREXATE INJECTION USP HOSPIRA HEALTHCARE CORPORATION","fiole"
+"88338","vial","2","mL","Y","N","02398427","METHOTREXATE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"88338","vial","20","mL","Y","N","02398427","METHOTREXATE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"90222","vial","2","mL","Y","N","02417626","METHOTREXATE INJECTION, USP MYLAN PHARMACEUTICALS ULC","fiole"
+"90222","vial","40","mL","Y","N","02417626","METHOTREXATE INJECTION, USP MYLAN PHARMACEUTICALS ULC","fiole"
+"90372","vial","2","mL","Y","N","02419173","JAMP-METHOTREXATE JAMP PHARMA CORPORATION","fiole"
+"90372","vial","40","mL","Y","N","02419173","JAMP-METHOTREXATE JAMP PHARMA CORPORATION","fiole"
+"90688","syringe","0.4","mL","N","N","02422174","METHOTREXATE INJECTION, BP PHARMASCIENCE INC","seringue"
+"90689","syringe","0.6","mL","N","N","02422182","METHOTREXATE INJECTION, BP PHARMASCIENCE INC","seringue"
+"90690","syringe","0.8","mL","N","N","02422190","METHOTREXATE INJECTION, BP PHARMASCIENCE INC","seringue"
+"81253","vial","2","mL","Y","N","02327236","METHOTREXATE INJECTION, BP ACCORD HEALTHCARE INC","fiole"
+"81253","vial","20","mL","Y","N","02327236","METHOTREXATE INJECTION, BP ACCORD HEALTHCARE INC","fiole"
+"81253","vial","40","mL","Y","N","02327236","METHOTREXATE INJECTION, BP ACCORD HEALTHCARE INC","fiole"
+"90691","syringe","1","mL","Y","N","02422204","METHOTREXATE INJECTION, BP PHARMASCIENCE INC","seringue"
+"90687","syringe","0.3","mL","N","N","02422166","METHOTREXATE INJECTION, BP PHARMASCIENCE INC","seringue"
+"12968","ampoule","10","mL","Y","N","01949047","MORPHINE-EPD INJECTION 0.5MG/ML USP HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"13966","ampoule","10","mL","Y","N","02021056","MORPHINE LP EPIDURAL SANDOZ CANADA INCORPORATED","ampoule"
+"6871","vial","30","mL","Y","N","00636908","MORPHINE SULFATE INJECTION 1MG/ML HOSPIRA HEALTHCARE CORPORATION","fiole"
+"12728","ampoule","5","mL","Y","N","01949055","MORPHINE-EPD INJECTION 1MG/ML USP HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"14020","ampoule","5","mL","Y","N","02021048","MORPHINE LP EPIDURAL SANDOZ CANADA INCORPORATED","ampoule"
+"12991","ampoule","1","mL","Y","N","00850322","MORPHINE SULFATE INJECTION 10MG/ML USP HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"86878","ampoule","1","mL","Y","N","02382997","MORPHINE SULFATE INJECTION SDZ SANDOZ CANADA INCORPORATED","ampoule"
+"86878","ampoule","5","mL","Y","N","02382997","MORPHINE SULFATE INJECTION SDZ SANDOZ CANADA INCORPORATED","ampoule"
+"12992","ampoule","1","mL","Y","N","00850330","MORPHINE SULFATE INJECTION 15MG/ML USP HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"3042","ampoule","1","mL","Y","N","00392561","MORPHINE SULFATE INJ 15MG/ML USP SANDOZ CANADA INCORPORATED","ampoule"
+"12990","ampoule","1","mL","Y","N","00850314","MORPHINE SULFATE INJECTION 2MG/ML USP HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"12701","ampoule","1","mL","Y","N","00869317","MORPHINE FORTE INJECTION 25MG/ML USP HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"12701","ampoule","4","mL","Y","N","00869317","MORPHINE FORTE INJECTION 25MG/ML USP HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"7136","vial","30","mL","Y","N","00649619","MORPHINE SULFATE INJECTION 5MG/ML USP HOSPIRA HEALTHCARE CORPORATION","fiole"
+"12702","ampoule","1","mL","Y","N","00869325","MORPHINE EXTRA FORTE INJECTION 50MG/ML USP HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"12702","vial","20","mL","N","Y","00869325","MORPHINE EXTRA FORTE INJECTION 50MG/ML USP HOSPIRA HEALTHCARE CORPORATION","fiole"
+"12702","vial","50","mL","N","Y","00869325","MORPHINE EXTRA FORTE INJECTION 50MG/ML USP HOSPIRA HEALTHCARE CORPORATION","fiole"
+"43511","unit dose vial","2","mL","Y","N","02229099","PULMICORT NEBUAMP 0.125 MG/ML ASTRAZENECA CANADA INC","fiole unidose"
+"13191","unit dose vial","2","mL","Y","N","01978918","PULMICORT NEBUAMP 0.25 MG/ML ASTRAZENECA CANADA INC","fiole unidose"
+"13190","unit dose vial","2","mL","Y","N","01978926","PULMICORT NEBUAMP 0.5 MG/ML ASTRAZENECA CANADA INC","fiole unidose"
+"19761","unit dose vial","2.5","mL","Y","N","02208245","PMS-SALBUTAMOL PHARMASCIENCE INC","fiole unidose"
+"60224","unit dose vial","2.5","mL","Y","N","02236931","PHL-SALBUTAMOL RESPIRATOR SOLUTION PHARMEL INC","fiole unidose"
+"62834","unit dose vial","2.5","mL","Y","N","02239365","RATIO-SALBUTAMOL TEVA CANADA LIMITED","fiole unidose"
+"67769","unit dose vial","2.5","mL","Y","N","02243828","APO-SALVENT STERULES APOTEX INC","fiole unidose"
+"13550","unit dose vial","2.5","mL","Y","N","01926934","TEVA-SALBUTAMOL STERINEBS P.F. TEVA CANADA LIMITED","fiole unidose"
+"13668","bottle","10","mL","N","Y","01986864","RATIO-SALBUTAMOL TEVA CANADA LIMITED","bouteille"
+"19763","unit dose vial","2.5","mL","Y","N","02208229","PMS-SALBUTAMOL PHARMASCIENCE INC","fiole unidose"
+"50819","unit dose vial","2.5","mL","Y","N","02231488","APO-SALVENT STERULES APOTEX INC","fiole unidose"
+"43194","unit dose vial","2.5","mL","Y","N","02216949","DOM-SALBUTAMOL RESPIRATOR SOLUTION-1MG/ML DOMINION PHARMACAL","fiole unidose"
+"60225","unit dose vial","2.5","mL","Y","N","02236932","PHL-SALBUTAMOL RESPIRATOR SOLUTION [salbutamol (salbutamol sulfate) 1 mg per mL inhalation solution] PHARMEL INC","fiole unidose"
+"43100","unit dose vial","2.5","mL","N","N","02213419","VENTOLIN NEBULES P.F. - 2.5MG/2.5ML GLAXOSMITHKLINE INC","fiole unidose"
+"19058","unit dose vial","2.5","mL","Y","N","02173360","TEVA-SALBUTAMOL STERINEBS P.F. TEVA CANADA LIMITED","fiole unidose"
+"19762","unit dose vial","2.5","mL","Y","N","02208237","PMS-SALBUTAMOL PHARMASCIENCE INC","fiole unidose"
+"51054","unit dose vial","2.5","mL","Y","N","02231678","APO-SALVENT STERULES APOTEX INC","fiole unidose"
+"60226","unit dose vial","2.5","mL","Y","N","02236933","PHL-SALBUTAMOL RESPIRATOR SOLUTION 2 mg per mL inhalation solution] PHARMEL INC","fiole unidose"
+"62835","unit dose vial","2.5","mL","Y","N","02239366","RATIO-SALBUTAMOL TEVA CANADA LIMITED","fiole unidose"
+"43101","unit dose vial","2.5","mL","N","N","02213427","VENTOLIN NEBULES P.F. - 5MG/2.5ML GLAXOSMITHKLINE INC","fiole unidose"
+"10391","bottle","10","mL","N","Y","00860808","RATIO-SALBUTAMOL TEVA CANADA LIMITED","bouteille"
+"16521","bottle","10","mL","N","Y","02046741","APO-SALVENT 5MG/ML APOTEX INC","bouteille"
+"16452","bottle","10","mL","N","Y","02069571","PMS-SALBUTAMOL PHARMASCIENCE INC","bouteille"
+"43108","bottle","10","mL","N","Y","02213486","VENTOLIN RESPIRATOR SOLUTION GLAXOSMITHKLINE INC","bouteille"
+"68321","cartridge","3","mL","N","Y","02244353","NOVORAPID NOVO NORDISK CANADA INC","cartouche"
+"69441","vial","10","mL","N","Y","02245397","NOVORAPID NOVO NORDISK CANADA INC","fiole"
+"86282","cartridge","3","mL","N","Y","02377209","NOVORAPID NOVO NORDISK CANADA INC","cartouche"
+"94775","vial","10","mL","N","Y","02460408","FIASP NOVO NORDISK CANADA INC","fiole"
+"94776","cartridge","3","mL","N","Y","02460416","FIASP NOVO NORDISK CANADA INC","cartouche"
+"94777","pen","3","mL","N","Y","02460424","FIASP NOVO NORDISK CANADA INC","stylo"
+"75736","cartridge","3","mL","N","Y","02271842","LEVEMIR PENFILL NOVO NORDISK CANADA INC","cartouche"
+"89748","pen","3","mL","N","Y","02412829","LEVEMIR FLEXTOUCH NOVO NORDISK CANADA INC","stylo"
+"92621","pen","1.5","mL","N","Y","02441829","TOUJEO SOLOSTAR SANOFI-AVENTIS CANADA INC","stylo"
+"12570","cartridge","3","mL","N","Y","01959239","HUMULIN N (CARTRIDGE) ELI LILLY CANADA INC","cartouche"
+"14261","vial","10","mL","N","Y","02024225","NOVOLIN GE NPH NOVO NORDISK CANADA INC","fiole"
+"14266","cartridge","3","mL","N","Y","02024268","NOVOLIN GE NPH PENFILL NOVO NORDISK CANADA INC","cartouche"
+"88825","pen","3","mL","N","Y","02403447","HUMULIN N (KWIKPEN) ELI LILLY CANADA INC","stylo"
+"47871","vial","10","mL","N","Y","02229704","HUMALOG ELI LILLY CANADA INC","fiole"
+"47872","cartridge","3","mL","N","Y","02229705","HUMALOG  (CARTRIDGE) ELI LILLY CANADA INC","cartouche"
+"88822","pen","3","mL","N","Y","02403412","HUMALOG  (KWIKPEN) ELI LILLY CANADA INC","stylo"
+"92402","pen","3","mL","N","Y","02439611","HUMALOG 200 UNITS/ML KWIKPEN [insulin lispro 200 unit per mL solution for injection] ELI LILLY CANADA INC","stylo"
+"5326","vial","10","mL","N","Y","00587737","HUMULIN N ELI LILLY CANADA INC","fiole"
+"61553","tube","0.5","mL","Y","N","02238162","DIASTAT VALEANT PHARMACEUTICALS NORTH AMERICA LLC","tube"
+"61553","tube","1","mL","Y","N","02238162","DIASTAT VALEANT PHARMACEUTICALS NORTH AMERICA LLC","tube"
+"61553","tube","1.5","mL","Y","N","02238162","DIASTAT VALEANT PHARMACEUTICALS NORTH AMERICA LLC","tube"
+"61553","tube","3","mL","Y","N","02238162","DIASTAT VALEANT PHARMACEUTICALS NORTH AMERICA LLC","tube"
+"61553","tube","4","mL","Y","N","02238162","DIASTAT VALEANT PHARMACEUTICALS NORTH AMERICA LLC","tube"
+"69384","sachet","2.5","g","N","Y","02245345","ANDROGEL BGP PHARMA ULC","sachet"
+"69385","sachet","5","g","N","Y","02245346","ANDROGEL BGP PHARMA ULC","sachet"
+"11011","vial","10","mL","Y","N","00783900","PMS-DEXAMETHASONE SOD PHOSPHATE INJ 10MG/ML PHARMASCIENCE INC","fiole"
+"74553","vial","10","mL","Y","N","02260301","PHL-DEXAMETHASONE PHARMEL INC","fiole"
+"9613","vial","5","mL","Y","N","00751863","PMS-DEXAMETHASONE SOD PHOSPHATE INJ 4MG/ML PHARMASCIENCE INC","fiole"
+"10312","vial","10","mL","Y","N","00816086","FOLIC ACID INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"31358","vial","10","mL","Y","N","02139480","FOLIC ACID INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"8118","vial","1","mL","Y","N","00742813","HYDROXYZINE HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"50516","vial","10","mL","Y","N","02231209","HYDROXYZINE HYDROCHLORIDE INJECTION, USP STERIMAX INC","fiole"
+"16848","vial","10","mL","N","N","00860778","NITROGLYCERIN INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"93234","vial","10","mL","Y","N","02446820","ACT PROGESTERONE INJECTION ACTAVIS PHARMA COMPANY","fiole"
+"43431","ampoule","1","mL","Y","N","02225883","PROPRANOLOL HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","ampoule"
+"70198","vial","10","mL","Y","N","02246063","TESTOSTERONE CYPIONATE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"11224","vial","10","mL","Y","N","00739944","PMS-TESTOSTERONE ENANTHATE INJ 200MG/ML USP PHARMASCIENCE INC","fiole"
+"13414","vial","10","mL","Y","N","01977571","TESTOSTERONE PROPIONATE INJECTION, USP STERIMAX INC","fiole"
+"47450","vial","5","mL","Y","N","02229540","TRIAMCINOLONE ACETONIDE INJECTABLE SUSPENSION USP SANDOZ CANADA INCORPORATED","fiole"
+"13998","vial","5","mL","Y","N","01977563","TRIAMCINOLONE ACETONIDE SUSPENSION STERIMAX INC","fiole"
+"47461","vial","5","mL","Y","N","02229550","TRIAMCINOLONE ACETONIDE INJECTABLE SUSPENSION USP SANDOZ CANADA INCORPORATED","fiole"
+"35794","vial","1","mL","Y","N","02194155","ARISTOSPAN VALEO PHARMA INC","fiole"
+"44212","ampoule","1","mL","Y","N","02176009","PROGRAF ASTELLAS PHARMA CANADA INC","ampoule"
+"82711","vial","12.5","mL","Y","N","02341611","REVATIO PFIZER CANADA INC","fiole"
+"4703","ampoule","5","mL","Y","N","00550086","SEPTRA INJECTION ASPEN PHARMACARE CANADA INC","ampoule"
+"36481","vial","1","mL","Y","N","02204274","DEXAMETHASONE-OMEGA OMEGA LABORATORIES LTD","fiole"
+"36481","vial","10","mL","Y","N","02204274","DEXAMETHASONE-OMEGA OMEGA LABORATORIES LTD","fiole"
+"6593","vial","5","mL","Y","N","00664227","DEXAMETHASONE SODIUM PHOSPHATE INJ USP 4MG/ML SANDOZ CANADA INCORPORATED","fiole"
+"13255","vial","5","mL","Y","N","01977547","DEXAMETHASONE SODIUM PHOSPHATE INJECTION, USP STERIMAX INC","fiole"
+"36480","vial","1","mL","Y","N","02204266","DEXAMETHASONE-OMEGA OMEGA LABORATORIES LTD","fiole"
+"87333","vial","1","mL","Y","N","02387743","DEXAMETHASONE OMEGA UNIDOSE OMEGA LABORATORIES LTD","fiole"
+"12208","vial","1","mL","Y","N","00874582","DEXAMETHASONE SOD PHOSPH INJ 10MG/ML USP SANDOZ CANADA INCORPORATED","fiole"
+"18325","vial","1","mL","Y","N","02145936","HYDROMORPHONE HP 20 SANDOZ CANADA INCORPORATED","fiole"
+"18325","vial","5","mL","Y","N","02145936","HYDROMORPHONE HP 20 SANDOZ CANADA INCORPORATED","fiole"
+"18325","vial","50","mL","N","Y","02145936","HYDROMORPHONE HP 20 SANDOZ CANADA INCORPORATED","fiole"
+"86244","vial","4","mL","Y","N","02376857","CALDOLOR ALVEDA PHARMACEUTICALS INC","fiole"
+"86244","vial","8","mL","Y","N","02376857","CALDOLOR ALVEDA PHARMACEUTICALS INC","fiole"
+"6872","vial","30","mL","N","Y","00640409","MEPERIDINE HYDROCHLORIDE INJECTION USP HOSPIRA HEALTHCARE CORPORATION","fiole"
+"65676","vial","20","mL","N","Y","02242006","DEMEROL 100 MG/ML HOSPIRA HEALTHCARE CORPORATION","fiole"
+"31288","vial","50","mL","N","Y","02137267","MORPHINE SULPHATE INJECTION 50MG/ML HOSPIRA HEALTHCARE CORPORATION","fiole"
+"49612","vial","60","mL","N","Y","02230540","CLINDAMYCIN INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"49612","vial","120","mL","N","Y","02230540","CLINDAMYCIN INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"49605","vial","2","mL","Y","N","02230535","CLINDAMYCIN INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"49605","vial","4","mL","Y","N","02230535","CLINDAMYCIN INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"49605","vial","6","mL","Y","N","02230535","CLINDAMYCIN INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"13077","vial","5","mL","Y","N","01980696","MORPHINE SULFATE INJ 1MG/ML USP SANDOZ CANADA INCORPORATED","fiole"
+"13077","vial","10","mL","Y","N","01980696","MORPHINE SULFATE INJ 1MG/ML USP SANDOZ CANADA INCORPORATED","fiole"
+"13077","vial","50","mL","N","Y","01980696","MORPHINE SULFATE INJ 1MG/ML USP SANDOZ CANADA INCORPORATED","fiole"
+"31285","vial","5","mL","Y","N","02137232","MORPHINE SULPHATE INJECTION 1MG/ML HOSPIRA HEALTHCARE CORPORATION","fiole"
+"31285","vial","50","mL","N","Y","02137232","MORPHINE SULPHATE INJECTION 1MG/ML HOSPIRA HEALTHCARE CORPORATION","fiole"
+"3043","ampoule","1","mL","Y","N","00392588","MORPHINE SULFATE INJ 10MG/ML USP SANDOZ CANADA INCORPORATED","ampoule"
+"13078","vial","1","mL","Y","N","01964437","MORPHINE SULFATE INJ 2MG/ML USP SANDOZ CANADA INCORPORATED","fiole"
+"13078","vial","50","mL","N","Y","01964437","MORPHINE SULFATE INJ 2MG/ML USP SANDOZ CANADA INCORPORATED","fiole"
+"31286","vial","50","mL","N","Y","02137240","MORPHINE SULPHATE INJECTION 2MG/ML HOSPIRA HEALTHCARE CORPORATION","fiole"
+"66221","vial","1","mL","Y","N","02242484","MORPHINE SULFATE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"6690","ampoule","1","mL","Y","N","00676411","MORPHINE HP 25 - 25MG/ML SANDOZ CANADA INCORPORATED","ampoule"
+"6690","ampoule","4","mL","Y","N","00676411","MORPHINE HP 25 - 25MG/ML SANDOZ CANADA INCORPORATED","ampoule"
+"13079","vial","30","mL","N","Y","01964429","MORPHINE SULFATE INJ 5MG/ML USP SANDOZ CANADA INCORPORATED","fiole"
+"7421","vial","1","mL","Y","N","00617288","MORPHINE HP 50 - 50MG/ML USP SANDOZ CANADA INCORPORATED","fiole"
+"7421","vial","5","mL","Y","N","00617288","MORPHINE HP 50 - 50MG/ML USP SANDOZ CANADA INCORPORATED","fiole"
+"7421","vial","10","mL","Y","N","00617288","MORPHINE HP 50 - 50MG/ML USP SANDOZ CANADA INCORPORATED","fiole"
+"7421","vial","50","mL","N","Y","00617288","MORPHINE HP 50 - 50MG/ML USP SANDOZ CANADA INCORPORATED","fiole"
+"70586","bag","250","mL","N","Y","02246414","AVELOX I.V.  BAYER INC","sac"
+"70586","bottle","250","mL","N","Y","02246414","AVELOX I.V.  BAYER INC","bouteille"
+"91749","bag","250","mL","N","Y","02433087","MOXIFLOXACIN INJECTION FRESENIUS KABI CANADA LTD","sac"
+"65646","ampoule","1","mL","Y","N","02241976","TALWIN SINGLE USE SANOFI-SYNTHELABO CANADA INC","ampoule"
+"10954","vial","100","mL","Y","N","00891835","DIFLUCAN INJ 2MG/ML PFIZER CANADA INC","fiole"
+"74685","bag","100","mL","Y","N","02261472","FLUCONAZOLE IN SODIUM CHLORIDE INJECTION USP BAXTER CORPORATION","sac"
+"74685","bag","200","mL","Y","N","02261472","FLUCONAZOLE IN SODIUM CHLORIDE INJECTION USP BAXTER CORPORATION","sac"
+"87397","vial","100","mL","Y","N","02388448","FLUCONAZOLE INJECTION SDZ SANDOZ CANADA INCORPORATED","fiole"
+"51066","vial","20","mL","Y","N","02231689","LABETALOL HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"87646","vial","20","mL","Y","N","02391090","LABETALOL HYDROCHLORIDE INJECTION USP PFIZER CANADA INC","fiole"
+"87304","vial","20","mL","Y","N","02387468","LABETALOL HYDROCHLORIDE INJECTION, USP MYLAN PHARMACEUTICALS ULC","fiole"
+"87304","vial","40","mL","Y","N","02387468","LABETALOL HYDROCHLORIDE INJECTION, USP MYLAN PHARMACEUTICALS ULC","fiole"
+"42910","vial","10","mL","Y","N","02188880","BREVIBLOC INJECTION 10MG/ML BAXTER CORPORATION","fiole"
+"79483","bag","250","mL","N","Y","02309238","BREVIBLOC PREMIXED INJECTION BAXTER CORPORATION","sac"
+"65675","ampoule","1","mL","Y","N","02242005","DEMEROL 100 MG/ML HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"8487","ampoule","1","mL","Y","N","00725749","MEPERIDINE HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","ampoule"
+"65673","ampoule","1","mL","Y","N","02242003","DEMEROL 50 MG/ML HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"8121","ampoule","1","mL","Y","N","00725765","MEPERIDINE HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","ampoule"
+"65674","ampoule","1","mL","Y","N","02242004","DEMEROL 75 MG/ML HOSPIRA HEALTHCARE CORPORATION","ampoule"
+"8120","ampoule","1","mL","Y","N","00725757","MEPERIDINE HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","ampoule"
+"4226","vial","10","mL","Y","N","00497193","AMINOPHYLLINE INJECTION USP PFIZER CANADA INC","fiole"
+"5705","vial","10","mL","Y","N","00582662","AMINOPHYLLINE INJ 25MG/ML OMEGA LABORATORIES LTD","fiole"
+"5704","vial","10","mL","Y","N","00582654","AMINOPHYLLINE INJ 50MG/ML OMEGA LABORATORIES LTD","fiole"
+"94330","vial","10","mL","Y","N","02456419","CINQAIR TEVA CANADA LIMITED","fiole"
+"12237","vial","1","mL","Y","N","00723754","APRESOLINE STERIMAX INC","fiole"
+"94414","ampoule","1","mL","Y","N","02457059","BACLOFEN TELIGENT OU","ampoule"
+"94415","ampoule","20","mL","Y","N","02457067","BACLOFEN TELIGENT OU","ampoule"
+"94416","ampoule","5","mL","Y","N","02457075","BACLOFEN TELIGENT OU","ampoule"
+"94416","ampoule","20","mL","Y","N","02457075","BACLOFEN TELIGENT OU","ampoule"
+"790","ampoule","1","mL","N","N","00038121","EPHEDRINE SULFATE INJECTION","ampoule"
+"11096","ampoule","1","mL","Y","N","00876534","EPHEDRINE SULFATE INJECTION USP","ampoule"
+"14758","unit dose vial","2","mL","N","Y","02046113","PMS-SODIUM CROMOGLYCATE","fiole unidose"
+"50747","unit dose vial","2","mL","N","Y","02231431","APO-CROMOLYN STERULES","fiole unidose"
+"95417","unit dose vial","2","mL","Y","N","02465949","TEVA-BUDESONIDE TEVA CANADA LIMITED","fiole unidose"
+"95418","unit dose vial","2","mL","Y","N","02465957","TEVA-BUDESONIDE TEVA CANADA LIMITED","fiole unidose"
+"94899","vial","2","mL","Y","N","02461404","FUROSEMIDE INJECTION USP STERIMAX INC","fiole"
+"94899","vial","4","mL","Y","N","02461404","FUROSEMIDE INJECTION USP STERIMAX INC","fiole"
+"94916","pen","3","mL","N","Y","02461528","BASAGLAR ELI LILLY CANADA INC","stylo"
+"92667","unit dose vial","2.4","mL","N","N","02442302","QUINSAIR HORIZON PHARMA IRELAND LTD","fiole unidose"
+"94632","pen","3","mL","N","Y","02459132","MOVAPO PALADIN LABS INC","stylo"
+"95856","vial","10","mL","Y","N","02469723","BAVENCIO EMD SERONO A DIVISION OF EMD INC CANADA","fiole"
+"11880","ampoule","3","mL","Y","N","00704423","ANDROCUR DEPOT BAYER INC","ampoule"
+"95424","vial","2.5","mL","Y","N","02465981","DEFITELIO JAZZ PHARMACEUTICALS IRELAND LIMITED","fiole"
+"82498","vial","2","mL","Y","N","02339366","PRECEDEX HOSPIRA HEALTHCARE CORPORATION","fiole"
+"92145","vial","20","mL","Y","N","02437147","PRECEDEX HOSPIRA HEALTHCARE CORPORATION","fiole"
+"92145","vial","50","mL","Y","N","02437147","PRECEDEX HOSPIRA HEALTHCARE CORPORATION","fiole"
+"92145","vial","100","mL","Y","N","02437147","PRECEDEX HOSPIRA HEALTHCARE CORPORATION","fiole"
+"95736","vial","2.4","mL","Y","N","02468816","IMFINZI ASTRAZENECA CANADA INC","fiole"
+"95736","vial","10","mL","Y","N","02468816","IMFINZI ASTRAZENECA CANADA INC","fiole"
+"87104","ampoule","1","mL","Y","N","02385414","GRANISETRON HYDROCHLORIDE INJECTION SDZ SANDOZ CANADA INCORPORATED","ampoule"
+"87104","ampoule","3","mL","Y","N","02385414","GRANISETRON HYDROCHLORIDE INJECTION SDZ SANDOZ CANADA INCORPORATED","ampoule"
+"80824","vial","1","mL","Y","N","02322765","GRANISETRON HYDROCHLORIDE INJECTION OMEGA LABORATORIES LTD","fiole"
+"80824","vial","4","mL","Y","N","02322765","GRANISETRON HYDROCHLORIDE INJECTION OMEGA LABORATORIES LTD","fiole"
+"78998","vial","1","mL","Y","N","02304708","GRANISETRON HYDROCHLORIDE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"78998","vial","4","mL","Y","N","02304708","GRANISETRON HYDROCHLORIDE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"95860","syringe","1","mL","Y","N","02469758","TREMFYA JANSSEN INC","seringue"
+"66196","vial","10","mL","Y","N","02242470","CORVERT PFIZER CANADA INC","fiole"
+"89675","vial","2","mL","Y","N","02242470","IRINOTECAN HYDROCHLORIDE INJECTION TELIGENT OU","fiole"
+"89675","vial","5","mL","Y","N","02242470","IRINOTECAN HYDROCHLORIDE INJECTION TELIGENT OU","fiole"
+"89675","vial","15","mL","Y","N","02242470","IRINOTECAN HYDROCHLORIDE INJECTION TELIGENT OU","fiole"
+"89675","vial","25","mL","Y","N","02242470","IRINOTECAN HYDROCHLORIDE INJECTION TELIGENT OU","fiole"
+"95815","vial","12","mL","Y","N","02469367","PREVYMIS MERCK CANADA INC","fiole"
+"95819","vial","24","mL","Y","N","02469405","PREVYMIS MERCK CANADA INC","fiole"
+"13163","ampoule","1","mL","Y","N","01927698","NOZINAN INJ 25MG/ML SANOFI-AVENTIS CANADA INC","ampoule"
+"95389","vial","5","mL","Y","N","02465663","SPINRAZA BIOGEN CANADA INC","fiole"
+"95561","vial","10","mL","Y","N","02467224","OCREVUS HOFFMANN-LA ROCHE LIMITED","fiole"
+"95790","vial","50","mL","N","N","02469227","LARTRUVO ELI LILLY CANADA INC","fiole"
+"94712","syringe","1","mL","Y","N","02459795","XOLAIR NOVARTIS PHARMACEUTICALS CANADA INC","seringue"
+"94711","syringe","0.5","mL","N","N","02459787","XOLAIR NOVARTIS PHARMACEUTICALS CANADA INC","seringue"
+"75098","vial","2","mL","Y","N","02265524","ONDANSETRON INJECTION TEVA CANADA LIMITED","fiole"
+"75098","vial","4","mL","Y","N","02265524","ONDANSETRON INJECTION TEVA CANADA LIMITED","fiole"
+"75099","vial","20","mL","N","Y","02265532","ONDANSETRON INJECTION TEVA CANADA LIMITED","fiole"
+"75986","ampoule","2","mL","Y","N","02274418","ONDANSETRON HYDROCHLORIDE DIHYDRATE INJECTION SANDOZ CANADA INCORPORATED","ampoule"
+"75986","ampoule","4","mL","Y","N","02274418","ONDANSETRON HYDROCHLORIDE DIHYDRATE INJECTION SANDOZ CANADA INCORPORATED","ampoule"
+"76501","vial","2","mL","Y","N","02279428","ONDANSETRON INJECTION USP     -(PRESERVATIVE FREE)SANDOZ CANADA INCORPORATED","fiole"
+"76501","vial","4","mL","Y","N","02279428","ONDANSETRON INJECTION USP     -(PRESERVATIVE FREE)SANDOZ CANADA INCORPORATED","fiole"
+"76502","vial","20","mL","N","Y","02279436","ONDANSETRON INJECTION USP     -(WITH PRESERVATIVE) SANDOZ CANADA INCORPORATED","fiole"
+"43137","ampoule","2","mL","Y","N","02213745","ZOFRAN NOVARTIS PHARMACEUTICALS CANADA INC","ampoule"
+"43137","ampoule","4","mL","Y","N","02213745","ZOFRAN NOVARTIS PHARMACEUTICALS CANADA INC","ampoule"
+"43137","vial","20","mL","N","Y","02213745","ZOFRAN NOVARTIS PHARMACEUTICALS CANADA INC","fiole"
+"87549","ampoule","2","mL","Y","N","02390019","ONDANSETRON INJECTION, USP MYLAN PHARMACEUTICALS ULC","ampoule"
+"87549","ampoule","4","mL","Y","N","02390019","ONDANSETRON INJECTION, USP MYLAN PHARMACEUTICALS ULC","ampoule"
+"87549","vial","2","mL","Y","N","02390019","ONDANSETRON INJECTION, USP MYLAN PHARMACEUTICALS ULC","fiole"
+"87549","vial","4","mL","Y","N","02390019","ONDANSETRON INJECTION, USP MYLAN PHARMACEUTICALS ULC","fiole"
+"87552","vial","20","mL","N","Y","02390051","ONDANSETRON INJECTION, USP MYLAN PHARMACEUTICALS ULC","fiole"
+"90500","ampoule","2","mL","Y","N","02420414","JAMP-ONDANSETRON JAMP PHARMA CORPORATION","ampoule"
+"90500","ampoule","4","mL","Y","N","02420414","JAMP-ONDANSETRON JAMP PHARMA CORPORATION","ampoule"
+"90500","vial","2","mL","Y","N","02420414","JAMP-ONDANSETRON JAMP PHARMA CORPORATION","fiole"
+"90500","vial","4","mL","Y","N","02420414","JAMP-ONDANSETRON JAMP PHARMA CORPORATION","fiole"
+"90501","vial","20","mL","N","Y","02420422","JAMP-ONDANSETRON JAMP PHARMA CORPORATION","fiole"
+"75730","vial","2","mL","Y","N","02271761","ONDANSETRON OMEGA   -(PRESERVATIVE FREE - SINGLE DOSE VIALS) OMEGA LABORATORIES LTD","fiole"
+"75730","vial","4","mL","Y","N","02271761","ONDANSETRON OMEGA   -(PRESERVATIVE FREE - SINGLE DOSE VIALS) OMEGA LABORATORIES LTD","fiole"
+"75731","vial","20","mL","N","Y","02271788","ONDANSETRON OMEGA   -(WITH PRESERVATIVE - MULTIDOSE VIAL) OMEGA LABORATORIES LTD","fiole"
+"75987","vial","2","mL","Y","N","02274426","ONDANSETRON INJECTION USP     -(PRESERVATIVE FREE) HOSPIRA HEALTHCARE CORPORATION","fiole"
+"75987","vial","4","mL","Y","N","02274426","ONDANSETRON INJECTION USP     -(PRESERVATIVE FREE) HOSPIRA HEALTHCARE CORPORATION","fiole"
+"75988","vial","20","mL","N","Y","02274434","ONDANSETRON INJECTION USP     -(WITH PRESERVATIVES) HOSPIRA HEALTHCARE CORPORATION","fiole"
+"18025","ampoule","1","mL","Y","N","02148706","NALOXONE HCL INJECTION - 0.4MG/ML USP SANDOZ CANADA INCORPORATED","ampoule"
+"18025","vial","10","mL","Y","N","02148706","NALOXONE HCL INJECTION - 0.4MG/ML USP SANDOZ CANADA INCORPORATED","fiole"
+"86832","ampoule","1","mL","Y","N","02382482","NALOXONE HYDROCHLORIDE INJECTION USP TELIGENT OU","ampoule"
+"86843","ampoule","1","mL","Y","N","02382601","NALOXONE HYDROCHLORIDE INJECTION SDZ PRESERVATIVE FREE SANDOZ CANADA INCORPORATED","ampoule"
+"87828","vial","1","mL","Y","N","02393034","NALOXONE HYDROCHLORIDE INJECTION OMEGA LABORATORIES LTD","fiole"
+"93978","ampoule","1","mL","Y","N","02453258","S.O.S. NALOXONE HYDROCHLORIDE INJECTION SANDOZ CANADA INCORPORATED","ampoule"
+"94280","vial","1","mL","Y","N","02455935","INJECTABLE NALOXONE HYDROCHLORIDE OMEGA LABORATORIES LTD","fiole"
+"18024","vial","2","mL","Y","N","02148714","NALOXONE HCL INJECTION - 1MG/ML USP SANDOZ CANADA INCORPORATED","fiole"
+"87829","vial","2","mL","Y","N","02393042","NALOXONE HYDROCHLORIDE INJECTION OMEGA LABORATORIES LTD","fiole"
+"95935","syringe","2","mL","Y","N","02470365","DUPIXENT SANOFI-AVENTIS CANADA INC","seringue"
+"94760","vial","20","mL","Y","N","02460319","RAPIVAB BIOCRYST PHARMACEUTICALS INC","fiole"
+"95016","vial","25","mL","Y","N","02462400","BRINAVESS CARDIOME UK LIMITED","fiole"
+"76591","tube","5","g","N","Y","02280248","TESTIM 1% PALADIN LABS INC","tube"
+"78663","bag","100","mL","Y","N","02301296","CIPROFLOXACIN INJECTION CLARIS PHARMASERVICES [Now DORMANT]","sac"
+"78663","bag","200","mL","Y","N","02301296","CIPROFLOXACIN INJECTION CLARIS PHARMASERVICES [Now DORMANT]","sac"
+"86325","bag","100","mL","Y","N","02377535","CIPROFLOXACIN INJECTION OMEGA LABORATORIES LTD","sac"
+"86325","bag","200","mL","Y","N","02377535","CIPROFLOXACIN INJECTION OMEGA LABORATORIES LTD","sac"
+"75287","bag","100","mL","Y","N","02267462","CIPROFLOXACIN INTRAVENOUS INFUSION TEVA CANADA LIMITED","sac"
+"75287","bag","200","mL","Y","N","02267462","CIPROFLOXACIN INTRAVENOUS INFUSION TEVA CANADA LIMITED","sac"
+"78723","bag","100","mL","Y","N","02301903","CIPROFLOXACIN INJECTION USP PFIZER CANADA INC","sac"
+"78723","bag","200","mL","Y","N","02301903","CIPROFLOXACIN INJECTION USP PFIZER CANADA INC","sac"
+"78981","bag","100","mL","Y","N","02304546","CIPROFLOXACIN INTRAVENOUS INFUSION, BP APOTEX INC","sac"
+"78981","bag","200","mL","Y","N","02304546","CIPROFLOXACIN INTRAVENOUS INFUSION, BP APOTEX INC","sac"
+"79003","bag","100","mL","Y","N","02304759","CIPROFLOXACIN INTRAVENOUS INFUSION BP SANDOZ CANADA INCORPORATED","sac"
+"79003","bag","200","mL","Y","N","02304759","CIPROFLOXACIN INTRAVENOUS INFUSION BP SANDOZ CANADA INCORPORATED","sac"
+"74200","vial","20","mL","Y","N","02256789","CIPROFLOXACIN INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"74200","vial","40","mL","Y","N","02256789","CIPROFLOXACIN INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"95624","pen","3","mL","N","Y","02467887","TRESIBA FLEXTOUCH (PREFILLED PEN) NOVO NORDISK CANADA INC","stylo"
+"95623","pen","3","mL","N","Y","02467879","TRESIBA FLEXTOUCH (PREFILLED PEN)  NOVO NORDISK CANADA INC","stylo"
+"72232","vial","100","mL","Y","N","02247922","FLUCONAZOLE INJECTION TEVA CANADA LIMITED","fiole"
+"72232","bag","100","mL","Y","N","02247922","FLUCONAZOLE INJECTION TEVA CANADA LIMITED","sac"
+"72794","vial","100","mL","Y","N","02248443","FLUCONAZOLE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"72035","vial","100","mL","Y","N","02247749","FLUCONAZOLE OMEGA OMEGA LABORATORIES LTD","fiole"
+"80046","bag","50","mL","Y","N","02314932","LEVOFLOXACIN IN 5% DEXTROSE INJECTION HOSPIRA HEALTHCARE CORPORATION","sac"
+"80046","bag","100","mL","Y","N","02314932","LEVOFLOXACIN IN 5% DEXTROSE INJECTION HOSPIRA HEALTHCARE CORPORATION","sac"
+"80046","bag","150","mL","Y","N","02314932","LEVOFLOXACIN IN 5% DEXTROSE INJECTION HOSPIRA HEALTHCARE CORPORATION","sac"
+"51050","unit dose vial","2.5","mL","N","N","02231675","COMBIVENT UDV BOEHRINGER INGELHEIM (CANADA) LTD LTEE","fiole unidose"
+"86757","vial","5","mL","N","N","02381710","ALOXI PURDUE PHARMA","fiole"
+"95190","sachet","5","g","N","Y","02463806","TARO-TESTOSTERONE GEL 5G/PACKET TARO PHARMACEUTICALS INC","sachet"
+"95189","sachet","2.5","g","N","Y","02463792","TARO-TESTOSTERONE GEL 2.5G/PACKET TARO PHARMACEUTICALS INC","sachet"
+"90950","sachet","0.5","mg","N","Y","02424835","DIVIGEL 0.5MG PACK TEVA CANADA LIMITED","sachet"
+"90951","sachet","1","mg","N","Y","02424843","DIVIGEL 1MG PACK TEVA CANADA LIMITED","sachet"
+"90959","sachet","0.25","mg","N","Y","02424924","DIVIGEL 0.25MG PACK TEVA CANADA LIMITED","sachet"
+"11342","vial","20","mL","Y","N","01902644","RETROVIR (AZT)  VIIV HEALTHCARE ULC","fiole"
+"66810","vial","2","mL","Y","N","02242971","AMIKACIN SULFATE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"66434","vial","2","mL","Y","N","02242652","GENTAMICIN INJECTION USP","fiole"
+"75394","vial","2","mL","Y","N","02268531","GENTAMICIN INJECTION USP","fiole"
+"94412","ampoule","2","mL","Y","N","02457008","GENTAMICIN INJECTION USP","ampoule"
+"18242","bag","100","mL","Y","N","02082136","GENTAMICIN(E) 100MG LIQ IV 1MG/ML","sac"
+"18243","bag","50","mL","Y","N","02082152","GENTAMICIN(E) 80MG LIQ IV 1.6MG/ML","sac"
+"12674","bag","100","mL","Y","N","01913530","GENTAMICIN SULFATE IN 0.9% SODIUM CHLORIDE INJECTION","sac"
+"66245","ampoule","0.5","mL","Y","N","02242502","ONE-ALPHA LEO PHARMA INC","ampoule"
+"66245","ampoule","1","mL","Y","N","02242502","ONE-ALPHA LEO PHARMA INC","ampoule"
+"50269","vial","2","mL","Y","N","02230988","CEREBYX ERFA CANADA 2012 INC","fiole"
+"50269","vial","10","mL","Y","N","02230988","CEREBYX ERFA CANADA 2012 INC","fiole"
+"43078","vial","0.5","mL","N","N","02212188","IMITREX INJECTION 12MG/ML GLAXOSMITHKLINE INC","fiole"
+"95270","vial","2","mL","Y","N","02464578","ONDANSETRON INJECTION USP, SINGLE USE VIALS","fiole"
+"95270","vial","4","mL","Y","N","02464578","ONDANSETRON INJECTION USP, SINGLE USE VIALS","fiole"
+"77729","syringe","2","mL","N","N","02291924","BICILLIN L-A PFIZER CANADA INC","seringue"
+"74379","vial","0.8","mL","N","N","02258595","HUMIRA ABBVIE CORPORATION","fiole"
+"94546","syringe","0.4","mL","N","N","02458349","HUMIRA ABBVIE CORPORATION","seringue"
+"94543","pen","0.4","mL","N","N","02458357","HUMIRA ABBVIE CORPORATION","stylo"
+"94029","syringe","1","mL","Y","N","02453754","PRALUENT SANOFI-AVENTIS CANADA INC","seringue"
+"94030","syringe","1","mL","Y","N","02453762","PRALUENT SANOFI-AVENTIS CANADA INC","seringue"
+"94035","pen","1","mL","Y","N","02453819","PRALUENT SANOFI-AVENTIS CANADA INC","stylo"
+"94037","pen","1","mL","Y","N","02453835","PRALUENT SANOFI-AVENTIS CANADA INC","stylo"
+"75820","unit dose vial","2.5","mL","N","N","02272695","TEVA-COMBO STERINEBS TEVA CANADA LIMITED","fiole unidose"
+"67727","unit dose vial","2.5","mL","N","N","02243789","RATIO-IPRA SAL UDV TEVA CANADA LIMITED","fiole unidose"
+"5790","ampoule","1","mL","Y","N","00593257","SANDIMMUNE IV 50MG/ML NOVARTIS PHARMACEUTICALS CANADA INC","ampoule"
+"5790","ampoule","5","mL","Y","N","00593257","SANDIMMUNE IV 50MG/ML NOVARTIS PHARMACEUTICALS CANADA INC","ampoule"
+"18868","ampoule","0.6","mL","N","N","02129043","ORGARAN ASPEN PHARMACARE CANADA INC","ampoule"
+"18307","syringe","0.2","mL","N","N","02132621","FRAGMIN PFIZER CANADA INC","seringue"
+"18306","syringe","0.2","mL","N","N","02132648","FRAGMIN PFIZER CANADA INC","seringue"
+"18235","ampoule","1","mL","Y","N","02132664","FRAGMIN PFIZER CANADA INC","ampoule"
+"50478","vial","3.8","mL","N","Y","02231171","FRAGMIN PFIZER CANADA INC","fiole"
+"83790","syringe","0.3","mL","N","N","02352648","FRAGMIN PFIZER CANADA INC","seringue"
+"83791","syringe","0.4","mL","N","N","02352656","FRAGMIN PFIZER CANADA INC","seringue"
+"83792","syringe","0.5","mL","N","N","02352664","FRAGMIN PFIZER CANADA INC","seringue"
+"83793","syringe","0.6","mL","N","N","02352672","FRAGMIN PFIZER CANADA INC","seringue"
+"83794","syringe","0.72","mL","N","N","02352680","FRAGMIN PFIZER CANADA INC","seringue"
+"91522","syringe","0.28","mL","N","N","02430789","FRAGMIN PFIZER CANADA INC","seringue"
+"60205","syringe","0.3","mL","Y","N","02236913","FRAXIPARINE ASPEN PHARMACARE CANADA INC","seringue"
+"93677","syringe","0.2","mL","Y","N","02450615","FRAXIPARINE ASPEN PHARMACARE CANADA INC","seringue"
+"93678","syringe","0.4","mL","Y","N","02450623","FRAXIPARINE ASPEN PHARMACARE CANADA INC","seringue"
+"93679","syringe","0.6","mL","Y","N","02450631","FRAXIPARINE ASPEN PHARMACARE CANADA INC","seringue"
+"93680","syringe","1","mL","Y","N","02450658","FRAXIPARINE ASPEN PHARMACARE CANADA INC","seringue"
+"63628","syringe","1","mL","Y","N","02240114","FRAXIPARINE FORTE ASPEN PHARMACARE CANADA INC","seringue"
+"93681","syringe","0.8","mL","Y","N","02450666","FRAXIPARINE FORTE ASPEN PHARMACARE CANADA INC","seringue"
+"93682","syringe","0.6","mL","Y","N","02450674","FRAXIPARINE FORTE ASPEN PHARMACARE CANADA INC","seringue"
+"14049","syringe","0.3","mL","N","N","02012472","LOVENOX SANOFI-AVENTIS CANADA INC","seringue"
+"60174","syringe","0.4","mL","N","N","02236883","LOVENOX SANOFI-AVENTIS CANADA INC","seringue"
+"86422","syringe","0.6","mL","N","N","02378426","LOVENOX SANOFI-AVENTIS CANADA INC","seringue"
+"86423","syringe","0.8","mL","N","N","02378434","LOVENOX SANOFI-AVENTIS CANADA INC","seringue"
+"86424","syringe","1","mL","Y","N","02378442","LOVENOX SANOFI-AVENTIS CANADA INC","seringue"
+"66484","syringe","0.8","mL","N","N","02242692","LOVENOX HP SANOFI-AVENTIS CANADA INC","seringue"
+"86426","syringe","1","mL","Y","N","02378469","LOVENOX HP SANOFI-AVENTIS CANADA INC","seringue"
+"59932","vial","3","mL","N","Y","02236564","LOVENOX WITH PRESERVATIVE 300MG/3ML SANOFI-AVENTIS CANADA INC","fiole"
+"68448","vial","10","mL","Y","N","02244475","DIPYRIDAMOLE INJECTION, USP FRESENIUS KABI CANADA LTD","fiole"
+"68907","vial","10","mL","Y","N","02244909","DIPYRIDAMOLE FOR INJECTION","fiole"
+"6720","vial","10","mL","Y","N","00637734","PERSANTINE BOEHRINGER INGELHEIM (CANADA) LTD LTEE","fiole"
+"93132","syringe","1","mL","Y","N","02446057","REPATHA AMGEN CANADA INC","seringue"
+"94710","cartridge","3.5","mL","Y","N","02459779","REPATHA AMGEN CANADA INC","cartouche"
+"78217","vial","0.23","mL","N","Y","02296810","LUCENTIS NOVARTIS PHARMACEUTICALS CANADA INC","fiole"
+"91026","syringe","0.165","mL","N","Y","02425629","LUCENTIS NOVARTIS PHARMACEUTICALS CANADA INC","seringue"
+"3499","vial","30","mL","N","Y","00463450","NIACIN INJ 100MG/ML KRIPPS PHARMACY LTD.","fiole"
+"83943","syringe","1","mL","Y","N","02354233","INVEGA SUSTENNA JANSSEN INC","seringue"
+"83944","syringe","1.5","mL","N","N","02354241","INVEGA SUSTENNA JANSSEN INC","seringue"
+"83941","syringe","0.5","mL","N","N","02354217","INVEGA SUSTENNA JANSSEN INC","seringue"
+"83942","syringe","0.75","mL","N","N","02354225","INVEGA SUSTENNA JANSSEN INC","seringue"
+"94281","syringe","0.875","mL","N","N","02455943","INVEGA TRINZA JANSSEN INC","seringue"
+"94284","syringe","1.315","mL","N","N","02455986","INVEGA TRINZA JANSSEN INC","seringue"
+"94285","syringe","1.75","mL","N","N","02455994","INVEGA TRINZA JANSSEN INC","seringue"
+"94286","syringe","2.625","mL","N","N","02456001","INVEGA TRINZA JANSSEN INC","seringue"
+"85449","vial","1","mL","Y","N","02369567","DIPHENHYDRAMINE HYDROCHLORIDE INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"5430","vial","1","mL","Y","N","00596612","DIPHENHYDRAMINE HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"37198","vial","1","mL","Y","N","02219336","DIPHENIST 50MG/ML OMEGA LABORATORIES LTD","fiole"
+"63832","cartridge","3","mL","N","Y","02240294","HUMALOG MIX 25  (CARTRIDGE) ELI LILLY CANADA INC","cartouche"
+"88823","pen","3","mL","N","Y","02403420","HUMALOG MIX 25  (KWIKPEN) ELI LILLY CANADA INC","stylo"
+"63835","cartridge","3","mL","N","Y","02240297","HUMALOG MIX 50  (CARTRIDGE) ELI LILLY CANADA INC","cartouche"
+"88824","pen","3","mL","N","Y","02403439","HUMALOG MIX 50  (KWIKPEN) ELI LILLY CANADA INC","stylo"
+"95912","pen","3","mL","N","Y","02470152","HUMALOG JUNIOR KWIKPEN ELI LILLY CANADA INC","stylo"
+"94130","syringe","10","mL","Y","N","02454599","PHENYLEPHRINE HYDROCHLORIDE INJECTION BIOSYENT PHARMA INC","seringue"
+"65650","ampoule","1","mL","Y","N","02241980","NEO-SYNEPHRINE PFIZER CANADA INC","ampoule"
+"12889","vial","1","mL","Y","N","01953583","PHENYLEPHRINE HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"12889","vial","5","mL","Y","N","01953583","PHENYLEPHRINE HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"61817","vial","1","mL","Y","N","02238400","PHENYLEPHRINE HYDROCHLORIDE INJECTION USP, 1% OMEGA LABORATORIES LTD","fiole"
+"4802","ampoule","1","mL","Y","N","00559253","PROSTIN VR STERILE SOLUTION PFIZER CANADA INC","ampoule"
+"8488","vial","2","mL","Y","N","00743518","CHLORPROMAZINE HYDROCHLORIDE INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"13304","ampoule","5","mL","Y","N","01984837","BONEFOS BAYER INC","ampoule"
+"91339","ampoule","1","mL","Y","N","02428954","DIMENHYDRINATE INJECTION USP TELIGENT OU","ampoule"
+"91339","vial","5","mL","Y","N","02428954","DIMENHYDRINATE INJECTION USP TELIGENT OU","fiole"
+"91952","vial","5","mL","Y","N","02435241","DIMENHYDRINATE INJECTION USP WITH PRESERVATIVE TELIGENT OU","fiole"
+"3397","vial","5","mL","Y","N","00392537","DIMENHYDRINATE INJ 50MG USP SANDOZ CANADA INCORPORATED","fiole"
+"3397","ampoule","1","mL","Y","N","00392537","DIMENHYDRINATE INJ 50MG USP SANDOZ CANADA INCORPORATED","ampoule"
+"197","vial","1","mL","Y","N","00013579","GRAVOL IM CHURCH & DWIGHT CANADA CORP","fiole"
+"72016","vial","2","mL","Y","N","02247735","FAMOTIDINE OMEGA -(WITHOUT PRESERVATIVE) OMEGA LABORATORIES LTD","fiole"
+"72026","vial","4","mL","Y","N","02247745","FAMOTIDINE OMEGA -(WITH PRESERVATIVE,BENZYL ALCOHOL) OMEGA LABORATORIES LTD","fiole"
+"72026","vial","20","mL","N","Y","02247745","FAMOTIDINE OMEGA -(WITH PRESERVATIVE,BENZYL ALCOHOL) OMEGA LABORATORIES LTD","fiole"
+"13803","ampoule","1","mL","Y","N","01913980","NUBAIN INJECTION 10MG/ML SANDOZ CANADA INCORPORATED","ampoule"
+"68533","vial","10","mL","Y","N","02244550","PAMIDRONATE DISODIUM FOR INJECTION PFIZER CANADA INC","fiole"
+"68534","vial","10","mL","Y","N","02244551","PAMIDRONATE DISODIUM FOR INJECTION PFIZER CANADA INC","fiole"
+"68535","vial","10","mL","Y","N","02244552","PAMIDRONATE DISODIUM FOR INJECTION PFIZER CANADA INC","fiole"
+"73448","vial","10","mL","Y","N","02249677","PAMIDRONATE DISODIUM OMEGA 6 MG/ML OMEGA LABORATORIES LTD","fiole"
+"73449","vial","10","mL","Y","N","02249685","PAMIDRONATE DISODIUM OMEGA 9 MG/ML OMEGA LABORATORIES LTD","fiole"
+"70784","vial","10","mL","Y","N","02246597","PAMIDRONATE DISODIUM FOR INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"70785","vial","10","mL","Y","N","02246598","PAMIDRONATE DISODIUM FOR INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"70786","vial","10","mL","Y","N","02246599","PAMIDRONATE DISODIUM FOR INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"91710","vial","16.7","mL","N","N","02432676","POSANOL MERCK CANADA INC","fiole"
+"84321","syringe","0.35","mL","Y","N","02358158","INNOHEP LEO PHARMA INC","seringue"
+"84322","syringe","0.45","mL","Y","N","02358166","INNOHEP LEO PHARMA INC","seringue"
+"84323","syringe","0.7","mL","Y","N","02358174","INNOHEP LEO PHARMA INC","seringue"
+"84324","syringe","0.9","mL","Y","N","02358182","INNOHEP LEO PHARMA INC","seringue"
+"91392","syringe","0.4","mL","N","N","02429462","INNOHEP LEO PHARMA INC","seringue"
+"91393","syringe","0.6","mL","N","N","02429470","INNOHEP LEO PHARMA INC","seringue"
+"91394","syringe","0.8","mL","N","N","02429489","INNOHEP LEO PHARMA INC","seringue"
+"47420","vial","2","mL","N","Y","02229515","INNOHEP LEO PHARMA INC","fiole"
+"47983","syringe","0.25","mL","Y","N","02229755","INNOHEP LEO PHARMA INC","seringue"
+"50802","syringe","0.5","mL","Y","N","02231478","INNOHEP LEO PHARMA INC","seringue"
+"19202","vial","2","mL","N","Y","02167840","INNOHEP LEO PHARMA INC","fiole"
+"90620","vial","5","mL","N","N","02421550","ZOLEDRONIC ACID FOR INJECTION PFIZER CANADA INC","fiole"
+"90711","vial","5","mL","N","N","02422425","ZOLEDRONIC ACID FOR INJECTION CONCENTRATE DR REDDYS LABORATORIES LTD","fiole"
+"90712","vial","100","mL","N","N","02422433","ZOLEDRONIC ACID INJECTION DR REDDYS LABORATORIES LTD","fiole"
+"89972","vial","100","mL","N","N","02415100","TARO-ZOLEDRONIC ACID TARO PHARMACEUTICALS INC","fiole"
+"89980","vial","5","mL","N","N","02415186","TARO-ZOLEDRONIC ACID CONCENTRATE TARO PHARMACEUTICALS INC","fiole"
+"89277","vial","100","mL","N","N","02408082","ZOLEDRONIC ACID INJECTION TEVA CANADA LIMITED","fiole"
+"92989","vial","5","mL","N","N","02444739","ZOLEDRONIC ACID FOR INJECTION MDA INC.","fiole"
+"91878","vial","5","mL","N","N","02434458","ZOLEDRONIC ACID FOR INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"88649","vial","5","mL","N","N","02401606","ZOLEDRONIC ACID - Z SANDOZ CANADA INCORPORATED","fiole"
+"88788","vial","5","mL","N","N","02403056","PMS-ZOLEDRONIC ACID PHARMASCIENCE INC","fiole"
+"89236","vial","5","mL","N","N","02407639","ZOLEDRONIC ACID FOR INJECTION TEVA CANADA LIMITED","fiole"
+"75458","vial","100","mL","N","N","02269198","ACLASTA NOVARTIS PHARMACEUTICALS CANADA INC","fiole"
+"72636","vial","5","mL","N","N","02248296","ZOMETA CONCENTRATE NOVARTIS PHARMACEUTICALS CANADA INC","fiole"
+"63823","vial","2","mL","Y","N","02240285","MIDAZOLAM INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"63823","vial","5","mL","Y","N","02240285","MIDAZOLAM INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"63823","vial","10","mL","Y","N","02240285","MIDAZOLAM INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"63824","vial","1","mL","Y","N","02240286","MIDAZOLAM INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"63824","vial","2","mL","Y","N","02240286","MIDAZOLAM INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"63824","vial","10","mL","Y","N","02240286","MIDAZOLAM INJECTION SANDOZ CANADA INCORPORATED","fiole"
+"66736","vial","2","mL","Y","N","02242904","MIDAZOLAM INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"66736","vial","5","mL","Y","N","02242904","MIDAZOLAM INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"66736","vial","10","mL","Y","N","02242904","MIDAZOLAM INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"66737","vial","1","mL","Y","N","02242905","MIDAZOLAM INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"66737","vial","2","mL","Y","N","02242905","MIDAZOLAM INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"66737","vial","10","mL","Y","N","02242905","MIDAZOLAM INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"90845","ampoule","5","mL","Y","N","02423758","MIDAZOLAM INJECTION PFIZER CANADA INC","ampoule"
+"90846","ampoule","1","mL","Y","N","02423766","MIDAZOLAM INJECTION PFIZER CANADA INC","ampoule"
+"90846","ampoule","3","mL","Y","N","02423766","MIDAZOLAM INJECTION PFIZER CANADA INC","ampoule"
+"90846","ampoule","10","mL","Y","N","02423766","MIDAZOLAM INJECTION PFIZER CANADA INC","ampoule"
+"86868","ampoule","2","mL","Y","N","02382873","MIDAZOLAM INJECTION SDZ SANDOZ CANADA INCORPORATED","ampoule"
+"86868","ampoule","5","mL","Y","N","02382873","MIDAZOLAM INJECTION SDZ SANDOZ CANADA INCORPORATED","ampoule"
+"86868","ampoule","10","mL","Y","N","02382873","MIDAZOLAM INJECTION SDZ SANDOZ CANADA INCORPORATED","ampoule"
+"86870","ampoule","1","mL","Y","N","02382903","MIDAZOLAM INJECTION SDZ SANDOZ CANADA INCORPORATED","ampoule"
+"86870","ampoule","2","mL","Y","N","02382903","MIDAZOLAM INJECTION SDZ SANDOZ CANADA INCORPORATED","ampoule"
+"86870","ampoule","10","mL","Y","N","02382903","MIDAZOLAM INJECTION SDZ SANDOZ CANADA INCORPORATED","ampoule"
+"86819","vial","2","mL","Y","N","02382342","MIDAZOLAM INJECTION USP PFIZER CANADA INC","fiole"
+"86819","vial","5","mL","Y","N","02382342","MIDAZOLAM INJECTION USP PFIZER CANADA INC","fiole"
+"86821","vial","1","mL","Y","N","02382350","MIDAZOLAM INJECTION USP PFIZER CANADA INC","fiole"
+"86821","vial","2","mL","Y","N","02382350","MIDAZOLAM INJECTION USP PFIZER CANADA INC","fiole"
+"86822","vial","10","mL","Y","N","02382377","MIDAZOLAM INJECTION USP PFIZER CANADA INC","fiole"
+"86823","vial","10","mL","Y","N","02382385","MIDAZOLAM INJECTION USP PFIZER CANADA INC","fiole"
+"9788","vial","10","mL","N","Y","00795879","HUMULIN 30/70 (INSULIN HUMAN BIOSYNTH INJ) ELI LILLY CANADA INC","fiole"
+"89971","pen","3","mL","N","Y","02415089","HUMULIN R (KWIKPEN) ELI LILLY CANADA INC","stylo"
+"95524","pen","3","mL","N","Y","02466864","ENTUZITY KWIKPEN ELI LILLY CANADA INC","stylo"
+"12569","cartridge","3","mL","N","Y","01959220","HUMULIN R CARTRIDGE ELI LILLY CANADA INC","cartouche"
+"14260","vial","10","mL","N","Y","02024233","NOVOLIN GE TORONTO NOVO NORDISK CANADA INC","fiole"
+"14459","cartridge","3","mL","N","Y","02024284","NOVOLIN GE TORONTO PENFILL NOVO NORDISK CANADA INC","cartouche"
+"5325","vial","10","mL","N","Y","00586714","HUMULIN R ELI LILLY CANADA INC","fiole"
+"12568","cartridge","3","mL","N","Y","01959212","HUMULIN 30/70 CARTRIDGE ELI LILLY CANADA INC","cartouche"
+"14269","vial","10","mL","N","Y","02024217","NOVOLIN GE 30/70 NOVO NORDISK CANADA INC","fiole"
+"14265","cartridge","3","mL","N","Y","02025248","NOVOLIN GE 30/70 PENFILL NOVO NORDISK CANADA INC","cartouche"
+"14262","cartridge","3","mL","N","Y","02024314","NOVOLIN GE 40/60 PENFILL NOVO NORDISK CANADA INC","cartouche"
+"14270","cartridge","3","mL","N","Y","02024322","NOVOLIN GE 50/50 NOVO NORDISK CANADA INC","cartouche"
+"76152","vial","10","mL","N","Y","02275864","HYPURIN NPH INSULIN ISOPHANE PORK WOCKHARDT UK LTD","fiole"
+"76153","vial","10","mL","N","Y","02275872","HYPURIN REGULAR INSULIN PORK WOCKHARDT UK LTD","fiole"
+"94413","vial","20","mL","Y","N","02457040","LABETALOL HYDROCHLORIDE INJECTION OMEGA LABORATORIES LTD","fiole"
+"94413","vial","40","mL","Y","N","02457040","LABETALOL HYDROCHLORIDE INJECTION OMEGA LABORATORIES LTD","fiole"
+"3595","vial","1","mL","Y","N","00392731","DIMENHYDRINATE INJ 10MG SANDOZ CANADA INCORPORATED","fiole"
+"3595","ampoule","1","mL","Y","N","00392731","DIMENHYDRINATE INJ 10MG SANDOZ CANADA INCORPORATED","ampoule"
+"18289","ampoule","1","mL","Y","N","02024179","OCTOSTIM LIQ INJ. 15 MCG/ML FERRING INC","ampoule"
+"95689","vial","10","mL","Y","N","02468468","HYDROMORPHONE HYDROCHLORIDE INJECTION HP FORTE STERIMAX INC","fiole"
+"3921","vial","10","mL","N","Y","00504483","NIACINAMIDE INJECTION 100 MG/ML KRIPPS PHARMACY","fiole"
+"1134","vial","1","mL","Y","N","00030759","DEPO-MEDROL 40 MG/ML PFIZER CANADA LTD","fiole"
+"16275","vial","2","mL","Y","N","01934333","DEPO-MEDROL (WITH PRESERVATIVE) 40 MG/ML PFIZER CANADA INC","fiole"
+"16275","vial","5","mL","Y","N","01934333","DEPO-MEDROL (WITH PRESERVATIVE) 40 MG/ML PFIZER CANADA INC","fiole"
+"16276","vial","5","mL","Y","N","01934341","DEPO-MEDROL (WITH PRESERVATIVE) 80 MG/ML PFIZER CANADA INC","fiole"
+"789","vial","1","mL","Y","N","00030767","DEPO-MEDROL 80 MG/ML PFIZER CANADA INC","fiole"
+"18988","vial","5","mL","Y","N","01934325","DEPO-MEDROL (WITH PRESERVATIVE) 20 MG/ML PFIZER CANADA INC","fiole"
+"76506","vial","10","mL","N","Y","02279460","APIDRA SANOFI-AVENTIS CANADA INC","fiole"
+"76507","cartridge","3","mL","N","Y","02279479","APIDRA SANOFI-AVENTIS CANADA INC","cartouche"
+"77968","pen","3","mL","N","Y","02294346","APIDRA SANOFI-AVENTIS CANADA INC","stylo"
+"96506","pen","3","mL","N","Y","02474875","XULTOPHY NOVO NORDISK CANADA INC","stylo"
+"91526","bag","300","mL","Y","N","02430827","LINEZOLID INJECTION FRESENIUS KABI CANADA LTD","sac"
+"67615","bag","300","mL","Y","N","02243685","ZYVOXAM 2 MG/ML PFIZER CANADA INC","sac"
+"18611","vial","2","mL","Y","N","02167832","DROPERIDOL INJECTION USP 2.5MG/ML SANDOZ CANADA INCORPORATED","fiole"
+"18800","ampoule","1","mL","Y","N","02156032","FLUANXOL DEPOT 2% -LIQ IM 20MG/ML LUNDBECK CANADA INC","ampoule"
+"18737","ampoule","1","mL","Y","N","02156040","FLUANXOL DEPOT 10%- LIQ IM 100MG/ML LUNDBECK CANADA INC","ampoule"
+"10488","ampoule","1","mL","Y","N","00755575","MODECATE CONCENTRATE BRISTOL-MYERS SQUIBB CANADA","ampoule"
+"5089","ampoule","1","mL","Y","N","00567434","PROMETHAZINE HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","ampoule"
+"5089","ampoule","2","mL","Y","N","00567434","PROMETHAZINE HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","ampoule"
+"49244","ampoule","1","mL","Y","N","02230405","CLOPIXOL-ACUPHASE 50MG/ML LUNDBECK CANADA INC","ampoule"
+"49244","ampoule","2","mL","Y","N","02230405","CLOPIXOL-ACUPHASE 50MG/ML LUNDBECK CANADA INC","ampoule"
+"49245","ampoule","1","mL","Y","N","02230406","CLOPIXOL DEPOT 200MG/ML LUNDBECK CANADA INC","ampoule"
+"49245","vial","10","mL","N","Y","02230406","CLOPIXOL DEPOT 200MG/ML LUNDBECK CANADA INC","fiole"
+"78573","vial","10","mL","N","Y","02300435","ACETYLCYSTEINE INJECTION 200 MG/ML ALVEDA PHARMACEUTICALS INC","fiole"
+"78573","vial","30","mL","N","Y","02300435","ACETYLCYSTEINE INJECTION 200 MG/ML ALVEDA PHARMACEUTICALS INC","fiole"
+"94721","vial","10","mL","N","Y","02459906","ACETYLCYSTEINE SOLUTION USP TELIGENT OU","fiole"
+"94721","vial","30","mL","N","Y","02459906","ACETYLCYSTEINE SOLUTION USP TELIGENT OU","fiole"
+"66965","vial","10","mL","N","Y","02243098","ACETYLCYSTEINE SOLUTION SANDOZ CANADA INCORPORATED","fiole"
+"66965","vial","30","mL","N","Y","02243098","ACETYLCYSTEINE SOLUTION SANDOZ CANADA INCORPORATED","fiole"
+"2483","ampoule","1","mL","Y","N","00363839","BUSCOPAN SANOFI-AVENTIS CANADA INC","ampoule"
+"48226","vial","1","mL","Y","N","02229868","HYOSCINE BUTYLBROMIDE INJECTION SANDOZ STANDARD SANDOZ CANADA INCORPORATED","fiole"
+"75090","cartridge","3","mL","N","Y","02265435","NOVOMIX 30 NOVO NORDISK CANADA INC","cartouche"
+"92802","unit dose vial","5","mL","N","N","02443368","TOBRAMYCIN INHALATION SOLUTION SANDOZ CANADA INCORPORATED","fiole unidose"
+"63101","unit dose vial","5","mL","N","N","02239630","TOBI NOVARTIS PHARMACEUTICALS CANADA INC","fiole unidose"
+"64815","vial","2","mL","Y","N","02241209","TOBRAMYCIN INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"49816","vial","2","mL","Y","N","02230639","TOBRAMYCIN INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"87512","unit dose vial","5","mL","Y","N","02389622","TEVA-TOBRAMYCIN TEVA CANADA LIMITED","fiole unidose"
+"49817","vial","2","mL","Y","N","02230640","TOBRAMYCIN INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"49817","vial","30","mL","N","Y","02230640","TOBRAMYCIN INJECTION FRESENIUS KABI CANADA LTD","fiole"
+"64816","vial","2","mL","Y","N","02241210","TOBRAMYCIN INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"64816","vial","30","mL","N","Y","02241210","TOBRAMYCIN INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"5325","vial","3","mL","N","Y","00586714","HUMULIN R ELI LILLY CANADA INC","fiole"
+"67776","vial","2.5","mL","Y","N","02243835","ARGATROBAN NOVARTIS PHARMACEUTICALS CANADA INC","fiole"
+"96262","syringe","1","mL","Y","N","02473232","FASENRA ASTRAZENECA CANADA INC","seringue"
+"3781","vial","5","mL","N","Y","00505005","FLUORESCITE ALCON CANADA INC","fiole"
+"86740","vial","5","mL","N","N","02381559","ARZERRA NOVARTIS PHARMACEUTICALS CANADA INC","fiole"
+"86741","vial","50","mL","N","N","02381567","ARZERRA NOVARTIS PHARMACEUTICALS CANADA INC","fiole"
+"94572","ampoule","1","mL","Y","N","02458578","NALOXONE INJECTABLE TELIGENT OU","ampoule"
+"13867","ampoule","1","mL","Y","N","00873993","DDAVP INJ 4MCG/ML FERRING INC","ampoule"
+"94407","syringe","0.5","mL","N","N","02456958","HEPARIN SODIUM INJECTION USP STERINOVA INC","seringue"
+"86817","vial","1","mL","Y","N","02382326","HEPARIN SODIUM INJECTION USP PFIZER CANADA INC","fiole"
+"17227","bag","500","mL","Y","N","01990748","HEPARIN SODIUM IN 0.9% SODIUM CHLORIDE INJECTION PFIZER CANADA INC","sac"
+"17227","bag","1000","mL","Y","N","01990748","HEPARIN SODIUM IN 0.9% SODIUM CHLORIDE INJECTION PFIZER CANADA INC","sac"
+"78843","vial","5","mL","Y","N","02303108","HEPARIN SODIUM INJECTION USP (MULTIDOSE VIAL-WITH PRESERVATIVE) SANDOZ CANADA INCORPORATED","fiole"
+"78843","vial","50","mL","N","Y","02303108","HEPARIN SODIUM INJECTION USP (MULTIDOSE VIAL-WITH PRESERVATIVE) SANDOZ CANADA INCORPORATED","fiole"
+"78841","vial","10","mL","Y","N","02303086","HEPARIN SODIUM INJECTION USP (MULTIDOSE VIAL-WITH PRESERVATIVE) SANDOZ CANADA INCORPORATED","fiole"
+"78841","vial","30","mL","N","Y","02303086","HEPARIN SODIUM INJECTION USP (MULTIDOSE VIAL-WITH PRESERVATIVE) SANDOZ CANADA INCORPORATED","fiole"
+"87773","vial","0.5","mL","Y","N","02392453","HEPARIN SODIUM INJECTION USP FRESENIUS KABI CANADA LTD","fiole"
+"74973","vial","1","mL","Y","N","02264307","HEPARIN SODIUM INJECTION USP FRESENIUS KABI CANADA LTD","fiole"
+"74973","vial","5","mL","Y","N","02264307","HEPARIN SODIUM INJECTION USP FRESENIUS KABI CANADA LTD","fiole"
+"78842","vial","1","mL","Y","N","02303094","HEPARIN SODIUM INJECTION USP (SINGLE USE VIAL-PRESERVATIVE FREE) SANDOZ CANADA INCORPORATED","fiole"
+"74976","vial","1","mL","Y","N","02264315","HEPARIN SODIUM INJECTION USP FRESENIUS KABI CANADA LTD","fiole"
+"74976","vial","10","mL","Y","N","02264315","HEPARIN SODIUM INJECTION USP FRESENIUS KABI CANADA LTD","fiole"
+"74976","vial","30","mL","N","Y","02264315","HEPARIN SODIUM INJECTION USP FRESENIUS KABI CANADA LTD","fiole"
+"86815","vial","10","mL","Y","N","02382296","HEPARIN SODIUM INJECTION USP PFIZER CANADA INC","fiole"
+"12647","bag","500","mL","Y","N","00894648","HEPARIN SODIUM 20000UNIT/500ML IN DEXT 5% INJ HOSPIRA HEALTHCARE CORPORATION","sac"
+"12646","bag","500","mL","Y","N","00894605","HEPARIN SODIUM 25000UNIT/500ML IN 5% DEXTR INJ HOSPIRA HEALTHCARE CORPORATION","sac"
+"83627","pen","3","mL","N","Y","02351064","VICTOZA NOVO NORDISK CANADA INC","stylo"
+"92226","pen","3","mL","N","Y","02437899","SAXENDA NOVO NORDISK CANADA INC","stylo"
+"95243","pre-filled pen","3","mL","N","N","02464276","ADLYXINE SANOFI-AVENTIS CANADA INC","stylo prérempli"
+"95244","pre-filled pen","3","mL","N","N","02464284","ADLYXINE SANOFI-AVENTIS CANADA INC","stylo prérempli"
+"94214","syringe","1","mL","Y","N","02455323","BRENZYS SAMSUNG BIOEPIS CO. LTD","seringue"
+"94215","syringe","1","mL","Y","N","02455331","BRENZYS SAMSUNG BIOEPIS CO. LTD","seringue"
+"76019","syringe","1","mL","Y","N","02274728","ENBREL IMMUNEX CORPORATION","seringue"
+"95072","syringe","1","mL","Y","N","02462850","ERELZI SANDOZ CANADA INCORPORATED","seringue"
+"95073","syringe","1","mL","Y","N","02462869","ERELZI SANDOZ CANADA INCORPORATED","seringue"
+"95074","syringe","0.5","mL","N","N","02462877","ERELZI SANDOZ CANADA INCORPORATED","seringue"
+"2224","ampoule","1","mL","Y","N","00318736","PROSTIN F2 ALPHA PFIZER CANADA INC","ampoule"
+"87760","syringe","0.4","mL","Y","N","02392313","ARANESP -(HSA-FREE) AMGEN CANADA INC","seringue"
+"87711","syringe","0.3","mL","Y","N","02391791","ARANESP -(HSA-FREE) AMGEN CANADA INC","seringue"
+"87712","syringe","0.4","mL","Y","N","02391805","ARANESP -(HSA-FREE) AMGEN CANADA INC","seringue"
+"87714","syringe","0.6","mL","Y","N","02391821","ARANESP -(HSA-FREE) AMGEN CANADA INC","seringue"
+"87764","syringe","1","mL","Y","N","02392364","ARANESP -(HSA-FREE) AMGEN CANADA INC","seringue"
+"87762","syringe","0.3","mL","Y","N","02392348","ARANESP -(HSA-FREE) AMGEN CANADA INC","seringue"
+"87706","syringe","0.4","mL","Y","N","02391740","ARANESP -(HSA-FREE) AMGEN CANADA INC","seringue"
+"87707","syringe","0.5","mL","Y","N","02391759","ARANESP -(HSA-FREE) AMGEN CANADA INC","seringue"
+"87708","syringe","0.4","mL","Y","N","02391767","ARANESP -(HSA-FREE) AMGEN CANADA INC","seringue"
+"87709","syringe","0.5","mL","Y","N","02391775","ARANESP -(HSA-FREE) AMGEN CANADA INC","seringue"
+"87710","syringe","0.65","mL","Y","N","02391783","ARANESP -(HSA-FREE) AMGEN CANADA INC","seringue"
+"87763","syringe","0.3","mL","Y","N","02392356","ARANESP -(HSA-FREE) AMGEN CANADA INC","seringue"
+"87761","syringe","0.5","mL","Y","N","02392321","ARANESP -(HSA-FREE) AMGEN CANADA INC","seringue"
+"82897","syringe","1","mL","Y","N","02343541","PROLIA AMGEN CANADA INC","seringue"
+"85304","vial","1.7","mL","N","N","02368153","XGEVA AMGEN CANADA INC","fiole"
+"92869","vial","2","mL","Y","N","02443910","BELKYRA KYTHERA BIOPHARMACEUTICALS INC.","fiole"
+"415","ampoule","1","mL","Y","N","00027243","DIHYDROERGOTAMINE (DHE) 1MG/ML STERIMAX INC","ampoule"
+"65680","vial","20","mL","Y","N","02242010","DOBUTAMINE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"87038","ampoule","20","mL","Y","N","02384671","DOBUTAMINE INJECTION SDZ SANDOZ CANADA INCORPORATED","ampoule"
+"95055","vial","20","mL","Y","N","02462729","DOBUTAMINE INJECTION USP TELIGENT OU","fiole"
+"43041","vial","20","mL","N","N","02210401","DOBUTAMINE INJECTION USP PFIZER CANADA INC","fiole"
+"15483","unit dose vial","2.5","mL","Y","N","02046733","PULMOZYME 1MG/ML HOFFMANN-LA ROCHE LIMITED","fiole unidose"
+"93431","pen","0.5","mL","N","N","02448602","TRULICITY ELI LILLY CANADA INC","stylo"
+"93430","syringe","0.5","mL","N","N","02448599","TRULICITY  ELI LILLY CANADA INC","seringue"
+"80774","vial","30","mL","Y","N","02322285","SOLIRIS ALEXION PHARMA GMBH","fiole"
+"69618","syringe","0.5","mL","N","N","02245531","ARIXTRA ASPEN PHARMACARE CANADA INC","seringue"
+"89154","syringe","0.5","mL","N","N","02406853","FONDAPARINUX SODIUM INJECTION DR REDDYS LABORATORIES LTD","seringue"
+"89156","syringe","0.6","mL","N","N","02406896","FONDAPARINUX SODIUM INJECTION DR REDDYS LABORATORIES LTD","seringue"
+"74328","syringe","0.6","mL","N","N","02258056","ARIXTRA ASPEN PHARMACARE CANADA INC","seringue"
+"14577","vial","2","mL","Y","N","02039508","GLYCOPYRROLATE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"14577","vial","20","mL","Y","N","02039508","GLYCOPYRROLATE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"86865","vial","20","mL","Y","N","02382849","GLYCOPYRROLATE INJECTION MULTIDOSE OMEGA LABORATORIES LTD","fiole"
+"86866","vial","1","mL","Y","N","02382857","GLYCOPYRROLATE INJECTION OMEGA LABORATORIES LTD","fiole"
+"86866","vial","2","mL","Y","N","02382857","GLYCOPYRROLATE INJECTION OMEGA LABORATORIES LTD","fiole"
+"34560","ampoule","1","mL","Y","N","02169991","LOXAPAC IM SANDOZ CANADA INCORPORATED","ampoule"
+"78527","vial","50","mL","Y","N","02299925","ATRIANCE NOVARTIS PHARMACEUTICALS CANADA INC","fiole"
+"93204","vial","4","mL","Y","N","02446626","OPDIVO BRISTOL-MYERS SQUIBB CANADA","fiole"
+"93205","vial","10","mL","N","N","02446634","OPDIVO BRISTOL-MYERS SQUIBB CANADA","fiole"
+"88731","syringe","1","mL","Y","N","02402475","ORENCIA BRISTOL-MYERS SQUIBB CANADA","seringue"
+"90055","vial","0.05","mL","Y","N","02415992","EYLEA BAYER INC","fiole"
+"73392","vial","3.5","mL","Y","N","02249057","REPLAGAL SHIRE HUMAN GENETIC THERAPIES INC","fiole"
+"77636","vial","1","mL","Y","N","02290960","MABCAMPATH SANOFI GENZYME A DIVISION OF SANOFI-AVENTIS CANADA INC","fiole"
+"90290","vial","1.2","mL","N","N","02418320","LEMTRADA SANOFI GENZYME A DIVISION OF SANOFI-AVENTIS CANADA INC","fiole"
+"92969","vial","0.45","mL","Y","N","02444615","STRENSIQ ALEXION PHARMA GMBH","fiole"
+"92970","vial","0.7","mL","Y","N","02444623","STRENSIQ ALEXION PHARMA GMBH","fiole"
+"92971","vial","1","mL","Y","N","02444631","STRENSIQ ALEXION PHARMA GMBH","fiole"
+"92972","vial","0.8","mL","Y","N","02444658","STRENSIQ ALEXION PHARMA GMBH","fiole"
+"95089","vial","20","mL","N","N","02462990","TECENTRIQ HOFFMANN-LA ROCHE LIMITED","fiole"
+"2390","syringe","10","mL","N","N","00328154","ATROPINE SULFATE INJECTION USP PFIZER CANADA INC","seringue"
+"3554","ampoule","1","mL","Y","N","00392782","ATROPINE SULFATE INJECTION USP SANDOZ CANADA INCORPORATED","ampoule"
+"91662","ampoule","1","mL","Y","N","02432188","ATROPINE INJECTION BP TELIGENT OU","ampoule"
+"91663","ampoule","1","mL","Y","N","02432196","ATROPINE INJECTION BP TELIGENT OU","ampoule"
+"3553","ampoule","1","mL","Y","N","00392693","ATROPINE SULFATE INJECTION USP SANDOZ CANADA INCORPORATED","ampoule"
+"91086","syringe","5","mL","N","N","02426269","ATROPINE SULFATE INJECTION BIOSYENT PHARMA INC","seringue"
+"91087","syringe","5","mL","N","N","02426277","ATROPINE SULFATE INJECTION BIOSYENT PHARMA INC","seringue"
+"95946","syringe","1","mL","N","N","02470489","BENLYSTA GLAXOSMITHKLINE INC","seringue"
+"14318","vial","4","mL","Y","N","02016109","SURVANTA ABBVIE CORPORATION","fiole"
+"14318","vial","8","mL","Y","N","02016109","SURVANTA ABBVIE CORPORATION","fiole"
+"75642","vial","4","mL","Y","N","02270994","AVASTIN HOFFMANN-LA ROCHE LIMITED","fiole"
+"75642","vial","16","mL","Y","N","02270994","AVASTIN HOFFMANN-LA ROCHE LIMITED","fiole"
+"19356","vial","10","mL","Y","N","02185377","BRETYLIUM TOSYLATE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
+"92837","vial","10","mL","Y","N","02443686","BUPIVACAINE INJECTION BP STERIMAX INC","fiole"

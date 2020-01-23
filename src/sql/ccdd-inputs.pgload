@@ -239,7 +239,7 @@ LOAD CSV
 
 LOAD CSV
      FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ccdd-mp-blacklist-draft.csv
- --  FROM ./test/ccdd-mp-blacklist-draft.csv
+  -- FROM ./test/ccdd-mp-blacklist-draft.csv
     WITH ENCODING UTF-8
     (
       drug_code
