@@ -3232,12 +3232,12 @@ SELECT
 	(
 		SELECT COUNT(*)
 		FROM qa_new_concepts_ntp ncn
-		WHERE EXISTS(SELECT * FROM ccdd.ntp_full_release nfr WHERE nfr.ntp_code = ncn.ntp_code)
+		WHERE EXISTS(SELECT * FROM ccdd.ntp_release_candidate nfr WHERE nfr.ntp_code = ncn.ntp_code)
 	) AS release_overlap_codes,
 	(
 		SELECT COUNT(*)
 		FROM qa_new_concepts_ntp ncn
-		WHERE EXISTS(SELECT * FROM ccdd.ntp_full_release nfr WHERE nfr.ntp_formal_name = ncn.ntp_formal_name)
+		WHERE EXISTS(SELECT * FROM ccdd.ntp_release_candidate nfr WHERE nfr.ntp_formal_name = ncn.ntp_formal_name)
 	) AS release_overlap_names;
 -- ddl-end --
 ALTER VIEW public.qa_new_concepts_ntp_test OWNER TO postgres;
@@ -3306,12 +3306,12 @@ SELECT
 	(
 		SELECT COUNT(*)
 		FROM qa_new_concepts_tm nct
-		WHERE EXISTS(SELECT * FROM ccdd.tm_full_release tfr WHERE tfr.tm_code = nct.tm_code)
+		WHERE EXISTS(SELECT * FROM ccdd.tm_release_candidate tfr WHERE tfr.tm_code = nct.tm_code)
 	) AS release_overlap_codes,
 	(
 		SELECT COUNT(*)
 		FROM qa_new_concepts_tm nct
-		WHERE EXISTS(SELECT * FROM ccdd.tm_full_release tfr WHERE tfr.tm_formal_name = nct.tm_formal_name)
+		WHERE EXISTS(SELECT * FROM ccdd.tm_release_candidate tfr WHERE tfr.tm_formal_name = nct.tm_formal_name)
 	) AS release_overlap_names;
 -- ddl-end --
 ALTER VIEW public.qa_new_concepts_tm_test OWNER TO postgres;
