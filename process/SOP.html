@@ -12,6 +12,7 @@
 
 <meta name="author" content="Nancy Zhu, Daniel Buijs" />
 
+<meta name="date" content="2020-02-03" />
 
 <title>CCDD Standard operating procedure (SOP)</title>
 
@@ -382,7 +383,7 @@ summary {
 
 <h1 class="title toc-ignore">CCDD Standard operating procedure (SOP)</h1>
 <h4 class="author">Nancy Zhu, Daniel Buijs</h4>
-<h4 class="date">December 18 2019</h4>
+<h4 class="date">2020-02-03</h4>
 
 </div>
 
@@ -502,31 +503,35 @@ git push origin folder_reorg </code></pre>
 <li><p>update ccdd_date and dpd_extract_date in <a href="https://github.com/hres/formulary/blob/sql-views/src/sql/test/ccdd-config.csv">ccdd-config.csv</a> file. ccdd_date is the date on which QA generation are performed. dpd_extract_date is the date on which DPD online extract is updated each month.</p></li>
 <li><p>update line 1,2 in <a href="https://github.com/hres/formulary/blob/sql-views-french/src/sql/setup.sh">setup.sh</a> file. Input <em>ccdd_qa_release_date</em> and <em>ccdd_current_release_date</em>, these are the dates from previous cycle of generation.</p></li>
 <li><p>update filepath for DPD extracts in <a href="https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload.pgload">dpdload.pgload</a>, <a href="https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_ap.pgload">dpdload_ap.pgload</a>, <a href="https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_dr.pgload">dpdload_dr.pgload</a>, <a href="https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_ia.pgload">dpdload_ia.pgload</a></p></li>
+<li><p><em>Update line 57 in setup.sh</em> with the name of database for previous month release candidate generation (This will set up the correct reference data for comparisons)</p></li>
 <li>run script <a href="https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh">setup.sh</a> in command line (Terminal)</li>
 </ol>
 <pre><code>cd ./src/sql
-PGHOST=rest.hc.local PGUSER={username of database} PGPASSWORD={password} ./setup.sh</code></pre>
-<ol start="6" style="list-style-type: decimal">
+PGHOST=rest.hc.local PGUSER={username of database} PGPASSWORD={password} ./setup.sh qa</code></pre>
+<ol start="7" style="list-style-type: decimal">
 <li><p>All files are generation in <code>./src/dist/{date of generation}</code></p></li>
 <li><p><code>git checkout folder_reorg</code> Switch to <code>folder_reorg</code> branch.</p></li>
 <li>Create new folder with date as folder name in <code>~/QAfiles</code> and subfolder (This step can be done with user interface or at command line)</li>
 </ol>
 <pre><code>mkdir ~/formulary/QAfiles/{date of generation}
 mkdir ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
+mkdir ~/formulary/QAfiles/{date of generation}/DPD_diff
 
 cp  ~/formulary/src/dist/{date of generation}/*qa_release_[[:digit:]]*  ~/formulary/QAfiles/{date of generation}
 cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_qa_release_fr_*  ~/formulary/QAfiles/{date of generation}
 cp  ~/formulary/src/dist/{date of generation}/*qa_release_changes_*  ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
-
-cp ~/formulary/src/dist/{date of generation}/*post_qa_relationship  ~formulary/QAfiles/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/*duplicate_names*  ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
+cp ~/formulary/src/dist/{date of generation}/*post_qa_relationship*  ~/formulary/QAfiles/{date of generation}
 cp  ~/formulary/src/dist/{date of generation}/coded_attribute*  ~/formulary/QAfiles/{date of generation}
-cp  ~/formulary/src/dist/{date of generation}/device-ntp*  ~/formulary/QAfiles/{date of generation}</code></pre>
-<ol start="9" style="list-style-type: decimal">
+cp  ~/formulary/src/dist/{date of generation}/device-ntp*  ~/formulary/QAfiles/{date of generation}
+cp ~/formulary/src/dist/{date of generation}/*dpd*_changes.csv ~/formulary/QAfiles/{date of generation}/DPD_diff
+</code></pre>
+<ol start="10" style="list-style-type: decimal">
 <li>Commit and push the files to remote Github repository</li>
 </ol>
 <pre><code>git commit -m &quot;QA generation for CCDD&quot;
 git push origin folder_reorg </code></pre>
-<ol start="10" style="list-style-type: decimal">
+<ol start="11" style="list-style-type: decimal">
 <li>Check folder <a href="https://github.com/hres/formulary/tree/folder_reorg/QAfiles">QAfiles</a> and email QA group</li>
 </ol>
 </div>
