@@ -26,3 +26,7 @@ psql -d $TGT_DATABASE -c "CREATE TABLE $TGT_SCHEMA.route_src AS SELECT * FROM $S
 psql -d $TGT_DATABASE -c "CREATE TABLE $TGT_SCHEMA.pharmaceutical_form_src AS SELECT * FROM $SRC_SCHEMA.pharmaceutical_form"
 
 psql -d $TGT_DATABASE < ./overwrite.sql
+
+# cleanup tables and schema
+psql -d $TGT_DATABASE -c "DROP TABLE $TGT_SCHEMA.active_ingredient_src, $TGT_SCHEMA.route_src, $TGT_SCHEMA.pharmaceutical_form_src"
+psql -d $TGT_DATABASE -c "DROP SCHEMA $SRC_SCHEMA CASCADE;"
