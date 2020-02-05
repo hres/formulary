@@ -75,10 +75,12 @@ mkdir ~/formulary/Pre-check/{date of generation}
 mkdir ~/formulary/Pre-check/{date of generation}/{date of generation_from_{previous release date}}
 
 cp  ~/formulary/src/dist/{date of generation}/*full_release_[[:digit:]]*  ~/formulary/Pre-check/{date of generation}
-cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_release_fr_*  ~/formulary/Pre-check/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_fr_*  ~/formulary/Pre-check/{date of generation}
 cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_release_candidate_[[:digit:]]*  ~/formulary/Pre-check/{date of generation}
 cp  ~/formulary/src/dist/{date of generation}/coded_attribute*  ~/formulary/Pre-check/{date of generation}
 cp  ~/formulary/src/dist/{date of generation}/device-ntp*  ~/formulary/Pre-check/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/special_groupings_release*  ~/formulary/Pre-check/{date of generation}
+
 
 cp  ~/formulary/src/dist/{date of generation}/*[[:digit:]]_release_changes_*  ~/formulary/Pre-check/{date of generation}/{date of generation_from_{previous QA date}}
 ```
@@ -154,6 +156,8 @@ mkdir ~/formulary/QAfiles/{date of generation}/DPD_diff
 
 cp  ~/formulary/src/dist/{date of generation}/*qa_release_[[:digit:]]*  ~/formulary/QAfiles/{date of generation}
 cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_qa_release_fr_*  ~/formulary/QAfiles/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/special_groupings_qa_release*  ~/formulary/QAfiles/{date of generation}
+
 cp  ~/formulary/src/dist/{date of generation}/*qa_release_changes_*  ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
 cp  ~/formulary/src/dist/{date of generation}/*duplicate_names*  ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
 cp ~/formulary/src/dist/{date of generation}/*post_qa_relationship*  ~/formulary/QAfiles/{date of generation}
@@ -233,10 +237,12 @@ mkdir ~/formulary/releases/{date of generation}
 mkdir ~/formulary/releases/{date of generation}/{date of generation_from_{previous release date}}
 
 cp  ~/formulary/src/dist/{date of generation}/*full_release_[[:digit:]]*  ~/formulary/releases/{date of generation}
-cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_release_fr_*  ~/formulary/releases/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_fr_*  ~/formulary/releases/{date of generation}
 cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_release_candidate_[[:digit:]]*  ~/formulary/releases/{date of generation}
 cp  ~/formulary/src/dist/{date of generation}/coded_attribute*  ~/formulary/releases/{date of generation}
 cp  ~/formulary/src/dist/{date of generation}/device-ntp*  ~/formulary/releases/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/special_groupings_release*  ~/formulary/releases/{date of generation}
+
 
 cp  ~/formulary/src/dist/{date of generation}/*[[:digit:]]_release_changes_*  ~/formulary/releases/{date of generation}/{date of generation_from_{previous QA date}}
 
