@@ -12,7 +12,7 @@
 
 <meta name="author" content="Nancy Zhu, Daniel Buijs" />
 
-<meta name="date" content="2020-02-03" />
+<meta name="date" content="2020-02-05" />
 
 <title>CCDD Standard operating procedure (SOP)</title>
 
@@ -383,7 +383,7 @@ summary {
 
 <h1 class="title toc-ignore">CCDD Standard operating procedure (SOP)</h1>
 <h4 class="author">Nancy Zhu, Daniel Buijs</h4>
-<h4 class="date">2020-02-03</h4>
+<h4 class="date">2020-02-05</h4>
 
 </div>
 
@@ -450,10 +450,12 @@ PGHOST=rest.hc.local PGUSER={username of database} PGPASSWORD={password} ./setup
 mkdir ~/formulary/Pre-check/{date of generation}/{date of generation_from_{previous release date}}
 
 cp  ~/formulary/src/dist/{date of generation}/*full_release_[[:digit:]]*  ~/formulary/Pre-check/{date of generation}
-cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_release_fr_*  ~/formulary/Pre-check/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_fr_*  ~/formulary/Pre-check/{date of generation}
 cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_release_candidate_[[:digit:]]*  ~/formulary/Pre-check/{date of generation}
 cp  ~/formulary/src/dist/{date of generation}/coded_attribute*  ~/formulary/Pre-check/{date of generation}
 cp  ~/formulary/src/dist/{date of generation}/device-ntp*  ~/formulary/Pre-check/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/special_groupings_release*  ~/formulary/Pre-check/{date of generation}
+
 
 cp  ~/formulary/src/dist/{date of generation}/*[[:digit:]]_release_changes_*  ~/formulary/Pre-check/{date of generation}/{date of generation_from_{previous QA date}}</code></pre>
 <ol start="9" style="list-style-type: decimal">
@@ -519,6 +521,8 @@ mkdir ~/formulary/QAfiles/{date of generation}/DPD_diff
 
 cp  ~/formulary/src/dist/{date of generation}/*qa_release_[[:digit:]]*  ~/formulary/QAfiles/{date of generation}
 cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_qa_release_fr_*  ~/formulary/QAfiles/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/special_groupings_qa_release*  ~/formulary/QAfiles/{date of generation}
+
 cp  ~/formulary/src/dist/{date of generation}/*qa_release_changes_*  ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
 cp  ~/formulary/src/dist/{date of generation}/*duplicate_names*  ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
 cp ~/formulary/src/dist/{date of generation}/*post_qa_relationship*  ~/formulary/QAfiles/{date of generation}
@@ -585,10 +589,12 @@ Press 'b' when prompt to continue
 mkdir ~/formulary/releases/{date of generation}/{date of generation_from_{previous release date}}
 
 cp  ~/formulary/src/dist/{date of generation}/*full_release_[[:digit:]]*  ~/formulary/releases/{date of generation}
-cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_release_fr_*  ~/formulary/releases/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_fr_*  ~/formulary/releases/{date of generation}
 cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_release_candidate_[[:digit:]]*  ~/formulary/releases/{date of generation}
 cp  ~/formulary/src/dist/{date of generation}/coded_attribute*  ~/formulary/releases/{date of generation}
 cp  ~/formulary/src/dist/{date of generation}/device-ntp*  ~/formulary/releases/{date of generation}
+cp  ~/formulary/src/dist/{date of generation}/special_groupings_release*  ~/formulary/releases/{date of generation}
+
 
 cp  ~/formulary/src/dist/{date of generation}/*[[:digit:]]_release_changes_*  ~/formulary/releases/{date of generation}/{date of generation_from_{previous QA date}}
 </code></pre>
