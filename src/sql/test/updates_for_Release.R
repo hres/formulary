@@ -11,12 +11,12 @@ library(docxtractr)
 
 #params to update:
 
-qa_file_name<-'qa_file_20200107.docx'
-tm_filter_file_name<-'tm_filter_20200107.csv'
+qa_file_name<-'qa_file_20200205.docx'
+tm_filter_file_name<-'tm_filter_20200205.csv'
 
 ccdd <- dbPool(drv      = RPostgreSQL::PostgreSQL(),
                host     = "rest.hc.local",
-               dbname   = "ccdd_2020_01_02_145708",  #update date of database accordingly
+               dbname   = "ccdd_2020_02_03_115250",  #update date of database accordingly
                user     = "nzhu",
                password = "nzhu_rest" )
 
@@ -51,7 +51,7 @@ code_to_add<-code_to_add%>%
 
 #load qa list from Jo-Anne:
 qa<-read_docx(paste0('./src/sql/test/',qa_file_name))
-qa_whitelist<-docx_extract_tbl(qa,11) #the witelist table is always the 11th table
+qa_whitelist<-docx_extract_tbl(qa,12) #the witelist table is always the 12th table
 
 #confirm with QA whitelist
 code_to_add<-code_to_add%>%filter(drug_code %in% qa_whitelist$drug_code)
