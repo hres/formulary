@@ -14,12 +14,12 @@ WITH unionAll AS
 INSERT INTO ccdd_history.combination_products_csv_changes
 (SELECT
 	t1.drug_code,
- 	CASE WHEN t1.drug_identification_number = t2.drug_identification_number THEN NULL ELSE custom_str_agg(t1.drug_identification_number, t2.drug_identification_number) END as mp_formal_name,
+ 	CASE WHEN t1.drug_identification_number = t2.drug_identification_number THEN NULL ELSE custom_str_agg(t1.drug_identification_number, t2.drug_identification_number) END as drug_identification_number,
   	CASE WHEN t1.mp_formal_name = t2.mp_formal_name THEN NULL ELSE custom_str_agg(t1.mp_formal_name, t2.mp_formal_name) END as mp_formal_name,
 	CASE WHEN t1.ntp_formal_name = t2.ntp_formal_name THEN NULL ELSE custom_str_agg(t1.ntp_formal_name, t2.ntp_formal_name) END as ntp_formal_name,
  	CASE WHEN t1.ntp_type = t2.ntp_type THEN NULL ELSE custom_str_agg(t1.ntp_type, t2.ntp_type) END AS ntp_type,
   	CASE WHEN t1.mp_formal_name_fr = t2.mp_formal_name_fr THEN NULL ELSE custom_str_agg(t1.mp_formal_name_fr, t2.mp_formal_name_fr) END AS mp_formal_name_fr,
-  	CASE WHEN t1.ntp_formal_name_fr = t2.ntp_formal_name_fr THEN NULL ELSE custom_str_agg(t1.ntp_formal_name_fr, t2.ntp_formal_name_fr) END AS mp_formal_name_fr,
+  	CASE WHEN t1.ntp_formal_name_fr = t2.ntp_formal_name_fr THEN NULL ELSE custom_str_agg(t1.ntp_formal_name_fr, t2.ntp_formal_name_fr) END AS ntp_formal_name_fr,
 	'CHANGED'::text AS change_type
 FROM :v1.combination_products_csv t1
 LEFT JOIN :v2.combination_products_csv t2 ON t1.drug_code = t2.drug_code
