@@ -1,11 +1,11 @@
 #!/bin/bash -e
 SRC_DATABASE=registry
 SRC_SCHEMA=registry_dpd
-TGT_DATABASE=ccdd_2020_02_03_133853
+TGT_DATABASE=$PGDATABASE
 TGT_SCHEMA=dpd
 TGT_SCHEMA_TEMP=dpd_temp
 
-# rename original table
+# rename originasl table
 psql -d $TGT_DATABASE -c "ALTER SCHEMA $TGT_SCHEMA RENAME TO $TGT_SCHEMA_TEMP"
 
 # dump necessary tables
