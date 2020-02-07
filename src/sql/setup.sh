@@ -35,19 +35,8 @@ pgloader "$baseDir/dpdloader/dpdload_ia.pgload"
 pgloader "$baseDir/dpdloader/dpdload_dr.pgload"
 pgloader "$baseDir/dpdloader/dpdload_ap.pgload"
 
-
-# dpd_old_database="ccdd_2019_11_01_110923";
-# dpd_old_schema="dpd";
-#
-# pg_dump $dpd_old_database --schema="$dpd_old_schema" > dpdchanges.sql
-# psql -v "$PGDATABASE" < dpdchanges.sql
-#
-#
-# psql -c "ALTER SCHEMA $dpd_old_schema RENAME TO dpd_old"
-# psql -c "ALTER SCHEMA dpd_temp RENAME TO dpd"
-#
-# rm -f dpdchanges.sql
-
+# Override dpd schema in generation with ccdd_(override columns) from dpd in resgistry database
+./registry/dpd_override/overwrite.sh
 
 # global config for CCDD generation process
 pgloader "$baseDir/ccdd-config.pgload"
@@ -92,7 +81,6 @@ psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-run-views.sql"
 if [ $# -gt 0 ] && [ $1 = "qa" ];
   then
     echo "QA FLAG PRESENT"
-
 
     # START dpd import from old database
     dpd_old_database=$db_previous_month;
@@ -247,6 +235,3 @@ if [ $# -gt 0 ] && [ $1 = "qa" ];
     echo "Proceeding with Registry generation"
     ./registry/registry.sh
 fi
-
-# Override dpd schema in generation with ccdd_(override columns) from dpd in resgistry database
-./overwrite.sh
