@@ -35,26 +35,15 @@ pgloader "$baseDir/dpdloader/dpdload_ia.pgload"
 pgloader "$baseDir/dpdloader/dpdload_dr.pgload"
 pgloader "$baseDir/dpdloader/dpdload_ap.pgload"
 
-
-# dpd_old_database="ccdd_2019_11_01_110923";
-# dpd_old_schema="dpd";
-#
-# pg_dump $dpd_old_database --schema="$dpd_old_schema" > dpdchanges.sql
-# psql -v "$PGDATABASE" < dpdchanges.sql
-#
-#
-# psql -c "ALTER SCHEMA $dpd_old_schema RENAME TO dpd_old"
-# psql -c "ALTER SCHEMA dpd_temp RENAME TO dpd"
-#
-# rm -f dpdchanges.sql
-
+# Override dpd schema in generation with ccdd_(override columns) from dpd in resgistry database
+./registry/dpd_override/overwrite.sh
 
 # global config for CCDD generation process
 pgloader "$baseDir/ccdd-config.pgload"
 
 # db_previous_month=`psql -t -c "SELECT dblist.datname FROM (SELECT datname, make_timestamp(substr(datname, 6,4)::int, substr(datname, 11,2)::int, substr(datname, 14,2)::int, substr(datname, 17,2)::int, substr(datname, 19,2)::int, substr(datname, 21,2)::int) AS date_timestamp FROM pg_database WHERE datistemplate = 'false' AND datname LIKE 'ccdd_%' ORDER BY datname DESC) as dblist
 # WHERE date_timestamp < date_trunc('month', '$ccdd_current_date_time'::timestamp) LIMIT 1"`
-db_previous_month="ccdd_2019_12_05_143954"
+db_previous_month="ccdd_2020_01_07_111440"
 echo $db_previous_month
 if [ -z "$db_previous_month" ]
 then
@@ -92,7 +81,6 @@ psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-run-views.sql"
 if [ $# -gt 0 ] && [ $1 = "qa" ];
   then
     echo "QA FLAG PRESENT"
-
 
     # START dpd import from old database
     dpd_old_database=$db_previous_month;
