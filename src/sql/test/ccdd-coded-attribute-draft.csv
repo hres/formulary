@@ -1,8 +1,8 @@
-"attribute","attribute_code","attribute_value","ccdd_file_type","attribute_status","attribute_status_effective_time"
-"policy_type","500001","Opioid Patient Info - Health Canada","special_groupings","Active","20170919"
-"policy_type","500002","Narcotic (CDSA I)","special_groupings","Active","20170919"
-"policy_type","500003","Schedule G (CDSA I)","special_groupings","Active","20170919"
-"policy_type","500004","Schedule G (CDSA III)","special_groupings","Active","20170919"
-"policy_type","500005","Schedule G (CDSA IV)","special_groupings","Active","20170919"
-"policy_type","500006","Targeted (CDSA IV)","special_groupings","Active","20170919"
-"policy_type","500007","Narcotic (CDSA II)","special_groupings","Active","20170919"
+attribute,attribute_code,attribute_value,fr_attribute_value,ccdd_file_type,attribute_status,attribute_status_effective_time
+"policy_type","500001","Opioid Patient Info - Health Canada","Renseignements pour les patients au sujet des opioïdes - Santé Canada","special_groupings","Active",20170919
+"policy_type","500002","Narcotic (CDSA I)","Stupéfiant (LRCDAS I)","special_groupings","Active",20170919
+"policy_type","500003","Schedule G (CDSA I)","Annexe G (LRCDAS I)","special_groupings","Active",20170919
+"policy_type","500004","Schedule G (CDSA III)","Annexe G (LRCDAS III)","special_groupings","Active",20170919
+"policy_type","500005","Schedule G (CDSA IV)","Annexe G (LRCDAS IV)","special_groupings","Active",20170919
+"policy_type","500006","Targeted (CDSA IV)","Ciblés (LRCDAS IV)","special_groupings","Active",20170919
+"policy_type","500007","Narcotic (CDSA II)","Stupéfiant (LRCDAS II)","special_groupings","Active",20170919

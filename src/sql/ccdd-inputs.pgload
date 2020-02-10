@@ -6,7 +6,12 @@ LOAD CSV
       drug_identification_number,
       mp_formal_name,
       ntp_formal_name,
-      ntp_type
+      ntp_type,
+      ntp_code,
+      mp_formal_name_fr,
+      ntp_formal_name_fr,
+      Entry.type,
+      Change.Plan
     )
   INTO postgresql:///?ccdd.combination_products_csv
     (
@@ -14,7 +19,9 @@ LOAD CSV
       drug_identification_number,
       mp_formal_name,
       ntp_formal_name,
-      ntp_type
+      ntp_type,
+      mp_formal_name_fr,
+      ntp_formal_name_fr
     )
   WITH
     skip header = 1,
@@ -24,8 +31,8 @@ LOAD CSV
 ;
 
 LOAD CSV
-      FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Ingredient_Stem_File_master.csv
-    
+    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Ingredient_Stem_File_master.csv
+
     WITH ENCODING UTF-8
     (
       ccdd,
@@ -33,7 +40,12 @@ LOAD CSV
       dpd_ingredient,
       ing_stem,
       hydrate,
-      ntp_ing
+      ntp_ing,
+      CCDD.Status,
+      Comments,
+      DPD_Ingredient_FR,
+      ing_stem_fr,
+      ntp_ing_fr
     )
   INTO postgresql:///?ccdd.ingredient_stem_csv
     (
@@ -42,7 +54,9 @@ LOAD CSV
       dpd_ingredient,
       ing_stem,
       hydrate,
-      ntp_ing
+      ntp_ing,
+      ing_stem_fr,
+      ntp_ing_fr
     )
   WITH
     skip header = 1,
@@ -52,8 +66,8 @@ LOAD CSV
 ;
 
 LOAD CSV
-      FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Units_of_Presentation_master.csv
-    
+    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Units_of_Presentation_master.csv
+
     WITH ENCODING UTF-8
     (
       drug_code,
@@ -61,7 +75,10 @@ LOAD CSV
       uop_size,
       uop_unit_of_measure,
       calculation,
-      uop_size_insert
+      uop_size_insert,
+      DIN,
+      Product_and_Company_Name,
+      unit_of_presentation_fr
     )
   INTO postgresql:///?ccdd.unit_of_presentation_csv
     (
@@ -70,7 +87,8 @@ LOAD CSV
       uop_size,
       uop_unit_of_measure,
       calculation,
-      uop_size_insert
+      uop_size_insert,
+      unit_of_presentation_fr
     )
   WITH
     skip header = 1,
@@ -80,8 +98,8 @@ LOAD CSV
 ;
 
 LOAD CSV
-     FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ntp_dosage_form_map_master.csv
-  
+    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ntp_dosage_form_map_master.csv
+
     WITH ENCODING UTF-8
     (
       ntp_dosage_form_code,
@@ -92,11 +110,7 @@ LOAD CSV
       pharm_form_code,
       pharmaceutical_form,
       pharmaceutical_form_f,
-      audit_id,
-      validated,
-      date_validated,
-      validated_by,
-      ntp_dosage_form_id
+      ntp_dosage_form_fr
     )
   INTO postgresql:///?ccdd.ntp_dosage_forms
     (
@@ -108,7 +122,7 @@ LOAD CSV
       pharm_form_code,
       pharmaceutical_form,
       pharmaceutical_form_f,
-      audit_id
+      ntp_dosage_form_fr
     )
   WITH
     skip header = 1,
@@ -138,15 +152,18 @@ LOAD CSV
 
 LOAD CSV
     FROM ./test/ccdd-tm-definitions-draft.csv
+
     WITH ENCODING UTF-8
     (
       code,
-      formal_name
+      formal_name,
+      formal_name_fr
     )
   INTO postgresql:///?ccdd.tm_definition
     (
       code,
-      formal_name
+      formal_name,
+      formal_name_fr
     )
   WITH
     skip header = 1,
@@ -160,12 +177,14 @@ LOAD CSV
     WITH ENCODING UTF-8
     (
       code,
-      formal_name
+      formal_name,
+      formal_name_fr
     )
   INTO postgresql:///?ccdd.ntp_definition
     (
       code,
-      formal_name
+      formal_name,
+      formal_name_fr
     )
   WITH
     skip header = 1,
@@ -182,7 +201,8 @@ LOAD CSV
       drug_code,
       unit_of_presentation,
       uop_size_amount,
-      uop_size_unit
+      uop_size_unit,
+      unit_of_presentation_fr
     )
   INTO postgresql:///?ccdd.pseudodin_map
     (
@@ -190,7 +210,8 @@ LOAD CSV
       drug_code,
       unit_of_presentation,
       uop_size_amount,
-      uop_size_unit
+      uop_size_unit,
+      unit_of_presentation_fr
     )
   WITH
     skip header = 1,
@@ -217,7 +238,8 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ccdd-mp-blacklist-draft.csv
+     FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ccdd-mp-blacklist-draft.csv
+  -- FROM ./test/ccdd-mp-blacklist-draft.csv
     WITH ENCODING UTF-8
     (
       drug_code
@@ -289,7 +311,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/TM_filter_master.csv
+  FROM ./test/TM_filter_master.csv
     WITH ENCODING UTF-8
     (
       tm_code
