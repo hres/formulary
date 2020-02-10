@@ -157,14 +157,14 @@ psql -c "copy ((select
                   ntp_status,
                   ntp_status_effective_time,
                   COALESCE(ntp_type, 'NA') as ntp_type FROM ccdd_ntp_table WHERE tm_is_publishable = true)
-                  UNION ALL
-                  (select * from ccdd.ntp_release_candidate where ntp_code IN ('9013250'))
-                ) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/ntp_release_candidate_${ccdd_current_date}.csv"
+                  UNION ALL (select * from ccdd.ntp_release_candidate where ntp_code IN ('9013250')))
+                  to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/ntp_full_release_${ccdd_current_date}.csv"
 
-psql -c "copy ((select tm_code, tm_formal_name, tm_status, tm_status_effective_time FROM ccdd_tm_table WHERE tm_is_publishable = true)
-          UNION ALL
-         (select * from ccdd.tm_release where tm_code IN ('8001659')))
-         to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/tm_release_candidate_${ccdd_current_date}.csv"
+psql -c "copy ((select tm_code, tm_formal_name,tm_fr_description,tm_status, tm_status_effective_time FROM ccdd_tm_table WHERE tm_is_publishable = true)
+         UNION ALL
+         (select * from ccdd.tm_release_candidate where tm_code IN ('8001659')))
+         to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/tm_full_release_${ccdd_current_date}.csv"
+
 
 psql -c "copy ((select
                 mp_code,
@@ -222,6 +222,25 @@ psql -c "copy (select * from qa_tm_duplicates_code) to STDOUT with CSV HEADER FO
 psql -c "copy (select * from qa_tm_duplicates_name) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_tm_duplicates_name.csv"
 psql -c "copy (select * from qa_mp_ntp_tm_relationship_duplicates_code) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_mp_ntp_tm_relationship_duplicates_code.csv"
 psql -c "copy (select * from public.post_qa_relationship) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_post_qa_relationship_table.csv"
+
+
+### Export DPD diff files during QA generation:
+if [ $# -gt 0 ] && [ $1 = "qa" ];
+  then
+    echo "output DPD diff files"
+    psql -c "copy (select * from dpd_changes.active_ingredient_changes) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_dpd_ing_changes.csv"
+    psql -c "copy (select * from dpd_changes.companies_changes) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_dpd_companies_changes.csv"
+    psql -c "copy (select * from dpd_changes.drug_product_changes) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_dpd_product_changes.csv"
+    psql -c "copy (select * from dpd_changes.pharm_changes) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_dpd_form_changes.csv"
+    psql -c "copy (select * from dpd_changes.route_changes) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_dpd_route_changes.csv"
+    psql -c "copy (select * from dpd_changes.status_changes) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_dpd_status_changes.csv"
+
+else
+    echo "WRONG/NO FLAG"
+    echo "DPD diff files not exported"
+fi
+
+
 
 echo
 echo Generated "$PGDATABASE" and output in "$distDir"
