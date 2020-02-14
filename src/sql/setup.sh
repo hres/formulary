@@ -29,13 +29,15 @@ createdb "$PGDATABASE"
 # psql -v ON_ERROR_STOP=1 < dpdloader/dpd_structure.sql # empty schema for testing
 # psql -v ON_ERROR_STOP=1 < dpdloader/dpd_constraints.sql # empty schema for testing
 
+
+#
 # DPD extract load
 pgloader "$baseDir/dpdloader/dpdload.pgload"
 pgloader "$baseDir/dpdloader/dpdload_ia.pgload"
 pgloader "$baseDir/dpdloader/dpdload_dr.pgload"
 pgloader "$baseDir/dpdloader/dpdload_ap.pgload"
 
-# Override dpd schema in generation with ccdd_(override columns) from dpd in resgistry database
+# Override dpd schema in generation with ccdd_(override columns) from dpd in registry database
 ./registry/dpd_override/overwrite.sh
 
 # global config for CCDD generation process
@@ -218,6 +220,25 @@ psql -c "copy (select * from qa_tm_duplicates_code) to STDOUT with CSV HEADER FO
 psql -c "copy (select * from qa_tm_duplicates_name) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_tm_duplicates_name.csv"
 psql -c "copy (select * from qa_mp_ntp_tm_relationship_duplicates_code) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_mp_ntp_tm_relationship_duplicates_code.csv"
 psql -c "copy (select * from public.post_qa_relationship) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_post_qa_relationship_table.csv"
+
+
+### Export DPD diff files during QA generation:
+if [ $# -gt 0 ] && [ $1 = "qa" ];
+  then
+    echo "output DPD diff files"
+    psql -c "copy (select * from dpd_changes.active_ingredient_changes) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_dpd_ing_changes.csv"
+    psql -c "copy (select * from dpd_changes.companies_changes) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_dpd_companies_changes.csv"
+    psql -c "copy (select * from dpd_changes.drug_product_changes) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_dpd_product_changes.csv"
+    psql -c "copy (select * from dpd_changes.pharm_changes) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_dpd_form_changes.csv"
+    psql -c "copy (select * from dpd_changes.route_changes) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_dpd_route_changes.csv"
+    psql -c "copy (select * from dpd_changes.status_changes) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_dpd_status_changes.csv"
+
+else
+    echo "WRONG/NO FLAG"
+    echo "DPD diff files not exported"
+fi
+
+
 
 echo
 echo Generated "$PGDATABASE" and output in "$distDir"

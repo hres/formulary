@@ -4,8 +4,7 @@
 
 LOAD ARCHIVE
 -- FROM https://www.canada.ca/content/dam/hc-sc/documents/services/drug-product-database/allfiles_ia.zip
--- FROM /home/dbuijs/Databases/dpd_load/dpd_20180801/Allfiles_ia.zip
-   FROM /home/nzhu/dpd_20200102/allfiles_ia.zip
+   FROM /home/nzhu/dpd_20200203/allfiles_ia.zip
   INTO postgresql:///
 
 
