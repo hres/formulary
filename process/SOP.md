@@ -1,7 +1,7 @@
 CCDD Standard operating procedure (SOP)
 ================
 Nancy Zhu, Daniel Buijs
-2020-02-12
+2020-02-18
 
 ### Introduction
 
@@ -325,3 +325,27 @@ the following manners:
 All releases are saved in the folder
 [releases](https://github.com/hres/formulary/tree/folder_reorg/releases)
 with the filename including date of generation.
+
+### Troubleshooting:
+
+This section aims to resolve some of the common errors encountered
+during
+generations.
+
+#### 1\. ERROR: duplicate key value violates unique constraint “ccdd\_ingredient\_stem\_pk”DETAIL: Key already exists.
+
+This error is caused by duplication in french translation of english
+concepts. This is usually from inconsistency between
+`ccdd-tm-definitions-draft.csv` and `Ingredient_Stem_file_master.csv`.
+To resolve the error, double check if the Key concept is spelt
+differently between these two files and correct them
+correspondently.
+
+#### 2.ERROR: duplicate key value violates unique constraint “ccdd\_dosage\_form\_pk”DETAIL: Key already exists.
+
+This error can be caused by either inconsistency between
+`ccdd-ntp-definitions-draft.csv` and `ntp_dosage_form_map_master.csv` OR
+inconsistency within `ntp_dosage_form_map_master.csv`. It happened a
+couple time where a single English concept is associated with more than
+one French translation. To resolve the error, standardize one English
+concept to ONLY one French translation.
