@@ -256,3 +256,9 @@ git push origin folder_reorg
 10. Check folder [releases](https://github.com/hres/formulary/tree/folder_reorg/releases) and email QA group
 
 All releases are saved in the folder [releases](https://github.com/hres/formulary/tree/folder_reorg/releases) with the filename including date of generation.
+
+
+### Troubleshooting:
+This section aims to resolve some of the common errors encountered during generations.
+*1. Cannot access *
+
