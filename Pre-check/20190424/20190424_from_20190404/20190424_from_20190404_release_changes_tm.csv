@@ -1,0 +1,8 @@
+tm_code,tm_formal_name,changes
+"8001748","dimethicone and menthol","DELETED"
+"8000187","risperidone","tm_status_effective_time: ""19931231"" -> ""19980304"""
+"8001258","delavirdine","tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19980724"" -> ""20181101"""
+"8001078","ephedrine","tm_status_effective_time: ""19661231"" -> ""19901231"""
+"8002214","alpha 1-proteinase inhibitor human","DELETED"
+"8001274","heparin","tm_status_effective_time: ""19871231"" -> ""19841231"""

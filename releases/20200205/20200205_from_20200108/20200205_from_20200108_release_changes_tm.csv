@@ -1,0 +1,10 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+"8002313","proparacaine","proparacaïne","ADDED"
+"8002310","patiromer","patiromère","ADDED"
+"8002198","irinotecan (conventional)","irinotécan (classique)","ADDED"
+"8001488","lincomycin","lincomycine","tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19641231"" -> ""20160506"""
+"8002315","upadacitinib","upadacitinib","ADDED"
+"8002199","irinotecan (liposomal)","irinotécan (liposomal)","ADDED"
+"8002314","rurioctocog alfa pegol","rurioctocog alfa pégol","ADDED"
+"8002312","niraparib","niraparib","ADDED"
