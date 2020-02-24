@@ -1,7 +1,7 @@
 CCDD Standard operating procedure (SOP)
 ================
 Nancy Zhu, Daniel Buijs
-2020-02-18
+2020-02-24
 
 ### Introduction
 
@@ -87,20 +87,45 @@ English
     subfolder (This step can be done with user interface or at command
     line)
 
-<!-- end list -->
+*In Command line*
 
     mkdir ~/formulary/Pre-check/{date of generation}
     mkdir ~/formulary/Pre-check/{date of generation}/{date of generation_from_{previous release date}}
     
-    cp  ~/formulary/src/dist/{date of generation}/*full_release_[[:digit:]]*  ~/formulary/Pre-check/{date of generation}
-    cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_fr_*  ~/formulary/Pre-check/{date of generation}
-    cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_release_candidate_[[:digit:]]*  ~/formulary/Pre-check/{date of generation}
-    cp  ~/formulary/src/dist/{date of generation}/coded_attribute*  ~/formulary/Pre-check/{date of generation}
-    cp  ~/formulary/src/dist/{date of generation}/device-ntp*  ~/formulary/Pre-check/{date of generation}
-    cp  ~/formulary/src/dist/{date of generation}/special_groupings_release*  ~/formulary/Pre-check/{date of generation}
-    
-    
-    cp  ~/formulary/src/dist/{date of generation}/*[[:digit:]]_release_changes_*  ~/formulary/Pre-check/{date of generation}/{date of generation_from_{previous QA date}}
+    cp  ~/formulary/src/dist/20200224/*full_release_[[:digit:]]*  ~/formulary/Pre-check/20200224
+    cp  ~/formulary/src/dist/20200224/*release_candidate_[[:digit:]]*  ~/formulary/Pre-check/20200224
+    cp  ~/formulary/src/dist/20200224/mp_ntp_tm_relationship_release_candidate_[[:digit:]]*  ~/formulary/Pre-check/20200224
+    cp  ~/formulary/src/dist/20200224/coded_attribute*  ~/formulary/Pre-check/20200224
+    cp  ~/formulary/src/dist/20200224/device-ntp*  ~/formulary/Pre-check/20200224
+    cp  ~/formulary/src/dist/20200224/special_groupings_release*  ~/formulary/Pre-check/20200224
+    cp  ~/formulary/src/dist/{date of generation}/*[[:digit:]]_release_changes_*  ~/formulary/Pre-check/{date of generation}/{date of generation_from_{previous generation date}}
+
+*In user interface*
+
+  - On the right corner of RStudio Panel, navigate to
+    `Home/formulary/Pre-check` folder
+
+  - Click *New Folder*
+
+![](Snap1.jpg)<!-- -->
+
+  - A pop window appears, input the name of folder with date of
+    generation
+
+![](Snap4.jpg)<!-- -->
+
+  - Using the interface, navigate to `Home/formulary/src/dist/`
+
+  - Select the file you intend to move by clicking the empty box on the
+    left side of the file
+
+  - From the menu, click More \> Move…
+
+![](Snap2.jpg)<!-- -->
+
+  - From the pop up window, select the destination folder
+
+![](Snap3.jpg)<!-- -->
 
 9.  Commit and push the files to remote Github repository
 
@@ -158,21 +183,21 @@ account](https://github.com/hres/formulary/tree/sql-views-french/src/sql)
     dpd\_extract\_date is the date on which DPD online extract is
     updated each month.
 
-3.  update line 1,2 in
+3.  **update line 1,2 in
     [setup.sh](https://github.com/hres/formulary/blob/sql-views-french/src/sql/setup.sh)
-    file. Input *ccdd\_qa\_release\_date* and
+    file.** Input *ccdd\_qa\_release\_date* and
     *ccdd\_current\_release\_date*, these are the dates from previous
     cycle of generation.
 
-4.  update filepath for DPD extracts in
+4.  **Update line 57 in setup.sh** with the name of database for
+    previous month release candidate generation (This will set up the
+    correct reference data for comparisons)
+
+5.  update filepath for DPD extracts in
     [dpdload.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload.pgload),
     [dpdload\_ap.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_ap.pgload),
     [dpdload\_dr.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_dr.pgload),
     [dpdload\_ia.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_ia.pgload)
-
-5.  *Update line 57 in setup.sh* with the name of database for previous
-    month release candidate generation (This will set up the correct
-    reference data for comparisons)
 
 6.  run script
     [setup.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh)
@@ -190,6 +215,10 @@ account](https://github.com/hres/formulary/tree/sql-views-french/src/sql)
 9.  Create new folder with date as folder name in `~/QAfiles` and
     subfolder (This step can be done with user interface or at command
     line)
+
+<!-- end list -->
+
+  - In Command line:
 
 <!-- end list -->
 
@@ -271,7 +300,8 @@ the following manners:
 3.  Run script `~/formulary/src/sql/test/updates_for_Release.R` to
     update `ccdd-mp-whitelist-draft.csv`
     `ccdd-ntp-definitions-draft.csv` `ccdd-tm-definitions-draft.csv`
-    `ccdd-pseudodin-map-draft.csv`
+    `ccdd-pseudodin-map-draft.csv` (See instruction in script for
+    execution)
 
 4.  According to QA Release Data Changes report, update
     `ccdd-mp-deprecations-draft.csv` `ccdd-mp-brand-override-draft.csv`
