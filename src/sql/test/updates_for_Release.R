@@ -5,11 +5,16 @@ library(RPostgreSQL)
 library(dplyr)
 library(dbplyr)
 library(tidyr)
+#package to read word document
+if(!require(docxtractr)) install.packages('docxtractr')
 library(docxtractr)
 
 #############################################################
 
+#Currently, manual input of several parameters is needed, to make sure the most up-to-date tables are used
+
 #params to update:
+#the file name 
 
 qa_file_name<-'qa_file_20200205.docx'
 tm_filter_file_name<-'tm_filter_20200205.csv'
