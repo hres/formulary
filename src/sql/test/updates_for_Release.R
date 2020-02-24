@@ -14,11 +14,14 @@ library(docxtractr)
 #Currently, manual input of several parameters is needed, to make sure the most up-to-date tables are used
 
 #params to update:
-#the file name 
+#both qa_file_name and tm_filter_file_name are received in email from CCDD QA team after QA
 
+#import files from QA team
 qa_file_name<-'qa_file_20200205.docx'
 tm_filter_file_name<-'tm_filter_20200205.csv'
 
+
+#connect to PostgreSQL database where all files from the generation are
 ccdd <- dbPool(drv      = RPostgreSQL::PostgreSQL(),
                host     = "rest.hc.local",
                dbname   = "ccdd_2020_02_03_115250",  #update date of database accordingly
@@ -27,15 +30,19 @@ ccdd <- dbPool(drv      = RPostgreSQL::PostgreSQL(),
 
 ################################################################
 
+#import dpd drug product table
 dpd_drug<-tbl(ccdd, in_schema("dpd","drug_product"))%>%as.data.frame()
 
+#import table that contains all changes from MP release candidates 
 changes_mp<-tbl(ccdd, in_schema("public","qa_release_changes_mp_release_candidate"))%>%as.data.frame()
 
-#changes_mp<-read.xlsx('TM NTP and MP Concepts to be added back for September 2018 CCDD Release.xlsx',3,stringsAsFactors=F,header=T)
+#subset list to only 'DELETED' MP concepts
 code_to_add<-changes_mp[changes_mp$changes=='DELETED',1:2]
+
+#link to DPD drug product to find DIN number (as required in the final whitelist table on Github)
 code_to_add<-left_join(code_to_add,dpd_drug[,c('drug_code','drug_identification_number')],by=c('mp_code'='drug_identification_number'))
 
-# if there is a product with pseudo din on the list:
+#A condition if there is a product with pseudo din on the list, the pseudo din will be assigned to MP product
 if(sum(is.na(code_to_add$drug_code))>0){
   pseudodin<-read.csv('./src/sql/test/ccdd-pseudodin-map-draft.csv',stringsAsFactors = F)
   
@@ -49,24 +56,35 @@ if(sum(is.na(code_to_add$drug_code))>0){
   code_to_add<-code_to_add
 }
 
-
+#the final list of concepts that need to be added to whitelist
 code_to_add<-code_to_add%>%
              filter(!drug_code %in% c(15207,42844,44264,43078))%>%  #those drug products were 'manually' added during file output 
              filter(!is.na(drug_code))
 
 #load qa list from Jo-Anne:
 qa<-read_docx(paste0('./src/sql/test/',qa_file_name))
-qa_whitelist<-docx_extract_tbl(qa,12) #the witelist table is always the 12th table
+
+#Depending on whether there is DPD descriptors table in the word document, the position of whitelist can change between 11 and 12
+#A conditional argument is implemented to read the correct table
+#However, if there are major changes to the format of QA document, this part needs to be re-written
+if(docx_tbl_count(qa)==13){
+  qa_whitelist<-docx_extract_tbl(qa,12) 
+}else{
+  qa_whitelist<-docx_extract_tbl(qa,11)
+}
 
 #confirm with QA whitelist
+#confirm whether all MPs identified from database are on the list from QA team
 code_to_add<-code_to_add%>%filter(drug_code %in% qa_whitelist$drug_code)
 
-
+#import previous whitelist from Github
 whitelist<-read.csv('./src/sql/test/ccdd-mp-whitelist-draft.csv',stringsAsFactors = F,
                     colClasses = c('mp_code'='character'))
 
+#Append new concepts to the list
 whitelist<-bind_rows(whitelist,code_to_add)%>%distinct()
 
+#Update whitelist
 write.csv(whitelist,'./src/sql/test/ccdd-mp-whitelist-draft.csv',row.names = F)
 
 
