@@ -1,7 +1,7 @@
 CCDD Standard operating procedure (SOP)
 ================
 Nancy Zhu, Daniel Buijs
-2020-02-24
+2020-02-25
 
 ### Introduction
 
@@ -355,6 +355,9 @@ the following manners:
 All releases are saved in the folder
 [releases](https://github.com/hres/formulary/tree/folder_reorg/releases)
 with the filename including date of generation.
+
+11. OSIP CCDD team confirms that the final set of tables are correct and
+    inform InfoWay of the publications
 
 ### Troubleshooting:
 

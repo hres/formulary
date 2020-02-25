@@ -298,6 +298,8 @@ git push origin folder_reorg
 
 All releases are saved in the folder [releases](https://github.com/hres/formulary/tree/folder_reorg/releases) with the filename including date of generation.
 
+11. OSIP CCDD team confirms that the final set of tables are correct and inform InfoWay of the publications
+
 
 ### Troubleshooting:
 This section aims to resolve some of the common errors encountered during generations.
