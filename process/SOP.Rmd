@@ -37,14 +37,26 @@ git clone https://github.com/hres/formulary.git
 Pre-QA generation is performed to capture any changes in DPD that would impact previously generated concepts. It is usually conducted 4-5 days before QA generation. Pre-QA generations are currently only provided in English
 
 **Steps to run Pre-QA generation:**
+1. Upload DPD extract files from Y Drive to RStudio Server, save under folder dpd_{date of dpd extract}
 
-1. `git checkout sql-views` switch to sql-views branch in formulary repository
+use WinSCP to upload files: (To use winSCP, a ssh key need to be issued to the user)
 
-2. update ccdd_date in [ccdd-config.csv](https://github.com/hres/formulary/blob/sql-views/src/sql/test/ccdd-config.csv) file. ccdd_date is the date on which generation would be performed. 
+* 
+* 
 
-3. update DPD extract file path in [dpdloader] (https://github.com/hres/formulary/tree/sql-views/src/sql/dpdloader) update filepath in files [dpdload.pgload], [dpdload_ap.pgload],[dpdload_dr.pgload],[dpdload_ia.pgload] (the filepath should match where DPD extracts are stored)
 
-4. update source definition files by merging with sql-views-french branch 
+
+
+
+
+
+2. `git checkout sql-views` switch to sql-views branch in formulary repository
+
+3. update ccdd_date in [ccdd-config.csv](https://github.com/hres/formulary/blob/sql-views/src/sql/test/ccdd-config.csv) file. ccdd_date is the date on which generation would be performed. 
+
+4. update DPD extract file path in [dpdloader] (https://github.com/hres/formulary/tree/sql-views/src/sql/dpdloader) `formulary/src/sql/dpdloader` update filepath in files [dpdload.pgload], [dpdload_ap.pgload],[dpdload_dr.pgload],[dpdload_ia.pgload] (the filepath should match where DPD extracts are stored)
+
+5. update source definition files by merging with sql-views-french branch 
 
 ```
 git checkout sql-views-french ~/formulary/src/sql/test/ccdd-mp-whitelist-draft.csv
@@ -62,17 +74,17 @@ git push
 
 ```
 
-5. run script [setup.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh) in command line (Terminal)
+6. run script [setup.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh) in command line (Terminal)
 ```
 cd ./src/sql
 PGHOST=rest.hc.local PGUSER={username of database} PGPASSWORD={password} ./setup.sh
 ```
 
-6. All files are generation in `./src/dist/{date of generation}`
+7. All files are generation in `./src/dist/{date of generation}`
 
-7. `git checkout folder_reorg` Switch to `folder_reorg` branch. 
+8. `git checkout folder_reorg` Switch to `folder_reorg` branch. 
 
-8. Create new folder with date as folder name in `~/Pre-check` and subfolder (This step can be done with user interface or at command line)
+9. Create new folder with date as folder name in `~/Pre-check` and subfolder (This step can be done with user interface or at command line)
 
 *In Command line*
 ```
@@ -124,13 +136,13 @@ knitr::include_graphics('Snap3.jpg')
 
 
 
-9. Commit and push the files to remote Github repository
+10. Commit and push the files to remote Github repository
 ```
 git commit -m "Precheck files for CCDD"
 git push origin folder_reorg 
 ```
 
-10. Check folder [Pre-check](https://github.com/hres/formulary/tree/folder_reorg/Pre-check) and email QA group
+11. Check folder [Pre-check](https://github.com/hres/formulary/tree/folder_reorg/Pre-check) and email QA group
 
 
 
@@ -164,30 +176,33 @@ git push origin folder_reorg
 Scripts for the generation procedures are stored [in the sql-views branch in the hres/formulary Github account](https://github.com/hres/formulary/tree/sql-views-french/src/sql)
 
 **Steps to run QA generation:**
+1.Upload DPD extract files from Y Drive to RStudio Server, save under folder dpd_{date of dpd extract}
 
-1. `git checkout sql-views-french` switch to sql-views-french branch in formulary repository
+2. `git checkout sql-views-french` switch to sql-views-french branch in formulary repository
 
-2. update ccdd_date and dpd_extract_date in [ccdd-config.csv](https://github.com/hres/formulary/blob/sql-views/src/sql/test/ccdd-config.csv) file. ccdd_date is the date on which QA generation are performed. dpd_extract_date is the date on which DPD online extract is updated each month.
+3. update ccdd_date and dpd_extract_date in [ccdd-config.csv](https://github.com/hres/formulary/blob/sql-views/src/sql/test/ccdd-config.csv) file. ccdd_date is the date on which QA generation are performed. dpd_extract_date is the date on which DPD online extract is updated each month.
 
-3. **update line 1,2 in [setup.sh](https://github.com/hres/formulary/blob/sql-views-french/src/sql/setup.sh) file.** Input *ccdd_qa_release_date* and *ccdd_current_release_date*, these are the dates from previous cycle of generation.
+4. **update line 1,2 in [setup.sh](https://github.com/hres/formulary/blob/sql-views-french/src/sql/setup.sh) file.** Input *ccdd_qa_release_date* and *ccdd_current_release_date*, these are the dates from previous cycle of generation.
 
-4. **Update line 57 in setup.sh** with the name of database for previous month release candidate generation (This will set up the correct reference data for comparisons)
+5. **Update line 57 in setup.sh** with the name of database for previous month release candidate generation (This will set up the correct reference data for comparisons)
 
-5. update filepath for DPD extracts in [dpdload.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload.pgload), [dpdload_ap.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_ap.pgload), 
+6. update filepath for DPD extracts in [dpdload.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload.pgload), [dpdload_ap.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_ap.pgload), 
 [dpdload_dr.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_dr.pgload),
 [dpdload_ia.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_ia.pgload)
 
-6. run script [setup.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh) in command line (Terminal)
+local folder:`formulary/src/sql/dpdloader`
+
+7. run script [setup.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh) in command line (Terminal)
 ```
 cd ./src/sql
 PGHOST=rest.hc.local PGUSER={username of database} PGPASSWORD={password} ./setup.sh qa
 ```
 
-7. All files are generation in `./src/dist/{date of generation}`
+8. All files are generation in `./src/dist/{date of generation}`
 
-8. `git checkout folder_reorg` Switch to `folder_reorg` branch. 
+9. `git checkout folder_reorg` Switch to `folder_reorg` branch. 
 
-9. Create new folder with date as folder name in `~/QAfiles` and subfolder (This step can be done with user interface or at command line)
+10. Create new folder with date as folder name in `~/QAfiles` and subfolder (This step can be done with user interface or at command line)
 
 * In Command line:
 ```
@@ -208,13 +223,13 @@ cp ~/formulary/src/dist/{date of generation}/*dpd*_changes.csv ~/formulary/QAfil
 
 ```
 
-10. Commit and push the files to remote Github repository
+11. Commit and push the files to remote Github repository
 ```
 git commit -m "QA generation for CCDD"
 git push origin folder_reorg 
 ```
 
-11. Check folder [QAfiles](https://github.com/hres/formulary/tree/folder_reorg/QAfiles) and email QA group
+12. Check folder [QAfiles](https://github.com/hres/formulary/tree/folder_reorg/QAfiles) and email QA group
 
 
 ### Generation
