@@ -36,18 +36,30 @@ git clone https://github.com/hres/formulary.git
 ### Pre QA generation:
 Pre-QA generation is performed to capture any changes in DPD that would impact previously generated concepts. It is usually conducted 4-5 days before QA generation. Pre-QA generations are currently only provided in English
 
-**Steps to run Pre-QA generation:**
+#### Steps to run Pre-QA generation:
 1. Upload DPD extract files from Y Drive to RStudio Server, save under folder dpd_{date of dpd extract}
 
 use WinSCP to upload files: (To use winSCP, a ssh key need to be issued to the user)
 
-* 
-* 
+* Log in to Rstudio server using SSH key
+
+```{r,echo=FALSE}
+knitr::include_graphics('Snap5.jpg')
+```
+
+* Navigate to the corresponding source and destination directory
 
 
+```{r,echo=FALSE}
+knitr::include_graphics('Snap9.jpg')
+```
 
 
+* Drag DPD extract file folder from source directory to directory on RStudio server
 
+```{r,echo=FALSE}
+knitr::include_graphics('Snap7.jpg')
+```
 
 
 2. `git checkout sql-views` switch to sql-views branch in formulary repository
@@ -172,11 +184,12 @@ git push origin folder_reorg
      + qa_release files (ntp,tm,mp,mp_ntp_tm_relationship, special_groupings)
      + qa_release_changes files
      + qa_duplicates files
+     + DPD_diff files
 
 Scripts for the generation procedures are stored [in the sql-views branch in the hres/formulary Github account](https://github.com/hres/formulary/tree/sql-views-french/src/sql)
 
-**Steps to run QA generation:**
-1.Upload DPD extract files from Y Drive to RStudio Server, save under folder dpd_{date of dpd extract}
+#### Steps to run QA generation:
+1.Upload DPD extract files from Y Drive to RStudio Server, save under folder dpd_{date of dpd extract} (See step 1 in pre-check)
 
 2. `git checkout sql-views-french` switch to sql-views-french branch in formulary repository
 
@@ -184,7 +197,7 @@ Scripts for the generation procedures are stored [in the sql-views branch in the
 
 4. **update line 1,2 in [setup.sh](https://github.com/hres/formulary/blob/sql-views-french/src/sql/setup.sh) file.** Input *ccdd_qa_release_date* and *ccdd_current_release_date*, these are the dates from previous cycle of generation.
 
-5. **Update line 57 in setup.sh** with the name of database for previous month release candidate generation (This will set up the correct reference data for comparisons)
+5. **Update line 57 in setup.sh** with the name of database (from PostgreSQL) for previous month release candidate generation (This will set up the correct reference data for comparisons)
 
 6. update filepath for DPD extracts in [dpdload.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload.pgload), [dpdload_ap.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_ap.pgload), 
 [dpdload_dr.pgload](https://github.com/hres/formulary/blob/sql-views/src/sql/dpdloader/dpdload_dr.pgload),
@@ -255,8 +268,8 @@ Before running generation, changes from the QA team are incoporated in the follo
      + qa_duplicates files
 
 
+#### Steps to run generation:
 
-**Steps to run generation:**
 
 1. run script [write-new-concepts.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/write-new-concepts.sh) to assign codes to new ntp, tm and pseudodin.
 ```
@@ -288,6 +301,8 @@ PGHOST=rest.hc.local PGUSER={username of database} PGPASSWORD={password} ./setup
 7. `git checkout folder_reorg` Switch to `folder_reorg` branch. 
 
 8. Create new folder with date as folder name in `~/formulary/releases` and subfolder (This step can be done with user interface or at command line)
+
+**Command Line:**
 ```
 mkdir ~/formulary/releases/{date of generation}
 mkdir ~/formulary/releases/{date of generation}/{date of generation_from_{previous release date}}
