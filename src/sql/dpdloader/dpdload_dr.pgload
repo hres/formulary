@@ -5,7 +5,7 @@
 LOAD ARCHIVE
 -- FROM https://www.canada.ca/content/dam/hc-sc/documents/services/drug-product-database/allfiles_dr.zip
 --  FROM http://www.hc-sc.gc.ca/dhp-mps/alt_formats/zip/prodpharma/databasdon/allfiles_dr.zip
- FROM /home/dbuijs/dpd_20200302/allfiles_dr.zip
+ FROM /home/dbuijs/dpd/dpd_20200302/allfiles_dr.zip
 --   FROM /home/nzhu/dpd_20200224/allfiles_dr.zip
   INTO postgresql:///
 
