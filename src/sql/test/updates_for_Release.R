@@ -17,8 +17,8 @@ library(docxtractr)
 #both qa_file_name and tm_filter_file_name are received in email from CCDD QA team after QA
 
 #import files from QA team
-qa_file_name<-'qa_file_20200205.docx'
-tm_filter_file_name<-'tm_filter_20200205.csv'
+qa_file_name<-'qa_file_20200306.docx'
+tm_filter_file_name<-'tm_filter_20200306.csv'
 
 
 #connect to PostgreSQL database where all files from the generation are
@@ -113,7 +113,7 @@ write.csv(tm_filter_master,'./src/sql/test/TM_filter_master.csv',row.names = F)
 ntp_definition<-read.csv('./src/sql/test/ccdd-ntp-definitions-draft.csv',stringsAsFactors = F)
 ntp_name_change<-docx_extract_tbl(qa,6)
 
-if(ntp_definition$ntp._formal_name=='[NONE]'){
+if(ntp_name_change$ntp._formal_name=='[NONE]'){
   
   ntp_definition<-ntp_definition
   
