@@ -1,0 +1,7 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+"8002317","gilteritinib","giltéritinib","ADDED"
+"8001659","glycopyrrolate","glycopyrrolate","DELETED"
+"8000969","estradiol and levonorgestrel","estradiol et lévonorgestrel","tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20080625"" -> ""20171130"""
+"8002318","icosapent","icosapent","ADDED"
+"8001274","heparin","héparine","tm_status_effective_time: ""19871231"" -> ""19841231"""
