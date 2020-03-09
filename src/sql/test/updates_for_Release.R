@@ -24,9 +24,9 @@ tm_filter_file_name<-'tm_filter_20200306.csv'
 #connect to PostgreSQL database where all files from the generation are
 ccdd <- dbPool(drv      = RPostgreSQL::PostgreSQL(),
                host     = "rest.hc.local",
-               dbname   = "ccdd_2020_02_03_115250",  #update date of database accordingly
-               user     = "nzhu",
-               password = "nzhu_rest" )
+               dbname   = "ccdd_2020_03_02_114509",  #update date of database accordingly to QA version
+               user     = Sys.getenv("rest_user"),
+               password = Sys.getenv("rest_password") )
 
 ################################################################
 
