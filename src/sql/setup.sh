@@ -52,9 +52,9 @@ pgloader "$baseDir/dpdloader/dpdload_ap.pgload"
 # global config for CCDD generation process
 pgloader "$baseDir/ccdd-config.pgload"
 
-# db_previous_month=`psql -t -c "SELECT dblist.datname FROM (SELECT datname, make_timestamp(substr(datname, 6,4)::int, substr(datname, 11,2)::int, substr(datname, 14,2)::int, substr(datname, 17,2)::int, substr(datname, 19,2)::int, substr(datname, 21,2)::int) AS date_timestamp FROM pg_database WHERE datistemplate = 'false' AND datname LIKE 'ccdd_%' ORDER BY datname DESC) as dblist
-# WHERE date_timestamp < date_trunc('month', '$ccdd_current_date_time'::timestamp) LIMIT 1"`
-db_previous_month="ccdd_2020_03_09_143745"
+db_previous_month=`psql -t -c "SELECT dblist.datname FROM (SELECT datname, make_timestamp(substr(datname, 6,4)::int, substr(datname, 11,2)::int, substr(datname, 14,2)::int, substr(datname, 17,2)::int, substr(datname, 19,2)::int, substr(datname, 21,2)::int) AS date_timestamp FROM pg_database WHERE datistemplate = 'false' AND datname LIKE 'ccdd_%' ORDER BY datname DESC) as dblist 
+WHERE date_timestamp < date_trunc('month', '$ccdd_current_date_time'::timestamp) LIMIT 1"`
+# db_previous_month="ccdd_2020_03_09_143745"
 echo $db_previous_month
 if [ -z "$db_previous_month" ]
 then
