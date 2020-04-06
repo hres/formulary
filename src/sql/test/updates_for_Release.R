@@ -17,7 +17,7 @@ library(docxtractr)
 #both qa_file_name and tm_filter_file_name are received in email from CCDD QA team after QA
 
 #import files from QA team
-qa_file_name<-'qa_file_20200403.docx'
+qa_file_name<-'qa_file_20200306.docx'
 tm_filter_file_name<-'tm_filter_20200403.csv'
 
 
