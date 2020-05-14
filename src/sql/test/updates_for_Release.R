@@ -17,14 +17,14 @@ library(docxtractr)
 #both qa_file_name and tm_filter_file_name are received in email from CCDD QA team after QA
 
 #import files from QA team
-qa_file_name<-'qa_file_20200306.docx'
-tm_filter_file_name<-'tm_filter_20200403.csv'
+qa_file_name<-'qa_file_20200514.docx'
+tm_filter_file_name<-'tm_filter_20200514.csv'
 
 
 #connect to PostgreSQL database where all files from the generation are
 ccdd <- dbPool(drv      = RPostgreSQL::PostgreSQL(),
                host     = "rest.hc.local",
-               dbname   = "ccdd_2020_04_01_121110",  #update date of database accordingly to QA version
+               dbname   = "ccdd_2020_05_08_230701",  #update date of database accordingly to QA version
                user     = Sys.getenv("rest_user"),
                password = Sys.getenv("rest_password") )
 

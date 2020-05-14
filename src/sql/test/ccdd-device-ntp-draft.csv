@@ -2,3 +2,8 @@ device_ntp_code,device_ntp_formal_name,device_ntp_en_description,device_ntp_fr_d
 "600001","lancets","NA","lancettes","Active",20170525
 "600002","glucose meter","NA","glucomètre","Active",20170525
 "600003","glucose strips","NA","bandelettes de test glycémie","Active",20170525
+"600004","valved holding chamber with infant mask","NA","chambre de retenue valvée avec masque pour nourrisson","Active",20200501
+"600005","valved holding chamber with child mask","NA","chambre de retenue valvée avec masque pour enfant","Active",20200501
+"600006","valved holding chamber with adult mask","NA","chambre de retenue valvée avec masque pour adulte","Active",20200501
+"600007","valved holding chamber with mouthpiece","NA","chambre de retenue valvée avec embout buccal","Active",20200501
+
