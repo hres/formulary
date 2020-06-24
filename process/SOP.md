@@ -1,7 +1,7 @@
 CCDD Standard operating procedure (SOP)
 ================
 Nancy Zhu, Daniel Buijs
-2020-02-26
+2020-06-24
 
 ### Introduction
 
@@ -47,16 +47,12 @@ to the user)
 
   - Log in to Rstudio server using SSH key
 
-![](Snap5.jpg)<!-- -->
-
   - Navigate to the corresponding source and destination directory
-
-![](Snap9.jpg)<!-- -->
 
   - Drag DPD extract file folder from source directory to directory on
     RStudio server
 
-![](Snap7.jpg)<!-- -->
+<!-- end list -->
 
 2.  `git checkout sql-views` switch to sql-views branch in formulary
     repository
@@ -90,7 +86,30 @@ to the user)
     git commit -m 'merge changes in source files from sql-views-french branch'
     git push
 
-6.  run script
+6.  update hard-coded dates in
+    [setup.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh)
+
+update line 4
+
+    ccdd_qa_release_date="20xxxxxx"
+
+to match the latest entry in
+<https://github.com/hres/formulary/tree/folder_reorg/QAfiles>.
+
+update line 39
+
+    db_previous_month='ccdd_20xx_xx_xx_xxxxxx'
+
+to match the appropriate database (which can be found at
+<https://shiny.hres.ca/adminer/> only within the VPN).
+
+update line 5
+
+    ccdd_current_release_date="20xxxxxx"
+
+to match the date of `db_previous_month`.
+
+7.  run script
     [setup.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh)
     in command line (Terminal)
 
@@ -99,26 +118,26 @@ to the user)
     cd ./src/sql
     PGHOST=rest.hc.local PGUSER={username of database} PGPASSWORD={password} ./setup.sh
 
-7.  All files are generation in `./src/dist/{date of generation}`
+8.  All files are generation in `./src/dist/{date of generation}`
 
-8.  `git checkout folder_reorg` Switch to `folder_reorg` branch.
+9.  `git checkout folder_reorg` Switch to `folder_reorg` branch.
 
-9.  Create new folder with date as folder name in `~/Pre-check` and
+10. Create new folder with date as folder name in `~/Pre-check` and
     subfolder (This step can be done with user interface or at command
     line)
 
 *In Command line*
 
     mkdir ~/formulary/Pre-check/{date of generation}
-    mkdir ~/formulary/Pre-check/{date of generation}/{date of generation_from_{previous release date}}
+    mkdir ~/formulary/Pre-check/{date of generation}/{date of generation}_from_{previous release date}
     
-    cp  ~/formulary/src/dist/20200224/*full_release_[[:digit:]]*  ~/formulary/Pre-check/20200224
-    cp  ~/formulary/src/dist/20200224/*release_candidate_[[:digit:]]*  ~/formulary/Pre-check/20200224
-    cp  ~/formulary/src/dist/20200224/mp_ntp_tm_relationship_release_candidate_[[:digit:]]*  ~/formulary/Pre-check/20200224
-    cp  ~/formulary/src/dist/20200224/coded_attribute*  ~/formulary/Pre-check/20200224
-    cp  ~/formulary/src/dist/20200224/device-ntp*  ~/formulary/Pre-check/20200224
-    cp  ~/formulary/src/dist/20200224/special_groupings_release*  ~/formulary/Pre-check/20200224
-    cp  ~/formulary/src/dist/{date of generation}/*[[:digit:]]_release_changes_*  ~/formulary/Pre-check/{date of generation}/{date of generation_from_{previous generation date}}
+    cp  ~/formulary/src/dist/{date of generation}/*full_release_[[:digit:]]*  ~/formulary/Pre-check/{date of generation}
+    cp  ~/formulary/src/dist/{date of generation}/*release_candidate_[[:digit:]]*  ~/formulary/Pre-check/{date of generation}
+    cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_release_candidate_[[:digit:]]*  ~/formulary/Pre-check/{date of generation}
+    cp  ~/formulary/src/dist/{date of generation}/coded_attribute*  ~/formulary/Pre-check/{date of generation}
+    cp  ~/formulary/src/dist/{date of generation}/device-ntp*  ~/formulary/Pre-check/{date of generation}
+    cp  ~/formulary/src/dist/{date of generation}/special_groupings_release*  ~/formulary/Pre-check/{date of generation}
+    cp  ~/formulary/src/dist/{date of generation}/*[[:digit:]]_release_changes_*  ~/formulary/Pre-check/{date of generation}/{date of generation}_from_{previous generation date}
 
 *In user interface*
 
@@ -127,12 +146,8 @@ to the user)
 
   - Click *New Folder*
 
-![](Snap1.jpg)<!-- -->
-
   - A pop window appears, input the name of folder with date of
     generation
-
-![](Snap4.jpg)<!-- -->
 
   - Using the interface, navigate to `Home/formulary/src/dist/`
 
@@ -141,11 +156,9 @@ to the user)
 
   - From the menu, click More \> Move…
 
-![](Snap2.jpg)<!-- -->
-
   - From the pop up window, select the destination folder
 
-![](Snap3.jpg)<!-- -->
+<!-- end list -->
 
 10. Commit and push the files to remote Github repository
 
@@ -257,7 +270,7 @@ local folder:`formulary/src/sql/dpdloader`
     cp  ~/formulary/src/dist/{date of generation}/special_groupings_qa_release*  ~/formulary/QAfiles/{date of generation}
     
     cp  ~/formulary/src/dist/{date of generation}/*qa_release_changes_*  ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
-    cp  ~/formulary/src/dist/{date of generation}/*duplicates_name*  ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
+    cp  ~/formulary/src/dist/{date of generation}/*duplicate_names*  ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
     cp ~/formulary/src/dist/{date of generation}/*post_qa_relationship*  ~/formulary/QAfiles/{date of generation}
     cp  ~/formulary/src/dist/{date of generation}/coded_attribute*  ~/formulary/QAfiles/{date of generation}
     cp  ~/formulary/src/dist/{date of generation}/device-ntp*  ~/formulary/QAfiles/{date of generation}
