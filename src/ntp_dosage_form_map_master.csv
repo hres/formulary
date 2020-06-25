@@ -1,4 +1,5 @@
 "ntp_dosage_form_code","ntp_dosage_form","route_of_administration_code","route_of_administration","route_of_administration_f","pharm_form_code","pharmaceutical_form","pharmaceutical_form_f","ntp_dosage_form_fr"
+"40001","solution for injection","22-45-49-65","INTRAMUSCULAR, INTRATRACHEAL, INTRAVENOUS, SUBCUTANEOUS","Intramusculaire,Intratrachéale,Intraveineuse,Sous-cutanée","134","SOLUTION","Solution","solution injectable"
 "40123","shampoo","70","TOPICAL","Topique","59","SHAMPOO","Shampoing","shampoing"
 "40007","buccal tablet","3","BUCCAL","Buccale","85","TABLET","Comprimé","comprimé buccogingival"
 "40007","buccal tablet","3","BUCCAL","Buccale","23","TABLET (EFFERVESCENT)","Comprimé (effervescent)","comprimé buccogingival"
@@ -611,4 +612,4 @@
 "40094","rectal solution","62","RECTAL","Rectale","20-34","ENEMA, LIQUID","Lavement,Liquide","solution rectale"
 "40001","solution for injection","12-22-31-49-114","INTRA-ARTERIAL, INTRAMUSCULAR, INTRATHECAL, INTRAVENOUS, INTRACEREBROVENTRICULAR","Intra-artérielle,Intramusculaire,Intrathécale,Intraveineuse,Intracérébroventriculaire","134","SOLUTION","Solution","solution injectable"
 "40005","oromucosal spray","3","BUCCAL","Buccale","158","SPRAY, METERED DOSE","Pulvérisation, à dose mesurée","vaporisation buccale"
-"40001","solution for injection","114","INTRACEREBROVENTRICULAR","INTRACÉRÉBROVENTRICULAR","134","SOLUTION","solution","solution injectable"
+"40001","solution for injection","114","INTRACEREBROVENTRICULAR","INTRACÉRÉBROVENTRICULAR","134","SOLUTION","Solution","solution injectable"
