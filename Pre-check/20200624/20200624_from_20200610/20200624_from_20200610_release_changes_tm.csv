@@ -1,0 +1,8 @@
+tm_code,tm_formal_name,changes
+"8001429","acetylcysteine","tm_status_effective_time: ""20010427"" -> ""20090818"""
+"8001770","estramustine","DELETED"
+"8001659","glycopyrrolate","DELETED"
+"8001165","abacavir and lamivudine and zidovudine","tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20011029"" -> ""20191121"""
+"8001524","selegiline","tm_status_effective_time: ""19941231"" -> ""19970213"""
+"8001218","nevirapine","tm_status_effective_time: ""19980917"" -> ""20101229"""
