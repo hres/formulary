@@ -8,8 +8,8 @@
 # ARGS (optional)   : qa
 ###############################################################################
 
-ccdd_qa_release_date="20200702"
-ccdd_current_release_date="20200702"
+ccdd_qa_release_date="20200601"
+ccdd_current_release_date="20200610"
 ccdd_current_date=$(date +'%Y%m%d')
 
 
@@ -52,7 +52,7 @@ pgloader "$baseDir/dpdloader/dpdload_ap.pgload"
 # global config for CCDD generation process
 pgloader "$baseDir/ccdd-config.pgload"
 
-#db_previous_month=`psql -t -c "SELECT dblist.datname FROM (SELECT datname, make_timestamp(substr(datname, 6,4)::int, substr(datname, 11,2)::int, substr(datname, 14,2)::int, substr(datname, 17,2)::int, substr(datname, 19,2)::int, substr(datname, 21,2)::int) AS date_timestamp FROM pg_database WHERE datistemplate = 'false' AND datname LIKE 'ccdd_%' ORDER BY datname DESC) as dblist 
+#db_previous_month=`psql -t -c "SELECT dblist.datname FROM (SELECT datname, make_timestamp(substr(datname, 6,4)::int, substr(datname, 11,2)::int, substr(datname, 14,2)::int, substr(datname, 17,2)::int, substr(datname, 19,2)::int, substr(datname, 21,2)::int) AS date_timestamp FROM pg_database WHERE datistemplate = 'false' AND datname LIKE 'ccdd_%' ORDER BY datname DESC) as dblist
 #WHERE date_timestamp < date_trunc('month', '$ccdd_current_date_time'::timestamp) LIMIT 1"`
 db_previous_month="ccdd_2020_06_10_121817"
 echo $db_previous_month
@@ -127,7 +127,7 @@ psql -c "copy ((select mp_code, mp_formal_name, COALESCE(mp_en_description, 'NA'
 
 psql -c "copy (select ntp_code, ntp_formal_name, COALESCE(null::varchar, 'NA') as ntp_en_description, ntp_fr_description, ntp_status, ntp_status_effective_time, COALESCE(ntp_type, 'NA') as ntp_type FROM ccdd_ntp_table)
         to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/ntp_qa_release_${ccdd_current_date}.csv"
-        
+
 psql -c "copy (select tm_code, tm_formal_name,tm_fr_description, tm_status, tm_status_effective_time FROM ccdd_tm_table
               UNION ALL
               (select * from ccdd.tm_release where tm_code IN ('8001659')))
@@ -181,7 +181,7 @@ psql -c "copy (select
                   ntp_status_effective_time,
                   COALESCE(ntp_type, 'NA') as ntp_type FROM ccdd_ntp_table WHERE tm_is_publishable = true)
                   to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/ntp_full_release_${ccdd_current_date}.csv"
-                  
+
 psql -c "copy ((select tm_code, tm_formal_name,tm_fr_description,tm_status, tm_status_effective_time FROM ccdd_tm_table WHERE tm_is_publishable = true)
          UNION ALL
          (select * from ccdd.tm_release_candidate where tm_code IN ('8001659')))
