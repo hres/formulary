@@ -1,7 +1,7 @@
 CCDD Standard operating procedure (SOP)
 ================
 Nancy Zhu, Daniel Buijs
-2020-06-24
+2020-07-06
 
 ### Introduction
 
@@ -270,7 +270,7 @@ local folder:`formulary/src/sql/dpdloader`
     cp  ~/formulary/src/dist/{date of generation}/special_groupings_qa_release*  ~/formulary/QAfiles/{date of generation}
     
     cp  ~/formulary/src/dist/{date of generation}/*qa_release_changes_*  ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
-    cp  ~/formulary/src/dist/{date of generation}/*duplicate_names*  ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
+    cp  ~/formulary/src/dist/{date of generation}/*duplicates_name*  ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
     cp ~/formulary/src/dist/{date of generation}/*post_qa_relationship*  ~/formulary/QAfiles/{date of generation}
     cp  ~/formulary/src/dist/{date of generation}/coded_attribute*  ~/formulary/QAfiles/{date of generation}
     cp  ~/formulary/src/dist/{date of generation}/device-ntp*  ~/formulary/QAfiles/{date of generation}
