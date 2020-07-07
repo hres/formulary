@@ -1,7 +1,6 @@
 drug_code,drug_identification_number,brand_name,status,history_date,comments
 43155,2215187,CAVERJECT STERILE POWDER - PWS 23.2MCG/VIAL,Marketed,2005-11-09,Part of a kit.  DIN needs to be discontinued; keep on blacklist
 97065,2480131,COVERGIRL TRUBLEND BASE BUSINESS SKIN PRIMER BASE POUR LA PEAU,Marketed,2018-12-11,Out of scope - to stay on Blacklist so as not to add into the release
-8042,727520,HEPARIN LEO 100UNIT/ML,Marketed,1984-12-31,Dose form issue (should be solution for injection; used as a lock/flush)
 3228,438898,FORMULE C34 HERBAGES NATURBEC LTÉE,Marketed,2007-08-10, Dose form issue no information in DPD low usage - to stay on Blacklist
 85902,2373807,H.E.L.P. ACETATE BUFFER PH 4.85,Marketed,2012-03-09,Out of scope - to stay on Blacklist so as not to add into the release
 3546,469203,FORMULE L2,Marketed,1979-12-31,Product problematic - brandname change not reflected in DPD and dose form issue no information in DPD and assume low usage
@@ -26,10 +25,15 @@ drug_code,drug_identification_number,brand_name,status,history_date,comments
 18310,2161060,CALCIUM-45 0.25-4.5,Marketed,2001-10-01,Out of scope. Haemodialysis
 87315,2387549,CALCIUM CHLORIDE FOR HAEMODIALYSIS,Marketed,2013-03-26,Out of scope. Haemodialysis
 95780,2469146,JELIDO,Marketed,2018-05-28,DPD dose form change pending
-92593,02441551,CLENZIDERM ACNE THERAPEUTIC SYSTEM,Marketed,2016-08-22,Out of scope. Benzoyl peroxide kit with NPN
-88701,02402149,ACNE TREATMENT SYSTEM,Marketed,2013-11-15,Out of scope. Benzoyl peroxide kit with NPN
-90520,02420678,RODAN+FIELDS UNBLEMISH,Marketed,2015-02-02,Out of scope. Benzoyl peroxide kit with NPN
-83385,02348497,EVICEL,Marketed,2013-05-02,Out of scope - fibrin sealant
-97932,2489244,CARBETOCIN INJECTION,Marketed,2020-01-21,Needs UP
-95643,2468069,HAEGARDA,Marketed,2020-01-23,Needs CP
-95644,2468077,HAEGARDA,Marketed,2020-01-23,Needs CP
+92593,2441551,CLENZIDERM ACNE THERAPEUTIC SYSTEM,Marketed,2016-08-22,Out of scope. Benzoyl peroxide kit with NPN
+88701,2402149,ACNE TREATMENT SYSTEM,Marketed,2013-11-15,Out of scope. Benzoyl peroxide kit with NPN
+90520,2420678,RODAN+FIELDS UNBLEMISH,Marketed,2015-02-02,Out of scope. Benzoyl peroxide kit with NPN
+83385,2348497,EVICEL,Marketed,2013-05-02,Out of scope - fibrin sealant
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
