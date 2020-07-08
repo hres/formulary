@@ -1,0 +1,8 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+"8001770","estramustine","estramustine","tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19951231"" -> ""20200430"""
+"8001659","glycopyrrolate","glycopyrrolate","DELETED"
+"8002323","bacillus Calmette-Guérin substrain TICE","bacille de Calmette-Guérin sous-souche TICE","ADDED"
+"8001165","abacavir and lamivudine and zidovudine","abacavir et lamivudine et zidovudine","tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20011029"" -> ""20191121"""
+"8002300","bacillus Calmette-Guérin substrain TICE","bacille de Calmette-Guérin sous-souche TICE","DELETED"
