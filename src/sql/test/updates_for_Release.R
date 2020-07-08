@@ -6,7 +6,9 @@ library(dplyr)
 library(dbplyr)
 library(tidyr)
 #package to read word document
-if(!require(docxtractr)) install.packages('docxtractr')
+# if(!require(docxtractr)) install.packages('docxtractr')
+# whoops, minor version bump on docxtractr requires R >= 3.6.0, currently on R v3.4.4
+# install.packages("https://cran.r-project.org/src/contrib/Archive/docxtractr/docxtractr_0.6.1.tar.gz", repos=NULL, type="source")
 library(docxtractr)
 
 #############################################################
@@ -17,14 +19,14 @@ library(docxtractr)
 #both qa_file_name and tm_filter_file_name are received in email from CCDD QA team after QA
 
 #import files from QA team
-qa_file_name<-'qa_file_20200604.docx'
-tm_filter_file_name<-'tm_filter_20200604.csv'
+qa_file_name<-'qa_file_20200708.docx'
+tm_filter_file_name<-'tm_filter_20200708.csv'
 
 
 #connect to PostgreSQL database where all files from the generation are
 ccdd <- dbPool(drv      = RPostgreSQL::PostgreSQL(),
                host     = "rest.hc.local",
-               dbname   = "ccdd_2020_06_01_110136",  #update date of database accordingly to QA version
+               dbname   = "ccdd_2020_07_02_153931",  #update date of database accordingly to QA version
                user     = Sys.getenv("rest_user"),
                password = Sys.getenv("rest_password") )
 
@@ -44,7 +46,7 @@ code_to_add<-left_join(code_to_add,dpd_drug[,c('drug_code','drug_identification_
 
 #A condition if there is a product with pseudo din on the list, the pseudo din will be assigned to MP product
 if(sum(is.na(code_to_add$drug_code))>0){
-  pseudodin<-read.csv('./src/sql/test/ccdd-pseudodin-map-draft.csv',stringsAsFactors = F)
+  pseudodin<-read.csv('~/git/formulary/src/sql/test/ccdd-pseudodin-map-draft.csv',stringsAsFactors = F)
   
   pseudodin$pseudodin<-as.character(pseudodin$pseudodin)
   code_to_add<-left_join(code_to_add,pseudodin[,c('pseudodin','drug_code')],by=c('mp_code'='pseudodin'))
@@ -62,7 +64,7 @@ code_to_add<-code_to_add%>%
              filter(!is.na(drug_code))
 
 #load qa list from Jo-Anne:
-qa<-read_docx(paste0('./src/sql/test/',qa_file_name))
+qa<-read_docx(paste0('~/git/formulary/src/sql/test/',qa_file_name))
 
 #Depending on whether there is DPD descriptors table in the word document, the position of whitelist can change between 11 and 12
 #A conditional argument is implemented to read the correct table
@@ -78,30 +80,30 @@ if(docx_tbl_count(qa)==13){
 code_to_add<-code_to_add%>%filter(drug_code %in% qa_whitelist$drug_code)
 
 #import previous whitelist from Github
-whitelist<-read.csv('./src/sql/test/ccdd-mp-whitelist-draft.csv',stringsAsFactors = F,
+whitelist<-read.csv('~/git/formulary/src/sql/test/ccdd-mp-whitelist-draft.csv',stringsAsFactors = F,
                     colClasses = c('mp_code'='character'))
 
 #Append new concepts to the list
 whitelist<-bind_rows(whitelist,code_to_add)%>%distinct()
 
 #Update whitelist
-write.csv(whitelist,'./src/sql/test/ccdd-mp-whitelist-draft.csv',row.names = F)
+write.csv(whitelist,'~/git/formulary/src/sql/test/ccdd-mp-whitelist-draft.csv',row.names = F)
 
 
 # first run write-new-concetps.sql script to update tm_definition_draft
 #update TM_filter_master.csv
 
 #load tm filter from QA file, change filepath if necessary
-tm_filter<-read.csv(paste0('./src/sql/test/',tm_filter_file_name),stringsAsFactors = F)
+tm_filter<-read.csv(file.path('~/git/formulary/src/sql/test/',tm_filter_file_name),stringsAsFactors = F)
 
 #load tm_definition after running write-new-concepts.sh 
-tm_definition<-read.csv('./src/sql/test/ccdd-tm-definitions-draft.csv', stringsAsFactors = F)
+tm_definition<-read.csv('~/git/formulary/src/sql/test/ccdd-tm-definitions-draft.csv', stringsAsFactors = F)
 tm_filter_master<-tm_definition%>%filter(formal_name%in% tm_filter$tm_formal_name)%>%
                                   select(code,formal_name)
 
 #save the TM_filter_master.csv and move to folder-reorg branch:
 if(nrow(tm_filter)==nrow(tm_filter_master)){
-write.csv(tm_filter_master,'./src/sql/test/TM_filter_master.csv',row.names = F)
+write.csv(tm_filter_master,'~/git/formulary/src/sql/test/TM_filter_master.csv',row.names = F)
 }else{
   
   print('Please double check tm master list, the row number does not match tm filter provided by QA group')
@@ -110,7 +112,7 @@ write.csv(tm_filter_master,'./src/sql/test/TM_filter_master.csv',row.names = F)
 #############################################################################################################################
 
 #ntp definition name changes for existing code:
-ntp_definition<-read.csv('./src/sql/test/ccdd-ntp-definitions-draft.csv',stringsAsFactors = F)
+ntp_definition<-read.csv('~/git/formulary/src/sql/test/ccdd-ntp-definitions-draft.csv',stringsAsFactors = F)
 ntp_name_change<-docx_extract_tbl(qa,6)
 
 if(ntp_name_change$ntp._formal_name=='[NONE]'){
@@ -128,6 +130,6 @@ ntp_definition<-ntp_definition%>%group_by(formal_name)%>%
 
 ntp_definition$code<-as.character(ntp_definition$code)
 
-write.csv(ntp_definition,'./src/sql/test/ccdd-ntp-definitions-draft.csv',row.names = F)
+write.csv(ntp_definition,'~/git/formulary/src/sql/test/ccdd-ntp-definitions-draft.csv',row.names = F)
 
 }
