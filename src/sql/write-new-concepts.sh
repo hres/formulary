@@ -35,10 +35,13 @@ export PGDATABASE=$dbName
 # ncn: new concepts (name of the table that creates / formats new concepts according to rep)
 # dff: definition file (name of the csv file that contains the definitions)
 
+pseudodin_map_cols='pseudodin,drug_code,unit_of_presentation,uop_size_amount,uop_size_unit,unit_of_presentation_fr'
+
 rep=('qa_missing_concepts_ntp'           'qa_missing_concepts_pseudodin' 'qa_missing_concepts_tm')
 dft=('ccdd.ntp_definition'               'ccdd.pseudodin_map'            'ccdd.tm_definition')
 ncn=('qa_new_concepts_ntp'               'qa_new_concepts_pseudodin'     'qa_new_concepts_tm')
 dff=('ccdd-ntp-definitions-draft.csv'    'ccdd-pseudodin-map-draft.csv'  'ccdd-tm-definitions-draft.csv')
+col=('*'                                 $pseudodin_map_cols             '*')
 
 for i in "${!rep[@]}"
 do
@@ -57,13 +60,13 @@ do
 
   if [ "$write_all_full" == true ]; then
     printf "\nWriting ${dff[$i]} directly...\n"
-    psql -c "copy (SELECT * FROM ${dft[$i]}) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$testDir/${dff[$i]}";
-    psql -c "copy (SELECT * FROM ${ncn[$i]}) to STDOUT with CSV FORCE QUOTE * DELIMITER ',';" >> "$testDir/${dff[$i]}";
+    psql -c "copy (SELECT ${col[$i]} FROM ${dft[$i]}) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$testDir/${dff[$i]}";
+    psql -c "copy (SELECT ${col[$i]} FROM ${ncn[$i]}) to STDOUT with CSV FORCE QUOTE * DELIMITER ',';" >> "$testDir/${dff[$i]}";
     printf "done\n"
   elif [ "$write_all_temp" == true ]; then
     printf "\nWriting ${dff[$i]}...\n"
-    psql -c "copy (SELECT * FROM ${dft[$i]}) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/${dff[$i]}.temp";
-    psql -c "copy (SELECT * FROM ${ncn[$i]}) to STDOUT with CSV FORCE QUOTE * DELIMITER ',';" >> "$distDir/${dff[$i]}.temp";
+    psql -c "copy (SELECT ${col[$i]} FROM ${dft[$i]}) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/${dff[$i]}.temp";
+    psql -c "copy (SELECT ${col[$i]} FROM ${ncn[$i]}) to STDOUT with CSV FORCE QUOTE * DELIMITER ',';" >> "$distDir/${dff[$i]}.temp";
     printf "done\n"
   else
     printf "\nActions:\n\t[a] Write updated version of ${dff[$i]} to a temporary file\n\t[b] Write directly to definition file\n\t[c] Skip this concept" && echo
@@ -72,12 +75,12 @@ do
 
     case $choice in
       "a" )
-        psql -c "copy (SELECT * FROM ${dft[$i]}) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/${dff[$i]}.temp"
-        psql -c "copy (SELECT * FROM ${ncn[$i]}) to STDOUT with CSV FORCE QUOTE * DELIMITER ',';" >> "$distDir/${dff[$i]}.temp"
+        psql -c "copy (SELECT ${col[$i]} FROM ${dft[$i]}) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/${dff[$i]}.temp"
+        psql -c "copy (SELECT ${col[$i]} FROM ${ncn[$i]}) to STDOUT with CSV FORCE QUOTE * DELIMITER ',';" >> "$distDir/${dff[$i]}.temp"
         continue;;
       "b" )
-        psql -c "copy (SELECT * FROM ${dft[$i]}) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$testDir/${dff[$i]}"
-        psql -c "copy (SELECT * FROM ${ncn[$i]}) to STDOUT with CSV FORCE QUOTE * DELIMITER ',';" >> "$testDir/${dff[$i]}"
+        psql -c "copy (SELECT ${col[$i]} FROM ${dft[$i]}) to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$testDir/${dff[$i]}"
+        psql -c "copy (SELECT ${col[$i]} FROM ${ncn[$i]}) to STDOUT with CSV FORCE QUOTE * DELIMITER ',';" >> "$testDir/${dff[$i]}"
         continue;;
       "c" )
         echo Skipped
