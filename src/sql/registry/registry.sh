@@ -104,7 +104,7 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.release_changes_mp_ntp_tm_rltnship_f
                         tm_fr_description text,
                         changes text
 );";
-psql -d registry -c "\COPY $PGSCHEMA.release_changes_mp_ntp_tm_rltnship_fr_${ccdd_current_date}_from_${ccdd_current_release_date} FROM '$changeDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_mp_ntp_tm_relationship_fr.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $PGSCHEMA.release_changes_mp_ntp_tm_rltnship_fr_${ccdd_current_date}_from_${ccdd_current_release_date} FROM '$release_changeDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_mp_ntp_tm_relationship_fr.csv' delimiter ',' CSV HEADER";
 
 psql -d registry -c "CREATE TABLE $PGSCHEMA.release_changes_special_groupings_${ccdd_current_date}_from_${ccdd_current_release_date}(
                         ccdd_code varchar,
