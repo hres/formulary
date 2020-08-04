@@ -101,7 +101,8 @@ fi
 
 # create output folder, then export CCDD concepts as CSV files to output
 mkdir -p "$distDir"
-mkdir -p "$changeDir"
+mkdir -p "$QA_changeDir"
+mkdir -p "$release_changeDir"
 mkdir -p "$distDir/DPD_diff"
 
 
