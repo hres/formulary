@@ -10,10 +10,11 @@
 ccdd_qa_release_date="20200702"
 ccdd_current_release_date="20200710"
 db_previous_month="ccdd_2020_07_10_011613"
+ccdd_current_date=$(date +'%Y%m%d')
 baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 distDir="$baseDir/../dist/$ccdd_current_date"
 changeDir="$distDir/${ccdd_current_date}_from_${ccdd_qa_release_date}"
-ccdd_current_date=$(date +'%Y%m%d')
+
 
 
 if [ "$PGDATABASE" != '' ]; then
