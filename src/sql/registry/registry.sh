@@ -72,7 +72,7 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.release_changes_mp_${ccdd_current_da
                         mp_fr_description text,
                         changes text
 );"
-psql -d registry -c "\COPY $PGSCHEMA.release_changes_mp_${ccdd_current_date}_from_${ccdd_current_release_date} FROM '$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_mp.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $PGSCHEMA.release_changes_mp_${ccdd_current_date}_from_${ccdd_current_release_date} FROM '$changeDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_mp.csv' delimiter ',' CSV HEADER";
 
 psql -d registry -c "CREATE TABLE $PGSCHEMA.release_changes_ntp_${ccdd_current_date}_from_${ccdd_current_release_date}(
                         ntp_code varchar,
@@ -80,7 +80,7 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.release_changes_ntp_${ccdd_current_d
                         ntp_fr_description text,
                         changes text
 );";
-psql -d registry -c "\COPY $PGSCHEMA.release_changes_ntp_${ccdd_current_date}_from_${ccdd_current_release_date} FROM '$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_ntp.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $PGSCHEMA.release_changes_ntp_${ccdd_current_date}_from_${ccdd_current_release_date} FROM '$changeDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_ntp.csv' delimiter ',' CSV HEADER";
 
 psql -d registry -c "CREATE TABLE $PGSCHEMA.release_changes_tm_${ccdd_current_date}_from_${ccdd_current_release_date}(
                         tm_code varchar,
@@ -88,23 +88,23 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.release_changes_tm_${ccdd_current_da
                         tm_fr_description text,
                         changes text
 );"
-psql -d registry -c "\COPY $PGSCHEMA.release_changes_tm_${ccdd_current_date}_from_${ccdd_current_release_date} FROM '$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_tm.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $PGSCHEMA.release_changes_tm_${ccdd_current_date}_from_${ccdd_current_release_date} FROM '$changeDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_tm.csv' delimiter ',' CSV HEADER";
 
 psql -d registry -c "CREATE TABLE $PGSCHEMA.release_changes_mp_ntp_tm_rltnship_${ccdd_current_date}_from_${ccdd_current_release_date}(
                         mp_code varchar,
                         mp_formal_name text,
                         changes text
 );";
-psql -d registry -c "\COPY $PGSCHEMA.release_changes_mp_ntp_tm_rltnship_${ccdd_current_date}_from_${ccdd_current_release_date} FROM '$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_mp_ntp_tm_relationship.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $PGSCHEMA.release_changes_mp_ntp_tm_rltnship_${ccdd_current_date}_from_${ccdd_current_release_date} FROM '$changeDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_mp_ntp_tm_relationship.csv' delimiter ',' CSV HEADER";
 
 psql -d registry -c "CREATE TABLE $PGSCHEMA.release_changes_mp_ntp_tm_rltnship_fr_${ccdd_current_date}_from_${ccdd_current_release_date}(
                         mp_code varchar,
                         mp_fr_description text,
                         ntp_fr_description text,
-                        tm_fr_description text, 
+                        tm_fr_description text,
                         changes text
 );";
-psql -d registry -c "\COPY $PGSCHEMA.release_changes_mp_ntp_tm_rltnship_fr_${ccdd_current_date}_from_${ccdd_current_release_date} FROM '$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_mp_ntp_tm_relationship_fr.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $PGSCHEMA.release_changes_mp_ntp_tm_rltnship_fr_${ccdd_current_date}_from_${ccdd_current_release_date} FROM '$changeDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_mp_ntp_tm_relationship_fr.csv' delimiter ',' CSV HEADER";
 
 psql -d registry -c "CREATE TABLE $PGSCHEMA.release_changes_special_groupings_${ccdd_current_date}_from_${ccdd_current_release_date}(
                         ccdd_code varchar,
@@ -113,10 +113,10 @@ psql -d registry -c "CREATE TABLE $PGSCHEMA.release_changes_special_groupings_${
                         policy_type text,
                         policy_reference text,
                         special_groupings_status text,
-                        special_groupings_status_effective_time text, 
+                        special_groupings_status_effective_time text,
                         changes text
 );";
-psql -d registry -c "\COPY $PGSCHEMA.release_changes_special_groupings_${ccdd_current_date}_from_${ccdd_current_release_date} FROM '$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_special_groupings.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $PGSCHEMA.release_changes_special_groupings_${ccdd_current_date}_from_${ccdd_current_release_date} FROM '$changeDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_special_groupings.csv' delimiter ',' CSV HEADER";
 
 echo "-----------------DUMP schema with data-----------------"
 pg_dump -d $PGDATABASE --schema=ccdd -t ccdd.combination_products_csv -t ccdd.ingredient_stem_csv -t ccdd.ntp_dosage_forms -t ccdd.unit_of_presentation_csv -t ccdd.tm_filter -t ccdd.mp_blacklist -t ccdd.mp_whitelist -t ccdd.mp_brand_override -t ccdd.mp_deprecations -t ccdd.ntp_deprecations -t ccdd.tm_deprecations -t ccdd.special_groupings > temp_dump.sql
@@ -149,19 +149,19 @@ schema_date_ym=$(date +'%Y-%m-')
 
 echo "-----------------UPDATING RELEASE CHANGES TABLES IN CCDD_HISTORY SCHEMA-----------------"
 psql -d registry -c "DELETE from $reg_schema.release_changes_mp where date::text like '$schema_date_ym%'"
-psql -d registry -c "\COPY $reg_schema.release_changes_mp(mp_code, mp_formal_name, mp_fr_description, changes) FROM '$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_mp.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $reg_schema.release_changes_mp(mp_code, mp_formal_name, mp_fr_description, changes) FROM '$changeDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_mp.csv' delimiter ',' CSV HEADER";
 psql -d registry -c "UPDATE $reg_schema.release_changes_mp SET date = '$schema_date' WHERE date IS NULL;"
 
 psql -d registry -c "DELETE from $reg_schema.release_changes_ntp where date::text like '$schema_date_ym%'"
-psql -d registry -c "\COPY $reg_schema.release_changes_ntp(ntp_code, ntp_formal_name, ntp_fr_description, changes) FROM '$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_ntp.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $reg_schema.release_changes_ntp(ntp_code, ntp_formal_name, ntp_fr_description, changes) FROM '$changeDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_ntp.csv' delimiter ',' CSV HEADER";
 psql -d registry -c "UPDATE $reg_schema.release_changes_ntp SET date = '$schema_date' WHERE date IS NULL;"
 
 psql -d registry -c "DELETE from $reg_schema.release_changes_tm where date::text like '$schema_date_ym%'"
-psql -d registry -c "\COPY $reg_schema.release_changes_tm(tm_code, tm_formal_name, tm_fr_description, changes) FROM '$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_tm.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $reg_schema.release_changes_tm(tm_code, tm_formal_name, tm_fr_description, changes) FROM '$changeDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_tm.csv' delimiter ',' CSV HEADER";
 psql -d registry -c "UPDATE $reg_schema.release_changes_tm SET date = '$schema_date' WHERE date IS NULL;"
 
 psql -d registry -c "DELETE from $reg_schema.release_changes_special_groupings where date::text like '$schema_date_ym%'"
-psql -d registry -c "\COPY $reg_schema.release_changes_special_groupings(ccdd_code, ccdd_formal_name, ccdd_type, policy_type, policy_reference, special_groupings_status, special_groupings_status_effective_time, changes) FROM '$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_special_groupings.csv' delimiter ',' CSV HEADER";
+psql -d registry -c "\COPY $reg_schema.release_changes_special_groupings(ccdd_code, ccdd_formal_name, ccdd_type, policy_type, policy_reference, special_groupings_status, special_groupings_status_effective_time, changes) FROM '$changeDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_special_groupings.csv' delimiter ',' CSV HEADER";
 psql -d registry -c "UPDATE $reg_schema.release_changes_special_groupings SET date = '$schema_date' WHERE date IS NULL;"
 echo "----------------- DONE UPDATING RELEASE CHANGES TABLES IN CCDD_HISTORY SCHEMA-----------------"
 
