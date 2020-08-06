@@ -234,7 +234,6 @@ else
 fi
 
 NEW_DB_NAME=ccdd_$(date +'%Y_%m_%d_%H%M%S')
-PGDATABASE=ccdd # connect to something other that PGUSER because the connected db can't be renamed
 psql -c "ALTER DATABASE $PGUSER RENAME TO $NEW_DB_NAME;"
 export PGDATABASE=$NEW_DB_NAME
 
