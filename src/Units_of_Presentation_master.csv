@@ -1,4 +1,6 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"98458","syringe","0.66","mL","N","N","02494582","FRAGMIN PFIZER CANADA ULC","seringue"
+"98662","ampoule","1","mL","Y","N","02496771","PEYONA CHIESI FARMACEUTICI S.P.A.","ampoule"
 "98722","syringe","0.6","mL","N","N","02497395","ZIEXTENZO SANDOZ CANADA INCORPORATED","seringue"
 "97081","vial","19","mL","N","N","02480271","LARTRUVO ELI LILLY CANADA INC","fiole"
 "99172","vial","20","mL","N","N","02502135","VEKLURY GILEAD SCIENCES CANADA INC","fiole"
