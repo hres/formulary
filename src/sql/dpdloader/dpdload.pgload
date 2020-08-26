@@ -2,10 +2,7 @@
 -- Connection details drawn from environment variables PGUSER, PGPASSWORD, PGHOST, PGDATABASE
 
 LOAD ARCHIVE
---  FROM https://www.canada.ca/content/dam/hc-sc/documents/services/drug-product-database/allfiles.zip
---  FROM http://www.hc-sc.gc.ca/dhp-mps/alt_formats/zip/prodpharma/databasdon/allfiles.zip
- FROM /home/cyanofsky/dpd/dpd_20200624/allfiles.zip
---   FROM /home/nzhu/dpd_20200224/allfiles.zip
+ FROM /home/cyanofsky/dpd/dpd_20200826/allfiles.zip
   INTO postgresql:///
 
   BEFORE LOAD EXECUTE dpd_structure.sql
