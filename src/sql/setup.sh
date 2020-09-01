@@ -7,9 +7,9 @@
 # ARGS (optional)   : qa
 ###############################################################################
 
-ccdd_qa_release_date="20200702"
-ccdd_current_release_date="20200710"
-db_previous_month="ccdd_2020_07_10_011613"
+ccdd_qa_release_date="20200804"
+ccdd_current_release_date="20200806"
+db_previous_month="ccdd_2020_08_06_164604"
 ccdd_current_date=$(date +'%Y%m%d')
 baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 distDir="$baseDir/../dist/$ccdd_current_date"
@@ -208,12 +208,14 @@ psql -c "copy (select * from qa_release_changes_tm_release_candidate) to STDOUT 
 psql -c "copy (select * from qa_release_changes_mp_ntp_tm_relationship_release_candidate WHERE mp_code NOT IN ('02212188', '02480360', '02480379','02182971','02182777','01916947')) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$release_changeDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_mp_ntp_tm_relationship.csv"
 psql -c "copy (select * from qa_release_changes_mp_ntp_tm_relationship_release_candidate_fr WHERE mp_code NOT IN ('02212188', '02480360', '02480379','02182971','02182777','01916947')) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$release_changeDir/${ccdd_current_date}_from_${ccdd_current_release_date}_release_changes_mp_ntp_tm_relationship_fr.csv"
 psql -c "copy (select * from qa_mp_duplicates_code) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_mp_duplicates_code.csv"
-psql -c "copy (select * from qa_mp_duplicates_name) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$QA_changeDir/${ccdd_current_date}_mp_duplicates_name.csv"
+psql -c "copy (select * from qa_mp_duplicates_name) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_mp_duplicates_name.csv"
 psql -c "copy (select * from qa_ntp_duplicates_code) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_ntp_duplicates_code.csv"
-psql -c "copy (select * from qa_ntp_duplicates_name) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$QA_changeDir/${ccdd_current_date}_ntp_duplicates_name.csv"
+psql -c "copy (select * from qa_ntp_duplicates_name) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_ntp_duplicates_name.csv"
 psql -c "copy (select * from qa_tm_duplicates_code) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_tm_duplicates_code.csv"
-psql -c "copy (select * from qa_tm_duplicates_name) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$QA_changeDir/${ccdd_current_date}_tm_duplicates_name.csv"
+psql -c "copy (select * from qa_tm_duplicates_name) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_tm_duplicates_name.csv"
 psql -c "copy (select * from qa_mp_ntp_tm_relationship_duplicates_code) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_mp_ntp_tm_relationship_duplicates_code.csv"
+cp "$distDir"/*duplicates_name* "$QA_changeDir"
+cp "$distDir"/*duplicates_name* "$release_changeDir" # per Jo-anne's request
 psql -c "copy (select * from public.post_qa_relationship) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_post_qa_relationship_table.csv"
 
 
@@ -234,7 +236,8 @@ else
 fi
 
 NEW_DB_NAME=ccdd_$(date +'%Y_%m_%d_%H%M%S')
-psql -c "ALTER DATABASE $PGUSER RENAME TO $NEW_DB_NAME;"
+# connect to something other that PGUSER because the connected db can't be renamed
+psql -d ccdd -c "ALTER DATABASE $PGUSER RENAME TO $NEW_DB_NAME;"
 export PGDATABASE=$NEW_DB_NAME
 
 echo
@@ -242,7 +245,7 @@ echo Generated "$PGDATABASE" and output in "$distDir"
 
 export PGSCHEMA=ccdd_$(date +'%Y_%m_%d')
 
-export distDir ccdd_current_date ccdd_current_release_date
+export distDir ccdd_current_date ccdd_current_release_date QA_changeDir release_changeDir db_previous_month
 
 ### Registry code export
 # Check for QA flag in arguments
