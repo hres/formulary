@@ -31,3 +31,5 @@ drug_code,drug_identification_number,brand_name,status,history_date,comments
 83385,02348497,EVICEL,Marketed,2013-05-02,Out of scope - fibrin sealant
 98638,2496526,DURATOCIN,Marketed,2020-08-05,Duplicate MP - other product to be corrected
 97286,2482401,NYQUIL COMPLETE + VICKS VAPOCOOL COLD & FLU LIQUID,Marketed,2020-07-20,Oral liquid 
+96431,2474263,HUMIRA,Marketed,2020-08-18,Needs UP
+97287,2482428,DAYQUIL COMPLETE + VICKS VAPOCOOL COLD & FLU LIQUID,Marketed,2020-07-20,Needs discussion re per 30 mL
