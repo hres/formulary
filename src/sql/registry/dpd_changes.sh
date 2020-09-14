@@ -31,7 +31,7 @@ psql -d registry -c "CREATE TABLE $COMPARISON_SCHEMA.ingredient_stem_csv(
 	hydrate varchar, 
 	ntp_ing varchar
 )"
-pgloader "$baseDir/dpdload.pgload"
+pgloader "$baseDir/sourcedef.pgload"
 
 # create and populate public.ccdd-config for date comparison
 psql -d registry -c "DROP TABLE if exists public.ccdd_config CASCADE"
