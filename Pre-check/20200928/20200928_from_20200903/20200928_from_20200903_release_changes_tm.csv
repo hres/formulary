@@ -1,0 +1,13 @@
+tm_code,tm_formal_name,changes
+"8001659","glycopyrrolate","DELETED"
+"8000793","triamcinolone hexacetonide","tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19970120"" -> ""20180605"""
+"8002039","ocriplasmin","tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20131120"" -> ""20200320"""
+"8000879","atenolol and chlorthalidone","tm_status_effective_time: ""19941231"" -> ""20040812"""
+"8000067","benztropine","tm_status_effective_time: ""19781231"" -> ""19841231"""
+"8001771","ethinyl estradiol and ethynodiol","DELETED"
+"8001580","benzethonium and benzocaine","DELETED"
+"8001690","abciximab","DELETED"
+"8001514","propylthiouracil","DELETED"
+"8000829","benzoyl peroxide","tm_status_effective_time: ""19821231"" -> ""19911231"""
