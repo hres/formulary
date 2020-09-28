@@ -1,8 +1,8 @@
 #!/bin/bash -e
 # Must set environment variables PGHOST, PGUSER and PGPASSWORD. PGDATABASE must be unset
-ccdd_qa_release_date="20200804"
-ccdd_current_release_date="20200806"
-db_previous_month="ccdd_2020_08_06_164604"
+ccdd_qa_release_date="20200902"
+ccdd_current_release_date="20200903"
+db_previous_month="ccdd_2020_09_03_233523"
 ccdd_current_date=$(date +'%Y%m%d')
 baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 distDir="$baseDir/../dist/$ccdd_current_date"
@@ -157,8 +157,8 @@ psql -c "copy (select * from qa_ntp_duplicates_name) to STDOUT with CSV HEADER F
 psql -c "copy (select * from qa_tm_duplicates_code) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_tm_duplicates_code.csv"
 psql -c "copy (select * from qa_tm_duplicates_name) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_tm_duplicates_name.csv"
 psql -c "copy (select * from qa_mp_ntp_tm_relationship_duplicates_code) to STDOUT with CSV HEADER FORCE QUOTE * NULL 'NA' DELIMITER ',';" > "$distDir/${ccdd_current_date}_mp_ntp_tm_relationship_duplicates_code.csv"
-cp "$distDir/*duplicates_name*" "$QA_changeDir"
-cp "$distDir/*duplicates_name*" "$release_changeDir" # per Jo-anne's request
+cp "$distDir"/*duplicates_name* "$QA_changeDir"
+cp "$distDir"/*duplicates_name* "$release_changeDir" # per Jo-anne's request
 
 NEW_DB_NAME=ccdd_$(date +'%Y_%m_%d_%H%M%S')
 # connect to something other that PGUSER because the connected db can't be renamed
@@ -167,9 +167,5 @@ export PGDATABASE=$NEW_DB_NAME
 
 echo
 echo Generated "$PGDATABASE" and output in "$distDir"
-
-export PGSCHEMA=ccdd_$(date +'%Y_%m_%d')
-
-export distDir ccdd_current_date ccdd_current_release_date QA_changeDir release_changeDir db_previous_month
 
 
