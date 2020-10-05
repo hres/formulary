@@ -116,7 +116,7 @@ write.csv(tm_filter_master,'~/git/formulary/src/sql/test/TM_filter_master.csv',r
 ntp_definition<-read.csv('~/git/formulary/src/sql/test/ccdd-ntp-definitions-draft.csv',stringsAsFactors = F)
 ntp_name_change<-docx_extract_tbl(qa,6)
 
-if(ntp_name_change$ntp._formal_name=='[NONE]'){
+if(ntp_name_change$ntp._formal_name[1]=='[NONE]'){
 
   ntp_definition<-ntp_definition
 
