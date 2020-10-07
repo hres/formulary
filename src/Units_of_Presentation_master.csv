@@ -1,4 +1,5 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"98941","syringe","1","mL","Y","N","02499681","ENSPRYNG HOFFMANN-LA ROCHE LIMITED","seringue"
 "98194","bag","100","mL","N","N","02491931","MORPHINE SULFATE INJECTION USP STERINOVA INC.","sac"
 "98457","vial","10","mL","Y","N","02494574","CLADRIBINE INJECTION GENERIC MEDICAL PARTNERS INC","fiole"
 "96431","syringe","0.2","mL","N","N","02474263","HUMIRA ABBVIE CORPORATION","seringue"
