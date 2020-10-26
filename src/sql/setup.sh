@@ -1,8 +1,8 @@
 #!/bin/bash -e
 # Must set environment variables PGHOST, PGUSER and PGPASSWORD. PGDATABASE must be unset
-ccdd_qa_release_date="20200902"
-ccdd_current_release_date="20200903"
-db_previous_month="ccdd_2020_09_03_233523"
+ccdd_qa_release_date="20201001"
+ccdd_current_release_date="20201007"
+db_previous_month="ccdd_2020_10_07_103853"
 ccdd_current_date=$(date +'%Y%m%d')
 baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 distDir="$baseDir/../dist/$ccdd_current_date"
