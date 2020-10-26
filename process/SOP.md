@@ -1,12 +1,12 @@
 CCDD Standard operating procedure (SOP)
 ================
-Nancy Zhu, Daniel Buijs
-2020-07-06
+Nancy Zhu, Corey Yanofsky, Daniel Buijs
+2020-10-26
 
 ### Introduction
 
 The Canadian Clinical Drug Data Set (CCDD) is a national medicinal
-product terminology owned and maintaiend by Health Canada in partnership
+product terminology owned and maintained by Health Canada in partnership
 with Canada Health Infoway. It is used to support electronic prescribing
 in Canada, filling the gap in drug terminology.
 
@@ -16,10 +16,11 @@ HomePage](https://infoscribe.infoway-inforoute.ca/display/CCDD/Canadian+Clinical
 
 ### CCDD monthly generation SOP
 
-The monthly CCDD generation process can be roughly divided into two
-stages: QA generation and Generation. All codes used for generation and
-the relevant documents are documented in a public Github account,
-accessible at (<https://github.com/hres/formulary>)
+The monthly CCDD generation process can be roughly divided into three
+stages: pre-check generation, QA generation, and release generation. All
+codes used for generation and the relevant documents are documented in a
+public Github account, accessible at
+(<https://github.com/hres/formulary>)
 
 This SOP will list processes performed at **the Data Science Unit in
 RMOD at Health Canada**.
@@ -30,36 +31,36 @@ Clone formulary repository to RStudio
 
     git clone https://github.com/hres/formulary.git
 
-### Pre QA generation:
+### Pre-check generation:
 
-Pre-QA generation is performed to capture any changes in DPD that would
-impact previously generated concepts. It is usually conducted 4-5 days
-before QA generation. Pre-QA generations are currently only provided in
-English
+Pre-check generation is performed to capture any changes in DPD that
+would impact previously generated concepts. It is usually conducted 4-5
+days before QA generation. Pre-check generations are currently only
+provided in English
 
-#### Steps to run Pre-QA generation:
+#### Steps to run Pre-check generation:
 
 1.  Upload DPD extract files from Y Drive to RStudio Server, save under
     folder dpd\_{date of dpd extract}
 
-use WinSCP to upload files: (To use winSCP, a ssh key need to be issued
-to the user)
+Use a secure file transfer client such as WinSCP to upload files:
 
-  - Log in to Rstudio server using SSH key
+  - Log in to RStudio server using SSH key
 
   - Navigate to the corresponding source and destination directory
 
   - Drag DPD extract file folder from source directory to directory on
     RStudio server
 
-<!-- end list -->
+(Alternatively, use RStudio’s Upload button in the Files panel.)
 
 2.  `git checkout sql-views` switch to sql-views branch in formulary
     repository
 
 3.  update ccdd\_date in
     [ccdd-config.csv](https://github.com/hres/formulary/blob/sql-views/src/sql/test/ccdd-config.csv)
-    file. ccdd\_date is the date on which generation would be performed.
+    file. ccdd\_date is the date on which the coming QA generation will
+    be performed.
 
 4.  update DPD extract file path in \[dpdloader\]
     (<https://github.com/hres/formulary/tree/sql-views/src/sql/dpdloader>)
@@ -89,21 +90,17 @@ to the user)
 6.  update hard-coded dates in
     [setup.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/setup.sh)
 
-update line 4
+update lines 3-5
 
     ccdd_qa_release_date="20xxxxxx"
 
 to match the latest entry in
 <https://github.com/hres/formulary/tree/folder_reorg/QAfiles>.
 
-update line 39
-
     db_previous_month='ccdd_20xx_xx_xx_xxxxxx'
 
 to match the appropriate database (which can be found at
 <https://shiny.hres.ca/adminer/> only within the VPN).
-
-update line 5
 
     ccdd_current_release_date="20xxxxxx"
 
@@ -122,11 +119,14 @@ to match the date of `db_previous_month`.
 
 9.  `git checkout folder_reorg` Switch to `folder_reorg` branch.
 
-10. Create new folder with date as folder name in `~/Pre-check` and
-    subfolder (This step can be done with user interface or at command
-    line)
+10. Move files from the directory in which they’re generated to the
+    expected location within the repository (see command line
+    instructions below). Either the command line or the RStudio user
+    interface can be used.
 
-*In Command line*
+*At the command line*
+
+(alter the path to the formulary repository if necessary)
 
     mkdir ~/formulary/Pre-check/{date of generation}
     mkdir ~/formulary/Pre-check/{date of generation}/{date of generation}_from_{previous release date}
@@ -137,9 +137,9 @@ to match the date of `db_previous_month`.
     cp  ~/formulary/src/dist/{date of generation}/coded_attribute*  ~/formulary/Pre-check/{date of generation}
     cp  ~/formulary/src/dist/{date of generation}/device-ntp*  ~/formulary/Pre-check/{date of generation}
     cp  ~/formulary/src/dist/{date of generation}/special_groupings_release*  ~/formulary/Pre-check/{date of generation}
-    cp  ~/formulary/src/dist/{date of generation}/*[[:digit:]]_release_changes_*  ~/formulary/Pre-check/{date of generation}/{date of generation}_from_{previous generation date}
+    cp  ~/formulary/src/dist/{date of generation}/{date of generation}_from_{previous generation date}/* ~/formulary/Pre-check/{date of generation}/{date of generation}_from_{previous generation date}
 
-*In user interface*
+*In the user interface*
 
   - On the right corner of RStudio Panel, navigate to
     `Home/formulary/Pre-check` folder
@@ -160,14 +160,14 @@ to match the date of `db_previous_month`.
 
 <!-- end list -->
 
-10. Commit and push the files to remote Github repository
+11. Commit and push the files to remote Github repository
 
 <!-- end list -->
 
     git commit -m "Precheck files for CCDD"
     git push origin folder_reorg 
 
-11. Check folder
+12. Check folder
     [Pre-check](https://github.com/hres/formulary/tree/folder_reorg/Pre-check)
     and email QA group
 
@@ -220,13 +220,13 @@ folder dpd\_{date of dpd extract} (See step 1 in pre-check)
     dpd\_extract\_date is the date on which DPD online extract is
     updated each month.
 
-4.  **update line 1,2 in
+4.  **update line 10 and 11 in
     [setup.sh](https://github.com/hres/formulary/blob/sql-views-french/src/sql/setup.sh)
     file.** Input *ccdd\_qa\_release\_date* and
     *ccdd\_current\_release\_date*, these are the dates from previous
     cycle of generation.
 
-5.  **Update line 57 in setup.sh** with the name of database (from
+5.  **Update line 12 in setup.sh** with the name of database (from
     PostgreSQL) for previous month release candidate generation (This
     will set up the correct reference data for comparisons)
 
@@ -251,30 +251,30 @@ local folder:`formulary/src/sql/dpdloader`
 
 9.  `git checkout folder_reorg` Switch to `folder_reorg` branch.
 
-10. Create new folder with date as folder name in `~/QAfiles` and
-    subfolder (This step can be done with user interface or at command
-    line)
+10. Move files from the directory in which they’re generated to the
+    expected location within the repository (see command line
+    instructions below). Either the command line or the RStudio user
+    interface can be used.
 
 <!-- end list -->
 
-  - In Command line:
+  - At the command line:
 
 <!-- end list -->
 
     mkdir ~/formulary/QAfiles/{date of generation}
-    mkdir ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
+    mkdir ~/formulary/QAfiles/{date of generation}/{date of generation}_from_{previous QA date}
     mkdir ~/formulary/QAfiles/{date of generation}/DPD_diff
     
     cp  ~/formulary/src/dist/{date of generation}/*qa_release_[[:digit:]]*  ~/formulary/QAfiles/{date of generation}
     cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_qa_release_fr_*  ~/formulary/QAfiles/{date of generation}
     cp  ~/formulary/src/dist/{date of generation}/special_groupings_qa_release*  ~/formulary/QAfiles/{date of generation}
     
-    cp  ~/formulary/src/dist/{date of generation}/*qa_release_changes_*  ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
-    cp  ~/formulary/src/dist/{date of generation}/*duplicates_name*  ~/formulary/QAfiles/{date of generation}/{date of generation_from_{previous QA date}}
+    cp  ~/formulary/src/dist/{date of generation}/{date of generation}_from_{previous QA date}/*  ~/formulary/QAfiles/{date of generation}/{date of generation}_from_{previous QA date}
     cp ~/formulary/src/dist/{date of generation}/*post_qa_relationship*  ~/formulary/QAfiles/{date of generation}
     cp  ~/formulary/src/dist/{date of generation}/coded_attribute*  ~/formulary/QAfiles/{date of generation}
     cp  ~/formulary/src/dist/{date of generation}/device-ntp*  ~/formulary/QAfiles/{date of generation}
-    cp ~/formulary/src/dist/{date of generation}/*dpd*_changes.csv ~/formulary/QAfiles/{date of generation}/DPD_diff
+    cp ~/formulary/src/dist/{date of generation}/DPD_diff/* ~/formulary/QAfiles/{date of generation}/DPD_diff
 
 11. Commit and push the files to remote Github repository
 
@@ -287,18 +287,17 @@ local folder:`formulary/src/sql/dpdloader`
     [QAfiles](https://github.com/hres/formulary/tree/folder_reorg/QAfiles)
     and email QA group
 
-### Generation
+### Release generation
 
-Before running generation, changes from the QA team are incoporated in
-the following manners:
+Before running release generation, changes from the QA team are
+incorporated in the following manners:
 
   - Assign new tm code to some of the TM concepts in the
     TM\_filter\_master.csv
 
   - Add previously published MPs (products being made dormant or
-    cancelled post market),to whitelist (ccdd-mp-whitelist-draft.csv),
-    so those products will be returned to the CCDD generation as
-    ‘Inactive’
+    canceled post market),to whitelist (ccdd-mp-whitelist-draft.csv), so
+    those products will be returned to the CCDD generation as ‘Inactive’
 
   - Assign MP products which have the same MP formal name with
     descriptors (ccdd-mp-brand-override-draft.csv)
@@ -321,9 +320,10 @@ the following manners:
 
 #### Steps to run generation:
 
-1.  run script
-    [write-new-concepts.sh](https://github.com/hres/formulary/blob/sql-views/src/sql/write-new-concepts.sh)
-    to assign codes to new ntp, tm and pseudodin.
+1.  Update line 25 of
+    [write-new-concepts.sh](https://github.com/hres/formulary/blob/sql-views-french/src/sql/write-new-concepts.sh)
+    to point to the QA generation database and run the script to assign
+    codes to new ntp, tm and pseudodin.
 
 <!-- end list -->
 
@@ -350,8 +350,7 @@ the following manners:
 
 6.  `git push origin sql-views-french`
 
-7.  Generate release
-    files
+7.  Generate release files
 
 <!-- end list -->
 
@@ -361,14 +360,19 @@ the following manners:
 
 7.  `git checkout folder_reorg` Switch to `folder_reorg` branch.
 
-8.  Create new folder with date as folder name in `~/formulary/releases`
-    and subfolder (This step can be done with user interface or at
-    command line)
+8.  Move files from the directory in which they’re generated to the
+    expected location within the repository (see command line
+    instructions below). Either the command line or the RStudio user
+    interface can be used.
 
-**Command Line:**
+<!-- end list -->
+
+  - At the Command Line:
+
+<!-- end list -->
 
     mkdir ~/formulary/releases/{date of generation}
-    mkdir ~/formulary/releases/{date of generation}/{date of generation_from_{previous release date}}
+    mkdir ~/formulary/releases/{date of generation}/{date of generation}_from_{previous release date}
     
     cp  ~/formulary/src/dist/{date of generation}/*full_release_[[:digit:]]*  ~/formulary/releases/{date of generation}
     cp  ~/formulary/src/dist/{date of generation}/mp_ntp_tm_relationship_fr_*  ~/formulary/releases/{date of generation}
@@ -378,7 +382,7 @@ the following manners:
     cp  ~/formulary/src/dist/{date of generation}/special_groupings_release*  ~/formulary/releases/{date of generation}
     
     
-    cp  ~/formulary/src/dist/{date of generation}/*[[:digit:]]_release_changes_*  ~/formulary/releases/{date of generation}/{date of generation_from_{previous QA date}}
+    cp  ~/formulary/src/dist/{date of generation}//{date of generation}_from_{previous release date}/*  ~/formulary/releases/{date of generation}/{date of generation}_from_{previous release date}
 
 9.  Commit and push the files to remote Github repository
 
@@ -396,22 +400,20 @@ All releases are saved in the folder
 with the filename including date of generation.
 
 11. OSIP CCDD team confirms that the final set of tables are correct and
-    inform InfoWay of the publications
+    inform Infoway of the publications
 
 ### Troubleshooting:
 
 This section aims to resolve some of the common errors encountered
-during
-generations.
+during generations.
 
 #### 1\. ERROR: duplicate key value violates unique constraint “ccdd\_ingredient\_stem\_pk”DETAIL: Key already exists.
 
 This error is caused by duplication in french translation of english
 concepts. This is usually from inconsistency between
 `ccdd-tm-definitions-draft.csv` and `Ingredient_Stem_file_master.csv`.
-To resolve the error, double check if the Key concept is spelt
-differently between these two files and correct them
-correspondently.
+To resolve the error, double check if the Key concept is spelled
+differently between these two files and correct them correspondingly.
 
 #### 2.ERROR: duplicate key value violates unique constraint “ccdd\_dosage\_form\_pk”DETAIL: Key already exists.
 
