@@ -1,0 +1,11 @@
+tm_code,tm_formal_name,changes
+"8000916","acetylsalicylic acid and dipyridamole","tm_status_effective_time: ""20000417"" -> ""20181127"""
+"8002308","mineral oil heavy and urea","DELETED"
+"8001352","chloroquine","DELETED"
+"8001659","glycopyrrolate","DELETED"
+"8001939","sodium fluoride and triclosan","tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19931231"" -> ""20190801"""
+"8001459","ertugliflozin","DELETED"
+"8000097","indapamide","tm_status_effective_time: ""19821231"" -> ""19951231"""
+"8001539","trifluridine","tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20190801"" -> ""19871231"""
