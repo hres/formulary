@@ -13,7 +13,7 @@ LOAD CSV
       Entry.type,
       Change.Plan
     )
-  INTO postgresql:///?ccdd.combination_products_csv
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.combination_products_csv
     (
       drug_code,
       drug_identification_number,
@@ -47,7 +47,7 @@ LOAD CSV
       ing_stem_fr,
       ntp_ing_fr
     )
-  INTO postgresql:///?ccdd.ingredient_stem_csv
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.ingredient_stem_csv
     (
       ccdd,
       top250name,
@@ -80,7 +80,7 @@ LOAD CSV
       Product_and_Company_Name,
       unit_of_presentation_fr
     )
-  INTO postgresql:///?ccdd.unit_of_presentation_csv
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.unit_of_presentation_csv
     (
       drug_code,
       unit_of_presentation,
@@ -112,7 +112,7 @@ LOAD CSV
       pharmaceutical_form_f,
       ntp_dosage_form_fr
     )
-  INTO postgresql:///?ccdd.ntp_dosage_forms
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.ntp_dosage_forms
     (
       ntp_dosage_form_code,
       ntp_dosage_form,
@@ -138,7 +138,7 @@ LOAD CSV
       drug_code,
       brand
     )
-  INTO postgresql:///?ccdd.mp_brand_override
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.mp_brand_override
     (
       drug_code,
       brand
@@ -159,7 +159,7 @@ LOAD CSV
       formal_name,
       formal_name_fr
     )
-  INTO postgresql:///?ccdd.tm_definition
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.tm_definition
     (
       code,
       formal_name,
@@ -180,7 +180,7 @@ LOAD CSV
       formal_name,
       formal_name_fr
     )
-  INTO postgresql:///?ccdd.ntp_definition
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.ntp_definition
     (
       code,
       formal_name,
@@ -204,7 +204,7 @@ LOAD CSV
       uop_size_unit,
       unit_of_presentation_fr
     )
-  INTO postgresql:///?ccdd.pseudodin_map
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.pseudodin_map
     (
       pseudodin,
       drug_code,
@@ -226,7 +226,7 @@ LOAD CSV
     (
       drug_code
     )
-  INTO postgresql:///?ccdd.mp_whitelist
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.mp_whitelist
     (
       drug_code
     )
@@ -244,7 +244,7 @@ LOAD CSV
     (
       drug_code
     )
-  INTO postgresql:///?ccdd.mp_blacklist
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.mp_blacklist
     (
       drug_code
     )
@@ -262,7 +262,7 @@ LOAD CSV
       code,
       status_effective_date
     )
-  INTO postgresql:///?ccdd.ntp_deprecations
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.ntp_deprecations
     (
       code,
       status_effective_date
@@ -281,7 +281,7 @@ LOAD CSV
       code,
       status_effective_time
     )
-  INTO postgresql:///?ccdd.tm_deprecations
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.tm_deprecations
     (
       code,
       status_effective_time
@@ -299,7 +299,7 @@ LOAD CSV
     (
       mp_code
     )
-  INTO postgresql:///?ccdd.mp_deprecations
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.mp_deprecations
     (
       mp_code
     )
@@ -316,7 +316,7 @@ LOAD CSV
     (
       tm_code
     )
-  INTO postgresql:///?ccdd.tm_filter
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.tm_filter
     (
       tm_code
     )
@@ -335,7 +335,7 @@ LOAD CSV
       policy_type,
       policy_reference
     )
-  INTO postgresql:///?ccdd.tm_groupings
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.tm_groupings
     (
       tm_code,
       policy_type,
