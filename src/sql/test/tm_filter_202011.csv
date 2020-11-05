@@ -1,4 +1,4 @@
-tm_code,tm_formal_name
+﻿tm_code,tm_formal_name
 8001541,trimeprazine
 8001758,dyclonine and menthol
 8001649,ethopropazine
@@ -301,7 +301,7 @@ tm_code,tm_formal_name
 8002234,abobotulinumtoxinA
 8001773,fidaxomicin
 8002225,amphetamine mixed salts
-8002300,bacillus Calmette-Gu�rin substrain TICE
+8002300,bacillus Calmette-Guérin substrain TICE
 8001784,galsulfase
 8001520,rotigotine
 8001792,goserelin
@@ -1507,5 +1507,5 @@ tm_code,tm_formal_name
 8001659,glycopyrrolate
 8002169,anti-inhibitor coagulant complex
 8002343,caplacizumab
-92a8482b33252d25adc50732281c7f07,eszopiclone
+8002347,eszopiclone
 8002346,satralizumab
