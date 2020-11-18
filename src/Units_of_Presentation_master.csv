@@ -1,4 +1,7 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"98455","vial","10","mL","Y","N","02494558","ACYCLOVIR SODIUM INJECTION AURO PHARMA INC","fiole"
+"98455","vial","20","mL","Y","N","02494558","ACYCLOVIR SODIUM INJECTION AURO PHARMA INC","fiole"
+"98782","bag","100","mL","Y","N","02498022","MIDAZOLAM INJECTION USP STERINOVA INC.","sac"
 "99139","vial","10","mL","Y","N","02501783","SUCCINYLCHOLINE CHLORIDE INJECTION, USP DR REDDY'S LABORATORIES LTD","fiole"
 "98602","ampoule","2","mL","N","N","02496143","FENTANYL INJECTION BP STERIMAX INC","ampoule"
 "94558","syringe","0.5","mL","N","N","02458454","EMERADE BAUSCH HEALTH, CANADA INC.","seringue"
