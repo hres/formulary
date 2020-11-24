@@ -3,8 +3,8 @@
 -- Run after dpdload.pgload and before dpdload_ap.pgload
 
 LOAD ARCHIVE
-   FROM /home/cyanofsky/dpd/dpd_20201026/allfiles_ia.zip
-  INTO postgresql:///
+   FROM /home/cyanofsky/dpd/dpd_20201124/allfiles_ia.zip
+  INTO postgresql://cyanofsky@rest.hc.local/
 
 
   BEFORE LOAD DO
@@ -45,7 +45,7 @@ LOAD ARCHIVE
         province_f,
         country_f
       )
-    INTO postgresql:///?dpd.companies
+    INTO postgresql://cyanofsky@rest.hc.local/?dpd.companies
       (
         DRUG_CODE,
         MFR_CODE,
@@ -90,7 +90,7 @@ LOAD ARCHIVE
         brand_name_f,
         descriptor_f
       )
-    INTO postgresql:///?dpd.drug_product
+    INTO postgresql://cyanofsky@rest.hc.local/?dpd.drug_product
       (
         DRUG_CODE,
         PRODUCT_CATEGORIZATION,
@@ -121,7 +121,7 @@ AND LOAD CSV
         PHARMACEUTICAL_FORM,
         pharmaceutical_form_f
       )
-    INTO postgresql:///?dpd.pharmaceutical_form
+    INTO postgresql://cyanofsky@rest.hc.local/?dpd.pharmaceutical_form
       (
         DRUG_CODE,
         PHARM_FORM_CODE,
@@ -154,7 +154,7 @@ AND LOAD CSV
         strength_type_f,
         dosage_unit_f
       )
-    INTO postgresql:///?dpd.active_ingredient
+    INTO postgresql://cyanofsky@rest.hc.local/?dpd.active_ingredient
       (
         DRUG_CODE,
         ACTIVE_INGREDIENT_CODE,
@@ -190,7 +190,7 @@ AND LOAD CSV
         package_size_unit_f,
         package_type_f
       )
-    INTO postgresql:///?dpd.packaging
+    INTO postgresql://cyanofsky@rest.hc.local/?dpd.packaging
       (
         DRUG_CODE,
         UPC,
@@ -213,7 +213,7 @@ AND LOAD CSV
         DRUG_CODE,
         PHARMACEUTICAL_STD
       )
-    INTO postgresql:///?dpd.pharmaceutical_std
+    INTO postgresql://cyanofsky@rest.hc.local/?dpd.pharmaceutical_std
       (
         DRUG_CODE,
         PHARMACEUTICAL_STD
@@ -232,7 +232,7 @@ AND LOAD CSV
         ROUTE_OF_ADMINISTRATION,
         route_of_administration_f
       )
-    INTO postgresql:///?dpd.route
+    INTO postgresql://cyanofsky@rest.hc.local/?dpd.route
       (
         DRUG_CODE,
         ROUTE_OF_ADMINISTRATION_CODE,
@@ -252,7 +252,7 @@ AND LOAD CSV
         SCHEDULE,
         schedule_f
       )
-    INTO postgresql:///?dpd.schedule
+    INTO postgresql://cyanofsky@rest.hc.local/?dpd.schedule
       (
         DRUG_CODE,
         SCHEDULE,
@@ -275,7 +275,7 @@ AND LOAD CSV
         lot_number,
         expiration_date [null if blanks]
       )
-    INTO postgresql:///?dpd.status
+    INTO postgresql://cyanofsky@rest.hc.local/?dpd.status
       (
         DRUG_CODE,
         CURRENT_STATUS_FLAG,
@@ -302,7 +302,7 @@ AND LOAD CSV
         tc_atc_f,
         tc_ahfs_f
       )
-    INTO postgresql:///?dpd.therapeutic_class
+    INTO postgresql://cyanofsky@rest.hc.local/?dpd.therapeutic_class
       (
         DRUG_CODE,
         TC_ATC_NUMBER,
@@ -326,7 +326,7 @@ AND LOAD CSV
         VET_SUB_SPECIES,
         vet_species_f
       )
-    INTO postgresql:///?dpd.vet_species
+    INTO postgresql://cyanofsky@rest.hc.local/?dpd.vet_species
       (
         DRUG_CODE,
         VET_SPECIES,

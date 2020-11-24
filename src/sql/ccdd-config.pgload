@@ -5,7 +5,7 @@ LOAD CSV
       ccdd_date,
       dpd_extract_date
     )
-  INTO postgresql:///?public.ccdd_config
+  INTO postgresql://cyanofsky@rest.hc.local/?public.ccdd_config
     (
       ccdd_date,
       dpd_extract_date
