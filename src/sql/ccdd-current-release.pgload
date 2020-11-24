@@ -172,6 +172,7 @@ LOAD CSV
     (
       tm_code,
       tm_formal_name,
+      tm_fr_description,
       tm_status,
       tm_status_effective_time
     )
@@ -179,7 +180,6 @@ LOAD CSV
     (
       tm_code,
       tm_formal_name,
-      tm_fr_description,
       tm_status,
       tm_status_effective_time
     )
