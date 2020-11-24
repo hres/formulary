@@ -6,12 +6,7 @@ LOAD CSV
       drug_identification_number,
       mp_formal_name,
       ntp_formal_name,
-      ntp_type,
-      ntp_code,
-      mp_formal_name_fr,
-      ntp_formal_name_fr,
-      Entry.type,
-      Change.Plan
+      ntp_type
     )
   INTO postgresql://cyanofsky@rest.hc.local/?ccdd.combination_products_csv
     (
@@ -19,9 +14,7 @@ LOAD CSV
       drug_identification_number,
       mp_formal_name,
       ntp_formal_name,
-      ntp_type,
-      mp_formal_name_fr,
-      ntp_formal_name_fr
+      ntp_type
     )
   WITH
     skip header = 1,
@@ -40,12 +33,7 @@ LOAD CSV
       dpd_ingredient,
       ing_stem,
       hydrate,
-      ntp_ing,
-      CCDD.Status,
-      Comments,
-      DPD_Ingredient_FR,
-      ing_stem_fr,
-      ntp_ing_fr
+      ntp_ing
     )
   INTO postgresql://cyanofsky@rest.hc.local/?ccdd.ingredient_stem_csv
     (
@@ -54,9 +42,7 @@ LOAD CSV
       dpd_ingredient,
       ing_stem,
       hydrate,
-      ntp_ing,
-      ing_stem_fr,
-      ntp_ing_fr
+      ntp_ing
     )
   WITH
     skip header = 1,
@@ -75,10 +61,7 @@ LOAD CSV
       uop_size,
       uop_unit_of_measure,
       calculation,
-      uop_size_insert,
-      DIN,
-      Product_and_Company_Name,
-      unit_of_presentation_fr
+      uop_size_insert
     )
   INTO postgresql://cyanofsky@rest.hc.local/?ccdd.unit_of_presentation_csv
     (
@@ -87,8 +70,7 @@ LOAD CSV
       uop_size,
       uop_unit_of_measure,
       calculation,
-      uop_size_insert,
-      unit_of_presentation_fr
+      uop_size_insert
     )
   WITH
     skip header = 1,
@@ -110,7 +92,11 @@ LOAD CSV
       pharm_form_code,
       pharmaceutical_form,
       pharmaceutical_form_f,
-      ntp_dosage_form_fr
+      audit_id,
+      validated,
+      date_validated,
+      validated_by,
+      ntp_dosage_form_id
     )
   INTO postgresql://cyanofsky@rest.hc.local/?ccdd.ntp_dosage_forms
     (
@@ -121,8 +107,7 @@ LOAD CSV
       route_of_administration_f,
       pharm_form_code,
       pharmaceutical_form,
-      pharmaceutical_form_f,
-      ntp_dosage_form_fr
+      pharmaceutical_form_f
     )
   WITH
     skip header = 1,
@@ -156,14 +141,12 @@ LOAD CSV
     WITH ENCODING UTF-8
     (
       code,
-      formal_name,
-      formal_name_fr
+      formal_name
     )
   INTO postgresql://cyanofsky@rest.hc.local/?ccdd.tm_definition
     (
       code,
-      formal_name,
-      formal_name_fr
+      formal_name
     )
   WITH
     skip header = 1,
@@ -177,14 +160,12 @@ LOAD CSV
     WITH ENCODING UTF-8
     (
       code,
-      formal_name,
-      formal_name_fr
+      formal_name
     )
   INTO postgresql://cyanofsky@rest.hc.local/?ccdd.ntp_definition
     (
       code,
-      formal_name,
-      formal_name_fr
+      formal_name
     )
   WITH
     skip header = 1,
@@ -201,8 +182,7 @@ LOAD CSV
       drug_code,
       unit_of_presentation,
       uop_size_amount,
-      uop_size_unit,
-      unit_of_presentation_fr
+      uop_size_unit
     )
   INTO postgresql://cyanofsky@rest.hc.local/?ccdd.pseudodin_map
     (
@@ -210,8 +190,7 @@ LOAD CSV
       drug_code,
       unit_of_presentation,
       uop_size_amount,
-      uop_size_unit,
-      unit_of_presentation_fr
+      uop_size_unit
     )
   WITH
     skip header = 1,
@@ -239,7 +218,6 @@ LOAD CSV
 
 LOAD CSV
      FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ccdd-mp-blacklist-draft.csv
-  -- FROM ./test/ccdd-mp-blacklist-draft.csv
     WITH ENCODING UTF-8
     (
       drug_code
