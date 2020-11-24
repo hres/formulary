@@ -1,0 +1,8 @@
+tm_code,tm_formal_name,changes
+"8001182","daclatasvir","tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20150908"" -> ""20190801"""
+"8001460","ertugliflozin and metformin","tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20180706"" -> ""20200810"""
+"8001659","glycopyrrolate","DELETED"
+"8001795","hexylresorcinol","tm_status_effective_time: ""20011001"" -> ""19911231"""
+"8001365","cyproheptadine","tm_status_effective_time: ""19961016"" -> ""20030527"""
