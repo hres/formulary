@@ -44,7 +44,8 @@ FROM dpd.status as drug_new LEFT JOIN dpd_old.status as drug_old ON
 WHERE (
   drug_new.status <> drug_old.status OR
   ((drug_new.history_date <> drug_old.history_date) AND (drug_new.status <> 'MARKETED'))) AND
-  ((drug_new.drug_code IN (SELECT drug_code from dpd_changes.drugs)) OR (drug_new.status = 'MARKETED' AND drug_old.status='APPROVED')) AND
+  ((drug_new.drug_code IN (SELECT drug_code from dpd_changes.drugs)) OR 
+  (drug_new.status = 'MARKETED' AND (drug_old.status='APPROVED' OR drug_old.status='AUTHORIZED BY INTERIM ORDER'))) AND
   drug_new.drug_code NOT IN (
     SELECT drug_new.drug_code FROM dpd.status as drug_new
     LEFT JOIN dpd_old.status as drug_old ON drug_new.drug_code=drug_old.drug_code AND drug_new.current_status_flag = 'Y' AND drug_old.current_status_flag = 'Y'
