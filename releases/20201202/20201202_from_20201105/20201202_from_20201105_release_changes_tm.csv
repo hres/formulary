@@ -1,0 +1,11 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+"8001182","daclatasvir","daclatasvir","tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20150908"" -> ""20191203"""
+"8001460","ertugliflozin and metformin","ertugliflozine et metformine","tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20180706"" -> ""20201104"""
+"8002348","cedazuridine and decitabine","cédazuridine et décitamine","ADDED"
+"8002349","glycopyrronium and indacaterol and mometasone","glycopyrronium et indacatérol et mométasone","ADDED"
+"8002351","tenapanor","ténapanor","ADDED"
+"8001795","hexylresorcinol","hexylrésorcinol","tm_status_effective_time: ""20011001"" -> ""19911231"""
+"8002350","remdesivir","remdésivir","ADDED"
+"8001659","glycopyrrolate","glycopyrrolate","DELETED"
