@@ -1,0 +1,11 @@
+ntp_code,ntp_formal_name,changes
+"25dd545bf5f5320aa202ca90625e6ad6","rocuronium bromide 10 mg per mL solution for injection","ADDED"
+"35231e6e568325c5e253dd8042c43d9e","vedolizumab 108 mg per 0.68 mL solution for injection","ADDED"
+"9000024","prednisone 5 mg oral tablet","ntp_status_effective_time: ""19591231"" -> ""19671231"""
+"9000104","baclofen 10 mg oral tablet","ntp_status_effective_time: ""19781231"" -> ""19941231"""
+"9003886","vardenafil (vardenafil hydrochloride) 5 mg oral tablet","ntp_status_effective_time: ""20040317"" -> ""20181101"""
+"9004604","aliskiren (aliskiren fumarate) 300 mg and hydrochlorothiazide 25 mg oral tablet","DELETED"
+"9009398","ethinyl estradiol 35 mcg and norgestimate 180 mcg oral tablet with ethinyl estradiol 35 mcg and norgestimate 215 mcg oral tablet with ethinyl estradiol 35 mcg and norgestimate 250 mcg oral tablet","ntp_status_effective_time: ""19931231"" -> ""20200708"""
+"9009399","ethinyl estradiol 35 mcg and norgestimate 180 mcg oral tablet with ethinyl estradiol 35 mcg and norgestimate 215 mcg oral tablet with ethinyl estradiol 35 mcg and norgestimate 250 mcg oral tablet with lactose oral tablet","ntp_status_effective_time: ""19931231"" -> ""20200318"""
+"9009400","ethinyl estradiol 35 mcg and norgestimate 250 mcg oral tablet","DELETED"
+"a20554a69d75cb960f77366cfbf8a8ab","aflibercept 40 mg per mL solution for injection","ADDED"
