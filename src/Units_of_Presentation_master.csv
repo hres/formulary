@@ -1,4 +1,8 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"98766","syringe","0.68","mL","N","N","02497875","ENTYVIO TAKEDA CANADA INC","seringue"
+"99471","syringe","0.05","mL","Y","N","02505355","EYLEA BAYER INC","seringue"
+"98856","vial","5","mL","Y","N","02498820","ROCURONIUM BROMIDE INJECTION AURO PHARMA INC","fiole"
+"98856","vial","10","mL","Y","N","02498820","ROCURONIUM BROMIDE INJECTION AURO PHARMA INC","fiole"
 "98169","vial","1","mL","Y","N","02491680","HYDROMORPHONE HYDROCHLORIDE INJECTION, USP FRESENIUS KABI CANADA LTD","fiole"
 "98169","vial","5","mL","Y","N","02491680","HYDROMORPHONE HYDROCHLORIDE INJECTION, USP FRESENIUS KABI CANADA LTD","fiole"
 "98169","vial","50","mL","N","Y","02491680","HYDROMORPHONE HYDROCHLORIDE INJECTION, USP FRESENIUS KABI CANADA LTD","fiole"
