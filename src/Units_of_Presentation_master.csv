@@ -1,4 +1,5 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"99754","vial","20","mL","N","N","02508176","BAMLANIVIMAB ELI LILLY CANADA INC","fiole"
 "99927","vial","5","mL","N","Y","02510014","MODERNA COVID-19 VACCINE MODERNA THERAPEUTICS INC","fiole"
 "99852","vial","1.5","mL","N","Y","02509210","PFIZER-BIONTECH COVID-19 VACCINE BIONTECH MANUFACTURING GMBH","fiole"
 "98766","syringe","0.68","mL","N","N","02497875","ENTYVIO TAKEDA CANADA INC","seringue"
