@@ -1,4 +1,5 @@
 mp_code,mp_fr_description,ntp_code,ntp_fr_description,tm_code,tm_fr_description
+"02508176","BAMLANIVIMAB (bamlanivimab 700 mg par 20 mL solution injectable fiole) ELI LILLY CANADA INC","dfd50572bc7d5d2c6eb6b3344a2125f7","bamlanivimab 700 mg par 20 mL solution injectable fiole","bfd489a294f0dd0cd202cba48f90f48d","bamlanivimab"
 "02509210","PFIZER-BIONTECH COVID-19 VACCINE (tozinaméran 30 mcg par 0,3 mL suspension injectable 1,5 mL fiole) BIONTECH MANUFACTURING GMBH","00ee7dc86cf16297fe1ba2426ace25c0","tozinaméran 30 mcg par 0,3 mL suspension injectable 1,5 mL fiole","0e851123e417ad882623d5e7ac68cc36","tozinaméran"
 "02497875","ENTYVIO (védolizumab 108 mg par 0,68 mL solution injectable seringue) TAKEDA CANADA INC","e5cda7a8619ae1924b614cc85a0e6170","védolizumab 108 mg par 0,68 mL solution injectable seringue","8001985","védolizumab"
 "02505355","EYLEA (aflibercept 2 mg par 0,05 mL solution injectable seringue) BAYER INC","c9a406d0ba712fcf7f04019e7d87cc1a","aflibercept 2 mg par 0,05 mL solution injectable seringue","8001552","aflibercept"
@@ -6988,7 +6989,6 @@ mp_code,mp_fr_description,ntp_code,ntp_fr_description,tm_code,tm_fr_description
 "02327163","SANDOZ FENTANYL PATCH (fentanyl 100 mcg par heure timbre transdermique) SANDOZ CANADA INCORPORATED","9001161","fentanyl 100 mcg par heure timbre transdermique","8000127","fentanyl"
 "01909169","MOISTUREL SENSITIVE SKIN LOTION (diméthicone 3 % et pétrolatum 6 % lotion) GLAXOSMITHKLINE CONSUMER HEALTHCARE ULC","9002353","diméthicone 3 % et pétrolatum 6 % lotion","8001750","diméthicone et pétrolatum"
 "02431939","RIXUBIS (nonacog gamma 500 unité par fiole poudre pour solution injectable avec solution diluante) SHIRE PHARMA CANADA ULC","9013589","nonacog gamma 500 unité par fiole poudre pour solution injectable avec solution diluante","8002149","nonacog gamma"
-"02508176","BAMLANIVIMAB (bamlanivimab 700 mg par 20 mL solution injectable) ELI LILLY CANADA INC","e7268db0f894d5c50892d6295aa9e113","bamlanivimab 700 mg par 20 mL solution injectable","bfd489a294f0dd0cd202cba48f90f48d","bamlanivimab"
 "02228955","SUPREFACT DEPOT 2 MONTHS (buséréline (acétate de buséréline) 6,3 mg implant) CHEPLAPHARM ARZNEIMITTEL GMBH","9013417","buséréline (acétate de buséréline) 6,3 mg implant","8001602","buséréline"
 "02243087","ZYPREXA ZYDIS (olanzapine 10 mg comprimé orodispersible) ELI LILLY CANADA INC","9000935","olanzapine 10 mg comprimé orodispersible","8000226","olanzapine"
 "02459884","CCP-LETROZOLE (létrozole 2,5 mg comprimé oral) CELLCHEM PHARMACEUTICALS INC.","9003147","létrozole 2,5 mg comprimé oral","8001102","létrozole"
