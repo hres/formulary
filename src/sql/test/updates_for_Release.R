@@ -95,14 +95,14 @@ write.csv(whitelist,'~/git/formulary/src/sql/test/ccdd-mp-whitelist-draft.csv',r
 #update TM_filter_master.csv
 
 #load tm filter from QA file, change filepath if necessary
-tm_filter<-read.csv(file.path('~/git/formulary/src/sql/test/',tm_filter_file_name),stringsAsFactors = F)
+tm_filter<-read.csv(tm_filter_file_name,stringsAsFactors = F)
 
 #load tm_definition after running write-new-concepts.sh
 tm_definition<-read.csv('~/git/formulary/src/sql/test/ccdd-tm-definitions-draft.csv', stringsAsFactors = F)
 tm_filter_master<-tm_definition%>%filter(formal_name%in% tm_filter$tm_formal_name)%>%
                                   select(code,formal_name)
 
-#save the TM_filter_master.csv and move to folder-reorg branch:
+#save the TM_filter_master.csv and move to folder_reorg branch:
 if(nrow(tm_filter)==nrow(tm_filter_master)){
 write.csv(tm_filter_master,'~/git/formulary/src/sql/test/TM_filter_master.csv',row.names = F)
 }else{
