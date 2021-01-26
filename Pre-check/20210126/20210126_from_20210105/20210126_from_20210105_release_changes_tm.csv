@@ -1,0 +1,8 @@
+tm_code,tm_formal_name,changes
+"8000778","hydrocodone and phenyltoloxamine","tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19571231"" -> ""20170824"""
+"8001035","acetaminophen and guaifenesin and phenylephrine","tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20180727"" -> ""20060831"""
+"8001659","glycopyrrolate","DELETED"
+"8001755","docetaxel","tm_status_effective_time: ""19951231"" -> ""20110301"""
+"8001489","linezolid","tm_status_effective_time: ""20010406"" -> ""20010607"""
