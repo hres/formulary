@@ -1,3 +1,0 @@
-Placeholder for combo_kit overide table. 
-Entries in this tables overwrite matching drug_codes in mp_source before generation of NTP and TM concepts.  
-mp_code, ....
