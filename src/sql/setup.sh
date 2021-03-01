@@ -7,13 +7,13 @@
 # ARGS (optional)   : qa
 ###############################################################################
 
-ccdd_qa_release_date="20210104"
-ccdd_current_release_date="20210105"
-db_previous_month="ccdd_2021_01_05_142530"
+ccdd_qa_release_date="20210201"
+ccdd_current_release_date="20210201"
+db_previous_month="ccdd_2021_02_01_170236"
 ccdd_current_date=$(date +'%Y%m%d')
 baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 distDir="$baseDir/../dist/$ccdd_current_date"
-QA_changeDir="$distDir/${ccdd_current_date}_from_${ccdd_qa_release_date}"
+QA_changeDir="$distDir/QA_${ccdd_current_date}_from_${ccdd_qa_release_date}"
 release_changeDir="$distDir/${ccdd_current_date}_from_${ccdd_current_release_date}"
 
 
@@ -33,10 +33,11 @@ PGDATABASE=$PGUSER
 createdb "$PGDATABASE"
 
 # DPD extract load
-pgloader "$baseDir/dpdloader/dpdload.pgload"
+rm -rf /tmp/pgloader/* # make sure pgloader's assumptions about its temp directory are satisfied
+pgloader "$baseDir/dpdloader/dpdload.pgload" # has to be first because of a BEFORE LOAD EXECUTE
 pgloader "$baseDir/dpdloader/dpdload_ia.pgload"
 pgloader "$baseDir/dpdloader/dpdload_dr.pgload"
-pgloader "$baseDir/dpdloader/dpdload_ap.pgload"
+pgloader "$baseDir/dpdloader/dpdload_ap.pgload" # has to be last because of an AFTER LOAD EXECUTE
 
 
 # global config for CCDD generation process
@@ -74,13 +75,16 @@ pgloader "$baseDir/ccdd-current-release.pgload"
 # load the data from views into main schema
 psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-run-views.sql"
 
-
-# pgloader "$baseDir/dpdchanges/ingredient_stem_csv.pgload"
+# create output folders
+mkdir -p "$distDir"
+mkdir -p "$QA_changeDir"
+mkdir -p "$release_changeDir"
 
 # Check for QA flag in arguments
 if [ $# -gt 0 ] && [ $1 = "qa" ];
   then
     echo "QA FLAG PRESENT"
+    mkdir -p "$distDir/DPD_diff"
 
     # START dpd import from old database
     dpd_old_database=$db_previous_month;
@@ -99,14 +103,7 @@ else
     echo "WRONG/NO FLAG"
 fi
 
-
-# create output folder, then export CCDD concepts as CSV files to output
-mkdir -p "$distDir"
-mkdir -p "$QA_changeDir"
-mkdir -p "$release_changeDir"
-mkdir -p "$distDir/DPD_diff"
-
-
+# export CCDD concepts as CSV files to output
 # QA release and candidate CSVs
 psql -c "copy ((select mp_code, mp_formal_name, COALESCE(mp_en_description, 'NA') as mp_en_description,mp_fr_description, mp_status, mp_status_effective_time, mp_type, \"Health_Canada_identifier\", \"Health_Canada_product_name\" FROM ccdd_mp_table)
         UNION ALL
@@ -242,7 +239,7 @@ psql -d ccdd -c "ALTER DATABASE $PGUSER RENAME TO $NEW_DB_NAME;"
 export PGDATABASE=$NEW_DB_NAME
 
 echo
-echo Generated "$PGDATABASE" and output in "$distDir"
+echo Generated  "$PGDATABASE" and output in "$distDir"
 
 export PGSCHEMA=ccdd_$(date +'%Y_%m_%d')
 

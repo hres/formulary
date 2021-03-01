@@ -1,5 +1,6 @@
 LOAD CSV
     FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Combination%20Products_master.csv
+
     WITH ENCODING UTF-8
     (
       drug_code,
@@ -238,7 +239,8 @@ LOAD CSV
 ;
 
 LOAD CSV
-     FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ccdd-mp-blacklist-draft.csv
+    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ccdd-mp-blacklist-draft.csv
+
     WITH ENCODING UTF-8
     (
       drug_code
