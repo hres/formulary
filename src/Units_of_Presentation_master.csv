@@ -1,4 +1,7 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"100004","vial","5","mL","N","Y","02510847","ASTRAZENECA COVID-19 VACCINE ASTRAZENECA CANADA INC","fiole"
+"100064","vial","4","mL","N","Y","02511444","ASTRAZENECA COVID-19 VACCINE ASTRAZENECA CANADA INC","fiole"
+"100219","vial","5","mL","N","Y","02512947","COVISHIELD VERITY PHARMACEUTICALS INC.","fiole"
 "98620","bag","50","mL","Y","N","02496313","CEFAZOLIN INJECTION, USP BAXTER CORPORATION","sac"
 "98620","bag","100","mL","Y","N","02496313","CEFAZOLIN INJECTION, USP BAXTER CORPORATION","sac"
 "99197","syringe","0.8","mL","N","N","02502399","HULIO BGP PHARMA ULC","seringue"
