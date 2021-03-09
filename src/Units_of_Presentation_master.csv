@@ -1,4 +1,8 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"98214","pen","0.8","mL","N","N","02492156","HYRIMOZ SANDOZ CANADA INCORPORATED","stylo"
+"98215","syringe","0.8","mL","N","N","02492164","HYRIMOZ SANDOZ CANADA INCORPORATED","seringue"
+"99460","syringe","0.4","mL","N","N","02505258","HYRIMOZ SANDOZ CANADA INCORPORATED","seringue"
+"100239","vial","2.5","mL","N","Y","02513153","JANSSEN COVID-19 VACCINE JANSSEN INC","fiole"
 "100004","vial","5","mL","N","Y","02510847","ASTRAZENECA COVID-19 VACCINE ASTRAZENECA CANADA INC","fiole"
 "100064","vial","4","mL","N","Y","02511444","ASTRAZENECA COVID-19 VACCINE ASTRAZENECA CANADA INC","fiole"
 "100219","vial","5","mL","N","Y","02512947","COVISHIELD VERITY PHARMACEUTICALS INC.","fiole"
