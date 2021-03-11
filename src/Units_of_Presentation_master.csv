@@ -1,4 +1,6 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"99242","vial","6","mL","Y","N","02502895","ANTHIM ELUSYS THERAPEUTICS, INC.","fiole"
+"99902","vial","4","mL","N","N","02509733","INCRELEX IPSEN BIOPHARMACEUTICALS CANADA INC","fiole"
 "98214","pen","0.8","mL","N","N","02492156","HYRIMOZ SANDOZ CANADA INCORPORATED","stylo"
 "98215","syringe","0.8","mL","N","N","02492164","HYRIMOZ SANDOZ CANADA INCORPORATED","seringue"
 "99460","syringe","0.4","mL","N","N","02505258","HYRIMOZ SANDOZ CANADA INCORPORATED","seringue"
