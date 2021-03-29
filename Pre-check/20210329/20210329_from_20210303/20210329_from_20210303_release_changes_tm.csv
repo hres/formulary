@@ -1,0 +1,9 @@
+tm_code,tm_formal_name,changes
+"8001459","ertugliflozin","tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20201001"" -> ""20180528"""
+"8001659","glycopyrrolate","DELETED"
+"8001709","calcium carbonate and etidronate","DELETED"
+"8001461","ertugliflozin and sitagliptin","tm_status_effective_time: ""20200810"" -> ""20210203"""
+"8000120","ranitidine","tm_status_effective_time: ""19871231"" -> ""19881231"""
+"8001460","ertugliflozin and metformin","tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20201104"" -> ""20180706"""
