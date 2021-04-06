@@ -1,0 +1,12 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002368,mecasermin,mécasermine,ADDED
+8002367,ChAdOx1-S (recombinant),ChAdOx1-S (recombinant),ADDED
+8001461,ertugliflozin and sitagliptin,ertugliflozine et sitagliptine,"tm_status_effective_time: ""20200810"" -> ""20210203"""
+8001659,glycopyrrolate,glycopyrrolate,DELETED
+8001459,ertugliflozin,ertugliflozine,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20201001"" -> ""20180528"""
+8001460,ertugliflozin and metformin,ertugliflozine et metformine,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20201104"" -> ""20180706"""
+8002362,fostamatinib,fostamatinib,ADDED
+8001709,calcium carbonate and etidronate,carbonate de calcium et étidronate,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20080410"" -> ""20210305"""

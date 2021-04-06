@@ -1,0 +1,50 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9000894,ranitidine (ranitidine hydrochloride) 50 mg per 2 mL solution for injection vial,ranitidine (chlorhydrate de ranitidine) 50 mg par 2 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20000501"" -> ""20210301"""
+9004601,aliskiren (aliskiren fumarate) 150 mg and hydrochlorothiazide 12.5 mg oral tablet,"aliskirène (fumarate d'aliskirène) 150 mg et hydrochlorothiazide 12,5 mg comprimé oral","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20091124"" -> ""20200211"""
+9004603,aliskiren (aliskiren fumarate) 300 mg and hydrochlorothiazide 12.5 mg oral tablet,"aliskirène (fumarate d'aliskirène) 300 mg et hydrochlorothiazide 12,5 mg comprimé oral","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20091124"" -> ""20200211"""
+9004932,nevirapine 400 mg prolonged-release oral tablet,névirapine 400 mg comprimé oral à libération prolongée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20110927"" -> ""20200802"""
+9006280,ranitidine (ranitidine hydrochloride) 75 mg per 5 mL oral solution,ranitidine (chlorhydrate de ranitidine) 75 mg par 5 mL solution orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20040908"" -> ""20200914"""
+9012601,alirocumab 150 mg per 1 mL solution for injection syringe,alirocumab 150 mg par 1 mL solution injectable seringue,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20160813"" -> ""20210304"""
+9012603,alirocumab 75 mg per 1 mL solution for injection syringe,alirocumab 75 mg par 1 mL solution injectable seringue,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20160813"" -> ""20210304"""
+9012797,ertugliflozin 15 mg and sitagliptin (sitagliptin phosphate) 100 mg oral tablet,ertugliflozine 15 mg et sitagliptine (phosphate de sitagliptine) 100 mg comprimé oral,"ntp_status_effective_time: ""20200810"" -> ""20210203"""
+9012798,ertugliflozin 15 mg oral tablet,ertugliflozine 15 mg comprimé oral,"ntp_status_effective_time: ""20201001"" -> ""20210203"""
+9012799,ertugliflozin 2.5 mg and metformin hydrochloride 1000 mg oral tablet,"ertugliflozine 2,5 mg et chlorhydrate de metformine 1000 mg comprimé oral","ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20201104"" -> ""20180706"""
+9012800,ertugliflozin 2.5 mg and metformin hydrochloride 500 mg oral tablet,"ertugliflozine 2,5 mg et chlorhydrate de metformine 500 mg comprimé oral","ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20200810"" -> ""20180706"""
+9012801,ertugliflozin 5 mg and sitagliptin (sitagliptin phosphate) 100 mg oral tablet,ertugliflozine 5 mg et sitagliptine (phosphate de sitagliptine) 100 mg comprimé oral,"ntp_status_effective_time: ""20200810"" -> ""20210203"""
+9012802,ertugliflozin 5 mg oral tablet,ertugliflozine 5 mg comprimé oral,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20201001"" -> ""20180528"""
+9012803,ertugliflozin 7.5 mg and metformin hydrochloride 1000 mg oral tablet,"ertugliflozine 7,5 mg et chlorhydrate de metformine 1000 mg comprimé oral","ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20200810"" -> ""20180706"""
+9012804,ertugliflozin 7.5 mg and metformin hydrochloride 500 mg oral tablet,"ertugliflozine 7,5 mg et chlorhydrate de metformine 500 mg comprimé oral","ntp_status_effective_time: ""20201104"" -> ""20210203"""
+9013036,calcium (calcium carbonate) 500 mg oral tablet with etidronate disodium 400 mg oral tablet,calcium (carbonate de calcium) 500 mg comprimé oral avec étidronate disodique 400 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20080410"" -> ""20210305"""
+9013674,cyanocobalamin 100 mcg per 1 mL solution for injection ampoule,cyanocobalamine 100 mcg par 1 mL solution injectable ampoule,"ntp_status_effective_time: ""20190725"" -> ""20210325"""
+9014119,nonacog alfa 1000 unit per vial powder for solution for injection with diluent solution syringe,nonacog alfa 1000 unité par fiole poudre pour solution injectable avec solution diluante seringue,"ntp_formal_name: ""nonacog alfa 1000 unit per vial powder for solution for injection with diluent syringe"" -> ""nonacog alfa 1000 unit per vial powder for solution for injection with diluent so̲l̲u̲t̲i̲o̲n̲ ̲s̲yringe"""
+9014120,nonacog alfa 2000 unit per vial powder for solution for injection with diluent solution syringe,nonacog alfa 2000 unité par fiole poudre pour solution injectable avec solution diluante seringue,"ntp_formal_name: ""nonacog alfa 2000 unit per vial powder for solution for injection with diluent syringe"" -> ""nonacog alfa 2000 unit per vial powder for solution for injection with diluent so̲l̲u̲t̲i̲o̲n̲ ̲s̲yringe"""
+9014121,nonacog alfa 3000 unit per vial powder for solution for injection with diluent solution syringe,nonacog alfa 3000 unité par fiole poudre pour solution injectable avec solution diluante seringue,"ntp_formal_name: ""nonacog alfa 3000 unit per vial powder for solution for injection with diluent syringe"" -> ""nonacog alfa 3000 unit per vial powder for solution for injection with diluent so̲l̲u̲t̲i̲o̲n̲ ̲s̲yringe"""
+9014122,nonacog alfa 500 unit per vial powder for solution for injection with diluent solution syringe,nonacog alfa 500 unité par fiole poudre pour solution injectable avec solution diluante seringue,"ntp_formal_name: ""nonacog alfa 500 unit per vial powder for solution for injection with diluent syringe"" -> ""nonacog alfa 500 unit per vial powder for solution for injection with diluent so̲l̲u̲t̲i̲o̲n̲ ̲s̲yringe"""
+9014393,apomorphine hydrochloride 10 mg sublingual film,chlorhydrate d'apomorphine 10 mg film sublingual,"ntp_fr_description: ""chlorhydrate d'apomorphine 10 mg film sublinguale"" -> ""chlorhydrate d'apomorphine 10 mg film sublingual"""
+9014394,apomorphine hydrochloride 15 mg sublingual film,chlorhydrate d'apomorphine 15 mg film sublingual,"ntp_fr_description: ""chlorhydrate d'apomorphine 15 mg film sublinguale"" -> ""chlorhydrate d'apomorphine 15 mg film sublingual"""
+9014395,apomorphine hydrochloride 20 mg sublingual film,chlorhydrate d'apomorphine 20 mg film sublingual,"ntp_fr_description: ""chlorhydrate d'apomorphine 20 mg film sublinguale"" -> ""chlorhydrate d'apomorphine 20 mg film sublingual"""
+9014396,apomorphine hydrochloride 25 mg sublingual film,chlorhydrate d'apomorphine 25 mg film sublingual,"ntp_fr_description: ""chlorhydrate d'apomorphine 25 mg film sublinguale"" -> ""chlorhydrate d'apomorphine 25 mg film sublingual"""
+9014397,apomorphine hydrochloride 30 mg sublingual film,chlorhydrate d'apomorphine 30 mg film sublingual,"ntp_fr_description: ""chlorhydrate d'apomorphine 30 mg film sublinguale"" -> ""chlorhydrate d'apomorphine 30 mg film sublingual"""
+9014438,fostamatinib (fostamatinib disodium) 100 mg oral tablet,fostamatinib (fostamatinib disodique) 100 mg comprimé oral,ADDED
+9014439,fostamatinib (fostamatinib disodium) 150 mg oral tablet,fostamatinib (fostamatinib disodique) 150 mg comprimé oral,ADDED
+9014442,adalimumab 40 mg per 0.8 mL solution for injection pen,"adalimumab 40 mg par 0,8 mL solution injectable stylo","ntp_status_effective_time: ""20210216"" -> ""20210215"""
+9014443,adalimumab 40 mg per 0.8 mL solution for injection syringe,"adalimumab 40 mg par 0,8 mL solution injectable seringue","ntp_status_effective_time: ""20210216"" -> ""20210215"""
+9014470,ChAdOx1-S (recombinant) 50000000000 vp per 0.5 mL solution for injection 5 mL vial,"ChAdOx1-S (recombinant) 50000000000 particules virales par 0,5 mL solution injectable 5 mL fiole",ADDED
+9014471,adalimumab 20 mg per 0.4 mL solution for injection syringe,"adalimumab 20 mg par 0,4 mL solution injectable seringue",ADDED
+9014472,aminolevulinic acid hydrochloride 1.5 g per vial powder for oral solution,"chlorhydrate d'acide aminolévulinique 1,5 g par fiole poudre pour solution orale",ADDED
+9014473,amylase 35700 unit and lipase 35000 unit and protease 2240 unit gastro-resistant capsule,amylase 35700 unité et lipase 35000 unité et protéase 2240 unité capsule gastrorésistante,ADDED
+9014474,bivalirudin 250 mg per 50 mL solution for injection vial,bivalirudine 250 mg par 50 mL solution injectable fiole,ADDED
+9014475,mecasermin 40 mg per 4 mL solution for injection vial,mécasermine 40 mg par 4 mL solution injectable fiole,ADDED
+9014480,ozanimod (ozanimod hydrochloride) 0.23 mg oral capsule with ozanimod (ozanimod hydrochloride) 0.46 mg oral capsule,"ozanimod (chlorhydrate d'ozanimod) 0,23 mg capsule orale avec ozanimod (chlorhydrate d'ozanimod) 0,46 mg capsule orale",ADDED
