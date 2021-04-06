@@ -2712,11 +2712,12 @@ CREATE VIEW public.qa_release_changes_mp
 AS
 
 select
-	(CASE 
+  din_and_drug_code.drug_code,
+	(CASE
     WHEN nxt.mp_code is null THEN cur.mp_code
     ELSE nxt.mp_code
     END) as mp_code,
-(CASE 
+(CASE
     WHEN nxt.mp_code is null THEN cur.mp_formal_name
     ELSE nxt.mp_formal_name
     END) as mp_formal_name,
@@ -2732,6 +2733,8 @@ select
 from
 	ccdd.mp_release_candidate cur
 	LEFT JOIN ccdd_mp_table nxt ON(nxt.mp_code = cur.mp_code)
+	LEFT JOIN (SELECT drug_code, drug_identification_number FROM dpd.drug_product) din_and_drug_code
+    ON (din_and_drug_code.drug_identification_number = nxt.mp_code)
 	LEFT JOIN LATERAL (VALUES
 		('mp_formal_name', cur.mp_formal_name, nxt.mp_formal_name),
 		('mp_status', UPPER(cur.mp_status), UPPER(nxt.mp_status)),
@@ -2744,16 +2747,19 @@ from
 	) ON true
 WHERE
 	cmp.cur_value is distinct from cmp.nxt_value
-GROUP BY cur.mp_code, cur.mp_formal_name,nxt.mp_code,nxt.mp_formal_name
+GROUP BY din_and_drug_code.drug_code, cur.mp_code, cur.mp_formal_name,nxt.mp_code,nxt.mp_formal_name
 
 UNION
 
 select
+  din_and_drug_code.drug_code,
 	nxt.mp_code,
 	nxt.mp_formal_name,
 	'ADDED' as changes
 from
 	ccdd_mp_table nxt
+	LEFT JOIN (SELECT drug_code, drug_identification_number FROM dpd.drug_product) din_and_drug_code
+    ON (din_and_drug_code.drug_identification_number = nxt.mp_code)
 WHERE
 	not exists(select * from ccdd.mp_release_candidate cur where cur.mp_code = nxt.mp_code);
 -- ddl-end --
@@ -2768,11 +2774,12 @@ CREATE VIEW public.qa_release_changes_mp_release_candidate
 AS
 
 SELECT
-	(CASE 
+  din_and_drug_code.drug_code,
+	(CASE
     WHEN nxt.mp_code is null THEN cur.mp_code
     ELSE nxt.mp_code
     END) as mp_code,
-(CASE 
+(CASE
     WHEN nxt.mp_code is null THEN cur.mp_formal_name
     ELSE nxt.mp_formal_name
     END) as mp_formal_name,
@@ -2788,6 +2795,8 @@ SELECT
 FROM
 	ccdd.mp_release_candidate cur
 	LEFT JOIN ccdd_mp_release_candidate nxt ON(nxt.mp_code = cur.mp_code)
+	LEFT JOIN (SELECT drug_code, drug_identification_number FROM dpd.drug_product) din_and_drug_code
+    ON (din_and_drug_code.drug_identification_number = nxt.mp_code)
 	LEFT JOIN LATERAL (VALUES
 		('mp_formal_name', cur.mp_formal_name, nxt.mp_formal_name),
 		('mp_status', UPPER(cur.mp_status), UPPER(nxt.mp_status)),
@@ -2800,16 +2809,19 @@ FROM
 	) ON true
 WHERE
 	cmp.cur_value IS DISTINCT FROM cmp.nxt_value
-GROUP BY cur.mp_code, cur.mp_formal_name, nxt.mp_code,nxt.mp_formal_name
+GROUP BY din_and_drug_code.drug_code, cur.mp_code, cur.mp_formal_name, nxt.mp_code,nxt.mp_formal_name
 
 UNION
 
 SELECT
+  din_and_drug_code.drug_code,
 	nxt.mp_code,
 	nxt.mp_formal_name,
 	'ADDED' AS changes
 FROM
 	ccdd_mp_release_candidate nxt
+	LEFT JOIN (SELECT drug_code, drug_identification_number FROM dpd.drug_product) din_and_drug_code
+    ON (din_and_drug_code.drug_identification_number = nxt.mp_code)
 WHERE
 	NOT EXISTS(SELECT * FROM ccdd.mp_release_candidate cur WHERE cur.mp_code = nxt.mp_code);
 -- ddl-end --
@@ -2840,11 +2852,11 @@ CREATE VIEW public.qa_release_changes_ntp
 AS
 
 select
-	(CASE 
+	(CASE
     WHEN nxt.ntp_code is null THEN cur.ntp_code
     ELSE nxt.ntp_code
     END) as ntp_code,
-  (CASE 
+  (CASE
     WHEN nxt.ntp_code is null THEN cur.ntp_formal_name
     ELSE nxt.ntp_formal_name
     END) as ntp_formal_name,
@@ -2894,11 +2906,11 @@ CREATE VIEW public.qa_release_changes_tm
 AS
 
 select
-	 (CASE 
+	 (CASE
     WHEN nxt.tm_code is null THEN cur.tm_code
     ELSE nxt.tm_code
     END) as tm_code,
-   (CASE 
+   (CASE
     WHEN nxt.tm_code is null THEN cur.tm_formal_name
     ELSE nxt.tm_formal_name
     END) as tm_formal_name,
@@ -2948,11 +2960,11 @@ CREATE VIEW public.qa_release_changes_ntp_release_candidate
 AS
 
 select
-	(CASE 
+	(CASE
     WHEN nxt.ntp_code is null THEN cur.ntp_code
     ELSE nxt.ntp_code
     END) as ntp_code,
-  (CASE 
+  (CASE
     WHEN nxt.ntp_code is null THEN cur.ntp_formal_name
     ELSE nxt.ntp_formal_name
     END) as ntp_formal_name,
@@ -3017,11 +3029,11 @@ CREATE VIEW public.qa_release_changes_tm_release_candidate
 AS
 
 select
-	(CASE 
+	(CASE
     WHEN nxt.tm_code is null THEN cur.tm_code
     ELSE nxt.tm_code
     END) as tm_code,
-  (CASE 
+  (CASE
     WHEN nxt.tm_code is null THEN cur.tm_formal_name
     ELSE nxt.tm_formal_name
     END) as tm_formal_name,
@@ -3088,6 +3100,7 @@ CREATE VIEW public.qa_release_changes_mp_ntp_tm_relationship
 AS
 
 select
+  din_and_drug_code.drug_code,
 	(CASE
     WHEN nxt.mp_code is null THEN cur.mp_code
     ELSE nxt.mp_code
@@ -3108,6 +3121,8 @@ select
 from
 	ccdd.mp_ntp_tm_relationship_release_candidate cur
 	LEFT JOIN ccdd_mp_ntp_tm_relationship nxt ON(nxt.mp_code = cur.mp_code)
+	LEFT JOIN (SELECT drug_code, drug_identification_number FROM dpd.drug_product) din_and_drug_code
+    ON (din_and_drug_code.drug_identification_number = nxt.mp_code)
 	LEFT JOIN LATERAL (VALUES
 		('mp_formal_name', cur.mp_formal_name, nxt.mp_formal_name),
 		('ntp_code', cur.ntp_code, CAST(nxt.ntp_code as varchar)),
@@ -3119,16 +3134,19 @@ from
 	) ON true
 WHERE
 	cmp.cur_value is distinct from cmp.nxt_value
-GROUP BY cur.mp_code, cur.mp_formal_name, nxt.mp_code, nxt.mp_formal_name
+GROUP BY din_and_drug_code.drug_code, cur.mp_code, cur.mp_formal_name, nxt.mp_code, nxt.mp_formal_name
 
 UNION
 
 select
+  din_and_drug_code.drug_code,
 	nxt.mp_code,
 	nxt.mp_formal_name,
 	'ADDED' as changes
 from
 	ccdd_mp_ntp_tm_relationship nxt
+	LEFT JOIN (SELECT drug_code, drug_identification_number FROM dpd.drug_product) din_and_drug_code
+    ON (din_and_drug_code.drug_identification_number = nxt.mp_code)
 WHERE
 	not exists(select * from ccdd.mp_ntp_tm_relationship_release_candidate cur where cur.mp_code = nxt.mp_code);
 -- ddl-end --
@@ -3152,6 +3170,7 @@ CREATE VIEW public.qa_release_changes_mp_ntp_tm_relationship_release_candidate
 AS
 
 select
+  din_and_drug_code.drug_code,
 	(CASE
     WHEN nxt.mp_code is null THEN cur.mp_code
     ELSE nxt.mp_code
@@ -3172,6 +3191,8 @@ select
 from
 	ccdd.mp_ntp_tm_relationship_release_candidate cur
 	LEFT JOIN ccdd_mp_ntp_tm_relationship_release_candidate nxt ON(nxt.mp_code = cur.mp_code)
+	LEFT JOIN (SELECT drug_code, drug_identification_number FROM dpd.drug_product) din_and_drug_code
+    ON (din_and_drug_code.drug_identification_number = nxt.mp_code)
 	LEFT JOIN LATERAL (VALUES
 		('mp_formal_name', cur.mp_formal_name, nxt.mp_formal_name),
 		('ntp_code', cur.ntp_code, CAST(nxt.ntp_code as varchar)),
@@ -3183,16 +3204,19 @@ from
 	) ON true
 WHERE
 	cmp.cur_value is distinct from cmp.nxt_value
-GROUP BY cur.mp_code, cur.mp_formal_name, nxt.mp_code, nxt.mp_formal_name
+GROUP BY din_and_drug_code.drug_code, cur.mp_code, cur.mp_formal_name, nxt.mp_code, nxt.mp_formal_name
 
 UNION
 
 select
+  din_and_drug_code.drug_code,
 	nxt.mp_code,
 	nxt.mp_formal_name,
 	'ADDED' as changes
 from
 	ccdd_mp_ntp_tm_relationship_release_candidate nxt
+	LEFT JOIN (SELECT drug_code, drug_identification_number FROM dpd.drug_product) din_and_drug_code
+    ON (din_and_drug_code.drug_identification_number = nxt.mp_code)
 WHERE
 	not exists(select * from ccdd.mp_ntp_tm_relationship_release_candidate cur where cur.mp_code = nxt.mp_code);
 -- ddl-end --
