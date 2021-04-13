@@ -1140,6 +1140,50 @@ CREATE TABLE ccdd.combination_products_csv(
 ALTER TABLE ccdd.combination_products_csv OWNER TO postgres;
 -- ddl-end --
 
+-- object: public.ccdd_format_ingredient_strength  | type: FUNCTION --
+-- DROP FUNCTION IF EXISTS public.ccdd_format_ingredient_strength ( double precision ) CASCADE;
+CREATE FUNCTION public.ccdd_format_ingredient_strength ( strength double precision )
+  RETURNS varchar
+  LANGUAGE sql
+  STABLE
+  RETURNS NULL ON NULL INPUT
+  AS $$
+-- This function will convert double precision to text in scientific notation if the
+-- value is equal to or above ccdd_config.ingredient_strength_scientific_notation_threshold
+-- and format('%s', arg) otherwise.
+SELECT
+  CASE
+    WHEN (strength >= 1.0e15) THEN (REGEXP_REPLACE(CAST(strength AS text), '[+]', '', 'g'))
+    WHEN (strength >= (SELECT ingredient_strength_scientific_notation_threshold FROM ccdd_config LIMIT 1))
+      THEN 'hmm' --CONCAT(first_digit, decimal_point_maybe, remaining_digits, 'e', exponent)
+    ELSE format('%s', strength)
+  END
+  AS scientific_notation_strength
+FROM
+  (SELECT
+    first_digit,
+    CASE WHEN (LENGTH(remaining_digits) = 0.0) THEN ('') ELSE ('.') END AS decimal_point_maybe,
+    remaining_digits,
+    exponent,
+    raw_digits
+  FROM
+    (SELECT
+      SUBSTR(raw_digits, 1, 1) AS first_digit,
+      REGEXP_REPLACE(raw_digits,  '^\d', '', 'g') AS remaining_digits,
+      exponent,
+      raw_digits
+    FROM
+      (SELECT
+        REGEXP_REPLACE(REGEXP_REPLACE(REGEXP_REPLACE(CAST(strength AS TEXT), '[^0-9]', '', 'g'), '0+$', '', 'g'), '^0+', '', 'g') AS raw_digits,
+        CAST(FLOOR(LOG(strength)) AS TEXT) AS exponent
+      ) q01
+    ) q02
+  ) q03;
+$$;
+-- ddl-end --
+ALTER FUNCTION public.ccdd_format_ingredient_strength( double precision ) OWNER TO postgres;
+-- ddl-end --
+
 -- object: public.ccdd_drug_ingredient_option_description | type: VIEW --
 -- DROP VIEW IF EXISTS public.ccdd_drug_ingredient_option_description CASCADE;
 CREATE VIEW public.ccdd_drug_ingredient_option_description
@@ -1153,16 +1197,16 @@ SELECT
 	ntpi.ccdd_ingredient_stem_name as ingredient_stem_name,
 	ingst.hydrate as hydrate,
 	CASE
-		WHEN p.unit is not null AND p.strength_is_per_size_unit THEN format('%s %s per %s %s', strength_amount * p.size_amount, strength_unit, p.size_amount, p.size_unit)
+		WHEN p.unit is not null AND p.strength_is_per_size_unit THEN format('%s %s per %s %s', ccdd_format_ingredient_strength(strength_amount * p.size_amount), strength_unit, p.size_amount, p.size_unit)
 		WHEN (
 			upper(ddio.dosage_unit) not in ('', '%', 'BLISTER', 'CAP', 'DOSE', 'ECC', 'ECT', 'KIT', 'LOZ', 'NIL', 'PATCH', 'SLT', 'SRC', 'SRD', 'SRT', 'SUP', 'SYR', 'TAB', 'V/V', 'W/V', 'W/W')
 		) THEN (
 			CASE
-				WHEN dosage_amount is not null THEN format('%s %s per %s %s', strength_amount, strength_unit, dosage_amount, dosage_unit)
-				ELSE format('%s %s per %s', strength_amount, strength_unit, dosage_unit)
+				WHEN dosage_amount is not null THEN format('%s %s per %s %s', ccdd_format_ingredient_strength(strength_amount), strength_unit, dosage_amount, dosage_unit)
+				ELSE format('%s %s per %s', ccdd_format_ingredient_strength(strength_amount), strength_unit, dosage_unit)
 			END
 		)
-		ELSE format('%s %s', strength_amount, strength_unit)
+		ELSE format('%s %s', ccdd_format_ingredient_strength(strength_amount), strength_unit)
 	END AS strength_description,
 	ddio.source_order,
 	COALESCE(ntpmap.ccdd, false) as ccdd
