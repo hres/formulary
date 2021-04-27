@@ -1155,7 +1155,7 @@ SELECT
   CASE
     WHEN (strength >= 1.0e15) THEN (REGEXP_REPLACE(CAST(strength AS text), '[+]', '', 'g'))
     WHEN (strength >= (SELECT ingredient_strength_scientific_notation_threshold FROM ccdd_config LIMIT 1))
-      THEN 'hmm' --CONCAT(first_digit, decimal_point_maybe, remaining_digits, 'e', exponent)
+      THEN CONCAT(first_digit, decimal_point_maybe, remaining_digits, 'e', exponent)
     ELSE format('%s', strength)
   END
   AS scientific_notation_strength
