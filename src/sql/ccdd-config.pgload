@@ -3,12 +3,14 @@ LOAD CSV
     WITH ENCODING UTF-8
     (
       ccdd_date,
-      dpd_extract_date
+      dpd_extract_date,
+      ingredient_strength_scientific_notation_threshold
     )
   INTO postgresql://cyanofsky@rest.hc.local/?public.ccdd_config
     (
       ccdd_date,
-      dpd_extract_date
+      dpd_extract_date,
+      ingredient_strength_scientific_notation_threshold
     )
   WITH
     skip header = 1,
@@ -18,6 +20,7 @@ LOAD CSV
   BEFORE LOAD DO
   $$ CREATE TABLE public.ccdd_config(
       ccdd_date date,
-      dpd_extract_date date
+      dpd_extract_date date,
+      ingredient_strength_scientific_notation_threshold double precision
   ) WITH (oids = false); $$
 ;
