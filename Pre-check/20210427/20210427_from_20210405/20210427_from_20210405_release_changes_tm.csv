@@ -1,0 +1,5 @@
+tm_code,tm_formal_name,changes
+8001500,ofatumumab,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20190301"" -> ""20120813"""
+8001659,glycopyrrolate,DELETED
+8000907,amoxicillin and clarithromycin and lansoprazole,"tm_status_effective_time: ""19980818"" -> ""20180803"""

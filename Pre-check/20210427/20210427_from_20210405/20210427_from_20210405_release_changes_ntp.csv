@@ -1,0 +1,32 @@
+ntp_code,ntp_formal_name,changes
+01af9d2e74f5f997d682f9c004b36f44,azacitidine 200 mg oral tablet,ADDED
+0cc68f097b2303ab727679d2791188dd,enoxaparin sodium 100 mg per mL solution for injection,ADDED
+173e75654932e7a575e5c54125b67a74,enoxaparin sodium 30 mg per 0.3 mL solution for injection,ADDED
+178014807952d6a3da070073daadacc0,insulin aspart 100 unit per mL solution for injection,ADDED
+3192f0a60ffc700d8aec5fc6ceacedb7,enoxaparin sodium 120 mg per 0.8 mL solution for injection,ADDED
+3e3273e732c1865c13a0be3652b50da2,pertuzumab 60 mg per mL and trastuzumab 60 mg per mL solution for injection,ADDED
+414264124b09369e65dc915a52ef6349,ceftriaxone (ceftriaxone sodium) 1000 mg per 50 mL solution for injection,ADDED
+418de25152cd04cf53448422ba6c3a6f,enoxaparin sodium 80 mg per 0.8 mL solution for injection,ADDED
+488c82b1a3bab950fb88c6bc25a6c0bf,enoxaparin sodium 60 mg per 0.6 mL solution for injection,ADDED
+51d19a074347d5a57ee17849e2c597b2,azacitidine 300 mg oral tablet,ADDED
+6e806981f603400edc7f64749eaa6488,ChAdOx1-S (recombinant) 5e10 vp per 0.5 mL solution for injection 5 mL vial,ADDED
+8c9991b1d37155afbf05fa3fcadecd97,enoxaparin sodium 40 mg per 0.4 mL solution for injection,ADDED
+9001201,ramipril 10 mg oral tablet,"ntp_status_effective_time: ""20190725"" -> ""20210326"""
+9001202,ramipril 1.25 mg oral tablet,"ntp_status_effective_time: ""20190725"" -> ""20210326"""
+9001203,ramipril 2.5 mg oral tablet,"ntp_status_effective_time: ""20200515"" -> ""20210326"""
+9001204,ramipril 5 mg oral tablet,"ntp_status_effective_time: ""20190725"" -> ""20210326"""
+9002009,betamethasone (betamethasone dipropionate) 0.5 mg per g and salicylic acid 20 mg per g lotion,"ntp_status_effective_time: ""19841231"" -> ""20020503"""
+9003474,rosiglitazone (rosiglitazone maleate) 4 mg oral tablet,"ntp_status_effective_time: ""20000321"" -> ""20170221"""
+9005358,levonorgestrel 13.5 mg intrauterine delivery system,DELETED
+9010498,mesalazine 400 mg gastro-resistant tablet,"ntp_status_effective_time: ""19931231"" -> ""19951231"""
+9012653,amoxicillin 500 mg oral capsule with clarithromycin 500 mg oral tablet with lansoprazole 30 mg gastro-resistant capsule,"ntp_status_effective_time: ""19980818"" -> ""20180803"""
+9013993,suvorexant 20 mg oral tablet,DELETED
+9014343,fremanezumab 225 mg per 1.5 mL solution for injection,ADDED
+9014445,bacillus Calmette-Guérin substrain TICE 800000000 unit per vial powder for intravesical solution,DELETED
+9014470,ChAdOx1-S (recombinant) 50000000000 vp per 0.5 mL solution for injection 5 mL vial,DELETED
+aa61e1835488f9972acefad662c4b265,ofatumumab 20 mg per 0.4 mL solution for injection,ADDED
+b858476e95243dacb9da83fab37d646b,ceftriaxone (ceftriaxone sodium) 2000 mg per 50 mL solution for injection,ADDED
+c210706ed297ffdebf43ce16c71efc40,pertuzumab 80 mg per mL and trastuzumab 40 mg per mL solution for injection,ADDED
+ce5b5683572c7c2d29b77394c8235133,enoxaparin sodium 150 mg per mL solution for injection,ADDED
+db138afb9c8d3c91a5af67898a5e1526,bacillus Calmette-Guérin substrain TICE 8e8 unit per vial powder for intravesical solution,ADDED
+e85ac11d2ff9cd35cfc2f5e1adf12927,enoxaparin sodium 300 mg per 3 mL solution for injection,ADDED

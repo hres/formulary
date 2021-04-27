@@ -1,0 +1,192 @@
+drug_code,mp_code,mp_formal_name,changes
+354,00028096,CELESTONE SOLUSPAN (betamethasone acetate 3 mg per mL and betamethasone (betamethasone sodium phosphate) 3 mg per mL suspension for injection) ORGANON CANADA INC.,"mp_formal_name: ""CELESTONE SOLUSPAN (betamethasone acetate 3 mg per mL and betamethasone (betamethasone sodium phosphate) 3 mg per mL suspension for injection) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""CELESTONE SOLUSPAN (betamethasone acetate 3 mg per mL and betamethasone (betamethasone sodium phosphate) 3 mg per mL suspension for injection) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+2071,00323071,DIPROSONE (betamethasone (betamethasone dipropionate) 0.05 % cutaneous cream) ORGANON CANADA INC.,"Health_Canada_product_name: ""DIPROSONE CREAM"" -> ""DIPROSONE""
+mp_formal_name: ""DIPROSONE ̲̲C̲̲R̲̲E̲̲A̲̲M̲̲ (betamethasone (betamethasone dipropionate) 0.05 % cutaneous cream) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""DIPROSONE (betamethasone (betamethasone dipropionate) 0.05 % cutaneous cream) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+2142,00328219,SINEMET (carbidopa 25 mg and levodopa 250 mg oral tablet) ORGANON CANADA INC.,"Health_Canada_product_name: ""SINEMET 250/25"" -> ""SINEMET""
+mp_formal_name: ""SINEMET ̲̲2̲̲5̲̲0̲̲/̲̲2̲̲5̲̲ (carbidopa 25 mg and levodopa 250 mg oral tablet) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""SINEMET (carbidopa 25 mg and levodopa 250 mg oral tablet) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲""
+mp_status_effective_time: ""20201203"" -> ""20210406"""
+2272,00344923,DIPROSONE (betamethasone (betamethasone dipropionate) 0.05 % cutaneous ointment) ORGANON CANADA INC.,"Health_Canada_product_name: ""DIPROSONE OINTMENT"" -> ""DIPROSONE""
+mp_formal_name: ""DIPROSONE ̲̲O̲̲I̲̲N̲̲T̲̲M̲̲E̲̲N̲̲T̲̲ (betamethasone (betamethasone dipropionate) 0.05 % cutaneous ointment) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""DIPROSONE (betamethasone (betamethasone dipropionate) 0.05 % cutaneous ointment) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+2870,00417246,DIPROSONE (betamethasone (betamethasone dipropionate) 0.05 % lotion) ORGANON CANADA INC.,"Health_Canada_product_name: ""DIPROSONE LOTION"" -> ""DIPROSONE""
+mp_formal_name: ""DIPROSONE ̲̲L̲̲O̲̲T̲̲I̲̲O̲̲N̲̲ (betamethasone (betamethasone dipropionate) 0.05 % lotion) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""DIPROSONE (betamethasone (betamethasone dipropionate) 0.05 % lotion) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+2890,00392545,CONFAB DIMENHYDRINATE 100 MG (dimenhydrinate 100 mg suppository) LABORATOIRES CONFAB INC,"Health_Canada_product_name: ""SANDOZ DIMENHYDRINATE"" -> ""CONFAB DIMENHYDRINATE 100 MG""
+mp_formal_name: ""S̲̲A̲̲N̲̲D̲̲O̲̲Z̲̲ ̲̲D̲̲I̲̲M̲̲E̲̲N̲̲H̲̲Y̲̲D̲̲R̲̲I̲̲N̲̲A̲̲T̲̲E̲̲ ̲̲(̲̲d̲̲i̲̲m̲̲e̲̲n̲̲h̲̲y̲̲d̲̲r̲̲i̲̲n̲̲a̲̲t̲̲e̲̲ ̲̲1̲̲0̲̲0̲̲ ̲̲m̲̲g̲̲ ̲̲s̲̲u̲̲p̲̲p̲̲o̲̲s̲̲i̲̲t̲̲o̲̲r̲̲y̲̲)̲̲ ̲̲S̲̲A̲̲N̲̲D̲̲O̲̲Z̲̲ ̲̲C̲̲A̲̲N̲̲A̲̲D̲̲A̲̲ ̲̲I̲̲N̲̲C̲̲O̲̲R̲̲P̲̲O̲̲R̲̲A̲̲T̲̲E̲̲D̲̲"" -> ""C̲̲O̲̲N̲̲F̲̲A̲̲B̲̲ ̲̲D̲̲I̲̲M̲̲E̲̲N̲̲H̲̲Y̲̲D̲̲R̲̲I̲̲N̲̲A̲̲T̲̲E̲̲ ̲̲1̲̲0̲̲0̲̲ ̲̲M̲̲G̲̲ ̲̲(̲̲d̲̲i̲̲m̲̲e̲̲n̲̲h̲̲y̲̲d̲̲r̲̲i̲̲n̲̲a̲̲t̲̲e̲̲ ̲̲1̲̲0̲̲0̲̲ ̲̲m̲̲g̲̲ ̲̲s̲̲u̲̲p̲̲p̲̲o̲̲s̲̲i̲̲t̲̲o̲̲r̲̲y̲̲)̲̲ ̲̲L̲̲A̲̲B̲̲O̲̲R̲̲A̲̲T̲̲O̲̲I̲̲R̲̲E̲̲S̲̲ ̲̲C̲̲O̲̲N̲̲F̲̲A̲̲B̲̲ ̲̲I̲̲N̲̲C̲̲"""
+2891,00392553,CONFAB DIMENHYDRINATE 50 MG (dimenhydrinate 50 mg suppository) LABORATOIRES CONFAB INC,"Health_Canada_product_name: ""SANDOZ DIMENHYDRINATE"" -> ""CONFAB DIMENHYDRINATE 50 MG""
+mp_formal_name: ""S̲̲A̲̲N̲̲D̲̲O̲̲Z̲̲ ̲̲D̲̲I̲̲M̲̲E̲̲N̲̲H̲̲Y̲̲D̲̲R̲̲I̲̲N̲̲A̲̲T̲̲E̲̲ ̲̲(̲̲d̲̲i̲̲m̲̲e̲̲n̲̲h̲̲y̲̲d̲̲r̲̲i̲̲n̲̲a̲̲t̲̲e̲̲ ̲̲5̲̲0̲̲ ̲̲m̲̲g̲̲ ̲̲s̲̲u̲̲p̲̲p̲̲o̲̲s̲̲i̲̲t̲̲o̲̲r̲̲y̲̲)̲̲ ̲̲S̲̲A̲̲N̲̲D̲̲O̲̲Z̲̲ ̲̲C̲̲A̲̲N̲̲A̲̲D̲̲A̲̲ ̲̲I̲̲N̲̲C̲̲O̲̲R̲̲P̲̲O̲̲R̲̲A̲̲T̲̲E̲̲D̲̲"" -> ""C̲̲O̲̲N̲̲F̲̲A̲̲B̲̲ ̲̲D̲̲I̲̲M̲̲E̲̲N̲̲H̲̲Y̲̲D̲̲R̲̲I̲̲N̲̲A̲̲T̲̲E̲̲ ̲̲5̲̲0̲̲ ̲̲M̲̲G̲̲ ̲̲(̲̲d̲̲i̲̲m̲̲e̲̲n̲̲h̲̲y̲̲d̲̲r̲̲i̲̲n̲̲a̲̲t̲̲e̲̲ ̲̲5̲̲0̲̲ ̲̲m̲̲g̲̲ ̲̲s̲̲u̲̲p̲̲p̲̲o̲̲s̲̲i̲̲t̲̲o̲̲r̲̲y̲̲)̲̲ ̲̲L̲̲A̲̲B̲̲O̲̲R̲̲A̲̲T̲̲O̲̲I̲̲R̲̲E̲̲S̲̲ ̲̲C̲̲O̲̲N̲̲F̲̲A̲̲B̲̲ ̲̲I̲̲N̲̲C̲̲"""
+4008,00513997,SINEMET (carbidopa 25 mg and levodopa 100 mg oral tablet) ORGANON CANADA INC.,"Health_Canada_product_name: ""SINEMET 100/25"" -> ""SINEMET""
+mp_formal_name: ""SINEMET ̲̲1̲̲0̲̲0̲̲/̲̲2̲̲5̲̲ (carbidopa 25 mg and levodopa 100 mg oral tablet) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""SINEMET (carbidopa 25 mg and levodopa 100 mg oral tablet) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲""
+mp_status_effective_time: ""20191113"" -> ""20210406"""
+5287,00578436,DIPROSALIC (betamethasone (betamethasone dipropionate) 0.5 mg per g and salicylic acid 30 mg per g cutaneous ointment) ORGANON CANADA INC.,"mp_formal_name: ""DIPROSALIC (betamethasone (betamethasone dipropionate) 0.5 mg per g and salicylic acid 30 mg per g cutaneous ointment) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""DIPROSALIC (betamethasone (betamethasone dipropionate) 0.5 mg per g and salicylic acid 30 mg per g cutaneous ointment) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+6529,00629367,DIPROLENE (betamethasone (betamethasone dipropionate) 0.05 % cutaneous ointment) ORGANON CANADA INC.,"mp_formal_name: ""DIPROLENE (betamethasone (betamethasone dipropionate) 0.05 % cutaneous ointment) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""DIPROLENE (betamethasone (betamethasone dipropionate) 0.05 % cutaneous ointment) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+10748,00611174,LOTRIDERM (betamethasone (betamethasone dipropionate) 0.05 % and clotrimazole 1 % cutaneous cream) ORGANON CANADA INC.,"Health_Canada_product_name: ""LOTRIDERM CREAM"" -> ""LOTRIDERM""
+mp_formal_name: ""LOTRIDERM̲̲ ̲̲C̲̲R̲̲E̲̲A̲̲M (betamethasone (betamethasone dipropionate) 0.05 % and clotrimazole 1 % cutaneous cream) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""LOTRIDERM (betamethasone (betamethasone dipropionate) 0.05 % and clotrimazole 1 % cutaneous cream) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+10947,00884332,ZOCOR (simvastatin 10 mg oral tablet) ORGANON CANADA INC.,"mp_formal_name: ""ZOCOR (simvastatin 10 mg oral tablet) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ZOCOR (simvastatin 10 mg oral tablet) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+13370,02010909,PROSCAR (finasteride 5 mg oral tablet) ORGANON CANADA INC.,"mp_formal_name: ""PROSCAR (finasteride 5 mg oral tablet) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""PROSCAR (finasteride 5 mg oral tablet) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+16473,00884340,ZOCOR (simvastatin 20 mg oral tablet) ORGANON CANADA INC.,"mp_formal_name: ""ZOCOR (simvastatin 20 mg oral tablet) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ZOCOR (simvastatin 20 mg oral tablet) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+18500,02166704,PROMETRIUM (progesterone 100 mg oral capsule) ORGANON CANADA INC.,"mp_formal_name: ""PROMETRIUM (progesterone 100 mg oral capsule) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""PROMETRIUM (progesterone 100 mg oral capsule) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+19167,02182815,COZAAR (losartan potassium 25 mg oral tablet) ORGANON CANADA INC.,"mp_formal_name: ""COZAAR (losartan potassium 25 mg oral tablet) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""COZAAR (losartan potassium 25 mg oral tablet) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+19168,02182874,COZAAR (losartan potassium 50 mg oral tablet) ORGANON CANADA INC.,"mp_formal_name: ""COZAAR (losartan potassium 50 mg oral tablet) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""COZAAR (losartan potassium 50 mg oral tablet) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+19802,02153513,ONCOTICE (bacillus Calmette-Guérin substrain TICE 8e8 unit per vial powder for intravesical solution) MERCK CANADA INC,"mp_formal_name: ""ONCOTICE (bacillus Calmette-Guérin substrain TICE 80̲̲0̲̲0̲̲0̲̲0̲̲0̲̲0̲̲0̲̲ unit per vial powder for intravesical solution) MERCK CANADA INC"" -> ""ONCOTICE (bacillus Calmette-Guérin substrain TICE 8e̲̲8̲̲ unit per vial powder for intravesical solution) MERCK CANADA INC"""
+20011,02211076,APO-BUSPIRONE (buspirone hydrochloride 10 mg oral tablet) APOTEX INC,"Health_Canada_product_name: ""APO-BUSPIRONE - TAB 10MG"" -> ""APO-BUSPIRONE""
+mp_formal_name: ""APO-BUSPIRONE ̲̲-̲̲ ̲̲T̲̲A̲̲B̲̲ ̲̲1̲̲0̲̲M̲̲G̲̲ (buspirone hydrochloride 10 mg oral tablet) APOTEX INC"" -> ""APO-BUSPIRONE (buspirone hydrochloride 10 mg oral tablet) APOTEX INC"""
+44255,02182882,COZAAR (losartan potassium 100 mg oral tablet) ORGANON CANADA INC.,"mp_formal_name: ""COZAAR (losartan potassium 100 mg oral tablet) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""COZAAR (losartan potassium 100 mg oral tablet) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+46718,00884359,ZOCOR (simvastatin 40 mg oral tablet) ORGANON CANADA INC.,"mp_formal_name: ""ZOCOR (simvastatin 40 mg oral tablet) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ZOCOR (simvastatin 40 mg oral tablet) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+48580,02230047,HYZAAR (hydrochlorothiazide 12.5 mg and losartan potassium 50 mg oral tablet) ORGANON CANADA INC.,"Health_Canada_product_name: ""HYZAAR 50/12.5MG"" -> ""HYZAAR""
+mp_formal_name: ""HYZAAR ̲̲5̲̲0̲̲/̲̲1̲̲2̲̲.̲̲5̲̲M̲̲G̲̲ (hydrochlorothiazide 12.5 mg and losartan potassium 50 mg oral tablet) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""HYZAAR (hydrochlorothiazide 12.5 mg and losartan potassium 50 mg oral tablet) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+59887,02236466,PMS-DOMPERIDONE (domperidone (domperidone maleate) 10 mg oral tablet) PHARMASCIENCE INC,"mp_status: ""ACTIVE"" -> ""INACTIVE""
+mp_status_effective_time: ""19971113"" -> ""20200910"""
+61606,02238213,PROPECIA (finasteride 1 mg oral tablet) ORGANON CANADA INC.,"mp_formal_name: ""PROPECIA (finasteride 1 mg oral tablet) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""PROPECIA (finasteride 1 mg oral tablet) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+64599,02241007,HYZAAR DS (hydrochlorothiazide 25 mg and losartan potassium 100 mg oral tablet) ORGANON CANADA INC.,"Health_Canada_product_name: ""HYZAAR DS 100/25 MG"" -> ""HYZAAR DS""
+mp_formal_name: ""HYZAAR DS ̲̲1̲̲0̲̲0̲̲/̲̲2̲̲5̲̲ ̲̲M̲̲G̲̲ (hydrochlorothiazide 25 mg and losartan potassium 100 mg oral tablet) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""HYZAAR DS (hydrochlorothiazide 25 mg and losartan potassium 100 mg oral tablet) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+67513,02243595,ASMANEX TWISTHALER (mometasone furoate 200 mcg per actuation inhalation powder) ORGANON CANADA INC.,"mp_formal_name: ""ASMANEX TWISTHALER (mometasone furoate 200 mcg per actuation inhalation powder) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ASMANEX TWISTHALER (mometasone furoate 200 mcg per actuation inhalation powder) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+67514,02243596,ASMANEX TWISTHALER (mometasone furoate 400 mcg per actuation inhalation powder) ORGANON CANADA INC.,"mp_formal_name: ""ASMANEX TWISTHALER (mometasone furoate 400 mcg per actuation inhalation powder) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ASMANEX TWISTHALER (mometasone furoate 400 mcg per actuation inhalation powder) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+69741,02245641,ORGALUTRAN (ganirelix (ganirelix acetate) 250 mcg per 0.5 mL solution for injection syringe) ORGANON CANADA INC.,"mp_formal_name: ""ORGALUTRAN (ganirelix (ganirelix acetate) 250 mcg per 0.5 mL solution for injection syringe) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ORGALUTRAN (ganirelix (ganirelix acetate) 250 mcg per 0.5 mL solution for injection syringe) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+72122,02247827,SANDOZ SIMVASTATIN (simvastatin 5 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20170803"" -> ""20210416"""
+72123,02247828,SANDOZ SIMVASTATIN (simvastatin 10 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20170803"" -> ""20210413"""
+72126,02247830,SANDOZ SIMVASTATIN (simvastatin 20 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20170803"" -> ""20210413"""
+72128,02247831,SANDOZ SIMVASTATIN (simvastatin 40 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20170803"" -> ""20210413"""
+72129,02247833,SANDOZ SIMVASTATIN (simvastatin 80 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20170803"" -> ""20210413"""
+72824,02248472,"BENZACLIN (benzoyl peroxide 5 % and clindamycin (clindamycin phosphate) 1 % cutaneous gel) BAUSCH HEALTH, CANADA INC.","Health_Canada_product_name: ""BENZACLIN TOPICAL GEL"" -> ""BENZACLIN""
+mp_formal_name: ""BENZACLIN ̲̲T̲̲O̲̲P̲̲I̲̲C̲̲A̲̲L̲̲ ̲̲G̲̲E̲̲L̲̲ ̲(̲b̲e̲n̲z̲o̲y̲l̲ ̲p̲e̲r̲o̲x̲i̲d̲e̲ ̲5̲ ̲%̲ ̲a̲n̲d̲ ̲c̲l̲i̲n̲d̲a̲m̲y̲c̲i̲n̲ ̲(̲c̲l̲i̲n̲d̲a̲m̲y̲c̲i̲n̲ ̲p̲h̲o̲s̲p̲h̲a̲t̲e̲)̲ ̲1̲ ̲%̲ ̲c̲u̲t̲a̲n̲e̲o̲u̲s̲ ̲g̲e̲l̲)̲ ̲V̲̲A̲̲L̲̲E̲̲A̲̲N̲̲T̲̲ ̲̲C̲̲A̲̲N̲̲A̲̲D̲̲A̲̲ ̲̲L̲̲P̲̲/̲̲V̲̲A̲̲L̲̲E̲̲A̲̲N̲̲T̲̲ ̲̲C̲̲A̲̲N̲̲A̲̲D̲̲A̲̲ ̲̲S̲̲.̲̲E̲̲.̲̲C."" -> ""BENZACLIN (̲b̲e̲n̲z̲o̲y̲l̲ ̲p̲e̲r̲o̲x̲i̲d̲e̲ ̲5̲ ̲%̲ ̲a̲n̲d̲ ̲c̲l̲i̲n̲d̲a̲m̲y̲c̲i̲n̲ ̲(̲c̲l̲i̲n̲d̲a̲m̲y̲c̲i̲n̲ ̲p̲h̲o̲s̲p̲h̲a̲t̲e̲)̲ ̲1̲ ̲%̲ ̲c̲u̲t̲a̲n̲e̲o̲u̲s̲ ̲g̲e̲l̲)̲ ̲B̲̲A̲̲U̲̲S̲̲C̲̲H̲̲ ̲̲H̲̲E̲̲A̲̲L̲̲T̲̲H̲̲,̲̲ ̲̲C̲̲A̲̲N̲̲A̲̲D̲̲A̲̲ ̲̲I̲̲N̲̲C."""
+72914,02248559,RIVA-PAROXETINE (paroxetine (paroxetine hydrochloride hemihydrate) 10 mg oral tablet) LABORATOIRE RIVA INC.,"mp_formal_name: ""RIVA-PAROXETINE (paroxetine (paroxetine hydrochloride a̲̲c̲̲e̲̲t̲̲o̲̲n̲̲e̲̲ ̲̲s̲̲o̲̲l̲̲v̲̲ate) 10 mg oral tablet) LABORATOIRE RIVA INC."" -> ""RIVA-PAROXETINE (paroxetine (paroxetine hydrochloride h̲̲e̲̲m̲̲i̲̲h̲̲y̲̲d̲̲r̲̲ate) 10 mg oral tablet) LABORATOIRE RIVA INC."""
+72915,02248560,RIVA-PAROXETINE (paroxetine (paroxetine hydrochloride hemihydrate) 20 mg oral tablet) LABORATOIRE RIVA INC.,"mp_formal_name: ""RIVA-PAROXETINE (paroxetine (paroxetine hydrochloride,̲̲ ̲̲i̲̲s̲̲o̲̲p̲̲r̲̲o̲̲p̲̲y̲̲l̲̲ ̲̲s̲̲o̲̲l̲̲v̲̲ate) 20 mg oral tablet) LABORATOIRE RIVA INC."" -> ""RIVA-PAROXETINE (paroxetine (paroxetine hydrochloride ̲̲h̲̲e̲̲m̲̲i̲̲h̲̲y̲̲d̲̲r̲̲ate) 20 mg oral tablet) LABORATOIRE RIVA INC."""
+72916,02248561,RIVA-PAROXETINE (paroxetine (paroxetine hydrochloride hemihydrate) 30 mg oral tablet) LABORATOIRE RIVA INC.,"mp_formal_name: ""RIVA-PAROXETINE (paroxetine (paroxetine hydrochloride,̲̲ ̲̲i̲̲s̲̲o̲̲p̲̲r̲̲o̲̲p̲̲y̲̲l̲̲ ̲̲s̲̲o̲̲l̲̲v̲̲ate) 30 mg oral tablet) LABORATOIRE RIVA INC."" -> ""RIVA-PAROXETINE (paroxetine (paroxetine hydrochloride ̲̲h̲̲e̲̲m̲̲i̲̲h̲̲y̲̲d̲̲r̲̲ate) 30 mg oral tablet) LABORATOIRE RIVA INC."""
+77676,02291398,SANDOZ RAMIPRIL (ramipril 1.25 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20190725"" -> ""20210326"""
+77677,02291401,SANDOZ RAMIPRIL (ramipril 2.5 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20200515"" -> ""20210326"""
+77678,02291428,SANDOZ RAMIPRIL (ramipril 5 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20190725"" -> ""20210326"""
+77679,02291436,SANDOZ RAMIPRIL (ramipril 10 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20190725"" -> ""20210326"""
+78318,02297841,HYZAAR (hydrochlorothiazide 12.5 mg and losartan potassium 100 mg oral tablet) ORGANON CANADA INC.,"mp_formal_name: ""HYZAAR (hydrochlorothiazide 12.5 mg and losartan potassium 100 mg oral tablet) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""HYZAAR (hydrochlorothiazide 12.5 mg and losartan potassium 100 mg oral tablet) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+80771,02322250,MEDROXYPROGESTERONE ACETATE INJECTABLE SUSPENSION USP (medroxyprogesterone acetate 150 mg per 1 mL suspension for injection vial) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20170803"" -> ""20210420"""
+81790,02332248,JAMP-CYPROHEPTADINE (cyproheptadine hydrochloride 4 mg oral tablet) JAMP PHARMA CORPORATION,"Health_Canada_product_name: ""CYPROHEPTADINE 4MG TABLETS"" -> ""JAMP-CYPROHEPTADINE""
+mp_formal_name: ""C̲Y̲P̲R̲O̲H̲E̲P̲T̲A̲D̲I̲N̲E̲ ̲̲4̲̲M̲̲G̲̲ ̲̲T̲̲A̲̲B̲̲L̲̲E̲̲T̲̲S̲̲ (cyproheptadine hydrochloride 4 mg oral tablet) JAMP PHARMA CORPORATION"" -> ""J̲̲A̲̲M̲̲P̲̲-̲̲C̲Y̲P̲R̲O̲H̲E̲P̲T̲A̲D̲I̲N̲E̲ (cyproheptadine hydrochloride 4 mg oral tablet) JAMP PHARMA CORPORATION"""
+84231,02357186,JAMP-AMLODIPINE (amlodipine (amlodipine besylate) 2.5 mg oral tablet) JAMP PHARMA CORPORATION,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20190805"" -> ""20110127"""
+84232,02357194,JAMP-AMLODIPINE (amlodipine (amlodipine besylate) 5 mg oral tablet) JAMP PHARMA CORPORATION,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20170807"" -> ""20110127"""
+84233,02357208,JAMP-AMLODIPINE (amlodipine (amlodipine besylate) 10 mg oral tablet) JAMP PHARMA CORPORATION,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20180828"" -> ""20110127"""
+84680,02361752,ZENHALE (formoterol fumarate dihydrate 5 mcg per actuation and mometasone furoate 100 mcg per actuation pressurized inhalation) ORGANON CANADA INC.,"mp_formal_name: ""ZENHALE (formoterol fumarate dihydrate 5 mcg per actuation and mometasone furoate 100 mcg per actuation pressurized inhalation) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ZENHALE (formoterol fumarate dihydrate 5 mcg per actuation and mometasone furoate 100 mcg per actuation pressurized inhalation) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+84681,02361760,ZENHALE (formoterol fumarate dihydrate 5 mcg per actuation and mometasone furoate 200 mcg per actuation pressurized inhalation) ORGANON CANADA INC.,"mp_formal_name: ""ZENHALE (formoterol fumarate dihydrate 5 mcg per actuation and mometasone furoate 200 mcg per actuation pressurized inhalation) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ZENHALE (formoterol fumarate dihydrate 5 mcg per actuation and mometasone furoate 200 mcg per actuation pressurized inhalation) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+86583,02379988,ZOLMITRIPTAN ODT (zolmitriptan 2.5 mg orodispersible tablet) PRO DOC LIMITEE,"mp_status: ""ACTIVE"" -> ""INACTIVE""
+mp_status_effective_time: ""20120329"" -> ""20200402"""
+88370,02398761,HEAD & SHOULDERS REFRESH 2IN1 MEN (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,"Health_Canada_product_name: ""HEAD & SHOULDERS REFRESH 2 IN 1 MEN"" -> ""HEAD & SHOULDERS REFRESH 2IN1 MEN""
+mp_formal_name: ""HEAD & SHOULDERS REFRESH 2 ̲̲IN ̲̲1 MEN (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"" -> ""HEAD & SHOULDERS REFRESH 2IN1 MEN (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"""
+88447,02399601,HEAD & SHOULDERS OCEAN LIFT 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,"Health_Canada_product_name: ""HEAD & SHOULDERS OCEAN LIFT 2 IN 1"" -> ""HEAD & SHOULDERS OCEAN LIFT 2IN1""
+mp_formal_name: ""HEAD & SHOULDERS OCEAN LIFT 2 ̲̲IN ̲̲1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"" -> ""HEAD & SHOULDERS OCEAN LIFT 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"""
+88449,02399636,HEAD & SHOULDERS CLASSIC CLEAN 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,"Health_Canada_product_name: ""HEAD & SHOULDERS CLASSIC CLEAN 2 IN 1"" -> ""HEAD & SHOULDERS CLASSIC CLEAN 2IN1""
+mp_formal_name: ""HEAD & SHOULDERS CLASSIC CLEAN 2 ̲̲IN ̲̲1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"" -> ""HEAD & SHOULDERS CLASSIC CLEAN 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"""
+88454,02399687,HEAD & SHOULDERS ITCHY SCALP CARE 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,"Health_Canada_product_name: ""HEAD & SHOULDERS ITCHY SCALP CARE 2 IN 1"" -> ""HEAD & SHOULDERS ITCHY SCALP CARE 2IN1""
+mp_formal_name: ""HEAD & SHOULDERS ITCHY SCALP CARE 2 ̲̲IN ̲̲1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"" -> ""HEAD & SHOULDERS ITCHY SCALP CARE 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"""
+88456,02399709,HEAD & SHOULDERS SMOOTH & SILKY 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,"Health_Canada_product_name: ""HEAD & SHOULDERS SMOOTH & SILKY 2 IN 1"" -> ""HEAD & SHOULDERS SMOOTH & SILKY 2IN1""
+mp_formal_name: ""HEAD & SHOULDERS SMOOTH & SILKY 2 ̲̲IN ̲̲1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"" -> ""HEAD & SHOULDERS SMOOTH & SILKY 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"""
+88623,02401312,"PIPERACILLIN AND TAZOBACTAM FOR INJECTION (piperacillin (piperacillin sodium) 2 g per vial and tazobactam (tazobactam sodium) 0.25 g per vial powder for solution for injection) TELIP, LLC, A SUBSIDIARY OF TELIGENT, INC.","mp_formal_name: ""PIPERACILLIN AND TAZOBACTAM FOR INJECTION (piperacillin (piperacillin sodium) 2 g per vial and tazobactam (tazobactam sodium) 0.25 g per vial powder for solution for injection) TELIG̲̲E̲̲N̲̲T̲̲ ̲̲O̲̲U̲̲"" -> ""PIPERACILLIN AND TAZOBACTAM FOR INJECTION (piperacillin (piperacillin sodium) 2 g per vial and tazobactam (tazobactam sodium) 0.25 g per vial powder for solution for injection) TELIP̲̲,̲̲ ̲̲L̲̲L̲̲C̲̲,̲̲ ̲̲A̲̲ ̲̲S̲̲U̲̲B̲̲S̲̲I̲̲D̲̲I̲̲A̲̲R̲̲Y̲̲ ̲̲O̲̲F̲̲ ̲̲T̲̲E̲̲L̲̲I̲̲G̲̲E̲̲N̲̲T̲̲,̲̲ ̲̲I̲̲N̲̲C̲̲.̲̲"""
+88624,02401320,"PIPERACILLIN AND TAZOBACTAM FOR INJECTION (piperacillin (piperacillin sodium) 3 g per vial and tazobactam (tazobactam sodium) 0.375 g per vial powder for solution for injection) TELIP, LLC, A SUBSIDIARY OF TELIGENT, INC.","mp_formal_name: ""PIPERACILLIN AND TAZOBACTAM FOR INJECTION (piperacillin (piperacillin sodium) 3 g per vial and tazobactam (tazobactam sodium) 0.375 g per vial powder for solution for injection) TELIG̲̲E̲̲N̲̲T̲̲ ̲̲O̲̲U̲̲"" -> ""PIPERACILLIN AND TAZOBACTAM FOR INJECTION (piperacillin (piperacillin sodium) 3 g per vial and tazobactam (tazobactam sodium) 0.375 g per vial powder for solution for injection) TELIP̲̲,̲̲ ̲̲L̲̲L̲̲C̲̲,̲̲ ̲̲A̲̲ ̲̲S̲̲U̲̲B̲̲S̲̲I̲̲D̲̲I̲̲A̲̲R̲̲Y̲̲ ̲̲O̲̲F̲̲ ̲̲T̲̲E̲̲L̲̲I̲̲G̲̲E̲̲N̲̲T̲̲,̲̲ ̲̲I̲̲N̲̲C̲̲.̲̲"""
+88625,02401339,"PIPERACILLIN AND TAZOBACTAM FOR INJECTION (piperacillin (piperacillin sodium) 4 g per vial and tazobactam (tazobactam sodium) 0.5 g per vial powder for solution for injection) TELIP, LLC, A SUBSIDIARY OF TELIGENT, INC.","mp_formal_name: ""PIPERACILLIN AND TAZOBACTAM FOR INJECTION (piperacillin (piperacillin sodium) 4 g per vial and tazobactam (tazobactam sodium) 0.5 g per vial powder for solution for injection) TELIG̲̲E̲̲N̲̲T̲̲ ̲̲O̲̲U̲̲"" -> ""PIPERACILLIN AND TAZOBACTAM FOR INJECTION (piperacillin (piperacillin sodium) 4 g per vial and tazobactam (tazobactam sodium) 0.5 g per vial powder for solution for injection) TELIP̲̲,̲̲ ̲̲L̲̲L̲̲C̲̲,̲̲ ̲̲A̲̲ ̲̲S̲̲U̲̲B̲̲S̲̲I̲̲D̲̲I̲̲A̲̲R̲̲Y̲̲ ̲̲O̲̲F̲̲ ̲̲T̲̲E̲̲L̲̲I̲̲G̲̲E̲̲N̲̲T̲̲,̲̲ ̲̲I̲̲N̲̲C̲̲.̲̲"""
+89983,02415216,"MEROPENEM FOR INJECTION, USP (meropenem 500 mg per vial powder for solution for injection) FRESENIUS KABI CANADA LTD","Health_Canada_product_name: ""MEROPENEM FOR INJECTION"" -> ""MEROPENEM FOR INJECTION, USP""
+mp_formal_name: ""MEROPENEM FOR INJECTION (meropenem 500 mg per vial powder for solution for injection) FRESENIUS KABI CANADA LTD"" -> ""MEROPENEM FOR INJECTION,̲̲ ̲̲U̲̲S̲̲P̲̲ (meropenem 500 mg per vial powder for solution for injection) FRESENIUS KABI CANADA LTD"""
+89984,02415224,"MEROPENEM FOR INJECTION, USP (meropenem 1 g per vial powder for solution for injection) FRESENIUS KABI CANADA LTD","Health_Canada_product_name: ""MEROPENEM FOR INJECTION"" -> ""MEROPENEM FOR INJECTION, USP""
+mp_formal_name: ""MEROPENEM FOR INJECTION (meropenem 1 g per vial powder for solution for injection) FRESENIUS KABI CANADA LTD"" -> ""MEROPENEM FOR INJECTION,̲̲ ̲̲U̲̲S̲̲P̲̲ (meropenem 1 g per vial powder for solution for injection) FRESENIUS KABI CANADA LTD"""
+90493,02420333,AA-ADEFOVIR (adefovir dipivoxil 10 mg oral tablet) AA PHARMA INC,"Health_Canada_product_name: ""APO-ADEFOVIR"" -> ""AA-ADEFOVIR""
+mp_formal_name: ""AP̲̲O̲̲-ADEFOVIR (adefovir dipivoxil 10 mg oral tablet) AP̲̲O̲̲T̲̲E̲̲X̲̲ INC"" -> ""AA̲̲-ADEFOVIR (adefovir dipivoxil 10 mg oral tablet) AA̲̲ ̲̲P̲̲H̲̲A̲̲R̲̲M̲̲A̲̲ INC"""
+90620,02421550,ZOLEDRONIC ACID FOR INJECTION (zoledronic acid (zoledronic acid monohydrate) 4 mg per 5 mL solution for injection vial) PFIZER CANADA ULC,"mp_status_effective_time: ""20201201"" -> ""20210408"""
+92309,02438690,ASMANEX TWISTHALER (mometasone furoate 100 mcg per actuation inhalation powder) ORGANON CANADA INC.,"mp_formal_name: ""ASMANEX TWISTHALER (mometasone furoate 100 mcg per actuation inhalation powder) M̲̲E̲̲R̲̲C̲̲K̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ASMANEX TWISTHALER (mometasone furoate 100 mcg per actuation inhalation powder) O̲̲R̲̲G̲̲A̲̲N̲̲O̲̲N̲̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲̲"""
+92496,02440598,JAMP VALACYCLOVIR (valacyclovir (valacyclovir hydrochloride) 500 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+93561,02449773,BETEFLAM (betamethasone valerate 0.1 % cutaneous patch) IBSA INSTITUT BIOCHIMIQUE SA,"mp_formal_name: ""BETEFLAM (betamethasone valerate 0.1 % cutaneous patch) C̲̲I̲̲P̲̲H̲̲E̲̲R̲̲ ̲̲P̲̲H̲̲A̲̲R̲̲M̲̲A̲̲C̲̲E̲̲U̲̲T̲̲I̲̲C̲̲A̲̲L̲̲S̲̲ ̲̲I̲̲N̲̲C̲̲"" -> ""BETEFLAM (betamethasone valerate 0.1 % cutaneous patch) I̲̲B̲̲S̲̲A̲̲ ̲̲I̲̲N̲̲S̲̲T̲̲I̲̲T̲̲U̲̲T̲̲ ̲̲B̲̲I̲̲O̲̲C̲̲H̲̲I̲̲M̲̲I̲̲Q̲̲U̲̲E̲̲ ̲̲S̲̲A̲̲"""
+95682,02468395,JAMP-ZOPICLONE TABLETS (zopiclone 3.75 mg oral tablet) JAMP PHARMA CORPORATION,"Health_Canada_product_name: ""JAMP-ZOPICLONE"" -> ""JAMP-ZOPICLONE TABLETS""
+mp_formal_name: ""JAMP-ZOPICLONE (zopiclone 3.75 mg oral tablet) JAMP PHARMA CORPORATION"" -> ""JAMP-ZOPICLONE ̲̲T̲̲A̲̲B̲̲L̲̲E̲̲T̲̲S̲̲ (zopiclone 3.75 mg oral tablet) JAMP PHARMA CORPORATION"""
+96788,02477114,REDDY-ABIRATERONE (abiraterone acetate 250 mg oral tablet) DR REDDY'S LABORATORIES LTD,ADDED
+97543,02485184,AG-ALENDRONATE (alendronic acid (alendronate sodium) 70 mg oral tablet) ANGITA PHARMA INC.,ADDED
+98608,02496216,PMS-FAMPRIDINE (fampridine 10 mg prolonged-release oral tablet) PHARMASCIENCE INC,ADDED
+98790,02498111,BENDAMUSTINE HYDROCHLORIDE FOR INJECTION (bendamustine hydrochloride 100 mg per vial powder for solution for injection) MYLAN PHARMACEUTICALS ULC,ADDED
+98796,02498189,JAMP DIENOGEST (dienogest 2 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+98866,02498944,AG-VITAMIN D (cholecalciferol 10000 unit oral tablet) ANGITA PHARMA INC.,ADDED
+98902,02499282,TARO-DASATINIB (dasatinib 20 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+98904,02499304,TARO-DASATINIB (dasatinib 50 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+98905,02499312,TARO-DASATINIB (dasatinib 70 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+98906,02499320,TARO-DASATINIB (dasatinib 80 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+98907,02499339,TARO-DASATINIB (dasatinib 100 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+98908,02499347,TARO-DASATINIB (dasatinib 140 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+98935,02499622,PMS-TELMISARTAN (telmisartan 40 mg oral tablet) PHARMASCIENCE INC,ADDED
+98936,02499630,PMS-TELMISARTAN (telmisartan 80 mg oral tablet) PHARMASCIENCE INC,ADDED
+98943,02499711,"CEFTRIAXONE INJECTION, USP (ceftriaxone (ceftriaxone sodium) 1000 mg per 50 mL solution for injection) BAXTER CORPORATION",ADDED
+98944,02499738,"CEFTRIAXONE INJECTION, USP (ceftriaxone (ceftriaxone sodium) 2000 mg per 50 mL solution for injection) BAXTER CORPORATION",ADDED
+99400,02504596,IMATINIB (imatinib (imatinib mesylate) 100 mg oral tablet) SANIS HEALTH INC,ADDED
+99401,02504618,IMATINIB (imatinib (imatinib mesylate) 400 mg oral tablet) SANIS HEALTH INC,ADDED
+99592,02506564,TRURAPI (insulin aspart 100 unit per mL solution for injection) SANOFI-AVENTIS CANADA INC,ADDED
+99593,02506572,TRURAPI (insulin aspart 100 unit per mL solution for injection) SANOFI-AVENTIS CANADA INC,ADDED
+99672,02507315,TARO-DEFERASIROX (TYPE J) (deferasirox 90 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+99673,02507323,TARO-DEFERASIROX (TYPE J) (deferasirox 180 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+99674,02507331,TARO-DEFERASIROX (TYPE J) (deferasirox 360 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+99686,02507471,APO-SAXAGLIPTIN (saxagliptin (saxagliptin hydrochloride) 2.5 mg oral tablet) APOTEX INC,ADDED
+99687,02507498,APO-SAXAGLIPTIN (saxagliptin (saxagliptin hydrochloride) 5 mg oral tablet) APOTEX INC,ADDED
+99839,02509075,"REDESCA (enoxaparin sodium 30 mg per 0.3 mL solution for injection) SHENZHEN TECHDOW PHARMACEUTICAL CO., LTD.",ADDED
+99840,02509083,"REDESCA (enoxaparin sodium 40 mg per 0.4 mL solution for injection) SHENZHEN TECHDOW PHARMACEUTICAL CO., LTD.",ADDED
+99841,02509091,"REDESCA (enoxaparin sodium 60 mg per 0.6 mL solution for injection) SHENZHEN TECHDOW PHARMACEUTICAL CO., LTD.",ADDED
+99842,02509105,"REDESCA (enoxaparin sodium 80 mg per 0.8 mL solution for injection) SHENZHEN TECHDOW PHARMACEUTICAL CO., LTD.",ADDED
+99843,02509113,"REDESCA (enoxaparin sodium 100 mg per mL solution for injection) SHENZHEN TECHDOW PHARMACEUTICAL CO., LTD.",ADDED
+99844,02509121,"REDESCA (enoxaparin sodium 300 mg per 3 mL solution for injection) SHENZHEN TECHDOW PHARMACEUTICAL CO., LTD.",ADDED
+99845,02509148,"REDESCA HP (enoxaparin sodium 120 mg per 0.8 mL solution for injection) SHENZHEN TECHDOW PHARMACEUTICAL CO., LTD.",ADDED
+99846,02509156,"REDESCA HP (enoxaparin sodium 150 mg per mL solution for injection) SHENZHEN TECHDOW PHARMACEUTICAL CO., LTD.",ADDED
+99876,02509474,AJOVY (fremanezumab 225 mg per 1.5 mL solution for injection) TEVA CANADA LIMITED,ADDED
+99927,02510014,"COVID-19 VACCINE MODERNA (mRNA-1273 SARS-CoV-2 100 mcg per 0.5 mL dispersion for injection 5 mL vial) MODERNATX, INC.","mp_formal_name: ""COVID-19 VACCINE MODERNA (mRNA-1273 SARS-CoV-2 100 mcg per 0.5 mL dispersion for injection 5 mL vial) MODERNA ̲̲T̲̲H̲̲E̲̲R̲̲A̲̲P̲̲E̲̲U̲̲T̲̲I̲̲C̲̲S̲̲ ̲̲I̲̲N̲̲C̲̲"" -> ""COVID-19 VACCINE MODERNA (mRNA-1273 SARS-CoV-2 100 mcg per 0.5 mL dispersion for injection 5 mL vial) MODERNAT̲̲X̲̲,̲̲ ̲̲I̲̲N̲̲C̲̲.̲̲"""
+99943,02510197,ONUREG (azacitidine 200 mg oral tablet) CELGENE INC,ADDED
+99944,02510200,ONUREG (azacitidine 300 mg oral tablet) CELGENE INC,ADDED
+100004,02510847,ASTRAZENECA COVID-19 VACCINE (ChAdOx1-S (recombinant) 5e10 vp per 0.5 mL solution for injection 5 mL vial) ASTRAZENECA CANADA INC,ADDED
+100057,02511355,KESIMPTA (ofatumumab 20 mg per 0.4 mL solution for injection) NOVARTIS PHARMACEUTICALS CANADA INC,ADDED
+100086,02511673,MAR-MYCOPHENOLIC ACID (mycophenolic acid (mycophenolate sodium) 180 mg gastro-resistant tablet) MARCAN PHARMACEUTICALS INC,ADDED
+100087,02511681,MAR-MYCOPHENOLIC ACID (mycophenolic acid (mycophenolate sodium) 360 mg gastro-resistant tablet) MARCAN PHARMACEUTICALS INC,ADDED
+100119,02512025,M-CETIRIZINE (cetirizine hydrochloride 20 mg oral tablet) MANTRA PHARMA INC,ADDED
+100216,02512912,PHESGO (pertuzumab 80 mg per mL and trastuzumab 40 mg per mL solution for injection) HOFFMANN-LA ROCHE LIMITED,ADDED
+100217,02512920,PHESGO (pertuzumab 60 mg per mL and trastuzumab 60 mg per mL solution for injection) HOFFMANN-LA ROCHE LIMITED,ADDED
+100219,02512947,COVISHIELD (ChAdOx1-S (recombinant) 5e10 vp per 0.5 mL solution for injection 5 mL vial) VERITY PHARMACEUTICALS INC.,"mp_formal_name: ""COVISHIELD (ChAdOx1-S (recombinant) 50̲̲0̲̲0̲̲0̲̲0̲̲0̲̲0̲̲0̲̲0̲̲0 vp per 0.5 mL solution for injection 5 mL vial) VERITY PHARMACEUTICALS INC."" -> ""COVISHIELD (ChAdOx1-S (recombinant) 5e̲̲1̲̲0 vp per 0.5 mL solution for injection 5 mL vial) VERITY PHARMACEUTICALS INC."""
+NA,00578428,DIPROSALIC (betamethasone (betamethasone dipropionate) 0.5 mg per g and salicylic acid 20 mg per g lotion) MERCK CANADA INC,DELETED
+NA,01997580,ASACOL (mesalazine 400 mg gastro-resistant tablet) ALLERGAN INC,DELETED
+NA,02177617,DOM-FLUOXETINE - CAP 10MG (fluoxetine (fluoxetine hydrochloride) 10 mg oral capsule) DOMINION PHARMACAL,DELETED
+NA,02177625,DOM-FLUOXETINE (fluoxetine (fluoxetine hydrochloride) 20 mg oral capsule) DOMINION PHARMACAL,DELETED
+NA,02229467,DOM-ATENOLOL - 50MG (atenolol 50 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02229468,DOM-ATENOLOL - 100MG (atenolol 100 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02229994,DOM-METFORMIN (metformin hydrochloride 500 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02230621,OPTICROM (cromolyn sodium 2 % ophthalmic drops) ALLERGAN INC,DELETED
+NA,02231121,DOM-METOPROLOL-L (metoprolol tartrate 50 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02238525,HP-PAC (amoxicillin 500 mg oral capsule with clarithromycin 500 mg oral tablet with lansoprazole 30 mg gastro-resistant capsule) TAKEDA PHARMACEUTICALS AMERICA INC,DELETED
+NA,02238633,DOM-CYCLOBENZAPRINE (cyclobenzaprine hydrochloride 10 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02240823,DOM-ZOPICLONE (zopiclone 7.5 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02241113,AVANDIA (rosiglitazone (rosiglitazone maleate) 4 mg oral tablet) GLAXOSMITHKLINE INC,DELETED
+NA,02242726,DOM-METFORMIN (metformin hydrochloride 850 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02245748,DOM-SERTRALINE (sertraline (sertraline hydrochloride) 25 mg oral capsule) DOMINION PHARMACAL,DELETED
+NA,02245749,DOM-SERTRALINE (sertraline (sertraline hydrochloride) 50 mg oral capsule) DOMINION PHARMACAL,DELETED
+NA,02245750,DOM-SERTRALINE (sertraline (sertraline hydrochloride) 100 mg oral capsule) DOMINION PHARMACAL,DELETED
+NA,02246317,DOM-ZOPICLONE (zopiclone 5 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02248570,ACT RANITIDINE (ranitidine (ranitidine hydrochloride) 150 mg oral tablet) TEVA CANADA LIMITED,DELETED
+NA,02270765,DOM-SUMATRIPTAN (sumatriptan (sumatriptan succinate) 100 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02271141,DOM-TOPIRAMATE (topiramate 25 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02271168,DOM-TOPIRAMATE (topiramate 100 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02287951,DOM-RAMIPRIL (ramipril 2.5 mg oral capsule) DOMINION PHARMACAL,DELETED
+NA,02287978,DOM-RAMIPRIL (ramipril 5 mg oral capsule) DOMINION PHARMACAL,DELETED
+NA,02287986,DOM-RAMIPRIL (ramipril 10 mg oral capsule) DOMINION PHARMACAL,DELETED
+NA,02293196,SCALP RELIEF DANDRUFF CONTROL (PYRITHIONE ZINC SHAMPOO) (pyrithione zinc 1 % shampoo) REDKEN 5TH AVENUE NYC,DELETED
+NA,02298996,DOM-QUETIAPINE (quetiapine (quetiapine fumarate) 25 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02299275,DOM-TERBINAFINE (terbinafine (terbinafine hydrochloride) 250 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02307936,DOM-VALACYCLOVIR (valacyclovir (valacyclovir hydrochloride) 500 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02309831,DOM-RISEDRONATE (risedronate sodium (risedronate sodium hemipentahydrate) 35 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02376695,DOM-MONTELUKAST FC (montelukast (montelukast sodium) 10 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02379236,MONTELUKAST SODIUM TABLETS (montelukast (montelukast sodium) 10 mg oral tablet) ACCORD HEALTHCARE INC,DELETED
+NA,02386704,DOM-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 5 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02386712,DOM-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 10 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02386720,DOM-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 20 mg oral tablet) DOMINION PHARMACAL,DELETED
+NA,02396203,DOM-RIZATRIPTAN RDT (rizatriptan (rizatriptan benzoate) 10 mg orodispersible tablet) DOMINION PHARMACAL,DELETED
+NA,02402556,DOM-PREGABALIN (pregabalin 25 mg oral capsule) DOMINION PHARMACAL,DELETED
+NA,02402564,DOM-PREGABALIN (pregabalin 50 mg oral capsule) DOMINION PHARMACAL,DELETED
+NA,02402572,DOM-PREGABALIN (pregabalin 75 mg oral capsule) DOMINION PHARMACAL,DELETED
+NA,02402580,DOM-PREGABALIN (pregabalin 150 mg oral capsule) DOMINION PHARMACAL,DELETED
+NA,02408295,JAYDESS (levonorgestrel 13.5 mg intrauterine delivery system) BAYER INC,DELETED
+NA,02423294,MINT-GLICLAZIDE MR (gliclazide 60 mg prolonged-release oral tablet) MINT PHARMACEUTICALS INC,DELETED
+NA,02424436,RIVA-EZETIMIBE (ezetimibe 10 mg oral tablet) LABORATOIRE RIVA INC.,DELETED
+NA,02432048,MAR-PRAVASTATIN (pravastatin sodium 10 mg oral tablet) MARCAN PHARMACEUTICALS INC,DELETED
+NA,02432056,MAR-PRAVASTATIN (pravastatin sodium 20 mg oral tablet) MARCAN PHARMACEUTICALS INC,DELETED
+NA,02432064,MAR-PRAVASTATIN (pravastatin sodium 40 mg oral tablet) MARCAN PHARMACEUTICALS INC,DELETED
+NA,02439107,PANTOPRAZOLE (pantoprazole (pantoprazole sodium sesquihydrate) 40 mg gastro-resistant tablet) DOMINION PHARMACAL,DELETED
+NA,02440369,PMS-AMPHETAMINES XR (amphetamine mixed salts 5 mg prolonged-release oral capsule) PHARMASCIENCE INC,DELETED
+NA,02440377,PMS-AMPHETAMINES XR (amphetamine mixed salts 10 mg prolonged-release oral capsule) PHARMASCIENCE INC,DELETED
+NA,02440407,PMS-AMPHETAMINES XR (amphetamine mixed salts 25 mg prolonged-release oral capsule) PHARMASCIENCE INC,DELETED
+NA,02483548,BELSOMRA (suvorexant 20 mg oral tablet) MERCK CANADA INC,DELETED
