@@ -2318,7 +2318,7 @@ from
 	ccdd.mp_ntp_tm_relationship_release cur
 	LEFT JOIN ccdd_mp_ntp_tm_relationship nxt ON(nxt.mp_code = cur.mp_code)
 	LEFT JOIN (SELECT drug_code, drug_identification_number FROM dpd.drug_product) din_and_drug_code
-    ON (din_and_drug_code.drug_identification_number = nxt.mp_code)
+    ON (din_and_drug_code.drug_identification_number = cur.mp_code)
 	LEFT JOIN LATERAL (VALUES
 		('mp_formal_name', cur.mp_formal_name, nxt.mp_formal_name),
 		('ntp_code', cur.ntp_code, CAST(nxt.ntp_code as varchar)),
@@ -2385,7 +2385,7 @@ from
 	ccdd.mp_ntp_tm_relationship_release_fr cur
 	LEFT JOIN ccdd_mp_ntp_tm_relationship nxt ON(nxt.mp_code = cur.mp_code)
 	LEFT JOIN (SELECT drug_code, drug_identification_number FROM dpd.drug_product) din_and_drug_code
-    ON (din_and_drug_code.drug_identification_number = nxt.mp_code)
+    ON (din_and_drug_code.drug_identification_number = cur.mp_code)
 	LEFT JOIN LATERAL (VALUES
 		('mp_fr_description', cur.mp_fr_description, nxt.mp_fr_description),
 		('ntp_code', cur.ntp_code, CAST(nxt.ntp_code as varchar)),
@@ -2803,7 +2803,7 @@ from
 	ccdd.mp_release_candidate cur
 	LEFT JOIN ccdd_mp_table nxt ON(nxt.mp_code = cur.mp_code)
 	LEFT JOIN (SELECT drug_code, drug_identification_number FROM dpd.drug_product) din_and_drug_code
-    ON (din_and_drug_code.drug_identification_number = nxt.mp_code)
+    ON (din_and_drug_code.drug_identification_number = cur.mp_code)
 	LEFT JOIN LATERAL (VALUES
 		('mp_formal_name', cur.mp_formal_name, nxt.mp_formal_name),
 		('mp_status', UPPER(cur.mp_status), UPPER(nxt.mp_status)),
@@ -2869,7 +2869,7 @@ FROM
 	ccdd.mp_release_candidate cur
 	LEFT JOIN ccdd_mp_release_candidate nxt ON(nxt.mp_code = cur.mp_code)
 	LEFT JOIN (SELECT drug_code, drug_identification_number FROM dpd.drug_product) din_and_drug_code
-    ON (din_and_drug_code.drug_identification_number = nxt.mp_code)
+    ON (din_and_drug_code.drug_identification_number = cur.mp_code)
 	LEFT JOIN LATERAL (VALUES
 		('mp_formal_name', cur.mp_formal_name, nxt.mp_formal_name),
 		('mp_status', UPPER(cur.mp_status), UPPER(nxt.mp_status)),
@@ -3165,7 +3165,7 @@ from
 	ccdd.mp_ntp_tm_relationship_release_candidate cur
 	LEFT JOIN ccdd_mp_ntp_tm_relationship_release_candidate nxt ON(nxt.mp_code = cur.mp_code)
 	LEFT JOIN (SELECT drug_code, drug_identification_number FROM dpd.drug_product) din_and_drug_code
-    ON (din_and_drug_code.drug_identification_number = nxt.mp_code)
+    ON (din_and_drug_code.drug_identification_number = cur.mp_code)
 	LEFT JOIN LATERAL (VALUES
 		('mp_formal_name', cur.mp_formal_name, nxt.mp_formal_name),
 		('ntp_code', cur.ntp_code, CAST(nxt.ntp_code as varchar)),
@@ -3232,7 +3232,7 @@ FROM
 	ccdd.mp_ntp_tm_relationship_release_candidate_fr cur
 	LEFT JOIN ccdd_mp_ntp_tm_relationship_release_candidate nxt ON(nxt.mp_code = cur.mp_code)
 	LEFT JOIN (SELECT drug_code, drug_identification_number FROM dpd.drug_product) din_and_drug_code
-    ON (din_and_drug_code.drug_identification_number = nxt.mp_code)
+    ON (din_and_drug_code.drug_identification_number = cur.mp_code)
 	LEFT JOIN LATERAL (VALUES
 		('mp_fr_description', cur.mp_fr_description, nxt.mp_fr_description),
 		('ntp_code', cur.ntp_code, CAST(nxt.ntp_code as varchar)),
