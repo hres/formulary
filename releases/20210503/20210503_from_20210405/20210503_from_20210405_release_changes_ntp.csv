@@ -1,0 +1,68 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9001201,ramipril 10 mg oral tablet,ramipril 10 mg comprimé oral,"ntp_status_effective_time: ""20190725"" -> ""20210326"""
+9001202,ramipril 1.25 mg oral tablet,"ramipril 1,25 mg comprimé oral","ntp_status_effective_time: ""20190725"" -> ""20210326"""
+9001203,ramipril 2.5 mg oral tablet,"ramipril 2,5 mg comprimé oral","ntp_status_effective_time: ""20200515"" -> ""20210326"""
+9001204,ramipril 5 mg oral tablet,ramipril 5 mg comprimé oral,"ntp_status_effective_time: ""20190725"" -> ""20210326"""
+9001476,insulin aspart 100 unit per mL solution for injection 3 mL pen,insuline asparte 100 unité par mL solution injectable 3 mL stylo,"ntp_status_effective_time: ""20170303"" -> ""20120504"""
+9004168,white petrolatum 100 % cutaneous gel,pétrolatum blanc 100 % gel cutané,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20060606"" -> ""20210501"""
+9005358,levonorgestrel 13.5 mg intrauterine delivery system,"lévonorgestrel 13,5 mg système de diffusion intra-utérin","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20131030"" -> ""20181220"""
+9006225,morphine sulfate 10 mg per 10 mL solution for injection vial,sulfate de morphine 10 mg par 10 mL solution injectable fiole,"ntp_status_effective_time: ""20170803"" -> ""20210421"""
+9006226,morphine sulfate 1 mg per mL solution for injection 50 mL vial,sulfate de morphine 1 mg par mL solution injectable 50 mL fiole,"ntp_status_effective_time: ""20200106"" -> ""20210421"""
+9006228,morphine sulfate 2 mg per mL solution for injection 50 mL vial,sulfate de morphine 2 mg par mL solution injectable 50 mL fiole,"ntp_status_effective_time: ""20181130"" -> ""20210421"""
+9006229,morphine sulfate 5 mg per 5 mL solution for injection vial,sulfate de morphine 5 mg par 5 mL solution injectable fiole,"ntp_status_effective_time: ""20200106"" -> ""20210421"""
+9006230,morphine sulfate 5 mg per mL solution for injection 30 mL vial,sulfate de morphine 5 mg par mL solution injectable 30 mL fiole,"ntp_status_effective_time: ""20170803"" -> ""20210421"""
+9012800,ertugliflozin 2.5 mg and metformin hydrochloride 500 mg oral tablet,"ertugliflozine 2,5 mg et chlorhydrate de metformine 500 mg comprimé oral","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20180706"" -> ""20210203"""
+9013704,mannitol 5 % irrigation solution 2000 mL bottle,mannitol 5 % solution pour irrigation 2000 mL bouteille,"ntp_status_effective_time: ""20190708"" -> ""20210426"""
+9013993,suvorexant 20 mg oral tablet,suvorexant 20 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20190418"" -> ""20200514"""
+9014470,ChAdOx1-S (recombinant) 5e10 vp per 0.5 mL solution for injection 5 mL vial,"ChAdOx1-S (recombinant) 5e10 particules virales par 0,5 mL solution injectable 5 mL fiole","ntp_formal_name: ""ChAdOx1-S (recombinant) 50̲0̲0̲0̲0̲0̲0̲0̲0̲0 vp per 0.5 mL solution for injection 5 mL vial"" -> ""ChAdOx1-S (recombinant) 5e̲1̲0 vp per 0.5 mL solution for injection 5 mL vial""
+ntp_fr_description: ""ChAdOx1-S (recombinant) 50̲0̲0̲0̲0̲0̲0̲0̲0̲0 particules virales par 0,5 mL solution injectable 5 mL fiole"" -> ""ChAdOx1-S (recombinant) 5e̲1̲0 particules virales par 0,5 mL solution injectable 5 mL fiole"""
+9014482,azacitidine 200 mg oral tablet,azacitidine 200 mg comprimé oral,ADDED
+9014483,azacitidine 300 mg oral tablet,azacitidine 300 mg comprimé oral,ADDED
+9014484,ceftriaxone (ceftriaxone sodium) 1000 mg per 50 mL solution for injection bag,ceftriaxone (ceftriaxone sodique) 1000 mg par 50 mL solution injectable sac,ADDED
+9014485,ceftriaxone (ceftriaxone sodium) 2000 mg per 50 mL solution for injection bag,ceftriaxone (ceftriaxone sodique) 2000 mg par 50 mL solution injectable sac,ADDED
+9014487,enoxaparin sodium 300 mg per 3 mL solution for injection vial,énoxaparine sodique 300 mg par 3 mL solution injectable fiole,ADDED
+9014488,insulin isophane human 100 unit per mL suspension for injection 3 mL vial,insuline isophane humaine 100 unité par mL suspension injectable 3 mL fiole,ADDED
+9014489,ofatumumab 20 mg per 0.4 mL solution for injection pen,"ofatumumab 20 mg par 0,4 mL solution injectable stylo",ADDED
+9014490,onasemnogene abeparvovec 1.05e15 vg per 52.5 mL solution for injection vial,"onasemnogène abéparvovec 1,05e15 vecteurs génomiques par 52,5 mL solution injectable fiole",ADDED
+9014491,onasemnogene abeparvovec 1.106e15 vg per 55.3 mL solution for injection vial,"onasemnogène abéparvovec 1,106e15 vecteurs génomiques par 55,3 mL solution injectable fiole",ADDED
+9014492,onasemnogene abeparvovec 1.162e15 vg per 58.1 mL solution for injection vial,"onasemnogène abéparvovec 1,162e15 vecteurs génomiques par 58,1 mL solution injectable fiole",ADDED
+9014493,onasemnogene abeparvovec 1.216e15 vg per 60.8 mL solution for injection vial,"onasemnogène abéparvovec 1,216e15 vecteurs génomiques par 60,8 mL solution injectable fiole",ADDED
+9014494,onasemnogene abeparvovec 1.272e15 vg per 63.6 mL solution for injection vial,"onasemnogène abéparvovec 1,272e15 vecteurs génomiques par 63,6 mL solution injectable fiole",ADDED
+9014495,onasemnogene abeparvovec 1.328e15 vg per 66.4 mL solution for injection vial,"onasemnogène abéparvovec 1,328e15 vecteurs génomiques par 66,4 mL solution injectable fiole",ADDED
+9014496,onasemnogene abeparvovec 1.382e15 vg per 69.1 mL solution for injection vial,"onasemnogène abéparvovec 1,382e15 vecteurs génomiques par 69,1 mL solution injectable fiole",ADDED
+9014497,onasemnogene abeparvovec 1.438e15 vg per 71.9 mL solution for injection vial,"onasemnogène abéparvovec 1,438e15 vecteurs génomiques par 71,9 mL solution injectable fiole",ADDED
+9014498,onasemnogene abeparvovec 1.494e15 vg per 74.7 mL solution for injection vial,"onasemnogène abéparvovec 1,494e15 vecteurs génomiques par 74,7 mL solution injectable fiole",ADDED
+9014499,onasemnogene abeparvovec 1.548e15 vg per 77.4 mL solution for injection vial,"onasemnogène abéparvovec 1,548e15 vecteurs génomiques par 77,4 mL solution injectable fiole",ADDED
+9014500,onasemnogene abeparvovec 1.604e15 vg per 80.2 mL solution for injection vial,"onasemnogène abéparvovec 1,604e15 vecteurs génomiques par 80,2 mL solution injectable fiole",ADDED
+9014501,onasemnogene abeparvovec 1.66e15 vg per 83 mL solution for injection vial,"onasemnogène abéparvovec 1,66e15 vecteurs génomiques par 83 mL solution injectable fiole",ADDED
+9014502,onasemnogene abeparvovec 1.714e15 vg per 85.7 mL solution for injection vial,"onasemnogène abéparvovec 1,714e15 vecteurs génomiques par 85,7 mL solution injectable fiole",ADDED
+9014503,onasemnogene abeparvovec 1.77e15 vg per 88.5 mL solution for injection vial,"onasemnogène abéparvovec 1,77e15 vecteurs génomiques par 88,5 mL solution injectable fiole",ADDED
+9014504,onasemnogene abeparvovec 1.826e15 vg per 91.3 mL solution for injection vial,"onasemnogène abéparvovec 1,826e15 vecteurs génomiques par 91,3 mL solution injectable fiole",ADDED
+9014505,onasemnogene abeparvovec 1.88e15 vg per 94 mL solution for injection vial,"onasemnogène abéparvovec 1,88e15 vecteurs génomiques par 94 mL solution injectable fiole",ADDED
+9014506,onasemnogene abeparvovec 1.936e15 vg per 96.8 mL solution for injection vial,"onasemnogène abéparvovec 1,936e15 vecteurs génomiques par 96,8 mL solution injectable fiole",ADDED
+9014507,onasemnogene abeparvovec 1.992e15 vg per 99.6 mL solution for injection vial,"onasemnogène abéparvovec 1,992e15 vecteurs génomiques par 99,6 mL solution injectable fiole",ADDED
+9014508,onasemnogene abeparvovec 2.046e15 vg per 102.3 mL solution for injection vial,"onasemnogène abéparvovec 2,046e15 vecteurs génomiques par 102,3 mL solution injectable fiole",ADDED
+9014509,onasemnogene abeparvovec 2.102e15 vg per 105.1 mL solution for injection vial,"onasemnogène abéparvovec 2,102e15 vecteurs génomiques par 105,1 mL solution injectable fiole",ADDED
+9014510,onasemnogene abeparvovec 2.158e15 vg per 107.9 mL solution for injection vial,"onasemnogène abéparvovec 2,158e15 vecteurs génomiques par 107,9 mL solution injectable fiole",ADDED
+9014511,onasemnogene abeparvovec 2.212e15 vg per 110.6 mL solution for injection vial,"onasemnogène abéparvovec 2,212e15 vecteurs génomiques par 110,6 mL solution injectable fiole",ADDED
+9014512,onasemnogene abeparvovec 2.268e15 vg per 113.4 mL solution for injection vial,"onasemnogène abéparvovec 2,268e15 vecteurs génomiques par 113,4 mL solution injectable fiole",ADDED
+9014513,onasemnogene abeparvovec 2.324e15 vg per 116.2 mL solution for injection vial,"onasemnogène abéparvovec 2,324e15 vecteurs génomiques par 116,2 mL solution injectable fiole",ADDED
+9014514,onasemnogene abeparvovec 3.32e14 vg per 16.6 mL solution for injection vial,"onasemnogène abéparvovec 3,32e14 vecteurs génomiques par 16,6 mL solution injectable fiole",ADDED
+9014515,onasemnogene abeparvovec 3.86e14 vg per 19.3 mL solution for injection vial,"onasemnogène abéparvovec 3,86e14 vecteurs génomiques par 19,3 mL solution injectable fiole",ADDED
+9014516,onasemnogene abeparvovec 4.42e14 vg per 22.1 mL solution for injection vial,"onasemnogène abéparvovec 4,42e14 vecteurs génomiques par 22,1 mL solution injectable fiole",ADDED
+9014517,onasemnogene abeparvovec 4.98e14 vg per 24.9 mL solution for injection vial,"onasemnogène abéparvovec 4,98e14 vecteurs génomiques par 24,9 mL solution injectable fiole",ADDED
+9014518,onasemnogene abeparvovec 5.52e14 vg per 27.6 mL solution for injection vial,"onasemnogène abéparvovec 5,52e14 vecteurs génomiques par 27,6 mL solution injectable fiole",ADDED
+9014519,onasemnogene abeparvovec 6.08e14 vg per 30.4 mL solution for injection vial,"onasemnogène abéparvovec 6,08e14 vecteurs génomiques par 30,4 mL solution injectable fiole",ADDED
+9014520,onasemnogene abeparvovec 6.64e14 vg per 33.2 mL solution for injection vial,"onasemnogène abéparvovec 6,64e14 vecteurs génomiques par 33,2 mL solution injectable fiole",ADDED
+9014521,onasemnogene abeparvovec 7.18e14 vg per 35.9 mL solution for injection vial,"onasemnogène abéparvovec 7,18e14 vecteurs génomiques par 35,9 mL solution injectable fiole",ADDED
+9014522,onasemnogene abeparvovec 7.74e14 vg per 38.7 mL solution for injection vial,"onasemnogène abéparvovec 7,74e14 vecteurs génomiques par 38,7 mL solution injectable fiole",ADDED
+9014523,onasemnogene abeparvovec 8.3e14 vg per 41.5 mL solution for injection vial,"onasemnogène abéparvovec 8,3e14 vecteurs génomiques par 41,5 mL solution injectable fiole",ADDED
+9014524,onasemnogene abeparvovec 8.84e14 vg per 44.2 mL solution for injection vial,"onasemnogène abéparvovec 8,84e14 vecteurs génomiques par 44,2 mL solution injectable fiole",ADDED
+9014525,onasemnogene abeparvovec 9.4e14 vg per 47 mL solution for injection vial,"onasemnogène abéparvovec 9,4e14 vecteurs génomiques par 47 mL solution injectable fiole",ADDED
+9014526,onasemnogene abeparvovec 9.96e14 vg per 49.8 mL solution for injection vial,"onasemnogène abéparvovec 9,96e14 vecteurs génomiques par 49,8 mL solution injectable fiole",ADDED
+9014527,pertuzumab 1200 mg per 15 mL and trastuzumab 600 mg per 15 mL solution for injection vial,pertuzumab 1200 mg par 15 mL et trastuzumab 600 mg par 15 mL solution injectable fiole,ADDED
+9014528,pertuzumab 600 mg per 10 mL and trastuzumab 600 mg per 10 mL solution for injection vial,pertuzumab 600 mg par 10 mL et trastuzumab 600 mg par 10 mL solution injectable fiole,ADDED
