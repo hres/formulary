@@ -1,4 +1,7 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"93610","vial","2","mL","Y","N","02450089","SODIUM NITROPRUSSIDE FOR INJECTION STERIMAX INC","fiole"
+"100265","vial","50","mL","Y","N","02513447","RIABNI AMGEN CANADA INC","fiole"
+"100265","vial","10","mL","Y","N","02513447","RIABNI AMGEN CANADA INC","fiole"
 "5326","vial","3","mL","N","Y","00587737","HUMULIN N ELI LILLY CANADA INC","fiole"
 "100057","pen","0.4","mL","N","N","02511355","KESIMPTA NOVARTIS PHARMACEUTICALS CANADA INC","stylo"
 "100216","vial","15","mL","Y","N","02512912","PHESGO HOFFMANN-LA ROCHE LIMITED","fiole"
