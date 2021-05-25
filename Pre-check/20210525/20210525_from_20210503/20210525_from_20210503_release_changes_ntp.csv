@@ -1,0 +1,28 @@
+ntp_code,ntp_formal_name,changes
+1fe50de28247870178a1df375c4caac1,bismuth subsalicylate 262 mg oral capsule,ADDED
+4c80064114870c3a092cbf1aa4b7e4d0,tranexamic acid 100 mg per mL solution for injection,ADDED
+6996c3e4db058c613b1c13c4aee49aa0,morphine sulfate 15 mg per mL solution for injection,ADDED
+7ddee8c4617997389f6ebd2a9442067c,furosemide 10 mg per mL solution for injection,ADDED
+8c49f646a4279a57da197c8329a30b61,morphine sulfate 2 mg per mL solution for injection,ADDED
+8ce182969dc892535b75df8b4bf2b873,pemetrexed (pemetrexed disodium) 1000 mg per vial powder for solution for injection,ADDED
+9000623,nifedipine 20 mg prolonged-release oral tablet,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19951231"" -> ""20190116"""
+9000747,ranitidine (ranitidine hydrochloride) 75 mg oral tablet,"ntp_status_effective_time: ""19970926"" -> ""19990208"""
+9001290,clopidogrel (clopidogrel bisulfate) 300 mg oral tablet,"ntp_status_effective_time: ""20090930"" -> ""20130102"""
+9001477,diazepam 10 mg per 2 mL solution for injection ampoule,"ntp_status_effective_time: ""19801231"" -> ""20130327"""
+9001800,alcohol anhydrous 100 % solution for injection,DELETED
+9005207,ingenol mebutate 0.05 % cutaneous gel,DELETED
+9005726,pembrolizumab 50 mg per vial powder for solution for injection,DELETED
+9005739,acetaminophen 325 mg and dextromethorphan hydrobromide 10 mg and doxylamine succinate 6.25 mg and phenylephrine hydrochloride 5 mg oral tablet,DELETED
+9005845,telavancin (telavancin hydrochloride) 750 mg per vial powder for solution for injection,DELETED
+9006259,mometasone furoate 50 mcg per actuation nasal spray,"ntp_status_effective_time: ""19980915"" -> ""20130325"""
+9006625,meperidine hydrochloride 100 mg per 1 mL solution for injection ampoule,"ntp_status_effective_time: ""20181025"" -> ""20210423"""
+9006626,meperidine hydrochloride 75 mg per 1 mL solution for injection ampoule,"ntp_status_effective_time: ""20181025"" -> ""20210423"""
+9012775,acetylsalicylic acid 375 mg and caffeine (caffeine citrate) 15 mg and codeine phosphate 30 mg oral tablet,"ntp_status_effective_time: ""20180802"" -> ""20210429"""
+9012914,bretylium tosylate 500 mg per 10 mL solution for injection vial,"ntp_status_effective_time: ""20190725"" -> ""20210421"""
+9013398,vinorelbine (vinorelbine tartrate) 10 mg per 1 mL solution for injection vial,"ntp_status_effective_time: ""20041222"" -> ""20070509"""
+9013399,vinorelbine (vinorelbine tartrate) 50 mg per 5 mL solution for injection vial,"ntp_status_effective_time: ""20041222"" -> ""20070509"""
+9013595,phenylephrine hydrochloride 10 mg per 1 mL solution for injection ampoule,DELETED
+939464b5360ea5738e8897c9fefa67ec,morphine sulfate 10 mg per mL solution for injection,ADDED
+b3f9e9bf6d794386b922beecdd7e6326,diazepam 5 mg per mL solution for injection ampoule,ADDED
+f51fb8ccf6099f5afca73ebc7e7e0c55,ondansetron (ondansetron hydrochloride) 2 mg per mL solution for injection,ADDED
