@@ -1,4 +1,5 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"99036","ampoule","1","mL","Y","N","02500701","MORPHINE SULFATE INJECTION JAMP PHARMA CORPORATION","ampoule"
 "3721","ampoule","2","mL","Y","N","00399728","DIAZEPAM INJECTION USP SANDOZ CANADA INCORPORATED","ampoule"
 "98715","vial","10","mL","Y","N","02497328","TRANEXAMIC ACID INJECTION JAMP PHARMA CORPORATION","fiole"
 "94995","vial","20","mL","N","Y","02462257","ONDANSETRON INJECTION USP STERIMAX INC","fiole"
