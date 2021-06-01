@@ -1,0 +1,14 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002371,ranolazine,ranolazine,ADDED
+8001889,bazedoxifene and conjugated estrogens,bazedoxifène et oestrogènes conjugués,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20161220"" -> ""20210519"""
+8001235,telavancin,télavancine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20160106"" -> ""20181212"""
+8001596,bretylium,brétylium,"tm_status_effective_time: ""20190725"" -> ""20210421"""
+8001659,glycopyrrolate,glycopyrrolate,DELETED
+8000806,acetylsalicylic acid and caffeine and codeine,acide acétylsalicylique et caféine et codéine,"tm_status_effective_time: ""20190923"" -> ""20210429"""
+8002369,dalbavancin,dalbavancine,ADDED
+8002300,bacillus Calmette-Guérin substrain TICE,bacille de Calmette-Guérin sous-souche TICE,DELETED
+8002370,decitabine,décitamine,ADDED
+8000817,alcohol anhydrous,alcool anhydre,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19781231"" -> ""20210503"""

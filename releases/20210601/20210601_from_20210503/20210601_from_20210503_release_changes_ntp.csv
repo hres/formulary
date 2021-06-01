@@ -1,0 +1,36 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9000284,sulfamethoxazole 40 mg per mL and trimethoprim 8 mg per mL oral suspension,sulfaméthoxazole 40 mg par mL et triméthoprime 8 mg par mL suspension orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19871231"" -> ""20210514"""
+9000331,morphine sulfate 2 mg per 1 mL solution for injection ampoule,sulfate de morphine 2 mg par 1 mL solution injectable ampoule,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20190304"" -> ""19891231"""
+9000623,nifedipine 20 mg prolonged-release oral tablet,nifédipine 20 mg comprimé oral à libération prolongée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19951231"" -> ""20201209"""
+9001800,alcohol anhydrous 100 % solution for injection,alcool anhydre 100 % solution injectable,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19781231"" -> ""20210503"""
+9002394,xylometazoline hydrochloride 0.1 % nasal drops,"chlorhydrate de xylométazoline 0,1 % gouttes nasales","ntp_status_effective_time: ""20200730"" -> ""20210519"""
+9005207,ingenol mebutate 0.05 % cutaneous gel,"mébutate d'ingénol 0,05 % gel cutané","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20130321"" -> ""20201014"""
+9005726,pembrolizumab 50 mg per vial powder for solution for injection,pembrolizumab 50 mg par fiole poudre pour solution injectable,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20150601"" -> ""20191204"""
+9005739,acetaminophen 325 mg and dextromethorphan hydrobromide 10 mg and doxylamine succinate 6.25 mg and phenylephrine hydrochloride 5 mg oral tablet,"acétaminophène 325 mg et bromhydrate de dextrométhorphane 10 mg et succinate de doxylamine 6,25 mg et chlorhydrate de phényléphrine 5 mg comprimé oral","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20150708"" -> ""20210413"""
+9005845,telavancin (telavancin hydrochloride) 750 mg per vial powder for solution for injection,télavancine (chlorhydrate de télavancine) 750 mg par fiole poudre pour solution injectable,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20160106"" -> ""20181212"""
+9006080,bazedoxifene (bazedoxifene acetate) 20 mg and conjugated estrogens 0.45 mg modified-release oral tablet,"bazedoxifène (acétate de bazedoxifène) 20 mg et oestrogènes conjugués 0,45 mg comprimé oral à libération modifiée","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20161220"" -> ""20210519"""
+9006616,betamethasone valerate 0.1 % cutaneous patch,"valérate de bétaméthasone 0,1 % timbre cutané","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20160405"" -> ""20210520"""
+9006625,meperidine hydrochloride 100 mg per 1 mL solution for injection ampoule,chlorhydrate de mépéridine 100 mg par 1 mL solution injectable ampoule,"ntp_status_effective_time: ""20181025"" -> ""20210423"""
+9006626,meperidine hydrochloride 75 mg per 1 mL solution for injection ampoule,chlorhydrate de mépéridine 75 mg par 1 mL solution injectable ampoule,"ntp_status_effective_time: ""20181025"" -> ""20210423"""
+9012775,acetylsalicylic acid 375 mg and caffeine (caffeine citrate) 15 mg and codeine phosphate 30 mg oral tablet,acide acétylsalicylique 375 mg et caféine (citrate de caféine) 15 mg et phosphate de codéine 30 mg comprimé oral,"ntp_status_effective_time: ""20180802"" -> ""20210429"""
+9012799,ertugliflozin 2.5 mg and metformin hydrochloride 1000 mg oral tablet,"ertugliflozine 2,5 mg et chlorhydrate de metformine 1000 mg comprimé oral","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20180706"" -> ""20210203"""
+9012914,bretylium tosylate 500 mg per 10 mL solution for injection vial,tosylate de brétylium 500 mg par 10 mL solution injectable fiole,"ntp_status_effective_time: ""20190725"" -> ""20210421"""
+9013595,phenylephrine hydrochloride 10 mg per 1 mL solution for injection ampoule,chlorhydrate de phényléphrine 10 mg par 1 mL solution injectable ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20021101"" -> ""20210512"""
+9014445,bacillus Calmette-Guérin substrain TICE 800000000 unit per vial powder for intravesical solution,bacille de Calmette-Guérin sous-souche TICE 800000000 unité par fiole poudre pour solution intravésicale,DELETED
+9014533,bismuth subsalicylate 262 mg oral capsule,subsalicylate de bismuth 262 mg capsule orale,ADDED
+9014534,dalbavancin (dalbavancin hydrochloride) 500 mg per vial powder for solution for injection,dalbavancine (chlorhydrate de dalbavancine) 500 mg par fiole poudre pour solution injectable,ADDED
+9014535,decitabine 50 mg per vial powder for solution for injection,décitamine 50 mg par fiole poudre pour solution injectable,ADDED
+9014538,pemetrexed (pemetrexed disodium) 1000 mg per vial powder for solution for injection,pémétrexed (pémétrexed disodique) 1000 mg par fiole poudre pour solution injectable,ADDED
+9014539,ranolazine 500 mg prolonged-release oral tablet,ranolazine 500 mg comprimé oral à libération prolongée,ADDED
