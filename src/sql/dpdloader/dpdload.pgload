@@ -2,7 +2,7 @@
 -- Connection details drawn from environment variables PGUSER, PGPASSWORD, PGHOST, PGDATABASE
 
 LOAD ARCHIVE
- FROM /home/cyanofsky/dpd/dpd_20210503/allfiles.zip
+ FROM /home/cyanofsky/dpd/dpd_20210601/allfiles.zip
   INTO postgresql://cyanofsky@rest.hc.local/
 
   BEFORE LOAD EXECUTE dpd_structure.sql
