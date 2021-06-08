@@ -1,4 +1,7 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"99680","vial","2","mL","Y","N","02507404","SODIUM NITROPRUSSIDE FOR INJECTION DR REDDY'S LABORATORIES LTD","fiole"
+"98805","vial","10","mL","Y","N","02498278","MORPHINE SULFATE INJECTION EPIDURAL STERIMAX INC","fiole"
+"87077","vial","20","mL","Y","N","02385120","LABETALOL HYDROCHLORIDE INJECTION USP STERIMAX INC","fiole"
 "99036","ampoule","1","mL","Y","N","02500701","MORPHINE SULFATE INJECTION JAMP PHARMA CORPORATION","ampoule"
 "98715","vial","10","mL","Y","N","02497328","TRANEXAMIC ACID INJECTION JAMP PHARMA CORPORATION","fiole"
 "94995","vial","20","mL","N","Y","02462257","ONDANSETRON INJECTION USP STERIMAX INC","fiole"
