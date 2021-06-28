@@ -1,8 +1,8 @@
 #!/bin/bash -e
 # Must set environment variables PGHOST, PGUSER and PGPASSWORD. PGDATABASE must be unset
-ccdd_qa_release_date="20210503"
-ccdd_current_release_date="20210503"
-db_previous_month="ccdd_2021_05_03_171507"
+ccdd_qa_release_date="20210601"
+ccdd_current_release_date="20210601"
+db_previous_month="ccdd_2021_06_01_164438"
 ccdd_current_date=$(date +'%Y%m%d')
 baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 distDir="$baseDir/../dist/$ccdd_current_date"
@@ -161,6 +161,13 @@ psql -c "copy (select * from qa_mp_ntp_tm_relationship_duplicates_code) to STDOU
 cp "$distDir"/*duplicates_name* "$QA_changeDir"
 cp "$distDir"/*duplicates_name* "$release_changeDir" # per Jo-anne's request
 
+psql -c "GRANT ALL PRIVILEGES ON DATABASE $PGUSER TO ccdd_owner;"
+psql -c "GRANT ALL PRIVILEGES ON SCHEMA public TO ccdd_owner;"
+psql -c "GRANT ALL PRIVILEGES ON SCHEMA ccdd TO ccdd_owner;"
+psql -c "GRANT ALL PRIVILEGES ON SCHEMA dpd TO ccdd_owner;"
+psql -c "GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO ccdd_owner;"
+psql -c "GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA ccdd TO ccdd_owner;"
+psql -c "GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA dpd TO ccdd_owner;"
 NEW_DB_NAME=ccdd_$(date +'%Y_%m_%d_%H%M%S')
 # connect to something other that PGUSER because the connected db can't be renamed
 psql -d ccdd -c "ALTER DATABASE $PGUSER RENAME TO $NEW_DB_NAME;"
