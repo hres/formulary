@@ -1,4 +1,5 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"99930","pen","2","mL","Y","N","02510049","DUPIXENT SANOFI-AVENTIS CANADA INC","stylo"
 "99680","vial","2","mL","Y","N","02507404","SODIUM NITROPRUSSIDE FOR INJECTION DR REDDY'S LABORATORIES LTD","fiole"
 "98805","vial","10","mL","Y","N","02498278","MORPHINE SULFATE INJECTION EPIDURAL STERIMAX INC","fiole"
 "87077","vial","20","mL","Y","N","02385120","LABETALOL HYDROCHLORIDE INJECTION USP STERIMAX INC","fiole"
