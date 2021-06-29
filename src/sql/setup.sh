@@ -52,6 +52,7 @@ pgloader "$baseDir/ccdd-inputs.pgload"
 # sed -e "s/%QA_DATE%/$ccdd_qa_release_date/g" "$baseDir/ccdd-current-release.pgload.template" | sed -e "s/%RELEASE_DATE%/$ccdd_current_release_date/g" > "$baseDir/ccdd-current-release.pgload"
 # pgloader "$baseDir/ccdd-current-release.pgload" && rm "$baseDir/ccdd-current-release.pgload"
 pgloader "$baseDir/ccdd-current-release.pgload"
+chmod -R +777 /tmp/pgloader # so anyone can use the temp folder or delete its contents
 
 # load the data from views into main schema
 psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-run-views.sql"
