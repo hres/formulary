@@ -1,0 +1,35 @@
+ntp_code,ntp_formal_name,changes
+09c98ef61ab57d749cf7399e1cfe2529,dupilumab 150 mg per mL solution for injection,ADDED
+0d2442ecf4634a83a34b9377f21a1545,glycopyrrolate 0.2 mg per 1 mL solution for injection,ADDED
+1452fc94b84752e76a92ed954492381c,escitalopram (escitalopram oxalate) 15 mg oral tablet,ADDED
+173e75654932e7a575e5c54125b67a74,enoxaparin sodium 30 mg per 0.3 mL solution for injection,ADDED
+1ce0e8a7e775938a6d774cb7b0a1193b,morphine sulfate 1 mg per mL solution for injection,ADDED
+3192f0a60ffc700d8aec5fc6ceacedb7,enoxaparin sodium 120 mg per 0.8 mL solution for injection,ADDED
+3e59b705dc7e7e3c21a18e378da502f1,lidocaine hydrochloride 1 % solution for injection,ADDED
+401fe8486bb0582d20a2f84265fe0170,lidocaine hydrochloride 2 % solution for injection,ADDED
+408cbefa6e4bfdb9c08b1c4864554438,enoxaparin sodium 100 mg per 1 mL solution for injection,ADDED
+418de25152cd04cf53448422ba6c3a6f,enoxaparin sodium 80 mg per 0.8 mL solution for injection,ADDED
+44cb8fee002e6fe0b7f7734d411c1ce1,rivaroxaban 103.4 mg per bottle oral suspension,ADDED
+488c82b1a3bab950fb88c6bc25a6c0bf,enoxaparin sodium 60 mg per 0.6 mL solution for injection,ADDED
+4c80064114870c3a092cbf1aa4b7e4d0,tranexamic acid 100 mg per mL solution for injection,ADDED
+585dd4e555c7adb560d12c85d20a73f1,glycopyrrolate 4 mg per 20 mL solution for injection,ADDED
+7650ed1c2053d1ce92186359e091ff23,glycopyrrolate 0.4 mg per 2 mL solution for injection,ADDED
+8c9991b1d37155afbf05fa3fcadecd97,enoxaparin sodium 40 mg per 0.4 mL solution for injection,ADDED
+9000062,norethindrone 0.35 mg oral tablet,"ntp_status_effective_time: ""19721231"" -> ""20150630"""
+9000242,acebutolol (acebutolol hydrochloride) 200 mg oral tablet,"ntp_status_effective_time: ""19861231"" -> ""19951231"""
+9002540,cilazapril 2.5 mg oral tablet,"ntp_status_effective_time: ""19931231"" -> ""20050401"""
+9005481,lidocaine 0.7 % and menthol 0.2 % cutaneous gel,DELETED
+9005552,ribavirin 600 mg oral tablet,DELETED
+9013313,methocarbamol 1000 mg per 10 mL solution for injection vial,"ntp_status_effective_time: ""20200826"" -> ""20210614"""
+9013880,gramicidin 0.025 mg per mL and polymyxin B (polymyxin B sulfate) 10000 unit per mL ophthalmic drops,"ntp_status_effective_time: ""20201128"" -> ""20210527"""
+9013882,gramicidin 0.025 mg per mL and polymyxin B (polymyxin B sulfate) 10000 unit per mL otic drops,"ntp_status_effective_time: ""20200829"" -> ""20210609"""
+9013991,suvorexant 10 mg oral tablet,DELETED
+9014419,amifampridine 10 mg oral tablet,DELETED
+afcaf3286ddcdb792c9cf4427ff36ddd,buprenorphine (buprenorphine hydrochloride) 4 mg and naloxone (naloxone hydrochloride) 1 mg buccal/sublingual film,ADDED
+b2f4b09cecace263133ef5dff3681c4d,enoxaparin sodium 150 mg per 1 mL solution for injection,ADDED
+b448c9650d5797c7610abebff86db9a2,risperidone 90 mg NA,ADDED
+b825ff7347c2434c28915b889809dff9,risperidone 120 mg NA,ADDED
+bf56fdb1507dc95855e2714e233c4054,rivaroxaban 51.7 mg per bottle oral suspension,ADDED
+f0b38b95c6c246c912ccad68434c9b7a,phenylephrine hydrochloride 10 mg per mL solution for injection,ADDED
+f51fb8ccf6099f5afca73ebc7e7e0c55,ondansetron (ondansetron hydrochloride) 2 mg per mL solution for injection,ADDED
+f6d8132a920f365b44450a5fd5e0bc72,infliximab 120 mg per mL solution for injection,ADDED
