@@ -7,9 +7,9 @@
 # ARGS (optional)   : qa
 ###############################################################################
 
-ccdd_qa_release_date="20210503"
-ccdd_current_release_date="20210503"
-db_previous_month="ccdd_2021_05_03_171507"
+ccdd_qa_release_date="20210601"
+ccdd_current_release_date="20210601"
+db_previous_month="ccdd_2021_06_01_164438"
 ccdd_current_date=$(date +'%Y%m%d')
 baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 distDir="$baseDir/../dist/$ccdd_current_date"
@@ -71,6 +71,7 @@ psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-instance-structure.sql"
 # sed -e "s/%QA_DATE%/$ccdd_qa_release_date/g" "$baseDir/ccdd-current-release.pgload.template" | sed -e "s/%RELEASE_DATE%/$ccdd_current_release_date/g" > "$baseDir/ccdd-current-release.pgload"
 # pgloader "$baseDir/ccdd-current-release.pgload" && rm "$baseDir/ccdd-current-release.pgload"
 pgloader "$baseDir/ccdd-current-release.pgload"
+chmod -R +777 /tmp/pgloader # so anyone can use the temp folder or delete its contents
 
 # load the data from views into main schema
 psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-run-views.sql"
@@ -89,7 +90,7 @@ if [ $# -gt 0 ] && [ $1 = "qa" ];
     # START dpd import from old database
     dpd_old_database=$db_previous_month;
     dpd_old_schema="dpd";
-    pg_dump $dpd_old_database --schema="$dpd_old_schema" > dpd_old.sql
+    pg_dump $dpd_old_database --schema="$dpd_old_schema" --no-owner > dpd_old.sql
     psql -c "ALTER SCHEMA $dpd_old_schema RENAME TO dpd_temp"
     psql -v "$PGDATABASE" < dpd_old.sql
     psql -c "ALTER SCHEMA dpd RENAME TO dpd_old"
@@ -233,6 +234,13 @@ else
     echo "DPD diff files not exported"
 fi
 
+psql -c "GRANT ALL PRIVILEGES ON DATABASE $PGUSER TO ccdd_owner;"
+psql -c "GRANT ALL PRIVILEGES ON SCHEMA public TO ccdd_owner;"
+psql -c "GRANT ALL PRIVILEGES ON SCHEMA ccdd TO ccdd_owner;"
+psql -c "GRANT ALL PRIVILEGES ON SCHEMA dpd TO ccdd_owner;"
+psql -c "GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO ccdd_owner;"
+psql -c "GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA ccdd TO ccdd_owner;"
+psql -c "GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA dpd TO ccdd_owner;"
 NEW_DB_NAME=ccdd_$(date +'%Y_%m_%d_%H%M%S')
 # connect to something other that PGUSER because the connected db can't be renamed
 psql -d ccdd -c "ALTER DATABASE $PGUSER RENAME TO $NEW_DB_NAME;"
