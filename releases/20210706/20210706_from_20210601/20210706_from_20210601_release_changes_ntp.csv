@@ -1,0 +1,32 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9005481,lidocaine 0.7 % and menthol 0.2 % cutaneous gel,"lidocaïne 0,7 % et menthol 0,2 % gel cutané","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20140328"" -> ""20170313"""
+9005552,ribavirin 600 mg oral tablet,ribavirine 600 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20140714"" -> ""20201008"""
+9006229,morphine sulfate 5 mg per 5 mL solution for injection vial,sulfate de morphine 5 mg par 5 mL solution injectable fiole,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20210421"" -> ""19921231"""
+9012803,ertugliflozin 7.5 mg and metformin hydrochloride 1000 mg oral tablet,"ertugliflozine 7,5 mg et chlorhydrate de metformine 1000 mg comprimé oral","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20180706"" -> ""20210203"""
+9013313,methocarbamol 1000 mg per 10 mL solution for injection vial,méthocarbamol 1000 mg par 10 mL solution injectable fiole,"ntp_status_effective_time: ""20200826"" -> ""20210614"""
+9013880,gramicidin 0.025 mg per mL and polymyxin B (polymyxin B sulfate) 10000 unit per mL ophthalmic drops,"gramicidine 0,025 mg par mL et polymyxine B (sulfate de polymyxine B) 10000 unité par mL gouttes ophtalmiques","ntp_status_effective_time: ""20201128"" -> ""20210527"""
+9013882,gramicidin 0.025 mg per mL and polymyxin B (polymyxin B sulfate) 10000 unit per mL otic drops,"gramicidine 0,025 mg par mL et polymyxine B (sulfate de polymyxine B) 10000 unité par mL gouttes otiques","ntp_status_effective_time: ""20200829"" -> ""20210609"""
+9013991,suvorexant 10 mg oral tablet,suvorexant 10 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20190418"" -> ""20200514"""
+9014541,buprenorphine (buprenorphine hydrochloride) 4 mg and naloxone (naloxone hydrochloride) 1 mg buccal/sublingual film,buprénorphine (chlorhydrate de buprénorphine) 4 mg et naloxone (chlorhydrate de naloxone) 1 mg film buccogingival/sublingual,ADDED
+9014542,drospirenone 3 mg and estetrol 15 mg oral tablet,drospirénone 3 mg et estétrol 15 mg comprimé oral,ADDED
+9014543,dupilumab 300 mg per 2 mL solution for injection pen,dupilumab 300 mg par 2 mL solution injectable stylo,ADDED
+9014544,elexacaftor 100 mg and ivacaftor 75 mg and tezacaftor 50 mg oral tablet with ivacaftor 150 mg oral tablet,élexacaftor 100 mg et ivacaftor 75 mg et tézacaftor 50 mg comprimé oral avec ivacaftor 150 mg comprimé oral,ADDED
+9014545,escitalopram (escitalopram oxalate) 15 mg oral tablet,escitalopram (oxalate d'escitalopram) 15 mg comprimé oral,ADDED
+9014546,fedratinib (fedratinib hydrochloride) 100 mg oral capsule,fédratinib (chlorhydrate de fédratinib) 100 mg capsule orale,ADDED
+9014547,givosiran (givosiran sodium) 189 mg per 1 mL solution for injection vial,givosiran (givosiran sodique) 189 mg par 1 mL solution injectable fiole,ADDED
+9014548,infliximab 120 mg per 1 mL solution for injection pen,infliximab 120 mg par 1 mL solution injectable stylo,ADDED
+9014549,luspatercept 25 mg per vial powder for solution for injection,luspatercept 25 mg par fiole poudre pour solution injectable,ADDED
+9014550,luspatercept 75 mg per vial powder for solution for injection,luspatercept 75 mg par fiole poudre pour solution injectable,ADDED
+9014552,morphine sulfate 5 mg per 10 mL solution for injection vial,sulfate de morphine 5 mg par 10 mL solution injectable fiole,ADDED
+9014553,phenylephrine hydrochloride 100 mg per 10 mL solution for injection vial,chlorhydrate de phényléphrine 100 mg par 10 mL solution injectable fiole,ADDED
+9014554,phenylephrine hydrochloride 50 mg per 5 mL solution for injection vial,chlorhydrate de phényléphrine 50 mg par 5 mL solution injectable fiole,ADDED
+9014555,risdiplam 0.75 mg per mL oral solution,"risdiplam 0,75 mg par mL solution orale",ADDED
+9014556,risperidone 120 mg per syringe powder for prolonged-release suspension for injection with diluent solution syringe,rispéridone 120 mg par seringue poudre pour suspension injectable à libération prolongée avec solution diluante seringue,ADDED
+9014557,risperidone 90 mg per syringe powder for prolonged-release suspension for injection with diluent solution syringe,rispéridone 90 mg par seringue poudre pour suspension injectable à libération prolongée avec solution diluante seringue,ADDED
+9014561,triheptanoin 100 % oral liquid,triheptanoïne 100 % liquide oral,ADDED
+9014562,zanubrutinib 80 mg oral capsule,zanubrutinib 80 mg capsule orale,ADDED

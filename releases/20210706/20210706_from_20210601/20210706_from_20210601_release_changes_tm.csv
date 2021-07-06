@@ -1,0 +1,12 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8001460,ertugliflozin and metformin,ertugliflozine et metformine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20180706"" -> ""20210203"""
+8002374,fedratinib,fédratinib,ADDED
+8002376,luspatercept,luspatercept,ADDED
+8002372,drospirenone and estetrol,drospirénone et estétrol,ADDED
+8002377,risdiplam,risdiplam,ADDED
+8002378,triheptanoin,triheptanoïne,ADDED
+8002375,givosiran,givosiran,ADDED
+8002379,zanubrutinib,zanubrutinib,ADDED
+8001659,glycopyrrolate,glycopyrrolate,DELETED
+8002373,elexacaftor and ivacaftor and tezacaftor,élexacaftor et ivacaftor et tézacaftor,ADDED
