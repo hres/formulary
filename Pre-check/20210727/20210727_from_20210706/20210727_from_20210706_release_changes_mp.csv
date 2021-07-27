@@ -1,0 +1,187 @@
+drug_code,mp_code,mp_formal_name,changes
+1103,00221570,CERUMOL (chlorobutanol 5 % and dichlorobenzene 2 % and oil of turpentine 10 % and peanut oil 57 % otic drops) THORNTON & ROSS LTD,DELETED
+3725,00253952,SYNACTHEN DEPOT (tetracosactide (tetracosactide zinc hydroxide) 1 mg per 1 mL suspension for injection ampoule) ATNAHS PHARMA UK LIMITED,DELETED
+4388,00476714,PYRIDIUM 100MG (phenazopyridine hydrochloride 100 mg oral tablet) ERFA CANADA 2012 INC,DELETED
+5326,00587737,HUMULIN N (insulin isophane human 100 unit per mL suspension for injection 10 mL vial) ELI LILLY CANADA INC,DELETED
+5476,00549703,ACETAMINOPHEN 500 MG TABLETS USP EXTRA STRENGTH (acetaminophen 500 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,DELETED
+5599,00607142,ERYC DELAYED-RELEASE CAPSULES (erythromycin 250 mg gastro-resistant capsule) PFIZER CANADA ULC,DELETED
+11257,01901869,SANDOZ OPIUM & BELLADONNA (belladonna 15 mg and opium 65 mg suppository) SANDOZ CANADA INCORPORATED,DELETED
+11805,00893722,"SEROPHENE TAB 50MG (clomiphene citrate 50 mg oral tablet) EMD SERONO, A DIVISION OF EMD INC., CANADA",DELETED
+12421,01926543,SECTRAL (acebutolol (acebutolol hydrochloride) 100 mg oral tablet) SANOFI-AVENTIS CANADA INC,DELETED
+13092,00891797,PMS-DIAZEPAM SOLUTION 1MG/ML (diazepam 1 mg per mL oral solution) PHARMASCIENCE INC,"mp_status_effective_time: ""20180620"" -> ""20210705"""
+13805,00881635,VOLTAREN RAPIDE (diclofenac potassium 50 mg oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC,"Health_Canada_product_name: ""VOLTAREN RAPIDE TABLETS 50MG"" -> ""VOLTAREN RAPIDE""
+mp_formal_name: ""VOLTAREN RAPIDE ̲T̲A̲B̲L̲E̲T̲S̲ ̲5̲0̲M̲G̲ (diclofenac potassium 50 mg oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC"" -> ""VOLTAREN RAPIDE (diclofenac potassium 50 mg oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC"""
+14475,00743542,ACETAMINOPHEN 325 MG USP REGULAR STRENGTH (acetaminophen 325 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,DELETED
+16636,02103729,ZESTORETIC (hydrochlorothiazide 12.5 mg and lisinopril 10 mg oral tablet) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""ZESTORETIC (hydrochlorothiazide 12.5 mg and lisinopril 10 mg oral tablet) A̲S̲T̲R̲A̲Z̲E̲N̲E̲C̲A̲ ̲C̲A̲N̲A̲D̲A INC"" -> ""ZESTORETIC (hydrochlorothiazide 12.5 mg and lisinopril 10 mg oral tablet) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A INC"""
+16903,02045737,ZESTORETIC (hydrochlorothiazide 12.5 mg and lisinopril 20 mg oral tablet) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""ZESTORETIC (hydrochlorothiazide 12.5 mg and lisinopril 20 mg oral tablet) A̲S̲T̲R̲A̲Z̲E̲N̲E̲C̲A̲ ̲C̲A̲N̲A̲D̲A INC"" -> ""ZESTORETIC (hydrochlorothiazide 12.5 mg and lisinopril 20 mg oral tablet) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A INC"""
+17903,02045729,ZESTORETIC (hydrochlorothiazide 25 mg and lisinopril 20 mg oral tablet) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""ZESTORETIC (hydrochlorothiazide 25 mg and lisinopril 20 mg oral tablet) A̲S̲T̲R̲A̲Z̲E̲N̲E̲C̲A̲ ̲C̲A̲N̲A̲D̲A INC"" -> ""ZESTORETIC (hydrochlorothiazide 25 mg and lisinopril 20 mg oral tablet) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A INC"""
+17905,02039532,TENORMIN (atenolol 50 mg oral tablet) ASTRAZENECA CANADA INC,"Health_Canada_product_name: ""TENORMIN 50MG"" -> ""TENORMIN""
+mp_formal_name: ""TENORMIN ̲5̲0̲M̲G̲ (atenolol 50 mg oral tablet) ASTRAZENECA CANADA INC"" -> ""TENORMIN (atenolol 50 mg oral tablet) ASTRAZENECA CANADA INC"""
+17906,02039540,TENORMIN (atenolol 100 mg oral tablet) ASTRAZENECA CANADA INC,"Health_Canada_product_name: ""TENORMIN 100MG"" -> ""TENORMIN""
+mp_formal_name: ""TENORMIN ̲1̲0̲0̲M̲G̲ (atenolol 100 mg oral tablet) ASTRAZENECA CANADA INC"" -> ""TENORMIN (atenolol 100 mg oral tablet) ASTRAZENECA CANADA INC"""
+19029,02163527,MINITRAN (nitroglycerin 0.4 mg per hour transdermal patch) VALEANT CANADA LP / VALEANT CANADA S.E.C.,DELETED
+19204,02154366,MINOCYCLINE-100 (minocycline (minocycline hydrochloride) 100 mg oral capsule) PRO DOC LIMITEE,DELETED
+19207,02153394,MINOCYCLINE-50 (minocycline (minocycline hydrochloride) 50 mg oral capsule) PRO DOC LIMITEE,DELETED
+44263,02182963,APO-METHOTREXATE (methotrexate 2.5 mg oral tablet) APOTEX INC,"mp_status_effective_time: ""20210630"" -> ""20210705"""
+48167,02229814,MYLAN-ALPRAZOLAM (alprazolam 2 mg oral tablet) MYLAN PHARMACEUTICALS ULC,DELETED
+48182,02229827,SOLARCAINE MEDICATED FIRST AID LOTION (lidocaine hydrochloride 0.5 % lotion) BAYER INC,DELETED
+60149,02236859,AGRYLIN (anagrelide (anagrelide hydrochloride) 0.5 mg oral capsule) TAKEDA CANADA INC,"mp_formal_name: ""AGRYLIN (anagrelide (anagrelide hydrochloride) 0.5 mg oral capsule) S̲H̲I̲R̲E̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲U̲L̲C"" -> ""AGRYLIN (anagrelide (anagrelide hydrochloride) 0.5 mg oral capsule) T̲A̲K̲E̲D̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C"""
+65130,02241490,DM-DECONGESTANT-EXPECTORANT SYRUP (dextromethorphan hydrobromide 15 mg per 5 mL and guaifenesin 100 mg per 5 mL and pseudoephedrine hydrochloride 30 mg per 5 mL syrup) TRILLIUM HEALTH CARE PRODUCTS INC,DELETED
+65650,02241980,NEO-SYNEPHRINE (phenylephrine hydrochloride 10 mg per 1 mL solution for injection ampoule) PFIZER CANADA ULC,"mp_status_effective_time: ""20210512"" -> ""20210708"""
+66187,02242462,LOSEC MUPS (omeprazole (omeprazole magnesium) 20 mg gastro-resistant tablet) CHEPLAPHARM ARZNEIMITTEL GMBH,ADDED
+66620,02242797,ANUZINC HC PLUS (hydrocortisone acetate 10 mg and pramoxine hydrochloride 20 mg and zinc sulfate 10 mg suppository) LABORATOIRES CONFAB INC,"Health_Canada_product_name: ""SANDOZ ANUZINC HC PLUS SUPPOSITORIES"" -> ""ANUZINC HC PLUS""
+mp_formal_name: ""S̲A̲N̲D̲O̲Z̲ ̲ANUZINC HC PLUS̲ ̲S̲U̲P̲P̲O̲S̲I̲T̲O̲R̲I̲E̲S (hydrocortisone acetate 10 mg and pramoxine hydrochloride 20 mg and zinc sulfate 10 mg suppository) S̲A̲N̲D̲O̲Z̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲O̲R̲P̲O̲R̲A̲T̲E̲D̲"" -> ""ANUZINC HC PLUS (hydrocortisone acetate 10 mg and pramoxine hydrochloride 20 mg and zinc sulfate 10 mg suppository) L̲A̲B̲O̲R̲A̲T̲O̲I̲R̲E̲S̲ ̲C̲O̲N̲F̲A̲B̲ ̲I̲N̲C̲""
+mp_status_effective_time: ""20190116"" -> ""20210719"""
+66621,02242798,ANUZINC HC (hydrocortisone acetate 10 mg and zinc sulfate 10 mg suppository) LABORATOIRES CONFAB INC,"Health_Canada_product_name: ""SANDOZ ANUZINC HC SUPPOSITORIES"" -> ""ANUZINC HC""
+mp_formal_name: ""S̲A̲N̲D̲O̲Z̲ ̲ANUZINC HC ̲S̲U̲P̲P̲O̲S̲I̲T̲O̲R̲I̲E̲S̲ (hydrocortisone acetate 10 mg and zinc sulfate 10 mg suppository) S̲A̲N̲D̲O̲Z̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲O̲R̲P̲O̲R̲A̲T̲E̲D̲"" -> ""ANUZINC HC (hydrocortisone acetate 10 mg and zinc sulfate 10 mg suppository) L̲A̲B̲O̲R̲A̲T̲O̲I̲R̲E̲S̲ ̲C̲O̲N̲F̲A̲B̲ ̲I̲N̲C̲""
+mp_status_effective_time: ""20190725"" -> ""20210719"""
+69170,02245159,SANDOZ SERTRALINE (sertraline (sertraline hydrochloride) 25 mg oral capsule) SANDOZ CANADA INCORPORATED,DELETED
+69172,02245160,SANDOZ SERTRALINE (sertraline (sertraline hydrochloride) 50 mg oral capsule) SANDOZ CANADA INCORPORATED,DELETED
+69174,02245161,SANDOZ SERTRALINE (sertraline (sertraline hydrochloride) 100 mg oral capsule) SANDOZ CANADA INCORPORATED,DELETED
+69748,02245648,MYLAN-CIPROFLOXACIN (ciprofloxacin (ciprofloxacin hydrochloride) 500 mg oral tablet) MYLAN PHARMACEUTICALS ULC,DELETED
+70041,02245921,SANDOZ DILTIAZEM T (diltiazem hydrochloride 300 mg prolonged-release oral capsule) SANDOZ CANADA INCORPORATED,DELETED
+73095,02248727,APO-ALENDRONATE (alendronic acid (alendronate sodium) 5 mg oral tablet) APOTEX INC,DELETED
+73677,02251876,MUSCLE AND BACK PAIN RELIEF REGULAR STRENGTH TABLETS (acetaminophen 325 mg and methocarbamol 400 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,DELETED
+73678,02251884,EXTRA STRENGTH MUSCLE & BACK PAIN RELIEF (acetaminophen 500 mg and methocarbamol 400 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,DELETED
+73680,02251906,MUSCLE RELAXANT AND BACK PAIN RELIEF EXTRA STRENGTH TABLETS (acetylsalicylic acid 500 mg and methocarbamol 400 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,DELETED
+73778,02252856,ACETYLSALICYLIC ACID 325MG TABLETS USP (acetylsalicylic acid 325 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,DELETED
+73779,02252864,ACETYLSALICYLIC ACID EXTRA STRENGTH 500MG TABLETS USP (acetylsalicylic acid 500 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,DELETED
+74534,02260107,SANDOZ ANAGRELIDE (anagrelide (anagrelide hydrochloride monohydrate) 0.5 mg oral capsule) SANDOZ CANADA INCORPORATED,DELETED
+74843,02263025,SANDOZ SUMATRIPTAN (sumatriptan (sumatriptan succinate) 50 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+74844,02263033,SANDOZ SUMATRIPTAN (sumatriptan (sumatriptan succinate) 100 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+74882,02263432,TRAVEL TABS (dimenhydrinate 50 mg oral tablet) TANTA PHARMACEUTICALS INC,DELETED
+75444,02269031,RAN-METFORMIN (metformin hydrochloride 500 mg oral tablet) RANBAXY PHARMACEUTICALS CANADA INC.,DELETED
+75445,02269058,RAN-METFORMIN (metformin hydrochloride 850 mg oral tablet) RANBAXY PHARMACEUTICALS CANADA INC.,DELETED
+75534,02269988,ACETAMINOPHEN 500MG AND CAFFEINE 65MG (acetaminophen 500 mg and caffeine 65 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,DELETED
+77343,02288044,SANDOZ FENOFIBRATE S (fenofibrate 100 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+77344,02288052,SANDOZ FENOFIBRATE S (fenofibrate 160 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+77347,02288087,SANDOZ ALENDRONATE (alendronic acid (alendronate sodium) 10 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+77458,02289199,SANDOZ LISINOPRIL (lisinopril (lisinopril dihydrate) 5 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+77459,02289202,SANDOZ LISINOPRIL (lisinopril (lisinopril dihydrate) 10 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20200723"" -> ""20210723"""
+77460,02289229,SANDOZ LISINOPRIL (lisinopril (lisinopril dihydrate) 20 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20200723"" -> ""20210723"""
+78615,02300818,RIVA-ENALAPRIL (enalapril maleate 5 mg oral tablet) LABORATOIRE RIVA INC.,DELETED
+78617,02300834,RIVA-ENALAPRIL (enalapril maleate 20 mg oral tablet) LABORATOIRE RIVA INC.,"mp_status_effective_time: ""20210730"" -> ""20071020"""
+78751,02302179,SANDOZ CEFPROZIL (cefprozil 250 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20210421"" -> ""20210723"""
+78752,02302187,SANDOZ CEFPROZIL (cefprozil 500 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20210421"" -> ""20210723"""
+78926,02303949,PMSC-ESCITALOPRAM (escitalopram (escitalopram oxalate) 10 mg oral tablet) PHARMASCIENCE INC,"Health_Canada_product_name: ""ESCITALOPRAM"" -> ""PMSC-ESCITALOPRAM""
+mp_formal_name: ""ESCITALOPRAM (escitalopram (escitalopram oxalate) 10 mg oral tablet) PHARMASCIENCE INC"" -> ""P̲M̲S̲C̲-̲ESCITALOPRAM (escitalopram (escitalopram oxalate) 10 mg oral tablet) PHARMASCIENCE INC"""
+78928,02303965,PMSC-ESCITALOPRAM (escitalopram (escitalopram oxalate) 20 mg oral tablet) PHARMASCIENCE INC,"Health_Canada_product_name: ""ESCITALOPRAM"" -> ""PMSC-ESCITALOPRAM""
+mp_formal_name: ""ESCITALOPRAM (escitalopram (escitalopram oxalate) 20 mg oral tablet) PHARMASCIENCE INC"" -> ""P̲M̲S̲C̲-̲ESCITALOPRAM (escitalopram (escitalopram oxalate) 20 mg oral tablet) PHARMASCIENCE INC""
+mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20200515"" -> ""20140910"""
+79951,02313995,SANDOZ QUETIAPINE (quetiapine (quetiapine fumarate) 25 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+79953,02314010,SANDOZ QUETIAPINE (quetiapine (quetiapine fumarate) 200 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+79954,02314029,SANDOZ QUETIAPINE (quetiapine (quetiapine fumarate) 300 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+81657,02330822,DAYTIME COLD MEDICATION LIQUID FASTGELS (acetaminophen 250 mg and dextromethorphan hydrobromide 10 mg and guaifenesin 100 mg and pseudoephedrine hydrochloride 30 mg oral capsule) VITA HEALTH PRODUCTS INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20200703"" -> ""20110324"""
+82205,02336480,RAN-RANITIDINE (ranitidine (ranitidine hydrochloride) 150 mg oral tablet) RANBAXY PHARMACEUTICALS CANADA INC.,DELETED
+82207,02336502,RAN-RANITIDINE (ranitidine (ranitidine hydrochloride) 300 mg oral tablet) RANBAXY PHARMACEUTICALS CANADA INC.,DELETED
+83824,02353016,RANITIDINE (ranitidine (ranitidine hydrochloride) 150 mg oral tablet) SANIS HEALTH INC,DELETED
+83825,02353024,RANITIDINE (ranitidine (ranitidine hydrochloride) 300 mg oral tablet) SANIS HEALTH INC,DELETED
+83844,02353229,LOVASTATIN (lovastatin 20 mg oral tablet) SANIS HEALTH INC,DELETED
+83845,02353237,LOVASTATIN (lovastatin 40 mg oral tablet) SANIS HEALTH INC,DELETED
+84049,02355248,ACCEL-CITALOPRAM TABLETS (citalopram (citalopram hydrobromide) 10 mg oral tablet) ACCEL PHARMA INC,DELETED
+84050,02355256,ACCEL-CITALOPRAM TABLETS (citalopram (citalopram hydrobromide) 20 mg oral tablet) ACCEL PHARMA INC,DELETED
+84281,02357712,SEPTA-AMLODIPINE (amlodipine (amlodipine besylate) 5 mg oral tablet) SEPTA PHARMACEUTICALS INC,DELETED
+84282,02357720,SEPTA-AMLODIPINE (amlodipine (amlodipine besylate) 10 mg oral tablet) SEPTA PHARMACEUTICALS INC,DELETED
+86257,02376997,DULCOCOMFORT STOOL SOFTENER (docusate sodium 100 mg oral capsule) SANOFI CONSUMER HEALTH INC / SANOFI SANTE GRAND PUBLIC INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20210317"" -> ""20140311"""
+86721,02381389,"EDARBI (azilsartan medoxomil (azilsartan medoxomil potassium) 40 mg oral tablet) BAUSCH HEALTH, CANADA INC.","mp_formal_name: ""EDARBI (azilsartan medoxomil (azilsartan medoxomil potassium) 40 mg oral tablet) V̲A̲L̲E̲A̲N̲T̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲P̲ ̲/̲ ̲V̲A̲L̲E̲A̲N̲T̲ ̲C̲A̲N̲A̲D̲A̲ ̲S̲.̲E̲.̲C."" -> ""EDARBI (azilsartan medoxomil (azilsartan medoxomil potassium) 40 mg oral tablet) B̲A̲U̲S̲C̲H̲ ̲H̲E̲A̲L̲T̲H̲,̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C."""
+86722,02381397,"EDARBI (azilsartan medoxomil (azilsartan medoxomil potassium) 80 mg oral tablet) BAUSCH HEALTH, CANADA INC.","mp_formal_name: ""EDARBI (azilsartan medoxomil (azilsartan medoxomil potassium) 80 mg oral tablet) V̲A̲L̲E̲A̲N̲T̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲P̲ ̲/̲ ̲V̲A̲L̲E̲A̲N̲T̲ ̲C̲A̲N̲A̲D̲A̲ ̲S̲.̲E̲.̲C."" -> ""EDARBI (azilsartan medoxomil (azilsartan medoxomil potassium) 80 mg oral tablet) B̲A̲U̲S̲C̲H̲ ̲H̲E̲A̲L̲T̲H̲,̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C."""
+86763,02381788,COVERGIRL OUTLAST ALL DAY STAY FABULOUS 3-IN-1 FOUNDATION (ensulizole 3 % cutaneous emulsion) HFC PRESTIGE INTERNATIONAL CANADA INC,"mp_status_effective_time: ""20181101"" -> ""20210802"""
+86884,02383055,BISOPROLOL (bisoprolol fumarate 5 mg oral tablet) SIVEM PHARMACEUTICALS ULC,DELETED
+86885,02383063,BISOPROLOL (bisoprolol fumarate 10 mg oral tablet) SIVEM PHARMACEUTICALS ULC,DELETED
+87185,02386275,SANDOZ BOSENTAN (bosentan (bosentan monohydrate) 62.5 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+87186,02386283,SANDOZ BOSENTAN (bosentan (bosentan monohydrate) 125 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+87377,02388227,PAROXETINE (paroxetine (paroxetine hydrochloride) 10 mg oral tablet) SIVEM PHARMACEUTICALS ULC,"mp_formal_name: ""PAROXETINE (paroxetine (paroxetine hydrochloride ̲a̲c̲e̲t̲o̲n̲e̲ ̲s̲o̲l̲v̲a̲t̲e̲) 10 mg oral tablet) SIVEM PHARMACEUTICALS ULC"" -> ""PAROXETINE (paroxetine (paroxetine hydrochloride) 10 mg oral tablet) SIVEM PHARMACEUTICALS ULC"""
+87378,02388235,PAROXETINE (paroxetine (paroxetine hydrochloride) 20 mg oral tablet) SIVEM PHARMACEUTICALS ULC,"mp_formal_name: ""PAROXETINE (paroxetine (paroxetine hydrochloride ̲a̲c̲e̲t̲o̲n̲e̲ ̲s̲o̲l̲v̲a̲t̲e̲) 20 mg oral tablet) SIVEM PHARMACEUTICALS ULC"" -> ""PAROXETINE (paroxetine (paroxetine hydrochloride) 20 mg oral tablet) SIVEM PHARMACEUTICALS ULC"""
+87379,02388243,PAROXETINE (paroxetine (paroxetine hydrochloride) 30 mg oral tablet) SIVEM PHARMACEUTICALS ULC,"mp_formal_name: ""PAROXETINE (paroxetine (paroxetine hydrochloride ̲a̲c̲e̲t̲o̲n̲e̲ ̲s̲o̲l̲v̲a̲t̲e̲) 30 mg oral tablet) SIVEM PHARMACEUTICALS ULC"" -> ""PAROXETINE (paroxetine (paroxetine hydrochloride) 30 mg oral tablet) SIVEM PHARMACEUTICALS ULC"""
+87982,02394685,SANDOZ LATANOPROST/TIMOLOL (latanoprost 50 mcg per mL and timolol (timolol maleate) 5 mg per mL ophthalmic drops) SANDOZ CANADA INCORPORATED,DELETED
+88209,02397099,RAN-QUETIAPINE (quetiapine (quetiapine fumarate) 25 mg oral tablet) RANBAXY PHARMACEUTICALS CANADA INC.,DELETED
+88267,02397749,"EDARBYCLOR (azilsartan medoxomil (azilsartan medoxomil potassium) 40 mg and chlorthalidone 12.5 mg oral tablet) BAUSCH HEALTH, CANADA INC.","mp_formal_name: ""EDARBYCLOR (azilsartan medoxomil (azilsartan medoxomil potassium) 40 mg and chlorthalidone 12.5 mg oral tablet) V̲A̲L̲E̲A̲N̲T̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲P̲ ̲/̲ ̲V̲A̲L̲E̲A̲N̲T̲ ̲C̲A̲N̲A̲D̲A̲ ̲S̲.̲E̲.̲C."" -> ""EDARBYCLOR (azilsartan medoxomil (azilsartan medoxomil potassium) 40 mg and chlorthalidone 12.5 mg oral tablet) B̲A̲U̲S̲C̲H̲ ̲H̲E̲A̲L̲T̲H̲,̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C."""
+88268,02397757,"EDARBYCLOR (azilsartan medoxomil (azilsartan medoxomil potassium) 80 mg and chlorthalidone 12.5 mg oral tablet) BAUSCH HEALTH, CANADA INC.","mp_formal_name: ""EDARBYCLOR (azilsartan medoxomil (azilsartan medoxomil potassium) 80 mg and chlorthalidone 12.5 mg oral tablet) V̲A̲L̲E̲A̲N̲T̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲P̲ ̲/̲ ̲V̲A̲L̲E̲A̲N̲T̲ ̲C̲A̲N̲A̲D̲A̲ ̲S̲.̲E̲.̲C."" -> ""EDARBYCLOR (azilsartan medoxomil (azilsartan medoxomil potassium) 80 mg and chlorthalidone 12.5 mg oral tablet) B̲A̲U̲S̲C̲H̲ ̲H̲E̲A̲L̲T̲H̲,̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C.""
+mp_status_effective_time: ""20170727"" -> ""20210713"""
+88269,02397765,"EDARBYCLOR (azilsartan medoxomil (azilsartan medoxomil potassium) 40 mg and chlorthalidone 25 mg oral tablet) BAUSCH HEALTH, CANADA INC.","mp_formal_name: ""EDARBYCLOR (azilsartan medoxomil (azilsartan medoxomil potassium) 40 mg and chlorthalidone 25 mg oral tablet) V̲A̲L̲E̲A̲N̲T̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲P̲ ̲/̲ ̲V̲A̲L̲E̲A̲N̲T̲ ̲C̲A̲N̲A̲D̲A̲ ̲S̲.̲E̲.̲C."" -> ""EDARBYCLOR (azilsartan medoxomil (azilsartan medoxomil potassium) 40 mg and chlorthalidone 25 mg oral tablet) B̲A̲U̲S̲C̲H̲ ̲H̲E̲A̲L̲T̲H̲,̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C."""
+88493,02400103,ACID REDUCER (ranitidine (ranitidine hydrochloride) 150 mg oral tablet) PHARMASCIENCE INC,DELETED
+89394,02409224,EXTRA STRENGTH DORMEX CAPSULES (diphenhydramine hydrochloride 50 mg oral capsule) VITA HEALTH PRODUCTS INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20190711"" -> ""20131106"""
+89421,02409526,VICKS DAYQUIL COMPLETE COLD & FLU CAPLETS (acetaminophen 325 mg and dextromethorphan hydrobromide 10 mg and guaifenesin 200 mg and phenylephrine hydrochloride 5 mg oral tablet) PROCTER & GAMBLE INC,DELETED
+89876,02414090,RAN-OLANZAPINE ODT (olanzapine 5 mg orodispersible tablet) RANBAXY PHARMACEUTICALS CANADA INC.,DELETED
+89879,02414120,RAN-OLANZAPINE ODT (olanzapine 20 mg orodispersible tablet) RANBAXY PHARMACEUTICALS CANADA INC.,DELETED
+90253,02417936,REDDY-ATORVASTATIN (atorvastatin (atorvastatin calcium) 10 mg oral tablet) DR REDDY'S LABORATORIES LTD,DELETED
+90254,02417944,REDDY-ATORVASTATIN (atorvastatin (atorvastatin calcium) 20 mg oral tablet) DR REDDY'S LABORATORIES LTD,DELETED
+90255,02417952,REDDY-ATORVASTATIN (atorvastatin (atorvastatin calcium) 40 mg oral tablet) DR REDDY'S LABORATORIES LTD,DELETED
+90256,02417960,REDDY-ATORVASTATIN (atorvastatin (atorvastatin calcium) 80 mg oral tablet) DR REDDY'S LABORATORIES LTD,DELETED
+90912,02424444,SANDOZ DUTASTERIDE CAPSULE (dutasteride 0.5 mg oral capsule) SANDOZ CANADA INCORPORATED,DELETED
+91206,02427540,COMPLETE DAYTIME (acetaminophen 500 mg and dextromethorphan hydrobromide 15 mg and pseudoephedrine hydrochloride 30 mg oral tablet) VITA HEALTH PRODUCTS INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20200703"" -> ""20180205"""
+91694,02432498,COLD AND FLU RELIEF (acetaminophen 650 mg per sachet and diphenhydramine hydrochloride 25 mg per sachet and phenylephrine hydrochloride 10 mg per sachet powder for oral solution) CELLCHEM PHARMACEUTICALS INC.,DELETED
+91781,02433435,"MUCINEX MULTI-ACTION CONGESTION, COLD & COUGH (acetaminophen 325 mg and dextromethorphan hydrobromide 10 mg and guaifenesin 200 mg and phenylephrine hydrochloride 5 mg oral tablet) RB HEALTH (CANADA) INC.","Health_Canada_product_name: ""MUCINEX MULTI-ACTION COLD, FLU & SORE THROAT CAPLETS"" -> ""MUCINEX MULTI-ACTION CONGESTION, COLD & COUGH""
+mp_formal_name: ""MUCINEX MULTI-ACTION COL̲D̲,̲ ̲F̲L̲U̲ ̲&̲ ̲S̲O̲R̲E̲ ̲T̲H̲R̲O̲A̲T̲ ̲C̲A̲P̲L̲E̲T̲S̲ (acetaminophen 325 mg and dextromethorphan hydrobromide 10 mg and guaifenesin 200 mg and phenylephrine hydrochloride 5 mg oral tablet) RB HEALTH (CANADA) INC."" -> ""MUCINEX MULTI-ACTION CON̲G̲E̲S̲T̲I̲O̲N̲,̲ ̲C̲O̲L̲D̲ ̲&̲ ̲C̲O̲U̲G̲H̲ (acetaminophen 325 mg and dextromethorphan hydrobromide 10 mg and guaifenesin 200 mg and phenylephrine hydrochloride 5 mg oral tablet) RB HEALTH (CANADA) INC."""
+91782,02433451,"MUCINEX MULTI-ACTION CONGESTION, COLD & FLU (acetaminophen 325 mg and guaifenesin 200 mg and phenylephrine hydrochloride 5 mg oral tablet) RB HEALTH (CANADA) INC.","Health_Canada_product_name: ""MUCINEX MULTI-ACTION COLD & SINUS CAPLETS"" -> ""MUCINEX MULTI-ACTION CONGESTION, COLD & FLU""
+mp_formal_name: ""MUCINEX MULTI-ACTION COL̲D̲ ̲&̲ ̲S̲I̲N̲U̲S̲ ̲C̲A̲P̲L̲E̲T̲S̲ (acetaminophen 325 mg and guaifenesin 200 mg and phenylephrine hydrochloride 5 mg oral tablet) RB HEALTH (CANADA) INC."" -> ""MUCINEX MULTI-ACTION CON̲G̲E̲S̲T̲I̲O̲N̲,̲ ̲C̲O̲L̲D̲ ̲&̲ ̲F̲L̲U̲ (acetaminophen 325 mg and guaifenesin 200 mg and phenylephrine hydrochloride 5 mg oral tablet) RB HEALTH (CANADA) INC."""
+92121,02436892,"CHLORHEXIDINE GLUCONATE 0.12% ORAL RINSE, USP (chlorhexidine gluconate 0.12 % mouthwash) SAGE PRODUCTS LLC",DELETED
+92274,02438364,SYNAGIS (palivizumab 100 mg per 1 mL solution for injection vial) ASTRAZENECA CANADA INC,"mp_formal_name: ""SYNAGIS (palivizumab 100 mg per 1 mL solution for injection vial) AB̲B̲V̲I̲E̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"" -> ""SYNAGIS (palivizumab 100 mg per 1 mL solution for injection vial) AS̲T̲R̲A̲Z̲E̲N̲E̲C̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"""
+92275,02438372,SYNAGIS (palivizumab 50 mg per 0.5 mL solution for injection vial) ASTRAZENECA CANADA INC,"mp_formal_name: ""SYNAGIS (palivizumab 50 mg per 0.5 mL solution for injection vial) AB̲B̲V̲I̲E̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"" -> ""SYNAGIS (palivizumab 50 mg per 0.5 mL solution for injection vial) AS̲T̲R̲A̲Z̲E̲N̲E̲C̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"""
+92461,02440237,PRIVA-CITALOPRAM (citalopram (citalopram hydrobromide) 10 mg oral tablet) PHARMAPAR INC,DELETED
+92463,02440253,PRIVA-CITALOPRAM (citalopram (citalopram hydrobromide) 40 mg oral tablet) PHARMAPAR INC,DELETED
+92674,02442388,MINT-LEVETIRACETAM (levetiracetam 250 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+92675,02442396,MINT-LEVETIRACETAM (levetiracetam 500 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+92676,02442418,MINT-LEVETIRACETAM (levetiracetam 750 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+92684,02442493,ESOMEPRAZOLE (esomeprazole (esomeprazole magnesium) 20 mg gastro-resistant tablet) SIVEM PHARMACEUTICALS ULC,DELETED
+92685,02442507,ESOMEPRAZOLE (esomeprazole (esomeprazole magnesium) 40 mg gastro-resistant tablet) SIVEM PHARMACEUTICALS ULC,DELETED
+92698,02442639,SDZ CELECOXIB (celecoxib 100 mg oral capsule) SANDOZ CANADA INCORPORATED,DELETED
+92699,02442647,SDZ CELECOXIB (celecoxib 200 mg oral capsule) SANDOZ CANADA INCORPORATED,DELETED
+93214,02446707,PRIVA-LOSARTAN (losartan potassium 50 mg oral tablet) PHARMAPAR INC,DELETED
+93265,02447088,PRIVA-QUETIAPINE (quetiapine (quetiapine fumarate) 25 mg oral tablet) PHARMAPAR INC,DELETED
+93852,02452081,RAN-TADALAFIL (tadalafil 2.5 mg oral tablet) RANBAXY PHARMACEUTICALS CANADA INC.,DELETED
+94243,02455617,LAX-A-DAY MEN (polyethylene glycol 3350 100 % powder for oral solution) PENDOPHARM DIVISION OF PHARMASCIENCE INC,DELETED
+94401,02457016,TADALAFIL (tadalafil 5 mg oral tablet) SANIS HEALTH INC,ADDED
+94402,02457024,TADALAFIL (tadalafil 10 mg oral tablet) SANIS HEALTH INC,ADDED
+94403,02457032,TADALAFIL (tadalafil 20 mg oral tablet) SANIS HEALTH INC,ADDED
+94591,02458764,CCP-RIZATRIPTAN ODT (rizatriptan (rizatriptan benzoate) 5 mg orodispersible tablet) CELLCHEM PHARMACEUTICALS INC.,DELETED
+94592,02458772,CCP-RIZATRIPTAN ODT (rizatriptan (rizatriptan benzoate) 10 mg orodispersible tablet) CELLCHEM PHARMACEUTICALS INC.,DELETED
+94602,02458845,BISACODYL 5 MG (bisacodyl 5 mg suppository) CELLCHEM PHARMACEUTICALS INC.,DELETED
+94603,02458853,BISACODYL 10 MG (bisacodyl 10 mg suppository) CELLCHEM PHARMACEUTICALS INC.,DELETED
+94719,02459884,CCP-LETROZOLE (letrozole 2.5 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,DELETED
+95659,02468190,CHILDREN'S MOTION SICKNESS LIQUID (dimenhydrinate 15 mg per 5 mL oral solution) ARA-AVANTI RX ANALYTICS INC,"mp_status_effective_time: ""20190801"" -> ""20210707"""
+96292,02473534,M-RANITIDINE (ranitidine (ranitidine hydrochloride) 150 mg oral tablet) MANTRA PHARMA INC,DELETED
+96293,02473542,M-RANITIDINE (ranitidine (ranitidine hydrochloride) 300 mg oral tablet) MANTRA PHARMA INC,DELETED
+96577,02475391,GANCICLOVIR FOR INJECTION USP (ganciclovir (ganciclovir sodium) 500 mg per vial powder for solution for injection) STERIMAX INC,ADDED
+98429,02494264,TARO-BUDESONIDE (budesonide 0.125 mg per mL nebulizer suspension) TARO PHARMACEUTICALS INC,ADDED
+98529,02495376,JAMP DILTIAZEM T (diltiazem hydrochloride 120 mg prolonged-release oral capsule) JAMP PHARMA CORPORATION,ADDED
+98530,02495384,JAMP DILTIAZEM T (diltiazem hydrochloride 180 mg prolonged-release oral capsule) JAMP PHARMA CORPORATION,ADDED
+98531,02495392,JAMP DILTIAZEM T (diltiazem hydrochloride 240 mg prolonged-release oral capsule) JAMP PHARMA CORPORATION,ADDED
+98532,02495406,JAMP DILTIAZEM T (diltiazem hydrochloride 300 mg prolonged-release oral capsule) JAMP PHARMA CORPORATION,ADDED
+98533,02495414,JAMP DILTIAZEM T (diltiazem hydrochloride 360 mg prolonged-release oral capsule) JAMP PHARMA CORPORATION,ADDED
+98584,02495945,CALCIUM CHLORIDE INJECTION BP (calcium chloride 100 mg per mL solution for injection) STERIMAX INC,ADDED
+98885,02499096,"CEFEPIME FOR INJECTION USP (cefepime (cefepime hydrochloride) 2 g per vial powder for solution for injection) TELIP, LLC, A SUBSIDIARY OF TELIGENT, INC.",ADDED
+98886,02499118,"AFTER SUN GEL (lidocaine 0.8 % cutaneous gel) FRUIT OF THE EARTH, INC",ADDED
+98897,02499223,AURO-INDOMETHACIN (indomethacin 50 mg oral capsule) AURO PHARMA INC,ADDED
+98955,02499827,TUKYSA (tucatinib 50 mg oral tablet) SEAGEN INC.,"mp_formal_name: ""TUKYSA (tucatinib 50 mg oral tablet) SEAT̲T̲L̲E̲ ̲GENE̲T̲I̲C̲S̲,̲ INC."" -> ""TUKYSA (tucatinib 50 mg oral tablet) SEAGEN INC."""
+98956,02499835,TUKYSA (tucatinib 150 mg oral tablet) SEAGEN INC.,"mp_formal_name: ""TUKYSA (tucatinib 150 mg oral tablet) SEAT̲T̲L̲E̲ ̲GENE̲T̲I̲C̲S̲,̲ INC."" -> ""TUKYSA (tucatinib 150 mg oral tablet) SEAGEN INC."""
+99033,02500663,JAMP GEFITINIB (gefitinib 250 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+99116,02501554,"FENTANYL CITRATE INJECTION, USP (fentanyl (fentanyl citrate) 50 mcg per mL solution for injection) FRESENIUS KABI CANADA LTD",ADDED
+99517,02505797,MINT-LEVOFLOXACIN (levofloxacin (levofloxacin hemihydrate) 250 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+99518,02505800,MINT-LEVOFLOXACIN (levofloxacin (levofloxacin hemihydrate) 750 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+99519,02505819,MINT-LEVOFLOXACIN (levofloxacin (levofloxacin hemihydrate) 500 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+99582,02506459,NOROMBY (enoxaparin sodium 30 mg per 0.3 mL solution for injection) JUNO PHARMACEUTICALS CORP.,ADDED
+99583,02506467,NOROMBY (enoxaparin sodium 40 mg per 0.4 mL solution for injection) JUNO PHARMACEUTICALS CORP.,ADDED
+99584,02506475,NOROMBY (enoxaparin sodium 60 mg per 0.6 mL solution for injection) JUNO PHARMACEUTICALS CORP.,ADDED
+99585,02506483,NOROMBY (enoxaparin sodium 80 mg per 0.8 mL solution for injection) JUNO PHARMACEUTICALS CORP.,ADDED
+99586,02506491,NOROMBY (enoxaparin sodium 100 mg per mL solution for injection) JUNO PHARMACEUTICALS CORP.,ADDED
+99587,02506505,NOROMBY HP (enoxaparin sodium 120 mg per 0.8 mL solution for injection) JUNO PHARMACEUTICALS CORP.,ADDED
+99588,02506513,NOROMBY HP (enoxaparin sodium 150 mg per mL solution for injection) JUNO PHARMACEUTICALS CORP.,ADDED
+99741,02508052,TAVALISSE (fostamatinib (fostamatinib disodium) 100 mg oral tablet) MEDISON PHARMA CANADA INC.,"mp_formal_name: ""TAVALISSE (fostamatinib (fostamatinib disodium) 100 mg oral tablet) R̲I̲G̲E̲L̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ INC."" -> ""TAVALISSE (fostamatinib (fostamatinib disodium) 100 mg oral tablet) M̲E̲D̲I̲S̲O̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ INC."""
+99742,02508060,TAVALISSE (fostamatinib (fostamatinib disodium) 150 mg oral tablet) MEDISON PHARMA CANADA INC.,"mp_formal_name: ""TAVALISSE (fostamatinib (fostamatinib disodium) 150 mg oral tablet) R̲I̲G̲E̲L̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ INC."" -> ""TAVALISSE (fostamatinib (fostamatinib disodium) 150 mg oral tablet) M̲E̲D̲I̲S̲O̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ INC."""
+99746,02508109,MINT-LETROZOLE (letrozole 2.5 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+99881,02509512,HEMORRHOIDAL SUPPOSITORIES (phenylephrine hydrochloride 0.25 % suppository) H.J. SUTTON INDUSTRIES LTD.,ADDED
+100012,02510855,JAMP KETOROLAC (ketorolac tromethamine 10 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+100015,02510871,ORAL-B GUM THERAPY (cetylpyridinium chloride 0.07 % NA) PROCTER & GAMBLE INC,ADDED
+100026,02511010,MAR-PALIPERIDONE (paliperidone 3 mg prolonged-release oral tablet) MARCAN PHARMACEUTICALS INC,ADDED
+100027,02511029,MAR-PALIPERIDONE (paliperidone 6 mg prolonged-release oral tablet) MARCAN PHARMACEUTICALS INC,ADDED
+100056,02511347,"VINORELBINE INJECTION, USP (vinorelbine (vinorelbine tartrate) 10 mg per mL solution for injection) FRESENIUS KABI CANADA LTD",ADDED
+100089,02511851,CREST PRO-HEALTH GUM & BREATH PURIFY (cetylpyridinium chloride 0.07 % mouthwash) PROCTER & GAMBLE INC,ADDED
+100446,02515067,WAYMADE-TRIENTINE (trientine hydrochloride 250 mg oral capsule) WAYMADE PLC,ADDED
+NA,77700841,ADENOCARD INJECTION -PRE-FILLED SYRINGE (adenosine 12 mg per 4 mL solution for injection syringe) ASTELLAS PHARMA CANADA INC,DELETED
+NA,77700842,ADENOCARD INJECTION -PRE-FILLED SYRINGE (adenosine 6 mg per 2 mL solution for injection syringe) ASTELLAS PHARMA CANADA INC,DELETED

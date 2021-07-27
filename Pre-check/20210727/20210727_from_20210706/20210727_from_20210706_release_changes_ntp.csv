@@ -1,0 +1,30 @@
+ntp_code,ntp_formal_name,changes
+0cc68f097b2303ab727679d2791188dd,enoxaparin sodium 100 mg per mL solution for injection,ADDED
+173e75654932e7a575e5c54125b67a74,enoxaparin sodium 30 mg per 0.3 mL solution for injection,ADDED
+1cae511d7423e46d6599b27a968bf3ff,vinorelbine (vinorelbine tartrate) 10 mg per mL solution for injection,ADDED
+297174b9e1fb32d843a5d9faee8a0097,lidocaine 0.8 % cutaneous gel,ADDED
+3192f0a60ffc700d8aec5fc6ceacedb7,enoxaparin sodium 120 mg per 0.8 mL solution for injection,ADDED
+418de25152cd04cf53448422ba6c3a6f,enoxaparin sodium 80 mg per 0.8 mL solution for injection,ADDED
+488c82b1a3bab950fb88c6bc25a6c0bf,enoxaparin sodium 60 mg per 0.6 mL solution for injection,ADDED
+4b88daf4ef19c776ce7677dd7aa021bd,fentanyl (fentanyl citrate) 50 mcg per mL solution for injection,ADDED
+8c9991b1d37155afbf05fa3fcadecd97,enoxaparin sodium 40 mg per 0.4 mL solution for injection,ADDED
+9000184,erythromycin 250 mg gastro-resistant capsule,DELETED
+9000241,acebutolol (acebutolol hydrochloride) 100 mg oral tablet,"ntp_status_effective_time: ""19861231"" -> ""19951231"""
+9000375,belladonna 15 mg and opium 65 mg suppository,DELETED
+9000417,diazepam 1 mg per mL oral solution,"ntp_status_effective_time: ""20180620"" -> ""20210705"""
+9001703,phenazopyridine hydrochloride 100 mg oral tablet,DELETED
+9001900,calcium chloride 100 mg per mL solution for injection,ADDED
+9003099,lidocaine hydrochloride 0.5 % lotion,DELETED
+9005205,azilsartan medoxomil (azilsartan medoxomil potassium) 80 mg and chlorthalidone 12.5 mg oral tablet,"ntp_status_effective_time: ""20170727"" -> ""20210713"""
+9005568,acetaminophen 325 mg and dextromethorphan hydrobromide 10 mg and guaifenesin 200 mg and phenylephrine hydrochloride 5 mg oral tablet,"ntp_status_effective_time: ""20140815"" -> ""20200720"""
+9006636,dimenhydrinate 15 mg per 5 mL oral solution,"ntp_status_effective_time: ""20200531"" -> ""20210707"""
+9012786,clomiphene citrate 50 mg oral tablet,DELETED
+9013263,adenosine 12 mg per 4 mL solution for injection syringe,"ntp_status_effective_time: ""19941231"" -> ""20170817"""
+9013264,adenosine 6 mg per 2 mL solution for injection syringe,"ntp_status_effective_time: ""19941231"" -> ""20170817"""
+9013359,tetracosactide (tetracosactide zinc hydroxide) 1 mg per 1 mL suspension for injection ampoule,DELETED
+9013595,phenylephrine hydrochloride 10 mg per 1 mL solution for injection ampoule,"ntp_status_effective_time: ""20210512"" -> ""20210708"""
+9013807,chlorobutanol 5 % and dichlorobenzene 2 % and oil of turpentine 10 % and peanut oil 57 % otic drops,DELETED
+a6d17287d2433404551932a8be92b3b6,phenylephrine hydrochloride 0.25 % suppository,ADDED
+bbd6d94194530ead454e36c06d68a895,cetylpyridinium chloride 0.07 % NA,ADDED
+ce5b5683572c7c2d29b77394c8235133,enoxaparin sodium 150 mg per mL solution for injection,ADDED
+eed8bad9b6c61abb767b2aa8188031bf,budesonide 0.125 mg per mL nebulizer suspension,ADDED
