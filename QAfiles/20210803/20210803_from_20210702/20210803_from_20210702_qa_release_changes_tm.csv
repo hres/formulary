@@ -1,0 +1,43 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8000940,alcohol anhydrous and butanediol and propyl alcohol and propylene glycol,alcool anhydre et butanédiol et alcool propylique et propylène glycol,CHANGED
+8002278,coagulation factor IX human and coagulation factor ii (human) and coagulation factor vii (human) and coagulation factor x (human) and protein c and protein s,facteur IX de coagulation humain et facteur II de coagulation humain et facteur VII de coagulation humain et facteur X de coagulation humain et protéine c et protéine s,CHANGED
+8002047,paclitaxel,paclitaxel,CHANGED
+8000912,alcohol anhydrous and chlorhexidine,alcool anhydre et chlorhexidine,CHANGED
+8002004,yohimbine,yohimbine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19911231"" -> ""20200603"""
+8002072,polyethylene glycol 3350,polyéthylèneglycol 3350,"tm_status_effective_time: ""20081210"" -> ""20090917"""
+8002088,acetic acid and sodium acetate,acide acétique et acétate de sodium,CHANGED
+8001445,clomiphene,clomiphène,DELETED
+8001679,podophyllin,podophylline,"tm_status_effective_time: ""20200722"" -> ""20210728"""
+8001615,chloroxylenol,chloroxylénol,CHANGED
+8000853,acetaminophen and chlorzoxazone,acétaminophène et chlorzoxazone,DELETED
+8002282,fibrinogen human and thrombin human,fibrinogène humaine et thrombine humaine,CHANGED
+b06ded14b099d96b0a38e3c74a91f800,trastuzumab deruxtecan,trastuzumab déruxtécan,ADDED
+8001878,sodium iodide,iodure de sodium,CHANGED
+8000898,dibucaine and esculin and framycetin and hydrocortisone,dibucaïne et esculine et framycétine et hydrocortisone,"tm_status_effective_time: ""19961230"" -> ""19970203"""
+8002245,onabotulinumtoxinA,onabotulinumtoxineA,CHANGED
+8001957,tetracosactide,tétracosactide,"tm_status_effective_time: ""19731231"" -> ""19741231"""
+8000796,benzalkonium,benzalkonium,CHANGED
+8002068,piperazine,pipérazine,CHANGED
+8001352,chloroquine,chloroquine,"tm_status_effective_time: ""20201013"" -> ""20210729"""
+8001870,potassium chloride,chlorure de potassium,CHANGED
+8002215,amphotericin B,amphotéricine B,CHANGED
+8000785,belladonna and opium,belladone et opium,DELETED
+8001757,doxorubicin,doxorubicine,CHANGED
+8001579,benzethonium,benzéthonium,CHANGED
+8002154,potassium phosphate dibasic and potassium phosphate monobasic,phosphate de potassium dibasique et phosphate de potassium monobasique,CHANGED
+970a6022e484859b5237cbf41780bc16,dextromethorphan and guaifenesin and phenylephrine,dextrométhorphane et guaïfénésine et phényléphrine,ADDED
+8001976,triclosan,triclosan,CHANGED
+8002104,chlorobutanol and dichlorobenzene and oil of turpentine and peanut oil,chlorobutanol et dichlorobenzène et essence de térébenthine et huile d'arachide,DELETED
+8001476,follitropin beta,follitropine bêta,CHANGED
+8001659,glycopyrrolate,glycopyrrolate,DELETED
+8002161,sodium bicarbonate,bicarbonate de sodium,CHANGED
+8001885,adenosine,adénosine,"tm_status_effective_time: ""19941231"" -> ""20070327"""
+8001693,ammonium chloride and dextromethorphan and diphenhydramine,chlorure d'ammonium et dextrométhorphane et diphenhydramine,DELETED
+8001004,benzoyl peroxide and salicylic acid,peroxyde de benzoyle et acide salicylique,CHANGED
+8002160,sodium acetate,acétate de sodium,CHANGED
+8001098,asparaginase,asparaginase,CHANGED
+8002311,phenazopyridine,phénazopyridine,DELETED
+a98401d9877c7d5979130bd1643b6c5f,dextromethorphan and doxylamine and phenylephrine,dextrométhorphane et doxylamine et phényléphrine,ADDED
+8001033,doxylamine,doxylamine,"tm_status_effective_time: ""20170725"" -> ""20210728"""
+8001844,magnesium chloride,chlorure de magnésium,CHANGED
