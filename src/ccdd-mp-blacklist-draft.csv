@@ -30,5 +30,7 @@ drug_code,drug_identification_number,brand_name,status,history_date,comments
 90520,02420678,RODAN+FIELDS UNBLEMISH,Marketed,2015-02-02,Out of scope. Benzoyl peroxide kit with NPN
 83385,02348497,EVICEL,Marketed,2013-05-02,Out of scope - fibrin sealant
 97065,02480131,COVERGIRL TRUBLEND BASE BUSINESS SKIN PRIMER BASE POUR LA PEAU,Marketed,2018-12-11,Out of scope. Cosmetic
-99941,02510170,XARELTO,Marketed,2021-06-11,Needs CP
-99940,02510162,XARELTO,Marketed,2021-06-11,Needs CP
+98886,02499118,AFTER SUN GEL,Marketed,2021-02-17,Needs investigation
+99999,02510790,PMS-METOCLOPRAMIDE HYDROCHLORIDE INJECTION,Marketed,2021-07-23,Needs UP
+99308,02503638,DAYQUIL COMPLETE,Marketed,2021-07-19,Needs strength correction in DPD
+99301,02503549,NYQUIL COMPLETE,Marketed,2021-07-19,Needs strength correction in DPD
