@@ -1,0 +1,21 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8001693,ammonium chloride and dextromethorphan and diphenhydramine,chlorure d'ammonium et dextrométhorphane et diphenhydramine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20010320"" -> ""20180330"""
+8002004,yohimbine,yohimbine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19911231"" -> ""20201031"""
+8001679,podophyllin,podophylline,"tm_status_effective_time: ""20200722"" -> ""20210728"""
+8002104,chlorobutanol and dichlorobenzene and oil of turpentine and peanut oil,chlorobutanol et dichlorobenzène et essence de térébenthine et huile d'arachide,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19711231"" -> ""20210713"""
+8000785,belladonna and opium,belladone et opium,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19911231"" -> ""20210720"""
+8001445,clomiphene,clomiphène,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19911231"" -> ""20170707"""
+8001352,chloroquine,chloroquine,"tm_status_effective_time: ""20201013"" -> ""20210729"""
+8002311,phenazopyridine,phénazopyridine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19811231"" -> ""20210713"""
+8002382,trastuzumab deruxtecan,trastuzumab déruxtécan,ADDED
+8001659,glycopyrrolate,glycopyrrolate,DELETED
+8000853,acetaminophen and chlorzoxazone,acétaminophène et chlorzoxazone,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19911231"" -> ""20180320"""
+8001033,doxylamine,doxylamine,"tm_status_effective_time: ""20170725"" -> ""20210728"""
+8002380,dextromethorphan and doxylamine and phenylephrine,dextrométhorphane et doxylamine et phényléphrine,ADDED
