@@ -1,4 +1,7 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"99999","vial","2","mL","Y","N","02510790","PMS-METOCLOPRAMIDE HYDROCHLORIDE INJECTION PHARMASCIENCE INC","fiole"
+"99999","vial","10","mL","Y","N","02510790","PMS-METOCLOPRAMIDE HYDROCHLORIDE INJECTION PHARMASCIENCE INC","fiole"
+"99999","vial","30","mL","Y","N","02510790","PMS-METOCLOPRAMIDE HYDROCHLORIDE INJECTION PHARMASCIENCE INC","fiole"
 "98584","syringe","10","mL","Y","N","02495945","CALCIUM CHLORIDE INJECTION BP STERIMAX INC","seringue"
 "99116","vial","1","mL","Y","N","02501554","FENTANYL CITRATE INJECTION USP FRESENIUS KABI CANADA LTD","fiole"
 "99116","vial","2","mL","Y","N","02501554","FENTANYL CITRATE INJECTION USP FRESENIUS KABI CANADA LTD","fiole"
