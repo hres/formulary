@@ -1,0 +1,31 @@
+ntp_code,ntp_formal_name,changes
+18798d39863f8e03f27bdc1285a243de,halobetasol propionate 0.01 % lotion,ADDED
+5e5e0f9ba76ebd84f6fe3426bdbabeb5,rurioctocog alfa pegol 500 unit per vial NA,ADDED
+7453319a2b4dc7817eace79a7f22bede,bupivacaine hydrochloride 7.5 mg per mL solution for injection,ADDED
+7f00c3467d5d8fe715ea5f238937462c,rurioctocog alfa pegol 250 unit per vial NA,ADDED
+88f5c14a32ae58499b038f0a8cba6614,norepinephrine (norepinephrine bitartrate) 0.016 mg per mL solution for injection,ADDED
+9000083,acetaminophen 325 mg and caffeine citrate 30 mg and codeine phosphate 15 mg oral tablet,DELETED
+9000084,acetaminophen 325 mg and caffeine citrate 30 mg and codeine phosphate 30 mg oral tablet,DELETED
+9000165,bromazepam 6 mg oral tablet,"ntp_status_effective_time: ""19811231"" -> ""19951231"""
+9000632,salbutamol (salbutamol sulfate) 2 mg oral tablet,DELETED
+9000633,salbutamol (salbutamol sulfate) 4 mg oral tablet,DELETED
+9000660,ciprofloxacin (ciprofloxacin hydrochloride) 250 mg oral tablet,"ntp_status_effective_time: ""19961010"" -> ""20040209"""
+9002017,dipyridamole 75 mg oral tablet,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20201003"" -> ""19901231"""
+9002897,stavudine 20 mg oral capsule,DELETED
+9005206,ingenol mebutate 0.015 % cutaneous gel,DELETED
+9006186,benzoyl peroxide 5 % cutaneous ointment,DELETED
+9010502,mesalazine 800 mg gastro-resistant tablet,DELETED
+9013823,iron (sodium ferric gluconate complex) 62.5 mg per 5 mL solution for injection vial,DELETED
+9014127,octacog alfa 1000 unit per vial powder for solution for injection with diluent solution,DELETED
+9014129,octacog alfa 1500 unit per vial powder for solution for injection with diluent solution,DELETED
+9014130,octacog alfa 2000 unit per vial powder for solution for injection with diluent solution,DELETED
+9014132,octacog alfa 250 unit per vial powder for solution for injection with diluent solution,DELETED
+9014134,octacog alfa 3000 unit per vial powder for solution for injection with diluent solution,DELETED
+9014136,octacog alfa 500 unit per vial powder for solution for injection with diluent solution,DELETED
+9f1aaa39ef0a9727f2fc8721f353d933,norepinephrine (norepinephrine bitartrate) 0.032 mg per mL solution for injection,ADDED
+a361a1550e37efa07515b2f57d1c7f87,dextromethorphan hydrobromide 15 mg per 5 mL oral solution,ADDED
+c5df3b69b35c6f79c148a179c56b410a,baclofen 2 mg per mL solution for injection,ADDED
+c9ee443c457b8b2ec273b0c53af98963,baclofen 0.5 mg per mL solution for injection,ADDED
+ca2ba6b00b137d04db317a3d45fc318d,rurioctocog alfa pegol 1000 unit per vial NA,ADDED
+f51fb8ccf6099f5afca73ebc7e7e0c55,ondansetron (ondansetron hydrochloride) 2 mg per mL solution for injection,ADDED
