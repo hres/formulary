@@ -1,0 +1,8 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002381,dextromethorphan and guaifenesin and phenylephrine,dextrométhorphane et guaïfénésine et phényléphrine,ADDED
+8001459,ertugliflozin,ertugliflozine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20180528"" -> ""20210203"""
+8001810,ingenol mebutate,mébutate d'ingénol,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20130321"" -> ""20201014"""
+8002383,casirivimab and imdevimab,casirivimab et imdévimab,ADDED
+8001659,glycopyrrolate,glycopyrrolate,DELETED
