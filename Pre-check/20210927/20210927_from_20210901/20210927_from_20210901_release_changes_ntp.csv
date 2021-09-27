@@ -1,0 +1,34 @@
+ntp_code,ntp_formal_name,changes
+00211f0832324609184c1f98c9a1b096,colchicine 0.5 mg prolonged-release oral tablet,ADDED
+9000023,methylphenidate hydrochloride 20 mg oral tablet,"ntp_status_effective_time: ""19581231"" -> ""19901231"""
+9000133,nystatin 100000 unit per g cutaneous ointment,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19791231"" -> ""20170803"""
+9001552,acenocoumarol 4 mg oral tablet,"ntp_status_effective_time: ""20200722"" -> ""20210902"""
+9001587,acenocoumarol 1 mg oral tablet,"ntp_status_effective_time: ""20200722"" -> ""20210902"""
+9002898,stavudine 30 mg oral capsule,DELETED
+9002899,stavudine 40 mg oral capsule,DELETED
+9003473,rosiglitazone (rosiglitazone maleate) 2 mg oral tablet,"ntp_status_effective_time: ""20000321"" -> ""20170221"""
+9003874,guaifenesin 600 mg and pseudoephedrine hydrochloride 120 mg prolonged-release oral tablet,DELETED
+9004602,aliskiren (aliskiren fumarate) 150 mg and hydrochlorothiazide 25 mg oral tablet,DELETED
+9012356,verapamil hydrochloride 180 mg prolonged-release oral tablet,"ntp_status_effective_time: ""19940421"" -> ""20030424"""
+9012358,verapamil hydrochloride 240 mg prolonged-release oral tablet,"ntp_status_effective_time: ""19881231"" -> ""19961231"""
+9012884,aflibercept 2 mg per 0.05 mL solution for injection vial,DELETED
+9012973,follitropin delta 12 mcg per 0.36 mL solution for injection cartridge,DELETED
+9012974,follitropin delta 36 mcg per 1.08 mL solution for injection cartridge,DELETED
+9012975,follitropin delta 72 mcg per 2.16 mL solution for injection cartridge,DELETED
+9013163,interferon alfa-2b 18000000 unit per 3 mL solution for injection vial,DELETED
+9013300,interferon alfa-2b 10000000 unit per 1 mL solution for injection vial,DELETED
+9013301,interferon alfa-2b 25000000 unit per 2.5 mL solution for injection vial,DELETED
+9013690,iron (iron isomaltoside 1000) 100 mg per 1 mL solution for injection vial,DELETED
+9013691,iron (iron isomaltoside 1000) 1000 mg per 10 mL solution for injection vial,DELETED
+9013692,iron (iron isomaltoside 1000) 500 mg per 5 mL solution for injection vial,DELETED
+9013792,aloe 0.02 g per mL and benzoin 0.1 g per mL and myroxylon balsamum 0.04 g per mL and storax 0.08 g per mL inhalation solution,DELETED
+9014409,aflibercept 2 mg per 0.05 mL solution for injection syringe,DELETED
+9014432,mRNA-1273 SARS-CoV-2 100 mcg per 0.5 mL dispersion for injection 5 mL vial,DELETED
+9014441,adalimumab 40 mg per 0.8 mL solution for injection,ADDED
+9014467,tozinameran 30 mcg per 0.3 mL suspension for injection 1.8 mL vial,DELETED
+9014470,ChAdOx1-S (recombinant) 5e10 vp per 0.5 mL solution for injection 5 mL vial,"ntp_status_effective_time: ""20210303"" -> ""20210401"""
+915c0376b3f8e19e978f05525991c6be,aflibercept 0.1 mg per 0.05 mL solution for injection vial,ADDED
+a1e58cca32bdf7ce527ad81009282439,aflibercept 0.1 mg per 0.05 mL solution for injection syringe,ADDED
+d20f00e00a90ae2c817ded5fa11beff4,ivacaftor 25 mg per sachet granules for oral suspension,ADDED
+e795175753b6da8578d79f57fe457e60,tazarotene 0.045 % lotion,ADDED
