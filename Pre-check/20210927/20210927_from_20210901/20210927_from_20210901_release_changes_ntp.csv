@@ -1,0 +1,71 @@
+ntp_code,ntp_formal_name,changes
+00211f0832324609184c1f98c9a1b096,colchicine 0.5 mg prolonged-release oral tablet,ADDED
+9000023,methylphenidate hydrochloride 20 mg oral tablet,"ntp_status_effective_time: ""19581231"" -> ""19901231"""
+9000133,nystatin 100000 unit per g cutaneous ointment,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19791231"" -> ""20170803"""
+9000145,diazepam 20 mg per 2 mL solution for injection ampoule,DELETED
+9000413,dexamethasone 0.5 mg per 5 mL oral liquid,DELETED
+9000759,valproic acid (sodium valproate) 250 mg per 5 mL syrup,DELETED
+9000819,ibuprofen 40 mg per mL oral suspension,DELETED
+9000884,fentanyl (fentanyl citrate) 2500 mcg per 50 mL solution for injection vial,DELETED
+9000965,ketorolac tromethamine 30 mg per mL solution for injection,DELETED
+9001049,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg prolonged-release oral tablet",DELETED
+9001076,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg prolonged-release oral tablet",DELETED
+9001552,acenocoumarol 4 mg oral tablet,"ntp_status_effective_time: ""20200722"" -> ""20210902"""
+9001587,acenocoumarol 1 mg oral tablet,"ntp_status_effective_time: ""20200722"" -> ""20210902"""
+9001632,chloroquine diphosphate 250 mg oral tablet,DELETED
+9001902,cetrimonium bromide 150 mg per 100 g and lidocaine 5 g per 100 g cutaneous gel,DELETED
+9002165,acetaminophen 650 mg per sachet and phenylephrine hydrochloride 10 mg per sachet oral powder,DELETED
+9002420,benzocaine 18 % and tetracaine hydrochloride 2 % cutaneous gel,DELETED
+9002743,bacillus Calmette-Guérin substrain TICE 800000000 unit per vial powder for solution for injection,DELETED
+9002810,fluconazole 50 mg per 5 mL powder for oral solution,DELETED
+9002898,stavudine 30 mg oral capsule,DELETED
+9002899,stavudine 40 mg oral capsule,DELETED
+9002933,dextromethorphan hydrobromide 7.5 mg per 5 mL syrup,DELETED
+9003108,dinoprostone 10 mg per insert vaginal delivery system,DELETED
+9003416,cefuroxime (cefuroxime axetil) 125 mg per 5 mL powder for oral solution,DELETED
+9003473,rosiglitazone (rosiglitazone maleate) 2 mg oral tablet,"ntp_status_effective_time: ""20000321"" -> ""20170221"""
+9003477,benzocaine 18 % and tetracaine hydrochloride 2 % cutaneous spray,DELETED
+9003874,guaifenesin 600 mg and pseudoephedrine hydrochloride 120 mg prolonged-release oral tablet,DELETED
+9004168,white petrolatum 100 % cutaneous gel,DELETED
+9004569,dextromethorphan hydrobromide 15 mg per 5 mL and guaifenesin 200 mg per 5 mL and menthol 15 mg per 5 mL oral solution,DELETED
+9004602,aliskiren (aliskiren fumarate) 150 mg and hydrochlorothiazide 25 mg oral tablet,DELETED
+9005130,ensulizole 3 % cutaneous emulsion,"ntp_status: ""DEPREC"" -> ""ACTIVE""
+ntp_status_effective_time: ""20181101"" -> ""20121113"""
+9006236,digoxin 1 mg per 2 mL solution for injection ampoule,DELETED
+9006272,ranitidine (ranitidine hydrochloride) 100 mg per 2 mL solution for injection vial,DELETED
+9006562,ethinyl estradiol 35 mcg per 24 hours and norelgestromin 20 mcg per 24 hours transdermal patch,DELETED
+9009350,estradiol 0.1 % transdermal gel,DELETED
+9009384,ethinyl estradiol 30 mcg and levonorgestrel 150 mcg oral tablet with ethinyl estradiol 100 mcg oral tablet,DELETED
+9009620,furosemide 40 mg per 2 mL solution for injection ampoule,DELETED
+9010880,nitroglycerin 100 mg per 10 mL solution for injection vial,DELETED
+9010882,nitroglycerin 500 mg per 10 mL solution for injection vial,DELETED
+9012356,verapamil hydrochloride 180 mg prolonged-release oral tablet,"ntp_status_effective_time: ""19940421"" -> ""20030424"""
+9012358,verapamil hydrochloride 240 mg prolonged-release oral tablet,"ntp_status_effective_time: ""19881231"" -> ""19961231"""
+9012884,aflibercept 2 mg per 0.05 mL solution for injection vial,DELETED
+9012954,denosumab 204 mg per 1.7 mL solution for injection syringe,DELETED
+9012961,dobutamine (dobutamine hydrochloride) 5000 mg per 20 mL solution for injection vial,DELETED
+9012962,dornase alfa 2.5 mg per 2.5 mL inhalation solution ampoule,DELETED
+9012973,follitropin delta 12 mcg per 0.36 mL solution for injection cartridge,DELETED
+9012974,follitropin delta 36 mcg per 1.08 mL solution for injection cartridge,DELETED
+9012975,follitropin delta 72 mcg per 2.16 mL solution for injection cartridge,DELETED
+9013163,interferon alfa-2b 18000000 unit per 3 mL solution for injection vial,DELETED
+9013300,interferon alfa-2b 10000000 unit per 1 mL solution for injection vial,DELETED
+9013301,interferon alfa-2b 25000000 unit per 2.5 mL solution for injection vial,DELETED
+9013672,codeine phosphate 3.3 mg per 5 mL and guaifenesin 100 mg per 5 mL and pseudoephedrine hydrochloride 30 mg per 5 mL oral solution,DELETED
+9013690,iron (iron isomaltoside 1000) 100 mg per 1 mL solution for injection vial,DELETED
+9013691,iron (iron isomaltoside 1000) 1000 mg per 10 mL solution for injection vial,DELETED
+9013692,iron (iron isomaltoside 1000) 500 mg per 5 mL solution for injection vial,DELETED
+9013783,dextromethorphan hydrobromide 10 mg per 5 mL and guaifenesin 100 mg per 5 mL oral solution,DELETED
+9013792,aloe 0.02 g per mL and benzoin 0.1 g per mL and myroxylon balsamum 0.04 g per mL and storax 0.08 g per mL inhalation solution,DELETED
+9013845,acetaminophen 1000 mg per 30 mL and chlorpheniramine maleate 4 mg per 30 mL and dextromethorphan hydrobromide 30 mg per 30 mL and pseudoephedrine hydrochloride 60 mg per 30 mL oral solution,DELETED
+9014409,aflibercept 2 mg per 0.05 mL solution for injection syringe,DELETED
+9014414,tozinameran 30 mcg per 0.3 mL suspension for injection 1.5 mL vial,DELETED
+9014432,mRNA-1273 SARS-CoV-2 100 mcg per 0.5 mL dispersion for injection 5 mL vial,DELETED
+9014441,adalimumab 40 mg per 0.8 mL solution for injection,ADDED
+9014467,tozinameran 30 mcg per 0.3 mL suspension for injection 1.8 mL vial,DELETED
+9014470,ChAdOx1-S (recombinant) 5e10 vp per 0.5 mL solution for injection 5 mL vial,"ntp_status_effective_time: ""20210303"" -> ""20210401"""
+915c0376b3f8e19e978f05525991c6be,aflibercept 0.1 mg per 0.05 mL solution for injection vial,ADDED
+a1e58cca32bdf7ce527ad81009282439,aflibercept 0.1 mg per 0.05 mL solution for injection syringe,ADDED
+d20f00e00a90ae2c817ded5fa11beff4,ivacaftor 25 mg per sachet granules for oral suspension,ADDED
+e795175753b6da8578d79f57fe457e60,tazarotene 0.045 % lotion,ADDED
