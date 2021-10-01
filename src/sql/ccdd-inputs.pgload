@@ -261,12 +261,12 @@ LOAD CSV
     WITH ENCODING UTF-8
     (
       code,
-      status_effective_time
+      status_effective_date
     )
   INTO postgresql://cyanofsky@rest.hc.local/?ccdd.ntp_deprecations
     (
       code,
-      status_effective_time
+      status_effective_date
     )
   WITH
     skip header = 1,
