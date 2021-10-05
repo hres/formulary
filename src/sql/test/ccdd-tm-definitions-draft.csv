@@ -1,4 +1,4 @@
-"code","formal_name","formal_name_fr"
+code,formal_name,formal_name_fr
 "8000001","levothyroxine","lévothyroxine"
 "8000003","epinephrine","épinéphrine"
 "8000004","phenytoin sodium","phénytoïne sodique"
@@ -1608,7 +1608,7 @@
 "8002225","amphetamine mixed salts","sels mixtes d’amphétamine"
 "8002227","choriogonadotropin alfa","choriogonadotropine alfa"
 "8002228","iron dextran","fer dextran"
-"8002229","ferric derisomaltose","dérisomaltose ferrique"
+"8002229","iron isomaltoside 1000","fer isomaltoside 1000"
 "8002230","iron sucrose","fer-saccharose"
 "8002232","sodium ferric gluconate complex","complexe de gluconate de fer sodique"
 "8002233","C1 esterase inhibitor human","inhibiteur de la C1 estérase humaine"
@@ -1752,8 +1752,3 @@
 "8002384","sodium nitrite","nitrate de sodium"
 "8002385","solriamfetol","solriamfétol"
 "8002386","tildrakizumab","tildrakizumab"
-"8002387","acetaminophen and dextromethorphan and guaifenesin","acétaminophène et dextrométhorphane et guaïfénésine"
-"8002388","bacillus Calmette-Guérin substrain Russian BCG-I","bacille de Calmette-Guérin sous-souche russe BCG-I"
-"8002389","binimetinib","binimétinib"
-"8002390","encorafenib","encorafénib"
-"8002392","ravulizumab","ravulizumab"
