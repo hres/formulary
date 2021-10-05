@@ -4641,3 +4641,4 @@ ntp_code,ntp_formal_name,ntp_en_description,ntp_fr_description,ntp_status,ntp_st
 "9002165","acetaminophen 650 mg per sachet and phenylephrine hydrochloride 10 mg per sachet oral powder","NA","acétaminophène 650 mg par sachet et chlorhydrate de phényléphrine 10 mg par sachet poudre orale","Deprec","20191201","NA"
 "9002743","bacillus Calmette-Guérin substrain TICE 800000000 unit per vial powder for solution for injection","NA","bacille de Calmette-Guérin sous-souche TICE 800000000 unité par fiole poudre pour solution injectable","Deprec","20210301","NA"
 "9014414","tozinameran 30 mcg per 0.3 mL suspension for injection 1.5 mL vial","NA","tozinaméran 30 mcg par 0,3 mL suspension injectable 1,5 mL fiole","Deprec","20210301","NA"
+"9014432","mRNA-1273 SARS-CoV-2 100 mcg per 0.5 mL dispersion for injection 5 mL vial","NA","ARNm-1273 SRAS-CoV-2 100 mcg par 0,5 mL dispersion injectable 5 mL fiole","Active","20201223","NA"

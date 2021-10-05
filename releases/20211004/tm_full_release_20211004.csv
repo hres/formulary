@@ -1551,3 +1551,4 @@ tm_code,tm_formal_name,tm_fr_description,tm_status,tm_status_effective_time
 "8001130","lixisenatide","lixisénatide","Active","20170912"
 "8001151","migalastat","migalastat","Active","20180115"
 "8001659","glycopyrrolate","glycopyrrolate","Deprec","20190401"
+"8002357","mRNA-1273 SARS-CoV-2","ARNm-1273 SRAS-CoV-2","Active","20201223"
