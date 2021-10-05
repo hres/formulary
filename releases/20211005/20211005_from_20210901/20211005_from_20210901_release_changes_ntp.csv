@@ -1,0 +1,50 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9000133,nystatin 100000 unit per g cutaneous ointment,nystatine 100000 unité par g pommade cutanée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19791231"" -> ""20210730"""
+9001552,acenocoumarol 4 mg oral tablet,acénocoumarol 4 mg comprimé oral,"ntp_status_effective_time: ""20200722"" -> ""20210902"""
+9001587,acenocoumarol 1 mg oral tablet,acénocoumarol 1 mg comprimé oral,"ntp_status_effective_time: ""20200722"" -> ""20210902"""
+9002703,orphenadrine citrate 100 mg oral tablet,citrate d'orphénadrine 100 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19941231"" -> ""20210827"""
+9002898,stavudine 30 mg oral capsule,stavudine 30 mg capsule orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19960730"" -> ""20200331"""
+9002899,stavudine 40 mg oral capsule,stavudine 40 mg capsule orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19960730"" -> ""20200331"""
+9003874,guaifenesin 600 mg and pseudoephedrine hydrochloride 120 mg prolonged-release oral tablet,guaïfénésine 600 mg et chlorhydrate de pseudoéphédrine 120 mg comprimé oral à libération prolongée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20040202"" -> ""20210630"""
+9004602,aliskiren (aliskiren fumarate) 150 mg and hydrochlorothiazide 25 mg oral tablet,aliskirène (fumarate d'aliskirène) 150 mg et hydrochlorothiazide 25 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20091124"" -> ""20200211"""
+9004737,white petrolatum 88.7 % and zinc oxide 5 % cutaneous cream,"pétrolatum blanc 88,7 % et oxyde de zinc 5 % crème cutanée","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20100529"" -> ""20210929"""
+9012973,follitropin delta 12 mcg per 0.36 mL solution for injection cartridge,"follitropine delta 12 mcg par 0,36 mL solution injectable cartouche","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20180523"" -> ""20210506"""
+9012974,follitropin delta 36 mcg per 1.08 mL solution for injection cartridge,"follitropine delta 36 mcg par 1,08 mL solution injectable cartouche","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20180523"" -> ""20210506"""
+9012975,follitropin delta 72 mcg per 2.16 mL solution for injection cartridge,"follitropine delta 72 mcg par 2,16 mL solution injectable cartouche","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20180523"" -> ""20210506"""
+9013163,interferon alfa-2b 18000000 unit per 3 mL solution for injection vial,interféron alfa-2b 18000000 unité par 3 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19981210"" -> ""20210831"""
+9013300,interferon alfa-2b 10000000 unit per 1 mL solution for injection vial,interféron alfa-2b 10000000 unité par 1 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19981210"" -> ""20210412"""
+9013301,interferon alfa-2b 25000000 unit per 2.5 mL solution for injection vial,"interféron alfa-2b 25000000 unité par 2,5 mL solution injectable fiole","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19981210"" -> ""20210412"""
+9013690,iron (ferric derisomaltose) 100 mg per 1 mL solution for injection vial,fer (dérisomaltose ferrique) 100 mg par 1 mL solution injectable fiole,"ntp_formal_name: ""iron (i̲r̲o̲n̲ ̲i̲s̲o̲m̲a̲l̲t̲o̲s̲i̲d̲e̲ ̲1̲0̲0̲0̲) 100 mg per 1 mL solution for injection vial"" -> ""iron (f̲e̲r̲r̲i̲c̲ ̲d̲e̲r̲i̲s̲o̲m̲a̲l̲t̲o̲s̲e̲) 100 mg per 1 mL solution for injection vial""
+ntp_fr_description: ""fer (f̲e̲r̲ ̲i̲s̲o̲m̲a̲l̲t̲o̲s̲i̲d̲e̲ ̲1̲0̲0̲0̲) 100 mg par 1 mL solution injectable fiole"" -> ""fer (d̲é̲r̲i̲s̲o̲m̲a̲l̲t̲o̲s̲e̲ ̲f̲e̲r̲r̲i̲q̲u̲e̲) 100 mg par 1 mL solution injectable fiole"""
+9013691,iron (ferric derisomaltose) 1000 mg per 10 mL solution for injection vial,fer (dérisomaltose ferrique) 1000 mg par 10 mL solution injectable fiole,"ntp_formal_name: ""iron (i̲r̲o̲n̲ ̲i̲s̲o̲m̲a̲l̲t̲o̲s̲i̲d̲e̲ ̲1̲0̲0̲0̲) 1000 mg per 10 mL solution for injection vial"" -> ""iron (f̲e̲r̲r̲i̲c̲ ̲d̲e̲r̲i̲s̲o̲m̲a̲l̲t̲o̲s̲e̲) 1000 mg per 10 mL solution for injection vial""
+ntp_fr_description: ""fer (f̲e̲r̲ ̲i̲s̲o̲m̲a̲l̲t̲o̲s̲i̲d̲e̲ ̲1̲0̲0̲0̲) 1000 mg par 10 mL solution injectable fiole"" -> ""fer (d̲é̲r̲i̲s̲o̲m̲a̲l̲t̲o̲s̲e̲ ̲f̲e̲r̲r̲i̲q̲u̲e̲) 1000 mg par 10 mL solution injectable fiole"""
+9013692,iron (ferric derisomaltose) 500 mg per 5 mL solution for injection vial,fer (dérisomaltose ferrique) 500 mg par 5 mL solution injectable fiole,"ntp_formal_name: ""iron (i̲r̲o̲n̲ ̲i̲s̲o̲m̲a̲l̲t̲o̲s̲i̲d̲e̲ ̲1̲0̲0̲0̲) 500 mg per 5 mL solution for injection vial"" -> ""iron (f̲e̲r̲r̲i̲c̲ ̲d̲e̲r̲i̲s̲o̲m̲a̲l̲t̲o̲s̲e̲) 500 mg per 5 mL solution for injection vial""
+ntp_fr_description: ""fer (f̲e̲r̲ ̲i̲s̲o̲m̲a̲l̲t̲o̲s̲i̲d̲e̲ ̲1̲0̲0̲0̲) 500 mg par 5 mL solution injectable fiole"" -> ""fer (d̲é̲r̲i̲s̲o̲m̲a̲l̲t̲o̲s̲e̲ ̲f̲e̲r̲r̲i̲q̲u̲e̲) 500 mg par 5 mL solution injectable fiole"""
+9013792,aloe 0.02 g per mL and benzoin 0.1 g per mL and myroxylon balsamum 0.04 g per mL and storax 0.08 g per mL inhalation solution,"aloès 0,02 g par mL et benzoïne 0,1 g par mL et myroxylon balsamum 0,04 g par mL et storax 0,08 g par mL solution à inhaler","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19821231"" -> ""20210729"""
+9014432,elasomeran 100 mcg per 0.5 mL dispersion for injection 5 mL vial,"élasoméran 100 mcg par 0,5 mL dispersion injectable 5 mL fiole","ntp_formal_name: ""m̲R̲N̲A̲-̲1̲2̲7̲3̲ ̲S̲A̲R̲S̲-̲C̲o̲V̲-̲2̲ 100 mcg per 0.5 mL dispersion for injection 5 mL vial"" -> ""e̲l̲a̲s̲o̲m̲e̲r̲a̲n̲ 100 mcg per 0.5 mL dispersion for injection 5 mL vial""
+ntp_fr_description: ""A̲R̲N̲m̲-̲1̲2̲7̲3̲ ̲S̲R̲A̲S̲-̲C̲o̲V̲-̲2̲ 100 mcg par 0,5 mL dispersion injectable 5 mL fiole"" -> ""é̲l̲a̲s̲o̲m̲é̲r̲a̲n̲ 100 mcg par 0,5 mL dispersion injectable 5 mL fiole"""
+9014588,solriamfetol (solriamfetol hydrochloride) 150 mg oral tablet,solriamfétol (chlorhydrate de solriamfétol) 150 mg comprimé oral,ADDED
+9014589,solriamfetol (solriamfetol hydrochloride) 75 mg oral tablet,solriamfétol (chlorhydrate de solriamfétol) 75 mg comprimé oral,ADDED
+9014591,acetaminophen 325 mg and dextromethorphan hydrobromide 10 mg and guaifenesin 200 mg oral capsule,acétaminophène 325 mg et bromhydrate de dextrométhorphane 10 mg et guaïfénésine 200 mg capsule orale,ADDED
+9014592,bacillus Calmette-Guérin substrain Russian BCG-I 40 mg per vial powder for intravesical suspension,bacille de Calmette-Guérin sous-souche russe BCG-I 40 mg par fiole poudre pour suspension intravésicale,ADDED
+9014593,binimetinib 15 mg oral tablet,binimétinib 15 mg comprimé oral,ADDED
+9014595,colchicine 0.5 mg prolonged-release oral tablet,"colchicine 0,5 mg comprimé oral à libération prolongée",ADDED
+9014597,encorafenib 75 mg oral capsule,encorafénib 75 mg capsule orale,ADDED
+9014601,ivacaftor 25 mg per sachet granules for oral suspension,ivacaftor 25 mg par sachet granulés pour suspension orale,ADDED
+9014603,sodium nitrite 300 mg per 10 mL solution for injection vial,nitrate de sodium 300 mg par 10 mL solution injectable fiole,ADDED
+9014604,tazarotene 0.045 % lotion,"tazarotène 0,045 % lotion",ADDED
+9014605,tildrakizumab 100 mg per 1 mL solution for injection syringe,tildrakizumab 100 mg par 1 mL solution injectable seringue,ADDED

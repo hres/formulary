@@ -1,0 +1,22 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002388,bacillus Calmette-Guérin substrain Russian BCG-I,bacille de Calmette-Guérin sous-souche russe BCG-I,ADDED
+8002387,acetaminophen and dextromethorphan and guaifenesin,acétaminophène et dextrométhorphane et guaïfénésine,ADDED
+8002389,binimetinib,binimétinib,ADDED
+8002007,aloe and benzoin and myroxylon balsamum and storax,aloès et benzoïne et myroxylon balsamum et styrax,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19821231"" -> ""20210729"""
+8002357,elasomeran,élasoméran,"tm_formal_name: ""m̲R̲N̲A̲-̲1̲2̲7̲3̲ ̲S̲A̲R̲S̲-̲C̲o̲V̲-̲2̲"" -> ""e̲l̲a̲s̲o̲m̲e̲r̲a̲n̲""
+tm_fr_description: ""A̲R̲N̲m̲-̲1̲2̲7̲3̲ ̲S̲R̲A̲S̲-̲C̲o̲V̲-̲2̲"" -> ""é̲l̲a̲s̲o̲m̲é̲r̲a̲n̲"""
+8001317,acenocoumarol,acénocoumarol,"tm_status_effective_time: ""20200722"" -> ""20210902"""
+8002386,tildrakizumab,tildrakizumab,ADDED
+8002384,sodium nitrite,nitrate de sodium,ADDED
+8002229,ferric derisomaltose,dérisomaltose ferrique,"tm_formal_name: ""i̲r̲o̲n̲ ̲i̲s̲o̲m̲a̲l̲t̲o̲s̲i̲d̲e̲ ̲1̲0̲0̲0̲"" -> ""f̲e̲r̲r̲i̲c̲ ̲d̲e̲r̲i̲s̲o̲m̲a̲l̲t̲o̲s̲e̲""
+tm_fr_description: ""f̲e̲r̲ ̲i̲s̲o̲m̲a̲l̲t̲o̲s̲i̲d̲e̲ ̲1̲0̲0̲0̲"" -> ""d̲é̲r̲i̲s̲o̲m̲a̲l̲t̲o̲s̲e̲ ̲f̲e̲r̲r̲i̲q̲u̲e̲"""
+8000975,aliskiren and hydrochlorothiazide,aliskirène et hydrochlorothiazide,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20091124"" -> ""20200211"""
+8001659,glycopyrrolate,glycopyrrolate,DELETED
+8001386,guaifenesin and pseudoephedrine,guaïfénésine et pseudoéphédrine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20040202"" -> ""20210630"""
+8001233,stavudine,stavudine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19960730"" -> ""20200331"""
+8002390,encorafenib,encorafénib,ADDED
+8002385,solriamfetol,solriamfétol,ADDED
