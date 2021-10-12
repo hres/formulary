@@ -1,4 +1,4 @@
-# Canadian Clinical Drug Data Set (CCDD) - June 2021 Release
+# Canadian Clinical Drug Data Set (CCDD) - July 2021 Release
 
 Publication Date: [July 13, 2021](https://tgateway.infoway-inforoute.ca/ccdd.html?id=2.16.840.1.113883.2.20.6.1&versionid=20210713)
 
