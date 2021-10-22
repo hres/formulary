@@ -1,0 +1,8 @@
+tm_code,tm_formal_name,changes
+8000140,lisinopril,"tm_status_effective_time: ""19901231"" -> ""19941231"""
+8001186,didanosine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20020102"" -> ""20200402"""
+8001943,somatropin,"tm_status_effective_time: ""19871231"" -> ""19990728"""
+8001659,glycopyrrolate,DELETED
+8000141,pravastatin,"tm_status_effective_time: ""19901231"" -> ""20010227"""
+8001323,acetaminophen and chlorpheniramine and phenylephrine,"tm_status_effective_time: ""19941231"" -> ""20020109"""

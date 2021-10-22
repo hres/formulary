@@ -1,0 +1,30 @@
+ntp_code,ntp_formal_name,changes
+059fc2ddab40dbbe83b2ca8d16e845be,octreotide (octreotide acetate) 30 mg per vial kit,ADDED
+43bc7ac51fdb4991600c24b3a9493d98,octreotide (octreotide acetate) 10 mg per vial kit,ADDED
+4dc7b7117f5d2181bfc494cfc7aedab9,ethinyl estradiol 2.7 mg and etonogestrel 11.7 mg ring (slow release),ADDED
+6c2cdc9b4328fb05329fdc6b18d24f97,loratadine 5 mg orodispersible tablet,ADDED
+7453319a2b4dc7817eace79a7f22bede,bupivacaine hydrochloride 7.5 mg per mL solution for injection,ADDED
+8f4faed114f002c9f9e66e1b150accdb,desmopressin acetate 4 mcg per mL solution for injection,ADDED
+9000164,bromazepam 3 mg oral tablet,"ntp_status_effective_time: ""19811231"" -> ""19951231"""
+9000358,lisinopril 10 mg oral tablet,"ntp_status_effective_time: ""19901231"" -> ""19941231"""
+9000359,lisinopril 20 mg oral tablet,"ntp_status_effective_time: ""19901231"" -> ""19941231"""
+9000368,pravastatin sodium 20 mg oral tablet,"ntp_status_effective_time: ""19901231"" -> ""20010227"""
+9000647,pravastatin sodium 40 mg oral tablet,"ntp_status_effective_time: ""19960821"" -> ""20010227"""
+9002621,acetaminophen 325 mg and chlorpheniramine maleate 2 mg and phenylephrine hydrochloride 5 mg oral tablet,"ntp_status_effective_time: ""19941231"" -> ""20020109"""
+9002679,hydrocodone bitartrate 1.7 mg per 5 mL and phenylephrine hydrochloride 10 mg per 5 mL syrup,DELETED
+9002703,orphenadrine citrate 100 mg oral tablet,"ntp_status_effective_time: ""20210827"" -> ""20210828"""
+9003684,didanosine 125 mg gastro-resistant capsule,DELETED
+9003685,didanosine 200 mg gastro-resistant capsule,DELETED
+9003998,quinagolide (quinagolide hydrochloride) 0.025 mg oral tablet,DELETED
+9003999,quinagolide (quinagolide hydrochloride) 0.05 mg oral tablet,DELETED
+9013051,cisplatin 10 mg per 10 mL solution for injection vial,"ntp_status_effective_time: ""20110929"" -> ""20120410"""
+9013750,somatropin 5 mg per vial powder for solution for injection with diluent solution,"ntp_status_effective_time: ""19871231"" -> ""19990728"""
+9013816,dextromethorphan hydrobromide 10 mg per 15 mL and guaifenesin 200 mg per 15 mL syrup,DELETED
+a87c15338c31732e5b801b816dc01fa7,fluticasone furoate 200 mcg per actuation and umeclidinium (umeclidinium bromide) 62.5 mcg per actuation and vilanterol (vilanterol trifenatate) 25 mcg per actuation inhalation powder,ADDED
+d87b2537486d30697e0a781e76c92af5,octreotide (octreotide acetate) 20 mg per vial kit,ADDED
+dbddd0f399f0bbd0354a260f651f89ee,budesonide 0.5 mg orodispersible tablet,ADDED
+e1db626301a19ecc38aac08c545652f2,acetaminophen 250 mg and acetaminophen 325 mg and dextromethorphan hydrobromide 10 mg and dextromethorphan hydrobromide 15 mg and doxylamine succinate 6.25 mg and guaifenesin 100 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg kit,ADDED
+e64b791c7c604eba17772cc278519ab9,magnesium sulfate 493 mg per mL solution for injection,ADDED
+e67fa1c2af1e03803afd08b0e9b2da4c,rurioctocog alfa pegol 1500 unit per vial NA,ADDED
+f51fb8ccf6099f5afca73ebc7e7e0c55,ondansetron (ondansetron hydrochloride) 2 mg per mL solution for injection,ADDED
+f7aadd17085f2cefb2e710b9a7d1af91,diltiazem hydrochloride 5 mg per mL solution for injection,ADDED

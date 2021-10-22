@@ -1,0 +1,105 @@
+drug_code,mp_code,mp_formal_name,changes
+777,00010405,TEGRETOL (carbamazepine 200 mg oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC,"Health_Canada_product_name: ""TEGRETOL 200MG"" -> ""TEGRETOL""
+mp_formal_name: ""TEGRETOL ̲2̲0̲0̲M̲G̲ (carbamazepine 200 mg oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC"" -> ""TEGRETOL (carbamazepine 200 mg oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC"""
+3920,00402699,APO-CARBAMAZEPINE (carbamazepine 200 mg oral tablet) APOTEX INC,"Health_Canada_product_name: ""APO CARBAMAZEPINE TAB 200MG"" -> ""APO-CARBAMAZEPINE""
+mp_formal_name: ""APO ̲CARBAMAZEPINE ̲T̲A̲B̲ ̲2̲0̲0̲M̲G̲ (carbamazepine 200 mg oral tablet) APOTEX INC"" -> ""APO-̲CARBAMAZEPINE (carbamazepine 200 mg oral tablet) APOTEX INC"""
+4157,00518123,LECTOPAM TAB 3MG (bromazepam 3 mg oral tablet) HOFFMANN-LA ROCHE LIMITED,DELETED
+5326,00587737,HUMULIN N (insulin isophane human 100 unit per mL suspension for injection 10 mL vial) ELI LILLY CANADA INC,DELETED
+8187,00745626,HUMATROPE (somatropin 5 mg per vial powder for solution for injection with diluent solution) ELI LILLY CANADA INC,DELETED
+8373,00773611,TEGRETOL CR (carbamazepine 200 mg prolonged-release oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC,"Health_Canada_product_name: ""TEGRETOL CR TAB 200MG"" -> ""TEGRETOL CR""
+mp_formal_name: ""TEGRETOL CR ̲T̲A̲B̲ ̲2̲0̲0̲M̲G̲ (carbamazepine 200 mg prolonged-release oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC"" -> ""TEGRETOL CR (carbamazepine 200 mg prolonged-release oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC"""
+8374,00755583,TEGRETOL CR (carbamazepine 400 mg prolonged-release oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC,"Health_Canada_product_name: ""TEGRETOL CR TAB 400MG"" -> ""TEGRETOL CR""
+mp_formal_name: ""TEGRETOL CR ̲T̲A̲B̲ ̲4̲0̲0̲M̲G̲ (carbamazepine 400 mg prolonged-release oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC"" -> ""TEGRETOL CR (carbamazepine 400 mg prolonged-release oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC"""
+11030,00893757,PRAVACHOL (pravastatin sodium 20 mg oral tablet) BRISTOL-MYERS SQUIBB CANADA,DELETED
+11102,00839396,PRINIVIL (lisinopril 10 mg oral tablet) MERCK CANADA INC,DELETED
+11103,00839418,PRINIVIL (lisinopril 20 mg oral tablet) MERCK CANADA INC,DELETED
+13360,01964054,"ORACORT (triamcinolone acetonide 0.1 % oromucosal paste) TAROPHARMA, A DIVISION OF TARO PHARMACEUTICALS INC.","mp_formal_name: ""ORACORT (triamcinolone acetonide 0.1 % oromucosal paste) TARO PHARMACEUTICALS INC"" -> ""ORACORT (triamcinolone acetonide 0.1 % oromucosal paste) TAROP̲H̲A̲R̲M̲A̲,̲ ̲A̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲T̲A̲R̲O̲ PHARMACEUTICALS INC.̲"""
+16522,02047535,ORFENACE TABLET 100MG (orphenadrine citrate 100 mg oral tablet) STERIMAX INC,"mp_status_effective_time: ""20210827"" -> ""20210828"""
+16640,02049473,NOVAHISTINE DH (hydrocodone bitartrate 1.7 mg per 5 mL and phenylephrine hydrochloride 10 mg per 5 mL syrup) SANOFI-AVENTIS CANADA INC,DELETED
+19729,02194333,TEGRETOL SUSPENSION (carbamazepine 100 mg per 5 mL oral suspension) NOVARTIS PHARMACEUTICALS CANADA INC,"Health_Canada_product_name: ""TEGRETOL - SUS 100MG/5ML"" -> ""TEGRETOL SUSPENSION""
+mp_formal_name: ""TEGRETOL -̲ ̲S̲U̲S̲ ̲1̲0̲0̲M̲G̲/̲5̲M̲L̲ (carbamazepine 100 mg per 5 mL oral suspension) NOVARTIS PHARMACEUTICALS CANADA INC"" -> ""TEGRETOL S̲U̲S̲P̲E̲N̲S̲I̲O̲N̲ (carbamazepine 100 mg per 5 mL oral suspension) NOVARTIS PHARMACEUTICALS CANADA INC"""
+42382,02092964,DRISTAN TABLETS (acetaminophen 325 mg and chlorpheniramine maleate 2 mg and phenylephrine hydrochloride 5 mg oral tablet) PFIZER CONSUMER HEALTHCARE A DIVISION OF PFIZER CANADA ULC,DELETED
+43329,02222051,PRAVACHOL (pravastatin sodium 40 mg oral tablet) BRISTOL-MYERS SQUIBB CANADA,DELETED
+43389,02223740,NORPROLAC (quinagolide (quinagolide hydrochloride) 0.025 mg oral tablet) FERRING INC,DELETED
+43390,02223759,NORPROLAC (quinagolide (quinagolide hydrochloride) 0.05 mg oral tablet) FERRING INC,DELETED
+66276,02242528,ODAN PROCTOMYXIN HC SUPPOSITORIES (dibucaine hydrochloride 5 mg and esculin 10 mg and framycetin sulfate 10 mg and hydrocortisone 5 mg suppository) ODAN LABORATORIES LTD,DELETED
+68582,02244596,VIDEX EC (didanosine 125 mg gastro-resistant capsule) BRISTOL-MYERS SQUIBB CANADA,DELETED
+68583,02244597,VIDEX EC (didanosine 200 mg gastro-resistant capsule) BRISTOL-MYERS SQUIBB CANADA,DELETED
+71082,02246859,AA-FENO-SUPER (fenofibrate 100 mg oral tablet) AA PHARMA INC,"Health_Canada_product_name: ""APO-FENO-SUPER"" -> ""AA-FENO-SUPER""
+mp_formal_name: ""AP̲O̲-FENO-SUPER (fenofibrate 100 mg oral tablet) AA PHARMA INC"" -> ""AA̲-FENO-SUPER (fenofibrate 100 mg oral tablet) AA PHARMA INC"""
+71083,02246860,AA-FENO-SUPER (fenofibrate 160 mg oral tablet) AA PHARMA INC,"Health_Canada_product_name: ""APO-FENO-SUPER"" -> ""AA-FENO-SUPER""
+mp_formal_name: ""AP̲O̲-FENO-SUPER (fenofibrate 160 mg oral tablet) AA PHARMA INC"" -> ""AA̲-FENO-SUPER (fenofibrate 160 mg oral tablet) AA PHARMA INC"""
+74833,02262924,RIVA-TERBINAFINE (terbinafine (terbinafine hydrochloride) 250 mg oral tablet) LABORATOIRE RIVA INC.,DELETED
+77316,02287765,GLN-TOPIRAMATE (topiramate 25 mg oral tablet) GLENMARK PHARMACEUTICALS CANADA INC.,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20190830"" -> ""20070712"""
+77317,02287773,GLN-TOPIRAMATE (topiramate 100 mg oral tablet) GLENMARK PHARMACEUTICALS CANADA INC.,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20190830"" -> ""20070712"""
+77318,02287781,GLN-TOPIRAMATE (topiramate 200 mg oral tablet) GLENMARK PHARMACEUTICALS CANADA INC.,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20190830"" -> ""20070712"""
+78145,02296101,PMS-LEVETIRACETAM (levetiracetam 250 mg oral tablet) PHARMASCIENCE INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20180802"" -> ""20070607"""
+78146,02296128,PMS-LEVETIRACETAM (levetiracetam 500 mg oral tablet) PHARMASCIENCE INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20180802"" -> ""20070607"""
+78147,02296136,PMS-LEVETIRACETAM (levetiracetam 750 mg oral tablet) PHARMASCIENCE INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20180802"" -> ""20070607"""
+78536,02300036,MYLAN-ENALAPRIL (enalapril maleate 2.5 mg oral tablet) MYLAN PHARMACEUTICALS ULC,DELETED
+78617,02300834,RIVA-ENALAPRIL (enalapril maleate 20 mg oral tablet) LABORATOIRE RIVA INC.,DELETED
+79703,02311461,PRO-DICLO RAPIDE - 50 (diclofenac potassium 50 mg oral tablet) PRO DOC LIMITEE,DELETED
+80938,02323907,VICKS DAYQUIL COUGH COUGH & CONGESTION (dextromethorphan hydrobromide 10 mg per 15 mL and guaifenesin 200 mg per 15 mL syrup) PROCTER & GAMBLE INC,DELETED
+81729,02331616,BUPROPION SR (bupropion hydrochloride 100 mg prolonged-release oral tablet) PRO DOC LIMITEE,DELETED
+86145,02375990,ALLERGY REMEDY (loratadine 10 mg oral tablet) APOTEX INC,DELETED
+94903,02461420,ONDANSETRON INJECTION BP (ondansetron (ondansetron hydrochloride dihydrate) 2 mg per mL solution for injection) AURO PHARMA INC,ADDED
+96149,02472171,ATROPINE SULFATE INJECTION USP (atropine sulfate 0.5 mg per 5 mL solution for injection syringe) PFIZER CANADA ULC,DELETED
+98138,02491524,AURO-ONDANSETRON INJECTION (ondansetron (ondansetron hydrochloride dihydrate) 2 mg per mL solution for injection) AURO PHARMA INC,ADDED
+98213,02492148,ERTAPENEM FOR INJECTION (ertapenem (ertapenem sodium) 1 g per vial powder for solution for injection) AURO PHARMA INC,ADDED
+98404,02494027,BUCKLEY'S COMPLETE 24 HOUR PACK (acetaminophen 250 mg and acetaminophen 325 mg and dextromethorphan hydrobromide 10 mg and dextromethorphan hydrobromide 15 mg and doxylamine succinate 6.25 mg and guaifenesin 100 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg kit) THE BUCKLEY'S COMPANY,ADDED
+98527,02495341,ACH-DIMETHYL FUMARATE (dimethyl fumarate 120 mg gastro-resistant capsule) ACCORD HEALTHCARE INC,ADDED
+98528,02495368,ACH-DIMETHYL FUMARATE (dimethyl fumarate 240 mg gastro-resistant capsule) ACCORD HEALTHCARE INC,ADDED
+98689,02497026,PMS-DIMETHYL FUMARATE (dimethyl fumarate 120 mg gastro-resistant capsule) PHARMASCIENCE INC,ADDED
+98690,02497034,PMS-DIMETHYL FUMARATE (dimethyl fumarate 240 mg gastro-resistant capsule) PHARMASCIENCE INC,ADDED
+98835,02498596,ADYNOVATE (rurioctocog alfa pegol 1500 unit per vial NA) TAKEDA CANADA INC,ADDED
+99224,02502690,MAR-DIMETHYL FUMARATE (dimethyl fumarate 120 mg gastro-resistant capsule) MARCAN PHARMACEUTICALS INC,ADDED
+99225,02502704,MAR-DIMETHYL FUMARATE (dimethyl fumarate 240 mg gastro-resistant capsule) MARCAN PHARMACEUTICALS INC,ADDED
+99320,02503751,OCTREOTIDE FOR INJECTABLE SUSPENSION (octreotide (octreotide acetate) 10 mg per vial kit) TEVA CANADA LIMITED,ADDED
+99321,02503778,OCTREOTIDE FOR INJECTABLE SUSPENSION (octreotide (octreotide acetate) 20 mg per vial kit) TEVA CANADA LIMITED,ADDED
+99322,02503786,OCTREOTIDE FOR INJECTABLE SUSPENSION (octreotide (octreotide acetate) 30 mg per vial kit) TEVA CANADA LIMITED,ADDED
+99335,02503913,ONDANSETRON INJECTION USP (ondansetron (ondansetron hydrochloride dihydrate) 2 mg per mL solution for injection) MARCAN PHARMACEUTICALS INC,ADDED
+99494,02505576,PRZ-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 5 mg oral tablet) PHARMARIS CANADA INC,ADDED
+99495,02505584,PRZ-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 10 mg oral tablet) PHARMARIS CANADA INC,ADDED
+99496,02505592,PRZ-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 20 mg oral tablet) PHARMARIS CANADA INC,ADDED
+99497,02505606,PRZ-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 40 mg oral tablet) PHARMARIS CANADA INC,ADDED
+99514,02505762,APO-DIMETHYL FUMARATE (dimethyl fumarate 120 mg gastro-resistant capsule) APOTEX INC,ADDED
+99515,02505770,APO-DIMETHYL FUMARATE (dimethyl fumarate 240 mg gastro-resistant capsule) APOTEX INC,ADDED
+99665,02507269,PMSC-ATORVASTATIN (atorvastatin (atorvastatin calcium) 80 mg oral tablet) PHARMASCIENCE INC,ADDED
+99738,02508028,MINT-CAPECITABINE (capecitabine 500 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+99811,02508761,CLARITIN KIDS RAPID DISSOLVE (loratadine 5 mg orodispersible tablet) BAYER INC,ADDED
+99923,02509970,AG-FAMOTIDINE (famotidine 20 mg oral tablet) ANGITA PHARMA INC.,ADDED
+99924,02509989,AG-FAMOTIDINE (famotidine 40 mg oral tablet) ANGITA PHARMA INC.,ADDED
+100156,02512262,PRZ-TADALAFIL (tadalafil 2.5 mg oral tablet) PHARMARIS CANADA INC,ADDED
+100157,02512270,PRZ-TADALAFIL (tadalafil 5 mg oral tablet) PHARMARIS CANADA INC,ADDED
+100158,02512289,PRZ-TADALAFIL (tadalafil 10 mg oral tablet) PHARMARIS CANADA INC,ADDED
+100159,02512297,PRZ-TADALAFIL (tadalafil 20 mg oral tablet) PHARMARIS CANADA INC,ADDED
+100171,02512424,BUPIVACAINE HYDROCHLORIDE IN DEXTROSE INJECTION USP (bupivacaine hydrochloride 7.5 mg per mL solution for injection) OMEGA LABORATORIES LIMITED,ADDED
+100227,02513161,"MAGNESIUM SULFATE INJECTION, BP 49.3% (magnesium sulfate 493 mg per mL solution for injection) BAXTER CORPORATION",ADDED
+100269,02513579,BIPAZEN (desmopressin acetate 4 mcg per mL solution for injection) KVR PHARMACEUTICALS INC.,ADDED
+100300,02513781,SANDOZ DIMETHYL FUMARATE DELAYED-RELEASE CAPSULES (dimethyl fumarate 120 mg gastro-resistant capsule) SANDOZ CANADA INCORPORATED,ADDED
+100301,02513803,SANDOZ DIMETHYL FUMARATE DELAYED-RELEASE CAPSULES (dimethyl fumarate 240 mg gastro-resistant capsule) SANDOZ CANADA INCORPORATED,ADDED
+100305,02513854,JORVEZA (budesonide 0.5 mg orodispersible tablet) AVIR PHARMA INC.,ADDED
+100327,02514095,DILTIAZEM HYDROCHLORIDE INJECTION (diltiazem hydrochloride 5 mg per mL solution for injection) OMEGA LABORATORIES LIMITED,ADDED
+100410,02514702,JAMP PIRFENIDONE (pirfenidone 267 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+100411,02514710,JAMP PIRFENIDONE (pirfenidone 801 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+100515,02515776,TRELEGY ELLIPTA (fluticasone furoate 200 mcg per actuation and umeclidinium (umeclidinium bromide) 62.5 mcg per actuation and vilanterol (vilanterol trifenatate) 25 mcg per actuation inhalation powder) GLAXOSMITHKLINE INC,ADDED
+100540,02516047,JAMP DIMETHYL FUMARATE (dimethyl fumarate 120 mg gastro-resistant capsule) JAMP PHARMA CORPORATION,ADDED
+100541,02516055,JAMP DIMETHYL FUMARATE (dimethyl fumarate 240 mg gastro-resistant capsule) JAMP PHARMA CORPORATION,ADDED
+100545,02516101,DILTIAZEM T (diltiazem hydrochloride 120 mg prolonged-release oral capsule) SANIS HEALTH INC,ADDED
+100546,02516128,DILTIAZEM T (diltiazem hydrochloride 180 mg prolonged-release oral capsule) SANIS HEALTH INC,ADDED
+100547,02516136,DILTIAZEM T (diltiazem hydrochloride 240 mg prolonged-release oral capsule) SANIS HEALTH INC,ADDED
+100548,02516144,DILTIAZEM T (diltiazem hydrochloride 300 mg prolonged-release oral capsule) SANIS HEALTH INC,ADDED
+100549,02516152,DILTIAZEM T (diltiazem hydrochloride 360 mg prolonged-release oral capsule) SANIS HEALTH INC,ADDED
+100704,02517663,PENTAMIDINE ISETIONATE FOR INJECTION BP (pentamidine isetionate 300 mg per vial powder for solution for injection) MARCAN PHARMACEUTICALS INC,ADDED
+100924,02520028,HALOETTE (ethinyl estradiol 2.7 mg and etonogestrel 11.7 mg ring (slow release)) SEARCHLIGHT PHARMA INC,ADDED
+NA,77700755,CISPLATIN INJECTION BP (cisplatin 50 mg per 50 mL solution for injection vial) SANDOZ CANADA INCORPORATED,DELETED
+NA,77700756,CISPLATIN INJECTION BP (cisplatin 100 mg per 100 mL solution for injection vial) SANDOZ CANADA INCORPORATED,DELETED
+NA,77700757,CISPLATIN INJECTION BP (cisplatin 10 mg per 10 mL solution for injection vial) SANDOZ CANADA INCORPORATED,DELETED
+NA,77700907,ACYCLOVIR SODIUM INJECTION (acyclovir (acyclovir sodium) 1000 mg per 20 mL solution for injection vial) STERIMAX INC,DELETED
+NA,77700908,ACYCLOVIR SODIUM INJECTION (acyclovir (acyclovir sodium) 500 mg per 10 mL solution for injection vial) STERIMAX INC,DELETED
