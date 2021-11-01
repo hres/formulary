@@ -1,0 +1,9 @@
+drug_code,extract_current,extract_previous,drug_identification_number,current_company_name,previous_company_name
+"13360","active","active","01964054","TAROPHARMA, A DIVISION OF TARO PHARMACEUTICALS INC.","TARO PHARMACEUTICALS INC"
+"42113","active","active","01942301","BRIDGES CONSUMER HEALTHCARE LLC","CLARION BRANDS LLC"
+"90736","active","active","02422697","CHEMSYN SERVICES INC.","CITRON HYGIENE LP"
+"43438","dormant","dormant","02225964","APOTEX INC","AA PHARMA INC"
+"43439","dormant","dormant","02225972","APOTEX INC","AA PHARMA INC"
+"90222","dormant","dormant","02417626","STRIDES PHARMA CANADA INC","MYLAN PHARMACEUTICALS ULC"
+"87523","approved","approved","02389754","SUN PHARMA CANADA INC","RANBAXY PHARMACEUTICALS CANADA INC."
+"93997","approved","approved","02453428","SUN PHARMA CANADA INC","RANBAXY PHARMACEUTICALS CANADA INC."
