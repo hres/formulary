@@ -1,0 +1,25 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9002679,hydrocodone bitartrate 1.7 mg per 5 mL and phenylephrine hydrochloride 10 mg per 5 mL syrup,"bitartrate d'hydrocodone 1,7 mg par 5 mL et chlorhydrate de phényléphrine 10 mg par 5 mL sirop","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19941231"" -> ""20200710"""
+9002703,orphenadrine citrate 100 mg oral tablet,citrate d'orphénadrine 100 mg comprimé oral,"ntp_status_effective_time: ""20210827"" -> ""20210828"""
+9003684,didanosine 125 mg gastro-resistant capsule,didanosine 125 mg capsule gastrorésistante,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20020102"" -> ""20200402"""
+9003685,didanosine 200 mg gastro-resistant capsule,didanosine 200 mg capsule gastrorésistante,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20020102"" -> ""20200402"""
+9003769,cefuroxime (cefuroxime sodium) 7.5 g per vial powder for solution for injection,"céfuroxime (céfuroxime sodique) 7,5 g par fiole poudre pour solution injectable","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20021205"" -> ""20211022"""
+9003998,quinagolide (quinagolide hydrochloride) 0.025 mg oral tablet,"quinagolide (chlorhydrate de quinagolide) 0,025 mg comprimé oral","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20041229"" -> ""20210602"""
+9003999,quinagolide (quinagolide hydrochloride) 0.05 mg oral tablet,"quinagolide (chlorhydrate de quinagolide) 0,05 mg comprimé oral","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20041229"" -> ""20210602"""
+9013816,dextromethorphan hydrobromide 10 mg per 15 mL and guaifenesin 200 mg per 15 mL syrup,bromhydrate de dextrométhorphane 10 mg par 15 mL et guaïfénésine 200 mg par 15 mL sirop,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20090918"" -> ""20210630"""
+9014606,budesonide 0.5 mg orodispersible tablet,"budésonide 0,5 mg comprimé orodispersible",ADDED
+9014607,bupivacaine hydrochloride 15 mg per 2 mL solution for injection vial,chlorhydrate de bupivacaïne 15 mg par 2 mL solution injectable fiole,ADDED
+9014608,fluticasone furoate 200 mcg per actuation and umeclidinium (umeclidinium bromide) 62.5 mcg per actuation and vilanterol (vilanterol trifenatate) 25 mcg per actuation inhalation powder,"furoate de fluticasone 200 mcg par actionnement et uméclidinium (bromure d'uméclidinium) 62,5 mcg par actionnement et vilantérol (trifénatate de vilantérol) 25 mcg par actionnement poudre pour inhalation",ADDED
+9014609,loratadine 5 mg orodispersible tablet,loratadine 5 mg comprimé orodispersible,ADDED
+9014610,magnesium sulfate 493 mg per mL solution for injection 500 mL bag,sulfate de magnésium 493 mg par mL solution injectable 500 mL sac,ADDED
+9014611,ravulizumab 300 mg per 30 mL solution for injection vial,ravulizumab 300 mg par 30 mL solution injectable fiole,ADDED
+9014612,rurioctocog alfa pegol 1500 unit per vial powder for solution for injection with diluent solution,rurioctocog alfa pégol 1500 unité par fiole poudre pour solution injectable avec solution diluante,ADDED
+9014613,sotorasib 120 mg oral tablet,sotorasib 120 mg comprimé oral,ADDED
+9014615,tepotinib (tepotinib hydrochloride) 225 mg oral tablet,tépotinib (chlorhydrate de tépotinib) 225 mg comprimé oral,ADDED
