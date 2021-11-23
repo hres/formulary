@@ -11,7 +11,7 @@ drug_code,drug_identification_number,brand_name,status,history_date,comments
 89891,2414252,SATINIQUE ANTI-DANDRUFF SHAMPOO,Cancelled Postmarket,2017-11-09,Has problematic strength - leave out
 13600,1974548,MICRO I,Marketed,2006-06-17,TPN additive Out of scope. Keep on blacklist
 6775,691623,BICARBONATE CONCENTRATE D17000,Marketed,2001-10-01,Out of scope. Haemodialysis
-8587,774995,800 SODIUM BICARBONATE POWDER,Marketed,2001-10-01,Out of scope. Haemodialysis
+8587,774995,800 SODIUM BICARBONATE POWDER,Dormant,2021-07-22,Out of scope. Haemodialysis
 13833,1905740,K + 45,Marketed,2001-10-01,Out of scope. Haemodialysis
 37283,2221616,SODIUM BICARBONATE USP FOR HEMODIALYSIS D12276,Marketed,2002-01-28,Out of scope. Haemodialysis
 73309,2248934,BICARBONATE CONCENTRATE B38,Marketed,2005-07-04,Out of scope. Haemodialysis
