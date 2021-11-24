@@ -1,7 +1,7 @@
 "ntp_dosage_form_code","ntp_dosage_form","route_of_administration_code","route_of_administration","route_of_administration_f","pharm_form_code","pharmaceutical_form","pharmaceutical_form_f","ntp_dosage_form_fr"
 "40003","mouthwash","5","DENTAL","Dentaire","182","MOUTHWASH","Rince-bouche","solution pour bain de bouche"
 "40018","powder for prolonged-release suspension for injection","65","SUBCUTANEOUS","Sous-cutanée","32-118","KIT, POWDER FOR SUSPENSION, SUSTAINED-RELEASE","Trousse,Poudre pour suspension, à libération prolongée","poudre pour suspension injectable à libération prolongée"
-"40154","buccal/sublingual film","3-66","BUCCAL, SUBLINGUAL","Buccale,Sublinguale","167","FILM, SOLUBLE","Pellicule,soluble","film buccogingival/sublingual"
+"40154","oromucosal film","3-66","BUCCAL, SUBLINGUAL","Buccale,Sublinguale","167","FILM, SOLUBLE","Pellicule,soluble","film buccale"
 "40153","dispersion for injection","22","INTRAMUSCULAR","Intramusculaire","184","DISPERSION","Dispersion","dispersion injectable"
 "40017","powder for solution for injection","22-118","INTRAMUSCULAR, INTRAGLANDULAR","Intramusculaire,Intraglandulaire","56","POWDER FOR SOLUTION","Poudre pour solution","poudre pour solution injectable"
 "40151","sublingual film","66","SUBLINGUAL","Sublinguale","167","FILM, SOLUBLE","Pellicule, soluble","film sublingual"
