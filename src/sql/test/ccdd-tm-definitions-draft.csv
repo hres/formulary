@@ -1,4 +1,4 @@
-"code","formal_name","formal_name_fr"
+code,formal_name,formal_name_fr
 "8000001","levothyroxine","lévothyroxine"
 "8000003","epinephrine","épinéphrine"
 "8000004","phenytoin sodium","phénytoïne sodique"
@@ -1757,3 +1757,6 @@
 "8002389","binimetinib","binimétinib"
 "8002390","encorafenib","encorafénib"
 "8002392","ravulizumab","ravulizumab"
+"8002393","sotorasib","sotorasib"
+"8002394","sotrovimab","sotrovimab"
+"8002395","tepotinib","tépotinib"
