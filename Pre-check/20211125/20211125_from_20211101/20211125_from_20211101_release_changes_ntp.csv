@@ -1,0 +1,44 @@
+ntp_code,ntp_formal_name,changes
+0ac5384c89524f7642d78537e24ea00b,buprenorphine (buprenorphine hydrochloride) 12 mg and naloxone (naloxone hydrochloride) 3 mg oromucosal film,ADDED
+2185bf255ac0afb89ea42cc2f0587680,dimenhydrinate 1250 mg per 5 mL solution for injection vial,ADDED
+369807a16f501b9798077d37b9b7c905,buprenorphine (buprenorphine hydrochloride) 2 mg and naloxone (naloxone hydrochloride) 0.5 mg oromucosal film,ADDED
+42ae3c949e84968c694146f0b36627b7,follitropin alfa 900 unit per 1.44 mL and lutropin alfa 450 unit per 1.44 mL solution for injection,ADDED
+441bb7ac63e862320751a1a2d2e74e03,upadacitinib 30 mg prolonged-release oral tablet,ADDED
+53f6431343dced0faacf48f0c04e5479,bevacizumab 100 mg per 4 mL solution for injection,ADDED
+6290922164710e90ee99a34c6497e585,polatuzumab vedotin 30 mg per vial powder for solution for injection,ADDED
+9000146,diclofenac sodium 50 mg gastro-resistant tablet,"ntp_status_effective_time: ""19801231"" -> ""19891231"""
+9000222,diclofenac sodium 100 mg suppository,"ntp_status_effective_time: ""19851231"" -> ""19960315"""
+9000317,diclofenac sodium 75 mg prolonged-release oral tablet,"ntp_status_effective_time: ""19891231"" -> ""19951231"""
+9000329,metoclopramide hydrochloride 10 mg oral tablet,"ntp_status_effective_time: ""20171027"" -> ""20211029"""
+9001191,risperidone 0.5 mg orodispersible tablet,"ntp_status_effective_time: ""20190131"" -> ""20211115"""
+9001192,risperidone 1 mg orodispersible tablet,"ntp_status_effective_time: ""20190103"" -> ""20211115"""
+9001193,risperidone 2 mg orodispersible tablet,"ntp_status_effective_time: ""20190103"" -> ""20211115"""
+9001368,risperidone 3 mg orodispersible tablet,"ntp_status_effective_time: ""20190622"" -> ""20211115"""
+9001369,risperidone 4 mg orodispersible tablet,"ntp_status_effective_time: ""20190622"" -> ""20211115"""
+9001664,methylprednisolone (methylprednisolone sodium succinate) 500 mg per vial powder for solution for injection,DELETED
+9001677,methylprednisolone (methylprednisolone sodium succinate) 1 g per vial powder for solution for injection,DELETED
+9001940,dipyridamole 25 mg oral tablet,DELETED
+9001941,dipyridamole 50 mg oral tablet,DELETED
+9002329,zidovudine 100 mg oral capsule,"ntp_status_effective_time: ""19901231"" -> ""19921231"""
+9002535,chloroxylenol 0.15 % and triclosan 0.15 % cutaneous gel,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19931231"" -> ""20200729"""
+9002836,levobunolol hydrochloride 0.5 % ophthalmic drops,DELETED
+9003470,methylprednisolone (methylprednisolone sodium succinate) 40 mg per vial powder for solution for injection,DELETED
+9003775,hydroquinone 4 % cutaneous gel,"ntp_status_effective_time: ""20030113"" -> ""20200313"""
+9003860,acetaminophen 500 mg and chlorpheniramine maleate 2 mg and dextromethorphan hydrobromide 15 mg oral tablet,"ntp_status_effective_time: ""20040112"" -> ""20090101"""
+9013201,lidocaine hydrochloride 1 % cutaneous spray,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20100408"" -> ""20200731"""
+9014447,buprenorphine (buprenorphine hydrochloride) 12 mg and naloxone (naloxone hydrochloride) 3 mg buccal/sublingual film,DELETED
+9014448,buprenorphine (buprenorphine hydrochloride) 2 mg and naloxone (naloxone hydrochloride) 0.5 mg buccal/sublingual film,DELETED
+9014449,buprenorphine (buprenorphine hydrochloride) 8 mg and naloxone (naloxone hydrochloride) 2 mg buccal/sublingual film,DELETED
+9014470,ChAdOx1-S (recombinant) 5e10 vp per 0.5 mL solution for injection 5 mL vial,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20210303"" -> ""20210916"""
+9014541,buprenorphine (buprenorphine hydrochloride) 4 mg and naloxone (naloxone hydrochloride) 1 mg buccal/sublingual film,DELETED
+979b36ec65975b89ddc59248de6637f7,bevacizumab 400 mg per 16 mL solution for injection,ADDED
+9e396c14c68254e22db8b401ab0c6854,follitropin alfa 450 unit per 0.72 mL and lutropin alfa 225 unit per 0.72 mL solution for injection,ADDED
+ab91cda0b7fbd9bcbfe03a8431ac2733,buprenorphine (buprenorphine hydrochloride) 8 mg and naloxone (naloxone hydrochloride) 2 mg oromucosal film,ADDED
+ac2fd973dd3b8972bcd2f024648aacdc,acetaminophen 325 mg and acetaminophen 325 mg and dextromethorphan hydrobromide 15 mg and dextromethorphan hydrobromide 15 mg and doxylamine succinate 6.25 mg and pseudoephedrine hydrochloride 30 mg and pseudoephedrine hydrochloride 30 mg kit,ADDED
+b70819cb6f7a663ac7bb4c130fb1b026,cyclosporine 0.09 % ophthalmic drops,ADDED
+c15d9eddd500089c6f6f96b72565fcff,follitropin alfa 300 unit per 0.48 mL and lutropin alfa 150 unit per 0.48 mL solution for injection,ADDED
+d9bb456bac8e059b5fa24dbd7eeee07c,drospirenone 3 mg and ethinyl estradiol 0.03 mg oral tablet,ADDED
+f5128bcac35e90e593399c081af55197,buprenorphine (buprenorphine hydrochloride) 4 mg and naloxone (naloxone hydrochloride) 1 mg oromucosal film,ADDED

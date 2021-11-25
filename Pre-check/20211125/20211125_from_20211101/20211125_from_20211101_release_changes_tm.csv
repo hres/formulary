@@ -1,0 +1,13 @@
+tm_code,tm_formal_name,changes
+8001782,follitropin alfa and lutropin alfa,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20190704"" -> ""20151022"""
+8001319,acetaminophen and chlorpheniramine and dextromethorphan,"tm_status_effective_time: ""20040112"" -> ""20090101"""
+8002367,ChAdOx1-S (recombinant),"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20210303"" -> ""20210916"""
+8001661,hydroquinone,"tm_status_effective_time: ""20030113"" -> ""20050906"""
+8000082,diclofenac,"tm_status_effective_time: ""19801231"" -> ""19851231"""
+8001240,zidovudine,"tm_status_effective_time: ""19901231"" -> ""19911231"""
+8001659,glycopyrrolate,DELETED
+8001835,levobunolol,DELETED
+8001896,chloroxylenol and triclosan,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19931231"" -> ""20200729"""
