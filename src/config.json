@@ -1,0 +1,12 @@
+[
+  {
+    "ccdd_date": "2021-12-01",
+    "db_previous_month": "ccdd_2021_11_01_160613",
+    "ccdd_qa_release_date": "20211101",
+    "ccdd_current_release_date": "20211101",
+    "dpd_extract_date": "2021-12-01",
+    "dpd_extract_directory": "/home/cyanofsky/dpd/dpd_20211201",
+    "preQA": false,
+    "pgloaded_file_dir": "/home/cyanofsky/git/formulary/src/pgloaded"
+  }
+]
