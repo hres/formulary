@@ -1,0 +1,41 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8000940,alcohol anhydrous and butanediol and propyl alcohol and propylene glycol,alcool anhydre et butanédiol et alcool propylique et propylène glycol,CHANGED
+8002278,coagulation factor IX human and coagulation factor ii (human) and coagulation factor vii (human) and coagulation factor x (human) and protein c and protein s,facteur IX de coagulation humain et facteur II de coagulation humain et facteur VII de coagulation humain et facteur X de coagulation humain et protéine c et protéine s,CHANGED
+8002047,paclitaxel,paclitaxel,CHANGED
+8000912,alcohol anhydrous and chlorhexidine,alcool anhydre et chlorhexidine,CHANGED
+8002088,acetic acid and sodium acetate,acide acétique et acétate de sodium,CHANGED
+8000082,diclofenac,diclofénac,"tm_status_effective_time: ""19801231"" -> ""19851231"""
+8001661,hydroquinone,hydroquinone,"tm_status_effective_time: ""20030113"" -> ""20050906"""
+d47bb4bcce83f6e959136be7ac9b73ba,macitentan and tadalafil,macitentan et tadalafil,ADDED
+8001319,acetaminophen and chlorpheniramine and dextromethorphan,acétaminophène et chlorphéniramine et dextrométhorphane,"tm_status_effective_time: ""20040112"" -> ""20090101"""
+8001615,chloroxylenol,chloroxylénol,CHANGED
+8002394,sotrovimab,sotrovimab,CHANGED
+8002282,fibrinogen human and thrombin human,fibrinogène humaine et thrombine humaine,CHANGED
+8001835,levobunolol,lévobunolol,DELETED
+8001240,zidovudine,zidovudine,"tm_status_effective_time: ""19901231"" -> ""19911231"""
+8001878,sodium iodide,iodure de sodium,CHANGED
+8002245,onabotulinumtoxinA,onabotulinumtoxineA,CHANGED
+33aecfd4f35cc9a532adc0cea1c18d70,pralsetinib,pralsétinib,ADDED
+8000796,benzalkonium,benzalkonium,CHANGED
+8002068,piperazine,pipérazine,CHANGED
+8001870,potassium chloride,chlorure de potassium,CHANGED
+8001782,follitropin alfa and lutropin alfa,follitropine alfa et lutropine alfa,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20190704"" -> ""20151022"""
+8002215,amphotericin B,amphotéricine B,CHANGED
+8001757,doxorubicin,doxorubicine,CHANGED
+8001579,benzethonium,benzéthonium,CHANGED
+8002154,potassium phosphate dibasic and potassium phosphate monobasic,phosphate de potassium dibasique et phosphate de potassium monobasique,CHANGED
+8001976,triclosan,triclosan,CHANGED
+8001896,chloroxylenol and triclosan,chloroxylénol et triclosan,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19931231"" -> ""20200729"""
+8001476,follitropin beta,follitropine bêta,CHANGED
+8001659,glycopyrrolate,glycopyrrolate,DELETED
+65c614b8ef91df93827bade334d682e1,sacituzumab govitecan,sacituzumab govitécan,ADDED
+8002161,sodium bicarbonate,bicarbonate de sodium,CHANGED
+8001004,benzoyl peroxide and salicylic acid,peroxyde de benzoyle et acide salicylique,CHANGED
+8002367,ChAdOx1-S (recombinant),ChAdOx1-S (recombinant),"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20210303"" -> ""20210916"""
+8002160,sodium acetate,acétate de sodium,CHANGED
+8001098,asparaginase,asparaginase,CHANGED
+a1bb60a4cc3c9171aae2ba539a7a51c3,ponesimod,ponésimod,ADDED
+8001844,magnesium chloride,chlorure de magnésium,CHANGED
