@@ -1,0 +1,44 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9000329,metoclopramide hydrochloride 10 mg oral tablet,chlorhydrate de métoclopramide 10 mg comprimé oral,"ntp_status_effective_time: ""20171027"" -> ""20211029"""
+9001191,risperidone 0.5 mg orodispersible tablet,"rispéridone 0,5 mg comprimé orodispersible","ntp_status_effective_time: ""20190131"" -> ""20211115"""
+9001192,risperidone 1 mg orodispersible tablet,rispéridone 1 mg comprimé orodispersible,"ntp_status_effective_time: ""20190103"" -> ""20211115"""
+9001193,risperidone 2 mg orodispersible tablet,rispéridone 2 mg comprimé orodispersible,"ntp_status_effective_time: ""20190103"" -> ""20211115"""
+9001368,risperidone 3 mg orodispersible tablet,rispéridone 3 mg comprimé orodispersible,"ntp_status_effective_time: ""20190622"" -> ""20211115"""
+9001369,risperidone 4 mg orodispersible tablet,rispéridone 4 mg comprimé orodispersible,"ntp_status_effective_time: ""20190622"" -> ""20211115"""
+9001664,methylprednisolone (methylprednisolone sodium succinate) 500 mg per vial powder for solution for injection,méthylprednisolone (succinate sodique de méthylprednisolone) 500 mg par fiole poudre pour solution injectable,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20000301"" -> ""20211117"""
+9001677,methylprednisolone (methylprednisolone sodium succinate) 1 g per vial powder for solution for injection,méthylprednisolone (succinate sodique de méthylprednisolone) 1 g par fiole poudre pour solution injectable,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20000301"" -> ""20211117"""
+9001940,dipyridamole 25 mg oral tablet,dipyridamole 25 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19901231"" -> ""20210925"""
+9001941,dipyridamole 50 mg oral tablet,dipyridamole 50 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19901231"" -> ""20210925"""
+9002535,chloroxylenol 0.15 % and triclosan 0.15 % cutaneous gel,"chloroxylénol 0,15 % et triclosan 0,15 % gel cutané","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19931231"" -> ""20200729"""
+9002836,levobunolol hydrochloride 0.5 % ophthalmic drops,"chlorhydrate de lévobunolol 0,5 % gouttes ophtalmiques","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19851231"" -> ""20200221"""
+9003470,methylprednisolone (methylprednisolone sodium succinate) 40 mg per vial powder for solution for injection,méthylprednisolone (succinate sodique de méthylprednisolone) 40 mg par fiole poudre pour solution injectable,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20000301"" -> ""20211117"""
+9013201,lidocaine hydrochloride 1 % cutaneous spray,chlorhydrate de lidocaïne 1 % vaporisation cutanée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20100408"" -> ""20200731"""
+9014447,buprenorphine (buprenorphine hydrochloride) 12 mg and naloxone (naloxone hydrochloride) 3 mg oromucosal film,buprénorphine (chlorhydrate de buprénorphine) 12 mg et naloxone (chlorhydrate de naloxone) 3 mg film buccale,"ntp_formal_name: ""buprenorphine (buprenorphine hydrochloride) 12 mg and naloxone (naloxone hydrochloride) 3 mg b̲u̲c̲c̲a̲l̲/̲s̲u̲b̲l̲i̲n̲g̲u̲al film"" -> ""buprenorphine (buprenorphine hydrochloride) 12 mg and naloxone (naloxone hydrochloride) 3 mg o̲r̲o̲m̲u̲c̲o̲s̲al film""
+ntp_fr_description: ""buprénorphine (chlorhydrate de buprénorphine) 12 mg et naloxone (chlorhydrate de naloxone) 3 mg film bucco̲g̲i̲n̲g̲i̲v̲a̲l̲/̲s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲"" -> ""buprénorphine (chlorhydrate de buprénorphine) 12 mg et naloxone (chlorhydrate de naloxone) 3 mg film bucca̲l̲e̲"""
+9014448,buprenorphine (buprenorphine hydrochloride) 2 mg and naloxone (naloxone hydrochloride) 0.5 mg oromucosal film,"buprénorphine (chlorhydrate de buprénorphine) 2 mg et naloxone (chlorhydrate de naloxone) 0,5 mg film buccale","ntp_formal_name: ""buprenorphine (buprenorphine hydrochloride) 2 mg and naloxone (naloxone hydrochloride) 0.5 mg b̲u̲c̲c̲a̲l̲/̲s̲u̲b̲l̲i̲n̲g̲u̲al film"" -> ""buprenorphine (buprenorphine hydrochloride) 2 mg and naloxone (naloxone hydrochloride) 0.5 mg o̲r̲o̲m̲u̲c̲o̲s̲al film""
+ntp_fr_description: ""buprénorphine (chlorhydrate de buprénorphine) 2 mg et naloxone (chlorhydrate de naloxone) 0,5 mg film bucco̲g̲i̲n̲g̲i̲v̲a̲l̲/̲s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲"" -> ""buprénorphine (chlorhydrate de buprénorphine) 2 mg et naloxone (chlorhydrate de naloxone) 0,5 mg film bucca̲l̲e̲"""
+9014449,buprenorphine (buprenorphine hydrochloride) 8 mg and naloxone (naloxone hydrochloride) 2 mg oromucosal film,buprénorphine (chlorhydrate de buprénorphine) 8 mg et naloxone (chlorhydrate de naloxone) 2 mg film buccale,"ntp_formal_name: ""buprenorphine (buprenorphine hydrochloride) 8 mg and naloxone (naloxone hydrochloride) 2 mg b̲u̲c̲c̲a̲l̲/̲s̲u̲b̲l̲i̲n̲g̲u̲al film"" -> ""buprenorphine (buprenorphine hydrochloride) 8 mg and naloxone (naloxone hydrochloride) 2 mg o̲r̲o̲m̲u̲c̲o̲s̲al film""
+ntp_fr_description: ""buprénorphine (chlorhydrate de buprénorphine) 8 mg et naloxone (chlorhydrate de naloxone) 2 mg film bucco̲g̲i̲n̲g̲i̲v̲a̲l̲/̲s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲"" -> ""buprénorphine (chlorhydrate de buprénorphine) 8 mg et naloxone (chlorhydrate de naloxone) 2 mg film bucca̲l̲e̲"""
+9014541,buprenorphine (buprenorphine hydrochloride) 4 mg and naloxone (naloxone hydrochloride) 1 mg oromucosal film,buprénorphine (chlorhydrate de buprénorphine) 4 mg et naloxone (chlorhydrate de naloxone) 1 mg film buccale,"ntp_formal_name: ""buprenorphine (buprenorphine hydrochloride) 4 mg and naloxone (naloxone hydrochloride) 1 mg b̲u̲c̲c̲a̲l̲/̲s̲u̲b̲l̲i̲n̲g̲u̲al film"" -> ""buprenorphine (buprenorphine hydrochloride) 4 mg and naloxone (naloxone hydrochloride) 1 mg o̲r̲o̲m̲u̲c̲o̲s̲al film""
+ntp_fr_description: ""buprénorphine (chlorhydrate de buprénorphine) 4 mg et naloxone (chlorhydrate de naloxone) 1 mg film bucco̲g̲i̲n̲g̲i̲v̲a̲l̲/̲s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲"" -> ""buprénorphine (chlorhydrate de buprénorphine) 4 mg et naloxone (chlorhydrate de naloxone) 1 mg film bucca̲l̲e̲"""
+9014616,acetaminophen 325 mg and dextromethorphan hydrobromide 15 mg and doxylamine succinate 6.25 mg and pseudoephedrine hydrochloride 30 mg oral tablet with acetaminophen 325 mg and dextromethorphan hydrobromide 15 mg and pseudoephedrine hydrochloride 30 mg oral tablet,"acétaminophène 325 mg et bromhydrate de dextrométhorphane 15 mg et succinate de doxylamine 6,25 mg et chlorhydrate de pseudoéphédrine 30 mg capsule orale avec acétaminophène 325 mg et bromhydrate de dextrométhorphane 15 mg et chlorhydrate de pseudoéphédrine 30 mg capsule orale",ADDED
+9014621,cyclosporine 0.09 % ophthalmic drops,"cyclosporine 0,09 % gouttes ophtalmiques",ADDED
+9014622,follitropin alfa 300 unit per 0.48 mL and lutropin alfa 150 unit per 0.48 mL solution for injection pen,"follitropine alfa 300 unité par 0,48 mL et lutropine alfa 150 unité par 0,48 mL solution injectable stylo",ADDED
+9014623,follitropin alfa 450 unit per 0.72 mL and lutropin alfa 225 unit per 0.72 mL solution for injection pen,"follitropine alfa 450 unité par 0,72 mL et lutropine alfa 225 unité par 0,72 mL solution injectable stylo",ADDED
+9014624,follitropin alfa 900 unit per 1.44 mL and lutropin alfa 450 unit per 1.44 mL solution for injection pen,"follitropine alfa 900 unité par 1,44 mL et lutropine alfa 450 unité par 1,44 mL solution injectable stylo",ADDED
+9014625,macitentan 10 mg and tadalafil 40 mg oral tablet,macitentan 10 mg et tadalafil 40 mg comprimé oral,ADDED
+9014626,polatuzumab vedotin 30 mg per vial powder for solution for injection,polatuzumab védotine 30 mg par fiole poudre pour solution injectable,ADDED
+9014627,ponesimod 2 mg oral tablet with ponesimod 3 mg oral tablet with ponesimod 4 mg oral tablet with ponesimod 5 mg oral tablet with ponesimod 6 mg oral tablet with ponesimod 7 mg oral tablet with ponesimod 8 mg oral tablet with ponesimod 9 mg oral tablet with ponesimod 10 mg oral tablet,ponésimod 2 mg comprimé oral avec ponésimod 3 mg comprimé oral avec ponésimod 4 mg comprimé oral avec ponésimod 5 mg comprimé oral avec ponésimod 6 mg comprimé oral avec ponésimod 7 mg comprimé oral avec ponésimod 8 mg comprimé oral avec ponésimod 9 mg comprimé oral avec ponésimod 10 mg comprimé oral,ADDED
+9014628,ponesimod 20 mg oral tablet,ponésimod 20 mg comprimé oral,ADDED
+9014629,pralsetinib 100 mg oral capsule,pralsétinib 100 mg capsule orale,ADDED
+9014630,sacituzumab govitecan 180 mg per vial powder for solution for injection,sacituzumab govitécan 180 mg par fiole poudre pour solution injectable,ADDED
+9014631,sotrovimab 500 mg per 8 mL solution for injection vial,sotrovimab 500 mg par 8 mL solution injectable fiole,ADDED
+9014632,upadacitinib 30 mg prolonged-release oral tablet,upadacitinib 30 mg comprimé oral à libération prolongée,ADDED
