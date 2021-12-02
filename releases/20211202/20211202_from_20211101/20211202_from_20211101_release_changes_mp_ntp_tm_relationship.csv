@@ -58,6 +58,7 @@ ntp_formal_name: ""buprenorphine (buprenorphine hydrochloride) 12 mg and naloxon
 99365,02504219,JAMP ATORVASTATIN CALCIUM (atorvastatin (atorvastatin calcium) 40 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
 99367,02504235,JAMP ATORVASTATIN CALCIUM (atorvastatin (atorvastatin calcium) 80 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
 99720,02507811,MED-BRIMONIDINE (brimonidine tartrate 0.2 % ophthalmic drops) GENERIC MEDICAL PARTNERS INC,ADDED
+99838,02509067,ACH-METHOTREXATE (methotrexate 2.5 mg oral tablet) ACCORD HEALTHCARE INC,ADDED
 99918,02509911,JAMP BUSPIRONE (buspirone hydrochloride 10 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
 100190,02512629,CEQUA (cyclosporine 0.09 % ophthalmic drops) SUN PHARMA GLOBAL FZE,ADDED
 100250,02513285,M-LATANOPROST (latanoprost 50 mcg per mL ophthalmic drops) MANTRA PHARMA INC,ADDED
@@ -78,4 +79,4 @@ ntp_formal_name: ""buprenorphine (buprenorphine hydrochloride) 12 mg and naloxon
 101013,02520893,RINVOQ (upadacitinib 30 mg prolonged-release oral tablet) ABBVIE CORPORATION,ADDED
 101031,02521083,OPSYNVI (macitentan 10 mg and tadalafil 40 mg oral tablet) JANSSEN INC,ADDED
 NA,77700626,"DIMENHYDRINATE INJECTION USP (dimenhydrinate 50 mg per 1 mL solution for injection ampoule) TELIP, LLC, A SUBSIDIARY OF TELIGENT, INC.","mp_formal_name: ""DIMENHYDRINATE INJECTION USP (dimenhydrinate 50 mg per 1 mL solution for injection ampoule) TELIG̲E̲N̲T̲ ̲O̲U̲"" -> ""DIMENHYDRINATE INJECTION USP (dimenhydrinate 50 mg per 1 mL solution for injection ampoule) TELIP̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"""
-NA,77700627,"DIMENHYDRINATE INJECTION USP (dimenhydrinate 250 mg per 5 mL solution for injection vial) TELIP, LLC, A SUBSIDIARY OF TELIGENT, INC.","mp_formal_name: ""DIMENHYDRINATE INJECTION USP (dimenhydrinate 250 mg per 5 mL solution for injection vial) TELIG̲E̲N̲T̲ ̲O̲U̲"" -> ""DIMENHYDRINATE INJECTION USP (dimenhydrinate 250 mg per 5 mL solution for injection vial) TELIP̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"""
+NA,77700627,DIMENHYDRINATE INJECTION USP (dimenhydrinate 250 mg per 5 mL solution for injection vial) TELIGENT OU,DELETED

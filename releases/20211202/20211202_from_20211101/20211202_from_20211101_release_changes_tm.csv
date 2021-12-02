@@ -1,13 +1,13 @@
 tm_code,tm_formal_name,tm_fr_description,changes
 8002398,pralsetinib,pralsétinib,ADDED
-8002397,ponesimod,ponésimod,ADDED
 8002399,sacituzumab govitecan,sacituzumab govitécan,ADDED
 8001782,follitropin alfa and lutropin alfa,follitropine alfa et lutropine alfa,"tm_status: ""INACTIVE"" -> ""ACTIVE""
 tm_status_effective_time: ""20190704"" -> ""20151022"""
-8002396,macitentan and tadalafil,macitentan et tadalafil,ADDED
 8001835,levobunolol,lévobunolol,"tm_status: ""ACTIVE"" -> ""INACTIVE""
 tm_status_effective_time: ""19851231"" -> ""20200221"""
 8002394,sotrovimab,sotrovimab,ADDED
+8001659,glycopyrrolate,glycopyrrolate,DELETED
+8002397,ponesimod,ponésimod,ADDED
+8002396,macitentan and tadalafil,macitentan et tadalafil,ADDED
 8001896,chloroxylenol and triclosan,chloroxylénol et triclosan,"tm_status: ""ACTIVE"" -> ""INACTIVE""
 tm_status_effective_time: ""19931231"" -> ""20200729"""
-8001659,glycopyrrolate,glycopyrrolate,DELETED
