@@ -1,0 +1,7 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002400,Ad26.COV2.S (recombinant),Ad26.COV2.S (recombinant),ADDED
+8002401,budesonide and formoterol and glycopyrronium,budésonide et formotérol et glycopyrronium,ADDED
+8001659,glycopyrrolate,glycopyrrolate,DELETED
+8001464,etodolac,étodolac,"tm_status_effective_time: ""20200724"" -> ""20211210"""
+8000786,pentazocine,pentazocine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19701231"" -> ""20210219"""
