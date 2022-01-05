@@ -1,0 +1,29 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9000004,epinephrine (epinephrine hydrochloride) 1 mg per mL nasal spray,épinéphrine (chlorhydrate d'épinéphrine) 1 mg par mL vaporisation nasale,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""19511231"" -> ""20220101"""
+9000051,pentazocine (pentazocine hydrochloride) 50 mg oral tablet,pentazocine (chlorhydrate de pentazocine) 50 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19701231"" -> ""20210219"""
+9002965,raltitrexed (raltitrexed disodium) 2 mg per vial powder for solution for injection,raltitrexed (raltitrexed disodique) 2 mg par fiole poudre pour solution injectable,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""19961118"" -> ""20220101"""
+9003141,etodolac 200 mg oral capsule,étodolac 200 mg capsule orale,"ntp_status_effective_time: ""20200724"" -> ""20211210"""
+9003142,etodolac 300 mg oral capsule,étodolac 300 mg capsule orale,"ntp_status_effective_time: ""20200724"" -> ""20211210"""
+9003706,oxcarbazepine 150 mg oral tablet,oxcarbazépine 150 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20020401"" -> ""20210729"""
+9003970,lidocaine hydrochloride 1 % cutaneous gel,chlorhydrate de lidocaïne 1 % gel cutané,"ntp_status_effective_time: ""20190826"" -> ""20211220"""
+9005971,olaparib 50 mg oral capsule,olaparib 50 mg capsule orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20160516"" -> ""20210111"""
+9012734,midazolam 15 mg per 3 mL solution for injection ampoule,midazolam 15 mg par 3 mL solution injectable ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20150331"" -> ""20210521"""
+9012737,midazolam 5 mg per 1 mL solution for injection ampoule,midazolam 5 mg par 1 mL solution injectable ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20120726"" -> ""20210521"""
+9012741,midazolam 50 mg per 10 mL solution for injection ampoule,midazolam 50 mg par 10 mL solution injectable ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20120726"" -> ""20210521"""
+9014008,benzoyl peroxide 2.5 % cutaneous gel with benzoyl peroxide 5 % lotion with moisturizer,"peroxyde de benzoyle 2,5 % gel cutané avec peroxyde de benzoyle 5 % lotion avec hydratant","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20170130"" -> ""20210625"""
+9014442,adalimumab 40 mg per 0.8 mL solution for injection pen,"adalimumab 40 mg par 0,8 mL solution injectable stylo","ntp_status_effective_time: ""20210215"" -> ""20040924"""
+9014443,adalimumab 40 mg per 0.8 mL solution for injection syringe,"adalimumab 40 mg par 0,8 mL solution injectable seringue","ntp_status_effective_time: ""20210215"" -> ""20040924"""
+9014633,Ad26.COV2.S (recombinant) 5e10 vp per 0.5 mL suspension for injection 2.5 mL vial,"Ad26,COV2,S (recombinant) 5e10 particules virales par 0,5 mL suspension injectable 2,5 mL fiole",ADDED
+9014634,budesonide 182 mcg per actuation and formoterol fumarate 5.8 mcg per actuation and glycopyrronium (glycopyrronium bromide) 8.2 mcg per actuation pressurized inhalation,"budésonide 182 mcg par actionnement et fumarate de formotérol 5,8 mcg par actionnement et glycopyrronium (bromure de glycopyrronium) 8,2 mcg par actionnement inhalation en flacon pressurisé",ADDED
+9014635,epinephrine (epinephrine hydrochloride) 1 mg per mL cutaneous solution,épinéphrine (chlorhydrate d'épinéphrine) 1 mg par mL solution pour application cutanée,ADDED
+9014637,raltitrexed 2 mg per vial powder for solution for injection,raltitrexed 2 mg par fiole poudre pour solution injectable,ADDED
+9014638,tozinameran 10 mcg per 0.2 mL suspension for injection 2 mL vial,"tozinaméran 10 mcg par 0,2 mL suspension injectable 2 mL fiole",ADDED
