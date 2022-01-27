@@ -1,0 +1,15 @@
+ntp_code,ntp_formal_name,changes
+4d65f0e56616cc12a604448545b0abe7,tildrakizumab 100 mg per mL solution for injection syringe,ADDED
+680ead45fb4ef1dfcec2d9ebfdb383d2,oxybutynin chloride 1 mg per mL syrup,ADDED
+9000026,medroxyprogesterone acetate 250 mg per 5 mL suspension for injection vial,DELETED
+9000554,bromazepam 1.5 mg oral tablet,"ntp_status_effective_time: ""20200507"" -> ""20220120"""
+9000652,diltiazem hydrochloride 300 mg modified-release oral capsule,DELETED
+9000658,fenofibrate 100 mg oral capsule,"ntp_status_effective_time: ""20191015"" -> ""20220105"""
+9000716,diltiazem hydrochloride 120 mg modified-release oral capsule,DELETED
+9000717,diltiazem hydrochloride 180 mg modified-release oral capsule,DELETED
+9000718,diltiazem hydrochloride 240 mg modified-release oral capsule,DELETED
+9000740,morphine sulfate 5 mg suppository,DELETED
+9005107,fluocinolone acetonide 0.59 mg intravitreal implant,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20210728"" -> ""20120913"""
+9013918,lidocaine hydrochloride 4 % and menthol 1 % cutaneous gel,DELETED
+9014605,tildrakizumab 100 mg per 1 mL solution for injection syringe,DELETED
