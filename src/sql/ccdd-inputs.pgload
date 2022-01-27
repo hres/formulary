@@ -1,5 +1,5 @@
 LOAD CSV
-    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Combination%20Products_master.csv
+    FROM '/home/cyanofsky/git/formulary/src/pgloaded/Combination Products_master.csv'
 
     WITH ENCODING UTF-8
     (
@@ -25,7 +25,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Ingredient_Stem_File_master.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/Ingredient_Stem_File_master.csv
 
     WITH ENCODING UTF-8
     (
@@ -53,7 +53,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/Units_of_Presentation_master.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/Units_of_Presentation_master.csv
 
     WITH ENCODING UTF-8
     (
@@ -81,7 +81,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ntp_dosage_form_map_master.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/ntp_dosage_form_map_master.csv
 
     WITH ENCODING UTF-8
     (
@@ -218,7 +218,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM https://raw.githubusercontent.com/hres/formulary/folder_reorg/src/ccdd-mp-blacklist-draft.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/ccdd-mp-blacklist-draft.csv
 
     WITH ENCODING UTF-8
     (
