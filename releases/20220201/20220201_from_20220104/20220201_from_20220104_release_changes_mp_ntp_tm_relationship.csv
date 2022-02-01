@@ -1,0 +1,134 @@
+drug_code,mp_code,mp_formal_name,changes
+2851,00397792,PRO-FUROSEMIDE (furosemide 40 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""FUROSEMIDE ̲4̲0̲M̲G̲ (furosemide 40 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲FUROSEMIDE (furosemide 40 mg oral tablet) PRO DOC LIMITEE"""
+3809,00496723,PRO-FUROSEMIDE (furosemide 20 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""FUROSEMIDE ̲2̲0̲ ̲T̲A̲B̲ (furosemide 20 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲FUROSEMIDE (furosemide 20 mg oral tablet) PRO DOC LIMITEE"""
+7292,00474517,ONE-ALPHA (alfacalcidol 0.25 mcg oral capsule) CHEPLAPHARM ARZNEIMITTEL GMBH,"mp_formal_name: ""ONE-ALPHA (alfacalcidol 0.25 mcg oral capsule) L̲E̲O̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲"" -> ""ONE-ALPHA (alfacalcidol 0.25 mcg oral capsule) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲A̲R̲Z̲N̲E̲I̲M̲I̲T̲T̲E̲L̲ ̲G̲M̲B̲H̲"""
+7293,00474525,ONE-ALPHA (alfacalcidol 1 mcg oral capsule) CHEPLAPHARM ARZNEIMITTEL GMBH,"mp_formal_name: ""ONE-ALPHA (alfacalcidol 1 mcg oral capsule) L̲E̲O̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲"" -> ""ONE-ALPHA (alfacalcidol 1 mcg oral capsule) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲A̲R̲Z̲N̲E̲I̲M̲I̲T̲T̲E̲L̲ ̲G̲M̲B̲H̲"""
+12745,01947931,DUVOID (bethanechol chloride 25 mg oral tablet) PALADIN LABS INC.,"mp_formal_name: ""DUVOID ̲T̲A̲B̲L̲E̲T̲S̲ ̲2̲5̲ ̲M̲G̲ (bethanechol chloride 25 mg oral tablet) PALADIN LABS INC."" -> ""DUVOID (bethanechol chloride 25 mg oral tablet) PALADIN LABS INC."""
+12746,01947958,DUVOID (bethanechol chloride 10 mg oral tablet) PALADIN LABS INC.,"mp_formal_name: ""DUVOID ̲T̲A̲B̲L̲E̲T̲S̲ ̲1̲0̲ ̲M̲G̲ (bethanechol chloride 10 mg oral tablet) PALADIN LABS INC."" -> ""DUVOID (bethanechol chloride 10 mg oral tablet) PALADIN LABS INC."""
+12887,01947923,DUVOID (bethanechol chloride 50 mg oral tablet) PALADIN LABS INC.,"mp_formal_name: ""DUVOID ̲T̲A̲B̲L̲E̲T̲S̲ ̲5̲0̲ ̲M̲G̲ (bethanechol chloride 50 mg oral tablet) PALADIN LABS INC."" -> ""DUVOID (bethanechol chloride 50 mg oral tablet) PALADIN LABS INC."""
+14587,02048728,PMS-CLONAZEPAM (clonazepam 1 mg oral tablet) PHARMASCIENCE INC,"mp_formal_name: ""PMS-CLONAZEPAM ̲T̲A̲B̲ ̲1̲.̲0̲M̲G̲ (clonazepam 1 mg oral tablet) PHARMASCIENCE INC"" -> ""PMS-CLONAZEPAM (clonazepam 1 mg oral tablet) PHARMASCIENCE INC"""
+14588,02048701,PMS-CLONAZEPAM (clonazepam 0.5 mg oral tablet) PHARMASCIENCE INC,"mp_formal_name: ""PMS-CLONAZEPAM ̲T̲A̲B̲ ̲0̲.̲5̲M̲G̲ (clonazepam 0.5 mg oral tablet) PHARMASCIENCE INC"" -> ""PMS-CLONAZEPAM (clonazepam 0.5 mg oral tablet) PHARMASCIENCE INC"""
+14589,02048736,PMS-CLONAZEPAM (clonazepam 2 mg oral tablet) PHARMASCIENCE INC,"mp_formal_name: ""PMS-CLONAZEPAM ̲T̲A̲B̲ ̲2̲M̲G̲ (clonazepam 2 mg oral tablet) PHARMASCIENCE INC"" -> ""PMS-CLONAZEPAM (clonazepam 2 mg oral tablet) PHARMASCIENCE INC"""
+18355,02163543,APO-OXYBUTYNIN (oxybutynin chloride 5 mg oral tablet) APOTEX INC,"mp_formal_name: ""APO-OXYBUTYNIN ̲-̲ ̲T̲A̲B̲ ̲5̲M̲G̲ (oxybutynin chloride 5 mg oral tablet) APOTEX INC"" -> ""APO-OXYBUTYNIN (oxybutynin chloride 5 mg oral tablet) APOTEX INC"""
+19047,02177188,APO-BROMAZEPAM (bromazepam 6 mg oral tablet) APOTEX INC,"mp_formal_name: ""APO-BROMAZEPAM ̲-̲ ̲T̲A̲B̲ ̲6̲M̲G̲ (bromazepam 6 mg oral tablet) APOTEX INC"" -> ""APO-BROMAZEPAM (bromazepam 6 mg oral tablet) APOTEX INC"""
+19056,02177161,APO-BROMAZEPAM (bromazepam 3 mg oral tablet) APOTEX INC,"mp_formal_name: ""APO-BROMAZEPAM ̲-̲ ̲T̲A̲B̲ ̲3̲M̲G̲ (bromazepam 3 mg oral tablet) APOTEX INC"" -> ""APO-BROMAZEPAM (bromazepam 3 mg oral tablet) APOTEX INC"""
+19057,02177153,APO-BROMAZEPAM (bromazepam 1.5 mg oral tablet) APOTEX INC,"mp_formal_name: ""APO-BROMAZEPAM ̲-̲ ̲T̲A̲B̲ ̲1̲.̲5̲M̲G̲ (bromazepam 1.5 mg oral tablet) APOTEX INC"" -> ""APO-BROMAZEPAM (bromazepam 1.5 mg oral tablet) APOTEX INC"""
+19189,00667080,PRO-FUROSEMIDE (furosemide 80 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""F̲U̲R̲O̲S̲E̲M̲I̲D̲E̲-̲8̲0̲ ̲T̲A̲B̲ ̲8̲0̲M̲G̲ (furosemide 80 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲F̲U̲R̲O̲S̲E̲M̲I̲D̲E̲ (furosemide 80 mg oral tablet) PRO DOC LIMITEE"""
+19221,02179660,PMS-CLONAZEPAM (clonazepam 0.25 mg oral tablet) PHARMASCIENCE INC,"mp_formal_name: ""PMS-CLONAZEPAM-̲ ̲T̲A̲B̲ ̲0̲.̲2̲5̲M̲G̲ (clonazepam 0.25 mg oral tablet) PHARMASCIENCE INC"" -> ""PMS-CLONAZEPAM (clonazepam 0.25 mg oral tablet) PHARMASCIENCE INC"""
+47431,02229526,APO-DILTIAZ CD (diltiazem hydrochloride 300 mg prolonged-release oral capsule) APOTEX INC,"mp_formal_name: ""APO-DILTIAZ CD (diltiazem hydrochloride 300 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) APOTEX INC"" -> ""APO-DILTIAZ CD (diltiazem hydrochloride 300 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) APOTEX INC""
+ntp_code: ""9000652"" -> ""9000572""
+ntp_formal_name: ""diltiazem hydrochloride 300 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 300 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+50278,02230997,APO-DILTIAZ CD (diltiazem hydrochloride 120 mg prolonged-release oral capsule) APOTEX INC,"mp_formal_name: ""APO-DILTIAZ CD (diltiazem hydrochloride 120 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) APOTEX INC"" -> ""APO-DILTIAZ CD (diltiazem hydrochloride 120 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) APOTEX INC""
+ntp_code: ""9000716"" -> ""9000569""
+ntp_formal_name: ""diltiazem hydrochloride 120 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 120 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+50279,02230998,APO-DILTIAZ CD (diltiazem hydrochloride 180 mg prolonged-release oral capsule) APOTEX INC,"mp_formal_name: ""APO-DILTIAZ CD (diltiazem hydrochloride 180 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) APOTEX INC"" -> ""APO-DILTIAZ CD (diltiazem hydrochloride 180 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) APOTEX INC""
+ntp_code: ""9000717"" -> ""9000570""
+ntp_formal_name: ""diltiazem hydrochloride 180 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 180 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+50280,02230999,APO-DILTIAZ CD (diltiazem hydrochloride 240 mg prolonged-release oral capsule) APOTEX INC,"mp_formal_name: ""APO-DILTIAZ CD (diltiazem hydrochloride 240 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) APOTEX INC"" -> ""APO-DILTIAZ CD (diltiazem hydrochloride 240 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) APOTEX INC""
+ntp_code: ""9000718"" -> ""9000571""
+ntp_formal_name: ""diltiazem hydrochloride 240 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 240 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+50338,02231057,DILTIAZEM-CD (diltiazem hydrochloride 300 mg prolonged-release oral capsule) PRO DOC LIMITEE,"mp_formal_name: ""DILTIAZEM-CD (diltiazem hydrochloride 300 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) PRO DOC LIMITEE"" -> ""DILTIAZEM-CD (diltiazem hydrochloride 300 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) PRO DOC LIMITEE""
+ntp_code: ""9000652"" -> ""9000572""
+ntp_formal_name: ""diltiazem hydrochloride 300 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 300 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+50796,02231472,DILTIAZEM-CD (diltiazem hydrochloride 120 mg prolonged-release oral capsule) PRO DOC LIMITEE,"mp_formal_name: ""DILTIAZEM-CD (diltiazem hydrochloride 120 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) PRO DOC LIMITEE"" -> ""DILTIAZEM-CD (diltiazem hydrochloride 120 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) PRO DOC LIMITEE""
+ntp_code: ""9000716"" -> ""9000569""
+ntp_formal_name: ""diltiazem hydrochloride 120 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 120 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+50798,02231474,DILTIAZEM-CD (diltiazem hydrochloride 180 mg prolonged-release oral capsule) PRO DOC LIMITEE,"mp_formal_name: ""DILTIAZEM-CD (diltiazem hydrochloride 180 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) PRO DOC LIMITEE"" -> ""DILTIAZEM-CD (diltiazem hydrochloride 180 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) PRO DOC LIMITEE""
+ntp_code: ""9000717"" -> ""9000570""
+ntp_formal_name: ""diltiazem hydrochloride 180 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 180 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+50799,02231475,DILTIAZEM-CD (diltiazem hydrochloride 240 mg prolonged-release oral capsule) PRO DOC LIMITEE,"mp_formal_name: ""DILTIAZEM-CD (diltiazem hydrochloride 240 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) PRO DOC LIMITEE"" -> ""DILTIAZEM-CD (diltiazem hydrochloride 240 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) PRO DOC LIMITEE""
+ntp_code: ""9000718"" -> ""9000571""
+ntp_formal_name: ""diltiazem hydrochloride 240 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 240 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+63869,02240329,ONE-ALPHA (alfacalcidol 2 mcg per mL oral drops) CHEPLAPHARM ARZNEIMITTEL GMBH,"mp_formal_name: ""ONE-ALPHA (alfacalcidol 2 mcg per mL oral drops) L̲E̲O̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲"" -> ""ONE-ALPHA (alfacalcidol 2 mcg per mL oral drops) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲A̲R̲Z̲N̲E̲I̲M̲I̲T̲T̲E̲L̲ ̲G̲M̲B̲H̲"""
+72576,02248239,ELIGARD (leuprolide acetate 7.5 mg per syringe powder for prolonged-release solution for injection with diluent solution syringe) TOLMAR INTERNATIONAL LTD.,"mp_formal_name: ""ELIGARD (leuprolide acetate 7.5 mg per syringe powder for prolonged-release solution for injection with diluent solution syringe) S̲A̲N̲O̲F̲I̲-̲A̲V̲E̲N̲T̲I̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ELIGARD (leuprolide acetate 7.5 mg per syringe powder for prolonged-release solution for injection with diluent solution syringe) T̲O̲L̲M̲A̲R̲ ̲I̲N̲T̲E̲R̲N̲A̲T̲I̲O̲N̲A̲L̲ ̲L̲T̲D̲.̲"""
+72577,02248240,ELIGARD (leuprolide acetate 22.5 mg per syringe powder for prolonged-release solution for injection with diluent solution syringe) TOLMAR INTERNATIONAL LTD.,"mp_formal_name: ""ELIGARD (leuprolide acetate 22.5 mg per syringe powder for prolonged-release solution for injection with diluent solution syringe) S̲A̲N̲O̲F̲I̲-̲A̲V̲E̲N̲T̲I̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ELIGARD (leuprolide acetate 22.5 mg per syringe powder for prolonged-release solution for injection with diluent solution syringe) T̲O̲L̲M̲A̲R̲ ̲I̲N̲T̲E̲R̲N̲A̲T̲I̲O̲N̲A̲L̲ ̲L̲T̲D̲.̲"""
+73384,02248999,ELIGARD (leuprolide acetate 30 mg per syringe powder for prolonged-release solution for injection with diluent solution syringe) TOLMAR INTERNATIONAL LTD.,"mp_formal_name: ""ELIGARD (leuprolide acetate 30 mg per syringe powder for prolonged-release solution for injection with diluent solution syringe) S̲A̲N̲O̲F̲I̲-̲A̲V̲E̲N̲T̲I̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ELIGARD (leuprolide acetate 30 mg per syringe powder for prolonged-release solution for injection with diluent solution syringe) T̲O̲L̲M̲A̲R̲ ̲I̲N̲T̲E̲R̲N̲A̲T̲I̲O̲N̲A̲L̲ ̲L̲T̲D̲.̲"""
+75428,02268892,ELIGARD (leuprolide acetate 45 mg per syringe powder for prolonged-release suspension for injection with diluent solution syringe) TOLMAR INTERNATIONAL LTD.,"mp_formal_name: ""ELIGARD (leuprolide acetate 45 mg per syringe powder for prolonged-release suspension for injection with diluent solution syringe) S̲A̲N̲O̲F̲I̲-̲A̲V̲E̲N̲T̲I̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ELIGARD (leuprolide acetate 45 mg per syringe powder for prolonged-release suspension for injection with diluent solution syringe) T̲O̲L̲M̲A̲R̲ ̲I̲N̲T̲E̲R̲N̲A̲T̲I̲O̲N̲A̲L̲ ̲L̲T̲D̲.̲"""
+79244,02306743,ANAPEN JUNIOR (epinephrine 0.15 mg per 0.3 mL solution for injection syringe) ENDO VENTURES LTD.,"mp_formal_name: ""ANAPEN JUNIOR (epinephrine 0.15 mg per 0.3 mL solution for injection syringe) L̲I̲N̲C̲O̲L̲N̲ ̲M̲E̲D̲I̲C̲A̲L̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""ANAPEN JUNIOR (epinephrine 0.15 mg per 0.3 mL solution for injection syringe) E̲N̲D̲O̲ ̲V̲E̲N̲T̲U̲R̲E̲S̲ ̲L̲T̲D̲.̲"""
+79245,02306751,ANAPEN (epinephrine 0.3 mg per 0.3 mL solution for injection syringe) ENDO VENTURES LTD.,"mp_formal_name: ""ANAPEN (epinephrine 0.3 mg per 0.3 mL solution for injection syringe) L̲I̲N̲C̲O̲L̲N̲ ̲M̲E̲D̲I̲C̲A̲L̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""ANAPEN (epinephrine 0.3 mg per 0.3 mL solution for injection syringe) E̲N̲D̲O̲ ̲V̲E̲N̲T̲U̲R̲E̲S̲ ̲L̲T̲D̲.̲"""
+84095,02355752,PMS-DILTIAZEM CD (diltiazem hydrochloride 120 mg prolonged-release oral capsule) PHARMASCIENCE INC,"mp_formal_name: ""PMS-DILTIAZEM CD (diltiazem hydrochloride 120 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) PHARMASCIENCE INC"" -> ""PMS-DILTIAZEM CD (diltiazem hydrochloride 120 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) PHARMASCIENCE INC""
+ntp_code: ""9000716"" -> ""9000569""
+ntp_formal_name: ""diltiazem hydrochloride 120 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 120 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+84096,02355760,PMS-DILTIAZEM CD (diltiazem hydrochloride 180 mg prolonged-release oral capsule) PHARMASCIENCE INC,"mp_formal_name: ""PMS-DILTIAZEM CD (diltiazem hydrochloride 180 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) PHARMASCIENCE INC"" -> ""PMS-DILTIAZEM CD (diltiazem hydrochloride 180 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) PHARMASCIENCE INC""
+ntp_code: ""9000717"" -> ""9000570""
+ntp_formal_name: ""diltiazem hydrochloride 180 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 180 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+84097,02355779,PMS-DILTIAZEM CD (diltiazem hydrochloride 240 mg prolonged-release oral capsule) PHARMASCIENCE INC,"mp_formal_name: ""PMS-DILTIAZEM CD (diltiazem hydrochloride 240 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) PHARMASCIENCE INC"" -> ""PMS-DILTIAZEM CD (diltiazem hydrochloride 240 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) PHARMASCIENCE INC""
+ntp_code: ""9000718"" -> ""9000571""
+ntp_formal_name: ""diltiazem hydrochloride 240 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 240 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+84098,02355787,PMS-DILTIAZEM CD (diltiazem hydrochloride 300 mg prolonged-release oral capsule) PHARMASCIENCE INC,"mp_formal_name: ""PMS-DILTIAZEM CD (diltiazem hydrochloride 300 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) PHARMASCIENCE INC"" -> ""PMS-DILTIAZEM CD (diltiazem hydrochloride 300 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) PHARMASCIENCE INC""
+ntp_code: ""9000652"" -> ""9000572""
+ntp_formal_name: ""diltiazem hydrochloride 300 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 300 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+86436,02378574,ACH-MYCOPHENOLATE (mycophenolate mofetil 500 mg oral tablet) ACCORD HEALTHCARE INC,"mp_formal_name: ""M̲Y̲C̲O̲P̲H̲E̲N̲O̲L̲A̲T̲E̲ ̲M̲O̲F̲E̲T̲I̲L̲ ̲T̲A̲B̲L̲E̲T̲S̲,̲ ̲U̲S̲P̲ (mycophenolate mofetil 500 mg oral tablet) ACCORD HEALTHCARE INC"" -> ""A̲C̲H̲-̲M̲Y̲C̲O̲P̲H̲E̲N̲O̲L̲A̲T̲E̲ (mycophenolate mofetil 500 mg oral tablet) ACCORD HEALTHCARE INC"""
+88523,02400421,DILTIAZEM CD (diltiazem hydrochloride 120 mg prolonged-release oral capsule) SANIS HEALTH INC,"mp_formal_name: ""DILTIAZEM CD (diltiazem hydrochloride 120 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) SANIS HEALTH INC"" -> ""DILTIAZEM CD (diltiazem hydrochloride 120 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) SANIS HEALTH INC""
+ntp_code: ""9000716"" -> ""9000569""
+ntp_formal_name: ""diltiazem hydrochloride 120 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 120 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+88524,02400448,DILTIAZEM CD (diltiazem hydrochloride 180 mg prolonged-release oral capsule) SANIS HEALTH INC,"mp_formal_name: ""DILTIAZEM CD (diltiazem hydrochloride 180 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) SANIS HEALTH INC"" -> ""DILTIAZEM CD (diltiazem hydrochloride 180 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) SANIS HEALTH INC""
+ntp_code: ""9000717"" -> ""9000570""
+ntp_formal_name: ""diltiazem hydrochloride 180 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 180 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+88525,02400456,DILTIAZEM CD (diltiazem hydrochloride 240 mg prolonged-release oral capsule) SANIS HEALTH INC,"mp_formal_name: ""DILTIAZEM CD (diltiazem hydrochloride 240 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) SANIS HEALTH INC"" -> ""DILTIAZEM CD (diltiazem hydrochloride 240 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) SANIS HEALTH INC""
+ntp_code: ""9000718"" -> ""9000571""
+ntp_formal_name: ""diltiazem hydrochloride 240 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 240 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+88526,02400464,DILTIAZEM CD (diltiazem hydrochloride 300 mg prolonged-release oral capsule) SANIS HEALTH INC,"mp_formal_name: ""DILTIAZEM CD (diltiazem hydrochloride 300 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) SANIS HEALTH INC"" -> ""DILTIAZEM CD (diltiazem hydrochloride 300 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) SANIS HEALTH INC""
+ntp_code: ""9000652"" -> ""9000572""
+ntp_formal_name: ""diltiazem hydrochloride 300 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 300 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+95407,02465833,PIPERACILLIN AND TAZOBACTAM FOR INJECTION (piperacillin (piperacillin sodium) 36 g per vial and tazobactam (tazobactam sodium) 4.5 g per vial powder for solution for injection) FRESENIUS KABI CANADA LTD,ADDED
+95454,02466236,RYDAPT (midostaurin 25 mg oral capsule) NOVARTIS PHARMACEUTICALS CANADA INC,ADDED
+96316,02473763,FLUOROURACIL INJECTION (fluorouracil 500 mg per 10 mL solution for injection vial) BIOLYSE PHARMA CORPORATION,ADDED
+97039,02479834,PERINDOPRIL ERBUMINE/ INDAPAMIDE (indapamide 1.25 mg and perindopril erbumine 4 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+97042,02479842,PERINDOPRIL ERBUMINE/ INDAPAMIDE HD (indapamide 2.5 mg and perindopril erbumine 8 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+97248,02481979,METHADONE HYDROCHLORIDE ORAL CONCENTRATE USP (methadone hydrochloride 10 mg per mL oral solution) STERINOVA INC.,"mp_formal_name: ""S̲A̲N̲D̲O̲Z̲ ̲M̲E̲T̲H̲A̲D̲O̲N̲E̲ ̲(̲m̲e̲t̲h̲a̲d̲o̲n̲e̲ ̲h̲y̲d̲r̲o̲c̲h̲l̲o̲r̲i̲d̲e̲ ̲1̲0̲ ̲m̲g̲ ̲p̲e̲r̲ ̲m̲L̲ ̲o̲r̲a̲l̲ ̲s̲o̲l̲u̲t̲i̲o̲n̲)̲ ̲S̲A̲N̲D̲O̲Z̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲O̲R̲P̲O̲R̲A̲T̲E̲D̲"" -> ""M̲E̲T̲H̲A̲D̲O̲N̲E̲ ̲H̲Y̲D̲R̲O̲C̲H̲L̲O̲R̲I̲D̲E̲ ̲O̲R̲A̲L̲ ̲C̲O̲N̲C̲E̲N̲T̲R̲A̲T̲E̲ ̲U̲S̲P̲ ̲(̲m̲e̲t̲h̲a̲d̲o̲n̲e̲ ̲h̲y̲d̲r̲o̲c̲h̲l̲o̲r̲i̲d̲e̲ ̲1̲0̲ ̲m̲g̲ ̲p̲e̲r̲ ̲m̲L̲ ̲o̲r̲a̲l̲ ̲s̲o̲l̲u̲t̲i̲o̲n̲)̲ ̲S̲T̲E̲R̲I̲N̲O̲V̲A̲ ̲I̲N̲C̲.̲"""
+97439,02484064,MAR-DILTIAZEM CD (diltiazem hydrochloride 120 mg prolonged-release oral capsule) MARCAN PHARMACEUTICALS INC,"mp_formal_name: ""MAR-DILTIAZEM CD (diltiazem hydrochloride 120 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) MARCAN PHARMACEUTICALS INC"" -> ""MAR-DILTIAZEM CD (diltiazem hydrochloride 120 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) MARCAN PHARMACEUTICALS INC""
+ntp_code: ""9000716"" -> ""9000569""
+ntp_formal_name: ""diltiazem hydrochloride 120 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 120 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+97440,02484072,MAR-DILTIAZEM CD (diltiazem hydrochloride 180 mg prolonged-release oral capsule) MARCAN PHARMACEUTICALS INC,"mp_formal_name: ""MAR-DILTIAZEM CD (diltiazem hydrochloride 180 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) MARCAN PHARMACEUTICALS INC"" -> ""MAR-DILTIAZEM CD (diltiazem hydrochloride 180 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) MARCAN PHARMACEUTICALS INC""
+ntp_code: ""9000717"" -> ""9000570""
+ntp_formal_name: ""diltiazem hydrochloride 180 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 180 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+97441,02484080,MAR-DILTIAZEM CD (diltiazem hydrochloride 240 mg prolonged-release oral capsule) MARCAN PHARMACEUTICALS INC,"mp_formal_name: ""MAR-DILTIAZEM CD (diltiazem hydrochloride 240 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) MARCAN PHARMACEUTICALS INC"" -> ""MAR-DILTIAZEM CD (diltiazem hydrochloride 240 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) MARCAN PHARMACEUTICALS INC""
+ntp_code: ""9000718"" -> ""9000571""
+ntp_formal_name: ""diltiazem hydrochloride 240 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 240 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+97442,02484099,MAR-DILTIAZEM CD (diltiazem hydrochloride 300 mg prolonged-release oral capsule) MARCAN PHARMACEUTICALS INC,"mp_formal_name: ""MAR-DILTIAZEM CD (diltiazem hydrochloride 300 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) MARCAN PHARMACEUTICALS INC"" -> ""MAR-DILTIAZEM CD (diltiazem hydrochloride 300 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) MARCAN PHARMACEUTICALS INC""
+ntp_code: ""9000652"" -> ""9000572""
+ntp_formal_name: ""diltiazem hydrochloride 300 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule"" -> ""diltiazem hydrochloride 300 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule"""
+98186,02491869,JAMP DARIFENACIN (darifenacin (darifenacin hydrobromide) 7.5 mg prolonged-release oral tablet) JAMP PHARMA CORPORATION,ADDED
+98187,02491877,JAMP DARIFENACIN (darifenacin (darifenacin hydrobromide) 15 mg prolonged-release oral tablet) JAMP PHARMA CORPORATION,ADDED
+98299,02493012,"TRULANCE (plecanatide 3 mg oral tablet) BAUSCH HEALTH, CANADA INC.",ADDED
+99003,02500337,ODOMZO (sonidegib (sonidegib phosphate) 200 mg oral capsule) SUN PHARMACEUTICAL INDUSTRIES LTD.,"mp_formal_name: ""ODOMZO (sonidegib (sonidegib phosphate) 200 mg oral capsule) SUN PHARMA ̲G̲L̲O̲B̲A̲L̲ ̲F̲Z̲E̲"" -> ""ODOMZO (sonidegib (sonidegib phosphate) 200 mg oral capsule) SUN PHARMAC̲E̲U̲T̲I̲C̲A̲L̲ ̲I̲N̲D̲U̲S̲T̲R̲I̲E̲S̲ ̲L̲T̲D̲.̲"""
+99152,02501910,AG-LACOSAMIDE (lacosamide 50 mg oral tablet) ANGITA PHARMA INC.,ADDED
+99153,02501929,AG-LACOSAMIDE (lacosamide 100 mg oral tablet) ANGITA PHARMA INC.,ADDED
+99154,02501937,AG-LACOSAMIDE (lacosamide 150 mg oral tablet) ANGITA PHARMA INC.,ADDED
+99442,02505053,TARO-ADAPALENE/BENZOYL PEROXIDE FORTE (adapalene 0.3 % and benzoyl peroxide 2.5 % cutaneous gel) TARO PHARMACEUTICALS INC,ADDED
+99717,02507773,JAMP PAROXETINE TABLETS (paroxetine (paroxetine hydrochloride) 10 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+99718,02507781,JAMP PAROXETINE TABLETS (paroxetine (paroxetine hydrochloride) 20 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+99719,02507803,JAMP PAROXETINE TABLETS (paroxetine (paroxetine hydrochloride) 30 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+99763,02508249,JAMP AMOXI CLAV (amoxicillin (amoxicillin trihydrate) 250 mg and clavulanic acid (potassium clavulanate) 125 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+99764,02508257,JAMP AMOXI CLAV (amoxicillin (amoxicillin trihydrate) 500 mg and clavulanic acid (potassium clavulanate) 125 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+99765,02508265,JAMP AMOXI CLAV (amoxicillin (amoxicillin trihydrate) 875 mg and clavulanic acid (potassium clavulanate) 125 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+99796,02508605,MINT-OLOPATADINE 0.2% (olopatadine (olopatadine hydrochloride) 0.2 % ophthalmic drops) MINT PHARMACEUTICALS INC,ADDED
+99984,02510642,AG-AMOXI CLAV (amoxicillin (amoxicillin trihydrate) 875 mg and clavulanic acid (potassium clavulanate) 125 mg oral tablet) ANGITA PHARMA INC.,ADDED
+100050,02511282,AURO-ONDANSETRON ODT (ondansetron 4 mg orodispersible tablet) AURO PHARMA INC,ADDED
+100051,02511290,AURO-ONDANSETRON ODT (ondansetron 8 mg orodispersible tablet) AURO PHARMA INC,ADDED
+100190,02512629,CEQUA (cyclosporine 0.09 % ophthalmic drops) SUN PHARMACEUTICAL INDUSTRIES LTD.,"mp_formal_name: ""CEQUA (cyclosporine 0.09 % ophthalmic drops) SUN PHARMA ̲G̲L̲O̲B̲A̲L̲ ̲F̲Z̲E̲"" -> ""CEQUA (cyclosporine 0.09 % ophthalmic drops) SUN PHARMAC̲E̲U̲T̲I̲C̲A̲L̲ ̲I̲N̲D̲U̲S̲T̲R̲I̲E̲S̲ ̲L̲T̲D̲.̲"""
+100544,02516098,ILUMYA (tildrakizumab 100 mg per 1 mL solution for injection syringe) SUN PHARMACEUTICAL INDUSTRIES LTD.,"mp_formal_name: ""ILUMYA (tildrakizumab 100 mg per 1 mL solution for injection syringe) SUN PHARMA ̲G̲L̲O̲B̲A̲L̲ ̲F̲Z̲E̲"" -> ""ILUMYA (tildrakizumab 100 mg per 1 mL solution for injection syringe) SUN PHARMAC̲E̲U̲T̲I̲C̲A̲L̲ ̲I̲N̲D̲U̲S̲T̲R̲I̲E̲S̲ ̲L̲T̲D̲.̲"""
+100561,02516241,WAKIX (pitolisant hydrochloride 5 mg oral tablet) ENDO VENTURES LTD.,ADDED
+100562,02516268,WAKIX (pitolisant hydrochloride 20 mg oral tablet) ENDO VENTURES LTD.,ADDED
+100588,02516535,VENLAFAXINE XR (venlafaxine (venlafaxine hydrochloride) 37.5 mg prolonged-release oral capsule) JAMP PHARMA CORPORATION,ADDED
+100589,02516543,VENLAFAXINE XR (venlafaxine (venlafaxine hydrochloride) 75 mg prolonged-release oral capsule) JAMP PHARMA CORPORATION,ADDED
+100590,02516551,VENLAFAXINE XR (venlafaxine (venlafaxine hydrochloride) 150 mg prolonged-release oral capsule) JAMP PHARMA CORPORATION,ADDED
+100607,02516756,RIZATRIPTAN (rizatriptan (rizatriptan benzoate) 10 mg oral tablet) SANIS HEALTH INC,ADDED
+100680,02517396,FLUCONAZOLE (fluconazole 50 mg oral tablet) SANIS HEALTH INC,ADDED
+100681,02517418,FLUCONAZOLE (fluconazole 100 mg oral tablet) SANIS HEALTH INC,ADDED
+100744,02518112,OSPHENA (ospemifene 60 mg oral tablet) DUCHESNAY INC,ADDED
+100793,02518627,MINJUVI (tafasitamab 200 mg per vial powder for solution for injection) INCYTE CORPORATION,ADDED
+100833,02519054,MINT-BUSPIRONE (buspirone hydrochloride 10 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+100870,02519437,REDDY-CLOBETASOL SHAMPOO (clobetasol propionate 0.05 % shampoo) DR. REDDY'S LABORATORIES CANADA INC.,ADDED
+100878,02519534,PANTOPRAZOLE T (pantoprazole (pantoprazole magnesium hemipentahydrate) 40 mg gastro-resistant tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+100896,02519720,PERINDOPRIL/INDAPAMIDE (indapamide 1.25 mg and perindopril erbumine 4 mg oral tablet) SANIS HEALTH INC,ADDED
+100897,02519739,PERINDOPRIL/INDAPAMIDE (indapamide 2.5 mg and perindopril erbumine 8 mg oral tablet) SANIS HEALTH INC,ADDED
+100917,02519933,PEMAZYRE (pemigatinib 4.5 mg oral tablet) INCYTE CORPORATION,ADDED
+100918,02519941,PEMAZYRE (pemigatinib 9 mg oral tablet) INCYTE CORPORATION,ADDED
+100919,02519968,PEMAZYRE (pemigatinib 13.5 mg oral tablet) INCYTE CORPORATION,ADDED
+101003,02520834,ZEPZELCA (lurbinectedin 4 mg per vial powder for solution for injection) JAZZ PHARMACEUTICALS IRELAND LIMITED,ADDED
+101108,02521903,PADCEV (enfortumab vedotin 20 mg per vial powder for solution for injection) SEAGEN INC.,ADDED
+101307,02524031,PAXLOVID (nirmatrelvir 150 mg oral tablet with ritonavir 100 mg oral tablet) PFIZER CANADA ULC,ADDED
+NA,77700601,ONE-ALPHA (alfacalcidol 2 mcg per 1 mL solution for injection ampoule) CHEPLAPHARM ARZNEIMITTEL GMBH,"mp_formal_name: ""ONE-ALPHA (alfacalcidol 2 mcg per 1 mL solution for injection ampoule) L̲E̲O̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲"" -> ""ONE-ALPHA (alfacalcidol 2 mcg per 1 mL solution for injection ampoule) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲A̲R̲Z̲N̲E̲I̲M̲I̲T̲T̲E̲L̲ ̲G̲M̲B̲H̲"""
+NA,77700602,ONE-ALPHA (alfacalcidol 1 mcg per 0.5 mL solution for injection ampoule) CHEPLAPHARM ARZNEIMITTEL GMBH,"mp_formal_name: ""ONE-ALPHA (alfacalcidol 1 mcg per 0.5 mL solution for injection ampoule) L̲E̲O̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲"" -> ""ONE-ALPHA (alfacalcidol 1 mcg per 0.5 mL solution for injection ampoule) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲A̲R̲Z̲N̲E̲I̲M̲I̲T̲T̲E̲L̲ ̲G̲M̲B̲H̲"""
