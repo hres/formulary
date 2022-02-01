@@ -7,9 +7,9 @@
 # ARGS (optional)   : qa
 ###############################################################################
 
-ccdd_qa_release_date="20211201"
-ccdd_current_release_date="20211202"
-db_previous_month="ccdd_2021_12_02_114335"
+ccdd_qa_release_date="20220104"
+ccdd_current_release_date="20220104"
+db_previous_month="ccdd_2022_01_04_164022"
 ccdd_current_date=$(date +'%Y%m%d')
 baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 distDir="$baseDir/../dist/$ccdd_current_date"
@@ -33,7 +33,6 @@ PGDATABASE=$PGUSER
 createdb "$PGDATABASE"
 
 # DPD extract load
-rm -rf /tmp/pgloader/* # make sure pgloader's assumptions about its temp directory are satisfied
 pgloader "$baseDir/dpdloader/dpdload.pgload" # has to be first because of a BEFORE LOAD EXECUTE
 pgloader "$baseDir/dpdloader/dpdload_ia.pgload"
 pgloader "$baseDir/dpdloader/dpdload_dr.pgload"
@@ -71,7 +70,6 @@ psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-instance-structure.sql"
 # sed -e "s/%QA_DATE%/$ccdd_qa_release_date/g" "$baseDir/ccdd-current-release.pgload.template" | sed -e "s/%RELEASE_DATE%/$ccdd_current_release_date/g" > "$baseDir/ccdd-current-release.pgload"
 # pgloader "$baseDir/ccdd-current-release.pgload" && rm "$baseDir/ccdd-current-release.pgload"
 pgloader "$baseDir/ccdd-current-release.pgload"
-chmod -R +777 /tmp/pgloader # so anyone can use the temp folder or delete its contents
 
 # load the data from views into main schema
 psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-run-views.sql"
