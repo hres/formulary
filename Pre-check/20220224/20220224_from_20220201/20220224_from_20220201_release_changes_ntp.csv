@@ -1,0 +1,24 @@
+ntp_code,ntp_formal_name,changes
+0f677c516977c8a429bfd7f7bd39c89c,lidocaine hydrochloride 4 % cutaneous gel,ADDED
+5c319acdcdbc44f64428d936056ac47c,budesonide 0.5 mg per mL nebulizer suspension,ADDED
+5d5eec1363139f01cbedb7c05768b3cb,bilastine 2.5 mg per mL oral solution,ADDED
+5fe0e43ff0e974b61f658bff8edb9304,budesonide 0.25 mg per mL nebulizer suspension,ADDED
+61766486624bf8bce4069736d96ea0dd,bilastine 10 mg orodispersible tablet,ADDED
+83b31eba45ef01a3c7195b98ac35cde8,dolutegravir (dolutegravir sodium) 5 mg dispersible oral tablet,ADDED
+9000133,nystatin 100000 unit per g cutaneous ointment,"ntp_status_effective_time: ""20210730"" -> ""20220204"""
+9000142,triamcinolone acetonide 0.025 % cutaneous cream,"ntp_status_effective_time: ""20170803"" -> ""20220204"""
+9000222,diclofenac sodium 100 mg suppository,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19851231"" -> ""20211108"""
+9000230,morphine sulfate 10 mg suppository,DELETED
+9001610,aluminum chlorohydrate 100 mg per mL and methylprednisolone acetate 2.5 mg per mL and neomycin sulfate 2.5 mg per mL and sulfur 50 mg per mL lotion,DELETED
+9002119,trifluridine 1 % ophthalmic drops,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19871231"" -> ""20201008"""
+9003141,etodolac 200 mg oral capsule,"ntp_status_effective_time: ""20211210"" -> ""20220203"""
+9003706,oxcarbazepine 150 mg oral tablet,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20210729"" -> ""20020401"""
+9004728,prasugrel (prasugrel hydrochloride) 10 mg oral tablet,"ntp_status_effective_time: ""20100517"" -> ""20210514"""
+9005846,ponatinib (ponatinib hydrochloride) 45 mg oral tablet,DELETED
+9012925,busulfan 60 mg per 10 mL solution for injection vial,"ntp_status_effective_time: ""19990923"" -> ""20171004"""
+c71ee9edde5b61480f2b022f093eddde,benzoyl peroxide 4 % cutaneous cream,ADDED
+d44cd4781e424105a2b2dc33e792c558,benzoyl peroxide 4 % cutaneous gel,ADDED
+de1112f3c4b09637c1a8b28e9af24107,pyrithione zinc 0.2 % cutaneous cream,ADDED

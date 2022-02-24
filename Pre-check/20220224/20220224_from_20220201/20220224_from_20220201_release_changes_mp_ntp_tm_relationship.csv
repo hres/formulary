@@ -1,0 +1,98 @@
+drug_code,mp_code,mp_formal_name,changes
+1394,00195057,NEO-MEDROL ACNE LOTION (aluminum chlorohydrate 100 mg per mL and methylprednisolone acetate 2.5 mg per mL and neomycin sulfate 2.5 mg per mL and sulfur 50 mg per mL lotion) PFIZER CANADA ULC,DELETED
+1553,00254142,DULCOLAX (bisacodyl 5 mg gastro-resistant tablet) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""DULCOLAX (bisacodyl 5 mg gastro-resistant tablet) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""DULCOLAX (bisacodyl 5 mg gastro-resistant tablet) SANOFI CONSUMER HEALTH INC"""
+1555,00003875,DULCOLAX (bisacodyl 10 mg suppository) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""DULCOLAX (bisacodyl 10 mg suppository) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""DULCOLAX (bisacodyl 10 mg suppository) SANOFI CONSUMER HEALTH INC"""
+2481,00363812,BUSCOPAN (scopolamine butylbromide 10 mg oral tablet) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""BUSCOPAN (scopolamine butylbromide 10 mg oral tablet) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""BUSCOPAN (scopolamine butylbromide 10 mg oral tablet) SANOFI CONSUMER HEALTH INC"""
+2483,00363839,BUSCOPAN (scopolamine butylbromide 20 mg per 1 mL solution for injection ampoule) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""BUSCOPAN (scopolamine butylbromide 20 mg per 1 mL solution for injection ampoule) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""BUSCOPAN (scopolamine butylbromide 20 mg per 1 mL solution for injection ampoule) SANOFI CONSUMER HEALTH INC"""
+6132,00632201,STATEX-SUPPOSITORIES 10MG (morphine sulfate 10 mg suppository) PALADIN LABS INC.,DELETED
+9168,00755885,APO-PINDOL TAB 10MG (pindolol 10 mg oral tablet) APOTEX INC,DELETED
+9587,00741515,WHITE PETROLATUM OINTMENT (white petrolatum 100 % cutaneous ointment) CANADIAN CUSTOM PACKAGING COMPANY,"mp_formal_name: ""WHITE PETROLE̲U̲M̲ ̲J̲E̲L̲L̲Y̲ ̲U̲S̲P̲ OINTMENT (white petrolatum 100 % cutaneous ointment) CANADIAN CUSTOM PACKAGING COMPANY"" -> ""WHITE PETROLA̲T̲U̲M̲ OINTMENT (white petrolatum 100 % cutaneous ointment) CANADIAN CUSTOM PACKAGING COMPANY"""
+19807,02213834,NASACORT AQ (triamcinolone acetonide 55 mcg per actuation nasal spray) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""NASACORT AQ (triamcinolone acetonide 55 mcg per actuation nasal spray) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""NASACORT AQ (triamcinolone acetonide 55 mcg per actuation nasal spray) SANOFI CONSUMER HEALTH INC"""
+42373,02074702,EXTRA STRENGTH ASPERCREME CREME RUB 15% (trolamine salicylate 15 % cutaneous cream) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""EXTRA STRENGTH ASPERCREME CREME RUB 15% (trolamine salicylate 15 % cutaneous cream) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""EXTRA STRENGTH ASPERCREME CREME RUB 15% (trolamine salicylate 15 % cutaneous cream) SANOFI CONSUMER HEALTH INC"""
+43221,02217481,APO-LISINOPRIL (lisinopril 5 mg oral tablet) APOTEX INC,"mp_formal_name: ""APO-LISINOPRIL ̲T̲A̲B̲L̲E̲T̲ ̲5̲ ̲M̲G̲ (lisinopril 5 mg oral tablet) APOTEX INC"" -> ""APO-LISINOPRIL (lisinopril 5 mg oral tablet) APOTEX INC"""
+43222,02217503,APO-LISINOPRIL (lisinopril 10 mg oral tablet) APOTEX INC,"mp_formal_name: ""APO-LISINOPRIL ̲T̲A̲B̲L̲E̲T̲ ̲1̲0̲ ̲M̲G̲ (lisinopril 10 mg oral tablet) APOTEX INC"" -> ""APO-LISINOPRIL (lisinopril 10 mg oral tablet) APOTEX INC"""
+43223,02217511,APO-LISINOPRIL (lisinopril 20 mg oral tablet) APOTEX INC,"mp_formal_name: ""APO-LISINOPRIL ̲T̲A̲B̲L̲E̲T̲ ̲2̲0̲ ̲M̲G̲ (lisinopril 20 mg oral tablet) APOTEX INC"" -> ""APO-LISINOPRIL (lisinopril 20 mg oral tablet) APOTEX INC"""
+49044,02230287,ZANTAC (ranitidine (ranitidine hydrochloride) 75 mg oral tablet) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""ZANTAC (ranitidine (ranitidine hydrochloride) 75 mg oral tablet) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""ZANTAC (ranitidine (ranitidine hydrochloride) 75 mg oral tablet) SANOFI CONSUMER HEALTH INC"""
+50779,02231462,ALLEGRA 12 HOUR (fexofenadine hydrochloride 60 mg oral tablet) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""ALLEGRA 12 HOUR (fexofenadine hydrochloride 60 mg oral tablet) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""ALLEGRA 12 HOUR (fexofenadine hydrochloride 60 mg oral tablet) SANOFI CONSUMER HEALTH INC"""
+50844,02231504,PMS-DICLOFENAC-SR (diclofenac sodium 75 mg prolonged-release oral tablet) PHARMASCIENCE INC,DELETED
+50845,02231505,PMS-DICLOFENAC-SR (diclofenac sodium 100 mg prolonged-release oral tablet) PHARMASCIENCE INC,DELETED
+50847,02231506,PMS-DICLOFENAC (diclofenac sodium 50 mg suppository) PHARMASCIENCE INC,DELETED
+50848,02231508,PMS-DICLOFENAC (diclofenac sodium 100 mg suppository) PHARMASCIENCE INC,DELETED
+60289,02236991,GOLD BOND MEDICATED ANTI-ITCH CREAM (menthol 1 % and pramoxine hydrochloride 1 % cutaneous cream) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""GOLD BOND MEDICATED ANTI-ITCH CREAM (menthol 1 % and pramoxine hydrochloride 1 % cutaneous cream) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""GOLD BOND MEDICATED ANTI-ITCH CREAM (menthol 1 % and pramoxine hydrochloride 1 % cutaneous cream) SANOFI CONSUMER HEALTH INC"""
+60861,02237526,GOLD BOND MEDICATED BODY LOTION (dimethicone 5 % and menthol 0.15 % lotion) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""GOLD BOND MEDICATED BODY LOTION (dimethicone 5 % and menthol 0.15 % lotion) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""GOLD BOND MEDICATED BODY LOTION (dimethicone 5 % and menthol 0.15 % lotion) SANOFI CONSUMER HEALTH INC"""
+60901,02237563,GOLD BOND EXTRA STRENGTH MEDICATED BODY LOTION (dimethicone 5 % and menthol 0.5 % lotion) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""GOLD BOND EXTRA STRENGTH MEDICATED BODY LOTION (dimethicone 5 % and menthol 0.5 % lotion) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""GOLD BOND EXTRA STRENGTH MEDICATED BODY LOTION (dimethicone 5 % and menthol 0.5 % lotion) SANOFI CONSUMER HEALTH INC"""
+63341,02239853,ALLEGRA-D (fexofenadine hydrochloride 60 mg and pseudoephedrine hydrochloride 120 mg modified-release oral tablet) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""ALLEGRA-D (fexofenadine hydrochloride 60 mg and pseudoephedrine hydrochloride 120 mg modified-release oral tablet) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""ALLEGRA-D (fexofenadine hydrochloride 60 mg and pseudoephedrine hydrochloride 120 mg modified-release oral tablet) SANOFI CONSUMER HEALTH INC"""
+64173,02240602,BUSULFEX (busulfan 60 mg per 10 mL solution for injection vial) OTSUKA PHARMACEUTICAL CO LTD,DELETED
+66647,02242819,ALLEGRA 24 HOUR (fexofenadine hydrochloride 120 mg oral tablet) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""ALLEGRA 24 HOUR (fexofenadine hydrochloride 120 mg oral tablet) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""ALLEGRA 24 HOUR (fexofenadine hydrochloride 120 mg oral tablet) SANOFI CONSUMER HEALTH INC"""
+70147,02246021,COLD & ALLERGY RELIEF (xylometazoline hydrochloride 0.1 % nasal spray) PHARMASCIENCE INC,DELETED
+70148,02246022,LONG LASTING NASAL MIST (oxymetazoline hydrochloride 0.05 % nasal spray) PHARMASCIENCE INC,DELETED
+76295,02277301,ZANTAC MAXIMUM STRENGTH NON-PRESCRIPTION (ranitidine (ranitidine hydrochloride) 150 mg oral tablet) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""ZANTAC MAXIMUM STRENGTH NON-PRESCRIPTION (ranitidine (ranitidine hydrochloride) 150 mg oral tablet) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""ZANTAC MAXIMUM STRENGTH NON-PRESCRIPTION (ranitidine (ranitidine hydrochloride) 150 mg oral tablet) SANOFI CONSUMER HEALTH INC"""
+78305,02297701,NIGHTTIME SLEEP AID (diphenhydramine hydrochloride 25 mg oral capsule) APOTEX INC,DELETED
+80397,02318482,GOLD BOND ANTI-ITCH LOTION (dimethicone 5 % and menthol 0.5 % and pramoxine hydrochloride 1 % lotion) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""GOLD BOND ANTI-ITCH LOTION (dimethicone 5 % and menthol 0.5 % and pramoxine hydrochloride 1 % lotion) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""GOLD BOND ANTI-ITCH LOTION (dimethicone 5 % and menthol 0.5 % and pramoxine hydrochloride 1 % lotion) SANOFI CONSUMER HEALTH INC"""
+80576,02320320,SELSUN BLUE ANTI-DANDRUFF SHAMPOO (pyrithione zinc 1 % shampoo) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""SELSUN BLUE ANTI-DANDRUFF SHAMPOO (pyrithione zinc 1 % shampoo) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""SELSUN BLUE ANTI-DANDRUFF SHAMPOO (pyrithione zinc 1 % shampoo) SANOFI CONSUMER HEALTH INC"""
+83444,02349124,EFFIENT (prasugrel (prasugrel hydrochloride) 10 mg oral tablet) ELI LILLY CANADA INC,DELETED
+85857,02373424,MAR-LETROZOLE (letrozole 2.5 mg oral tablet) MARCAN PHARMACEUTICALS INC,DELETED
+86257,02376997,DULCOCOMFORT STOOL SOFTENER (docusate sodium 100 mg oral capsule) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""DULCOCOMFORT STOOL SOFTENER (docusate sodium 100 mg oral capsule) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""DULCOCOMFORT STOOL SOFTENER (docusate sodium 100 mg oral capsule) SANOFI CONSUMER HEALTH INC"""
+88276,02397854,DULCOLAX FOR WOMEN (bisacodyl 5 mg oral tablet) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""DULCOLAX FOR WOMEN (bisacodyl 5 mg oral tablet) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""DULCOLAX FOR WOMEN (bisacodyl 5 mg oral tablet) SANOFI CONSUMER HEALTH INC"""
+88532,02400529,CLINDAMYCIN (clindamycin (clindamycin hydrochloride) 150 mg oral capsule) SANIS HEALTH INC,ADDED
+88533,02400537,CLINDAMYCIN (clindamycin (clindamycin hydrochloride) 300 mg oral capsule) SANIS HEALTH INC,ADDED
+90220,02417510,NASACORT ALLERGY 24HR (triamcinolone acetonide 55 mcg per actuation nasal spray) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""NASACORT ALLERGY 24HR (triamcinolone acetonide 55 mcg per actuation nasal spray) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""NASACORT ALLERGY 24HR (triamcinolone acetonide 55 mcg per actuation nasal spray) SANOFI CONSUMER HEALTH INC"""
+90292,02418347,DIABETICS' DRY SKIN RELIEF FOOT CREAM (white petrolatum 30 % cutaneous cream) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""DIABETICS' DRY SKIN RELIEF FOOT CREAM (white petrolatum 30 % cutaneous cream) SANOFI CONSUMER HEALTH INC ̲/̲ ̲S̲A̲N̲O̲F̲I̲ ̲S̲A̲N̲T̲E̲ ̲G̲R̲A̲N̲D̲ ̲P̲U̲B̲L̲I̲C̲ ̲I̲N̲C̲"" -> ""DIABETICS' DRY SKIN RELIEF FOOT CREAM (white petrolatum 30 % cutaneous cream) SANOFI CONSUMER HEALTH INC"""
+92169,02437341,ICLUSIG (ponatinib (ponatinib hydrochloride) 45 mg oral tablet) ARIAD PHARMACEUTICALS INC,DELETED
+94528,02458217,TEVA-DESVENLAFAXINE (desvenlafaxine (desvenlafaxine succinate) 50 mg prolonged-release oral tablet) TEVA CANADA LIMITED,ADDED
+94529,02458225,TEVA-DESVENLAFAXINE (desvenlafaxine (desvenlafaxine succinate) 100 mg prolonged-release oral tablet) TEVA CANADA LIMITED,ADDED
+97248,02481979,METHADONE HYDROCHLORIDE ORAL CONCENTRATE USP (methadone hydrochloride 10 mg per mL oral solution) STERINOVA INC.,DELETED
+97360,02483149,TARO-BOSENTAN (bosentan (bosentan monohydrate) 125 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+98430,02494272,TARO-BUDESONIDE (budesonide 0.25 mg per mL nebulizer suspension) TARO PHARMACEUTICALS INC,ADDED
+98431,02494280,TARO-BUDESONIDE (budesonide 0.5 mg per mL nebulizer suspension) TARO PHARMACEUTICALS INC,ADDED
+98506,02495139,JAMP DESVENLAFAXINE (desvenlafaxine (desvenlafaxine succinate) 50 mg prolonged-release oral tablet) JAMP PHARMA CORPORATION,ADDED
+98510,02495147,JAMP DESVENLAFAXINE (desvenlafaxine (desvenlafaxine succinate) 100 mg prolonged-release oral tablet) JAMP PHARMA CORPORATION,ADDED
+98570,02495805,CYCLOSPORINE CAPSULES (cyclosporine 25 mg oral capsule) STRIDES PHARMA CANADA INC,ADDED
+98571,02495813,CYCLOSPORINE CAPSULES (cyclosporine 100 mg oral capsule) STRIDES PHARMA CANADA INC,ADDED
+98572,02495821,CYCLOSPORINE CAPSULES (cyclosporine 50 mg oral capsule) STRIDES PHARMA CANADA INC,ADDED
+99283,02503352,BORTEZOMIB FOR INJECTION SDZ (bortezomib (bortezomib mannitol boronic ester) 3.5 mg per vial powder for solution for injection) SANDOZ CANADA INCORPORATED,ADDED
+99284,02503360,CLOTRIMAZOLE EXTRA STRENGTH EXTERNAL ANTIFUNGAL CREAM (clotrimazole 2 % vaginal cream) TARO PHARMACEUTICALS INC,ADDED
+99403,02504634,PANOXYL ACNE WASH (benzoyl peroxide 4 % cutaneous cream) CROWN LABORATORIES INC.,ADDED
+99542,02506076,ATORVASTATIN (atorvastatin (atorvastatin calcium) 10 mg oral tablet) ANGITA PHARMA INC.,ADDED
+99543,02506084,ATORVASTATIN (atorvastatin (atorvastatin calcium) 20 mg oral tablet) ANGITA PHARMA INC.,ADDED
+99544,02506092,ATORVASTATIN (atorvastatin (atorvastatin calcium) 40 mg oral tablet) ANGITA PHARMA INC.,ADDED
+99545,02506106,ATORVASTATIN (atorvastatin (atorvastatin calcium) 80 mg oral tablet) ANGITA PHARMA INC.,ADDED
+99548,02506130,JAMP LENALIDOMIDE (lenalidomide 2.5 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+99549,02506149,JAMP LENALIDOMIDE (lenalidomide 5 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+99550,02506157,JAMP LENALIDOMIDE (lenalidomide 10 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+99551,02506165,JAMP LENALIDOMIDE (lenalidomide 15 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+99552,02506173,JAMP LENALIDOMIDE (lenalidomide 20 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+99553,02506181,JAMP LENALIDOMIDE (lenalidomide 25 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+99809,02508745,ACNE FOAMING CLEANSER (benzoyl peroxide 4 % cutaneous gel) CERAVE CANADA,ADDED
+99914,02509865,STUBBORN ACNE AM TREATMENT (benzoyl peroxide 2.5 % cutaneous gel) JOHNSON & JOHNSON INC,ADDED
+99993,02510731,JAMP CLOXACILLIN (cloxacillin (cloxacillin sodium) 250 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+99994,02510758,JAMP CLOXACILLIN (cloxacillin (cloxacillin sodium) 500 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+100071,02511517,TIVICAY (dolutegravir (dolutegravir sodium) 5 mg dispersible oral tablet) VIIV HEALTHCARE ULC,ADDED
+100126,02512033,BABY HEALING OINTMENT (petrolatum 46.5 % cutaneous ointment) CERAVE CANADA,ADDED
+100518,02515784,SANDOZ CLONIDINE (clonidine hydrochloride 0.1 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+100519,02515792,SANDOZ CLONIDINE (clonidine hydrochloride 0.2 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+100559,02516217,SANDOZ CLONIDINE (clonidine hydrochloride 0.025 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+100638,02517205,SANDOZ ADAPALENE / BENZOYL PEROXIDE FORTE (adapalene 0.3 % and benzoyl peroxide 2.5 % cutaneous gel) SANDOZ CANADA INCORPORATED,ADDED
+100726,02517914,SCALP CALMING TREATMENT (pyrithione zinc 0.2 % cutaneous cream) PROCTER & GAMBLE INC,ADDED
+100830,02519011,BLEXTEN (bilastine 2.5 mg per mL oral solution) ARALEZ PHARMACEUTICALS CANADA INC,ADDED
+100831,02519038,BLEXTEN (bilastine 10 mg orodispersible tablet) ARALEZ PHARMACEUTICALS CANADA INC,ADDED
+100915,02519917,"ALOCANE (lidocaine hydrochloride 4 % cutaneous gel) QUEST PRODUCTS, LLC",ADDED
+100951,02520303,PMSC-METFORMIN (metformin hydrochloride 500 mg oral tablet) PHARMASCIENCE INC,ADDED
+100952,02520311,PMSC-METFORMIN (metformin hydrochloride 850 mg oral tablet) PHARMASCIENCE INC,ADDED
+101001,02520818,PYRITHIONE ZINC DANDRUFF SHAMPOO SUPRÊME CLARIFY & VOLUMIZE (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+101002,02520826,PYRITHIONE ZINC DANDRUFF CONDITIONER SUPRÊME CLARIFY & VOLUMIZE (pyrithione zinc 0.5 % shampoo) PROCTER & GAMBLE INC,ADDED
+101112,02521954,PYRITHIONE ZINC DANDRUFF SHAMPOO COCONUT 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+101113,02521962,PYRITHIONE ZINC DANDRUFF SHAMPOO COCONUT (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+101138,02522233,MAR-MYCOPHENOLATE MOFETIL (mycophenolate mofetil 200 mg per mL oral suspension) MARCAN PHARMACEUTICALS INC,ADDED
+101139,02522284,M-DARUNAVIR (darunavir 600 mg oral tablet) MANTRA PHARMA INC,ADDED
+101143,02522292,M-DARUNAVIR (darunavir 800 mg oral tablet) MANTRA PHARMA INC,ADDED
+101161,02522497,2IN1 MEN ADVANCED SERIES LAVENDER MINT (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+101166,02522543,PYRITHIONE ZINC DANDRUFF SHAMPOO LEMON OIL 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+101263,02523558,JAMP GUANFACINE XR (guanfacine (guanfacine hydrochloride) 1 mg prolonged-release oral tablet) JAMP PHARMA CORPORATION,ADDED
+101264,02523566,JAMP GUANFACINE XR (guanfacine (guanfacine hydrochloride) 2 mg prolonged-release oral tablet) JAMP PHARMA CORPORATION,ADDED
+101265,02523574,JAMP GUANFACINE XR (guanfacine (guanfacine hydrochloride) 3 mg prolonged-release oral tablet) JAMP PHARMA CORPORATION,ADDED
+101266,02523582,JAMP GUANFACINE XR (guanfacine (guanfacine hydrochloride) 4 mg prolonged-release oral tablet) JAMP PHARMA CORPORATION,ADDED
+101278,02523728,APO-GUANFACINE XR (guanfacine (guanfacine hydrochloride) 1 mg prolonged-release oral tablet) APOTEX INC,ADDED
+101279,02523736,APO-GUANFACINE XR (guanfacine (guanfacine hydrochloride) 2 mg prolonged-release oral tablet) APOTEX INC,ADDED
+101280,02523744,APO-GUANFACINE XR (guanfacine (guanfacine hydrochloride) 3 mg prolonged-release oral tablet) APOTEX INC,ADDED
+101281,02523752,APO-GUANFACINE XR (guanfacine (guanfacine hydrochloride) 4 mg prolonged-release oral tablet) APOTEX INC,ADDED
