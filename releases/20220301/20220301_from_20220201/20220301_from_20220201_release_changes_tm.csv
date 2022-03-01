@@ -1,0 +1,9 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8001751,dimethicone and white petrolatum,diméthicone et pétrolatum blanc,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20160108"" -> ""20220228"""
+8001464,etodolac,étodolac,"tm_status_effective_time: ""20211210"" -> ""20220203"""
+8001539,trifluridine,trifluridine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19871231"" -> ""20201008"""
+8001659,glycopyrrolate,glycopyrrolate,DELETED
+8002089,aluminum chlorohydrate and methylprednisolone acetate and neomycin and sulfur,chlorhydrate d'aluminium et acétate de méthylprednisolone et néomycine et soufre,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19651231"" -> ""20220223"""

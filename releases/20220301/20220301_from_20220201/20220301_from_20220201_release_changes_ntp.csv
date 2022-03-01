@@ -1,0 +1,25 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9000133,nystatin 100000 unit per g cutaneous ointment,nystatine 100000 unité par g pommade cutanée,"ntp_status_effective_time: ""20210730"" -> ""20220204"""
+9000142,triamcinolone acetonide 0.025 % cutaneous cream,"acétonide de triamcinolone 0,025 % crème cutanée","ntp_status_effective_time: ""20170803"" -> ""20220204"""
+9000222,diclofenac sodium 100 mg suppository,diclofénac sodique 100 mg suppositoire,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19851231"" -> ""20220214"""
+9000230,morphine sulfate 10 mg suppository,sulfate de morphine 10 mg suppositoire,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19851231"" -> ""20210107"""
+9001610,aluminum chlorohydrate 100 mg per mL and methylprednisolone acetate 2.5 mg per mL and neomycin sulfate 2.5 mg per mL and sulfur 50 mg per mL lotion,"chlorhydrate d'aluminium 100 mg par mL et acétate de méthylprednisolone 2,5 mg par mL et sulfate de néomycine 2,5 mg par mL et soufre 50 mg par mL lotion","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19651231"" -> ""20220223"""
+9002119,trifluridine 1 % ophthalmic drops,trifluridine 1 % gouttes ophtalmiques,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19871231"" -> ""20201008"""
+9003141,etodolac 200 mg oral capsule,étodolac 200 mg capsule orale,"ntp_status_effective_time: ""20211210"" -> ""20220203"""
+9003706,oxcarbazepine 150 mg oral tablet,oxcarbazépine 150 mg comprimé oral,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20210729"" -> ""20020401"""
+9005846,ponatinib (ponatinib hydrochloride) 45 mg oral tablet,ponatinib (chlorhydrate de ponatinib) 45 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20160107"" -> ""20220120"""
+9005847,dimethicone 10 % and white petrolatum 68.4 % cutaneous ointment,"diméthicone 10 % et pétrolatum blanc 68,4 % pommade cutanée","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20160108"" -> ""20220228"""
+9014654,benzoyl peroxide 4 % cutaneous cream,peroxyde de benzoyle 4 % crème cutanée,ADDED
+9014655,benzoyl peroxide 4 % cutaneous gel,peroxyde de benzoyle 4 % gel cutané,ADDED
+9014656,bilastine 10 mg orodispersible tablet,bilastine 10 mg comprimé orodispersible,ADDED
+9014657,bilastine 10 mg per 4 mL oral solution,bilastine 10 mg par 4 mL solution orale,ADDED
+9014658,dolutegravir (dolutegravir sodium) 5 mg dispersible oral tablet,dolutégravir (dolutégravir sodique) 5 mg comprimé oral dispersible,ADDED
+9014659,lidocaine hydrochloride 4 % cutaneous gel,chlorhydrate de lidocaïne 4 % gel cutané,ADDED
+9014660,pyrithione zinc 0.2 % cutaneous cream,"pyrithione zincique 0,2 % crème cutanée",ADDED
