@@ -1,0 +1,13 @@
+ntp_code,ntp_formal_name,changes
+9001524,propylthiouracil 50 mg oral tablet,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20200305"" -> ""19511231"""
+9002118,theophylline 600 mg prolonged-release oral tablet,"ntp_status_effective_time: ""19871231"" -> ""20110623"""
+9003894,fluvastatin (fluvastatin sodium) 80 mg prolonged-release oral tablet,DELETED
+9006567,folic acid (sodium folate) 50 mg per 10 mL solution for injection vial,"ntp_status_effective_time: ""19901231"" -> ""19960814"""
+9013184,lapatinib (lapatinib ditosylate) 250 mg oral tablet,DELETED
+9014310,fulvestrant 50 mg per mL solution for injection,ADDED
+9014419,amifampridine 10 mg oral tablet,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20200924"" -> ""20220311"""
+9014441,adalimumab 40 mg per 0.8 mL solution for injection,ADDED
+9014452,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg modified-release oral tablet",DELETED
+9014453,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg modified-release oral tablet","ntp_status_effective_time: ""20030807"" -> ""20140114"""
