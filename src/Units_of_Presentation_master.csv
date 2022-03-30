@@ -1,4 +1,8 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"101476","vial","0.5","mL","N","N","02525755","OXLUMO ALNYLAM NETHERLANDS B.V.","fiole"
+"100029","pen","0.8","mL","N","N","02511045","ABRILADA PFIZER CANADA ULC","stylo"
+"100030","syringe","0.8","mL","N","N","02511053","ABRILADA PFIZER CANADA ULC","seringue"
+"97696","syringe","5","mL","Y","N","02486792","FULVESTRANT INJECTION ACCORD HEALTHCARE INC","seringue"
 "98430","unit dose vial","2","mL","Y","N","02494272","TARO-BUDESONIDE TARO PHARMACEUTICALS INC","fiole unidose"
 "98431","unit dose vial","2","mL","Y","N","02494280","TARO-BUDESONIDE TARO PHARMACEUTICALS INC","fiole unidose"
 "101438","vial","5","mL","N","Y","02525364","NUVAXOVID NOVAVAX INC.","fiole"
