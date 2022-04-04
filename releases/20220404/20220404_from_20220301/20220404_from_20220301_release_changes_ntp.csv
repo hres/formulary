@@ -1,0 +1,9 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9001524,propylthiouracil 50 mg oral tablet,propylthiouracile 50 mg comprimé oral,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20200305"" -> ""19511231"""
+9003894,fluvastatin (fluvastatin sodium) 80 mg prolonged-release oral tablet,fluvastatine (fluvastatine sodique) 80 mg comprimé oral à libération prolongée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20040405"" -> ""20210614"""
+9014419,amifampridine 10 mg oral tablet,amifampridine 10 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20200924"" -> ""20220311"""
+9014452,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg modified-release oral tablet","ciprofloxacine (ciprofloxacine, chlorhydrate de ciprofloxacine) 1000 mg comprimé oral à libération modifiée","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20040408"" -> ""20220301"""
