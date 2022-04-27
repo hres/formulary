@@ -1,0 +1,22 @@
+ntp_code,ntp_formal_name,changes
+39a34537c6d9973d0856b6c4f42e6bc4,adalimumab 40 mg per 0.4 mL solution for injection,ADDED
+57ab1bc7f4d49154de817d6f497a951f,glycopyrrolate 0.2 mg per mL solution for injection,ADDED
+8d8e294da6dd2a0bce06d253739e38f6,diazepam 10 mg per 2 mL rectal gel tube,ADDED
+9000103,acetaminophen 300 mg and codeine phosphate 60 mg oral tablet,"ntp_status_effective_time: ""19781231"" -> ""19861231"""
+9000246,erythromycin 250 mg oral tablet,DELETED
+9000485,nitrofurantoin 100 mg oral capsule,"ntp_status_effective_time: ""19931231"" -> ""19970502"""
+9001777,camphor 20 mg and eucalyptol 185 mg and guaiacol 90 mg and guaiacol carbonate 100 mg suppository,DELETED
+9001809,hydrocortisone acetate 10 mg and pramoxine hydrochloride 20 mg and zinc sulfate 10 mg suppository,"ntp_status_effective_time: ""19781231"" -> ""20000323"""
+9002063,camphor 40 mg and eucalyptol 370 mg and guaiacol 180 mg and guaiacol carbonate 200 mg suppository,DELETED
+9002840,lidocaine hydrochloride 0.5 % cutaneous gel,"ntp_status_effective_time: ""19951231"" -> ""20060201"""
+9003824,bacitracin 50000 unit per vial powder for solution for injection,"ntp_status_effective_time: ""19511231"" -> ""20030828"""
+9004631,bismuth subsalicylate 262 mg chewable tablet,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20100121"" -> ""20190709"""
+9010873,nitroglycerin 0.2 mg per hour transdermal patch,"ntp_status_effective_time: ""19891231"" -> ""19911231"""
+9010876,nitroglycerin 0.4 mg per hour transdermal patch,"ntp_status_effective_time: ""19891231"" -> ""19911231"""
+9012739,midazolam 5 mg per 5 mL solution for injection ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20120726"" -> ""20180801"""
+9013540,collagenase clostridium histolyticum 0.9 mg per vial powder for solution for injection with diluent solution,DELETED
+9013697,levocabastine (levocabastine hydrochloride) 0.05 mg per actuation nasal spray,DELETED
+9013992,suvorexant 15 mg oral tablet,DELETED
+c77eae98a96c298ed0eba53cd52f5be4,oxaliplatin 5 mg per mL solution for injection,ADDED

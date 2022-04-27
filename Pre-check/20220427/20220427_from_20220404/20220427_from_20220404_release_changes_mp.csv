@@ -1,0 +1,136 @@
+drug_code,mp_code,mp_formal_name,changes
+431,00030708,BACITRACIN USP (bacitracin 50000 unit per vial powder for solution for injection) PFIZER CANADA ULC,DELETED
+2787,00319724,DEMO-CINEOL ENFANTS/CHILDREN (camphor 20 mg and eucalyptol 185 mg and guaiacol 90 mg and guaiacol carbonate 100 mg suppository) LABORATOIRES CONFAB INC,DELETED
+3806,00497754,PRO-OXAZEPAM (oxazepam 10 mg oral tablet) PRO DOC LIMITEE,"Health_Canada_product_name: ""OXAZEPAM 10 TAB 10MG"" -> ""PRO-OXAZEPAM""
+mp_formal_name: ""O̲X̲A̲Z̲E̲P̲A̲M̲ ̲1̲0̲ ̲T̲A̲B̲ ̲1̲0̲M̲G̲ (oxazepam 10 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲O̲X̲A̲Z̲E̲P̲A̲M̲ (oxazepam 10 mg oral tablet) PRO DOC LIMITEE"""
+3807,00497762,PRO-OXAZEPAM (oxazepam 15 mg oral tablet) PRO DOC LIMITEE,"Health_Canada_product_name: ""OXAZEPAM 15 TAB 15MG"" -> ""PRO-OXAZEPAM""
+mp_formal_name: ""O̲X̲A̲Z̲E̲P̲A̲M̲ ̲1̲5̲ ̲T̲A̲B̲ ̲1̲5̲M̲G̲ (oxazepam 15 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲O̲X̲A̲Z̲E̲P̲A̲M̲ (oxazepam 15 mg oral tablet) PRO DOC LIMITEE"""
+3808,00497770,PRO-OXAZEPAM (oxazepam 30 mg oral tablet) PRO DOC LIMITEE,"Health_Canada_product_name: ""OXAZEPAM 30 TAB 30MG"" -> ""PRO-OXAZEPAM""
+mp_formal_name: ""O̲X̲A̲Z̲E̲P̲A̲M̲ ̲3̲0̲ ̲T̲A̲B̲ ̲3̲0̲M̲G̲ (oxazepam 30 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲O̲X̲A̲Z̲E̲P̲A̲M̲ (oxazepam 30 mg oral tablet) PRO DOC LIMITEE"""
+4629,00476242,ANUGESIC-HC SUPPOSITORIES (hydrocortisone acetate 10 mg and pramoxine hydrochloride 20 mg and zinc sulfate 10 mg suppository) MCNEIL CONSUMER HEALTHCARE DIVISION OF JOHNSON & JOHNSON INC,DELETED
+5175,00590762,NAPROXEN - 250 (naproxen 250 mg oral tablet) PRO DOC LIMITEE,"Health_Canada_product_name: ""NAPROXEN 250"" -> ""NAPROXEN - 250""
+mp_formal_name: ""NAPROXEN 250 (naproxen 250 mg oral tablet) PRO DOC LIMITEE"" -> ""NAPROXEN ̲-̲ 250 (naproxen 250 mg oral tablet) PRO DOC LIMITEE"""
+5213,00568406,RIVA-OXAZEPAM (oxazepam 15 mg oral tablet) LABORATOIRE RIVA INC.,"Health_Canada_product_name: ""RIVA OXAZEPAM"" -> ""RIVA-OXAZEPAM""
+mp_formal_name: ""RIVA ̲OXAZEPAM (oxazepam 15 mg oral tablet) LABORATOIRE RIVA INC."" -> ""RIVA-̲OXAZEPAM (oxazepam 15 mg oral tablet) LABORATOIRE RIVA INC."""
+5214,00568414,RIVA-OXAZEPAM (oxazepam 30 mg oral tablet) LABORATOIRE RIVA INC.,"Health_Canada_product_name: ""RIVA OXAZEPAM"" -> ""RIVA-OXAZEPAM""
+mp_formal_name: ""RIVA ̲OXAZEPAM (oxazepam 30 mg oral tablet) LABORATOIRE RIVA INC."" -> ""RIVA-̲OXAZEPAM (oxazepam 30 mg oral tablet) LABORATOIRE RIVA INC."""
+5326,00587737,HUMULIN N (insulin isophane human 100 unit per mL suspension for injection 10 mL vial) ELI LILLY CANADA INC,DELETED
+5563,00568392,RIVA-OXAZEPAM (oxazepam 10 mg oral tablet) LABORATOIRE RIVA INC.,"Health_Canada_product_name: ""RIVA OXAZEPAM"" -> ""RIVA-OXAZEPAM""
+mp_formal_name: ""RIVA ̲OXAZEPAM (oxazepam 10 mg oral tablet) LABORATOIRE RIVA INC."" -> ""RIVA-̲OXAZEPAM (oxazepam 10 mg oral tablet) LABORATOIRE RIVA INC."""
+6266,00618721,NAPROXEN - 500 (naproxen 500 mg oral tablet) PRO DOC LIMITEE,"Health_Canada_product_name: ""NAPROXEN 500"" -> ""NAPROXEN - 500""
+mp_formal_name: ""NAPROXEN 500 (naproxen 500 mg oral tablet) PRO DOC LIMITEE"" -> ""NAPROXEN ̲-̲ 500 (naproxen 500 mg oral tablet) PRO DOC LIMITEE"""
+6645,00319716,DEMO-CINEOL ADULTES/ADULTS (camphor 40 mg and eucalyptol 370 mg and guaiacol 180 mg and guaiacol carbonate 200 mg suppository) LABORATOIRES CONFAB INC,DELETED
+6687,00682020,ERYTHRO-BASE (erythromycin 250 mg oral tablet) AA PHARMA INC,DELETED
+9167,00755877,APO-PINDOL TAB 5MG (pindolol 5 mg oral tablet) APOTEX INC,DELETED
+9280,00716987,TRIADERM ONT 0.1% (triamcinolone acetonide 0.1 % cutaneous ointment) TARO PHARMACEUTICALS INC,"mp_status_effective_time: ""20170803"" -> ""20220418"""
+9858,00584223,TRANSDERM-NITRO 0.2 (nitroglycerin 0.2 mg per hour transdermal patch) NOVARTIS PHARMACEUTICALS CANADA INC,DELETED
+10116,00852384,TRANSDERM-NITRO 0.4 (nitroglycerin 0.4 mg per hour transdermal patch) NOVARTIS PHARMACEUTICALS CANADA INC,DELETED
+13796,02020017,LIVOSTIN SUS NAS 0.5MG/ML (levocabastine (levocabastine hydrochloride) 0.05 mg per actuation nasal spray) JANSSEN INC,DELETED
+15173,02063662,MACROBID (nitrofurantoin 100 mg oral capsule) ALLERGAN INC,DELETED
+15572,02046156,TRANSDERM-NITRO 0.6 (nitroglycerin 0.6 mg per hour transdermal patch) NOVARTIS PHARMACEUTICALS CANADA INC,DELETED
+18014,02122286,AFTERBURN (lidocaine hydrochloride 0.5 % cutaneous gel) TENDER CORPORATION,DELETED
+19250,02163918,TYLENOL WITH CODEINE NO. 4 (acetaminophen 300 mg and codeine phosphate 60 mg oral tablet) JANSSEN INC,DELETED
+66260,02242513,SOLUPREP AQ (chlorhexidine gluconate 2 % cutaneous solution) 3M CANADA COMPANY,DELETED
+73941,02254514,APO-QUININE (quinine sulfate 200 mg oral capsule) APOTEX INC,DELETED
+74379,02258595,HUMIRA (adalimumab 40 mg per 0.8 mL solution for injection vial) ABBVIE CORPORATION,DELETED
+80540,02319942,RAPID ACTION (acetaminophen 500 mg oral tablet) TEVA CANADA LIMITED,"mp_status: ""ACTIVE"" -> ""INACTIVE""
+mp_status_effective_time: ""20090924"" -> ""20220412"""
+81124,02325896,PEPTO-BISMOL WITH INSTACOOL (bismuth subsalicylate 262 mg chewable tablet) PROCTER & GAMBLE INC,DELETED
+81204,02326698,EXTRA STRENGTH ACETAMINOPHEN CAPLETS (acetaminophen 500 mg oral tablet) TEVA CANADA LIMITED,"mp_status: ""ACTIVE"" -> ""INACTIVE""
+mp_status_effective_time: ""20140203"" -> ""20220412"""
+81831,02332647,REGULAR STRENGTH ACETAMINOPHEN (acetaminophen 325 mg oral tablet) TEVA CANADA LIMITED,"mp_status: ""ACTIVE"" -> ""INACTIVE""
+mp_status_effective_time: ""20140204"" -> ""20220412"""
+83630,02351099,LORAZEPAM (lorazepam 2 mg oral tablet) SANIS HEALTH INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20211213"" -> ""20100615"""
+85695,02371820,RAN-FINASTERIDE (finasteride 5 mg oral tablet) RANBAXY PHARMACEUTICALS CANADA INC.,"mp_status_effective_time: ""20190718"" -> ""20220330"""
+87164,02386054,APO-ELETRIPTAN (eletriptan (eletriptan hydrobromide) 20 mg oral tablet) APOTEX INC,"mp_status: ""ACTIVE"" -> ""INACTIVE""
+mp_status_effective_time: ""20130912"" -> ""20220206"""
+87384,02388316,XIAFLEX (collagenase clostridium histolyticum 0.9 mg per vial powder for solution for injection with diluent solution) ENDO VENTURES LTD.,DELETED
+88523,02400421,DILTIAZEM CD (diltiazem hydrochloride 120 mg prolonged-release oral capsule) SANIS HEALTH INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20220114"" -> ""20130213"""
+88524,02400448,DILTIAZEM CD (diltiazem hydrochloride 180 mg prolonged-release oral capsule) SANIS HEALTH INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20220114"" -> ""20130213"""
+88525,02400456,DILTIAZEM CD (diltiazem hydrochloride 240 mg prolonged-release oral capsule) SANIS HEALTH INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20220114"" -> ""20130213"""
+88526,02400464,DILTIAZEM CD (diltiazem hydrochloride 300 mg prolonged-release oral capsule) SANIS HEALTH INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20220114"" -> ""20130213"""
+90627,02421623,JAMP-ZOLMITRIPTAN (zolmitriptan 2.5 mg oral tablet) JAMP PHARMA CORPORATION,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20210729"" -> ""20140313"""
+90845,02423758,MIDAZOLAM INJECTION (midazolam 5 mg per 5 mL solution for injection ampoule) PFIZER CANADA ULC,DELETED
+91136,02426803,TRAMADOL/ACET (acetaminophen 325 mg and tramadol hydrochloride 37.5 mg oral tablet) SANIS HEALTH INC,DELETED
+91597,02431548,METHYLENE BLUE INJECTION USP (methylene blue 50 mg per 5 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""METHYLENE BLUE INJECTION USP (methylene blue 50 mg per 5 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""METHYLENE BLUE INJECTION USP (methylene blue 50 mg per 5 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+91662,02432188,ATROPINE INJECTION BP (atropine sulfate 0.4 mg per 1 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""ATROPINE INJECTION BP (atropine sulfate 0.4 mg per 1 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""ATROPINE INJECTION BP (atropine sulfate 0.4 mg per 1 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+91663,02432196,ATROPINE INJECTION BP (atropine sulfate 0.6 mg per 1 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""ATROPINE INJECTION BP (atropine sulfate 0.6 mg per 1 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""ATROPINE INJECTION BP (atropine sulfate 0.6 mg per 1 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+91952,02435241,DIMENHYDRINATE INJECTION USP (dimenhydrinate 250 mg per 5 mL solution for injection vial) HIKMA CANADA LIMITED,"mp_formal_name: ""DIMENHYDRINATE INJECTION USP (dimenhydrinate 250 mg per 5 mL solution for injection vial) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""DIMENHYDRINATE INJECTION USP (dimenhydrinate 250 mg per 5 mL solution for injection vial) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+92016,02435810,EPINEPHRINE INJECTION USP (epinephrine 1 mg per 1 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""EPINEPHRINE INJECTION USP (epinephrine 1 mg per 1 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""EPINEPHRINE INJECTION USP (epinephrine 1 mg per 1 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+92412,02439727,IBUPROFEN CAPLETS (ibuprofen 200 mg oral tablet) APOTEX INC,DELETED
+92564,02441241,ERGONOVINE MALEATE INJECTION USP (ergonovine maleate 0.25 mg per 1 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""ERGONOVINE MALEATE INJECTION USP (ergonovine maleate 0.25 mg per 1 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""ERGONOVINE MALEATE INJECTION USP (ergonovine maleate 0.25 mg per 1 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+92950,02444445,AMLODIPINE TABLETS (amlodipine (amlodipine besylate) 2.5 mg oral tablet) NORA PHARMA INC,"mp_formal_name: ""AMLODIPINE TABLETS (amlodipine (amlodipine besylate) 2.5 mg oral tablet) S̲T̲R̲I̲D̲E̲S̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A INC"" -> ""AMLODIPINE TABLETS (amlodipine (amlodipine besylate) 2.5 mg oral tablet) N̲O̲R̲A̲ ̲P̲H̲A̲R̲M̲A INC"""
+92951,02444453,AMLODIPINE TABLETS (amlodipine (amlodipine besylate) 5 mg oral tablet) NORA PHARMA INC,"mp_formal_name: ""AMLODIPINE TABLETS (amlodipine (amlodipine besylate) 5 mg oral tablet) S̲T̲R̲I̲D̲E̲S̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A INC"" -> ""AMLODIPINE TABLETS (amlodipine (amlodipine besylate) 5 mg oral tablet) N̲O̲R̲A̲ ̲P̲H̲A̲R̲M̲A INC"""
+92952,02444461,AMLODIPINE TABLETS (amlodipine (amlodipine besylate) 10 mg oral tablet) NORA PHARMA INC,"mp_formal_name: ""AMLODIPINE TABLETS (amlodipine (amlodipine besylate) 10 mg oral tablet) S̲T̲R̲I̲D̲E̲S̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A INC"" -> ""AMLODIPINE TABLETS (amlodipine (amlodipine besylate) 10 mg oral tablet) N̲O̲R̲A̲ ̲P̲H̲A̲R̲M̲A INC"""
+93126,02445999,DILTIAZEM CD (diltiazem hydrochloride 120 mg prolonged-release oral capsule) SIVEM PHARMACEUTICALS ULC,DELETED
+93127,02446006,DILTIAZEM CD (diltiazem hydrochloride 180 mg prolonged-release oral capsule) SIVEM PHARMACEUTICALS ULC,DELETED
+93128,02446014,DILTIAZEM CD (diltiazem hydrochloride 240 mg prolonged-release oral capsule) SIVEM PHARMACEUTICALS ULC,DELETED
+93129,02446022,DILTIAZEM CD (diltiazem hydrochloride 300 mg prolonged-release oral capsule) SIVEM PHARMACEUTICALS ULC,"mp_status: ""ACTIVE"" -> ""INACTIVE""
+mp_status_effective_time: ""20151006"" -> ""20220302"""
+94448,02457423,"OXALIPLATIN INJECTION, USP (oxaliplatin 5 mg per mL solution for injection) FRESENIUS KABI CANADA LTD",ADDED
+95136,02463393,CYANOCOBALAMIN INJECTION USP (cyanocobalamin 1000 mcg per 1 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""CYANOCOBALAMIN INJECTION USP (cyanocobalamin 1000 mcg per 1 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""CYANOCOBALAMIN INJECTION USP (cyanocobalamin 1000 mcg per 1 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+95551,02467119,DESVENLAFAXINE (desvenlafaxine (desvenlafaxine succinate) 50 mg prolonged-release oral tablet) APOTEX INC,ADDED
+95552,02467127,DESVENLAFAXINE (desvenlafaxine (desvenlafaxine succinate) 100 mg prolonged-release oral tablet) APOTEX INC,ADDED
+97390,02483521,BELSOMRA (suvorexant 15 mg oral tablet) MERCK CANADA INC,DELETED
+97947,02489384,NRA-RIZATRIPTAN ODT (rizatriptan (rizatriptan benzoate) 10 mg orodispersible tablet) NORA PHARMA INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20210727"" -> ""20200117"""
+98062,02490587,PRIVA-DUTASTERIDE (dutasteride 0.5 mg oral capsule) NORA PHARMA INC,"mp_formal_name: ""PRIVA-DUTASTERIDE (dutasteride 0.5 mg oral capsule) PHARMAP̲A̲R̲ INC"" -> ""PRIVA-DUTASTERIDE (dutasteride 0.5 mg oral capsule) N̲O̲R̲A̲ ̲PHARMA INC"""
+99263,02503123,PMS-FLUTICASONE HFA (fluticasone propionate 125 mcg per actuation pressurized inhalation) PHARMASCIENCE INC,ADDED
+100293,02513749,GLYCOPYRROLATE INJECTION USP (glycopyrrolate 0.2 mg per mL solution for injection) JAMP PHARMA CORPORATION,ADDED
+100436,02514966,MAR-ONDANSETRON ODT (ondansetron 4 mg orodispersible tablet) MARCAN PHARMACEUTICALS INC,ADDED
+100437,02514974,MAR-ONDANSETRON ODT (ondansetron 8 mg orodispersible tablet) MARCAN PHARMACEUTICALS INC,ADDED
+100586,02516519,BIO-SOLIFENACIN (solifenacin succinate 5 mg oral tablet) BIOMED PHARMA,ADDED
+100587,02516527,BIO-SOLIFENACIN (solifenacin succinate 10 mg oral tablet) BIOMED PHARMA,ADDED
+100835,02519070,"DIASTAT (diazepam 10 mg per 2 mL rectal gel tube) BAUSCH HEALTH, CANADA INC.",ADDED
+100836,02519089,"DIASTAT (diazepam 15 mg per 3 mL rectal gel tube) BAUSCH HEALTH, CANADA INC.",ADDED
+100851,02519232,ONDANSETRON ODT (ondansetron 4 mg orodispersible tablet) JAMP PHARMA CORPORATION,ADDED
+100852,02519240,ONDANSETRON ODT (ondansetron 8 mg orodispersible tablet) JAMP PHARMA CORPORATION,ADDED
+100871,02519445,PMS-ONDANSETRON ODT (ondansetron 4 mg orodispersible tablet) PHARMASCIENCE INC,ADDED
+100872,02519453,PMS-ONDANSETRON ODT (ondansetron 8 mg orodispersible tablet) PHARMASCIENCE INC,ADDED
+100991,02520710,MOXIFLOXACIN (moxifloxacin (moxifloxacin hydrochloride) 400 mg oral tablet) SANIS HEALTH INC,ADDED
+101030,02521075,SANDOZ LURASIDONE (lurasidone hydrochloride 20 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+101032,02521091,SANDOZ LURASIDONE (lurasidone hydrochloride 40 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+101033,02521105,SANDOZ LURASIDONE (lurasidone hydrochloride 60 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+101034,02521113,SANDOZ LURASIDONE (lurasidone hydrochloride 80 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+101099,02521806,NRA-CETIRIZINE (cetirizine hydrochloride 20 mg oral tablet) NORA PHARMA INC,ADDED
+101133,02522187,MINT-QUETIAPINE XR (quetiapine (quetiapine fumarate) 50 mg prolonged-release oral tablet) MINT PHARMACEUTICALS INC,ADDED
+101134,02522195,MINT-QUETIAPINE XR (quetiapine (quetiapine fumarate) 150 mg prolonged-release oral tablet) MINT PHARMACEUTICALS INC,ADDED
+101135,02522209,MINT-QUETIAPINE XR (quetiapine (quetiapine fumarate) 200 mg prolonged-release oral tablet) MINT PHARMACEUTICALS INC,ADDED
+101136,02522217,MINT-QUETIAPINE XR (quetiapine (quetiapine fumarate) 300 mg prolonged-release oral tablet) MINT PHARMACEUTICALS INC,ADDED
+101196,02522861,ACCEL-DULOXETINE (duloxetine (duloxetine hydrochloride) 30 mg gastro-resistant capsule) ACCEL PHARMA INC,ADDED
+101197,02522888,ACCEL-DULOXETINE (duloxetine (duloxetine hydrochloride) 60 mg gastro-resistant capsule) ACCEL PHARMA INC,ADDED
+101211,02523035,PERINDOPRIL ERBUMINE/INDAPAMIDE (indapamide 1.25 mg and perindopril erbumine 4 mg oral tablet) PRO DOC LIMITEE,ADDED
+101212,02523043,PERINDOPRIL ERBUMINE/INDAPAMIDE HD (indapamide 2.5 mg and perindopril erbumine 8 mg oral tablet) PRO DOC LIMITEE,ADDED
+101284,02523779,YUFLYMA (adalimumab 40 mg per 0.4 mL solution for injection) CELLTRION HEALTHCARE CO LTD,ADDED
+101300,02523957,SIMLANDI (adalimumab 40 mg per 0.4 mL solution for injection) JAMP PHARMA CORPORATION,ADDED
+101324,02524198,MAR-CLONIDINE (clonidine hydrochloride 0.025 mg oral tablet) MARCAN PHARMACEUTICALS INC,ADDED
+101418,02525186,LISINOPRIL (lisinopril 5 mg oral tablet) SANIS HEALTH INC,ADDED
+101419,02525194,LISINOPRIL (lisinopril 10 mg oral tablet) SANIS HEALTH INC,ADDED
+101420,02525208,LISINOPRIL (lisinopril 20 mg oral tablet) SANIS HEALTH INC,ADDED
+NA,77700626,DIMENHYDRINATE INJECTION USP (dimenhydrinate 50 mg per 1 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""DIMENHYDRINATE INJECTION USP (dimenhydrinate 50 mg per 1 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""DIMENHYDRINATE INJECTION USP (dimenhydrinate 50 mg per 1 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+NA,77700627,DIMENHYDRINATE INJECTION USP (dimenhydrinate 250 mg per 5 mL solution for injection vial) HIKMA CANADA LIMITED,"mp_formal_name: ""DIMENHYDRINATE INJECTION USP (dimenhydrinate 250 mg per 5 mL solution for injection vial) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""DIMENHYDRINATE INJECTION USP (dimenhydrinate 250 mg per 5 mL solution for injection vial) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+NA,77700648,ACETYLCYSTEINE INJECTION (acetylcysteine 200 mg per mL solution for injection 10 mL vial) TELIGENT OU,"mp_status_effective_time: ""20191229"" -> ""20220201"""
+NA,77700649,ACETYLCYSTEINE INJECTION (acetylcysteine 200 mg per mL solution for injection 30 mL vial) TELIGENT OU,"mp_status_effective_time: ""20191229"" -> ""20220201"""
+NA,77700798,LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 50 mg per 5 mL solution for injection vial) HIKMA CANADA LIMITED,"mp_formal_name: ""LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 50 mg per 5 mL solution for injection vial) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 50 mg per 5 mL solution for injection vial) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+NA,77700799,LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 50 mg per 5 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 50 mg per 5 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 50 mg per 5 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+NA,77700800,LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 100 mg per 10 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 100 mg per 10 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 100 mg per 10 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+NA,77700801,LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 500 mg per 50 mL solution for injection vial) HIKMA CANADA LIMITED,"mp_formal_name: ""LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 500 mg per 50 mL solution for injection vial) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 500 mg per 50 mL solution for injection vial) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+NA,77700802,LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 200 mg per 20 mL solution for injection vial) HIKMA CANADA LIMITED,"mp_formal_name: ""LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 200 mg per 20 mL solution for injection vial) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 200 mg per 20 mL solution for injection vial) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+NA,77700803,LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 100 mg per 5 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 100 mg per 5 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 100 mg per 5 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+NA,77700804,LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 200 mg per 10 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 200 mg per 10 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 200 mg per 10 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+NA,77700805,LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 1000 mg per 50 mL solution for injection vial) HIKMA CANADA LIMITED,"mp_formal_name: ""LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 1000 mg per 50 mL solution for injection vial) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 1000 mg per 50 mL solution for injection vial) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+NA,77700806,LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 400 mg per 20 mL solution for injection vial) HIKMA CANADA LIMITED,"mp_formal_name: ""LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 400 mg per 20 mL solution for injection vial) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""LIDOCAINE HYDROCHLORIDE INJECTION USP (lidocaine hydrochloride 400 mg per 20 mL solution for injection vial) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+NA,77700895,SUCCINYLCHOLINE CHLORIDE INJECTION USP (succinylcholine chloride 400 mg per 20 mL solution for injection vial) HIKMA CANADA LIMITED,"mp_formal_name: ""SUCCINYLCHOLINE CHLORIDE INJECTION USP (succinylcholine chloride 400 mg per 20 mL solution for injection vial) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""SUCCINYLCHOLINE CHLORIDE INJECTION USP (succinylcholine chloride 400 mg per 20 mL solution for injection vial) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+NA,77700896,SUCCINYLCHOLINE CHLORIDE INJECTION USP (succinylcholine chloride 200 mg per 10 mL solution for injection vial) HIKMA CANADA LIMITED,"mp_formal_name: ""SUCCINYLCHOLINE CHLORIDE INJECTION USP (succinylcholine chloride 200 mg per 10 mL solution for injection vial) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""SUCCINYLCHOLINE CHLORIDE INJECTION USP (succinylcholine chloride 200 mg per 10 mL solution for injection vial) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+NA,77700916,"MAGNESIUM SULFATE INJECTION, USP (magnesium sulfate 500 mg per mL solution for injection 50 mL vial) FRESENIUS KABI CANADA LTD","Health_Canada_product_name: ""MAGNESIUM SULFATE INJECTION"" -> ""MAGNESIUM SULFATE INJECTION, USP""
+mp_formal_name: ""MAGNESIUM SULFATE INJECTION (magnesium sulfate 500 mg per mL solution for injection 50 mL vial) FRESENIUS KABI CANADA LTD"" -> ""MAGNESIUM SULFATE INJECTION,̲ ̲U̲S̲P̲ (magnesium sulfate 500 mg per mL solution for injection 50 mL vial) FRESENIUS KABI CANADA LTD"""
+NA,77700917,"MAGNESIUM SULFATE INJECTION, USP (magnesium sulfate 5000 mg per 10 mL solution for injection vial) FRESENIUS KABI CANADA LTD","Health_Canada_product_name: ""MAGNESIUM SULFATE INJECTION"" -> ""MAGNESIUM SULFATE INJECTION, USP""
+mp_formal_name: ""MAGNESIUM SULFATE INJECTION (magnesium sulfate 5000 mg per 10 mL solution for injection vial) FRESENIUS KABI CANADA LTD"" -> ""MAGNESIUM SULFATE INJECTION,̲ ̲U̲S̲P̲ (magnesium sulfate 5000 mg per 10 mL solution for injection vial) FRESENIUS KABI CANADA LTD"""
+NA,77701000,LIDOCAINE HYDROCHLORIDE AND EPINEPHRINE INJECTION USP (epinephrine (epinephrine bitartrate) 0.2 mg per 20 mL and lidocaine hydrochloride 400 mg per 20 mL solution for injection vial) HIKMA CANADA LIMITED,"mp_formal_name: ""LIDOCAINE HYDROCHLORIDE AND EPINEPHRINE INJECTION USP (epinephrine (epinephrine bitartrate) 0.2 mg per 20 mL and lidocaine hydrochloride 400 mg per 20 mL solution for injection vial) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""LIDOCAINE HYDROCHLORIDE AND EPINEPHRINE INJECTION USP (epinephrine (epinephrine bitartrate) 0.2 mg per 20 mL and lidocaine hydrochloride 400 mg per 20 mL solution for injection vial) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+NA,77701001,LIDOCAINE HYDROCHLORIDE AND EPINEPHRINE INJECTION USP (epinephrine (epinephrine bitartrate) 0.5 mg per 50 mL and lidocaine hydrochloride 1000 mg per 50 mL solution for injection vial) HIKMA CANADA LIMITED,"mp_formal_name: ""LIDOCAINE HYDROCHLORIDE AND EPINEPHRINE INJECTION USP (epinephrine (epinephrine bitartrate) 0.5 mg per 50 mL and lidocaine hydrochloride 1000 mg per 50 mL solution for injection vial) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""LIDOCAINE HYDROCHLORIDE AND EPINEPHRINE INJECTION USP (epinephrine (epinephrine bitartrate) 0.5 mg per 50 mL and lidocaine hydrochloride 1000 mg per 50 mL solution for injection vial) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""

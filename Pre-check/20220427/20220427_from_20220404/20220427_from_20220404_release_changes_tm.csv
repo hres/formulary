@@ -1,0 +1,9 @@
+tm_code,tm_formal_name,changes
+8002179,camphor and eucalyptol and guaiacol,DELETED
+8001659,glycopyrrolate,DELETED
+8002267,suvorexant,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20190418"" -> ""20200514"""
+8001439,bacitracin,"tm_status_effective_time: ""19511231"" -> ""19841231"""
+8000065,acetaminophen and codeine,"tm_status_effective_time: ""19781231"" -> ""19841231"""
+8001487,levocabastine,DELETED
+8001798,hydrocortisone and pramoxine and zinc sulfate,"tm_status_effective_time: ""19781231"" -> ""19811231"""
