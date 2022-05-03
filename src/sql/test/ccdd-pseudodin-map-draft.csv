@@ -740,3 +740,6 @@ pseudodin,drug_code,unit_of_presentation,uop_size_amount,uop_size_unit,unit_of_p
 "77701099","74379","pen","0.8","mL","stylo"
 "77701100","74379","syringe","0.8","mL","seringue"
 "77701101","74379","vial","0.8","mL","fiole"
+"77701102","94448","vial","40","mL","fiole"
+"77701103","94448","vial","10","mL","fiole"
+"77701104","94448","vial","20","mL","fiole"
