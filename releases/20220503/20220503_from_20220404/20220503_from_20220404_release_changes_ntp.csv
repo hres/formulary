@@ -1,0 +1,37 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9000246,erythromycin 250 mg oral tablet,érythromycine 250 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19861231"" -> ""20220219"""
+9001777,camphor 20 mg and eucalyptol 185 mg and guaiacol 90 mg and guaiacol carbonate 100 mg suppository,camphre 20 mg et eucalyptol 185 mg et guaïacol 90 mg et carbonate de guaïacol 100 mg suppositoire,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19771231"" -> ""20210623"""
+9002063,camphor 40 mg and eucalyptol 370 mg and guaiacol 180 mg and guaiacol carbonate 200 mg suppository,camphre 40 mg et eucalyptol 370 mg et guaïacol 180 mg et carbonate de guaïacol 200 mg suppositoire,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19861231"" -> ""20210623"""
+9003930,nelfinavir (nelfinavir mesylate) 625 mg oral tablet,nelfinavir (mésylate de nelfinavir) 625 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20040811"" -> ""20211112"""
+9004631,bismuth subsalicylate 262 mg chewable tablet,subsalicylate de bismuth 262 mg comprimé à croquer,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20100121"" -> ""20210630"""
+9012595,adalimumab 40 mg per 0.4 mL solution for injection pen,"adalimumab 40 mg par 0,4 mL solution injectable stylo","ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20181121"" -> ""20161114"""
+9012596,adalimumab 40 mg per 0.4 mL solution for injection syringe,"adalimumab 40 mg par 0,4 mL solution injectable seringue","ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20181121"" -> ""20161114"""
+9012739,midazolam 5 mg per 5 mL solution for injection ampoule,midazolam 5 mg par 5 mL solution injectable ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20120726"" -> ""20220131"""
+9013540,collagenase clostridium histolyticum 0.9 mg per vial powder for solution for injection with diluent solution,"collagénase de clostridium histolyticum 0,9 mg par fiole poudre pour solution injectable avec solution diluante","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20121114"" -> ""20200611"""
+9013697,levocabastine (levocabastine hydrochloride) 0.05 mg per actuation nasal spray,"lévocabastine (chlorhydrate de lévocabastine) 0,05 mg par actionnement vaporisation nasale","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19931231"" -> ""20201222"""
+9013992,suvorexant 15 mg oral tablet,suvorexant 15 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20190418"" -> ""20200514"""
+9014672,anifrolumab 300 mg per 2 mL solution for injection vial,anifrolumab 300 mg par 2 mL solution injectable fiole,ADDED
+9014673,bimekizumab 160 mg per 1 mL solution for injection syringe,bimékizumab 160 mg par 1 mL solution injectable seringue,ADDED
+9014674,cenegermin 0.002 % ophthalmic drops,"cénégermine 0,002 % gouttes ophtalmiques",ADDED
+9014675,cilgavimab 150 mg per 1.5 mL solution for injection vial with tixagevimab 150 mg per 1.5 mL solution for injection vial,"cilgavimab 150 mg par 1,5 mL solution injectable fiole avec tixagévimab 150 mg par 1,5 mL solution injectable fiole",ADDED
+9014676,diazepam 10 mg per 2 mL rectal gel tube,diazépam 10 mg par 2 mL gel rectal tube,ADDED
+9014677,dostarlimab 500 mg per 10 mL solution for injection vial,dostarlimab 500 mg par 10 mL solution injectable fiole,ADDED
+9014678,drospirenone 4 mg oral tablet,drospirénone 4 mg comprimé oral,ADDED
+9014681,polyethylene glycol 400 1 % and tetrahydrozoline hydrochloride 0.05 % ophthalmic drops,"polyethylene glycol 400 1 % et chlorhydrate de tétrahydrozoline 0,05 % gouttes ophtalmiques",ADDED
+9014682,somatrogon 24 mg per 1.2 mL solution for injection pen,"somatrogon 24 mg par 1,2 mL solution injectable stylo",ADDED
+9014683,somatrogon 60 mg per 1.2 mL solution for injection pen,"somatrogon 60 mg par 1,2 mL solution injectable stylo",ADDED
+9014685,turoctocog alfa pegol 1000 unit per vial powder for solution for injection with diluent solution syringe,turoctocog alfa pégol 1000 unité par fiole poudre pour solution injectable avec solution diluante seringue,ADDED
+9014686,turoctocog alfa pegol 2000 unit per vial powder for solution for injection with diluent solution syringe,turoctocog alfa pégol 2000 unité par fiole poudre pour solution injectable avec solution diluante seringue,ADDED
+9014687,turoctocog alfa pegol 500 unit per vial powder for solution for injection with diluent solution syringe,turoctocog alfa pégol 500 unité par fiole poudre pour solution injectable avec solution diluante seringue,ADDED
+9014688,voretigene neparvovec 2.5e12 vg per 0.5 mL solution for injection vial with diluent solution,"voretigène néparvovec 2,5e12 vecteurs génomiques par 0,5 mL solution injectable fiole avec solution diluante",ADDED
