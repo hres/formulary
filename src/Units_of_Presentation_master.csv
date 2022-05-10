@@ -1,4 +1,6 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"101050","syringe","1","mL","Y","N","02521288","ADTRALZA LEO PHARMA INC","seringue"
+"101256","syringe","1","mL","Y","N","02523493","DEPO-PROVERA PFIZER CANADA ULC","seringue"
 "100293","vial","2","mL","Y","N","02513749","GLYCOPYRROLATE INJECTION USP JAMP PHARMA CORPORATION","fiole"
 "94448","vial","10","mL","Y","N","02457423","OXALIPLATIN INJECTION, USP FRESENIUS KABI CANADA LTD","fiole"
 "94448","vial","20","mL","Y","N","02457423","OXALIPLATIN INJECTION, USP FRESENIUS KABI CANADA LTD","fiole"
