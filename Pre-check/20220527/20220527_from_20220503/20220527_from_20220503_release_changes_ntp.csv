@@ -1,0 +1,42 @@
+ntp_code,ntp_formal_name,changes
+006ff65fc6e963bb2731da2d97c771d2,lidocaine hydrochloride 20 mg per 2 mL and methylprednisolone acetate 80 mg per 2 mL NA vial,ADDED
+0386ec34417c231d8ea6580f9c38419d,clotrimazole 2 % and fluconazole 150 mg NA,ADDED
+06180530b087e2e8e9534e1a24ce98c1,lidocaine hydrochloride 50 mg per 5 mL and methylprednisolone acetate 200 mg per 5 mL NA vial,ADDED
+0acb187f36cddbe98889e640c3c6d517,sodium phenylbutyrate 483 mg per g oral granules,ADDED
+22a45099a03a8d61276e830209ce409d,leucovorin (leucovorin calcium) 1000 mg per 100 mL solution for injection,ADDED
+39a34537c6d9973d0856b6c4f42e6bc4,adalimumab 40 mg per 0.4 mL solution for injection,ADDED
+40e22490b158adcdd2e977acebe5cd32,montelukast (montelukast sodium) 4 mg per sachet oral granules,ADDED
+5f1e81a99fd36ef105d92326792ebba7,acetaminophen 160 mg per sachet oral powder,ADDED
+7d54a9eca88ab79582cb8ea8a28ee543,elexacaftor 50 mg and ivacaftor 37.5 mg and ivacaftor 75 mg and tezacaftor 25 mg oral tablet,ADDED
+80b89d30e988d0a5942729b9867fde3a,pemetrexed (pemetrexed disodium) 25 mg per mL solution for injection,ADDED
+9000231,morphine sulfate 20 mg suppository,DELETED
+9001070,montelukast (montelukast sodium) 4 mg per sachet granules for oral suspension,DELETED
+9001197,varenicline (varenicline tartrate) 0.5 mg oral tablet,"ntp_status_effective_time: ""20070411"" -> ""20180502"""
+9001198,varenicline (varenicline tartrate) 1 mg oral tablet,"ntp_status_effective_time: ""20070411"" -> ""20180502"""
+9001216,varenicline (varenicline tartrate) 0.5 mg oral tablet with varenicline (varenicline tartrate) 1 mg oral tablet,"ntp_status_effective_time: ""20071002"" -> ""20180612"""
+9002680,hydrocodone bitartrate 5 mg per 5 mL and phenylephrine hydrochloride 20 mg per 5 mL syrup,DELETED
+9003589,hydroquinone 4 % cutaneous cream,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20050906"" -> ""20170608"""
+9005645,sodium phenylbutyrate 483 mg per g granules for oral suspension,DELETED
+9013202,lidocaine hydrochloride 10 mg per 1 mL and methylprednisolone acetate 40 mg per 1 mL suspension for injection vial,DELETED
+9013209,lidocaine hydrochloride 20 mg per 2 mL and methylprednisolone acetate 80 mg per 2 mL suspension for injection vial,DELETED
+9013217,lidocaine hydrochloride 50 mg per 5 mL and methylprednisolone acetate 200 mg per 5 mL suspension for injection vial,DELETED
+9013280,colestipol hydrochloride 5 g per sachet granules for oral suspension,DELETED
+9013416,buserelin (buserelin acetate) 100 mcg per actuation nasal spray,DELETED
+9013532,benzalkonium chloride 0.13 % and pramoxine hydrochloride 1 % cutaneous spray,DELETED
+9013569,ivacaftor 50 mg per sachet granules for oral suspension,DELETED
+9013570,ivacaftor 75 mg per sachet granules for oral suspension,DELETED
+9013693,ivacaftor 125 mg per sachet and lumacaftor 100 mg per sachet granules for oral suspension,DELETED
+9013694,ivacaftor 188 mg per sachet and lumacaftor 150 mg per sachet granules for oral suspension,DELETED
+9013822,iron (iron dextran) 100 mg per 2 mL solution for injection vial,"ntp_status_effective_time: ""20200813"" -> ""20220512"""
+9014440,adalimumab 20 mg per 0.4 mL solution for injection,ADDED
+9014601,ivacaftor 25 mg per sachet granules for oral suspension,DELETED
+92e9ca4c11b75f4bb82e134ec334b1d3,ivacaftor 188 mg per sachet and lumacaftor 150 mg per sachet oral granules,ADDED
+bbaac7a1d3144ec41ff440adcb65afb9,ivacaftor 125 mg per sachet and lumacaftor 100 mg per sachet oral granules,ADDED
+c3f1118108a8fb6a93207c8935579cc0,lidocaine hydrochloride 10 mg per 1 mL and methylprednisolone acetate 40 mg per 1 mL NA vial,ADDED
+c7851d59f60f50096379a3c8dd1078a1,ivacaftor 50 mg per sachet oral granules,ADDED
+d45b6eee7edd5ba27b381427d68df2b0,adalimumab 80 mg per 0.8 mL solution for injection,ADDED
+d4b2f746e205c5a60c85d4d93232adfe,cytarabine 100 mg per mL solution for injection,ADDED
+d8542e5cf1663b2e18b946f3120956bf,ivacaftor 25 mg per sachet oral granules,ADDED
+dce16965bc20e80d6c1d6c8d1d99dcf8,ivacaftor 75 mg per sachet oral granules,ADDED
+f2fdf33481bb39fcfdc11b594474ca53,colestipol hydrochloride 5 g per sachet oral granules,ADDED

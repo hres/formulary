@@ -1,0 +1,7 @@
+tm_code,tm_formal_name,changes
+8000781,hydrocodone and phenylephrine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19941231"" -> ""20200710"""
+8001659,glycopyrrolate,DELETED
+8002228,iron dextran,"tm_status_effective_time: ""20200813"" -> ""20220512"""
+8001702,benzalkonium and pramoxine,DELETED
+8000371,varenicline,"tm_status_effective_time: ""20070411"" -> ""20180502"""
