@@ -1,0 +1,113 @@
+drug_code,mp_code,mp_formal_name,changes
+2568,00382825,RIVOTRIL (clonazepam 0.5 mg oral tablet) CHEPLAPHARM ARZNEIMITTEL GMBH,"mp_formal_name: ""RIVOTRIL (clonazepam 0.5 mg oral tablet) H̲O̲F̲F̲M̲A̲N̲N̲-̲L̲A̲ ̲R̲O̲C̲H̲E̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""RIVOTRIL (clonazepam 0.5 mg oral tablet) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲A̲R̲Z̲N̲E̲I̲M̲I̲T̲T̲E̲L̲ ̲G̲M̲B̲H̲"""
+2569,00382841,RIVOTRIL (clonazepam 2 mg oral tablet) CHEPLAPHARM ARZNEIMITTEL GMBH,"mp_formal_name: ""RIVOTRIL (clonazepam 2 mg oral tablet) H̲O̲F̲F̲M̲A̲N̲N̲-̲L̲A̲ ̲R̲O̲C̲H̲E̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""RIVOTRIL (clonazepam 2 mg oral tablet) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲A̲R̲Z̲N̲E̲I̲M̲I̲T̲T̲E̲L̲ ̲G̲M̲B̲H̲"""
+8977,00716871,NYADERM (nystatin 100000 unit per g cutaneous cream) TARO PHARMACEUTICALS INC,"mp_formal_name: ""NYADERM̲ ̲C̲R̲M̲ ̲1̲0̲0̲0̲0̲0̲U̲N̲I̲T̲/̲G̲M (nystatin 100000 unit per g cutaneous cream) TARO PHARMACEUTICALS INC"" -> ""NYADERM (nystatin 100000 unit per g cutaneous cream) TARO PHARMACEUTICALS INC"""
+65558,02241888,ARAVA (leflunomide 10 mg oral tablet) SANOFI-AVENTIS CANADA INC,"mp_formal_name: ""ARAVA ̲1̲0̲M̲G̲ (leflunomide 10 mg oral tablet) SANOFI-AVENTIS CANADA INC"" -> ""ARAVA (leflunomide 10 mg oral tablet) SANOFI-AVENTIS CANADA INC"""
+65559,02241889,ARAVA (leflunomide 20 mg oral tablet) SANOFI-AVENTIS CANADA INC,"mp_formal_name: ""ARAVA ̲2̲0̲ ̲M̲G̲ (leflunomide 20 mg oral tablet) SANOFI-AVENTIS CANADA INC"" -> ""ARAVA (leflunomide 20 mg oral tablet) SANOFI-AVENTIS CANADA INC"""
+65560,02241890,ARAVA (leflunomide 100 mg oral tablet) SANOFI-AVENTIS CANADA INC,"mp_formal_name: ""ARAVA ̲1̲0̲0̲ ̲M̲G̲ (leflunomide 100 mg oral tablet) SANOFI-AVENTIS CANADA INC"" -> ""ARAVA (leflunomide 100 mg oral tablet) SANOFI-AVENTIS CANADA INC"""
+72310,02247997,SINGULAIR (montelukast (montelukast sodium) 4 mg per sachet oral granules) ORGANON CANADA INC.,"mp_formal_name: ""SINGULAIR (montelukast (montelukast sodium) 4 mg per sachet g̲r̲a̲n̲u̲l̲e̲s̲ ̲f̲o̲r̲ ̲o̲r̲a̲l̲ ̲s̲u̲s̲p̲e̲n̲s̲i̲o̲n̲) ORGANON CANADA INC."" -> ""SINGULAIR (montelukast (montelukast sodium) 4 mg per sachet o̲r̲a̲l̲ ̲g̲r̲a̲n̲u̲l̲e̲s̲) ORGANON CANADA INC.""
+ntp_code: ""9001070"" -> ""9014703""
+ntp_formal_name: ""montelukast (montelukast sodium) 4 mg per sachet g̲r̲a̲n̲u̲l̲e̲s̲ ̲f̲o̲r̲ ̲o̲r̲a̲l̲ ̲s̲u̲s̲p̲e̲n̲s̲i̲o̲n̲"" -> ""montelukast (montelukast sodium) 4 mg per sachet o̲r̲a̲l̲ ̲g̲r̲a̲n̲u̲l̲e̲s̲"""
+78168,02296349,TEVA-ONDANSETRON (ondansetron (ondansetron hydrochloride dihydrate) 4 mg oral tablet) TEVA CANADA LIMITED,"mp_formal_name: ""A̲C̲T̲ ̲ONDANSETRON (ondansetron (ondansetron hydrochloride dihydrate) 4 mg oral tablet) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲ONDANSETRON (ondansetron (ondansetron hydrochloride dihydrate) 4 mg oral tablet) TEVA CANADA LIMITED"""
+78169,02296357,TEVA-ONDANSETRON (ondansetron (ondansetron hydrochloride dihydrate) 8 mg oral tablet) TEVA CANADA LIMITED,"mp_formal_name: ""A̲C̲T̲ ̲ONDANSETRON (ondansetron (ondansetron hydrochloride dihydrate) 8 mg oral tablet) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲ONDANSETRON (ondansetron (ondansetron hydrochloride dihydrate) 8 mg oral tablet) TEVA CANADA LIMITED"""
+79727,02311720,CANESTEN EXTERNAL CREAM (clotrimazole 1 % cutaneous cream) BAYER INC,"mp_formal_name: ""CANESTEN EXTERNAL CREAM (clotrimazole 1 % v̲a̲g̲i̲n̲a̲l̲ cream) BAYER INC"" -> ""CANESTEN EXTERNAL CREAM (clotrimazole 1 % c̲u̲t̲a̲n̲e̲o̲u̲s̲ cream) BAYER INC""
+ntp_code: ""9000311"" -> ""9000290""
+ntp_formal_name: ""clotrimazole 1 % v̲a̲g̲i̲n̲a̲l̲ cream"" -> ""clotrimazole 1 % c̲u̲t̲a̲n̲e̲o̲u̲s̲ cream"""
+84365,02358611,SANDOZ MONTELUKAST (montelukast (montelukast sodium) 4 mg per sachet oral granules) SANDOZ CANADA INCORPORATED,"mp_formal_name: ""SANDOZ MONTELUKAST (montelukast (montelukast sodium) 4 mg per sachet g̲r̲a̲n̲u̲l̲e̲s̲ ̲f̲o̲r̲ ̲o̲r̲a̲l̲ ̲s̲u̲s̲p̲e̲n̲s̲i̲o̲n̲) SANDOZ CANADA INCORPORATED"" -> ""SANDOZ MONTELUKAST (montelukast (montelukast sodium) 4 mg per sachet o̲r̲a̲l̲ ̲g̲r̲a̲n̲u̲l̲e̲s̲) SANDOZ CANADA INCORPORATED""
+ntp_code: ""9001070"" -> ""9014703""
+ntp_formal_name: ""montelukast (montelukast sodium) 4 mg per sachet g̲r̲a̲n̲u̲l̲e̲s̲ ̲f̲o̲r̲ ̲o̲r̲a̲l̲ ̲s̲u̲s̲p̲e̲n̲s̲i̲o̲n̲"" -> ""montelukast (montelukast sodium) 4 mg per sachet o̲r̲a̲l̲ ̲g̲r̲a̲n̲u̲l̲e̲s̲"""
+86832,02382482,NALOXONE HYDROCHLORIDE INJECTION USP (naloxone hydrochloride (naloxone hydrochloride dihydrate) 0.4 mg per 1 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""NALOXONE HYDROCHLORIDE INJECTION USP (naloxone hydrochloride (naloxone hydrochloride dihydrate) 0.4 mg per 1 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""NALOXONE HYDROCHLORIDE INJECTION USP (naloxone hydrochloride (naloxone hydrochloride dihydrate) 0.4 mg per 1 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+86984,02384094,FUROSEMIDE INJECTION USP (furosemide 20 mg per 2 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""FUROSEMIDE INJECTION USP (furosemide 20 mg per 2 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""FUROSEMIDE INJECTION USP (furosemide 20 mg per 2 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+90495,02420341,JUXTAPID (lomitapide (lomitapide mesylate) 5 mg oral capsule) AMRYT PHARMACEUTICALS DAC,"mp_formal_name: ""JUXTAPID (lomitapide (lomitapide mesylate) 5 mg oral capsule) AE̲G̲E̲R̲I̲O̲N̲ PHARMACEUTICALS C̲A̲N̲A̲D̲A̲ ̲L̲T̲D̲"" -> ""JUXTAPID (lomitapide (lomitapide mesylate) 5 mg oral capsule) AM̲R̲Y̲T̲ PHARMACEUTICALS D̲A̲C̲"""
+90496,02420376,JUXTAPID (lomitapide (lomitapide mesylate) 10 mg oral capsule) AMRYT PHARMACEUTICALS DAC,"mp_formal_name: ""JUXTAPID (lomitapide (lomitapide mesylate) 10 mg oral capsule) AE̲G̲E̲R̲I̲O̲N̲ PHARMACEUTICALS C̲A̲N̲A̲D̲A̲ ̲L̲T̲D̲"" -> ""JUXTAPID (lomitapide (lomitapide mesylate) 10 mg oral capsule) AM̲R̲Y̲T̲ PHARMACEUTICALS D̲A̲C̲"""
+90498,02420384,JUXTAPID (lomitapide (lomitapide mesylate) 20 mg oral capsule) AMRYT PHARMACEUTICALS DAC,"mp_formal_name: ""JUXTAPID (lomitapide (lomitapide mesylate) 20 mg oral capsule) AE̲G̲E̲R̲I̲O̲N̲ PHARMACEUTICALS C̲A̲N̲A̲D̲A̲ ̲L̲T̲D̲"" -> ""JUXTAPID (lomitapide (lomitapide mesylate) 20 mg oral capsule) AM̲R̲Y̲T̲ PHARMACEUTICALS D̲A̲C̲"""
+91095,02426366,PRIVA-CELECOXIB (celecoxib 100 mg oral capsule) NORA PHARMA INC,"mp_formal_name: ""PRIVA-CELECOXIB (celecoxib 100 mg oral capsule) PHARMAP̲A̲R̲ INC"" -> ""PRIVA-CELECOXIB (celecoxib 100 mg oral capsule) N̲O̲R̲A̲ ̲PHARMA INC"""
+91096,02426374,PRIVA-CELECOXIB (celecoxib 200 mg oral capsule) NORA PHARMA INC,"mp_formal_name: ""PRIVA-CELECOXIB (celecoxib 200 mg oral capsule) PHARMAP̲A̲R̲ INC"" -> ""PRIVA-CELECOXIB (celecoxib 200 mg oral capsule) N̲O̲R̲A̲ ̲PHARMA INC"""
+92099,02436663,PHEBURANE (sodium phenylbutyrate 483 mg per g oral granules) MEDUNIK CANADA,"mp_formal_name: ""PHEBURANE (sodium phenylbutyrate 483 mg per g g̲r̲a̲n̲u̲l̲e̲s̲ ̲f̲o̲r̲ ̲o̲r̲a̲l̲ ̲s̲u̲s̲p̲e̲n̲s̲i̲o̲n̲) MEDUNIK CANADA"" -> ""PHEBURANE (sodium phenylbutyrate 483 mg per g o̲r̲a̲l̲ ̲g̲r̲a̲n̲u̲l̲e̲s̲) MEDUNIK CANADA""
+ntp_code: ""9005645"" -> ""9014708""
+ntp_formal_name: ""sodium phenylbutyrate 483 mg per g g̲r̲a̲n̲u̲l̲e̲s̲ ̲f̲o̲r̲ ̲o̲r̲a̲l̲ ̲s̲u̲s̲p̲e̲n̲s̲i̲o̲n̲"" -> ""sodium phenylbutyrate 483 mg per g o̲r̲a̲l̲ ̲g̲r̲a̲n̲u̲l̲e̲s̲"""
+92696,02442612,KALYDECO (ivacaftor 50 mg per sachet oral granules) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED,"mp_formal_name: ""KALYDECO (ivacaftor 50 mg per sachet g̲r̲a̲n̲u̲l̲e̲s̲ ̲f̲o̲r̲ ̲o̲r̲a̲l̲ ̲s̲u̲s̲p̲e̲n̲s̲i̲o̲n̲) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED"" -> ""KALYDECO (ivacaftor 50 mg per sachet o̲r̲a̲l̲ ̲g̲r̲a̲n̲u̲l̲e̲s̲) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED""
+ntp_code: ""9013569"" -> ""9014698""
+ntp_formal_name: ""ivacaftor 50 mg per sachet g̲r̲a̲n̲u̲l̲e̲s̲ ̲f̲o̲r̲ ̲o̲r̲a̲l̲ ̲s̲u̲s̲p̲e̲n̲s̲i̲o̲n̲"" -> ""ivacaftor 50 mg per sachet o̲r̲a̲l̲ ̲g̲r̲a̲n̲u̲l̲e̲s̲"""
+92697,02442620,KALYDECO (ivacaftor 75 mg per sachet oral granules) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED,"mp_formal_name: ""KALYDECO (ivacaftor 75 mg per sachet g̲r̲a̲n̲u̲l̲e̲s̲ ̲f̲o̲r̲ ̲o̲r̲a̲l̲ ̲s̲u̲s̲p̲e̲n̲s̲i̲o̲n̲) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED"" -> ""KALYDECO (ivacaftor 75 mg per sachet o̲r̲a̲l̲ ̲g̲r̲a̲n̲u̲l̲e̲s̲) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED""
+ntp_code: ""9013570"" -> ""9014699""
+ntp_formal_name: ""ivacaftor 75 mg per sachet g̲r̲a̲n̲u̲l̲e̲s̲ ̲f̲o̲r̲ ̲o̲r̲a̲l̲ ̲s̲u̲s̲p̲e̲n̲s̲i̲o̲n̲"" -> ""ivacaftor 75 mg per sachet o̲r̲a̲l̲ ̲g̲r̲a̲n̲u̲l̲e̲s̲"""
+94412,02457008,GENTAMICIN INJECTION USP (gentamicin (gentamicin sulfate) 80 mg per 2 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""GENTAMICIN INJECTION USP (gentamicin (gentamicin sulfate) 80 mg per 2 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""GENTAMICIN INJECTION USP (gentamicin (gentamicin sulfate) 80 mg per 2 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+94414,02457059,BACLOFEN INJECTION (baclofen 0.05 mg per 1 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""BACLOFEN INJECTION (baclofen 0.05 mg per 1 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""BACLOFEN INJECTION (baclofen 0.05 mg per 1 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+94415,02457067,BACLOFEN INJECTION (baclofen 10 mg per 20 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""BACLOFEN INJECTION (baclofen 10 mg per 20 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""BACLOFEN INJECTION (baclofen 10 mg per 20 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+94572,02458578,NALOXONE INJECTABLE (naloxone hydrochloride 0.4 mg per 1 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""NALOXONE INJECTABLE (naloxone hydrochloride 0.4 mg per 1 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""NALOXONE INJECTABLE (naloxone hydrochloride 0.4 mg per 1 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+95943,02470462,GENTAMICIN INJECTION USP (gentamicin (gentamicin sulfate) 20 mg per 2 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""GENTAMICIN INJECTION USP (gentamicin (gentamicin sulfate) 20 mg per 2 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""GENTAMICIN INJECTION USP (gentamicin (gentamicin sulfate) 20 mg per 2 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+97420,02483831,ORKAMBI (ivacaftor 125 mg per sachet and lumacaftor 100 mg per sachet oral granules) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED,"mp_formal_name: ""ORKAMBI (ivacaftor 125 mg per sachet and lumacaftor 100 mg per sachet g̲r̲a̲n̲u̲l̲e̲s̲ ̲f̲o̲r̲ ̲o̲r̲a̲l̲ ̲s̲u̲s̲p̲e̲n̲s̲i̲o̲n̲) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED"" -> ""ORKAMBI (ivacaftor 125 mg per sachet and lumacaftor 100 mg per sachet o̲r̲a̲l̲ ̲g̲r̲a̲n̲u̲l̲e̲s̲) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED""
+ntp_code: ""9013693"" -> ""9014695""
+ntp_formal_name: ""ivacaftor 125 mg per sachet and lumacaftor 100 mg per sachet g̲r̲a̲n̲u̲l̲e̲s̲ ̲f̲o̲r̲ ̲o̲r̲a̲l̲ ̲s̲u̲s̲p̲e̲n̲s̲i̲o̲n̲"" -> ""ivacaftor 125 mg per sachet and lumacaftor 100 mg per sachet o̲r̲a̲l̲ ̲g̲r̲a̲n̲u̲l̲e̲s̲"""
+97421,02483858,ORKAMBI (ivacaftor 188 mg per sachet and lumacaftor 150 mg per sachet oral granules) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED,"mp_formal_name: ""ORKAMBI (ivacaftor 188 mg per sachet and lumacaftor 150 mg per sachet g̲r̲a̲n̲u̲l̲e̲s̲ ̲f̲o̲r̲ ̲o̲r̲a̲l̲ ̲s̲u̲s̲p̲e̲n̲s̲i̲o̲n̲) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED"" -> ""ORKAMBI (ivacaftor 188 mg per sachet and lumacaftor 150 mg per sachet o̲r̲a̲l̲ ̲g̲r̲a̲n̲u̲l̲e̲s̲) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED""
+ntp_code: ""9013694"" -> ""9014696""
+ntp_formal_name: ""ivacaftor 188 mg per sachet and lumacaftor 150 mg per sachet g̲r̲a̲n̲u̲l̲e̲s̲ ̲f̲o̲r̲ ̲o̲r̲a̲l̲ ̲s̲u̲s̲p̲e̲n̲s̲i̲o̲n̲"" -> ""ivacaftor 188 mg per sachet and lumacaftor 150 mg per sachet o̲r̲a̲l̲ ̲g̲r̲a̲n̲u̲l̲e̲s̲"""
+97708,02486938,THERABREATH HEALTHY GUMS ORAL RINSE (cetylpyridinium chloride 0.05 % mouthwash) CHURCH & DWIGHT CANADA CORP,"mp_formal_name: ""THERABREATH HEALTHY GUMS ORAL RINSE (cetylpyridinium chloride 0.05 % mouthwash) D̲R̲.̲ ̲H̲A̲R̲O̲L̲D̲ ̲K̲A̲T̲Z̲,̲ ̲L̲L̲C̲"" -> ""THERABREATH HEALTHY GUMS ORAL RINSE (cetylpyridinium chloride 0.05 % mouthwash) C̲H̲U̲R̲C̲H̲ ̲&̲ ̲D̲W̲I̲G̲H̲T̲ ̲C̲A̲N̲A̲D̲A̲ ̲C̲O̲R̲P̲"""
+97965,02489570,LATANOPROST OPHTHALMIC SOLUTION (latanoprost 50 mcg per mL ophthalmic drops) HIKMA CANADA LIMITED,"mp_formal_name: ""LATANOPROST OPHTHALMIC SOLUTION (latanoprost 50 mcg per mL ophthalmic drops) T̲E̲L̲I̲G̲E̲N̲T̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""LATANOPROST OPHTHALMIC SOLUTION (latanoprost 50 mcg per mL ophthalmic drops) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+97971,02489635,DORZOLAMIDE AND TIMOLOL EYE DROPS BP (dorzolamide (dorzolamide hydrochloride) 20 mg per mL and timolol (timolol maleate) 5 mg per mL ophthalmic drops) HIKMA CANADA LIMITED,"mp_formal_name: ""DORZOLAMIDE AND TIMOLOL EYE DROPS BP (dorzolamide (dorzolamide hydrochloride) 20 mg per mL and timolol (timolol maleate) 5 mg per mL ophthalmic drops) T̲E̲L̲I̲G̲E̲N̲T̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""DORZOLAMIDE AND TIMOLOL EYE DROPS BP (dorzolamide (dorzolamide hydrochloride) 20 mg per mL and timolol (timolol maleate) 5 mg per mL ophthalmic drops) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+98259,02492598,TARO-TICAGRELOR (ticagrelor 90 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+98680,02496925,LEUCOVORIN CALCIUM INJECTION (leucovorin (leucovorin calcium) 1000 mg per 100 mL solution for injection vial) GENERIC MEDICAL PARTNERS INC,ADDED
+99001,02500310,NAT-TERIFLUNOMIDE (teriflunomide 14 mg oral tablet) NATCO PHARMA (CANADA) INC,ADDED
+99011,02500434,PMS-TERIFLUNOMIDE (teriflunomide 14 mg oral tablet) PHARMASCIENCE INC,ADDED
+99014,02500469,MAR-TERIFLUNOMIDE (teriflunomide 14 mg oral tablet) MARCAN PHARMACEUTICALS INC,ADDED
+99030,02500639,APO-TERIFLUNOMIDE (teriflunomide 14 mg oral tablet) APOTEX INC,ADDED
+99074,02501090,TEVA-TERIFLUNOMIDE (teriflunomide 14 mg oral tablet) TEVA CANADA LIMITED,ADDED
+99155,02501945,AG-LACOSAMIDE (lacosamide 200 mg oral tablet) ANGITA PHARMA INC.,ADDED
+99196,02502380,HULIO (adalimumab 20 mg per 0.4 mL solution for injection syringe) BGP PHARMA ULC,ADDED
+99220,02502631,JAMP CALCIUM POLYSTYRENE SULFONATE (calcium polystyrene sulfonate 999 mg per g powder for oral/rectal suspension) JAMP PHARMA CORPORATION,ADDED
+99246,02502933,ACH-TERIFLUNOMIDE (teriflunomide 14 mg oral tablet) ACCORD HEALTHCARE INC,ADDED
+99284,02503360,CLOTRIMAZOLE EXTRA STRENGTH EXTERNAL ANTIFUNGAL CREAM (clotrimazole 2 % cutaneous cream) TARO PHARMACEUTICALS INC,"mp_formal_name: ""CLOTRIMAZOLE EXTRA STRENGTH EXTERNAL ANTIFUNGAL CREAM (clotrimazole 2 % v̲a̲g̲i̲n̲a̲l̲ cream) TARO PHARMACEUTICALS INC"" -> ""CLOTRIMAZOLE EXTRA STRENGTH EXTERNAL ANTIFUNGAL CREAM (clotrimazole 2 % c̲u̲t̲a̲n̲e̲o̲u̲s̲ cream) TARO PHARMACEUTICALS INC""
+ntp_code: ""9000312"" -> ""9014251""
+ntp_formal_name: ""clotrimazole 2 % v̲a̲g̲i̲n̲a̲l̲ cream"" -> ""clotrimazole 2 % c̲u̲t̲a̲n̲e̲o̲u̲s̲ cream"""
+99361,02504170,JAMP TERIFLUNOMIDE (teriflunomide 14 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+99522,02505843,SANDOZ TERIFLUNOMIDE (teriflunomide 14 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+99523,02505878,PMS-LURASIDONE (lurasidone hydrochloride 20 mg oral tablet) PHARMASCIENCE INC,ADDED
+99524,02505886,PMS-LURASIDONE (lurasidone hydrochloride 40 mg oral tablet) PHARMASCIENCE INC,ADDED
+99525,02505894,PMS-LURASIDONE (lurasidone hydrochloride 60 mg oral tablet) PHARMASCIENCE INC,ADDED
+99526,02505908,PMS-LURASIDONE (lurasidone hydrochloride 80 mg oral tablet) PHARMASCIENCE INC,ADDED
+99527,02505916,PMS-LURASIDONE (lurasidone hydrochloride 120 mg oral tablet) PHARMASCIENCE INC,ADDED
+100066,02511460,AG-NIFEDIPINE ER (nifedipine 60 mg prolonged-release oral tablet) ANGITA PHARMA INC.,ADDED
+100090,02511711,JAMP NIFEDIPINE ER (nifedipine 60 mg prolonged-release oral tablet) JAMP PHARMA CORPORATION,ADDED
+100469,02515296,CYTARABINE INJECTION (cytarabine 2000 mg per 20 mL solution for injection vial) STERIMAX INC,ADDED
+100577,02516438,JAMP LURASIDONE (lurasidone hydrochloride 20 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+100578,02516446,JAMP LURASIDONE (lurasidone hydrochloride 40 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+100579,02516454,JAMP LURASIDONE (lurasidone hydrochloride 60 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+100580,02516462,JAMP LURASIDONE (lurasidone hydrochloride 80 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+100663,02517280,CHILDREN'S TYLENOL EASY DISSOLVE (acetaminophen 160 mg per sachet oral powder) MCNEIL CONSUMER HEALTHCARE DIVISION OF JOHNSON & JOHNSON INC,ADDED
+100677,02517353,JAMP CETIRIZINE TABLETS (cetirizine hydrochloride 20 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+100712,02517760,EXTRA STRENGTH CLOTRIMAZOLE EXTRA FORT -FLUCONAZOLE COMBI (clotrimazole 2 % cutaneous cream with fluconazole 150 mg oral capsule) TARO PHARMACEUTICALS INC,ADDED
+100806,02518767,METRONIDAZOLE (metronidazole 500 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+100844,02519178,BICALUTAMIDE (bicalutamide 50 mg oral tablet) SANIS HEALTH INC,ADDED
+100862,02519348,HYDROXYCHLOROQUINE (hydroxychloroquine sulfate 200 mg oral tablet) SANIS HEALTH INC,ADDED
+100863,02519364,KALYDECO (ivacaftor 25 mg per sachet oral granules) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED,"mp_formal_name: ""KALYDECO (ivacaftor 25 mg per sachet g̲r̲a̲n̲u̲l̲e̲s̲ ̲f̲o̲r̲ ̲o̲r̲a̲l̲ ̲s̲u̲s̲p̲e̲n̲s̲i̲o̲n̲) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED"" -> ""KALYDECO (ivacaftor 25 mg per sachet o̲r̲a̲l̲ ̲g̲r̲a̲n̲u̲l̲e̲s̲) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED""
+ntp_code: ""9014601"" -> ""9014697""
+ntp_formal_name: ""ivacaftor 25 mg per sachet g̲r̲a̲n̲u̲l̲e̲s̲ ̲f̲o̲r̲ ̲o̲r̲a̲l̲ ̲s̲u̲s̲p̲e̲n̲s̲i̲o̲n̲"" -> ""ivacaftor 25 mg per sachet o̲r̲a̲l̲ ̲g̲r̲a̲n̲u̲l̲e̲s̲"""
+100883,02519585,VALACYCLOVIR (valacyclovir (valacyclovir hydrochloride) 1000 mg oral tablet) SANIS HEALTH INC,ADDED
+100885,02519607,QUETIAPINE XR (quetiapine (quetiapine fumarate) 50 mg prolonged-release oral tablet) JAMP PHARMA CORPORATION,ADDED
+100886,02519615,QUETIAPINE XR (quetiapine (quetiapine fumarate) 150 mg prolonged-release oral tablet) JAMP PHARMA CORPORATION,ADDED
+100887,02519623,QUETIAPINE XR (quetiapine (quetiapine fumarate) 200 mg prolonged-release oral tablet) JAMP PHARMA CORPORATION,ADDED
+100898,02519747,QUETIAPINE XR (quetiapine (quetiapine fumarate) 300 mg prolonged-release oral tablet) JAMP PHARMA CORPORATION,ADDED
+100900,02519763,QUETIAPINE XR (quetiapine (quetiapine fumarate) 400 mg prolonged-release oral tablet) JAMP PHARMA CORPORATION,ADDED
+101006,02520869,RUKOBIA (fostemsavir (fostemsavir tromethamine) 600 mg prolonged-release oral tablet) VIIV HEALTHCARE ULC,ADDED
+101044,02521229,FLUCONAZOLE-150 (fluconazole 150 mg oral capsule) SANIS HEALTH INC,ADDED
+101050,02521288,ADTRALZA (tralokinumab 150 mg per 1 mL solution for injection syringe) LEO PHARMA INC,ADDED
+101054,02521342,DARUNAVIR (darunavir 600 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+101055,02521350,DARUNAVIR (darunavir 800 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+101072,02521539,PIPERACILLIN AND TAZOBACTAM FOR INJECTION (piperacillin (piperacillin sodium) 36 g per vial and tazobactam (tazobactam sodium) 4.5 g per vial powder for solution for injection) SANDOZ CANADA INCORPORATED,ADDED
+101095,02521768,SANDOZ FESOTERODINE FUMARATE (fesoterodine fumarate 4 mg prolonged-release oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+101096,02521776,SANDOZ FESOTERODINE FUMARATE (fesoterodine fumarate 8 mg prolonged-release oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+101158,02522470,MAVIRET (glecaprevir 50 mg per sachet and pibrentasvir 20 mg per sachet oral granules) ABBVIE CORPORATION,ADDED
+101256,02523493,DEPO-PROVERA (medroxyprogesterone acetate 150 mg per 1 mL suspension for injection syringe) PFIZER CANADA ULC,ADDED
+101289,02523833,M-TERIFLUNOMIDE (teriflunomide 14 mg oral tablet) MANTRA PHARMA INC,ADDED
+101297,02523922,TENOFOVIR (tenofovir disoproxil fumarate 300 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+101299,02523949,SIMLANDI (adalimumab 40 mg per 0.4 mL solution for injection syringe) JAMP PHARMA CORPORATION,ADDED
+101301,02523965,SIMLANDI (adalimumab 80 mg per 0.8 mL solution for injection syringe) JAMP PHARMA CORPORATION,ADDED
+101394,02524910,AG-CETIRIZINE (cetirizine hydrochloride 20 mg oral tablet) ANGITA PHARMA INC.,ADDED
+NA,77700070,"DIASTAT (diazepam 15 mg per 3 mL rectal gel tube) BAUSCH HEALTH, CANADA INC.",DELETED
+NA,77700381,BACLOFEN INJECTION (baclofen 10 mg per 5 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""BACLOFEN INJECTION (baclofen 10 mg per 5 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""BACLOFEN INJECTION (baclofen 10 mg per 5 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+NA,77700382,BACLOFEN INJECTION (baclofen 40 mg per 20 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_formal_name: ""BACLOFEN INJECTION (baclofen 40 mg per 20 mL solution for injection ampoule) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""BACLOFEN INJECTION (baclofen 40 mg per 20 mL solution for injection ampoule) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+NA,77701105,PEMETREXED FOR INJECTION (pemetrexed (pemetrexed disodium hemipentahydrate) 850 mg per 34 mL solution for injection vial) ACCORD HEALTHCARE INC,ADDED
+NA,77701106,PEMETREXED FOR INJECTION (pemetrexed (pemetrexed disodium hemipentahydrate) 100 mg per 4 mL solution for injection vial) ACCORD HEALTHCARE INC,ADDED
+NA,77701107,PEMETREXED FOR INJECTION (pemetrexed (pemetrexed disodium hemipentahydrate) 500 mg per 20 mL solution for injection vial) ACCORD HEALTHCARE INC,ADDED
+NA,77701108,PEMETREXED FOR INJECTION (pemetrexed (pemetrexed disodium hemipentahydrate) 1000 mg per 40 mL solution for injection vial) ACCORD HEALTHCARE INC,ADDED
