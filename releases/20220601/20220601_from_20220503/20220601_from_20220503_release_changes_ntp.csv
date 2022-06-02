@@ -1,0 +1,35 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9001070,montelukast (montelukast sodium) 4 mg per sachet granules for oral suspension,montélukast (montélukast sodique) 4 mg par sachet granulés pour suspension orale,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20040220"" -> ""20220601"""
+9005645,sodium phenylbutyrate 483 mg per g granules for oral suspension,phénylbutyrate sodique 483 mg par g granulés pour suspension orale,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20150127"" -> ""20220601"""
+9013569,ivacaftor 50 mg per sachet granules for oral suspension,ivacaftor 50 mg par sachet granulés pour suspension orale,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20150914"" -> ""20220601"""
+9013570,ivacaftor 75 mg per sachet granules for oral suspension,ivacaftor 75 mg par sachet granulés pour suspension orale,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20150914"" -> ""20220601"""
+9013693,ivacaftor 125 mg per sachet and lumacaftor 100 mg per sachet granules for oral suspension,ivacaftor 125 mg par sachet et lumacaftor 100 mg par sachet granulés pour suspension orale,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20181214"" -> ""20220601"""
+9013694,ivacaftor 188 mg per sachet and lumacaftor 150 mg per sachet granules for oral suspension,ivacaftor 188 mg par sachet et lumacaftor 150 mg par sachet granulés pour suspension orale,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20181214"" -> ""20220601"""
+9013822,iron (iron dextran) 100 mg per 2 mL solution for injection vial,fer (fer dextran) 100 mg par 2 mL solution injectable fiole,"ntp_status_effective_time: ""20200813"" -> ""20220512"""
+9014252,clotrimazole 2 % cutaneous cream with fluconazole 150 mg oral capsule,clotrimazole 2 % crème cutanée avec fluconazole 150 mg capsule orale,"ntp_type: ""NA"" -> ""Comb"""
+9014601,ivacaftor 25 mg per sachet granules for oral suspension,ivacaftor 25 mg par sachet granulés pour suspension orale,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20210901"" -> ""20220601"""
+9014689,acetaminophen 160 mg per sachet oral powder,acétaminophène 160 mg par sachet poudre orale,ADDED
+9014690,adalimumab 80 mg per 0.8 mL solution for injection syringe,"adalimumab 80 mg par 0,8 mL solution injectable seringue",ADDED
+9014693,fostemsavir (fostemsavir tromethamine) 600 mg prolonged-release oral tablet,fostemsavir (fostemsavir trométhamine) 600 mg comprimé oral à libération prolongée,ADDED
+9014694,glecaprevir 50 mg per sachet and pibrentasvir 20 mg per sachet oral granules,glécaprévir 50 mg par sachet et pibrentasvir 20 mg par sachet granulés orale,ADDED
+9014695,ivacaftor 125 mg per sachet and lumacaftor 100 mg per sachet oral granules,ivacaftor 125 mg par sachet et lumacaftor 100 mg par sachet granulés orale,ADDED
+9014696,ivacaftor 188 mg per sachet and lumacaftor 150 mg per sachet oral granules,ivacaftor 188 mg par sachet et lumacaftor 150 mg par sachet granulés orale,ADDED
+9014697,ivacaftor 25 mg per sachet oral granules,ivacaftor 25 mg par sachet granulés orale,ADDED
+9014698,ivacaftor 50 mg per sachet oral granules,ivacaftor 50 mg par sachet granulés orale,ADDED
+9014699,ivacaftor 75 mg per sachet oral granules,ivacaftor 75 mg par sachet granulés orale,ADDED
+9014700,leucovorin (leucovorin calcium) 1000 mg per 100 mL solution for injection vial,leucovorine (leucovorine calcique) 1000 mg par 100 mL solution injectable fiole,ADDED
+9014702,medroxyprogesterone acetate 150 mg per 1 mL suspension for injection syringe,acétate de médroxyprogestérone 150 mg par 1 mL suspension injectable seringue,ADDED
+9014703,montelukast (montelukast sodium) 4 mg per sachet oral granules,montélukast (montélukast sodique) 4 mg par sachet granulés orale,ADDED
+9014704,pemetrexed (pemetrexed disodium) 100 mg per 4 mL solution for injection vial,pémétrexed (pémétrexed disodique) 100 mg par 4 mL solution injectable fiole,ADDED
+9014705,pemetrexed (pemetrexed disodium) 1000 mg per 40 mL solution for injection vial,pémétrexed (pémétrexed disodique) 1000 mg par 40 mL solution injectable fiole,ADDED
+9014706,pemetrexed (pemetrexed disodium) 500 mg per 20 mL solution for injection vial,pémétrexed (pémétrexed disodique) 500 mg par 20 mL solution injectable fiole,ADDED
+9014707,pemetrexed (pemetrexed disodium) 850 mg per 34 mL solution for injection vial,pémétrexed (pémétrexed disodique) 850 mg par 34 mL solution injectable fiole,ADDED
+9014708,sodium phenylbutyrate 483 mg per g oral granules,phénylbutyrate sodique 483 mg par g granulés orale,ADDED
+9014709,tralokinumab 150 mg per 1 mL solution for injection syringe,tralokinumab 150 mg par 1 mL solution injectable seringue,ADDED
