@@ -1,4 +1,7 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"101529","vial","7","mL","N","N","02526182","RYBREVANT JANSSEN INC","fiole"
+"101131","vial","16","mL","Y","N","02522160","ABEVMY BGP PHARMA ULC","fiole"
+"101132","vial","4","mL","Y","N","02522179","ABEVMY BGP PHARMA ULC","fiole"
 "100469","vial","20","mL","Y","N","02515296","CYTARABINE INJECTION STERIMAX INC","fiole"
 "99196","syringe","0.4","mL","N","N","02502380","HULIO BGP PHARMA ULC","seringue"
 "98680","vial","100","mL","N","N","02496925","LEUCOVORIN CALCIUM INJECTION GENERIC MEDICAL PARTNERS INC","fiole"
