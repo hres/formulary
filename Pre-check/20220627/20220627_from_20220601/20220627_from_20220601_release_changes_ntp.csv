@@ -1,0 +1,40 @@
+ntp_code,ntp_formal_name,changes
+0ea5c07d6f8ef11b246883f884a5348f,elasomeran 0.2 mg per mL dispersion for injection 5 mL vial,ADDED
+106dd13b1f0cc9f6b3d09406d327a2cb,tozinameran 30 mcg per 0.3 mL suspension for injection,ADDED
+2acb8472f477ca558e6674849e50f82a,secukinumab 75 mg per 0.5 mL solution for injection,ADDED
+3904a348f321315344201c6317c52eef,risankizumab 150 mg per 1 mL solution for injection,ADDED
+4b88daf4ef19c776ce7677dd7aa021bd,fentanyl (fentanyl citrate) 50 mcg per mL solution for injection,ADDED
+535c8838225e58106881a48fcfb4e74d,diphenhydramine hydrochloride 12.5 mg orodispersible tablet,ADDED
+6d73a9fe857b3776e694d25dab974f73,acetaminophen 250 mg and ibuprofen 125 mg oral tablet,ADDED
+9000032,acetaminophen 300 mg and caffeine 15 mg and codeine phosphate 30 mg oral tablet,"ntp_status_effective_time: ""19641231"" -> ""19851231"""
+9000231,morphine sulfate 20 mg suppository,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19851231"" -> ""20211223"""
+9000739,morphine sulfate 30 mg suppository,DELETED
+9000880,diazepam 20 mg per 4 mL rectal gel tube,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9000881,diazepam 2.5 mg per 0.5 mL rectal gel tube,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9000883,diazepam 7.5 mg per 1.5 mL rectal gel tube,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9001318,tramadol hydrochloride 50 mg oral tablet,"ntp_status_effective_time: ""20100628"" -> ""20140623"""
+9002216,prednisolone acetate 0.2 % and sulfacetamide sodium 10 % ophthalmic drops,DELETED
+9002680,hydrocodone bitartrate 5 mg per 5 mL and phenylephrine hydrochloride 20 mg per 5 mL syrup,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19941231"" -> ""20200409"""
+9003335,desmopressin acetate 150 mcg per actuation nasal spray,DELETED
+9003589,hydroquinone 4 % cutaneous cream,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20050906"" -> ""20190625"""
+9003971,etidronate disodium 200 mg oral tablet,DELETED
+9012660,clotrimazole 1 % cutaneous cream with fluconazole 150 mg oral capsule,"ntp_status_effective_time: ""20100310"" -> ""20170203"""
+9013416,buserelin (buserelin acetate) 100 mcg per actuation nasal spray,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19980203"" -> ""20220429"""
+9013532,benzalkonium chloride 0.13 % and pramoxine hydrochloride 1 % cutaneous spray,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20090312"" -> ""20210201"""
+9013578,methylene blue 50 mg per 5 mL solution for injection ampoule,DELETED
+9013820,gentian violet 1 % cutaneous solution,DELETED
+9013838,sodium citrate 450 mg per 5 mL and sodium lauryl sulfoacetate 45 mg per 5 mL and sorbitol 3125 mg per 5 mL rectal solution,DELETED
+9014432,elasomeran 100 mcg per 0.5 mL dispersion for injection 5 mL vial,DELETED
+a65df545f40fd373447ee5c4f2d73fe7,etomidate 2 mg per mL solution for injection,ADDED
+c242f07a224a13dec098417fc779eb58,epinephrine (epinephrine bitartrate) 1 mg per 10 mL solution for injection,ADDED
+cce366fa0608fb194af06f82c4337b7f,irinotecan hydrochloride 500 mg per 25 mL solution for injection,ADDED
+ce491c51914fbd2d6b9ed589bd43ff63,dequalinium chloride 10 mg vaginal tablet,ADDED
+dd034f3d782e0467988abd00dbe5949d,irinotecan hydrochloride 100 mg per 5 mL solution for injection,ADDED

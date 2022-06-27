@@ -1,0 +1,12 @@
+tm_code,tm_formal_name,changes
+8001702,benzalkonium and pramoxine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20090312"" -> ""20210201"""
+8000781,hydrocodone and phenylephrine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19941231"" -> ""20200710"""
+8000892,sodium citrate and sodium lauryl sulfoacetate and sorbitol,DELETED
+8001267,etidronate,DELETED
+8001659,glycopyrrolate,DELETED
+8002156,prednisolone and sulfacetamide,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19741231"" -> ""20190715"""
+8002121,gentian violet,DELETED
+8000978,clotrimazole and fluconazole,"tm_status_effective_time: ""20100310"" -> ""20170203"""
