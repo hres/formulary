@@ -1,0 +1,150 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+0ea5c07d6f8ef11b246883f884a5348f,elasomeran 0.2 mg per mL dispersion for injection 5 mL vial,"élasoméran 0,2 mg par mL dispersion injectable 5 mL fiole",ADDED
+12c276491ded1b980c26a595fa83ba88,secukinumab 75 mg per 0.5 mL solution for injection syringe,"sécukinumab 75 mg par 0,5 mL solution injectable seringue",ADDED
+1cfcd82ef4b2ac18b0367f0346e9f80d,amivantamab 350 mg per 7 mL solution for injection vial,amivantamab 350 mg par 7 mL solution injectable fiole,ADDED
+1e5f5e94f61a1b7313822f224791aaa2,palovarotene 1 mg oral capsule,palovarotène 1 mg capsule orale,ADDED
+21feab065e89d1eaaf915b5c44937a8f,cariprazine (cariprazine hydrochloride) 1.5 mg oral capsule,"cariprazine (chlorhydrate de cariprazine) 1,5 mg capsule orale",ADDED
+2377cce3731beea4d11d2e7487351d49,risankizumab 150 mg per 1 mL solution for injection syringe,risankizumab 150 mg par 1 mL solution injectable seringue,ADDED
+2764feaff02f30186050f88bc6756680,palovarotene 5 mg oral capsule,palovarotène 5 mg capsule orale,ADDED
+370088806f4b87f0709497260d5e623b,palovarotene 10 mg oral capsule,palovarotène 10 mg capsule orale,ADDED
+3b8840c6bcf7685cbcf5576a5753a562,cariprazine (cariprazine hydrochloride) 6 mg oral capsule,cariprazine (chlorhydrate de cariprazine) 6 mg capsule orale,ADDED
+4936fd6e0640753b316938b892137e95,dupilumab 200 mg per 1.14 mL solution for injection,"dupilumab 200 mg par 1,14 mL solution injectable",ADDED
+4db831e68c44e09db1816c7a71fd4e1b,palovarotene 2.5 mg oral capsule,"palovarotène 2,5 mg capsule orale",ADDED
+535c8838225e58106881a48fcfb4e74d,diphenhydramine hydrochloride 12.5 mg orodispersible tablet,"chlorhydrate de diphenhydramine 12,5 mg comprimé orodispersible",ADDED
+58b49db9f570cb8d9674b7b1a0812f36,lumasiran (lumasiran sodium) 94.5 mg per 0.5 mL solution for injection vial,"lumasiran (lumasiran sodique) 94,5 mg par 0,5 mL solution injectable fiole",ADDED
+6d73a9fe857b3776e694d25dab974f73,acetaminophen 250 mg and ibuprofen 125 mg oral tablet,acétaminophène 250 mg et ibuprofène 125 mg comprimé oral,ADDED
+8ad6dbe49de5b4b3fbe35e1d14c416b4,palovarotene 1.5 mg oral capsule,"palovarotène 1,5 mg capsule orale",ADDED
+9000032,acetaminophen 300 mg and caffeine 15 mg and codeine phosphate 30 mg oral tablet,acétaminophène 300 mg et caféine 15 mg et phosphate de codéine 30 mg comprimé oral,"ntp_status_effective_time: ""19641231"" -> ""19851231"""
+9000231,morphine sulfate 20 mg suppository,sulfate de morphine 20 mg suppositoire,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19851231"" -> ""20211223"""
+9000739,morphine sulfate 30 mg suppository,sulfate de morphine 30 mg suppositoire,DELETED
+9000880,diazepam 20 mg per 4 mL rectal gel tube,diazépam 20 mg par 4 mL gel rectal tube,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9000881,diazepam 2.5 mg per 0.5 mL rectal gel tube,"diazépam 2,5 mg par 0,5 mL gel rectal tube","ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9000883,diazepam 7.5 mg per 1.5 mL rectal gel tube,"diazépam 7,5 mg par 1,5 mL gel rectal tube","ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9001318,tramadol hydrochloride 50 mg oral tablet,chlorhydrate de tramadol 50 mg comprimé oral,"ntp_status_effective_time: ""20100628"" -> ""20140623"""
+9001515,lidocaine hydrochloride 20 mg per mL cutaneous gel,chlorhydrate de lidocaïne 20 mg par mL gel cutané,ADDED
+9001523,potassium chloride 149 mg per mL solution for injection,chlorure de potassium 149 mg par mL solution injectable,ADDED
+9001709,triclosan 0.5 % cutaneous liquid,"triclosan 0,5 % liquide cutané",ADDED
+9001714,dicyclomine hydrochloride 10 mg oral capsule,chlorhydrate de dicyclomine 10 mg capsule orale,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20200716"" -> ""19741231"""
+9001725,sodium bicarbonate 84 mg per mL solution for injection,bicarbonate de sodium 84 mg par mL solution injectable,ADDED
+9001819,potassium chloride 20 meq per 10 mL solution for injection,chlorure de potassium 20 meq par 10 mL solution injectable,ADDED
+9001867,benzalkonium chloride 0.1 % cutaneous liquid,"chlorure de benzalkonium 0,1 % liquide cutané",ADDED
+9002030,potassium phosphate dibasic 236 mg per mL and potassium phosphate monobasic 224 mg per mL solution for injection,phosphate de potassium dibasique 236 mg par mL et phosphate de potassium monobasique 224 mg par mL solution injectable,ADDED
+9002087,sodium bicarbonate 81.3 g per l solution for haemodialysis,"bicarbonate de sodium 81,3 g par l solution pour hémodialyse",ADDED
+9002113,sodium bicarbonate 42 mg per mL solution for injection,bicarbonate de sodium 42 mg par mL solution injectable,ADDED
+9002180,chloroxylenol 0.6 % cutaneous liquid,"chloroxylénol 0,6 % liquide cutané",ADDED
+9002216,prednisolone acetate 0.2 % and sulfacetamide sodium 10 % ophthalmic drops,"acétate de prednisolone 0,2 % et sulfacétamide sodique 10 % gouttes ophtalmiques",DELETED
+9002321,potassium chloride 251.6 g per l solution for haemodialysis,"chlorure de potassium 251,6 g par l solution pour hémodialyse",ADDED
+9002392,triclosan 0.3 % cutaneous liquid,"triclosan 0,3 % liquide cutané",ADDED
+9002680,hydrocodone bitartrate 5 mg per 5 mL and phenylephrine hydrochloride 20 mg per 5 mL syrup,bitartrate d'hydrocodone 5 mg par 5 mL et chlorhydrate de phényléphrine 20 mg par 5 mL sirop,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19941231"" -> ""20200409"""
+9002902,sodium acetate 328 mg per mL solution for injection,acétate de sodium 328 mg par mL solution injectable,ADDED
+9003031,magnesium chloride 20.5 g per 4.5 l powder for concentrate for solution for haemodialysis,"chlorure de magnésium 20,5 g par 4,5 l poudre pour solution à diluer pour solution pour hémodialyse",ADDED
+9003097,doxorubicin hydrochloride 150 mg per vial powder for solution for injection,chlorhydrate de doxorubicine 150 mg par fiole poudre pour solution injectable,ADDED
+9003126,doxorubicin hydrochloride 50 mg per vial powder for solution for injection,chlorhydrate de doxorubicine 50 mg par fiole poudre pour solution injectable,ADDED
+9003231,doxorubicin hydrochloride 10 mg per vial powder for solution for injection,chlorhydrate de doxorubicine 10 mg par fiole poudre pour solution injectable,ADDED
+9003335,desmopressin acetate 150 mcg per actuation nasal spray,acétate de desmopressine 150 mcg par actionnement vaporisation nasale,DELETED
+9003378,benzalkonium chloride 0.13 % cutaneous liquid,"chlorure de benzalkonium 0,13 % liquide cutané",ADDED
+9003511,chloroxylenol 0.3 % cutaneous liquid,"chloroxylénol 0,3 % liquide cutané",ADDED
+9003565,chloroxylenol 1 % cutaneous liquid,chloroxylénol 1 % liquide cutané,ADDED
+9003589,hydroquinone 4 % cutaneous cream,hydroquinone 4 % crème cutanée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20050906"" -> ""20190625"""
+9003605,chloroxylenol 0.5 % cutaneous solution,"chloroxylénol 0,5 % solution pour application cutanée",ADDED
+9003657,follitropin beta 833 unit per mL solution for injection,follitropine bêta 833 unité par mL solution injectable,ADDED
+9003810,alcohol anhydrous 61 % and chlorhexidine gluconate 1 % lotion,alcool anhydre 61 % et gluconate de chlorhexidine 1 % lotion,ADDED
+9003863,alcohol anhydrous 54.1 % and butanediol 5.7 % and propyl alcohol 10 % and propylene glycol 5.9 % cutaneous solution,"alcool anhydre 54,1 % et butanédiol 5,7 % et alcool propylique 10 % et propylène glycol 5,9 % solution pour application cutanée",ADDED
+9003875,benzethonium chloride 0.2 % cutaneous liquid,"chlorure de benzéthonium 0,2 % liquide cutané",ADDED
+9003966,benzethonium chloride 0.2 % cutaneous solution,"chlorure de benzéthonium 0,2 % solution pour application cutanée",ADDED
+9003971,etidronate disodium 200 mg oral tablet,étidronate disodique 200 mg comprimé oral,DELETED
+9004056,sodium bicarbonate 80.7 g per l solution for haemodialysis,"bicarbonate de sodium 80,7 g par l solution pour hémodialyse",ADDED
+9004071,chloroxylenol 0.3 % lotion,"chloroxylénol 0,3 % lotion",ADDED
+9004093,triclosan 0.3 % cutaneous solution,"triclosan 0,3 % solution pour application cutanée",ADDED
+9004094,benzalkonium chloride 0.15 % cutaneous liquid,"chlorure de benzalkonium 0,15 % liquide cutané",ADDED
+9004163,benzalkonium chloride 0.12 % wipe,"chlorure de benzalkonium 0,12 % lingette",ADDED
+9004208,paclitaxel 100 mg per vial powder for suspension for injection,paclitaxel 100 mg par fiole poudre pour suspension injectable,ADDED
+9004334,benzalkonium chloride 0.13 % cutaneous solution,"chlorure de benzalkonium 0,13 % solution pour application cutanée",ADDED
+9004407,benzethonium chloride 0.3 % wipe,"chlorure de benzéthonium 0,3 % lingette",ADDED
+9004469,benzalkonium chloride 0.1 % cutaneous solution,"chlorure de benzalkonium 0,1 % solution pour application cutanée",ADDED
+9004599,chloroxylenol 0.6 % cutaneous solution,"chloroxylénol 0,6 % solution pour application cutanée",ADDED
+9004611,sodium bicarbonate 650 g per cartridge powder for concentrate for solution for haemodialysis,bicarbonate de sodium 650 g par cartouche poudre pour solution à diluer pour solution pour hémodialyse,ADDED
+9004649,benzalkonium chloride 0.125 % cutaneous solution,"chlorure de benzalkonium 0,125 % solution pour application cutanée",ADDED
+9004671,benzalkonium chloride 0.13 % wipe,"chlorure de benzalkonium 0,13 % lingette",ADDED
+9004912,benzalkonium chloride 0.133 % wipe,"chlorure de benzalkonium 0,133 % lingette",ADDED
+9005000,acetic acid 6.82 g per l and sodium acetate 27.22 g per l solution for haemodialysis,"acide acétique 6,82 g par l et acétate de sodium 27,22 g par l solution pour hémodialyse",ADDED
+9005024,benzalkonium chloride 0.13 % cutaneous spray,"chlorure de benzalkonium 0,13 % vaporisation cutanée",ADDED
+9005208,calcium chloride 7.45 g per vial powder for concentrate for solution for haemodialysis,"chlorure de calcium 7,45 g par fiole poudre pour solution à diluer pour solution pour hémodialyse",ADDED
+9005343,sodium bicarbonate 720 g per cartridge powder for concentrate for solution for haemodialysis,bicarbonate de sodium 720 g par cartouche poudre pour solution à diluer pour solution pour hémodialyse,ADDED
+9005356,sodium bicarbonate 1250 g per cartridge powder for concentrate for solution for haemodialysis,bicarbonate de sodium 1250 g par cartouche poudre pour solution à diluer pour solution pour hémodialyse,ADDED
+9005757,chloroxylenol 3 % cutaneous liquid,chloroxylénol 3 % liquide cutané,ADDED
+9005800,benzalkonium chloride 0.13 % lotion,"chlorure de benzalkonium 0,13 % lotion",ADDED
+9006134,chloroxylenol 1 % cutaneous solution,chloroxylénol 1 % solution pour application cutanée,ADDED
+9006409,benzoyl peroxide 5 % and salicylic acid 2 % NA,peroxyde de benzoyle 5 % et acide salicylique 2 % NA,ADDED
+9012369,asparaginase 10000 unit per vial powder for solution for injection,asparaginase 10000 unité par fiole poudre pour solution injectable,ADDED
+9012660,clotrimazole 1 % cutaneous cream with fluconazole 150 mg oral capsule,clotrimazole 1 % crème cutanée avec fluconazole 150 mg capsule orale,"ntp_status_effective_time: ""20100310"" -> ""20170203"""
+9012906,benzethonium chloride 0.2 % cutaneous cream,"chlorure de benzéthonium 0,2 % crème cutanée",ADDED
+9013032,alprostadil 20 mcg per vial powder for solution for injection,alprostadil 20 mcg par fiole poudre pour solution injectable,ADDED
+9013084,doxorubicin hydrochloride 10 mg per 5 mL solution for injection vial,chlorhydrate de doxorubicine 10 mg par 5 mL solution injectable fiole,ADDED
+9013085,doxorubicin hydrochloride 2 mg per mL solution for injection 100 mL vial,chlorhydrate de doxorubicine 2 mg par mL solution injectable 100 mL fiole,ADDED
+9013086,doxorubicin hydrochloride 20 mg per 10 mL solution for injection vial,chlorhydrate de doxorubicine 20 mg par 10 mL solution injectable fiole,ADDED
+9013087,doxorubicin hydrochloride 20 mg per 10 mL suspension for injection vial,chlorhydrate de doxorubicine 20 mg par 10 mL suspension injectable fiole,ADDED
+9013088,doxorubicin hydrochloride 50 mg per 25 mL solution for injection vial,chlorhydrate de doxorubicine 50 mg par 25 mL solution injectable fiole,ADDED
+9013171,iodide (sodium iodide) 1000 mcg per 10 mL solution for injection vial,iodure (iodure de sodium) 1000 mcg par 10 mL solution injectable fiole,ADDED
+9013271,calcium chloride 14.9 g per bottle powder for concentrate for solution for haemodialysis,"chlorure de calcium 14,9 g par bouteille poudre pour solution à diluer pour solution pour hémodialyse",ADDED
+9013272,calcium chloride 7.45 g per bottle powder for concentrate for solution for haemodialysis,"chlorure de calcium 7,45 g par bouteille poudre pour solution à diluer pour solution pour hémodialyse",ADDED
+9013416,buserelin (buserelin acetate) 100 mcg per actuation nasal spray,buséréline (acétate de buséréline) 100 mcg par actionnement vaporisation nasale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19980203"" -> ""20220429"""
+9013425,chloroxylenol 4.8 % cutaneous solution,"chloroxylénol 4,8 % solution pour application cutanée",ADDED
+9013532,benzalkonium chloride 0.13 % and pramoxine hydrochloride 1 % cutaneous spray,"chlorure de benzalkonium 0,13 % et chlorhydrate de pramoxine 1 % vaporisation cutanée","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20090312"" -> ""20210201"""
+9013578,methylene blue 50 mg per 5 mL solution for injection ampoule,bleu de méthylène 50 mg par 5 mL solution injectable ampoule,DELETED
+9013614,sodium bicarbonate 6 kg per container powder for concentrate for solution for haemodialysis,bicarbonate de sodium 6 kg par récipient poudre pour solution à diluer pour solution pour hémodialyse,ADDED
+9013615,sodium bicarbonate 650 g per sachet powder for concentrate for solution for haemodialysis,bicarbonate de sodium 650 g par sachet poudre pour solution à diluer pour solution pour hémodialyse,ADDED
+9013759,amphotericin B 100 mg per 20 mL suspension for injection vial,amphotéricine B 100 mg par 20 mL suspension injectable fiole,ADDED
+9013760,amphotericin B 50 mg per vial powder for solution for injection,amphotéricine B 50 mg par fiole poudre pour solution injectable,ADDED
+9013820,gentian violet 1 % cutaneous solution,violet de gentiane 1 % solution pour application cutanée,DELETED
+9013838,sodium citrate 450 mg per 5 mL and sodium lauryl sulfoacetate 45 mg per 5 mL and sorbitol 3125 mg per 5 mL rectal solution,citrate de sodium 450 mg par 5 mL et laurylsulfoacétate de sodium 45 mg par 5 mL et sorbitol 3125 mg par 5 mL solution rectale,DELETED
+9013891,onabotulinumtoxinA 100 unit per vial powder for solution for injection,onabotulinumtoxineA 100 unité par fiole poudre pour solution injectable,ADDED
+9013892,paclitaxel 100 mg per 16.7 mL solution for injection vial,"paclitaxel 100 mg par 16,7 mL solution injectable fiole",ADDED
+9013927,phosphorus (potassium phosphate dibasic and potassium phosphate monobasic) 30 mmol per 10 mL and potassium (potassium phosphate dibasic and potassium phosphate monobasic) 44 mmol per 10 mL solution for injection vial,phosphore (phosphate de potassium dibasique et phosphate de potassium monobasique) 30 mmol par 10 mL et potassium (phosphate de potassium dibasique et phosphate de potassium monobasique) 44 mmol par 10 mL solution injectable fiole,ADDED
+9013933,potassium (potassium chloride) 10 mmol per 100 mL solution for injection bag,potassium (chlorure de potassium) 10 mmol par 100 mL solution injectable sac,ADDED
+9013936,sodium (sodium acetate) 4 mmol per mL solution for injection 50 mL vial,sodium (acétate de sodium) 4 mmol par mL solution injectable 50 mL fiole,ADDED
+9013937,sodium bicarbonate 45 mmol per 50 mL solution for injection syringe,bicarbonate de sodium 45 mmol par 50 mL solution injectable seringue,ADDED
+9013938,sodium bicarbonate 5 mmol per 10 mL solution for injection syringe,bicarbonate de sodium 5 mmol par 10 mL solution injectable seringue,ADDED
+9013943,benzalkonium chloride 0.13 % NA,"chlorure de benzalkonium 0,13 % NA",ADDED
+9014085,chloroxylenol 0.5 % NA,"chloroxylénol 0,5 % NA",ADDED
+9014087,coagulation factor IX human 1000 unit per vial and coagulation factor ii (human) 1520 unit per vial and coagulation factor vii (human) 960 unit per vial and coagulation factor x (human) 1200 unit per vial and protein c 1240 unit per vial and protein s 1280 unit per vial NA,facteur IX de coagulation humain 1000 unité par fiole et facteur II de coagulation humain 1520 unité par fiole et facteur VII de coagulation humain 960 unité par fiole et facteur X de coagulation humain 1200 unité par fiole et protéine c 1240 unité par fiole et protéine s 1280 unité par fiole NA,ADDED
+9014088,coagulation factor IX human 1240 unit and coagulation factor ii (human) 1600 unit and coagulation factor vii (human) 1000 unit and coagulation factor x (human) 2040 unit and protein c 1640 unit and protein s 1360 unit powder for solution for injection,facteur IX de coagulation humain 1240 unité et facteur II de coagulation humain 1600 unité et facteur VII de coagulation humain 1000 unité et facteur X de coagulation humain 2040 unité et protéine c 1640 unité et protéine s 1360 unité poudre pour solution injectable,ADDED
+9014090,coagulation factor IX human 500 unit per vial and coagulation factor ii (human) 760 unit per vial and coagulation factor vii (human) 480 unit per vial and coagulation factor x (human) 600 unit per vial and protein c 620 unit per vial and protein s 640 unit per vial NA,facteur IX de coagulation humain 500 unité par fiole et facteur II de coagulation humain 760 unité par fiole et facteur VII de coagulation humain 480 unité par fiole et facteur X de coagulation humain 600 unité par fiole et protéine c 620 unité par fiole et protéine s 640 unité par fiole NA,ADDED
+9014091,coagulation factor IX human 620 unit and coagulation factor ii (human) 800 unit and coagulation factor vii (human) 500 unit and coagulation factor x (human) 1020 unit and protein c 820 unit and protein s 680 unit powder for solution for injection,facteur IX de coagulation humain 620 unité et facteur II de coagulation humain 800 unité et facteur VII de coagulation humain 500 unité et facteur X de coagulation humain 1020 unité et protéine c 820 unité et protéine s 680 unité poudre pour solution injectable,ADDED
+9014112,fibrinogen human 90 mg per mL and thrombin human 1200 unit per mL NA,fibrinogène humaine 90 mg par mL et thrombine humaine 1200 unité par mL NA,ADDED
+9014139,potassium chloride 200 meq per 100 mL solution for injection,chlorure de potassium 200 meq par 100 mL solution injectable,ADDED
+9014303,benzalkonium chloride 0.15 % cutaneous solution,"chlorure de benzalkonium 0,15 % solution pour application cutanée",ADDED
+9014307,doxorubicin hydrochloride 2 mg per mL suspension for injection,chlorhydrate de doxorubicine 2 mg par mL suspension injectable,ADDED
+9014319,benzalkonium chloride 0.13 % cutaneous gel,"chlorure de benzalkonium 0,13 % gel cutané",ADDED
+9014375,benzalkonium chloride 0.125 % cutaneous spray,"chlorure de benzalkonium 0,125 % vaporisation cutanée",ADDED
+9014425,benzethonium chloride 0.13 % wipe,"chlorure de benzéthonium 0,13 % lingette",ADDED
+9014432,elasomeran 100 mcg per 0.5 mL dispersion for injection 5 mL vial,"élasoméran 100 mcg par 0,5 mL dispersion injectable 5 mL fiole",DELETED
+9014486,chloroxylenol 1 % cutaneous gel,chloroxylénol 1 % gel cutané,ADDED
+9014530,sodium bicarbonate 650 g per bag powder for concentrate for solution for haemodialysis,bicarbonate de sodium 650 g par sac poudre pour solution à diluer pour solution pour hémodialyse,ADDED
+9014531,sodium bicarbonate 900 g per bag powder for concentrate for solution for haemodialysis,bicarbonate de sodium 900 g par sac poudre pour solution à diluer pour solution pour hémodialyse,ADDED
+9014540,benzalkonium chloride 0.15 % cutaneous gel,"chlorure de benzalkonium 0,15 % gel cutané",ADDED
+9014560,triclosan 0.4 % NA,"triclosan 0,4 % NA",ADDED
+9014569,lidocaine 0.8 % cutaneous gel,"lidocaïne 0,8 % gel cutané",ADDED
+9014579,benzalkonium chloride 0.15 % cutaneous spray,"chlorure de benzalkonium 0,15 % vaporisation cutanée",ADDED
+9014583,chloroxylenol 0.5 % cutaneous liquid,"chloroxylénol 0,5 % liquide cutané",ADDED
+9014594,chloroxylenol 0.52 % cutaneous solution,"chloroxylénol 0,52 % solution pour application cutanée",ADDED
+9014640,fibrinogen human 160 mg per 2 mL and thrombin human 1000 unit per 2 mL cutaneous solution,fibrinogène humaine 160 mg par 2 mL et thrombine humaine 1000 unité par 2 mL solution pour application cutanée,ADDED
+9014651,potassium chloride 20 meq per 100 mL solution for injection,chlorure de potassium 20 meq par 100 mL solution injectable,ADDED
+9014652,potassium chloride 40 meq per 100 mL solution for injection,chlorure de potassium 40 meq par 100 mL solution injectable,ADDED
+9014665,fibrinogen human 400 mg per 5 mL and thrombin human 2500 unit per 5 mL cutaneous solution,fibrinogène humaine 400 mg par 5 mL et thrombine humaine 2500 unité par 5 mL solution pour application cutanée,ADDED
+9014692,elexacaftor 50 mg and ivacaftor 37.5 mg and tezacaftor 25 mg oral tablet with ivacaftor 75 mg oral tablet,"élexacaftor 50 mg et ivacaftor 37,5 mg et tézacaftor 25 mg comprimé oral avec ivacaftor 75 mg comprimé oral",ADDED
+96cd8d5189cc5ae8dabc733aaee3632d,risankizumab 150 mg per 1 mL solution for injection pen,risankizumab 150 mg par 1 mL solution injectable stylo,ADDED
+ad9da33706c61c6b196ce6f53a4cef73,etomidate 22 mg per 11 mL solution for injection vial,étomidate 22 mg par 11 mL solution injectable fiole,ADDED
+ce491c51914fbd2d6b9ed589bd43ff63,dequalinium chloride 10 mg vaginal tablet,chlorure de déqualinium 10 mg comprimé vaginal,ADDED
+d49e43d75abfc48af3c0533c31ff1fb1,epinephrine (epinephrine bitartrate) 1 mg per 10 mL solution for injection syringe,épinéphrine (bitartrate d'épinéphrine) 1 mg par 10 mL solution injectable seringue,ADDED
+d6d8d6441248530e27acab9966f54078,cariprazine (cariprazine hydrochloride) 3 mg oral capsule,cariprazine (chlorhydrate de cariprazine) 3 mg capsule orale,ADDED
+fc93880c66ae6e6eeed25575b9cd0c73,cariprazine (cariprazine hydrochloride) 4.5 mg oral capsule,"cariprazine (chlorhydrate de cariprazine) 4,5 mg capsule orale",ADDED
