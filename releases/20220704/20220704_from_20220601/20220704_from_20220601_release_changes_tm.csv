@@ -1,0 +1,18 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002426,palovarotene,palovarotène,ADDED
+8000781,hydrocodone and phenylephrine,hydrocodone et phényléphrine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19941231"" -> ""20200710"""
+8002121,gentian violet,violet de gentiane,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19511231"" -> ""20190510"""
+8002425,cariprazine,cariprazine,ADDED
+8002422,amivantamab,amivantamab,ADDED
+8001267,etidronate,étidronate,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20041110"" -> ""20220530"""
+8001702,benzalkonium and pramoxine,benzalkonium et pramoxine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20090312"" -> ""20210201"""
+8001659,glycopyrrolate,glycopyrrolate,DELETED
+8002156,prednisolone and sulfacetamide,prednisolone et sulfacétamide,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19741231"" -> ""20220121"""
+8000892,sodium citrate and sodium lauryl sulfoacetate and sorbitol,citrate de sodium et laurylsulfoacétate de sodium et sorbitol,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19951231"" -> ""20200806"""
+8002424,lumasiran,lumasiran,ADDED

@@ -1,0 +1,55 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9000231,morphine sulfate 20 mg suppository,sulfate de morphine 20 mg suppositoire,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19851231"" -> ""20211223"""
+9000739,morphine sulfate 30 mg suppository,sulfate de morphine 30 mg suppositoire,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19970804"" -> ""20220210"""
+9000880,diazepam 20 mg per 4 mL rectal gel tube,diazépam 20 mg par 4 mL gel rectal tube,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9000881,diazepam 2.5 mg per 0.5 mL rectal gel tube,"diazépam 2,5 mg par 0,5 mL gel rectal tube","ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9000883,diazepam 7.5 mg per 1.5 mL rectal gel tube,"diazépam 7,5 mg par 1,5 mL gel rectal tube","ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9001714,dicyclomine hydrochloride 10 mg oral capsule,chlorhydrate de dicyclomine 10 mg capsule orale,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20200716"" -> ""19741231"""
+9002216,prednisolone acetate 0.2 % and sulfacetamide sodium 10 % ophthalmic drops,"acétate de prednisolone 0,2 % et sulfacétamide sodique 10 % gouttes ophtalmiques","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19891231"" -> ""20220121"""
+9002680,hydrocodone bitartrate 5 mg per 5 mL and phenylephrine hydrochloride 20 mg per 5 mL syrup,bitartrate d'hydrocodone 5 mg par 5 mL et chlorhydrate de phényléphrine 20 mg par 5 mL sirop,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19941231"" -> ""20200409"""
+9003335,desmopressin acetate 150 mcg per actuation nasal spray,acétate de desmopressine 150 mcg par actionnement vaporisation nasale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19981201"" -> ""20200717"""
+9003589,hydroquinone 4 % cutaneous cream,hydroquinone 4 % crème cutanée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20050906"" -> ""20190625"""
+9003971,etidronate disodium 200 mg oral tablet,étidronate disodique 200 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20041110"" -> ""20220530"""
+9013416,buserelin (buserelin acetate) 100 mcg per actuation nasal spray,buséréline (acétate de buséréline) 100 mcg par actionnement vaporisation nasale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19980203"" -> ""20220429"""
+9013532,benzalkonium chloride 0.13 % and pramoxine hydrochloride 1 % cutaneous spray,"chlorure de benzalkonium 0,13 % et chlorhydrate de pramoxine 1 % vaporisation cutanée","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20090312"" -> ""20210201"""
+9013578,methylene blue 50 mg per 5 mL solution for injection ampoule,bleu de méthylène 50 mg par 5 mL solution injectable ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20160219"" -> ""20220606"""
+9013820,gentian violet 1 % cutaneous solution,violet de gentiane 1 % solution pour application cutanée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19511231"" -> ""20190510"""
+9013838,sodium citrate 450 mg per 5 mL and sodium lauryl sulfoacetate 45 mg per 5 mL and sorbitol 3125 mg per 5 mL rectal solution,citrate de sodium 450 mg par 5 mL et laurylsulfoacétate de sodium 45 mg par 5 mL et sorbitol 3125 mg par 5 mL solution rectale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19951231"" -> ""20200806"""
+9014432,elasomeran 0.2 mg per mL dispersion for injection 5 mL vial,"élasoméran 0,2 mg par mL dispersion injectable 5 mL fiole","ntp_formal_name: ""elasomeran 1̲0̲0̲ ̲m̲c̲g̲ ̲p̲e̲r̲ ̲0̲.̲5̲ mL dispersion for injection 5 mL vial"" -> ""elasomeran 0̲.̲2̲ ̲m̲g̲ ̲p̲e̲r̲ mL dispersion for injection 5 mL vial""
+ntp_fr_description: ""élasoméran 1̲0̲0̲ ̲m̲c̲g̲ ̲p̲a̲r̲ ̲0̲,̲5̲ mL dispersion injectable 5 mL fiole"" -> ""élasoméran 0̲,̲2̲ ̲m̲g̲ ̲p̲a̲r̲ mL dispersion injectable 5 mL fiole"""
+9014692,elexacaftor 50 mg and ivacaftor 37.5 mg and tezacaftor 25 mg oral tablet with ivacaftor 75 mg oral tablet,"élexacaftor 50 mg et ivacaftor 37,5 mg et tézacaftor 25 mg comprimé oral avec ivacaftor 75 mg comprimé oral",ADDED
+9014710,acetaminophen 250 mg and ibuprofen 125 mg oral tablet,acétaminophène 250 mg et ibuprofène 125 mg comprimé oral,ADDED
+9014711,amivantamab 350 mg per 7 mL solution for injection vial,amivantamab 350 mg par 7 mL solution injectable fiole,ADDED
+9014712,cariprazine (cariprazine hydrochloride) 1.5 mg oral capsule,"cariprazine (chlorhydrate de cariprazine) 1,5 mg capsule orale",ADDED
+9014713,cariprazine (cariprazine hydrochloride) 3 mg oral capsule,cariprazine (chlorhydrate de cariprazine) 3 mg capsule orale,ADDED
+9014714,cariprazine (cariprazine hydrochloride) 4.5 mg oral capsule,"cariprazine (chlorhydrate de cariprazine) 4,5 mg capsule orale",ADDED
+9014715,cariprazine (cariprazine hydrochloride) 6 mg oral capsule,cariprazine (chlorhydrate de cariprazine) 6 mg capsule orale,ADDED
+9014716,dequalinium chloride 10 mg vaginal tablet,chlorure de déqualinium 10 mg comprimé vaginal,ADDED
+9014717,diphenhydramine hydrochloride 12.5 mg orodispersible tablet,"chlorhydrate de diphenhydramine 12,5 mg comprimé orodispersible",ADDED
+9014720,epinephrine (epinephrine bitartrate) 1 mg per 10 mL solution for injection syringe,épinéphrine (bitartrate d'épinéphrine) 1 mg par 10 mL solution injectable seringue,ADDED
+9014721,etomidate 22 mg per 11 mL solution for injection vial,étomidate 22 mg par 11 mL solution injectable fiole,ADDED
+9014722,lumasiran (lumasiran sodium) 94.5 mg per 0.5 mL solution for injection vial,"lumasiran (lumasiran sodique) 94,5 mg par 0,5 mL solution injectable fiole",ADDED
+9014723,palovarotene 1 mg oral capsule,palovarotène 1 mg capsule orale,ADDED
+9014724,palovarotene 1.5 mg oral capsule,"palovarotène 1,5 mg capsule orale",ADDED
+9014725,palovarotene 10 mg oral capsule,palovarotène 10 mg capsule orale,ADDED
+9014726,palovarotene 2.5 mg oral capsule,"palovarotène 2,5 mg capsule orale",ADDED
+9014727,palovarotene 5 mg oral capsule,palovarotène 5 mg capsule orale,ADDED
+9014728,risankizumab 150 mg per 1 mL solution for injection pen,risankizumab 150 mg par 1 mL solution injectable stylo,ADDED
+9014729,risankizumab 150 mg per 1 mL solution for injection syringe,risankizumab 150 mg par 1 mL solution injectable seringue,ADDED
+9014730,secukinumab 75 mg per 0.5 mL solution for injection syringe,"sécukinumab 75 mg par 0,5 mL solution injectable seringue",ADDED
