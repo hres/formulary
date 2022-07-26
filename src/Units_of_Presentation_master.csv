@@ -1,4 +1,5 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"101666","vial","0.05","mL","N","N","02527618","VABYSMO HOFFMANN-LA ROCHE LIMITED","fiole"
 "101328","pen","1.14","mL","N","N","02524252","DUPIXENT SANOFI-AVENTIS CANADA INC","stylo"
 "101457","syringe","0.5","mL","N","N","02525569","COSENTYX NOVARTIS PHARMACEUTICALS CANADA INC","seringue"
 "101036","syringe","10","mL","N","N","02521148","EPINEPHRINE INJECTION LABORATOIRE AGUETTANT","seringue"
