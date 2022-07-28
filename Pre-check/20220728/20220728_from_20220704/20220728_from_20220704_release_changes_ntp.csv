@@ -1,0 +1,49 @@
+ntp_code,ntp_formal_name,changes
+1ee2a6ee8301decdec064916a059fc30,levothyroxine sodium 40 mcg per mL solution for injection,ADDED
+53f6431343dced0faacf48f0c04e5479,bevacizumab 100 mg per 4 mL solution for injection,ADDED
+598fca89798d3641b7ca0a72fbbbe5df,phenylephrine hydrochloride 10 mg per 1 mL solution for injection,ADDED
+9000010,testosterone cypionate 1000 mg per 10 mL solution for injection vial,"ntp_status_effective_time: ""19531231"" -> ""20201020"""
+9000366,nitroglycerin 10 mg per 10 mL solution for injection vial,"ntp_status_effective_time: ""20170804"" -> ""20220620"""
+9000436,nifedipine 60 mg prolonged-release oral tablet,"ntp_status_effective_time: ""19921231"" -> ""20081230"""
+9000587,indapamide 1.25 mg oral tablet,"ntp_status_effective_time: ""19951231"" -> ""19990218"""
+9000880,diazepam 20 mg per 4 mL rectal gel tube,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9000881,diazepam 2.5 mg per 0.5 mL rectal gel tube,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9000883,diazepam 7.5 mg per 1.5 mL rectal gel tube,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9001451,lorazepam 2 mg per 1 mL solution for injection vial,DELETED
+9001734,coal tar 10 % cutaneous gel,DELETED
+9001758,scopolamine butylbromide 10 mg oral tablet,DELETED
+9002059,acetaminophen 325 mg and pseudoephedrine hydrochloride 30 mg oral tablet,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20000419"" -> ""20200730"""
+9002488,podophyllotoxin 0.5 % cutaneous solution,DELETED
+9003274,phenylephrine hydrochloride 0.25 % cutaneous ointment,DELETED
+9003785,methacholine chloride 160 mg per vial powder for nebulizer solution,DELETED
+9004001,quinagolide (quinagolide hydrochloride) 0.15 mg oral tablet,DELETED
+9004053,lidocaine hydrochloride 0.72 % cutaneous gel,DELETED
+9004293,chloroxylenol 0.5 % and coal tar 2.4 % and menthol 1.5 % shampoo,DELETED
+9005284,ulipristal acetate 5 mg oral tablet,DELETED
+9005973,cocoa butter 88.44 % and phenylephrine hydrochloride 0.25 % suppository,DELETED
+9006273,doxycycline (doxycycline hyclate) 8.8 % periodontal gel,DELETED
+9006558,azathioprine (azathioprine sodium) 50 mg per vial powder for solution for injection,DELETED
+9009389,ethinyl estradiol 30 mcg and norethindrone acetate 1.5 mg oral tablet with lactose oral tablet,DELETED
+9009869,hydrochlorothiazide 25 mg and spironolactone 25 mg oral tablet,"ntp_status_effective_time: ""19601231"" -> ""19841231"""
+9009877,hydrochlorothiazide 50 mg and spironolactone 50 mg oral tablet,"ntp_status_effective_time: ""19831231"" -> ""19861231"""
+9012639,nadroparin calcium 11400 unit per 0.6 mL solution for injection syringe,DELETED
+9012640,nadroparin calcium 15200 unit per 0.8 mL solution for injection syringe,DELETED
+9012642,nadroparin calcium 19000 unit per 1 mL solution for injection syringe,DELETED
+9012818,scopolamine butylbromide 20 mg per 1 mL solution for injection ampoule,DELETED
+9012819,scopolamine butylbromide 20 mg per 1 mL solution for injection vial,DELETED
+9013034,benzoyl peroxide 3 % cutaneous solution,DELETED
+9013257,acetaminophen 650 mg and dextromethorphan hydrobromide 30 mg and pseudoephedrine hydrochloride 60 mg oral tablet with acetaminophen 650 mg and diphenhydramine hydrochloride 50 mg and pseudoephedrine hydrochloride 60 mg oral tablet,DELETED
+9013515,propofol 200 mg per 20 mL emulsion for injection ampoule,DELETED
+9013551,exenatide 10 mcg per actuation solution for injection pre-filled pen,DELETED
+9014209,mineral oil heavy 64.5 % and urea 5 % cutaneous ointment,"ntp_status_effective_time: ""20200814"" -> ""20220620"""
+9014246,pyrithione zinc 0.3 % shampoo,DELETED
+9014357,carbetocin 100 mcg per 1 mL solution for injection ampoule,DELETED
+9014410,bamlanivimab 700 mg per 20 mL solution for injection vial,DELETED
+9073d8884a66cc979edccba2c85b703b,levothyroxine sodium 100 mcg per mL solution for injection,ADDED
+979b36ec65975b89ddc59248de6637f7,bevacizumab 400 mg per 16 mL solution for injection,ADDED
+a2d3dc9500b02b84c7c24228d7812d28,brimonidine tartrate 0.025 % ophthalmic drops,ADDED
+b8170ad7f68c321899c3adb8b27308e1,calcium gluconate 100 mg per mL solution for injection,ADDED
