@@ -1,0 +1,44 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8000940,alcohol anhydrous and butanediol and propyl alcohol and propylene glycol,alcool anhydre et butanédiol et alcool propylique et propylène glycol,CHANGED
+8002278,coagulation factor IX human and coagulation factor ii (human) and coagulation factor vii (human) and coagulation factor x (human) and protein c and protein s,facteur IX de coagulation humain et facteur II de coagulation humain et facteur VII de coagulation humain et facteur X de coagulation humain et protéine c et protéine s,CHANGED
+8002047,paclitaxel,paclitaxel,CHANGED
+8000912,alcohol anhydrous and chlorhexidine,alcool anhydre et chlorhexidine,CHANGED
+8000802,hydrochlorothiazide and spironolactone,hydrochlorothiazide et spironolactone,"tm_status_effective_time: ""19601231"" -> ""19841231"""
+8002088,acetic acid and sodium acetate,acide acétique et acétate de sodium,CHANGED
+8000784,normethadone and p-hydroxyephedrine,norméthadone et p-hydroxyéphédrine,DELETED
+8001615,chloroxylenol,chloroxylénol,CHANGED
+8002282,fibrinogen human and thrombin human,fibrinogène humaine et thrombine humaine,CHANGED
+8833a227028e2792a8cc1adbec69fb68,hyoscine butylbromide,butylbromure d'hyoscine,ADDED
+8001878,sodium iodide,iodure de sodium,CHANGED
+8002105,chloroxylenol and coal tar and menthol,chloroxylénol et goudron de houille et menthol,DELETED
+8001015,cocoa butter and phenylephrine,beurre de cacao et phényléphrine,DELETED
+8002245,onabotulinumtoxinA,onabotulinumtoxineA,CHANGED
+8001465,exenatide,exénatide,"tm_status_effective_time: ""20110531"" -> ""20110601"""
+8000796,benzalkonium,benzalkonium,CHANGED
+8001680,podophyllotoxin,podophyllotoxine,DELETED
+8001870,potassium chloride,chlorure de potassium,CHANGED
+8002215,amphotericin B,amphotéricine B,CHANGED
+8001609,carbetocin,carbétocine,"tm_status_effective_time: ""19990801"" -> ""20200121"""
+8001757,doxorubicin,doxorubicine,CHANGED
+8001579,benzethonium,benzéthonium,CHANGED
+8002154,potassium phosphate dibasic and potassium phosphate monobasic,phosphate de potassium dibasique et phosphate de potassium monobasique,CHANGED
+8001173,betamethasone valerate and gentamicin,valérate de bétaméthasone et gentamicine,DELETED
+8001976,triclosan,triclosan,CHANGED
+8002352,bamlanivimab,bamlanivimab,DELETED
+f6d8cce45a74ae0809a74e58888a4706,faricimab,faricimab,ADDED
+ee83cbdcd1ed7a3583e8e9708b296c75,selpercatinib,selpercatinib,ADDED
+8002109,coal tar,goudron de houille,"tm_status_effective_time: ""19751231"" -> ""19761231"""
+8001476,follitropin beta,follitropine bêta,CHANGED
+8001659,glycopyrrolate,glycopyrrolate,DELETED
+8002308,mineral oil heavy and urea,huile minérale lourde et urée,"tm_status_effective_time: ""20200814"" -> ""20220620"""
+8002161,sodium bicarbonate,bicarbonate de sodium,CHANGED
+8001004,benzoyl peroxide and salicylic acid,peroxyde de benzoyle et acide salicylique,CHANGED
+8002179,camphor and eucalyptol and guaiacol,camphre et eucalyptol et guaïacol,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20210623"" -> ""19771231"""
+8002160,sodium acetate,acétate de sodium,CHANGED
+8001982,ulipristal,ulipristal,"tm_status_effective_time: ""20130704"" -> ""20150901"""
+8001098,asparaginase,asparaginase,CHANGED
+8001482,scopolamine butylbromide,butylbromure de scopolamine,DELETED
+ba1f231caeb0aeb7359435d35ad4ab58,selinexor,sélinexor,ADDED
+8000006,testosterone,testostérone,"tm_status_effective_time: ""19531231"" -> ""19551231"""
+8001844,magnesium chloride,chlorure de magnésium,CHANGED
