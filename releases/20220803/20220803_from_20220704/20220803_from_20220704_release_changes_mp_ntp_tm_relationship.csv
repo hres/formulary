@@ -1,0 +1,113 @@
+drug_code,mp_code,mp_formal_name,changes
+2481,00363812,BUSCOPAN (hyoscine butylbromide 10 mg oral tablet) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""BUSCOPAN (s̲c̲o̲p̲o̲l̲a̲m̲ine butylbromide 10 mg oral tablet) SANOFI CONSUMER HEALTH INC"" -> ""BUSCOPAN (h̲y̲o̲s̲c̲ine butylbromide 10 mg oral tablet) SANOFI CONSUMER HEALTH INC""
+ntp_formal_name: ""s̲c̲o̲p̲o̲l̲a̲m̲ine butylbromide 10 mg oral tablet"" -> ""h̲y̲o̲s̲c̲ine butylbromide 10 mg oral tablet""
+tm_formal_name: ""s̲c̲o̲p̲o̲l̲a̲m̲ine butylbromide"" -> ""h̲y̲o̲s̲c̲ine butylbromide"""
+2483,00363839,BUSCOPAN (hyoscine butylbromide 20 mg per 1 mL solution for injection ampoule) SANOFI CONSUMER HEALTH INC,"mp_formal_name: ""BUSCOPAN (s̲c̲o̲p̲o̲l̲a̲m̲ine butylbromide 20 mg per 1 mL solution for injection ampoule) SANOFI CONSUMER HEALTH INC"" -> ""BUSCOPAN (h̲y̲o̲s̲c̲ine butylbromide 20 mg per 1 mL solution for injection ampoule) SANOFI CONSUMER HEALTH INC""
+ntp_formal_name: ""s̲c̲o̲p̲o̲l̲a̲m̲ine butylbromide 20 mg per 1 mL solution for injection ampoule"" -> ""h̲y̲o̲s̲c̲ine butylbromide 20 mg per 1 mL solution for injection ampoule""
+tm_formal_name: ""s̲c̲o̲p̲o̲l̲a̲m̲ine butylbromide"" -> ""h̲y̲o̲s̲c̲ine butylbromide"""
+9277,00716901,"NYADERM (nystatin 25000 unit per g vaginal cream) TAROPHARMA, A DIVISION OF TARO PHARMACEUTICALS INC.","mp_formal_name: ""NYADERM V̲A̲G̲ ̲C̲R̲M̲ ̲2̲5̲0̲0̲0̲U̲N̲I̲T̲/̲G̲M̲ ̲(̲n̲y̲s̲t̲a̲t̲i̲n̲ ̲2̲5̲0̲0̲0̲ ̲u̲n̲i̲t̲ ̲p̲e̲r̲ ̲g̲ ̲v̲a̲g̲i̲n̲a̲l̲ ̲c̲r̲e̲a̲m̲)̲ ̲T̲A̲R̲O̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲I̲N̲C̲"" -> ""NYADERM (̲n̲y̲s̲t̲a̲t̲i̲n̲ ̲2̲5̲0̲0̲0̲ ̲u̲n̲i̲t̲ ̲p̲e̲r̲ ̲g̲ ̲v̲a̲g̲i̲n̲a̲l̲ ̲c̲r̲e̲a̲m̲)̲ ̲T̲A̲R̲O̲P̲H̲A̲R̲M̲A̲,̲ ̲A̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲T̲A̲R̲O̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲I̲N̲C̲.̲"""
+11893,00812382,CLOTRIMADERM TOPICAL (clotrimazole 1 % cutaneous cream) TARO PHARMACEUTICALS INC,"mp_formal_name: ""CLOTRIMADERM C̲R̲E̲A̲M̲ ̲1̲%̲ (clotrimazole 1 % cutaneous cream) TARO PHARMACEUTICALS INC"" -> ""CLOTRIMADERM T̲O̲P̲I̲C̲A̲L̲ (clotrimazole 1 % cutaneous cream) TARO PHARMACEUTICALS INC"""
+14322,00728276,BURINEX (bumetanide 5 mg oral tablet) KARO PHARMA AB,"mp_formal_name: ""BURINEX (bumetanide 5 mg oral tablet) KN̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲.̲"" -> ""BURINEX (bumetanide 5 mg oral tablet) KA̲R̲O̲ ̲P̲H̲A̲R̲M̲A̲ ̲A̲B̲"""
+14334,00728284,BURINEX (bumetanide 1 mg oral tablet) KARO PHARMA AB,"mp_formal_name: ""BURINEX (bumetanide 1 mg oral tablet) KN̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲.̲"" -> ""BURINEX (bumetanide 1 mg oral tablet) KA̲R̲O̲ ̲P̲H̲A̲R̲M̲A̲ ̲A̲B̲"""
+18779,02167794,APO-SOTALOL (sotalol hydrochloride 160 mg oral tablet) APOTEX INC,"mp_formal_name: ""APO-SOTALOL ̲-̲ ̲T̲A̲B̲ ̲1̲6̲0̲M̲G̲ (sotalol hydrochloride 160 mg oral tablet) APOTEX INC"" -> ""APO-SOTALOL (sotalol hydrochloride 160 mg oral tablet) APOTEX INC"""
+20002,02210428,APO-SOTALOL (sotalol hydrochloride 80 mg oral tablet) APOTEX INC,"mp_formal_name: ""APO-SOTALOL ̲8̲0̲M̲G̲ ̲T̲A̲B̲L̲E̲T̲S̲ (sotalol hydrochloride 80 mg oral tablet) APOTEX INC"" -> ""APO-SOTALOL (sotalol hydrochloride 80 mg oral tablet) APOTEX INC"""
+48226,02229868,HYOSCINE BUTYLBROMIDE INJECTION SANDOZ STANDARD (hyoscine butylbromide 20 mg per 1 mL solution for injection vial) SANDOZ CANADA INCORPORATED,"mp_formal_name: ""HYOSCINE BUTYLBROMIDE INJECTION SANDOZ STANDARD (s̲c̲o̲p̲o̲l̲a̲m̲ine butylbromide 20 mg per 1 mL solution for injection vial) SANDOZ CANADA INCORPORATED"" -> ""HYOSCINE BUTYLBROMIDE INJECTION SANDOZ STANDARD (h̲y̲o̲s̲c̲ine butylbromide 20 mg per 1 mL solution for injection vial) SANDOZ CANADA INCORPORATED""
+ntp_formal_name: ""s̲c̲o̲p̲o̲l̲a̲m̲ine butylbromide 20 mg per 1 mL solution for injection vial"" -> ""h̲y̲o̲s̲c̲ine butylbromide 20 mg per 1 mL solution for injection vial""
+tm_formal_name: ""s̲c̲o̲p̲o̲l̲a̲m̲ine butylbromide"" -> ""h̲y̲o̲s̲c̲ine butylbromide"""
+63668,02240152,"PSORIASIN GEL (coal tar 1.25 % cutaneous gel) ALVA-AMCO PHARMACAL COMPANIES, LLC","mp_formal_name: ""PSORIASIN GEL (coal tar 1.25 % cutaneous gel) ALVA-AMCO PHARMACAL COMPANIES, I̲N̲C̲.̲"" -> ""PSORIASIN GEL (coal tar 1.25 % cutaneous gel) ALVA-AMCO PHARMACAL COMPANIES, L̲L̲C̲"""
+66725,02242893,"DIUREX WATER CAPLETS (pamabrom 50 mg oral tablet) ALVA-AMCO PHARMACAL COMPANIES, LLC","mp_formal_name: ""DIUREX WATER CAPLETS (pamabrom 50 mg oral tablet) ALVA-AMCO PHARMACAL COMPANIES, I̲N̲C̲.̲"" -> ""DIUREX WATER CAPLETS (pamabrom 50 mg oral tablet) ALVA-AMCO PHARMACAL COMPANIES, L̲L̲C̲"""
+69890,02245777,VALCYTE (valganciclovir (valganciclovir hydrochloride) 450 mg oral tablet) CHEPLAPHARM ARZNEIMITTEL GMBH,"mp_formal_name: ""VALCYTE (valganciclovir (valganciclovir hydrochloride) 450 mg oral tablet) H̲O̲F̲F̲M̲A̲N̲N̲-̲L̲A̲ ̲R̲O̲C̲H̲E̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""VALCYTE (valganciclovir (valganciclovir hydrochloride) 450 mg oral tablet) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲A̲R̲Z̲N̲E̲I̲M̲I̲T̲T̲E̲L̲ ̲G̲M̲B̲H̲"""
+77052,02284995,DDAVP MELT (desmopressin (desmopressin acetate) 60 mcg sublingual tablet) FERRING INC,"mp_formal_name: ""DDAVP MELT (desmopressin (desmopressin acetate) 60 mcg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet) FERRING INC"" -> ""DDAVP MELT (desmopressin (desmopressin acetate) 60 mcg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet) FERRING INC""
+ntp_code: ""9004225"" -> ""9014737""
+ntp_formal_name: ""desmopressin (desmopressin acetate) 60 mcg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet"" -> ""desmopressin (desmopressin acetate) 60 mcg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet"""
+77053,02285002,DDAVP MELT (desmopressin (desmopressin acetate) 120 mcg sublingual tablet) FERRING INC,"mp_formal_name: ""DDAVP MELT (desmopressin (desmopressin acetate) 120 mcg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet) FERRING INC"" -> ""DDAVP MELT (desmopressin (desmopressin acetate) 120 mcg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet) FERRING INC""
+ntp_code: ""9004224"" -> ""9014733""
+ntp_formal_name: ""desmopressin (desmopressin acetate) 120 mcg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet"" -> ""desmopressin (desmopressin acetate) 120 mcg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet"""
+77054,02285010,DDAVP MELT (desmopressin (desmopressin acetate) 240 mcg sublingual tablet) FERRING INC,"mp_formal_name: ""DDAVP MELT (desmopressin (desmopressin acetate) 240 mcg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet) FERRING INC"" -> ""DDAVP MELT (desmopressin (desmopressin acetate) 240 mcg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet) FERRING INC""
+ntp_code: ""9004542"" -> ""9014734""
+ntp_formal_name: ""desmopressin (desmopressin acetate) 240 mcg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet"" -> ""desmopressin (desmopressin acetate) 240 mcg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet"""
+77934,02293978,"PSORIASIN OINTMENT (coal tar 2 % cutaneous ointment) ALVA-AMCO PHARMACAL COMPANIES, LLC","mp_formal_name: ""PSORIASIN OINTMENT (coal tar 2 % cutaneous ointment) ALVA-AMCO PHARMACAL COMPANIES, I̲N̲C̲.̲"" -> ""PSORIASIN OINTMENT (coal tar 2 % cutaneous ointment) ALVA-AMCO PHARMACAL COMPANIES, L̲L̲C̲"""
+79164,02306085,VALCYTE (valganciclovir (valganciclovir hydrochloride) 50 mg per mL oral solution) CHEPLAPHARM ARZNEIMITTEL GMBH,"mp_formal_name: ""VALCYTE (valganciclovir (valganciclovir hydrochloride) 50 mg per mL oral solution) H̲O̲F̲F̲M̲A̲N̲N̲-̲L̲A̲ ̲R̲O̲C̲H̲E̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""VALCYTE (valganciclovir (valganciclovir hydrochloride) 50 mg per mL oral solution) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲A̲R̲Z̲N̲E̲I̲M̲I̲T̲T̲E̲L̲ ̲G̲M̲B̲H̲"""
+85559,02370433,"SUBLINOX (zolpidem tartrate 10 mg sublingual tablet) BAUSCH HEALTH, CANADA INC.","mp_formal_name: ""SUBLINOX (zolpidem tartrate 10 mg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet) BAUSCH HEALTH, CANADA INC."" -> ""SUBLINOX (zolpidem tartrate 10 mg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet) BAUSCH HEALTH, CANADA INC.""
+ntp_code: ""9004952"" -> ""9014745""
+ntp_formal_name: ""zolpidem tartrate 10 mg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet"" -> ""zolpidem tartrate 10 mg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet"""
+87583,02390396,"PROACTIV TREAT (benzoyl peroxide 2.5 % cutaneous gel) ALCHEMEE, LLC","mp_formal_name: ""PROACTIV TREAT (benzoyl peroxide 2.5 % cutaneous gel) ALCHEMEE, LLC.̲"" -> ""PROACTIV TREAT (benzoyl peroxide 2.5 % cutaneous gel) ALCHEMEE, LLC"""
+87699,02391678,"SUBLINOX (zolpidem tartrate 5 mg sublingual tablet) BAUSCH HEALTH, CANADA INC.","mp_formal_name: ""SUBLINOX (zolpidem tartrate 5 mg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet) BAUSCH HEALTH, CANADA INC."" -> ""SUBLINOX (zolpidem tartrate 5 mg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet) BAUSCH HEALTH, CANADA INC.""
+ntp_code: ""9005166"" -> ""9014746""
+ntp_formal_name: ""zolpidem tartrate 5 mg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet"" -> ""zolpidem tartrate 5 mg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet"""
+87959,02394421,"PROACTIV+ SKIN SMOOTHING EXFOLIATOR (benzoyl peroxide 2.5 % cutaneous gel) ALCHEMEE, LLC","mp_formal_name: ""PROACTIV+ SKIN SMOOTHING EXFOLIATOR (benzoyl peroxide 2.5 % cutaneous gel) T̲H̲E̲ ̲P̲R̲O̲A̲C̲T̲I̲V̲ ̲C̲O̲M̲P̲A̲N̲Y̲, LLC"" -> ""PROACTIV+ SKIN SMOOTHING EXFOLIATOR (benzoyl peroxide 2.5 % cutaneous gel) A̲L̲C̲H̲E̲M̲E̲E̲, LLC"""
+88288,02397927,NOCDURNA (desmopressin (desmopressin acetate) 25 mcg sublingual tablet) FERRING INC,"mp_formal_name: ""NOCDURNA (desmopressin (desmopressin acetate) 25 mcg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet) FERRING INC"" -> ""NOCDURNA (desmopressin (desmopressin acetate) 25 mcg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet) FERRING INC""
+ntp_code: ""9005294"" -> ""9014735""
+ntp_formal_name: ""desmopressin (desmopressin acetate) 25 mcg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet"" -> ""desmopressin (desmopressin acetate) 25 mcg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet"""
+88440,02399520,PYRITHIONE ZINC DANDRUFF SHAMPOO ITCHY SCALP CARE (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,"mp_formal_name: ""H̲E̲A̲D̲ ̲&̲ ̲S̲H̲O̲U̲L̲D̲E̲R̲S̲ ITCHY SCALP CARE (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"" -> ""P̲Y̲R̲I̲T̲H̲I̲O̲N̲E̲ ̲Z̲I̲N̲C̲ ̲D̲A̲N̲D̲R̲U̲F̲F̲ ̲S̲H̲A̲M̲P̲O̲O̲ ITCHY SCALP CARE (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"""
+88454,02399687,PYRITHIONE ZINC DANDRUFF SHAMPOO ITCHY SCALP CARE 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,"mp_formal_name: ""H̲E̲A̲D̲ ̲&̲ ̲S̲H̲O̲U̲L̲D̲E̲R̲S̲ ITCHY SCALP CARE 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"" -> ""P̲Y̲R̲I̲T̲H̲I̲O̲N̲E̲ ̲Z̲I̲N̲C̲ ̲D̲A̲N̲D̲R̲U̲F̲F̲ ̲S̲H̲A̲M̲P̲O̲O̲ ITCHY SCALP CARE 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"""
+91551,02431076,NOCDURNA (desmopressin (desmopressin acetate) 50 mcg sublingual tablet) FERRING INC,"mp_formal_name: ""NOCDURNA (desmopressin (desmopressin acetate) 50 mcg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet) FERRING INC"" -> ""NOCDURNA (desmopressin (desmopressin acetate) 50 mcg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet) FERRING INC""
+ntp_code: ""9005609"" -> ""9014736""
+ntp_formal_name: ""desmopressin (desmopressin acetate) 50 mcg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet"" -> ""desmopressin (desmopressin acetate) 50 mcg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet"""
+91923,02434946,APO-ZOLPIDEM ODT (zolpidem tartrate 10 mg sublingual tablet) APOTEX INC,"mp_formal_name: ""APO-ZOLPIDEM ODT (zolpidem tartrate 10 mg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet) APOTEX INC"" -> ""APO-ZOLPIDEM ODT (zolpidem tartrate 10 mg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet) APOTEX INC""
+ntp_code: ""9004952"" -> ""9014745""
+ntp_formal_name: ""zolpidem tartrate 10 mg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet"" -> ""zolpidem tartrate 10 mg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet"""
+92048,02436159,APO-ZOLPIDEM ODT (zolpidem tartrate 5 mg sublingual tablet) APOTEX INC,"mp_formal_name: ""APO-ZOLPIDEM ODT (zolpidem tartrate 5 mg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet) APOTEX INC"" -> ""APO-ZOLPIDEM ODT (zolpidem tartrate 5 mg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet) APOTEX INC""
+ntp_code: ""9005166"" -> ""9014746""
+ntp_formal_name: ""zolpidem tartrate 5 mg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet"" -> ""zolpidem tartrate 5 mg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet"""
+92051,02436175,PMS-ZOLPIDEM ODT (zolpidem tartrate 5 mg sublingual tablet) PHARMASCIENCE INC,"mp_formal_name: ""PMS-ZOLPIDEM ODT (zolpidem tartrate 5 mg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet) PHARMASCIENCE INC"" -> ""PMS-ZOLPIDEM ODT (zolpidem tartrate 5 mg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet) PHARMASCIENCE INC""
+ntp_code: ""9005166"" -> ""9014746""
+ntp_formal_name: ""zolpidem tartrate 5 mg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet"" -> ""zolpidem tartrate 5 mg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet"""
+92052,02436183,PMS-ZOLPIDEM ODT (zolpidem tartrate 10 mg sublingual tablet) PHARMASCIENCE INC,"mp_formal_name: ""PMS-ZOLPIDEM ODT (zolpidem tartrate 10 mg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet) PHARMASCIENCE INC"" -> ""PMS-ZOLPIDEM ODT (zolpidem tartrate 10 mg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet) PHARMASCIENCE INC""
+ntp_code: ""9004952"" -> ""9014745""
+ntp_formal_name: ""zolpidem tartrate 10 mg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet"" -> ""zolpidem tartrate 10 mg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet"""
+95104,02463121,OCALIVA (obeticholic acid 5 mg oral tablet) INTERCEPT PHARMA CANADA INC.,"mp_formal_name: ""OCALIVA (obeticholic acid 5 mg oral tablet) INTERCEPT PHARMAC̲E̲U̲T̲I̲C̲A̲L̲S̲ INC."" -> ""OCALIVA (obeticholic acid 5 mg oral tablet) INTERCEPT PHARMA ̲C̲A̲N̲A̲D̲A̲ INC."""
+95105,02463148,OCALIVA (obeticholic acid 10 mg oral tablet) INTERCEPT PHARMA CANADA INC.,"mp_formal_name: ""OCALIVA (obeticholic acid 10 mg oral tablet) INTERCEPT PHARMAC̲E̲U̲T̲I̲C̲A̲L̲S̲ INC."" -> ""OCALIVA (obeticholic acid 10 mg oral tablet) INTERCEPT PHARMA ̲C̲A̲N̲A̲D̲A̲ INC."""
+96216,02472821,MINT-ZOLPIDEM ODT (zolpidem tartrate 5 mg sublingual tablet) MINT PHARMACEUTICALS INC,"mp_formal_name: ""MINT-ZOLPIDEM ODT (zolpidem tartrate 5 mg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet) MINT PHARMACEUTICALS INC"" -> ""MINT-ZOLPIDEM ODT (zolpidem tartrate 5 mg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet) MINT PHARMACEUTICALS INC""
+ntp_code: ""9005166"" -> ""9014746""
+ntp_formal_name: ""zolpidem tartrate 5 mg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet"" -> ""zolpidem tartrate 5 mg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet"""
+96217,02472848,MINT-ZOLPIDEM ODT (zolpidem tartrate 10 mg sublingual tablet) MINT PHARMACEUTICALS INC,"mp_formal_name: ""MINT-ZOLPIDEM ODT (zolpidem tartrate 10 mg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet) MINT PHARMACEUTICALS INC"" -> ""MINT-ZOLPIDEM ODT (zolpidem tartrate 10 mg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet) MINT PHARMACEUTICALS INC""
+ntp_code: ""9004952"" -> ""9014745""
+ntp_formal_name: ""zolpidem tartrate 10 mg o̲r̲o̲d̲i̲s̲p̲e̲r̲s̲i̲b̲l̲e̲ tablet"" -> ""zolpidem tartrate 10 mg s̲u̲b̲l̲i̲n̲g̲u̲a̲l̲ tablet"""
+96721,02476193,PYRITHIONE ZINC DANDRUFF SHAMPOO 2IN1 MEN SWAGGER (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,"mp_formal_name: ""2̲I̲N̲1̲ ̲M̲E̲N̲ ̲A̲D̲V̲A̲N̲C̲E̲D̲ ̲S̲E̲R̲I̲E̲S̲ SWAGGER (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"" -> ""P̲Y̲R̲I̲T̲H̲I̲O̲N̲E̲ ̲Z̲I̲N̲C̲ ̲D̲A̲N̲D̲R̲U̲F̲F̲ ̲S̲H̲A̲M̲P̲O̲O̲ ̲2̲I̲N̲1̲ ̲M̲E̲N̲ SWAGGER (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"""
+96727,02476266,PYRITHIONE ZINC DANDRUFF SHAMPOO MEN SWAGGER (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,"mp_formal_name: ""M̲E̲N̲ ̲A̲D̲V̲A̲N̲C̲E̲D̲ ̲S̲E̲R̲I̲E̲S̲ SWAGGER (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"" -> ""P̲Y̲R̲I̲T̲H̲I̲O̲N̲E̲ ̲Z̲I̲N̲C̲ ̲D̲A̲N̲D̲R̲U̲F̲F̲ ̲S̲H̲A̲M̲P̲O̲O̲ ̲M̲E̲N̲ SWAGGER (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"""
+96824,02477289,PYRITHIONE ZINC DANDRUFF SHAMPOO 2IN1 MEN FIJI (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,"mp_formal_name: ""2̲I̲N̲1̲ ̲M̲E̲N̲ ̲A̲D̲V̲A̲N̲C̲E̲D̲ ̲S̲E̲R̲I̲E̲S̲ FIJI (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"" -> ""P̲Y̲R̲I̲T̲H̲I̲O̲N̲E̲ ̲Z̲I̲N̲C̲ ̲D̲A̲N̲D̲R̲U̲F̲F̲ ̲S̲H̲A̲M̲P̲O̲O̲ ̲2̲I̲N̲1̲ ̲M̲E̲N̲ FIJI (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"""
+96967,02479281,PHENYLEPHRINE HYDROCHLORIDE INJECTION USP 1% (phenylephrine hydrochloride 10 mg per 1 mL solution for injection vial) MONT-PHARMA INC,ADDED
+98327,02493292,PYRITHIONE ZINC DANDRUFF SHAMPOO TEA TREE OIL (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,"mp_formal_name: ""T̲E̲A̲ ̲T̲R̲E̲E̲ ̲O̲I̲L̲ ̲D̲A̲I̲L̲Y̲ ̲S̲H̲A̲M̲P̲O̲O̲ (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"" -> ""P̲Y̲R̲I̲T̲H̲I̲O̲N̲E̲ ̲Z̲I̲N̲C̲ ̲D̲A̲N̲D̲R̲U̲F̲F̲ ̲S̲H̲A̲M̲P̲O̲O̲ ̲T̲E̲A̲ ̲T̲R̲E̲E̲ ̲O̲I̲L̲ (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"""
+98827,02498502,JAMP DIGOXIN (digoxin 0.0625 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+98828,02498510,JAMP DIGOXIN (digoxin 0.125 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+98962,02499916,LEVOTHYROXINE SODIUM INJECTION (levothyroxine sodium 200 mcg per 5 mL solution for injection vial) FRESENIUS KABI CANADA LTD,ADDED
+98963,02499924,LEVOTHYROXINE SODIUM INJECTION (levothyroxine sodium 500 mcg per 5 mL solution for injection vial) FRESENIUS KABI CANADA LTD,ADDED
+98988,02500175,JAMP ALENDRONATE SODIUM (alendronic acid (alendronate sodium) 70 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+100163,02512335,ACCEL-HYOSCINE (hyoscine butylbromide 10 mg oral tablet) ACCEL PHARMA INC,"mp_formal_name: ""ACCEL-HYOSCINE (s̲c̲o̲p̲o̲l̲a̲m̲ine butylbromide 10 mg oral tablet) ACCEL PHARMA INC"" -> ""ACCEL-HYOSCINE (h̲y̲o̲s̲c̲ine butylbromide 10 mg oral tablet) ACCEL PHARMA INC""
+ntp_formal_name: ""s̲c̲o̲p̲o̲l̲a̲m̲ine butylbromide 10 mg oral tablet"" -> ""h̲y̲o̲s̲c̲ine butylbromide 10 mg oral tablet""
+tm_formal_name: ""s̲c̲o̲p̲o̲l̲a̲m̲ine butylbromide"" -> ""h̲y̲o̲s̲c̲ine butylbromide"""
+100558,02516209,COLACE + STIMULANT LAXATIVE (docusate sodium 50 mg and sennosides 8.6 mg oral tablet) BOYD PHARMACEUTICALS INC.,ADDED
+100625,02516918,RETEVMO (selpercatinib 40 mg oral capsule) LOXO ONCOLOGY INC,ADDED
+100626,02516926,RETEVMO (selpercatinib 80 mg oral capsule) LOXO ONCOLOGY INC,ADDED
+100627,02516934,AG-QUETIAPINE FUMARATE (quetiapine (quetiapine fumarate) 25 mg oral tablet) ANGITA PHARMA INC.,ADDED
+100706,02517698,LUMIFY (brimonidine tartrate 0.025 % ophthalmic drops) BAUSCH & LOMB INC,ADDED
+100812,02518821,JAMP SPIRONOLACTONE (spironolactone 25 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+100813,02518848,JAMP SPIRONOLACTONE (spironolactone 100 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+100892,02519682,M-BETAHISTINE (betahistine hydrochloride 8 mg oral tablet) MANTRA PHARMA INC,ADDED
+100893,02519690,M-BETAHISTINE (betahistine hydrochloride 16 mg oral tablet) MANTRA PHARMA INC,ADDED
+100894,02519704,M-BETAHISTINE (betahistine hydrochloride 24 mg oral tablet) MANTRA PHARMA INC,ADDED
+100989,02520699,ESOMEPRAZOLE (esomeprazole (esomeprazole magnesium) 20 mg gastro-resistant tablet) JAMP PHARMA CORPORATION,ADDED
+100990,02520702,ESOMEPRAZOLE (esomeprazole (esomeprazole magnesium) 40 mg gastro-resistant tablet) JAMP PHARMA CORPORATION,ADDED
+101039,02521172,OLOPATADINE (olopatadine (olopatadine hydrochloride) 0.1 % ophthalmic drops) SANIS HEALTH INC,ADDED
+101187,02522829,"AYBINTIO (bevacizumab 100 mg per 4 mL solution for injection vial) SAMSUNG BIOEPIS CO., LTD",ADDED
+101189,02522837,"AYBINTIO (bevacizumab 400 mg per 16 mL solution for injection vial) SAMSUNG BIOEPIS CO., LTD",ADDED
+101209,02523019,PROPYLTHIOURACIL TABLETS (propylthiouracil 50 mg oral tablet) PHEBRA CANADA INC,ADDED
+101221,02523140,"CALCIUM GLUCONATE INJECTION, USP 10% (calcium gluconate 100 mg per mL solution for injection 500 mL bag) BAXTER CORPORATION",ADDED
+101328,02524252,DUPIXENT (dupilumab 200 mg per 1.14 mL solution for injection pen) SANOFI-AVENTIS CANADA INC,ADDED
+101329,02524244,LETROZOLE (letrozole 2.5 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+101354,02524511,M-VALSARTAN (valsartan 40 mg oral tablet) MANTRA PHARMA INC,ADDED
+101355,02524538,M-VALSARTAN (valsartan 80 mg oral tablet) MANTRA PHARMA INC,ADDED
+101356,02524546,M-VALSARTAN (valsartan 160 mg oral tablet) MANTRA PHARMA INC,ADDED
+101372,02524708,MINT-ACYCLOVIR (acyclovir 200 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+101373,02524716,MINT-ACYCLOVIR (acyclovir 400 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+101374,02524724,MINT-ACYCLOVIR (acyclovir 800 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+101383,02524813,M-IRBESARTAN (irbesartan 75 mg oral tablet) MANTRA PHARMA INC,ADDED
+101384,02524821,M-IRBESARTAN (irbesartan 150 mg oral tablet) MANTRA PHARMA INC,ADDED
+101385,02524848,M-IRBESARTAN (irbesartan 300 mg oral tablet) MANTRA PHARMA INC,ADDED
+101386,02524856,GLICLAZIDE MR (gliclazide 30 mg prolonged-release oral tablet) SANIS HEALTH INC,ADDED
+101387,02524864,GLICLAZIDE MR (gliclazide 60 mg prolonged-release oral tablet) SANIS HEALTH INC,ADDED
+101440,02525380,ABIRATERONE (abiraterone acetate 500 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+101666,02527618,VABYSMO (faricimab 6 mg per 0.05 mL solution for injection vial) HOFFMANN-LA ROCHE LIMITED,ADDED
+101672,02527677,XPOVIO (selinexor 20 mg oral tablet) FORUS THERAPEUTICS INC.,ADDED
+101772,02528495,GLN-ATOVAQUONE (atovaquone 750 mg per 5 mL oral suspension) GLENMARK PHARMACEUTICALS CANADA INC.,ADDED

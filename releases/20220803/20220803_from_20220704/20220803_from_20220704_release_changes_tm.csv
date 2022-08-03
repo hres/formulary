@@ -1,0 +1,22 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8001482,hyoscine butylbromide,butylbromure d'hyoscine,"tm_formal_name: ""s̲c̲o̲p̲o̲l̲a̲m̲ine butylbromide"" -> ""h̲y̲o̲s̲c̲ine butylbromide""
+tm_fr_description: ""butylbromure de̲ ̲s̲c̲o̲p̲o̲l̲a̲m̲ine"" -> ""butylbromure d'̲h̲y̲o̲s̲c̲ine"""
+8001680,podophyllotoxin,podophyllotoxine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19921231"" -> ""20210825"""
+8002428,selinexor,sélinexor,ADDED
+8002352,bamlanivimab,bamlanivimab,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20201224"" -> ""20220722"""
+8002429,selpercatinib,selpercatinib,ADDED
+8001015,cocoa butter and phenylephrine,beurre de cacao et phényléphrine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20160520"" -> ""20201009"""
+8002427,faricimab,faricimab,ADDED
+8000784,normethadone and p-hydroxyephedrine,norméthadone et p-hydroxyéphédrine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19970123"" -> ""20220728"""
+8001659,glycopyrrolate,glycopyrrolate,DELETED
+8002308,mineral oil heavy and urea,huile minérale lourde et urée,"tm_status_effective_time: ""20200814"" -> ""20220620"""
+8002105,chloroxylenol and coal tar and menthol,chloroxylénol et goudron de houille et menthol,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20070420"" -> ""20220705"""
+8002179,camphor and eucalyptol and guaiacol,camphre et eucalyptol et guaïacol,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20210623"" -> ""19771231"""
+8001173,betamethasone valerate and gentamicin,valérate de bétaméthasone et gentamicine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19701231"" -> ""20220728"""
