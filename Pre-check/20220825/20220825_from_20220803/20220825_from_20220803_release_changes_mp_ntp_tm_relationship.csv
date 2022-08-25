@@ -1,0 +1,100 @@
+drug_code,mp_code,mp_formal_name,changes
+1470,00247855,FML (fluorometholone 0.1 % ophthalmic drops) ALLERGAN INC,"mp_formal_name: ""FML ̲0̲.̲1̲%̲ (fluorometholone 0.1 % ophthalmic drops) ALLERGAN INC"" -> ""FML (fluorometholone 0.1 % ophthalmic drops) ALLERGAN INC"""
+1922,00297143,LOESTRIN 1.5/30 (ethinyl estradiol 30 mcg and norethindrone acetate 1.5 mg oral tablet) ALLERGAN INC,DELETED
+2254,00343838,MINESTRIN 1/20 (ethinyl estradiol 20 mcg and norethindrone acetate 1 mg oral tablet with lactose oral tablet) ALLERGAN INC,DELETED
+2255,00315966,MINESTRIN 1/20 (ethinyl estradiol 20 mcg and norethindrone acetate 1 mg oral tablet) ALLERGAN INC,DELETED
+13447,01949454,ALLERGY TABLETS 25MG (diphenhydramine hydrochloride 25 mg oral tablet) TANTA PHARMACEUTICALS INC,DELETED
+13990,02031116,LAMISIL (terbinafine (terbinafine hydrochloride) 250 mg oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC,"mp_formal_name: ""LAMISIL ̲T̲A̲B̲ ̲2̲5̲0̲M̲G̲ (terbinafine (terbinafine hydrochloride) 250 mg oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC"" -> ""LAMISIL (terbinafine (terbinafine hydrochloride) 250 mg oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC"""
+14257,02019701,BENADRYL CREAM 2% (diphenhydramine hydrochloride 2 % cutaneous cream) MCNEIL CONSUMER HEALTHCARE DIVISION OF JOHNSON & JOHNSON INC,DELETED
+14532,02031094,LAMISIL (terbinafine hydrochloride 1 % cutaneous cream) NOVARTIS PHARMACEUTICALS CANADA INC,"mp_formal_name: ""LAMISIL ̲C̲R̲M̲ ̲1̲%̲ (terbinafine hydrochloride 1 % cutaneous cream) NOVARTIS PHARMACEUTICALS CANADA INC"" -> ""LAMISIL (terbinafine hydrochloride 1 % cutaneous cream) NOVARTIS PHARMACEUTICALS CANADA INC"""
+18491,02143291,OCUFLOX (ofloxacin 0.3 % ophthalmic drops) ABBVIE CORPORATION,"mp_formal_name: ""OCUFLOX (ofloxacin 0.3 % ophthalmic drops) AL̲L̲E̲R̲G̲A̲N̲ ̲I̲N̲C̲"" -> ""OCUFLOX (ofloxacin 0.3 % ophthalmic drops) AB̲B̲V̲I̲E̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"""
+31478,02141736,ALLERGY FORMULA LIQUID (diphenhydramine hydrochloride 12.5 mg per 5 mL oral solution) PERRIGO INTERNATIONAL,DELETED
+49920,02230661,TENOXICAM (tenoxicam 20 mg oral tablet) AA PHARMA INC,"mp_formal_name: ""TENOXICAM ̲T̲A̲B̲L̲E̲T̲S̲ (tenoxicam 20 mg oral tablet) AA PHARMA INC"" -> ""TENOXICAM (tenoxicam 20 mg oral tablet) AA PHARMA INC"""
+50053,02230784,TAZORAC (tazarotene 0.05 % cutaneous gel) ALLERGAN INC,DELETED
+65812,02242134,CONTINUOUS CONTROL ACNE CLEANSER (benzoyl peroxide 5 % lotion) JOHNSON & JOHNSON INC,DELETED
+66172,02242453,PMS-RANITIDINE 150 MG (ranitidine (ranitidine hydrochloride) 150 mg oral tablet) PHARMASCIENCE INC,DELETED
+66173,02242454,PMS-RANITIDINE 300 MG (ranitidine (ranitidine hydrochloride) 300 mg oral tablet) PHARMASCIENCE INC,DELETED
+66642,02242814,"LACTULOSE SOLUTION USP (lactulose 667 mg per mL oral solution) BAJAJ MEDICAL, LLC","mp_formal_name: ""A̲P̲O̲-̲L̲A̲C̲T̲U̲L̲O̲S̲E̲ (lactulose 667 mg per mL oral solution) BAJAJ MEDICAL, LLC"" -> ""L̲A̲C̲T̲U̲L̲O̲S̲E̲ ̲S̲O̲L̲U̲T̲I̲O̲N̲ ̲U̲S̲P̲ (lactulose 667 mg per mL oral solution) BAJAJ MEDICAL, LLC"""
+69271,02245248,"AMIODARONE HYDROCHLORIDE FOR INJECTION, USP (amiodarone hydrochloride 150 mg per 3 mL solution for injection vial) FRESENIUS KABI CANADA LTD","mp_formal_name: ""AMIODARONE HYDROCHLORIDE INJECTION (amiodarone hydrochloride 150 mg per 3 mL solution for injection vial) FRESENIUS KABI CANADA LTD"" -> ""AMIODARONE HYDROCHLORIDE F̲O̲R̲ ̲INJECTION,̲ ̲U̲S̲P̲ (amiodarone hydrochloride 150 mg per 3 mL solution for injection vial) FRESENIUS KABI CANADA LTD"""
+71801,02247551,ACID REDUCER (ranitidine (ranitidine hydrochloride) 75 mg oral tablet) PHARMASCIENCE INC,DELETED
+74247,02257270,ZYMAR (gatifloxacin 0.3 % ophthalmic drops) ABBVIE CORPORATION,"mp_formal_name: ""ZYMAR (gatifloxacin 0.3 % ophthalmic drops) AL̲L̲E̲R̲G̲A̲N̲ ̲I̲N̲C̲"" -> ""ZYMAR (gatifloxacin 0.3 % ophthalmic drops) AB̲B̲V̲I̲E̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"""
+74355,02258331,MYLAN-CLINDAMYCIN (clindamycin (clindamycin hydrochloride) 150 mg oral capsule) MYLAN PHARMACEUTICALS ULC,DELETED
+74356,02258358,MYLAN-CLINDAMYCIN (clindamycin (clindamycin hydrochloride) 300 mg oral capsule) MYLAN PHARMACEUTICALS ULC,DELETED
+74760,02262215,"BURN RELIEF GEL WITH LIDOCAINE (lidocaine hydrochloride 0.72 % cutaneous gel) PRIME ENTERPRISES, LLC DBA PRIME MATTER LABS","mp_formal_name: ""BURN RELIEF GEL WITH LIDOCAINE (lidocaine hydrochloride 0.72 % cutaneous gel) PRIME ENTERPRISES ̲I̲N̲C̲"" -> ""BURN RELIEF GEL WITH LIDOCAINE (lidocaine hydrochloride 0.72 % cutaneous gel) PRIME ENTERPRISES,̲ ̲L̲L̲C̲ ̲D̲B̲A̲ ̲P̲R̲I̲M̲E̲ ̲M̲A̲T̲T̲E̲R̲ ̲L̲A̲B̲S̲"""
+75421,02268817,"MEDICATED ACNE GEL (benzoyl peroxide 5 % cutaneous gel) PRIME ENTERPRISES, LLC DBA PRIME MATTER LABS","mp_formal_name: ""MEDICATED ACNE GEL (benzoyl peroxide 5 % cutaneous gel) PRIME ENTERPRISES ̲I̲N̲C̲"" -> ""MEDICATED ACNE GEL (benzoyl peroxide 5 % cutaneous gel) PRIME ENTERPRISES,̲ ̲L̲L̲C̲ ̲D̲B̲A̲ ̲P̲R̲I̲M̲E̲ ̲M̲A̲T̲T̲E̲R̲ ̲L̲A̲B̲S̲"""
+75483,02269457,ARICEPT RDT (donepezil hydrochloride 5 mg orodispersible tablet) PFIZER CANADA ULC,DELETED
+77884,02293471,MAXIMUM STRENGTH ACID REDUCER WITHOUT PRESCRIPTION (ranitidine (ranitidine hydrochloride) 150 mg oral tablet) PHARMASCIENCE INC,DELETED
+78333,02298015,LICE KILLING SHAMPOO (piperonyl butoxide 4 % and pyrethrins 0.33 % shampoo) PERRIGO INTERNATIONAL,DELETED
+78832,02303000,FOSINOPRIL-10 (fosinopril sodium 10 mg oral tablet) PRO DOC LIMITEE,DELETED
+78833,02303019,FOSINOPRIL-20 (fosinopril sodium 20 mg oral tablet) PRO DOC LIMITEE,DELETED
+79676,02311178,PRO-LEVOCARB - 100/25 (carbidopa 25 mg and levodopa 100 mg oral tablet) PRO DOC LIMITEE,DELETED
+81019,02324768,PMS-ZOLMITRIPTAN ODT (zolmitriptan 2.5 mg orodispersible tablet) PHARMASCIENCE INC,DELETED
+82759,02342073,"AFTER SUN BURN RELIEF LIDOCAINE CONTINUOUS SPRAY (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC DBA PRIME MATTER LABS","mp_formal_name: ""AFTER SUN BURN RELIEF LIDOCAINE CONTINUOUS SPRAY (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES ̲I̲N̲C̲"" -> ""AFTER SUN BURN RELIEF LIDOCAINE CONTINUOUS SPRAY (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES,̲ ̲L̲L̲C̲ ̲D̲B̲A̲ ̲P̲R̲I̲M̲E̲ ̲M̲A̲T̲T̲E̲R̲ ̲L̲A̲B̲S̲"""
+84087,02355655,RESTASIS (cyclosporine 0.05 % ophthalmic drops) ALLERGAN INC,DELETED
+85383,02368862,JAMP-PAROXETINE (paroxetine (paroxetine hydrochloride hemihydrate) 10 mg oral tablet) JAMP PHARMA CORPORATION,"mp_formal_name: ""JAMP-PAROXETINE (paroxetine (paroxetine hydrochloride) 10 mg oral tablet) JAMP PHARMA CORPORATION"" -> ""JAMP-PAROXETINE (paroxetine (paroxetine hydrochloride ̲h̲e̲m̲i̲h̲y̲d̲r̲a̲t̲e̲) 10 mg oral tablet) JAMP PHARMA CORPORATION"""
+85384,02368870,JAMP-PAROXETINE (paroxetine (paroxetine hydrochloride hemihydrate) 20 mg oral tablet) JAMP PHARMA CORPORATION,"mp_formal_name: ""JAMP-PAROXETINE (paroxetine (paroxetine hydrochloride) 20 mg oral tablet) JAMP PHARMA CORPORATION"" -> ""JAMP-PAROXETINE (paroxetine (paroxetine hydrochloride ̲h̲e̲m̲i̲h̲y̲d̲r̲a̲t̲e̲) 20 mg oral tablet) JAMP PHARMA CORPORATION"""
+85385,02368889,JAMP-PAROXETINE (paroxetine (paroxetine hydrochloride hemihydrate) 30 mg oral tablet) JAMP PHARMA CORPORATION,"mp_formal_name: ""JAMP-PAROXETINE (paroxetine (paroxetine hydrochloride) 30 mg oral tablet) JAMP PHARMA CORPORATION"" -> ""JAMP-PAROXETINE (paroxetine (paroxetine hydrochloride ̲h̲e̲m̲i̲h̲y̲d̲r̲a̲t̲e̲) 30 mg oral tablet) JAMP PHARMA CORPORATION"""
+88350,02398559,"LIDOCAINE HYDROCHLORIDE SOLUTION (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC DBA PRIME MATTER LABS","mp_formal_name: ""LIDOCAINE HYDROCHLORIDE SOLUTION (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES ̲I̲N̲C̲"" -> ""LIDOCAINE HYDROCHLORIDE SOLUTION (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES,̲ ̲L̲L̲C̲ ̲D̲B̲A̲ ̲P̲R̲I̲M̲E̲ ̲M̲A̲T̲T̲E̲R̲ ̲L̲A̲B̲S̲"""
+89404,02409321,LICE SHAMPOO (piperonyl butoxide 4 % and pyrethrins 0.33 % shampoo) PERRIGO INTERNATIONAL,DELETED
+90476,02420155,ACT CELECOXIB (celecoxib 100 mg oral capsule) TEVA CANADA LIMITED,DELETED
+90477,02420163,ACT CELECOXIB (celecoxib 200 mg oral capsule) TEVA CANADA LIMITED,DELETED
+90987,02425238,PRIVA-EZETIMIBE (ezetimibe 10 mg oral tablet) NORA PHARMA INC,DELETED
+91095,02426366,PRIVA-CELECOXIB (celecoxib 100 mg oral capsule) NORA PHARMA INC,DELETED
+91172,02427192,PRIVA-CETIRIZINE (cetirizine hydrochloride 20 mg oral tablet) PHARMAPAR INC,DELETED
+91628,02431807,SANDOZ TOPIRAMATE TABLETS (topiramate 25 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+91629,02431815,SANDOZ TOPIRAMATE TABLETS (topiramate 100 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+91630,02431823,SANDOZ TOPIRAMATE TABLETS (topiramate 200 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+92168,02437333,"ICLUSIG (ponatinib (ponatinib hydrochloride) 15 mg oral tablet) TAKEDA PHARMACEUTICALS U.S.A., INC.","mp_formal_name: ""ICLUSIG (ponatinib (ponatinib hydrochloride) 15 mg oral tablet) A̲R̲I̲A̲D̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲I̲N̲C̲"" -> ""ICLUSIG (ponatinib (ponatinib hydrochloride) 15 mg oral tablet) T̲A̲K̲E̲D̲A̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲U̲.̲S̲.̲A̲.̲,̲ ̲I̲N̲C̲.̲"""
+92169,02437341,"ICLUSIG (ponatinib (ponatinib hydrochloride) 45 mg oral tablet) TAKEDA PHARMACEUTICALS U.S.A., INC.","mp_formal_name: ""ICLUSIG (ponatinib (ponatinib hydrochloride) 45 mg oral tablet) A̲R̲I̲A̲D̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲I̲N̲C̲"" -> ""ICLUSIG (ponatinib (ponatinib hydrochloride) 45 mg oral tablet) T̲A̲K̲E̲D̲A̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲U̲.̲S̲.̲A̲.̲,̲ ̲I̲N̲C̲.̲"""
+92950,02444445,AMLODIPINE TABLETS (amlodipine (amlodipine besylate) 2.5 mg oral tablet) NORA PHARMA INC,DELETED
+92952,02444461,AMLODIPINE TABLETS (amlodipine (amlodipine besylate) 10 mg oral tablet) NORA PHARMA INC,DELETED
+93055,02445328,PRIVA-DOMPERIDONE (domperidone (domperidone maleate) 10 mg oral tablet) PHARMAPAR INC,DELETED
+93056,02445336,PRIVA-CLOPIDOGREL (clopidogrel (clopidogrel bisulfate) 75 mg oral tablet) PHARMAPAR INC,DELETED
+93059,02445379,PRIVA-PRAVASTATIN (pravastatin sodium 10 mg oral tablet) PHARMAPAR INC,DELETED
+93060,02445395,PRIVA-PRAVASTATIN (pravastatin sodium 20 mg oral tablet) PHARMAPAR INC,DELETED
+93061,02445409,PRIVA-PRAVASTATIN (pravastatin sodium 40 mg oral tablet) PHARMAPAR INC,DELETED
+93065,02445425,PRIVA-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 10 mg oral tablet) PHARMAPAR INC,DELETED
+93210,02446669,PRIVA-DONEPEZIL (donepezil hydrochloride 5 mg oral tablet) PHARMAPAR INC,DELETED
+93211,02446677,PRIVA-DONEPEZIL (donepezil hydrochloride 10 mg oral tablet) PHARMAPAR INC,DELETED
+93410,02448416,PRIVA-FLUOXETINE (fluoxetine (fluoxetine hydrochloride) 10 mg oral capsule) PHARMAPAR INC,DELETED
+93578,02449919,PRIVA-OMEPRAZOLE (omeprazole (omeprazole magnesium) 20 mg gastro-resistant tablet) PHARMAPAR INC,DELETED
+93612,02450097,PRIVA-GABAPENTIN (gabapentin 100 mg oral capsule) PHARMAPAR INC,DELETED
+93613,02450100,PRIVA-GABAPENTIN (gabapentin 300 mg oral capsule) PHARMAPAR INC,DELETED
+93614,02450119,PRIVA-GABAPENTIN (gabapentin 400 mg oral capsule) PHARMAPAR INC,DELETED
+94551,02458403,"OXALIPLATIN INJECTION, USP (oxaliplatin 5 mg per mL solution for injection) DR REDDY'S LABORATORIES LTD",ADDED
+96700,02476053,PYRITHIONE ZINC DANDRUFF SHAMPOO 2IN1 MEN REFRESHING MENTHOL (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,"mp_formal_name: ""2̲I̲N̲1̲ ̲M̲E̲N̲ ̲A̲D̲V̲A̲N̲C̲E̲D̲ ̲S̲E̲R̲I̲E̲S̲ REFRESHING MENTHOL (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"" -> ""P̲Y̲R̲I̲T̲H̲I̲O̲N̲E̲ ̲Z̲I̲N̲C̲ ̲D̲A̲N̲D̲R̲U̲F̲F̲ ̲S̲H̲A̲M̲P̲O̲O̲ ̲2̲I̲N̲1̲ ̲M̲E̲N̲ REFRESHING MENTHOL (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"""
+96701,02476061,PYRITHIONE ZINC DANDRUFF SHAMPOO MEN REFRESHING MENTHOL (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,"mp_formal_name: ""M̲E̲N̲ ̲A̲D̲V̲A̲N̲C̲E̲D̲ ̲S̲E̲R̲I̲E̲S̲ REFRESHING MENTHOL (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"" -> ""P̲Y̲R̲I̲T̲H̲I̲O̲N̲E̲ ̲Z̲I̲N̲C̲ ̲D̲A̲N̲D̲R̲U̲F̲F̲ ̲S̲H̲A̲M̲P̲O̲O̲ ̲M̲E̲N̲ REFRESHING MENTHOL (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"""
+97015,02479486,SANDOZ FLUOXETINE (fluoxetine (fluoxetine hydrochloride) 10 mg oral capsule) SANDOZ CANADA INCORPORATED,DELETED
+97016,02479494,SANDOZ FLUOXETINE (fluoxetine (fluoxetine hydrochloride) 20 mg oral capsule) SANDOZ CANADA INCORPORATED,DELETED
+97257,02483416,PRIVA-RAMIPRIL (ramipril 2.5 mg oral capsule) PHARMAPAR INC,DELETED
+97258,02483424,PRIVA-RAMIPRIL (ramipril 5 mg oral capsule) PHARMAPAR INC,DELETED
+97259,02483432,PRIVA-RAMIPRIL (ramipril 10 mg oral capsule) PHARMAPAR INC,DELETED
+97328,02482886,PRIVA-ATORVASTATIN (atorvastatin (atorvastatin calcium) 10 mg oral tablet) PHARMAPAR INC,DELETED
+97329,02482894,PRIVA-ATORVASTATIN (atorvastatin (atorvastatin calcium) 20 mg oral tablet) PHARMAPAR INC,DELETED
+97330,02482908,PRIVA-ATORVASTATIN (atorvastatin (atorvastatin calcium) 40 mg oral tablet) PHARMAPAR INC,DELETED
+97331,02482916,PRIVA-ATORVASTATIN (atorvastatin (atorvastatin calcium) 80 mg oral tablet) PHARMAPAR INC,DELETED
+97598,02485745,PRIVA-SIMVASTATIN (simvastatin 10 mg oral tablet) PHARMAPAR INC,DELETED
+97599,02485753,PRIVA-SIMVASTATIN (simvastatin 20 mg oral tablet) PHARMAPAR INC,DELETED
+97600,02485761,PRIVA-SIMVASTATIN (simvastatin 40 mg oral tablet) PHARMAPAR INC,DELETED
+98313,02493160,PERICHLOR WITHOUT ALCOHOL (chlorhexidine gluconate 0.12 % mouthwash) PENDOPHARM DIVISION OF PHARMASCIENCE INC,ADDED
+98668,02496836,JAMP TOLTERODINE (tolterodine tartrate 1 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+98669,02496844,JAMP TOLTERODINE (tolterodine tartrate 2 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+98909,02499355,PRIVA-CINACALCET (cinacalcet (cinacalcet hydrochloride) 30 mg oral tablet) PHARMAPAR INC,DELETED
+98910,02499363,PRIVA-CINACALCET (cinacalcet (cinacalcet hydrochloride) 60 mg oral tablet) PHARMAPAR INC,DELETED
+98911,02499371,PRIVA-CINACALCET (cinacalcet (cinacalcet hydrochloride) 90 mg oral tablet) PHARMAPAR INC,DELETED
+99140,02501791,AZACITIDINE FOR INJECTION (azacitidine 100 mg per vial powder for suspension for injection) JAMP PHARMA CORPORATION,ADDED
+99983,02510634,AG-AMOXI CLAV (amoxicillin (amoxicillin trihydrate) 500 mg and clavulanic acid (potassium clavulanate) 125 mg oral tablet) ANGITA PHARMA INC.,ADDED
+100110,02511932,TARO-BORTEZOMIB (bortezomib (bortezomib mannitol boronic ester) 2.5 mg per vial powder for solution for injection) TARO PHARMACEUTICALS INC,ADDED
+100239,02513153,JCOVDEN (Ad26.COV2.S (recombinant) 5e10 vp per 0.5 mL suspension for injection 2.5 mL vial) JANSSEN INC,"mp_formal_name: ""JA̲N̲S̲S̲E̲N̲ ̲C̲O̲V̲I̲D̲-̲1̲9̲ ̲V̲A̲C̲C̲I̲N̲E̲ (Ad26.COV2.S (recombinant) 5e10 vp per 0.5 mL suspension for injection 2.5 mL vial) JANSSEN INC"" -> ""JC̲O̲V̲D̲E̲N̲ (Ad26.COV2.S (recombinant) 5e10 vp per 0.5 mL suspension for injection 2.5 mL vial) JANSSEN INC"""
+100615,02516799,JAMP TEMOZOLOMIDE (temozolomide 5 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+100616,02516802,JAMP TEMOZOLOMIDE (temozolomide 20 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+100617,02516810,JAMP TEMOZOLOMIDE (temozolomide 100 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+100618,02516829,JAMP TEMOZOLOMIDE (temozolomide 140 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+100620,02516845,JAMP TEMOZOLOMIDE (temozolomide 250 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+101073,02521547,MINT-EMTRICITABINE/TENOFOVIR (emtricitabine 200 mg and tenofovir disoproxil fumarate 300 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+101161,02522497,PYRITHIONE ZINC DANDRUFF SHAMPOO 2IN1 MEN LAVENDER MINT (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,"mp_formal_name: ""2̲I̲N̲1̲ ̲M̲E̲N̲ ̲A̲D̲V̲A̲N̲C̲E̲D̲ ̲S̲E̲R̲I̲E̲S̲ LAVENDER MINT (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"" -> ""P̲Y̲R̲I̲T̲H̲I̲O̲N̲E̲ ̲Z̲I̲N̲C̲ ̲D̲A̲N̲D̲R̲U̲F̲F̲ ̲S̲H̲A̲M̲P̲O̲O̲ ̲2̲I̲N̲1̲ ̲M̲E̲N̲ LAVENDER MINT (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"""
+101218,02523116,NRA-ALENDRONATE (alendronic acid (alendronate sodium) 70 mg oral tablet) NORA PHARMA INC,ADDED
+101335,02524317,"ONTRUZANT (trastuzumab 150 mg per vial powder for solution for injection) SAMSUNG BIOEPIS CO., LTD",ADDED
+101336,02524325,"ONTRUZANT (trastuzumab 440 mg per vial powder for solution for injection) SAMSUNG BIOEPIS CO., LTD",ADDED
+101381,02524791,CEFAZOLIN SODIUM FOR INJECTION BP (cefazolin (cefazolin sodium) 2 g per vial powder for solution for injection) STERIMAX INC,ADDED
+101673,02527685,"SPIKEVAX (elasomeran 0.1 mg per mL dispersion for injection vial) MODERNATX, INC.",ADDED
