@@ -1,4 +1,4 @@
-code,formal_name,formal_name_fr
+"code","formal_name","formal_name_fr"
 "8000001","levothyroxine","lévothyroxine"
 "8000003","epinephrine","épinéphrine"
 "8000004","phenytoin sodium","phénytoïne sodique"
@@ -1589,7 +1589,7 @@ code,formal_name,formal_name_fr
 "8002206","mineral oil heavy and petrolatum","huile minérale lourde et pétrolatum"
 "8002207","mineral oil heavy and white petrolatum","huile minérale lourde et pétrolatum blanc"
 "8002209","phytonadione","phytonadione"
-"8001482","scopolamine butylbromide","butylbromure de scopolamine"
+"8001482","hyoscine butylbromide","butylbromure d'hyoscine"
 "8002211","scopolamine hydrobromide","bromhydrate de scopolamine"
 "8002212","sodium aurothiomalate","aurothiomalate de sodium"
 "8002213","telotristat","télotristat"
@@ -1791,3 +1791,6 @@ code,formal_name,formal_name_fr
 "8002424","lumasiran","lumasiran"
 "8002425","cariprazine","cariprazine"
 "8002426","palovarotene","palovarotène"
+"8002427","faricimab","faricimab"
+"8002428","selinexor","sélinexor"
+"8002429","selpercatinib","selpercatinib"
