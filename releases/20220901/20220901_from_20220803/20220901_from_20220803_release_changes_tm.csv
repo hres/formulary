@@ -1,0 +1,5 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8001532,tenoxicam,ténoxicam,"tm_status_effective_time: ""20200724"" -> ""20220829"""
+8002430,SARS-CoV-2 recombinant spike protein,protéine de spicule du SRAS-CoV-2 recombinante,ADDED
+8001659,glycopyrrolate,glycopyrrolate,DELETED
+8001536,ticlopidine,ticlopidine,"tm_status_effective_time: ""20200724"" -> ""20220829"""
