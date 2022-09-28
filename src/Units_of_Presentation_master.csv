@@ -1,4 +1,8 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"97900","vial","10","mL","Y","N","02488930","BUPIVACAINE HYDROCHLORIDE INJECTION, USP BAXTER CORPORATION","fiole"
+"97900","vial","20","mL","Y","N","02488930","BUPIVACAINE HYDROCHLORIDE INJECTION, USP BAXTER CORPORATION","fiole"
+"97900","vial","30","mL","Y","N","02488930","BUPIVACAINE HYDROCHLORIDE INJECTION, USP BAXTER CORPORATION","fiole"
+"100362","vial","1","mL","Y","N","02514435","HYDROMORPHONE HYDROCHLORIDE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
 "92295","vial","2","mL","Y","N","02438577","FLUDARABINE PHOSPHATE INJECTION, USP ACCORD HEALTHCARE INC","fiole"
 "101643","vial","5","mL","Y","N","02527375","LEVETIRACETAM INJECTION USP STERIMAX INC","fiole"
 "100002","vial","1","mL","Y","N","02510839","VYEPTI LUNDBECK CANADA INC","fiole"
