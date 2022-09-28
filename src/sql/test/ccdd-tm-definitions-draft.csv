@@ -1,4 +1,4 @@
-"code","formal_name","formal_name_fr"
+code,formal_name,formal_name_fr
 "8000001","levothyroxine","lévothyroxine"
 "8000003","epinephrine","épinéphrine"
 "8000004","phenytoin sodium","phénytoïne sodique"
@@ -1794,3 +1794,6 @@
 "8002427","faricimab","faricimab"
 "8002428","selinexor","sélinexor"
 "8002429","selpercatinib","selpercatinib"
+"8002430","SARS-CoV-2 recombinant spike protein","protéine de spicule du SRAS-CoV-2 recombinante"
+"8002431","eptinezumab","eptinézumab"
+"8002432","phenylbutyric acid and ursodoxicoltaurine","acide phénylbutyrique et ursodoxicoltaurine"
