@@ -1,0 +1,35 @@
+drug_code,drug_identification_number,brand_name,status,history_date,comments
+43155,2215187,CAVERJECT STERILE POWDER - PWS 23.2MCG/VIAL,Marketed,2005-11-09,Part of a kit.  DIN needs to be discontinued; keep on blacklist
+97065,2480131,COVERGIRL TRUBLEND BASE BUSINESS SKIN PRIMER BASE POUR LA PEAU,Marketed,2018-12-11,Out of scope - to stay on Blacklist so as not to add into the release
+3228,438898,FORMULE C34 HERBAGES NATURBEC LTÉE,Cancelled postmarket,2020-10-06, Dose form issue no information in DPD low usage - to stay on Blacklist
+85902,2373807,H.E.L.P. ACETATE BUFFER PH 4.85,Marketed,2012-03-09,Out of scope - to stay on Blacklist so as not to add into the release
+3546,469203,FORMULE L2,Cancelled postmarket,2020-10-06,Product problematic - brandname change not reflected in DPD and dose form issue no information in DPD and assume low usage
+72815,2248463,VIONEXUS NO-RINSE SPRAY,Cancelled postmarket,2021-06-30,Hand antiseptic for professional use - out of scope 
+71113,2246888,AVAGARD,Marketed,2003-07-02,Hand antiseptic for professional use - out of scope
+64391,2240800,STERIGEL PLUS,Marketed,2014-03-20,Hand antiseptic for professional use - out of scope
+72560,2248224,MANORAPID SYNERGY,Cancelled Postmarket,2019-01-01,Hand antiseptic for professional use - out of scope
+89891,2414252,SATINIQUE ANTI-DANDRUFF SHAMPOO,Cancelled Postmarket,2017-11-09,Has problematic strength - leave out
+13600,1974548,MICRO I,Marketed,2006-06-17,TPN additive Out of scope. Keep on blacklist
+6775,691623,BICARBONATE CONCENTRATE D17000,Marketed,2001-10-01,Out of scope. Haemodialysis
+8587,774995,800 SODIUM BICARBONATE POWDER,Dormant,2021-07-22,Out of scope. Haemodialysis
+13833,1905740,K + 45,Marketed,2001-10-01,Out of scope. Haemodialysis
+37283,2221616,SODIUM BICARBONATE USP FOR HEMODIALYSIS D12276,Marketed,2002-01-28,Out of scope. Haemodialysis
+73309,2248934,BICARBONATE CONCENTRATE B38,Marketed,2005-07-04,Out of scope. Haemodialysis
+76654,2280884,HEMA BP-38,Marketed,2006-07-03,Out of scope. Haemodialysis
+81095,2325586,BIBAG,Marketed,2016-01-27,Out of scope. Haemodialysis
+81113,2325772,HEMACART,Marketed,2010-01-23,Out of scope. Haemodialysis
+88829,2403498,BICART,Marketed,2016-04-05,Out of scope. Haemodialysis
+88830,2403501,BICART,Marketed,2016-03-24,Out of scope. Haemodialysis
+91307,2428601,BIFLEXY 900,Dormant,2021-06-17,Out of scope. Haemodialysis
+18321,2160986,CALCIUM-45 0.5-4.5,Marketed,2001-10-01,Out of scope. Haemodialysis
+18310,2161060,CALCIUM-45 0.25-4.5,Marketed,2001-10-01,Out of scope. Haemodialysis
+87315,2387549,CALCIUM CHLORIDE FOR HAEMODIALYSIS,Marketed,2013-03-26,Out of scope. Haemodialysis
+95780,2469146,JELIDO,Marketed,2018-05-28,DPD dose form change pending
+92593,02441551,CLENZIDERM ACNE THERAPEUTIC SYSTEM,Cancelled postmarket,2020-11-06,Out of scope. Benzoyl peroxide kit with NPN
+88701,02402149,ACNE TREATMENT SYSTEM,Marketed,2013-11-15,Out of scope. Benzoyl peroxide kit with NPN
+90520,02420678,RODAN+FIELDS UNBLEMISH,Marketed,2015-02-02,Out of scope. Benzoyl peroxide kit with NPN
+83385,02348497,EVICEL,Marketed,2013-05-02,Out of scope - fibrin sealant
+98886,02499118,AFTER SUN GEL,Marketed,2021-02-17,Needs investigation
+92295,02438577,"FLUDARABINE PHOSPHATE INJECTION, USP",Marketed,2022-08-25,Needs UP
+101643,02527375,LEVETIRACETAM INJECTION USP,Marketed,2022-08-05,Needs UP
+101673,02527685,SPIKEVAX,Marketed,2022-07-14,Needs UP
