@@ -1,0 +1,39 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+0543929424fda75372e67e55f7cec50c,tebentafusp,tébentafusp,ADDED
+0642bd1e2f09c74468b0c5c58763d6bc,asciminib,asciminib,ADDED
+4d77c681f488cbf74ba06afba383e307,obiltoxaximab,obiltoxaximab,ADDED
+789505d3c2d065276934a3d353c7b85c,prasterone,prastérone,ADDED
+8000349,acetaminophen and tramadol,acétaminophène et tramadol,"tm_status_effective_time: ""20050722"" -> ""20091109"""
+8000796,benzalkonium,benzalkonium,CHANGED
+8000912,alcohol anhydrous and chlorhexidine,alcool anhydre et chlorhexidine,CHANGED
+8000940,alcohol anhydrous and butanediol and propyl alcohol and propylene glycol,alcool anhydre et butanédiol et alcool propylique et propylène glycol,CHANGED
+8001004,benzoyl peroxide and salicylic acid,peroxyde de benzoyle et acide salicylique,CHANGED
+8001098,asparaginase,asparaginase,CHANGED
+8001358,cilastatin and imipenem,cilastatine et imipénem,"tm_status_effective_time: ""19871231"" -> ""20100825"""
+8001476,follitropin beta,follitropine bêta,CHANGED
+8001532,tenoxicam,ténoxicam,"tm_status_effective_time: ""20220829"" -> ""20220901"""
+8001536,ticlopidine,ticlopidine,"tm_status_effective_time: ""20220829"" -> ""20220901"""
+8001579,benzethonium,benzéthonium,CHANGED
+8001615,chloroxylenol,chloroxylénol,CHANGED
+8001659,glycopyrrolate,glycopyrrolate,DELETED
+8001661,hydroquinone,hydroquinone,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20030113"" -> ""20190625"""
+8001757,doxorubicin,doxorubicine,CHANGED
+8001844,magnesium chloride,chlorure de magnésium,CHANGED
+8001870,potassium chloride,chlorure de potassium,CHANGED
+8001878,sodium iodide,iodure de sodium,CHANGED
+8001976,triclosan,triclosan,CHANGED
+8002047,paclitaxel,paclitaxel,CHANGED
+8002088,acetic acid and sodium acetate,acide acétique et acétate de sodium,CHANGED
+8002154,potassium phosphate dibasic and potassium phosphate monobasic,phosphate de potassium dibasique et phosphate de potassium monobasique,CHANGED
+8002160,sodium acetate,acétate de sodium,CHANGED
+8002161,sodium bicarbonate,bicarbonate de sodium,CHANGED
+8002215,amphotericin B,amphotéricine B,CHANGED
+8002245,onabotulinumtoxinA,onabotulinumtoxineA,CHANGED
+8002278,coagulation factor IX human and coagulation factor ii (human) and coagulation factor vii (human) and coagulation factor x (human) and protein c and protein s,facteur IX de coagulation humain et facteur II de coagulation humain et facteur VII de coagulation humain et facteur X de coagulation humain et protéine c et protéine s,CHANGED
+8002282,fibrinogen human and thrombin human,fibrinogène humaine et thrombine humaine,CHANGED
+8002431,eptinezumab,eptinézumab,CHANGED
+8002432,phenylbutyric acid and ursodoxicoltaurine,acide phénylbutyrique et ursodoxicoltaurine,CHANGED
+921d9e2d2f9273d0ba15d436c16886d4,pegvaliase,pegvaliase,ADDED
+b2a60cd38813b9a35d83a9fdf217a295,belzutifan,belzutifan,ADDED
+c7190bc4c51cb4fa0346d56e7dade668,berotralstat,bérotralstat,ADDED
