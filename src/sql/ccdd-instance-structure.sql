@@ -1553,8 +1553,6 @@ select
 				(SELECT ccdd_date FROM ccdd_config LIMIT 1)
 			)
 		WHEN ds.current_status = 'MARKETED' THEN ds.first_market_date
-		WHEN ds.current_status = 'APPROVED' AND ds.first_market_date IS NOT NULL THEN ds.first_market_date
-		WHEN ds.current_status = 'AUTHORIZED BY INTERIM ORDER' AND ds.first_market_date IS NOT NULL THEN ds.first_market_date
 		WHEN ds.current_status = 'CANCELLED POST MARKET' AND ds.current_status_date < (SELECT ccdd_date FROM ccdd_config LIMIT 1) AND ds.current_expiration_date::date > (SELECT dpd_extract_date FROM ccdd_config LIMIT 1) THEN ds.first_market_date
 		ELSE ds.current_status_date
 	END) as mp_status_effective_date,
@@ -1564,9 +1562,7 @@ select
 				IN
 			(SELECT * FROM ccdd.mp_deprecations)
 		) THEN 'Deprec'
-		WHEN ds.current_status = 'MARKETED' OR (ds.first_market_date IS NOT NULL AND (
-			  ds.current_status = 'APPROVED' OR ds.current_status = 'AUTHORIZED BY INTERIM ORDER'
-		)) THEN 'Active'
+		WHEN ds.current_status = 'MARKETED' THEN 'Active'
 		WHEN ds.current_status = 'CANCELLED POST MARKET' AND ds.current_expiration_date::date > (SELECT dpd_extract_date FROM ccdd_config LIMIT 1)  THEN 'Active'
 		ELSE 'Inactive'
 	END) as mp_status,
