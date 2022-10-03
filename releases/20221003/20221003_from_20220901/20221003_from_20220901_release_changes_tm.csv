@@ -1,0 +1,13 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8001532,tenoxicam,ténoxicam,"tm_status_effective_time: ""20220829"" -> ""20220901"""
+8002432,phenylbutyric acid and ursodoxicoltaurine,acide phénylbutyrique et ursodoxicoltaurine,ADDED
+8002438,prasterone,prastérone,ADDED
+8002433,asciminib,asciminib,ADDED
+8002434,belzutifan,belzutifan,ADDED
+8002436,obiltoxaximab,obiltoxaximab,ADDED
+8002431,eptinezumab,eptinézumab,ADDED
+8001659,glycopyrrolate,glycopyrrolate,DELETED
+8002435,berotralstat,bérotralstat,ADDED
+8001536,ticlopidine,ticlopidine,"tm_status_effective_time: ""20220829"" -> ""20220901"""
+8001661,hydroquinone,hydroquinone,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20030113"" -> ""20220929"""

@@ -1,0 +1,35 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9000880,diazepam 20 mg per 4 mL rectal gel tube,diazépam 20 mg par 4 mL gel rectal tube,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9000881,diazepam 2.5 mg per 0.5 mL rectal gel tube,"diazépam 2,5 mg par 0,5 mL gel rectal tube","ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9000883,diazepam 7.5 mg per 1.5 mL rectal gel tube,"diazépam 7,5 mg par 1,5 mL gel rectal tube","ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9001458,testosterone 4.5 % nasal gel,"testostérone 4,5 % gel nasal","ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20200901"" -> ""20160506"""
+9003063,tenoxicam 20 mg oral tablet,ténoxicam 20 mg comprimé oral,"ntp_status_effective_time: ""20220829"" -> ""20220901"""
+9003242,ticlopidine hydrochloride 250 mg oral tablet,chlorhydrate de ticlopidine 250 mg comprimé oral,"ntp_status_effective_time: ""20220829"" -> ""20220901"""
+9003775,hydroquinone 4 % cutaneous gel,hydroquinone 4 % gel cutané,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20030113"" -> ""20220929"""
+9005987,canagliflozin 150 mg and metformin hydrochloride 850 mg oral tablet,canagliflozine 150 mg et chlorhydrate de metformine 850 mg comprimé oral,"ntp_status_effective_time: ""20190531"" -> ""20220906"""
+9005990,canagliflozin 50 mg and metformin hydrochloride 850 mg oral tablet,canagliflozine 50 mg et chlorhydrate de metformine 850 mg comprimé oral,"ntp_status_effective_time: ""20190531"" -> ""20220906"""
+9012792,"diphenhydramine hydrochloride 25 mg and ibuprofen (ibuprofen, ibuprofen potassium) 200 mg oral capsule","chlorhydrate de diphenhydramine 25 mg et ibuprofène (ibuprofène, ibuprofène potassique) 200 mg capsule orale","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20171031"" -> ""20220806"""
+9013170,interferon beta-1b 0.3 mg per vial powder for solution for injection with diluent solution syringe,"interféron bêta-1b 0,3 mg par fiole poudre pour solution injectable avec solution diluante seringue","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20100505"" -> ""20220308"""
+9013515,propofol 200 mg per 20 mL emulsion for injection ampoule,propofol 200 mg par 20 mL émulsion injectable ampoule,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220715"" -> ""20020301"""
+9013552,exenatide 2 mg powder for prolonged-release suspension for injection with diluent solution per pen,exénatide 2 mg poudre pour suspension injectable à libération prolongée avec solution diluante par stylo,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20160216"" -> ""20220401"""
+9014754,asciminib (asciminib hydrochloride) 20 mg oral tablet,asciminib (chlorhydrate d’asciminib) 20 mg comprimé oral,ADDED
+9014755,asciminib (asciminib hydrochloride) 40 mg oral tablet,asciminib (chlorhydrate d’asciminib) 40 mg comprimé oral,ADDED
+9014756,belzutifan 40 mg oral tablet,belzutifan 40 mg comprimé oral,ADDED
+9014757,berotralstat (berotralstat hydrochloride) 150 mg oral capsule,bérotralstat (chlorhydrate de bérotralstat) 150 mg capsule orale,ADDED
+9014758,elasomeran 0.1 mg per mL dispersion for injection 2.5 mL vial,"élasoméran 0,1 mg par mL dispersion injectable 2,5 mL fiole",ADDED
+9014759,epinephrine (epinephrine hydrochloride) 0.01 % and lidocaine hydrochloride 5 % cutaneous spray,"épinéphrine (chlorhydrate d'épinéphrine) 0,01 % et chlorhydrate de lidocaïne 5 % vaporisation cutanée",ADDED
+9014760,eptinezumab 100 mg per 1 mL solution for injection vial,eptinézumab 100 mg par 1 mL solution injectable fiole,ADDED
+9014761,hydromorphone hydrochloride 1 mg per 1 mL solution for injection vial,chlorhydrate d'hydromorphone 1 mg par 1 mL solution injectable fiole,ADDED
+9014762,obiltoxaximab 600 mg per 6 mL solution for injection vial,obiltoxaximab 600 mg par 6 mL solution injectable fiole,ADDED
+9014766,prasterone 6.5 mg pessary,"prastérone 6,5 mg ovule",ADDED
+9014767,sodium phenylbutyrate 3 g per sachet and ursodoxicoltaurine 1 g per sachet powder for oral suspension,phénylbutyrate sodique 3 g par sachet et ursodoxicoltaurine 1 g par sachet poudre pour suspension orale,ADDED
+9014769,turoctocog alfa pegol 3000 unit per vial powder for solution for injection with diluent solution syringe,turoctocog alfa pégol 3000 unité par fiole poudre pour solution injectable avec solution diluante seringue,ADDED
