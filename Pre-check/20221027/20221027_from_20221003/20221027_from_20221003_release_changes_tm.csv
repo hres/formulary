@@ -1,0 +1,12 @@
+tm_code,tm_formal_name,changes
+8000780,brompheniramine and guaifenesin and hydrocodone and phenylephrine,DELETED
+8000010,methylphenidate,"tm_status_effective_time: ""19561231"" -> ""19581231"""
+8002311,phenazopyridine,"tm_status_effective_time: ""20210713"" -> ""20221024"""
+8001659,glycopyrrolate,DELETED
+8001086,orciprenaline,"tm_status_effective_time: ""20200724"" -> ""20221014"""
+8000926,brompheniramine and codeine and guaifenesin and phenylephrine,DELETED
+8001069,oxtriphylline,"tm_status_effective_time: ""20190116"" -> ""20221020"""
+8001661,hydroquinone,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20220929"" -> ""20030113"""
+8001812,interferon alfa-2b,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19970312"" -> ""20210831"""

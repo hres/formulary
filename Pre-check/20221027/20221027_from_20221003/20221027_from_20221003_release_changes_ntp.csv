@@ -1,0 +1,26 @@
+ntp_code,ntp_formal_name,changes
+036d22aebec166ac8d3796805601cb58,docusate sodium 283 mg per 5 mL rectal liquid,ADDED
+382d76c6cd0de1080b8afc57ec4def5a,amiodarone hydrochloride 50 mg per mL solution for injection,ADDED
+57344a27a31eaad31a226246a6d232da,orciprenaline sulfate 2 mg per mL syrup,ADDED
+9000015,methylphenidate hydrochloride 10 mg oral tablet,"ntp_status_effective_time: ""19561231"" -> ""19901231"""
+9000191,metoprolol tartrate 200 mg prolonged-release oral tablet,"ntp_status_effective_time: ""19831231"" -> ""20070730"""
+9000578,hydrocortisone 100 mg per 60 mL rectal liquid,DELETED
+9000880,diazepam 20 mg per 4 mL rectal gel tube,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9000881,diazepam 2.5 mg per 0.5 mL rectal gel tube,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9000883,diazepam 7.5 mg per 1.5 mL rectal gel tube,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9001703,phenazopyridine hydrochloride 100 mg oral tablet,"ntp_status_effective_time: ""20210713"" -> ""20221024"""
+9001766,oxtriphylline 100 mg per 5 mL oral solution,"ntp_status_effective_time: ""20170724"" -> ""20221020"""
+9003646,brompheniramine maleate 2 mg per 5 mL and guaifenesin 100 mg per 5 mL and hydrocodone bitartrate 1.8 mg per 5 mL and phenylephrine hydrochloride 5 mg per 5 mL syrup,DELETED
+9003653,brompheniramine maleate 2 mg per 5 mL and codeine phosphate 10 mg per 5 mL and guaifenesin 100 mg per 5 mL and phenylephrine hydrochloride 5 mg per 5 mL syrup,DELETED
+9003750,chlorhexidine gluconate 2 % lotion,DELETED
+9003775,hydroquinone 4 % cutaneous gel,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220929"" -> ""20030113"""
+9010502,mesalazine 800 mg gastro-resistant tablet,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20210127"" -> ""20050613"""
+9012457,orciprenaline sulfate 10 mg per 5 mL syrup,DELETED
+9013539,coal tar 2 % cutaneous solution,DELETED
+9013911,interferon alfa-2b 10000000 unit per vial powder for solution for injection with diluent solution,DELETED
+e24da8f1dfb83828079257b0d723d891,tozinameran 3 mcg per 0.2 mL suspension for injection,ADDED
