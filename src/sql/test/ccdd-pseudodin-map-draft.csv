@@ -754,3 +754,6 @@ pseudodin,drug_code,unit_of_presentation,uop_size_amount,uop_size_unit,unit_of_p
 "77701113","94551","vial","40","mL","fiole"
 "77701114","94551","vial","10","mL","fiole"
 "77701115","94551","vial","20","mL","fiole"
+"77701116","97900","vial","10","mL","fiole"
+"77701117","97900","vial","20","mL","fiole"
+"77701118","97900","vial","30","mL","fiole"
