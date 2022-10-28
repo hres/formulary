@@ -1,4 +1,7 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"102108","vial","1.8","mL","N","Y","02532018","COMIRNATY ORIGINAL/OMICRON BA.1 BIONTECH MANUFACTURING GMBH","fiole"
+"90796","vial","3","mL","Y","N","02423227","AMIODARONE HYDROCHLORIDE FOR INJECTION JAMP PHARMA CORPORATION","fiole"
+"101951","vial","2","mL","N","Y","02530325","COMIRNATY BIONTECH MANUFACTURING GMBH","fiole"
 "101664","vial","0.5","mL","N","N","02527588","KIMMTRAK IMMUNOCORE IRELAND LIMITED","fiole"
 "101537","syringe","0.5","mL","N","N","02526255","PALYNZIQ BIOMARIN INTERNATIONAL LIMITED","seringue"
 "101536","syringe","0.5","mL","N","N","02526247","PALYNZIQ BIOMARIN INTERNATIONAL LIMITED","seringue"
