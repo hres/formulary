@@ -1,0 +1,208 @@
+drug_code,mp_code,mp_formal_name,changes
+316,00024694,ATARAX (hydroxyzine hydrochloride 10 mg per 5 mL syrup) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""ATARAX ̲S̲Y̲R̲U̲P̲ ̲2̲M̲G̲/̲M̲L̲ (hydroxyzine hydrochloride 10 mg per 5 mL syrup) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""ATARAX (hydroxyzine hydrochloride 10 mg per 5 mL syrup) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+731,00023485,ZARONTIN SYRUP (ethosuximide 250 mg per 5 mL syrup) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""ZARONTIN SYR ̲2̲5̲0̲M̲G̲/̲5̲M̲L̲ (ethosuximide 250 mg per 5 mL syrup) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""ZARONTIN SYRU̲P̲ (ethosuximide 250 mg per 5 mL syrup) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+771,00022799,ZARONTIN (ethosuximide 250 mg oral capsule) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""ZARONTIN C̲A̲P̲ ̲2̲5̲0̲M̲G̲ ̲(ethosuximide 250 mg oral capsule) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""ZARONTIN (ethosuximide 250 mg oral capsule) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+772,00023949,THYROID (thyroid 30 mg oral tablet) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""THYROID T̲A̲B̲ ̲3̲0̲M̲G̲ ̲(thyroid 30 mg oral tablet) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""THYROID (thyroid 30 mg oral tablet) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+773,00023957,THYROID (thyroid 60 mg oral tablet) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""THYROID T̲A̲B̲ ̲6̲0̲M̲G̲ ̲(thyroid 60 mg oral tablet) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""THYROID (thyroid 60 mg oral tablet) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+774,00023965,THYROID (thyroid 125 mg oral tablet) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""THYROID T̲A̲B̲ ̲1̲2̲5̲M̲G̲ ̲(thyroid 125 mg oral tablet) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""THYROID (thyroid 125 mg oral tablet) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+800,00005606,RITALIN 10MG (methylphenidate hydrochloride 10 mg oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC,DELETED
+1401,00023760,NORLUTATE (norethindrone acetate 5 mg oral tablet) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""NORLUTATE (norethindrone acetate 5 mg oral tablet) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""NORLUTATE (norethindrone acetate 5 mg oral tablet) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+1508,00155365,ADRENALIN TOPICAL SOLUTION (epinephrine (epinephrine hydrochloride) 1 mg per mL cutaneous solution) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""ADRENALIN TOPICAL SOLUTION (epinephrine (epinephrine hydrochloride) 1 mg per mL cutaneous solution) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""ADRENALIN TOPICAL SOLUTION (epinephrine (epinephrine hydrochloride) 1 mg per mL cutaneous solution) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+2146,00323098,FLAMAZINE (silver sulfadiazine 1 % cutaneous cream) SMITH & NEPHEW INC,"mp_formal_name: ""FLAMAZINE ̲C̲R̲M̲ ̲1̲%̲ (silver sulfadiazine 1 % cutaneous cream) SMITH & NEPHEW INC"" -> ""FLAMAZINE (silver sulfadiazine 1 % cutaneous cream) SMITH & NEPHEW INC"""
+2170,00341975,HYDROCHLOROTHIAZIDE TAB 25MG (hydrochlorothiazide 25 mg oral tablet) PRO DOC LIMITEE,DELETED
+2789,00312363,CHLOROMYCETIN SUCCINATE INJECTION (chloramphenicol (chloramphenicol sodium succinate) 1 g per vial powder for solution for injection) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""CHLOROMYCETIN SUCCINATE INJECTION ̲1̲G̲M̲ (chloramphenicol (chloramphenicol sodium succinate) 1 g per vial powder for solution for injection) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""CHLOROMYCETIN SUCCINATE INJECTION (chloramphenicol (chloramphenicol sodium succinate) 1 g per vial powder for solution for injection) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+3966,00476366,CHOLEDYL (oxtriphylline 100 mg per 5 mL oral solution) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""CHOLEDYL̲ ̲E̲L̲I̲X̲I̲R̲ ̲1̲0̲0̲M̲G̲/̲5̲M̲L (oxtriphylline 100 mg per 5 mL oral solution) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""CHOLEDYL (oxtriphylline 100 mg per 5 mL oral solution) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+4258,00476374,CHOLEDYL EXPECTORANT (guaifenesin 50 mg per 5 mL and oxtriphylline 100 mg per 5 mL oral solution) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""CHOLEDYL EXPECTORANT ̲E̲L̲I̲X̲I̲R̲ (guaifenesin 50 mg per 5 mL and oxtriphylline 100 mg per 5 mL oral solution) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""CHOLEDYL EXPECTORANT (guaifenesin 50 mg per 5 mL and oxtriphylline 100 mg per 5 mL oral solution) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+4309,00476552,NARDIL (phenelzine (phenelzine sulfate) 15 mg oral tablet) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""NARDIL (phenelzine (phenelzine sulfate) 15 mg oral tablet) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""NARDIL (phenelzine (phenelzine sulfate) 15 mg oral tablet) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+4388,00476714,PYRIDIUM (phenazopyridine hydrochloride 100 mg oral tablet) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""PYRIDIUM ̲1̲0̲0̲M̲G̲ (phenazopyridine hydrochloride 100 mg oral tablet) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""PYRIDIUM (phenazopyridine hydrochloride 100 mg oral tablet) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+5091,00534560,LOPRESOR SR 200 MG (metoprolol tartrate 200 mg prolonged-release oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC,DELETED
+5524,00476420,COLY-MYCIN M (colistin (colistimethate sodium) 150 mg per vial powder for solution for injection) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""COLY-MYCIN M ̲P̲A̲R̲E̲N̲T̲E̲R̲A̲L̲ (colistin (colistimethate sodium) 150 mg per vial powder for solution for injection) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""COLY-MYCIN M (colistin (colistimethate sodium) 150 mg per vial powder for solution for injection) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+6067,00632775,RITALIN-SR TAB 20MG (methylphenidate hydrochloride 20 mg prolonged-release oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC,ADDED
+6171,00614491,DOLORAL 1 SIROP 1MG/ML (morphine hydrochloride 1 mg per mL syrup) LABORATOIRE ATLAS INC,"mp_formal_name: ""DOLORAL 1 (morphine hydrochloride 1 mg per mL syrup) LABORATOIRE ATLAS INC"" -> ""DOLORAL 1 ̲S̲I̲R̲O̲P̲ ̲1̲M̲G̲/̲M̲L̲ (morphine hydrochloride 1 mg per mL syrup) LABORATOIRE ATLAS INC"""
+8054,00717282,PRIMAXIN 500 (cilastatin (cilastatin sodium) 500 mg per vial and imipenem 500 mg per vial powder for solution for injection) MERCK CANADA INC,ADDED
+10314,00745790,WHITE PETROLEUM JELLY 100% BP (white petrolatum 100 % cutaneous ointment) H.J. SUTTON INDUSTRIES LTD.,ADDED
+12412,01958836,ACETAMINOPHEN ORAL SOL FOR CHILDREN USP (acetaminophen 160 mg per 5 mL oral solution) LABORATOIRES TRIANON INC.,ADDED
+12419,01926306,PANECTYL (trimeprazine (trimeprazine tartrate) 2.5 mg oral tablet) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""PANECTYL ̲T̲A̲B̲ ̲2̲.̲5̲M̲G̲ (trimeprazine (trimeprazine tartrate) 2.5 mg oral tablet) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""PANECTYL (trimeprazine (trimeprazine tartrate) 2.5 mg oral tablet) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+12549,01927744,PARSITAN 50 (ethopropazine (ethopropazine hydrochloride) 50 mg oral tablet) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""PARSITAN 50M̲G̲ (ethopropazine (ethopropazine hydrochloride) 50 mg oral tablet) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""PARSITAN 50 (ethopropazine (ethopropazine hydrochloride) 50 mg oral tablet) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+12651,01926292,PANECTYL (trimeprazine (trimeprazine tartrate) 5 mg oral tablet) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""PANECTYL ̲T̲A̲B̲ ̲5̲M̲G̲ (trimeprazine (trimeprazine tartrate) 5 mg oral tablet) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""PANECTYL (trimeprazine (trimeprazine tartrate) 5 mg oral tablet) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+13226,01926683,CERUBIDINE (daunorubicin (daunorubicin hydrochloride) 20 mg per vial powder for solution for injection) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""CERUBIDINE (daunorubicin (daunorubicin hydrochloride) 20 mg per vial powder for solution for injection) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""CERUBIDINE (daunorubicin (daunorubicin hydrochloride) 20 mg per vial powder for solution for injection) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+16103,02014165,UNIPHYL (theophylline 400 mg prolonged-release oral tablet) ELVIUM LIFE SCIENCES,ADDED
+16701,02078759,HUMATIN (paromomycin (paromomycin sulfate) 250 mg oral capsule) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""HUMATIN ̲C̲A̲P̲ ̲2̲5̲0̲M̲G̲ (paromomycin (paromomycin sulfate) 250 mg oral capsule) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""HUMATIN (paromomycin (paromomycin sulfate) 250 mg oral capsule) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+18776,02006758,SOFLAX SYRUP 4MG/ML (docusate sodium 20 mg per 5 mL syrup) PHARMASCIENCE INC,ADDED
+18968,02112736,CORTENEMA (hydrocortisone 100 mg per 60 mL rectal liquid) APTALIS PHARMA CANADA ULC,DELETED
+19098,02155990,ADALAT XL (nifedipine 60 mg prolonged-release oral tablet) BAYER INC,"mp_formal_name: ""ADALAT XL ̲-̲ ̲S̲R̲T̲ ̲6̲0̲M̲G̲ (nifedipine 60 mg prolonged-release oral tablet) BAYER INC"" -> ""ADALAT XL (nifedipine 60 mg prolonged-release oral tablet) BAYER INC"""
+19099,02155907,ADALAT XL (nifedipine 30 mg prolonged-release oral tablet) BAYER INC,"mp_formal_name: ""ADALAT XL ̲-̲ ̲S̲R̲T̲ ̲3̲0̲M̲G̲ (nifedipine 30 mg prolonged-release oral tablet) BAYER INC"" -> ""ADALAT XL (nifedipine 30 mg prolonged-release oral tablet) BAYER INC"""
+19405,02148595,ESTRACE (estradiol 2 mg oral tablet) PHARMASCIENCE INC,"mp_formal_name: ""ESTRACE (estradiol 2 mg oral tablet) A̲C̲E̲R̲U̲S̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"" -> ""ESTRACE (estradiol 2 mg oral tablet) P̲H̲A̲R̲M̲A̲S̲C̲I̲E̲N̲C̲E̲ ̲I̲N̲C̲"""
+19406,02148587,ESTRACE (estradiol 1 mg oral tablet) PHARMASCIENCE INC,"mp_formal_name: ""ESTRACE (estradiol 1 mg oral tablet) A̲C̲E̲R̲U̲S̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"" -> ""ESTRACE (estradiol 1 mg oral tablet) P̲H̲A̲R̲M̲A̲S̲C̲I̲E̲N̲C̲E̲ ̲I̲N̲C̲"""
+33482,02226871,ACETAMINOPHENE - LIQ 160 MG/5 ML (acetaminophen 160 mg per 5 mL oral solution) LABORATOIRE RIVA INC.,ADDED
+43089,02212307,CEFTIN (cefuroxime (cefuroxime axetil) 125 mg per 5 mL oral suspension) SANDOZ CANADA INCORPORATED,"mp_formal_name: ""CEFTIN (cefuroxime (cefuroxime axetil) 125 mg per 5 mL oral suspension) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲I̲N̲C̲"" -> ""CEFTIN (cefuroxime (cefuroxime axetil) 125 mg per 5 mL oral suspension) S̲A̲N̲D̲O̲Z̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲O̲R̲P̲O̲R̲A̲T̲E̲D̲"""
+43361,02223406,INTRON A (interferon alfa-2b 10000000 unit per vial powder for solution for injection with diluent solution) MERCK CANADA INC,DELETED
+43420,02225190,ESTRACE (estradiol 0.5 mg oral tablet) PHARMASCIENCE INC,"mp_formal_name: ""ESTRACE (estradiol 0.5 mg oral tablet) A̲C̲E̲R̲U̲S̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"" -> ""ESTRACE (estradiol 0.5 mg oral tablet) P̲H̲A̲R̲M̲A̲S̲C̲I̲E̲N̲C̲E̲ ̲I̲N̲C̲"""
+47181,02229380,CLOTRIMAZOLE TOPICAL (clotrimazole 1 % cutaneous cream) TARO PHARMACEUTICALS INC,"mp_formal_name: ""CLOTRIMAZOLE C̲R̲E̲A̲M̲ ̲U̲S̲P̲ ̲1̲%̲ (clotrimazole 1 % cutaneous cream) TARO PHARMACEUTICALS INC"" -> ""CLOTRIMAZOLE T̲O̲P̲I̲C̲A̲L̲ (clotrimazole 1 % cutaneous cream) TARO PHARMACEUTICALS INC"""
+50656,02231347,SPORANOX (itraconazole 10 mg per mL oral solution) JANSSEN INC,"mp_formal_name: ""SPORANOX ̲O̲R̲A̲L̲ ̲S̲O̲L̲U̲T̲I̲O̲N̲ ̲1̲0̲M̲G̲/̲M̲L̲ (itraconazole 10 mg per mL oral solution) JANSSEN INC"" -> ""SPORANOX (itraconazole 10 mg per mL oral solution) JANSSEN INC"""
+60166,02236876,ALPHAGAN (brimonidine tartrate 0.2 % ophthalmic drops) ABBVIE CORPORATION,"mp_formal_name: ""ALPHAGAN (brimonidine tartrate 0.2 % ophthalmic drops) AL̲L̲E̲R̲G̲A̲N̲ ̲I̲N̲C̲"" -> ""ALPHAGAN (brimonidine tartrate 0.2 % ophthalmic drops) AB̲B̲V̲I̲E̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"""
+60811,02237477,TERAZOSIN-2 (terazosin (terazosin hydrochloride) 2 mg oral tablet) PRO DOC LIMITEE,DELETED
+60957,02237618,ADALAT XL (nifedipine 20 mg prolonged-release oral tablet) BAYER INC,"mp_formal_name: ""ADALAT XL ̲-̲ ̲S̲R̲T̲ ̲2̲0̲M̲G̲ (nifedipine 20 mg prolonged-release oral tablet) BAYER INC"" -> ""ADALAT XL (nifedipine 20 mg prolonged-release oral tablet) BAYER INC"""
+65364,02241704,TEVA-GEMFIBROZIL (gemfibrozil 300 mg oral capsule) TEVA CANADA LIMITED,DELETED
+68034,02244079,"DIMETANE EXPECTORANT C (brompheniramine maleate 2 mg per 5 mL and codeine phosphate 10 mg per 5 mL and guaifenesin 100 mg per 5 mL and phenylephrine hydrochloride 5 mg per 5 mL syrup) FOUNDATION CONSUMER BRANDS, LLC",DELETED
+68035,02244080,"DIMETANE EXPECTORANT DC (brompheniramine maleate 2 mg per 5 mL and guaifenesin 100 mg per 5 mL and hydrocodone bitartrate 1.8 mg per 5 mL and phenylephrine hydrochloride 5 mg per 5 mL syrup) FOUNDATION CONSUMER BRANDS, LLC",DELETED
+69667,02245571,BACIJECT (bacitracin 50000 unit per vial powder for solution for injection) STERIMAX INC,"mp_formal_name: ""BACIJECT ̲5̲0̲,̲0̲0̲0̲ ̲U̲N̲I̲T̲S̲/̲V̲I̲A̲L̲ (bacitracin 50000 unit per vial powder for solution for injection) STERIMAX INC"" -> ""BACIJECT (bacitracin 50000 unit per vial powder for solution for injection) STERIMAX INC"""
+70149,02246023,COLD & ALLERGY RELIEF WITH MOISTURIZERS (xylometazoline hydrochloride 0.1 % nasal spray) PHARMASCIENCE INC,ADDED
+70264,02246121,"PROVON ANTISEPTIC LOTION SOAP WITH 2% CHG (chlorhexidine gluconate 2 % lotion) GOJO INDUSTRIES, INC.",DELETED
+72692,02248347,COMBIGAN (brimonidine tartrate 0.2 % and timolol (timolol maleate) 0.5 % ophthalmic drops) ABBVIE CORPORATION,"mp_formal_name: ""COMBIGAN (brimonidine tartrate 0.2 % and timolol (timolol maleate) 0.5 % ophthalmic drops) AL̲L̲E̲R̲G̲A̲N̲ ̲I̲N̲C̲"" -> ""COMBIGAN (brimonidine tartrate 0.2 % and timolol (timolol maleate) 0.5 % ophthalmic drops) AB̲B̲V̲I̲E̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"""
+73562,02250675,NRA-ASA 80 MG CROQUABLE (acetylsalicylic acid 80 mg chewable tablet) NORA PHARMA INC,"mp_formal_name: ""E̲U̲R̲O̲-̲A̲S̲A̲ ̲C̲H̲E̲W̲A̲B̲L̲E̲ ̲T̲A̲B̲L̲E̲T̲ ̲(̲a̲c̲e̲t̲y̲l̲s̲a̲l̲i̲c̲y̲l̲i̲c̲ ̲a̲c̲i̲d̲ ̲8̲0̲ ̲m̲g̲ ̲c̲h̲e̲w̲a̲b̲l̲e̲ ̲t̲a̲b̲l̲e̲t̲)̲ ̲E̲U̲R̲O̲-̲P̲H̲A̲R̲M̲ ̲I̲N̲T̲E̲R̲N̲A̲T̲I̲O̲N̲A̲L̲ ̲C̲A̲N̲A̲D̲A INC"" -> ""N̲R̲A̲-̲A̲S̲A̲ ̲8̲0̲ ̲M̲G̲ ̲C̲R̲O̲Q̲U̲A̲B̲L̲E̲ ̲(̲a̲c̲e̲t̲y̲l̲s̲a̲l̲i̲c̲y̲l̲i̲c̲ ̲a̲c̲i̲d̲ ̲8̲0̲ ̲m̲g̲ ̲c̲h̲e̲w̲a̲b̲l̲e̲ ̲t̲a̲b̲l̲e̲t̲)̲ ̲N̲O̲R̲A̲ ̲P̲H̲A̲R̲M̲A INC"""
+75035,02264846,TRAMACET (acetaminophen 325 mg and tramadol hydrochloride 37.5 mg oral tablet) JANSSEN INC,ADDED
+76373,02278146,"PROVON MEDICATED FOAM HANDWASH WITH ADVANCED MOISTURIZERS (triclosan 0.3 % cutaneous solution) GOJO INDUSTRIES, INC.",DELETED
+77067,02285169,AA-METOPROLOL SR (metoprolol tartrate 100 mg prolonged-release oral tablet) AA PHARMA INC,"mp_formal_name: ""AP̲O̲-METOPROLOL SR (metoprolol tartrate 100 mg prolonged-release oral tablet) AP̲O̲T̲E̲X̲ INC"" -> ""AA̲-METOPROLOL SR (metoprolol tartrate 100 mg prolonged-release oral tablet) AA̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+77068,02285177,AA-METOPROLOL SR (metoprolol tartrate 200 mg prolonged-release oral tablet) AA PHARMA INC,"mp_formal_name: ""AP̲O̲-METOPROLOL SR (metoprolol tartrate 200 mg prolonged-release oral tablet) AP̲O̲T̲E̲X̲ INC"" -> ""AA̲-METOPROLOL SR (metoprolol tartrate 200 mg prolonged-release oral tablet) AA̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+78558,02300265,DECONGEST NASAL (xylometazoline hydrochloride 0.1 % nasal spray) TEVA CANADA LIMITED,DELETED
+78816,02302845,EXELON PATCH 5 (rivastigmine 4.6 mg per 24 hour transdermal patch) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""EXELON PATCH 5 (rivastigmine 4.6 mg per 24 hour transdermal patch) N̲O̲V̲A̲R̲T̲I̲S̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""EXELON PATCH 5 (rivastigmine 4.6 mg per 24 hour transdermal patch) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲.̲"""
+78817,02302853,EXELON PATCH 10 (rivastigmine 9.5 mg per 24 hour transdermal patch) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""EXELON PATCH 10 (rivastigmine 9.5 mg per 24 hour transdermal patch) N̲O̲V̲A̲R̲T̲I̲S̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""EXELON PATCH 10 (rivastigmine 9.5 mg per 24 hour transdermal patch) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲.̲"""
+79621,02310589,DERMSAFE CHLORHEXIDINE GLUCONATE HAND SANITIZER LOTION (chlorhexidine gluconate 4 % lotion) SKINVISIBLE PHARMACEUTICALS INC,DELETED
+79757,02312050,PRO-PIOGLITAZONE (pioglitazone (pioglitazone hydrochloride) 15 mg oral tablet) PRO DOC LIMITEE,ADDED
+79758,02312069,PRO-PIOGLITAZONE (pioglitazone (pioglitazone hydrochloride) 30 mg oral tablet) PRO DOC LIMITEE,ADDED
+79943,02313901,APO-QUETIAPINE (quetiapine (quetiapine fumarate) 25 mg oral tablet) APOTEX INC,ADDED
+79944,02313928,APO-QUETIAPINE (quetiapine (quetiapine fumarate) 100 mg oral tablet) APOTEX INC,ADDED
+79946,02313944,APO-QUETIAPINE (quetiapine (quetiapine fumarate) 300 mg oral tablet) APOTEX INC,ADDED
+80575,02320312,SANDOZ METHYLPHENIDATE SR (methylphenidate hydrochloride 20 mg prolonged-release oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+82345,02337819,EXTAVIA (interferon beta-1b 0.3 mg per vial powder for solution for injection with diluent solution syringe) NOVARTIS PHARMACEUTICALS CANADA INC,ADDED
+85755,02372436,STAXYN (vardenafil (vardenafil hydrochloride) 10 mg orodispersible tablet) BAYER INC,ADDED
+86626,02380455,JAMP RIZATRIPTAN (rizatriptan (rizatriptan benzoate) 5 mg oral tablet) JAMP PHARMA CORPORATION,"mp_formal_name: ""JAMP-̲RIZATRIPTAN (rizatriptan (rizatriptan benzoate) 5 mg oral tablet) JAMP PHARMA CORPORATION"" -> ""JAMP ̲RIZATRIPTAN (rizatriptan (rizatriptan benzoate) 5 mg oral tablet) JAMP PHARMA CORPORATION"""
+86627,02380463,JAMP RIZATRIPTAN (rizatriptan (rizatriptan benzoate) 10 mg oral tablet) JAMP PHARMA CORPORATION,"mp_formal_name: ""JAMP-̲RIZATRIPTAN (rizatriptan (rizatriptan benzoate) 10 mg oral tablet) JAMP PHARMA CORPORATION"" -> ""JAMP ̲RIZATRIPTAN (rizatriptan (rizatriptan benzoate) 10 mg oral tablet) JAMP PHARMA CORPORATION"""
+87449,02388960,LOSARTAN HCT (hydrochlorothiazide 12.5 mg and losartan potassium 50 mg oral tablet) SIVEM PHARMACEUTICALS ULC,DELETED
+87450,02388979,LOSARTAN HCT (hydrochlorothiazide 12.5 mg and losartan potassium 100 mg oral tablet) SIVEM PHARMACEUTICALS ULC,DELETED
+87451,02388987,LOSARTAN HCT (hydrochlorothiazide 25 mg and losartan potassium 100 mg oral tablet) SIVEM PHARMACEUTICALS ULC,DELETED
+88426,02399377,ATORVASTATIN (atorvastatin (atorvastatin calcium) 10 mg oral tablet) PHARMASCIENCE INC,ADDED
+88427,02399385,ATORVASTATIN (atorvastatin (atorvastatin calcium) 20 mg oral tablet) PHARMASCIENCE INC,ADDED
+88428,02399393,ATORVASTATIN (atorvastatin (atorvastatin calcium) 40 mg oral tablet) PHARMASCIENCE INC,ADDED
+88429,02399407,ATORVASTATIN (atorvastatin (atorvastatin calcium) 80 mg oral tablet) PHARMASCIENCE INC,ADDED
+88453,02399679,PYRITHIONE ZINC DANDRUFF SHAMPOO DRY SCALP CARE (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,"mp_formal_name: ""H̲E̲A̲D̲ ̲&̲ ̲S̲H̲O̲U̲L̲D̲E̲R̲S̲ DRY SCALP CARE (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"" -> ""P̲Y̲R̲I̲T̲H̲I̲O̲N̲E̲ ̲Z̲I̲N̲C̲ ̲D̲A̲N̲D̲R̲U̲F̲F̲ ̲S̲H̲A̲M̲P̲O̲O̲ DRY SCALP CARE (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC"""
+89043,02405660,JAMP-SILDENAFIL (sildenafil (sildenafil citrate) 25 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+89044,02405679,JAMP-SILDENAFIL (sildenafil (sildenafil citrate) 50 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+89209,02407396,DIMENHYDRINATE CAPSULES (dimenhydrinate 50 mg oral capsule) APOTEX INC,ADDED
+89248,02407779,COLD & SINUS RELIEF CAPSULES (ibuprofen 200 mg and pseudoephedrine hydrochloride 30 mg oral capsule) APOTEX INC,ADDED
+89297,02408244,JAMP-LOSARTAN HCTZ (hydrochlorothiazide 12.5 mg and losartan potassium 50 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+89298,02408252,JAMP-LOSARTAN HCTZ (hydrochlorothiazide 25 mg and losartan potassium 100 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+89374,02409003,NATCO-CITALOPRAM (citalopram (citalopram hydrobromide) 10 mg oral tablet) NATCO PHARMA (CANADA) INC,"mp_formal_name: ""NAT-CITALOPRAM (citalopram (citalopram hydrobromide) 10 mg oral tablet) NATCO PHARMA (CANADA) INC"" -> ""NATC̲O̲-CITALOPRAM (citalopram (citalopram hydrobromide) 10 mg oral tablet) NATCO PHARMA (CANADA) INC"""
+90180,02417162,CONSTELLA (linaclotide 145 mcg oral capsule) ABBVIE CORPORATION,"mp_formal_name: ""CONSTELLA (linaclotide 145 mcg oral capsule) AL̲L̲E̲R̲G̲A̲N̲ ̲I̲N̲C̲"" -> ""CONSTELLA (linaclotide 145 mcg oral capsule) AB̲B̲V̲I̲E̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"""
+90181,02417170,CONSTELLA (linaclotide 290 mcg oral capsule) ABBVIE CORPORATION,"mp_formal_name: ""CONSTELLA (linaclotide 290 mcg oral capsule) AL̲L̲E̲R̲G̲A̲N̲ ̲I̲N̲C̲"" -> ""CONSTELLA (linaclotide 290 mcg oral capsule) AB̲B̲V̲I̲E̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"""
+90796,02423227,AMIODARONE HYDROCHLORIDE FOR INJECTION (amiodarone hydrochloride 150 mg per 3 mL solution for injection vial) JAMP PHARMA CORPORATION,ADDED
+90931,02424630,"NIGHTTIME PAIN RELIEF (diphenhydramine hydrochloride 25 mg and ibuprofen (ibuprofen, ibuprofen potassium) 200 mg oral capsule) APOTEX INC",ADDED
+91368,02429241,JAMP-RIZATRIPTAN IR (rizatriptan (rizatriptan benzoate) 10 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+91722,02432803,EXELON PATCH 15 (rivastigmine 13.3 mg per 24 hour transdermal patch) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""EXELON PATCH 15 (rivastigmine 13.3 mg per 24 hour transdermal patch) N̲O̲V̲A̲R̲T̲I̲S̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""EXELON PATCH 15 (rivastigmine 13.3 mg per 24 hour transdermal patch) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲.̲"""
+92471,02440350,PRIVA-MONTELUKAST (montelukast (montelukast sodium) 10 mg oral tablet) PHARMAPAR INC,DELETED
+93036,02445131,CLOTRIMADERM-FLUCONAZOLE COMBI-PACK (clotrimazole 1 % cutaneous cream with fluconazole 150 mg oral capsule) TARO PHARMACEUTICALS INC,ADDED
+93064,02445417,PRIVA-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 5 mg oral tablet) PHARMAPAR INC,ADDED
+93433,02448610,BYDUREON (exenatide 2 mg powder for prolonged-release suspension for injection with diluent solution per pen) ASTRAZENECA CANADA INC,ADDED
+94593,02458780,CCP-ZOLMITRIPTAN (zolmitriptan 2.5 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,DELETED
+94594,02458799,CCP-ANASTROZOLE (anastrozole 1 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,DELETED
+94595,02458802,CCP-ONDANSETRON (ondansetron (ondansetron hydrochloride dihydrate) 8 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,DELETED
+94596,02458810,CCP-ONDANSETRON (ondansetron (ondansetron hydrochloride dihydrate) 4 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,DELETED
+94601,02458837,DOAK OIL (coal tar 2 % cutaneous solution) ODAN LABORATORIES LTD,DELETED
+95399,02465752,OCTASA (mesalazine 800 mg gastro-resistant tablet) TILLOTTS PHARMA AG,ADDED
+95442,02466112,DOVE DERMA+CARE SCALP ANTI-DANDRUFF FRESH & CLEAN (pyrithione zinc 1 % shampoo) UNILEVER CANADA,DELETED
+95831,02469510,CONSTELLA (linaclotide 72 mcg oral capsule) ABBVIE CORPORATION,"mp_formal_name: ""CONSTELLA (linaclotide 72 mcg oral capsule) AL̲L̲E̲R̲G̲A̲N̲ ̲I̲N̲C̲"" -> ""CONSTELLA (linaclotide 72 mcg oral capsule) AB̲B̲V̲I̲E̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"""
+95983,02470780,AA-LANSOPRAZOLE-AMOXICILLIN-CLARITHROMYCIN (amoxicillin 500 mg oral capsule with clarithromycin 500 mg oral tablet with lansoprazole 30 mg gastro-resistant capsule) AA PHARMA INC,"mp_formal_name: ""AP̲O̲-LANSOPRAZOLE-AMOXICILLIN-CLARITHROMYCIN (amoxicillin 500 mg oral capsule with clarithromycin 500 mg oral tablet with lansoprazole 30 mg gastro-resistant capsule) AP̲O̲T̲E̲X̲ INC"" -> ""AA̲-LANSOPRAZOLE-AMOXICILLIN-CLARITHROMYCIN (amoxicillin 500 mg oral capsule with clarithromycin 500 mg oral tablet with lansoprazole 30 mg gastro-resistant capsule) AA̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+96706,02476134,DICLOFENAC SODIUM SOLUTION (diclofenac sodium 1.5 % cutaneous solution) HIKMA CANADA LIMITED,"mp_formal_name: ""DICLOFENAC SODIUM SOLUTION (diclofenac sodium 1.5 % cutaneous solution) T̲E̲L̲I̲P̲,̲ ̲L̲L̲C̲,̲ ̲A̲ ̲S̲U̲B̲S̲I̲D̲I̲A̲R̲Y̲ ̲O̲F̲ ̲T̲E̲L̲I̲G̲E̲N̲T̲,̲ ̲I̲N̲C̲.̲"" -> ""DICLOFENAC SODIUM SOLUTION (diclofenac sodium 1.5 % cutaneous solution) H̲I̲K̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+97071,02480174,DOVE MEN PLUS CARE DERMA PLUS CARE SCALP ANTI-DANDRUFF DEEP CLEAN 2 IN 1 (pyrithione zinc 1 % shampoo) UNILEVER CANADA,ADDED
+97411,02483769,CLINDAMYCIN PHOSPHATE TOPICAL SOLUTION USP (clindamycin (clindamycin phosphate) 1 % cutaneous solution) HIKMA CANADA LIMITED,DELETED
+97920,02489147,ERFA-AMIKACIN (amikacin (amikacin sulfate) 500 mg per 2 mL solution for injection vial) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""ERFA-AMIKACIN (amikacin (amikacin sulfate) 500 mg per 2 mL solution for injection vial) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""ERFA-AMIKACIN (amikacin (amikacin sulfate) 500 mg per 2 mL solution for injection vial) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+98017,02490102,ESPEROCT (turoctocog alfa pegol 3000 unit per vial powder for solution for injection with diluent solution syringe) NOVO NORDISK CANADA INC,"ntp_code: ""a89f3dd5621a0e54908db9e74d4a6f10"" -> ""9014769"""
+98171,02491702,ERFA HYDROQUINONE (hydroquinone 4 % cutaneous gel) SEARCHLIGHT PHARMA INC,ADDED
+98351,02493500,INTRAROSA (prasterone 6.5 mg pessary) ENDOCEUTICS INC,"ntp_code: ""1ee099ecde6bbe9d3f5ff63ae61a0152"" -> ""9014766""
+tm_code: ""789505d3c2d065276934a3d353c7b85c"" -> ""8002438"""
+98375,02493764,SANDOZ TRAMADOL (tramadol hydrochloride 50 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+98881,02499045,MARCELLE ULTRA GENTLE HAND SANITIZING GEL (benzalkonium chloride 0.13 % cutaneous gel) GROUPE MARCELLE INC,DELETED
+99149,02501880,NRA-OMEPRAZOLE (omeprazole (omeprazole magnesium) 20 mg gastro-resistant tablet) NORA PHARMA INC,ADDED
+99242,02502895,"ANTHIM (obiltoxaximab 600 mg per 6 mL solution for injection vial) ELUSYS THERAPEUTICS, INC.","ntp_code: ""79fab8b6260646191cbfe44a2e48f1fa"" -> ""9014762""
+tm_code: ""4d77c681f488cbf74ba06afba383e307"" -> ""8002436"""
+99682,02507420,ANTIBACTERIAL WIPES (benzalkonium chloride 0.13 % wipe) NORTHWEST BUFFALO TRADING COMPANY,DELETED
+100002,02510839,VYEPTI (eptinezumab 100 mg per 1 mL solution for injection vial) LUNDBECK CANADA INC,"ntp_code: ""9a4b692fc2c9ada2006d65114f807528"" -> ""9014760"""
+100362,02514435,HYDROMORPHONE HYDROCHLORIDE INJECTION USP (hydromorphone hydrochloride 1 mg per 1 mL solution for injection vial) SANDOZ CANADA INCORPORATED,"ntp_code: ""6e74011cdea0513c86ab8a35062ec732"" -> ""9014761"""
+100701,02517639,PEMETREXED DISODIUM FOR INJECTION (pemetrexed (pemetrexed disodium) 100 mg per vial powder for solution for injection) AURO PHARMA INC,ADDED
+100702,02517647,PEMETREXED DISODIUM FOR INJECTION (pemetrexed (pemetrexed disodium) 500 mg per vial powder for solution for injection) AURO PHARMA INC,ADDED
+100766,02518376,LEQVIO (inclisiran (inclisiran sodium) 284 mg per 1.5 mL solution for injection) NOVARTIS PHARMACEUTICALS CANADA INC,ADDED
+101018,02520931,NRA-TADALAFIL (tadalafil 5 mg oral tablet) NORA PHARMA INC,ADDED
+101020,02520966,NRA-TADALAFIL (tadalafil 20 mg oral tablet) NORA PHARMA INC,ADDED
+101021,02520974,KIRSTY (insulin aspart 100 unit per mL solution for injection) BGP PHARMA ULC,ADDED
+101074,02521555,PRZ-ATORVASTATIN (atorvastatin (atorvastatin calcium) 10 mg oral tablet) PHARMARIS CANADA INC,ADDED
+101075,02521563,PRZ-ATORVASTATIN (atorvastatin (atorvastatin calcium) 20 mg oral tablet) PHARMARIS CANADA INC,ADDED
+101076,02521571,PRZ-ATORVASTATIN (atorvastatin (atorvastatin calcium) 40 mg oral tablet) PHARMARIS CANADA INC,ADDED
+101077,02521598,PRZ-ATORVASTATIN (atorvastatin (atorvastatin calcium) 80 mg oral tablet) PHARMARIS CANADA INC,ADDED
+101110,02521938,JAMP AMBRISENTAN (ambrisentan 5 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+101111,02521946,JAMP AMBRISENTAN (ambrisentan 10 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+101137,02522225,MINT-QUETIAPINE XR (quetiapine (quetiapine fumarate) 400 mg prolonged-release oral tablet) MINT PHARMACEUTICALS INC,ADDED
+101150,02522365,NEXVIAZYME (avalglucosidase alfa 100 mg per vial powder for solution for injection) SANOFI-AVENTIS CANADA INC,ADDED
+101160,02522489,M-FINASTERIDE (finasteride 5 mg oral tablet) MANTRA PHARMA INC,ADDED
+101162,02522500,PRZ-AMLODIPINE (amlodipine (amlodipine besylate) 2.5 mg oral tablet) PHARMARIS CANADA INC,ADDED
+101163,02522519,PRZ-AMLODIPINE (amlodipine (amlodipine besylate) 5 mg oral tablet) PHARMARIS CANADA INC,ADDED
+101164,02522527,PRZ-AMLODIPINE (amlodipine (amlodipine besylate) 10 mg oral tablet) PHARMARIS CANADA INC,ADDED
+101172,02522616,DEQUADIN ORAL SPRAY (dequalinium chloride 0.5 % mouthwash) BOYD PHARMACEUTICALS INC.,ADDED
+101517,02526050,NRA-APIXABAN (apixaban 2.5 mg oral tablet) NORA PHARMA INC,ADDED
+101519,02526069,NRA-APIXABAN (apixaban 5 mg oral tablet) NORA PHARMA INC,ADDED
+101536,02526247,PALYNZIQ (pegvaliase 2.5 mg per 0.5 mL solution for injection syringe) BIOMARIN INTERNATIONAL LIMITED,"mp_formal_name: ""PALYNZIQ (pegvaliase 2.5 mg per 0.5 mL solution for injection) BIOMARIN INTERNATIONAL LIMITED"" -> ""PALYNZIQ (pegvaliase 2.5 mg per 0.5 mL solution for injection ̲s̲y̲r̲i̲n̲g̲e̲) BIOMARIN INTERNATIONAL LIMITED""
+ntp_code: ""bdb309156318bf9aa01ab2e52d9be1a5"" -> ""d890fa907073037228942ac69c27ec4b""
+ntp_formal_name: ""pegvaliase 2.5 mg per 0.5 mL solution for injection"" -> ""pegvaliase 2.5 mg per 0.5 mL solution for injection ̲s̲y̲r̲i̲n̲g̲e̲""
+tm_code: ""921d9e2d2f9273d0ba15d436c16886d4"" -> ""8002437"""
+101537,02526255,PALYNZIQ (pegvaliase 10 mg per 0.5 mL solution for injection syringe) BIOMARIN INTERNATIONAL LIMITED,"mp_formal_name: ""PALYNZIQ (pegvaliase 10 mg per 0.5 mL solution for injection) BIOMARIN INTERNATIONAL LIMITED"" -> ""PALYNZIQ (pegvaliase 10 mg per 0.5 mL solution for injection ̲s̲y̲r̲i̲n̲g̲e̲) BIOMARIN INTERNATIONAL LIMITED""
+ntp_code: ""eece847a8a143ca458d019698a5965da"" -> ""67135615a80cc6a54219018038798da7""
+ntp_formal_name: ""pegvaliase 10 mg per 0.5 mL solution for injection"" -> ""pegvaliase 10 mg per 0.5 mL solution for injection ̲s̲y̲r̲i̲n̲g̲e̲""
+tm_code: ""921d9e2d2f9273d0ba15d436c16886d4"" -> ""8002437"""
+101538,02526263,PALYNZIQ (pegvaliase 20 mg per 1 mL solution for injection syringe) BIOMARIN INTERNATIONAL LIMITED,"mp_formal_name: ""PALYNZIQ (pegvaliase 20 mg per mL solution for injection) BIOMARIN INTERNATIONAL LIMITED"" -> ""PALYNZIQ (pegvaliase 20 mg per 1̲ ̲mL solution for injection ̲s̲y̲r̲i̲n̲g̲e̲) BIOMARIN INTERNATIONAL LIMITED""
+ntp_code: ""992d7e7531082f7d91c15624f45fcee9"" -> ""9086da247d3d9c81be65d4b3bf886d97""
+ntp_formal_name: ""pegvaliase 20 mg per mL solution for injection"" -> ""pegvaliase 20 mg per 1̲ ̲mL solution for injection ̲s̲y̲r̲i̲n̲g̲e̲""
+tm_code: ""921d9e2d2f9273d0ba15d436c16886d4"" -> ""8002437"""
+101547,02526379,MINT-RANITIDINE (ranitidine (ranitidine hydrochloride) 150 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+101548,02526387,MINT-RANITIDINE (ranitidine (ranitidine hydrochloride) 300 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+101554,02526441,SEMGLEE (insulin glargine 100 unit per mL solution for injection) BGP PHARMA ULC,ADDED
+101555,02526468,PRZ-OLMESARTAN/HCTZ (hydrochlorothiazide 12.5 mg and olmesartan medoxomil 20 mg oral tablet) PHARMARIS CANADA INC,ADDED
+101556,02526476,PRZ-OLMESARTAN/HCTZ (hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral tablet) PHARMARIS CANADA INC,ADDED
+101557,02526484,PRZ-OLMESARTAN/HCTZ (hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet) PHARMARIS CANADA INC,ADDED
+101558,02526492,"ENEMEEZ (docusate sodium 283 mg per 5 mL rectal liquid) QUEST PRODUCTS, LLC",ADDED
+101593,02526875,SANDOZ AMBRISENTAN TABLETS (ambrisentan 5 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+101594,02526883,SANDOZ AMBRISENTAN TABLETS (ambrisentan 10 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+101597,02526913,PRO-DESVENLAFAXINE (desvenlafaxine (desvenlafaxine succinate) 50 mg prolonged-release oral tablet) PRO DOC LIMITEE,ADDED
+101598,02526921,PRO-DESVENLAFAXINE (desvenlafaxine (desvenlafaxine succinate) 100 mg prolonged-release oral tablet) PRO DOC LIMITEE,ADDED
+101620,02527154,ENTECAVIR (entecavir 0.5 mg oral tablet) SANIS HEALTH INC,ADDED
+101646,02527391,TABRECTA (capmatinib (capmatinib hydrochloride) 150 mg oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC,ADDED
+101647,02527405,TABRECTA (capmatinib (capmatinib hydrochloride) 200 mg oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC,ADDED
+101664,02527588,KIMMTRAK (tebentafusp 100 mcg per 0.5 mL solution for injection vial) IMMUNOCORE IRELAND LIMITED,"mp_formal_name: ""KIMMTRAK (tebentafusp 100 mcg per 0.5 mL solution for injection) IMMUNOCORE IRELAND LIMITED"" -> ""KIMMTRAK (tebentafusp 100 mcg per 0.5 mL solution for injection ̲v̲i̲a̲l̲) IMMUNOCORE IRELAND LIMITED""
+ntp_code: ""1422552b74ad84ed790e7ea4f274360b"" -> ""bb0b1d6c95ae9afa709ee77fff30b894""
+ntp_formal_name: ""tebentafusp 100 mcg per 0.5 mL solution for injection"" -> ""tebentafusp 100 mcg per 0.5 mL solution for injection ̲v̲i̲a̲l̲""
+tm_code: ""0543929424fda75372e67e55f7cec50c"" -> ""8002439"""
+101673,02527685,"SPIKEVAX (elasomeran 0.1 mg per mL dispersion for injection 2.5 mL vial) MODERNATX, INC.","ntp_code: ""d278c98e3c6d9cfb1c0d930571e10b1c"" -> ""9014758"""
+101674,02527693,ORLADEYO (berotralstat (berotralstat hydrochloride) 150 mg oral capsule) BIOCRYST PHARMACEUTICALS INC,"ntp_code: ""ef25bc46d041855a7ce7c25e21ed272f"" -> ""9014757""
+tm_code: ""c7190bc4c51cb4fa0346d56e7dade668"" -> ""8002435"""
+101675,02527707,ALBRIOZA (sodium phenylbutyrate 3 g per sachet and ursodoxicoltaurine 1 g per sachet powder for oral suspension) AMYLYX PHARMACEUTICALS INC.,"ntp_code: ""fdc870ee4085ca2929696c3bd9e2f0e4"" -> ""9014767"""
+101724,02527979,BIO-APIXABAN (apixaban 2.5 mg oral tablet) BIOMED PHARMA,ADDED
+101725,02527987,BIO-APIXABAN (apixaban 5 mg oral tablet) BIOMED PHARMA,ADDED
+101754,02528304,PMS-DEFERASIROX (TYPE J) (deferasirox 180 mg oral tablet) PHARMASCIENCE INC,ADDED
+101756,02528320,SCEMBLIX (asciminib (asciminib hydrochloride) 20 mg oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC,"ntp_code: ""5eead0070d1444a77652c587b70cd24b"" -> ""9014754""
+tm_code: ""0642bd1e2f09c74468b0c5c58763d6bc"" -> ""8002433"""
+101757,02528339,SCEMBLIX (asciminib (asciminib hydrochloride) 40 mg oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC,"ntp_code: ""9d8a27f9527064ae91e4b386e51e8dab"" -> ""9014755""
+tm_code: ""0642bd1e2f09c74468b0c5c58763d6bc"" -> ""8002433"""
+101760,02528363,CIBINQO (abrocitinib 50 mg oral tablet) PFIZER CANADA ULC,ADDED
+101761,02528371,CIBINQO (abrocitinib 100 mg oral tablet) PFIZER CANADA ULC,ADDED
+101762,02528398,CIBINQO (abrocitinib 200 mg oral tablet) PFIZER CANADA ULC,ADDED
+101771,02528460,RISEDRONATE (risedronate sodium (risedronate sodium hemipentahydrate) 150 mg oral tablet) SANIS HEALTH INC,ADDED
+101808,02528908,WELIREG (belzutifan 40 mg oral tablet) MERCK CANADA INC,"ntp_code: ""74cba88daaf674195107af2baf8cf533"" -> ""9014756""
+tm_code: ""b2a60cd38813b9a35d83a9fdf217a295"" -> ""8002434"""
+101878,02529548,TEZSPIRE (tezepelumab 210 mg per 1.91 mL solution for injection syringe) ASTRAZENECA CANADA INC,ADDED
+101879,02529556,TEZSPIRE (tezepelumab 210 mg per 1.91 mL solution for injection pen) ASTRAZENECA CANADA INC,ADDED
+101903,02529793,POTASSIUM CHLORIDE FOR HEMODIALYSIS 7.55 (potassium chloride 7.55 g per vial powder for concentrate for solution for haemodialysis) CHIEF MEDICAL SUPPLIES LTD,ADDED
+101951,02530325,COMIRNATY (tozinameran 3 mcg per 0.2 mL suspension for injection 2 mL vial) BIONTECH MANUFACTURING GMBH,ADDED
+101961,02530422,THE SOLUTION ANORECTAL SPRAY TEMPORARY PAIN RELIEF (epinephrine (epinephrine hydrochloride) 0.01 % and lidocaine hydrochloride 5 % cutaneous spray) SCALP TECH INC.,"ntp_code: ""e3ed7a7ab574d0fdd69fae78489ac860"" -> ""9014759"""
+102060,02531461,COMIRNATY ORIGINAL & OMICRON BA.4/BA.5 (famtozinameran 15 mcg per 0.3 mL and tozinameran 15 mcg per 0.3 mL suspension for injection 1.8 mL vial) BIONTECH MANUFACTURING GMBH,ADDED
+NA,6622aa0df4abaedb6a8c33c290e3fdb1,"BUPIVACAINE HYDROCHLORIDE INJECTION, USP (bupivacaine hydrochloride 75 mg per 10 mL solution for injection vial) BAXTER CORPORATION",DELETED
+NA,77700642,CEREBYX (fosphenytoin sodium 750 mg per 10 mL solution for injection vial) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""CEREBYX (fosphenytoin sodium 750 mg per 10 mL solution for injection vial) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""CEREBYX (fosphenytoin sodium 750 mg per 10 mL solution for injection vial) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+NA,77700643,CEREBYX (fosphenytoin sodium 150 mg per 2 mL solution for injection vial) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""CEREBYX (fosphenytoin sodium 150 mg per 2 mL solution for injection vial) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""CEREBYX (fosphenytoin sodium 150 mg per 2 mL solution for injection vial) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+NA,77700909,ERFA-TRANEXAMIC (tranexamic acid 100 mg per mL solution for injection 50 mL vial) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""ERFA-TRANEXAMIC (tranexamic acid 100 mg per mL solution for injection 50 mL vial) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""ERFA-TRANEXAMIC (tranexamic acid 100 mg per mL solution for injection 50 mL vial) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+NA,77700910,ERFA-TRANEXAMIC (tranexamic acid 500 mg per 5 mL solution for injection vial) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""ERFA-TRANEXAMIC (tranexamic acid 500 mg per 5 mL solution for injection vial) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""ERFA-TRANEXAMIC (tranexamic acid 500 mg per 5 mL solution for injection vial) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+NA,77700911,ERFA-TRANEXAMIC (tranexamic acid 1000 mg per 10 mL solution for injection vial) SEARCHLIGHT PHARMA INC,"mp_formal_name: ""ERFA-TRANEXAMIC (tranexamic acid 1000 mg per 10 mL solution for injection vial) E̲R̲F̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲2̲0̲1̲2̲ INC"" -> ""ERFA-TRANEXAMIC (tranexamic acid 1000 mg per 10 mL solution for injection vial) S̲E̲A̲R̲C̲H̲L̲I̲G̲H̲T̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+NA,77700985,MILRINONE LACTATE INJECTION (milrinone (milrinone lactate) 20 mg per 20 mL solution for injection vial) AURO PHARMA INC,ADDED
+NA,77700986,MILRINONE LACTATE INJECTION (milrinone (milrinone lactate) 10 mg per 10 mL solution for injection vial) AURO PHARMA INC,ADDED
+NA,77701116,"BUPIVACAINE HYDROCHLORIDE INJECTION, USP (bupivacaine hydrochloride 75 mg per 10 mL solution for injection vial) BAXTER CORPORATION",ADDED
+NA,77701117,"BUPIVACAINE HYDROCHLORIDE INJECTION, USP (bupivacaine hydrochloride 150 mg per 20 mL solution for injection vial) BAXTER CORPORATION",ADDED
+NA,77701118,"BUPIVACAINE HYDROCHLORIDE INJECTION, USP (bupivacaine hydrochloride 225 mg per 30 mL solution for injection vial) BAXTER CORPORATION",ADDED
+NA,7963a13ab6e6adf31d0861ee3afce531,"BUPIVACAINE HYDROCHLORIDE INJECTION, USP (bupivacaine hydrochloride 150 mg per 20 mL solution for injection vial) BAXTER CORPORATION",DELETED
+NA,b3f1dd9d14032b0fd0968816b89857f7,"BUPIVACAINE HYDROCHLORIDE INJECTION, USP (bupivacaine hydrochloride 225 mg per 30 mL solution for injection vial) BAXTER CORPORATION",DELETED
