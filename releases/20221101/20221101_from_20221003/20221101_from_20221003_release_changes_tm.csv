@@ -1,0 +1,21 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002443,famtozinameran and tozinameran,famtozinaméran et tozinaméran,ADDED
+8002440,abrocitinib,abrocitinib,ADDED
+8002311,phenazopyridine,phénazopyridine,"tm_status_effective_time: ""20210713"" -> ""20221024"""
+8002437,pegvaliase,pegvaliase,ADDED
+8000780,brompheniramine and guaifenesin and hydrocodone and phenylephrine,bromphéniramine et guaïfénésine et hydrocodone et phényléphrine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20010906"" -> ""20211231"""
+8001086,orciprenaline,orciprénaline,"tm_status_effective_time: ""20200724"" -> ""20221014"""
+8001069,oxtriphylline,oxtriphylline,"tm_status_effective_time: ""20190116"" -> ""20221020"""
+8000926,brompheniramine and codeine and guaifenesin and phenylephrine,bromphéniramine et codéine et guaïfénésine et phényléphrine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20010928"" -> ""20211231"""
+8001812,interferon alfa-2b,interféron alfa-2b,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19970312"" -> ""20211110"""
+8002441,avalglucosidase alfa,avalglucosidase alfa,ADDED
+8001661,hydroquinone,hydroquinone,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20220929"" -> ""20030113"""
+8001659,glycopyrrolate,glycopyrrolate,DELETED
+8002442,capmatinib,capmatinib,ADDED
+8002439,tebentafusp,tébentafusp,ADDED
+8002445,tezepelumab,tézépélumab,ADDED
+8002245,onabotulinumtoxinA,onabotulinumtoxineA,ADDED
