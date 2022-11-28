@@ -1,0 +1,20 @@
+ntp_code,ntp_formal_name,changes
+47188360c245be689012120913b77a3b,apremilast 10 mg and apremilast 20 mg and apremilast 30 mg oral tablet,ADDED
+9000064,clindamycin (clindamycin phosphate) 300 mg per 2 mL solution for injection vial,"ntp_status_effective_time: ""19731231"" -> ""19990115"""
+9000065,clindamycin (clindamycin phosphate) 600 mg per 4 mL solution for injection vial,"ntp_status_effective_time: ""19731231"" -> ""19990115"""
+9000067,clindamycin (clindamycin phosphate) 900 mg per 6 mL solution for injection vial,"ntp_status_effective_time: ""19731231"" -> ""19990115"""
+9000779,zopiclone 5 mg oral tablet,"ntp_status_effective_time: ""19980210"" -> ""20010215"""
+9000880,diazepam 20 mg per 4 mL rectal gel tube,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9000881,diazepam 2.5 mg per 0.5 mL rectal gel tube,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9000883,diazepam 7.5 mg per 1.5 mL rectal gel tube,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9001628,dimenhydrinate 50 mg oral tablet,"ntp_status_effective_time: ""19671231"" -> ""19771231"""
+9003751,acetylsalicylic acid 325 mg and citric acid 1000 mg and sodium bicarbonate 1700 mg effervescent oral tablet,DELETED
+9005400,tolnaftate 1 % cutaneous solution,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19981009"" -> ""20220613"""
+9006264,clindamycin (clindamycin phosphate) 150 mg per mL solution for injection 60 mL vial,"ntp_status_effective_time: ""19731231"" -> ""19990119"""
+9012670,irinotecan hydrochloride 300 mg per 15 mL solution for injection vial,"ntp_status_effective_time: ""20140307"" -> ""20150528"""
+9013756,alfa 1-proteinase inhibitor human 1000 mg per vial powder for solution for injection with diluent solution,DELETED
+ad31cdfb7bea588f03bace7a592f87b3,mesalazine 1000 mg suppository,ADDED
