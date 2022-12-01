@@ -126,6 +126,47 @@ REFERENCES public.ccdd_ingredient_stem (name) MATCH FULL
 ON DELETE RESTRICT ON UPDATE CASCADE;
 -- ddl-end --
 
+-- object: public.ccdd_mp_status_override | type: TABLE --
+-- DROP TABLE IF EXISTS public.ccdd_mp_status_override CASCADE;
+CREATE TABLE public.ccdd_mp_status_override(
+  code varchar NOT NULL,
+	status varchar NOT NULL,
+	status_effective_time date NOT NULL,
+	CONSTRAINT mp_status_override_pk PRIMARY KEY (code)
+
+);
+-- ddl-end --
+ALTER TABLE public.ccdd_mp_status_override OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.ccdd_ntp_status_override | type: TABLE --
+-- DROP TABLE IF EXISTS public.ccdd_ntp_status_override CASCADE;
+CREATE TABLE public.ccdd_ntp_status_override(
+  code varchar NOT NULL,
+	status varchar NOT NULL,
+	status_effective_time date NOT NULL,
+	CONSTRAINT ntp_status_override_pk PRIMARY KEY (code)
+
+);
+-- ddl-end --
+ALTER TABLE public.ccdd_ntp_status_override OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.ccdd_tm_status_override | type: TABLE --
+-- DROP TABLE IF EXISTS public.ccdd_tm_status_override CASCADE;
+CREATE TABLE public.ccdd_tm_status_override(
+  code varchar NOT NULL,
+	status varchar NOT NULL,
+	status_effective_time date NOT NULL,
+	CONSTRAINT tm_status_override_pk PRIMARY KEY (code)
+
+);
+-- ddl-end --
+ALTER TABLE public.ccdd_tm_status_override OWNER TO postgres;
+-- ddl-end --
+
+
+
 -- object: public.ccdd_dpd_ingredient_ntp_mapping | type: TABLE --
 -- DROP TABLE IF EXISTS public.ccdd_dpd_ingredient_ntp_mapping CASCADE;
 CREATE TABLE public.ccdd_dpd_ingredient_ntp_mapping(
@@ -1544,28 +1585,16 @@ select
 		END)
 	)) as ntp_fr_description,
 	cp.ntp_type,
-	(CASE
-		WHEN (COALESCE(CAST(p.pseudodin AS varchar), dd.din)
-				IN
-			(SELECT * FROM ccdd.mp_deprecations))
-	 		THEN COALESCE(
-				CAST((SELECT prevmp.mp_status_effective_time FROM ccdd.mp_release prevmp WHERE prevmp.mp_code = COALESCE(CAST(p.pseudodin AS varchar), dd.din)) AS date),
-				(SELECT ccdd_date FROM ccdd_config LIMIT 1)
-			)
-		WHEN ds.current_status = 'MARKETED' THEN ds.first_market_date
-		WHEN ds.current_status = 'CANCELLED POST MARKET' AND ds.current_status_date < (SELECT ccdd_date FROM ccdd_config LIMIT 1) AND ds.current_expiration_date::date > (SELECT dpd_extract_date FROM ccdd_config LIMIT 1) THEN ds.first_market_date
-		ELSE ds.current_status_date
-	END) as mp_status_effective_date,
-	(CASE
-		WHEN (
-			COALESCE(CAST(p.pseudodin AS varchar), dd.din)
-				IN
-			(SELECT * FROM ccdd.mp_deprecations)
-		) THEN 'Deprec'
-		WHEN ds.current_status = 'MARKETED' THEN 'Active'
-		WHEN ds.current_status = 'CANCELLED POST MARKET' AND ds.current_expiration_date::date > (SELECT dpd_extract_date FROM ccdd_config LIMIT 1)  THEN 'Active'
-		ELSE 'Inactive'
-	END) as mp_status,
+COALESCE(mpso.status_effective_time, (CASE
+ WHEN ds.current_status = 'MARKETED' THEN ds.first_market_date
+ WHEN ds.current_status = 'CANCELLED POST MARKET' AND ds.current_status_date < (SELECT ccdd_date FROM ccdd_config LIMIT 1) AND ds.current_expiration_date::date > (SELECT dpd_extract_date FROM ccdd_config LIMIT 1) THEN ds.first_market_date
+ ELSE ds.current_status_date
+ END)) as mp_status_effective_time,
+COALESCE(mpso.status, (CASE
+ WHEN ds.current_status = 'MARKETED' THEN 'Active'
+ WHEN ds.current_status = 'CANCELLED POST MARKET' AND ds.current_expiration_date::date > (SELECT dpd_extract_date FROM ccdd_config LIMIT 1)  THEN 'Active'
+ ELSE 'Inactive'
+ END)) as mp_status,
 	ds.first_market_date,
 	exists(
 		select * from
@@ -1579,6 +1608,7 @@ from
 	LEFT JOIN ccdd_presentation p on(p.dpd_drug_code = dd.code)
 	LEFT JOIN ccdd_drug_ingredient_summary dsum on(dsum.dpd_drug_code = dd.code and dsum.ccdd_presentation_id is not distinct from p.id)
 	LEFT JOIN ccdd_drug_dosage_form ddform on(ddform.dpd_drug_code = dd.code)
+	LEFT JOIN ccdd_mp_status_override mpso on(mpso.code = COALESCE(CAST(p.pseudodin AS varchar), dd.din))
 	LEFT JOIN ccdd_drug_status ds on(ds.dpd_drug_code = dd.code)
 	LEFT JOIN ccdd_combination_product cp on(cp.dpd_drug_code = dd.code)
 	LEFT JOIN ccdd.mp_brand_override mbo on(mbo.drug_code = dd.code)
@@ -1601,39 +1631,42 @@ AS
         ) AS ntp_code,
         candidate.ntp_formal_name AS ntp_formal_name,
 				candidate.ntp_fr_description AS ntp_fr_description,
-        (CASE
+        COALESCE(inactive.status, (CASE
             WHEN bool_and(candidate.mp_status = 'Inactive') THEN 'Inactive'
             ELSE 'Active'
-        END) AS ntp_status,
+        END)) AS ntp_status,
         candidate.ntp_type as ntp_type,
-        to_char((CASE
-            WHEN bool_and(candidate.mp_status = 'Inactive') THEN max(candidate.mp_status_effective_date)
+        to_char(COALESCE(inactive.status_effective_time, (CASE
+            WHEN bool_and(candidate.mp_status = 'Inactive') THEN max(candidate.mp_status_effective_time)
             ELSE min(candidate.first_market_date)
-        END), 'YYYYMMDD') AS ntp_status_effective_time,
+        END)), 'YYYYMMDD') AS ntp_status_effective_time,
 				(bool_or(candidate.tm_is_publishable)) AS tm_is_publishable
     FROM
         ccdd_mp_table_candidate candidate
         LEFT JOIN ccdd.ntp_definition defn ON (defn.formal_name = candidate.ntp_formal_name)
-    WHERE not exists (select depr.code
-                          from ccdd.ntp_deprecations depr
-                          where defn.code::varchar = depr.code)
+         LEFT JOIN (
+            SELECT * FROM public.ccdd_ntp_status_override WHERE status = 'Inactive'
+        ) inactive ON (inactive.code = defn.code::varchar)
+    WHERE NOT EXISTS (SELECT ntpso.code FROM public.ccdd_ntp_status_override ntpso
+                      WHERE defn.code::varchar = ntpso.code AND ntpso.status = 'Deprec')
     GROUP BY
-        candidate.ntp_formal_name,candidate.ntp_fr_description, candidate.ntp_type, defn.formal_name, defn.code
+        candidate.ntp_formal_name,candidate.ntp_fr_description, candidate.ntp_type, defn.formal_name, defn.code, inactive.status, inactive.status_effective_time
     ORDER BY ntp_status_effective_time
 	) UNION ALL (
 		SELECT
-			CAST(depr.code as varchar) as ntp_code,
+			CAST(ntpso.code as varchar) as ntp_code,
 			deprntp.formal_name as ntp_formal_name,
 			deprntp.formal_name_fr as ntp_fr_description,
 			'Deprec' as ntp_status,
 			NULL as ntp_type,
-			to_char(depr.status_effective_date, 'YYYYMMDD') as ntp_status_effective_time,
+			to_char(ntpso.status_effective_time, 'YYYYMMDD') as ntp_status_effective_time,
 			true as tm_is_publishable
 		FROM
-			ccdd.ntp_deprecations depr
-			LEFT JOIN ccdd.ntp_definition deprntp ON(CAST(deprntp.code as varchar) = depr.code)
+			public.ccdd_ntp_status_override ntpso
+			LEFT JOIN ccdd.ntp_definition deprntp ON(CAST(deprntp.code as varchar) = ntpso.code)
+		WHERE
+		  ntpso.status = 'Deprec'
 		);
-
 
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_ntp_table OWNER TO postgres;
@@ -1735,7 +1768,7 @@ WHERE (
 	(CASE
 		WHEN candidate.presentation_count > 1 THEN COALESCE(cast(candidate.pseudodin AS varchar), candidate.ccdd_presentation_id)
 		ELSE candidate.din
-	END) NOT IN (SELECT * FROM ccdd.mp_deprecations)
+	END) NOT IN (SELECT mpso.code FROM public.ccdd_mp_status_override mpso WHERE mpso.status = 'Deprec')
 );
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_mp_ntp_tm_relationship OWNER TO postgres;
@@ -1757,7 +1790,7 @@ AS
 	SELECT
 		(
 			CASE
-				WHEN CAST(depr.code as varchar) IS NOT NULL THEN depr.code
+				WHEN CAST(tmso.code as varchar) IS NOT NULL THEN tmso.code
 				WHEN CAST(dtm.tm_code as varchar) IS NULL THEN md5(COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name))
 				ELSE CAST(dtm.tm_code as varchar)
 			END
@@ -1765,13 +1798,13 @@ AS
 		COALESCE(dtm.tm_formal_name, dtmf.tm_fallback_formal_name) as tm_formal_name,
 		COALESCE(dtm.tm_fr_description, dtmf.tm_fallback_formal_name_fr) as tm_fr_description,
 		(CASE
-			WHEN CAST(depr.code as varchar) IS NOT NULL THEN 'Deprec'
+			WHEN CAST(tmso.code as varchar) IS NOT NULL THEN tmso.status
 			WHEN bool_and(candidate.mp_status = 'Inactive') THEN 'Inactive'
 			ELSE 'Active'
 		END) AS tm_status,
 		to_char((CASE
-			WHEN CAST(depr.code as varchar) IS NOT NULL THEN depr.status_effective_time
-			WHEN bool_and(candidate.mp_status = 'Inactive') THEN max(candidate.mp_status_effective_date)
+			WHEN CAST(tmso.code as varchar) IS NOT NULL THEN tmso.status_effective_time
+			WHEN bool_and(candidate.mp_status = 'Inactive') THEN max(candidate.mp_status_effective_time)
 			ELSE min(candidate.first_market_date)
 		END), 'YYYYMMDD') AS tm_status_effective_time,
 		bool_or(candidate.tm_is_publishable) AS tm_is_publishable
@@ -1779,14 +1812,14 @@ AS
 		ccdd_mp_table_candidate candidate
 		LEFT JOIN ccdd_drug_tm dtm ON(candidate.dpd_drug_code = dtm.dpd_drug_code)
 		LEFT JOIN ccdd_drug_tm_fallback dtmf ON(candidate.dpd_drug_code = dtmf.dpd_drug_code)
-		LEFT JOIN ccdd.tm_deprecations depr ON (CAST(depr.code as bigint) = dtm.tm_code)
+		LEFT JOIN public.ccdd_tm_status_override tmso ON (CAST(tmso.code as bigint) = dtm.tm_code)
 	GROUP BY
 		dtm.tm_code,
 		dtm.tm_formal_name,
 		dtm.tm_fr_description,
 		dtmf.tm_fallback_formal_name,
 		dtmf.tm_fallback_formal_name_fr,
-		depr.code;
+		tmso.code;
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_tm_table OWNER TO postgres;
 -- ddl-end --
@@ -1805,7 +1838,7 @@ SELECT
 	candidate.mp_fr_description,
 	NULL::text AS mp_en_description,
 	candidate.mp_status,
-	to_char(candidate.mp_status_effective_date, 'YYYYMMDD') AS mp_status_effective_time,
+	to_char(candidate.mp_status_effective_time, 'YYYYMMDD') AS mp_status_effective_time,
 	(CASE
 		WHEN candidate.presentation_count > 1 THEN 'CCDD'
 		ELSE 'DIN'
@@ -1883,9 +1916,56 @@ WHERE
 ALTER MATERIALIZED VIEW public.ccdd_presentation_source OWNER TO postgres;
 -- ddl-end --
 
+-- object: public.ccdd_mp_status_override_source | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_mp_status_override_source CASCADE;
+CREATE MATERIALIZED VIEW public.ccdd_mp_status_override_source
+AS
 
+SELECT
+  ccdd_code AS code,
+	status,
+	status_effective_time
+FROM
+   ccdd.status_override AS ccddso
+WHERE
+    ccddso.ccdd_type = 'mp';
+-- ddl-end --
+ALTER MATERIALIZED VIEW public.ccdd_mp_status_override_source OWNER TO postgres;
+-- ddl-end --
 
+-- object: public.ccdd_ntp_status_override_source | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_ntp_status_override_source CASCADE;
+CREATE MATERIALIZED VIEW public.ccdd_ntp_status_override_source
+AS
 
+SELECT
+  ccdd_code AS code,
+	status,
+	status_effective_time
+FROM
+   ccdd.status_override AS ccddso
+WHERE
+    ccddso.ccdd_type = 'ntp';
+-- ddl-end --
+ALTER MATERIALIZED VIEW public.ccdd_ntp_status_override_source OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.ccdd_tm_status_override_source | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_tm_status_override_source CASCADE;
+CREATE MATERIALIZED VIEW public.ccdd_tm_status_override_source
+AS
+
+SELECT
+  ccdd_code AS code,
+	status,
+	status_effective_time
+FROM
+   ccdd.status_override AS ccddso
+WHERE
+    ccddso.ccdd_type = 'tm';
+-- ddl-end --
+ALTER MATERIALIZED VIEW public.ccdd_tm_status_override_source OWNER TO postgres;
+-- ddl-end --
 
 -- object: ccdd.ntp_release | type: TABLE --
 -- DROP TABLE IF EXISTS ccdd.ntp_release CASCADE;

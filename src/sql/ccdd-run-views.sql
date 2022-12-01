@@ -28,6 +28,11 @@ REFRESH MATERIALIZED VIEW public.ccdd_dosage_form_mapping_dpd_route_source;
 REFRESH MATERIALIZED VIEW public.ccdd_combination_product_source;
 REFRESH MATERIALIZED VIEW public.ccdd_presentation_source;
 
+-- status overrides
+REFRESH MATERIALIZED VIEW public.ccdd_mp_status_override_source;
+REFRESH MATERIALIZED VIEW public.ccdd_ntp_status_override_source;
+REFRESH MATERIALIZED VIEW public.ccdd_tm_status_override_source;
+
 INSERT INTO public.dpd_drug(
     code,
     din,
@@ -271,6 +276,37 @@ INSERT INTO public.ccdd_presentation(
     unit_has_explicit_size,
     pseudodin
 FROM public.ccdd_presentation_source;
+
+INSERT INTO public.ccdd_mp_status_override(
+  code,
+	status,
+	status_effective_time
+) SELECT
+  code,
+	status,
+	status_effective_time
+FROM public.ccdd_mp_status_override_source;
+
+INSERT INTO public.ccdd_ntp_status_override(
+  code,
+	status,
+	status_effective_time
+) SELECT
+  code,
+	status,
+	status_effective_time
+FROM public.ccdd_ntp_status_override_source;
+
+INSERT INTO public.ccdd_tm_status_override(
+  code,
+	status,
+	status_effective_time
+) SELECT
+  code,
+	status,
+	status_effective_time
+FROM public.ccdd_tm_status_override_source;
+
 
 DELETE FROM public.dpd_drug_ingredient_option WHERE dpd_drug_code IN (
 SELECT dpd_drug_code FROM (

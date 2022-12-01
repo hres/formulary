@@ -114,31 +114,6 @@ CREATE TABLE ccdd.mp_blacklist(
 );
 -- ddl-end --
 ALTER TABLE ccdd.mp_blacklist OWNER TO postgres;
---
-CREATE TABLE ccdd.ntp_deprecations(
-	code varchar NOT NULL,
-  status_effective_date date NOT NULL,
-	CONSTRAINT ntp_deprecations_pk PRIMARY KEY (code)
-
-);
--- ddl-end --
-ALTER TABLE ccdd.ntp_deprecations OWNER TO postgres;
---
-CREATE TABLE ccdd.tm_deprecations(
-	code varchar NOT NULL,
-	status_effective_time date NOT NULL,
-	CONSTRAINT tm_deprecations_pk PRIMARY KEY (code)
-);
--- ddl-end --
-ALTER TABLE ccdd.tm_deprecations OWNER TO postgres;
-
-CREATE TABLE ccdd.mp_deprecations(
-	mp_code varchar NOT NULL,
-	CONSTRAINT mp_deprecations_pk PRIMARY KEY (mp_code)
-
-);
--- ddl-end --
-ALTER TABLE ccdd.mp_deprecations OWNER TO postgres;
 
 CREATE TABLE ccdd.tm_filter(
 	tm_code varchar
@@ -153,3 +128,12 @@ CREATE TABLE ccdd.tm_groupings(
 );
 -- ddl-end --
 ALTER TABLE ccdd.tm_groupings OWNER TO postgres;
+
+CREATE TABLE ccdd.status_override(
+  ccdd_code varchar NOT NULL,
+	ccdd_type varchar NOT NULL,
+	status varchar NOT NULL CHECK (status IN ('Active', 'Inactive', 'Deprec')),
+	status_effective_time date NOT NULL
+);
+-- ddl-end --
+ALTER TABLE ccdd.status_override OWNER TO postgres;
