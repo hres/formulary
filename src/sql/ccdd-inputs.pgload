@@ -316,26 +316,3 @@ LOAD CSV
     fields terminated by ',',
     fields escaped by double-quote
 ;
-
-LOAD CSV
-  FROM ./test/ccdd-status-override-draft.csv
-    WITH ENCODING UTF-8
-    (
-      ccdd_code,
-      ccdd_type,
-      status,
-      status_effective_time
-    )
-  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.status_override
-    (
-      ccdd_code,
-      ccdd_type,
-      status,
-      status_effective_time
-    )
-  WITH
-    skip header = 1,
-    fields optionally enclosed by '"',
-    fields terminated by ',',
-    fields escaped by double-quote
-;
