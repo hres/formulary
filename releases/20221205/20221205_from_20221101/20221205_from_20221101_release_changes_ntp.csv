@@ -1,0 +1,15 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9001157,digoxin 0.25 mg oral tablet,"digoxine 0,25 mg comprimé oral","ntp_status_effective_time: ""20191103"" -> ""20221125"""
+9003751,acetylsalicylic acid 325 mg and citric acid 1000 mg and sodium bicarbonate 1700 mg effervescent oral tablet,acide acétylsalicylique 325 mg et acide citrique 1000 mg et bicarbonate de sodium 1700 mg comprimé oral effervescent,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20020910"" -> ""20210920"""
+9005400,tolnaftate 1 % cutaneous solution,tolnaftate 1 % solution pour application cutanée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19981009"" -> ""20221031"""
+9013756,alpha1-proteinase inhibitor human 1000 mg per vial powder for solution for injection with diluent solution,inhibiteur de l'alpha1-protéinase humain 1000 mg par fiole poudre pour solution injectable avec solution diluante,"ntp_formal_name: ""alf̲a̲ ̲1-proteinase inhibitor human 1000 mg per vial powder for solution for injection with diluent solution"" -> ""alp̲h̲a̲1-proteinase inhibitor human 1000 mg per vial powder for solution for injection with diluent solution""
+ntp_fr_description: ""inhibiteur de l'alpha ̲1-protéinase humain 1000 mg par fiole poudre pour solution injectable avec solution diluante"" -> ""inhibiteur de l'alpha1-protéinase humain 1000 mg par fiole poudre pour solution injectable avec solution diluante"""
+9014790,avacopan 10 mg oral capsule,avacopan 10 mg capsule orale,ADDED
+9014791,dequalinium chloride 0.5 % oromucosal spray,"chlorure de déqualinium 0,5 % vaporisation buccale",ADDED
+9014792,finerenone 10 mg oral tablet,finérénone 10 mg comprimé oral,ADDED
+9014793,finerenone 20 mg oral tablet,finérénone 20 mg comprimé oral,ADDED
+9014794,foscarnet sodium 6000 mg per 250 mL solution for injection bag,foscarnet sodique 6000 mg par 250 mL solution injectable sac,ADDED
+9014795,inclisiran (inclisiran sodium) 284 mg per 1.5 mL solution for injection syringe,"inclisiran (inclisiran sodique) 284 mg par 1,5 mL solution injectable seringue",ADDED
+9014796,maribavir 200 mg oral tablet,maribavir 200 mg comprimé oral,ADDED
