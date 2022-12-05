@@ -2766,7 +2766,8 @@ ALTER MATERIALIZED VIEW public.ccdd_special_groupings OWNER TO postgres;
 -- -- ddl-end --
 -- ALTER TABLE public.ccdd_config OWNER TO postgres;
 -- -- ddl-end --
---
+
+
 -- object: ccdd.mp_release_candidate | type: TABLE --
 -- DROP TABLE IF EXISTS ccdd.mp_release_candidate CASCADE;
 CREATE TABLE ccdd.mp_release_candidate(
@@ -2825,6 +2826,28 @@ CREATE TABLE ccdd.tm_release_candidate(
 ALTER TABLE ccdd.tm_release_candidate OWNER TO postgres;
 -- ddl-end --
 
+-- object: public.ccdd_mp_carry_forward | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_mp_carry_forward CASCADE;
+CREATE MATERIALIZED VIEW public.ccdd_mp_carry_forward
+AS
+
+SELECT
+	cur.mp_code,
+	cur.mp_formal_name,
+	cur.mp_en_description,
+	cur.mp_fr_description,
+	mpso.status AS mp_status,
+	to_char(mpso.status_effective_time, 'YYYYMMDD') AS mp_status_effective_time,
+	cur.mp_type,
+	cur."Health_Canada_identifier",
+	cur."Health_Canada_product_name"
+FROM public.ccdd_mp_status_override mpso
+INNER JOIN ccdd.mp_release_candidate cur ON (mpso.code = cur.mp_code)
+WHERE NOT EXISTS (SELECT * FROM public.ccdd_mp_table mpt WHERE mpt.mp_code = mpso.code);
+-- ddl-end --
+ALTER MATERIALIZED VIEW public.ccdd_mp_carry_forward OWNER TO postgres;
+-- ddl-end --
+
 -- object: public.ccdd_mp_release_candidate | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_mp_release_candidate CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_mp_release_candidate
@@ -2841,7 +2864,21 @@ SELECT
 	"Health_Canada_identifier",
 	"Health_Canada_product_name"
 FROM ccdd_mp_table
-WHERE tm_is_publishable = true;
+WHERE tm_is_publishable = true
+
+UNION ALL
+
+SELECT
+	mp_code,
+	mp_formal_name,
+	mp_en_description,
+	mp_fr_description,
+	mp_status,
+	mp_status_effective_time,
+	mp_type,
+	"Health_Canada_identifier",
+	"Health_Canada_product_name"
+FROM ccdd_mp_carry_forward;
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_mp_release_candidate OWNER TO postgres;
 -- ddl-end --
@@ -2979,6 +3016,25 @@ WHERE
 ALTER VIEW public.qa_release_changes_mp_release_candidate OWNER TO postgres;
 -- ddl-end --
 
+-- object: public.ccdd_ntp_carry_forward | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_ntp_carry_forward CASCADE;
+CREATE MATERIALIZED VIEW public.ccdd_ntp_carry_forward
+AS
+
+SELECT
+	cur.ntp_code,
+	cur.ntp_formal_name,
+	cur.ntp_fr_description,
+	ntpso.status AS ntp_status,
+	to_char(ntpso.status_effective_time, 'YYYYMMDD') AS ntp_status_effective_time,
+	cur.ntp_type
+FROM public.ccdd_ntp_status_override ntpso
+INNER JOIN ccdd.ntp_release_candidate cur ON (ntpso.code = cur.ntp_code)
+WHERE NOT EXISTS (SELECT * FROM public.ccdd_ntp_table ntpt WHERE ntpt.ntp_code = ntpso.code);
+-- ddl-end --
+ALTER MATERIALIZED VIEW public.ccdd_ntp_carry_forward OWNER TO postgres;
+-- ddl-end --
+
 -- object: public.ccdd_ntp_release_candidate | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_ntp_release_candidate CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_ntp_release_candidate
@@ -2992,7 +3048,18 @@ SELECT
 	ntp_status_effective_time,
 	ntp_type
 FROM ccdd_ntp_table
-WHERE tm_is_publishable = true;
+WHERE tm_is_publishable = true
+
+UNION ALL
+
+SELECT
+	ntp_code,
+	ntp_formal_name,
+	ntp_fr_description,
+	ntp_status,
+	ntp_status_effective_time,
+	ntp_type
+FROM ccdd_ntp_carry_forward;
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_ntp_release_candidate OWNER TO postgres;
 -- ddl-end --
@@ -3055,6 +3122,24 @@ WHERE
 ALTER VIEW public.qa_release_changes_ntp_release_candidate OWNER TO postgres;
 -- ddl-end --
 
+-- object: public.ccdd_tm_carry_forward | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_tm_carry_forward CASCADE;
+CREATE MATERIALIZED VIEW public.ccdd_tm_carry_forward
+AS
+
+SELECT
+	cur.tm_code,
+	cur.tm_formal_name,
+	cur.tm_fr_description,
+	tmso.status AS tm_status,
+	to_char(tmso.status_effective_time, 'YYYYMMDD') AS tm_status_effective_time
+FROM public.ccdd_tm_status_override tmso
+INNER JOIN ccdd.tm_release_candidate cur ON (tmso.code = cur.tm_code)
+WHERE NOT EXISTS (SELECT * FROM public.ccdd_tm_table tmt WHERE tmt.tm_code = tmso.code);
+-- ddl-end --
+ALTER MATERIALIZED VIEW public.ccdd_tm_carry_forward OWNER TO postgres;
+-- ddl-end --
+
 -- object: public.ccdd_tm_release_candidate | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_tm_release_candidate CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_tm_release_candidate
@@ -3068,7 +3153,18 @@ SELECT
 	tm_status_effective_time
 FROM
 	ccdd_tm_table
-WHERE tm_is_publishable = true;
+WHERE tm_is_publishable = true
+
+UNION ALL
+
+SELECT
+	tm_code,
+	tm_formal_name,
+	tm_fr_description,
+	tm_status,
+	tm_status_effective_time
+FROM
+	ccdd_tm_carry_forward;
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_tm_release_candidate OWNER TO postgres;
 -- ddl-end --
@@ -3191,12 +3287,35 @@ WHERE
 ALTER VIEW public.qa_release_changes_tm_release_candidate OWNER TO postgres;
 -- ddl-end --
 
+-- object: public.ccdd_mp_ntp_tm_relationship_carry_forward | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_mp_ntp_tm_relationship_carry_forward CASCADE;
+CREATE MATERIALIZED VIEW public.ccdd_mp_ntp_tm_relationship_carry_forward
+AS
+
+select
+	cur.mp_code,
+	cur.mp_formal_name,
+	cur_fr.mp_fr_description,
+	cur.ntp_code,
+	cur.ntp_formal_name,
+	cur_fr.ntp_fr_description,
+	cur.tm_code,
+	cur.tm_formal_name,
+	cur_fr.tm_fr_description
+FROM
+	ccdd.mp_ntp_tm_relationship_release_candidate cur
+	LEFT JOIN ccdd.mp_ntp_tm_relationship_release_candidate_fr cur_fr ON (cur.mp_code = cur_fr.mp_code)
+	INNER JOIN public.ccdd_mp_carry_forward mpcf ON (cur.mp_code = mpcf.mp_code);
+-- ddl-end --
+ALTER MATERIALIZED VIEW public.ccdd_mp_ntp_tm_relationship_carry_forward OWNER TO postgres;
+-- ddl-end --
+
 -- object: public.ccdd_mp_ntp_tm_relationship_release_candidate | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_mp_ntp_tm_relationship_release_candidate CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_mp_ntp_tm_relationship_release_candidate
 AS
 
-select
+SELECT
 	mp_code,
 	mp_formal_name,
 	mp_fr_description,
@@ -3208,7 +3327,22 @@ select
 	tm_fr_description
 FROM
 	ccdd_mp_ntp_tm_relationship
-WHERE tm_is_publishable = true;
+WHERE tm_is_publishable = true
+
+UNION ALL
+
+SELECT
+	mp_code,
+	mp_formal_name,
+	mp_fr_description,
+	ntp_code,
+	ntp_formal_name,
+	ntp_fr_description,
+	tm_code,
+	tm_formal_name,
+	tm_fr_description
+FROM
+	public.ccdd_mp_ntp_tm_relationship_carry_forward;
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_mp_ntp_tm_relationship_release_candidate OWNER TO postgres;
 -- ddl-end --

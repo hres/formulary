@@ -360,6 +360,11 @@ REFRESH MATERIALIZED VIEW ccdd_mp_ntp_tm_relationship;
 REFRESH MATERIALIZED VIEW ccdd_mp_special_groupings;
 REFRESH MATERIALIZED VIEW ccdd_special_groupings;
 
+REFRESH MATERIALIZED VIEW ccdd_mp_carry_forward;
+REFRESH MATERIALIZED VIEW ccdd_ntp_carry_forward;
+REFRESH MATERIALIZED VIEW ccdd_tm_carry_forward;
+REFRESH MATERIALIZED VIEW ccdd_mp_ntp_tm_relationship_carry_forward;
+
 REFRESH MATERIALIZED VIEW ccdd_mp_release_candidate;
 REFRESH MATERIALIZED VIEW ccdd_ntp_release_candidate;
 REFRESH MATERIALIZED VIEW ccdd_tm_release_candidate;
