@@ -1,4 +1,4 @@
-code,formal_name,formal_name_fr
+"code","formal_name","formal_name_fr"
 "8000001","levothyroxine","lévothyroxine"
 "8000003","epinephrine","épinéphrine"
 "8000004","phenytoin sodium","phénytoïne sodique"
@@ -1593,7 +1593,7 @@ code,formal_name,formal_name_fr
 "8002211","scopolamine hydrobromide","bromhydrate de scopolamine"
 "8002212","sodium aurothiomalate","aurothiomalate de sodium"
 "8002213","telotristat","télotristat"
-"8002214","alfa 1-proteinase inhibitor human","inhibiteur de l'alfa 1-protéinase humaine"
+"8002214","alpha1-proteinase inhibitor human","inhibiteur de l'alpha1-protéinase humaine"
 "8002215","amphotericin B","amphotéricine B"
 "8002216","amylmetacresol and dichlorobenzyl alcohol and levomenthol","amylmétacrésol et alcool dichlorobenzylique et lévomenthol"
 "8002217","anti-thymocyte immunoglobulin equine","sérum antithymocyte équin"
@@ -1810,3 +1810,7 @@ code,formal_name,formal_name_fr
 "8002443","famtozinameran and tozinameran","famtozinaméran et tozinaméran"
 "8002444","inclisiran","inclisiran"
 "8002445","tezepelumab","tézépélumab"
+"8002446","avacopan","avacopan"
+"8002447","finerenone","finérénone"
+"8002448","foscarnet","foscarnet"
+"8002449","maribavir","maribavir"
