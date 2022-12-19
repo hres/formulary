@@ -432,26 +432,26 @@ CREATE TABLE public.dpd_drug_route(
 ALTER TABLE public.dpd_drug_route OWNER TO postgres;
 -- ddl-end --
 
--- object: ccdd.mp_whitelist | type: TABLE --
--- DROP TABLE IF EXISTS ccdd.mp_whitelist CASCADE;
-CREATE TABLE ccdd.mp_whitelist(
+-- object: ccdd.mp_inclusion_list | type: TABLE --
+-- DROP TABLE IF EXISTS ccdd.mp_inclusion_list CASCADE;
+CREATE TABLE ccdd.mp_inclusion_list(
 	drug_code varchar NOT NULL,
-	CONSTRAINT mp_whitelist_pk PRIMARY KEY (drug_code)
+	CONSTRAINT mp_inclusion_list_pk PRIMARY KEY (drug_code)
 
 );
 -- ddl-end --
-ALTER TABLE ccdd.mp_whitelist OWNER TO postgres;
+ALTER TABLE ccdd.mp_inclusion_list OWNER TO postgres;
 -- ddl-end --
 
--- object: ccdd.mp_blacklist | type: TABLE --
--- DROP TABLE IF EXISTS ccdd.mp_blacklist CASCADE;
-CREATE TABLE ccdd.mp_blacklist(
+-- object: ccdd.mp_exclusion_list | type: TABLE --
+-- DROP TABLE IF EXISTS ccdd.mp_exclusion_list CASCADE;
+CREATE TABLE ccdd.mp_exclusion_list(
 	drug_code varchar NOT NULL,
-	CONSTRAINT mp_blacklist_pk PRIMARY KEY (drug_code)
+	CONSTRAINT mp_exclusion_list_pk PRIMARY KEY (drug_code)
 
 );
 -- ddl-end --
-ALTER TABLE ccdd.mp_blacklist OWNER TO postgres;
+ALTER TABLE ccdd.mp_exclusion_list OWNER TO postgres;
 -- ddl-end --
 
 -- object: public.dpd_drug_form | type: TABLE --
@@ -505,9 +505,9 @@ OR
 	cs.status = 'MARKETED'
 )
 OR
-EXISTS(select * from ccdd.mp_whitelist wl where wl.drug_code = CAST(dp.drug_code as varchar))
+EXISTS(select * from ccdd.mp_inclusion_list incl where incl.drug_code = CAST(dp.drug_code as varchar))
 )
-AND NOT EXISTS(SELECT * FROM ccdd.mp_blacklist bl WHERE bl.drug_code = CAST(dp.drug_code as varchar));
+AND NOT EXISTS(SELECT * FROM ccdd.mp_exclusion_list excl WHERE excl.drug_code = CAST(dp.drug_code as varchar));
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.dpd_drug_source OWNER TO postgres;
 -- ddl-end --
