@@ -98,22 +98,22 @@ CREATE TABLE ccdd.pseudodin_map(
 -- ddl-end --
 ALTER TABLE ccdd.pseudodin_map OWNER TO postgres;
 --
-CREATE TABLE ccdd.mp_whitelist(
+CREATE TABLE ccdd.mp_inclusion_list(
 	drug_code varchar NOT NULL,
-	CONSTRAINT mp_whitelist_pk PRIMARY KEY (drug_code)
+	CONSTRAINT mp_inclusion_list_pk PRIMARY KEY (drug_code)
 
 );
 -- ddl-end --
-ALTER TABLE ccdd.mp_whitelist OWNER TO postgres;
+ALTER TABLE ccdd.mp_inclusion_list OWNER TO postgres;
 -- -- ddl-end --
 --
-CREATE TABLE ccdd.mp_blacklist(
+CREATE TABLE ccdd.mp_exclusion_list(
 	drug_code varchar NOT NULL,
-	CONSTRAINT mp_blacklist_pk PRIMARY KEY (drug_code)
+	CONSTRAINT mp_exclusion_list_pk PRIMARY KEY (drug_code)
 
 );
 -- ddl-end --
-ALTER TABLE ccdd.mp_blacklist OWNER TO postgres;
+ALTER TABLE ccdd.mp_exclusion_list OWNER TO postgres;
 
 CREATE TABLE ccdd.tm_filter(
 	tm_code varchar
