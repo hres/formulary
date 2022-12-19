@@ -1,0 +1,33 @@
+ntp_code,ntp_formal_name,changes
+0046f068b7ffc351fe2ed6aad9477050,somatropin 15 mg per 1.5 mL solution for injection,ADDED
+045620306c24bad533575054bc56caae,chlorthalidone 12.5 mg oral tablet,ADDED
+09f7d40e5b7375567f80fe85464c3d70,tafamidis 61 mg oral capsule,ADDED
+0a1f427f89fe78164052dcea2c5abad2,risankizumab 60 mg per mL solution for injection,ADDED
+25a36005cdff6705806bec949f891d55,somatropin 10 mg per 1.5 mL solution for injection,ADDED
+363884f1527b52603a3a711064aa447e,nirmatrelvir 150 mg and ritonavir 100 mg oral tablet,ADDED
+38610da137d5face156f31abaae98be0,desipramine hydrochloride 50 mg oral tablet,ADDED
+70fe112b73c68ce7921420b243a4291d,somatropin 5 mg per 1.5 mL solution for injection,ADDED
+86741cc2c38ebfac0af4a6a865b80407,desipramine hydrochloride 100 mg oral tablet,ADDED
+8acc1a6bec6642bae5167b39ed1ccd9d,desipramine hydrochloride 10 mg oral tablet,ADDED
+9000227,metoprolol tartrate 100 mg prolonged-release oral tablet,"ntp_status_effective_time: ""19851231"" -> ""20070730"""
+9000719,betamethasone (betamethasone sodium phosphate) 5 mg per 100 mL rectal liquid,DELETED
+9000880,diazepam 20 mg per 4 mL rectal gel tube,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9000881,diazepam 2.5 mg per 0.5 mL rectal gel tube,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9000883,diazepam 7.5 mg per 1.5 mL rectal gel tube,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220601"" -> ""20000128"""
+9002119,trifluridine 1 % ophthalmic drops,"ntp_status_effective_time: ""20201008"" -> ""20221213"""
+9003015,desipramine (desipramine hydrochloride) 100 mg oral tablet,DELETED
+9003016,desipramine (desipramine hydrochloride) 10 mg oral tablet,DELETED
+9003017,desipramine (desipramine hydrochloride) 25 mg oral tablet,DELETED
+9003018,desipramine (desipramine hydrochloride) 50 mg oral tablet,DELETED
+9003019,desipramine (desipramine hydrochloride) 75 mg oral tablet,DELETED
+9003857,atazanavir (atazanavir sulfate) 150 mg oral capsule,"ntp_status_effective_time: ""20040109"" -> ""20170418"""
+9009352,estradiol 0.5 mg oral tablet,"ntp_status_effective_time: ""19970710"" -> ""20160229"""
+9009354,estradiol 1 mg oral tablet,"ntp_status_effective_time: ""19951231"" -> ""20160229"""
+9009357,estradiol 2 mg oral tablet,"ntp_status_effective_time: ""19951231"" -> ""20160229"""
+9014780,insulin aspart 100 unit per mL solution for injection,ADDED
+9cf8c7d620509759d0d2016c51c440d8,desipramine hydrochloride 75 mg oral tablet,ADDED
+aa8fe30378336bb50b76d4455a7db6c8,chlorthalidone 25 mg oral tablet,ADDED
+ebcb4d7305f92bf8d8edc753d728c577,desipramine hydrochloride 25 mg oral tablet,ADDED
