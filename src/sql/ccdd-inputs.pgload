@@ -222,12 +222,12 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM ./test/ccdd-mp-whitelist-draft.csv
+  FROM ./test/ccdd-mp-inclusion-list-draft.csv
     WITH ENCODING UTF-8
     (
       drug_code
     )
-  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.mp_whitelist
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.mp_inclusion_list
     (
       drug_code
     )
@@ -239,13 +239,13 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM /home/cyanofsky/git/formulary/src/pgloaded/ccdd-mp-blacklist-draft.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/ccdd-mp-exclusion-list-draft.csv
 
     WITH ENCODING UTF-8
     (
       drug_code
     )
-  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.mp_blacklist
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.mp_exclusion_list
     (
       drug_code
     )
