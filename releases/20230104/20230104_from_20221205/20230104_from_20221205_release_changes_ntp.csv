@@ -1,0 +1,27 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9000719,betamethasone (betamethasone sodium phosphate) 5 mg per 100 mL rectal liquid,bétaméthasone (phosphate sodique de bétaméthasone) 5 mg par 100 mL liquide rectal,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19970401"" -> ""20220627"""
+9002119,trifluridine 1 % ophthalmic drops,trifluridine 1 % gouttes ophtalmiques,"ntp_status_effective_time: ""20201008"" -> ""20221213"""
+9002481,mupirocin 2 % cutaneous ointment,mupirocine 2 % pommade cutanée,"ntp_status_effective_time: ""20060710"" -> ""19921231"""
+9003015,desipramine (desipramine hydrochloride) 100 mg oral tablet,désipramine (chlorhydrate de désipramine) 100 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""19961231"" -> ""20230103"""
+9003016,desipramine (desipramine hydrochloride) 10 mg oral tablet,désipramine (chlorhydrate de désipramine) 10 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""19961231"" -> ""20230103"""
+9003017,desipramine (desipramine hydrochloride) 25 mg oral tablet,désipramine (chlorhydrate de désipramine) 25 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""19961231"" -> ""20230103"""
+9003018,desipramine (desipramine hydrochloride) 50 mg oral tablet,désipramine (chlorhydrate de désipramine) 50 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""19961231"" -> ""20230103"""
+9003019,desipramine (desipramine hydrochloride) 75 mg oral tablet,désipramine (chlorhydrate de désipramine) 75 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""19961231"" -> ""20230103"""
+9013266,arsenic trioxide 10 mg per 10 mL solution for injection ampoule,trioxyde d'arsénic 10 mg par 10 mL solution injectable ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20130909"" -> ""20221216"""
+9014800,chlorthalidone 12.5 mg oral tablet,"chlorthalidone 12,5 mg comprimé oral",ADDED
+9014801,chlorthalidone 25 mg oral tablet,chlorthalidone 25 mg comprimé oral,ADDED
+9014804,desipramine hydrochloride 10 mg oral tablet,chlorhydrate de désipramine 10 mg comprimé oral,ADDED
+9014805,desipramine hydrochloride 100 mg oral tablet,chlorhydrate de désipramine 100 mg comprimé oral,ADDED
+9014806,desipramine hydrochloride 25 mg oral tablet,chlorhydrate de désipramine 25 mg comprimé oral,ADDED
+9014807,desipramine hydrochloride 50 mg oral tablet,chlorhydrate de désipramine 50 mg comprimé oral,ADDED
+9014808,desipramine hydrochloride 75 mg oral tablet,chlorhydrate de désipramine 75 mg comprimé oral,ADDED
+9014812,risankizumab 600 mg per 10 mL solution for injection vial,risankizumab 600 mg par 10 mL solution injectable fiole,ADDED
+9014813,tafamidis 61 mg oral capsule,tafamidis 61 mg capsule orale,ADDED
+9014816,white petrolatum 70.3 % cutaneous ointment,"pétrolatum blanc 70,3 % pommade cutanée",ADDED

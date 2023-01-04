@@ -1,0 +1,5 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8001539,trifluridine,trifluridine,"tm_status_effective_time: ""20201008"" -> ""20221213"""
+8000866,mupirocin,mupirocine,"tm_status_effective_time: ""19990413"" -> ""19921231"""
+8000053,betamethasone (base),bétaméthasone (base),"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19970401"" -> ""20220627"""
