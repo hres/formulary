@@ -1,0 +1,35 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9000719,betamethasone (betamethasone sodium phosphate) 5 mg per 100 mL rectal liquid,bétaméthasone (phosphate sodique de bétaméthasone) 5 mg par 100 mL liquide rectal,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19970401"" -> ""20220627"""
+9002119,trifluridine 1 % ophthalmic drops,trifluridine 1 % gouttes ophtalmiques,"ntp_status_effective_time: ""20201008"" -> ""20221213"""
+9002481,mupirocin 2 % cutaneous ointment,mupirocine 2 % pommade cutanée,"ntp_status_effective_time: ""20060710"" -> ""19921231"""
+9003015,desipramine (desipramine hydrochloride) 100 mg oral tablet,désipramine (chlorhydrate de désipramine) 100 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""19961231"" -> ""20230103"""
+9003016,desipramine (desipramine hydrochloride) 10 mg oral tablet,désipramine (chlorhydrate de désipramine) 10 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""19961231"" -> ""20230103"""
+9003017,desipramine (desipramine hydrochloride) 25 mg oral tablet,désipramine (chlorhydrate de désipramine) 25 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""19961231"" -> ""20230103"""
+9003018,desipramine (desipramine hydrochloride) 50 mg oral tablet,désipramine (chlorhydrate de désipramine) 50 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""19961231"" -> ""20230103"""
+9003019,desipramine (desipramine hydrochloride) 75 mg oral tablet,désipramine (chlorhydrate de désipramine) 75 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""19961231"" -> ""20230103"""
+9013266,arsenic trioxide 10 mg per 10 mL solution for injection ampoule,trioxyde d'arsénic 10 mg par 10 mL solution injectable ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20130909"" -> ""20221216"""
+9014797,benzyl alcohol 10 % and lidocaine hydrochloride 4 % cutaneous cream,alcool benzylique 10 % et chlorhydrate de lidocaïne 4 % crème cutanée,ADDED
+9014798,benzyl alcohol 10 % and lidocaine hydrochloride 4 % cutaneous solution,alcool benzylique 10 % et chlorhydrate de lidocaïne 4 % solution pour application cutanée,ADDED
+9014799,chlormethine (chlormethine hydrochloride) 160 mcg per g cutaneous gel,chlorméthine (chlorhydrate de chlorméthine) 160 mcg par g gel cutané,ADDED
+9014800,chlorthalidone 12.5 mg oral tablet,"chlorthalidone 12,5 mg comprimé oral",ADDED
+9014801,chlorthalidone 25 mg oral tablet,chlorthalidone 25 mg comprimé oral,ADDED
+9014804,desipramine hydrochloride 10 mg oral tablet,chlorhydrate de désipramine 10 mg comprimé oral,ADDED
+9014805,desipramine hydrochloride 100 mg oral tablet,chlorhydrate de désipramine 100 mg comprimé oral,ADDED
+9014806,desipramine hydrochloride 25 mg oral tablet,chlorhydrate de désipramine 25 mg comprimé oral,ADDED
+9014807,desipramine hydrochloride 50 mg oral tablet,chlorhydrate de désipramine 50 mg comprimé oral,ADDED
+9014808,desipramine hydrochloride 75 mg oral tablet,chlorhydrate de désipramine 75 mg comprimé oral,ADDED
+9014809,diamorphine hydrochloride 200 mg per vial powder for solution for injection,chlorhydrate de diamorphine 200 mg par fiole poudre pour solution injectable,ADDED
+9014810,diamorphine hydrochloride 5000 mg per vial powder for solution for injection,chlorhydrate de diamorphine 5000 mg par fiole poudre pour solution injectable,ADDED
+9014811,elasomeran 0.05 mg per mL and imelasomeran 0.05 mg per mL dispersion for injection 2.5 mL vial,"élasoméran 0,05 mg par mL et imélasoméran 0,05 mg par mL dispersion injectable 2,5 mL fiole",ADDED
+9014812,risankizumab 600 mg per 10 mL solution for injection vial,risankizumab 600 mg par 10 mL solution injectable fiole,ADDED
+9014813,tafamidis 61 mg oral capsule,tafamidis 61 mg capsule orale,ADDED
+9014814,tecovirimat 200 mg oral capsule,técovirimat 200 mg capsule orale,ADDED
+9014815,treosulfan 5 g per vial powder for solution for injection,tréosulfan 5 g par fiole poudre pour solution injectable,ADDED
+9014816,white petrolatum 70.3 % cutaneous ointment,"pétrolatum blanc 70,3 % pommade cutanée",ADDED
