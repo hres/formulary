@@ -848,7 +848,6 @@ ntp_code,ntp_formal_name,ntp_en_description,ntp_fr_description,ntp_status,ntp_st
 "9000429","medroxyprogesterone acetate 2.5 mg oral tablet","NA","acétate de médroxyprogestérone 2,5 mg comprimé oral","Active","19921231","NA"
 "9002497","vancomycin (vancomycin hydrochloride) 1 g per vial powder for solution for injection","NA","vancomycine (chlorhydrate de vancomycine) 1 g par fiole poudre pour solution injectable","Active","19921231","NA"
 "9000410","clobetasol propionate 0.05 % cutaneous cream","NA","propionate de clobétasol 0,05 % crème cutanée","Active","19921231","NA"
-"9002481","mupirocin 2 % cutaneous ointment","NA","mupirocine 2 % pommade cutanée","Active","19921231","NA"
 "9002480","moclobemide 150 mg oral tablet","NA","moclobémide 150 mg comprimé oral","Active","19921231","NA"
 "9013249","zinc (zinc sulfate) 50 mg per 10 mL solution for injection vial","NA","zinc (sulfate de zinc) 50 mg par 10 mL solution injectable fiole","Active","19921231","NA"
 "9013120","filgrastim 300 mcg per 1 mL solution for injection vial","NA","filgrastim 300 mcg par 1 mL solution injectable fiole","Active","19921231","NA"
@@ -4811,3 +4810,4 @@ ntp_code,ntp_formal_name,ntp_en_description,ntp_fr_description,ntp_status,ntp_st
 "9002743","bacillus Calmette-Guérin substrain TICE 800000000 unit per vial powder for solution for injection","NA","bacille de Calmette-Guérin sous-souche TICE 800000000 unité par fiole poudre pour solution injectable","Deprec","20210301","NA"
 "9014414","tozinameran 30 mcg per 0.3 mL suspension for injection 1.5 mL vial","NA","tozinaméran 30 mcg par 0,3 mL suspension injectable 1,5 mL fiole","Deprec","20210301","NA"
 "9014601","ivacaftor 25 mg per sachet granules for oral suspension","NA","ivacaftor 25 mg par sachet granulés pour suspension orale","Deprec","20220601","NA"
+"9002481","mupirocin 2 % cutaneous ointment","NA","mupirocine 2 % pommade cutanée","Active","20060710","NA"
