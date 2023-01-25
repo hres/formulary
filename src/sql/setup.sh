@@ -88,8 +88,8 @@ psql -c "copy (select
                mp_type,
                \"Health_Canada_identifier\",
                \"Health_Canada_product_name\" FROM ccdd_mp_release_candidate)
-))
                to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/mp_release_candidate_${ccdd_current_date}.csv"
+               
 psql -c "copy (select
                  ntp_code,
                  ntp_formal_name,
