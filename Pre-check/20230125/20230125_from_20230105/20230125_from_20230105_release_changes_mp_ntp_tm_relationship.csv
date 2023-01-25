@@ -1,0 +1,57 @@
+drug_code,mp_code,mp_formal_name,changes
+9820,00210889,REFRESH LACRI-LUBE (mineral oil heavy 42.5 % and white petrolatum 57.3 % ophthalmic ointment) ABBVIE CORPORATION,"mp_formal_name: ""REFRESH LACRI-LUBE (mineral oil heavy 42.5 % and white petrolatum 57.3 % ophthalmic ointment) AL̲L̲E̲R̲G̲A̲N̲ ̲I̲N̲C̲"" -> ""REFRESH LACRI-LUBE (mineral oil heavy 42.5 % and white petrolatum 57.3 % ophthalmic ointment) AB̲B̲V̲I̲E̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"""
+18552,02132699,COLESTID ORANGE GRANULES (colestipol hydrochloride 5 g per sachet granules for oral suspension) PFIZER CANADA ULC,DELETED
+18742,02148382,MINIMS CYCLOPENTOLATE HYDROCHLORIDE (cyclopentolate hydrochloride 1 % ophthalmic drops) BAUSCH & LOMB INC,"mp_formal_name: ""MINIMS CYCLOPENTOLATE HYDROCHLORIDE (cyclopentolate hydrochloride 1 % ophthalmic drops) BAUSCH H̲E̲A̲L̲T̲H̲,̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"" -> ""MINIMS CYCLOPENTOLATE HYDROCHLORIDE (cyclopentolate hydrochloride 1 % ophthalmic drops) BAUSCH &̲ ̲L̲O̲M̲B̲ ̲I̲N̲C̲"""
+36721,02208164,SBS 40 MEDICATED SKIN CREAM (allantoin 0.2 % and chloroxylenol 0.2 % cutaneous cream) DEB CANADA,DELETED
+50695,02231384,FEMARA (letrozole 2.5 mg oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC,"mp_formal_name: ""FEMARA ̲2̲.̲5̲M̲G̲ (letrozole 2.5 mg oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC"" -> ""FEMARA (letrozole 2.5 mg oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC"""
+62089,02238660,ZOMIG (zolmitriptan 2.5 mg oral tablet) XEDITON PHARMACEUTICALS INC,"mp_formal_name: ""ZOMIG (zolmitriptan 2.5 mg oral tablet) A̲S̲T̲R̲A̲Z̲E̲N̲E̲C̲A̲ ̲C̲A̲N̲A̲D̲A̲ INC"" -> ""ZOMIG (zolmitriptan 2.5 mg oral tablet) X̲E̲D̲I̲T̲O̲N̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ INC"""
+62649,02239193,HEPTOVIR (lamivudine 100 mg oral tablet) GLAXOSMITHKLINE INC,DELETED
+66907,02243045,ZOMIG RAPIMELT (zolmitriptan 2.5 mg orodispersible tablet) XEDITON PHARMACEUTICALS INC,"mp_formal_name: ""ZOMIG RAPIMELT (zolmitriptan 2.5 mg orodispersible tablet) A̲S̲T̲R̲A̲Z̲E̲N̲E̲C̲A̲ ̲C̲A̲N̲A̲D̲A̲ INC"" -> ""ZOMIG RAPIMELT (zolmitriptan 2.5 mg orodispersible tablet) X̲E̲D̲I̲T̲O̲N̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ INC"""
+67912,02243969,"DIMETAPP DM COUGH & COLD (brompheniramine maleate 2 mg per 5 mL and dextromethorphan hydrobromide 10 mg per 5 mL and phenylephrine hydrochloride 5 mg per 5 mL oral solution) FOUNDATION CONSUMER BRANDS, LLC",DELETED
+67924,02243980,"DIMETAPP (brompheniramine maleate 2 mg per 5 mL and phenylephrine hydrochloride 5 mg per 5 mL oral solution) FOUNDATION CONSUMER BRANDS, LLC",DELETED
+68031,02244078,"DIMETAPP-C (brompheniramine maleate 2 mg per 5 mL and codeine phosphate 10 mg per 5 mL and phenylephrine hydrochloride 5 mg per 5 mL syrup) FOUNDATION CONSUMER BRANDS, LLC",DELETED
+69079,02245075,"DIMETAPP EXTRA STRENGTH (brompheniramine maleate 4 mg per 5 mL and phenylephrine hydrochloride 10 mg per 5 mL oral solution) FOUNDATION CONSUMER BRANDS, LLC",DELETED
+69080,02245076,"DIMETAPP EXTRA STRENGTH DM COUGH & COLD (brompheniramine maleate 4 mg per 5 mL and dextromethorphan hydrobromide 20 mg per 5 mL and phenylephrine hydrochloride 10 mg per 5 mL oral solution) FOUNDATION CONSUMER BRANDS, LLC",DELETED
+72399,02248077,PEGASYS (interferon alfa-2a (peginterferon alfa-2a) 180 mcg per 0.5 mL solution for injection syringe) ZR PHARMA& GMBH,"mp_formal_name: ""PEGASYS (interferon alfa-2a (peginterferon alfa-2a) 180 mcg per 0.5 mL solution for injection syringe) H̲O̲F̲F̲M̲A̲N̲N̲-̲L̲A̲ ̲R̲O̲C̲H̲E̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""PEGASYS (interferon alfa-2a (peginterferon alfa-2a) 180 mcg per 0.5 mL solution for injection syringe) Z̲R̲ ̲P̲H̲A̲R̲M̲A̲&̲ ̲G̲M̲B̲H̲"""
+73377,02248992,ZOMIG NASAL SPRAY (zolmitriptan 2.5 mg per actuation nasal spray) XEDITON PHARMACEUTICALS INC,"mp_formal_name: ""ZOMIG NASAL SPRAY (zolmitriptan 2.5 mg per actuation nasal spray) A̲S̲T̲R̲A̲Z̲E̲N̲E̲C̲A̲ ̲C̲A̲N̲A̲D̲A̲ INC"" -> ""ZOMIG NASAL SPRAY (zolmitriptan 2.5 mg per actuation nasal spray) X̲E̲D̲I̲T̲O̲N̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ INC"""
+73378,02248993,ZOMIG NASAL SPRAY (zolmitriptan 5 mg per actuation nasal spray) XEDITON PHARMACEUTICALS INC,"mp_formal_name: ""ZOMIG NASAL SPRAY (zolmitriptan 5 mg per actuation nasal spray) A̲S̲T̲R̲A̲Z̲E̲N̲E̲C̲A̲ ̲C̲A̲N̲A̲D̲A̲ INC"" -> ""ZOMIG NASAL SPRAY (zolmitriptan 5 mg per actuation nasal spray) X̲E̲D̲I̲T̲O̲N̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ INC"""
+78323,02297906,SANDOZ PIOGLITAZONE (pioglitazone (pioglitazone hydrochloride) 15 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+78325,02297922,SANDOZ PIOGLITAZONE (pioglitazone (pioglitazone hydrochloride) 45 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+78871,02303396,SANDOZ METOPROLOL SR (metoprolol tartrate 100 mg prolonged-release oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+80140,02315890,REFRESH EYE ALLERGY RELIEF (antazoline phosphate 0.51 % and naphazoline hydrochloride 0.051 % ophthalmic drops) ABBVIE CORPORATION,"mp_formal_name: ""REFRESH EYE ALLERGY RELIEF (antazoline phosphate 0.51 % and naphazoline hydrochloride 0.051 % ophthalmic drops) AL̲L̲E̲R̲G̲A̲N̲ ̲I̲N̲C̲"" -> ""REFRESH EYE ALLERGY RELIEF (antazoline phosphate 0.51 % and naphazoline hydrochloride 0.051 % ophthalmic drops) AB̲B̲V̲I̲E̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"""
+83209,02346672,RELAXA (polyethylene glycol 3350 100 % powder for oral solution) MEDEXUS INC,"mp_formal_name: ""RELAXA (polyethylene glycol 3350 100 % powder for oral solution) MEDEXUS P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲INC"" -> ""RELAXA (polyethylene glycol 3350 100 % powder for oral solution) MEDEXUS INC"""
+84685,02361809,BYETTA (exenatide 5 mcg per actuation solution for injection pre-filled pen) ASTRAZENECA CANADA INC,DELETED
+89045,02405687,JAMP-SILDENAFIL (sildenafil (sildenafil citrate) 100 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+90912,02424444,SANDOZ DUTASTERIDE (dutasteride 0.5 mg oral capsule) SANDOZ CANADA INCORPORATED,"mp_formal_name: ""SANDOZ DUTASTERIDE̲ ̲C̲A̲P̲S̲U̲L̲E (dutasteride 0.5 mg oral capsule) SANDOZ CANADA INCORPORATED"" -> ""SANDOZ DUTASTERIDE (dutasteride 0.5 mg oral capsule) SANDOZ CANADA INCORPORATED"""
+91523,02430797,TOPIRAMATE TABLETS USP (topiramate 25 mg oral tablet) ACCORD HEALTHCARE INC,DELETED
+91524,02430800,TOPIRAMATE TABLETS USP (topiramate 100 mg oral tablet) ACCORD HEALTHCARE INC,DELETED
+91525,02430819,TOPIRAMATE TABLETS USP (topiramate 200 mg oral tablet) ACCORD HEALTHCARE INC,DELETED
+92001,02435675,APO-VARENICLINE (varenicline (varenicline tartrate) 0.5 mg oral tablet with varenicline (varenicline tartrate) 1 mg oral tablet) APOTEX INC,DELETED
+92311,02438712,EGRIFTA (tesamorelin (tesamorelin acetate) 1 mg per vial powder for solution for injection with diluent solution) THERATECHNOLOGIES INC,DELETED
+97200,02481553,XERMELO (telotristat ethyl (telotristat etiprate) 250 mg oral tablet) SERB SAS,"mp_formal_name: ""XERMELO (telotristat ethyl (telotristat etiprate) 250 mg oral tablet) I̲P̲S̲E̲N̲ ̲B̲I̲O̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""XERMELO (telotristat ethyl (telotristat etiprate) 250 mg oral tablet) S̲E̲R̲B̲ ̲S̲A̲S̲"""
+97367,02483238,PRIVA-PERINDOPRIL ERBUMINE (perindopril erbumine 2 mg oral tablet) NORA PHARMA INC,DELETED
+97368,02483246,PRIVA-PERINDOPRIL ERBUMINE (perindopril erbumine 4 mg oral tablet) NORA PHARMA INC,DELETED
+97697,02486806,AURO-APIXABAN (apixaban 2.5 mg oral tablet) AURO PHARMA INC,ADDED
+97698,02486814,AURO-APIXABAN (apixaban 5 mg oral tablet) AURO PHARMA INC,ADDED
+98443,02494418,AG-METFORMIN (metformin hydrochloride 500 mg oral tablet) ANGITA PHARMA INC.,ADDED
+98445,02494442,AG-METFORMIN (metformin hydrochloride 850 mg oral tablet) ANGITA PHARMA INC.,ADDED
+98718,02497352,MAR-OSELTAMIVIR (oseltamivir (oseltamivir phosphate) 30 mg oral capsule) MARCAN PHARMACEUTICALS INC,DELETED
+98719,02497360,MAR-OSELTAMIVIR (oseltamivir (oseltamivir phosphate) 45 mg oral capsule) MARCAN PHARMACEUTICALS INC,DELETED
+98720,02497379,MAR-OSELTAMIVIR (oseltamivir (oseltamivir phosphate) 75 mg oral capsule) MARCAN PHARMACEUTICALS INC,DELETED
+99341,02503956,SANDOZ SITAGLIPTIN-METFORMIN (metformin hydrochloride 500 mg and sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+99342,02503964,SANDOZ SITAGLIPTIN-METFORMIN (metformin hydrochloride 850 mg and sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+99343,02503972,SANDOZ SITAGLIPTIN-METFORMIN (metformin hydrochloride 1000 mg and sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+99350,02504049,SANDOZ SITAGLIPTIN (sitagliptin (sitagliptin phosphate monohydrate) 25 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+99351,02504057,SANDOZ SITAGLIPTIN (sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+99352,02504065,SANDOZ SITAGLIPTIN (sitagliptin (sitagliptin phosphate monohydrate) 100 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+101109,02521911,PADCEV (enfortumab vedotin 30 mg per vial powder for solution for injection) SEAGEN INC.,ADDED
+101126,02522101,NAT-MONTELUKAST (montelukast (montelukast sodium) 4 mg chewable tablet) NATCO PHARMA (CANADA) INC,ADDED
+101127,02522128,NAT-MONTELUKAST (montelukast (montelukast sodium) 5 mg chewable tablet) NATCO PHARMA (CANADA) INC,ADDED
+101128,02522136,NAT-MONTELUKAST (montelukast (montelukast sodium) 10 mg oral tablet) NATCO PHARMA (CANADA) INC,ADDED
+101314,02524104,AURO-APREMILAST (apremilast 30 mg oral tablet) AURO PHARMA INC,ADDED
+101436,02525348,AMOXICILLIN CAPSULES BP (amoxicillin (amoxicillin trihydrate) 250 mg oral capsule) SANIS HEALTH INC,"mp_formal_name: ""AMOXICILLIN CAPSULES BP (amoxicillin (amoxicillin trihydrate) 250 mg oral capsule) "" -> ""AMOXICILLIN CAPSULES BP (amoxicillin (amoxicillin trihydrate) 250 mg oral capsule) S̲A̲N̲I̲S̲ ̲H̲E̲A̲L̲T̲H̲ ̲I̲N̲C̲"""
+101475,02525747,MINT-APREMILAST (apremilast 30 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+101576,02526697,PURELL ANTIMICROBIAL FOAM HANDWASH 2% CHG (chlorhexidine gluconate 2 % cutaneous solution) GOJO CANADA INC,ADDED
+102220,02533197,COMIRNATY ORIGINAL & OMICRON BA.4/BA.5 (famtozinameran 5 mcg per 0.2 mL and tozinameran 5 mcg per 0.2 mL suspension for injection) BIONTECH MANUFACTURING GMBH,ADDED
+NA,77700545,CIPROFLOXACIN INJECTION USP (ciprofloxacin 400 mg per 200 mL solution for injection bag) PFIZER CANADA ULC,DELETED
+NA,77700546,CIPROFLOXACIN INJECTION USP (ciprofloxacin 200 mg per 100 mL solution for injection bag) PFIZER CANADA ULC,DELETED

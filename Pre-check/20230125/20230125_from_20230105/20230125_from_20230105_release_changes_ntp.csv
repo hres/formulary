@@ -1,0 +1,22 @@
+ntp_code,ntp_formal_name,changes
+9002481,mupirocin 2 % cutaneous ointment,"ntp_status_effective_time: ""20060710"" -> ""19921231"""
+9002888,allantoin 0.2 % and chloroxylenol 0.2 % cutaneous cream,DELETED
+9003015,desipramine (desipramine hydrochloride) 100 mg oral tablet,DELETED
+9003016,desipramine (desipramine hydrochloride) 10 mg oral tablet,DELETED
+9003017,desipramine (desipramine hydrochloride) 25 mg oral tablet,DELETED
+9003018,desipramine (desipramine hydrochloride) 50 mg oral tablet,DELETED
+9003019,desipramine (desipramine hydrochloride) 75 mg oral tablet,DELETED
+9003336,lamivudine 100 mg oral tablet,"ntp_status_effective_time: ""19981202"" -> ""20120921"""
+9003645,brompheniramine maleate 2 mg per 5 mL and codeine phosphate 10 mg per 5 mL and phenylephrine hydrochloride 5 mg per 5 mL syrup,DELETED
+9004254,brompheniramine maleate 4 mg per 5 mL and dextromethorphan hydrobromide 20 mg per 5 mL and phenylephrine hydrochloride 10 mg per 5 mL oral solution,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20020801"" -> ""20200730"""
+9004258,brompheniramine maleate 2 mg per 5 mL and dextromethorphan hydrobromide 10 mg per 5 mL and phenylephrine hydrochloride 5 mg per 5 mL oral solution,"ntp_status_effective_time: ""20010725"" -> ""20110423"""
+9004259,brompheniramine maleate 2 mg per 5 mL and phenylephrine hydrochloride 5 mg per 5 mL oral solution,"ntp_status_effective_time: ""20010723"" -> ""20110423"""
+9013280,colestipol hydrochloride 5 g per sachet granules for oral suspension,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19851231"" -> ""20220318"""
+9013358,tesamorelin (tesamorelin acetate) 1 mg per vial powder for solution for injection with diluent solution,DELETED
+9013553,exenatide 5 mcg per actuation solution for injection pre-filled pen,DELETED
+9013801,brompheniramine maleate 4 mg per 5 mL and phenylephrine hydrochloride 10 mg per 5 mL oral solution,DELETED
+9014419,amifampridine 10 mg oral tablet,"ntp_status_effective_time: ""20220311"" -> ""20230110"""
+e252f8c18d47d8a0f65a040f02a5db37,enfortumab vedotin 30 mg per vial powder for solution for injection,ADDED
+fd7d8efeaab6ef814fbf55462777f4ff,famtozinameran 5 mcg per 0.2 mL and tozinameran 5 mcg per 0.2 mL suspension for injection,ADDED

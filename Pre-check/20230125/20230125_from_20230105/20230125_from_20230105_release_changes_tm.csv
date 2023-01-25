@@ -1,0 +1,8 @@
+tm_code,tm_formal_name,changes
+8001344,brompheniramine and dextromethorphan and phenylephrine,"tm_status_effective_time: ""20010725"" -> ""20100423"""
+8000922,brompheniramine and phenylephrine,"tm_status_effective_time: ""20010723"" -> ""20110423"""
+8000925,brompheniramine and codeine and phenylephrine,DELETED
+8001955,tesamorelin,DELETED
+8001691,allantoin and chloroxylenol,DELETED
+8001465,exenatide,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20110531"" -> ""20220401"""
