@@ -28,6 +28,11 @@ REFRESH MATERIALIZED VIEW public.ccdd_dosage_form_mapping_dpd_route_source;
 REFRESH MATERIALIZED VIEW public.ccdd_combination_product_source;
 REFRESH MATERIALIZED VIEW public.ccdd_presentation_source;
 
+-- status overrides
+REFRESH MATERIALIZED VIEW public.ccdd_mp_status_override_source;
+REFRESH MATERIALIZED VIEW public.ccdd_ntp_status_override_source;
+REFRESH MATERIALIZED VIEW public.ccdd_tm_status_override_source;
+
 INSERT INTO public.dpd_drug(
     code,
     din,
@@ -244,6 +249,36 @@ INSERT INTO public.ccdd_presentation(
     pseudodin
 FROM public.ccdd_presentation_source;
 
+INSERT INTO public.ccdd_mp_status_override(
+  code,
+	status,
+	status_effective_time
+) SELECT
+  code,
+	status,
+	status_effective_time
+FROM public.ccdd_mp_status_override_source;
+
+INSERT INTO public.ccdd_ntp_status_override(
+  code,
+	status,
+	status_effective_time
+) SELECT
+  code,
+	status,
+	status_effective_time
+FROM public.ccdd_ntp_status_override_source;
+
+INSERT INTO public.ccdd_tm_status_override(
+  code,
+	status,
+	status_effective_time
+) SELECT
+  code,
+	status,
+	status_effective_time
+FROM public.ccdd_tm_status_override_source;
+
 DELETE FROM public.dpd_drug_ingredient_option WHERE dpd_drug_code IN (
 SELECT dpd_drug_code FROM (
         select
@@ -296,7 +331,14 @@ REFRESH MATERIALIZED VIEW ccdd_mp_ntp_tm_relationship;
 REFRESH MATERIALIZED VIEW ccdd_mp_special_groupings;
 REFRESH MATERIALIZED VIEW ccdd_special_groupings;
 
+REFRESH MATERIALIZED VIEW ccdd_mp_carry_forward;
+REFRESH MATERIALIZED VIEW ccdd_ntp_carry_forward;
+REFRESH MATERIALIZED VIEW ccdd_tm_carry_forward;
+REFRESH MATERIALIZED VIEW ccdd_mp_ntp_tm_relationship_carry_forward;
+REFRESH MATERIALIZED VIEW ccdd_special_groupings_superceded;
+
 REFRESH MATERIALIZED VIEW ccdd_mp_release_candidate;
 REFRESH MATERIALIZED VIEW ccdd_ntp_release_candidate;
 REFRESH MATERIALIZED VIEW ccdd_tm_release_candidate;
 REFRESH MATERIALIZED VIEW ccdd_mp_ntp_tm_relationship_release_candidate;
+REFRESH MATERIALIZED VIEW ccdd_special_groupings_release_candidate;
