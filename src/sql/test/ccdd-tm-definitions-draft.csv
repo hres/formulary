@@ -1,4 +1,4 @@
-"code","formal_name","formal_name_fr"
+code,formal_name,formal_name_fr
 "8000001","levothyroxine","lévothyroxine"
 "8000003","epinephrine","épinéphrine"
 "8000004","phenytoin sodium","phénytoïne sodique"
@@ -1814,3 +1814,11 @@
 "8002447","finerenone","finérénone"
 "8002448","foscarnet","foscarnet"
 "8002449","maribavir","maribavir"
+"8002450","benzyl alcohol and lidocaine","alcool benzylique et lidocaïne"
+"8002451","chlormethine","chlorméthine"
+"8002452","cytarabine and daunorubicin","cytarabine et daunorubicine"
+"8002453","davesomeran and elasomeran","davésoméran et élasoméran"
+"8002454","diamorphine","diamorphine"
+"8002455","elasomeran and imelasomeran","élasoméran et imélasoméran"
+"8002456","tecovirimat","técovirimat"
+"8002457","treosulfan","tréosulfan"
