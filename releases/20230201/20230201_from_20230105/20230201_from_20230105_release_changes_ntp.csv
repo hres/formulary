@@ -1,0 +1,26 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9001768,periciazine 20 mg oral capsule,périciazine 20 mg capsule orale,"ntp_status_effective_time: ""20190731"" -> ""20230127"""
+9002481,mupirocin 2 % cutaneous ointment,mupirocine 2 % pommade cutanée,"ntp_status_effective_time: ""20060710"" -> ""19921231"""
+9002888,allantoin 0.2 % and chloroxylenol 0.2 % cutaneous cream,"allantoïne 0,2 % et chloroxylénol 0,2 % crème cutanée","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19960722"" -> ""20200722"""
+9003645,brompheniramine maleate 2 mg per 5 mL and codeine phosphate 10 mg per 5 mL and phenylephrine hydrochloride 5 mg per 5 mL syrup,maléate de bromphéniramine 2 mg par 5 mL et phosphate de codéine 10 mg par 5 mL et chlorhydrate de phényléphrine 5 mg par 5 mL sirop,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20010905"" -> ""20211231"""
+9004254,brompheniramine maleate 4 mg per 5 mL and dextromethorphan hydrobromide 20 mg per 5 mL and phenylephrine hydrochloride 10 mg per 5 mL oral solution,maléate de bromphéniramine 4 mg par 5 mL et bromhydrate de dextrométhorphane 20 mg par 5 mL et chlorhydrate de phényléphrine 10 mg par 5 mL solution orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20020801"" -> ""20211216"""
+9013280,colestipol hydrochloride 5 g per sachet granules for oral suspension,chlorhydrate de colestipol 5 g par sachet granulés pour suspension orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19851231"" -> ""20220318"""
+9013358,tesamorelin (tesamorelin acetate) 1 mg per vial powder for solution for injection with diluent solution,tésamoréline (acétate de tésamoréline) 1 mg par fiole poudre pour solution injectable avec solution diluante,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20150623"" -> ""20220930"""
+9013553,exenatide 5 mcg per actuation solution for injection pre-filled pen,exénatide 5 mcg par actionnement solution injectable stylo prérempli,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20110601"" -> ""20220106"""
+9013801,brompheniramine maleate 4 mg per 5 mL and phenylephrine hydrochloride 10 mg per 5 mL oral solution,maléate de bromphéniramine 4 mg par 5 mL et chlorhydrate de phényléphrine 10 mg par 5 mL solution orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20020801"" -> ""20211220"""
+9014419,amifampridine 10 mg oral tablet,amifampridine 10 mg comprimé oral,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20220311"" -> ""20200924"""
+9014818,davesomeran 0.05 mg per mL and elasomeran 0.05 mg per mL dispersion for injection 2.5 mL vial,"davésoméran 0,05 mg par mL et élasoméran 0,05 mg par mL dispersion injectable 2,5 mL fiole",ADDED
+9014819,enfortumab vedotin 30 mg per vial powder for solution for injection,enfortumab védotine 30 mg par fiole poudre pour solution injectable,ADDED
+9014820,famtozinameran 5 mcg per 0.2 mL and tozinameran 5 mcg per 0.2 mL suspension for injection 2 mL vial,"famtozinaméran 5 mcg par 0,2 mL et tozinaméran 5 mcg par 0,2 mL suspension injectable 2 mL fiole",ADDED
+9014821,mavacamten 2.5 mg oral capsule,"mavacamten 2,5 mg capsule orale",ADDED
+9014822,mavacamten 5 mg oral capsule,mavacamten 5 mg capsule orale,ADDED
+9014823,selumetinib (selumetinib sulfate) 10 mg oral capsule,sélumétinib (sulfate de sélumétinib) 10 mg capsule orale,ADDED
+9014824,selumetinib (selumetinib sulfate) 25 mg oral capsule,sélumétinib (sulfate de sélumétinib) 25 mg capsule orale,ADDED

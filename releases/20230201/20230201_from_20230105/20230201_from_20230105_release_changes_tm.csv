@@ -1,0 +1,12 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002453,davesomeran and elasomeran,davésoméran et élasoméran,ADDED
+8002459,selumetinib,sélumétinib,ADDED
+8001465,exenatide,exénatide,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20110531"" -> ""20220401"""
+8002458,mavacamten,mavacamten,ADDED
+8001691,allantoin and chloroxylenol,allantoïne et chloroxylénol,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19960722"" -> ""20200722"""
+8000925,brompheniramine and codeine and phenylephrine,bromphéniramine et codéine et phényléphrine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20010905"" -> ""20211231"""
+8001955,tesamorelin,tésamoréline,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20150623"" -> ""20220930"""
