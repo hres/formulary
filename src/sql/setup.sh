@@ -1,8 +1,8 @@
 #!/bin/bash -e
 # Must set environment variables PGHOST, PGUSER and PGPASSWORD. PGDATABASE must be unset
-ccdd_qa_release_date="20230103"
-ccdd_current_release_date="20230105"
-db_previous_month="ccdd_2023_01_05_135535"
+ccdd_qa_release_date="20230201"
+ccdd_current_release_date="20230201"
+db_previous_month="ccdd_2023_02_01_155234"
 ccdd_current_date=$(date +'%Y%m%d')
 baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 distDir="$baseDir/../dist/$ccdd_current_date"
@@ -89,7 +89,6 @@ psql -c "copy (select
                \"Health_Canada_identifier\",
                \"Health_Canada_product_name\" FROM ccdd_mp_release_candidate)
                to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/mp_release_candidate_${ccdd_current_date}.csv"
-               
 psql -c "copy (select
                  ntp_code,
                  ntp_formal_name,
