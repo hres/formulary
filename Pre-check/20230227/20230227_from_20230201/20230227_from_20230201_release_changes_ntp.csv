@@ -1,0 +1,14 @@
+ntp_code,ntp_formal_name,changes
+0ef17dbc45c79aeb9805948f1212f987,insulin degludec 100 unit per mL solution for injection,ADDED
+26cd422b3a1edeb5e0585bc48b534be8,dimethicone 9 % cutaneous cream,ADDED
+5a6b1350ca76e19163bc1b2143598e33,bendamustine hydrochloride 25 mg per mL solution for injection,ADDED
+5f8275ede68f6fb6d19ef6bd79bd3d73,mepolizumab 40 mg per 0.4 mL solution for injection,ADDED
+9000443,quinapril (quinapril hydrochloride) 5 mg oral tablet,"ntp_status_effective_time: ""19921231"" -> ""20130702"""
+9001910,hydrocortisone acetate 0.5 % and pramoxine hydrochloride 1 % and zinc sulfate 0.5 % rectal ointment,"ntp_status_effective_time: ""19811231"" -> ""19980123"""
+9003370,lamivudine 5 mg per mL oral solution,DELETED
+9013473,octreotide (octreotide acetate) 1000 mcg per 5 mL solution for injection vial,"ntp_status_effective_time: ""19961231"" -> ""20040311"""
+9013860,bacitracin (bacitracin zinc) 500 unit per g and gramicidin 0.25 mg per g and polymyxin B (polymyxin B sulfate) 10000 unit per g cutaneous ointment,"ntp_status_effective_time: ""19941231"" -> ""19980813"""
+9013954,dacomitinib 30 mg oral tablet,DELETED
+9013955,dacomitinib 45 mg oral tablet,DELETED
+9014551,methotrexate (methotrexate disodium) 2.5 mg oral tablet,ADDED
+a06c3c6c6413b5f7901b8427393155cd,edaravone 105 mg per 5 mL oral suspension,ADDED
