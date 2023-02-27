@@ -130,3 +130,10 @@ CREATE TABLE dpd.route (
     route_of_administration text,
     route_of_administration_f text
 ) WITH (oids = false);
+
+CREATE TABLE dpd.opioid (
+    extract text DEFAULT 'active',
+    drug_code integer NOT NULL,
+    policy_type integer DEFAULT 500001,
+    policy_reference varchar DEFAULT 'http://www.gazette.gc.ca/rp-pr/p1/2017/2017-06-17/html/reg8-eng.php'
+) WITH (oids = false);

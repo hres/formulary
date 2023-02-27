@@ -1671,6 +1671,35 @@ CREATE TABLE public.dpd_drug_schedule(
 ALTER TABLE public.dpd_drug_schedule OWNER TO postgres;
 -- ddl-end --
 
+-- object: public.dpd_opioid_source | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.dpd_opioid_source CASCADE;
+CREATE MATERIALIZED VIEW public.dpd_opioid_source
+AS
+
+SELECT
+  op.drug_code AS dpd_drug_code,
+  op.policy_type AS policy_type,
+  op.policy_reference AS policy_reference
+FROM
+  dpd.opioid AS op
+WHERE
+  EXISTS(select * from public.dpd_drug_source ds where ds.code = op.drug_code)
+GROUP BY dpd_drug_code, op.policy_type, op.policy_reference;
+-- ddl-end --
+ALTER MATERIALIZED VIEW public.dpd_opioid_source OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.dpd_drug_special_identifier | type: TABLE --
+-- DROP TABLE IF EXISTS public.dpd_drug_special_identifier CASCADE;
+CREATE TABLE public.dpd_drug_special_identifier(
+	policy_type integer,
+	policy_reference varchar,
+	dpd_drug_code bigint
+);
+-- ddl-end --
+ALTER TABLE public.dpd_drug_special_identifier OWNER TO postgres;
+-- ddl-end --
+
 -- object: public.ccdd_drug_schedule | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_drug_schedule CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_drug_schedule
@@ -2556,32 +2585,6 @@ order by
 ALTER VIEW public.qa_missing_concepts_pseudodin OWNER TO postgres;
 -- ddl-end --
 
--- object: ccdd.tm_groupings | type: TABLE --
--- DROP TABLE IF EXISTS ccdd.tm_groupings CASCADE;
-CREATE TABLE ccdd.tm_groupings(
-	tm_code bigint NOT NULL,
-	policy_type integer NOT NULL,
-	policy_reference varchar NOT NULL
-);
--- ddl-end --
-ALTER TABLE ccdd.tm_groupings OWNER TO postgres;
--- ddl-end --
-
--- object: public.ccdd_tm_special_groupings | type: MATERIALIZED VIEW --
--- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_tm_special_groupings CASCADE;
-CREATE MATERIALIZED VIEW public.ccdd_tm_special_groupings
-AS
-
-SELECT
-	tsg.tm_code AS tm_code,
-	tsg.policy_type AS policy_type,
-	tsg.policy_reference AS policy_reference
-FROM
-	ccdd.tm_groupings tsg;
--- ddl-end --
-ALTER MATERIALIZED VIEW public.ccdd_tm_special_groupings OWNER TO postgres;
--- ddl-end --
-
 -- object: public.ccdd_mp_special_groupings | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_mp_special_groupings CASCADE;
 CREATE MATERIALIZED VIEW public.ccdd_mp_special_groupings
@@ -2611,19 +2614,18 @@ FROM (
 	)
 	UNION
 	(
-		SELECT
-			(CASE
-				WHEN can.presentation_count > 1 THEN COALESCE(cast(can.pseudodin as varchar), can.ccdd_presentation_id)
-				ELSE can.din
-			END)::varchar AS mp_code,
-			can.mp_formal_name AS mp_formal_name,
-			tsg.policy_type AS policy_type,
-			can.tm_is_publishable AS tm_is_publishable,
-			tsg.policy_reference AS policy_reference
-		FROM
-			ccdd_tm_special_groupings tsg
-			JOIN ccdd_drug_tm cdt ON cdt.tm_code = tsg.tm_code
-			JOIN ccdd_mp_table_candidate can ON can.dpd_drug_code = cdt.dpd_drug_code
+    SELECT
+      (CASE
+        WHEN can.presentation_count > 1 THEN COALESCE(cast(can.pseudodin as varchar), can.ccdd_presentation_id)
+        ELSE can.din
+      END)::varchar AS mp_code,
+      can.mp_formal_name AS mp_formal_name,
+      si.policy_type AS policy_type,
+      can.tm_is_publishable AS tm_is_publishable,
+      si.policy_reference AS policy_reference
+    FROM
+      dpd_drug_special_identifier si
+      JOIN ccdd_mp_table_candidate can ON can.dpd_drug_code = si.dpd_drug_code
 	)
 ) msg;
 -- ddl-end --
@@ -3455,9 +3457,14 @@ SELECT
   prev.policy_type::int,
   prev.policy_reference,
   'Inactive'::text as special_groupings_status,
-  prev.special_groupings_status_effective_time
+  (CASE
+		WHEN prev.special_groupings_status = 'Inactive' THEN prev.special_groupings_status_effective_time
+		ELSE to_char(sgset.ccdd_date, 'YYYYMMDD')
+	END) AS special_groupings_status_effective_time
 FROM
   ccdd.special_groupings prev
+CROSS JOIN
+  (SELECT ccdd_date FROM ccdd_config LIMIT 1) sgset
 WHERE NOT EXISTS
   (SELECT 1 FROM public.ccdd_special_groupings cur
    WHERE
@@ -3618,6 +3625,7 @@ SELECT
 -- ddl-end --
 ALTER VIEW public.qa_new_concepts_tm_test OWNER TO postgres;
 -- ddl-end --
+
 CREATE VIEW public.release_changes_special_groupings
 AS
 select
@@ -3636,7 +3644,7 @@ select
 		), E'\n' ORDER BY cmp.field_name) as changes
 from
 	ccdd.special_groupings cur
-	LEFT JOIN ccdd_special_groupings nxt ON(nxt.ccdd_code = cur.ccdd_code AND CAST(nxt.policy_type as text) = cur.policy_type)
+	LEFT JOIN ccdd_special_groupings_release_candidate nxt ON(nxt.ccdd_code = cur.ccdd_code AND CAST(nxt.policy_type as text) = cur.policy_type)
 	LEFT JOIN LATERAL (VALUES
 		('ccdd_formal_name', cur.ccdd_formal_name, nxt.ccdd_formal_name),
 		('special_groupings_status', UPPER(cur.special_groupings_status), UPPER(nxt.special_groupings_status)),
