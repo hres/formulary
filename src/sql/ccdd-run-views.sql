@@ -14,6 +14,7 @@ REFRESH MATERIALIZED VIEW public.dpd_drug_form_source;
 REFRESH MATERIALIZED VIEW public.dpd_drug_route_source;
 REFRESH MATERIALIZED VIEW public.dpd_drug_status_source;
 REFRESH MATERIALIZED VIEW public.dpd_drug_schedule_source;
+REFRESH MATERIALIZED VIEW public.dpd_opioid_source;
 
 -- depending on DPD data
 REFRESH MATERIALIZED VIEW public.ccdd_ingredient_stem_source;
@@ -96,6 +97,18 @@ INSERT INTO public.dpd_drug_schedule(
     dpd_drug_code,
     schedule
 FROM public.dpd_drug_schedule_source;
+
+-- right now the only products with special identifiers are opioids but
+-- if we need to include more they'll go in with another INSERT like this one
+INSERT INTO public.dpd_drug_special_identifier(
+    dpd_drug_code,
+    policy_type,
+    policy_reference
+) SELECT
+    dpd_drug_code,
+    policy_type,
+    policy_reference
+FROM public.dpd_opioid_source;
 
 INSERT INTO public.dpd_drug_ingredient_option(
     dpd_drug_code,
@@ -349,7 +362,6 @@ REFRESH MATERIALIZED VIEW ccdd_drug_dosage_form;
 REFRESH MATERIALIZED VIEW ccdd_drug_ingredient_summary;
 REFRESH MATERIALIZED VIEW ccdd_drug_tm;
 REFRESH MATERIALIZED VIEW ccdd_drug_tm_fallback;
-REFRESH MATERIALIZED VIEW ccdd_tm_special_groupings;
 REFRESH MATERIALIZED VIEW ccdd_drug_status;
 REFRESH MATERIALIZED VIEW ccdd_drug_schedule;
 

@@ -274,27 +274,6 @@ LOAD CSV
 ;
 
 LOAD CSV
-  FROM ./test/ccdd-tm-groupings-draft.csv
-    WITH ENCODING UTF-8
-    (
-      tm_code,
-      policy_type,
-      policy_reference
-    )
-  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.tm_groupings
-    (
-      tm_code,
-      policy_type,
-      policy_reference
-    )
-  WITH
-    skip header = 1,
-    fields optionally enclosed by '"',
-    fields terminated by ',',
-    fields escaped by double-quote
-;
-
-LOAD CSV
   FROM ./test/ccdd-status-override-draft.csv
     WITH ENCODING UTF-8
     (

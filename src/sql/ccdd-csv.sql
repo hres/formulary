@@ -121,14 +121,6 @@ CREATE TABLE ccdd.tm_filter(
 -- ddl-end --
 ALTER TABLE ccdd.tm_filter OWNER TO postgres;
 
-CREATE TABLE ccdd.tm_groupings(
-	tm_code bigint NOT NULL,
-	policy_type integer NOT NULL,
-	policy_reference varchar NOT NULL
-);
--- ddl-end --
-ALTER TABLE ccdd.tm_groupings OWNER TO postgres;
-
 CREATE TABLE ccdd.status_override(
   ccdd_code varchar NOT NULL,
 	ccdd_type varchar NOT NULL,
