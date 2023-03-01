@@ -1,0 +1,16 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9003370,lamivudine 5 mg per mL oral solution,lamivudine 5 mg par mL solution orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19990330"" -> ""20220810"""
+9013954,dacomitinib 30 mg oral tablet,dacomitinib 30 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20190422"" -> ""20211124"""
+9013955,dacomitinib 45 mg oral tablet,dacomitinib 45 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20190422"" -> ""20220609"""
+9014410,bamlanivimab 700 mg per 20 mL solution for injection vial,bamlanivimab 700 mg par 20 mL solution injectable fiole,"ntp_status_effective_time: ""20220722"" -> ""20230213"""
+9014825,bendamustine hydrochloride 100 mg per 4 mL solution for injection vial,chlorhydrate de bendamustine 100 mg par 4 mL solution injectable fiole,ADDED
+9014826,bendamustine hydrochloride 200 mg per 8 mL solution for injection vial,chlorhydrate de bendamustine 200 mg par 8 mL solution injectable fiole,ADDED
+9014827,bendamustine hydrochloride 25 mg per 1 mL solution for injection vial,chlorhydrate de bendamustine 25 mg par 1 mL solution injectable fiole,ADDED
+9014828,difelikefalin (difelikefalin acetate) 50 mcg per 1 mL solution for injection vial,difélikéfaline (acétate de difélikéfaline) 50 mcg par 1 mL solution injectable fiole,ADDED
+9014829,dimethicone 9 % cutaneous cream,diméthicone 9 % crème cutanée,ADDED
+9014830,edaravone 105 mg per 5 mL oral suspension,édavarone 105 mg par 5 mL suspension orale,ADDED
+9014831,insulin degludec 100 unit per mL solution for injection 3 mL cartridge,insuline dégludec 100 unité par mL solution injectable 3 mL cartouche,ADDED
+9014833,mepolizumab 40 mg per 0.4 mL solution for injection syringe,"mépolizumab 40 mg par 0,4 mL solution injectable seringue",ADDED
