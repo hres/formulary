@@ -3671,7 +3671,7 @@ select
 from
 	ccdd_special_groupings nxt
 WHERE
-	not exists(select * from ccdd.special_groupings cur where cur.ccdd_code = nxt.ccdd_code);
+	not exists(select * from ccdd.special_groupings cur where cur.ccdd_code = nxt.ccdd_code and cur.policy_type = nxt.policy_type::text)
 -- ddl-end --
 ALTER VIEW public.release_changes_special_groupings OWNER TO postgres;
 
