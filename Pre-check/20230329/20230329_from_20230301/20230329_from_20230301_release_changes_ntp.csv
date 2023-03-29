@@ -1,0 +1,32 @@
+ntp_code,ntp_formal_name,changes
+0cc68f097b2303ab727679d2791188dd,enoxaparin sodium 100 mg per mL solution for injection,ADDED
+173e75654932e7a575e5c54125b67a74,enoxaparin sodium 30 mg per 0.3 mL solution for injection,ADDED
+3192f0a60ffc700d8aec5fc6ceacedb7,enoxaparin sodium 120 mg per 0.8 mL solution for injection,ADDED
+38f125f04e0535250384affeec07eac4,mesalazine 1600 mg gastro-resistant tablet,ADDED
+39a34537c6d9973d0856b6c4f42e6bc4,adalimumab 40 mg per 0.4 mL solution for injection,ADDED
+418de25152cd04cf53448422ba6c3a6f,enoxaparin sodium 80 mg per 0.8 mL solution for injection,ADDED
+488c82b1a3bab950fb88c6bc25a6c0bf,enoxaparin sodium 60 mg per 0.6 mL solution for injection,ADDED
+8c9991b1d37155afbf05fa3fcadecd97,enoxaparin sodium 40 mg per 0.4 mL solution for injection,ADDED
+9000943,oxybutynin chloride 10 mg prolonged-release oral tablet,DELETED
+9001020,bisoprolol fumarate 10 mg oral tablet,"ntp_status_effective_time: ""20030424"" -> ""20040810"""
+9001021,bisoprolol fumarate 5 mg oral tablet,"ntp_status_effective_time: ""20030424"" -> ""20040810"""
+9001135,donepezil hydrochloride 10 mg orodispersible tablet,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20060102"" -> ""20220530"""
+9003764,efavirenz 600 mg oral tablet,"ntp_status_effective_time: ""20021105"" -> ""20130730"""
+9004772,white petrolatum 38 % and zinc oxide 40 % cutaneous ointment,DELETED
+9004837,antipyrine 54 mg per mL and benzocaine 14 mg per mL otic drops,DELETED
+9005559,diphenhydramine hydrochloride 6.25 mg per 5 mL and phenylephrine hydrochloride 2.5 mg per 5 mL syrup,DELETED
+9005863,elbasvir 50 mg and grazoprevir 100 mg oral tablet,DELETED
+9006082,empagliflozin 10 mg and linagliptin 5 mg oral tablet,DELETED
+9009618,furosemide 250 mg per 25 mL solution for injection vial,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19911231"" -> ""20180727"""
+9013197,leuprolide acetate 5 mg per mL solution for injection 2.8 mL vial,DELETED
+9013285,eptifibatide 20 mg per 10 mL solution for injection vial,DELETED
+9013432,dextromethorphan hydrobromide 5 mg per 5 mL syrup,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20100819"" -> ""20220627"""
+9014402,hydromorphone hydrochloride 2 mg per mL solution for injection,ADDED
+9014440,adalimumab 20 mg per 0.4 mL solution for injection,ADDED
+9cda20aefa820edec57ea9744c742ecf,ranibizumab 10 mg per mL solution for injection,ADDED
+abf9a1b24c71c93f111761028a223ead,risankizumab 360 mg per 2.4 mL solution for injection,ADDED
+c50b3bc30cc4a9f8772cad9aa3cb6801,baclofen 0.05 mg per mL solution for injection,ADDED
+ce5b5683572c7c2d29b77394c8235133,enoxaparin sodium 150 mg per mL solution for injection,ADDED
