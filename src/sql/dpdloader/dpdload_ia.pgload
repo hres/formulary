@@ -3,7 +3,7 @@
 -- Run after dpdload.pgload and before dpdload_ap.pgload
 
 LOAD ARCHIVE
-   FROM /home/cyanofsky/dpd/dpd_20230227/allfiles_ia.zip
+   FROM /home/cyanofsky/dpd/dpd_20230329/allfiles_ia.zip
   INTO postgresql://cyanofsky@rest.hc.local/
 
 
@@ -19,7 +19,6 @@ LOAD ARCHIVE
     $$ ALTER TABLE dpd.status ALTER COLUMN extract SET DEFAULT 'inactive'; $$,
     $$ ALTER TABLE dpd.therapeutic_class ALTER COLUMN extract SET DEFAULT 'inactive'; $$,
     $$ ALTER TABLE dpd.vet_species ALTER COLUMN extract SET DEFAULT 'inactive'; $$,
-    $$ ALTER TABLE dpd.opioid ALTER COLUMN extract SET DEFAULT 'inactive'; $$,
     $$ ALTER TABLE dpd.status ALTER COLUMN expiration_date SET DATA TYPE text; $$
 
 
@@ -333,21 +332,6 @@ AND LOAD CSV
         VET_SPECIES,
         VET_SUB_SPECIES,
         vet_species_f
-      )
-    WITH fields terminated by ',',
-             fields escaped by double-quote
-
-
-
-AND LOAD CSV
-    FROM FILENAME MATCHING ~/opioids_ia.txt/
-      WITH ENCODING UTF-8
-      (
-        DRUG_CODE
-      )
-    INTO postgresql://cyanofsky@rest.hc.local/?dpd.opioid
-      (
-        DRUG_CODE
       )
     WITH fields terminated by ',',
              fields escaped by double-quote
