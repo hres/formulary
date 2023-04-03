@@ -1,0 +1,10 @@
+drug_code,extract_current,extract_previous,drug_identification_number,current_company_name,previous_company_name
+"934","active","active","00001147","ABBVIE CORPORATION","ALLERGAN INC"
+"2467","active","active","00360279","APOTEX INC","AA PHARMA INC"
+"1254","active","active","00037613","BGP PHARMA ULC","UPJOHN CANADA ULC"
+"1253","active","active","00037621","BGP PHARMA ULC","UPJOHN CANADA ULC"
+"98579","active","active","02495899","PHARMASCIENCE INC","STRIDES PHARMA CANADA INC"
+"98580","active","active","02495902","PHARMASCIENCE INC","STRIDES PHARMA CANADA INC"
+"88922","dormant","dormant","02404451","SUN PHARMA CANADA INC","RANBAXY PHARMACEUTICALS CANADA INC."
+"88923","dormant","dormant","02404478","SUN PHARMA CANADA INC","RANBAXY PHARMACEUTICALS CANADA INC."
+"88924","dormant","dormant","02404486","SUN PHARMA CANADA INC","RANBAXY PHARMACEUTICALS CANADA INC."
