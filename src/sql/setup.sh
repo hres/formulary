@@ -7,9 +7,9 @@
 # ARGS (optional)   : qa
 ###############################################################################
 
-ccdd_qa_release_date="20230201"
-ccdd_current_release_date="20230201"
-db_previous_month="ccdd_2023_02_01_155234"
+ccdd_qa_release_date="20230301"
+ccdd_current_release_date="20230301"
+db_previous_month="ccdd_2023_03_01_163903"
 ccdd_current_date=$(date +'%Y%m%d')
 baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 distDir="$baseDir/../dist/$ccdd_current_date"
@@ -38,6 +38,9 @@ pgloader "$baseDir/dpdloader/dpdload_ia.pgload"
 pgloader "$baseDir/dpdloader/dpdload_dr.pgload"
 pgloader "$baseDir/dpdloader/dpdload_ap.pgload" # has to be last because of an AFTER LOAD EXECUTE
 
+# load opioid table
+psql -c "ALTER TABLE dpd.opioid ALTER COLUMN extract SET DEFAULT NULL;"
+psql -c "\\copy dpd.opioid (drug_code) FROM '$baseDir/../pgloaded/opioids.csv' CSV;"
 
 # global config for CCDD generation process
 pgloader "$baseDir/ccdd-config.pgload"

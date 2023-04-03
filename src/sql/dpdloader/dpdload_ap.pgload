@@ -3,7 +3,7 @@
 -- Run after dpdload.pgload and dpdload_ia.pgload
 
 LOAD ARCHIVE
- FROM /home/cyanofsky/dpd/dpd_20230301/allfiles_ap.zip
+ FROM /home/cyanofsky/dpd/dpd_20230403/allfiles_ap.zip
   INTO postgresql://cyanofsky@rest.hc.local/
 
   BEFORE LOAD DO
@@ -17,8 +17,7 @@ LOAD ARCHIVE
     $$ ALTER TABLE dpd.schedule ALTER COLUMN extract SET DEFAULT 'approved'; $$,
     $$ ALTER TABLE dpd.status ALTER COLUMN extract SET DEFAULT 'approved'; $$,
     $$ ALTER TABLE dpd.therapeutic_class ALTER COLUMN extract SET DEFAULT 'approved'; $$,
-    $$ ALTER TABLE dpd.vet_species ALTER COLUMN extract SET DEFAULT 'approved'; $$,
-    $$ ALTER TABLE dpd.opioid ALTER COLUMN extract SET DEFAULT 'approved'; $$
+    $$ ALTER TABLE dpd.vet_species ALTER COLUMN extract SET DEFAULT 'approved'; $$
 
 
 
@@ -304,20 +303,6 @@ AND LOAD CSV
     WITH fields terminated by ',',
              fields escaped by double-quote
 
-
-
-AND LOAD CSV
-    FROM FILENAME MATCHING ~/opioids_ap.txt/
-      WITH ENCODING UTF-8
-      (
-        DRUG_CODE
-      )
-    INTO postgresql://cyanofsky@rest.hc.local/?dpd.opioid
-      (
-        DRUG_CODE
-      )
-    WITH fields terminated by ',',
-             fields escaped by double-quote
 -- AFTER LOAD DO
 --   $$ ALTER TABLE dpd.status ALTER COLUMN expiration_date TYPE date using(to_date-- (expiration_date, 'DD-MON-YYYY')); $$
 
