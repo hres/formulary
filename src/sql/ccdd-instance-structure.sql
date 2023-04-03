@@ -3218,7 +3218,7 @@ select
 	END) as changes
 from
 	ccdd.tm_release_candidate cur
-	LEFT JOIN ccdd_tm_table nxt ON(cur.tm_code = CAST(nxt.tm_code AS varchar))
+	LEFT JOIN ccdd_tm_release_candidate nxt ON(cur.tm_code = CAST(nxt.tm_code AS varchar))
 	LEFT JOIN LATERAL (VALUES
 		('tm_formal_name', cur.tm_formal_name, nxt.tm_formal_name),
 		('tm_status', UPPER(cur.tm_status), UPPER(nxt.tm_status)),
