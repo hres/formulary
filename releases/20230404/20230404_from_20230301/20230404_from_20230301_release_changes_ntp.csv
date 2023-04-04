@@ -1,0 +1,33 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9000943,oxybutynin chloride 10 mg prolonged-release oral tablet,chlorure d'oxybutynine 10 mg comprimé oral à libération prolongée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20010622"" -> ""20220915"""
+9001135,donepezil hydrochloride 10 mg orodispersible tablet,chlorhydrate de donépézil 10 mg comprimé orodispersible,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20060102"" -> ""20221028"""
+9004772,white petrolatum 38 % and zinc oxide 40 % cutaneous ointment,pétrolatum blanc 38 % et oxyde de zinc 40 % pommade cutanée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20100829"" -> ""20200812"""
+9004837,antipyrine 54 mg per mL and benzocaine 14 mg per mL otic drops,antipyrine 54 mg par mL et benzocaïne 14 mg par mL gouttes otiques,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20110228"" -> ""20211101"""
+9005559,diphenhydramine hydrochloride 6.25 mg per 5 mL and phenylephrine hydrochloride 2.5 mg per 5 mL syrup,"chlorhydrate de diphenhydramine 6,25 mg par 5 mL et chlorhydrate de phényléphrine 2,5 mg par 5 mL sirop","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20140805"" -> ""20230306"""
+9005863,elbasvir 50 mg and grazoprevir 100 mg oral tablet,elbasvir 50 mg et grazoprévir 100 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20160125"" -> ""20220816"""
+9006082,empagliflozin 10 mg and linagliptin 5 mg oral tablet,empagliflozin 10 mg et linagliptine 5 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20161221"" -> ""20210611"""
+9009618,furosemide 250 mg per 25 mL solution for injection vial,furosémide 250 mg par 25 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19911231"" -> ""20230227"""
+9013197,leuprolide acetate 5 mg per mL solution for injection 2.8 mL vial,"acétate de leuprolide 5 mg par mL solution injectable 2,8 mL fiole","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19851231"" -> ""20220914"""
+9013285,eptifibatide 20 mg per 10 mL solution for injection vial,eptifibatide 20 mg par 10 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19990623"" -> ""20221017"""
+9013432,dextromethorphan hydrobromide 5 mg per 5 mL syrup,bromhydrate de dextrométhorphane 5 mg par 5 mL sirop,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20100819"" -> ""20220627"""
+9014834,atogepant 10 mg oral tablet,atogépant 10 mg comprimé oral,ADDED
+9014835,atogepant 30 mg oral tablet,atogépant 30 mg comprimé oral,ADDED
+9014836,atogepant 60 mg oral tablet,atogépant 60 mg comprimé oral,ADDED
+9014837,baclofen 0.05 mg per 1 mL solution for injection syringe,"baclofène 0,05 mg par 1 mL solution injectable seringue",ADDED
+9014838,belumosudil (belumosudil mesylate) 200 mg oral tablet,bélumosudil (mésylate de bélumosudil) 200 mg comprimé oral,ADDED
+9014839,deucravacitinib 6 mg oral tablet,deucravacitinib 6 mg comprimé oral,ADDED
+9014840,mesalazine 1.6 g gastro-resistant tablet,"mésalazine 1,6 g comprimé gastrorésistant",ADDED
+9014841,pegcetacoplan 1080 mg per 20 mL solution for injection vial,pegcétacoplan 1080 mg par 20 mL solution injectable fiole,ADDED
+9014842,ranibizumab 2.3 mg per 0.23 mL solution for injection vial,"ranibizumab 2,3 mg par 0,23 mL solution injectable fiole",ADDED
+9014843,risankizumab 360 mg per 2.4 mL solution for injection cartridge,"risankizumab 360 mg par 2,4 mL solution injectable cartouche",ADDED

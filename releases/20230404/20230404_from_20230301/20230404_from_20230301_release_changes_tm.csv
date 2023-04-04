@@ -1,0 +1,11 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8001194,elbasvir and grazoprevir,elbasvir et grazoprévir,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20160125"" -> ""20220816"""
+8002463,deucravacitinib,deucravacitinib,ADDED
+8002462,belumosudil,bélumosudil,ADDED
+8001695,antipyrine and benzocaine,antipyrine et benzocaïne,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20110228"" -> ""20211101"""
+8002464,pegcetacoplan,pegcétacoplan,ADDED
+8002461,atogepant,atogépant,ADDED
+8001190,diphenhydramine and phenylephrine,diphenhydramine et phényléphrine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20140805"" -> ""20230306"""
