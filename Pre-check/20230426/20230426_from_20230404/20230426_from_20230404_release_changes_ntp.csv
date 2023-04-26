@@ -1,0 +1,14 @@
+ntp_code,ntp_formal_name,changes
+19385396d9cfe37153493043fce59e61,budesonide 160 mcg per actuation and formoterol fumarate 5 mcg per actuation and glycopyrronium (glycopyrronium bromide) 7.2 mcg per actuation pressurized inhalation,ADDED
+388fe44214fdd567e2108d6ca2190f68,propofol 10 mg per mL emulsion for injection,ADDED
+6671c10f3c1eb679eb6ce5dcf72b06ab,budesonide 2.3 mg NA,ADDED
+9000001,meperidine hydrochloride 50 mg oral tablet,DELETED
+9000357,gliclazide 80 mg oral tablet,"ntp_status_effective_time: ""19901231"" -> ""19980608"""
+9000661,ciprofloxacin (ciprofloxacin hydrochloride) 500 mg oral tablet,"ntp_status_effective_time: ""19961010"" -> ""20040209"""
+9004151,saquinavir (saquinavir mesylate) 500 mg oral tablet,DELETED
+9012531,ondansetron (ondansetron hydrochloride) 2 mg per mL solution for injection 20 mL vial,"ntp_status_effective_time: ""19990801"" -> ""20060419"""
+9012532,ondansetron (ondansetron hydrochloride) 4 mg per 2 mL solution for injection ampoule,"ntp_status_effective_time: ""19990801"" -> ""20120628"""
+9012534,ondansetron (ondansetron hydrochloride) 4 mg per 5 mL oral solution,"ntp_status_effective_time: ""19961113"" -> ""20080304"""
+9012535,ondansetron (ondansetron hydrochloride) 8 mg per 4 mL solution for injection ampoule,"ntp_status_effective_time: ""19990801"" -> ""20120628"""
+9014634,budesonide 182 mcg per actuation and formoterol fumarate 5.8 mcg per actuation and glycopyrronium (glycopyrronium bromide) 8.2 mcg per actuation pressurized inhalation,DELETED
+e2d30d2212b5e6f48923497c52b216ee,furosemide 250 mg per 25 mL solution for injection,ADDED

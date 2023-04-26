@@ -1,0 +1,6 @@
+tm_code,tm_formal_name,changes
+8000139,gliclazide,"tm_status_effective_time: ""19901231"" -> ""19980608"""
+8001230,saquinavir,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19961231"" -> ""20181231"""
+8000782,meperidine,"tm_status_effective_time: ""19441231"" -> ""19861231"""
+8001106,ondansetron,"tm_status_effective_time: ""19961113"" -> ""19970414"""

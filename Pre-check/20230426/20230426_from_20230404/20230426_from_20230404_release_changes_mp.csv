@@ -1,0 +1,59 @@
+drug_code,mp_code,mp_formal_name,changes
+10918,00765996,DIAMICRON (gliclazide 80 mg oral tablet) SERVIER CANADA INC,DELETED
+16264,02052431,ENTOCORT ENEMA (budesonide 2.3 mg NA) TILLOTTS PHARMA GMBH,ADDED
+18316,02138018,DEMEROL (meperidine hydrochloride 50 mg oral tablet) SANOFI-AVENTIS CANADA INC,DELETED
+44058,02155966,CIPRO (ciprofloxacin (ciprofloxacin hydrochloride) 500 mg oral tablet) BAYER INC,DELETED
+47565,02229639,ZOFRAN (ondansetron (ondansetron hydrochloride dihydrate) 4 mg per 5 mL oral solution) NOVARTIS PHARMACEUTICALS CANADA INC,DELETED
+48226,02229868,HYOSCINE BUTYLBROMIDE INJECTION (hyoscine butylbromide 20 mg per 1 mL solution for injection vial) SANDOZ CANADA INCORPORATED,"Health_Canada_product_name: ""HYOSCINE BUTYLBROMIDE INJECTION SANDOZ STANDARD"" -> ""HYOSCINE BUTYLBROMIDE INJECTION""
+mp_formal_name: ""HYOSCINE BUTYLBROMIDE INJECTION ̲S̲A̲N̲D̲O̲Z̲ ̲S̲T̲A̲N̲D̲A̲R̲D̲ (hyoscine butylbromide 20 mg per 1 mL solution for injection vial) SANDOZ CANADA INCORPORATED"" -> ""HYOSCINE BUTYLBROMIDE INJECTION (hyoscine butylbromide 20 mg per 1 mL solution for injection vial) SANDOZ CANADA INCORPORATED"""
+76489,02279320,INVIRASE (saquinavir (saquinavir mesylate) 500 mg oral tablet) HOFFMANN-LA ROCHE LIMITED,DELETED
+89353,02408775,APO-QUINAPRIL/HCTZ (hydrochlorothiazide 12.5 mg and quinapril (quinapril hydrochloride) 20 mg oral tablet) APOTEX INC,DELETED
+89366,02408910,MINT-CLOPIDOGREL (clopidogrel (clopidogrel bisulfate) 75 mg oral tablet) MINT PHARMACEUTICALS INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20220324"" -> ""20130718"""
+90597,02421348,MINT-RAMIPRIL (ramipril 15 mg oral capsule) MINT PHARMACEUTICALS INC,DELETED
+91628,02431807,SANDOZ TOPIRAMATE TABLETS (topiramate 25 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20220808"" -> ""20230411"""
+91629,02431815,SANDOZ TOPIRAMATE TABLETS (topiramate 100 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20220808"" -> ""20230411"""
+91630,02431823,SANDOZ TOPIRAMATE TABLETS (topiramate 200 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20220808"" -> ""20230411"""
+92673,02442361,JAMP-MONTELUKAST (montelukast (montelukast sodium) 5 mg chewable tablet) JAMP PHARMA CORPORATION,DELETED
+93058,02445352,PRIVA-SERTRALINE (sertraline (sertraline hydrochloride) 25 mg oral capsule) NORA PHARMA INC,DELETED
+94698,02459671,STELARA I.V. (ustekinumab 130 mg per 26 mL solution for injection vial) JANSSEN INC,"Health_Canada_product_name: ""STELARA"" -> ""STELARA I.V.""
+mp_formal_name: ""STELARA (ustekinumab 130 mg per 26 mL solution for injection vial) JANSSEN INC"" -> ""STELARA ̲I̲.̲V̲.̲ (ustekinumab 130 mg per 26 mL solution for injection vial) JANSSEN INC"""
+95758,02468921,MELPHALAN FOR INJECTION (melphalan (melphalan hydrochloride) 50 mg per vial powder for solution for injection with diluent solution) APOTEX INC,DELETED
+96769,02476908,MINT-CANDESARTAN (candesartan cilexetil 4 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+96905,02478587,AMLODIPINE (amlodipine (amlodipine besylate) 2.5 mg oral tablet) SANIS HEALTH INC,ADDED
+98535,02495430,MINT-APIXABAN (apixaban 2.5 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+100534,02515989,ACH-TADALAFIL (tadalafil 5 mg oral tablet) ACCORD HEALTHCARE INC,ADDED
+100535,02515997,ACH-TADALAFIL (tadalafil 10 mg oral tablet) ACCORD HEALTHCARE INC,ADDED
+100536,02516004,ACH-TADALAFIL (tadalafil 20 mg oral tablet) ACCORD HEALTHCARE INC,ADDED
+100738,02518058,BREZTRI AEROSPHERE (budesonide 160 mcg per actuation and formoterol fumarate dihydrate 5 mcg per actuation and glycopyrronium (glycopyrronium bromide) 7.2 mcg per actuation pressurized inhalation) ASTRAZENECA CANADA INC,"mp_formal_name: ""BREZTRI AEROSPHERE (budesonide 18̲2̲ mcg per actuation and formoterol fumarate dihydrate 5.̲8̲ mcg per actuation and glycopyrronium (glycopyrronium bromide) 8̲.2 mcg per actuation pressurized inhalation) ASTRAZENECA CANADA INC"" -> ""BREZTRI AEROSPHERE (budesonide 16̲0̲ mcg per actuation and formoterol fumarate dihydrate 5 mcg per actuation and glycopyrronium (glycopyrronium bromide) 7̲.2 mcg per actuation pressurized inhalation) ASTRAZENECA CANADA INC"""
+101486,02525879,PROPOFOL INJECTION (propofol 10 mg per mL emulsion for injection) MARCAN PHARMACEUTICALS INC,ADDED
+101655,02527499,FUROSEMIDE SPECIAL INJECTION (furosemide 250 mg per 25 mL solution for injection) JAMP PHARMA CORPORATION,ADDED
+101883,02529599,AZACITIDINE FOR INJECTION (azacitidine 100 mg per vial powder for suspension for injection) SANDOZ CANADA INCORPORATED,ADDED
+101904,02529807,PYRITHIONE ZINC DANDRUFF SHAMPOO GINGER 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+101921,02529998,"DANTROLENE SODIUM FOR INJECTION, USP (dantrolene sodium 20 mg per vial powder for solution for injection) HIKMA CANADA LIMITED",ADDED
+101926,02530058,PYRITHIONE ZINC DANDRUFF SHAMPOO 2IN1 MEN EUCALYPTUS & NEEM (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+101927,02530066,NRA-FLECAINIDE (flecainide acetate 50 mg oral tablet) NORA PHARMA INC,ADDED
+101928,02530074,NRA-FLECAINIDE (flecainide acetate 100 mg oral tablet) NORA PHARMA INC,ADDED
+101930,02530090,NAT-EVEROLIMUS (everolimus 2.5 mg oral tablet) NATCO PHARMA (CANADA) INC,ADDED
+101931,02530104,NAT-EVEROLIMUS (everolimus 5 mg oral tablet) NATCO PHARMA (CANADA) INC,ADDED
+101933,02530120,NAT-EVEROLIMUS (everolimus 10 mg oral tablet) NATCO PHARMA (CANADA) INC,ADDED
+101942,02530236,NRA-CETIRIZINE TABLETS (cetirizine hydrochloride 20 mg oral tablet) NORA PHARMA INC,ADDED
+102048,02531348,PYRITHIONE ZINC DANDRUFF CONDITIONER SHEA BUTTER (pyrithione zinc 0.5 % shampoo) PROCTER & GAMBLE INC,ADDED
+102093,02531844,JAMP AMIODARONE (amiodarone hydrochloride 200 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+102102,02531933,PYRITHIONE ZINC DANDRUFF SHAMPOO AVOCADO OIL (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+102104,02531968,PYRITHIONE ZINC DANDRUFF SHAMPOO DEEP SCALP HYDRATION (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+102109,02532026,PYRITHIONE ZINC DANDRUFF SHAMPOO DEEP SCALP HYDRATION 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+102336,02534436,GASTROVOL LIQUID GELS (bismuth subsalicylate 262 mg oral capsule) CHURCH & DWIGHT CANADA CORP,ADDED
+102462,02535793,JAMP-AMOXICILLIN (amoxicillin (amoxicillin trihydrate) 125 mg per 5 mL oral suspension) JAMP PHARMA CORPORATION,ADDED
+102464,02535815,JAMP-AMOXICILLIN (amoxicillin (amoxicillin trihydrate) 250 mg per 5 mL oral suspension) JAMP PHARMA CORPORATION,ADDED
+NA,77700238,DALACIN C PHOSPHATE (clindamycin (clindamycin phosphate) 300 mg per 2 mL solution for injection vial) PFIZER CANADA ULC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20221125"" -> ""19731231"""
+NA,77700239,DALACIN C PHOSPHATE (clindamycin (clindamycin phosphate) 600 mg per 4 mL solution for injection vial) PFIZER CANADA ULC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20221125"" -> ""19731231"""
+NA,77700240,DALACIN C PHOSPHATE (clindamycin (clindamycin phosphate) 150 mg per mL solution for injection 60 mL vial) PFIZER CANADA ULC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20221125"" -> ""19731231"""
+NA,77700241,DALACIN C PHOSPHATE (clindamycin (clindamycin phosphate) 900 mg per 6 mL solution for injection vial) PFIZER CANADA ULC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20221125"" -> ""19731231"""
+NA,77700526,ZOFRAN (ondansetron (ondansetron hydrochloride dihydrate) 2 mg per mL solution for injection 20 mL vial) NOVARTIS PHARMACEUTICALS CANADA INC,DELETED
+NA,77700527,ZOFRAN (ondansetron (ondansetron hydrochloride dihydrate) 4 mg per 2 mL solution for injection ampoule) NOVARTIS PHARMACEUTICALS CANADA INC,DELETED
+NA,77700528,ZOFRAN (ondansetron (ondansetron hydrochloride dihydrate) 8 mg per 4 mL solution for injection ampoule) NOVARTIS PHARMACEUTICALS CANADA INC,DELETED
