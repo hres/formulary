@@ -1,0 +1,29 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8001757,doxorubicin,doxorubicine,ADDED
+8001870,potassium chloride,chlorure de potassium,ADDED
+8002215,amphotericin B,amphotéricine B,ADDED
+8001976,triclosan,triclosan,ADDED
+8001579,benzethonium,benzéthonium,ADDED
+8002452,cytarabine and daunorubicin,cytarabine et daunorubicine,ADDED
+8000782,meperidine,mépéridine,"tm_status_effective_time: ""19441231"" -> ""19861231"""
+8002154,potassium phosphate dibasic and potassium phosphate monobasic,phosphate de potassium dibasique et phosphate de potassium monobasique,ADDED
+8002161,sodium bicarbonate,bicarbonate de sodium,ADDED
+8001004,benzoyl peroxide and salicylic acid,peroxyde de benzoyle et acide salicylique,ADDED
+8f6c0fc270814c787bb79c71372e9c89,ubrogepant,ubrogépant,ADDED
+8001476,follitropin beta,follitropine bêta,ADDED
+8001844,magnesium chloride,chlorure de magnésium,ADDED
+8002160,sodium acetate,acétate de sodium,ADDED
+8001098,asparaginase,asparaginase,ADDED
+8002278,coagulation factor IX human and coagulation factor ii (human) and coagulation factor vii (human) and coagulation factor x (human) and protein c and protein s,facteur IX de coagulation humain et facteur II de coagulation humain et facteur VII de coagulation humain et facteur X de coagulation humain et protéine c et protéine s,ADDED
+8000912,alcohol anhydrous and chlorhexidine,alcool anhydre et chlorhexidine,ADDED
+8002047,paclitaxel,paclitaxel,ADDED
+8001615,chloroxylenol,chloroxylénol,ADDED
+8002282,fibrinogen human and thrombin human,fibrinogène humaine et thrombine humaine,ADDED
+8002088,acetic acid and sodium acetate,acide acétique et acétate de sodium,ADDED
+1b0ccc546f56650adbb6c16589728a39,lenacapavir,lénacapavir,ADDED
+8001106,ondansetron,ondansétron,"tm_status_effective_time: ""19961113"" -> ""19970414"""
+8000139,gliclazide,gliclazide,"tm_status_effective_time: ""19901231"" -> ""19980608"""
+8001878,sodium iodide,iodure de sodium,ADDED
+8000796,benzalkonium,benzalkonium,ADDED
+8001230,saquinavir,saquinavir,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19961231"" -> ""20181231"""
