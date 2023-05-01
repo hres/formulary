@@ -1,0 +1,45 @@
+drug_code,mp_code,mp_formal_name,changes
+48226,02229868,HYOSCINE BUTYLBROMIDE INJECTION (hyoscine butylbromide 20 mg per 1 mL solution for injection vial) SANDOZ CANADA INCORPORATED,"mp_formal_name: ""HYOSCINE BUTYLBROMIDE INJECTION ̲S̲A̲N̲D̲O̲Z̲ ̲S̲T̲A̲N̲D̲A̲R̲D̲ (hyoscine butylbromide 20 mg per 1 mL solution for injection vial) SANDOZ CANADA INCORPORATED"" -> ""HYOSCINE BUTYLBROMIDE INJECTION (hyoscine butylbromide 20 mg per 1 mL solution for injection vial) SANDOZ CANADA INCORPORATED"""
+73543,02250624,LACRISERT (hyprolose 5 mg ophthalmic insert) BAUSCH & LOMB INC,"mp_formal_name: ""LACRISERT (hyprolose 5 mg ophthalmic insert) BAUSCH H̲E̲A̲L̲T̲H̲,̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"" -> ""LACRISERT (hyprolose 5 mg ophthalmic insert) BAUSCH &̲ ̲L̲O̲M̲B̲ ̲I̲N̲C̲"""
+93504,02449226,JAMP-BRIMONIDINE (brimonidine tartrate 0.2 % ophthalmic drops) JAMP PHARMA CORPORATION,ADDED
+93792,02451689,MINT-TADALAFIL (tadalafil 10 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+94698,02459671,STELARA I.V. (ustekinumab 130 mg per 26 mL solution for injection vial) JANSSEN INC,"mp_formal_name: ""STELARA (ustekinumab 130 mg per 26 mL solution for injection vial) JANSSEN INC"" -> ""STELARA ̲I̲.̲V̲.̲ (ustekinumab 130 mg per 26 mL solution for injection vial) JANSSEN INC"""
+96769,02476908,MINT-CANDESARTAN (candesartan cilexetil 4 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+96905,02478587,AMLODIPINE (amlodipine (amlodipine besylate) 2.5 mg oral tablet) SANIS HEALTH INC,ADDED
+98535,02495430,MINT-APIXABAN (apixaban 2.5 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+100534,02515989,ACH-TADALAFIL (tadalafil 5 mg oral tablet) ACCORD HEALTHCARE INC,ADDED
+100535,02515997,ACH-TADALAFIL (tadalafil 10 mg oral tablet) ACCORD HEALTHCARE INC,ADDED
+100536,02516004,ACH-TADALAFIL (tadalafil 20 mg oral tablet) ACCORD HEALTHCARE INC,ADDED
+100738,02518058,BREZTRI AEROSPHERE (budesonide 160 mcg per actuation and formoterol fumarate dihydrate 5 mcg per actuation and glycopyrronium (glycopyrronium bromide) 7.2 mcg per actuation pressurized inhalation) ASTRAZENECA CANADA INC,"mp_formal_name: ""BREZTRI AEROSPHERE (budesonide 18̲2̲ mcg per actuation and formoterol fumarate dihydrate 5.̲8̲ mcg per actuation and glycopyrronium (glycopyrronium bromide) 8̲.2 mcg per actuation pressurized inhalation) ASTRAZENECA CANADA INC"" -> ""BREZTRI AEROSPHERE (budesonide 16̲0̲ mcg per actuation and formoterol fumarate dihydrate 5 mcg per actuation and glycopyrronium (glycopyrronium bromide) 7̲.2 mcg per actuation pressurized inhalation) ASTRAZENECA CANADA INC""
+ntp_code: ""9014634"" -> ""9014844""
+ntp_formal_name: ""budesonide 18̲2̲ mcg per actuation and formoterol fumarate 5.̲8̲ mcg per actuation and glycopyrronium (glycopyrronium bromide) 8̲.2 mcg per actuation pressurized inhalation"" -> ""budesonide 16̲0̲ mcg per actuation and formoterol fumarate 5 mcg per actuation and glycopyrronium (glycopyrronium bromide) 7̲.2 mcg per actuation pressurized inhalation"""
+101655,02527499,FUROSEMIDE SPECIAL INJECTION (furosemide 250 mg per 25 mL solution for injection vial) JAMP PHARMA CORPORATION,ADDED
+101883,02529599,AZACITIDINE FOR INJECTION (azacitidine 100 mg per vial powder for suspension for injection) SANDOZ CANADA INCORPORATED,ADDED
+101904,02529807,PYRITHIONE ZINC DANDRUFF SHAMPOO GINGER 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+101921,02529998,"DANTROLENE SODIUM FOR INJECTION, USP (dantrolene sodium 20 mg per vial powder for solution for injection) HIKMA CANADA LIMITED",ADDED
+101926,02530058,PYRITHIONE ZINC DANDRUFF SHAMPOO 2IN1 MEN EUCALYPTUS & NEEM (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+101927,02530066,NRA-FLECAINIDE (flecainide acetate 50 mg oral tablet) NORA PHARMA INC,ADDED
+101928,02530074,NRA-FLECAINIDE (flecainide acetate 100 mg oral tablet) NORA PHARMA INC,ADDED
+101930,02530090,NAT-EVEROLIMUS (everolimus 2.5 mg oral tablet) NATCO PHARMA (CANADA) INC,ADDED
+101931,02530104,NAT-EVEROLIMUS (everolimus 5 mg oral tablet) NATCO PHARMA (CANADA) INC,ADDED
+101933,02530120,NAT-EVEROLIMUS (everolimus 10 mg oral tablet) NATCO PHARMA (CANADA) INC,ADDED
+101942,02530236,NRA-CETIRIZINE TABLETS (cetirizine hydrochloride 20 mg oral tablet) NORA PHARMA INC,ADDED
+102048,02531348,PYRITHIONE ZINC DANDRUFF CONDITIONER SHEA BUTTER (pyrithione zinc 0.5 % shampoo) PROCTER & GAMBLE INC,ADDED
+102064,02531526,PMS-PIRFENIDONE (pirfenidone 267 mg oral tablet) PHARMASCIENCE INC,ADDED
+102065,02531534,PMS-PIRFENIDONE (pirfenidone 801 mg oral tablet) PHARMASCIENCE INC,ADDED
+102093,02531844,JAMP AMIODARONE (amiodarone hydrochloride 200 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+102102,02531933,PYRITHIONE ZINC DANDRUFF SHAMPOO AVOCADO OIL (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+102104,02531968,PYRITHIONE ZINC DANDRUFF SHAMPOO DEEP SCALP HYDRATION (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+102109,02532026,PYRITHIONE ZINC DANDRUFF SHAMPOO DEEP SCALP HYDRATION 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+102149,02532468,SUNLENCA (lenacapavir (lenacapavir sodium) 300 mg oral tablet) GILEAD SCIENCES CANADA INC,ADDED
+102150,02532476,SUNLENCA (lenacapavir (lenacapavir sodium) 463.5 mg per 1.5 mL solution for injection vial) GILEAD SCIENCES CANADA INC,ADDED
+102161,02532581,UBRELVY (ubrogepant 100 mg oral tablet) ABBVIE CORPORATION,ADDED
+102231,02533316,SANDOZ ALFACALCIDOL (alfacalcidol 0.25 mcg oral capsule) SANDOZ CANADA INCORPORATED,ADDED
+102232,02533324,SANDOZ ALFACALCIDOL (alfacalcidol 1 mcg oral capsule) SANDOZ CANADA INCORPORATED,ADDED
+102336,02534436,GASTROVOL LIQUID GELS (bismuth subsalicylate 262 mg oral capsule) CHURCH & DWIGHT CANADA CORP,ADDED
+102462,02535793,JAMP-AMOXICILLIN (amoxicillin (amoxicillin trihydrate) 125 mg per 5 mL oral suspension) JAMP PHARMA CORPORATION,ADDED
+102464,02535815,JAMP-AMOXICILLIN (amoxicillin (amoxicillin trihydrate) 250 mg per 5 mL oral suspension) JAMP PHARMA CORPORATION,ADDED
+102579,02537087,ORKAMBI (ivacaftor 94 mg per sachet and lumacaftor 75 mg per sachet oral granules) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED,ADDED
+NA,77701122,PROPOFOL INJECTION (propofol 200 mg per 20 mL emulsion for injection vial) MARCAN PHARMACEUTICALS INC,ADDED
+NA,77701123,PROPOFOL INJECTION (propofol 500 mg per 50 mL emulsion for injection vial) MARCAN PHARMACEUTICALS INC,ADDED
+NA,77701124,PROPOFOL INJECTION (propofol 1000 mg per 100 mL emulsion for injection vial) MARCAN PHARMACEUTICALS INC,ADDED

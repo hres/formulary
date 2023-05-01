@@ -1,0 +1,14 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9000001,meperidine hydrochloride 50 mg oral tablet,chlorhydrate de mépéridine 50 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19441231"" -> ""20200702"""
+9004151,saquinavir (saquinavir mesylate) 500 mg oral tablet,saquinavir (mésylate de saquinavir) 500 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20060410"" -> ""20210106"""
+9009618,furosemide 250 mg per 25 mL solution for injection vial,furosémide 250 mg par 25 mL solution injectable fiole,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20230227"" -> ""19911231"""
+9014634,budesonide 182 mcg per actuation and formoterol fumarate 5.8 mcg per actuation and glycopyrronium (glycopyrronium bromide) 8.2 mcg per actuation pressurized inhalation,"budésonide 182 mcg par actionnement et fumarate de formotérol 5,8 mcg par actionnement et glycopyrronium (bromure de glycopyrronium) 8,2 mcg par actionnement inhalation en flacon pressurisé","ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20211203"" -> ""20230501"""
+9014844,budesonide 160 mcg per actuation and formoterol fumarate 5 mcg per actuation and glycopyrronium (glycopyrronium bromide) 7.2 mcg per actuation pressurized inhalation,"budésonide 160 mcg par actionnement et fumarate de formotérol 5 mcg par actionnement et glycopyrronium (bromure de glycopyrronium) 7,2 mcg par actionnement inhalation en flacon pressurisé",ADDED
+9014846,ivacaftor 94 mg per sachet and lumacaftor 75 mg per sachet oral granules,ivacaftor 94 mg par sachet et lumacaftor 75 mg par sachet granulés orale,ADDED
+9014847,lenacapavir (lenacapavir sodium) 300 mg oral tablet,lénacapavir (lénacapavir sodique) 300 mg comprimé oral,ADDED
+9014848,lenacapavir (lenacapavir sodium) 463.5 mg per 1.5 mL solution for injection vial,"lénacapavir (lénacapavir sodique) 463,5 mg par 1,5 mL solution injectable fiole",ADDED
+9014851,ubrogepant 100 mg oral tablet,ubrogépant 100 mg comprimé oral,ADDED
