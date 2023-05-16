@@ -1,4 +1,6 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"102243","vial","3","mL","N","N","02533448","ULTOMIRIS ALEXION PHARMA GMBH","fiole"
+"102244","vial","11","mL","N","N","02533456","ULTOMIRIS ALEXION PHARMA GMBH","fiole"
 "101655","vial","25","mL","N","N","02527499","FUROSEMIDE SPECIAL INJECTION JAMP PHARMA CORPORATION","fiole"
 "101486","vial","20","mL","Y","N","02525879","PROPOFOL INJECTION MARCAN PHARMACEUTICALS INC","fiole"
 "101486","vial","50","mL","Y","N","02525879","PROPOFOL INJECTION MARCAN PHARMACEUTICALS INC","fiole"
