@@ -1,0 +1,30 @@
+ntp_code,ntp_formal_name,changes
+0c76c334a3f21be1030bd49a1d977f08,carmustine 100 mg per vial powder for solution for injection,ADDED
+3f58d863ef76d31e4c9e0714265f6720,progesterone 50 mg per mL solution for injection,ADDED
+40d337b03e72dcf2a631d14e35976b37,amikacin (amikacin sulfate) 250 mg per mL solution for injection,ADDED
+47188360c245be689012120913b77a3b,apremilast 10 mg and apremilast 20 mg and apremilast 30 mg oral tablet,ADDED
+55fad902a46edadc622aa5a51f27903f,bevacizumab 6400 mg per 16 mL solution for injection vial,ADDED
+679a260e2d586ca9edd1f43bf2b2bcda,epinephrine (epinephrine hydrochloride) 30 mg per 30 mL NA ampoule,ADDED
+83e307730d85d28dae9c964555d3ba16,ranolazine 1000 mg prolonged-release oral tablet,ADDED
+9000003,epinephrine (epinephrine hydrochloride) 1 mg per 1 mL solution for injection ampoule,DELETED
+9000005,epinephrine (epinephrine hydrochloride) 30 mg per 30 mL solution for injection ampoule,DELETED
+9000191,metoprolol tartrate 200 mg prolonged-release oral tablet,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19831231"" -> ""20221013"""
+9003528,pyrithione zinc 0.2 % cutaneous spray,DELETED
+9004995,indacaterol (indacaterol maleate) 75 mcg inhalation powder capsule,DELETED
+9005469,white petrolatum 72 % and zinc oxide 15 % cutaneous ointment,DELETED
+9005590,lidocaine hydrochloride 2 % cutaneous solution,DELETED
+9012394,silodosin 4 mg oral capsule,"ntp_status_effective_time: ""20111026"" -> ""20210108"""
+9012411,cromolyn sodium 1 % nebulizer solution 2 mL unit dose vial,DELETED
+9012583,methotrexate (methotrexate sodium) 7.5 mg per 0.75 mL solution for injection syringe,DELETED
+9012670,irinotecan hydrochloride 300 mg per 15 mL solution for injection vial,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20140307"" -> ""20220603"""
+9013109,eptifibatide 0.75 mg per mL solution for injection 100 mL vial,DELETED
+979359e915f09321f9a6b5b1655a5946,bevacizumab 400 mg per 4 mL solution for injection vial,ADDED
+979b36ec65975b89ddc59248de6637f7,bevacizumab 400 mg per 16 mL solution for injection,ADDED
+c6a3a4d917ae33895136ed0292808113,cyanocobalamin 1000 mcg per mL solution for injection,ADDED
+c8ed7380207fa621cb99f98661f4ee58,ubrogepant 50 mg oral tablet,ADDED
+cab9953aae65807963cbd9a77398d696,carboprost (carboprost tromethamine) 250 mcg per mL solution for injection,ADDED
+d52c960bc167398ebb024a216b14ceec,epinephrine (epinephrine hydrochloride) 1 mg per 1 mL NA ampoule,ADDED
+d9aa2143cd113b485c95f0b440ab477e,posaconazole 40 mg per mL oral suspension,ADDED
+e7ccb600fd5ef7bbd5a05985d4bc95d6,lidocaine hydrochloride 100 mg per 5 mL solution for injection,ADDED
