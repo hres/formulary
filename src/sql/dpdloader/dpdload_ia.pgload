@@ -3,7 +3,7 @@
 -- Run after dpdload.pgload and before dpdload_ap.pgload
 
 LOAD ARCHIVE
-   FROM /home/cyanofsky/dpd/dpd_20230501/allfiles_ia.zip
+   FROM /home/cyanofsky/dpd/dpd_20230601/allfiles_ia.zip
   INTO postgresql://cyanofsky@rest.hc.local/
 
 
