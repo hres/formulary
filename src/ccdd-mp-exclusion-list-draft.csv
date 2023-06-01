@@ -31,6 +31,4 @@ drug_code,drug_identification_number,brand_name,status,history_date,comments
 83385,02348497,EVICEL,Marketed,2013-05-02,Out of scope - fibrin sealant
 98886,02499118,AFTER SUN GEL,Marketed,2021-02-17,Needs investigation
 100489,02515490,VYXEOS,Marketed,2021-07-06,Liposomal
-16264,02052431,ENTOCORT ENEMA,Marketed,2016-07-13,Solution or suspension
-102244,02533456,ULTOMIRIS,Marketed,2023-04-19,Needs UP
-102243,02533448,ULTOMIRIS,Marketed,2023-04-19,Needs UP
+16264,02052431,ENTOCORT ENEMA,Marketed,2016-07-13,Make correction to French strength
