@@ -1,0 +1,26 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9000191,metoprolol tartrate 200 mg prolonged-release oral tablet,tartrate de métoprolol 200 mg comprimé oral à libération prolongée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19831231"" -> ""20221013"""
+9003528,pyrithione zinc 0.2 % cutaneous spray,"pyrithione zincique 0,2 % vaporisation cutanée","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20001019"" -> ""20221127"""
+9004995,indacaterol (indacaterol maleate) 75 mcg inhalation powder capsule,indacatérol (maléate d'Indacatérol) 75 mcg poudre pour inhalation en capsule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20120305"" -> ""20170314"""
+9005469,white petrolatum 72 % and zinc oxide 15 % cutaneous ointment,pétrolatum blanc 72 % et oxyde de zinc 15 % pommade cutanée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20140314"" -> ""20220302"""
+9005590,lidocaine hydrochloride 2 % cutaneous solution,chlorhydrate de lidocaïne 2 % solution cutanée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20020301"" -> ""20211201"""
+9012411,cromolyn sodium 1 % nebulizer solution 2 mL unit dose vial,cromolyne sodique 1 % solution pour inhalation par nébuliseur 2 mL fiole unidose,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19931231"" -> ""20230331"""
+9012583,methotrexate (methotrexate sodium) 7.5 mg per 0.75 mL solution for injection syringe,"méthotrexate (méthotrexate sodique) 7,5 mg par 0,75 mL solution injectable seringue","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20090126"" -> ""20220629"""
+9012670,irinotecan hydrochloride 300 mg per 15 mL solution for injection vial,chlorhydrate d'irinotécan 300 mg par 15 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20140307"" -> ""20220603"""
+9013109,eptifibatide 0.75 mg per mL solution for injection 100 mL vial,"eptifibatide 0,75 mg par mL solution injectable 100 mL fiole","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19990623"" -> ""20221017"""
+9014853,carboprost (carboprost tromethamine) 250 mcg per 1 mL solution for injection vial,carboprost (trométhamine de carboprost) 250 mcg par 1 mL solution injectable fiole,ADDED
+9014854,crisantaspase 10 mg per 0.5 mL solution for injection vial,"crisantaspase 10 mg par 0,5 mL solution injectable fiole",ADDED
+9014855,ranolazine 1000 mg prolonged-release oral tablet,ranolazine 1000 mg comprimé oral à libération prolongée,ADDED
+9014856,ravulizumab 1100 mg per 11 mL solution for injection vial,ravulizumab 1100 mg par 11 mL solution injectable fiole,ADDED
+9014857,ravulizumab 300 mg per 3 mL solution for injection vial,ravulizumab 300 mg par 3 mL solution injectable fiole,ADDED
+9014858,spesolimab 450 mg per 7.5 mL solution for injection vial,"spésolimab 450 mg par 7,5 mL solution injectable fiole",ADDED
+9014859,ubrogepant 50 mg oral tablet,ubrogépant 50 mg comprimé oral,ADDED

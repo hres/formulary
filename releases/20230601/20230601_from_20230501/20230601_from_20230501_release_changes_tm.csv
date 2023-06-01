@@ -1,0 +1,7 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002467,crisantaspase,crisantaspase,ADDED
+8001084,indacaterol,indacatérol,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20120305"" -> ""20170314"""
+8002468,spesolimab,spésolimab,ADDED
+8001767,eptifibatide,eptifibatide,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19990623"" -> ""20221017"""
