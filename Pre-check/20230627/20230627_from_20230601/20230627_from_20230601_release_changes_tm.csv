@@ -1,0 +1,11 @@
+tm_code,tm_formal_name,changes
+8002110,coal tar and salicylic acid,"tm_status_effective_time: ""19801231"" -> ""19861231"""
+8002104,chlorobutanol and dichlorobenzene and oil of turpentine and peanut oil,"tm_status_effective_time: ""20210713"" -> ""20230609"""
+8001319,acetaminophen and chlorpheniramine and dextromethorphan,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20040112"" -> ""20200728"""
+8001217,nelfinavir,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19980921"" -> ""20211112"""
+8001621,crotamiton,DELETED
+8001232,spiramycin,DELETED
+8001889,bazedoxifene and conjugated estrogens,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20210519"" -> ""20161220"""

@@ -1,0 +1,48 @@
+ntp_code,ntp_formal_name,changes
+0763d2cc2e6097ffdc340573ef8335f4,sitagliptin (sitagliptin malate) 50 mg oral tablet,ADDED
+0d62c953080257950781a39256263812,deferiprone 1000 mg prolonged-release oral tablet,ADDED
+0dd567d92ec418440f6f3bc699420d31,dapagliflozin 5 mg and metformin hydrochloride 850 mg oral tablet,ADDED
+0f8d149f6325bbb20953d608851f56a6,dupilumab 600 mg per 2 mL solution for injection pen,ADDED
+12635146f0e1ecbd52872d6d923b19b8,lidocaine hydrochloride 10 mg per mL solution for injection,ADDED
+18c475ed8c88eea904bf433a6b256c85,sunitinib 50 mg oral capsule,ADDED
+19290a5b190e8811f5205745ca35d668,dapagliflozin 10 mg oral tablet,ADDED
+1afd715b4e400d90312baee986fc599c,dapagliflozin 5 mg and metformin hydrochloride 1000 mg oral tablet,ADDED
+228def0ab9dd8082ee805cec6d2da658,sitagliptin (sitagliptin fumarate) 25 mg oral tablet,ADDED
+2d54cddbc9b0491967f76d7be1ff8195,metformin hydrochloride 500 mg and sitagliptin (sitagliptin malate) 50 mg oral tablet,ADDED
+34b94fba7109f2d7e8b68b6623d7fd72,sitagliptin (sitagliptin fumarate) 50 mg oral tablet,ADDED
+47dc8dac462a560a2991f04f62bc31f7,dapagliflozin 5 mg oral tablet,ADDED
+48729f7146c4c0f3f44e9cbde03cb6eb,lidocaine hydrochloride 20 mg per mL solution for injection,ADDED
+4b723e63e7ab99a9eaac144000ac68ea,mavacamten 10 mg oral capsule,ADDED
+5c146014d69290dccf705a535bf14d0d,milrinone (milrinone lactate) 1 mg per mL solution for injection,ADDED
+74785c6fa67a0358e4734b082c23580e,metformin hydrochloride 850 mg and sitagliptin (sitagliptin malate) 50 mg oral tablet,ADDED
+7daff15e2e0dfeb7ed4d55fdbaa21d11,sitagliptin (sitagliptin hydrochloride) 50 mg oral tablet,ADDED
+7f430c0ec3e1a8278ee4a4da00f047ed,sitagliptin (sitagliptin malate) 25 mg oral tablet,ADDED
+840743f6e675098aa81cc03d2c92bc66,metformin hydrochloride 1000 mg and sitagliptin (sitagliptin malate) 50 mg oral tablet,ADDED
+9001539,crotamiton 10 % cutaneous cream,DELETED
+9001560,spiramycin 1500000 unit oral capsule,DELETED
+9001561,spiramycin 750000 unit oral capsule,DELETED
+9003308,nelfinavir (nelfinavir mesylate) 250 mg oral tablet,DELETED
+9003860,acetaminophen 500 mg and chlorpheniramine maleate 2 mg and dextromethorphan hydrobromide 15 mg oral tablet,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20040112"" -> ""20200728"""
+9006080,bazedoxifene (bazedoxifene acetate) 20 mg and conjugated estrogens 0.45 mg modified-release oral tablet,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20210519"" -> ""20161220"""
+9006588,oxybutynin 3.9 mg per 24 hour transdermal patch,DELETED
+9012350,verapamil hydrochloride 10 mg per 4 mL solution for injection ampoule,DELETED
+9012351,verapamil hydrochloride 10 mg per 4 mL solution for injection vial,DELETED
+9012359,verapamil hydrochloride 5 mg per 2 mL solution for injection vial,"ntp_status_effective_time: ""19941231"" -> ""19951231"""
+9012386,testosterone 2.5 mg per 24 hour transdermal patch,DELETED
+9012390,testosterone 5 mg per 24 hour transdermal patch,DELETED
+9012489,dupilumab 300 mg per 2 mL solution for injection syringe,DELETED
+9013670,coal tar 10 % and salicylic acid 3 % cutaneous gel,DELETED
+9013807,chlorobutanol 5 % and dichlorobenzene 2 % and oil of turpentine 10 % and peanut oil 57 % otic drops,"ntp_status_effective_time: ""20210713"" -> ""20230609"""
+9013815,desmopressin acetate 0.1 mg per mL nasal drops,DELETED
+9014543,dupilumab 300 mg per 2 mL solution for injection pen,DELETED
+976b1ab5c6812db5570675f3bd1ee49e,roflumilast 0.3 % cutaneous cream,ADDED
+9e718cf02245bd2e790baf8583345dca,sitagliptin (sitagliptin fumarate) 100 mg oral tablet,ADDED
+9f672acadeb503674b2e4e4e6d4ec3e7,sitagliptin (sitagliptin hydrochloride) 100 mg oral tablet,ADDED
+a1f6f1589d0d1cb1871d80641c99d130,metformin hydrochloride 1000 mg oral tablet,ADDED
+ab1c2bf3a182039a7e794dc2f4548517,sitagliptin (sitagliptin hydrochloride) 25 mg oral tablet,ADDED
+e6b28b64a784e4b29f50439e4f23d8a0,dupilumab 600 mg per 2 mL solution for injection syringe,ADDED
+e76b97b45a69e02b75c93de54d2df324,sunitinib 12.5 mg oral capsule,ADDED
+fa06c4532cd815b3437dc46326a6be2a,sitagliptin (sitagliptin malate) 100 mg oral tablet,ADDED
+fa78558cababafdc672ab05c26e0af62,sunitinib 25 mg oral capsule,ADDED
