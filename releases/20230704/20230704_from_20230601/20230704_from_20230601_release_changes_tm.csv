@@ -1,0 +1,13 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8001621,crotamiton,crotamiton,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19531231"" -> ""20230620"""
+8001889,bazedoxifene and conjugated estrogens,bazedoxifène et oestrogènes conjugués,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20210519"" -> ""20161220"""
+8001319,acetaminophen and chlorpheniramine and dextromethorphan,acétaminophène et chlorphéniramine et dextrométhorphane,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20040112"" -> ""20230605"""
+8002469,letibotulinumtoxina,létibotulinumtoxina,ADDED
+8001232,spiramycin,spiramycine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19571231"" -> ""20230619"""
+8001217,nelfinavir,nelfinavir,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19980921"" -> ""20220602"""
+8002104,chlorobutanol and dichlorobenzene and oil of turpentine and peanut oil,chlorobutanol et dichlorobenzène et essence de térébenthine et huile d'arachide,"tm_status_effective_time: ""20210713"" -> ""20230609"""
