@@ -1,0 +1,24 @@
+ntp_code,ntp_formal_name,changes
+489cef4f33fac70a7dcb0b651315e2ed,sulfamethoxazole 80 mg per mL and trimethoprim 16 mg per mL solution for injection,ADDED
+56e6e22362bb4585c22f99030bf953d4,amantadine hydrochloride 10 mg per mL syrup,ADDED
+9000599,medroxyprogesterone acetate 150 mg per 1 mL suspension for injection vial,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19951231"" -> ""20210420"""
+9002038,acetaminophen 160 mg per 5 mL syrup,DELETED
+9002336,acetaminophen 80 mg per 5 mL syrup,DELETED
+9002840,lidocaine hydrochloride 0.5 % cutaneous gel,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19951231"" -> ""20220425"""
+9002885,acarbose 100 mg oral tablet,"ntp_status_effective_time: ""19960202"" -> ""20200205"""
+9003478,leflunomide 100 mg oral tablet,DELETED
+9003786,methacholine chloride 320 mg per vial powder for nebulizer solution,DELETED
+9005596,pyrithione zinc 0.5 % shampoo,"ntp_status_effective_time: ""20080222"" -> ""20160104"""
+9012643,nadroparin calcium 2850 unit per 0.3 mL solution for injection syringe,DELETED
+9012644,nadroparin calcium 3800 unit per 0.4 mL solution for injection syringe,DELETED
+9012646,nadroparin calcium 9500 unit per 1 mL solution for injection syringe,DELETED
+9013336,sarilumab 150 mg per 1.14 mL solution for injection syringe,DELETED
+9013658,buprenorphine hydrochloride 80 mg implant,DELETED
+9013817,dextromethorphan hydrobromide 15 mg per 15 mL and doxylamine succinate 6.25 mg per 15 mL syrup,DELETED
+9013853,acetaminophen 650 mg per 30 mL and dextromethorphan hydrobromide 30 mg per 30 mL and pseudoephedrine hydrochloride 30 mg per 30 mL oral solution,DELETED
+9014011,brexpiprazole 0.5 mg oral tablet with brexpiprazole 1 mg oral tablet,DELETED
+9014144,albutrepenonacog alfa 1000 unit per vial powder for solution for injection with diluent solution,DELETED
+9014323,caffeine citrate 20 mg per mL solution for injection,ADDED
+dd0f2f4f1007b1d83978996b13b575d4,caffeine citrate 20 mg per mL oral solution,ADDED
