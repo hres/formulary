@@ -1,0 +1,11 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002289,albutrepenonacog alfa,albutrépénonacog alfa,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20190704"" -> ""20230713"""
+8002470,mometasone and olopatadine,mométasone et olopatadine,ADDED
+8002367,ChAdOx1-S (recombinant),ChAdOx1-S (recombinant),"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20210303"" -> ""20230727"""
+8002203,magnesium hydroxide and mineral oil heavy,hydroxyde de magnésium et huile minérale lourde,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19721231"" -> ""20230731"""
+8002471,daridorexant,daridorexant,ADDED
+8002472,glofitamab,glofitamab,ADDED
+8002473,setmelanotide,setmélanotide,ADDED
