@@ -1,0 +1,17 @@
+ntp_code,ntp_formal_name,changes
+421b7b705dbd7362cf1a026d1873bfe5,petrolatum 84.3 % cutaneous ointment,ADDED
+4e1c365da9b9521ae8e8e616f9b17416,phenytoin 50 mg chewable tablet,ADDED
+583c3ac49f3b4a94315e90eaf0ff3a95,dextromethorphan hydrobromide 10 mg per 15 mL and doxylamine succinate 6.25 mg per 15 mL and phenylephrine hydrochloride 5 mg per 15 mL syrup,ADDED
+69e8b70541b2768ba3a1d80676277407,mavacamten 15 mg oral capsule,ADDED
+8208ce9bbea8c5da42f9e8ed98781ac2,dextromethorphan hydrobromide 5 mg per 5 mL and guaifenesin 50 mg per 5 mL syrup,ADDED
+9000008,phenytoin 50 mg oral tablet,DELETED
+9002070,docusate calcium 240 mg oral capsule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19861231"" -> ""20221107"""
+9002348,chlorhexidine gluconate 2 % cutaneous gel,DELETED
+9002782,desmopressin acetate 0.2 mg oral tablet,"ntp_status_effective_time: ""19951231"" -> ""20070131"""
+9003642,tazarotene 0.1 % cutaneous cream,DELETED
+9003804,cyproheptadine hydrochloride 2 mg per 5 mL syrup,DELETED
+9012395,silodosin 8 mg oral capsule,"ntp_status_effective_time: ""20111026"" -> ""20210108"""
+9013535,camphor 0.3 g per 100 g and glycol salicylate 1.25 g per 100 g and levomenthol 1 g per 100 g plaster,"ntp_status_effective_time: ""20200706"" -> ""20230630"""
+a285570678d54881cb2f5f21a2ad558f,hydralazine hydrochloride 20 mg per mL solution for injection,ADDED
+edf523beefaa7513e18fbc772e1d971f,pyrithione zinc 0.1 % shampoo,ADDED

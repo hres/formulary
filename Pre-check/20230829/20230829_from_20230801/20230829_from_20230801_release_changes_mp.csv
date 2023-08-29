@@ -1,0 +1,148 @@
+drug_code,mp_code,mp_formal_name,changes
+613,00023450,DILANTIN-125 SUSPENSION (phenytoin 125 mg per 5 mL oral suspension) BGP PHARMA ULC,"mp_formal_name: ""DILANTIN-125 SUSPENSION (phenytoin 125 mg per 5 mL oral suspension) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""DILANTIN-125 SUSPENSION (phenytoin 125 mg per 5 mL oral suspension) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+769,00023442,DILANTIN-30 SUSPENSION (phenytoin 30 mg per 5 mL oral suspension) BGP PHARMA ULC,"mp_formal_name: ""DILANTIN-30 SUSPENSION (phenytoin 30 mg per 5 mL oral suspension) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""DILANTIN-30 SUSPENSION (phenytoin 30 mg per 5 mL oral suspension) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+1086,00023698,DILANTIN INFATABS (phenytoin 50 mg chewable tablet) BGP PHARMA ULC,"mp_formal_name: ""DILANTIN INFATABS (phenytoin 50 mg o̲r̲a̲l̲ ̲t̲a̲b̲l̲e̲t̲)̲ ̲U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""DILANTIN INFATABS (phenytoin 50 mg c̲h̲e̲w̲a̲b̲l̲e̲ ̲t̲a̲b̲l̲e̲t̲)̲ ̲B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+2064,00013668,ATASOL FORTE TAB 500MG (acetaminophen 500 mg oral tablet) CHURCH & DWIGHT CANADA CORP,DELETED
+3088,00392618,MAGNESIUM SULFATE INJECTION USP (magnesium sulfate 2000 mg per 10 mL solution for injection vial) SANDOZ CANADA INCORPORATED,"Health_Canada_product_name: ""MAGNESIUM SULFATE INJ 20% USP"" -> ""MAGNESIUM SULFATE INJECTION USP""
+mp_formal_name: ""MAGNESIUM SULFATE INJ ̲2̲0̲%̲ USP (magnesium sulfate 2000 mg per 10 mL solution for injection vial) SANDOZ CANADA INCORPORATED"" -> ""MAGNESIUM SULFATE INJE̲C̲T̲I̲O̲N̲ USP (magnesium sulfate 2000 mg per 10 mL solution for injection vial) SANDOZ CANADA INCORPORATED"""
+6295,00655740,APO-LORAZEPAM (lorazepam 0.5 mg oral tablet) APOTEX INC,"Health_Canada_product_name: ""APO-LORAZEPAM TAB 0.5MG"" -> ""APO-LORAZEPAM""
+mp_formal_name: ""APO-LORAZEPAM ̲T̲A̲B̲ ̲0̲.̲5̲M̲G̲ (lorazepam 0.5 mg oral tablet) APOTEX INC"" -> ""APO-LORAZEPAM (lorazepam 0.5 mg oral tablet) APOTEX INC"""
+6296,00655759,APO-LORAZEPAM (lorazepam 1 mg oral tablet) APOTEX INC,"Health_Canada_product_name: ""APO-LORAZEPAM TAB 1MG"" -> ""APO-LORAZEPAM""
+mp_formal_name: ""APO-LORAZEPAM ̲T̲A̲B̲ ̲1̲M̲G̲ (lorazepam 1 mg oral tablet) APOTEX INC"" -> ""APO-LORAZEPAM (lorazepam 1 mg oral tablet) APOTEX INC"""
+6297,00655767,APO-LORAZEPAM (lorazepam 2 mg oral tablet) APOTEX INC,"Health_Canada_product_name: ""APO-LORAZEPAM TAB 2MG"" -> ""APO-LORAZEPAM""
+mp_formal_name: ""APO-LORAZEPAM ̲T̲A̲B̲ ̲2̲M̲G̲ (lorazepam 2 mg oral tablet) APOTEX INC"" -> ""APO-LORAZEPAM (lorazepam 2 mg oral tablet) APOTEX INC"""
+8119,00711306,PHOSPHATE DE POTASSIUM MONOBASIC INJ 176MG/ML (phosphorus (potassium phosphate monobasic) 12.9 mmol per 10 mL and potassium (potassium phosphate monobasic) 12.9 mmol per 10 mL solution for injection vial) SANDOZ CANADA INCORPORATED,"Health_Canada_product_name: ""PHOSPHATE DE POTASSIUM MONOBASIC INJ 176MG/ML"" -> ""POTASSIUM PHOSPHATE MONOBASIC INJECTION"""
+10706,00778869,NITROJECT (nitroglycerin 50 mg per 10 mL solution for injection vial) OMEGA LABORATORIES LIMITED,"Health_Canada_product_name: ""NITROJECT INJ 5MG/ML"" -> ""NITROJECT""
+mp_formal_name: ""NITROJECT ̲I̲N̲J̲ ̲5̲M̲G̲/̲M̲L̲ (nitroglycerin 50 mg per 10 mL solution for injection vial) OMEGA LABORATORIES LIMITED"" -> ""NITROJECT (nitroglycerin 50 mg per 10 mL solution for injection vial) OMEGA LABORATORIES LIMITED"""
+11826,01930079,GERMI STAT GEL 2% (chlorhexidine gluconate 2 % cutaneous gel) GERMIPHENE CORPORATION,DELETED
+12662,01962817,ZOLOFT (sertraline (sertraline hydrochloride) 50 mg oral capsule) BGP PHARMA ULC,"mp_formal_name: ""ZOLOFT (sertraline (sertraline hydrochloride) 50 mg oral capsule) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""ZOLOFT (sertraline (sertraline hydrochloride) 50 mg oral capsule) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+12938,00878928,NORVASC (amlodipine (amlodipine besylate) 5 mg oral tablet) BGP PHARMA ULC,"mp_formal_name: ""NORVASC (amlodipine (amlodipine besylate) 5 mg oral tablet) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""NORVASC (amlodipine (amlodipine besylate) 5 mg oral tablet) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+12939,00878936,NORVASC (amlodipine (amlodipine besylate) 10 mg oral tablet) BGP PHARMA ULC,"mp_formal_name: ""NORVASC (amlodipine (amlodipine besylate) 10 mg oral tablet) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""NORVASC (amlodipine (amlodipine besylate) 10 mg oral tablet) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+13392,01962779,ZOLOFT (sertraline (sertraline hydrochloride) 100 mg oral capsule) BGP PHARMA ULC,"mp_formal_name: ""ZOLOFT (sertraline (sertraline hydrochloride) 100 mg oral capsule) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""ZOLOFT (sertraline (sertraline hydrochloride) 100 mg oral capsule) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+14385,02020025,APO-ENALAPRIL (enalapril maleate 2.5 mg oral tablet) APOTEX INC,"Health_Canada_product_name: ""APO-ENALAPRIL TAB 2.5MG"" -> ""APO-ENALAPRIL""
+mp_formal_name: ""APO-ENALAPRIL ̲T̲A̲B̲ ̲2̲.̲5̲M̲G̲ (enalapril maleate 2.5 mg oral tablet) APOTEX INC"" -> ""APO-ENALAPRIL (enalapril maleate 2.5 mg oral tablet) APOTEX INC"""
+14386,02019884,APO-ENALAPRIL (enalapril maleate 5 mg oral tablet) APOTEX INC,"Health_Canada_product_name: ""APO-ENALAPRIL TAB 5MG"" -> ""APO-ENALAPRIL""
+mp_formal_name: ""APO-ENALAPRIL ̲T̲A̲B̲ ̲5̲M̲G̲ (enalapril maleate 5 mg oral tablet) APOTEX INC"" -> ""APO-ENALAPRIL (enalapril maleate 5 mg oral tablet) APOTEX INC"""
+14387,02019892,APO-ENALAPRIL (enalapril maleate 10 mg oral tablet) APOTEX INC,"Health_Canada_product_name: ""APO-ENALAPRIL TAB 10MG"" -> ""APO-ENALAPRIL""
+mp_formal_name: ""APO-ENALAPRIL ̲T̲A̲B̲ ̲1̲0̲M̲G̲ (enalapril maleate 10 mg oral tablet) APOTEX INC"" -> ""APO-ENALAPRIL (enalapril maleate 10 mg oral tablet) APOTEX INC"""
+14388,02019906,APO-ENALAPRIL (enalapril maleate 20 mg oral tablet) APOTEX INC,"Health_Canada_product_name: ""APO-ENALAPRIL TAB 20MG"" -> ""APO-ENALAPRIL""
+mp_formal_name: ""APO-ENALAPRIL ̲T̲A̲B̲ ̲2̲0̲M̲G̲ (enalapril maleate 20 mg oral tablet) APOTEX INC"" -> ""APO-ENALAPRIL (enalapril maleate 20 mg oral tablet) APOTEX INC"""
+18005,02132702,ZOLOFT (sertraline (sertraline hydrochloride) 25 mg oral capsule) BGP PHARMA ULC,"mp_formal_name: ""ZOLOFT (sertraline (sertraline hydrochloride) 25 mg oral capsule) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""ZOLOFT (sertraline (sertraline hydrochloride) 25 mg oral capsule) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+19441,00824143,DDAVP TABLETS 0.2MG (desmopressin acetate 0.2 mg oral tablet) FERRING INC,DELETED
+19939,02164396,ACEBUTOLOL-100 (acebutolol (acebutolol hydrochloride) 100 mg oral tablet) PRO DOC LIMITEE,DELETED
+19940,02164418,ACEBUTOLOL-200 (acebutolol (acebutolol hydrochloride) 200 mg oral tablet) PRO DOC LIMITEE,DELETED
+19941,02164426,ACEBUTOLOL - 400 (acebutolol (acebutolol hydrochloride) 400 mg oral tablet) PRO DOC LIMITEE,DELETED
+49973,02230711,LIPITOR (atorvastatin (atorvastatin calcium) 10 mg oral tablet) BGP PHARMA ULC,"mp_formal_name: ""LIPITOR (atorvastatin (atorvastatin calcium) 10 mg oral tablet) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""LIPITOR (atorvastatin (atorvastatin calcium) 10 mg oral tablet) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+49974,02230713,LIPITOR (atorvastatin (atorvastatin calcium) 20 mg oral tablet) BGP PHARMA ULC,"mp_formal_name: ""LIPITOR (atorvastatin (atorvastatin calcium) 20 mg oral tablet) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""LIPITOR (atorvastatin (atorvastatin calcium) 20 mg oral tablet) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+49975,02230714,LIPITOR (atorvastatin (atorvastatin calcium) 40 mg oral tablet) BGP PHARMA ULC,"mp_formal_name: ""LIPITOR (atorvastatin (atorvastatin calcium) 40 mg oral tablet) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""LIPITOR (atorvastatin (atorvastatin calcium) 40 mg oral tablet) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+50390,02231106,MICOZOLE (miconazole nitrate 2 % vaginal cream) TARO PHARMACEUTICALS INC,DELETED
+51232,02231799,ODAN-INDOMETHACIN (indomethacin 50 mg suppository) ODAN LABORATORIES LTD,"Health_Canada_product_name: ""SANDOZ INDOMETHACIN"" -> ""ODAN-INDOMETHACIN""
+mp_formal_name: ""S̲A̲N̲D̲O̲Z̲ ̲INDOMETHACIN (indomethacin 50 mg suppository) S̲A̲N̲D̲O̲Z̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲O̲R̲P̲O̲R̲A̲T̲E̲D"" -> ""O̲D̲A̲N̲-̲INDOMETHACIN (indomethacin 50 mg suppository) O̲D̲A̲N̲ ̲L̲A̲B̲O̲R̲A̲T̲O̲R̲I̲E̲S̲ ̲L̲T̲D"""
+51233,02231800,ODAN-INDOMETHACIN (indomethacin 100 mg suppository) ODAN LABORATORIES LTD,"Health_Canada_product_name: ""SANDOZ INDOMETHACIN"" -> ""ODAN-INDOMETHACIN""
+mp_formal_name: ""S̲A̲N̲D̲O̲Z̲ ̲INDOMETHACIN (indomethacin 100 mg suppository) S̲A̲N̲D̲O̲Z̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲O̲R̲P̲O̲R̲A̲T̲E̲D"" -> ""O̲D̲A̲N̲-̲INDOMETHACIN (indomethacin 100 mg suppository) O̲D̲A̲N̲ ̲L̲A̲B̲O̲R̲A̲T̲O̲R̲I̲E̲S̲ ̲L̲T̲D"""
+60600,02237279,EFFEXOR XR (venlafaxine (venlafaxine hydrochloride) 37.5 mg prolonged-release oral capsule) BGP PHARMA ULC,"mp_formal_name: ""EFFEXOR XR (venlafaxine (venlafaxine hydrochloride) 37.5 mg prolonged-release oral capsule) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""EFFEXOR XR (venlafaxine (venlafaxine hydrochloride) 37.5 mg prolonged-release oral capsule) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+60601,02237280,EFFEXOR XR (venlafaxine (venlafaxine hydrochloride) 75 mg prolonged-release oral capsule) BGP PHARMA ULC,"mp_formal_name: ""EFFEXOR XR (venlafaxine (venlafaxine hydrochloride) 75 mg prolonged-release oral capsule) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""EFFEXOR XR (venlafaxine (venlafaxine hydrochloride) 75 mg prolonged-release oral capsule) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+60603,02237282,EFFEXOR XR (venlafaxine (venlafaxine hydrochloride) 150 mg prolonged-release oral capsule) BGP PHARMA ULC,"mp_formal_name: ""EFFEXOR XR (venlafaxine (venlafaxine hydrochloride) 150 mg prolonged-release oral capsule) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""EFFEXOR XR (venlafaxine (venlafaxine hydrochloride) 150 mg prolonged-release oral capsule) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+61438,02238054,"SALONPAS GEL-PATCH (camphor 0.3 g per 100 g and glycol salicylate 1.25 g per 100 g and levomenthol 1 g per 100 g plaster) HISAMITSU PHARMACEUTICAL CO., INC.","mp_status_effective_time: ""20200706"" -> ""20230630"""
+66964,02243097,LIPITOR (atorvastatin (atorvastatin calcium) 80 mg oral tablet) BGP PHARMA ULC,"mp_formal_name: ""LIPITOR (atorvastatin (atorvastatin calcium) 80 mg oral tablet) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""LIPITOR (atorvastatin (atorvastatin calcium) 80 mg oral tablet) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+67836,02243895,TAZORAC (tazarotene 0.1 % cutaneous cream) ALLERGAN INC,DELETED
+69768,02245668,SANDOZ CYPROHEPTADINE (cyproheptadine hydrochloride 2 mg per 5 mL syrup) SANDOZ CANADA INCORPORATED,DELETED
+73611,02251159,T/GEL DAILY CONTROL 2 IN 1 (pyrithione zinc 1 % shampoo) JOHNSON & JOHNSON INC,DELETED
+75873,02273233,CADUET (amlodipine (amlodipine besylate) 5 mg and atorvastatin (atorvastatin calcium) 10 mg oral tablet) BGP PHARMA ULC,"mp_formal_name: ""CADUET (amlodipine (amlodipine besylate) 5 mg and atorvastatin (atorvastatin calcium) 10 mg oral tablet) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""CADUET (amlodipine (amlodipine besylate) 5 mg and atorvastatin (atorvastatin calcium) 10 mg oral tablet) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+75874,02273241,CADUET (amlodipine (amlodipine besylate) 5 mg and atorvastatin (atorvastatin calcium) 20 mg oral tablet) BGP PHARMA ULC,"mp_formal_name: ""CADUET (amlodipine (amlodipine besylate) 5 mg and atorvastatin (atorvastatin calcium) 20 mg oral tablet) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""CADUET (amlodipine (amlodipine besylate) 5 mg and atorvastatin (atorvastatin calcium) 20 mg oral tablet) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+75875,02273268,CADUET (amlodipine (amlodipine besylate) 5 mg and atorvastatin (atorvastatin calcium) 40 mg oral tablet) BGP PHARMA ULC,"mp_formal_name: ""CADUET (amlodipine (amlodipine besylate) 5 mg and atorvastatin (atorvastatin calcium) 40 mg oral tablet) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""CADUET (amlodipine (amlodipine besylate) 5 mg and atorvastatin (atorvastatin calcium) 40 mg oral tablet) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+75876,02273276,CADUET (amlodipine (amlodipine besylate) 5 mg and atorvastatin (atorvastatin calcium) 80 mg oral tablet) BGP PHARMA ULC,"mp_formal_name: ""CADUET (amlodipine (amlodipine besylate) 5 mg and atorvastatin (atorvastatin calcium) 80 mg oral tablet) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""CADUET (amlodipine (amlodipine besylate) 5 mg and atorvastatin (atorvastatin calcium) 80 mg oral tablet) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+75877,02273284,CADUET (amlodipine (amlodipine besylate) 10 mg and atorvastatin (atorvastatin calcium) 10 mg oral tablet) BGP PHARMA ULC,"mp_formal_name: ""CADUET (amlodipine (amlodipine besylate) 10 mg and atorvastatin (atorvastatin calcium) 10 mg oral tablet) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""CADUET (amlodipine (amlodipine besylate) 10 mg and atorvastatin (atorvastatin calcium) 10 mg oral tablet) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+75878,02273292,CADUET (amlodipine (amlodipine besylate) 10 mg and atorvastatin (atorvastatin calcium) 20 mg oral tablet) BGP PHARMA ULC,"mp_formal_name: ""CADUET (amlodipine (amlodipine besylate) 10 mg and atorvastatin (atorvastatin calcium) 20 mg oral tablet) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""CADUET (amlodipine (amlodipine besylate) 10 mg and atorvastatin (atorvastatin calcium) 20 mg oral tablet) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+75879,02273306,CADUET (amlodipine (amlodipine besylate) 10 mg and atorvastatin (atorvastatin calcium) 40 mg oral tablet) BGP PHARMA ULC,"mp_formal_name: ""CADUET (amlodipine (amlodipine besylate) 10 mg and atorvastatin (atorvastatin calcium) 40 mg oral tablet) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""CADUET (amlodipine (amlodipine besylate) 10 mg and atorvastatin (atorvastatin calcium) 40 mg oral tablet) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+75880,02273314,CADUET (amlodipine (amlodipine besylate) 10 mg and atorvastatin (atorvastatin calcium) 80 mg oral tablet) BGP PHARMA ULC,"mp_formal_name: ""CADUET (amlodipine (amlodipine besylate) 10 mg and atorvastatin (atorvastatin calcium) 80 mg oral tablet) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""CADUET (amlodipine (amlodipine besylate) 10 mg and atorvastatin (atorvastatin calcium) 80 mg oral tablet) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+76888,02283255,JAMP-DOCUSATE CALCIUM (docusate calcium 240 mg oral capsule) JAMP PHARMA CORPORATION,DELETED
+78142,02296063,APO-BICALUTAMIDE (bicalutamide 50 mg oral tablet) APOTEX INC,DELETED
+80143,02315920,REFRESH REDNESS RELIEF (naphazoline hydrochloride 0.1 % ophthalmic drops) ALLERGAN INC,DELETED
+81376,02328232,PEGALAX (polyethylene glycol 3350 100 % powder for oral solution) ARALEZ PHARMACEUTICALS CANADA INC,DELETED
+83597,02350769,NAPROXEN (naproxen 375 mg oral tablet) SANIS HEALTH INC,DELETED
+84674,02361671,RAPAFLO (silodosin 8 mg oral capsule) ALLERGAN INC,DELETED
+85042,02365529,JAMP PIOGLITAZONE (pioglitazone (pioglitazone hydrochloride) 30 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+85043,02365537,JAMP PIOGLITAZONE (pioglitazone (pioglitazone hydrochloride) 45 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+85360,02368625,JAMP-SOTALOL (sotalol hydrochloride 160 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+87241,02386836,JAMPOCAINE 5% (lidocaine 5 % cutaneous ointment) JAMP PHARMA CORPORATION,DELETED
+87660,02391252,JAMP-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 5 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+87663,02391287,JAMP-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 40 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+88227,02397307,JAMP PIOGLITAZONE (pioglitazone (pioglitazone hydrochloride) 15 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+88654,02401657,PMS-TRAMADOL-ACET (acetaminophen 325 mg and tramadol hydrochloride 37.5 mg oral tablet) PHARMASCIENCE INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20190906"" -> ""20130429"""
+89352,02408767,APO-QUINAPRIL/HCTZ (hydrochlorothiazide 12.5 mg and quinapril (quinapril hydrochloride) 10 mg oral tablet) APOTEX INC,DELETED
+90490,02420317,"VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP (vancomycin (vancomycin hydrochloride) 5 g per vial powder for solution for injection) JAMP PHARMA CORPORATION",DELETED
+91649,02432048,MAR-PRAVASTATIN (pravastatin sodium 10 mg oral tablet) MARCAN PHARMACEUTICALS INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20210330"" -> ""20180405"""
+91650,02432056,MAR-PRAVASTATIN (pravastatin sodium 20 mg oral tablet) MARCAN PHARMACEUTICALS INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20210330"" -> ""20180405"""
+91651,02432064,MAR-PRAVASTATIN (pravastatin sodium 40 mg oral tablet) MARCAN PHARMACEUTICALS INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20210330"" -> ""20180405"""
+91987,02435527,JAMP-AMITRIPTYLINE TABLETS (amitriptyline hydrochloride 10 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+91988,02435535,JAMP-AMITRIPTYLINE TABLETS (amitriptyline hydrochloride 25 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+91989,02435543,JAMP-AMITRIPTYLINE TABLETS (amitriptyline hydrochloride 50 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+91990,02435551,JAMP-AMITRIPTYLINE TABLETS (amitriptyline hydrochloride 75 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+93454,02448807,PRIVA-SILDENAFIL (sildenafil (sildenafil citrate) 100 mg oral tablet) NORA PHARMA INC,DELETED
+93812,02451778,JAMP-CETIRIZINE (cetirizine hydrochloride 10 mg oral tablet) JAMP PHARMA CORPORATION,"mp_status: ""ACTIVE"" -> ""INACTIVE""
+mp_status_effective_time: ""20160405"" -> ""20230731"""
+94483,02457806,HEAD & SHOULDERS PYRITHIONE ZINC DANDRUFF CONDITIONER GREEN APPLE (pyrithione zinc 0.5 % shampoo) PROCTER & GAMBLE INC,ADDED
+94485,02457822,HEAD & SHOULDERS PYRITHIONE ZINC DANDRUFF CONDITIONER SMOOTH & SILKY (pyrithione zinc 0.5 % shampoo) PROCTER & GAMBLE INC,ADDED
+94486,02457830,HEAD & SHOULDERS PYRITHIONE ZINC DANDRUFF CONDITIONER DRY SCALP CARE (pyrithione zinc 0.5 % shampoo) PROCTER & GAMBLE INC,ADDED
+94487,02457849,HEAD & SHOULDERS PYRITHIONE ZINC DANDRUFF CONDITIONER CLASSIC CLEAN (pyrithione zinc 0.5 % shampoo) PROCTER & GAMBLE INC,ADDED
+94591,02458764,CCP-RIZATRIPTAN ODT (rizatriptan (rizatriptan benzoate) 5 mg orodispersible tablet) CELLCHEM PHARMACEUTICALS INC.,"mp_status_effective_time: ""20210714"" -> ""20230803"""
+94592,02458772,CCP-RIZATRIPTAN ODT (rizatriptan (rizatriptan benzoate) 10 mg orodispersible tablet) CELLCHEM PHARMACEUTICALS INC.,"mp_status_effective_time: ""20210714"" -> ""20230803"""
+94593,02458780,CCP-ZOLMITRIPTAN (zolmitriptan 2.5 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,"mp_status_effective_time: ""20221027"" -> ""20230803"""
+94594,02458799,CCP-ANASTROZOLE (anastrozole 1 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,"mp_status_effective_time: ""20221027"" -> ""20230803"""
+94595,02458802,CCP-ONDANSETRON (ondansetron (ondansetron hydrochloride dihydrate) 8 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,"mp_status_effective_time: ""20221027"" -> ""20230803"""
+94596,02458810,CCP-ONDANSETRON (ondansetron (ondansetron hydrochloride dihydrate) 4 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,"mp_status_effective_time: ""20221027"" -> ""20230803"""
+94719,02459884,CCP-LETROZOLE (letrozole 2.5 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,"mp_status_effective_time: ""20210714"" -> ""20230803"""
+94723,02459922,CCP-CITALOPRAM (citalopram (citalopram hydrobromide) 40 mg oral tablet) CELLCHEM PHARMACEUTICALS INC.,DELETED
+94885,02461358,HEAD & SHOULDERS PYRITHIONE ZINC DANDRUFF SHAMPOO DEEP MOISTURE 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+94999,02462249,HEAD & SHOULDERS PYRITHIONE ZINC DANDRUFF SHAMPOO DEEP MOISTURE (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+95553,02467135,ONIVYDE (irinotecan (irinotecan sucrose octasulfate liposomal) 43 mg per 10 mL suspension for injection vial) IPSEN BIOPHARMACEUTICALS CANADA INC,"mp_formal_name: ""ONIVYDE (irinotecan (irinotecan sucrose octasulfate liposomal) 43 mg per 10 mL suspension for injection vial) S̲E̲R̲V̲I̲E̲R̲ CANADA INC"" -> ""ONIVYDE (irinotecan (irinotecan sucrose octasulfate liposomal) 43 mg per 10 mL suspension for injection vial) I̲P̲S̲E̲N̲ ̲B̲I̲O̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ CANADA INC"""
+96421,02474182,CARBOCAINE 2% WITH NEO-COBEFRIN (corbadrine 0.05 mg per mL and mepivacaine hydrochloride 20 mg per mL solution for injection 1.8 mL cartridge) NOVOCOL PHARMACEUTICAL OF CANADA INC,DELETED
+96780,02477106,JAMP ZOLMITRIPTAN (zolmitriptan 2.5 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+98439,02494361,SINCALIDE FOR INJECTION (sincalide 5 mcg per vial powder for solution for injection) AVIR PHARMA INC.,ADDED
+99232,02502771,ITCH RELIEF SCALP MIST (pyrithione zinc 0.1 % shampoo) PROCTER & GAMBLE INC,ADDED
+99696,02507595,PYRITHIONE ZINC DANDRUFF SHAMPOO APPLE CIDER VINEGAR (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+99848,02509172,BENDAMUSTINE HYDROCHLORIDE FOR INJECTION (bendamustine hydrochloride 100 mg per vial powder for solution for injection) JAMP PHARMA CORPORATION,DELETED
+100366,02514486,METFORMIN TABLETS (metformin hydrochloride 500 mg oral tablet) GRANULES INDIA LIMITED,ADDED
+100367,02514494,METFORMIN TABLETS (metformin hydrochloride 850 mg oral tablet) GRANULES INDIA LIMITED,ADDED
+100550,02516160,"HYDRALAZINE HYDROCHLORIDE INJECTION, USP (hydralazine hydrochloride 20 mg per mL solution for injection) AURO PHARMA INC",ADDED
+100695,02517574,BAG BALM SKIN MOISTURIZER (petrolatum 84.3 % cutaneous ointment) VERMONTS ORIGINAL LLC,ADDED
+100888,02519631,ARTHRITIS PAIN RELIEF (acetaminophen 650 mg prolonged-release oral tablet) GRANULES INDIA LIMITED,ADDED
+100961,02520419,NYQUIL KIDS (dextromethorphan hydrobromide 10 mg per 15 mL and doxylamine succinate 6.25 mg per 15 mL and phenylephrine hydrochloride 5 mg per 15 mL syrup) PROCTER & GAMBLE INC,ADDED
+100994,02520745,NIGHTTIME SLEEP AID (diphenhydramine hydrochloride 25 mg oral capsule) THE SHANDEX SALES GROUP LIMITED,ADDED
+101203,02522950,JACK & JILL HONEY COUGH & COLD (dextromethorphan hydrobromide 5 mg per 5 mL and guaifenesin 50 mg per 5 mL syrup) THE BUCKLEY'S COMPANY,ADDED
+101204,02522969,JACK & JILL BEDTIME HONEY COUGH & COLD (dextromethorphan hydrobromide 7.5 mg per 5 mL and doxylamine succinate 3.125 mg per 5 mL syrup) THE BUCKLEY'S COMPANY,ADDED
+101219,02523124,ACETAMINOPHEN ARTHRITIS PAIN (acetaminophen 650 mg prolonged-release oral tablet) SUN PHARMA CANADA INC,ADDED
+101893,02529696,M-SOLIFENACIN SUCCINATE (solifenacin succinate 5 mg oral tablet) MANTRA PHARMA INC,ADDED
+101894,02529718,M-SOLIFENACIN SUCCINATE (solifenacin succinate 10 mg oral tablet) MANTRA PHARMA INC,ADDED
+102039,02531240,NRA-CANDESARTAN HCTZ (candesartan cilexetil 16 mg and hydrochlorothiazide 12.5 mg oral tablet) NORA PHARMA INC,ADDED
+102040,02531259,NRA-CANDESARTAN HCTZ (candesartan cilexetil 32 mg and hydrochlorothiazide 12.5 mg oral tablet) NORA PHARMA INC,ADDED
+102041,02531267,NRA-CANDESARTAN HCTZ (candesartan cilexetil 32 mg and hydrochlorothiazide 25 mg oral tablet) NORA PHARMA INC,ADDED
+102049,02531356,PYRITHIONE ZINC DANDRUFF SHAMPOO SHEA BUTTER (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,ADDED
+102127,02532204,AURO-SUNITINIB (sunitinib (sunitinib malate) 25 mg oral capsule) AURO PHARMA INC,ADDED
+102129,02532220,AURO-SUNITINIB (sunitinib (sunitinib malate) 50 mg oral capsule) AURO PHARMA INC,ADDED
+102160,02532573,CAMZYOS (mavacamten 15 mg oral capsule) BRISTOL-MYERS SQUIBB CANADA,ADDED
+102306,02534126,CETIRIZINE (cetirizine hydrochloride 20 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102326,02534320,ARIPIPRAZOLE (aripiprazole 2 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102327,02534339,ARIPIPRAZOLE (aripiprazole 5 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102328,02534347,ARIPIPRAZOLE (aripiprazole 10 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102329,02534355,ARIPIPRAZOLE (aripiprazole 15 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102330,02534363,ARIPIPRAZOLE (aripiprazole 20 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102331,02534371,ARIPIPRAZOLE (aripiprazole 30 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102381,02534924,NRA-MIRTAZAPINE (mirtazapine 15 mg oral tablet) NORA PHARMA INC,ADDED
+102382,02534932,NRA-MIRTAZAPINE (mirtazapine 30 mg oral tablet) NORA PHARMA INC,ADDED
+102383,02534940,NRA-MIRTAZAPINE (mirtazapine 45 mg oral tablet) NORA PHARMA INC,ADDED
+102521,02536439,NRA-METFORMIN (metformin hydrochloride 500 mg oral tablet) NORA PHARMA INC,ADDED
+102522,02536447,NRA-METFORMIN (metformin hydrochloride 850 mg oral tablet) NORA PHARMA INC,ADDED
+102636,02537656,PRO-DAPAGLIFLOZIN (dapagliflozin 5 mg oral tablet) PRO DOC LIMITEE,ADDED
+102637,02537664,PRO-DAPAGLIFLOZIN (dapagliflozin 10 mg oral tablet) PRO DOC LIMITEE,ADDED
+102681,02538059,JAMP POMALIDOMIDE (pomalidomide 1 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+102682,02538075,JAMP POMALIDOMIDE (pomalidomide 2 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+102683,02538083,JAMP POMALIDOMIDE (pomalidomide 3 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+102684,02538091,JAMP POMALIDOMIDE (pomalidomide 4 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+102706,02538334,NRA-DAPAGLIFLOZIN (dapagliflozin 5 mg oral tablet) NORA PHARMA INC,ADDED
+102707,02538342,NRA-DAPAGLIFLOZIN (dapagliflozin 10 mg oral tablet) NORA PHARMA INC,ADDED
