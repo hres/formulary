@@ -1,0 +1,25 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9000008,phenytoin 50 mg oral tablet,phénytoïne 50 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""19521231"" -> ""20230901"""
+9002070,docusate calcium 240 mg oral capsule,docusate calcique 240 mg capsule orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19861231"" -> ""20230731"""
+9002348,chlorhexidine gluconate 2 % cutaneous gel,gluconate de chlorhexidine 2 % gel cutané,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19911231"" -> ""20230801"""
+9003642,tazarotene 0.1 % cutaneous cream,"tazarotène 0,1 % crème cutanée","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20010831"" -> ""20220308"""
+9003804,cyproheptadine hydrochloride 2 mg per 5 mL syrup,chlorhydrate de cyproheptadine 2 mg par 5 mL sirop,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20030527"" -> ""20210222"""
+9012384,hydralazine hydrochloride 20 mg per 1 mL solution for injection vial,chlorhydrate d'hydralazine 20 mg par 1 mL solution injectable fiole,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20230731"" -> ""19921231"""
+9013535,camphor 0.3 g per 100 g and glycol salicylate 1.25 g per 100 g and levomenthol 1 g per 100 g plaster,"camphre 0,3 g par 100 g et salicylate de glycol 1,25 g par 100 g et lévomenthol 1 g par 100 g emplâtre médicamenteux","ntp_status_effective_time: ""20200706"" -> ""20230630"""
+9014146,dextromethorphan hydrobromide 7.5 mg per 5 mL and doxylamine succinate 3.125 mg per 5 mL syrup,"bromhydrate de dextrométhorphane 7,5 mg par 5 mL et succinate de doxylamine 3,125 mg par 5 mL sirop","ntp_fr_description: ""bromhydrate de dextrométhorphane 7,5 mg par 5 mL et d̲o̲x̲y̲l̲a̲m̲i̲n̲e̲ ̲s̲u̲c̲c̲i̲n̲a̲t̲e 3,125 mg par 5 mL sirop"" -> ""bromhydrate de dextrométhorphane 7,5 mg par 5 mL et s̲u̲c̲c̲i̲n̲a̲t̲e̲ ̲d̲e̲ ̲d̲o̲x̲y̲l̲a̲m̲i̲n̲e 3,125 mg par 5 mL sirop"""
+9014900,abiraterone acetate 500 mg and niraparib (niraparib tosylate) 100 mg oral tablet,acétate d'abiratérone 500 mg et niraparib (tosylate de niraparib) 100 mg comprimé oral,ADDED
+9014901,abiraterone acetate 500 mg and niraparib (niraparib tosylate) 50 mg oral tablet,acétate d'abiratérone 500 mg et niraparib (tosylate de niraparib) 50 mg comprimé oral,ADDED
+9014902,camphor 3 % and lidocaine hydrochloride 5 % cutaneous solution,camphre 3 % et chlorhydrate de lidocaïne 5 % solution pour application cutanée,ADDED
+9014903,dextromethorphan hydrobromide 10 mg per 15 mL and doxylamine succinate 6.25 mg per 15 mL and phenylephrine hydrochloride 5 mg per 15 mL syrup,"bromhydrate de dextrométhorphane 10 mg par 15 mL et succinate de doxylamine 6,25 mg par 15 mL et chlorhydrate de phényléphrine 5 mg par 15 mL sirop",ADDED
+9014904,dextromethorphan hydrobromide 5 mg per 5 mL and guaifenesin 50 mg per 5 mL syrup,bromhydrate de dextrométhorphane 5 mg par 5 mL et guaïfénésine 50 mg par 5 mL sirop,ADDED
+9014905,maralixibat (maralixibat chloride) 9.5 mg per mL oral solution,"maralixibat (chlorure de maralixibat) 9,5 mg par mL solution orale",ADDED
+9014906,mavacamten 15 mg oral capsule,mavacamten 15 mg capsule orale,ADDED
+9014907,petrolatum 84.3 % cutaneous ointment,"pétrolatum 84,3 % pommade cutanée",ADDED
+9014908,phenytoin 50 mg chewable tablet,phénytoïne 50 mg comprimé à croquer,ADDED
+9014909,pyrithione zinc 0.1 % cutaneous spray,"pyrithione zincique 0,1 % vaporisation cutanée",ADDED
