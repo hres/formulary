@@ -29,10 +29,11 @@ REFRESH MATERIALIZED VIEW public.ccdd_dosage_form_mapping_dpd_route_source;
 REFRESH MATERIALIZED VIEW public.ccdd_combination_product_source;
 REFRESH MATERIALIZED VIEW public.ccdd_presentation_source;
 
--- status overrides
+-- CCDD generation control: status overrides, config info
 REFRESH MATERIALIZED VIEW public.ccdd_mp_status_override_source;
 REFRESH MATERIALIZED VIEW public.ccdd_ntp_status_override_source;
 REFRESH MATERIALIZED VIEW public.ccdd_tm_status_override_source;
+REFRESH MATERIALIZED VIEW public.ccdd_config_source;
 
 INSERT INTO public.dpd_drug(
     code,

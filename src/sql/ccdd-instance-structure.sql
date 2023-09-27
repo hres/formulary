@@ -34,6 +34,17 @@ ALTER SCHEMA ccdd OWNER TO postgres;
 SET search_path TO pg_catalog,public,dpd,ccdd;
 -- ddl-end --
 
+-- object: public.ccdd_config | type: TABLE --
+-- DROP TABLE IF EXISTS public.ccdd_config CASCADE;
+CREATE TABLE public.ccdd_config(
+      ccdd_date date,
+      dpd_extract_date date,
+      ingredient_strength_scientific_notation_threshold double precision
+  );
+-- ddl-end --
+ALTER TABLE public.ccdd_config OWNER TO postgres;
+-- ddl-end --
+
 -- object: public.dpd_drug | type: TABLE --
 -- DROP TABLE IF EXISTS public.dpd_drug CASCADE;
 CREATE TABLE public.dpd_drug(
@@ -2170,7 +2181,21 @@ WHERE
 ALTER MATERIALIZED VIEW public.ccdd_tm_status_override_source OWNER TO postgres;
 -- ddl-end --
 
+-- object: public.ccdd_config_source | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_config_source CASCADE;
+CREATE MATERIALIZED VIEW public.ccdd_config_source
+AS
 
+SELECT
+  ccdd_date,
+  dpd_extract_date,
+  ingredient_strength_scientific_notation_threshold
+FROM
+  ccdd.config_csv
+;
+-- ddl-end --
+ALTER MATERIALIZED VIEW public.ccdd_config_source OWNER TO postgres;
+-- ddl-end --
 
 -- object: ccdd.ntp_release | type: TABLE --
 -- DROP TABLE IF EXISTS ccdd.ntp_release CASCADE;
@@ -2716,16 +2741,6 @@ FROM (
 ALTER MATERIALIZED VIEW public.ccdd_special_groupings OWNER TO postgres;
 -- ddl-end --
 
--- -- object: public.ccdd_config | type: TABLE --
--- -- DROP TABLE IF EXISTS public.ccdd_config CASCADE;
--- CREATE TABLE public.ccdd_config(
--- 	ccdd_date date,
--- 	dpd_extract_date date
--- );
--- -- ddl-end --
--- ALTER TABLE public.ccdd_config OWNER TO postgres;
--- -- ddl-end --
---
 -- object: ccdd.mp_release_candidate | type: TABLE --
 -- DROP TABLE IF EXISTS ccdd.mp_release_candidate CASCADE;
 CREATE TABLE ccdd.mp_release_candidate(
