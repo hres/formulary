@@ -1,8 +1,8 @@
 #!/bin/bash -e
 # Must set environment variables PGHOST, PGUSER and PGPASSWORD. PGDATABASE must be unset
-ccdd_qa_release_date="20230801"
-ccdd_current_release_date="20230801"
-db_previous_month="ccdd_2023_08_01_144641"
+ccdd_qa_release_date="20230901"
+ccdd_current_release_date="20230906"
+db_previous_month="ccdd_2023_09_06_103626"
 ccdd_current_date=$(date +'%Y%m%d')
 baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 distDir="$baseDir/../dist/$ccdd_current_date"
@@ -35,10 +35,6 @@ pgloader "$baseDir/dpdloader/dpdload_ap.pgload" # has to be last because of an A
 psql -c "ALTER TABLE dpd.opioid ALTER COLUMN extract SET DEFAULT NULL;"
 psql -c "\\copy dpd.opioid (drug_code) FROM '$baseDir/../pgloaded/opioids.csv' CSV;"
 
-# global config for CCDD generation process
-pgloader "$baseDir/ccdd-config.pgload"
-
-
 echo $db_previous_month
 if [ -z "$db_previous_month" ]
 then
@@ -50,9 +46,8 @@ fi
 # CCDD schema and source data
 
 psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-instance-structure.sql"
+pgloader "$baseDir/ccdd-config.pgload" # global config for CCDD generation process
 pgloader "$baseDir/ccdd-inputs.pgload"
-# sed -e "s/%QA_DATE%/$ccdd_qa_release_date/g" "$baseDir/ccdd-current-release.pgload.template" | sed -e "s/%RELEASE_DATE%/$ccdd_current_release_date/g" > "$baseDir/ccdd-current-release.pgload"
-# pgloader "$baseDir/ccdd-current-release.pgload" && rm "$baseDir/ccdd-current-release.pgload"
 pgloader "$baseDir/ccdd-current-release.pgload"
 
 # load the data from views into main schema

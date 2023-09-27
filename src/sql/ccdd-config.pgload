@@ -17,10 +17,4 @@ LOAD CSV
     fields optionally enclosed by '"',
     fields terminated by ',',
     fields escaped by double-quote
-  BEFORE LOAD DO
-  $$ CREATE TABLE public.ccdd_config(
-      ccdd_date date,
-      dpd_extract_date date,
-      ingredient_strength_scientific_notation_threshold double precision
-  ) WITH (oids = false); $$
 ;
