@@ -1,0 +1,76 @@
+drug_code,mp_code,mp_formal_name,changes
+5197,00587702,APO-HALOPERIDOL LIQ 2MG/ML (haloperidol 2 mg per mL oral solution) APOTEX INC,"mp_formal_name: ""APO ̲HALOPERIDOL LIQ 2MG/ML (haloperidol 2 mg per mL oral solution) APOTEX INC"" -> ""APO-̲HALOPERIDOL LIQ 2MG/ML (haloperidol 2 mg per mL oral solution) APOTEX INC"""
+6757,00675962,STATEX TABLETS 50MG (morphine sulfate 50 mg oral tablet) PALADIN LABS INC.,DELETED
+9908,00828866,CEPHALEXIN-500 (cephalexin (cephalexin monohydrate) 500 mg oral tablet) PRO DOC LIMITEE,DELETED
+9919,00789720,ODAN-PROCHLORPERAZINE (prochlorperazine 10 mg suppository) ODAN LABORATORIES LTD,"mp_formal_name: ""S̲A̲N̲D̲O̲Z̲ ̲PROCHLORPERAZINE (prochlorperazine 10 mg suppository) S̲A̲N̲D̲O̲Z̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲O̲R̲P̲O̲R̲A̲T̲E̲D"" -> ""O̲D̲A̲N̲-̲PROCHLORPERAZINE (prochlorperazine 10 mg suppository) O̲D̲A̲N̲ ̲L̲A̲B̲O̲R̲A̲T̲O̲R̲I̲E̲S̲ ̲L̲T̲D"""
+11011,00783900,PMS-DEXAMETHASONE SOD PHOSPHATE INJ 10MG/ML (dexamethasone phosphate (dexamethasone sodium phosphate) 100 mg per 10 mL solution for injection vial) PHARMASCIENCE INC,DELETED
+13494,01934740,ROBITUSSIN AC (codeine phosphate 10 mg per 5 mL and guaifenesin 100 mg per 5 mL and pheniramine maleate 7.5 mg per 5 mL syrup) GLAXOSMITHKLINE CONSUMER HEALTHCARE ULC,DELETED
+14262,02024314,NOVOLIN GE 40/60 PENFILL (insulin human 40 unit per mL and insulin isophane human 60 unit per mL suspension for injection 3 mL cartridge) NOVO NORDISK CANADA INC,DELETED
+16947,02126222,AA-IPRAVENT (ipratropium bromide 250 mcg per mL nebulizer solution 20 mL bottle) AA PHARMA INC,"mp_formal_name: ""AP̲O̲-̲I̲P̲R̲A̲V̲E̲N̲T̲ ̲S̲O̲L̲U̲T̲I̲O̲N̲ ̲-̲ ̲I̲N̲H̲ ̲2̲5̲0̲M̲C̲G̲/̲M̲L̲ (ipratropium bromide 250 mcg per mL nebulizer solution 20 mL bottle) AP̲O̲T̲E̲X̲ INC"" -> ""AA̲-̲I̲P̲R̲A̲V̲E̲N̲T̲ (ipratropium bromide 250 mcg per mL nebulizer solution 20 mL bottle) AA̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+63374,02239886,SUSTIVA 50MG (efavirenz 50 mg oral capsule) BRISTOL-MYERS SQUIBB CANADA,DELETED
+63376,02239888,SUSTIVA 200MG (efavirenz 200 mg oral capsule) BRISTOL-MYERS SQUIBB CANADA,DELETED
+63442,02239941,CELEBREX (celecoxib 100 mg oral capsule) BGP PHARMA ULC,"mp_formal_name: ""CELEBREX (celecoxib 100 mg oral capsule) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""CELEBREX (celecoxib 100 mg oral capsule) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+63443,02239942,CELEBREX (celecoxib 200 mg oral capsule) BGP PHARMA ULC,"mp_formal_name: ""CELEBREX (celecoxib 200 mg oral capsule) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""CELEBREX (celecoxib 200 mg oral capsule) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+63981,02240432,TEVETEN (eprosartan (eprosartan mesylate) 400 mg oral tablet) BGP PHARMA ULC,DELETED
+67698,02243763,COMTAN (entacapone 200 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+67885,02243942,TEVETEN (eprosartan (eprosartan mesylate) 600 mg oral tablet) BGP PHARMA ULC,DELETED
+67903,02243960,DITROPAN XL (oxybutynin chloride 5 mg prolonged-release oral tablet) JANSSEN INC,DELETED
+73859,02253631,TEVETEN PLUS (eprosartan (eprosartan mesylate) 600 mg and hydrochlorothiazide 12.5 mg oral tablet) BGP PHARMA ULC,DELETED
+74760,02262215,"BURN RELIEF GEL WITH LIDOCAINE (lidocaine hydrochloride 0.72 % cutaneous gel) PRIME ENTERPRISES, LLC.","mp_formal_name: ""BURN RELIEF GEL WITH LIDOCAINE (lidocaine hydrochloride 0.72 % cutaneous gel) PRIME ENTERPRISES, LLC ̲D̲B̲A̲ ̲P̲R̲I̲M̲E̲ ̲M̲A̲T̲T̲E̲R̲ ̲L̲A̲B̲S̲"" -> ""BURN RELIEF GEL WITH LIDOCAINE (lidocaine hydrochloride 0.72 % cutaneous gel) PRIME ENTERPRISES, LLC.̲"""
+75421,02268817,"MEDICATED ACNE GEL (benzoyl peroxide 5 % cutaneous gel) PRIME ENTERPRISES, LLC.","mp_formal_name: ""MEDICATED ACNE GEL (benzoyl peroxide 5 % cutaneous gel) PRIME ENTERPRISES, LLC ̲D̲B̲A̲ ̲P̲R̲I̲M̲E̲ ̲M̲A̲T̲T̲E̲R̲ ̲L̲A̲B̲S̲"" -> ""MEDICATED ACNE GEL (benzoyl peroxide 5 % cutaneous gel) PRIME ENTERPRISES, LLC.̲"""
+76500,02279401,REVATIO (sildenafil (sildenafil citrate) 20 mg oral tablet) BGP PHARMA ULC,"mp_formal_name: ""REVATIO (sildenafil (sildenafil citrate) 20 mg oral tablet) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""REVATIO (sildenafil (sildenafil citrate) 20 mg oral tablet) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+77258,02287145,FOSRENOL (lanthanum (lanthanum carbonate hydrate) 250 mg chewable tablet) TAKEDA CANADA INC,DELETED
+78389,02298597,ZELDOX (ziprasidone (ziprasidone hydrochloride monohydrate) 20 mg oral capsule) BGP PHARMA ULC,"mp_formal_name: ""ZELDOX (ziprasidone (ziprasidone hydrochloride monohydrate) 20 mg oral capsule) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""ZELDOX (ziprasidone (ziprasidone hydrochloride monohydrate) 20 mg oral capsule) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+78392,02298600,ZELDOX (ziprasidone (ziprasidone hydrochloride monohydrate) 40 mg oral capsule) BGP PHARMA ULC,"mp_formal_name: ""ZELDOX (ziprasidone (ziprasidone hydrochloride monohydrate) 40 mg oral capsule) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""ZELDOX (ziprasidone (ziprasidone hydrochloride monohydrate) 40 mg oral capsule) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+78393,02298619,ZELDOX (ziprasidone (ziprasidone hydrochloride monohydrate) 60 mg oral capsule) BGP PHARMA ULC,"mp_formal_name: ""ZELDOX (ziprasidone (ziprasidone hydrochloride monohydrate) 60 mg oral capsule) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""ZELDOX (ziprasidone (ziprasidone hydrochloride monohydrate) 60 mg oral capsule) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+78394,02298627,ZELDOX (ziprasidone (ziprasidone hydrochloride monohydrate) 80 mg oral capsule) BGP PHARMA ULC,"mp_formal_name: ""ZELDOX (ziprasidone (ziprasidone hydrochloride monohydrate) 80 mg oral capsule) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""ZELDOX (ziprasidone (ziprasidone hydrochloride monohydrate) 80 mg oral capsule) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+79040,02305038,TARO-PANTOPRAZOLE (pantoprazole (pantoprazole sodium) 20 mg gastro-resistant tablet) SUN PHARMA CANADA INC,"mp_formal_name: ""R̲A̲N̲-PANTOPRAZOLE (pantoprazole (pantoprazole sodium) 20 mg gastro-resistant tablet) R̲A̲N̲B̲A̲X̲Y̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"" -> ""T̲A̲R̲O̲-PANTOPRAZOLE (pantoprazole (pantoprazole sodium) 20 mg gastro-resistant tablet) S̲U̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"""
+82759,02342073,"AFTER SUN BURN RELIEF LIDOCAINE CONTINUOUS SPRAY (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC.","mp_formal_name: ""AFTER SUN BURN RELIEF LIDOCAINE CONTINUOUS SPRAY (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC ̲D̲B̲A̲ ̲P̲R̲I̲M̲E̲ ̲M̲A̲T̲T̲E̲R̲ ̲L̲A̲B̲S̲"" -> ""AFTER SUN BURN RELIEF LIDOCAINE CONTINUOUS SPRAY (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC.̲"""
+83667,02351404,METOPROLOL SR (metoprolol tartrate 100 mg prolonged-release oral tablet) PRO DOC LIMITEE,DELETED
+85449,02369567,"DIPHENHYDRAMINE HYDROCHLORIDE INJECTION, USP (diphenhydramine hydrochloride 50 mg per 1 mL solution for injection vial) FRESENIUS KABI CANADA LTD","mp_formal_name: ""DIPHENHYDRAMINE HYDROCHLORIDE INJECTION (diphenhydramine hydrochloride 50 mg per 1 mL solution for injection vial) FRESENIUS KABI CANADA LTD"" -> ""DIPHENHYDRAMINE HYDROCHLORIDE INJECTION,̲ ̲U̲S̲P̲ (diphenhydramine hydrochloride 50 mg per 1 mL solution for injection vial) FRESENIUS KABI CANADA LTD"""
+85715,02372029,ANTIBIOTIC CREAM (gramicidin 0.25 mg per g and polymyxin B (polymyxin B sulfate) 10000 unit per g cutaneous cream) CANADIAN CUSTOM PACKAGING COMPANY,DELETED
+85717,02372045,ANTIBIOTIC CREAM PLUS PAIN RELIEF (gramicidin 0.25 mg per g and lidocaine hydrochloride 40 mg per g and polymyxin B (polymyxin B sulfate) 10000 unit per g cutaneous cream) CANADIAN CUSTOM PACKAGING COMPANY,DELETED
+88350,02398559,"LIDOCAINE HYDROCHLORIDE SOLUTION (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC.","mp_formal_name: ""LIDOCAINE HYDROCHLORIDE SOLUTION (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC ̲D̲B̲A̲ ̲P̲R̲I̲M̲E̲ ̲M̲A̲T̲T̲E̲R̲ ̲L̲A̲B̲S̲"" -> ""LIDOCAINE HYDROCHLORIDE SOLUTION (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC.̲"""
+89363,02408880,MINT-GABAPENTIN (gabapentin 100 mg oral capsule) MINT PHARMACEUTICALS INC,ADDED
+89364,02408899,MINT-GABAPENTIN (gabapentin 300 mg oral capsule) MINT PHARMACEUTICALS INC,ADDED
+89365,02408902,MINT-GABAPENTIN (gabapentin 400 mg oral capsule) MINT PHARMACEUTICALS INC,ADDED
+91045,02425815,REFRESH OPTIVE ADVANCED SENSITIVE (carboxymethylcellulose sodium 0.5 % and glycerin 1 % and polysorbate 80 0.5 % ophthalmic drops) ABBVIE CORPORATION,"mp_formal_name: ""REFRESH OPTIVE ADVANCED SENSITIVE (carboxymethylcellulose sodium 0.5 % and glycerin 1 % and polysorbate 80 0.5 % ophthalmic drops) AL̲L̲E̲R̲G̲A̲N̲ ̲I̲N̲C̲"" -> ""REFRESH OPTIVE ADVANCED SENSITIVE (carboxymethylcellulose sodium 0.5 % and glycerin 1 % and polysorbate 80 0.5 % ophthalmic drops) AB̲B̲V̲I̲E̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"""
+92489,02440520,STUBBORN ACNE DAILY LEAVE-ON MASK (benzoyl peroxide 2.5 % cutaneous gel) JOHNSON & JOHNSON INC,DELETED
+94058,02454068,ACH-TACROLIMUS (tacrolimus 0.5 mg oral capsule) ACCORD HEALTHCARE INC,ADDED
+94294,02456095,ACH-TACROLIMUS (tacrolimus (tacrolimus monohydrate) 1 mg oral capsule) ACCORD HEALTHCARE INC,ADDED
+94295,02456109,ACH-TACROLIMUS (tacrolimus (tacrolimus monohydrate) 5 mg oral capsule) ACCORD HEALTHCARE INC,ADDED
+95352,02465329,ALTA-DOCUSATE SODIUM (docusate sodium 100 mg oral capsule) ALTAMED PHARMA,DELETED
+95559,02467208,DOVE DERMA+CARE SCALP ANTI-DANDRUFF SMOOTHING MOISTURE (pyrithione zinc 1 % shampoo) UNILEVER CANADA,DELETED
+97568,02485435,IDHIFA (enasidenib (enasidenib mesylate) 100 mg oral tablet) CELGENE INC,DELETED
+98018,02490110,PRIVA-AMITRIPTYLINE (amitriptyline hydrochloride 10 mg oral tablet) PHARMAPAR INC,DELETED
+98019,02490129,PRIVA-AMITRIPTYLINE (amitriptyline hydrochloride 25 mg oral tablet) PHARMAPAR INC,DELETED
+98020,02490137,PRIVA-AMITRIPTYLINE (amitriptyline hydrochloride 50 mg oral tablet) PHARMAPAR INC,DELETED
+98021,02490145,PRIVA-AMITRIPTYLINE (amitriptyline hydrochloride 75 mg oral tablet) PHARMAPAR INC,DELETED
+98324,02493268,AA-RISEDRONATE DR (risedronate sodium (risedronate sodium hemipentahydrate) 35 mg gastro-resistant tablet) AA PHARMA INC,"mp_formal_name: ""AP̲O̲-RISEDRONATE DR (risedronate sodium (risedronate sodium hemipentahydrate) 35 mg gastro-resistant tablet) AP̲O̲T̲E̲X̲ INC"" -> ""AA̲-RISEDRONATE DR (risedronate sodium (risedronate sodium hemipentahydrate) 35 mg gastro-resistant tablet) AA̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+98351,02493500,"INTRAROSA (prasterone 6.5 mg pessary) COSETTE PHARMACEUTICALS, INC.","mp_formal_name: ""INTRAROSA (prasterone 6.5 mg pessary) E̲N̲D̲O̲C̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲"" -> ""INTRAROSA (prasterone 6.5 mg pessary) C̲O̲S̲E̲T̲T̲E̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲,̲ ̲I̲N̲C̲.̲"""
+99721,02507838,PERSERIS (risperidone 90 mg per syringe powder for prolonged-release suspension for injection with diluent solution syringe) HLS THERAPEUTICS INC,DELETED
+99722,02507846,PERSERIS (risperidone 120 mg per syringe powder for prolonged-release suspension for injection with diluent solution syringe) HLS THERAPEUTICS INC,DELETED
+100239,02513153,JCOVDEN (Ad26.COV2.S (recombinant) 5e10 vp per 0.5 mL suspension for injection 2.5 mL vial) JANSSEN INC,DELETED
+101531,02526204,TEVA-SUNITINIB (sunitinib (sunitinib malate) 12.5 mg oral capsule) TEVA CANADA LIMITED,ADDED
+101532,02526212,TEVA-SUNITINIB (sunitinib (sunitinib malate) 25 mg oral capsule) TEVA CANADA LIMITED,ADDED
+101533,02526220,TEVA-SUNITINIB (sunitinib (sunitinib malate) 50 mg oral capsule) TEVA CANADA LIMITED,ADDED
+101690,02527723,FOOTRENEW (tolnaftate 1 % cutaneous solution) NAILRENEW CORP.,ADDED
+101842,02529238,JAMP MINOXIDIL SOLUTION (minoxidil 20 mg per mL cutaneous solution) JAMP PHARMA CORPORATION,ADDED
+101905,02529815,PLERIXAFOR INJECTION (plerixafor 20 mg per mL solution for injection) JAMP PHARMA CORPORATION,ADDED
+101934,02530139,KOSELUGO (selumetinib (selumetinib sulfate) 10 mg oral capsule) ALEXION PHARMA GMBH,"mp_formal_name: ""KOSELUGO (selumetinib (selumetinib sulfate) 10 mg oral capsule) AS̲T̲R̲A̲Z̲E̲N̲E̲C̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""KOSELUGO (selumetinib (selumetinib sulfate) 10 mg oral capsule) AL̲E̲X̲I̲O̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲G̲M̲B̲H̲"""
+101935,02530147,KOSELUGO (selumetinib (selumetinib sulfate) 25 mg oral capsule) ALEXION PHARMA GMBH,"mp_formal_name: ""KOSELUGO (selumetinib (selumetinib sulfate) 25 mg oral capsule) AS̲T̲R̲A̲Z̲E̲N̲E̲C̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""KOSELUGO (selumetinib (selumetinib sulfate) 25 mg oral capsule) AL̲E̲X̲I̲O̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲G̲M̲B̲H̲"""
+101952,02530341,MYLAN-AZELASTINE/FLUTICASONE (azelastine hydrochloride 137 mcg per actuation and fluticasone propionate 50 mcg per actuation nasal spray) MYLAN PHARMACEUTICALS ULC,ADDED
+102061,02531488,VICKS NYQUIL HOT REMEDY (acetaminophen 650 mg and diphenhydramine hydrochloride 25 mg and phenylephrine hydrochloride 10 mg powder for oral solution) PROCTER & GAMBLE INC,ADDED
+102063,02531518,VICKS DAYQUIL HOT REMEDY (acetaminophen 500 mg and dextromethorphan hydrobromide 20 mg and phenylephrine hydrochloride 10 mg powder for oral solution) PROCTER & GAMBLE INC,ADDED
+102198,02532980,"ZINC SULFATE INJECTION, USP (zinc (zinc sulfate) 5 mg per mL solution for injection) FRESENIUS KABI CANADA LTD",ADDED
+102312,02534177,VEGZELMA (bevacizumab 100 mg per 4 mL solution for injection) CELLTRION HEALTHCARE CO LTD,ADDED
+102395,02535076,YUFLYMA (adalimumab 80 mg per 0.8 mL solution for injection) CELLTRION HEALTHCARE CO LTD,ADDED
+102396,02535084,YUFLYMA (adalimumab 80 mg per 0.8 mL solution for injection) CELLTRION HEALTHCARE CO LTD,ADDED
+102463,02535807,MINT-METRONIDAZOLE (metronidazole 250 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+102504,02536250,PRZ-DOXYCYCLINE (doxycycline (doxycycline hyclate) 100 mg oral tablet) PHARMARIS CANADA INC,ADDED
+102551,02536765,MINT-TIZANIDINE (tizanidine (tizanidine hydrochloride) 4 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+102673,02537990,PMS-PERINDOPRIL-INDAPAMIDE (indapamide 0.625 mg and perindopril erbumine 2 mg oral tablet) PHARMASCIENCE INC,ADDED
+102674,02538008,PMS-PERINDOPRIL-INDAPAMIDE (indapamide 1.25 mg and perindopril erbumine 4 mg oral tablet) PHARMASCIENCE INC,ADDED
+102675,02537982,PMS-PERINDOPRIL-INDAPAMIDE (indapamide 2.5 mg and perindopril erbumine 8 mg oral tablet) PHARMASCIENCE INC,ADDED
+102847,02539721,RINVOQ (upadacitinib 45 mg prolonged-release oral tablet) ABBVIE CORPORATION,ADDED
+NA,02245677,ABREVA (docosanol 10 % cutaneous cream) GLAXOSMITHKLINE CONSUMER HEALTHCARE ULC,DELETED

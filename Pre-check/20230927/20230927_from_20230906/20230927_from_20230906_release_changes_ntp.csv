@@ -1,0 +1,30 @@
+ntp_code,ntp_formal_name,changes
+53f6431343dced0faacf48f0c04e5479,bevacizumab 100 mg per 4 mL solution for injection,ADDED
+85151de86b4bd4bfd0da8e8dede60c63,acetaminophen 500 mg and dextromethorphan hydrobromide 20 mg and phenylephrine hydrochloride 10 mg powder for oral solution,ADDED
+9000186,haloperidol 2 mg per mL oral solution,"ntp_status_effective_time: ""20170804"" -> ""20190504"""
+9000263,morphine sulfate 50 mg oral tablet,DELETED
+9000352,dexamethasone phosphate (dexamethasone sodium phosphate) 100 mg per 10 mL solution for injection vial,"ntp_status_effective_time: ""19901231"" -> ""19990630"""
+9000944,oxybutynin chloride 5 mg prolonged-release oral tablet,DELETED
+9002543,codeine phosphate 10 mg per 5 mL and guaifenesin 100 mg per 5 mL and pheniramine maleate 7.5 mg per 5 mL syrup,"ntp_status_effective_time: ""19931231"" -> ""19961231"""
+9003368,efavirenz 200 mg oral capsule,DELETED
+9003369,efavirenz 50 mg oral capsule,DELETED
+9003521,eprosartan (eprosartan mesylate) 400 mg oral tablet,DELETED
+9003601,eprosartan (eprosartan mesylate) 600 mg oral tablet,DELETED
+9003617,entacapone 200 mg oral tablet,"ntp_status_effective_time: ""20010621"" -> ""20120329"""
+9003923,eprosartan (eprosartan mesylate) 600 mg and hydrochlorothiazide 12.5 mg oral tablet,DELETED
+9004072,docosanol 10 % cutaneous cream,DELETED
+9005400,tolnaftate 1 % cutaneous solution,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20221031"" -> ""19981009"""
+9012721,insulin human 40 unit per mL and insulin isophane human 60 unit per mL suspension for injection 3 mL cartridge,DELETED
+9013181,lanthanum (lanthanum carbonate) 250 mg chewable tablet,"ntp_status_effective_time: ""20061206"" -> ""20200721"""
+9013883,gramicidin 0.25 mg per g and lidocaine hydrochloride 40 mg per g and polymyxin B (polymyxin B sulfate) 10000 unit per g cutaneous cream,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20120409"" -> ""20200606"""
+9013958,enasidenib (enasidenib mesylate) 100 mg oral tablet,DELETED
+9014556,risperidone 120 mg per syringe powder for prolonged-release suspension for injection with diluent solution syringe,DELETED
+9014557,risperidone 90 mg per syringe powder for prolonged-release suspension for injection with diluent solution syringe,DELETED
+9014633,Ad26.COV2.S (recombinant) 5e10 vp per 0.5 mL suspension for injection 2.5 mL vial,DELETED
+a95677756cbdaf3519cfec2455123bcb,zinc (zinc sulfate) 5 mg per mL solution for injection,ADDED
+ab4f1a4cc950444c0a09950161588eff,plerixafor 20 mg per mL solution for injection,ADDED
+c0cff489aafc01753f834fd5d1072118,upadacitinib 45 mg prolonged-release oral tablet,ADDED
+d45b6eee7edd5ba27b381427d68df2b0,adalimumab 80 mg per 0.8 mL solution for injection,ADDED
+f7ee9c2edfbba8a6a497efad181a7398,acetaminophen 650 mg and diphenhydramine hydrochloride 25 mg and phenylephrine hydrochloride 10 mg powder for oral solution,ADDED

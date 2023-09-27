@@ -1,0 +1,14 @@
+ccdd_code,ccdd_formal_name,ccdd_type,policy_type,policy_reference,special_groupings_status,special_groupings_status_effective_time,changes
+00675962,STATEX TABLETS 50MG (morphine sulfate 50 mg oral tablet) PALADIN LABS INC.,MP,500001,http://www.gazette.gc.ca/rp-pr/p1/2017/2017-06-17/html/reg8-eng.php,Inactive,20231003,"special_groupings_status: ""ACTIVE"" -> INACTIVE
+special_groupings_status_effective_time: ""20170919"" -> 20231003"
+9000263,morphine sulfate 50 mg oral tablet,NTP,500001,http://www.gazette.gc.ca/rp-pr/p1/2017/2017-06-17/html/reg8-eng.php,Inactive,20231003,"special_groupings_status: ""ACTIVE"" -> INACTIVE
+special_groupings_status_effective_time: ""20170919"" -> 20231003"
+00675962,STATEX TABLETS 50MG (morphine sulfate 50 mg oral tablet) PALADIN LABS INC.,MP,500002,http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html,Inactive,20231003,"special_groupings_status: ""ACTIVE"" -> INACTIVE
+special_groupings_status_effective_time: ""20170919"" -> 20231003"
+9000263,morphine sulfate 50 mg oral tablet,NTP,500002,http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html,Inactive,20231003,"special_groupings_status: ""ACTIVE"" -> INACTIVE
+special_groupings_status_effective_time: ""20170919"" -> 20231003"
+01934740,ROBITUSSIN AC (codeine phosphate 10 mg per 5 mL and guaifenesin 100 mg per 5 mL and pheniramine maleate 7.5 mg per 5 mL syrup) GLAXOSMITHKLINE CONSUMER HEALTHCARE ULC,MP,500001,http://www.gazette.gc.ca/rp-pr/p1/2017/2017-06-17/html/reg8-eng.php,Inactive,20231003,"special_groupings_status: ""ACTIVE"" -> INACTIVE
+special_groupings_status_effective_time: ""20170919"" -> 20231003"
+01934740,ROBITUSSIN AC (codeine phosphate 10 mg per 5 mL and guaifenesin 100 mg per 5 mL and pheniramine maleate 7.5 mg per 5 mL syrup) GLAXOSMITHKLINE CONSUMER HEALTHCARE ULC,MP,500002,http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html,Inactive,20231003,"special_groupings_status: ""ACTIVE"" -> INACTIVE
+special_groupings_status_effective_time: ""20170919"" -> 20231003"
+02493500,"INTRAROSA (prasterone 6.5 mg pessary) COSETTE PHARMACEUTICALS, INC.",MP,500005,http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html,Active,20170919,"ccdd_formal_name: ""INTRAROSA (prasterone 6.5 mg pessary) ENDOCEUTICS INC"" -> INTRAROSA (prasterone 6.5 mg pessary) COSETTE PHARMACEUTICALS, INC."
