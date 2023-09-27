@@ -293,16 +293,6 @@ INSERT INTO public.ccdd_tm_status_override(
 	status_effective_time
 FROM public.ccdd_tm_status_override_source;
 
-INSERT INTO public.ccdd_config(
-  ccdd_date,
-  dpd_extract_date,
-  ingredient_strength_scientific_notation_threshold
-) SELECT
-  ccdd_date,
-  dpd_extract_date,
-  ingredient_strength_scientific_notation_threshold
-FROM public.ccdd_config_source;
-
 DELETE FROM public.dpd_drug_ingredient_option WHERE dpd_drug_code IN (
 SELECT dpd_drug_code FROM (
         select
