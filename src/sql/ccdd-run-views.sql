@@ -33,7 +33,6 @@ REFRESH MATERIALIZED VIEW public.ccdd_presentation_source;
 REFRESH MATERIALIZED VIEW public.ccdd_mp_status_override_source;
 REFRESH MATERIALIZED VIEW public.ccdd_ntp_status_override_source;
 REFRESH MATERIALIZED VIEW public.ccdd_tm_status_override_source;
-REFRESH MATERIALIZED VIEW public.ccdd_config_source;
 
 INSERT INTO public.dpd_drug(
     code,
