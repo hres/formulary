@@ -1,4 +1,27 @@
 LOAD CSV
+  FROM ./test/ccdd-config.csv
+    WITH ENCODING UTF-8
+    (
+      ccdd_date,
+      dpd_extract_date,
+      ingredient_strength_scientific_notation_threshold,
+      generation_type
+    )
+  INTO postgresql://cyanofsky@rest.hc.local/?public.ccdd_config
+    (
+      ccdd_date,
+      dpd_extract_date,
+      ingredient_strength_scientific_notation_threshold,
+      generation_type
+    )
+  WITH
+    skip header = 1,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;
+
+LOAD CSV
     FROM '/home/cyanofsky/git/formulary/src/pgloaded/Combination Products_master.csv'
 
     WITH ENCODING UTF-8
