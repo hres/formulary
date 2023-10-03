@@ -4,6 +4,21 @@
 -- Project Site: pgmodeler.com.br
 -- Model Author: ---
 
+
+-- object: public.ccdd_config | type: TABLE --
+-- DROP TABLE IF EXISTS public.ccdd_config CASCADE;
+CREATE TYPE public.generation_type AS ENUM ('QA', 'release candidate');
+CREATE TABLE public.ccdd_config(
+      ccdd_date date,
+      dpd_extract_date date,
+      ingredient_strength_scientific_notation_threshold double precision,
+      generation_type generation_type
+  );
+-- ddl-end --
+-- ALTER TABLE public.ccdd_config OWNER TO postgres;
+-- ddl-end --
+
+
 -- object: public.dpd_drug | type: TABLE --
 -- DROP TABLE IF EXISTS public.dpd_drug CASCADE;
 CREATE TABLE public.dpd_drug(
@@ -388,7 +403,11 @@ OR
 OR
 EXISTS(select * from ccdd.mp_inclusion_list incl where incl.drug_code = CAST(dp.drug_code as varchar))
 )
-AND NOT EXISTS(SELECT * FROM ccdd.mp_exclusion_list excl WHERE excl.drug_code = CAST(dp.drug_code as varchar));
+AND NOT EXISTS(
+  SELECT * FROM ccdd.mp_exclusion_list excl
+  WHERE excl.drug_code = CAST(dp.drug_code as varchar)
+  AND NOT (SELECT generation_type FROM ccdd_config LIMIT 1) = 'QA'
+);
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.dpd_drug_source OWNER TO postgres;
 -- ddl-end --
@@ -2770,16 +2789,6 @@ FROM (
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_special_groupings OWNER TO postgres;
 -- ddl-end --
-
--- -- object: public.ccdd_config | type: TABLE --
--- -- DROP TABLE IF EXISTS public.ccdd_config CASCADE;
--- CREATE TABLE public.ccdd_config(
--- 	ccdd_date date,
--- 	dpd_extract_date date
--- );
--- -- ddl-end --
--- ALTER TABLE public.ccdd_config OWNER TO postgres;
--- -- ddl-end --
 
 
 -- object: ccdd.mp_release_candidate | type: TABLE --
