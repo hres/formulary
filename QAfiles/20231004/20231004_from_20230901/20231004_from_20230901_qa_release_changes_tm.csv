@@ -1,0 +1,36 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8001870,potassium chloride,chlorure de potassium,ADDED
+8002215,amphotericin B,amphotéricine B,ADDED
+8001976,triclosan,triclosan,ADDED
+8001579,benzethonium,benzéthonium,ADDED
+8002452,cytarabine and daunorubicin,cytarabine et daunorubicine,ADDED
+8001079,eprosartan,éprosartan,DELETED
+8001004,benzoyl peroxide and salicylic acid,peroxyde de benzoyle et acide salicylique,ADDED
+8001476,follitropin beta,follitropine bêta,ADDED
+8001900,codeine and guaifenesin and pheniramine,codéine et guaïfénésine et phéniramine,"tm_status_effective_time: ""19931231"" -> ""19961231"""
+8000912,alcohol anhydrous and chlorhexidine,alcool anhydre et chlorhexidine,ADDED
+8001192,efavirenz,éfavirenz,"tm_status_effective_time: ""19990325"" -> ""20021105"""
+8002400,Ad26.COV2.S (recombinant),Ad26.COV2.S (recombinant),DELETED
+8001615,chloroxylenol,chloroxylénol,ADDED
+8002282,fibrinogen human and thrombin human,fibrinogène humaine et thrombine humaine,ADDED
+8002214,alpha1-proteinase inhibitor human,inhibiteur de l'alpha1-protéinase humain,"tm_fr_description: ""inhibiteur de l'alpha1-protéinase humaine̲"" -> ""inhibiteur de l'alpha1-protéinase humain"""
+580ebbed98a53b6f41333d5afa203289,octocog alfa,octocog alfa,ADDED
+8001878,sodium iodide,iodure de sodium,ADDED
+8000796,benzalkonium,benzalkonium,ADDED
+8001757,doxorubicin,doxorubicine,ADDED
+8002285,octacog alfa,octacog alfa,DELETED
+8002154,potassium phosphate dibasic and potassium phosphate monobasic,phosphate de potassium dibasique et phosphate de potassium monobasique,ADDED
+8002161,sodium bicarbonate,bicarbonate de sodium,ADDED
+9ac6507c298ad6e2c4db1062e0bd3a33,mineral oil heavy and petrolatum and phenylephrine,huile minérale lourde et pétrolatum et phényléphrine,ADDED
+8001844,magnesium chloride,chlorure de magnésium,ADDED
+cf0f271a9e722b0e29758369a8bf0cb5,clascoterone,clascotérone,ADDED
+8002160,sodium acetate,acétate de sodium,ADDED
+8001971,trametinib,tramétinib,DELETED
+bf325f9c92b28e91701d9896f676eac1,clevidipine,clévidipine,ADDED
+8001080,eprosartan and hydrochlorothiazide,éprosartan et hydrochlorothiazide,DELETED
+8001756,docosanol,docosanol,DELETED
+8002278,coagulation factor IX human and coagulation factor ii (human) and coagulation factor vii (human) and coagulation factor x (human) and protein c and protein s,facteur IX de coagulation humain et facteur II de coagulation humain et facteur VII de coagulation humain et facteur X de coagulation humain et protéine c et protéine s,ADDED
+8002047,paclitaxel,paclitaxel,ADDED
+c70215ee2fe990fa9d474c0940714464,vericiguat,vériciguat,ADDED
+8002088,acetic acid and sodium acetate,acide acétique et acétate de sodium,ADDED
+8001458,entacapone,entacapone,"tm_status_effective_time: ""20010621"" -> ""20120329"""
