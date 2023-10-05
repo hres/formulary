@@ -1,4 +1,4 @@
-code,formal_name,formal_name_fr
+"code","formal_name","formal_name_fr"
 "8000001","levothyroxine","lévothyroxine"
 "8000003","epinephrine","épinéphrine"
 "8000004","phenytoin sodium","phénytoïne sodique"
@@ -1657,7 +1657,7 @@ code,formal_name,formal_name_fr
 "8002271","methimazole","méthimazole"
 "8002283","nonacog alfa","nonacog alfa"
 "8002284","nonacog beta pegol","nonacog bêta pégol"
-"8002285","octacog alfa","octacog alfa"
+"8002285","octocog alfa","octocog alfa"
 "8002286","patisiran","patisiran"
 "8002287","romosozumab","romosozumab"
 "8002272","safinamide","safinamide"
@@ -1841,3 +1841,7 @@ code,formal_name,formal_name_fr
 "8002474","abiraterone and niraparib","abiratérone et niraparib"
 "8002475","camphor and lidocaine","camphre et lidocaïne"
 "8002476","maralixibat","maralixibat"
+"8002477","clascoterone","clascotérone"
+"8002478","clevidipine","clévidipine"
+"8002479","mineral oil heavy and petrolatum and phenylephrine","huile minérale lourde et pétrolatum et phényléphrine"
+"8002481","vericiguat","vériciguat"
