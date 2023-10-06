@@ -1,0 +1,68 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+2e62526085d235c38602c1133eb16ba3,octocog alfa 1000 unit per vial powder for solution for injection with diluent solution syringe,octocog alfa 1000 unité par fiole poudre pour solution injectable avec solution diluante seringue,ADDED
+474c66f3529b4693d282999bd8bc7aad,octocog alfa 1500 unit per vial powder for solution for injection with diluent solution,octocog alfa 1500 unité par fiole poudre pour solution injectable avec solution diluante,ADDED
+67c2688890960b0600cd55f3da5201f0,octocog alfa 500 unit per vial powder for solution for injection with diluent solution syringe,octocog alfa 500 unité par fiole poudre pour solution injectable avec solution diluante seringue,ADDED
+777300e673407d5d9b6e14e35ab24371,octocog alfa 2000 unit per vial powder for solution for injection with diluent solution,octocog alfa 2000 unité par fiole poudre pour solution injectable avec solution diluante,ADDED
+7a7536a100aaf04952c42a4b14675d93,octocog alfa 2000 unit per vial powder for solution for injection with diluent solution syringe,octocog alfa 2000 unité par fiole poudre pour solution injectable avec solution diluante seringue,ADDED
+9000186,haloperidol 2 mg per mL oral solution,halopéridol 2 mg par mL solution orale,"ntp_status_effective_time: ""20170804"" -> ""20190504"""
+9000263,morphine sulfate 50 mg oral tablet,sulfate de morphine 50 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19861231"" -> ""20230220"""
+9000944,oxybutynin chloride 5 mg prolonged-release oral tablet,chlorure d'oxybutynine 5 mg comprimé oral à libération prolongée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20010622"" -> ""20220915"""
+9003368,efavirenz 200 mg oral capsule,éfavirenz 200 mg capsule orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19990325"" -> ""20230331"""
+9003369,efavirenz 50 mg oral capsule,éfavirenz 50 mg capsule orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19990325"" -> ""20230331"""
+9003521,eprosartan (eprosartan mesylate) 400 mg oral tablet,éprosartan (mésylate d'éprosartan) 400 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20000908"" -> ""20230918"""
+9003601,eprosartan (eprosartan mesylate) 600 mg oral tablet,éprosartan (mésylate d'éprosartan) 600 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20010525"" -> ""20230918"""
+9003923,eprosartan (eprosartan mesylate) 600 mg and hydrochlorothiazide 12.5 mg oral tablet,"éprosartan (mésylate d'éprosartan) 600 mg et hydrochlorothiazide 12,5 mg comprimé oral","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20040706"" -> ""20230918"""
+9005400,tolnaftate 1 % cutaneous solution,tolnaftate 1 % solution pour application cutanée,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20221031"" -> ""19981009"""
+9012721,insulin human 40 unit per mL and insulin isophane human 60 unit per mL suspension for injection 3 mL cartridge,insuline humaine 40 unité par mL et insuline isophane humaine 60 unité par mL suspension injectable 3 mL cartouche,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19931231"" -> ""20230331"""
+9013792,aloe 0.02 g per mL and benzoin 0.1 g per mL and myroxylon balsamum 0.04 g per mL and storax 0.08 g per mL inhalation solution,"aloès 0,02 g par mL et benzoïne 0,1 g par mL et myroxylon balsamum 0,04 g par mL et styrax 0,08 g par mL solution à inhaler","ntp_fr_description: ""aloès 0,02 g par mL et benzoïne 0,1 g par mL et myroxylon balsamum 0,04 g par mL et sto̲rax 0,08 g par mL solution à inhaler"" -> ""aloès 0,02 g par mL et benzoïne 0,1 g par mL et myroxylon balsamum 0,04 g par mL et sty̲rax 0,08 g par mL solution à inhaler"""
+9013883,gramicidin 0.25 mg per g and lidocaine hydrochloride 40 mg per g and polymyxin B (polymyxin B sulfate) 10000 unit per g cutaneous cream,"gramicidine 0,25 mg par g et chlorhydrate de lidocaïne 40 mg par g et polymyxine B (sulfate de polymyxine B) 10000 unité par g crème cutanée","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20120409"" -> ""20200912"""
+9013958,enasidenib (enasidenib mesylate) 100 mg oral tablet,énasidénib (mésylate d'énasidénib) 100 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20190227"" -> ""20220114"""
+9014127,octacog alfa 1000 unit per vial powder for solution for injection with diluent solution,octacog alfa 1000 unité par fiole poudre pour solution injectable avec solution diluante,DELETED
+9014128,octacog alfa 1000 unit per vial powder for solution for injection with diluent solution syringe,octacog alfa 1000 unité par fiole poudre pour solution injectable avec solution diluante seringue,DELETED
+9014129,octacog alfa 1500 unit per vial powder for solution for injection with diluent solution,octacog alfa 1500 unité par fiole poudre pour solution injectable avec solution diluante,DELETED
+9014130,octacog alfa 2000 unit per vial powder for solution for injection with diluent solution,octacog alfa 2000 unité par fiole poudre pour solution injectable avec solution diluante,DELETED
+9014131,octacog alfa 2000 unit per vial powder for solution for injection with diluent solution syringe,octacog alfa 2000 unité par fiole poudre pour solution injectable avec solution diluante seringue,DELETED
+9014132,octacog alfa 250 unit per vial powder for solution for injection with diluent solution,octacog alfa 250 unité par fiole poudre pour solution injectable avec solution diluante,DELETED
+9014133,octacog alfa 250 unit per vial powder for solution for injection with diluent solution syringe,octacog alfa 250 unité par fiole poudre pour solution injectable avec solution diluante seringue,DELETED
+9014134,octacog alfa 3000 unit per vial powder for solution for injection with diluent solution,octacog alfa 3000 unité par fiole poudre pour solution injectable avec solution diluante,DELETED
+9014135,octacog alfa 3000 unit per vial powder for solution for injection with diluent solution syringe,octacog alfa 3000 unité par fiole poudre pour solution injectable avec solution diluante seringue,DELETED
+9014136,octacog alfa 500 unit per vial powder for solution for injection with diluent solution,octacog alfa 500 unité par fiole poudre pour solution injectable avec solution diluante,DELETED
+9014137,octacog alfa 500 unit per vial powder for solution for injection with diluent solution syringe,octacog alfa 500 unité par fiole poudre pour solution injectable avec solution diluante seringue,DELETED
+9014556,risperidone 120 mg per syringe powder for prolonged-release suspension for injection with diluent solution syringe,rispéridone 120 mg par seringue poudre pour suspension injectable à libération prolongée avec solution diluante seringue,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20210615"" -> ""20220616"""
+9014557,risperidone 90 mg per syringe powder for prolonged-release suspension for injection with diluent solution syringe,rispéridone 90 mg par seringue poudre pour suspension injectable à libération prolongée avec solution diluante seringue,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20210615"" -> ""20220616"""
+9014633,Ad26.COV2.S (recombinant) 5e10 vp per 0.5 mL suspension for injection 2.5 mL vial,"Ad26,COV2,S (recombinant) 5e10 particules virales par 0,5 mL suspension injectable 2,5 mL fiole","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20211123"" -> ""20230630"""
+9014852,budesonide 2.3 mg tablet for rectal suspension with diluent solution,"budésonide 2,3 mg comprimé pour suspension rectale avec solution diluente","ntp_fr_description: ""bude̲sonide 2,3 mg comprimé pour suspension rectale avec solution diluente"" -> ""budé̲sonide 2,3 mg comprimé pour suspension rectale avec solution diluente"""
+9014910,adalimumab 80 mg per 0.8 mL solution for injection pen,"adalimumab 80 mg par 0,8 mL solution injectable stylo",ADDED
+9014911,budesonide 2 mg per actuation rectal foam,budésonide 2 mg par actionnement mousse rectale,ADDED
+9014912,clascoterone 1 % cutaneous cream,clascotérone 1 % crème cutanée,ADDED
+9014914,isotretinoin 16 mg oral capsule,isotrétinoïne 16 mg capsule orale,ADDED
+9014915,isotretinoin 24 mg oral capsule,isotrétinoïne 24 mg capsule orale,ADDED
+9014916,isotretinoin 32 mg oral capsule,isotrétinoïne 32 mg capsule orale,ADDED
+9014917,isotretinoin 8 mg oral capsule,isotrétinoïne 8 mg capsule orale,ADDED
+9014918,mineral oil heavy 14.05 % and petrolatum 74.9 % and phenylephrine hydrochloride 0.25 % cutaneous ointment,"huile minérale lourde 14,05 % et pétrolatum 74,9 % et chlorhydrate de phényléphrine 0,25 % pommade cutanée",ADDED
+9014919,niraparib (niraparib tosylate) 100 mg oral tablet,niraparib (tosylate de niraparib) 100 mg comprimé oral,ADDED
+9014920,upadacitinib 45 mg prolonged-release oral tablet,upadacitinib 45 mg comprimé oral à libération prolongée,ADDED
+9014922,vericiguat 10 mg oral tablet,vériciguat 10 mg comprimé oral,ADDED
+9014923,vericiguat 2.5 mg oral tablet,"vériciguat 2,5 mg comprimé oral",ADDED
+9014924,vericiguat 5 mg oral tablet,vériciguat 5 mg comprimé oral,ADDED
+9014925,zinc (zinc sulfate) 25 mg per 5 mL solution for injection vial,zinc (sulfate de zinc) 25 mg par 5 mL solution injectable fiole,ADDED
+9434110c3d4fe47c0df4330265bfb745,octocog alfa 500 unit per vial powder for solution for injection with diluent solution,octocog alfa 500 unité par fiole poudre pour solution injectable avec solution diluante,ADDED
+b71842815e7fa71c14f574c6551c3619,octocog alfa 3000 unit per vial powder for solution for injection with diluent solution syringe,octocog alfa 3000 unité par fiole poudre pour solution injectable avec solution diluante seringue,ADDED
+b999f05daa07d579f330fa1f54714d43,octocog alfa 250 unit per vial powder for solution for injection with diluent solution,octocog alfa 250 unité par fiole poudre pour solution injectable avec solution diluante,ADDED
+d47783d755dbd9d41afe68264f003131,octocog alfa 250 unit per vial powder for solution for injection with diluent solution syringe,octocog alfa 250 unité par fiole poudre pour solution injectable avec solution diluante seringue,ADDED
+e374255d59811ce59c3d3c80e63c3e80,octocog alfa 3000 unit per vial powder for solution for injection with diluent solution,octocog alfa 3000 unité par fiole poudre pour solution injectable avec solution diluante,ADDED
+fc6b5721b306fb2cb639b1d5f16476c5,octocog alfa 1000 unit per vial powder for solution for injection with diluent solution,octocog alfa 1000 unité par fiole poudre pour solution injectable avec solution diluante,ADDED
