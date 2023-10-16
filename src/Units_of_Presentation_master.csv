@@ -1,4 +1,6 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"85108","vial","100","mL","Y","N","02366223","CLEVIPREX CHIESI FARMACEUTICI S.P.A.","fiole"
+"85108","vial","50","mL","Y","N","02366223","CLEVIPREX CHIESI FARMACEUTICI S.P.A.","fiole"
 "101905","vial","1.2","mL","Y","N","02529815","PLERIXAFOR INJECTION JAMP PHARMA CORPORATION","fiole"
 "102312","vial","4","mL","N","N","02534177","VEGZELMA CELLTRION HEALTHCARE CO LTD","fiole"
 "102395","syringe","0.8","mL","N","N","02535076","YUFLYMA CELLTRION HEALTHCARE CO LTD","seringue"
