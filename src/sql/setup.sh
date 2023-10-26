@@ -1,8 +1,8 @@
 #!/bin/bash -e
 # Must set environment variables PGHOST, PGUSER and PGPASSWORD. PGDATABASE must be unset
-ccdd_qa_release_date="20230901"
-ccdd_current_release_date="20230906"
-db_previous_month="ccdd_2023_09_06_103626"
+ccdd_qa_release_date="20231004"
+ccdd_current_release_date="20231006"
+db_previous_month="ccdd_2023_10_06_145539"
 ccdd_current_date=$(date +'%Y%m%d')
 baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 distDir="$baseDir/../dist/$ccdd_current_date"
@@ -46,7 +46,6 @@ fi
 # CCDD schema and source data
 
 psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-instance-structure.sql"
-pgloader "$baseDir/ccdd-config.pgload" # global config for CCDD generation process
 pgloader "$baseDir/ccdd-inputs.pgload"
 pgloader "$baseDir/ccdd-current-release.pgload"
 
