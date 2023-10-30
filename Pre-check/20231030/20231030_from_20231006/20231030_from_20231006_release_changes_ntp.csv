@@ -1,0 +1,21 @@
+ntp_code,ntp_formal_name,changes
+40d337b03e72dcf2a631d14e35976b37,amikacin (amikacin sulfate) 250 mg per mL solution for injection,ADDED
+9000870,methotrexate 2.5 mg oral tablet,"ntp_status_effective_time: ""19961115"" -> ""19990917"""
+9002781,desmopressin acetate 0.1 mg oral tablet,"ntp_status_effective_time: ""19951231"" -> ""20070131"""
+9002961,desonide 0.05 % cutaneous cream,"ntp_status_effective_time: ""19961111"" -> ""19970114"""
+9003081,tazarotene 0.1 % cutaneous gel,DELETED
+9003780,ursodiol 500 mg oral tablet,"ntp_status_effective_time: ""20030203"" -> ""20060501"""
+9004157,adefovir dipivoxil 10 mg oral tablet,"ntp_status_effective_time: ""20060418"" -> ""20140807"""
+9012722,insulin human 50 unit per mL and insulin isophane human 50 unit per mL suspension for injection 3 mL cartridge,DELETED
+9012779,apomorphine hydrochloride 10 mg per mL solution for injection 3 mL pen,DELETED
+9012960,dobutamine (dobutamine hydrochloride) 250 mg per 20 mL solution for injection vial,"ntp_status_effective_time: ""19961024"" -> ""20001002"""
+9013894,polymyxin B (polymyxin B sulfate) 10000 unit per mL and trimethoprim (trimethoprim sulfate) 1 mg per mL ophthalmic drops,"ntp_status_effective_time: ""19931231"" -> ""20120802"""
+9014467,tozinameran 30 mcg per 0.3 mL suspension for injection 1.8 mL vial,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20201214"" -> ""20230324"""
+9014565,dextromethorphan hydrobromide 10 mL per 15 mL and doxylamine succinate 6.25 mg per 15 mL and phenylephrine hydrochloride 5 mg per 15 mL syrup,DELETED
+9014638,tozinameran 10 mcg per 0.2 mL suspension for injection 2 mL vial,DELETED
+9014816,white petrolatum 70.3 % cutaneous ointment,DELETED
+9014903,dextromethorphan hydrobromide 10 mg per 15 mL and doxylamine succinate 6.25 mg per 15 mL and phenylephrine hydrochloride 5 mg per 15 mL syrup,"ntp_status_effective_time: ""20230731"" -> ""20210719"""
+94dc210647b7540cc41bd3661fe9cda8,acetaminophen 650 mg per 20 mL and dextromethorphan hydrobromide 20 mg per 20 mL and guaifenesin 400 mg per 20 mL and phenylephrine hydrochloride 10 mg per 20 mL oral solution,ADDED
+a07a01631f344e85ecd2fac87ed99892,onabotulinumtoxinA 200 unit per vial powder for solution for injection,ADDED
+b600cef7a3e70e5513b4f97d05f52b43,dorzolamide (dorzolamide hydrochloride) 20 mg per mL ophthalmic drops,ADDED
