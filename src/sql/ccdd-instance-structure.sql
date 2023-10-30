@@ -45,6 +45,22 @@ CREATE TABLE ccdd.config_csv(
 ALTER TABLE ccdd.config_csv OWNER TO postgres;
 -- ddl-end --
 
+-- object: public.ccdd_config_source | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_config_source CASCADE;
+CREATE MATERIALIZED VIEW public.ccdd_config_source
+AS
+
+SELECT
+  ccdd_date,
+  dpd_extract_date,
+  ingredient_strength_scientific_notation_threshold
+FROM
+  ccdd.config_csv
+;
+-- ddl-end --
+ALTER MATERIALIZED VIEW public.ccdd_config_source OWNER TO postgres;
+-- ddl-end --
+
 -- object: public.ccdd_config | type: TABLE --
 -- DROP TABLE IF EXISTS public.ccdd_config CASCADE;
 CREATE TABLE public.ccdd_config(
@@ -2190,22 +2206,6 @@ WHERE
     ccddso.ccdd_type = 'tm';
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_tm_status_override_source OWNER TO postgres;
--- ddl-end --
-
--- object: public.ccdd_config_source | type: MATERIALIZED VIEW --
--- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_config_source CASCADE;
-CREATE MATERIALIZED VIEW public.ccdd_config_source
-AS
-
-SELECT
-  ccdd_date,
-  dpd_extract_date,
-  ingredient_strength_scientific_notation_threshold
-FROM
-  ccdd.config_csv
-;
--- ddl-end --
-ALTER MATERIALIZED VIEW public.ccdd_config_source OWNER TO postgres;
 -- ddl-end --
 
 -- object: ccdd.ntp_release | type: TABLE --

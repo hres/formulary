@@ -1,3 +1,15 @@
+-- config info
+REFRESH MATERIALIZED VIEW public.ccdd_config_source;
+
+INSERT INTO public.ccdd_config(
+  ccdd_date,
+  dpd_extract_date,
+  ingredient_strength_scientific_notation_threshold
+) SELECT
+  ccdd_date,
+  dpd_extract_date,
+  ingredient_strength_scientific_notation_threshold
+FROM public.ccdd_config_source;
 
 -- filters other views
 REFRESH MATERIALIZED VIEW public.dpd_drug_source;
@@ -29,11 +41,10 @@ REFRESH MATERIALIZED VIEW public.ccdd_dosage_form_mapping_dpd_route_source;
 REFRESH MATERIALIZED VIEW public.ccdd_combination_product_source;
 REFRESH MATERIALIZED VIEW public.ccdd_presentation_source;
 
--- CCDD generation control: status overrides, config info
+-- CCDD generation control: status overrides
 REFRESH MATERIALIZED VIEW public.ccdd_mp_status_override_source;
 REFRESH MATERIALIZED VIEW public.ccdd_ntp_status_override_source;
 REFRESH MATERIALIZED VIEW public.ccdd_tm_status_override_source;
-REFRESH MATERIALIZED VIEW public.ccdd_config_source;
 
 INSERT INTO public.dpd_drug(
     code,
@@ -292,16 +303,6 @@ INSERT INTO public.ccdd_tm_status_override(
 	status,
 	status_effective_time
 FROM public.ccdd_tm_status_override_source;
-
-INSERT INTO public.ccdd_config(
-  ccdd_date,
-  dpd_extract_date,
-  ingredient_strength_scientific_notation_threshold
-) SELECT
-  ccdd_date,
-  dpd_extract_date,
-  ingredient_strength_scientific_notation_threshold
-FROM public.ccdd_config_source;
 
 DELETE FROM public.dpd_drug_ingredient_option WHERE dpd_drug_code IN (
 SELECT dpd_drug_code FROM (
