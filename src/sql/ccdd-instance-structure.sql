@@ -4,20 +4,49 @@
 -- Project Site: pgmodeler.com.br
 -- Model Author: ---
 
+CREATE TYPE ccdd.generation_type AS ENUM ('QA', 'release candidate');
+ALTER TYPE ccdd.generation_type OWNER TO postgres;
+
+-- object: ccdd.config_csv | type: TABLE --
+-- DROP TABLE IF EXISTS ccdd.config_csv CASCADE;
+CREATE TABLE ccdd.config_csv(
+      ccdd_date date,
+      dpd_extract_date date,
+      ingredient_strength_scientific_notation_threshold double precision,
+      generation_type ccdd.generation_type
+  );
+-- ddl-end --
+ALTER TABLE ccdd.config_csv OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.ccdd_config_source | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_config_source CASCADE;
+CREATE MATERIALIZED VIEW public.ccdd_config_source
+AS
+
+SELECT
+  ccdd_date,
+  dpd_extract_date,
+  ingredient_strength_scientific_notation_threshold,
+  generation_type
+FROM
+  ccdd.config_csv
+;
+-- ddl-end --
+ALTER MATERIALIZED VIEW public.ccdd_config_source OWNER TO postgres;
+-- ddl-end --
 
 -- object: public.ccdd_config | type: TABLE --
 -- DROP TABLE IF EXISTS public.ccdd_config CASCADE;
-CREATE TYPE public.generation_type AS ENUM ('QA', 'release candidate');
 CREATE TABLE public.ccdd_config(
       ccdd_date date,
       dpd_extract_date date,
       ingredient_strength_scientific_notation_threshold double precision,
-      generation_type generation_type
+      generation_type ccdd.generation_type
   );
 -- ddl-end --
--- ALTER TABLE public.ccdd_config OWNER TO postgres;
+ALTER TABLE public.ccdd_config OWNER TO postgres;
 -- ddl-end --
-
 
 -- object: public.dpd_drug | type: TABLE --
 -- DROP TABLE IF EXISTS public.dpd_drug CASCADE;

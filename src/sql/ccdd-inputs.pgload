@@ -7,7 +7,7 @@ LOAD CSV
       ingredient_strength_scientific_notation_threshold,
       generation_type
     )
-  INTO postgresql://cyanofsky@rest.hc.local/?public.ccdd_config
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.config_csv
     (
       ccdd_date,
       dpd_extract_date,
