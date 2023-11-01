@@ -1,0 +1,20 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9003081,tazarotene 0.1 % cutaneous gel,"tazarotène 0,1 % gel cutané","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19970410"" -> ""20230922"""
+9012722,insulin human 50 unit per mL and insulin isophane human 50 unit per mL suspension for injection 3 mL cartridge,insuline humaine 50 unité par mL et insuline isophane humaine 50 unité par mL suspension injectable 3 mL cartouche,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19931231"" -> ""20230331"""
+9012779,apomorphine hydrochloride 10 mg per mL solution for injection 3 mL pen,chlorhydrate d'apomorphine 10 mg par mL solution injectable 3 mL stylo,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20170907"" -> ""20231023"""
+9014467,tozinameran 30 mcg per 0.3 mL suspension for injection 1.8 mL vial,"tozinaméran 30 mcg par 0,3 mL suspension injectable 1,8 mL fiole","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20201214"" -> ""20231011"""
+9014565,dextromethorphan hydrobromide 10 mL per 15 mL and doxylamine succinate 6.25 mg per 15 mL and phenylephrine hydrochloride 5 mg per 15 mL syrup,"bromhydrate de dextrométhorphane 10 mL par 15 mL et succinate de doxylamine 6,25 mg par 15 mL et chlorhydrate de phényléphrine 5 mg par 15 mL sirop","ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20210719"" -> ""20231101"""
+9014638,tozinameran 10 mcg per 0.2 mL suspension for injection 2 mL vial,"tozinaméran 10 mcg par 0,2 mL suspension injectable 2 mL fiole","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20211122"" -> ""20231011"""
+9014816,white petrolatum 70.3 % cutaneous ointment,"pétrolatum blanc 70,3 % pommade cutanée","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20220107"" -> ""20221221"""
+9014903,dextromethorphan hydrobromide 10 mg per 15 mL and doxylamine succinate 6.25 mg per 15 mL and phenylephrine hydrochloride 5 mg per 15 mL syrup,"bromhydrate de dextrométhorphane 10 mg par 15 mL et succinate de doxylamine 6,25 mg par 15 mL et chlorhydrate de phényléphrine 5 mg par 15 mL sirop","ntp_status_effective_time: ""20230731"" -> ""20210719"""
+9014926,acetaminophen 650 mg per 20 mL and dextromethorphan hydrobromide 20 mg per 20 mL and guaifenesin 400 mg per 20 mL and phenylephrine hydrochloride 10 mg per 20 mL oral solution,acétaminophène 650 mg par 20 mL et bromhydrate de dextrométhorphane 20 mg par 20 mL et guaïfénésine 400 mg par 20 mL et chlorhydrate de phényléphrine 10 mg par 20 mL solution orale,ADDED
+9014928,clevidipine 25 mg per 50 mL emulsion for injection vial,clévidipine 25 mg par 50 mL émulsion injectable fiole,ADDED
+9014929,clevidipine 50 mg per 100 mL emulsion for injection vial,clévidipine 50 mg par 100 mL émulsion injectable fiole,ADDED
+9014931,onabotulinumtoxinA 200 unit per vial powder for solution for injection,onabotulinumtoxineA 200 unité par fiole poudre pour solution injectable,ADDED
