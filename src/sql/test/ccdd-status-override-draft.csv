@@ -88,3 +88,4 @@ ccdd_code,ccdd_type,status,status_effective_time
 02245677,mp,Active,2005-08-15
 9004072,ntp,Active,2005-08-15
 8001756,tm,Active,2005-08-15
+9014565,ntp,Deprec,2023-11-01
