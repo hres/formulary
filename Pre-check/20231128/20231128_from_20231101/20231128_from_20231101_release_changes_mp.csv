@@ -1,0 +1,135 @@
+drug_code,mp_code,mp_formal_name,changes
+5918,00611158,APO-INDOMETHACIN (indomethacin 25 mg oral capsule) APOTEX INC,"Health_Canada_product_name: ""APO INDOMETHACIN CAP 25MG"" -> ""APO-INDOMETHACIN""
+mp_formal_name: ""APO ̲INDOMETHACIN ̲C̲A̲P̲ ̲2̲5̲M̲G̲ (indomethacin 25 mg oral capsule) APOTEX INC"" -> ""APO-̲INDOMETHACIN (indomethacin 25 mg oral capsule) APOTEX INC"""
+5919,00611166,APO-INDOMETHACIN (indomethacin 50 mg oral capsule) APOTEX INC,"Health_Canada_product_name: ""APO INDOMETHACIN CAP 50MG"" -> ""APO-INDOMETHACIN""
+mp_formal_name: ""APO ̲INDOMETHACIN ̲C̲A̲P̲ ̲5̲0̲M̲G̲ (indomethacin 50 mg oral capsule) APOTEX INC"" -> ""APO-̲INDOMETHACIN (indomethacin 50 mg oral capsule) APOTEX INC"""
+13163,01927698,NOZINAN (methotrimeprazine (methotrimeprazine hydrochloride) 25 mg per 1 mL solution for injection ampoule) NEURAXPHARM ARZNEIMITTEL GMBH,"mp_formal_name: ""NOZINAN (methotrimeprazine (methotrimeprazine hydrochloride) 25 mg per 1 mL solution for injection ampoule) S̲A̲N̲O̲F̲I̲-̲A̲V̲E̲N̲T̲I̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""NOZINAN (methotrimeprazine (methotrimeprazine hydrochloride) 25 mg per 1 mL solution for injection ampoule) N̲E̲U̲R̲A̲X̲P̲H̲A̲R̲M̲ ̲A̲R̲Z̲N̲E̲I̲M̲I̲T̲T̲E̲L̲ ̲G̲M̲B̲H̲"""
+43391,02223767,NORPROLAC (quinagolide (quinagolide hydrochloride) 0.075 mg oral tablet) FERRING INC,DELETED
+44161,02170698,PMS-METHOTREXATE (methotrexate 2.5 mg oral tablet) PHARMASCIENCE INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20220529"" -> ""19961115"""
+50160,02230898,FORADIL DRY POWDER CAPSULES FOR INHALATION (formoterol fumarate 12 mcg inhalation powder capsule) NOVARTIS PHARMACEUTICALS CANADA INC,DELETED
+62480,02239028,EVISTA (raloxifene hydrochloride 60 mg oral tablet) ELI LILLY CANADA INC,"Health_Canada_product_name: ""EVISTA (60MG)"" -> ""EVISTA""
+mp_formal_name: ""EVISTA ̲(̲6̲0̲M̲G̲)̲ (raloxifene hydrochloride 60 mg oral tablet) ELI LILLY CANADA INC"" -> ""EVISTA (raloxifene hydrochloride 60 mg oral tablet) ELI LILLY CANADA INC"""
+69977,02245860,LUMIGAN (bimatoprost 0.03 % ophthalmic drops) ALLERGAN INC,"mp_status_effective_time: ""20170714"" -> ""20231117"""
+75254,02267144,HYGENIPAK 2% CHG FOAMING SKIN CLEANSER (chlorhexidine gluconate 2 % cutaneous solution) SC JOHNSON PROFESSIONAL CA INC,"mp_formal_name: ""HYGENIPAK 2% CHG FOAMING SKIN CLEANSER (chlorhexidine gluconate 2 % cutaneous solution) D̲E̲B̲ ̲C̲A̲N̲A̲D̲A̲"" -> ""HYGENIPAK 2% CHG FOAMING SKIN CLEANSER (chlorhexidine gluconate 2 % cutaneous solution) S̲C̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲P̲R̲O̲F̲E̲S̲S̲I̲O̲N̲A̲L̲ ̲C̲A̲ ̲I̲N̲C̲"""
+76420,02278634,SANDOZ FAMCICLOVIR (famciclovir 125 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20230726"" -> ""20231102"""
+76421,02278642,SANDOZ FAMCICLOVIR (famciclovir 250 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20230726"" -> ""20231102"""
+76422,02278650,SANDOZ FAMCICLOVIR (famciclovir 500 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_status_effective_time: ""20230726"" -> ""20231102"""
+78602,02300699,"ATRIPLA (efavirenz 600 mg and emtricitabine 200 mg and tenofovir disoproxil fumarate 300 mg oral tablet) GILEAD SCIENCES, LLC",DELETED
+83798,02352729,AMOXICILLIN (amoxicillin (amoxicillin trihydrate) 500 mg oral capsule) SANIS HEALTH INC,DELETED
+85817,02373041,MYLAN-LATANOPROST (latanoprost 50 mcg per mL ophthalmic drops) MYLAN PHARMACEUTICALS ULC,"Health_Canada_product_name: ""GD-LATANOPROST"" -> ""MYLAN-LATANOPROST""
+mp_formal_name: ""G̲D̲-LATANOPROST (latanoprost 50 mcg per mL ophthalmic drops) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"" -> ""M̲Y̲L̲A̲N̲-LATANOPROST (latanoprost 50 mcg per mL ophthalmic drops) M̲Y̲L̲A̲N̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ULC"""
+85818,02373068,MYLAN-LATANOPROST/TIMOLOL (latanoprost 50 mcg per mL and timolol (timolol maleate) 5 mg per mL ophthalmic drops) MYLAN PHARMACEUTICALS ULC,"Health_Canada_product_name: ""GD-LATANOPROST/TIMOLOL"" -> ""MYLAN-LATANOPROST/TIMOLOL""
+mp_formal_name: ""G̲D̲-LATANOPROST/TIMOLOL (latanoprost 50 mcg per mL and timolol (timolol maleate) 5 mg per mL ophthalmic drops) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"" -> ""M̲Y̲L̲A̲N̲-LATANOPROST/TIMOLOL (latanoprost 50 mcg per mL and timolol (timolol maleate) 5 mg per mL ophthalmic drops) M̲Y̲L̲A̲N̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ULC"""
+86259,02377012,RESOTRAN (prucalopride (prucalopride succinate) 1 mg oral tablet) AMDIPHARM LIMITED,"mp_formal_name: ""RESOTRAN (prucalopride (prucalopride succinate) 1 mg oral tablet) J̲A̲N̲S̲S̲E̲N̲ ̲I̲N̲C̲"" -> ""RESOTRAN (prucalopride (prucalopride succinate) 1 mg oral tablet) A̲M̲D̲I̲P̲H̲A̲R̲M̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+86260,02377020,RESOTRAN (prucalopride (prucalopride succinate) 2 mg oral tablet) AMDIPHARM LIMITED,"mp_formal_name: ""RESOTRAN (prucalopride (prucalopride succinate) 2 mg oral tablet) J̲A̲N̲S̲S̲E̲N̲ ̲I̲N̲C̲"" -> ""RESOTRAN (prucalopride (prucalopride succinate) 2 mg oral tablet) A̲M̲D̲I̲P̲H̲A̲R̲M̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+87428,02388766,MINT-METFORMIN (metformin hydrochloride 500 mg oral tablet) MINT PHARMACEUTICALS INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20221114"" -> ""20120725"""
+87429,02388774,MINT-METFORMIN (metformin hydrochloride 850 mg oral tablet) MINT PHARMACEUTICALS INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20221114"" -> ""20120725"""
+90899,02424282,LAYLAA 21 (ethinyl estradiol 0.02 mg and levonorgestrel 0.1 mg oral tablet) LUPIN PHARMA CANADA LIMITED,"Health_Canada_product_name: ""LEVONORGESTREL AND ETHINYL ESTRADIOL TABLETS, 0.1 MG/0.02 MG"" -> ""LAYLAA 21""
+mp_formal_name: ""LE̲V̲O̲N̲O̲R̲G̲E̲S̲T̲R̲E̲L̲ ̲A̲N̲D̲ ̲E̲T̲H̲I̲N̲Y̲L̲ ̲E̲S̲T̲R̲A̲D̲I̲O̲L̲ ̲T̲A̲B̲L̲E̲T̲S̲,̲ ̲0̲.̲1̲ ̲M̲G̲/̲0̲.̲0̲2̲ ̲M̲G̲ ̲(̲e̲t̲h̲i̲n̲y̲l̲ ̲e̲s̲t̲r̲a̲d̲i̲o̲l̲ ̲2̲0̲ ̲m̲c̲g̲ ̲a̲n̲d̲ ̲l̲e̲v̲o̲n̲o̲r̲g̲e̲s̲t̲r̲e̲l̲ ̲1̲0̲0̲ ̲m̲c̲g̲ ̲o̲r̲a̲l̲ ̲t̲a̲b̲l̲e̲t̲)̲ ̲L̲U̲P̲I̲N̲ LIMITED"" -> ""LA̲Y̲L̲A̲A̲ ̲2̲1̲ ̲(̲e̲t̲h̲i̲n̲y̲l̲ ̲e̲s̲t̲r̲a̲d̲i̲o̲l̲ ̲0̲.̲0̲2̲ ̲m̲g̲ ̲a̲n̲d̲ ̲l̲e̲v̲o̲n̲o̲r̲g̲e̲s̲t̲r̲e̲l̲ ̲0̲.̲1̲ ̲m̲g̲ ̲o̲r̲a̲l̲ ̲t̲a̲b̲l̲e̲t̲)̲ ̲L̲U̲P̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ LIMITED"""
+90900,02424290,"LEVONORGESTREL AND ETHINYL ESTRADIOL TABLETS, 0.1 MG/0.02 MG (ethinyl estradiol 20 mcg and levonorgestrel 100 mcg oral tablet with lactose oral tablet) LUPIN LIMITED","Health_Canada_product_name: ""LEVONORGESTREL AND ETHINYL ESTRADIOL TABLETS, 0.1 MG/0.02 MG"" -> ""LAYLAA 28"""
+93727,02451026,BACITRACIN OINTMENT (bacitracin (bacitracin zinc) 500 unit per g cutaneous ointment) SAFETEC OF AMERICA INC,ADDED
+94709,02459760,GLYXAMBI (empagliflozin 25 mg and linagliptin 5 mg oral tablet) BOEHRINGER INGELHEIM (CANADA) LTD LTEE,DELETED
+95243,02464276,ADLYXINE (lixisenatide 10 mcg per actuation solution for injection pre-filled pen) SANOFI-AVENTIS CANADA INC,DELETED
+95509,02466732,EURO-CYPROHEPTADINE 2MG/5ML (cyproheptadine hydrochloride 2 mg per 5 mL syrup) EURO-PHARM INTERNATIONAL CANADA INC,ADDED
+95617,02467836,M-CITALOPRAM (citalopram (citalopram hydrobromide) 20 mg oral tablet) MANTRA PHARMA INC,ADDED
+95618,02467844,M-CITALOPRAM (citalopram (citalopram hydrobromide) 40 mg oral tablet) MANTRA PHARMA INC,ADDED
+95947,02470497,APO-RIVAROXABAN (rivaroxaban 10 mg oral tablet) APOTEX INC,ADDED
+95948,02470500,APO-RIVAROXABAN (rivaroxaban 15 mg oral tablet) APOTEX INC,ADDED
+95949,02470519,APO-RIVAROXABAN (rivaroxaban 20 mg oral tablet) APOTEX INC,ADDED
+96172,02472414,REDDY-RIVAROXABAN (rivaroxaban 10 mg oral tablet) DR REDDY'S LABORATORIES LTD,ADDED
+96173,02472430,REDDY-RIVAROXABAN (rivaroxaban 15 mg oral tablet) DR REDDY'S LABORATORIES LTD,ADDED
+96174,02472422,REDDY-RIVAROXABAN (rivaroxaban 20 mg oral tablet) DR REDDY'S LABORATORIES LTD,ADDED
+97021,02479540,RIVASTIGMINE PATCH 5 (rivastigmine 4.6 mg per 24 hour transdermal patch) PHARMASCIENCE INC,"mp_formal_name: ""RIVASTIGMINE PATCH 5 (rivastigmine 4.6 mg per 24 hour transdermal patch) S̲T̲R̲I̲D̲E̲S̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ INC"" -> ""RIVASTIGMINE PATCH 5 (rivastigmine 4.6 mg per 24 hour transdermal patch) P̲H̲A̲R̲M̲A̲S̲C̲I̲E̲N̲C̲E̲ INC"""
+97022,02479559,RIVASTIGMINE PATCH 10 (rivastigmine 9.5 mg per 24 hour transdermal patch) PHARMASCIENCE INC,"mp_formal_name: ""RIVASTIGMINE PATCH 10 (rivastigmine 9.5 mg per 24 hour transdermal patch) S̲T̲R̲I̲D̲E̲S̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ INC"" -> ""RIVASTIGMINE PATCH 10 (rivastigmine 9.5 mg per 24 hour transdermal patch) P̲H̲A̲R̲M̲A̲S̲C̲I̲E̲N̲C̲E̲ INC"""
+97023,02479567,RIVASTIGMINE PATCH 15 (rivastigmine 13.3 mg per 24 hour transdermal patch) PHARMASCIENCE INC,"mp_formal_name: ""RIVASTIGMINE PATCH 15 (rivastigmine 13.3 mg per 24 hour transdermal patch) S̲T̲R̲I̲D̲E̲S̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ INC"" -> ""RIVASTIGMINE PATCH 15 (rivastigmine 13.3 mg per 24 hour transdermal patch) P̲H̲A̲R̲M̲A̲S̲C̲I̲E̲N̲C̲E̲ INC"""
+97220,02481715,TASIGNA (nilotinib (nilotinib hydrochloride monohydrate) 50 mg oral capsule) NOVARTIS PHARMACEUTICALS CANADA INC,DELETED
+97270,02482223,SANDOZ RIVAROXABAN (rivaroxaban 10 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+97271,02482231,SANDOZ RIVAROXABAN (rivaroxaban 15 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+97272,02482258,SANDOZ RIVAROXABAN (rivaroxaban 20 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+97416,02483807,TARO-RIVAROXABAN (rivaroxaban 10 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+97417,02483815,TARO-RIVAROXABAN (rivaroxaban 15 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+97418,02483823,TARO-RIVAROXABAN (rivaroxaban 20 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+97570,02485451,CLINDAMYCIN INJECTION IN 5% DEXTROSE (clindamycin (clindamycin phosphate) 300 mg per 50 mL solution for injection bag) BAXTER CORPORATION,DELETED
+97585,02485613,OXERVATE (cenegermin 0.002 % ophthalmic drops) DOMPÉ FARMACEUTICI S.P.A.,DELETED
+98727,02497441,MINT-OSELTAMIVIR (oseltamivir (oseltamivir phosphate) 30 mg oral capsule) MINT PHARMACEUTICALS INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20221014"" -> ""20200612"""
+98729,02497476,MINT-OSELTAMIVIR (oseltamivir (oseltamivir phosphate) 75 mg oral capsule) MINT PHARMACEUTICALS INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20221118"" -> ""20200529"""
+99202,02502445,INREBIC (fedratinib (fedratinib hydrochloride) 100 mg oral capsule) BRISTOL-MYERS SQUIBB CANADA,"mp_formal_name: ""INREBIC (fedratinib (fedratinib hydrochloride) 100 mg oral capsule) C̲E̲L̲G̲E̲N̲E̲ ̲I̲N̲C̲"" -> ""INREBIC (fedratinib (fedratinib hydrochloride) 100 mg oral capsule) B̲R̲I̲S̲T̲O̲L̲-̲M̲Y̲E̲R̲S̲ ̲S̲Q̲U̲I̲B̲B̲ ̲C̲A̲N̲A̲D̲A̲"""
+99313,02503689,IMVEXXY (estradiol (estradiol hemihydrate) 4 mcg per insert vaginal delivery system) KNIGHT THERAPEUTICS INC.,ADDED
+99314,02503697,IMVEXXY (estradiol (estradiol hemihydrate) 10 mcg per insert vaginal delivery system) KNIGHT THERAPEUTICS INC.,ADDED
+99603,02506661,JAMP TROSPIUM (trospium chloride 20 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+99659,02507196,TEVA-RIVAROXABAN (rivaroxaban 10 mg oral tablet) TEVA CANADA LIMITED,ADDED
+99660,02507218,TEVA-RIVAROXABAN (rivaroxaban 15 mg oral tablet) TEVA CANADA LIMITED,ADDED
+99661,02507226,TEVA-RIVAROXABAN (rivaroxaban 20 mg oral tablet) TEVA CANADA LIMITED,ADDED
+100127,02512041,PMS-RIVAROXABAN (rivaroxaban 10 mg oral tablet) PHARMASCIENCE INC,ADDED
+100128,02512068,PMS-RIVAROXABAN (rivaroxaban 15 mg oral tablet) PHARMASCIENCE INC,ADDED
+100129,02512076,PMS-RIVAROXABAN (rivaroxaban 20 mg oral tablet) PHARMASCIENCE INC,ADDED
+100179,02512505,JAMP DULOXETINE CAPSULES (duloxetine (duloxetine hydrochloride) 30 mg gastro-resistant capsule) JAMP PHARMA CORPORATION,ADDED
+100180,02512513,JAMP DULOXETINE CAPSULES (duloxetine (duloxetine hydrochloride) 60 mg gastro-resistant capsule) JAMP PHARMA CORPORATION,ADDED
+100317,02513986,AURO-LURASIDONE (lurasidone hydrochloride 20 mg oral tablet) AURO PHARMA INC,ADDED
+100318,02513994,AURO-LURASIDONE (lurasidone hydrochloride 40 mg oral tablet) AURO PHARMA INC,ADDED
+100319,02514001,AURO-LURASIDONE (lurasidone hydrochloride 60 mg oral tablet) AURO PHARMA INC,ADDED
+100320,02514028,AURO-LURASIDONE (lurasidone hydrochloride 80 mg oral tablet) AURO PHARMA INC,ADDED
+100321,02514036,AURO-LURASIDONE (lurasidone hydrochloride 120 mg oral tablet) AURO PHARMA INC,ADDED
+101139,02522284,M-DARUNAVIR (darunavir 600 mg oral tablet) MANTRA PHARMA INC,DELETED
+101143,02522292,M-DARUNAVIR (darunavir 800 mg oral tablet) MANTRA PHARMA INC,DELETED
+101353,02524503,REDDY-RIVAROXABAN (rivaroxaban 2.5 mg oral tablet) DR REDDY'S LABORATORIES LTD,ADDED
+101584,02526786,TARO-RIVAROXABAN (rivaroxaban 2.5 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+101660,02527537,PMS-RIVAROXABAN (rivaroxaban 2.5 mg oral tablet) PHARMASCIENCE INC,ADDED
+101888,02529637,"ANTICOAGULANT SODIUM CITRATE SOLUTION, USP (sodium citrate 4 g per 100 mL anticoagulant and preservative solution for blood) FRESENIUS KABI CANADA LTD",ADDED
+101951,02530325,COMIRNATY MAROON CAP VIAL (6 MONTHS TO <5 YEARS) AFTER DILUTION CONTAINS 10 DOSES OF 0.2 ML (tozinameran 3 mcg per 0.2 mL suspension for injection 2 mL vial) BIONTECH MANUFACTURING GMBH,DELETED
+102119,02532123,M-CITALOPRAM (citalopram (citalopram hydrobromide) 10 mg oral tablet) MANTRA PHARMA INC,ADDED
+102246,02533480,"HADLIMA PUSHTOUCH (adalimumab 40 mg per 0.4 mL solution for injection) SAMSUNG BIOEPIS CO., LTD",ADDED
+102247,02533472,"HADLIMA (adalimumab 40 mg per 0.4 mL solution for injection) SAMSUNG BIOEPIS CO., LTD",ADDED
+102277,02533804,RISPERIDONE (risperidone 0.25 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102288,02533928,RISPERIDONE (risperidone 0.5 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102289,02533936,RISPERIDONE (risperidone 1 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102290,02533944,RISPERIDONE (risperidone 2 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102291,02533952,RISPERIDONE (risperidone 3 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102292,02533960,RISPERIDONE (risperidone 4 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102377,02534886,FLUCONAZOLE (fluconazole 50 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102378,02534894,FLUCONAZOLE (fluconazole 100 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102449,02535645,"KETAMINE INJECTION, BP (ketamine (ketamine hydrochloride) 50 mg per mL solution for injection) STERIMAX INC",ADDED
+102526,02536498,PRO-AMOXI CLAV (amoxicillin (amoxicillin trihydrate) 500 mg and clavulanic acid (potassium clavulanate) 125 mg oral tablet) PRO DOC LIMITEE,ADDED
+102527,02536501,PRO-AMOXI CLAV (amoxicillin (amoxicillin trihydrate) 875 mg and clavulanic acid (potassium clavulanate) 125 mg oral tablet) PRO DOC LIMITEE,ADDED
+102567,02536943,PMS-METHYLPHENIDATE CR (methylphenidate hydrochloride 10 mg prolonged-release oral capsule) PHARMASCIENCE INC,ADDED
+102568,02536951,PMS-METHYLPHENIDATE CR (methylphenidate hydrochloride 15 mg prolonged-release oral capsule) PHARMASCIENCE INC,ADDED
+102569,02536978,PMS-METHYLPHENIDATE CR (methylphenidate hydrochloride 20 mg prolonged-release oral capsule) PHARMASCIENCE INC,ADDED
+102570,02536986,PMS-METHYLPHENIDATE CR (methylphenidate hydrochloride 30 mg prolonged-release oral capsule) PHARMASCIENCE INC,ADDED
+102571,02536994,PMS-METHYLPHENIDATE CR (methylphenidate hydrochloride 40 mg prolonged-release oral capsule) PHARMASCIENCE INC,ADDED
+102572,02537001,PMS-METHYLPHENIDATE CR (methylphenidate hydrochloride 50 mg prolonged-release oral capsule) PHARMASCIENCE INC,ADDED
+102573,02537028,PMS-METHYLPHENIDATE CR (methylphenidate hydrochloride 60 mg prolonged-release oral capsule) PHARMASCIENCE INC,ADDED
+102574,02537036,PMS-METHYLPHENIDATE CR (methylphenidate hydrochloride 80 mg prolonged-release oral capsule) PHARMASCIENCE INC,ADDED
+102578,02537079,LEVOFLOXACIN IN 5% DEXTROSE INJECTION (levofloxacin 5 mg per mL solution for injection) HIKMA CANADA LIMITED,ADDED
+102624,02537532,"ZORYVE (roflumilast 0.3 % cutaneous cream) ARCUTIS CANADA, INC.","mp_formal_name: ""ZORYVE (roflumilast 0.3 % cutaneous cream) ARCUTIS B̲I̲O̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲, INC."" -> ""ZORYVE (roflumilast 0.3 % cutaneous cream) ARCUTIS C̲A̲N̲A̲D̲A̲, INC."""
+102656,02537796,M-DORZOLAMIDE-TIMOLOL (dorzolamide (dorzolamide hydrochloride) 20 mg per mL and timolol (timolol maleate) 5 mg per mL ophthalmic drops) MANTRA PHARMA INC,ADDED
+102663,02537877,SANDOZ RIVAROXABAN (rivaroxaban 2.5 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+102889,02540185,ERLEADA (apalutamide 240 mg oral tablet) JANSSEN INC,ADDED
+102892,02540215,IMBRUVICA (ibrutinib 70 mg per mL oral suspension) JANSSEN INC,ADDED
+102951,02540835,RIVA RIVAROXABAN (rivaroxaban 2.5 mg oral tablet) LABORATOIRE RIVA INC.,ADDED
+102952,02540843,RIVA RIVAROXABAN (rivaroxaban 10 mg oral tablet) LABORATOIRE RIVA INC.,ADDED
+102953,02540851,RIVA RIVAROXABAN (rivaroxaban 15 mg oral tablet) LABORATOIRE RIVA INC.,ADDED
+102954,02540878,RIVA RIVAROXABAN (rivaroxaban 20 mg oral tablet) LABORATOIRE RIVA INC.,ADDED
+102955,02540886,APO-AZELASTINE/FLUTICASONE (azelastine hydrochloride 137 mcg per actuation and fluticasone propionate 50 mcg per actuation nasal spray) APOTEX INC,ADDED
+102959,02540967,PRO-RIVAROXABAN (rivaroxaban 2.5 mg oral tablet) PRO DOC LIMITEE,ADDED
+102960,02540975,PRO-RIVAROXABAN (rivaroxaban 10 mg oral tablet) PRO DOC LIMITEE,ADDED
+102961,02540983,PRO-RIVAROXABAN (rivaroxaban 15 mg oral tablet) PRO DOC LIMITEE,ADDED
+102962,02540991,PRO-RIVAROXABAN (rivaroxaban 20 mg oral tablet) PRO DOC LIMITEE,ADDED
+103011,02541467,RIVAROXABAN (rivaroxaban 2.5 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+103012,02541475,RIVAROXABAN (rivaroxaban 10 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+103013,02541483,RIVAROXABAN (rivaroxaban 15 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+103014,02541491,RIVAROXABAN (rivaroxaban 20 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+103036,02541734,APO-RIVAROXABAN (rivaroxaban 2.5 mg oral tablet) APOTEX INC,ADDED
+NA,77700202,METOCLOPRAMIDE INJECTION USP (metoclopramide hydrochloride 10 mg per 2 mL solution for injection vial) OMEGA LABORATORIES LIMITED,"Health_Canada_product_name: ""METOCLOPRAMIDE OMEGA"" -> ""METOCLOPRAMIDE INJECTION USP""
+mp_formal_name: ""METOCLOPRAMIDE O̲M̲E̲G̲A̲ (metoclopramide hydrochloride 10 mg per 2 mL solution for injection vial) OMEGA LABORATORIES LIMITED"" -> ""METOCLOPRAMIDE I̲N̲J̲E̲C̲T̲I̲O̲N̲ ̲U̲S̲P̲ (metoclopramide hydrochloride 10 mg per 2 mL solution for injection vial) OMEGA LABORATORIES LIMITED"""
+NA,77700203,METOCLOPRAMIDE INJECTION USP (metoclopramide hydrochloride 50 mg per 10 mL solution for injection vial) OMEGA LABORATORIES LIMITED,"Health_Canada_product_name: ""METOCLOPRAMIDE OMEGA"" -> ""METOCLOPRAMIDE INJECTION USP""
+mp_formal_name: ""METOCLOPRAMIDE O̲M̲E̲G̲A̲ (metoclopramide hydrochloride 50 mg per 10 mL solution for injection vial) OMEGA LABORATORIES LIMITED"" -> ""METOCLOPRAMIDE I̲N̲J̲E̲C̲T̲I̲O̲N̲ ̲U̲S̲P̲ (metoclopramide hydrochloride 50 mg per 10 mL solution for injection vial) OMEGA LABORATORIES LIMITED"""
+NA,77700204,METOCLOPRAMIDE INJECTION USP (metoclopramide hydrochloride 150 mg per 30 mL solution for injection vial) OMEGA LABORATORIES LIMITED,"Health_Canada_product_name: ""METOCLOPRAMIDE OMEGA"" -> ""METOCLOPRAMIDE INJECTION USP""
+mp_formal_name: ""METOCLOPRAMIDE O̲M̲E̲G̲A̲ (metoclopramide hydrochloride 150 mg per 30 mL solution for injection vial) OMEGA LABORATORIES LIMITED"" -> ""METOCLOPRAMIDE I̲N̲J̲E̲C̲T̲I̲O̲N̲ ̲U̲S̲P̲ (metoclopramide hydrochloride 150 mg per 30 mL solution for injection vial) OMEGA LABORATORIES LIMITED"""
+NA,77700909,ERFA-TRANEXAMIC (tranexamic acid 100 mg per mL solution for injection 50 mL vial) SEARCHLIGHT PHARMA INC,DELETED
+NA,77700910,ERFA-TRANEXAMIC (tranexamic acid 500 mg per 5 mL solution for injection vial) SEARCHLIGHT PHARMA INC,DELETED
+NA,77700911,ERFA-TRANEXAMIC (tranexamic acid 1000 mg per 10 mL solution for injection vial) SEARCHLIGHT PHARMA INC,DELETED

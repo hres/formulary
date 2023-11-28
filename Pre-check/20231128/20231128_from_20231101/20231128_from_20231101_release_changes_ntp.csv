@@ -1,0 +1,20 @@
+ntp_code,ntp_formal_name,changes
+14f95245118b1ac25b92526f5065a194,ethinyl estradiol 0.02 mg and levonorgestrel 0.1 mg oral tablet,ADDED
+17d699b1fa36e58c036774522510e46b,apalutamide 240 mg oral tablet,ADDED
+2bd5d1483154b5e7ffaed5a723967455,ketamine (ketamine hydrochloride) 50 mg per mL solution for injection,ADDED
+39a34537c6d9973d0856b6c4f42e6bc4,adalimumab 40 mg per 0.4 mL solution for injection,ADDED
+9003113,formoterol fumarate 12 mcg inhalation powder capsule,DELETED
+9003804,cyproheptadine hydrochloride 2 mg per 5 mL syrup,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20210222"" -> ""20030527"""
+9004000,quinagolide (quinagolide hydrochloride) 0.075 mg oral tablet,DELETED
+9004343,efavirenz 600 mg and emtricitabine 200 mg and tenofovir disoproxil fumarate 300 mg oral tablet,"ntp_status_effective_time: ""20071023"" -> ""20170726"""
+9006083,empagliflozin 25 mg and linagliptin 5 mg oral tablet,DELETED
+9013574,lixisenatide 10 mcg per actuation solution for injection pre-filled pen,DELETED
+9013976,nilotinib (nilotinib hydrochloride) 50 mg oral capsule,DELETED
+9014314,clindamycin (clindamycin phosphate) 300 mg per 50 mL solution for injection bag,DELETED
+9014674,cenegermin 0.002 % ophthalmic drops,DELETED
+9014789,tozinameran 3 mcg per 0.2 mL suspension for injection 2 mL vial,DELETED
+a05b835d49dbff4f45a8a11f890668ff,ibrutinib 70 mg per mL oral suspension,ADDED
+a749b51b196fb53914833be253e92fcc,levofloxacin 5 mg per mL solution for injection,ADDED
+e9ea3ec2c0bcaf0a19358a1fc05063b2,estradiol 10 mcg per insert vaginal delivery system,ADDED
+ec97d419091df703eec786baa121e71f,estradiol 4 mcg per insert vaginal delivery system,ADDED

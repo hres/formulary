@@ -1,0 +1,10 @@
+tm_code,tm_formal_name,changes
+8002412,cenegermin,DELETED
+8000902,formoterol,"tm_status_effective_time: ""19970708"" -> ""19980312"""
+8001456,empagliflozin and linagliptin,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20161221"" -> ""20210611"""
+8001418,quinagolide,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20041229"" -> ""20210602"""
+8002353,tozinameran,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20201214"" -> ""20231011"""
+8001193,efavirenz and emtricitabine and tenofovir disoproxil,"tm_status_effective_time: ""20071023"" -> ""20170726"""
