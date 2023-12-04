@@ -1,0 +1,37 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+45c3262b2b283506afde8750649205fc,evinacumab,évinacumab,ADDED
+8000796,benzalkonium,benzalkonium,ADDED
+8000902,formoterol,formotérol,"tm_status_effective_time: ""19970708"" -> ""19980312"""
+8000912,alcohol anhydrous and chlorhexidine,alcool anhydre et chlorhexidine,ADDED
+8001004,benzoyl peroxide and salicylic acid,peroxyde de benzoyle et acide salicylique,ADDED
+8001193,efavirenz and emtricitabine and tenofovir disoproxil,éfavirenz et emtricitabine et ténofovir disoproxil,"tm_status_effective_time: ""20071023"" -> ""20170726"""
+8001418,quinagolide,quinagolide,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20041229"" -> ""20210602"""
+8001456,empagliflozin and linagliptin,empagliflozin et linagliptine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20161221"" -> ""20210611"""
+8001476,follitropin beta,follitropine bêta,ADDED
+8001579,benzethonium,benzéthonium,ADDED
+8001615,chloroxylenol,chloroxylénol,ADDED
+8001757,doxorubicin,doxorubicine,ADDED
+8001844,magnesium chloride,chlorure de magnésium,ADDED
+8001870,potassium chloride,chlorure de potassium,ADDED
+8001878,sodium iodide,iodure de sodium,ADDED
+8001976,triclosan,triclosan,ADDED
+8002047,paclitaxel,paclitaxel,ADDED
+8002088,acetic acid and sodium acetate,acide acétique et acétate de sodium,ADDED
+8002154,potassium phosphate dibasic and potassium phosphate monobasic,phosphate de potassium dibasique et phosphate de potassium monobasique,ADDED
+8002160,sodium acetate,acétate de sodium,ADDED
+8002161,sodium bicarbonate,bicarbonate de sodium,ADDED
+8002215,amphotericin B,amphotéricine B,ADDED
+8002278,coagulation factor IX human and coagulation factor ii (human) and coagulation factor vii (human) and coagulation factor x (human) and protein c and protein s,facteur IX de coagulation humain et facteur II de coagulation humain et facteur VII de coagulation humain et facteur X de coagulation humain et protéine c et protéine s,ADDED
+8002282,fibrinogen human and thrombin human,fibrinogène humaine et thrombine humaine,ADDED
+8002353,tozinameran,tozinaméran,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20201214"" -> ""20231011"""
+8002412,cenegermin,cénégermine,DELETED
+8002452,cytarabine and daunorubicin,cytarabine et daunorubicine,ADDED
+8002482,andusomeran,andusoméran,ADDED
+8002483,mirikizumab,mirikizumab,ADDED
+8002484,teclistamab,téclistamab,ADDED
+8002485,tremelimumab,trémélimumab,ADDED
+af6dc7a9dd13007dee640219f2e3696a,tirzepatide,tirzépatide,ADDED
+bccbeb8be0ee50eda3295989e73d60e1,raxtozinameran,raxtozinaméran,ADDED
