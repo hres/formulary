@@ -1,0 +1,16 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8001456,empagliflozin and linagliptin,empagliflozin et linagliptine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20161221"" -> ""20211209"""
+8002484,teclistamab,téclistamab,ADDED
+8001418,quinagolide,quinagolide,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20041229"" -> ""20210602"""
+8002486,evinacumab,évinacumab,ADDED
+8002485,tremelimumab,trémélimumab,ADDED
+8001756,docosanol,docosanol,"tm_status: ""ACTIVE"" -> ""DEPREC""
+tm_status_effective_time: ""20050815"" -> ""20231201"""
+8002412,cenegermin,cénégermine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20220218"" -> ""20230907"""
+8002482,andusomeran,andusoméran,ADDED
+8002483,mirikizumab,mirikizumab,ADDED
+8002353,tozinameran,tozinaméran,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20201214"" -> ""20231107"""

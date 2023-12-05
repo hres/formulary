@@ -1,0 +1,36 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9002298,docusate sodium 10 mg per mL oral drops,docusate sodique 10 mg par mL gouttes orales,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19901231"" -> ""20180430"""
+9003113,formoterol fumarate 12 mcg inhalation powder capsule,fumarate de formotérol 12 mcg poudre pour inhalation en capsule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19970708"" -> ""20230120"""
+9003804,cyproheptadine hydrochloride 2 mg per 5 mL syrup,chlorhydrate de cyproheptadine 2 mg par 5 mL sirop,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20210222"" -> ""20030527"""
+9004000,quinagolide (quinagolide hydrochloride) 0.075 mg oral tablet,"quinagolide (chlorhydrate de quinagolide) 0,075 mg comprimé oral","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20041229"" -> ""20201209"""
+9004072,docosanol 10 % cutaneous cream,docosanol 10 % crème cutanée,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20050815"" -> ""20231201"""
+9006083,empagliflozin 25 mg and linagliptin 5 mg oral tablet,empagliflozin 25 mg et linagliptine 5 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20161221"" -> ""20211209"""
+9013574,lixisenatide 10 mcg per actuation solution for injection pre-filled pen,lixisénatide 10 mcg par actionnement solution injectable stylo prérempli,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20170912"" -> ""20230504"""
+9013976,nilotinib (nilotinib hydrochloride) 50 mg oral capsule,nilotinib (chlorhydrate de nilotinib) 50 mg capsule orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20190517"" -> ""20231004"""
+9014314,clindamycin (clindamycin phosphate) 300 mg per 50 mL solution for injection bag,clindamycine (phosphate de clindamycine) 300 mg par 50 mL solution injectable sac,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20191120"" -> ""20230302"""
+9014674,cenegermin 0.002 % ophthalmic drops,"cénégermine 0,002 % gouttes ophtalmiques","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20220218"" -> ""20230907"""
+9014789,tozinameran 3 mcg per 0.2 mL suspension for injection 2 mL vial,"tozinaméran 3 mcg par 0,2 mL suspension injectable 2 mL fiole","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20220915"" -> ""20231107"""
+9014936,andusomeran 0.1 mg per mL dispersion for injection 2.5 mL vial,"andusoméran 0,1 mg par mL dispersion injectable 2,5 mL fiole",ADDED
+9014937,apalutamide 240 mg oral tablet,apalutamide 240 mg comprimé oral,ADDED
+9014938,docusate sodium 10 mg per mL oral solution,docusate sodique 10 mg par mL solution orale,ADDED
+9014939,estradiol 10 mcg vaginal capsule,estradiol 10 mcg capsule vaginal,ADDED
+9014940,estradiol 4 mcg vaginal capsule,estradiol 4 mcg capsule vaginal,ADDED
+9014941,evinacumab 1200 mg per 8 mL solution for injection vial,évinacumab 1200 mg par 8 mL solution injectable fiole,ADDED
+9014942,evinacumab 345 mg per 2.3 mL solution for injection vial,"évinacumab 345 mg par 2,3 mL solution injectable fiole",ADDED
+9014943,ibrutinib 70 mg per mL oral suspension,ibrutinib 70 mg par mL suspension orale,ADDED
+9014944,mirikizumab 300 mg per 15 mL solution for injection vial,mirikizumab 300 mg par 15 mL solution injectable fiole,ADDED
+9014948,teclistamab 153 mg per 1.7 mL solution for injection vial,"téclistamab 153 mg par 1,7 mL solution injectable fiole",ADDED
+9014949,teclistamab 30 mg per 3 mL solution for injection vial,téclistamab 30 mg par 3 mL solution injectable fiole,ADDED
+9014956,tremelimumab 25 mg per 1.25 mL solution for injection vial,"trémélimumab 25 mg par 1,25 mL solution injectable fiole",ADDED
+9014957,tremelimumab 300 mg per 15 mL solution for injection vial,trémélimumab 300 mg par 15 mL solution injectable fiole,ADDED
