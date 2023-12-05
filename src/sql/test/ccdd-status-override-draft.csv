@@ -85,7 +85,7 @@ ccdd_code,ccdd_type,status,status_effective_time
 9014634,ntp,Deprec,2023-05-01
 9013200,ntp,Deprec,2023-08-01
 9000008,ntp,Deprec,2023-09-01
-02245677,mp,Active,2005-08-15
-9004072,ntp,Active,2005-08-15
-8001756,tm,Active,2005-08-15
+02245677,mp,Deprec,2023-12-01
+9004072,ntp,Deprec,2023-12-01
+8001756,tm,Deprec,2023-12-01
 9014565,ntp,Deprec,2023-11-01
