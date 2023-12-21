@@ -1,0 +1,22 @@
+ntp_code,ntp_formal_name,changes
+9004810,alitretinoin 10 mg oral capsule,"ntp_status_effective_time: ""20110111"" -> ""20210609"""
+665db450a505de6b63a01a536c5e5ff9,bismuth subsalicylate 524 mg oral tablet,ADDED
+0a52d9513171859b1eb2a11c32344793,elexacaftor 100 mg and ivacaftor 75 mg and ivacaftor 75 mg and tezacaftor 50 mg oral granules,ADDED
+99744abbaf17e89a6493c21b2d2a913c,ranibizumab 2.3000000000000003 mg per 0.23 mL solution for injection vial,ADDED
+9006312,bismuth subgallate 200 mg chewable tablet,DELETED
+9000107,codeine phosphate 30 mg per 1 mL solution for injection ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19781231"" -> ""20180921"""
+9004408,ondansetron (ondansetron hydrochloride) 4 mg oral tablet,"ntp_status_effective_time: ""19980330"" -> ""20060419"""
+7256c61b2474c5a74ea3b803bacd9580,dexmedetomidine (dexmedetomidine hydrochloride) 4 mcg per mL solution for injection,ADDED
+9002000,tretinoin 0.025 % cutaneous cream,DELETED
+9014248,sapropterin dihydrochloride 100 mg per sachet oral powder,ADDED
+ecfc522a1e179bdee98830bf14e9f158,dabrafenib (dabrafenib mesylate) 10 mg dispersible oral tablet,ADDED
+9014333,pramoxine hydrochloride 0.5 % cutaneous ointment,DELETED
+9014470,ChAdOx1-S (recombinant) 5e10 vp per 0.5 mL solution for injection 5 mL vial,"ntp_status_effective_time: ""20230727"" -> ""20231219"""
+5ca62949373c31f5b3dd176b48078863,mirikizumab 100 mg per mL solution for injection,ADDED
+9013949,cemiplimab 250 mg per 5 mL solution for injection vial,DELETED
+9014842,ranibizumab 2.3 mg per 0.23 mL solution for injection vial,DELETED
+9014310,fulvestrant 50 mg per mL solution for injection,ADDED
+b2b72316d0abf7de58a45e355846d0bc,trametinib 4.7 mg powder for oral solution,ADDED
+9003641,tazarotene 0.05 % cutaneous cream,DELETED
+d3ca8454bcd7b4659fff6b61767c5abe,elexacaftor 80 mg and ivacaftor 60 mg and ivacaftor 59.5 mg and tezacaftor 40 mg oral granules,ADDED

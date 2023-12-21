@@ -1,0 +1,87 @@
+drug_code,mp_code,mp_formal_name,changes
+3166,00452696,DEVROM CHEW TAB 200MG (bismuth subgallate 200 mg chewable tablet) THE PARTHENON COMPANY INC.,DELETED
+4806,00544884,CODEINE PHOSPHATE INJECTION USP (codeine phosphate 30 mg per 1 mL solution for injection ampoule) SANDOZ CANADA INCORPORATED,DELETED
+5168,00578576,STIEVA-A (tretinoin 0.025 % cutaneous cream) GLAXOSMITHKLINE INC,DELETED
+9169,00755893,APO-PINDOL TAB 15MG (pindolol 15 mg oral tablet) APOTEX INC,DELETED
+9276,00716863,"LYDERM (fluocinonide 0.05 % cutaneous cream) TAROPHARMA, A DIVISION OF TARO PHARMACEUTICALS INC.","Health_Canada_product_name: ""LYDERM CREAM 0.05%"" -> ""LYDERM""
+mp_formal_name: ""LYDERM ̲C̲R̲E̲A̲M̲ ̲0̲.̲0̲5̲%̲ (fluocinonide 0.05 % cutaneous cream) TAROPHARMA, A DIVISION OF TARO PHARMACEUTICALS INC."" -> ""LYDERM (fluocinonide 0.05 % cutaneous cream) TAROPHARMA, A DIVISION OF TARO PHARMACEUTICALS INC."""
+11641,00893285,NOREPINEPHRINE BITARTRATE INJECTION USP (norepinephrine (norepinephrine bitartrate) 4 mg per 4 mL solution for injection vial) SANDOZ CANADA INCORPORATED,"Health_Canada_product_name: ""NOREPINEPHRINE BITARTRATE INJ 1MG/ML USP"" -> ""NOREPINEPHRINE BITARTRATE INJECTION USP""
+mp_formal_name: ""NOREPINEPHRINE BITARTRATE INJ ̲1̲M̲G̲/̲M̲L̲ USP (norepinephrine (norepinephrine bitartrate) 4 mg per 4 mL solution for injection vial) SANDOZ CANADA INCORPORATED"" -> ""NOREPINEPHRINE BITARTRATE INJE̲C̲T̲I̲O̲N̲ USP (norepinephrine (norepinephrine bitartrate) 4 mg per 4 mL solution for injection vial) SANDOZ CANADA INCORPORATED"""
+19405,02148595,PMS-ESTRADIOL (estradiol 2 mg oral tablet) PHARMASCIENCE INC,"Health_Canada_product_name: ""ESTRACE"" -> ""PMS-ESTRADIOL""
+mp_formal_name: ""E̲S̲T̲R̲A̲C̲E̲ (estradiol 2 mg oral tablet) PHARMASCIENCE INC"" -> ""P̲M̲S̲-̲E̲S̲T̲R̲A̲D̲I̲O̲L̲ (estradiol 2 mg oral tablet) PHARMASCIENCE INC""
+mp_status_effective_time: ""20221123"" -> ""20231215"""
+19406,02148587,PMS-ESTRADIOL (estradiol 1 mg oral tablet) PHARMASCIENCE INC,"Health_Canada_product_name: ""ESTRACE"" -> ""PMS-ESTRADIOL""
+mp_formal_name: ""E̲S̲T̲R̲A̲C̲E̲ (estradiol 1 mg oral tablet) PHARMASCIENCE INC"" -> ""P̲M̲S̲-̲E̲S̲T̲R̲A̲D̲I̲O̲L̲ (estradiol 1 mg oral tablet) PHARMASCIENCE INC""
+mp_status_effective_time: ""20221123"" -> ""20231215"""
+19419,01977474,ACETAMINOPHEN CAPLETS 500 MG (acetaminophen 500 mg oral tablet) LABORATOIRES TRIANON INC.,"Health_Canada_product_name: ""ACETAMINOPHEN CAPLET 500MG"" -> ""ACETAMINOPHEN CAPLETS 500 MG""
+mp_formal_name: ""ACETAMINOPHEN CAPLET 500MG (acetaminophen 500 mg oral tablet) LABORATOIRES TRIANON INC."" -> ""ACETAMINOPHEN CAPLETS̲ 500 ̲MG (acetaminophen 500 mg oral tablet) LABORATOIRES TRIANON INC."""
+43116,02213567,ZOFRAN (ondansetron (ondansetron hydrochloride dihydrate) 4 mg oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC,DELETED
+43420,02225190,PMS-ESTRADIOL (estradiol 0.5 mg oral tablet) PHARMASCIENCE INC,"Health_Canada_product_name: ""ESTRACE"" -> ""PMS-ESTRADIOL""
+mp_formal_name: ""E̲S̲T̲R̲A̲C̲E̲ (estradiol 0.5 mg oral tablet) PHARMASCIENCE INC"" -> ""P̲M̲S̲-̲E̲S̲T̲R̲A̲D̲I̲O̲L̲ (estradiol 0.5 mg oral tablet) PHARMASCIENCE INC""
+mp_status_effective_time: ""20221123"" -> ""20231215"""
+60294,02236996,"LYDERM (fluocinonide 0.05 % cutaneous ointment) TAROPHARMA, A DIVISION OF TARO PHARMACEUTICALS INC.","Health_Canada_product_name: ""LYDERM OINTMENT 0.05%"" -> ""LYDERM""
+mp_formal_name: ""LYDERM ̲O̲I̲N̲T̲M̲E̲N̲T̲ ̲0̲.̲0̲5̲%̲ (fluocinonide 0.05 % cutaneous ointment) TAROPHARMA, A DIVISION OF TARO PHARMACEUTICALS INC."" -> ""LYDERM (fluocinonide 0.05 % cutaneous ointment) TAROPHARMA, A DIVISION OF TARO PHARMACEUTICALS INC."""
+60295,02236997,"LYDERM (fluocinonide 0.05 % cutaneous gel) TAROPHARMA, A DIVISION OF TARO PHARMACEUTICALS INC.","Health_Canada_product_name: ""LYDERM GEL 0.05%"" -> ""LYDERM""
+mp_formal_name: ""LYDERM ̲G̲E̲L̲ ̲0̲.̲0̲5̲%̲ (fluocinonide 0.05 % cutaneous gel) TAROPHARMA, A DIVISION OF TARO PHARMACEUTICALS INC."" -> ""LYDERM (fluocinonide 0.05 % cutaneous gel) TAROPHARMA, A DIVISION OF TARO PHARMACEUTICALS INC."""
+67835,02243894,TAZORAC (tazarotene 0.05 % cutaneous cream) ALLERGAN INC,DELETED
+82321,02337630,TOCTINO (alitretinoin 10 mg oral capsule) GLAXOSMITHKLINE INC,DELETED
+82711,02341611,REVATIO (sildenafil (sildenafil citrate) 10 mg per 12.5 mL solution for injection vial) BGP PHARMA ULC,"mp_formal_name: ""REVATIO (sildenafil (sildenafil citrate) 10 mg per 12.5 mL solution for injection vial) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A ULC"" -> ""REVATIO (sildenafil (sildenafil citrate) 10 mg per 12.5 mL solution for injection vial) B̲G̲P̲ ̲P̲H̲A̲R̲M̲A ULC"""
+82774,02342235,MYLAN-ELETRIPTAN (eletriptan (eletriptan hydrobromide) 20 mg oral tablet) MYLAN PHARMACEUTICALS ULC,"Health_Canada_product_name: ""GD-ELETRIPTAN"" -> ""MYLAN-ELETRIPTAN""
+mp_formal_name: ""G̲D̲-ELETRIPTAN (eletriptan (eletriptan hydrobromide) 20 mg oral tablet) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"" -> ""M̲Y̲L̲A̲N̲-ELETRIPTAN (eletriptan (eletriptan hydrobromide) 20 mg oral tablet) M̲Y̲L̲A̲N̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ULC"""
+82775,02342243,MYLAN-ELETRIPTAN (eletriptan (eletriptan hydrobromide) 40 mg oral tablet) MYLAN PHARMACEUTICALS ULC,"Health_Canada_product_name: ""GD-ELETRIPTAN"" -> ""MYLAN-ELETRIPTAN""
+mp_formal_name: ""G̲D̲-ELETRIPTAN (eletriptan (eletriptan hydrobromide) 40 mg oral tablet) U̲P̲J̲O̲H̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"" -> ""M̲Y̲L̲A̲N̲-ELETRIPTAN (eletriptan (eletriptan hydrobromide) 40 mg oral tablet) M̲Y̲L̲A̲N̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ULC"""
+83070,02345277,JAMP TOPIRAMATE TABLETS (topiramate 200 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+85025,02365340,APO-CANDESARTAN (candesartan cilexetil 4 mg oral tablet) APOTEX INC,"mp_status: ""ACTIVE"" -> ""INACTIVE""
+mp_status_effective_time: ""20110426"" -> ""20230920"""
+85026,02365359,APO-CANDESARTAN (candesartan cilexetil 8 mg oral tablet) APOTEX INC,"mp_status: ""ACTIVE"" -> ""INACTIVE""
+mp_status_effective_time: ""20110426"" -> ""20231013"""
+85416,02369222,AG-AMLODIPINE (amlodipine (amlodipine besylate) 2.5 mg oral tablet) ANGITA PHARMA INC.,"mp_status_effective_time: ""20230726"" -> ""20231220"""
+87165,02386062,APO-ELETRIPTAN (eletriptan (eletriptan hydrobromide) 40 mg oral tablet) APOTEX INC,"mp_status: ""ACTIVE"" -> ""INACTIVE""
+mp_status_effective_time: ""20130912"" -> ""20230728"""
+92768,02443112,TEVA-OLMESARTAN / HCT (hydrochlorothiazide 12.5 mg and olmesartan medoxomil 20 mg oral tablet) TEVA CANADA LIMITED,"Health_Canada_product_name: ""ACT OLMESARTAN HCT"" -> ""TEVA-OLMESARTAN / HCT""
+mp_formal_name: ""A̲C̲T̲ ̲OLMESARTAN HCT (hydrochlorothiazide 12.5 mg and olmesartan medoxomil 20 mg oral tablet) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲OLMESARTAN ̲/̲ HCT (hydrochlorothiazide 12.5 mg and olmesartan medoxomil 20 mg oral tablet) TEVA CANADA LIMITED"""
+92771,02443120,TEVA-OLMESARTAN / HCT (hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral tablet) TEVA CANADA LIMITED,"Health_Canada_product_name: ""ACT OLMESARTAN HCT"" -> ""TEVA-OLMESARTAN / HCT""
+mp_formal_name: ""A̲C̲T̲ ̲OLMESARTAN HCT (hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral tablet) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲OLMESARTAN ̲/̲ HCT (hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral tablet) TEVA CANADA LIMITED"""
+92772,02443139,TEVA-OLMESARTAN / HCT (hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet) TEVA CANADA LIMITED,"Health_Canada_product_name: ""ACT OLMESARTAN HCT"" -> ""TEVA-OLMESARTAN / HCT""
+mp_formal_name: ""A̲C̲T̲ ̲OLMESARTAN HCT (hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲OLMESARTAN ̲/̲ HCT (hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet) TEVA CANADA LIMITED"""
+97524,02484994,TEVA-APIXABAN (apixaban 2.5 mg oral tablet) TEVA CANADA LIMITED,ADDED
+97527,02485001,TEVA-APIXABAN (apixaban 5 mg oral tablet) TEVA CANADA LIMITED,ADDED
+97659,02486385,ITCH RELIEF BALM (pramoxine hydrochloride 0.5 % cutaneous ointment) JOHNSON & JOHNSON INC,DELETED
+97727,02487152,LIBTAYO (cemiplimab 250 mg per 5 mL solution for injection vial) SANOFI-AVENTIS CANADA INC,DELETED
+98570,02495805,PMS-CYCLOSPORINE (cyclosporine 25 mg oral capsule) PHARMASCIENCE INC,"Health_Canada_product_name: ""CYCLOSPORINE CAPSULES"" -> ""PMS-CYCLOSPORINE""
+mp_formal_name: ""C̲Y̲C̲L̲O̲S̲P̲O̲R̲I̲N̲E̲ ̲C̲A̲P̲S̲U̲L̲E̲S̲ ̲(̲c̲y̲c̲l̲o̲s̲p̲o̲r̲i̲n̲e̲ ̲2̲5̲ ̲m̲g̲ ̲o̲r̲a̲l̲ ̲c̲a̲p̲s̲u̲l̲e̲)̲ ̲S̲T̲R̲I̲D̲E̲S̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ INC"" -> ""P̲M̲S̲-̲C̲Y̲C̲L̲O̲S̲P̲O̲R̲I̲N̲E̲ ̲(̲c̲y̲c̲l̲o̲s̲p̲o̲r̲i̲n̲e̲ ̲2̲5̲ ̲m̲g̲ ̲o̲r̲a̲l̲ ̲c̲a̲p̲s̲u̲l̲e̲)̲ ̲P̲H̲A̲R̲M̲A̲S̲C̲I̲E̲N̲C̲E̲ INC"""
+98571,02495813,PMS-CYCLOSPORINE (cyclosporine 100 mg oral capsule) PHARMASCIENCE INC,"Health_Canada_product_name: ""CYCLOSPORINE CAPSULES"" -> ""PMS-CYCLOSPORINE""
+mp_formal_name: ""C̲Y̲C̲L̲O̲S̲P̲O̲R̲I̲N̲E̲ ̲C̲A̲P̲S̲U̲L̲E̲S̲ ̲(̲c̲y̲c̲l̲o̲s̲p̲o̲r̲i̲n̲e̲ ̲1̲0̲0̲ ̲m̲g̲ ̲o̲r̲a̲l̲ ̲c̲a̲p̲s̲u̲l̲e̲)̲ ̲S̲T̲R̲I̲D̲E̲S̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ INC"" -> ""P̲M̲S̲-̲C̲Y̲C̲L̲O̲S̲P̲O̲R̲I̲N̲E̲ ̲(̲c̲y̲c̲l̲o̲s̲p̲o̲r̲i̲n̲e̲ ̲1̲0̲0̲ ̲m̲g̲ ̲o̲r̲a̲l̲ ̲c̲a̲p̲s̲u̲l̲e̲)̲ ̲P̲H̲A̲R̲M̲A̲S̲C̲I̲E̲N̲C̲E̲ INC"""
+98572,02495821,PMS-CYCLOSPORINE (cyclosporine 50 mg oral capsule) PHARMASCIENCE INC,"Health_Canada_product_name: ""CYCLOSPORINE CAPSULES"" -> ""PMS-CYCLOSPORINE""
+mp_formal_name: ""C̲Y̲C̲L̲O̲S̲P̲O̲R̲I̲N̲E̲ ̲C̲A̲P̲S̲U̲L̲E̲S̲ ̲(̲c̲y̲c̲l̲o̲s̲p̲o̲r̲i̲n̲e̲ ̲5̲0̲ ̲m̲g̲ ̲o̲r̲a̲l̲ ̲c̲a̲p̲s̲u̲l̲e̲)̲ ̲S̲T̲R̲I̲D̲E̲S̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ INC"" -> ""P̲M̲S̲-̲C̲Y̲C̲L̲O̲S̲P̲O̲R̲I̲N̲E̲ ̲(̲c̲y̲c̲l̲o̲s̲p̲o̲r̲i̲n̲e̲ ̲5̲0̲ ̲m̲g̲ ̲o̲r̲a̲l̲ ̲c̲a̲p̲s̲u̲l̲e̲)̲ ̲P̲H̲A̲R̲M̲A̲S̲C̲I̲E̲N̲C̲E̲ INC"""
+99535,02505991,ZEPOSIA (ozanimod (ozanimod hydrochloride) 0.92 mg oral capsule) BRISTOL-MYERS SQUIBB CANADA,"mp_formal_name: ""ZEPOSIA (ozanimod (ozanimod hydrochloride) 0.92 mg oral capsule) C̲E̲L̲G̲E̲N̲E̲ ̲I̲N̲C̲"" -> ""ZEPOSIA (ozanimod (ozanimod hydrochloride) 0.92 mg oral capsule) B̲R̲I̲S̲T̲O̲L̲-̲M̲Y̲E̲R̲S̲ ̲S̲Q̲U̲I̲B̲B̲ ̲C̲A̲N̲A̲D̲A̲"""
+100004,02510847,VAXZEVRIA (ChAdOx1-S (recombinant) 5e10 vp per 0.5 mL solution for injection 5 mL vial) ASTRAZENECA CANADA INC,"mp_status_effective_time: ""20230727"" -> ""20231219"""
+100710,02517744,ROCURONIUM BROMIDE INJECTION (rocuronium bromide 50 mg per 5 mL solution for injection vial) HIKMA CANADA LIMITED,ADDED
+101174,02522632,TARO-PERAMPANEL (perampanel 2 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+101175,02522640,TARO-PERAMPANEL (perampanel 4 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+101176,02522659,TARO-PERAMPANEL (perampanel 6 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+101177,02522667,TARO-PERAMPANEL (perampanel 8 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+101178,02522675,TARO-PERAMPANEL (perampanel 10 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+101179,02522683,TARO-PERAMPANEL (perampanel 12 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+101483,02525852,"BYOOVIZ (ranibizumab 2.3000000000000003 mg per 0.23 mL solution for injection vial) SAMSUNG BIOEPIS CO., LTD","mp_formal_name: ""BYOOVIZ (ranibizumab 2.3 mg per 0.23 mL solution for injection vial) SAMSUNG BIOEPIS CO., LTD"" -> ""BYOOVIZ (ranibizumab 2.3̲0̲0̲0̲0̲0̲0̲0̲0̲0̲0̲0̲0̲0̲0̲3 mg per 0.23 mL solution for injection vial) SAMSUNG BIOEPIS CO., LTD"""
+101709,02527901,ARTHRITIS PAIN RELIEF (acetaminophen 650 mg prolonged-release oral tablet) PHARMASCIENCE INC,ADDED
+101991,02530759,PEPTO-BISMOL EXTRA CAPLET (bismuth subsalicylate 524 mg oral tablet) PROCTER & GAMBLE INC,ADDED
+102345,02534533,REDDY-SAPROPTERIN (sapropterin dihydrochloride 100 mg per sachet oral powder) DR REDDY'S LABORATORIES LTD,ADDED
+102424,02535386,NRA-DONEPEZIL (donepezil hydrochloride 5 mg oral tablet) NORA PHARMA INC,ADDED
+102425,02535394,NRA-DONEPEZIL (donepezil hydrochloride 10 mg oral tablet) NORA PHARMA INC,ADDED
+102436,02535513,AG-SITAGLIPTIN (sitagliptin (sitagliptin hydrochloride monohydrate) 25 mg oral tablet) ANGITA PHARMA INC.,ADDED
+102437,02535521,AG-SITAGLIPTIN (sitagliptin (sitagliptin hydrochloride monohydrate) 50 mg oral tablet) ANGITA PHARMA INC.,ADDED
+102438,02535548,AG-SITAGLIPTIN (sitagliptin (sitagliptin hydrochloride monohydrate) 100 mg oral tablet) ANGITA PHARMA INC.,ADDED
+102493,02536137,PANTOPRAZOLE (pantoprazole (pantoprazole sodium sesquihydrate) 20 mg gastro-resistant tablet) SANIS HEALTH INC,ADDED
+102496,02536153,APO-DAPAGLIFLOZIN-METFORMIN (dapagliflozin 5 mg and metformin hydrochloride 850 mg oral tablet) APOTEX INC,ADDED
+102497,02536161,APO-DAPAGLIFLOZIN-METFORMIN (dapagliflozin 5 mg and metformin hydrochloride 1000 mg oral tablet) APOTEX INC,ADDED
+102508,02536293,FULVESTRANT INJECTION (fulvestrant 50 mg per mL solution for injection) FORMATIVE PHARMA INC.,ADDED
+102581,02537109,DEXMEDETOMIDINE HYDROCHOLORIDE INJECTION (dexmedetomidine (dexmedetomidine hydrochloride) 4 mcg per mL solution for injection) HIKMA CANADA LIMITED,ADDED
+102661,02537850,LUPIN-TIOTROPIUM (tiotropium (tiotropium bromide monohydrate) 18 mcg inhalation powder capsule) LUPIN PHARMA CANADA LIMITED,ADDED
+102857,02539837,FEBUXOSTAT (febuxostat (febuxostat hemihydrate) 80 mg oral tablet) SANIS HEALTH INC,ADDED
+102858,02539845,OMVOH (mirikizumab 100 mg per mL solution for injection) ELI LILLY CANADA INC,ADDED
+102859,02539853,OMVOH (mirikizumab 100 mg per mL solution for injection) ELI LILLY CANADA INC,ADDED
+102872,02539993,MEKINIST (trametinib 4.7 mg powder for oral solution) NOVARTIS PHARMACEUTICALS CANADA INC,ADDED
+102878,02540053,TAFINLAR (dabrafenib (dabrafenib mesylate) 10 mg dispersible oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC,ADDED
+103085,02542277,TRIKAFTA (elexacaftor 100 mg and ivacaftor 75 mg and ivacaftor 75 mg and tezacaftor 50 mg oral granules) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED,ADDED
+103086,02542285,TRIKAFTA (elexacaftor 80 mg and ivacaftor 60 mg and ivacaftor 59.5 mg and tezacaftor 40 mg oral granules) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED,ADDED
