@@ -1,0 +1,32 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8001991,vincristine,vincristine,"tm_fr_description: ""s̲u̲l̲f̲a̲t̲e̲ ̲d̲e̲ ̲vincristine"" -> ""vincristine"""
+8002154,potassium phosphate dibasic and potassium phosphate monobasic,phosphate de potassium dibasique et phosphate de potassium monobasique,ADDED
+8002282,fibrinogen human and thrombin human,fibrinogène humaine et thrombine humaine,ADDED
+8002161,sodium bicarbonate,bicarbonate de sodium,ADDED
+8001844,magnesium chloride,chlorure de magnésium,ADDED
+8001615,chloroxylenol,chloroxylénol,ADDED
+c3ddcf776b701609d3a94ebdaf59220f,epcoritamab,épcoritamab,ADDED
+8002488,tirzepatide,tirzépatide,ADDED
+8002278,coagulation factor ii (human) and coagulation factor IX human and coagulation factor vii (human) and coagulation factor x (human) and protein c and protein s,facteur II de coagulation humain et facteur IX de coagulation humain et facteur VII de coagulation humain et facteur X de coagulation humain et protéine c et protéine s,ADDED
+998df349dc1e8b0194af786e70f7e56a,cenobamate,cénobamate,ADDED
+8001579,benzethonium,benzéthonium,ADDED
+8002452,cytarabine and daunorubicin,cytarabine et daunorubicine,ADDED
+8001757,doxorubicin,doxorubicine,ADDED
+8001004,benzoyl peroxide and salicylic acid,peroxyde de benzoyle et acide salicylique,ADDED
+8002487,raxtozinameran,raxtozinaméran,ADDED
+8002367,ChAdOx1-S (recombinant),ChAdOx1-S (recombinant),"tm_status_effective_time: ""20230727"" -> ""20231219"""
+8002088,acetic acid and sodium acetate,acide acétique et acétate de sodium,ADDED
+8001976,triclosan,triclosan,ADDED
+8002047,paclitaxel,paclitaxel,ADDED
+8001870,potassium chloride,chlorure de potassium,ADDED
+8000796,benzalkonium,benzalkonium,ADDED
+8002160,sodium acetate,acétate de sodium,ADDED
+8001878,sodium iodide,iodure de sodium,ADDED
+8002215,amphotericin B,amphotéricine B,ADDED
+3977260c0e42b763b1fa23c80531ef47,efgartigimod alfa,efgartigimod alfa,ADDED
+8001476,follitropin beta,follitropine bêta,ADDED
+133e08febdb4e4091978b7b2ad2c1799,cangrelor,cangrélor,ADDED
+8002336,pramoxine,pramoxine,"tm_status_effective_time: ""20200720"" -> ""20210201"""
+8000912,alcohol anhydrous and chlorhexidine,alcool anhydre et chlorhexidine,ADDED
+f451213df39f64ad09360c621086dd12,somapacitan,somapacitan,ADDED
+8001704,bismuth subgallate,subgallate de bismuth,DELETED
