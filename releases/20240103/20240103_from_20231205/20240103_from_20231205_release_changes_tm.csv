@@ -1,0 +1,11 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002493,somapacitan,somapacitan,ADDED
+8001991,vincristine,vincristine,"tm_fr_description: ""s̲u̲l̲f̲a̲t̲e̲ ̲d̲e̲ ̲vincristine"" -> ""vincristine"""
+8002489,cangrelor,cangrélor,ADDED
+8002490,cenobamate,cénobamate,ADDED
+8002488,tirzepatide,tirzépatide,ADDED
+8002487,raxtozinameran,raxtozinaméran,ADDED
+8002367,ChAdOx1-S (recombinant),ChAdOx1-S (recombinant),"tm_status_effective_time: ""20230727"" -> ""20231219"""
+8002491,efgartigimod alfa,efgartigimod alfa,ADDED
+8001704,bismuth subgallate,subgallate de bismuth,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19781231"" -> ""20220427"""
