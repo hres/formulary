@@ -129,3 +129,9 @@ CREATE TABLE ccdd.status_override(
 );
 -- ddl-end --
 ALTER TABLE ccdd.status_override OWNER TO postgres;
+
+CREATE TABLE ccdd.alberta_tpp_monitored_list_csv(
+  DIN varchar NOT NULL
+);
+-- ddl-end --
+ALTER TABLE ccdd.alberta_tpp_monitored_list_csv OWNER TO postgres;

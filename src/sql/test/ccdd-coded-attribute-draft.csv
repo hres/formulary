@@ -6,3 +6,4 @@ attribute,attribute_code,attribute_value,fr_attribute_value,ccdd_file_type,attri
 "policy_type","500005","Schedule G (CDSA IV)","Annexe G (LRCDAS IV)","special_groupings","Active",20170919
 "policy_type","500006","Targeted (CDSA IV)","Ciblés (LRCDAS IV)","special_groupings","Active",20170919
 "policy_type","500007","Narcotic (CDSA II)","Stupéfiant (LRCDAS II)","special_groupings","Active",20170919
+"policy_type","500008","Alberta TPP Type 1","TPP de l'Alberta, Type 1","special_groupings","Active",20240201

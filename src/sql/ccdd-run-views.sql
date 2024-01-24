@@ -49,6 +49,9 @@ REFRESH MATERIALIZED VIEW public.ccdd_mp_status_override_source;
 REFRESH MATERIALIZED VIEW public.ccdd_ntp_status_override_source;
 REFRESH MATERIALIZED VIEW public.ccdd_tm_status_override_source;
 
+-- non-DPD special groupings
+REFRESH MATERIALIZED VIEW public.ccdd_alberta_tpp_monitored_list_source;
+
 INSERT INTO public.dpd_drug(
     code,
     din,
@@ -305,6 +308,12 @@ INSERT INTO public.ccdd_presentation(
     pseudodin
 FROM public.ccdd_presentation_source;
 
+INSERT INTO public.ccdd_alberta_tpp_monitored_list(
+  din
+) SELECT DISTINCT
+  din
+FROM public.ccdd_alberta_tpp_monitored_list_source;
+
 INSERT INTO public.ccdd_mp_status_override(
   code,
 	status,
@@ -384,6 +393,7 @@ REFRESH MATERIALIZED VIEW ccdd_ntp_table;
 REFRESH MATERIALIZED VIEW ccdd_tm_table;
 REFRESH MATERIALIZED VIEW ccdd_mp_ntp_tm_relationship;
 REFRESH MATERIALIZED VIEW ccdd_mp_special_groupings;
+REFRESH MATERIALIZED VIEW ccdd_mp_alberta_tpp_monitored_list;
 REFRESH MATERIALIZED VIEW ccdd_special_groupings;
 
 REFRESH MATERIALIZED VIEW ccdd_mp_carry_forward;

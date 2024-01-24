@@ -2047,6 +2047,28 @@ WHERE
 ALTER MATERIALIZED VIEW public.ccdd_tm_status_override_source OWNER TO postgres;
 -- ddl-end --
 
+-- object: public.ccdd_alberta_tpp_monitored_list_source | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_alberta_tpp_monitored_list_source CASCADE;
+CREATE MATERIALIZED VIEW public.ccdd_alberta_tpp_monitored_list_source
+AS
+
+SELECT
+  din
+FROM
+  ccdd.alberta_tpp_monitored_list_csv;
+-- ddl-end --
+ALTER MATERIALIZED VIEW public.ccdd_alberta_tpp_monitored_list_source OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.ccdd_alberta_tpp_monitored_list | type: TABLE --
+-- DROP TABLE IF EXISTS public.ccdd_alberta_tpp_monitored_list CASCADE;
+CREATE TABLE public.ccdd_alberta_tpp_monitored_list(
+  din text
+);
+-- ddl-end --
+ALTER TABLE public.ccdd_alberta_tpp_monitored_list OWNER TO postgres;
+-- ddl-end --
+
 -- object: ccdd.ntp_release | type: TABLE --
 -- DROP TABLE IF EXISTS ccdd.ntp_release CASCADE;
 CREATE TABLE ccdd.ntp_release(
@@ -2737,9 +2759,27 @@ FROM (
 ALTER MATERIALIZED VIEW public.ccdd_mp_special_groupings OWNER TO postgres;
 -- ddl-end --
 
+-- object: public.ccdd_mp_alberta_tpp_monitored_list | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_mp_alberta_tpp_monitored_list CASCADE;
+CREATE MATERIALIZED VIEW public.ccdd_mp_alberta_tpp_monitored_list
+AS
+
+SELECT
+  (CASE
+    WHEN can.presentation_count > 1 THEN COALESCE(cast(can.pseudodin as varchar), can.ccdd_presentation_id)
+    ELSE can.din
+  END)::varchar AS mp_code,
+  can.mp_formal_name AS mp_formal_name,
+  can.mp_fr_description AS mp_fr_description,
+  can.tm_is_publishable AS tm_is_publishable
+FROM
+  ccdd_mp_table_candidate can INNER JOIN ccdd_alberta_tpp_monitored_list altpp ON altpp.din = can.din;
+-- ddl-end --
+ALTER MATERIALIZED VIEW public.ccdd_mp_alberta_tpp_monitored_list OWNER TO postgres;
+-- ddl-end --
+
 -- object: public.ccdd_special_groupings | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_special_groupings CASCADE;
-
 CREATE TABLE ccdd.special_groupings(
 	ccdd_code varchar NOT NULL,
 	ccdd_formal_name text NOT NULL,
@@ -2755,68 +2795,111 @@ ALTER TABLE ccdd.special_groupings OWNER TO postgres;
 CREATE MATERIALIZED VIEW public.ccdd_special_groupings
 AS
 
-SELECT
-	csg.ccdd_code,
-	csg.ccdd_formal_name,
-	csg.ccdd_type,
-	csg.policy_type,
-	csg.policy_reference,
-	csg.tm_is_publishable,
-	'Active'::text AS special_groupings_status,
-	'20170919'::text AS special_groupings_status_effective_time
-FROM (
-	(
-		SELECT DISTINCT
-			reltm.tm_code::varchar AS ccdd_code,
-			reltm.tm_formal_name AS ccdd_formal_name,
-			CAST('TM' AS varchar) AS ccdd_type,
-			policy_type AS policy_type,
-			reltm.tm_is_publishable AS tm_is_publishable,
-			policy_reference AS policy_reference
-		FROM
-			ccdd_mp_special_groupings msg
-			JOIN (
-				SELECT
-					rel.tm_code,
-					rel.tm_formal_name,
-					rel.mp_code,
-					rel.tm_is_publishable
-				FROM ccdd_mp_ntp_tm_relationship rel
-			) reltm ON reltm.mp_code = msg.mp_code
-	)
-	UNION ALL
-	(
-		SELECT DISTINCT
-			relntp.ntp_code::varchar AS ccdd_code,
-			relntp.ntp_formal_name AS ccdd_formal_name,
-			CAST('NTP' AS varchar) AS ccdd_type,
-			msg.policy_type AS policy_type,
-			relntp.tm_is_publishable AS tm_is_publishable,
-			msg.policy_reference AS policy_reference
-		FROM
-			ccdd_mp_special_groupings msg
-			JOIN (
-				SELECT
-					rel.ntp_code,
-					rel.ntp_formal_name,
-					rel.mp_code,
-					rel.tm_is_publishable
-				FROM ccdd_mp_ntp_tm_relationship rel
-			) relntp ON relntp.mp_code = msg.mp_code
-	)
-	UNION ALL
-	(
-		SELECT
-			msg.mp_code AS ccdd_code,
-			msg.mp_formal_name AS ccdd_formal_name,
-			CAST('MP' AS varchar) AS ccdd_type,
-			msg.policy_type AS policy_type,
-			msg.tm_is_publishable AS tm_is_publishable,
-			msg.policy_reference AS policy_reference
-		FROM
-			ccdd_mp_special_groupings msg
-	)
-) csg;
+(
+  SELECT
+  	csg.ccdd_code,
+  	csg.ccdd_formal_name,
+  	csg.ccdd_type,
+  	csg.policy_type::text,
+  	csg.policy_reference,
+  	csg.tm_is_publishable,
+  	'Active'::text AS special_groupings_status,
+  	'20170919'::text AS special_groupings_status_effective_time
+  FROM (
+  	(
+  		SELECT DISTINCT
+  			reltm.tm_code::varchar AS ccdd_code,
+  			reltm.tm_formal_name AS ccdd_formal_name,
+  			CAST('TM' AS varchar) AS ccdd_type,
+  			policy_type AS policy_type,
+  			reltm.tm_is_publishable AS tm_is_publishable,
+  			policy_reference AS policy_reference
+  		FROM
+  			ccdd_mp_special_groupings msg
+  			JOIN (
+  				SELECT
+  					rel.tm_code,
+  					rel.tm_formal_name,
+  					rel.mp_code,
+  					rel.tm_is_publishable
+  				FROM ccdd_mp_ntp_tm_relationship rel
+  			) reltm ON reltm.mp_code = msg.mp_code
+  	)
+  	UNION ALL
+  	(
+  		SELECT DISTINCT
+  			relntp.ntp_code::varchar AS ccdd_code,
+  			relntp.ntp_formal_name AS ccdd_formal_name,
+  			CAST('NTP' AS varchar) AS ccdd_type,
+  			msg.policy_type AS policy_type,
+  			relntp.tm_is_publishable AS tm_is_publishable,
+  			msg.policy_reference AS policy_reference
+  		FROM
+  			ccdd_mp_special_groupings msg
+  			JOIN (
+  				SELECT
+  					rel.ntp_code,
+  					rel.ntp_formal_name,
+  					rel.mp_code,
+  					rel.tm_is_publishable
+  				FROM ccdd_mp_ntp_tm_relationship rel
+  			) relntp ON relntp.mp_code = msg.mp_code
+  	)
+  	UNION ALL
+  	(
+  		SELECT
+  			msg.mp_code AS ccdd_code,
+  			msg.mp_formal_name AS ccdd_formal_name,
+  			CAST('MP' AS varchar) AS ccdd_type,
+  			msg.policy_type AS policy_type,
+  			msg.tm_is_publishable AS tm_is_publishable,
+  			msg.policy_reference AS policy_reference
+  		FROM
+  			ccdd_mp_special_groupings msg
+  	)
+  ) csg
+)
+UNION
+(
+  SELECT
+  altpp.ccdd_code,
+  altpp.ccdd_formal_name,
+  altpp.ccdd_type,
+  '500008'::text AS policy_type,
+  'https://www.tppalberta.ca/medication-lists'::text AS policy_reference,
+  altpp.tm_is_publishable,
+  'Active'::text AS special_groupings_status,
+  '20240201'::text AS special_groupings_status_effective_time
+  FROM (
+  (
+  		SELECT DISTINCT
+  			relntp.ntp_code::varchar AS ccdd_code,
+  			relntp.ntp_formal_name AS ccdd_formal_name,
+  			CAST('NTP' AS varchar) AS ccdd_type,
+  			relntp.tm_is_publishable AS tm_is_publishable
+  		FROM
+  			ccdd_mp_alberta_tpp_monitored_list maltpp
+  			JOIN (
+  				SELECT
+  					rel.ntp_code,
+  					rel.ntp_formal_name,
+  					rel.mp_code,
+  					rel.tm_is_publishable
+  				FROM ccdd_mp_ntp_tm_relationship rel
+  			) relntp ON relntp.mp_code = maltpp.mp_code
+  	)
+  	UNION ALL
+  	(
+  		SELECT
+  			maltpp.mp_code AS ccdd_code,
+  			maltpp.mp_formal_name AS ccdd_formal_name,
+  			CAST('MP' AS varchar) AS ccdd_type,
+  			maltpp.tm_is_publishable AS tm_is_publishable
+  		FROM
+  			ccdd_mp_alberta_tpp_monitored_list maltpp
+  	)
+  ) altpp
+);
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_special_groupings OWNER TO postgres;
 -- ddl-end --
@@ -3542,7 +3625,7 @@ SELECT
   prev.ccdd_code,
   prev.ccdd_formal_name,
   prev.ccdd_type,
-  prev.policy_type::int,
+  prev.policy_type::text as policy_type,
   prev.policy_reference,
   'Inactive'::text as special_groupings_status,
   (CASE
