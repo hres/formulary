@@ -1,4 +1,5 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"103100","syringe","0.5","mL","N","N","02542420","AMVUTTRA ALNYLAM NETHERLANDS B.V.","seringue"
 "102456","ampoule","10","mL","N","N","02535734","ACETAMINOPHEN INJECTION B. BRAUN MELSUNGEN AG","ampoule"
 "102457","bottle","50","mL","N","N","02535742","ACETAMINOPHEN INJECTION B. BRAUN MELSUNGEN AG","bouteille"
 "103087","vial","0.8","mL","Y","N","02542293","EPKINLY ABBVIE CORPORATION","fiole"
