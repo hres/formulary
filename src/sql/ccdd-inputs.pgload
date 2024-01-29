@@ -295,3 +295,20 @@ LOAD CSV
     fields terminated by ',',
     fields escaped by double-quote
 ;
+
+LOAD CSV
+  FROM ./test/ccdd-alberta-tpp-monitored-list.csv
+    WITH ENCODING UTF-8
+    (
+      DIN
+    )
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.alberta_tpp_monitored_list_csv
+    (
+      DIN
+    )
+  WITH
+    skip header = 1,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;
