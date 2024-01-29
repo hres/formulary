@@ -1232,22 +1232,22 @@ SELECT
     WHEN (strength >= 1.0e15) THEN (REGEXP_REPLACE(CAST(strength AS text), '[+]', '', 'g'))
     WHEN (strength >= (SELECT ingredient_strength_scientific_notation_threshold FROM ccdd_config LIMIT 1))
       THEN CONCAT(first_digit, decimal_point_maybe, remaining_digits, 'e', exponent)
+    WHEN (raw_remaining_digits != remaining_digits) THEN CONCAT(first_digit, decimal_point_maybe, remaining_digits)
     ELSE format('%s', strength)
   END
   AS scientific_notation_strength
 FROM
   (SELECT
     first_digit,
-    CASE WHEN (LENGTH(remaining_digits) = 0.0) THEN ('') ELSE ('.') END AS decimal_point_maybe,
-    remaining_digits,
-    exponent,
-    raw_digits
+    CASE WHEN (LENGTH(raw_remaining_digits) = 0.0) THEN ('') ELSE ('.') END AS decimal_point_maybe,
+    REGEXP_REPLACE(raw_remaining_digits, '0{4,}[1-9]+$', '', 'g') AS remaining_digits,
+    raw_remaining_digits,
+    exponent
   FROM
     (SELECT
       SUBSTR(raw_digits, 1, 1) AS first_digit,
-      REGEXP_REPLACE(raw_digits,  '^\d', '', 'g') AS remaining_digits,
-      exponent,
-      raw_digits
+      REGEXP_REPLACE(raw_digits,  '^\d', '', 'g') AS raw_remaining_digits,
+      exponent
     FROM
       (SELECT
         REGEXP_REPLACE(REGEXP_REPLACE(REGEXP_REPLACE(CAST(strength AS TEXT), '[^0-9]', '', 'g'), '0+$', '', 'g'), '^0+', '', 'g') AS raw_digits,
