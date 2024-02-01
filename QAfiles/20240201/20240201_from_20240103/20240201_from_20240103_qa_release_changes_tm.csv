@@ -1,0 +1,34 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002154,potassium phosphate dibasic and potassium phosphate monobasic,phosphate de potassium dibasique et phosphate de potassium monobasique,ADDED
+8002282,fibrinogen human and thrombin human,fibrinogène humaine et thrombine humaine,ADDED
+8002161,sodium bicarbonate,bicarbonate de sodium,ADDED
+8002255,dacomitinib,dacomitinib,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20190422"" -> ""20220609"""
+6d1267acb9e4024bc0ad1e674cec412e,avatrombopag,avatrombopag,ADDED
+8001844,magnesium chloride,chlorure de magnésium,ADDED
+8001615,chloroxylenol,chloroxylénol,ADDED
+8002357,elasomeran,élasoméran,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20201223"" -> ""20240119"""
+8002278,coagulation factor ii (human) and coagulation factor IX human and coagulation factor vii (human) and coagulation factor x (human) and protein c and protein s,facteur II de coagulation humain et facteur IX de coagulation humain et facteur VII de coagulation humain et facteur X de coagulation humain et protéine c et protéine s,ADDED
+8001579,benzethonium,benzéthonium,ADDED
+8002452,cytarabine and daunorubicin,cytarabine et daunorubicine,ADDED
+8002453,davesomeran and elasomeran,davésoméran et élasoméran,DELETED
+8001757,doxorubicin,doxorubicine,ADDED
+8001004,benzoyl peroxide and salicylic acid,peroxyde de benzoyle et acide salicylique,ADDED
+38b8075b8f8fc4bc12430a155a5291c5,SARS-CoV-2 recombinant spike protein (omicron XBB.1.5),protéine de spicule du SRAS-CoV-2 recombinante (Omicron XBB.1.5),ADDED
+8002088,acetic acid and sodium acetate,acide acétique et acétate de sodium,ADDED
+8001976,triclosan,triclosan,ADDED
+8002047,paclitaxel,paclitaxel,ADDED
+8001870,potassium chloride,chlorure de potassium,ADDED
+8000796,benzalkonium,benzalkonium,ADDED
+8002160,sodium acetate,acétate de sodium,ADDED
+8002455,elasomeran and imelasomeran,élasoméran et imélasoméran,DELETED
+8002105,chloroxylenol and coal tar and menthol,chloroxylénol et goudron de houille et menthol,"tm_status_effective_time: ""20220705"" -> ""20240108"""
+8001878,sodium iodide,iodure de sodium,ADDED
+8002215,amphotericin B,amphotéricine B,ADDED
+66da9b0a7145064fc96ec6e1384c8253,relugolix,rélugolix,ADDED
+8001476,follitropin beta,follitropine bêta,ADDED
+22c80e123d1559a24463910320d2d51b,vutrisiran,vutrisiran,ADDED
+8001797,hydrocortisone and pramoxine,hydrocortisone et pramoxine,"tm_status_effective_time: ""19791231"" -> ""19891231"""
+8002492,epcoritamab,épcoritamab,ADDED
+8000912,alcohol anhydrous and chlorhexidine,alcool anhydre et chlorhexidine,ADDED
