@@ -7,9 +7,9 @@
 # ARGS (optional)   : qa
 ###############################################################################
 
-ccdd_qa_release_date="20231204"
-ccdd_current_release_date="20231205"
-db_previous_month="ccdd_2023_12_05_105406"
+ccdd_qa_release_date="20240103"
+ccdd_current_release_date="20240103"
+db_previous_month="ccdd_2024_01_03_151059"
 ccdd_current_date=$(date +'%Y%m%d')
 baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 distDir="$baseDir/../dist/$ccdd_current_date"
