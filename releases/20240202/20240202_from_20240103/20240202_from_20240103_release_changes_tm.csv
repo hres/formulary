@@ -1,0 +1,15 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002255,dacomitinib,dacomitinib,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20190422"" -> ""20220609"""
+8002357,elasomeran,élasoméran,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20201223"" -> ""20240119"""
+8002494,avatrombopag,avatrombopag,ADDED
+8002453,davesomeran and elasomeran,davésoméran et élasoméran,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20221125"" -> ""20240119"""
+8002495,relugolix,rélugolix,ADDED
+8002105,chloroxylenol and coal tar and menthol,chloroxylénol et goudron de houille et menthol,"tm_status_effective_time: ""20220705"" -> ""20240108"""
+8002497,vutrisiran,vutrisiran,ADDED
+8002455,elasomeran and imelasomeran,élasoméran et imélasoméran,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20220912"" -> ""20240119"""
+8002496,SARS-CoV-2 recombinant spike protein (omicron XBB.1.5),protéine de spicule du SRAS-CoV-2 recombinante (Omicron XBB.1.5),ADDED
+8002492,epcoritamab,épcoritamab,ADDED

@@ -1,0 +1,40 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9013953,dacomitinib 15 mg oral tablet,dacomitinib 15 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20190422"" -> ""20211124"""
+9014811,elasomeran 0.05 mg per mL and imelasomeran 0.05 mg per mL dispersion for injection 2.5 mL vial,"élasoméran 0,05 mg par mL et imélasoméran 0,05 mg par mL dispersion injectable 2,5 mL fiole","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20220912"" -> ""20240119"""
+9004293,chloroxylenol 0.5 % and coal tar 2.4 % and menthol 1.5 % shampoo,"chloroxylénol 0,5 % et goudron de houille 2,4 % et menthol 1,5 % shampoing","ntp_status_effective_time: ""20220705"" -> ""20240108"""
+9015005,petrolatum 45 % cutaneous stick,pétrolatum 45 % bâton pour application cutanée,ADDED
+9005265,etravirine 25 mg oral tablet,étravirine 25 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20130614"" -> ""20230808"""
+9015002,avatrombopag (avatrombopag maleate) 20 mg oral tablet,avatrombopag (maléate d'avatrombopag) 20 mg comprimé oral,ADDED
+9003176,lidocaine 2 % cutaneous cream,lidocaïne 2 % crème cutanée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19971030"" -> ""20240108"""
+9004737,white petrolatum 88.7 % and zinc oxide 5 % cutaneous cream,"pétrolatum blanc 88,7 % et oxyde de zinc 5 % crème cutanée","ntp_status_effective_time: ""20210929"" -> ""20240108"""
+9003769,cefuroxime (cefuroxime sodium) 7.5 g per vial powder for solution for injection,"céfuroxime (céfuroxime sodique) 7,5 g par fiole poudre pour solution injectable","ntp_status_effective_time: ""20211022"" -> ""20240123"""
+9015004,epcoritamab 4 mg per 0.8 mL solution for injection vial,"épcoritamab 4 mg par 0,8 mL solution injectable fiole",ADDED
+9000081,prednisolone acetate 0.12 % ophthalmic drops,"acétate de prednisolone 0,12 % gouttes ophtalmiques","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19741231"" -> ""20220413"""
+9015001,alpha1-proteinase inhibitor human 1000 mg per 50 mL solution for injection vial,inhibiteur de l'alpha1-protéinase humain 1000 mg par 50 mL solution injectable fiole,ADDED
+9014818,davesomeran 0.05 mg per mL and elasomeran 0.05 mg per mL dispersion for injection 2.5 mL vial,"davésoméran 0,05 mg par mL et élasoméran 0,05 mg par mL dispersion injectable 2,5 mL fiole","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20221125"" -> ""20240119"""
+9014999,acetaminophen 100 mg per 10 mL solution for injection ampoule,acétaminophène 100 mg par 10 mL solution injectable ampoule,ADDED
+9015009,vutrisiran (vutrisiran sodium) 25 mg per 0.5 mL solution for injection syringe,"vutrisiran (vutrisiran sodique) 25 mg par 0,5 mL solution injectable seringue",ADDED
+9015006,relugolix 120 mg oral tablet,rélugolix 120 mg comprimé oral,ADDED
+9003771,lidocaine 5 % cutaneous gel,lidocaïne 5 % gel cutané,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20090301"" -> ""20240108"""
+9015000,acetaminophen 500 mg per 50 mL solution for injection bottle,acétaminophène 500 mg par 50 mL solution injectable bouteille,ADDED
+9004989,chlorhexidine gluconate 4 % lotion,gluconate de chlorhexidine 4 % lotion,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20120223"" -> ""20240108"""
+9014432,elasomeran 0.2 mg per mL dispersion for injection 5 mL vial,"élasoméran 0,2 mg par mL dispersion injectable 5 mL fiole","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20201223"" -> ""20240119"""
+9015010,white petrolatum 46.5 % cutaneous ointment,"pétrolatum blanc 46,5 % pommade cutanée",ADDED
+9015007,SARS-CoV-2 recombinant spike protein (omicron XBB.1.5) 5 mcg per 0.5 mL suspension for injection 2.5 mL vial,"protéine de spicule du SRAS-CoV-2 recombinante (Omicron XBB,1,5) 5 mcg par 0,5 mL suspension injectable 2,5 mL fiole",ADDED
+9015008,semaglutide 0.68 mg per mL solution for injection 3 mL pen,"sémaglutide 0,68 mg par mL solution injectable 3 mL stylo",ADDED
+9015003,epcoritamab 48 mg per 0.8 mL solution for injection vial,"épcoritamab 48 mg par 0,8 mL solution injectable fiole",ADDED
+9014444,arsenic trioxide 12 mg per 6 mL solution for injection vial,trioxyde d'arsénic 12 mg par 6 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20200416"" -> ""20230418"""
+9014758,elasomeran 0.1 mg per mL dispersion for injection 2.5 mL vial,"élasoméran 0,1 mg par mL dispersion injectable 2,5 mL fiole","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20220714"" -> ""20240119"""
+9001848,hydrocortisone acetate 1 % and pramoxine hydrochloride 1 % rectal foam,acétate d'hydrocortisone 1 % et chlorhydrate de pramoxine 1 % mousse rectale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19791231"" -> ""20230720"""
