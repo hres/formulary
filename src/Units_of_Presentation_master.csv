@@ -1,4 +1,7 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"101242","vial","1","mL","Y","N","02523310","KETOROLAC TROMETHAMINE INJECTION USP JAMP PHARMA CORPORATION","fiole"
+"101023","syringe","0.5","mL","N","N","02520990","NYPOZI TANVEX BIOPHARMA USA, INC.","seringue"
+"101024","syringe","0.8","mL","N","N","02521008","NYPOZI TANVEX BIOPHARMA USA, INC.","seringue"
 "103210","vial","2.5","mL","N","Y","02543656","NUVAXOVID XBB.1.5 NOVAVAX INC.","fiole"
 "101656","vial","2","mL","Y","N","02527502","FUROSEMIDE INJECTION USP JAMP PHARMA CORPORATION","fiole"
 "101656","vial","4","mL","Y","N","02527502","FUROSEMIDE INJECTION USP JAMP PHARMA CORPORATION","fiole"
