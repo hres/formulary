@@ -1,3 +1,16 @@
+-- config info
+
+REFRESH MATERIALIZED VIEW public.ccdd_config_source;
+
+INSERT INTO public.ccdd_config(
+  ccdd_date,
+  dpd_extract_date,
+  ingredient_strength_scientific_notation_threshold
+) SELECT
+  ccdd_date,
+  dpd_extract_date,
+  ingredient_strength_scientific_notation_threshold
+FROM public.ccdd_config_source;
 
 -- filters other views
 REFRESH MATERIALIZED VIEW public.dpd_drug_source;
