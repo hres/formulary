@@ -1,0 +1,29 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+bce569247438143ad09e8cc715229432,estradiol and progesterone,estradiol et progestérone,ADDED
+8002154,potassium phosphate dibasic and potassium phosphate monobasic,phosphate de potassium dibasique et phosphate de potassium monobasique,ADDED
+8002161,sodium bicarbonate,bicarbonate de sodium,ADDED
+8001844,magnesium chloride,chlorure de magnésium,ADDED
+4b9d558c7759a1f5158d6c9bc655e9d9,elranatamab,elranatamab,ADDED
+8002418,cilgavimab and tixagevimab,cilgavimab et tixagévimab,DELETED
+8002452,cytarabine and daunorubicin,cytarabine et daunorubicine,ADDED
+8001757,doxorubicin,doxorubicine,ADDED
+8001004,benzoyl peroxide and salicylic acid,peroxyde de benzoyle et acide salicylique,ADDED
+8002114,collagenase clostridium histolyticum,collagénase de clostridium histolyticum,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19941231"" -> ""20200611"""
+8002088,acetic acid and sodium acetate,acide acétique et acétate de sodium,ADDED
+8002160,sodium acetate,acétate de sodium,ADDED
+8002215,amphotericin B,amphotéricine B,ADDED
+8001476,follitropin beta,follitropine bêta,ADDED
+8002282,fibrinogen human and thrombin human,fibrinogène humaine et thrombine humaine,ADDED
+27314d499caac948e09569b2c1cae009,ritlecitinib,ritlécitinib,ADDED
+8001615,chloroxylenol,chloroxylénol,ADDED
+406ea1818d05f02e807b683c090a32bb,estradiol and norethindrone and relugolix,estradiol et noréthindrone et rélugolix,ADDED
+8002278,coagulation factor ii (human) and coagulation factor IX human and coagulation factor vii (human) and coagulation factor x (human) and protein c and protein s,facteur II de coagulation humain et facteur IX de coagulation humain et facteur VII de coagulation humain et facteur X de coagulation humain et protéine c et protéine s,ADDED
+8001579,benzethonium,benzéthonium,ADDED
+8001976,triclosan,triclosan,ADDED
+8002047,paclitaxel,paclitaxel,ADDED
+8001870,potassium chloride,chlorure de potassium,ADDED
+8001104,naratriptan,naratriptan,"tm_status_effective_time: ""19980505"" -> ""20091201"""
+8000796,benzalkonium,benzalkonium,ADDED
+8001878,sodium iodide,iodure de sodium,ADDED
+8000912,alcohol anhydrous and chlorhexidine,alcool anhydre et chlorhexidine,ADDED
