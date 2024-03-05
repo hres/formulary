@@ -1,0 +1,21 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9014735,desmopressin (desmopressin acetate) 25 mcg sublingual tablet,desmopressine (acétate de desmopressine) 25 mcg comprimé sublingual,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20130731"" -> ""20210429"""
+9015018,nonacog beta pegol 3000 unit per vial powder for solution for injection with diluent solution syringe,nonacog bêta pégol 3000 unité par fiole poudre pour solution injectable avec solution diluante seringue,ADDED
+9012872,vilazodone hydrochloride 10 mg oral tablet with vilazodone hydrochloride 20 mg oral tablet,chlorhydrate de vilazodone 10 mg comprimé oral avec chlorhydrate de vilazodone 20 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20180706"" -> ""20230720"""
+9015022,testosterone enanthate 1000 mg per 5 mL solution for injection vial,énanthate de testostérone 1000 mg par 5 mL solution injectable fiole,ADDED
+9015013,daunorubicin (daunorubicin hydrochloride) 20 mg per 4 mL solution for injection vial,daunorubicine (chlorhydrate de daunorubicine) 20 mg par 4 mL solution injectable fiole,ADDED
+9004463,coal tar 1 % shampoo,goudron de houille 1 % shampoing,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20080930"" -> ""20230331"""
+9015011,acetaminophen 1000 mg per 100 mL solution for injection bottle,acétaminophène 1000 mg par 100 mL solution injectable bouteille,ADDED
+9015016,estradiol 1 mg and norethindrone acetate 0.5 mg and relugolix 40 mg oral tablet,"estradiol 1 mg et acétate de noréthindrone 0,5 mg et rélugolix 40 mg comprimé oral",ADDED
+9015021,ritlecitinib (ritlecitinib tosylate) 50 mg oral capsule,ritlécitinib (tosylate de ritlécitinib) 50 mg capsule orale,ADDED
+9014675,cilgavimab 150 mg per 1.5 mL solution for injection vial with tixagevimab 150 mg per 1.5 mL solution for injection vial,"cilgavimab 150 mg par 1,5 mL solution injectable fiole avec tixagévimab 150 mg par 1,5 mL solution injectable fiole","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20220419"" -> ""20240110"""
+9015019,petrolatum 98.85 % cutaneous ointment,"pétrolatum 98,85 % pommade cutanée",ADDED
+9015017,estradiol 1 mg and progesterone 100 mg oral capsule,estradiol 1 mg et progestérone 100 mg capsule orale,ADDED
+9013541,collagenase clostridium histolyticum 250 unit per g cutaneous ointment,collagénase de clostridium histolyticum 250 unité par g pommade cutanée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19941231"" -> ""20240222"""
+9005078,palonosetron (palonosetron hydrochloride) 0.5 mg oral capsule,"palonosétron (chlorhydrate de palonosétron) 0,5 mg capsule orale","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20120807"" -> ""20231226"""

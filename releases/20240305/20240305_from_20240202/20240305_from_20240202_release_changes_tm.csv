@@ -1,0 +1,8 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002500,estradiol and progesterone,estradiol et progestérone,ADDED
+8002114,collagenase clostridium histolyticum,collagénase de clostridium histolyticum,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19941231"" -> ""20240222"""
+8002499,estradiol and norethindrone and relugolix,estradiol et noréthindrone et rélugolix,ADDED
+8002501,ritlecitinib,ritlécitinib,ADDED
+8002418,cilgavimab and tixagevimab,cilgavimab et tixagévimab,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20220419"" -> ""20240110"""
