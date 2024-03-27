@@ -1,5 +1,5 @@
 LOAD CSV
-    FROM /home/cyanofsky/git/formulary/src/pgloaded/mp_qa_release_20240201.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/mp_qa_release_20240301.csv
     WITH ENCODING UTF-8
     (
       mp_code,
@@ -42,7 +42,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM /home/cyanofsky/git/formulary/src/pgloaded/mp_full_release_20240202.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/mp_full_release_20240305.csv
     WITH ENCODING UTF-8
     (
       mp_code,
@@ -82,7 +82,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM /home/cyanofsky/git/formulary/src/pgloaded/ntp_qa_release_20240201.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/ntp_qa_release_20240301.csv
     WITH ENCODING UTF-8
     (
       ntp_code,
@@ -114,7 +114,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM /home/cyanofsky/git/formulary/src/pgloaded/ntp_full_release_20240202.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/ntp_full_release_20240305.csv
     WITH ENCODING UTF-8
     (
       ntp_code,
@@ -143,7 +143,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM /home/cyanofsky/git/formulary/src/pgloaded/tm_qa_release_20240201.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/tm_qa_release_20240301.csv
     WITH ENCODING UTF-8
     (
       tm_code,
@@ -167,7 +167,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM /home/cyanofsky/git/formulary/src/pgloaded/tm_full_release_20240202.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/tm_full_release_20240305.csv
     WITH ENCODING UTF-8
     (
       tm_code,
@@ -191,7 +191,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM /home/cyanofsky/git/formulary/src/pgloaded/mp_ntp_tm_relationship_qa_release_20240201.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/mp_ntp_tm_relationship_qa_release_20240301.csv
     WITH ENCODING UTF-8
     (
       mp_code,
@@ -226,7 +226,7 @@ LOAD CSV
 
 
 LOAD CSV
-    FROM /home/cyanofsky/git/formulary/src/pgloaded/mp_ntp_tm_relationship_release_candidate_20240202.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/mp_ntp_tm_relationship_release_candidate_20240305.csv
     WITH ENCODING UTF-8
     (
       mp_code,
@@ -264,7 +264,7 @@ LOAD CSV
 
 
 LOAD CSV
-    FROM /home/cyanofsky/git/formulary/src/pgloaded/special_groupings_release_candidate_20240202.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/special_groupings_release_candidate_20240305.csv
     WITH ENCODING UTF-8
     (
       ccdd_code,
@@ -276,6 +276,35 @@ LOAD CSV
       special_groupings_status_effective_time
     )
   INTO postgresql://cyanofsky@rest.hc.local/?ccdd.special_groupings
+    (
+      ccdd_code,
+      ccdd_formal_name,
+      ccdd_type,
+      policy_type,
+      policy_reference,
+      special_groupings_status,
+      special_groupings_status_effective_time
+    )
+  WITH
+    csv header,
+    fields optionally enclosed by '"',
+    fields terminated by ',',
+    fields escaped by double-quote
+;
+
+LOAD CSV
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/special_groupings_qa_release_20240301.csv
+    WITH ENCODING UTF-8
+    (
+      ccdd_code,
+      ccdd_formal_name,
+      ccdd_type,
+      policy_type,
+      policy_reference,
+      special_groupings_status,
+      special_groupings_status_effective_time
+    )
+  INTO postgresql://cyanofsky@rest.hc.local/?ccdd.special_groupings_qa_release
     (
       ccdd_code,
       ccdd_formal_name,
