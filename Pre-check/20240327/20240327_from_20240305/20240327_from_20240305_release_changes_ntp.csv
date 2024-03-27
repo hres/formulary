@@ -1,0 +1,34 @@
+ntp_code,ntp_formal_name,changes
+4fca9a53cf8aab8871649231ae50fbe4,methotrexate (methotrexate sodium) 12.5 mg per 0.25 mL solution for injection,ADDED
+9004609,darunavir 75 mg oral tablet,DELETED
+9012351,verapamil hydrochloride 10 mg per 4 mL solution for injection vial,"ntp_status_effective_time: ""20230605"" -> ""20240318"""
+9014842,ranibizumab 2.3 mg per 0.23 mL solution for injection vial,"ntp_status_effective_time: ""20230301"" -> ""20070726"""
+2857641aa15f5bc8f4a9f481f28d756e,methotrexate (methotrexate sodium) 17.5 mg per 0.35 mL solution for injection,ADDED
+9004776,febuxostat 80 mg oral tablet,"ntp_status_effective_time: ""20100930"" -> ""20190516"""
+9002886,acarbose 50 mg oral tablet,"ntp_status_effective_time: ""19960202"" -> ""20200205"""
+9012754,ranibizumab 10 mg per mL solution for injection 0.23 mL vial,DELETED
+9001303,atomoxetine (atomoxetine hydrochloride) 100 mg oral capsule,"ntp_status_effective_time: ""20100108"" -> ""20110719"""
+4513cb753445fd49e76806aebfa3f6bb,ustekinumab 45 mg per 0.5 mL solution for injection,ADDED
+1b45b5e6ebb70fce074c027fb6c9cc4f,methotrexate (methotrexate sodium) 25 mg per 0.5 mL solution for injection,ADDED
+7453319a2b4dc7817eace79a7f22bede,bupivacaine hydrochloride 7.5 mg per mL solution for injection,ADDED
+9000691,omeprazole (omeprazole magnesium) 20 mg gastro-resistant tablet,"ntp_status_effective_time: ""19961231"" -> ""20010222"""
+85aaa4ceb0ea21f554ab681fc4c9ec80,ustekinumab 5 mg per mL solution for injection,ADDED
+17ec88315620dcb0959e31270403ba9f,methotrexate (methotrexate sodium) 20 mg per 0.4 mL solution for injection,ADDED
+a914a9121d8daa6807a17f5fb1f67a75,methotrexate (methotrexate sodium) 15 mg per 0.3 mL solution for injection,ADDED
+9013328,ropivacaine hydrochloride 100 mg per 10 mL solution for injection vial,DELETED
+d0ff33bacdbbc0459f1fc19b4cbdbaf5,methotrexate (methotrexate sodium) 10 mg per 0.2 mL solution for injection,ADDED
+9014324,cetylpyridinium chloride 0.075 % mouthwash,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20200626"" -> ""20230202"""
+9013959,enasidenib (enasidenib mesylate) 50 mg oral tablet,DELETED
+26ab56e943b4875dc48ec1c724ee361a,methotrexate (methotrexate sodium) 22.5 mg per 0.45 mL solution for injection,ADDED
+4d053876d5f0c3d8e817f11b0546eb2e,ranibizumab 1.65 mg per 0.165 mL solution for injection syringe,ADDED
+9012753,ranibizumab 10 mg per mL solution for injection 0.165 mL syringe,DELETED
+9014736,desmopressin (desmopressin acetate) 50 mcg sublingual tablet,DELETED
+cce366fa0608fb194af06f82c4337b7f,irinotecan hydrochloride 500 mg per 25 mL solution for injection,ADDED
+9013528,triamcinolone hexacetonide 20 mg per 1 mL suspension for injection ampoule,DELETED
+9013333,ropivacaine hydrochloride 200 mg per 20 mL solution for injection vial,DELETED
+9012350,verapamil hydrochloride 10 mg per 4 mL solution for injection ampoule,"ntp_status_effective_time: ""20230605"" -> ""20240318"""
+9340599fdbb7251c95358f3b4d517c29,ustekinumab 90 mg per 1 mL solution for injection,ADDED
+9013575,lixisenatide 20 mcg per actuation solution for injection pre-filled pen,DELETED
+9014747,SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 5 mL vial,DELETED
+67a1176f7849405a8a44e9161648a86a,acetylcysteine 200 mg per mL solution for injection,ADDED

@@ -1,0 +1,9 @@
+tm_code,tm_formal_name,changes
+8001652,febuxostat,"tm_status_effective_time: ""20100930"" -> ""20190516"""
+8000793,triamcinolone hexacetonide,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19970120"" -> ""20180605"""
+8002430,SARS-CoV-2 recombinant spike protein,DELETED
+8001130,lixisenatide,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20170912"" -> ""20230504"""
+8002257,enasidenib,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20190227"" -> ""20220114"""
