@@ -2728,6 +2728,22 @@ CREATE TABLE ccdd.special_groupings(
 );
 -- ddl-end --
 ALTER TABLE ccdd.special_groupings OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.special_groupings_qa_release | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.special_groupings_qa_release CASCADE;
+CREATE TABLE ccdd.special_groupings_qa_release(
+  ccdd_code varchar NOT NULL,
+  ccdd_formal_name text NOT NULL,
+  ccdd_type varchar,
+  policy_type varchar,
+  policy_reference varchar,
+  special_groupings_status text,
+  special_groupings_status_effective_time text
+);
+-- ddl-end --
+ALTER TABLE ccdd.special_groupings_qa_release OWNER TO postgres;
+-- ddl-end --
 
 CREATE MATERIALIZED VIEW public.ccdd_special_groupings
 AS
@@ -3789,6 +3805,58 @@ WHERE
 	not exists(select * from ccdd.special_groupings cur where cur.ccdd_code = nxt.ccdd_code and cur.policy_type = nxt.policy_type::text);
 -- ddl-end --
 ALTER VIEW public.release_changes_special_groupings OWNER TO postgres;
+
+-- object: public.qa_release_changes_special_groupings | type: VIEW --
+-- DROP VIEW IF EXISTS public.qa_release_changes_special_groupings CASCADE;
+CREATE VIEW public.qa_release_changes_special_groupings
+AS
+select
+  nxt.ccdd_code,
+	nxt.ccdd_formal_name,
+	nxt.ccdd_type,
+	nxt.policy_type::text,
+	nxt.policy_reference,
+	nxt.special_groupings_status,
+	nxt.special_groupings_status_effective_time,
+	string_agg(FORMAT(
+			'%s: "%s" -> %s',
+			cmp.field_name,
+			cmp.cur_value,
+			cmp.nxt_value
+		), E'\n' ORDER BY cmp.field_name) as changes
+from
+	ccdd.special_groupings_qa_release cur
+	LEFT JOIN ccdd_special_groupings_release_candidate nxt ON(nxt.ccdd_code = cur.ccdd_code AND CAST(nxt.policy_type as text) = cur.policy_type)
+	LEFT JOIN LATERAL (VALUES
+		('ccdd_formal_name', cur.ccdd_formal_name, nxt.ccdd_formal_name),
+		('special_groupings_status', UPPER(cur.special_groupings_status), UPPER(nxt.special_groupings_status)),
+		('special_groupings_status_effective_time', cur.special_groupings_status_effective_time, nxt.special_groupings_status_effective_time),
+		('ccdd_type', cur.ccdd_type, nxt.ccdd_type),
+		('policy_type', cur.policy_type::text, nxt.policy_type::text),
+		('policy_reference', cur.policy_reference, nxt.policy_reference)
+	) AS cmp (
+		field_name, cur_value, nxt_value
+	) ON true
+WHERE
+	cmp.cur_value is distinct from cmp.nxt_value AND cmp.nxt_value is not NULL
+GROUP BY nxt.ccdd_code, nxt.ccdd_formal_name, nxt.ccdd_type, nxt.policy_type, nxt.policy_reference, nxt.special_groupings_status, nxt.special_groupings_status_effective_time
+UNION
+select
+	nxt.ccdd_code,
+	nxt.ccdd_formal_name,
+	nxt.ccdd_type,
+	nxt.policy_type::text,
+	nxt.policy_reference,
+	nxt.special_groupings_status,
+	nxt.special_groupings_status_effective_time,
+	'ADDED' as changes
+from
+	ccdd_special_groupings nxt
+WHERE
+	not exists(select * from ccdd.special_groupings_qa_release cur where cur.ccdd_code = nxt.ccdd_code and cur.policy_type = nxt.policy_type::text);
+-- ddl-end --
+ALTER VIEW public.qa_release_changes_special_groupings OWNER TO postgres;
+-- ddl-end --
 
 -- -- object: active_ingredient_drug_code_fkey | type: CONSTRAINT --
 -- -- ALTER TABLE dpd.active_ingredient DROP CONSTRAINT IF EXISTS active_ingredient_drug_code_fkey CASCADE;
