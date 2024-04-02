@@ -22,7 +22,7 @@ baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 distDir="$baseDir/../dist"
 testDir="$baseDir/../sql/test"
 
-dbName="ccdd_2024_03_01_134432"
+dbName="ccdd_2024_04_02_095534"
 echo "Reading from generation $dbName..."
 echo
 
