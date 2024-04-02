@@ -1,0 +1,32 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9014747,SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 5 mL vial,"protéine de spicule du SRAS-CoV-2 recombinante 5 mcg par 0,5 mL suspension injectable 5 mL fiole","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20220331"" -> ""20240229"""
+9015031,odevixibat 600 mcg oral capsule,odévixibat 600 mcg capsule orale,ADDED
+9015023,acetylcysteine 6000 mg per 30 mL solution for injection vial,acétylcystéine 6000 mg par 30 mL solution injectable fiole,ADDED
+9014324,cetylpyridinium chloride 0.075 % mouthwash,"chlorure de cétylpyridinium 0,075 % solution pour bain de bouche","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20200626"" -> ""20240201"""
+9013328,ropivacaine hydrochloride 100 mg per 10 mL solution for injection vial,chlorhydrate de ropivacaïne 100 mg par 10 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20101214"" -> ""20221001"""
+9015030,odevixibat 400 mcg oral capsule,odévixibat 400 mcg capsule orale,ADDED
+9013959,enasidenib (enasidenib mesylate) 50 mg oral tablet,énasidénib (mésylate d'énasidénib) 50 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20190227"" -> ""20220114"""
+9015028,odevixibat 1200 mcg oral capsule,odévixibat 1200 mcg capsule orale,ADDED
+9014736,desmopressin (desmopressin acetate) 50 mcg sublingual tablet,desmopressine (acétate de desmopressine) 50 mcg comprimé sublingual,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20141117"" -> ""20210731"""
+9014842,ranibizumab 2.3 mg per 0.23 mL solution for injection vial,"ranibizumab 2,3 mg par 0,23 mL solution injectable fiole","ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20230301"" -> ""20240402"""
+9015027,nivolumab 240 mg per 20 mL and relatlimab 80 mg per 20 mL solution for injection vial,nivolumab 240 mg par 20 mL et rélatlimab 80 mg par 20 mL solution injectable fiole,ADDED
+9012350,verapamil hydrochloride 10 mg per 4 mL solution for injection ampoule,chlorhydrate de vérapamil 10 mg par 4 mL solution injectable ampoule,"ntp_status_effective_time: ""20230605"" -> ""20240318"""
+9013575,lixisenatide 20 mcg per actuation solution for injection pre-filled pen,lixisénatide 20 mcg par actionnement solution injectable stylo prérempli,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20170912"" -> ""20230915"""
+9015026,epinephrine (epinephrine hydrochloride) 30 mg per 30 mL solution for injection vial,épinéphrine (chlorhydrate d'épinéphrine) 30 mg par 30 mL solution injectable fiole,ADDED
+9015029,odevixibat 200 mcg oral capsule,odévixibat 200 mcg capsule orale,ADDED
+9000005,epinephrine (epinephrine hydrochloride) 30 mg per 30 mL solution for injection ampoule,épinéphrine (chlorhydrate d'épinéphrine) 30 mg par 30 mL solution injectable ampoule,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""19511231"" -> ""20240402"""
+9012351,verapamil hydrochloride 10 mg per 4 mL solution for injection vial,chlorhydrate de vérapamil 10 mg par 4 mL solution injectable fiole,"ntp_status_effective_time: ""20230605"" -> ""20240318"""
+9004609,darunavir 75 mg oral tablet,darunavir 75 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20091216"" -> ""20240301"""
+9013333,ropivacaine hydrochloride 200 mg per 20 mL solution for injection vial,chlorhydrate de ropivacaïne 200 mg par 20 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20101214"" -> ""20221001"""
+9013528,triamcinolone hexacetonide 20 mg per 1 mL suspension for injection ampoule,hexacétonide de triamcinolone 20 mg par 1 mL suspension injectable ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20181004"" -> ""20240311"""
