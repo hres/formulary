@@ -1,0 +1,12 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8000793,triamcinolone hexacetonide,hexacétonide de triamcinolone,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19970120"" -> ""20240311"""
+8002430,SARS-CoV-2 recombinant spike protein,protéine de spicule du SRAS-CoV-2 recombinante,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20220331"" -> ""20240229"""
+8002257,enasidenib,énasidénib,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20190227"" -> ""20220114"""
+8002502,nivolumab and relatlimab,nivolumab et rélatlimab,ADDED
+8002503,odevixibat,odévixibat,ADDED
+8002498,elranatamab,elranatamab,ADDED
+8001130,lixisenatide,lixisénatide,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20170912"" -> ""20230915"""
