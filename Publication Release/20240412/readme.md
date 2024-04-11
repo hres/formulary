@@ -1,4 +1,4 @@
-# Canadian Clinical Drug Data Set (CCDD) - April 2024 Releaseh
+# Canadian Clinical Drug Data Set (CCDD) - April 2024 Release
  
 Publication Date: [April 12th, 2024](https://tgateway.infoway-inforoute.ca/ccdd.html?id=2.16.840.1.113883.2.20.6.1&versionid=20240412)
  
