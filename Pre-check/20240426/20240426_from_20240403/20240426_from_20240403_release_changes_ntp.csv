@@ -1,0 +1,30 @@
+ntp_code,ntp_formal_name,changes
+9013287,etanercept 25 mg per vial powder for solution for injection with diluent solution syringe,DELETED
+9003125,itraconazole 10 mg per mL oral solution,"ntp_status_effective_time: ""19970728"" -> ""20190731"""
+7f91161c7511da515cd6e58d0354a861,neostigmine methylsulfate 0.5 mg per mL solution for injection,ADDED
+eb9889f26f24b8c52ea042b5ad11e960,baricitinib 4 mg oral tablet,ADDED
+9013717,mineral oil heavy 7 % and petrolatum 10 % cutaneous cream,DELETED
+9014675,cilgavimab 150 mg per 1.5 mL solution for injection vial with tixagevimab 150 mg per 1.5 mL solution for injection vial,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20240110"" -> ""20220419"""
+9001030,hydrochlorothiazide 25 mg and quinapril (quinapril hydrochloride) 20 mg oral tablet,"ntp_status_effective_time: ""20030602"" -> ""20190201"""
+9012561,abacavir (abacavir sulfate) 300 mg oral tablet,"ntp_status_effective_time: ""19990609"" -> ""20160315"""
+790035749db3f5f9e4180981513c181a,semaglutide 2 mg per 1.5 mL solution for injection,ADDED
+9000440,quinapril (quinapril hydrochloride) 10 mg oral tablet,"ntp_status_effective_time: ""19921231"" -> ""20130702"""
+9012926,cabazitaxel 60 mg per 1.5 mL solution for injection vial with diluent solution,"ntp_status_effective_time: ""20110823"" -> ""20200601"""
+9013330,ropivacaine hydrochloride 150 mg per 30 mL solution for injection vial,DELETED
+9003517,coal tar 0.5 % shampoo,DELETED
+39a34537c6d9973d0856b6c4f42e6bc4,adalimumab 40 mg per 0.4 mL solution for injection,ADDED
+9000814,hydrochlorothiazide 12.5 mg and quinapril (quinapril hydrochloride) 10 mg oral tablet,"ntp_status_effective_time: ""19981001"" -> ""20130813"""
+d45b6eee7edd5ba27b381427d68df2b0,adalimumab 80 mg per 0.8 mL solution for injection,ADDED
+9000442,quinapril (quinapril hydrochloride) 40 mg oral tablet,"ntp_status_effective_time: ""19921231"" -> ""20130702"""
+b4b042c12359eb5457981240648db744,semaglutide 1 mg per 1.5 mL solution for injection,ADDED
+50b14ad06f4431d87bdb613d9a9d5b04,etanercept 50 mg per 1 mL solution for injection,ADDED
+9014551,methotrexate (methotrexate disodium) 2.5 mg oral tablet,ADDED
+dc31c38d74fdd0e3baed602d3a77f82e,semaglutide 9.6 mg per 3 mL solution for injection,ADDED
+9000815,hydrochlorothiazide 12.5 mg and quinapril (quinapril hydrochloride) 20 mg oral tablet,"ntp_status_effective_time: ""19981001"" -> ""20130813"""
+6211a9356a3125c4800264e34a34c4f3,semaglutide 4 mg per 3 mL solution for injection,ADDED
+9013239,petrolatum 46.5 % cutaneous ointment,"ntp_status_effective_time: ""20180625"" -> ""20220201"""
+15072f251ca4a8c0a14f0a7f842ad654,semaglutide 6.8 mg per 3 mL solution for injection,ADDED
+9014335,adalimumab 20 mg per 0.2 mL solution for injection,ADDED
+05e865988008c8c81044d00c7c214519,glatiramer acetate 20 mg per mL solution for injection,ADDED
+9000441,quinapril (quinapril hydrochloride) 20 mg oral tablet,"ntp_status_effective_time: ""19921231"" -> ""20130702"""
