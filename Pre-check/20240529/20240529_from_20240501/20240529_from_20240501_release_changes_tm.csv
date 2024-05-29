@@ -1,0 +1,9 @@
+tm_code,tm_formal_name,changes
+8001767,eptifibatide,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20221017"" -> ""19990623"""
+8001185,darunavir,"tm_status_effective_time: ""20090317"" -> ""20091216"""
+8002394,sotrovimab,DELETED
+8002353,tozinameran,"tm_status_effective_time: ""20231107"" -> ""20240503"""
+8001559,alitretinoin,"tm_status_effective_time: ""20101119"" -> ""20110111"""
+8001049,aminophylline,"tm_status_effective_time: ""19811231"" -> ""19841231"""
+8002443,famtozinameran and tozinameran,DELETED

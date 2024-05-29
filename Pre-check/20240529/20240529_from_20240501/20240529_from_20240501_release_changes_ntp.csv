@@ -1,0 +1,22 @@
+ntp_code,ntp_formal_name,changes
+9012367,aminophylline 250 mg per 10 mL solution for injection vial,"ntp_status_effective_time: ""19811231"" -> ""19841231"""
+9000402,amoxicillin 500 mg and clavulanic acid (potassium clavulanate) 125 mg oral tablet,"ntp_status_effective_time: ""19921231"" -> ""20010301"""
+630851ef0f2a3f1fac4a50139c10183b,eptifibatide 2 mg per mL solution for injection,ADDED
+9004325,acetaminophen 650 mg per 30 mL and dextromethorphan hydrobromide 20 mg per 30 mL and phenylephrine hydrochloride 10 mg per 30 mL oral solution,"ntp_status_effective_time: ""20070820"" -> ""20090823"""
+9014536,labetalol hydrochloride 5 mg per mL solution for injection,ADDED
+f50422c15d30bd9a8702fb12fed5ba14,atezolizumab 125 mg per mL solution for injection,ADDED
+9014312,norepinephrine (norepinephrine bitartrate) 1 mg per mL solution for injection,ADDED
+9004790,alitretinoin 30 mg oral capsule,"ntp_status_effective_time: ""20101119"" -> ""20210609"""
+9014820,famtozinameran 5 mcg per 0.2 mL and tozinameran 5 mcg per 0.2 mL suspension for injection 2 mL vial,DELETED
+9014467,tozinameran 30 mcg per 0.3 mL suspension for injection 1.8 mL vial,"ntp_status_effective_time: ""20231011"" -> ""20240503"""
+9014631,sotrovimab 500 mg per 8 mL solution for injection vial,DELETED
+1ca7f1e21e110e8a20ce328dcec4c76f,eptifibatide 0.75 mg per mL solution for injection,ADDED
+6028dbebdfbfc04acace62aca0a47cf8,tobramycin (tobramycin sulfate) 40 mg per mL solution for injection,ADDED
+9014789,tozinameran 3 mcg per 0.2 mL suspension for injection 2 mL vial,"ntp_status_effective_time: ""20231107"" -> ""20240503"""
+d45b6eee7edd5ba27b381427d68df2b0,adalimumab 80 mg per 0.8 mL solution for injection,ADDED
+9014638,tozinameran 10 mcg per 0.2 mL suspension for injection 2 mL vial,"ntp_status_effective_time: ""20231011"" -> ""20240503"""
+9014778,famtozinameran 15 mcg per 0.3 mL and tozinameran 15 mcg per 0.3 mL suspension for injection 1.8 mL vial,DELETED
+9004524,darunavir 600 mg oral tablet,"ntp_status_effective_time: ""20090317"" -> ""20200214"""
+9000131,metronidazole 500 mg oral capsule,"ntp_status_effective_time: ""19791231"" -> ""19891231"""
+9001216,varenicline (varenicline tartrate) 0.5 mg oral tablet with varenicline (varenicline tartrate) 1 mg oral tablet,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20071002"" -> ""20240412"""
