@@ -1,5 +1,4 @@
 ntp_code,ntp_formal_name,ntp_fr_description,changes
-9012367,aminophylline 250 mg per 10 mL solution for injection vial,aminophylline 250 mg par 10 mL solution injectable fiole,"ntp_status_effective_time: ""19811231"" -> ""19841231"""
 9015047,mogamulizumab 20 mg per 5 mL solution for injection vial,mogamulizumab 20 mg par 5 mL solution injectable fiole,ADDED
 9001216,varenicline (varenicline tartrate) 0.5 mg oral tablet with varenicline (varenicline tartrate) 1 mg oral tablet,"varénicline (tartrate de varénicline) 0,5 mg comprimé oral avec varénicline (tartrate de varénicline) 1 mg comprimé oral","ntp_status: ""ACTIVE"" -> ""INACTIVE""
 ntp_status_effective_time: ""20071002"" -> ""20240503"""

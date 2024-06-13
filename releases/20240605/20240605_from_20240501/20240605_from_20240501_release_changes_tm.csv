@@ -1,6 +1,5 @@
 tm_code,tm_formal_name,tm_fr_description,changes
 8002506,mogamulizumab,mogamulizumab,ADDED
-8001049,aminophylline,aminophylline,"tm_status_effective_time: ""19811231"" -> ""19841231"""
 8002353,tozinameran,tozinaméran,"tm_status_effective_time: ""20231107"" -> ""20240503"""
 8002443,famtozinameran and tozinameran,famtozinaméran et tozinaméran,"tm_status: ""ACTIVE"" -> ""INACTIVE""
 tm_status_effective_time: ""20221011"" -> ""20240503"""
