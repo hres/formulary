@@ -1,0 +1,96 @@
+drug_code,mp_code,mp_formal_name,changes
+2133,00026123,SENOKOT S (docusate sodium 50 mg and sennosides 8.6 mg oral tablet) INOVA PHARMACEUTICALS (SINGAPORE) PTE. LTD.,"mp_formal_name: ""SENOKOT S (docusate sodium 50 mg and sennosides 8.6 mg oral tablet) P̲U̲R̲D̲U̲E̲ ̲P̲H̲A̲R̲M̲A̲"" -> ""SENOKOT S (docusate sodium 50 mg and sennosides 8.6 mg oral tablet) I̲N̲O̲V̲A̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲(̲S̲I̲N̲G̲A̲P̲O̲R̲E̲)̲ ̲P̲T̲E̲.̲ ̲L̲T̲D̲.̲"""
+13296,01931024,ROBITUSSIN COUGH CONTROL (dextromethorphan hydrobromide 15 mg per 5 mL and guaifenesin 100 mg per 5 mL syrup) HALEON CANADA ULC,"mp_formal_name: ""ROBITUSSIN COUGH CONTROL (dextromethorphan hydrobromide 15 mg per 5 mL and guaifenesin 100 mg per 5 mL syrup) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ROBITUSSIN COUGH CONTROL (dextromethorphan hydrobromide 15 mg per 5 mL and guaifenesin 100 mg per 5 mL syrup) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+19026,02142775,ROBITUSSIN EXTRA STRENGTH COUGH CONTROL (dextromethorphan hydrobromide 15 mg per 5 mL and guaifenesin 200 mg per 5 mL syrup) HALEON CANADA ULC,"mp_formal_name: ""ROBITUSSIN EXTRA STRENGTH COUGH CONTROL (dextromethorphan hydrobromide 15 mg per 5 mL and guaifenesin 200 mg per 5 mL syrup) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ROBITUSSIN EXTRA STRENGTH COUGH CONTROL (dextromethorphan hydrobromide 15 mg per 5 mL and guaifenesin 200 mg per 5 mL syrup) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+36767,02208903,OTRIVIN MEDICATED COLD & ALLERGY RELIEF WITH MOISTURIZERS (xylometazoline hydrochloride 0.1 % nasal spray) HALEON CANADA ULC,"mp_formal_name: ""OTRIVIN MEDICATED COLD & ALLERGY RELIEF WITH MOISTURIZERS (xylometazoline hydrochloride 0.1 % nasal spray) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""OTRIVIN MEDICATED COLD & ALLERGY RELIEF WITH MOISTURIZERS (xylometazoline hydrochloride 0.1 % nasal spray) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+41684,00653330,OTRIVIN MEDICATED COLD & ALLERGY RELIEF (xylometazoline hydrochloride 0.1 % nasal spray) HALEON CANADA ULC,"mp_formal_name: ""OTRIVIN MEDICATED COLD & ALLERGY RELIEF (xylometazoline hydrochloride 0.1 % nasal spray) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""OTRIVIN MEDICATED COLD & ALLERGY RELIEF (xylometazoline hydrochloride 0.1 % nasal spray) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+63892,02240351,INTEGRILIN (eptifibatide 75 mg per 100 mL solution for injection vial) MERCK CANADA INC,"mp_formal_name: ""INTEGRILIN (eptifibatide 0̲.̲75 mg per mL solution for injection ̲1̲0̲0̲ ̲m̲L̲ vial) MERCK CANADA INC"" -> ""INTEGRILIN (eptifibatide 75 mg per ̲1̲0̲0̲ mL solution for injection vial) MERCK CANADA INC""
+ntp_formal_name: ""eptifibatide 0̲.̲75 mg per mL solution for injection ̲1̲0̲0̲ ̲m̲L̲ vial"" -> ""eptifibatide 75 mg per ̲1̲0̲0̲ mL solution for injection vial"""
+66820,02242980,ANTIZOL (fomepizole 1.5 g per 1.5 mL solution for injection vial) ENDO OPERATIONS LTD.,"mp_formal_name: ""ANTIZOL (fomepizole 1.5 g per 1.5 mL solution for injection vial) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""ANTIZOL (fomepizole 1.5 g per 1.5 mL solution for injection vial) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+68715,02244726,AA-MEDROXY (medroxyprogesterone acetate 2.5 mg oral tablet) AA PHARMA INC,"mp_formal_name: ""AP̲O̲-̲M̲E̲D̲R̲O̲X̲Y̲ ̲T̲A̲B̲L̲E̲T̲S̲ (medroxyprogesterone acetate 2.5 mg oral tablet) AP̲O̲T̲E̲X̲ INC"" -> ""AA̲-̲M̲E̲D̲R̲O̲X̲Y̲ (medroxyprogesterone acetate 2.5 mg oral tablet) AA̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+68716,02244727,AA-MEDROXY (medroxyprogesterone acetate 5 mg oral tablet) AA PHARMA INC,"mp_formal_name: ""AP̲O̲-̲M̲E̲D̲R̲O̲X̲Y̲ ̲T̲A̲B̲L̲E̲T̲S̲ (medroxyprogesterone acetate 5 mg oral tablet) AP̲O̲T̲E̲X̲ INC"" -> ""AA̲-̲M̲E̲D̲R̲O̲X̲Y̲ (medroxyprogesterone acetate 5 mg oral tablet) AA̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+73742,02252554,ROBITUSSIN DM COUGHGELS LIQUI-GELS TOUX (dextromethorphan hydrobromide 15 mg oral capsule) HALEON CANADA ULC,"mp_formal_name: ""ROBITUSSIN DM COUGHGELS LIQUI-GELS TOUX (dextromethorphan hydrobromide 15 mg oral capsule) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ROBITUSSIN DM COUGHGELS LIQUI-GELS TOUX (dextromethorphan hydrobromide 15 mg oral capsule) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+74230,02257084,FROVA (frovatriptan (frovatriptan succinate) 2.5 mg oral tablet) ENDO OPERATIONS LTD.,"mp_formal_name: ""FROVA (frovatriptan (frovatriptan succinate) 2.5 mg oral tablet) ENDO P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲I̲N̲C̲."" -> ""FROVA (frovatriptan (frovatriptan succinate) 2.5 mg oral tablet) ENDO O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+75305,02267640,AA-MEDROXY (medroxyprogesterone acetate 100 mg oral tablet) AA PHARMA INC,"mp_formal_name: ""AP̲O̲-MEDROXY (medroxyprogesterone acetate 100 mg oral tablet) AP̲O̲T̲E̲X̲ INC"" -> ""AA̲-MEDROXY (medroxyprogesterone acetate 100 mg oral tablet) AA̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+76294,02277298,AA-MEDROXY (medroxyprogesterone acetate 10 mg oral tablet) AA PHARMA INC,"mp_formal_name: ""AP̲O̲-MEDROXY (medroxyprogesterone acetate 10 mg oral tablet) AP̲O̲T̲E̲X̲ INC"" -> ""AA̲-MEDROXY (medroxyprogesterone acetate 10 mg oral tablet) AA̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+77675,02291371,"ROBITUSSIN TOTAL COUGH, COLD & FLU NIGHTTIME EXTRA STRENGTH (acetaminophen 500 mg per 15 mL and chlorpheniramine maleate 2 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL syrup) HALEON CANADA ULC","mp_formal_name: ""ROBITUSSIN TOTAL COUGH, COLD & FLU NIGHTTIME EXTRA STRENGTH (acetaminophen 500 mg per 15 mL and chlorpheniramine maleate 2 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL syrup) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ROBITUSSIN TOTAL COUGH, COLD & FLU NIGHTTIME EXTRA STRENGTH (acetaminophen 500 mg per 15 mL and chlorpheniramine maleate 2 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL syrup) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+78149,02296152,"CTP 30 (citalopram (citalopram hydrobromide) 30 mg oral tablet) SUMITOMO PHARMA CANADA, INC.","mp_formal_name: ""CTP 30 (citalopram (citalopram hydrobromide) 30 mg oral tablet) SUN̲O̲V̲I̲O̲N̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""CTP 30 (citalopram (citalopram hydrobromide) 30 mg oral tablet) SUM̲I̲T̲O̲M̲O̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲,̲ ̲I̲N̲C̲.̲"""
+86313,02377411,"ANTICOAGULANT SODIUM CITRATE 4% W/V SOLUTION, USP (sodium citrate dihydrate 4 g per 100 mL anticoagulant and preservative solution for blood) BAXTER CORPORATION","mp_formal_name: ""ANTICOAGULANT SODIUM CITRATE 4% W/V SOLUTION, USP (sodium citrate dihydrate 4 g per 100 mL anticoagulant and preservative solution for blood) H̲A̲E̲M̲O̲N̲E̲T̲I̲C̲S̲ CORPORATION"" -> ""ANTICOAGULANT SODIUM CITRATE 4% W/V SOLUTION, USP (sodium citrate dihydrate 4 g per 100 mL anticoagulant and preservative solution for blood) B̲A̲X̲T̲E̲R̲ CORPORATION"""
+89123,02406535,"VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP (vancomycin (vancomycin hydrochloride) 500 mg per vial powder for solution for injection) MARCAN PHARMACEUTICALS INC",ADDED
+89124,02406543,"VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP (vancomycin (vancomycin hydrochloride) 1 g per vial powder for solution for injection) MARCAN PHARMACEUTICALS INC",ADDED
+89811,02413442,PAIN RELIEF CREAM EXTRA STRENGTH (trolamine salicylate 20 % cutaneous cream) CRLS,"mp_formal_name: ""U̲L̲T̲R̲A̲ ̲S̲T̲R̲E̲N̲G̲T̲H̲ ̲P̲A̲I̲N̲ ̲R̲E̲L̲I̲E̲F̲ ̲R̲U̲B̲ (trolamine salicylate 20 % cutaneous cream) CRLS"" -> ""P̲A̲I̲N̲ ̲R̲E̲L̲I̲E̲F̲ ̲C̲R̲E̲A̲M̲ ̲E̲X̲T̲R̲A̲ ̲S̲T̲R̲E̲N̲G̲T̲H̲ (trolamine salicylate 20 % cutaneous cream) CRLS"""
+94840,02460890,VIBERZI (eluxadoline 75 mg oral tablet) ABBVIE CORPORATION,"mp_formal_name: ""VIBERZI (eluxadoline 75 mg oral tablet) AL̲L̲E̲R̲G̲A̲N̲ ̲I̲N̲C̲"" -> ""VIBERZI (eluxadoline 75 mg oral tablet) AB̲B̲V̲I̲E̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"""
+94841,02460904,VIBERZI (eluxadoline 100 mg oral tablet) ABBVIE CORPORATION,"mp_formal_name: ""VIBERZI (eluxadoline 100 mg oral tablet) AL̲L̲E̲R̲G̲A̲N̲ ̲I̲N̲C̲"" -> ""VIBERZI (eluxadoline 100 mg oral tablet) AB̲B̲V̲I̲E̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"""
+97728,02487144,LIBTAYO (cemiplimab 350 mg per 7 mL solution for injection vial) REGENERON CANADA COMPANY,"mp_formal_name: ""LIBTAYO (cemiplimab 350 mg per 7 mL solution for injection vial) S̲A̲N̲O̲F̲I̲-̲A̲V̲E̲N̲T̲I̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""LIBTAYO (cemiplimab 350 mg per 7 mL solution for injection vial) R̲E̲G̲E̲N̲E̲R̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ̲C̲O̲M̲P̲A̲N̲Y̲"""
+98313,02493160,PMS-CHLORHEXIDINE WITHOUT ALCOHOL (chlorhexidine gluconate 0.12 % mouthwash) PHARMASCIENCE INC,"mp_formal_name: ""P̲PMS-CHLORHEXIDINE WITHOUT ALCOHOL (chlorhexidine gluconate 0.12 % mouthwash) PHARMASCIENCE INC"" -> ""PMS-CHLORHEXIDINE WITHOUT ALCOHOL (chlorhexidine gluconate 0.12 % mouthwash) PHARMASCIENCE INC"""
+98378,02493780,MINT-ACARBOSE (acarbose 50 mg oral tablet) MINT PHARMACEUTICALS INC,"mp_formal_name: ""A̲C̲A̲R̲B̲O̲S̲E̲ ̲T̲A̲B̲L̲E̲T̲S̲ ̲(̲a̲c̲a̲r̲b̲o̲s̲e̲ ̲5̲0̲ ̲m̲g̲ ̲o̲r̲a̲l̲ ̲t̲a̲b̲l̲e̲t̲)̲ ̲S̲T̲R̲I̲D̲E̲S̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ INC"" -> ""M̲I̲N̲T̲-̲A̲C̲A̲R̲B̲O̲S̲E̲ ̲(̲a̲c̲a̲r̲b̲o̲s̲e̲ ̲5̲0̲ ̲m̲g̲ ̲o̲r̲a̲l̲ ̲t̲a̲b̲l̲e̲t̲)̲ ̲M̲I̲N̲T̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ INC"""
+98379,02493799,MINT-ACARBOSE (acarbose 100 mg oral tablet) MINT PHARMACEUTICALS INC,"mp_formal_name: ""A̲C̲A̲R̲B̲O̲S̲E̲ ̲T̲A̲B̲L̲E̲T̲S̲ ̲(̲a̲c̲a̲r̲b̲o̲s̲e̲ ̲1̲0̲0̲ ̲m̲g̲ ̲o̲r̲a̲l̲ ̲t̲a̲b̲l̲e̲t̲)̲ ̲S̲T̲R̲I̲D̲E̲S̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ INC"" -> ""M̲I̲N̲T̲-̲A̲C̲A̲R̲B̲O̲S̲E̲ ̲(̲a̲c̲a̲r̲b̲o̲s̲e̲ ̲1̲0̲0̲ ̲m̲g̲ ̲o̲r̲a̲l̲ ̲t̲a̲b̲l̲e̲t̲)̲ ̲M̲I̲N̲T̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ INC"""
+99778,02508419,HYOSCINE BUTYLBROMIDE INJECTION BP (hyoscine butylbromide 20 mg per 1 mL solution for injection vial) OMEGA LABORATORIES LIMITED,ADDED
+100316,02513978,"DEXMEDETOMIDINE HYDROCHLORIDE FOR INJECTION, USP (dexmedetomidine (dexmedetomidine hydrochloride) 200 mcg per 2 mL solution for injection vial) BAXTER CORPORATION",ADDED
+100854,02519267,ADVIL PLUS ACETAMINOPHEN (acetaminophen 250 mg and ibuprofen 125 mg oral tablet) HALEON CANADA ULC,"mp_formal_name: ""ADVIL PLUS ACETAMINOPHEN (acetaminophen 250 mg and ibuprofen 125 mg oral tablet) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ADVIL PLUS ACETAMINOPHEN (acetaminophen 250 mg and ibuprofen 125 mg oral tablet) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+100967,02520478,AMB-BISACODYL (bisacodyl 10 mg suppository) AMBICARE PHARMACEUTICALS INC.,ADDED
+101282,02523760,YUFLYMA (adalimumab 40 mg per 0.4 mL solution for injection syringe) CELLTRION INC.,"mp_formal_name: ""YUFLYMA (adalimumab 40 mg per 0.4 mL solution for injection syringe) CELLTRION H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲C̲O̲ ̲L̲T̲D̲"" -> ""YUFLYMA (adalimumab 40 mg per 0.4 mL solution for injection syringe) CELLTRION I̲N̲C̲.̲"""
+101284,02523779,YUFLYMA (adalimumab 40 mg per 0.4 mL solution for injection pen) CELLTRION INC.,"mp_formal_name: ""YUFLYMA (adalimumab 40 mg per 0.4 mL solution for injection pen) CELLTRION H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲C̲O̲ ̲L̲T̲D̲"" -> ""YUFLYMA (adalimumab 40 mg per 0.4 mL solution for injection pen) CELLTRION I̲N̲C̲.̲"""
+102085,02531747,METOCLOPRAMIDE HYDROCHLORIDE INJECTION (metoclopramide hydrochloride 10 mg per 2 mL solution for injection vial) BAXTER CORPORATION,ADDED
+102234,02533340,TARO-LISDEXAMFETAMINE CHEWABLE TABLETS (lisdexamfetamine dimesylate 10 mg chewable tablet) TARO PHARMACEUTICALS INC,ADDED
+102235,02533359,TARO-LISDEXAMFETAMINE CHEWABLE TABLETS (lisdexamfetamine dimesylate 20 mg chewable tablet) TARO PHARMACEUTICALS INC,ADDED
+102236,02533367,TARO-LISDEXAMFETAMINE CHEWABLE TABLETS (lisdexamfetamine dimesylate 30 mg chewable tablet) TARO PHARMACEUTICALS INC,ADDED
+102237,02533375,TARO-LISDEXAMFETAMINE CHEWABLE TABLETS (lisdexamfetamine dimesylate 40 mg chewable tablet) TARO PHARMACEUTICALS INC,ADDED
+102238,02533383,TARO-LISDEXAMFETAMINE CHEWABLE TABLETS (lisdexamfetamine dimesylate 50 mg chewable tablet) TARO PHARMACEUTICALS INC,ADDED
+102239,02533391,TARO-LISDEXAMFETAMINE CHEWABLE TABLETS (lisdexamfetamine dimesylate 60 mg chewable tablet) TARO PHARMACEUTICALS INC,ADDED
+102395,02535076,YUFLYMA (adalimumab 80 mg per 0.8 mL solution for injection syringe) CELLTRION INC.,"mp_formal_name: ""YUFLYMA (adalimumab 80 mg per 0.8 mL solution for injection syringe) CELLTRION H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲C̲O̲ ̲L̲T̲D̲"" -> ""YUFLYMA (adalimumab 80 mg per 0.8 mL solution for injection syringe) CELLTRION I̲N̲C̲.̲"""
+102396,02535084,YUFLYMA (adalimumab 80 mg per 0.8 mL solution for injection pen) CELLTRION INC.,"mp_formal_name: ""YUFLYMA (adalimumab 80 mg per 0.8 mL solution for injection pen) CELLTRION H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲C̲O̲ ̲L̲T̲D̲"" -> ""YUFLYMA (adalimumab 80 mg per 0.8 mL solution for injection pen) CELLTRION I̲N̲C̲.̲"""
+102714,02538415,SANDOZ DESVENLAFAXINE (desvenlafaxine 50 mg prolonged-release oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+102715,02538423,SANDOZ DESVENLAFAXINE (desvenlafaxine 100 mg prolonged-release oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+102725,02538539,ONDEXXYA (andexanet alfa 200 mg per vial powder for solution for injection) ASTRAZENECA CANADA INC,ADDED
+102890,02540193,ADTRALZA (tralokinumab 300 mg per 2 mL solution for injection pen) LEO PHARMA INC,ADDED
+102941,02540746,AURO-DIMETHYL FUMARATE (dimethyl fumarate 120 mg gastro-resistant capsule) AURO PHARMA INC,ADDED
+102942,02540754,AURO-DIMETHYL FUMARATE (dimethyl fumarate 240 mg gastro-resistant capsule) AURO PHARMA INC,ADDED
+102949,02540819,EPTIFIBATIDE INJECTION (eptifibatide 75 mg per 100 mL solution for injection vial) JUNO PHARMACEUTICALS CORP.,ADDED
+102997,02541343,"LACOSAMIDE INJECTION, USP (lacosamide 200 mg per 20 mL solution for injection vial) HIKMA CANADA LIMITED",ADDED
+103127,02542730,JAMP LAMOTRIGINE (lamotrigine 25 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103128,02542749,JAMP LAMOTRIGINE (lamotrigine 100 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103129,02542757,JAMP LAMOTRIGINE (lamotrigine 150 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103135,02542838,SOLARCAINE BURN PAIN RELIEF (lidocaine hydrochloride 4 % cutaneous spray) WELLSPRING PHARMACEUTICAL CANADA CORP,ADDED
+103147,02542951,NRA-VARENICLINE (varenicline (varenicline tartrate) 0.5 mg oral tablet) NORA PHARMA INC,ADDED
+103148,02542978,NRA-VARENICLINE (varenicline (varenicline tartrate) 1 mg oral tablet) NORA PHARMA INC,ADDED
+103149,02542986,NRA-VARENICLINE (varenicline (varenicline tartrate) 0.5 mg oral tablet with varenicline (varenicline tartrate) 1 mg oral tablet) NORA PHARMA INC,ADDED
+103185,02543389,JAMP EPLERENONE (eplerenone 25 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103186,02543397,JAMP EPLERENONE (eplerenone 50 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103193,02543478,M-DOXYCYCLINE (doxycycline (doxycycline hyclate) 100 mg oral tablet) MANTRA PHARMA INC,ADDED
+103203,02543575,LEFLUNOMIDE (leflunomide 10 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+103204,02543583,LEFLUNOMIDE (leflunomide 20 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+103216,02543710,AG-LAMOTRIGINE (lamotrigine 25 mg oral tablet) ANGITA PHARMA INC.,ADDED
+103217,02543729,AG-LAMOTRIGINE (lamotrigine 100 mg oral tablet) ANGITA PHARMA INC.,ADDED
+103218,02543737,AG-LAMOTRIGINE (lamotrigine 150 mg oral tablet) ANGITA PHARMA INC.,ADDED
+103278,02544245,SANDOZ BISOPROLOL TABLETS (bisoprolol fumarate 1.25 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+103279,02544253,SANDOZ BISOPROLOL TABLETS (bisoprolol fumarate 2.5 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+103323,02544660,BACLOFEN (baclofen 10 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+103324,02544679,BACLOFEN (baclofen 20 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+103325,02544687,EXTRA STRENGTH TYLENOL DAYTIME RELIEF (acetaminophen 500 mg and caffeine 65 mg oral tablet) MCNEIL CONSUMER HEALTHCARE DIVISION OF JOHNSON & JOHNSON INC,ADDED
+103354,02544911,NRA-BETAHISTINE (betahistine hydrochloride 8 mg oral tablet) NORA PHARMA INC,ADDED
+103355,02544938,NRA-BETAHISTINE (betahistine hydrochloride 16 mg oral tablet) NORA PHARMA INC,ADDED
+103356,02544946,NRA-BETAHISTINE (betahistine hydrochloride 24 mg oral tablet) NORA PHARMA INC,ADDED
+103451,02545772,MAR-ETHOSUXIMIDE (ethosuximide 250 mg oral capsule) MARCAN PHARMACEUTICALS INC,ADDED
+103460,02545861,TEVA-LISDEXAMFETAMINE (lisdexamfetamine dimesylate 10 mg oral capsule) TEVA CANADA LIMITED,ADDED
+103461,02545888,TEVA-LISDEXAMFETAMINE (lisdexamfetamine dimesylate 20 mg oral capsule) TEVA CANADA LIMITED,ADDED
+103462,02545896,TEVA-LISDEXAMFETAMINE (lisdexamfetamine dimesylate 30 mg oral capsule) TEVA CANADA LIMITED,ADDED
+103463,02545918,TEVA-LISDEXAMFETAMINE (lisdexamfetamine dimesylate 40 mg oral capsule) TEVA CANADA LIMITED,ADDED
+103464,02545926,TEVA-LISDEXAMFETAMINE (lisdexamfetamine dimesylate 50 mg oral capsule) TEVA CANADA LIMITED,ADDED
+103465,02545934,TEVA-LISDEXAMFETAMINE (lisdexamfetamine dimesylate 60 mg oral capsule) TEVA CANADA LIMITED,ADDED
+103466,02545942,TEVA-LISDEXAMFETAMINE (lisdexamfetamine dimesylate 70 mg oral capsule) TEVA CANADA LIMITED,ADDED
+103492,02546205,AWIQLI (insulin icodec 700 unit per mL solution for injection 1 mL pen) NOVO NORDISK CANADA INC,ADDED
+103493,02546213,AWIQLI (insulin icodec 700 unit per mL solution for injection 1.5 mL pen) NOVO NORDISK CANADA INC,ADDED
+103494,02546221,AWIQLI (insulin icodec 700 unit per mL solution for injection 3 mL pen) NOVO NORDISK CANADA INC,ADDED
+103495,02546248,SANDOZ LISDEXAMFETAMINE CAPSULES (lisdexamfetamine dimesylate 10 mg oral capsule) SANDOZ CANADA INCORPORATED,ADDED
+103496,02546256,SANDOZ LISDEXAMFETAMINE CAPSULES (lisdexamfetamine dimesylate 20 mg oral capsule) SANDOZ CANADA INCORPORATED,ADDED
+103498,02546272,SANDOZ LISDEXAMFETAMINE CAPSULES (lisdexamfetamine dimesylate 40 mg oral capsule) SANDOZ CANADA INCORPORATED,ADDED
+103499,02546280,SANDOZ LISDEXAMFETAMINE CAPSULES (lisdexamfetamine dimesylate 50 mg oral capsule) SANDOZ CANADA INCORPORATED,ADDED
+103500,02546299,SANDOZ LISDEXAMFETAMINE CAPSULES (lisdexamfetamine dimesylate 60 mg oral capsule) SANDOZ CANADA INCORPORATED,ADDED
+103501,02546302,SANDOZ LISDEXAMFETAMINE CAPSULES (lisdexamfetamine dimesylate 70 mg oral capsule) SANDOZ CANADA INCORPORATED,ADDED
+103642,02547465,APRETUDE (cabotegravir (cabotegravir sodium) 30 mg oral tablet) VIIV HEALTHCARE ULC,ADDED
+103643,02547473,APRETUDE (cabotegravir 600 mg per 3 mL prolonged-release suspension for injection vial) VIIV HEALTHCARE ULC,ADDED
+NA,77701154,"IRINOTECAN HYDROCHLORIDE INJECTION, USP (irinotecan hydrochloride (irinotecan hydrochloride trihydrate) 40 mg per 2 mL solution for injection vial) GENERIC MEDICAL PARTNERS INC",ADDED
+NA,77701155,"IRINOTECAN HYDROCHLORIDE INJECTION, USP (irinotecan hydrochloride (irinotecan hydrochloride trihydrate) 100 mg per 5 mL solution for injection vial) GENERIC MEDICAL PARTNERS INC",ADDED
+NA,77701156,"IRINOTECAN HYDROCHLORIDE INJECTION, USP (irinotecan hydrochloride (irinotecan hydrochloride trihydrate) 300 mg per 15 mL solution for injection vial) GENERIC MEDICAL PARTNERS INC",ADDED
+NA,77701157,"IRINOTECAN HYDROCHLORIDE INJECTION, USP (irinotecan hydrochloride (irinotecan hydrochloride trihydrate) 500 mg per 25 mL solution for injection vial) GENERIC MEDICAL PARTNERS INC",ADDED
