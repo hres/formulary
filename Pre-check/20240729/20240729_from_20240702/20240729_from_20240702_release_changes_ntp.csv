@@ -1,0 +1,47 @@
+ntp_code,ntp_formal_name,changes
+9003365,miconazole nitrate 1200 mg pessary,DELETED
+6e84171aac7b26461c8359d7326b267e,methylphenidate hydrochloride 40 mg NA,ADDED
+40af3b453fe3ed2d71770b8a58e9b8a5,ivacaftor 13.4 mg per sachet oral granules,ADDED
+9001177,hydrochlorothiazide 12.5 mg and ramipril 2.5 mg oral tablet,"ntp_status_effective_time: ""20061116"" -> ""20100203"""
+9002486,pheniramine maleate 0.2 % and phenylephrine hydrochloride 0.5 % nasal spray,DELETED
+9012981,glucagon 1 mg per vial powder for solution for injection with diluent solution,DELETED
+9005934,palbociclib 100 mg oral capsule,DELETED
+a65df545f40fd373447ee5c4f2d73fe7,etomidate 2 mg per mL solution for injection,ADDED
+9003312,alprostadil 500 mcg urethral stick,DELETED
+9004809,acetylsalicylic acid 325 mg and caffeine 32 mg oral tablet,DELETED
+9012846,miconazole nitrate 400 mg pessary with miconazole nitrate 2 % cutaneous cream,DELETED
+9014582,casirivimab 1332 mg per 11.1 mL solution for injection vial with imdevimab 1332 mg per 11.1 mL solution for injection vial,DELETED
+9013940,aluminum hydroxide 165 mg per 5 mL and magnesium hydroxide 200 mg per 5 mL and simethicone 25 mg per 5 mL oral suspension,DELETED
+81a272275e9521cb7e2a89fd72810703,methylphenidate hydrochloride 30 mg NA,ADDED
+9003327,ursodiol 250 mg oral tablet,"ntp_status_effective_time: ""19981108"" -> ""20060501"""
+fe26c1a602dff5187dbc9047794e0bed,cetylpyridinium chloride 0.075 % gargle/mouthwash,ADDED
+9012845,miconazole nitrate 1200 mg pessary with miconazole nitrate 2 % cutaneous cream,DELETED
+9000975,prednisolone (prednisolone sodium phosphate) 5 mg per 5 mL oral solution,"ntp_status_effective_time: ""19980923"" -> ""20020319"""
+9012447,ozenoxacin 1 % cutaneous cream,DELETED
+9001175,fenofibrate 160 mg oral capsule,"ntp_status_effective_time: ""20170713"" -> ""20240703"""
+4513cb753445fd49e76806aebfa3f6bb,ustekinumab 45 mg per 0.5 mL solution for injection,ADDED
+9001178,hydrochlorothiazide 12.5 mg and ramipril 5 mg oral tablet,"ntp_status_effective_time: ""20061116"" -> ""20100203"""
+9012882,acetaminophen 500 mg and diphenhydramine hydrochloride 25 mg and pseudoephedrine hydrochloride 30 mg oral tablet with acetaminophen 500 mg and pseudoephedrine hydrochloride 30 mg oral tablet,DELETED
+9001912,miconazole nitrate 400 mg pessary,"ntp_status_effective_time: ""19811231"" -> ""19961231"""
+9006257,acyclovir (acyclovir sodium) 500 mg per 20 mL solution for injection vial,DELETED
+85aaa4ceb0ea21f554ab681fc4c9ec80,ustekinumab 5 mg per mL solution for injection,ADDED
+9003310,alprostadil 1000 mcg urethral stick,DELETED
+9013607,simoctocog alfa 1000 unit per vial powder for solution for injection with diluent solution syringe,DELETED
+9013608,simoctocog alfa 2000 unit per vial powder for solution for injection with diluent solution syringe,DELETED
+9005935,palbociclib 125 mg oral capsule,DELETED
+9003311,alprostadil 250 mcg urethral stick,DELETED
+9003769,cefuroxime (cefuroxime sodium) 7.5 g per vial powder for solution for injection,"ntp_status_effective_time: ""20240123"" -> ""20240228"""
+9014083,bupivacaine hydrochloride 5 mg per mL and epinephrine (epinephrine bitartrate) 0.005 mg per mL solution for injection 1.8 mL cartridge,"ntp_status_effective_time: ""20080411"" -> ""20120507"""
+be060bc7da616fc4776eb49eb82ce25e,zinc (zinc sulfate) 1 mg per mL solution for injection,ADDED
+9001180,hydrochlorothiazide 25 mg and ramipril 5 mg oral tablet,"ntp_status_effective_time: ""20061116"" -> ""20100203"""
+9014571,phenylephrine hydrochloride 0.25 % suppository,DELETED
+9340599fdbb7251c95358f3b4d517c29,ustekinumab 90 mg per 1 mL solution for injection,ADDED
+9002751,calcium carbonate 200 mg per 5 mL and magnesium hydroxide 200 mg per 5 mL and simethicone 25 mg per 5 mL oral suspension,DELETED
+9002656,dapsone 100 mg oral tablet,"ntp_status_effective_time: ""19941231"" -> ""20181113"""
+9012645,nadroparin calcium 5700 unit per 0.6 mL solution for injection syringe,DELETED
+bd50d8c5c10dd48cabf04f21a16384d0,eptinezumab 300 mg per 3 mL solution for injection,ADDED
+0e45f4009f6cfd6105e58138e3cfdba6,methylphenidate hydrochloride 20 mg NA,ADDED
+9013430,corbadrine 0.05 mg per mL and mepivacaine hydrochloride 20 mg per mL solution for injection 1.8 mL cartridge,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19771231"" -> ""20230320"""
+9005107,fluocinolone acetonide 0.59 mg intravitreal implant,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20120913"" -> ""20240530"""

@@ -1,0 +1,123 @@
+drug_code,mp_code,mp_formal_name,changes
+187,00116815,DIOVOL PLUS SUSPENSION (aluminum hydroxide 165 mg per 5 mL and magnesium hydroxide 200 mg per 5 mL and simethicone 25 mg per 5 mL oral suspension) CHURCH & DWIGHT CANADA CORP,DELETED
+2744,00393711,ISOCAINE HCL INJ 2% (corbadrine 0.05 mg per mL and mepivacaine hydrochloride 20 mg per mL solution for injection 1.8 mL cartridge) NOVOCOL PHARMACEUTICAL OF CANADA INC,DELETED
+4276,00402818,APO-ALLOPURINOL TABLETS (allopurinol 100 mg oral tablet) APOTEX INC,"mp_formal_name: ""Z̲Y̲L̲O̲P̲R̲I̲M̲ (allopurinol 100 mg oral tablet) AA̲ ̲P̲H̲A̲R̲M̲A̲ INC"" -> ""A̲P̲O̲-̲A̲L̲L̲O̲P̲U̲R̲I̲N̲O̲L̲ ̲T̲A̲B̲L̲E̲T̲S̲ (allopurinol 100 mg oral tablet) AP̲O̲T̲E̲X̲ INC"""
+4302,00402796,APO-ALLOPURINOL TABLETS (allopurinol 300 mg oral tablet) APOTEX INC,"mp_formal_name: ""Z̲Y̲L̲O̲P̲R̲I̲M̲ (allopurinol 300 mg oral tablet) AA̲ ̲P̲H̲A̲R̲M̲A̲ INC"" -> ""A̲P̲O̲-̲A̲L̲L̲O̲P̲U̲R̲I̲N̲O̲L̲ ̲T̲A̲B̲L̲E̲T̲S̲ (allopurinol 300 mg oral tablet) AP̲O̲T̲E̲X̲ INC"""
+4303,00479799,APO-ALLOPURINOL TABLETS (allopurinol 200 mg oral tablet) APOTEX INC,"mp_formal_name: ""Z̲Y̲L̲O̲P̲R̲I̲M̲ (allopurinol 200 mg oral tablet) AA̲ ̲P̲H̲A̲R̲M̲A̲ INC"" -> ""A̲P̲O̲-̲A̲L̲L̲O̲P̲U̲R̲I̲N̲O̲L̲ ̲T̲A̲B̲L̲E̲T̲S̲ (allopurinol 200 mg oral tablet) AP̲O̲T̲E̲X̲ INC"""
+16584,02041510,DAPSONE (dapsone 100 mg oral tablet) EVEREST LIFE SCIENCES LLC,DELETED
+16610,02126249,"MONISTAT 3 DUAL-PAK (miconazole nitrate 400 mg pessary with miconazole nitrate 2 % cutaneous cream) INSIGHT PHARMACEUTICALS, LLC",DELETED
+16612,02126605,"MONISTAT 3 VAGINAL OVULES (miconazole nitrate 400 mg pessary) INSIGHT PHARMACEUTICALS, LLC",DELETED
+17250,02100622,SULCRATE (sucralfate 1 g oral tablet) ABBVIE CORPORATION,"mp_formal_name: ""SULCRATE (sucralfate 1 g oral tablet) AP̲T̲A̲L̲I̲S̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲U̲L̲C̲"" -> ""SULCRATE (sucralfate 1 g oral tablet) AB̲B̲V̲I̲E̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"""
+17852,02103567,SULCRATE SUSPENSION PLUS (sucralfate 1 g per 5 mL oral suspension) ABBVIE CORPORATION,"mp_formal_name: ""SULCRATE SUSPENSION PLUS (sucralfate 1 g per 5 mL oral suspension) AP̲T̲A̲L̲I̲S̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲U̲L̲C̲"" -> ""SULCRATE SUSPENSION PLUS (sucralfate 1 g per 5 mL oral suspension) AB̲B̲V̲I̲E̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"""
+19082,02157616,DIOVOL PLUS ALUMINUM FREE SUSPENSION (calcium carbonate 200 mg per 5 mL and magnesium hydroxide 200 mg per 5 mL and simethicone 25 mg per 5 mL oral suspension) CHURCH & DWIGHT CANADA CORP,DELETED
+19312,02163152,"LIDEMOL (fluocinonide 0.05 % cutaneous cream) BAUSCH HEALTH, CANADA INC.",DELETED
+20008,02161923,"LIDEX (fluocinonide 0.05 % cutaneous cream) BAUSCH HEALTH, CANADA INC.",DELETED
+27225,02050242,EXTRA STRENGTH SINUS RELIEF DAYTIME (acetaminophen 500 mg and pseudoephedrine hydrochloride 30 mg oral tablet) VITA HEALTH PRODUCTS INC,DELETED
+27903,02072955,SOLUPREP LD SPONGE (chlorhexidine gluconate 0.05 % medicated sponge) 3M HEALTHCARE CANADA COMPANY LIMITED,"mp_formal_name: ""SOLUPREP LD SPONGE (chlorhexidine gluconate 0.05 % medicated sponge) 3M CANADA COMPANY"" -> ""SOLUPREP LD SPONGE (chlorhexidine gluconate 0.05 % medicated sponge) 3M H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲CANADA COMPANY ̲L̲I̲M̲I̲T̲E̲D̲"""
+37363,02224623,SOFRACORT (dexamethasone (dexamethasone sodium metasulphobenzoate) 0.5 mg per mL and framycetin sulfate 5 mg per mL and gramicidin 0.05 mg per mL ophthalmic/otic drops) CHEPLAPHARM ARZNEIMITTEL GMBH,"mp_formal_name: ""SOFRACORT (dexamethasone (dexamethasone sodium metasulphobenzoate) 0.5 mg per mL and framycetin sulfate 5 mg per mL and gramicidin 0.05 mg per mL ophthalmic/otic drops) S̲A̲N̲O̲F̲I̲-̲A̲V̲E̲N̲T̲I̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""SOFRACORT (dexamethasone (dexamethasone sodium metasulphobenzoate) 0.5 mg per mL and framycetin sulfate 5 mg per mL and gramicidin 0.05 mg per mL ophthalmic/otic drops) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲A̲R̲Z̲N̲E̲I̲M̲I̲T̲T̲E̲L̲ ̲G̲M̲B̲H̲"""
+41869,00875988,TEMPRA INFANT DROPS (acetaminophen 80 mg per mL oral drops) PALADIN PHARMA INC.,DELETED
+41952,01929313,"DRISTAN NASAL MIST (pheniramine maleate 0.2 % and phenylephrine hydrochloride 0.5 % nasal spray) FOUNDATION CONSUMER BRANDS, LLC",DELETED
+49235,02230398,ALLERGY TABLETS EXTRA STRENGTH (diphenhydramine hydrochloride 50 mg oral tablet) TANTA PHARMACEUTICALS INC,DELETED
+49795,02230619,PEDIAPRED (prednisolone (prednisolone sodium phosphate) 5 mg per 5 mL oral solution) SANOFI-AVENTIS CANADA INC,DELETED
+60208,02236916,ACYCLOVIR SODIUM INJECTION (acyclovir (acyclovir sodium) 500 mg per 20 mL solution for injection vial) PFIZER CANADA ULC,DELETED
+62021,02238593,MUSE (alprostadil 250 mcg urethral stick) PALADIN PHARMA INC.,DELETED
+62022,02238594,MUSE (alprostadil 500 mcg urethral stick) PALADIN PHARMA INC.,DELETED
+62023,02238595,MUSE (alprostadil 1000 mcg urethral stick) PALADIN PHARMA INC.,DELETED
+62432,02238984,URSO (ursodiol 250 mg oral tablet) APTALIS PHARMA CANADA ULC,DELETED
+62546,02239090,ATACAND (candesartan cilexetil 4 mg oral tablet) CHEPLAPHARM ARZNEIMITTEL GMBH,"mp_formal_name: ""ATACAND (candesartan cilexetil 4 mg oral tablet) A̲S̲T̲R̲A̲Z̲E̲N̲E̲C̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ATACAND (candesartan cilexetil 4 mg oral tablet) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲A̲R̲Z̲N̲E̲I̲M̲I̲T̲T̲E̲L̲ ̲G̲M̲B̲H̲"""
+62547,02239091,ATACAND (candesartan cilexetil 8 mg oral tablet) CHEPLAPHARM ARZNEIMITTEL GMBH,"mp_formal_name: ""ATACAND (candesartan cilexetil 8 mg oral tablet) A̲S̲T̲R̲A̲Z̲E̲N̲E̲C̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ATACAND (candesartan cilexetil 8 mg oral tablet) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲A̲R̲Z̲N̲E̲I̲M̲I̲T̲T̲E̲L̲ ̲G̲M̲B̲H̲"""
+62548,02239092,ATACAND (candesartan cilexetil 16 mg oral tablet) CHEPLAPHARM ARZNEIMITTEL GMBH,"mp_formal_name: ""ATACAND (candesartan cilexetil 16 mg oral tablet) A̲S̲T̲R̲A̲Z̲E̲N̲E̲C̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ATACAND (candesartan cilexetil 16 mg oral tablet) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲A̲R̲Z̲N̲E̲I̲M̲I̲T̲T̲E̲L̲ ̲G̲M̲B̲H̲"""
+63070,02239600,"MONISTAT 1 COMBINATION PACK (miconazole nitrate 1200 mg pessary with miconazole nitrate 2 % cutaneous cream) INSIGHT PHARMACEUTICALS, LLC",DELETED
+63071,02239601,"MONISTAT 1 VAGINAL OVULE (miconazole nitrate 1200 mg pessary) INSIGHT PHARMACEUTICALS, LLC",DELETED
+67195,02243297,GLUCAGON (glucagon 1 mg per vial powder for solution for injection with diluent solution) ELI LILLY CANADA INC,DELETED
+67964,02244021,ATACAND PLUS (candesartan cilexetil 16 mg and hydrochlorothiazide 12.5 mg oral tablet) CHEPLAPHARM ARZNEIMITTEL GMBH,"mp_formal_name: ""ATACAND PLUS (candesartan cilexetil 16 mg and hydrochlorothiazide 12.5 mg oral tablet) A̲S̲T̲R̲A̲Z̲E̲N̲E̲C̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ATACAND PLUS (candesartan cilexetil 16 mg and hydrochlorothiazide 12.5 mg oral tablet) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲A̲R̲Z̲N̲E̲I̲M̲I̲T̲T̲E̲L̲ ̲G̲M̲B̲H̲"""
+72648,02248307,FLONASE ALLERGY RELIEF (fluticasone propionate 50 mcg per actuation nasal spray) HALEON CANADA ULC,"mp_formal_name: ""FLONASE ALLERGY RELIEF (fluticasone propionate 50 mcg per actuation nasal spray) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""FLONASE ALLERGY RELIEF (fluticasone propionate 50 mcg per actuation nasal spray) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+74760,02262215,"BURN RELIEF GEL WITH LIDOCAINE (lidocaine hydrochloride 0.72 % cutaneous gel) PRIME ENTERPRISES, LLC DBA PRIME MATTER LABS.","mp_formal_name: ""BURN RELIEF GEL WITH LIDOCAINE (lidocaine hydrochloride 0.72 % cutaneous gel) PRIME ENTERPRISES, LLC."" -> ""BURN RELIEF GEL WITH LIDOCAINE (lidocaine hydrochloride 0.72 % cutaneous gel) PRIME ENTERPRISES, LLC ̲D̲B̲A̲ ̲P̲R̲I̲M̲E̲ ̲M̲A̲T̲T̲E̲R̲ ̲L̲A̲B̲S̲."""
+75421,02268817,"MEDICATED ACNE GEL (benzoyl peroxide 5 % cutaneous gel) PRIME ENTERPRISES, LLC.",DELETED
+75626,02270889,RIVA-ALENDRONATE FC (alendronic acid (alendronate sodium) 70 mg oral tablet) LABORATOIRE RIVA INC.,"mp_formal_name: ""RIVA-ALENDRONATE (alendronic acid (alendronate sodium) 70 mg oral tablet) LABORATOIRE RIVA INC."" -> ""RIVA-ALENDRONATE ̲F̲C̲ (alendronic acid (alendronate sodium) 70 mg oral tablet) LABORATOIRE RIVA INC."""
+76591,02280248,TESTIM 1% (testosterone 1 % transdermal gel 5 g tube) ENDO OPERATIONS LTD.,"mp_formal_name: ""TESTIM 1% (testosterone 1 % transdermal gel 5 g tube) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""TESTIM 1% (testosterone 1 % transdermal gel 5 g tube) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+76876,02283131,"ALTACE HCT (hydrochlorothiazide 12.5 mg and ramipril 2.5 mg oral tablet) BAUSCH HEALTH, CANADA INC.",DELETED
+76877,02283158,"ALTACE HCT (hydrochlorothiazide 12.5 mg and ramipril 5 mg oral tablet) BAUSCH HEALTH, CANADA INC.",DELETED
+76879,02283174,"ALTACE HCT (hydrochlorothiazide 25 mg and ramipril 5 mg oral tablet) BAUSCH HEALTH, CANADA INC.",DELETED
+79063,02305135,VIVACAINE (bupivacaine hydrochloride 5 mg per mL and epinephrine (epinephrine bitartrate) 0.005 mg per mL solution for injection 1.8 mL cartridge) SEPTODONT INC,DELETED
+79124,02305682,ACT FAMCICLOVIR (famciclovir 125 mg oral tablet) TEVA CANADA LIMITED,DELETED
+79125,02305690,ACT FAMCICLOVIR (famciclovir 250 mg oral tablet) TEVA CANADA LIMITED,DELETED
+79126,02305704,ACT FAMCICLOVIR (famciclovir 500 mg oral tablet) TEVA CANADA LIMITED,DELETED
+79720,02311658,ATACAND (candesartan cilexetil 32 mg oral tablet) CHEPLAPHARM ARZNEIMITTEL GMBH,"mp_formal_name: ""ATACAND (candesartan cilexetil 32 mg oral tablet) A̲S̲T̲R̲A̲Z̲E̲N̲E̲C̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ATACAND (candesartan cilexetil 32 mg oral tablet) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲A̲R̲Z̲N̲E̲I̲M̲I̲T̲T̲E̲L̲ ̲G̲M̲B̲H̲"""
+80197,02316463,RIVA-PANTOPRAZOLE (pantoprazole (pantoprazole sodium sesquihydrate) 40 mg gastro-resistant tablet) LABORATOIRE RIVA INC.,DELETED
+80688,02321475,ACT REPAGLINIDE (repaglinide 0.5 mg oral tablet) TEVA CANADA LIMITED,DELETED
+80689,02321483,ACT REPAGLINIDE (repaglinide 1 mg oral tablet) TEVA CANADA LIMITED,DELETED
+80690,02321491,ACT REPAGLINIDE (repaglinide 2 mg oral tablet) TEVA CANADA LIMITED,DELETED
+81810,02332450,ANACIN (acetylsalicylic acid 325 mg and caffeine 32 mg oral tablet) PALADIN PHARMA INC.,DELETED
+81858,02332922,ATACAND PLUS (candesartan cilexetil 32 mg and hydrochlorothiazide 12.5 mg oral tablet) CHEPLAPHARM ARZNEIMITTEL GMBH,"mp_formal_name: ""ATACAND PLUS (candesartan cilexetil 32 mg and hydrochlorothiazide 12.5 mg oral tablet) A̲S̲T̲R̲A̲Z̲E̲N̲E̲C̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ATACAND PLUS (candesartan cilexetil 32 mg and hydrochlorothiazide 12.5 mg oral tablet) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲A̲R̲Z̲N̲E̲I̲M̲I̲T̲T̲E̲L̲ ̲G̲M̲B̲H̲"""
+81859,02332957,ATACAND PLUS (candesartan cilexetil 32 mg and hydrochlorothiazide 25 mg oral tablet) CHEPLAPHARM ARZNEIMITTEL GMBH,"mp_formal_name: ""ATACAND PLUS (candesartan cilexetil 32 mg and hydrochlorothiazide 25 mg oral tablet) A̲S̲T̲R̲A̲Z̲E̲N̲E̲C̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""ATACAND PLUS (candesartan cilexetil 32 mg and hydrochlorothiazide 25 mg oral tablet) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲A̲R̲Z̲N̲E̲I̲M̲I̲T̲T̲E̲L̲ ̲G̲M̲B̲H̲"""
+82759,02342073,"AFTER SUN BURN RELIEF LIDOCAINE CONTINUOUS SPRAY (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC DBA PRIME MATTER LABS.","mp_formal_name: ""AFTER SUN BURN RELIEF LIDOCAINE CONTINUOUS SPRAY (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC."" -> ""AFTER SUN BURN RELIEF LIDOCAINE CONTINUOUS SPRAY (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC ̲D̲B̲A̲ ̲P̲R̲I̲M̲E̲ ̲M̲A̲T̲T̲E̲R̲ ̲L̲A̲B̲S̲."""
+82854,02343053,PROPAFENONE (propafenone hydrochloride 150 mg oral tablet) SANIS HEALTH INC,DELETED
+84320,02358131,PAIN RELIEF CREAM REGULAR STRENGTH (trolamine salicylate 13.3 % cutaneous cream) CRLS,"mp_formal_name: ""N̲O̲ ̲O̲D̲O̲U̲R̲ ̲PAIN RELIEF CREAM (trolamine salicylate 13.3 % cutaneous cream) CRLS"" -> ""PAIN RELIEF CREAM ̲R̲E̲G̲U̲L̲A̲R̲ ̲S̲T̲R̲E̲N̲G̲T̲H̲ (trolamine salicylate 13.3 % cutaneous cream) CRLS"""
+85317,02368196,SINUS RELIEF (acetaminophen 500 mg and diphenhydramine hydrochloride 25 mg and pseudoephedrine hydrochloride 30 mg oral tablet with acetaminophen 500 mg and pseudoephedrine hydrochloride 30 mg oral tablet) VITA HEALTH PRODUCTS INC,DELETED
+86888,02383101,TARO-SILDENAFIL (sildenafil (sildenafil citrate) 25 mg oral tablet) SUN PHARMA CANADA INC,"mp_formal_name: ""R̲A̲N̲-SILDENAFIL (sildenafil (sildenafil citrate) 25 mg oral tablet) R̲A̲N̲B̲A̲X̲Y̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"" -> ""T̲A̲R̲O̲-SILDENAFIL (sildenafil (sildenafil citrate) 25 mg oral tablet) S̲U̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"""
+86889,02383128,TARO-SILDENAFIL (sildenafil (sildenafil citrate) 50 mg oral tablet) SUN PHARMA CANADA INC,"mp_formal_name: ""R̲A̲N̲-SILDENAFIL (sildenafil (sildenafil citrate) 50 mg oral tablet) R̲A̲N̲B̲A̲X̲Y̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"" -> ""T̲A̲R̲O̲-SILDENAFIL (sildenafil (sildenafil citrate) 50 mg oral tablet) S̲U̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"""
+86890,02383136,TARO-SILDENAFIL (sildenafil (sildenafil citrate) 100 mg oral tablet) SUN PHARMA CANADA INC,"mp_formal_name: ""R̲A̲N̲-SILDENAFIL (sildenafil (sildenafil citrate) 100 mg oral tablet) R̲A̲N̲B̲A̲X̲Y̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"" -> ""T̲A̲R̲O̲-SILDENAFIL (sildenafil (sildenafil citrate) 100 mg oral tablet) S̲U̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"""
+87661,02391260,JAMP-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 10 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+87662,02391279,JAMP-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 20 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+88048,02395371,CINRYZE (C1 esterase inhibitor human 500 unit per vial powder for solution for injection with diluent solution) TAKEDA CANADA INC,DELETED
+88350,02398559,"LIDOCAINE HYDROCHLORIDE SOLUTION (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC DBA PRIME MATTER LABS.","mp_formal_name: ""LIDOCAINE HYDROCHLORIDE SOLUTION (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC."" -> ""LIDOCAINE HYDROCHLORIDE SOLUTION (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC ̲D̲B̲A̲ ̲P̲R̲I̲M̲E̲ ̲M̲A̲T̲T̲E̲R̲ ̲L̲A̲B̲S̲."""
+89318,02408430,SOLUPREP AQ SPONGE (chlorhexidine gluconate 2 % medicated sponge) 3M HEALTHCARE CANADA COMPANY LIMITED,"mp_formal_name: ""SOLUPREP AQ SPONGE (chlorhexidine gluconate 2 % medicated sponge) 3M CANADA COMPANY"" -> ""SOLUPREP AQ SPONGE (chlorhexidine gluconate 2 % medicated sponge) 3M H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲CANADA COMPANY ̲L̲I̲M̲I̲T̲E̲D̲"""
+89643,02411849,VEREGEN (sinecatechins 10 % cutaneous ointment) ENDO OPERATIONS LTD.,"mp_formal_name: ""VEREGEN (sinecatechins 10 % cutaneous ointment) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""VEREGEN (sinecatechins 10 % cutaneous ointment) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+91069,02426080,HEAD & SHOULDERS INSTANT OIL CONTROL (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,DELETED
+91070,02426099,HEAD & SHOULDERS INSTANT OIL CONTROL 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,DELETED
+91372,02429292,HEAD & SHOULDERS INSTANT COOLING RELIEF CONDITIONER (pyrithione zinc 0.5 % shampoo) PROCTER & GAMBLE INC,DELETED
+91589,02431483,SOLUPREP AQ SWAB (chlorhexidine gluconate 2 % swab) 3M HEALTHCARE CANADA COMPANY LIMITED,"mp_formal_name: ""SOLUPREP AQ SWAB (chlorhexidine gluconate 2 % swab) 3M CANADA COMPANY"" -> ""SOLUPREP AQ SWAB (chlorhexidine gluconate 2 % swab) 3M H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲CANADA COMPANY ̲L̲I̲M̲I̲T̲E̲D̲"""
+91727,02432862,NOURISHING CARE 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,DELETED
+91742,02432986,NUWIQ (simoctocog alfa 1000 unit per vial powder for solution for injection with diluent solution syringe) OCTAPHARMA PHARMAZEUTIKA PRODUKTIONSGES M B H,DELETED
+91743,02432994,NUWIQ (simoctocog alfa 2000 unit per vial powder for solution for injection with diluent solution syringe) OCTAPHARMA PHARMAZEUTIKA PRODUKTIONSGES M B H,DELETED
+92407,02439670,NANONUMB (lidocaine 5 % cutaneous cream) ALERA SKIN CARE PRODUCTS INC.,DELETED
+93679,02450631,FRAXIPARINE (nadroparin calcium 5700 unit per 0.6 mL solution for injection syringe) ASPEN PHARMACARE CANADA INC.,DELETED
+93886,02452480,NRA-TADALAFIL TABLETS (tadalafil 5 mg oral tablet) NORA PHARMA INC,DELETED
+93970,02453169,IBRANCE (palbociclib 100 mg oral capsule) PFIZER CANADA ULC,DELETED
+93971,02453177,IBRANCE (palbociclib 125 mg oral capsule) PFIZER CANADA ULC,DELETED
+94265,02455838,CAVILON DURABLE BARRIER CREAM (dimethicone 1.3 % cutaneous cream) 3M HEALTHCARE CANADA COMPANY LIMITED,"mp_formal_name: ""CAVILON DURABLE BARRIER CREAM (dimethicone 1.3 % cutaneous cream) 3M CANADA COMPANY"" -> ""CAVILON DURABLE BARRIER CREAM (dimethicone 1.3 % cutaneous cream) 3M H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲CANADA COMPANY ̲L̲I̲M̲I̲T̲E̲D̲"""
+94469,02457679,JAMP-AMITRIPTYLINE (amitriptyline hydrochloride 10 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+94471,02457695,JAMP-AMITRIPTYLINE (amitriptyline hydrochloride 25 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+94472,02457687,JAMP-AMITRIPTYLINE (amitriptyline hydrochloride 50 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+94473,02457660,JAMP-AMITRIPTYLINE (amitriptyline hydrochloride 75 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+95159,02463504,"OZANEX (ozenoxacin 1 % cutaneous cream) FERRER INTERNACIONAL, S.A.",DELETED
+95825,02469456,ETHACRYNATE SODIUM FOR INJECTION USP (ethacrynic acid (ethacrynate sodium) 50 mg per vial powder for solution for injection) STERIMAX INC,DELETED
+96691,02476010,2IN1 MEN ADVANCED SERIES CHARCOAL (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,DELETED
+96698,02476037,MEN ADVANCED SERIES FULL & THICK (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,DELETED
+96735,02477068,AG-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 20 mg oral tablet) ANGITA PHARMA INC.,DELETED
+97072,02480182,DOVE DERMA PLUS CARE SCALP ANTI-DANDRUFF ALOE & RESTORE (pyrithione zinc 1 % shampoo) UNILEVER CANADA,DELETED
+97910,02489058,RIVA-DAPSONE (dapsone 100 mg oral tablet) LABORATOIRE RIVA INC.,DELETED
+98287,02492873,2IN1 MEN ADVANCED SERIES BOURBON (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,DELETED
+98372,02493721,ALOE VERA 2IN1 (pyrithione zinc 1 % shampoo) PROCTER & GAMBLE INC,DELETED
+98491,02494930,BORTEZOMIB FOR INJECTION (bortezomib (bortezomib mannitol boronic ester) 2.5 mg per vial powder for solution for injection) JUNO PHARMACEUTICALS CORP.,DELETED
+98866,02498944,AG-VITAMINE D TABLETS (cholecalciferol 10000 unit oral tablet) ANGITA PHARMA INC.,"mp_formal_name: ""AG-VITAMIN D (cholecalciferol 10000 unit oral tablet) ANGITA PHARMA INC."" -> ""AG-VITAMINE̲ D ̲T̲A̲B̲L̲E̲T̲S̲ (cholecalciferol 10000 unit oral tablet) ANGITA PHARMA INC."""
+99781,02508443,JAMP LEVOFLOXACIN (levofloxacin (levofloxacin hemihydrate) 250 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+99782,02508451,JAMP LEVOFLOXACIN (levofloxacin (levofloxacin hemihydrate) 500 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+99783,02508478,JAMP LEVOFLOXACIN (levofloxacin (levofloxacin hemihydrate) 750 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+99881,02509512,HEMORRHOIDAL SUPPOSITORIES (phenylephrine hydrochloride 0.25 % suppository) H.J. SUTTON INDUSTRIES LTD.,DELETED
+100077,02511584,REMSIMA SC (infliximab 120 mg per 1 mL solution for injection pen) CELLTRION INC.,"mp_formal_name: ""REMSIMA SC (infliximab 120 mg per 1 mL solution for injection pen) CELLTRION H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲C̲O̲ ̲L̲T̲D̲"" -> ""REMSIMA SC (infliximab 120 mg per 1 mL solution for injection pen) CELLTRION I̲N̲C̲.̲"""
+100558,02516209,COLACE PLUS STIMULANT LAXATIVE (docusate sodium 50 mg and sennosides 8.6 mg oral tablet) PHARMASCIENCE INC,"mp_formal_name: ""COLACE +̲ STIMULANT LAXATIVE (docusate sodium 50 mg and sennosides 8.6 mg oral tablet) PHARMASCIENCE INC"" -> ""COLACE P̲L̲U̲S̲ STIMULANT LAXATIVE (docusate sodium 50 mg and sennosides 8.6 mg oral tablet) PHARMASCIENCE INC"""
+100603,02516705,CASIRIVIMAB AND IMDEVIMAB (casirivimab 1332 mg per 11.1 mL solution for injection vial with imdevimab 1332 mg per 11.1 mL solution for injection vial) HOFFMANN-LA ROCHE LIMITED,DELETED
+100994,02520745,NIGHTTIME SLEEP AID (diphenhydramine hydrochloride 25 mg oral capsule) THE SHANDEX SALES GROUP LIMITED,DELETED
+101354,02524511,M-VALSARTAN (valsartan 40 mg oral tablet) MANTRA PHARMA INC,DELETED
+101959,02530414,COLGATE TOTAL GUM HEALTH (cetylpyridinium chloride 0.075 % gargle/mouthwash) COLGATE-PALMOLIVE CANADA INC,ADDED
+102151,02532484,ALLERGY FORMULA EXTRA STRENGTH (diphenhydramine hydrochloride 50 mg oral tablet) TANTA PHARMACEUTICALS INC,DELETED
+102196,02532972,"ZINC SULFATE INJECTION, USP (zinc (zinc sulfate) 1 mg per mL solution for injection) FRESENIUS KABI CANADA LTD",ADDED
+102591,02537176,ERTAPENEM FOR INJECTION (ertapenem (ertapenem sodium) 1 g per vial powder for solution for injection) EUGIA PHARMA INC.,ADDED
+102598,02537257,FINLIUS (ustekinumab 90 mg per 1 mL solution for injection) JANSSEN INC,ADDED
+102603,02537303,FINLIUS (ustekinumab 45 mg per 0.5 mL solution for injection) JANSSEN INC,ADDED
+102604,02537311,FINLIUS I.V. (ustekinumab 5 mg per mL solution for injection) JANSSEN INC,ADDED
+102621,02537508,"ETOMIDATE INJECTION, USP (etomidate 2 mg per mL solution for injection) FRESENIUS KABI CANADA LTD",ADDED
+102928,02540592,JAMP ZOLPIDEM ODT (zolpidem tartrate 5 mg sublingual tablet) JAMP PHARMA CORPORATION,ADDED
+102929,02540606,JAMP ZOLPIDEM ODT (zolpidem tartrate 10 mg sublingual tablet) JAMP PHARMA CORPORATION,ADDED
+102937,02540681,JAMP RALOXIFENE (raloxifene hydrochloride 60 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+102945,02540770,SILDENAFIL (sildenafil (sildenafil citrate) 25 mg oral tablet) SANIS HEALTH INC,ADDED
+103024,02541602,QUILLIVANT ER CHEWABLE TABLETS (methylphenidate hydrochloride 20 mg NA) KYE PHARMACEUTICALS INC.,ADDED
+103025,02541610,QUILLIVANT ER CHEWABLE TABLETS (methylphenidate hydrochloride 30 mg NA) KYE PHARMACEUTICALS INC.,ADDED
+103026,02541629,QUILLIVANT ER CHEWABLE TABLETS (methylphenidate hydrochloride 40 mg NA) KYE PHARMACEUTICALS INC.,ADDED
+103084,02542269,VYEPTI (eptinezumab 300 mg per 3 mL solution for injection) LUNDBECK CANADA INC,ADDED
+103192,02543451,KALYDECO (ivacaftor 13.4 mg per sachet oral granules) VERTEX PHARMACEUTICALS (CANADA) INCORPORATED,ADDED
+103472,02545985,AURO-RUFINAMIDE (rufinamide 200 mg oral tablet) AURO PHARMA INC,ADDED
+103473,02545993,AURO-RUFINAMIDE (rufinamide 400 mg oral tablet) AURO PHARMA INC,ADDED
+103582,02547171,ODAN-ETHOSUXIMIDE (ethosuximide 250 mg oral capsule) ODAN LABORATORIES LTD,ADDED
