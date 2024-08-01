@@ -1,0 +1,23 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8000948,acetaminophen and pamabrom,acétaminophène et pamabrom,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20041220"" -> ""20240723"""
+8001129,ozenoxacin,ozénoxacine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20180104"" -> ""20240711"""
+8001735,corbadrine and mepivacaine,corbadrine et mépivacaïne,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19771231"" -> ""20231109"""
+8001914,pheniramine and phenylephrine,phéniramine et phényléphrine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19921231"" -> ""20231030"""
+8001069,oxtriphylline,oxtriphylline,"tm_status_effective_time: ""20221020"" -> ""20240718"""
+8002511,metreleptin,métréleptine,ADDED
+8002248,simoctocog alfa,simoctocog alfa,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20151222"" -> ""20240724"""
+8002383,casirivimab and imdevimab,casirivimab et imdévimab,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20210729"" -> ""20240621"""
+8001293,nadroparin,nadroparine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19980205"" -> ""20240723"""
+8000870,acetylsalicylic acid and caffeine,acide acétylsalicylique et caféine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19931231"" -> ""20240718"""
+8002510,calcium carbonate and simethicone,carbonate de calcium et siméticone,ADDED
+8002412,cenegermin,cénégermine,"tm_status_effective_time: ""20230907"" -> ""20240717"""
+8001434,argatroban,argatroban,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20020613"" -> ""20240731"""
