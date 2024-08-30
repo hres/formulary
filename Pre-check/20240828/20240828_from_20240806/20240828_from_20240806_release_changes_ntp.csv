@@ -1,0 +1,23 @@
+ntp_code,ntp_formal_name,changes
+a0417b9aed4a00ab3e8897440e6421bb,methotrexate (methotrexate sodium) 7.5 mg per 0.3 mL solution for injection,ADDED
+115fe4cbcc5b40d058d7412366918348,semaglutide 1.34 mg per mL solution for injection pre-filled pen,ADDED
+9013062,cytarabine 100 mg per 5 mL solution for injection vial,DELETED
+9013788,progesterone 200 mg oral capsule,DELETED
+9013605,semaglutide 1 mg per actuation solution for injection pre-filled pen,"ntp_status_effective_time: ""20180222"" -> ""20240328"""
+9003907,hyprolose 5 mg ophthalmic insert,DELETED
+9012774,acetylsalicylic acid 25 mg and dipyridamole 200 mg modified-release oral capsule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20000417"" -> ""20200224"""
+f7cca0f11809f06402963e681b895563,methotrexate (methotrexate sodium) 25 mg per mL solution for injection,ADDED
+9013065,cytarabine 500 mg per 25 mL solution for injection vial,DELETED
+12098fcf9959e162dcb40c862d0c0365,mesalazine 1 g gastro-resistant tablet,ADDED
+9000355,erythromycin 333 mg gastro-resistant capsule,DELETED
+9001915,pyrithione zinc 2 % shampoo,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19811231"" -> ""20230605"""
+c6300ed96b3574c58225332a9b571113,methotrexate (methotrexate sodium) 15 mg per 0.6 mL solution for injection,ADDED
+fa225ed4b8a5b0ffda40039323fab449,methotrexate (methotrexate sodium) 20 mg per 0.8 mL solution for injection,ADDED
+9014372,acyclovir (acyclovir sodium) 50 mg per mL solution for injection,ADDED
+22686bd95da3e3be512bea5827b70cd0,dextromethorphan hydrobromide 20 mg per 20 mL and guaifenesin 400 mg per 20 mL and phenylephrine hydrochloride 10 mg per 20 mL oral solution,ADDED
+9002709,pilocarpine hydrochloride 4 % ophthalmic drops,DELETED
+9014902,camphor 3 % and lidocaine hydrochloride 5 % cutaneous solution,DELETED
+dd034f3d782e0467988abd00dbe5949d,irinotecan hydrochloride 100 mg per 5 mL solution for injection,ADDED
+1fef40a243444486790faf2746d4c32f,methotrexate (methotrexate sodium) 10 mg per 0.4 mL solution for injection,ADDED

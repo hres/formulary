@@ -23,8 +23,6 @@ ntp_status_effective_time: ""19990226"" -> ""20240709"""
 9014571,phenylephrine hydrochloride 0.25 % suppository,"chlorhydrate de phényléphrine 0,25 % suppositoire","ntp_status: ""ACTIVE"" -> ""INACTIVE""
 ntp_status_effective_time: ""20210624"" -> ""20230404"""
 9015067,metreleptin 11.3 mg per vial powder for solution for injection,"métréleptine 11,3 mg par fiole poudre pour solution injectable",ADDED
-9002327,terbutaline sulfate 0.5 mg inhalation powder,"sulfate de terbutaline 0,5 mg poudre pour inhalation","ntp_formal_name: ""terbutaline sulfate 0.5 mg p̲e̲r̲ ̲a̲c̲t̲u̲a̲t̲i̲o̲n̲ ̲inhalation powder"" -> ""terbutaline sulfate 0.5 mg inhalation powder""
-ntp_fr_description: ""sulfate de terbutaline 0,5 mg pa̲r̲ ̲a̲c̲t̲i̲o̲n̲n̲e̲m̲e̲n̲t̲ ̲p̲oudre pour inhalation"" -> ""sulfate de terbutaline 0,5 mg poudre pour inhalation"""
 9014324,cetylpyridinium chloride 0.075 % mouthwash,"chlorure de cétylpyridinium 0,075 % solution pour bain de bouche","ntp_status: ""INACTIVE"" -> ""ACTIVE""
 ntp_status_effective_time: ""20240201"" -> ""20200626"""
 9006257,acyclovir (acyclovir sodium) 500 mg per 20 mL solution for injection vial,acyclovir (acyclovir sodique) 500 mg par 20 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
