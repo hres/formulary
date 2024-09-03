@@ -800,3 +800,5 @@ pseudodin,drug_code,unit_of_presentation,uop_size_amount,uop_size_unit,unit_of_p
 "77701159","102603","syringe","0.5","mL","seringue"
 "77701160","102621","vial","10","mL","fiole"
 "77701161","102621","vial","20","mL","fiole"
+"77701162","102038","vial","10","mL","fiole"
+"77701163","102038","vial","20","mL","fiole"
