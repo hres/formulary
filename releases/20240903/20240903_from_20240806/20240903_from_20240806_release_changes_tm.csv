@@ -1,0 +1,10 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002418,cilgavimab and tixagevimab,cilgavimab et tixagévimab,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20220419"" -> ""20240327"""
+8002475,camphor and lidocaine,camphre et lidocaïne,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20211001"" -> ""20220331"""
+8000916,acetylsalicylic acid and dipyridamole,acide acétylsalicylique et dipyridamole,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20000417"" -> ""20240731"""
+8001483,hyprolose,hyprolose,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20040525"" -> ""20240731"""
+8002512,landiolol,landiolol,ADDED
