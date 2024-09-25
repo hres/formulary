@@ -1,0 +1,8 @@
+tm_code,tm_formal_name,changes
+8002430,SARS-CoV-2 recombinant spike protein,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20240229"" -> ""20220331"""
+8001673,nilutamide,DELETED
+8002482,andusomeran,DELETED
+8002117,dextran 70 and polyethylene glycol 400 and povidone and tetrahydrozoline,"tm_status_effective_time: ""20050308"" -> ""20100830"""
+8002496,SARS-CoV-2 recombinant spike protein (omicron XBB.1.5),DELETED
+8002487,raxtozinameran,"tm_status_effective_time: ""20231010"" -> ""20231024"""

@@ -1,0 +1,66 @@
+drug_code,mp_code,mp_formal_name,changes
+14509,02026805,ROBAXACET (acetaminophen 325 mg and methocarbamol 400 mg oral tablet) HALEON CANADA ULC,"mp_formal_name: ""ROBAXACET (acetaminophen 325 mg and methocarbamol 400 mg oral tablet) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ROBAXACET (acetaminophen 325 mg and methocarbamol 400 mg oral tablet) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+37001,02214415,SPECTRO ECZEMACARE MEDICATED CREAM (clobetasone butyrate 0.05 % cutaneous cream) HALEON CANADA ULC,"mp_formal_name: ""SPECTRO ECZEMACARE MEDICATED CREAM (clobetasone butyrate 0.05 % cutaneous cream) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""SPECTRO ECZEMACARE MEDICATED CREAM (clobetasone butyrate 0.05 % cutaneous cream) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+43312,02221861,ANANDRON (nilutamide 50 mg oral tablet) CHEPLAPHARM ARZNEIMITTEL GMBH,DELETED
+61874,02238454,XELODA (capecitabine 500 mg oral tablet) CHEPLAPHARM ARZNEIMITTEL GMBH,DELETED
+73019,02248657,VISINE FOR RED EYE TRIPLE ACTION (dextran 70 0.1 % and polyethylene glycol 400 1 % and povidone 1 % and tetrahydrozoline hydrochloride 0.05 % ophthalmic drops) JOHNSON & JOHNSON INC,DELETED
+74816,02262800,STRATTERA (atomoxetine (atomoxetine hydrochloride) 10 mg oral capsule) ELI LILLY CANADA INC,DELETED
+75311,02267691,MEDI-WHITE PETROLATUM OINTMENT (white petrolatum 100 % cutaneous ointment) MEDISCA PHARMACEUTIQUE INC,DELETED
+76584,02280167,ASATAB 80 MG CHEWABLE TABLETS (acetylsalicylic acid 80 mg chewable tablet) ODAN LABORATORIES LTD,DELETED
+77503,02289695,CEFTRIAXONE FOR INJECTION (ceftriaxone (ceftriaxone sodium) 1 g per vial powder for solution for injection) FRESENIUS KABI CANADA LTD,ADDED
+77504,02289709,CEFTRIAXONE FOR INJECTION (ceftriaxone (ceftriaxone sodium) 2 g per vial powder for solution for injection) FRESENIUS KABI CANADA LTD,ADDED
+85467,02369753,PREZISTA (darunavir (darunavir ethanolate) 150 mg oral tablet) JANSSEN INC,DELETED
+90410,02419475,INFLECTRA (infliximab 100 mg per vial powder for solution for injection) CELLTRION INC.,"mp_formal_name: ""INFLECTRA (infliximab 100 mg per vial powder for solution for injection) CELLTRION H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲C̲O̲ ̲L̲T̲D̲"" -> ""INFLECTRA (infliximab 100 mg per vial powder for solution for injection) CELLTRION I̲N̲C̲.̲"""
+92041,02436086,VISINE FOR RED EYE WORKPLACE (dextran 70 0.1 % and polyethylene glycol 400 1 % and povidone 1 % and tetrahydrozoline hydrochloride 0.05 % ophthalmic drops) JOHNSON & JOHNSON INC,DELETED
+95111,02463202,"ACNE CLEARING TREATMENT (benzoyl peroxide 2.5 % lotion) / RODAN & FIELDS BEAUTY, LLC","mp_formal_name: ""ACNE CLEARING TREATMENT (benzoyl peroxide 2.5 % lotion) RODAN & FIELDS LLC"" -> ""ACNE CLEARING TREATMENT (benzoyl peroxide 2.5 % lotion) /̲ ̲RODAN & FIELDS ̲B̲E̲A̲U̲T̲Y̲,̲ LLC"""
+95112,02463210,"DAILY ACNE WASH (benzoyl peroxide 5 % cutaneous cream) / RODAN & FIELDS BEAUTY, LLC","mp_formal_name: ""DAILY ACNE WASH (benzoyl peroxide 5 % cutaneous cream) RODAN & FIELDS LLC"" -> ""DAILY ACNE WASH (benzoyl peroxide 5 % cutaneous cream) /̲ ̲RODAN & FIELDS ̲B̲E̲A̲U̲T̲Y̲,̲ LLC"""
+99346,02504006,SANDOZ OSELTAMIVIR (oseltamivir (oseltamivir phosphate) 30 mg oral capsule) SANDOZ CANADA INCORPORATED,"mp_formal_name: ""O̲S̲E̲L̲T̲A̲M̲I̲V̲I̲R̲ ̲P̲H̲O̲S̲P̲H̲A̲T̲E̲ ̲C̲A̲P̲S̲U̲L̲E̲S̲ (oseltamivir (oseltamivir phosphate) 30 mg oral capsule) ST̲R̲I̲D̲E̲S̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""S̲A̲N̲D̲O̲Z̲ ̲O̲S̲E̲L̲T̲A̲M̲I̲V̲I̲R̲ (oseltamivir (oseltamivir phosphate) 30 mg oral capsule) SA̲N̲D̲O̲Z̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲O̲R̲P̲O̲R̲A̲T̲E̲D̲"""
+99347,02504014,SANDOZ OSELTAMIVIR (oseltamivir (oseltamivir phosphate) 45 mg oral capsule) SANDOZ CANADA INCORPORATED,"mp_formal_name: ""O̲S̲E̲L̲T̲A̲M̲I̲V̲I̲R̲ ̲P̲H̲O̲S̲P̲H̲A̲T̲E̲ ̲C̲A̲P̲S̲U̲L̲E̲S̲ (oseltamivir (oseltamivir phosphate) 45 mg oral capsule) ST̲R̲I̲D̲E̲S̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""S̲A̲N̲D̲O̲Z̲ ̲O̲S̲E̲L̲T̲A̲M̲I̲V̲I̲R̲ (oseltamivir (oseltamivir phosphate) 45 mg oral capsule) SA̲N̲D̲O̲Z̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲O̲R̲P̲O̲R̲A̲T̲E̲D̲"""
+99348,02504022,SANDOZ OSELTAMIVIR (oseltamivir (oseltamivir phosphate) 75 mg oral capsule) SANDOZ CANADA INCORPORATED,"mp_formal_name: ""O̲S̲E̲L̲T̲A̲M̲I̲V̲I̲R̲ ̲P̲H̲O̲S̲P̲H̲A̲T̲E̲ ̲C̲A̲P̲S̲U̲L̲E̲S̲ (oseltamivir (oseltamivir phosphate) 75 mg oral capsule) ST̲R̲I̲D̲E̲S̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""S̲A̲N̲D̲O̲Z̲ ̲O̲S̲E̲L̲T̲A̲M̲I̲V̲I̲R̲ (oseltamivir (oseltamivir phosphate) 75 mg oral capsule) SA̲N̲D̲O̲Z̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲O̲R̲P̲O̲R̲A̲T̲E̲D̲"""
+101313,02524090,MINT-ONDANSETRON SOLUTION (ondansetron 4 mg per 5 mL oral solution) MINT PHARMACEUTICALS INC,ADDED
+101980,02530635,FULVESTRANT INJECTABLE (fulvestrant 50 mg per mL solution for injection) JAMP PHARMA CORPORATION,ADDED
+102144,02532409,REDDY-EVEROLIMUS (everolimus 2.5 mg oral tablet) DR REDDY'S LABORATORIES LTD,ADDED
+102145,02532417,REDDY-EVEROLIMUS (everolimus 5 mg oral tablet) DR REDDY'S LABORATORIES LTD,ADDED
+102147,02532433,REDDY-EVEROLIMUS (everolimus 10 mg oral tablet) DR REDDY'S LABORATORIES LTD,ADDED
+102529,02536536,DIMENHYDRINATE INJECTION USP (dimenhydrinate 50 mg per mL solution for injection) SANDOZ CANADA INCORPORATED,ADDED
+102542,02536676,TADALAFIL (tadalafil 2.5 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102543,02536684,TADALAFIL (tadalafil 5 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102544,02536692,TADALAFIL (tadalafil 10 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102545,02536706,TADALAFIL (tadalafil 20 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+102737,02538679,APO-BRIVARACETAM (brivaracetam 10 mg oral tablet) APOTEX INC,ADDED
+102739,02538687,APO-BRIVARACETAM (brivaracetam 25 mg oral tablet) APOTEX INC,ADDED
+102740,02538695,APO-BRIVARACETAM (brivaracetam 50 mg oral tablet) APOTEX INC,ADDED
+102741,02538709,APO-BRIVARACETAM (brivaracetam 75 mg oral tablet) APOTEX INC,ADDED
+102742,02538717,APO-BRIVARACETAM (brivaracetam 100 mg oral tablet) APOTEX INC,ADDED
+102761,02538954,COAL-TAR SHAMPOO (coal tar 0.5 % shampoo) SEAFORD PHARMACEUTICALS INC,ADDED
+102793,02539292,AURO-BRIVARACETAM (brivaracetam 50 mg oral tablet) AURO PHARMA INC,ADDED
+102794,02539306,AURO-BRIVARACETAM (brivaracetam 100 mg oral tablet) AURO PHARMA INC,ADDED
+102833,02539586,BIVALIRUDIN FOR INJECTION (bivalirudin 250 mg per vial powder for solution for injection) FORMATIVE PHARMA INC.,ADDED
+102992,02541270,SPIKEVAX XBB.1.5 (andusomeran 0.1 mg per mL dispersion for injection 2.5 mL vial) MODERNA BIOPHARMA CANADA CORPORATION,DELETED
+103021,02541572,TEVA-MIRTAZAPINE (mirtazapine 15 mg oral tablet) TEVA CANADA LIMITED,ADDED
+103022,02541580,TEVA-MIRTAZAPINE (mirtazapine 45 mg oral tablet) TEVA CANADA LIMITED,ADDED
+103158,02543087,JAMP PENTOXIFYLLINE SR (pentoxifylline 400 mg prolonged-release oral tablet) JAMP PHARMA CORPORATION,ADDED
+103196,02543508,JAMP NEBIVOLOL (nebivolol (nebivolol hydrochloride) 5 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103210,02543656,NUVAXOVID (SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 2.5 mL vial) NOVAVAX INC.,"mp_formal_name: ""NUVAXOVID X̲B̲B̲.̲1̲.̲5̲ ̲(SARS-CoV-2 recombinant spike protein ̲(̲o̲m̲i̲c̲r̲o̲n̲ ̲X̲B̲B̲.̲1̲.̲5̲)̲ 5 mcg per 0.5 mL suspension for injection 2.5 mL vial) NOVAVAX INC."" -> ""NUVAXOVID (SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 2.5 mL vial) NOVAVAX INC.""
+ntp_code: ""9015007"" -> ""44cc77c96701f85c257c30754e9dae2c""
+ntp_formal_name: ""SARS-CoV-2 recombinant spike protein ̲(̲o̲m̲i̲c̲r̲o̲n̲ ̲X̲B̲B̲.̲1̲.̲5̲)̲ 5 mcg per 0.5 mL suspension for injection 2.5 mL vial"" -> ""SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 2.5 mL vial""
+tm_code: ""8002496"" -> ""8002430""
+tm_formal_name: ""SARS-CoV-2 recombinant spike protein ̲(̲o̲m̲i̲c̲r̲o̲n̲ ̲X̲B̲B̲.̲1̲.̲5̲)̲"" -> ""SARS-CoV-2 recombinant spike protein"""
+103362,02545004,EYLEA HD (aflibercept 8 mg per 0.07 mL solution for injection) BAYER INC,ADDED
+103497,02546264,SANDOZ LISDEXAMFETAMINE CAPSULES (lisdexamfetamine dimesylate 30 mg oral capsule) SANDOZ CANADA INCORPORATED,ADDED
+103657,02547635,TARO-PALBOCICLIB (palbociclib 75 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+103658,02547643,TARO-PALBOCICLIB (palbociclib 100 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+103659,02547651,TARO-PALBOCICLIB (palbociclib 125 mg oral tablet) TARO PHARMACEUTICALS INC,ADDED
+103828,02549433,MAR-ESZOPICLONE (eszopiclone 1 mg oral tablet) MARCAN PHARMACEUTICALS INC,ADDED
+103829,02549441,MAR-ESZOPICLONE (eszopiclone 2 mg oral tablet) MARCAN PHARMACEUTICALS INC,ADDED
+103830,02549468,MAR-ESZOPICLONE (eszopiclone 3 mg oral tablet) MARCAN PHARMACEUTICALS INC,ADDED
+103908,02550245,STEQEYMA (ustekinumab 45 mg per 0.5 mL solution for injection) CELLTRION INC.,ADDED
+103909,02550253,STEQEYMA (ustekinumab 90 mg per 1 mL solution for injection) CELLTRION INC.,ADDED
+103910,02550261,STEQEYMA IV (ustekinumab 5 mg per mL solution for injection) CELLTRION INC.,ADDED
+NA,77700982,TARO-OXALIPLATIN (oxaliplatin 100 mg per 20 mL solution for injection vial) TARO PHARMACEUTICALS INC,DELETED
+NA,77700983,TARO-OXALIPLATIN (oxaliplatin 200 mg per 40 mL solution for injection vial) TARO PHARMACEUTICALS INC,DELETED
+NA,77700984,TARO-OXALIPLATIN (oxaliplatin 50 mg per 10 mL solution for injection vial) TARO PHARMACEUTICALS INC,DELETED
+NA,77701144,COMIRNATY OMICRON XBB.1.5 (raxtozinameran 30 mcg per 0.3 mL suspension for injection 0.3 mL vial) BIONTECH MANUFACTURING GMBH,DELETED
+NA,77701145,COMIRNATY OMICRON XBB.1.5 (raxtozinameran 30 mcg per 0.3 mL suspension for injection 1.8 mL vial) BIONTECH MANUFACTURING GMBH,DELETED
+NA,77701146,COMIRNATY OMICRON XBB.1.5 (raxtozinameran 10 mcg per 0.3 mL suspension for injection 0.3 mL vial) BIONTECH MANUFACTURING GMBH,DELETED
+NA,77701147,COMIRNATY OMICRON XBB.1.5 (raxtozinameran 10 mcg per 0.3 mL suspension for injection 1.8 mL vial) BIONTECH MANUFACTURING GMBH,DELETED

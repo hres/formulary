@@ -1,0 +1,23 @@
+ntp_code,ntp_formal_name,changes
+9014985,raxtozinameran 30 mcg per 0.3 mL suspension for injection 0.3 mL vial,DELETED
+9003139,nilutamide 50 mg oral tablet,DELETED
+9014936,andusomeran 0.1 mg per mL dispersion for injection 2.5 mL vial,DELETED
+9013539,coal tar 2 % cutaneous solution,"ntp_status_effective_time: ""20220202"" -> ""20240923"""
+9005019,darunavir 150 mg oral tablet,DELETED
+8a473d8af807bceb2889678a479835e4,aflibercept 8 mg per 0.07 mL solution for injection,ADDED
+4513cb753445fd49e76806aebfa3f6bb,ustekinumab 45 mg per 0.5 mL solution for injection,ADDED
+85aaa4ceb0ea21f554ab681fc4c9ec80,ustekinumab 5 mg per mL solution for injection,ADDED
+44cc77c96701f85c257c30754e9dae2c,SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 2.5 mL vial,ADDED
+9014986,raxtozinameran 30 mcg per 0.3 mL suspension for injection 1.8 mL vial,DELETED
+9001104,atomoxetine (atomoxetine hydrochloride) 10 mg oral capsule,"ntp_status_effective_time: ""20050224"" -> ""20100916"""
+9004025,dextran 70 0.1 % and polyethylene glycol 400 1 % and povidone 1 % and tetrahydrozoline hydrochloride 0.05 % ophthalmic drops,"ntp_status_effective_time: ""20050308"" -> ""20100830"""
+9003304,capecitabine 500 mg oral tablet,"ntp_status_effective_time: ""19980910"" -> ""20130819"""
+3b1049efd181b7d24799389eb57b9729,ondansetron 4 mg per 5 mL oral solution,ADDED
+9340599fdbb7251c95358f3b4d517c29,ustekinumab 90 mg per 1 mL solution for injection,ADDED
+9014984,raxtozinameran 10 mcg per 0.3 mL suspension for injection 1.8 mL vial,DELETED
+9015007,SARS-CoV-2 recombinant spike protein (omicron XBB.1.5) 5 mcg per 0.5 mL suspension for injection 2.5 mL vial,DELETED
+9014983,raxtozinameran 10 mcg per 0.3 mL suspension for injection 0.3 mL vial,DELETED
+056ac4934776bafc37340810bb1eb584,dimenhydrinate 50 mg per mL solution for injection,ADDED
+9014310,fulvestrant 50 mg per mL solution for injection,ADDED
+9003517,coal tar 0.5 % shampoo,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20230331"" -> ""20000901"""
