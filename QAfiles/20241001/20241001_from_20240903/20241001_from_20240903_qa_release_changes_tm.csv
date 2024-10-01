@@ -1,0 +1,31 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002154,potassium phosphate dibasic and potassium phosphate monobasic,phosphate de potassium dibasique et phosphate de potassium monobasique,ADDED
+8002496,SARS-CoV-2 recombinant spike protein (omicron XBB.1.5),protéine de spicule du SRAS-CoV-2 recombinante (Omicron XBB.1.5),DELETED
+8001673,nilutamide,nilutamide,DELETED
+8002282,fibrinogen human and thrombin human,fibrinogène humaine et thrombine humaine,ADDED
+8002161,sodium bicarbonate,bicarbonate de sodium,ADDED
+8001844,magnesium chloride,chlorure de magnésium,ADDED
+8001615,chloroxylenol,chloroxylénol,ADDED
+8002487,raxtozinameran,raxtozinaméran,"tm_status_effective_time: ""20231010"" -> ""20231024"""
+8002278,coagulation factor ii (human) and coagulation factor IX human and coagulation factor vii (human) and coagulation factor x (human) and protein c and protein s,facteur II de coagulation humain et facteur IX de coagulation humain et facteur VII de coagulation humain et facteur X de coagulation humain et protéine c et protéine s,ADDED
+8001579,benzethonium,benzéthonium,ADDED
+5cd55f1d56ef8c96d7b0c1e9c7a5821f,inebilizumab,inébilizumab,ADDED
+8002452,cytarabine and daunorubicin,cytarabine et daunorubicine,ADDED
+8001757,doxorubicin,doxorubicine,ADDED
+8002482,andusomeran,andusoméran,DELETED
+8001004,benzoyl peroxide and salicylic acid,peroxyde de benzoyle et acide salicylique,ADDED
+8002430,SARS-CoV-2 recombinant spike protein,protéine de spicule du SRAS-CoV-2 recombinante,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20240229"" -> ""20220331"""
+8002088,acetic acid and sodium acetate,acide acétique et acétate de sodium,ADDED
+8001976,triclosan,triclosan,ADDED
+8002047,paclitaxel,paclitaxel,ADDED
+8001870,potassium chloride,chlorure de potassium,ADDED
+8000796,benzalkonium,benzalkonium,ADDED
+8002160,sodium acetate,acétate de sodium,ADDED
+8001878,sodium iodide,iodure de sodium,ADDED
+fbb37ff1fb2ce689caea9a75b800ce9c,lebrikizumab,lébrikizumab,ADDED
+8002215,amphotericin B,amphotéricine B,ADDED
+8001476,follitropin beta,follitropine bêta,ADDED
+8002117,dextran 70 and polyethylene glycol 400 and povidone and tetrahydrozoline,dextran 70 et polyethylene glycol 400 et povidone et tétrahydrozoline,"tm_status_effective_time: ""20050308"" -> ""20100830"""
+8002046,oxytocin,oxytocine,"tm_status_effective_time: ""19811231"" -> ""19960814"""
+8000912,alcohol anhydrous and chlorhexidine,alcool anhydre et chlorhexidine,ADDED
