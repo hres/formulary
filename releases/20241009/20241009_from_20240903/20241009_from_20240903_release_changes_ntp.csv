@@ -1,0 +1,27 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9015080,aflibercept 8 mg per 0.07 mL solution for injection vial,"aflibercept 8 mg par 0,07 mL solution injectable fiole",ADDED
+9015007,SARS-CoV-2 recombinant spike protein (omicron XBB.1.5) 5 mcg per 0.5 mL suspension for injection 2.5 mL vial,"protéine de spicule du SRAS-CoV-2 recombinante (Omicron XBB,1,5) 5 mcg par 0,5 mL suspension injectable 2,5 mL fiole",DELETED
+9013486,oxytocin 10 unit per 1 mL solution for injection ampoule,oxytocine 10 unité par 1 mL solution injectable ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19811231"" -> ""20240925"""
+9003517,coal tar 0.5 % shampoo,"goudron de houille 0,5 % shampoing","ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20230331"" -> ""20000901"""
+9005019,darunavir 150 mg oral tablet,darunavir 150 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20120416"" -> ""20240301"""
+9014983,raxtozinameran 10 mcg per 0.3 mL suspension for injection 0.3 mL vial,"raxtozinaméran 10 mcg par 0,3 mL suspension injectable 0,3 mL fiole",DELETED
+9003139,nilutamide 50 mg oral tablet,nilutamide 50 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19970820"" -> ""20240803"""
+9001734,coal tar 10 % cutaneous gel,goudron de houille 10 % gel cutané,"ntp_status_effective_time: ""20220708"" -> ""20230131"""
+9014010,benzoyl peroxide 5 % cutaneous cream with benzoyl peroxide 2.5 % lotion,"peroxyde de benzoyle 5 % crème cutanée avec peroxyde de benzoyle 2,5 % lotion",DELETED
+9014986,raxtozinameran 30 mcg per 0.3 mL suspension for injection 1.8 mL vial,"raxtozinaméran 30 mcg par 0,3 mL suspension injectable 1,8 mL fiole",DELETED
+9014936,andusomeran 0.1 mg per mL dispersion for injection 2.5 mL vial,"andusoméran 0,1 mg par mL dispersion injectable 2,5 mL fiole",DELETED
+9013539,coal tar 2 % cutaneous solution,goudron de houille 2 % solution pour application cutanée,"ntp_status_effective_time: ""20220202"" -> ""20240923"""
+9014984,raxtozinameran 10 mcg per 0.3 mL suspension for injection 1.8 mL vial,"raxtozinaméran 10 mcg par 0,3 mL suspension injectable 1,8 mL fiole",DELETED
+9015083,methylphenidate hydrochloride 5 mg per mL powder for prolonged-release oral suspension,chlorhydrate de méthylphénidate 5 mg par mL poudre pour suspension orale à libération prolongée,ADDED
+9014987,raxtozinameran 3 mcg per 0.2 mL suspension for injection 2 mL vial,"raxtozinaméran 3 mcg par 0,2 mL suspension injectable 2 mL fiole","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20231024"" -> ""20240924"""
+9013489,oxytocin 50 unit per 5 mL solution for injection ampoule,oxytocine 50 unité par 5 mL solution injectable ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19811231"" -> ""20240925"""
+9015085,SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 2.5 mL vial,"protéine de spicule du SRAS-CoV-2 recombinante 5 mcg par 0,5 mL suspension injectable 2,5 mL fiole",ADDED
+9014985,raxtozinameran 30 mcg per 0.3 mL suspension for injection 0.3 mL vial,"raxtozinaméran 30 mcg par 0,3 mL suspension injectable 0,3 mL fiole",DELETED
+9013670,coal tar 10 % and salicylic acid 3 % cutaneous gel,goudron de houille 10 % et acide salicylique 3 % gel cutané,"ntp_status_effective_time: ""20230608"" -> ""20240430"""
+9014006,benzoyl peroxide 2.5 % cutaneous gel with benzoyl peroxide 2.5 % lotion,"peroxyde de benzoyle 2,5 % gel cutané avec peroxyde de benzoyle 2,5 % lotion",DELETED

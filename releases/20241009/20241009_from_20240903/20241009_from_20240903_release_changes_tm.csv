@@ -1,0 +1,10 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002487,raxtozinameran,raxtozinaméran,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20231010"" -> ""20240924"""
+8002482,andusomeran,andusoméran,DELETED
+8002430,SARS-CoV-2 recombinant spike protein,protéine de spicule du SRAS-CoV-2 recombinante,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20240229"" -> ""20220331"""
+8001673,nilutamide,nilutamide,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19970820"" -> ""20240803"""
+8002496,SARS-CoV-2 recombinant spike protein (omicron XBB.1.5),protéine de spicule du SRAS-CoV-2 recombinante (Omicron XBB.1.5),"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20231208"" -> ""20240924"""
