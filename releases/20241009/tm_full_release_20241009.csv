@@ -1643,7 +1643,6 @@ tm_code,tm_formal_name,tm_fr_description,tm_status,tm_status_effective_time
 "8002484","teclistamab","téclistamab","Active","20231020"
 "8002485","tremelimumab","trémélimumab","Active","20231023"
 "8002486","evinacumab","évinacumab","Active","20231121"
-"8002487","raxtozinameran","raxtozinaméran","Inactive","20240924"
 "8002488","tirzepatide","tirzépatide","Active","20231023"
 "8002489","cangrelor","cangrélor","Active","20231130"
 "8002490","cenobamate","cénobamate","Active","20231120"
@@ -1671,3 +1670,5 @@ tm_code,tm_formal_name,tm_fr_description,tm_status,tm_status_effective_time
 "8002496","SARS-CoV-2 recombinant spike protein (omicron XBB.1.5)","protéine de spicule du SRAS-CoV-2 recombinante (Omicron XBB.1.5)","Inactive","20240924"
 "8001756","docosanol","docosanol","Deprec","20231201"
 "8001659","glycopyrrolate","glycopyrrolate","Deprec","20190401"
+"8002487","SARSCOV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker","ARNm de SRASCOV2 S-protéine, 5'[m27,3'-oGppp(m12'-O)ApG], polyA 3'+liaison","Active","20231010"
+"8002482","SARSCOV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA","ARNm de SRASCOV2 S-protéine, 5'(m7G-5'-ppp-5'-Gm), polyA 3'","Active","20230918"
