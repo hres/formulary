@@ -1,4 +1,6 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"103236","vial","10","mL","Y","N","02543931","UPLIZNA HORIZON THERAPEUTICS IRELAND DAC","fiole"
+"103800","pen","2","mL","N","N","02549123","EBGLYSS ELI LILLY CANADA INC","stylo"
 "102529","vial","5","mL","Y","N","02536536","DIMENHYDRINATE INJECTION USP SANDOZ CANADA INCORPORATED","fiole"
 "103362","vial","0.07","mL","N","N","02545004","EYLEA HD BAYER INC","fiole"
 "101980","syringe","5","mL","Y","N","02530635","FULVESTRANT INJECTABLE JAMP PHARMA CORPORATION","seringue"
