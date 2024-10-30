@@ -1,0 +1,31 @@
+ntp_code,ntp_formal_name,changes
+9005560,darunavir 100 mg per mL oral suspension,DELETED
+9003928,ibuprofen 100 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension,DELETED
+fa176e7625a82ea8f2029a3e1f34916a,roflumilast 0.3 % NA,ADDED
+9013539,coal tar 2 % cutaneous solution,"ntp_status_effective_time: ""20240923"" -> ""20220203"""
+9000856,repaglinide 0.5 mg oral tablet,"ntp_status_effective_time: ""19990621"" -> ""20101018"""
+9001105,atomoxetine (atomoxetine hydrochloride) 18 mg oral capsule,"ntp_status_effective_time: ""20050224"" -> ""20100916"""
+9014983,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_formal_name: ""SARSCO̲V2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial"" -> ""SARSCo̲V2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial"""
+a285570678d54881cb2f5f21a2ad558f,hydralazine hydrochloride 20 mg per mL solution for injection,ADDED
+9014312,norepinephrine (norepinephrine bitartrate) 1 mg per mL solution for injection,ADDED
+ca2119e8d3e033df2da26266d4d331f7,omalizumab 75 mg per 0.5 mL solution for injection,ADDED
+9004995,indacaterol (indacaterol maleate) 75 mcg inhalation powder capsule,"ntp_status_effective_time: ""20170314"" -> ""20230512"""
+9014986,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_formal_name: ""SARSCO̲V2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial"" -> ""SARSCo̲V2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial"""
+9014932,rocuronium bromide 10 mg per mL solution for injection,ADDED
+6872dadba3805c6bc8406c9760c88c95,naloxone hydrochloride 0.4 mg per mL solution for injection,ADDED
+f51fb8ccf6099f5afca73ebc7e7e0c55,ondansetron (ondansetron hydrochloride) 2 mg per mL solution for injection,ADDED
+401fe8486bb0582d20a2f84265fe0170,lidocaine hydrochloride 2 % solution for injection,ADDED
+9014936,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial","ntp_formal_name: ""SARSCO̲V2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial"" -> ""SARSCo̲V2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial"""
+3b98dc16e31a75d7ad0329a4b0e0c149,alirocumab 300 mg per 2 mL solution for injection,ADDED
+9001302,atomoxetine (atomoxetine hydrochloride) 80 mg oral capsule,"ntp_status_effective_time: ""20091216"" -> ""20110719"""
+3e59b705dc7e7e3c21a18e378da502f1,lidocaine hydrochloride 1 % solution for injection,ADDED
+9015007,SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 2.5 mL vial,ADDED
+9000857,repaglinide 1 mg oral tablet,"ntp_status_effective_time: ""19990621"" -> ""20101018"""
+7b5b5f6d7c94d2f443f4169d37c98002,omalizumab 150 mg per 1 mL solution for injection,ADDED
+9014984,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_formal_name: ""SARSCO̲V2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial"" -> ""SARSCo̲V2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial"""
+cb6302e5672d53671ff0768ae0157b9e,heparin sodium 5000 unit per 0.5 mL solution for injection,ADDED
+9014987,raxtozinameran 3 mcg per 0.2 mL suspension for injection 2 mL vial,DELETED
+9002038,acetaminophen 160 mg per 5 mL syrup,"ntp_status_effective_time: ""20230712"" -> ""20241007"""
+18b97fa91a8503a322b7269490fbbe27,sildenafil (sildenafil citrate) 50 mg orodispersible film,ADDED
+9014985,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_formal_name: ""SARSCO̲V2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial"" -> ""SARSCo̲V2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial"""
+7579df700dcf6957805bb8e746740ced,dexmedetomidine (dexmedetomidine hydrochloride) 100 mcg per mL solution for injection,ADDED

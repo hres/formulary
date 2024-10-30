@@ -1,0 +1,127 @@
+drug_code,mp_code,mp_formal_name,changes
+874,00030570,DALACIN C 150 MG (clindamycin (clindamycin hydrochloride) 150 mg oral capsule) PFIZER CANADA ULC,"mp_status_effective_time: ""20220801"" -> ""20241024"""
+11254,00779806,NIODAN 500 MG TIME RELEASE TABLETS (nicotinic acid 500 mg prolonged-release oral tablet) ODAN LABORATORIES LTD,"mp_status_effective_time: ""20180711"" -> ""20180712"""
+12743,01946986,UNISOM (diphenhydramine hydrochloride 50 mg oral tablet) ENDO OPERATIONS LTD.,"mp_formal_name: ""UNISOM (diphenhydramine hydrochloride 50 mg oral tablet) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""UNISOM (diphenhydramine hydrochloride 50 mg oral tablet) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+19064,02177587,PMS-FLUOXETINE (fluoxetine (fluoxetine hydrochloride) 20 mg oral capsule) PHARMASCIENCE INC,"Health_Canada_product_name: ""PMS-FLUOXETINE - CAP 20MG"" -> ""PMS-FLUOXETINE""
+mp_formal_name: ""PMS-FLUOXETINE ̲-̲ ̲C̲A̲P̲ ̲2̲0̲M̲G̲ (fluoxetine (fluoxetine hydrochloride) 20 mg oral capsule) PHARMASCIENCE INC"" -> ""PMS-FLUOXETINE (fluoxetine (fluoxetine hydrochloride) 20 mg oral capsule) PHARMASCIENCE INC"""
+19074,02177579,PMS-FLUOXETINE (fluoxetine (fluoxetine hydrochloride) 10 mg oral capsule) PHARMASCIENCE INC,"Health_Canada_product_name: ""PMS-FLUOXETINE - CAP 10MG"" -> ""PMS-FLUOXETINE""
+mp_formal_name: ""PMS-FLUOXETINE ̲-̲ ̲C̲A̲P̲ ̲1̲0̲M̲G̲ (fluoxetine (fluoxetine hydrochloride) 10 mg oral capsule) PHARMASCIENCE INC"" -> ""PMS-FLUOXETINE (fluoxetine (fluoxetine hydrochloride) 10 mg oral capsule) PHARMASCIENCE INC"""
+42066,00875996,TEMPRA DOUBLE STRENGTH CHILDREN'S SYRUP (acetaminophen 160 mg per 5 mL syrup) ENDO OPERATIONS LTD.,"mp_formal_name: ""TEMPRA DOUBLE STRENGTH CHILDREN'S SYRUP (acetaminophen 160 mg per 5 mL syrup) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""TEMPRA DOUBLE STRENGTH CHILDREN'S SYRUP (acetaminophen 160 mg per 5 mL syrup) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲.""
+mp_status_effective_time: ""20230712"" -> ""20241007"""
+46803,01900978,REACTINE 20 MG TABLET (cetirizine hydrochloride 20 mg oral tablet) MCNEIL CONSUMER HEALTHCARE DIVISION OF JOHNSON & JOHNSON INC,"Health_Canada_product_name: ""REACTINE 20MG TABLET"" -> ""REACTINE 20 MG TABLET""
+mp_formal_name: ""REACTINE 20MG TABLET (cetirizine hydrochloride 20 mg oral tablet) MCNEIL CONSUMER HEALTHCARE DIVISION OF JOHNSON & JOHNSON INC"" -> ""REACTINE 20 ̲MG TABLET (cetirizine hydrochloride 20 mg oral tablet) MCNEIL CONSUMER HEALTHCARE DIVISION OF JOHNSON & JOHNSON INC"""
+50227,02230949,ROBAXISAL EXTRA STRENGTH (acetylsalicylic acid 500 mg and methocarbamol 400 mg oral tablet) HALEON CANADA ULC,"mp_formal_name: ""ROBAXISAL EXTRA STRENGTH (acetylsalicylic acid 500 mg and methocarbamol 400 mg oral tablet) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ROBAXISAL EXTRA STRENGTH (acetylsalicylic acid 500 mg and methocarbamol 400 mg oral tablet) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+60014,02236728,CHILDREN'S ACETAMINOPHEN SUSPENSION (acetaminophen 160 mg per 5 mL oral suspension) PERRIGO INTERNATIONAL,DELETED
+63424,02239924,GLUCONORM 0.5MG (repaglinide 0.5 mg oral tablet) NOVO NORDISK CANADA INC,DELETED
+63425,02239925,GLUCONORM 1.0MG (repaglinide 1 mg oral tablet) NOVO NORDISK CANADA INC,DELETED
+66289,02242538,TEVA-DILTIAZEM CD (diltiazem hydrochloride 120 mg modified-release oral capsule) TEVA CANADA LIMITED,"mp_formal_name: ""TEVA-DILTIAZEM CD (diltiazem hydrochloride 120 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) TEVA CANADA LIMITED"" -> ""TEVA-DILTIAZEM CD (diltiazem hydrochloride 120 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) TEVA CANADA LIMITED"""
+66290,02242539,TEVA-DILTIAZEM CD (diltiazem hydrochloride 180 mg modified-release oral capsule) TEVA CANADA LIMITED,"mp_formal_name: ""TEVA-DILTIAZEM CD (diltiazem hydrochloride 180 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) TEVA CANADA LIMITED"" -> ""TEVA-DILTIAZEM CD (diltiazem hydrochloride 180 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) TEVA CANADA LIMITED"""
+66291,02242540,TEVA-DILTIAZEM CD (diltiazem hydrochloride 240 mg modified-release oral capsule) TEVA CANADA LIMITED,"mp_formal_name: ""TEVA-DILTIAZEM CD (diltiazem hydrochloride 240 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) TEVA CANADA LIMITED"" -> ""TEVA-DILTIAZEM CD (diltiazem hydrochloride 240 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) TEVA CANADA LIMITED"""
+66292,02242541,TEVA-DILTIAZEM CD (diltiazem hydrochloride 300 mg modified-release oral capsule) TEVA CANADA LIMITED,"mp_formal_name: ""TEVA-DILTIAZEM CD (diltiazem hydrochloride 300 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) TEVA CANADA LIMITED"" -> ""TEVA-DILTIAZEM CD (diltiazem hydrochloride 300 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) TEVA CANADA LIMITED"""
+72786,02248435,CHILDREN'S ADVIL COLD (ibuprofen 100 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension) GLAXOSMITHKLINE CONSUMER HEALTHCARE ULC,DELETED
+74817,02262819,STRATTERA (atomoxetine (atomoxetine hydrochloride) 18 mg oral capsule) ELI LILLY CANADA INC,DELETED
+74839,02262983,SUPEUDOL 20 (oxycodone hydrochloride 20 mg oral tablet) SANDOZ CANADA INCORPORATED,"Health_Canada_product_name: ""SUPEUDOL"" -> ""SUPEUDOL 20""
+mp_formal_name: ""SUPEUDOL (oxycodone hydrochloride 20 mg oral tablet) SANDOZ CANADA INCORPORATED"" -> ""SUPEUDOL ̲2̲0̲ (oxycodone hydrochloride 20 mg oral tablet) SANDOZ CANADA INCORPORATED"""
+76495,02279347,STRATTERA (atomoxetine (atomoxetine hydrochloride) 80 mg oral capsule) ELI LILLY CANADA INC,DELETED
+83598,02350777,NAPROXEN (naproxen 500 mg oral tablet) SANIS HEALTH INC,DELETED
+83851,02353318,CIPROFLOXACIN (ciprofloxacin (ciprofloxacin hydrochloride) 250 mg oral tablet) SANIS HEALTH INC,DELETED
+84377,02358743,"NOREPINEPHRINE BITARTRATE INJECTION, USP (norepinephrine (norepinephrine bitartrate) 1 mg per mL solution for injection) STERIMAX INC",ADDED
+85416,02369222,AG-AMLODIPINE (amlodipine (amlodipine besylate) 2.5 mg oral tablet) ANGITA PHARMA INC.,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20231220"" -> ""20180606"""
+85560,02370441,TEVA-DILTIAZEM T (diltiazem hydrochloride 120 mg prolonged-release oral capsule) TEVA CANADA LIMITED,"Health_Canada_product_name: ""ACT DILTIAZEM T"" -> ""TEVA-DILTIAZEM T""
+mp_formal_name: ""A̲C̲T̲ ̲DILTIAZEM T (diltiazem hydrochloride 120 mg prolonged-release oral capsule) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲DILTIAZEM T (diltiazem hydrochloride 120 mg prolonged-release oral capsule) TEVA CANADA LIMITED"""
+85564,02370492,TEVA-DILTIAZEM T (diltiazem hydrochloride 180 mg prolonged-release oral capsule) TEVA CANADA LIMITED,"Health_Canada_product_name: ""ACT DILTIAZEM T"" -> ""TEVA-DILTIAZEM T""
+mp_formal_name: ""A̲C̲T̲ ̲DILTIAZEM T (diltiazem hydrochloride 180 mg prolonged-release oral capsule) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲DILTIAZEM T (diltiazem hydrochloride 180 mg prolonged-release oral capsule) TEVA CANADA LIMITED"""
+85565,02370506,TEVA-DILTIAZEM T (diltiazem hydrochloride 240 mg prolonged-release oral capsule) TEVA CANADA LIMITED,"Health_Canada_product_name: ""ACT DILTIAZEM T"" -> ""TEVA-DILTIAZEM T""
+mp_formal_name: ""A̲C̲T̲ ̲DILTIAZEM T (diltiazem hydrochloride 240 mg prolonged-release oral capsule) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲DILTIAZEM T (diltiazem hydrochloride 240 mg prolonged-release oral capsule) TEVA CANADA LIMITED"""
+85566,02370514,TEVA-DILTIAZEM T (diltiazem hydrochloride 300 mg prolonged-release oral capsule) TEVA CANADA LIMITED,"Health_Canada_product_name: ""ACT DILTIAZEM T"" -> ""TEVA-DILTIAZEM T""
+mp_formal_name: ""A̲C̲T̲ ̲DILTIAZEM T (diltiazem hydrochloride 300 mg prolonged-release oral capsule) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲DILTIAZEM T (diltiazem hydrochloride 300 mg prolonged-release oral capsule) TEVA CANADA LIMITED"""
+85567,02370522,TEVA-DILTIAZEM T (diltiazem hydrochloride 360 mg prolonged-release oral capsule) TEVA CANADA LIMITED,"Health_Canada_product_name: ""ACT DILTIAZEM T"" -> ""TEVA-DILTIAZEM T""
+mp_formal_name: ""A̲C̲T̲ ̲DILTIAZEM T (diltiazem hydrochloride 360 mg prolonged-release oral capsule) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲DILTIAZEM T (diltiazem hydrochloride 360 mg prolonged-release oral capsule) TEVA CANADA LIMITED"""
+85947,02374277,VICKS NYQUIL COLD & FLU NIGHTTIME RELIEF (acetaminophen 650 mg per 30 mL and dextromethorphan hydrobromide 30 mg per 30 mL and doxylamine succinate 12.5 mg per 30 mL oral solution) PROCTER & GAMBLE INC,"Health_Canada_product_name: ""VICKS NYQUIL COLD & FLU NIGHTTIME RELIEF"" -> ""VICKS NYQUIL COLD & FLU"""
+86250,02376938,ONBREZ BREEZHALER (indacaterol (indacaterol maleate) 75 mcg inhalation powder capsule) NOVARTIS PHARMACEUTICALS CANADA INC,"mp_status_effective_time: ""20170314"" -> ""20230512"""
+87817,02392909,MAR-FLUOXETINE (fluoxetine (fluoxetine hydrochloride) 10 mg oral capsule) MARCAN PHARMACEUTICALS INC,"mp_status_effective_time: ""20180614"" -> ""20241021"""
+87818,02392917,MAR-FLUOXETINE (fluoxetine (fluoxetine hydrochloride) 20 mg oral capsule) MARCAN PHARMACEUTICALS INC,"mp_status_effective_time: ""20180614"" -> ""20241021"""
+87828,02393034,NALOXONE HYDROCHLORIDE INJECTION (naloxone hydrochloride (naloxone hydrochloride dihydrate) 0.4 mg per 1 mL solution for injection vial) OMEGA LABORATORIES LIMITED,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20210723"" -> ""20131003"""
+87843,02393190,VOLTAREN EMULGEL EXTRA STRENGTH (diclofenac diethylamine 2.32 % cutaneous gel) HALEON CANADA ULC,"mp_formal_name: ""VOLTAREN EMULGEL EXTRA STRENGTH (diclofenac diethylamine 2.32 % cutaneous gel) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""VOLTAREN EMULGEL EXTRA STRENGTH (diclofenac diethylamine 2.32 % cutaneous gel) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+88592,02401193,ADVIL FLU (diphenhydramine hydrochloride 25 mg and ibuprofen 200 mg oral capsule) HALEON CANADA ULC,"Health_Canada_product_name: ""ADVIL COLD, COUGH & FLU NIGHTTIME"" -> ""ADVIL FLU""
+mp_formal_name: ""ADVIL C̲O̲L̲D̲,̲ ̲C̲O̲U̲G̲H̲ ̲&̲ ̲FLU ̲N̲I̲G̲H̲T̲T̲I̲M̲E̲ (diphenhydramine hydrochloride 25 mg and ibuprofen 200 mg oral capsule) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ADVIL FLU (diphenhydramine hydrochloride 25 mg and ibuprofen 200 mg oral capsule) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+88801,02403196,TEVA-CLARITHROMYCIN XL (clarithromycin 500 mg prolonged-release oral tablet) TEVA CANADA LIMITED,"Health_Canada_product_name: ""ACT CLARITHROMYCIN XL"" -> ""TEVA-CLARITHROMYCIN XL""
+mp_formal_name: ""A̲C̲T̲ ̲CLARITHROMYCIN XL (clarithromycin 500 mg prolonged-release oral tablet) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲CLARITHROMYCIN XL (clarithromycin 500 mg prolonged-release oral tablet) TEVA CANADA LIMITED"""
+90113,02416530,PREZISTA (darunavir (darunavir ethanolate) 100 mg per mL oral suspension) JANSSEN INC,DELETED
+92853,02443783,COLGATE TOTAL (cetylpyridinium chloride 0.07 % mouthwash) COLGATE-PALMOLIVE CANADA INC,"Health_Canada_product_name: ""COLGATE TOTAL"" -> ""COLGATE TOTAL ACTIVE PREVENTION"""
+93543,02449609,OPTI-TEARS RED EYE (naphazoline hydrochloride 0.1 % ophthalmic drops) ALCON CANADA INC,DELETED
+94499,02457962,MINT-LEVOCARB (carbidopa 25 mg and levodopa 100 mg oral tablet) MINT PHARMACEUTICALS INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20171208"" -> ""20161103"""
+94601,02458837,DOAK OIL (coal tar 2 % cutaneous solution) ODAN LABORATORIES LTD,"mp_status_effective_time: ""20240923"" -> ""20220203"""
+95325,02465043,VOLTAREN EMULGEL JOINT PAIN EXTRA STRENGTH (diclofenac diethylamine 2.32 % cutaneous gel) HALEON CANADA ULC,"mp_formal_name: ""VOLTAREN EMULGEL JOINT PAIN EXTRA STRENGTH (diclofenac diethylamine 2.32 % cutaneous gel) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""VOLTAREN EMULGEL JOINT PAIN EXTRA STRENGTH (diclofenac diethylamine 2.32 % cutaneous gel) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+97945,02489368,LATANOPROST AND TIMOLOL OPHTHALMIC SOLUTION (latanoprost 50 mcg per mL and timolol (timolol maleate) 5 mg per mL ophthalmic drops) HIKMA CANADA LIMITED,DELETED
+99357,02504138,NRA-TELMISARTAN/HCTZ (hydrochlorothiazide 25 mg and telmisartan 80 mg oral tablet) NORA PHARMA INC,"Health_Canada_product_name: ""NRA-TELMISARTAN HCTZ"" -> ""NRA-TELMISARTAN/HCTZ""
+mp_formal_name: ""NRA-TELMISARTAN ̲HCTZ (hydrochlorothiazide 25 mg and telmisartan 80 mg oral tablet) NORA PHARMA INC"" -> ""NRA-TELMISARTAN/̲HCTZ (hydrochlorothiazide 25 mg and telmisartan 80 mg oral tablet) NORA PHARMA INC"""
+99358,02504146,NRA-TELMISARTAN/HCTZ (hydrochlorothiazide 12.5 mg and telmisartan 80 mg oral tablet) NORA PHARMA INC,"Health_Canada_product_name: ""NRA-TELMISARTAN HCTZ"" -> ""NRA-TELMISARTAN/HCTZ""
+mp_formal_name: ""NRA-TELMISARTAN ̲HCTZ (hydrochlorothiazide 12.5 mg and telmisartan 80 mg oral tablet) NORA PHARMA INC"" -> ""NRA-TELMISARTAN/̲HCTZ (hydrochlorothiazide 12.5 mg and telmisartan 80 mg oral tablet) NORA PHARMA INC"""
+99555,02506211,HERZUMA (trastuzumab 150 mg per vial powder for solution for injection) CELLTRION INC.,"mp_formal_name: ""HERZUMA (trastuzumab 150 mg per vial powder for solution for injection) CELLTRION H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲C̲O̲ ̲L̲T̲D̲"" -> ""HERZUMA (trastuzumab 150 mg per vial powder for solution for injection) CELLTRION I̲N̲C̲.̲"""
+101145,02522314,NRA-LURASIDONE (lurasidone hydrochloride 20 mg oral tablet) NORA PHARMA INC,ADDED
+101146,02522322,NRA-LURASIDONE (lurasidone hydrochloride 40 mg oral tablet) NORA PHARMA INC,ADDED
+101147,02522330,NRA-LURASIDONE (lurasidone hydrochloride 60 mg oral tablet) NORA PHARMA INC,ADDED
+101148,02522349,NRA-LURASIDONE (lurasidone hydrochloride 80 mg oral tablet) NORA PHARMA INC,ADDED
+101786,02528657,ROCURONIUM BROMIDE INJECTION (rocuronium bromide 10 mg per mL solution for injection) EUGIA PHARMA INC.,ADDED
+101790,02528703,PIPERACILLIN AND TAZOBACTAM FOR INJECTION (piperacillin (piperacillin sodium) 3 g per vial and tazobactam (tazobactam sodium) 0.375 g per vial powder for solution for injection) EUGIA PHARMA INC.,ADDED
+101791,02528711,PIPERACILLIN AND TAZOBACTAM FOR INJECTION (piperacillin (piperacillin sodium) 4 g per vial and tazobactam (tazobactam sodium) 0.5 g per vial powder for solution for injection) EUGIA PHARMA INC.,ADDED
+101793,02528746,PEMETREXED DISODIUM FOR INJECTION (pemetrexed (pemetrexed disodium) 100 mg per vial powder for solution for injection) EUGIA PHARMA INC.,ADDED
+101794,02528754,PEMETREXED DISODIUM FOR INJECTION (pemetrexed (pemetrexed disodium) 500 mg per vial powder for solution for injection) EUGIA PHARMA INC.,ADDED
+101806,02528886,DEXMEDETOMIDINE HYDROCHLORIDE FOR INJECTION (dexmedetomidine (dexmedetomidine hydrochloride) 100 mcg per mL solution for injection) EUGIA PHARMA INC.,ADDED
+101959,02530414,COLGATE TOTAL ACTIVE PREVENTION GUM HEALTH (cetylpyridinium chloride 0.075 % mouthwash) COLGATE-PALMOLIVE CANADA INC,"Health_Canada_product_name: ""COLGATE TOTAL GUM HEALTH"" -> ""COLGATE TOTAL ACTIVE PREVENTION GUM HEALTH""
+mp_formal_name: ""COLGATE TOTAL GUM HEALTH (cetylpyridinium chloride 0.075 % mouthwash) COLGATE-PALMOLIVE CANADA INC"" -> ""COLGATE TOTAL ̲A̲C̲T̲I̲V̲E̲ ̲P̲R̲E̲V̲E̲N̲T̲I̲O̲N̲ GUM HEALTH (cetylpyridinium chloride 0.075 % mouthwash) COLGATE-PALMOLIVE CANADA INC"""
+101963,02530449,LIDOCAINE INJECTION BP (lidocaine hydrochloride 1 % solution for injection) EUGIA PHARMA INC.,ADDED
+101964,02530457,LIDOCAINE INJECTION BP (lidocaine hydrochloride 2 % solution for injection) EUGIA PHARMA INC.,ADDED
+102056,02531429,"AZITHROMYCIN FOR INJECTION, USP (azithromycin (azithromycin monohydrate) 500 mg per vial powder for solution for injection) EUGIA PHARMA INC.",ADDED
+102199,02532999,"VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP (vancomycin (vancomycin hydrochloride) 500 mg per vial powder for solution for injection) EUGIA PHARMA INC.",ADDED
+102202,02533006,"VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP (vancomycin (vancomycin hydrochloride) 1 g per vial powder for solution for injection) EUGIA PHARMA INC.",ADDED
+102260,02533626,JACK & JILL MULTI-SYMPTOM COLD & COUGH (dextromethorphan hydrobromide 7.5 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL syrup) HALEON CANADA ULC,ADDED
+102648,02537699,"HYDRALAZINE HYDROCHLORIDE INJECTION, USP (hydralazine hydrochloride 20 mg per mL solution for injection) EUGIA PHARMA INC.",ADDED
+102992,02541270,"SPIKEVAX (SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial) MODERNA BIOPHARMA CANADA CORPORATION","Health_Canada_product_name: ""SPIKEVAX XBB.1.5"" -> ""SPIKEVAX""
+mp_formal_name: ""SPIKEVAX (SARSCO̲V2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial) MODERNA BIOPHARMA CANADA CORPORATION"" -> ""SPIKEVAX (SARSCo̲V2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial) MODERNA BIOPHARMA CANADA CORPORATION"""
+103019,02541556,AURO-BILASTINE (bilastine 20 mg oral tablet) AURO PHARMA INC,ADDED
+103047,02541866,COMIRNATY OMICRON XBB.1.5 (raxtozinameran 3 mcg per 0.2 mL suspension for injection 2 mL vial) BIONTECH MANUFACTURING GMBH,DELETED
+103060,02542005,BENDAMUSTINE HYDROCHLORIDE FOR INJECTION (bendamustine hydrochloride 100 mg per vial powder for solution for injection) EUGIA PHARMA INC.,ADDED
+103210,02543656,NUVAXOVID (SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 2.5 mL vial) NOVAVAX INC.,"mp_formal_name: ""NUVAXOVID (SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 5 mL vial) NOVAVAX INC."" -> ""NUVAXOVID (SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 2̲.̲5 mL vial) NOVAVAX INC."""
+103240,02543990,PRO-DUTASTERIDE (dutasteride 0.5 mg oral capsule) PRO DOC LIMITEE,ADDED
+103270,02544172,VIAGRA (sildenafil (sildenafil citrate) 50 mg orodispersible film) BGP PHARMA ULC,ADDED
+103292,02544369,GLN-BILASTINE (bilastine 20 mg oral tablet) GLENMARK PHARMACEUTICALS CANADA INC.,ADDED
+103346,02544822,EUGIA-ONDANSETRON INJECTION (ondansetron (ondansetron hydrochloride dihydrate) 2 mg per mL solution for injection) EUGIA PHARMA INC.,ADDED
+103347,02544830,EUGIA-ONDANSETRON INJECTION (ondansetron (ondansetron hydrochloride dihydrate) 2 mg per mL solution for injection) EUGIA PHARMA INC.,ADDED
+103392,02545136,XOLAIR (omalizumab 75 mg per 0.5 mL solution for injection) NOVARTIS PHARMACEUTICALS CANADA INC,ADDED
+103393,02545144,XOLAIR (omalizumab 150 mg per 1 mL solution for injection) NOVARTIS PHARMACEUTICALS CANADA INC,ADDED
+103407,02545292,JAMP SUMATRIPTAN DF (sumatriptan (sumatriptan succinate) 25 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103408,02545306,JAMP SUMATRIPTAN DF (sumatriptan (sumatriptan succinate) 50 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103409,02545314,JAMP SUMATRIPTAN DF (sumatriptan (sumatriptan succinate) 100 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103547,02546795,JAMP BILASTINE (bilastine 20 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103576,02547112,M-MIDODRINE (midodrine hydrochloride 2.5 mg oral tablet) MANTRA PHARMA INC,ADDED
+103583,02547198,JAMP CEFUROXIME (cefuroxime (cefuroxime axetil) 250 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103584,02547201,JAMP CEFUROXIME (cefuroxime (cefuroxime axetil) 500 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103590,02547279,MAR-BILASTINE (bilastine 20 mg oral tablet) MARCAN PHARMACEUTICALS INC,ADDED
+103593,02547309,MINT-METFORMIN XR (metformin hydrochloride 500 mg prolonged-release oral tablet) MINT PHARMACEUTICALS INC,ADDED
+103661,02547686,CYCLOPHOSPHAMIDE FOR INJECTION USP (cyclophosphamide 1000 mg per vial powder for solution for injection) STERIMAX INC,ADDED
+103662,02547694,CYCLOPHOSPHAMIDE FOR INJECTION USP (cyclophosphamide 2000 mg per vial powder for solution for injection) STERIMAX INC,ADDED
+103666,02547732,PRALUENT (alirocumab 300 mg per 2 mL solution for injection) SANOFI-AVENTIS CANADA INC,ADDED
+103708,02548194,NALOXONE HYDROCHLORIDE INJECTION USP (naloxone hydrochloride 0.4 mg per mL solution for injection) STERINOVA INC.,ADDED
+103730,02548410,M-BILASTINE (bilastine 20 mg oral tablet) MANTRA PHARMA INC,ADDED
+103735,02548488,HEPARIN SODIUM INJECTION USP (heparin sodium 5000 unit per 0.5 mL solution for injection) STERIMAX INC,ADDED
+103931,02550504,MAR-METFORMIN XR (metformin hydrochloride 500 mg prolonged-release oral tablet) MARCAN PHARMACEUTICALS INC,ADDED
+103932,02550512,MAR-METFORMIN XR (metformin hydrochloride 1000 mg prolonged-release oral tablet) MARCAN PHARMACEUTICALS INC,ADDED
+104081,02552124,PMS-PALBOCICLIB (palbociclib 75 mg oral tablet) PHARMASCIENCE INC,ADDED
+104082,02552132,PMS-PALBOCICLIB (palbociclib 100 mg oral tablet) PHARMASCIENCE INC,ADDED
+104083,02552140,PMS-PALBOCICLIB (palbociclib 125 mg oral tablet) PHARMASCIENCE INC,ADDED
+104152,02552566,"ZORYVE (roflumilast 0.3 % NA) ARCUTIS CANADA, INC.",ADDED
+NA,77701075,RIABNI (rituximab 100 mg per 10 mL solution for injection vial) AMGEN CANADA INC,"mp_status_effective_time: ""20231203"" -> ""20241010"""
+NA,77701076,RIABNI (rituximab 500 mg per 50 mL solution for injection vial) AMGEN CANADA INC,"mp_status_effective_time: ""20231203"" -> ""20241010"""
+NA,77701144,"COMIRNATY (SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial) BIONTECH MANUFACTURING GMBH","Health_Canada_product_name: ""COMIRNATY OMICRON XBB.1.5"" -> ""COMIRNATY""
+mp_formal_name: ""COMIRNATY (SARSCO̲V2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial) BIONTECH MANUFACTURING GMBH"" -> ""COMIRNATY (SARSCo̲V2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial) BIONTECH MANUFACTURING GMBH"""
+NA,77701145,"COMIRNATY (SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial) BIONTECH MANUFACTURING GMBH","Health_Canada_product_name: ""COMIRNATY OMICRON XBB.1.5"" -> ""COMIRNATY""
+mp_formal_name: ""COMIRNATY (SARSCO̲V2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial) BIONTECH MANUFACTURING GMBH"" -> ""COMIRNATY (SARSCo̲V2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial) BIONTECH MANUFACTURING GMBH"""
+NA,77701146,"COMIRNATY (SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial) BIONTECH MANUFACTURING GMBH","Health_Canada_product_name: ""COMIRNATY OMICRON XBB.1.5"" -> ""COMIRNATY""
+mp_formal_name: ""COMIRNATY (SARSCO̲V2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial) BIONTECH MANUFACTURING GMBH"" -> ""COMIRNATY (SARSCo̲V2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial) BIONTECH MANUFACTURING GMBH"""
+NA,77701147,"COMIRNATY (SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial) BIONTECH MANUFACTURING GMBH","Health_Canada_product_name: ""COMIRNATY OMICRON XBB.1.5"" -> ""COMIRNATY""
+mp_formal_name: ""COMIRNATY (SARSCO̲V2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial) BIONTECH MANUFACTURING GMBH"" -> ""COMIRNATY (SARSCo̲V2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial) BIONTECH MANUFACTURING GMBH"""
