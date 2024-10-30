@@ -1850,7 +1850,7 @@ code,formal_name,formal_name_fr
 "8002484","teclistamab","téclistamab"
 "8002485","tremelimumab","trémélimumab"
 "8002486","evinacumab","évinacumab"
-"8002487","SARSCoV2 S-protein mRNA, 5'[m27,3'-OGppp(m12'-O)ApG], 3'polyA+linker","ARNm de SRASCOV2 S-protéine, 5'[m27,3'-oGppp(m12'-O)ApG], polyA 3'+liaison"
+"8002487","SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker","ARNm de SRASCOV2 S-protéine, 5'[m27,3'-oGppp(m12'-O)ApG], polyA 3'+liaison"
 "8002488","tirzepatide","tirzépatide"
 "8002489","cangrelor","cangrélor"
 "8002490","cenobamate","cénobamate"
