@@ -1,0 +1,31 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8001084,indacaterol,indacatérol,"tm_status_effective_time: ""20170314"" -> ""20230512"""
+8002154,potassium phosphate dibasic and potassium phosphate monobasic,phosphate de potassium dibasique et phosphate de potassium monobasique,ADDED
+8002513,inebilizumab,inébilizumab,ADDED
+8002282,fibrinogen human and thrombin human,fibrinogène humaine et thrombine humaine,ADDED
+8002161,sodium bicarbonate,bicarbonate de sodium,ADDED
+60c2659ea43a5d1fb493d2a03d1679e8,calaspargase pegol,calaspargase pégol,ADDED
+8002225,amphetamine mixed salts,sels mixtes d'amphétamine,"tm_fr_description: ""sels mixtes d’̲amphétamine"" -> ""sels mixtes d'̲amphétamine"""
+8001844,magnesium chloride,chlorure de magnésium,ADDED
+8001615,chloroxylenol,chloroxylénol,ADDED
+8002278,coagulation factor ii (human) and coagulation factor IX human and coagulation factor vii (human) and coagulation factor x (human) and protein c and protein s,facteur II de coagulation humain et facteur IX de coagulation humain et facteur VII de coagulation humain et facteur X de coagulation humain et protéine c et protéine s,ADDED
+8001579,benzethonium,benzéthonium,ADDED
+8002482,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA","ARNm de SRASCOV2 S-protéine, 5'(m7G-5'-ppp-5'-Gm), polyA 3'","tm_formal_name: ""SARSCO̲V2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA"" -> ""SARSCo̲V2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA"""
+8002452,cytarabine and daunorubicin,cytarabine et daunorubicine,ADDED
+bccbeb8be0ee50eda3295989e73d60e1,raxtozinameran,raxtozinaméran,CHANGED
+8001757,doxorubicin,doxorubicine,ADDED
+8002514,lebrikizumab,lébrikizumab,ADDED
+8001004,benzoyl peroxide and salicylic acid,peroxyde de benzoyle et acide salicylique,ADDED
+8002088,acetic acid and sodium acetate,acide acétique et acétate de sodium,ADDED
+8001976,triclosan,triclosan,ADDED
+8002047,paclitaxel,paclitaxel,ADDED
+8001870,potassium chloride,chlorure de potassium,ADDED
+8000796,benzalkonium,benzalkonium,ADDED
+8002160,sodium acetate,acétate de sodium,ADDED
+8001878,sodium iodide,iodure de sodium,ADDED
+8002215,amphotericin B,amphotéricine B,ADDED
+8002487,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker","ARNm de SRASCOV2 S-protéine, 5'[m27,3'-oGppp(m12'-O)ApG], polyA 3'+liaison","tm_formal_name: ""SARSCO̲V2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker"" -> ""SARSCo̲V2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker"""
+8001476,follitropin beta,follitropine bêta,ADDED
+471f2eb1242934a389e0d95cda635bad,eplontersen,éplontersen,ADDED
+8000912,alcohol anhydrous and chlorhexidine,alcool anhydre et chlorhexidine,ADDED
+8dbc76668a7fd2cc21545d5639ab141e,adapalene and benzoyl peroxide and clindamycin,adapalène et peroxyde de benzoyle et clindamycine,ADDED

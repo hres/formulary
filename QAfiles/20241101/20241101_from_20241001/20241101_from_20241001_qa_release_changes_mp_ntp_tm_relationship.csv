@@ -1,0 +1,274 @@
+drug_code,mp_code,mp_formal_name,changes
+933,00029149,FUNGIZONE (amphotericin B 50 mg per vial powder for solution for injection) CHEPLAPHARM ARZNEIMITTEL GMBH,ADDED
+1668,00266507,ADASEPT LIQ 0.5% (triclosan 0.5 % cutaneous liquid) ODAN LABORATORIES LTD,ADDED
+1905,00261998,SODIUM BICARBONATE INJECTION USP (sodium bicarbonate 84 mg per mL solution for injection) PFIZER CANADA ULC,ADDED
+2527,00037869,POTASSIUM CHLORIDE FOR INJECTION CONCENTRATE USP (potassium chloride 149 mg per mL solution for injection) PFIZER CANADA ULC,ADDED
+3394,00402206,POTASSIUM CHLORIDE FOR INJECTION CONCENTRATE (potassium chloride 20 meq per 10 mL solution for injection) OMEGA LABORATORIES LIMITED,ADDED
+3837,00038083,SODIUM BICARBONATE INJECTION USP (sodium bicarbonate 45 mmol per 50 mL solution for injection syringe) PFIZER CANADA ULC,ADDED
+6775,00691623,BICARBONATE CONCENTRATE D17000 (sodium bicarbonate 81.3 g per l solution for haemodialysis) VANTIVE ULC,ADDED
+8350,00261971,SODIUM BICARBONATE INJECTION USP (sodium bicarbonate 5 mmol per 10 mL solution for injection syringe) PFIZER CANADA ULC,ADDED
+10509,00804789,POTASSIUM PHOSPHATES (phosphorus (potassium phosphate dibasic and potassium phosphate monobasic) 30 mmol per 10 mL and potassium (potassium phosphate dibasic and potassium phosphate monobasic) 44 mmol per 10 mL solution for injection vial) SANDOZ CANADA INCORPORATED,ADDED
+11537,00779237,BACTI-STAT 0.3% (triclosan 0.3 % cutaneous liquid) ECOLAB CO,ADDED
+12639,01977873,GERMICIDAL HAND SOAP LIQ 0.6% (chloroxylenol 0.6 % cutaneous liquid) OSTREM CHEMICAL CO LTD.,ADDED
+12743,01946986,UNISOM (diphenhydramine hydrochloride 50 mg oral tablet) ENDO OPERATIONS LTD.,"mp_formal_name: ""UNISOM (diphenhydramine hydrochloride 50 mg oral tablet) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""UNISOM (diphenhydramine hydrochloride 50 mg oral tablet) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+13600,01974548,MICRO I (iodide (sodium iodide) 1000 mcg per 10 mL solution for injection vial) SANDOZ CANADA INCORPORATED,ADDED
+13833,01905740,K+ 45 (potassium chloride 251.6 g per l solution for haemodialysis) VANTIVE ULC,ADDED
+15483,02046733,PULMOZYME (dornase alfa 2.5 mg per 2.5 mL nebulizer solution unit dose vial) HOFFMANN-LA ROCHE LIMITED,"mp_formal_name: ""PULMOZYME ̲1̲M̲G̲/̲M̲L̲ (dornase alfa 2.5 mg per 2.5 mL nebulizer solution unit dose vial) HOFFMANN-LA ROCHE LIMITED"" -> ""PULMOZYME (dornase alfa 2.5 mg per 2.5 mL nebulizer solution unit dose vial) HOFFMANN-LA ROCHE LIMITED"""
+18208,02131471,VIROBEX-P (chloroxylenol 0.6 % cutaneous liquid) GERMIPHENE CORPORATION,ADDED
+19064,02177587,PMS-FLUOXETINE (fluoxetine (fluoxetine hydrochloride) 20 mg oral capsule) PHARMASCIENCE INC,"mp_formal_name: ""PMS-FLUOXETINE ̲-̲ ̲C̲A̲P̲ ̲2̲0̲M̲G̲ (fluoxetine (fluoxetine hydrochloride) 20 mg oral capsule) PHARMASCIENCE INC"" -> ""PMS-FLUOXETINE (fluoxetine (fluoxetine hydrochloride) 20 mg oral capsule) PHARMASCIENCE INC"""
+19074,02177579,PMS-FLUOXETINE (fluoxetine (fluoxetine hydrochloride) 10 mg oral capsule) PHARMASCIENCE INC,"mp_formal_name: ""PMS-FLUOXETINE ̲-̲ ̲C̲A̲P̲ ̲1̲0̲M̲G̲ (fluoxetine (fluoxetine hydrochloride) 10 mg oral capsule) PHARMASCIENCE INC"" -> ""PMS-FLUOXETINE (fluoxetine (fluoxetine hydrochloride) 10 mg oral capsule) PHARMASCIENCE INC"""
+19442,02139545,"POTASSIUM PHOSPHATES INJECTION, USP (potassium phosphate dibasic 236 mg per mL and potassium phosphate monobasic 224 mg per mL solution for injection) FRESENIUS KABI CANADA LTD",ADDED
+20112,02219301,MAGNESIUM-45 0.5-4.5 (magnesium chloride 20.5 g per bottle powder for concentrate for solution for haemodialysis) VANTIVE ULC,ADDED
+31360,02139529,"SODIUM ACETATE INJECTION, USP (sodium acetate 328 mg per mL solution for injection) FRESENIUS KABI CANADA LTD",ADDED
+35083,02181746,SODIUM ACETATE INJECTION USP (sodium (sodium acetate) 4 mmol per mL solution for injection 50 mL vial) OMEGA LABORATORIES LIMITED,ADDED
+41477,00373435,DETTOL (chloroxylenol 4.8 % cutaneous solution) RB HEALTH (CANADA) INC.,ADDED
+42066,00875996,TEMPRA DOUBLE STRENGTH CHILDREN'S SYRUP (acetaminophen 160 mg per 5 mL syrup) ENDO OPERATIONS LTD.,"mp_formal_name: ""TEMPRA DOUBLE STRENGTH CHILDREN'S SYRUP (acetaminophen 160 mg per 5 mL syrup) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""TEMPRA DOUBLE STRENGTH CHILDREN'S SYRUP (acetaminophen 160 mg per 5 mL syrup) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+42944,02194465,DOXORUBICIN HYDROCHLORIDE FOR INJECTION USP (doxorubicin hydrochloride 50 mg per vial powder for solution for injection) PFIZER CANADA ULC,ADDED
+42945,02194473,DOXORUBICIN HYDROCHLORIDE FOR INJECTION USP (doxorubicin hydrochloride 150 mg per vial powder for solution for injection) PFIZER CANADA ULC,ADDED
+43312,02221861,ANANDRON (nilutamide 50 mg oral tablet) CHEPLAPHARM ARZNEIMITTEL GMBH,ADDED
+46803,01900978,REACTINE 20 MG TABLET (cetirizine hydrochloride 20 mg oral tablet) MCNEIL CONSUMER HEALTHCARE DIVISION OF JOHNSON & JOHNSON INC,"mp_formal_name: ""REACTINE 20MG TABLET (cetirizine hydrochloride 20 mg oral tablet) MCNEIL CONSUMER HEALTHCARE DIVISION OF JOHNSON & JOHNSON INC"" -> ""REACTINE 20 ̲MG TABLET (cetirizine hydrochloride 20 mg oral tablet) MCNEIL CONSUMER HEALTHCARE DIVISION OF JOHNSON & JOHNSON INC"""
+50227,02230949,ROBAXISAL EXTRA STRENGTH (acetylsalicylic acid 500 mg and methocarbamol 400 mg oral tablet) HALEON CANADA ULC,"mp_formal_name: ""ROBAXISAL EXTRA STRENGTH (acetylsalicylic acid 500 mg and methocarbamol 400 mg oral tablet) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ROBAXISAL EXTRA STRENGTH (acetylsalicylic acid 500 mg and methocarbamol 400 mg oral tablet) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+60014,02236728,CHILDREN'S ACETAMINOPHEN SUSPENSION (acetaminophen 160 mg per 5 mL oral suspension) PERRIGO INTERNATIONAL,DELETED
+61804,02238389,CAELYX (doxorubicin hydrochloride 20 mg per 10 mL suspension for injection vial) BAXTER CORPORATION,ADDED
+61874,02238454,XELODA (capecitabine 500 mg oral tablet) CHEPLAPHARM ARZNEIMITTEL GMBH,ADDED
+62780,02239311,ECOCARE 250 (triclosan 0.3 % cutaneous liquid) ECOLAB CO,ADDED
+62787,02239318,ECOCARE 360 (benzalkonium chloride 0.13 % cutaneous liquid) ECOLAB CO,ADDED
+63424,02239924,GLUCONORM 0.5MG (repaglinide 0.5 mg oral tablet) NOVO NORDISK CANADA INC,DELETED
+63425,02239925,GLUCONORM 1.0MG (repaglinide 1 mg oral tablet) NOVO NORDISK CANADA INC,DELETED
+65288,02241630,AMBISOME (amphotericin B 50 mg per vial powder for solution for injection) ASTELLAS PHARMA CANADA INC,ADDED
+65336,02241676,POTASSIUM CHLORIDE INJECTION (potassium (potassium chloride) 10 mmol per 100 mL solution for injection bag) BAXTER CORPORATION,ADDED
+65337,02241677,POTASSIUM CHLORIDE INJECTION (potassium chloride 20 meq per 100 mL solution for injection) BAXTER CORPORATION,ADDED
+65339,02241679,POTASSIUM CHLORIDE INJECTION (potassium chloride 40 meq per 100 mL solution for injection) BAXTER CORPORATION,ADDED
+66672,02242842,DIGISAN E FOAM HAND SANITIZER (benzalkonium chloride 0.1 % cutaneous liquid) ECOLAB CO,ADDED
+66676,02242846,DIGICLEAN ANTIBACTERIAL FOAM HAND SOAP (triclosan 0.3 % cutaneous liquid) ECOLAB CO,ADDED
+66677,02242847,DIGICLEAN E FOAM HAND SOAP (chloroxylenol 1 % cutaneous liquid) ECOLAB CO,ADDED
+67891,02243948,PUREGON (follitropin beta 833 unit per mL solution for injection) ORGANON CANADA INC.,ADDED
+67995,02244052,KEYSTONE ANTIBACTERIAL FOAM HAND SOAP (triclosan 0.3 % cutaneous liquid) ECOLAB CO,ADDED
+70601,02246427,KEYSTONE FOAM HAND SANITIZER (benzalkonium chloride 0.1 % cutaneous liquid) ECOLAB CO,ADDED
+71113,02246888,AVAGARD CHG (alcohol anhydrous 61 % and chlorhexidine gluconate 1 % lotion) 3M HEALTHCARE CANADA COMPANY LIMITED,ADDED
+72786,02248435,CHILDREN'S ADVIL COLD (ibuprofen 100 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension) GLAXOSMITHKLINE CONSUMER HEALTHCARE ULC,DELETED
+73019,02248657,VISINE FOR RED EYE TRIPLE ACTION (dextran 70 0.1 % and polyethylene glycol 400 1 % and povidone 1 % and tetrahydrozoline hydrochloride 0.05 % ophthalmic drops) JOHNSON & JOHNSON INC,ADDED
+73309,02248934,BICARBONATE CONCENTRATE B38 (sodium bicarbonate 80.7 g per l solution for haemodialysis) CHIEF MEDICAL SUPPLIES LTD,ADDED
+73418,02249340,ANTIBACTERIAL LOTION SOAP (triclosan 0.4 % NA) CHARLOTTE PRODUCTS LTD.,ADDED
+74816,02262800,STRATTERA (atomoxetine (atomoxetine hydrochloride) 10 mg oral capsule) ELI LILLY CANADA INC,ADDED
+74817,02262819,STRATTERA (atomoxetine (atomoxetine hydrochloride) 18 mg oral capsule) ELI LILLY CANADA INC,DELETED
+74839,02262983,SUPEUDOL 20 (oxycodone hydrochloride 20 mg oral tablet) SANDOZ CANADA INCORPORATED,"mp_formal_name: ""SUPEUDOL (oxycodone hydrochloride 20 mg oral tablet) SANDOZ CANADA INCORPORATED"" -> ""SUPEUDOL ̲2̲0̲ (oxycodone hydrochloride 20 mg oral tablet) SANDOZ CANADA INCORPORATED"""
+75279,02267365,INO-F-SAN INSTANT HAND SANITIZER (benzethonium chloride 0.2 % cutaneous liquid) GROUPE DISSAN INC.,ADDED
+75280,02267373,INO-F ANTIBAC ANTIBACTERIAL HAND SOAP (triclosan 0.5 % cutaneous liquid) GROUPE DISSAN INC.,ADDED
+75311,02267691,MEDI-WHITE PETROLATUM OINTMENT (white petrolatum 100 % cutaneous ointment) MEDISCA PHARMACEUTIQUE INC,ADDED
+75580,02270420,SOAPOPULAR (benzalkonium chloride 0.15 % cutaneous liquid) SOAPOPULAR INC,ADDED
+76258,02276917,QUICK CLEAN (chloroxylenol 1 % cutaneous gel) SPRAKITA PRODUCTS,ADDED
+76495,02279347,STRATTERA (atomoxetine (atomoxetine hydrochloride) 80 mg oral capsule) ELI LILLY CANADA INC,DELETED
+76584,02280167,ASATAB 80 MG CHEWABLE TABLETS (acetylsalicylic acid 80 mg chewable tablet) ODAN LABORATORIES LTD,ADDED
+76654,02280884,HEMA BP-38 (sodium bicarbonate 6 kg per container powder for concentrate for solution for haemodialysis) CHIEF MEDICAL SUPPLIES LTD,ADDED
+76673,02281066,ABRAXANE FOR INJECTABLE SUSPENSION (paclitaxel 100 mg per vial powder for suspension for injection) BRISTOL-MYERS SQUIBB CANADA,ADDED
+76939,02283816,ANTIBACTERIAL CLEAN & SMOOTH (triclosan 0.3 % cutaneous solution) ECOLAB CO,ADDED
+77627,02290855,X3 CLEAN GERM ATTACK HAND SANITIZER (benzalkonium chloride 0.13 % cutaneous solution) NATURAL ESSENTIALS INC,ADDED
+78001,02294664,OCTAPLEX (coagulation factor ii (human) 760 unit per vial and coagulation factor IX human 500 unit per vial and coagulation factor vii (human) 480 unit per vial and coagulation factor x (human) 600 unit per vial and protein c 620 unit per vial and protein s 640 unit per vial NA) OCTAPHARMA PHARMAZEUTIKA PRODUKTIONSGES M B H,ADDED
+78942,02304112,"WET ONES (benzethonium chloride 0.3 % wipe) EDGEWELL PERSONAL CARE CANADA, ULC",ADDED
+79962,02314126,PHENREX MVD (chloroxylenol 0.6 % cutaneous solution) IMREX INC.,ADDED
+81095,02325586,BIBAG (sodium bicarbonate 650 g per bag powder for concentrate for solution for haemodialysis) FRESENIUS MEDICAL CARE CANADA INC,ADDED
+81113,02325772,HEMACART (sodium bicarbonate 650 g per cartridge powder for concentrate for solution for haemodialysis) CHIEF MEDICAL SUPPLIES LTD,ADDED
+81564,02329891,KLERE (benzalkonium chloride 0.15 % cutaneous solution) BIOCHEM ENVIRONMENTAL SOLUTIONS INC.,ADDED
+83598,02350777,NAPROXEN (naproxen 500 mg oral tablet) SANIS HEALTH INC,DELETED
+83851,02353318,CIPROFLOXACIN (ciprofloxacin (ciprofloxacin hydrochloride) 250 mg oral tablet) SANIS HEALTH INC,DELETED
+83971,02354543,LORIS 0.13% BZK (benzalkonium chloride 0.13 % wipe) LERNAPHARM (LORIS) INC.,ADDED
+84093,02355736,BENZALKONIUM CHLORIDE ANTISEPTIC TOWELETTE (benzalkonium chloride 0.13 % wipe) CANADIAN CUSTOM PACKAGING COMPANY,ADDED
+84377,02358743,"NOREPINEPHRINE BITARTRATE INJECTION, USP (norepinephrine (norepinephrine bitartrate) 4 mg per 4 mL solution for injection vial) STERIMAX INC",ADDED
+84428,02359251,BERIPLEX P/N 500 (coagulation factor ii (human) 800 unit and coagulation factor IX human 620 unit and coagulation factor vii (human) 500 unit and coagulation factor x (human) 1020 unit and protein c 820 unit and protein s 680 unit powder for solution for injection) CSL BEHRING CANADA INC,ADDED
+85450,02369575,X3 ON-THE-GO ANTISEPTIC SPRAY (benzalkonium chloride 0.13 % cutaneous spray) NATURAL ESSENTIALS INC,ADDED
+85467,02369753,PREZISTA (darunavir (darunavir ethanolate) 150 mg oral tablet) JANSSEN INC,ADDED
+85560,02370441,TEVA-DILTIAZEM T (diltiazem hydrochloride 120 mg prolonged-release oral capsule) TEVA CANADA LIMITED,"mp_formal_name: ""A̲C̲T̲ ̲DILTIAZEM T (diltiazem hydrochloride 120 mg prolonged-release oral capsule) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲DILTIAZEM T (diltiazem hydrochloride 120 mg prolonged-release oral capsule) TEVA CANADA LIMITED"""
+85564,02370492,TEVA-DILTIAZEM T (diltiazem hydrochloride 180 mg prolonged-release oral capsule) TEVA CANADA LIMITED,"mp_formal_name: ""A̲C̲T̲ ̲DILTIAZEM T (diltiazem hydrochloride 180 mg prolonged-release oral capsule) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲DILTIAZEM T (diltiazem hydrochloride 180 mg prolonged-release oral capsule) TEVA CANADA LIMITED"""
+85565,02370506,TEVA-DILTIAZEM T (diltiazem hydrochloride 240 mg prolonged-release oral capsule) TEVA CANADA LIMITED,"mp_formal_name: ""A̲C̲T̲ ̲DILTIAZEM T (diltiazem hydrochloride 240 mg prolonged-release oral capsule) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲DILTIAZEM T (diltiazem hydrochloride 240 mg prolonged-release oral capsule) TEVA CANADA LIMITED"""
+85566,02370514,TEVA-DILTIAZEM T (diltiazem hydrochloride 300 mg prolonged-release oral capsule) TEVA CANADA LIMITED,"mp_formal_name: ""A̲C̲T̲ ̲DILTIAZEM T (diltiazem hydrochloride 300 mg prolonged-release oral capsule) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲DILTIAZEM T (diltiazem hydrochloride 300 mg prolonged-release oral capsule) TEVA CANADA LIMITED"""
+85567,02370522,TEVA-DILTIAZEM T (diltiazem hydrochloride 360 mg prolonged-release oral capsule) TEVA CANADA LIMITED,"mp_formal_name: ""A̲C̲T̲ ̲DILTIAZEM T (diltiazem hydrochloride 360 mg prolonged-release oral capsule) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲DILTIAZEM T (diltiazem hydrochloride 360 mg prolonged-release oral capsule) TEVA CANADA LIMITED"""
+85902,02373807,H.E.L.P. ACETATE BUFFER PH 4.85 (acetic acid 6.82 g per l and sodium acetate 27.22 g per l solution for haemodialysis) B. BRAUN AVITUM AG,ADDED
+85947,02374277,VICKS NYQUIL COLD & FLU (acetaminophen 650 mg per 30 mL and dextromethorphan hydrobromide 30 mg per 30 mL and doxylamine succinate 12.5 mg per 30 mL oral solution) PROCTER & GAMBLE INC,"mp_formal_name: ""VICKS NYQUIL COLD & FLU ̲N̲I̲G̲H̲T̲T̲I̲M̲E̲ ̲R̲E̲L̲I̲E̲F̲ (acetaminophen 650 mg per 30 mL and dextromethorphan hydrobromide 30 mg per 30 mL and doxylamine succinate 12.5 mg per 30 mL oral solution) PROCTER & GAMBLE INC"" -> ""VICKS NYQUIL COLD & FLU (acetaminophen 650 mg per 30 mL and dextromethorphan hydrobromide 30 mg per 30 mL and doxylamine succinate 12.5 mg per 30 mL oral solution) PROCTER & GAMBLE INC"""
+87843,02393190,VOLTAREN EMULGEL EXTRA STRENGTH (diclofenac diethylamine 2.32 % cutaneous gel) HALEON CANADA ULC,"mp_formal_name: ""VOLTAREN EMULGEL EXTRA STRENGTH (diclofenac diethylamine 2.32 % cutaneous gel) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""VOLTAREN EMULGEL EXTRA STRENGTH (diclofenac diethylamine 2.32 % cutaneous gel) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+88424,02399350,HAND SANITIZING WIPES (benzalkonium chloride 0.12 % wipe) ATHEA LABORATORIES INC,ADDED
+88592,02401193,ADVIL FLU (diphenhydramine hydrochloride 25 mg and ibuprofen 200 mg oral capsule) HALEON CANADA ULC,"mp_formal_name: ""ADVIL C̲O̲L̲D̲,̲ ̲C̲O̲U̲G̲H̲ ̲&̲ ̲FLU ̲N̲I̲G̲H̲T̲T̲I̲M̲E̲ (diphenhydramine hydrochloride 25 mg and ibuprofen 200 mg oral capsule) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ADVIL FLU (diphenhydramine hydrochloride 25 mg and ibuprofen 200 mg oral capsule) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+88701,02402149,ACNE TREATMENT SYSTEM (benzoyl peroxide 5 % and salicylic acid 2 % NA) VIVIER CANADA INCORPORATED,ADDED
+88801,02403196,TEVA-CLARITHROMYCIN XL (clarithromycin 500 mg prolonged-release oral tablet) TEVA CANADA LIMITED,"mp_formal_name: ""A̲C̲T̲ ̲CLARITHROMYCIN XL (clarithromycin 500 mg prolonged-release oral tablet) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲CLARITHROMYCIN XL (clarithromycin 500 mg prolonged-release oral tablet) TEVA CANADA LIMITED"""
+88828,02403471,PURELL SANITIZING WIPES (benzalkonium chloride 0.13 % wipe) GOJO CANADA INC,ADDED
+88829,02403498,BICART (sodium bicarbonate 720 g per cartridge powder for concentrate for solution for haemodialysis) VANTIVE ULC,ADDED
+88830,02403501,BICART (sodium bicarbonate 1250 g per cartridge powder for concentrate for solution for haemodialysis) VANTIVE ULC,ADDED
+89148,02406802,SOFTSOAP ANTIBACTERIAL (benzalkonium chloride 0.13 % cutaneous solution) COLGATE-PALMOLIVE CANADA INC,ADDED
+89540,02410826,BERIPLEX P/N 1000 (coagulation factor ii (human) 1600 unit and coagulation factor IX human 1240 unit and coagulation factor vii (human) 1000 unit and coagulation factor x (human) 2040 unit and protein c 1640 unit and protein s 1360 unit powder for solution for injection) CSL BEHRING CANADA INC,ADDED
+89896,02414309,"DUAL INTENSIVE ACNE TREATMENT (benzoyl peroxide 2.5 % cutaneous gel with benzoyl peroxide 2.5 % lotion) RODAN & FIELDS BEAUTY, LLC","mp_formal_name: ""DUAL INTENSIVE ACNE TREATMENT (benzoyl peroxide 2.5 % cutaneous gel with benzoyl peroxide 2.5 % lotion) RODAN & FIELDS LLC"" -> ""DUAL INTENSIVE ACNE TREATMENT (benzoyl peroxide 2.5 % cutaneous gel with benzoyl peroxide 2.5 % lotion) RODAN & FIELDS B̲E̲A̲U̲T̲Y̲,̲ ̲LLC"""
+90113,02416530,PREZISTA (darunavir (darunavir ethanolate) 100 mg per mL oral suspension) JANSSEN INC,DELETED
+91926,02434970,OCTAPLEX (coagulation factor ii (human) 1520 unit per vial and coagulation factor IX human 1000 unit per vial and coagulation factor vii (human) 960 unit per vial and coagulation factor x (human) 1200 unit per vial and protein c 1240 unit per vial and protein s 1280 unit per vial NA) OCTAPHARMA PHARMAZEUTIKA PRODUKTIONSGES M B H,ADDED
+92041,02436086,VISINE FOR RED EYE WORKPLACE (dextran 70 0.1 % and polyethylene glycol 400 1 % and povidone 1 % and tetrahydrozoline hydrochloride 0.05 % ophthalmic drops) JOHNSON & JOHNSON INC,ADDED
+92173,02437384,PURELL HAND SANITIZING WIPES (benzalkonium chloride 0.13 % wipe) GOJO CANADA INC,ADDED
+92481,02440458,PURKLENZ (chloroxylenol 3 % cutaneous liquid) PURKLENZ FORMULATIONS INC,ADDED
+92527,02440903,TREKSAFE (benzalkonium chloride 0.13 % wipe) ZHEJIANGH HONGYU MEDICAL COMMODITY CO LTD,ADDED
+92774,02443163,"ALOE-CARE ANTIBACTERIAL LOTION SOAP, BENZALKONIUM CHLORIDE LOTION 0.13% W/W (benzalkonium chloride 0.13 % lotion) CANADIAN CUSTOM PACKAGING COMPANY",ADDED
+92785,02443252,KLEENEX FOAM HAND SANITIZER (benzalkonium chloride 0.13 % cutaneous solution) KIMBERLY-CLARK GLOBAL SALES LLC,ADDED
+92853,02443783,COLGATE TOTAL PREVENTION (cetylpyridinium chloride 0.07 % mouthwash) COLGATE-PALMOLIVE CANADA INC,"mp_formal_name: ""COLGATE TOTAL (cetylpyridinium chloride 0.07 % mouthwash) COLGATE-PALMOLIVE CANADA INC"" -> ""COLGATE TOTAL ̲P̲R̲E̲V̲E̲N̲T̲I̲O̲N̲ (cetylpyridinium chloride 0.07 % mouthwash) COLGATE-PALMOLIVE CANADA INC"""
+93459,02448866,SOFT CARE DEFEND FOAM (chloroxylenol 1 % cutaneous solution) DIVERSEY INC,ADDED
+93526,02449420,SOFT CARE DEFEND (chloroxylenol 1 % cutaneous solution) DIVERSEY INC,ADDED
+93543,02449609,OPTI-TEARS RED EYE (naphazoline hydrochloride 0.1 % ophthalmic drops) ALCON CANADA INC,DELETED
+94646,02459272,HAND SANITIZER FOAM (benzalkonium chloride 0.13 % cutaneous solution) EMPACK SPRAYTECH INC,ADDED
+95295,02464802,DIAL FOAMING ANTIBACTERIAL HAND WASH (benzalkonium chloride 0.13 % cutaneous solution) HENKEL CANADA CORPORATION,ADDED
+95297,02464829,DIAL ANTIBACTERIAL HAND SOAP (benzalkonium chloride 0.13 % cutaneous solution) HENKEL CANADA CORPORATION,ADDED
+95325,02465043,VOLTAREN EMULGEL JOINT PAIN EXTRA STRENGTH (diclofenac diethylamine 2.32 % cutaneous gel) HALEON CANADA ULC,"mp_formal_name: ""VOLTAREN EMULGEL JOINT PAIN EXTRA STRENGTH (diclofenac diethylamine 2.32 % cutaneous gel) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""VOLTAREN EMULGEL JOINT PAIN EXTRA STRENGTH (diclofenac diethylamine 2.32 % cutaneous gel) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+95595,02467585,SODIUM BICARBONATE INJECTION USP (sodium bicarbonate 84 mg per mL solution for injection) OMEGA LABORATORIES LIMITED,ADDED
+95787,02469197,DIAL COMPLETE 2 IN 1 MOISTURIZING & ANTIBACTERIAL FOAMING HAND WASH MANUKA HONEY (benzalkonium chloride 0.13 % cutaneous solution) HENKEL CANADA CORPORATION,ADDED
+95788,02469200,DIAL COMPLETE 2 IN 1 MOISTURIZING & ANTIBACTERIAL FOAMING HAND WASH PEARL ESSENCE (benzalkonium chloride 0.13 % cutaneous solution) HENKEL CANADA CORPORATION,ADDED
+95852,02469707,"RODAN+FIELDS SPOTLESS (benzoyl peroxide 5 % cutaneous cream with benzoyl peroxide 2.5 % lotion) RODAN & FIELDS BEAUTY, LLC","mp_formal_name: ""RODAN+FIELDS SPOTLESS (benzoyl peroxide 5 % cutaneous cream with benzoyl peroxide 2.5 % lotion) RODAN & FIELDS LLC"" -> ""RODAN+FIELDS SPOTLESS (benzoyl peroxide 5 % cutaneous cream with benzoyl peroxide 2.5 % lotion) RODAN & FIELDS B̲E̲A̲U̲T̲Y̲,̲ ̲LLC"""
+95990,02470837,FINIPIL LAIT 50 (benzethonium chloride 0.2 % cutaneous cream) EQUIBAL LABS INC,ADDED
+95992,02470853,FINIPIL (benzethonium chloride 0.2 % cutaneous cream) EQUIBAL LABS INC,ADDED
+96148,02472198,TRANQUIL MEADOWS AB (benzalkonium chloride 0.13 % NA) ZEP MANUFACTURING COMPANY OF CANADA,ADDED
+96151,02472236,FUZION AB FOAMING HAND SOAP (benzalkonium chloride 0.13 % NA) ZEP MANUFACTURING COMPANY OF CANADA,ADDED
+96159,02472287,ACCLAIM AB (benzalkonium chloride 0.13 % lotion) ZEP MANUFACTURING COMPANY OF CANADA,ADDED
+96203,02472724,ENERGY BERRY BAIES ÉNERGISANTES FOAMING HAND SOAP ANTIBACTERIAL (benzalkonium chloride 0.13 % cutaneous solution) APOLLO HEALTH AND BEAUTY CARE,ADDED
+96208,02472775,SPRING SHOWERS PLUIES PRINTANIÈRES FOAMING HAND SOAP ANTIBACTERIAL (benzalkonium chloride 0.13 % cutaneous solution) APOLLO HEALTH AND BEAUTY CARE,ADDED
+97037,02479729,"ALCOHOL FREE FOAMING HAND SANITIZER (benzalkonium chloride 0.13 % cutaneous solution) VI-JON, LLC",ADDED
+97058,02480034,POTASSIUM CHLORIDE FOR INJECTION CONCENTRATE (potassium chloride 200 meq per 100 mL solution for injection) OMEGA LABORATORIES LIMITED,ADDED
+97086,02480336,"DYE FREE FRAGRANCE FREE ANTIBACTERIAL FOAMING HAND SOAP (benzalkonium chloride 0.13 % cutaneous solution) VI-JON, LLC",ADDED
+97106,02480506,APPLAUD AB ANTISEPTIC LOTIONIZED HAND SOAP (chloroxylenol 0.5 % NA) ZEP MANUFACTURING COMPANY OF CANADA,ADDED
+97138,02480794,HERZUMA (trastuzumab 440 mg per vial powder for solution for injection with diluent solution) CELLTRION INC.,"mp_formal_name: ""HERZUMA (trastuzumab 440 mg per vial powder for solution for injection with diluent solution) CELLTRION H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲C̲O̲ ̲L̲T̲D̲"" -> ""HERZUMA (trastuzumab 440 mg per vial powder for solution for injection with diluent solution) CELLTRION I̲N̲C̲.̲"""
+97147,02480816,SCOTT ANTIMICROBIAL FOAM SKIN CLEANSER (benzalkonium chloride 0.1 % cutaneous solution) KIMBERLY-CLARK GLOBAL SALES LLC,ADDED
+97189,02481456,SCOTT FOAM HAND SANITIZER (benzalkonium chloride 0.13 % cutaneous solution) KIMBERLY-CLARK GLOBAL SALES LLC,ADDED
+97192,02481480,FINIPIL 4 MEN ONLY (benzethonium chloride 0.2 % cutaneous cream) EQUIBAL LABS INC,ADDED
+97592,02485699,POTASSIUM CHLORIDE FOR INJECTION CONCENTRATE USP (potassium chloride 149 mg per mL solution for injection) B. BRAUN MEDICAL INC,ADDED
+97664,02486431,ADVANTAGE SANITIZING WIPES (benzalkonium chloride 0.12 % wipe) 2XL CORPORATION,ADDED
+97680,02486628,"SODIUM BICARBONATE INJECTION, USP (sodium bicarbonate 42 mg per mL solution for injection) FRESENIUS KABI CANADA LTD",ADDED
+97681,02486636,"SODIUM BICARBONATE INJECTION, USP (sodium bicarbonate 84 mg per mL solution for injection) FRESENIUS KABI CANADA LTD",ADDED
+97789,02487756,BIBAG (sodium bicarbonate 900 g per bag powder for concentrate for solution for haemodialysis) FRESENIUS MEDICAL CARE CANADA INC,ADDED
+97945,02489368,LATANOPROST AND TIMOLOL OPHTHALMIC SOLUTION (latanoprost 50 mcg per mL and timolol (timolol maleate) 5 mg per mL ophthalmic drops) HIKMA CANADA LIMITED,DELETED
+98300,02493020,TARO-DOXORUBICIN LIPOSOMAL (doxorubicin hydrochloride 2 mg per mL suspension for injection) TARO PHARMACEUTICALS INC,ADDED
+98597,02496097,"PACLITAXEL POWDER FOR INJECTABLE SUSPENSION NANOPARTICLE, ALBUMIN-BOUND PACLITAXEL (paclitaxel 100 mg per vial powder for suspension for injection) PANACEA BIOTEC PHARMA LIMITED",ADDED
+98928,02499541,NON-ALCOHOL HAND SANITIZER (benzalkonium chloride 0.13 % cutaneous solution) TEAMWORKS MANUFACTURING,ADDED
+98983,02500124,FOAM-CARE ULTRA (benzalkonium chloride 0.13 % cutaneous solution) LES CHIMIQUES B.O.D. INC,ADDED
+99098,02501368,DOVE CARE & PROTECT HAND WASH ANTIBACTERIAL (benzalkonium chloride 0.13 % cutaneous solution) UNILEVER CANADA,ADDED
+99175,02502178,ANTI-MICROBE M (benzalkonium chloride 0.15 % cutaneous solution) ATOMS F.D. INC,ADDED
+99178,02502208,HAND SANITIZER (benzalkonium chloride 0.15 % cutaneous solution) CONTRACT PACKAGING DISTRIBUTION INC.,ADDED
+99184,02502267,TRIPLE RAIN HAND SANITIZER (benzalkonium chloride 0.125 % cutaneous spray) KIKSTICK SAFETY LTD,ADDED
+99238,02502852,FS ANTIMICROBIAL HAND WASH (benzalkonium chloride 0.13 % cutaneous solution) ZEP MANUFACTURING COMPANY OF CANADA,ADDED
+99357,02504138,NRA-TELMISARTAN/HCTZ (hydrochlorothiazide 25 mg and telmisartan 80 mg oral tablet) NORA PHARMA INC,"mp_formal_name: ""NRA-TELMISARTAN ̲HCTZ (hydrochlorothiazide 25 mg and telmisartan 80 mg oral tablet) NORA PHARMA INC"" -> ""NRA-TELMISARTAN/̲HCTZ (hydrochlorothiazide 25 mg and telmisartan 80 mg oral tablet) NORA PHARMA INC"""
+99358,02504146,NRA-TELMISARTAN/HCTZ (hydrochlorothiazide 12.5 mg and telmisartan 80 mg oral tablet) NORA PHARMA INC,"mp_formal_name: ""NRA-TELMISARTAN ̲HCTZ (hydrochlorothiazide 12.5 mg and telmisartan 80 mg oral tablet) NORA PHARMA INC"" -> ""NRA-TELMISARTAN/̲HCTZ (hydrochlorothiazide 12.5 mg and telmisartan 80 mg oral tablet) NORA PHARMA INC"""
+99555,02506211,HERZUMA (trastuzumab 150 mg per vial powder for solution for injection) CELLTRION INC.,"mp_formal_name: ""HERZUMA (trastuzumab 150 mg per vial powder for solution for injection) CELLTRION H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲C̲O̲ ̲L̲T̲D̲"" -> ""HERZUMA (trastuzumab 150 mg per vial powder for solution for injection) CELLTRION I̲N̲C̲.̲"""
+99564,02506300,DERMA SOLUTIONS (benzalkonium chloride 0.15 % cutaneous solution) LAROSE & FILS LTEE,ADDED
+99574,02506351,PURE-T (benzalkonium chloride 0.15 % cutaneous solution) GESTIONS AGRI-MART INC,ADDED
+99755,02508168,SOFTSOAP ANTIBACTERIAL WHITE TEA & BERRY (benzalkonium chloride 0.13 % cutaneous solution) COLGATE-PALMOLIVE CANADA INC,ADDED
+99761,02508222,REFRESH ANTIBAC FOAM (benzalkonium chloride 0.13 % cutaneous solution) SC JOHNSON PROFESSIONAL CA INC,ADDED
+99900,02509717,VINDA ANTISEPTIC WIPES (benzethonium chloride 0.3 % wipe) GRAND OCEAN INTERNATIONAL TRADING LTD,ADDED
+100018,02510901,SOAPOPULAR ANTIBACTERIAL HAND SOAP (benzalkonium chloride 0.15 % cutaneous solution) SOAPOPULAR INC,ADDED
+100161,02512319,VISION ANTIBACTERIAL HAND SOAP (chloroxylenol 0.5 % cutaneous solution) LAWRASON'S INC,ADDED
+100244,02513226,SANI HANDS FOAM (benzalkonium chloride 0.1 % cutaneous solution) OSTREM CHEMICAL CO LTD.,ADDED
+100339,02514222,VISTASEAL (fibrinogen human 80 mg per 1 mL and thrombin human 500 unit per 1 mL cutaneous solution) INSTITUTO GRIFOLS S.A.,ADDED
+100340,02514230,VISTASEAL (fibrinogen human 160 mg per 2 mL and thrombin human 1000 unit per 2 mL cutaneous solution) INSTITUTO GRIFOLS S.A.,ADDED
+100342,02514257,VISTASEAL (fibrinogen human 400 mg per 5 mL and thrombin human 2500 unit per 5 mL cutaneous solution) INSTITUTO GRIFOLS S.A.,ADDED
+100489,02515490,VYXEOS (cytarabine 100 mg and daunorubicin 44 mg powder for solution for injection) JAZZ PHARMACEUTICALS IRELAND LIMITED,ADDED
+100560,02516225,SODIUM BICARBONATE INJECTION USP (sodium bicarbonate 84 mg per mL solution for injection) JAMP PHARMA CORPORATION,ADDED
+101145,02522314,NRA-LURASIDONE (lurasidone hydrochloride 20 mg oral tablet) NORA PHARMA INC,ADDED
+101146,02522322,NRA-LURASIDONE (lurasidone hydrochloride 40 mg oral tablet) NORA PHARMA INC,ADDED
+101147,02522330,NRA-LURASIDONE (lurasidone hydrochloride 60 mg oral tablet) NORA PHARMA INC,ADDED
+101148,02522349,NRA-LURASIDONE (lurasidone hydrochloride 80 mg oral tablet) NORA PHARMA INC,ADDED
+101313,02524090,MINT-ONDANSETRON SOLUTION (ondansetron (ondansetron hydrochloride) 4 mg per 5 mL oral solution) MINT PHARMACEUTICALS INC,"mp_formal_name: ""MINT-ONDANSETRON SOLUTION (ondansetron 4 mg per 5 mL oral solution) MINT PHARMACEUTICALS INC"" -> ""MINT-ONDANSETRON SOLUTION (ondansetron (̲o̲n̲d̲a̲n̲s̲e̲t̲r̲o̲n̲ ̲h̲y̲d̲r̲o̲c̲h̲l̲o̲r̲i̲d̲e̲)̲ ̲4 mg per 5 mL oral solution) MINT PHARMACEUTICALS INC""
+ntp_code: ""3b1049efd181b7d24799389eb57b9729"" -> ""9012534""
+ntp_formal_name: ""ondansetron 4 mg per 5 mL oral solution"" -> ""ondansetron (̲o̲n̲d̲a̲n̲s̲e̲t̲r̲o̲n̲ ̲h̲y̲d̲r̲o̲c̲h̲l̲o̲r̲i̲d̲e̲)̲ ̲4 mg per 5 mL oral solution"""
+101744,02528193,MAGNESIUM CHLORIDE FOR HEMODIALYSIS 5.15 (magnesium chloride (magnesium chloride hexahydrate) 5.15 g per vial powder for concentrate for solution for haemodialysis) CHIEF MEDICAL SUPPLIES LTD,ADDED
+101790,02528703,PIPERACILLIN AND TAZOBACTAM FOR INJECTION (piperacillin (piperacillin sodium) 3 g per vial and tazobactam (tazobactam sodium) 0.375 g per vial powder for solution for injection) EUGIA PHARMA INC.,ADDED
+101791,02528711,PIPERACILLIN AND TAZOBACTAM FOR INJECTION (piperacillin (piperacillin sodium) 4 g per vial and tazobactam (tazobactam sodium) 0.5 g per vial powder for solution for injection) EUGIA PHARMA INC.,ADDED
+101793,02528746,PEMETREXED DISODIUM FOR INJECTION (pemetrexed (pemetrexed disodium) 100 mg per vial powder for solution for injection) EUGIA PHARMA INC.,ADDED
+101794,02528754,PEMETREXED DISODIUM FOR INJECTION (pemetrexed (pemetrexed disodium) 500 mg per vial powder for solution for injection) EUGIA PHARMA INC.,ADDED
+101806,02528886,DEXMEDETOMIDINE HYDROCHLORIDE FOR INJECTION (dexmedetomidine (dexmedetomidine hydrochloride) 200 mcg per 2 mL solution for injection vial) EUGIA PHARMA INC.,ADDED
+101903,02529793,POTASSIUM CHLORIDE FOR HEMODIALYSIS 7.55 (potassium chloride 7.55 g per vial powder for concentrate for solution for haemodialysis) CHIEF MEDICAL SUPPLIES LTD,ADDED
+101959,02530414,COLGATE TOTAL ACTIVE PREVENTION GUM HEALTH (cetylpyridinium chloride 0.075 % mouthwash) COLGATE-PALMOLIVE CANADA INC,"mp_formal_name: ""COLGATE TOTAL GUM HEALTH (cetylpyridinium chloride 0.075 % mouthwash) COLGATE-PALMOLIVE CANADA INC"" -> ""COLGATE TOTAL ̲A̲C̲T̲I̲V̲E̲ ̲P̲R̲E̲V̲E̲N̲T̲I̲O̲N̲ GUM HEALTH (cetylpyridinium chloride 0.075 % mouthwash) COLGATE-PALMOLIVE CANADA INC"""
+101963,02530449,LIDOCAINE INJECTION BP (lidocaine hydrochloride 20 % per 20 mL solution for injection vial) EUGIA PHARMA INC.,ADDED
+101964,02530457,LIDOCAINE INJECTION BP (lidocaine hydrochloride 40 % per 20 mL solution for injection vial) EUGIA PHARMA INC.,ADDED
+102056,02531429,"AZITHROMYCIN FOR INJECTION, USP (azithromycin (azithromycin monohydrate) 500 mg per vial powder for solution for injection) EUGIA PHARMA INC.",ADDED
+102199,02532999,"VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP (vancomycin (vancomycin hydrochloride) 500 mg per vial powder for solution for injection) EUGIA PHARMA INC.",ADDED
+102202,02533006,"VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP (vancomycin (vancomycin hydrochloride) 1 g per vial powder for solution for injection) EUGIA PHARMA INC.",ADDED
+102260,02533626,JACK & JILL MULTI-SYMPTOM COLD & COUGH (dextromethorphan hydrobromide 7.5 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL syrup) HALEON CANADA ULC,ADDED
+102623,02537524,ANTIBACTERIAL FOAMING HAND SOAP (benzalkonium chloride 0.13 % cutaneous solution) RUBBERMAID COMMERCIAL PRODUCTS LLC,ADDED
+102648,02537699,"HYDRALAZINE HYDROCHLORIDE INJECTION, USP (hydralazine hydrochloride 20 mg per 1 mL solution for injection vial) EUGIA PHARMA INC.",ADDED
+102686,02538113,ANTIBACTERIAL HAND WIPES (benzalkonium chloride 0.13 % wipe) CANADIAN CUSTOM PACKAGING COMPANY,ADDED
+102870,02539977,AXBERI (enoxaparin sodium 30 mg per 0.3 mL solution for injection) BAXTER CORPORATION,ADDED
+102871,02539985,AXBERI (enoxaparin sodium 40 mg per 0.4 mL solution for injection) BAXTER CORPORATION,ADDED
+102873,02540002,AXBERI (enoxaparin sodium 60 mg per 0.6 mL solution for injection) BAXTER CORPORATION,ADDED
+102874,02540010,AXBERI (enoxaparin sodium 80 mg per 0.8 mL solution for injection) BAXTER CORPORATION,ADDED
+102875,02540029,AXBERI HP (enoxaparin sodium 120 mg per 0.8 mL solution for injection) BAXTER CORPORATION,ADDED
+102876,02540037,AXBERI HP (enoxaparin sodium 150 mg per mL solution for injection) BAXTER CORPORATION,ADDED
+102877,02540045,AXBERI (enoxaparin sodium 100 mg per mL solution for injection) BAXTER CORPORATION,ADDED
+102992,02541270,"SPIKEVAX (SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial) MODERNA BIOPHARMA CANADA CORPORATION",ADDED
+103019,02541556,AURO-BILASTINE (bilastine 20 mg oral tablet) AURO PHARMA INC,ADDED
+103027,02541637,QUILLIVANT ER ORAL SUSPENSION (methylphenidate hydrochloride 5 mg per mL powder for prolonged-release oral suspension) KYE PHARMACEUTICALS INC.,"ntp_code: ""ce004086c760b8eca8ea0fae072f2e7b"" -> ""9015083"""
+103047,02541866,COMIRNATY OMICRON XBB.1.5 (raxtozinameran 3 mcg per 0.2 mL suspension for injection 2 mL vial) BIONTECH MANUFACTURING GMBH,"ntp_code: ""9014987"" -> ""b5e1695cf8e33becc690eef5cb7ab2a8""
+tm_code: ""8002487"" -> ""bccbeb8be0ee50eda3295989e73d60e1"""
+103051,02541904,SODIUM BICARBONATE INJECTION USP (sodium bicarbonate 84 mg per mL solution for injection) STERIMAX INC,ADDED
+103060,02542005,BENDAMUSTINE HYDROCHLORIDE FOR INJECTION (bendamustine hydrochloride 100 mg per vial powder for solution for injection) EUGIA PHARMA INC.,ADDED
+103146,02542943,ASPARLAS (calaspargase pegol 3750 unit per 5 mL solution for injection) SERVIER CANADA INC,ADDED
+103210,02543656,NUVAXOVID (SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 5 mL vial) NOVAVAX INC.,"mp_formal_name: ""NUVAXOVID (SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 2̲.̲5 mL vial) NOVAVAX INC."" -> ""NUVAXOVID (SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 5 mL vial) NOVAVAX INC.""
+ntp_code: ""44cc77c96701f85c257c30754e9dae2c"" -> ""9014747""
+ntp_formal_name: ""SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 2̲.̲5 mL vial"" -> ""SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 5 mL vial"""
+103236,02543931,UPLIZNA (inebilizumab 100 mg per 10 mL solution for injection vial) HORIZON THERAPEUTICS IRELAND DAC,ADDED
+103240,02543990,PRO-DUTASTERIDE (dutasteride 0.5 mg oral capsule) PRO DOC LIMITEE,ADDED
+103270,02544172,VIAGRA (sildenafil (sildenafil citrate) 50 mg orodispersible film) BGP PHARMA ULC,ADDED
+103292,02544369,GLN-BILASTINE (bilastine 20 mg oral tablet) GLENMARK PHARMACEUTICALS CANADA INC.,ADDED
+103346,02544822,EUGIA-ONDANSETRON INJECTION (ondansetron (ondansetron hydrochloride dihydrate) 4 mg per 2 mL solution for injection vial) EUGIA PHARMA INC.,ADDED
+103347,02544830,EUGIA-ONDANSETRON INJECTION (ondansetron (ondansetron hydrochloride dihydrate) 8 mg per 4 mL solution for injection vial) EUGIA PHARMA INC.,ADDED
+103362,02545004,EYLEA HD (aflibercept 8 mg per 0.07 mL solution for injection vial) BAYER INC,"ntp_code: ""9db369ba85a6b97e4af781744947abdc"" -> ""9015080"""
+103392,02545136,XOLAIR (omalizumab 75 mg per 0.5 mL solution for injection pen) NOVARTIS PHARMACEUTICALS CANADA INC,ADDED
+103393,02545144,XOLAIR (omalizumab 150 mg per 1 mL solution for injection pen) NOVARTIS PHARMACEUTICALS CANADA INC,ADDED
+103407,02545292,JAMP SUMATRIPTAN DF (sumatriptan (sumatriptan succinate) 25 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103408,02545306,JAMP SUMATRIPTAN DF (sumatriptan (sumatriptan succinate) 50 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103409,02545314,JAMP SUMATRIPTAN DF (sumatriptan (sumatriptan succinate) 100 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103443,02545683,FOAMING ANTIBACTERIAL HAND CLEANSER (benzalkonium chloride 0.13 % cutaneous solution) BETCO CORPORATION,ADDED
+103547,02546795,JAMP BILASTINE (bilastine 20 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103576,02547112,M-MIDODRINE (midodrine hydrochloride 2.5 mg oral tablet) MANTRA PHARMA INC,ADDED
+103583,02547198,JAMP CEFUROXIME (cefuroxime (cefuroxime axetil) 250 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103584,02547201,JAMP CEFUROXIME (cefuroxime (cefuroxime axetil) 500 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103590,02547279,MAR-BILASTINE (bilastine 20 mg oral tablet) MARCAN PHARMACEUTICALS INC,ADDED
+103593,02547309,MINT-METFORMIN XR (metformin hydrochloride 500 mg prolonged-release oral tablet) MINT PHARMACEUTICALS INC,ADDED
+103661,02547686,CYCLOPHOSPHAMIDE FOR INJECTION USP (cyclophosphamide 1000 mg per vial powder for solution for injection) STERIMAX INC,ADDED
+103662,02547694,CYCLOPHOSPHAMIDE FOR INJECTION USP (cyclophosphamide 2000 mg per vial powder for solution for injection) STERIMAX INC,ADDED
+103666,02547732,PRALUENT (alirocumab 300 mg per 2 mL solution for injection pen) SANOFI-AVENTIS CANADA INC,ADDED
+103708,02548194,NALOXONE HYDROCHLORIDE INJECTION USP (naloxone hydrochloride 0.4 mg per 1 mL solution for injection syringe) STERINOVA INC.,ADDED
+103730,02548410,M-BILASTINE (bilastine 20 mg oral tablet) MANTRA PHARMA INC,ADDED
+103735,02548488,HEPARIN SODIUM INJECTION USP (heparin sodium 5000 unit per 0.5 mL solution for injection vial) STERIMAX INC,ADDED
+103775,02548909,WAINUA (eplontersen (eplontersen sodium) 45 mg per 0.8 mL solution for injection) ASTRAZENECA CANADA INC,ADDED
+103800,02549123,EBGLYSS (lebrikizumab 250 mg per 2 mL solution for injection pen) ELI LILLY CANADA INC,ADDED
+103870,02549883,APO-BILASTINE TABLETS (bilastine 20 mg oral tablet) APOTEX INC,ADDED
+103912,02550296,SPEVIGO (spesolimab 150 mg per mL solution for injection) BOEHRINGER INGELHEIM (CANADA) LTD LTEE,ADDED
+103924,02550423,"CABTREO (adapalene 0.15 % and benzoyl peroxide 3.1 % and clindamycin phosphate 1.2 % cutaneous gel) BAUSCH HEALTH, CANADA INC.",ADDED
+103931,02550504,MAR-METFORMIN XR (metformin hydrochloride 500 mg prolonged-release oral tablet) MARCAN PHARMACEUTICALS INC,ADDED
+103932,02550512,MAR-METFORMIN XR (metformin hydrochloride 1000 mg prolonged-release oral tablet) MARCAN PHARMACEUTICALS INC,ADDED
+104081,02552124,PMS-PALBOCICLIB (palbociclib 75 mg oral tablet) PHARMASCIENCE INC,ADDED
+104082,02552132,PMS-PALBOCICLIB (palbociclib 100 mg oral tablet) PHARMASCIENCE INC,ADDED
+104083,02552140,PMS-PALBOCICLIB (palbociclib 125 mg oral tablet) PHARMASCIENCE INC,ADDED
+104152,02552566,"ZORYVE (roflumilast 0.3 % NA) ARCUTIS CANADA, INC.",ADDED
+NA,02480360,AUVI-Q (epinephrine 0.15 mg per 0.15 mL solution for injection syringe) KALEO INC,DELETED
+NA,02480379,AUVI-Q (epinephrine 0.3 mg per 0.3 mL solution for injection syringe) KALEO INC,DELETED
+NA,764349e8c96ae48a38373e0b922c62f1,ROCURONIUM BROMIDE INJECTION (rocuronium bromide 50 mg per 5 mL solution for injection vial) EUGIA PHARMA INC.,ADDED
+NA,77700769,"DOXORUBICIN INJECTION, BP (doxorubicin hydrochloride 50 mg per 25 mL solution for injection vial) ACCORD HEALTHCARE INC",ADDED
+NA,77700770,"DOXORUBICIN INJECTION, BP (doxorubicin hydrochloride 20 mg per 10 mL solution for injection vial) ACCORD HEALTHCARE INC",ADDED
+NA,77700771,"DOXORUBICIN INJECTION, BP (doxorubicin hydrochloride 2 mg per mL solution for injection 100 mL vial) ACCORD HEALTHCARE INC",ADDED
+NA,77700772,"DOXORUBICIN INJECTION, BP (doxorubicin hydrochloride 10 mg per 5 mL solution for injection vial) ACCORD HEALTHCARE INC",ADDED
+NA,77700783,DOXORUBICIN HYDROCHLORIDE INJECTION (doxorubicin hydrochloride 50 mg per 25 mL solution for injection vial) TEVA CANADA LIMITED,ADDED
+NA,77700784,DOXORUBICIN HYDROCHLORIDE INJECTION (doxorubicin hydrochloride 2 mg per mL solution for injection 100 mL vial) TEVA CANADA LIMITED,ADDED
+NA,77700785,DOXORUBICIN HYDROCHLORIDE INJECTION (doxorubicin hydrochloride 10 mg per 5 mL solution for injection vial) TEVA CANADA LIMITED,ADDED
+NA,77700789,DOXORUBICIN (doxorubicin hydrochloride 10 mg per 5 mL solution for injection vial) PFIZER CANADA ULC,ADDED
+NA,77700790,DOXORUBICIN (doxorubicin hydrochloride 2 mg per mL solution for injection 100 mL vial) PFIZER CANADA ULC,ADDED
+NA,77700791,DOXORUBICIN (doxorubicin hydrochloride 50 mg per 25 mL solution for injection vial) PFIZER CANADA ULC,ADDED
+NA,77700912,OXYTOCIN INJECTION USP (oxytocin 10 unit per 1 mL solution for injection ampoule) PFIZER CANADA ULC,ADDED
+NA,77700913,OXYTOCIN INJECTION USP (oxytocin 50 unit per 5 mL solution for injection ampoule) PFIZER CANADA ULC,ADDED
+NA,77700982,TARO-OXALIPLATIN (oxaliplatin 100 mg per 20 mL solution for injection vial) TARO PHARMACEUTICALS INC,ADDED
+NA,77700983,TARO-OXALIPLATIN (oxaliplatin 200 mg per 40 mL solution for injection vial) TARO PHARMACEUTICALS INC,ADDED
+NA,77700984,TARO-OXALIPLATIN (oxaliplatin 50 mg per 10 mL solution for injection vial) TARO PHARMACEUTICALS INC,ADDED
+NA,77700991,PACLITAXEL FOR INJECTION (paclitaxel 100 mg per 16.7 mL solution for injection vial) BIOLYSE PHARMA CORPORATION,ADDED
+NA,77700992,PACLITAXEL FOR INJECTION (paclitaxel 100 mg per 16.7 mL solution for injection vial) BIOLYSE PHARMA CORPORATION,ADDED
+NA,77700993,PACLITAXEL FOR INJECTION (paclitaxel 100 mg per 16.7 mL solution for injection vial) BIOLYSE PHARMA CORPORATION,ADDED
+NA,77700994,PACLITAXEL INJECTION USP (paclitaxel 100 mg per 16.7 mL solution for injection vial) SANDOZ CANADA INCORPORATED,ADDED
+NA,77700995,PACLITAXEL INJECTION USP (paclitaxel 100 mg per 16.7 mL solution for injection vial) SANDOZ CANADA INCORPORATED,ADDED
+NA,77700996,PACLITAXEL INJECTION USP (paclitaxel 100 mg per 16.7 mL solution for injection vial) SANDOZ CANADA INCORPORATED,ADDED
+NA,77700997,PACLITAXEL INJECTION USP (paclitaxel 100 mg per 16.7 mL solution for injection vial) SANDOZ CANADA INCORPORATED,ADDED
+NA,77700998,PACLITAXEL INJECTION USP (paclitaxel 100 mg per 16.7 mL solution for injection vial) ACCORD HEALTHCARE INC,ADDED
+NA,77700999,PACLITAXEL INJECTION USP (paclitaxel 100 mg per 16.7 mL solution for injection vial) ACCORD HEALTHCARE INC,ADDED
+NA,77701144,"COMIRNATY (SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial) BIONTECH MANUFACTURING GMBH",ADDED
+NA,77701145,"COMIRNATY (SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial) BIONTECH MANUFACTURING GMBH",ADDED
+NA,77701146,"COMIRNATY (SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial) BIONTECH MANUFACTURING GMBH",ADDED
+NA,77701147,"COMIRNATY (SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial) BIONTECH MANUFACTURING GMBH",ADDED
+NA,9ff854efd28ea3012c4d83db58c9b5cd,ROCURONIUM BROMIDE INJECTION (rocuronium bromide 100 mg per 10 mL solution for injection vial) EUGIA PHARMA INC.,ADDED
