@@ -1,4 +1,4 @@
-code,formal_name
+"code","formal_name"
 "8000001","levothyroxine"
 "8000003","epinephrine"
 "8000004","phenytoin sodium"
@@ -1672,3 +1672,6 @@ code,formal_name
 "8002510","calcium carbonate and simethicone"
 "8002511","metreleptin"
 "8002512","landiolol"
+"8002513","inebilizumab"
+"8002514","lebrikizumab"
+"8002515","adapalene and benzoyl peroxide and clindamycin"
