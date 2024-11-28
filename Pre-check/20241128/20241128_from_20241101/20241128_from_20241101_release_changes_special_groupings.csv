@@ -1,0 +1,17 @@
+ccdd_code,ccdd_formal_name,ccdd_type,policy_type,policy_reference,special_groupings_status,special_groupings_status_effective_time,changes
+9000232,morphine sulfate 25 mg oral tablet,NTP,500008,https://www.tppalberta.ca/medication-lists,Inactive,20241202,"special_groupings_status: ""ACTIVE"" -> INACTIVE
+special_groupings_status_effective_time: ""20240201"" -> 20241202"
+9000232,morphine sulfate 25 mg oral tablet,NTP,500001,http://www.gazette.gc.ca/rp-pr/p1/2017/2017-06-17/html/reg8-eng.php,Inactive,20241202,"special_groupings_status: ""ACTIVE"" -> INACTIVE
+special_groupings_status_effective_time: ""20170919"" -> 20241202"
+00594636,STATEX TABLET 25MG (morphine sulfate 25 mg oral tablet) PALADIN PHARMA INC.,MP,500001,http://www.gazette.gc.ca/rp-pr/p1/2017/2017-06-17/html/reg8-eng.php,Inactive,20241202,"special_groupings_status: ""ACTIVE"" -> INACTIVE
+special_groupings_status_effective_time: ""20170919"" -> 20241202"
+01924559,DEXEDRINE SPANSULE (dextroamphetamine sulfate 10 mg prolonged-release oral capsule) ENDO OPERATIONS LTD.,MP,500003,http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html,Active,20170919,"ccdd_formal_name: ""DEXEDRINE SPANSULE (dextroamphetamine sulfate 10 mg prolonged-release oral capsule) PALADIN PHARMA INC."" -> DEXEDRINE SPANSULE (dextroamphetamine sulfate 10 mg prolonged-release oral capsule) ENDO OPERATIONS LTD."
+01924516,DEXEDRINE (dextroamphetamine sulfate 5 mg oral tablet) ENDO OPERATIONS LTD.,MP,500003,http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html,Active,20170919,"ccdd_formal_name: ""DEXEDRINE (dextroamphetamine sulfate 5 mg oral tablet) PALADIN PHARMA INC."" -> DEXEDRINE (dextroamphetamine sulfate 5 mg oral tablet) ENDO OPERATIONS LTD."
+9000232,morphine sulfate 25 mg oral tablet,NTP,500002,http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html,Inactive,20241202,"special_groupings_status: ""ACTIVE"" -> INACTIVE
+special_groupings_status_effective_time: ""20170919"" -> 20241202"
+00594636,STATEX TABLET 25MG (morphine sulfate 25 mg oral tablet) PALADIN PHARMA INC.,MP,500002,http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html,Inactive,20241202,"special_groupings_status: ""ACTIVE"" -> INACTIVE
+special_groupings_status_effective_time: ""20170919"" -> 20241202"
+00594636,STATEX TABLET 25MG (morphine sulfate 25 mg oral tablet) PALADIN PHARMA INC.,MP,500008,https://www.tppalberta.ca/medication-lists,Inactive,20241202,"special_groupings_status: ""ACTIVE"" -> INACTIVE
+special_groupings_status_effective_time: ""20240201"" -> 20241202"
+01924567,DEXEDRINE SPANSULE (dextroamphetamine sulfate 15 mg prolonged-release oral capsule) ENDO OPERATIONS LTD.,MP,500003,http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html,Active,20170919,"ccdd_formal_name: ""DEXEDRINE SPANSULE (dextroamphetamine sulfate 15 mg prolonged-release oral capsule) PALADIN PHARMA INC."" -> DEXEDRINE SPANSULE (dextroamphetamine sulfate 15 mg prolonged-release oral capsule) ENDO OPERATIONS LTD."
+01934767,ROBAXACET-8 (acetaminophen 325 mg and codeine phosphate 8 mg and methocarbamol 400 mg oral tablet) HALEON CANADA ULC,MP,500002,http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html,Active,20170919,"ccdd_formal_name: ""ROBAXACET-8 (acetaminophen 325 mg and codeine phosphate 8 mg and methocarbamol 400 mg oral tablet) GLAXOSMITHKLINE CONSUMER HEALTHCARE ULC"" -> ROBAXACET-8 (acetaminophen 325 mg and codeine phosphate 8 mg and methocarbamol 400 mg oral tablet) HALEON CANADA ULC"

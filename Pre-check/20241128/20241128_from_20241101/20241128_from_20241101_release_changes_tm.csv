@@ -1,0 +1,7 @@
+tm_code,tm_formal_name,changes
+8001854,methocarbamol,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19581231"" -> ""20210614"""
+8001232,spiramycin,"tm_status_effective_time: ""20230619"" -> ""20240620"""
+8000870,acetylsalicylic acid and caffeine,"tm_status_effective_time: ""20240718"" -> ""20241104"""
+8001372,dextromethorphan and phenylephrine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20060818"" -> ""20190211"""

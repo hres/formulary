@@ -1,0 +1,34 @@
+ntp_code,ntp_formal_name,changes
+9013418,buserelin (buserelin acetate) 9.45 mg implant,DELETED
+9007059,aliskiren (aliskiren fumarate) 300 mg oral tablet,DELETED
+9006205,penicillin V potassium 125 mg per 5 mL powder for oral solution,"ntp_status_effective_time: ""20170804"" -> ""20241024"""
+9004829,thalidomide 200 mg oral capsule,DELETED
+9004809,acetylsalicylic acid 325 mg and caffeine 32 mg oral tablet,"ntp_status_effective_time: ""20240718"" -> ""20241104"""
+9001940,dipyridamole 25 mg oral tablet,"ntp_status_effective_time: ""20210925"" -> ""20240731"""
+9000232,morphine sulfate 25 mg oral tablet,DELETED
+9006198,penicillin V potassium 300 mg per 5 mL powder for oral solution,"ntp_status_effective_time: ""20180124"" -> ""20241024"""
+9013589,nonacog gamma 500 unit per vial powder for solution for injection with diluent solution,DELETED
+9014229,rurioctocog alfa pegol 1000 unit per vial powder for solution for injection with diluent solution,"ntp_status_effective_time: ""20180306"" -> ""20210813"""
+9002595,methocarbamol 750 mg oral tablet,DELETED
+ff7500ae68d1704e5df4d35406e2f9bb,icatibant (icatibant acetate) 10 mg per mL solution for injection,ADDED
+9012608,dalteparin sodium 10000 unit per 1 mL solution for injection ampoule,DELETED
+9013787,nonacog gamma 250 unit per vial powder for solution for injection with diluent solution,DELETED
+9001941,dipyridamole 50 mg oral tablet,"ntp_status_effective_time: ""20210925"" -> ""20240721"""
+9013486,oxytocin 10 unit per 1 mL solution for injection ampoule,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20240925"" -> ""19811231"""
+9013465,norepinephrine (norepinephrine bitartrate) 4 mg per 4 mL solution for injection ampoule,"ntp_status_effective_time: ""20011001"" -> ""20200504"""
+9015071,fluconazole 200 mg oral tablet,DELETED
+9001561,spiramycin 750000 unit oral capsule,"ntp_status_effective_time: ""20230619"" -> ""20230620"""
+9001560,spiramycin 1500000 unit oral capsule,"ntp_status_effective_time: ""20230619"" -> ""20240620"""
+fb3b4b7e4d32308baf6681c5f8a3cbe4,captopril 25 mg per 5 mL oral solution,ADDED
+9014232,rurioctocog alfa pegol 500 unit per vial powder for solution for injection with diluent solution,"ntp_status_effective_time: ""20180306"" -> ""20210813"""
+cf8077e866de406af1ddb5e3e4a563dc,metreleptin 3 mg per vial powder for solution for injection,ADDED
+9002017,dipyridamole 75 mg oral tablet,"ntp_status_effective_time: ""20210812"" -> ""20240721"""
+9001566,methocarbamol 500 mg oral tablet,DELETED
+4c80064114870c3a092cbf1aa4b7e4d0,tranexamic acid 100 mg per mL solution for injection,ADDED
+ee7de9f39f6abc8414e84035c266734b,metreleptin 5.8 mg per vial powder for solution for injection,ADDED
+9005558,dextromethorphan hydrobromide 5 mg per 5 mL and phenylephrine hydrochloride 2.5 mg per 5 mL syrup,DELETED
+9014231,rurioctocog alfa pegol 250 unit per vial powder for solution for injection with diluent solution,"ntp_status_effective_time: ""20180306"" -> ""20210716"""
+9013489,oxytocin 50 unit per 5 mL solution for injection ampoule,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20240925"" -> ""19811231"""
+9000372,acyclovir 200 mg per 5 mL oral suspension,DELETED
