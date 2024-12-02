@@ -7,9 +7,9 @@
 # ARGS (optional)   : qa
 ###############################################################################
 
-ccdd_qa_release_date="20241001"
-ccdd_current_release_date="20241009"
-db_previous_month="ccdd_2024_10_09_112516"
+ccdd_qa_release_date="20241101"
+ccdd_current_release_date="20241101"
+db_previous_month="ccdd_2024_11_04_150943"
 ccdd_current_date=$(date +'%Y%m%d')
 baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 distDir="$baseDir/../dist/$ccdd_current_date"
@@ -138,7 +138,7 @@ psql -c "copy (select
                 ntp_formal_name,
                 tm_code,
                 tm_formal_name FROM ccdd_mp_ntp_tm_relationship_release_candidate)
-               to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/mp_ntp_tm_relationship_release_candidate_${ccdd_current_date}.csv"
+               to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/mp_ntp_tm_relationship_${ccdd_current_date}.csv"
 
 psql -c "copy (select
                mp_code,
@@ -159,7 +159,7 @@ psql -c "copy (select
                special_groupings_status,
                special_groupings_status_effective_time
                FROM ccdd_special_groupings_release_candidate)
-              to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/special_groupings_release_candidate_${ccdd_current_date}.csv"
+              to STDOUT with CSV HEADER FORCE QUOTE * DELIMITER ',';" > "$distDir/special_groupings_${ccdd_current_date}.csv"
 
 # copy hand-curated files
 cp "$baseDir/test/ccdd-device-ntp-draft.csv" "$distDir/device-ntp_full_release_${ccdd_current_date}.csv"
