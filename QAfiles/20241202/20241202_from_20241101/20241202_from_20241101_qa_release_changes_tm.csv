@@ -1,0 +1,34 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002154,potassium phosphate dibasic and potassium phosphate monobasic,phosphate de potassium dibasique et phosphate de potassium monobasique,ADDED
+8002282,fibrinogen human and thrombin human,fibrinogène humaine et thrombine humaine,ADDED
+8002161,sodium bicarbonate,bicarbonate de sodium,ADDED
+8001844,magnesium chloride,chlorure de magnésium,ADDED
+8001615,chloroxylenol,chloroxylénol,ADDED
+e49b9b009f4dc09263a499e3667fcb5c,ivosidenib,ivosidénib,ADDED
+8002278,coagulation factor ii (human) and coagulation factor IX human and coagulation factor vii (human) and coagulation factor x (human) and protein c and protein s,facteur II de coagulation humain et facteur IX de coagulation humain et facteur VII de coagulation humain et facteur X de coagulation humain et protéine c et protéine s,ADDED
+8001579,benzethonium,benzéthonium,ADDED
+8001372,dextromethorphan and phenylephrine,dextrométhorphane et phényléphrine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20060818"" -> ""20190211"""
+8002452,cytarabine and daunorubicin,cytarabine et daunorubicine,ADDED
+8002518,raxtozinameran,raxtozinaméran,ADDED
+8001757,doxorubicin,doxorubicine,ADDED
+3253bec1400776580a4c9a55895ef708,nirsevimab,nirsévimab,ADDED
+8002312,niraparib,niraparib,"tm_status_effective_time: ""20200109"" -> ""20230913"""
+8001004,benzoyl peroxide and salicylic acid,peroxyde de benzoyle et acide salicylique,ADDED
+8002088,acetic acid and sodium acetate,acide acétique et acétate de sodium,ADDED
+8001976,triclosan,triclosan,ADDED
+8002516,calaspargase pegol,calaspargase pégol,ADDED
+8002047,paclitaxel,paclitaxel,ADDED
+3747c41ef4e8cd868f922939fca15d47,olipudase alfa,olipudase alfa,ADDED
+8001854,methocarbamol,méthocarbamol,"tm_status_effective_time: ""19581231"" -> ""19891231"""
+8001870,potassium chloride,chlorure de potassium,ADDED
+8002517,eplontersen,éplontersen,ADDED
+f3dd271a55bd817d32f9c5de76330058,vorasidenib,vorasidénib,ADDED
+8000796,benzalkonium,benzalkonium,ADDED
+8002160,sodium acetate,acétate de sodium,ADDED
+8001232,spiramycin,spiramycine,"tm_status_effective_time: ""20230619"" -> ""20240620"""
+8001878,sodium iodide,iodure de sodium,ADDED
+8002215,amphotericin B,amphotéricine B,ADDED
+8001476,follitropin beta,follitropine bêta,ADDED
+8000870,acetylsalicylic acid and caffeine,acide acétylsalicylique et caféine,"tm_status_effective_time: ""20240718"" -> ""20241104"""
+8000912,alcohol anhydrous and chlorhexidine,alcool anhydre et chlorhexidine,ADDED
