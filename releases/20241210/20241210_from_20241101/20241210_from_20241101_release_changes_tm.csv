@@ -1,0 +1,14 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002520,ivosidenib,ivosidénib,ADDED
+8002487,raxtozinameran,raxtozinaméran,"tm_formal_name: ""S̲A̲R̲S̲C̲o̲V̲2̲ ̲S̲-̲p̲r̲o̲t̲e̲i̲n̲ ̲m̲R̲N̲A̲,̲ ̲5̲'̲[̲m̲2̲7̲,̲3̲'̲-̲o̲G̲p̲p̲p̲(̲m̲1̲2̲'̲-̲O̲)̲A̲p̲G̲]̲,̲ ̲3̲'̲p̲o̲l̲y̲A̲+̲l̲i̲n̲k̲e̲r̲"" -> ""r̲a̲x̲t̲o̲z̲i̲n̲a̲m̲e̲r̲a̲n̲""
+tm_fr_description: ""A̲R̲N̲m̲ ̲d̲e̲ ̲S̲R̲A̲S̲C̲O̲V̲2̲ ̲S̲-̲p̲r̲o̲t̲é̲i̲n̲e̲,̲ ̲5̲'̲[̲m̲2̲7̲,̲3̲'̲-̲o̲G̲p̲p̲p̲(̲m̲1̲2̲'̲-̲O̲)̲A̲p̲G̲]̲,̲ ̲p̲o̲l̲y̲A̲ ̲3̲'̲+̲l̲i̲a̲i̲s̲o̲n"" -> ""r̲a̲x̲t̲o̲z̲i̲n̲a̲m̲é̲r̲a̲n""
+tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20231010"" -> ""20240924"""
+8002521,olipudase alfa,olipudase alfa,ADDED
+8001372,dextromethorphan and phenylephrine,dextrométhorphane et phényléphrine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20060818"" -> ""20230306"""
+8002516,calaspargase pegol,calaspargase pégol,ADDED
+8002517,eplontersen,éplontersen,ADDED
+8001232,spiramycin,spiramycine,"tm_status_effective_time: ""20230619"" -> ""20240620"""
+8002522,vorasidenib,vorasidénib,ADDED
+8000870,acetylsalicylic acid and caffeine,acide acétylsalicylique et caféine,"tm_status_effective_time: ""20240718"" -> ""20241104"""

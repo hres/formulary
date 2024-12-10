@@ -1,0 +1,79 @@
+drug_code,mp_code,mp_formal_name,changes
+12942,01934767,ROBAXACET-8 (acetaminophen 325 mg and codeine phosphate 8 mg and methocarbamol 400 mg oral tablet) HALEON CANADA ULC,"mp_formal_name: ""ROBAXACET-8 (acetaminophen 325 mg and codeine phosphate 8 mg and methocarbamol 400 mg oral tablet) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ROBAXACET-8 (acetaminophen 325 mg and codeine phosphate 8 mg and methocarbamol 400 mg oral tablet) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+13624,01932187,ROBAXIN 750 (methocarbamol 750 mg oral tablet) HALEON CANADA ULC,"mp_formal_name: ""ROBAXIN 750 (methocarbamol 750 mg oral tablet) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ROBAXIN 750 (methocarbamol 750 mg oral tablet) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+15210,01924567,DEXEDRINE SPANSULE (dextroamphetamine sulfate 15 mg prolonged-release oral capsule) ENDO OPERATIONS LTD.,"mp_formal_name: ""DEXEDRINE SPANSULE (dextroamphetamine sulfate 15 mg prolonged-release oral capsule) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""DEXEDRINE SPANSULE (dextroamphetamine sulfate 15 mg prolonged-release oral capsule) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+15211,01924559,DEXEDRINE SPANSULE (dextroamphetamine sulfate 10 mg prolonged-release oral capsule) ENDO OPERATIONS LTD.,"mp_formal_name: ""DEXEDRINE SPANSULE (dextroamphetamine sulfate 10 mg prolonged-release oral capsule) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""DEXEDRINE SPANSULE (dextroamphetamine sulfate 10 mg prolonged-release oral capsule) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+15225,01924516,DEXEDRINE (dextroamphetamine sulfate 5 mg oral tablet) ENDO OPERATIONS LTD.,"mp_formal_name: ""DEXEDRINE (dextroamphetamine sulfate 5 mg oral tablet) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""DEXEDRINE (dextroamphetamine sulfate 5 mg oral tablet) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+60786,02237452,PERIDEX ORAL RINSE (chlorhexidine gluconate 0.12 % mouthwash) 3M HEALTHCARE CANADA COMPANY LIMITED,"mp_formal_name: ""PERIDEX ORAL RINSE (chlorhexidine gluconate 0.12 % mouthwash) 3M CANADA COMPANY"" -> ""PERIDEX ORAL RINSE (chlorhexidine gluconate 0.12 % mouthwash) 3M H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲CANADA COMPANY ̲L̲I̲M̲I̲T̲E̲D̲"""
+77558,02290308,CYESTRA-35 (cyproterone acetate 2 mg and ethinyl estradiol 35 mcg oral tablet) ENDO OPERATIONS LTD.,"mp_formal_name: ""CYESTRA-35 (cyproterone acetate 2 mg and ethinyl estradiol 35 mcg oral tablet) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""CYESTRA-35 (cyproterone acetate 2 mg and ethinyl estradiol 35 mcg oral tablet) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+78282,02297477,TEVA-AMLODIPINE (amlodipine (amlodipine besylate) 2.5 mg oral tablet) TEVA CANADA LIMITED,"mp_formal_name: ""A̲C̲T̲ ̲AMLODIPINE (amlodipine (amlodipine besylate) 2.5 mg oral tablet) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲AMLODIPINE (amlodipine (amlodipine besylate) 2.5 mg oral tablet) TEVA CANADA LIMITED"""
+78283,02297485,TEVA-AMLODIPINE (amlodipine (amlodipine besylate) 5 mg oral tablet) TEVA CANADA LIMITED,"mp_formal_name: ""A̲C̲T̲ ̲AMLODIPINE (amlodipine (amlodipine besylate) 5 mg oral tablet) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲AMLODIPINE (amlodipine (amlodipine besylate) 5 mg oral tablet) TEVA CANADA LIMITED"""
+78284,02297493,TEVA-AMLODIPINE (amlodipine (amlodipine besylate) 10 mg oral tablet) TEVA CANADA LIMITED,"mp_formal_name: ""A̲C̲T̲ ̲AMLODIPINE (amlodipine (amlodipine besylate) 10 mg oral tablet) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲AMLODIPINE (amlodipine (amlodipine besylate) 10 mg oral tablet) TEVA CANADA LIMITED"""
+81810,02332450,ANACIN (acetylsalicylic acid 325 mg and caffeine 32 mg oral tablet) ENDO OPERATIONS LTD.,"mp_formal_name: ""ANACIN (acetylsalicylic acid 325 mg and caffeine 32 mg oral tablet) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""ANACIN (acetylsalicylic acid 325 mg and caffeine 32 mg oral tablet) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+86577,02379910,FAMPYRA (fampridine 10 mg prolonged-release oral tablet) ACORDA THERAPEUTICS IRELAND LIMITED,"mp_formal_name: ""FAMPYRA (fampridine 10 mg prolonged-release oral tablet) B̲I̲O̲G̲E̲N̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""FAMPYRA (fampridine 10 mg prolonged-release oral tablet) A̲C̲O̲R̲D̲A̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲R̲E̲L̲A̲N̲D̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+87451,02388987,LOSARTAN HCT DS (hydrochlorothiazide 25 mg and losartan potassium 100 mg oral tablet) SIVEM PHARMACEUTICALS ULC,"mp_formal_name: ""LOSARTAN HCT (hydrochlorothiazide 25 mg and losartan potassium 100 mg oral tablet) SIVEM PHARMACEUTICALS ULC"" -> ""LOSARTAN HCT ̲D̲S̲ (hydrochlorothiazide 25 mg and losartan potassium 100 mg oral tablet) SIVEM PHARMACEUTICALS ULC"""
+91421,02429772,JAMP GLICLAZIDE-MR (gliclazide 60 mg prolonged-release oral tablet) JAMP PHARMA CORPORATION,ADDED
+92853,02443783,COLGATE TOTAL ACTIVE PREVENTION (cetylpyridinium chloride 0.07 % mouthwash) COLGATE-PALMOLIVE CANADA INC,"mp_formal_name: ""COLGATE TOTAL PREVENTION (cetylpyridinium chloride 0.07 % mouthwash) COLGATE-PALMOLIVE CANADA INC"" -> ""COLGATE TOTAL ̲A̲C̲T̲I̲V̲E̲ PREVENTION (cetylpyridinium chloride 0.07 % mouthwash) COLGATE-PALMOLIVE CANADA INC"""
+99328,02503840,PMS-SITAGLIPTIN (sitagliptin (sitagliptin phosphate monohydrate) 25 mg oral tablet) PHARMASCIENCE INC,ADDED
+99329,02503859,PMS-SITAGLIPTIN (sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet) PHARMASCIENCE INC,ADDED
+99330,02503867,PMS-SITAGLIPTIN (sitagliptin (sitagliptin phosphate monohydrate) 100 mg oral tablet) PHARMASCIENCE INC,ADDED
+99452,02505177,AZACITIDINE FOR INJECTION (azacitidine 100 mg per vial powder for suspension for injection) FRESENIUS KABI CANADA LTD,ADDED
+100203,02512777,SANDOZ AFATINIB (afatinib (afatinib dimaleate) 20 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+100204,02512785,SANDOZ AFATINIB (afatinib (afatinib dimaleate) 30 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+100205,02512793,SANDOZ AFATINIB (afatinib (afatinib dimaleate) 40 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+101418,02525186,LISINOPRIL (TYPE Z) (lisinopril 5 mg oral tablet) SANIS HEALTH INC,"mp_formal_name: ""LISINOPRIL (lisinopril 5 mg oral tablet) SANIS HEALTH INC"" -> ""LISINOPRIL ̲(̲T̲Y̲P̲E̲ ̲Z̲)̲ (lisinopril 5 mg oral tablet) SANIS HEALTH INC"""
+101419,02525194,LISINOPRIL (TYPE Z) (lisinopril 10 mg oral tablet) SANIS HEALTH INC,"mp_formal_name: ""LISINOPRIL (lisinopril 10 mg oral tablet) SANIS HEALTH INC"" -> ""LISINOPRIL ̲(̲T̲Y̲P̲E̲ ̲Z̲)̲ (lisinopril 10 mg oral tablet) SANIS HEALTH INC"""
+101420,02525208,LISINOPRIL (TYPE Z) (lisinopril 20 mg oral tablet) SANIS HEALTH INC,"mp_formal_name: ""LISINOPRIL (lisinopril 20 mg oral tablet) SANIS HEALTH INC"" -> ""LISINOPRIL ̲(̲T̲Y̲P̲E̲ ̲Z̲)̲ (lisinopril 20 mg oral tablet) SANIS HEALTH INC"""
+101740,02528142,LETYBO (letibotulinumtoxina 100 unit per vial powder for solution for injection) HUGEL CANADA INC.,"mp_formal_name: ""LETYBO (letibotulinumtoxina 100 unit per vial powder for solution for injection) C̲R̲O̲M̲A̲ ̲A̲E̲S̲T̲H̲E̲T̲I̲C̲S̲ ̲C̲A̲N̲A̲D̲A̲,̲ ̲L̲T̲D̲."" -> ""LETYBO (letibotulinumtoxina 100 unit per vial powder for solution for injection) H̲U̲G̲E̲L̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲."""
+101789,02528673,PIPERACILLIN AND TAZOBACTAM FOR INJECTION (piperacillin (piperacillin sodium) 2 g per vial and tazobactam (tazobactam sodium) 0.25 g per vial powder for solution for injection) EUGIA PHARMA INC.,ADDED
+101802,02528835,PANTOPRAZOLE FOR INJECTION (pantoprazole (pantoprazole sodium sesquihydrate) 40 mg per vial powder for solution for injection) EUGIA PHARMA INC.,ADDED
+101963,02530449,LIDOCAINE INJECTION BP (lidocaine hydrochloride 200 mg per 20 mL solution for injection vial) EUGIA PHARMA INC.,ADDED
+101964,02530457,LIDOCAINE INJECTION BP (lidocaine hydrochloride 400 mg per 20 mL solution for injection vial) EUGIA PHARMA INC.,ADDED
+102870,02539977,AXBERI (enoxaparin sodium 30 mg per 0.3 mL solution for injection syringe) BAXTER CORPORATION,ADDED
+102871,02539985,AXBERI (enoxaparin sodium 40 mg per 0.4 mL solution for injection syringe) BAXTER CORPORATION,ADDED
+102873,02540002,AXBERI (enoxaparin sodium 60 mg per 0.6 mL solution for injection syringe) BAXTER CORPORATION,ADDED
+102874,02540010,AXBERI (enoxaparin sodium 80 mg per 0.8 mL solution for injection syringe) BAXTER CORPORATION,ADDED
+102875,02540029,AXBERI HP (enoxaparin sodium 120 mg per 0.8 mL solution for injection syringe) BAXTER CORPORATION,ADDED
+102876,02540037,AXBERI HP (enoxaparin sodium 150 mg per 1 mL solution for injection syringe) BAXTER CORPORATION,ADDED
+102992,02541270,"SPIKEVAX (SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial) MODERNA BIOPHARMA CANADA CORPORATION","ntp_code: ""9014936"" -> ""9015112""
+tm_code: ""8002482"" -> ""8002519"""
+103047,02541866,COMIRNATY OMICRON XBB.1.5 (raxtozinameran 3 mcg per 0.2 mL suspension for injection 2 mL vial) BIONTECH MANUFACTURING GMBH,ADDED
+103146,02542943,ASPARLAS (calaspargase pegol 3750 unit per 5 mL solution for injection vial) SERVIER CANADA INC,ADDED
+103314,02544555,MYALEPTA (metreleptin 3 mg per vial powder for solution for injection) CHIESI FARMACEUTICI S.P.A.,ADDED
+103315,02544563,MYALEPTA (metreleptin 5.8 mg per vial powder for solution for injection) CHIESI FARMACEUTICI S.P.A.,ADDED
+103412,02545349,JAMP SUMATRIPTAN (sumatriptan (sumatriptan succinate) 25 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103413,02545357,JAMP SUMATRIPTAN (sumatriptan (sumatriptan succinate) 50 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103414,02545365,JAMP SUMATRIPTAN (sumatriptan (sumatriptan succinate) 100 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103447,02545721,XENPOZYME (olipudase alfa 20 mg per vial powder for solution for injection) SANOFI-AVENTIS CANADA INC,ADDED
+103561,02546949,MINT-VARENICLINE (varenicline (varenicline tartrate) 0.5 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+103562,02546957,MINT-VARENICLINE (varenicline (varenicline tartrate) 1 mg oral tablet) MINT PHARMACEUTICALS INC,ADDED
+103594,02547317,MINT-METFORMIN XR (metformin hydrochloride 1000 mg prolonged-release oral tablet) MINT PHARMACEUTICALS INC,ADDED
+103598,02547368,PANTOPRAZOLE (pantoprazole (pantoprazole sodium sesquihydrate) 40 mg gastro-resistant tablet) 10445517 CANADA INC / NORTH PHARMACEUTICALS / DAC PHARMACEUTICALS,ADDED
+103650,02547562,ICATIBANT INJECTION (icatibant (icatibant acetate) 30 mg per 3 mL solution for injection syringe) JAMP PHARMA CORPORATION,ADDED
+103669,02547767,M-METFORMIN (metformin hydrochloride 500 mg oral tablet) MANTRA PHARMA INC,ADDED
+103670,02547775,M-METFORMIN (metformin hydrochloride 850 mg oral tablet) MANTRA PHARMA INC,ADDED
+103716,02548275,M-METFORMIN (metformin hydrochloride 1000 mg oral tablet) MANTRA PHARMA INC,ADDED
+103770,02548879,APIXABAN (apixaban 2.5 mg oral tablet) SANIS HEALTH INC,ADDED
+103771,02548887,APIXABAN (apixaban 5 mg oral tablet) SANIS HEALTH INC,ADDED
+103775,02548909,WAINUA (eplontersen (eplontersen sodium) 45 mg per 0.8 mL solution for injection syringe) ASTRAZENECA CANADA INC,ADDED
+103798,02549107,FAMOTIDINE (famotidine 20 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+103799,02549115,FAMOTIDINE (famotidine 40 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+103806,02549190,ODAN-VALPROIC ACID (valproic acid (sodium valproate) 250 mg per 5 mL oral solution) ODAN LABORATORIES LTD,ADDED
+103879,02549980,TIBSOVO (ivosidenib 250 mg oral tablet) SERVIER CANADA INC,ADDED
+103912,02550296,SPEVIGO (spesolimab 150 mg per 1 mL solution for injection syringe) BOEHRINGER INGELHEIM (CANADA) LTD LTEE,ADDED
+103919,02550377,NRA-PRUCALOPRIDE (prucalopride (prucalopride succinate) 1 mg oral tablet) NORA PHARMA INC,ADDED
+103920,02550385,NRA-PRUCALOPRIDE (prucalopride (prucalopride succinate) 2 mg oral tablet) NORA PHARMA INC,ADDED
+103996,02551225,VORANIGO (vorasidenib 10 mg oral tablet) SERVIER CANADA INC,ADDED
+103997,02551233,VORANIGO (vorasidenib 40 mg oral tablet) SERVIER CANADA INC,ADDED
+104063,02551934,NRA-BILASTINE (bilastine 20 mg oral tablet) NORA PHARMA INC,ADDED
+104152,02552566,"ZORYVE (roflumilast 0.3 % cutaneous foam) ARCUTIS CANADA, INC.",ADDED
+NA,77701144,"COMIRNATY (SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial) BIONTECH MANUFACTURING GMBH","ntp_code: ""9014985"" -> ""9015118""
+tm_code: ""8002487"" -> ""8002518"""
+NA,77701145,"COMIRNATY (SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial) BIONTECH MANUFACTURING GMBH","ntp_code: ""9014986"" -> ""9015119""
+tm_code: ""8002487"" -> ""8002518"""
+NA,77701146,"COMIRNATY (SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial) BIONTECH MANUFACTURING GMBH","ntp_code: ""9014983"" -> ""9015116""
+tm_code: ""8002487"" -> ""8002518"""
+NA,77701147,"COMIRNATY (SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial) BIONTECH MANUFACTURING GMBH","ntp_code: ""9014984"" -> ""9015117""
+tm_code: ""8002487"" -> ""8002518"""
+NA,77701166,TRANEXAMIC ACID INJECTION (tranexamic acid 1000 mg per 10 mL solution for injection vial) EUGIA PHARMA INC.,ADDED
+NA,77701167,TRANEXAMIC ACID INJECTION (tranexamic acid 500 mg per 5 mL solution for injection vial) EUGIA PHARMA INC.,ADDED

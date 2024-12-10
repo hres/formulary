@@ -1,0 +1,52 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9013589,nonacog gamma 500 unit per vial powder for solution for injection with diluent solution,nonacog gamma 500 unité par fiole poudre pour solution injectable avec solution diluante,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20170502"" -> ""20241106"""
+9015119,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial","ARNm de SRASCOV2 S-protéine, 5'[m27,3'-oGppp(m12'-O)ApG], polyA 3'+liaison 30 mcg par 0,3 mL suspension injectable 1,8 mL fiole","ntp_status_effective_time: ""20240924"" -> ""20231010"""
+9006205,penicillin V potassium 125 mg per 5 mL powder for oral solution,pénicilline V potassique 125 mg par 5 mL poudre pour solution orale,"ntp_status_effective_time: ""20170804"" -> ""20241024"""
+9012608,dalteparin sodium 10000 unit per 1 mL solution for injection ampoule,daltéparine sodique 10000 unité par 1 mL solution injectable ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19951231"" -> ""20240306"""
+9013486,oxytocin 10 unit per 1 mL solution for injection ampoule,oxytocine 10 unité par 1 mL solution injectable ampoule,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20240925"" -> ""19811231"""
+9013418,buserelin (buserelin acetate) 9.45 mg implant,"buséréline (acétate de buséréline) 9,45 mg implant","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20000224"" -> ""20241013"""
+9006198,penicillin V potassium 300 mg per 5 mL powder for oral solution,pénicilline V potassique 300 mg par 5 mL poudre pour solution orale,"ntp_status_effective_time: ""20180124"" -> ""20241024"""
+9005558,dextromethorphan hydrobromide 5 mg per 5 mL and phenylephrine hydrochloride 2.5 mg per 5 mL syrup,"bromhydrate de dextrométhorphane 5 mg par 5 mL et chlorhydrate de phényléphrine 2,5 mg par 5 mL sirop","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20140805"" -> ""20230306"""
+9000232,morphine sulfate 25 mg oral tablet,sulfate de morphine 25 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19851231"" -> ""20230220"""
+9015123,metreleptin 5.8 mg per vial powder for solution for injection,"métréleptine 5,8 mg par fiole poudre pour solution injectable",ADDED
+9001560,spiramycin 1500000 unit oral capsule,spiramycine 1500000 unité capsule orale,"ntp_status_effective_time: ""20230619"" -> ""20240620"""
+9001940,dipyridamole 25 mg oral tablet,dipyridamole 25 mg comprimé oral,"ntp_status_effective_time: ""20210925"" -> ""20240731"""
+9015117,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial","ARNm de SRASCOV2 S-protéine, 5'[m27,3'-oGppp(m12'-O)ApG], polyA 3'+liaison 10 mcg par 0,3 mL suspension injectable 1,8 mL fiole","ntp_status_effective_time: ""20240924"" -> ""20231023"""
+9001941,dipyridamole 50 mg oral tablet,dipyridamole 50 mg comprimé oral,"ntp_status_effective_time: ""20210925"" -> ""20240721"""
+9014987,raxtozinameran 3 mcg per 0.2 mL suspension for injection 2 mL vial,"raxtozinaméran 3 mcg par 0,2 mL suspension injectable 2 mL fiole",ADDED
+9004829,thalidomide 200 mg oral capsule,thalidomide 200 mg capsule orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20110217"" -> ""20240328"""
+9013489,oxytocin 50 unit per 5 mL solution for injection ampoule,oxytocine 50 unité par 5 mL solution injectable ampoule,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20240925"" -> ""19811231"""
+9000372,acyclovir 200 mg per 5 mL oral suspension,acyclovir 200 mg par 5 mL suspension orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19911231"" -> ""20240612"""
+9001561,spiramycin 750000 unit oral capsule,spiramycine 750000 unité capsule orale,"ntp_status_effective_time: ""20230619"" -> ""20230620"""
+9015112,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial","ARNm de SRASCOV2 S-protéine, 5'(m7G-5'-ppp-5'-Gm), polyA 3' 0,1 mg par mL dispersion injectable 2,5 mL fiole","ntp_status_effective_time: ""20240924"" -> ""20230918"""
+9015116,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial","ARNm de SRASCOV2 S-protéine, 5'[m27,3'-oGppp(m12'-O)ApG], polyA 3'+liaison 10 mcg par 0,3 mL suspension injectable 0,3 mL fiole","ntp_status_effective_time: ""20240924"" -> ""20231023"""
+9007059,aliskiren (aliskiren fumarate) 300 mg oral tablet,aliskirène (fumarate d'aliskirène) 300 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20071129"" -> ""20230831"""
+9015126,spesolimab 150 mg per 1 mL solution for injection syringe,spésolimab 150 mg par 1 mL solution injectable seringue,ADDED
+9015122,metreleptin 3 mg per vial powder for solution for injection,métréleptine 3 mg par fiole poudre pour solution injectable,ADDED
+9015124,olipudase alfa 20 mg per vial powder for solution for injection,olipudase alfa 20 mg par fiole poudre pour solution injectable,ADDED
+9015110,eplontersen (eplontersen sodium) 45 mg per 0.8 mL solution for injection syringe,"éplontersen (éplontersen sodique) 45 mg par 0,8 mL solution injectable seringue",ADDED
+9015118,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial","ARNm de SRASCOV2 S-protéine, 5'[m27,3'-oGppp(m12'-O)ApG], polyA 3'+liaison 30 mcg par 0,3 mL suspension injectable 0,3 mL fiole","ntp_status_effective_time: ""20240924"" -> ""20231010"""
+9013787,nonacog gamma 250 unit per vial powder for solution for injection with diluent solution,nonacog gamma 250 unité par fiole poudre pour solution injectable avec solution diluante,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20190115"" -> ""20241106"""
+9004809,acetylsalicylic acid 325 mg and caffeine 32 mg oral tablet,acide acétylsalicylique 325 mg et caféine 32 mg comprimé oral,"ntp_status_effective_time: ""20240718"" -> ""20241104"""
+9015128,vorasidenib 40 mg oral tablet,vorasidénib 40 mg comprimé oral,ADDED
+9001566,methocarbamol 500 mg oral tablet,méthocarbamol 500 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19581231"" -> ""20241106"""
+9014226,niraparib (niraparib tosylate) 100 mg oral capsule,niraparib (tosylate de niraparib) 100 mg capsule orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20200109"" -> ""20241026"""
+9015121,ivosidenib 250 mg oral tablet,ivosidénib 250 mg comprimé oral,ADDED
+9015071,fluconazole 200 mg oral tablet,fluconazole 200 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE"""
+9002017,dipyridamole 75 mg oral tablet,dipyridamole 75 mg comprimé oral,"ntp_status_effective_time: ""20210812"" -> ""20240721"""
+9015125,roflumilast 0.3 % cutaneous foam,"roflumilast 0,3 % mousse cutanée",ADDED
+9015107,calaspargase pegol 3750 unit per 5 mL solution for injection vial,calaspargase pégol 3750 unité par 5 mL solution injectable fiole,ADDED
+9015127,vorasidenib 10 mg oral tablet,vorasidénib 10 mg comprimé oral,ADDED
