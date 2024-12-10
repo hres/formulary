@@ -154,6 +154,8 @@ mp_fr_description: ""LETYBO (létibotulinumtoxina 100 unité par fiole poudre po
 103997,02551233,VORANIGO (vorasidenib 40 mg oral tablet) SERVIER CANADA INC,VORANIGO (vorasidénib 40 mg comprimé oral) SERVIER CANADA INC,ADDED
 104063,02551934,NRA-BILASTINE (bilastine 20 mg oral tablet) NORA PHARMA INC,NRA-BILASTINE (bilastine 20 mg comprimé oral) NORA PHARMA INC,ADDED
 104152,02552566,"ZORYVE (roflumilast 0.3 % cutaneous foam) ARCUTIS CANADA, INC.","ZORYVE (roflumilast 0,3 %  mousse cutanée) ARCUTIS CANADA, INC.",ADDED
+NA,77700589,DIMENHYDRINATE INJECTION USP (dimenhydrinate 250 mg per 5 mL solution for injection vial) SANDOZ CANADA INCORPORATED,DIMENHYDRINATE INJECTION USP (dimenhydrinate 250 mg par 5 mL solution injectable fiole) SANDOZ CANADA INCORPORATED,"mp_status: ""ACTIVE"" -> ""INACTIVE""
+mp_status_effective_time: ""19731231"" -> ""20241202"""
 NA,77700912,OXYTOCIN INJECTION USP (oxytocin 10 unit per 1 mL solution for injection ampoule) PFIZER CANADA ULC,OXYTOCIN INJECTION USP (oxytocine 10 unité par 1 mL solution injectable ampoule) PFIZER CANADA ULC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
 mp_status_effective_time: ""20240925"" -> ""19811231"""
 NA,77700913,OXYTOCIN INJECTION USP (oxytocin 50 unit per 5 mL solution for injection ampoule) PFIZER CANADA ULC,OXYTOCIN INJECTION USP (oxytocine 50 unité par 5 mL solution injectable ampoule) PFIZER CANADA ULC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
