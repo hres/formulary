@@ -56,6 +56,8 @@ psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-csv.sql"
 psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-instance-structure.sql"
 pgloader "$baseDir/ccdd-inputs.pgload"
 pgloader "$baseDir/ccdd-current-release.pgload"
+psql -c "\\copy ccdd.tm_release_candidate from '/home/cyanofsky/git/formulary/src/pgloaded/tm_rollover.csv' DELIMITERS ',' CSV HEADER QUOTE '\"'"
+psql -c "\\copy ccdd.ntp_release_candidate from '/home/cyanofsky/git/formulary/src/pgloaded/ntp_rollover.csv' DELIMITERS ',' CSV HEADER QUOTE '\"'"
 
 # load the data from views into main schema
 psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-run-views.sql"
