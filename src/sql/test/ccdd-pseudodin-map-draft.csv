@@ -804,3 +804,5 @@ pseudodin,drug_code,unit_of_presentation,uop_size_amount,uop_size_unit,unit_of_p
 "77701163","102038","vial","20","mL","fiole"
 "77701164","101786","vial","5","mL","fiole"
 "77701165","101786","vial","10","mL","fiole"
+"77701166","102035","vial","10","mL","fiole"
+"77701167","102035","vial","5","mL","fiole"
