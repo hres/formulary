@@ -1,4 +1,4 @@
-"code","formal_name","formal_name_fr"
+code,formal_name,formal_name_fr
 "8000001","levothyroxine","lévothyroxine"
 "8000003","epinephrine","épinéphrine"
 "8000004","phenytoin sodium","phénytoïne sodique"
@@ -1886,3 +1886,7 @@
 "8002520","ivosidenib","ivosidénib"
 "8002521","olipudase alfa","olipudase alfa"
 "8002522","vorasidenib","vorasidénib"
+"8002523","avapritinib","avapritinib"
+"8002524","danicopan","danicopan"
+"8002525","fruquintinib","fruquintinib"
+"8002526","tarlatamab","tarlatamab"
