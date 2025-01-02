@@ -7,9 +7,9 @@
 # ARGS (optional)   : qa
 ###############################################################################
 
-ccdd_qa_release_date="20241101"
-ccdd_current_release_date="20241101"
-db_previous_month="ccdd_2024_11_04_150943"
+ccdd_qa_release_date="20241202"
+ccdd_current_release_date="20241210"
+db_previous_month="ccdd_2024_12_10_161139"
 ccdd_current_date=$(date +'%Y%m%d')
 baseDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 distDir="$baseDir/../dist/$ccdd_current_date"
@@ -56,8 +56,6 @@ psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-csv.sql"
 psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-instance-structure.sql"
 pgloader "$baseDir/ccdd-inputs.pgload"
 pgloader "$baseDir/ccdd-current-release.pgload"
-psql -c "\\copy ccdd.tm_release_candidate from '/home/cyanofsky/git/formulary/src/pgloaded/tm_rollover.csv' DELIMITERS ',' CSV HEADER QUOTE '\"'"
-psql -c "\\copy ccdd.ntp_release_candidate from '/home/cyanofsky/git/formulary/src/pgloaded/ntp_rollover.csv' DELIMITERS ',' CSV HEADER QUOTE '\"'"
 
 # load the data from views into main schema
 psql -v ON_ERROR_STOP=1 < "$baseDir/ccdd-run-views.sql"
