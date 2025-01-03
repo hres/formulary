@@ -1,0 +1,27 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9013605,semaglutide 1 mg per actuation solution for injection pre-filled pen,sémaglutide 1 mg par actionnement solution injectable stylo prérempli,"ntp_status_effective_time: ""20240328"" -> ""20180222"""
+9015141,ruxolitinib (ruxolitinib phosphate) 1.5 % cutaneous cream,"ruxolitinib (phosphate de ruxolitinib) 1,5 % crème cutanée",ADDED
+9014603,sodium nitrite 300 mg per 10 mL solution for injection vial,nitrate de sodium 300 mg par 10 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20160720"" -> ""20250102"""
+9014734,desmopressin (desmopressin acetate) 240 mcg sublingual tablet,desmopressine (acétate de desmopressine) 240 mcg comprimé sublingual,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20090505"" -> ""20220531"""
+9014762,obiltoxaximab 600 mg per 6 mL solution for injection vial,obiltoxaximab 600 mg par 6 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20220913"" -> ""20250102"""
+9015140,magnesium sulfate 4000 mg per 100 mL solution for injection bag,sulfate de magnésium 4000 mg par 100 mL solution injectable sac,ADDED
+9015132,avapritinib 50 mg oral tablet,avapritinib 50 mg comprimé oral,ADDED
+9002336,acetaminophen 80 mg per 5 mL syrup,acétaminophène 80 mg par 5 mL sirop,"ntp_status_effective_time: ""20230712"" -> ""20241212"""
+9015130,avapritinib 200 mg oral tablet,avapritinib 200 mg comprimé oral,ADDED
+9012481,cyproterone acetate 300 mg per 3 mL solution for injection ampoule,acétate de cyprotérone 300 mg par 3 mL solution injectable ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19901231"" -> ""20241212"""
+9014814,tecovirimat 200 mg oral capsule,técovirimat 200 mg capsule orale,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20220407"" -> ""20250102"""
+9015129,avapritinib 100 mg oral tablet,avapritinib 100 mg comprimé oral,ADDED
+9014393,apomorphine hydrochloride 10 mg sublingual film,chlorhydrate d'apomorphine 10 mg film sublingual,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20201117"" -> ""20230929"""
+9015138,lebrikizumab 250 mg per 2 mL solution for injection syringe,lébrikizumab 250 mg par 2 mL solution injectable seringue,ADDED
+9015139,magnesium sulfate 2000 mg per 50 mL solution for injection bag,sulfate de magnésium 2000 mg par 50 mL solution injectable sac,ADDED
+9015108,captopril 25 mg per 5 mL oral solution,captopril 25 mg par 5 mL solution orale,ADDED
+9015133,captopril 5 mg per 5 mL oral solution,captopril 5 mg par 5 mL solution orale,ADDED
+9015137,fruquintinib 5 mg oral capsule,fruquintinib 5 mg capsule orale,ADDED
+9015131,avapritinib 25 mg oral tablet,avapritinib 25 mg comprimé oral,ADDED
+9015136,fruquintinib 1 mg oral capsule,fruquintinib 1 mg capsule orale,ADDED

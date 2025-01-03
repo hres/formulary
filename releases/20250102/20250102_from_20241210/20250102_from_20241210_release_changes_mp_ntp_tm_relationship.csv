@@ -1,0 +1,64 @@
+drug_code,mp_code,mp_formal_name,changes
+41867,00884553,TEMPRA CHILDREN'S SYRUP (acetaminophen 80 mg per 5 mL syrup) ENDO OPERATIONS LTD.,"mp_formal_name: ""TEMPRA CHILDREN'S SYRUP (acetaminophen 80 mg per 5 mL syrup) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""TEMPRA CHILDREN'S SYRUP (acetaminophen 80 mg per 5 mL syrup) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+41869,00875988,TEMPRA INFANT DROPS (acetaminophen 80 mg per mL oral drops) ENDO OPERATIONS LTD.,"mp_formal_name: ""TEMPRA INFANT DROPS (acetaminophen 80 mg per mL oral drops) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""TEMPRA INFANT DROPS (acetaminophen 80 mg per mL oral drops) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+50484,02231176,ROBAXACET EXTRA STRENGTH (acetaminophen 500 mg and methocarbamol 400 mg oral tablet) HALEON CANADA ULC,"mp_formal_name: ""ROBAXACET EXTRA STRENGTH (acetaminophen 500 mg and methocarbamol 400 mg oral tablet) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ROBAXACET EXTRA STRENGTH (acetaminophen 500 mg and methocarbamol 400 mg oral tablet) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+61546,02238155,CODULAX TABLETS (bisacodyl 5 mg oral tablet) SIGMA LIFE SCIENCES INC.,"mp_formal_name: ""CODULAX TABLETS (bisacodyl 5 mg oral tablet) T̲A̲N̲T̲A̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲I̲N̲C̲"" -> ""CODULAX TABLETS (bisacodyl 5 mg oral tablet) S̲I̲G̲M̲A̲ ̲L̲I̲F̲E̲ ̲S̲C̲I̲E̲N̲C̲E̲S̲ ̲I̲N̲C̲.̲"""
+62616,02239160,ZINCOFAX EXTRA STRENGTH (white petrolatum 47 % and zinc oxide 40 % cutaneous ointment) ENDO OPERATIONS LTD.,"mp_formal_name: ""ZINCOFAX EXTRA STRENGTH (white petrolatum 47 % and zinc oxide 40 % cutaneous ointment) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""ZINCOFAX EXTRA STRENGTH (white petrolatum 47 % and zinc oxide 40 % cutaneous ointment) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+62617,02239162,ZINCOFAX (white petrolatum 69 % and zinc oxide 15 % cutaneous ointment) ENDO OPERATIONS LTD.,"mp_formal_name: ""ZINCOFAX (white petrolatum 69 % and zinc oxide 15 % cutaneous ointment) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""ZINCOFAX (white petrolatum 69 % and zinc oxide 15 % cutaneous ointment) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+71178,02246951,SENNA S. TABLETS (docusate sodium 50 mg and sennosides 8.6 mg oral tablet) SIGMA LIFE SCIENCES INC.,"mp_formal_name: ""SENNA S. TABLETS (docusate sodium 50 mg and sennosides 8.6 mg oral tablet) T̲A̲N̲T̲A̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲I̲N̲C̲"" -> ""SENNA S. TABLETS (docusate sodium 50 mg and sennosides 8.6 mg oral tablet) S̲I̲G̲M̲A̲ ̲L̲I̲F̲E̲ ̲S̲C̲I̲E̲N̲C̲E̲S̲ ̲I̲N̲C̲.̲"""
+73989,02254727,TEVA-TERBINAFINE (terbinafine (terbinafine hydrochloride) 250 mg oral tablet) TEVA CANADA LIMITED,"mp_formal_name: ""A̲C̲T̲ ̲TERBINAFINE (terbinafine (terbinafine hydrochloride) 250 mg oral tablet) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲TERBINAFINE (terbinafine (terbinafine hydrochloride) 250 mg oral tablet) TEVA CANADA LIMITED"""
+75157,02266121,SATIVEX (cannabidiol 2.5 mg per actuation and tetrahydrocannabinol 2.7 mg per actuation oromucosal spray) JAZZ PHARMACEUTICALS OPERATIONS UK LIMITED,"mp_formal_name: ""SATIVEX (cannabidiol 2.5 mg per actuation and tetrahydrocannabinol 2.7 mg per actuation oromucosal spray) G̲W̲ ̲P̲H̲A̲R̲M̲A̲ LIMITED"" -> ""SATIVEX (cannabidiol 2.5 mg per actuation and tetrahydrocannabinol 2.7 mg per actuation oromucosal spray) J̲A̲Z̲Z̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲U̲K̲ LIMITED"""
+75882,02273330,NYQUIL KIDS COUGH & COLD (chlorpheniramine maleate 2 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL oral solution) PROCTER & GAMBLE INC,"mp_formal_name: ""V̲I̲C̲K̲S̲ ̲C̲H̲I̲L̲D̲R̲E̲N̲'̲S̲ ̲N̲Y̲Q̲U̲I̲L̲ ̲C̲O̲L̲D̲ ̲&̲ ̲C̲O̲U̲G̲H̲ ̲M̲U̲L̲T̲I̲-̲S̲Y̲M̲P̲T̲O̲M̲ ̲R̲E̲L̲I̲E̲F̲ (chlorpheniramine maleate 2 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL oral solution) PROCTER & GAMBLE INC"" -> ""N̲Y̲Q̲U̲I̲L̲ ̲K̲I̲D̲S̲ ̲C̲O̲U̲G̲H̲ ̲&̲ ̲C̲O̲L̲D̲ (chlorpheniramine maleate 2 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL oral solution) PROCTER & GAMBLE INC"""
+83405,02348705,ATORVASTATIN (atorvastatin (atorvastatin calcium) 10 mg oral tablet) SANIS HEALTH INC,"mp_formal_name: ""ATORVASTATIN (atorvastatin (atorvastatin calcium ̲p̲r̲o̲p̲y̲l̲e̲n̲e̲ ̲g̲l̲y̲c̲o̲l̲ ̲s̲o̲l̲v̲a̲t̲e̲) 10 mg oral tablet) SANIS HEALTH INC"" -> ""ATORVASTATIN (atorvastatin (atorvastatin calcium) 10 mg oral tablet) SANIS HEALTH INC"""
+83406,02348713,ATORVASTATIN (atorvastatin (atorvastatin calcium) 20 mg oral tablet) SANIS HEALTH INC,"mp_formal_name: ""ATORVASTATIN (atorvastatin (atorvastatin calcium ̲p̲r̲o̲p̲y̲l̲e̲n̲e̲ ̲g̲l̲y̲c̲o̲l̲ ̲s̲o̲l̲v̲a̲t̲e̲) 20 mg oral tablet) SANIS HEALTH INC"" -> ""ATORVASTATIN (atorvastatin (atorvastatin calcium) 20 mg oral tablet) SANIS HEALTH INC"""
+83407,02348721,ATORVASTATIN (atorvastatin (atorvastatin calcium) 40 mg oral tablet) SANIS HEALTH INC,"mp_formal_name: ""ATORVASTATIN (atorvastatin (atorvastatin calcium ̲p̲r̲o̲p̲y̲l̲e̲n̲e̲ ̲g̲l̲y̲c̲o̲l̲ ̲s̲o̲l̲v̲a̲t̲e̲) 40 mg oral tablet) SANIS HEALTH INC"" -> ""ATORVASTATIN (atorvastatin (atorvastatin calcium) 40 mg oral tablet) SANIS HEALTH INC"""
+83408,02348748,ATORVASTATIN (atorvastatin (atorvastatin calcium) 80 mg oral tablet) SANIS HEALTH INC,"mp_formal_name: ""ATORVASTATIN (atorvastatin (atorvastatin calcium ̲p̲r̲o̲p̲y̲l̲e̲n̲e̲ ̲g̲l̲y̲c̲o̲l̲ ̲s̲o̲l̲v̲a̲t̲e̲) 80 mg oral tablet) SANIS HEALTH INC"" -> ""ATORVASTATIN (atorvastatin (atorvastatin calcium) 80 mg oral tablet) SANIS HEALTH INC"""
+88833,02403544,"COLISTIMETHATE FOR INJECTION, USP (colistin (colistimethate sodium) 150 mg per vial powder for solution for injection) FRESENIUS KABI CANADA LTD","mp_formal_name: ""COLISTIMETHATE FOR INJECTION (colistin (colistimethate sodium) 150 mg per vial powder for solution for injection) FRESENIUS KABI CANADA LTD"" -> ""COLISTIMETHATE FOR INJECTION,̲ ̲U̲S̲P̲ (colistin (colistimethate sodium) 150 mg per vial powder for solution for injection) FRESENIUS KABI CANADA LTD"""
+90204,02417413,BISACODYL TABLETS (bisacodyl 5 mg oral tablet) SIGMA LIFE SCIENCES INC.,"mp_formal_name: ""BISACODYL TABLETS (bisacodyl 5 mg oral tablet) T̲A̲N̲T̲A̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲I̲N̲C̲"" -> ""BISACODYL TABLETS (bisacodyl 5 mg oral tablet) S̲I̲G̲M̲A̲ ̲L̲I̲F̲E̲ ̲S̲C̲I̲E̲N̲C̲E̲S̲ ̲I̲N̲C̲.̲"""
+93629,02450232,LAXATIVE FOR WOMEN (bisacodyl 5 mg oral tablet) SIGMA LIFE SCIENCES INC.,"mp_formal_name: ""LAXATIVE FOR WOMEN (bisacodyl 5 mg oral tablet) T̲A̲N̲T̲A̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲I̲N̲C̲"" -> ""LAXATIVE FOR WOMEN (bisacodyl 5 mg oral tablet) S̲I̲G̲M̲A̲ ̲L̲I̲F̲E̲ ̲S̲C̲I̲E̲N̲C̲E̲S̲ ̲I̲N̲C̲.̲"""
+96058,02471469,OZEMPIC MULTIDOSE PREFILLED PEN DISPENSES 1MG DOSE (semaglutide 1 mg per actuation solution for injection pre-filled pen) NOVO NORDISK CANADA INC,"mp_formal_name: ""OZEMPIC MULTIDOSE PREFILLED PEN DISPENSES 1MG DOSE (semaglutide 1.̲3̲4̲ ̲m̲g̲ ̲p̲e̲r̲ ̲m̲L̲ ̲s̲o̲l̲u̲t̲i̲o̲n̲ ̲f̲o̲r̲ ̲i̲n̲j̲e̲c̲t̲i̲o̲n̲ ̲1̲.̲5̲ ̲m̲L̲ pen) NOVO NORDISK CANADA INC"" -> ""OZEMPIC MULTIDOSE PREFILLED PEN DISPENSES 1MG DOSE (semaglutide 1 ̲m̲g̲ ̲p̲e̲r̲ ̲a̲c̲t̲u̲a̲t̲i̲o̲n̲ ̲s̲o̲l̲u̲t̲i̲o̲n̲ ̲f̲o̲r̲ ̲i̲n̲j̲e̲c̲t̲i̲o̲n̲ ̲p̲r̲e̲-̲f̲i̲l̲l̲e̲d̲ pen) NOVO NORDISK CANADA INC""
+ntp_code: ""9013021"" -> ""9013605""
+ntp_formal_name: ""semaglutide 1.̲3̲4̲ ̲m̲g̲ ̲p̲e̲r̲ ̲m̲L̲ ̲s̲o̲l̲u̲t̲i̲o̲n̲ ̲f̲o̲r̲ ̲i̲n̲j̲e̲c̲t̲i̲o̲n̲ ̲1̲.̲5̲ ̲m̲L̲ pen"" -> ""semaglutide 1 ̲m̲g̲ ̲p̲e̲r̲ ̲a̲c̲t̲u̲a̲t̲i̲o̲n̲ ̲s̲o̲l̲u̲t̲i̲o̲n̲ ̲f̲o̲r̲ ̲i̲n̲j̲e̲c̲t̲i̲o̲n̲ ̲p̲r̲e̲-̲f̲i̲l̲l̲e̲d̲ pen"""
+97036,02479710,ALLERGY FORMULA CAPLETS (diphenhydramine hydrochloride 25 mg oral tablet) SIGMA LIFE SCIENCES INC.,"mp_formal_name: ""ALLERGY FORMULA CAPLETS (diphenhydramine hydrochloride 25 mg oral tablet) T̲A̲N̲T̲A̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲I̲N̲C̲"" -> ""ALLERGY FORMULA CAPLETS (diphenhydramine hydrochloride 25 mg oral tablet) S̲I̲G̲M̲A̲ ̲L̲I̲F̲E̲ ̲S̲C̲I̲E̲N̲C̲E̲S̲ ̲I̲N̲C̲.̲"""
+98854,02498804,APO-TERIPARATIDE INJECTION (teriparatide 20 mcg per actuation solution for injection pre-filled pen) APOTEX INC,ADDED
+102224,02533235,JAMP GATIFLOXACIN (gatifloxacin 0.3 % ophthalmic drops) JAMP PHARMA CORPORATION,ADDED
+102877,02540045,AXBERI (enoxaparin sodium 100 mg per 1 mL solution for injection syringe) BAXTER CORPORATION,ADDED
+103233,02543907,NOYADA (captopril 5 mg per 5 mL oral solution) ETHYPHARM INC,ADDED
+103234,02543915,NOYADA (captopril 25 mg per 5 mL oral solution) ETHYPHARM INC,ADDED
+103474,02546019,DESLORATADINE (desloratadine 5 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103504,02546337,JAMP IMIPRAMINE (imipramine hydrochloride 10 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103505,02546345,JAMP IMIPRAMINE (imipramine hydrochloride 25 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103506,02546353,JAMP IMIPRAMINE (imipramine hydrochloride 50 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103507,02546361,JAMP IMIPRAMINE (imipramine hydrochloride 75 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103509,02546396,JAMP LEVOCARB (carbidopa 10 mg and levodopa 100 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103510,02546418,JAMP LEVOCARB (carbidopa 25 mg and levodopa 100 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103511,02546426,JAMP LEVOCARB (carbidopa 25 mg and levodopa 250 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103577,02547120,M-MIDODRINE (midodrine hydrochloride 5 mg oral tablet) MANTRA PHARMA INC,ADDED
+103681,02547899,RIVAROXABAN (rivaroxaban 2.5 mg oral tablet) SANIS HEALTH INC,ADDED
+103682,02547902,RIVAROXABAN (rivaroxaban 10 mg oral tablet) SANIS HEALTH INC,ADDED
+103683,02547910,RIVAROXABAN (rivaroxaban 15 mg oral tablet) SANIS HEALTH INC,ADDED
+103684,02547929,RIVAROXABAN (rivaroxaban 20 mg oral tablet) SANIS HEALTH INC,ADDED
+103741,02548550,SITAGLIPTIN (sitagliptin (sitagliptin phosphate monohydrate) 25 mg oral tablet) SANIS HEALTH INC,ADDED
+103742,02548569,SITAGLIPTIN (sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet) SANIS HEALTH INC,ADDED
+103743,02548577,SITAGLIPTIN (sitagliptin (sitagliptin phosphate monohydrate) 100 mg oral tablet) SANIS HEALTH INC,ADDED
+103744,02548585,LURASIDONE (lurasidone hydrochloride 20 mg oral tablet) SANIS HEALTH INC,ADDED
+103745,02548593,LURASIDONE (lurasidone hydrochloride 40 mg oral tablet) SANIS HEALTH INC,ADDED
+103746,02548607,LURASIDONE (lurasidone hydrochloride 60 mg oral tablet) SANIS HEALTH INC,ADDED
+103747,02548615,LURASIDONE (lurasidone hydrochloride 80 mg oral tablet) SANIS HEALTH INC,ADDED
+103801,02549131,EBGLYSS (lebrikizumab 250 mg per 2 mL solution for injection syringe) ELI LILLY CANADA INC,ADDED
+103824,02549395,M-TRANEXAMIC ACID (tranexamic acid 500 mg oral tablet) MANTRA PHARMA INC,ADDED
+103992,02551187,M-ESZOPICLONE (eszopiclone 1 mg oral tablet) MANTRA PHARMA INC,ADDED
+103993,02551195,M-ESZOPICLONE (eszopiclone 2 mg oral tablet) MANTRA PHARMA INC,ADDED
+103994,02551209,M-ESZOPICLONE (eszopiclone 3 mg oral tablet) MANTRA PHARMA INC,ADDED
+104009,02551365,AG-LEVOCARB (carbidopa 25 mg and levodopa 100 mg oral tablet) ANGITA PHARMA INC.,ADDED
+104019,02551454,FRUZAQLA (fruquintinib 1 mg oral capsule) TAKEDA CANADA INC,ADDED
+104020,02551462,FRUZAQLA (fruquintinib 5 mg oral capsule) TAKEDA CANADA INC,ADDED
+104048,02551764,AYVAKYT (avapritinib 25 mg oral tablet) BLUEPRINT MEDICINES CORPORATION,ADDED
+104049,02551772,AYVAKYT (avapritinib 50 mg oral tablet) BLUEPRINT MEDICINES CORPORATION,ADDED
+104050,02551780,AYVAKYT (avapritinib 100 mg oral tablet) BLUEPRINT MEDICINES CORPORATION,ADDED
+104051,02551799,AYVAKYT (avapritinib 200 mg oral tablet) BLUEPRINT MEDICINES CORPORATION,ADDED
+104061,02551918,MAR-LEFLUNOMIDE (leflunomide 10 mg oral tablet) MARCAN PHARMACEUTICALS INC,ADDED
+104062,02551926,MAR-LEFLUNOMIDE (leflunomide 20 mg oral tablet) MARCAN PHARMACEUTICALS INC,ADDED
+104109,02552434,OPZELURA (ruxolitinib (ruxolitinib phosphate) 1.5 % cutaneous cream) INCYTE CORPORATION,ADDED
+NA,77701168,MAGNESIUM SULFATE IN WATER FOR INJECTION (magnesium sulfate 2000 mg per 50 mL solution for injection bag) BAXTER CORPORATION,ADDED
+NA,77701169,MAGNESIUM SULFATE IN WATER FOR INJECTION (magnesium sulfate 4000 mg per 100 mL solution for injection bag) BAXTER CORPORATION,ADDED

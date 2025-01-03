@@ -1,0 +1,9 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002525,fruquintinib,fruquintinib,ADDED
+8002384,sodium nitrite,nitrate de sodium,"tm_status: ""ACTIVE"" -> ""DEPREC""
+tm_status_effective_time: ""20160720"" -> ""20250102"""
+8002456,tecovirimat,técovirimat,"tm_status: ""ACTIVE"" -> ""DEPREC""
+tm_status_effective_time: ""20220407"" -> ""20250102"""
+8002436,obiltoxaximab,obiltoxaximab,"tm_status: ""ACTIVE"" -> ""DEPREC""
+tm_status_effective_time: ""20220913"" -> ""20250102"""
+8002523,avapritinib,avapritinib,ADDED
