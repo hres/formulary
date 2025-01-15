@@ -1,4 +1,6 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"103887","vial","2","mL","Y","N","02550067","PMS-SUGAMMADEX PHARMASCIENCE INC","fiole"
+"103887","vial","5","mL","Y","N","02550067","PMS-SUGAMMADEX PHARMASCIENCE INC","fiole"
 "103075","bag","50","mL","Y","N","02542153","MAGNESIUM SULFATE IN WATER FOR INJECTION BAXTER CORPORATION","sac"
 "103075","bag","100","mL","Y","N","02542153","MAGNESIUM SULFATE IN WATER FOR INJECTION BAXTER CORPORATION","sac"
 "103801","syringe","2","mL","N","N","02549131","EBGLYSS ELI LILLY CANADA INC","seringue"
