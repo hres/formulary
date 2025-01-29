@@ -3412,7 +3412,9 @@ select
 	cur.tm_formal_name
 FROM
 	ccdd.mp_ntp_tm_relationship_release_candidate cur
-	INNER JOIN public.ccdd_mp_carry_forward mpcf ON (cur.mp_code = mpcf.mp_code);
+	INNER JOIN (select mp_code from ccdd_mp_carry_forward where mp_status != 'Deprec') mpcf ON (cur.mp_code = mpcf.mp_code)
+  INNER JOIN (select ntp_code from ccdd_ntp_release_candidate where ntp_status != 'Deprec') ntprc ON (cur.ntp_code = ntprc.ntp_code)
+  INNER JOIN (select tm_code from ccdd_tm_release_candidate where tm_status != 'Deprec') tmrc ON (cur.tm_code = tmrc.tm_code);
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_mp_ntp_tm_relationship_carry_forward OWNER TO postgres;
 -- ddl-end --
