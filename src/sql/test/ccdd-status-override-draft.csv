@@ -107,3 +107,12 @@ ccdd_code,ccdd_type,status,status_effective_time
 8002518,tm,Active,2024-09-24
 8002519,tm,Active,2024-09-24
 77700589,mp,Inactive,2024-12-02
+8002436,tm,Deprec,2025-01-02
+8002384,tm,Deprec,2025-01-02
+8002456,tm,Deprec,2025-01-02
+9014762,ntp,Deprec,2025-01-02
+9014603,ntp,Deprec,2025-01-02
+9014814,ntp,Deprec,2025-01-02
+02502895,mp,Deprec,2025-01-02
+02440466,mp,Deprec,2025-01-02
+02522772,mp,Deprec,2025-01-02
