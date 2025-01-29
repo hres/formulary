@@ -1,0 +1,28 @@
+ntp_code,ntp_formal_name,changes
+6753192f55f86a7728ac399f71414cca,tirzepatide 5 mg per 0.6 mL solution for injection,ADDED
+9003303,capecitabine 150 mg oral tablet,"ntp_status_effective_time: ""19980910"" -> ""20130819"""
+9012356,verapamil hydrochloride 180 mg prolonged-release oral tablet,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19940421"" -> ""20240311"""
+9015117,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9013471,octreotide (octreotide acetate) 100 mcg per 1 mL solution for injection ampoule,DELETED
+9000619,naproxen 375 mg gastro-resistant tablet,"ntp_status_effective_time: ""19951231"" -> ""20010314"""
+9015112,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial","ntp_status_effective_time: ""20230918"" -> ""20240924"""
+9001108,atomoxetine (atomoxetine hydrochloride) 60 mg oral capsule,"ntp_status_effective_time: ""20050303"" -> ""20100916"""
+f651d89768691d5303841e085920317f,tirzepatide 2.5 mg per 0.6 mL solution for injection,ADDED
+9005153,pirfenidone 267 mg oral capsule,"ntp_status_effective_time: ""20130108"" -> ""20210604"""
+7750b4b69a152e1269ae1e3747d46bb0,tirzepatide 15 mg per 0.6 mL solution for injection,ADDED
+9013736,somatropin 10 mg per 1.5 mL solution for injection pen,"ntp_status_effective_time: ""20140815"" -> ""20221207"""
+9000780,sumatriptan (sumatriptan succinate) 50 mg oral tablet,"ntp_status_effective_time: ""19980211"" -> ""20050824"""
+9015118,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+3bfe7f6ffa8f8c1384f0521705794cd0,tirzepatide 7.5 mg per 0.6 mL solution for injection,ADDED
+12faeb94af143261faf77d681273843d,tirzepatide 10 mg per 0.6 mL solution for injection,ADDED
+9013742,somatropin 15 mg per 1.5 mL solution for injection pen,"ntp_status_effective_time: ""20140815"" -> ""20221207"""
+9015116,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+ef8f28097547efd8b930548ecbe7f946,tirzepatide 12.5 mg per 0.6 mL solution for injection,ADDED
+9012358,verapamil hydrochloride 240 mg prolonged-release oral tablet,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19881231"" -> ""20210831"""
+9014627,ponesimod 2 mg oral tablet with ponesimod 3 mg oral tablet with ponesimod 4 mg oral tablet with ponesimod 5 mg oral tablet with ponesimod 6 mg oral tablet with ponesimod 7 mg oral tablet with ponesimod 8 mg oral tablet with ponesimod 9 mg oral tablet with ponesimod 10 mg oral tablet,DELETED
+9001560,spiramycin 1500000 unit oral capsule,"ntp_status_effective_time: ""20240620"" -> ""20230620"""
+9013748,somatropin 5 mg per 1.5 mL solution for injection pen,"ntp_status_effective_time: ""20140815"" -> ""20221207"""
+9014062,risankizumab 75 mg per 0.83 mL solution for injection syringe,DELETED
+9015119,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""

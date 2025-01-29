@@ -1,0 +1,37 @@
+drug_code,mp_code,mp_formal_name,changes
+810,00074500,VIOFORM HYDROCORTISONE (clioquinol 3 % and hydrocortisone 1 % cutaneous cream) ENDO OPERATIONS LTD.,"mp_formal_name: ""VIOFORM HYDROCORTISONE (clioquinol 3 % and hydrocortisone 1 % cutaneous cream) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""VIOFORM HYDROCORTISONE (clioquinol 3 % and hydrocortisone 1 % cutaneous cream) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+9916,00839205,SANDOSTATIN (octreotide (octreotide acetate) 100 mcg per 1 mL solution for injection ampoule) NOVARTIS PHARMACEUTICALS CANADA INC,DELETED
+12601,01927817,ROVAMYCINE 500 CAPSULE 1500000 UNIT (spiramycin 1500000 unit oral capsule) ODAN LABORATORIES LTD,"mp_status_effective_time: ""20240620"" -> ""20230620"""
+19316,02162415,NAPROSYN (naproxen 375 mg gastro-resistant tablet) ATNAHS PHARMA UK LIMITED,DELETED
+19460,02086026,FLORINEF (fludrocortisone acetate 0.1 mg oral tablet) ENDO OPERATIONS LTD.,"mp_formal_name: ""FLORINEF (fludrocortisone acetate 0.1 mg oral tablet) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""FLORINEF (fludrocortisone acetate 0.1 mg oral tablet) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+43076,02212153,IMITREX DF - TAB 50MG (sumatriptan (sumatriptan succinate) 50 mg oral tablet) GLAXOSMITHKLINE INC,DELETED
+61873,02238453,XELODA (capecitabine 150 mg oral tablet) CHEPLAPHARM ARZNEIMITTEL GMBH,DELETED
+66207,02242480,TEVA-ZOPICLONE (zopiclone 3.75 mg oral tablet) TEVA CANADA LIMITED,"mp_status_effective_time: ""20200813"" -> ""20250117"""
+74823,02262843,STRATTERA (atomoxetine (atomoxetine hydrochloride) 60 mg oral capsule) ELI LILLY CANADA INC,DELETED
+75893,02273446,ORIGINAL EYE DROPS (tetrahydrozoline hydrochloride 0.05 % ophthalmic drops) JUNO OTC INC,"mp_formal_name: ""ORIGINAL EYE DROPS (tetrahydrozoline hydrochloride 0.05 % ophthalmic drops) T̲E̲V̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""ORIGINAL EYE DROPS (tetrahydrozoline hydrochloride 0.05 % ophthalmic drops) J̲U̲N̲O̲ ̲O̲T̲C̲ ̲I̲N̲C̲"""
+82048,02334852,NORDITROPIN NORDIFLEX (somatropin 5 mg per 1.5 mL solution for injection pen) NOVO NORDISK CANADA INC,DELETED
+82049,02334860,NORDITROPIN NORDIFLEX (somatropin 10 mg per 1.5 mL solution for injection pen) NOVO NORDISK CANADA INC,DELETED
+82050,02334879,NORDITROPIN NORDIFLEX (somatropin 15 mg per 1.5 mL solution for injection pen) NOVO NORDISK CANADA INC,DELETED
+83619,02351013,NAPROXEN SODIUM (naproxen sodium 275 mg oral tablet) SANIS HEALTH INC,DELETED
+87831,02393069,MINT-SILDENAFIL (sildenafil (sildenafil citrate) 25 mg oral tablet) MINT PHARMACEUTICALS INC,"mp_status_effective_time: ""20180801"" -> ""20250116"""
+87895,02393751,ESBRIET (pirfenidone 267 mg oral capsule) HOFFMANN-LA ROCHE LIMITED,DELETED
+91806,02433702,NRA-FLUCONAZOLE-150 (fluconazole 150 mg oral capsule) NORA PHARMA INC,"Health_Canada_product_name: ""PRIVA-FLUCONAZOLE"" -> ""NRA-FLUCONAZOLE-150""
+mp_formal_name: ""P̲R̲I̲V̲A-FLUCONAZOLE (fluconazole 150 mg oral capsule) NORA PHARMA INC"" -> ""N̲R̲A-FLUCONAZOLE-̲1̲5̲0̲ (fluconazole 150 mg oral capsule) NORA PHARMA INC"""
+92058,02436256,TEVA-LATANOPROST-TIMOLOL (latanoprost 50 mcg per mL and timolol (timolol maleate) 5 mg per mL ophthalmic drops) TEVA CANADA LIMITED,"Health_Canada_product_name: ""ACT LATANOPROST/TIMOLOL"" -> ""TEVA-LATANOPROST-TIMOLOL""
+mp_formal_name: ""A̲C̲T̲ ̲LATANOPROST/̲TIMOLOL (latanoprost 50 mcg per mL and timolol (timolol maleate) 5 mg per mL ophthalmic drops) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲LATANOPROST-̲TIMOLOL (latanoprost 50 mcg per mL and timolol (timolol maleate) 5 mg per mL ophthalmic drops) TEVA CANADA LIMITED"""
+92262,02438259,RAN-DULOXETINE (duloxetine (duloxetine hydrochloride) 30 mg gastro-resistant capsule) RANBAXY PHARMACEUTICALS CANADA INC.,"mp_status_effective_time: ""20220728"" -> ""20250109"""
+92263,02438267,RAN-DULOXETINE (duloxetine (duloxetine hydrochloride) 60 mg gastro-resistant capsule) RANBAXY PHARMACEUTICALS CANADA INC.,"mp_status_effective_time: ""20220728"" -> ""20250109"""
+93662,02450488,MYLAN-VERAPAMIL SR (verapamil hydrochloride 180 mg prolonged-release oral tablet) MYLAN PHARMACEUTICALS ULC,"mp_status: ""ACTIVE"" -> ""INACTIVE""
+mp_status_effective_time: ""20160629"" -> ""20240311"""
+93663,02450496,MYLAN-VERAPAMIL SR (verapamil hydrochloride 240 mg prolonged-release oral tablet) MYLAN PHARMACEUTICALS ULC,DELETED
+97761,02487454,SKYRIZI (risankizumab 75 mg per 0.83 mL solution for injection syringe) ABBVIE CORPORATION,DELETED
+100488,02515474,PONVORY (ponesimod 2 mg oral tablet with ponesimod 3 mg oral tablet with ponesimod 4 mg oral tablet with ponesimod 5 mg oral tablet with ponesimod 6 mg oral tablet with ponesimod 7 mg oral tablet with ponesimod 8 mg oral tablet with ponesimod 9 mg oral tablet with ponesimod 10 mg oral tablet) JANSSEN INC,DELETED
+103964,02550865,APO-TIOTROPIUM (tiotropium (tiotropium bromide monohydrate) 18 mcg inhalation powder capsule) APOTEX INC,ADDED
+104065,02551950,MOUNJARO KWIKPEN (tirzepatide 2.5 mg per 0.6 mL solution for injection) ELI LILLY CANADA INC,ADDED
+104066,02551969,MOUNJARO KWIKPEN (tirzepatide 5 mg per 0.6 mL solution for injection) ELI LILLY CANADA INC,ADDED
+104067,02551977,MOUNJARO KWIKPEN (tirzepatide 7.5 mg per 0.6 mL solution for injection) ELI LILLY CANADA INC,ADDED
+104068,02551985,MOUNJARO KWIKPEN (tirzepatide 10 mg per 0.6 mL solution for injection) ELI LILLY CANADA INC,ADDED
+104069,02551993,MOUNJARO KWIKPEN (tirzepatide 12.5 mg per 0.6 mL solution for injection) ELI LILLY CANADA INC,ADDED
+104070,02552000,MOUNJARO KWIKPEN (tirzepatide 15 mg per 0.6 mL solution for injection) ELI LILLY CANADA INC,ADDED
+104156,02552604,PMS-RUPATADINE (rupatadine (rupatadine fumarate) 10 mg oral tablet) PHARMASCIENCE INC,ADDED
+104211,02553155,APO-RUPATADINE (rupatadine (rupatadine fumarate) 10 mg oral tablet) APOTEX INC,ADDED
