@@ -1,0 +1,34 @@
+drug_code,mp_code,mp_formal_name,changes
+810,00074500,VIOFORM HYDROCORTISONE (clioquinol 3 % and hydrocortisone 1 % cutaneous cream) ENDO OPERATIONS LTD.,"mp_formal_name: ""VIOFORM HYDROCORTISONE (clioquinol 3 % and hydrocortisone 1 % cutaneous cream) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""VIOFORM HYDROCORTISONE (clioquinol 3 % and hydrocortisone 1 % cutaneous cream) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+19460,02086026,FLORINEF (fludrocortisone acetate 0.1 mg oral tablet) ENDO OPERATIONS LTD.,"mp_formal_name: ""FLORINEF (fludrocortisone acetate 0.1 mg oral tablet) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""FLORINEF (fludrocortisone acetate 0.1 mg oral tablet) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+67875,02243933,"LEVULAN KERASTICK (aminolevulinic acid hydrochloride 20 % cutaneous solution 1.5 mL applicator) SUN PHARMACEUTICAL INDUSTRIES, INC.","mp_formal_name: ""LEVULAN KERASTICK (aminolevulinic acid hydrochloride 20 % cutaneous solution 1.5 mL applicator) D̲U̲S̲A̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲I̲N̲C̲"" -> ""LEVULAN KERASTICK (aminolevulinic acid hydrochloride 20 % cutaneous solution 1.5 mL applicator) S̲U̲N̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲ ̲I̲N̲D̲U̲S̲T̲R̲I̲E̲S̲,̲ ̲I̲N̲C̲.̲"""
+74760,02262215,"BURN RELIEF GEL WITH LIDOCAINE (lidocaine hydrochloride 0.72 % cutaneous gel) PRIME ENTERPRISES, LLC","mp_formal_name: ""BURN RELIEF GEL WITH LIDOCAINE (lidocaine hydrochloride 0.72 % cutaneous gel) PRIME ENTERPRISES, LLC.̲"" -> ""BURN RELIEF GEL WITH LIDOCAINE (lidocaine hydrochloride 0.72 % cutaneous gel) PRIME ENTERPRISES, LLC"""
+75421,02268817,"MEDICATED ACNE GEL (benzoyl peroxide 5 % cutaneous gel) PRIME ENTERPRISES, LLC","mp_formal_name: ""MEDICATED ACNE GEL (benzoyl peroxide 5 % cutaneous gel) PRIME ENTERPRISES, LLC.̲"" -> ""MEDICATED ACNE GEL (benzoyl peroxide 5 % cutaneous gel) PRIME ENTERPRISES, LLC"""
+75893,02273446,ORIGINAL EYE DROPS (tetrahydrozoline hydrochloride 0.05 % ophthalmic drops) JUNO OTC INC,"mp_formal_name: ""ORIGINAL EYE DROPS (tetrahydrozoline hydrochloride 0.05 % ophthalmic drops) T̲E̲V̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""ORIGINAL EYE DROPS (tetrahydrozoline hydrochloride 0.05 % ophthalmic drops) J̲U̲N̲O̲ ̲O̲T̲C̲ ̲I̲N̲C̲"""
+82759,02342073,"AFTER SUN BURN RELIEF LIDOCAINE CONTINUOUS SPRAY (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC","mp_formal_name: ""AFTER SUN BURN RELIEF LIDOCAINE CONTINUOUS SPRAY (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC.̲"" -> ""AFTER SUN BURN RELIEF LIDOCAINE CONTINUOUS SPRAY (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC"""
+88350,02398559,"LIDOCAINE HYDROCHLORIDE SOLUTION (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC","mp_formal_name: ""LIDOCAINE HYDROCHLORIDE SOLUTION (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC.̲"" -> ""LIDOCAINE HYDROCHLORIDE SOLUTION (lidocaine hydrochloride 1 % cutaneous spray) PRIME ENTERPRISES, LLC"""
+91806,02433702,NRA-FLUCONAZOLE-150 (fluconazole 150 mg oral capsule) NORA PHARMA INC,"mp_formal_name: ""P̲R̲I̲V̲A-FLUCONAZOLE (fluconazole 150 mg oral capsule) NORA PHARMA INC"" -> ""N̲R̲A-FLUCONAZOLE-̲1̲5̲0̲ (fluconazole 150 mg oral capsule) NORA PHARMA INC"""
+92058,02436256,TEVA-LATANOPROST-TIMOLOL (latanoprost 50 mcg per mL and timolol (timolol maleate) 5 mg per mL ophthalmic drops) TEVA CANADA LIMITED,"mp_formal_name: ""A̲C̲T̲ ̲LATANOPROST/̲TIMOLOL (latanoprost 50 mcg per mL and timolol (timolol maleate) 5 mg per mL ophthalmic drops) TEVA CANADA LIMITED"" -> ""T̲E̲V̲A̲-̲LATANOPROST-̲TIMOLOL (latanoprost 50 mcg per mL and timolol (timolol maleate) 5 mg per mL ophthalmic drops) TEVA CANADA LIMITED"""
+103664,02547716,M-RIZATRIPTAN (rizatriptan (rizatriptan benzoate) 10 mg oral tablet) MANTRA PHARMA INC,ADDED
+103882,02550040,VOYDEYA 150 MG DOSE (danicopan 50 mg oral tablet with danicopan 100 mg oral tablet) ALEXION PHARMA GMBH,ADDED
+103886,02550059,VOYDEYA 200 MG DOSE (danicopan 100 mg oral tablet) ALEXION PHARMA GMBH,ADDED
+103943,02550644,M-PIRFENIDONE (pirfenidone 267 mg oral tablet) MANTRA PHARMA INC,ADDED
+103944,02550652,M-PIRFENIDONE (pirfenidone 801 mg oral tablet) MANTRA PHARMA INC,ADDED
+103964,02550865,APO-TIOTROPIUM (tiotropium (tiotropium bromide monohydrate) 18 mcg inhalation powder capsule) APOTEX INC,ADDED
+104012,02551403,MIEBO (perfluorohexyloctane 100 % ophthalmic drops) BAUSCH & LOMB INC,ADDED
+104029,02551551,IMDELLTRA (tarlatamab 1 mg per vial powder for solution for injection with solution stabilizer) AMGEN CANADA INC,ADDED
+104030,02551578,IMDELLTRA (tarlatamab 10 mg per vial powder for solution for injection with solution stabilizer) AMGEN CANADA INC,ADDED
+104065,02551950,MOUNJARO KWIKPEN (tirzepatide 2.5 mg per actuation solution for injection pre-filled pen) ELI LILLY CANADA INC,ADDED
+104066,02551969,MOUNJARO KWIKPEN (tirzepatide 5 mg per actuation solution for injection pre-filled pen) ELI LILLY CANADA INC,ADDED
+104067,02551977,MOUNJARO KWIKPEN (tirzepatide 7.5 mg per actuation solution for injection pre-filled pen) ELI LILLY CANADA INC,ADDED
+104068,02551985,MOUNJARO KWIKPEN (tirzepatide 10 mg per acutation solution for injection pre-filled pen) ELI LILLY CANADA INC,ADDED
+104069,02551993,MOUNJARO KWIKPEN (tirzepatide 12.5 mg per actuation solution for injection pre-filled pen) ELI LILLY CANADA INC,ADDED
+104070,02552000,MOUNJARO KWIKPEN (tirzepatide 15 mg per actuation solution for injection pre-filled pen) ELI LILLY CANADA INC,ADDED
+104156,02552604,PMS-RUPATADINE (rupatadine (rupatadine fumarate) 10 mg oral tablet) PHARMASCIENCE INC,ADDED
+104193,02552965,OJJAARA (momelotinib (momelotinib dihydrochloride) 100 mg oral tablet) GLAXOSMITHKLINE INC,ADDED
+104194,02552973,OJJAARA (momelotinib (momelotinib dihydrochloride) 150 mg oral tablet) GLAXOSMITHKLINE INC,ADDED
+104195,02552981,OJJAARA (momelotinib (momelotinib dihydrochloride) 200 mg oral tablet) GLAXOSMITHKLINE INC,ADDED
+104211,02553155,APO-RUPATADINE (rupatadine (rupatadine fumarate) 10 mg oral tablet) APOTEX INC,ADDED
+NA,02440466,"SODIUM NITRITE INJECTION, USP (sodium nitrite 300 mg per 10 mL solution for injection vial) HOPE PHARMACEUTICALS LTD",DELETED
+NA,02502895,"ANTHIM (obiltoxaximab 600 mg per 6 mL solution for injection vial) ELUSYS THERAPEUTICS, INC.",DELETED
+NA,02522772,"TPOXX (tecovirimat (tecovirimat monohydrate) 200 mg oral capsule) SIGA TECHNOLOGIES, INC.",DELETED

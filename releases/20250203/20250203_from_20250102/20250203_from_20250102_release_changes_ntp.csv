@@ -1,0 +1,30 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9015152,momelotinib (momelotinib dihydrochloride) 200 mg oral tablet,momélotinib (dichlorhydrate de momélotinib) 200 mg comprimé oral,ADDED
+9015153,perfluorohexyloctane 100 % ophthalmic drops,perfluorohexyloctane 100 % gouttes ophtalmiques,ADDED
+9015150,momelotinib (momelotinib dihydrochloride) 100 mg oral tablet,momélotinib (dichlorhydrate de momélotinib) 100 mg comprimé oral,ADDED
+9000002,levothyroxine sodium 50 mcg oral tablet,lévothyroxine sodique 50 mcg comprimé oral,"ntp_status_effective_time: ""19511230"" -> ""19511231"""
+9015151,momelotinib (momelotinib dihydrochloride) 150 mg oral tablet,momélotinib (dichlorhydrate de momélotinib) 150 mg comprimé oral,ADDED
+9013003,lixisenatide 10 mcg per actuation solution for injection pre-filled pen with lixisenatide 20 mcg per actuation solution for injection pre-filled pen,lixisénatide 10 mcg par actionnement solution injectable stylo prérempli avec lixisénatide 20 mcg par actionnement solution injectable stylo prérempli,"ntp_fr_description: ""lixisénatide 10 mcg par d̲é̲c̲l̲e̲n̲c̲h̲ement solution injectable stylo prérempli avec lixisénatide 20 mcg par d̲é̲c̲l̲e̲n̲c̲h̲ement solution injectable stylo prérempli"" -> ""lixisénatide 10 mcg par a̲c̲t̲i̲o̲n̲n̲ement solution injectable stylo prérempli avec lixisénatide 20 mcg par a̲c̲t̲i̲o̲n̲n̲ement solution injectable stylo prérempli"""
+9004019,fosamprenavir (fosamprenavir calcium) 50 mg per mL oral suspension,fosamprénavir (fosamprénavir calcique) 50 mg par mL suspension orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20050223"" -> ""20241231"""
+9015161,tirzepatide 7.5 mg per actuation solution for injection pre-filled pen,"tirzépatide 7,5 mg par actionnement solution injectable stylo prérempli",ADDED
+9013471,octreotide (octreotide acetate) 100 mcg per 1 mL solution for injection ampoule,octréotide (acétate d'octréotide) 100 mcg par 1 mL solution injectable ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19891231"" -> ""20240325"""
+9015154,tarlatamab 10 mg per vial powder for solution for injection with solution stabilizer,tarlatamab 10 mg par fiole poudre pour solution injectable avec agent stabilisant de solution,ADDED
+9012356,verapamil hydrochloride 180 mg prolonged-release oral tablet,chlorhydrate de vérapamil 180 mg comprimé oral à libération prolongée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19940421"" -> ""20240311"""
+9014062,risankizumab 75 mg per 0.83 mL solution for injection syringe,"risankizumab 75 mg par 0,83 mL solution injectable seringue","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20190513"" -> ""20250128"""
+9015158,tirzepatide 15 mg per actuation solution for injection pre-filled pen,tirzépatide 15 mg par actionnement solution injectable stylo prérempli,ADDED
+9015146,danicopan 50 mg oral tablet with danicopan 100 mg oral tablet,danicopan 50 mg comprimé oral avec danicopan 100 mg comprimé oral,ADDED
+9015160,tirzepatide 5 mg per actuation solution for injection pre-filled pen,tirzépatide 5 mg par actionnement solution injectable stylo prérempli,ADDED
+9012358,verapamil hydrochloride 240 mg prolonged-release oral tablet,chlorhydrate de vérapamil 240 mg comprimé oral à libération prolongée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19881231"" -> ""20240311"""
+9015145,danicopan 100 mg oral tablet,danicopan 100 mg comprimé oral,ADDED
+9015157,tirzepatide 12.5 mg per actuation solution for injection pre-filled pen,"tirzépatide 12,5 mg par actionnement solution injectable stylo prérempli",ADDED
+9015156,tirzepatide 10 mg per acutation solution for injection pre-filled pen,tirzépatide 10 mg par actionnement solution injectable stylo prérempli,ADDED
+9015159,tirzepatide 2.5 mg per actuation solution for injection pre-filled pen,"tirzépatide 2,5 mg par actionnement solution injectable stylo prérempli",ADDED
+9015155,tarlatamab 1 mg per vial powder for solution for injection with solution stabilizer,tarlatamab 1 mg par fiole poudre pour solution injectable avec agent stabilisant de solution,ADDED
+9014627,ponesimod 2 mg oral tablet with ponesimod 3 mg oral tablet with ponesimod 4 mg oral tablet with ponesimod 5 mg oral tablet with ponesimod 6 mg oral tablet with ponesimod 7 mg oral tablet with ponesimod 8 mg oral tablet with ponesimod 9 mg oral tablet with ponesimod 10 mg oral tablet,ponésimod 2 mg comprimé oral avec ponésimod 3 mg comprimé oral avec ponésimod 4 mg comprimé oral avec ponésimod 5 mg comprimé oral avec ponésimod 6 mg comprimé oral avec ponésimod 7 mg comprimé oral avec ponésimod 8 mg comprimé oral avec ponésimod 9 mg comprimé oral avec ponésimod 10 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20211101"" -> ""20221126"""
+9001560,spiramycin 1500000 unit oral capsule,spiramycine 1500000 unité capsule orale,"ntp_status_effective_time: ""20240620"" -> ""20230620"""
