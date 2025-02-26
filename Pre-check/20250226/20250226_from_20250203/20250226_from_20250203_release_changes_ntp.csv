@@ -1,0 +1,23 @@
+ntp_code,ntp_formal_name,changes
+cab9953aae65807963cbd9a77398d696,carboprost (carboprost tromethamine) 250 mcg per mL solution for injection,ADDED
+9014429,filgrastim (pegfilgrastim) 6 mg per 0.6 mL solution for injection,ADDED
+9014376,caplacizumab 11 mg per vial powder for solution for injection with diluent solution syringe,DELETED
+9015117,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9012939,chlorhexidine gluconate 2 % cutaneous spray,DELETED
+9015112,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial","ntp_status_effective_time: ""20230918"" -> ""20240924"""
+05faa18da18db80a9965773aa1ac2c98,clotrimazole 500 mg NA,ADDED
+4513cb753445fd49e76806aebfa3f6bb,ustekinumab 45 mg per 0.5 mL solution for injection,ADDED
+9004321,sodium oxybate 500 mg per mL oral solution,DELETED
+9897fe2fca83fd1271d97aeb2d77df2c,argatroban 1 mg per mL solution for injection,ADDED
+9012959,diphenhydramine hydrochloride 25 mg and ibuprofen 200 mg oral capsule with ibuprofen 200 mg oral capsule,DELETED
+ca4ac156e14d52ad634cca01e1ebb2c1,acalabrutinib (acalabrutinib maleate) 100 mg oral tablet,ADDED
+9001921,tretinoin 0.05 % cutaneous cream,"ntp_status_effective_time: ""19811231"" -> ""19911231"""
+9015118,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+9003343,lamivudine 150 mg and zidovudine 300 mg oral tablet,"ntp_status_effective_time: ""19981208"" -> ""20120604"""
+9005367,teriflunomide 14 mg oral tablet,"ntp_status_effective_time: ""20131115"" -> ""20220516"""
+9340599fdbb7251c95358f3b4d517c29,ustekinumab 90 mg per 1 mL solution for injection,ADDED
+cb4add6b8fa5b07357fbe48487746e72,secukinumab 150 mg per mL solution for injection,ADDED
+9015116,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+fd32f8dd8e7f432c81ed49477fd07a1f,clotrimazole 2 % and clotrimazole 500 mg NA,ADDED
+9014987,raxtozinameran 3 mcg per 0.2 mL suspension for injection 2 mL vial,DELETED
+9015119,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
