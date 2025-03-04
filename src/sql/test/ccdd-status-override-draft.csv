@@ -118,3 +118,5 @@ ccdd_code,ccdd_type,status,status_effective_time
 02522772,mp,Deprec,2025-01-02
 8001940,tm,Deprec,2025-03-03
 77700899,mp,Deprec,2025-03-03
+8002487,tm,Inactive,2025-03-03
+9014987,ntp,Inactive,2025-03-03
