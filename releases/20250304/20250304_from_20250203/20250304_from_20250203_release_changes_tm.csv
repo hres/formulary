@@ -1,0 +1,10 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002343,caplacizumab,caplacizumab,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20200904"" -> ""20250114"""
+8002530,oxybate,oxybate,ADDED
+8002487,raxtozinameran,raxtozinaméran,"tm_status_effective_time: ""20240924"" -> ""20250303"""
+8001940,sodium oxybate,oxybate de sodium,"tm_status: ""ACTIVE"" -> ""DEPREC""
+tm_status_effective_time: ""20070803"" -> ""20250303"""
+8002527,ferric carboxymaltose,carboxymaltose ferrique,ADDED
+8001434,argatroban,argatroban,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20240731"" -> ""20020613"""
