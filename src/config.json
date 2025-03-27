@@ -4,8 +4,8 @@
     "db_previous_month": "ccdd_2025_03_04_112608",
     "ccdd_qa_release_date": "20250303",
     "ccdd_current_release_date": "20250304",
-    "dpd_extract_date": "2025-03-25",
-    "dpd_extract_directory": "/home/cyanofsky/dpd/dpd_20250325",
+    "dpd_extract_date": "2025-03-27",
+    "dpd_extract_directory": "/home/cyanofsky/dpd/dpd_20250327",
     "preQA": true,
     "pgloaded_file_dir": "/home/cyanofsky/git/formulary/src/pgloaded"
   }
