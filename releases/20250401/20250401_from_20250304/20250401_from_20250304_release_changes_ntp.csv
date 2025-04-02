@@ -1,0 +1,24 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9001749,trifluoperazine (trifluoperazine hydrochloride) 5 mg oral tablet,trifluopérazine (chlorhydrate de trifluopérazine) 5 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19751231"" -> ""20240421"""
+9015180,sotatercept 60 mg per vial powder for solution for injection with diluent solution syringe,sotatercept 60 mg par fiole poudre pour solution injectable avec solution diluante seringue,ADDED
+9013774,carboxymethylcellulose sodium 0.5 % and glycerin 1 % ophthalmic drops,"carboxyméthylcellulose sodique 0,5 % et glycérine 1 % gouttes ophtalmiques","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20160426"" -> ""20240620"""
+9015181,trofinetide 200 mg per mL oral solution,trofinétide 200 mg par mL solution orale,ADDED
+9015179,sotatercept 45 mg per vial powder for solution for injection with diluent solution syringe,sotatercept 45 mg par fiole poudre pour solution injectable avec solution diluante seringue,ADDED
+9001746,trifluoperazine (trifluoperazine hydrochloride) 10 mg oral tablet,trifluopérazine (chlorhydrate de trifluopérazine) 10 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19751231"" -> ""20241006"""
+9012979,glucagon (glucagon hydrochloride) 1 mg per vial powder for solution for injection with diluent solution,glucagon (chlorhydrate de glucagon) 1 mg par fiole poudre pour solution injectable avec solution diluante,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20100104"" -> ""20240229"""
+9014394,apomorphine hydrochloride 15 mg sublingual film,chlorhydrate d'apomorphine 15 mg film sublingual,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20201117"" -> ""20230929"""
+9015176,fezolinetant 45 mg oral tablet,fézolinétant 45 mg comprimé oral,ADDED
+9002036,trifluoperazine (trifluoperazine hydrochloride) 20 mg oral tablet,trifluopérazine (chlorhydrate de trifluopérazine) 20 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19841231"" -> ""20241026"""
+9015178,roflumilast 0.15 % cutaneous cream,"roflumilast 0,15 % crème cutanée",ADDED
+9001903,chlordiazepoxide hydrochloride 10 mg oral capsule,chlorhydrate de chlordiazépoxide 10 mg capsule orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19811231"" -> ""20240818"""
+9001905,chlordiazepoxide hydrochloride 5 mg oral capsule,chlorhydrate de chlordiazépoxide 5 mg capsule orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19811231"" -> ""20240815"""
+9015175,baloxavir marboxil 80 mg oral tablet,baloxavir marboxil 80 mg comprimé oral,ADDED
+9015177,iron (ferric maltol) 30 mg oral capsule,fer (maltol ferrique) 30 mg capsule orale,ADDED
