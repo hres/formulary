@@ -1,0 +1,34 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+135ae46a3720439c76ac067c3317d238,iptacopan,iptacopan,ADDED
+8002154,potassium phosphate dibasic and potassium phosphate monobasic,phosphate de potassium dibasique et phosphate de potassium monobasique,ADDED
+b3636008ffb61841695538fe4173de3b,calcium oxybate and magnesium oxybate and potassium oxybate and sodium oxybate,oxybate de calcium et oxybate de magnésium et oxybate de potassium et oxybate de sodium,ADDED
+8002282,fibrinogen human and thrombin human,fibrinogène humaine et thrombine humaine,ADDED
+8002161,sodium bicarbonate,bicarbonate de sodium,ADDED
+8001168,adefovir,adéfovir,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20060418"" -> ""20221221"""
+8001844,magnesium chloride,chlorure de magnésium,ADDED
+8001615,chloroxylenol,chloroxylénol,ADDED
+55ef426d2356aa849c1a10d65e729901,zolbetuximab,zolbétuximab,ADDED
+8002278,coagulation factor ii (human) and coagulation factor IX human and coagulation factor vii (human) and coagulation factor x (human) and protein c and protein s,facteur II de coagulation humain et facteur IX de coagulation humain et facteur VII de coagulation humain et facteur X de coagulation humain et protéine c et protéine s,ADDED
+8002432,phenylbutyric acid and ursodoxicoltaurine,acide phénylbutyrique et ursodoxicoltaurine,DELETED
+8001579,benzethonium,benzéthonium,ADDED
+8002452,cytarabine and daunorubicin,cytarabine et daunorubicine,ADDED
+8002398,pralsetinib,pralsétinib,DELETED
+8001757,doxorubicin,doxorubicine,ADDED
+8001004,benzoyl peroxide and salicylic acid,peroxyde de benzoyle et acide salicylique,ADDED
+d69d0312d1c064e97b92129b697a9c95,talquetamab,talquétamab,ADDED
+8111a058f9f0f8f136b15225f1e574ce,inavolisib,inavolisib,ADDED
+8002088,acetic acid and sodium acetate,acide acétique et acétate de sodium,ADDED
+8001976,triclosan,triclosan,ADDED
+8002047,paclitaxel,paclitaxel,ADDED
+8001870,potassium chloride,chlorure de potassium,ADDED
+8001471,fluorometholone acetate,acétate de fluorométholone,DELETED
+8000796,benzalkonium,benzalkonium,ADDED
+8002160,sodium acetate,acétate de sodium,ADDED
+8001878,sodium iodide,iodure de sodium,ADDED
+8002215,amphotericin B,amphotéricine B,ADDED
+8002530,oxybate,oxybate,DELETED
+8001476,follitropin beta,follitropine bêta,ADDED
+8001216,micafungin,micafungine,"tm_status_effective_time: ""20070918"" -> ""20091217"""
+7ecb09fbb67f69eb2149780c3c53de74,zilucoplan,zilucoplan,ADDED
+8000912,alcohol anhydrous and chlorhexidine,alcool anhydre et chlorhexidine,ADDED
