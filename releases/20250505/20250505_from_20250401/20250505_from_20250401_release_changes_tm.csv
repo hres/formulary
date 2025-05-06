@@ -1,0 +1,18 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8001471,fluorometholone acetate,acétate de fluorométholone,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19871231"" -> ""20250320"""
+8002398,pralsetinib,pralsétinib,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20211112"" -> ""20250226"""
+8002538,iptacopan,iptacopan,ADDED
+8002537,inavolisib,inavolisib,ADDED
+8002542,sodium oxybate,oxybate de sodium,ADDED
+8002541,zolbetuximab,zolbétuximab,ADDED
+8002432,phenylbutyric acid and ursodoxicoltaurine,acide phénylbutyrique et ursodoxicoltaurine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20220729"" -> ""20240923"""
+8002540,zilucoplan,zilucoplan,ADDED
+8001168,adefovir,adéfovir,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20060418"" -> ""20230512"""
+8002530,oxybate,oxybate,"tm_status: ""ACTIVE"" -> ""DEPREC""
+tm_status_effective_time: ""20070803"" -> ""20250505"""
+8002539,talquetamab,talquétamab,ADDED
+8002536,calcium oxybate and magnesium oxybate and potassium oxybate and sodium oxybate,oxybate de calcium et oxybate de magnésium et oxybate de potassium et oxybate de sodium,ADDED
