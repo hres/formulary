@@ -1536,6 +1536,9 @@ ALTER TABLE public.dpd_drug_schedule OWNER TO postgres;
 
 -- object: public.dpd_opioid_source | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.dpd_opioid_source CASCADE;
+
+-- The info in dpd_opioid_source is inserted directly into public.dpd_drug_special_identifier.
+-- The code that does this is in ccdd-run-views.sql.
 CREATE MATERIALIZED VIEW public.dpd_opioid_source
 AS
 
@@ -3643,7 +3646,7 @@ AS
 
 SELECT
   prev.ccdd_code,
-  prev.ccdd_formal_name,
+  COALESCE(mpt.mp_formal_name, ntpt.ntp_formal_name, tmt.tm_formal_name, prev.ccdd_formal_name) AS ccdd_formal_name,
   prev.ccdd_type,
   prev.policy_type::text as policy_type,
   prev.policy_reference,
@@ -3654,6 +3657,18 @@ SELECT
 	END) AS special_groupings_status_effective_time
 FROM
   ccdd.special_groupings prev
+LEFT JOIN (
+  SELECT mp_code, mp_formal_name
+  FROM public.ccdd_mp_table cmpt
+) mpt ON(prev.ccdd_code = mpt.mp_code)
+LEFT JOIN (
+  SELECT ntp_code, ntp_formal_name
+  FROM public.ccdd_ntp_table cntpt
+) ntpt ON(prev.ccdd_code = ntpt.ntp_code)
+LEFT JOIN (
+  SELECT tm_code, tm_formal_name
+  FROM public.ccdd_tm_table ctmt
+) tmt ON(prev.ccdd_code = tmt.tm_code)
 CROSS JOIN
   (SELECT ccdd_date FROM ccdd_config LIMIT 1) sgset
 WHERE NOT EXISTS
