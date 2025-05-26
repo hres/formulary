@@ -1,4 +1,5 @@
 "ntp_dosage_form_code","ntp_dosage_form","route_of_administration_code","route_of_administration","route_of_administration_f","pharm_form_code","pharmaceutical_form","pharmaceutical_form_f","ntp_dosage_form_fr"
+"40124","cutaneous solution","105-107","TOPICAL (COMMERCIAL), TOPICAL (HOSPITAL/HC FACILITIES)","Topique (Milieu commercial), Topique (Hôpitaux, établissements de soins de santé)","134","SOLUTION","Solution","solution pour application cutanée"
 "40064","oral solution","120-56","GASTRIC, ORAL","Gastrique,Orale","134","SOLUTION","Solution","solution orale"
 "40159","vaginal capsule","74","VAGINAL","Vaginale","187","VAGINAL CAPSULE","CAPSULE VAGINALE","capsule vaginale"
 "40153","dispersion for injection","49","INTRAVENOUS","Intraveineuse","184","DISPERSION","Dispersion","dispersion injectable"
