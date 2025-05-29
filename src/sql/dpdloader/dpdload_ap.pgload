@@ -11,7 +11,6 @@ LOAD ARCHIVE
     $$ ALTER TABLE dpd.drug_product ALTER COLUMN extract SET DEFAULT 'approved'; $$,
     $$ ALTER TABLE dpd.pharmaceutical_form ALTER COLUMN extract SET DEFAULT 'approved'; $$,
     $$ ALTER TABLE dpd.active_ingredient ALTER COLUMN extract SET DEFAULT 'approved'; $$,
-    $$ ALTER TABLE dpd.packaging ALTER COLUMN extract SET DEFAULT 'approved'; $$,
     $$ ALTER TABLE dpd.pharmaceutical_std ALTER COLUMN extract SET DEFAULT 'approved'; $$,
     $$ ALTER TABLE dpd.route ALTER COLUMN extract SET DEFAULT 'approved'; $$,
     $$ ALTER TABLE dpd.schedule ALTER COLUMN extract SET DEFAULT 'approved'; $$,
@@ -158,31 +157,6 @@ AND LOAD CSV
         strength_unit_f,
         strength_type_f,
         dosage_unit_f
-      )
-    WITH fields terminated by ',',
-             fields escaped by double-quote
-
-
-
-AND LOAD CSV
-    FROM FILENAME MATCHING ~/package_ap.txt/
-      WITH ENCODING UTF-8
-      (
-        DRUG_CODE,
-        UPC,
-        PACKAGE_SIZE_UNIT,
-        PACKAGE_TYPE,
-        PACKAGE_SIZE,
-        PRODUCT_INFORMATION
-      )
-    INTO postgresql://cyanofsky@rest.hc.local/?dpd.packaging
-      (
-        DRUG_CODE,
-        UPC,
-        PACKAGE_SIZE_UNIT,
-        PACKAGE_TYPE,
-        PACKAGE_SIZE,
-        PRODUCT_INFORMATION
       )
     WITH fields terminated by ',',
              fields escaped by double-quote
