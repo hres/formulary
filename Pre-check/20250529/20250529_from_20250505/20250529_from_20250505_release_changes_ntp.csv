@@ -1,0 +1,27 @@
+ntp_code,ntp_formal_name,changes
+9001462,ibuprofen 600 mg prolonged-release oral tablet,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20160822"" -> ""20250522"""
+9000802,irbesartan 75 mg oral tablet,"ntp_status_effective_time: ""19980622"" -> ""20110321"""
+9015117,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9002091,tretinoin 0.01 % cutaneous cream,DELETED
+9015112,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial","ntp_status_effective_time: ""20230918"" -> ""20240924"""
+9013250,epinephrine 0.15 mg per 0.15 mL solution for injection syringe,DELETED
+9012481,cyproterone acetate 300 mg per 3 mL solution for injection ampoule,"ntp_status_effective_time: ""20241212"" -> ""20250508"""
+9003449,cefoxitin (cefoxitin sodium) 10 g per vial powder for solution for injection,DELETED
+9003311,alprostadil 250 mcg urethral stick,"ntp_status_effective_time: ""20240718"" -> ""20250509"""
+402692ca2cd8c8b21780b4daf8f593d1,acetaminophen 10 mg per mL and ibuprofen (ibuprofen sodium) 3 mg per mL solution for injection,ADDED
+97e72acd3a2369b6d57775a10576abdb,isavuconazole (isavuconazonium sulfate) 40 mg oral capsule,ADDED
+9004634,chlorpheniramine maleate 1 mg per 5 mL and ibuprofen 100 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20100126"" -> ""20250516"""
+9000329,metoclopramide hydrochloride 10 mg oral tablet,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20211029"" -> ""19891231"""
+006fc110f53b7369bf9517bc0c57c2f0,varenicline (varenicline tartrate) 0.5 mg and varenicline (varenicline tartrate) 1 mg kit,ADDED
+9003310,alprostadil 1000 mcg urethral stick,"ntp_status_effective_time: ""20240718"" -> ""20250509"""
+9015118,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+9003312,alprostadil 500 mcg urethral stick,"ntp_status_effective_time: ""20240718"" -> ""20250509"""
+9015116,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9014752,levetiracetam 100 mg per mL solution for injection,ADDED
+2390735a8717405da163261c297fafcb,risankizumab 180 mg per 1.2 mL solution for injection,ADDED
+9001476,insulin aspart 100 unit per mL solution for injection 3 mL pen,"ntp_status_effective_time: ""20120504"" -> ""20170303"""
+9015119,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+9001408,insulin detemir 100 unit per mL solution for injection 3 mL pen,DELETED

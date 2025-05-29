@@ -1,0 +1,87 @@
+drug_code,mp_code,mp_formal_name,changes
+868,00074454,LOCACORTEN VIOFORM EARDROPS (clioquinol 1 % and flumethasone pivalate 0.02 % otic drops) ENDO OPERATIONS LTD.,"mp_formal_name: ""LOCACORTEN VIOFORM EARDROPS (clioquinol 1 % and flumethasone pivalate 0.02 % otic drops) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""LOCACORTEN VIOFORM EARDROPS (clioquinol 1 % and flumethasone pivalate 0.02 % otic drops) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+6524,00655686,NAPROXEN-375 (naproxen 375 mg oral tablet) PRO DOC LIMITEE,DELETED
+6619,00657204,STIEVA-A (tretinoin 0.01 % cutaneous cream) GLAXOSMITHKLINE INC,DELETED
+6754,00594644,STATEX (morphine sulfate 10 mg oral tablet) ENDO OPERATIONS LTD.,"mp_formal_name: ""STATEX ̲T̲A̲B̲ ̲1̲0̲M̲G̲ (morphine sulfate 10 mg oral tablet) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""STATEX (morphine sulfate 10 mg oral tablet) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+6755,00594652,STATEX (morphine sulfate 5 mg oral tablet) ENDO OPERATIONS LTD.,"mp_formal_name: ""STATEX ̲T̲A̲B̲ ̲5̲M̲G̲ (morphine sulfate 5 mg oral tablet) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""STATEX (morphine sulfate 5 mg oral tablet) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+7394,00704431,ANDROCUR (cyproterone acetate 50 mg oral tablet) AMDIPHARM LIMITED,"mp_formal_name: ""ANDROCUR (cyproterone acetate 50 mg oral tablet) B̲A̲Y̲E̲R̲ ̲I̲N̲C̲"" -> ""ANDROCUR (cyproterone acetate 50 mg oral tablet) A̲M̲D̲I̲P̲H̲A̲R̲M̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+11880,00704423,ANDROCUR DEPOT (cyproterone acetate 300 mg per 3 mL solution for injection ampoule) AMDIPHARM LIMITED,"mp_formal_name: ""ANDROCUR DEPOT (cyproterone acetate 300 mg per 3 mL solution for injection ampoule) B̲A̲Y̲E̲R̲ ̲I̲N̲C̲"" -> ""ANDROCUR DEPOT (cyproterone acetate 300 mg per 3 mL solution for injection ampoule) A̲M̲D̲I̲P̲H̲A̲R̲M̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+13452,01933531,ADVIL CAPLETS (ibuprofen 200 mg oral tablet) HALEON CANADA ULC,"mp_formal_name: ""ADVIL CAPLETS (ibuprofen 200 mg oral tablet) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ADVIL CAPLETS (ibuprofen 200 mg oral tablet) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+13625,01933558,ADVIL TABLETS (ibuprofen 200 mg oral tablet) HALEON CANADA ULC,"mp_formal_name: ""ADVIL TABLETS (ibuprofen 200 mg oral tablet) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ADVIL TABLETS (ibuprofen 200 mg oral tablet) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+29542,02106272,TRANDATE (labetalol hydrochloride 100 mg oral tablet) ENDO OPERATIONS LTD.,"mp_formal_name: ""TRANDATE (labetalol hydrochloride 100 mg oral tablet) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""TRANDATE (labetalol hydrochloride 100 mg oral tablet) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+29543,02106280,TRANDATE (labetalol hydrochloride 200 mg oral tablet) ENDO OPERATIONS LTD.,"mp_formal_name: ""TRANDATE (labetalol hydrochloride 200 mg oral tablet) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""TRANDATE (labetalol hydrochloride 200 mg oral tablet) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+42388,02046040,CHILDREN'S TYLENOL (acetaminophen 160 mg per 5 mL oral suspension) KENVUE CANADA INC.,"mp_formal_name: ""CHILDREN'S TYLENOL (acetaminophen 160 mg per 5 mL oral suspension) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""CHILDREN'S TYLENOL (acetaminophen 160 mg per 5 mL oral suspension) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+43223,02217511,APO-LISINOPRIL (lisinopril 20 mg oral tablet) APOTEX INC,DELETED
+61288,02237923,AVAPRO (irbesartan 75 mg oral tablet) SANOFI-AVENTIS CANADA INC,DELETED
+62021,02238593,MUSE (alprostadil 250 mcg urethral stick) ENDO OPERATIONS LTD.,"mp_formal_name: ""MUSE (alprostadil 250 mcg urethral stick) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""MUSE (alprostadil 250 mcg urethral stick) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+62022,02238594,MUSE (alprostadil 500 mcg urethral stick) ENDO OPERATIONS LTD.,"mp_formal_name: ""MUSE (alprostadil 500 mcg urethral stick) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""MUSE (alprostadil 500 mcg urethral stick) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+62023,02238595,MUSE (alprostadil 1000 mcg urethral stick) ENDO OPERATIONS LTD.,"mp_formal_name: ""MUSE (alprostadil 1000 mcg urethral stick) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""MUSE (alprostadil 1000 mcg urethral stick) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+64362,02240773,CEFOXITIN FOR INJECTION (cefoxitin (cefoxitin sodium) 10 g per vial powder for solution for injection) TEVA CANADA LIMITED,DELETED
+67279,02243371,AZATHIOPRINE-50 (azathioprine 50 mg oral tablet) PRO DOC LIMITEE,DELETED
+68562,02244577,ADVIL EXTRA STRENGTH CAPLETS (ibuprofen 400 mg oral tablet) HALEON CANADA ULC,"mp_formal_name: ""ADVIL EXTRA STRENGTH CAPLETS (ibuprofen 400 mg oral tablet) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ADVIL EXTRA STRENGTH CAPLETS (ibuprofen 400 mg oral tablet) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+73002,02248645,ADVIL COLD & SINUS PLUS (chlorpheniramine maleate 2 mg and ibuprofen 200 mg and pseudoephedrine hydrochloride 30 mg oral tablet) HALEON CANADA ULC,"mp_formal_name: ""ADVIL COLD & SINUS PLUS (chlorpheniramine maleate 2 mg and ibuprofen 200 mg and pseudoephedrine hydrochloride 30 mg oral tablet) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ADVIL COLD & SINUS PLUS (chlorpheniramine maleate 2 mg and ibuprofen 200 mg and pseudoephedrine hydrochloride 30 mg oral tablet) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+75304,02267632,ADVIL COLD AND SINUS NIGHTTIME (chlorpheniramine maleate 2 mg and ibuprofen 200 mg and pseudoephedrine hydrochloride 30 mg oral tablet) HALEON CANADA ULC,"mp_formal_name: ""ADVIL COLD AND SINUS NIGHTTIME (chlorpheniramine maleate 2 mg and ibuprofen 200 mg and pseudoephedrine hydrochloride 30 mg oral tablet) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ADVIL COLD AND SINUS NIGHTTIME (chlorpheniramine maleate 2 mg and ibuprofen 200 mg and pseudoephedrine hydrochloride 30 mg oral tablet) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+75412,02268701,CHILDREN'S ADVIL COLD & FLU MULTI-SYMPTOM (chlorpheniramine maleate 1 mg per 5 mL and ibuprofen 100 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension) HALEON CANADA ULC,"mp_formal_name: ""CHILDREN'S ADVIL COLD & FLU MULTI-SYMPTOM (chlorpheniramine maleate 1 mg per 5 mL and ibuprofen 100 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""CHILDREN'S ADVIL COLD & FLU MULTI-SYMPTOM (chlorpheniramine maleate 1 mg per 5 mL and ibuprofen 100 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+76054,02275023,TEVA-VENLAFAXINE XR (venlafaxine (venlafaxine hydrochloride) 37.5 mg prolonged-release oral capsule) TEVA CANADA LIMITED,DELETED
+76055,02275031,TEVA-VENLAFAXINE XR (venlafaxine (venlafaxine hydrochloride) 75 mg prolonged-release oral capsule) TEVA CANADA LIMITED,DELETED
+83782,02352567,APO-MYCOPHENOLATE (mycophenolate mofetil 500 mg oral tablet) APOTEX INC,DELETED
+84091,02355701,ADVIL MUSCLE AND JOINT (ibuprofen 400 mg oral tablet) HALEON CANADA ULC,"mp_formal_name: ""ADVIL MUSCLE AND JOINT (ibuprofen 400 mg oral tablet) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ADVIL MUSCLE AND JOINT (ibuprofen 400 mg oral tablet) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+86282,02377209,NOVORAPID FLEXTOUCH 3ML PREFILLED PEN (insulin aspart 100 unit per mL solution for injection 3 mL pen) NOVO NORDISK CANADA INC,DELETED
+86792,02382059,ALLERJECT (epinephrine 0.15 mg per 0.15 mL solution for injection syringe) VALEO PHARMA INC,DELETED
+86793,02382067,ALLERJECT (epinephrine 0.3 mg per 0.3 mL solution for injection syringe) VALEO PHARMA INC,DELETED
+89748,02412829,LEVEMIR FLEXTOUCH (insulin detemir 100 unit per mL solution for injection 3 mL pen) NOVO NORDISK CANADA INC,DELETED
+92825,02443562,ADVIL 12 HOUR (ibuprofen 600 mg prolonged-release oral tablet) HALEON CANADA ULC,"mp_formal_name: ""ADVIL 12 HOUR (ibuprofen 600 mg prolonged-release oral tablet) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ADVIL 12 HOUR (ibuprofen 600 mg prolonged-release oral tablet) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+95551,02467119,APO-DESVENLAFAXINE EXTENDED-RELEASE TABLETS (desvenlafaxine (desvenlafaxine succinate) 50 mg prolonged-release oral tablet) APOTEX INC,DELETED
+95552,02467127,APO-DESVENLAFAXINE EXTENDED-RELEASE TABLETS (desvenlafaxine (desvenlafaxine succinate) 100 mg prolonged-release oral tablet) APOTEX INC,DELETED
+96076,02471604,"ADVIL COLD, SINUS & FLU EXTRA STRENGTH (chlorpheniramine maleate 4 mg and ibuprofen 400 mg and pseudoephedrine hydrochloride 60 mg oral tablet) HALEON CANADA ULC","mp_formal_name: ""ADVIL COLD, SINUS & FLU EXTRA STRENGTH (chlorpheniramine maleate 4 mg and ibuprofen 400 mg and pseudoephedrine hydrochloride 60 mg oral tablet) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ADVIL COLD, SINUS & FLU EXTRA STRENGTH (chlorpheniramine maleate 4 mg and ibuprofen 400 mg and pseudoephedrine hydrochloride 60 mg oral tablet) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+97965,02489570,LATANOPROST OPHTHALMIC SOLUTION (latanoprost 50 mcg per mL ophthalmic drops) HIKMA CANADA LIMITED,DELETED
+97971,02489635,DORZOLAMIDE AND TIMOLOL EYE DROPS BP (dorzolamide (dorzolamide hydrochloride) 20 mg per mL and timolol (timolol maleate) 5 mg per mL ophthalmic drops) HIKMA CANADA LIMITED,DELETED
+99125,02501635,APO-QUETIAPINE FUMARATE (quetiapine (quetiapine fumarate) 25 mg oral tablet) APOTEX INC,DELETED
+99128,02501678,APO-QUETIAPINE FUMARATE (quetiapine (quetiapine fumarate) 300 mg oral tablet) APOTEX INC,DELETED
+101387,02524864,GLICLAZIDE MR (gliclazide 60 mg prolonged-release oral tablet) SANIS HEALTH INC,DELETED
+101648,02527421,AURO-ESLICARBAZEPINE (eslicarbazepine acetate 200 mg oral tablet) AURO PHARMA INC,ADDED
+101649,02527448,AURO-ESLICARBAZEPINE (eslicarbazepine acetate 400 mg oral tablet) AURO PHARMA INC,ADDED
+101650,02527456,AURO-ESLICARBAZEPINE (eslicarbazepine acetate 600 mg oral tablet) AURO PHARMA INC,ADDED
+101651,02527464,AURO-ESLICARBAZEPINE (eslicarbazepine acetate 800 mg oral tablet) AURO PHARMA INC,ADDED
+101967,02530538,NRA-DOCUSATE SODIUM (docusate sodium 100 mg oral capsule) NORA PHARMA INC,ADDED
+102335,02534444,APO-LISDEXAMFETAMINE CHEWABLE TABLETS (lisdexamfetamine dimesylate 10 mg chewable tablet) APOTEX INC,ADDED
+102337,02534452,APO-LISDEXAMFETAMINE CHEWABLE TABLETS (lisdexamfetamine dimesylate 20 mg chewable tablet) APOTEX INC,ADDED
+102338,02534460,APO-LISDEXAMFETAMINE CHEWABLE TABLETS (lisdexamfetamine dimesylate 30 mg chewable tablet) APOTEX INC,ADDED
+102339,02534479,APO-LISDEXAMFETAMINE CHEWABLE TABLETS (lisdexamfetamine dimesylate 40 mg chewable tablet) APOTEX INC,ADDED
+102340,02534487,APO-LISDEXAMFETAMINE CHEWABLE TABLETS (lisdexamfetamine dimesylate 50 mg chewable tablet) APOTEX INC,ADDED
+102341,02534495,APO-LISDEXAMFETAMINE CHEWABLE TABLETS (lisdexamfetamine dimesylate 60 mg chewable tablet) APOTEX INC,ADDED
+102669,02537931,APO-ESLICARBAZEPINE (eslicarbazepine acetate 200 mg oral tablet) APOTEX INC,ADDED
+102670,02537958,APO-ESLICARBAZEPINE (eslicarbazepine acetate 400 mg oral tablet) APOTEX INC,ADDED
+102671,02537966,APO-ESLICARBAZEPINE (eslicarbazepine acetate 600 mg oral tablet) APOTEX INC,ADDED
+102672,02537974,APO-ESLICARBAZEPINE (eslicarbazepine acetate 800 mg oral tablet) APOTEX INC,ADDED
+103343,02544806,COMBOGESIC IV (acetaminophen 10 mg per mL and ibuprofen (ibuprofen sodium dihydrate) 3 mg per mL solution for injection) AFT PHARMACEUTICALS (CAN) LIMITED,ADDED
+103563,02546965,MINT-VARENICLINE (varenicline (varenicline tartrate) 0.5 mg and varenicline (varenicline tartrate) 1 mg kit) MINT PHARMACEUTICALS INC,ADDED
+103698,02548089,JAMP TRAVOPROST Z (travoprost 0.004 % ophthalmic drops) JAMP PHARMA CORPORATION,ADDED
+103759,02548747,PRZ-METOCLOPRAMIDE (metoclopramide hydrochloride 5 mg oral tablet) PHARMARIS CANADA INC,ADDED
+103760,02548755,PRZ-METOCLOPRAMIDE (metoclopramide hydrochloride 10 mg oral tablet) PHARMARIS CANADA INC,ADDED
+103827,02549425,M-FEBUXOSTAT (febuxostat (febuxostat hemihydrate) 80 mg oral tablet) MANTRA PHARMA INC,ADDED
+103901,02550172,LEVETIRACETAM INJECTION USP (levetiracetam 100 mg per mL solution for injection) OMEGA LABORATORIES LIMITED,ADDED
+103945,02550660,REGULAR STRENGTH ACETAMINOPHEN (acetaminophen 325 mg oral tablet) LNK INTERNATIONAL INC.,ADDED
+103959,02550814,PRZ-PROPRANOLOL (propranolol hydrochloride 20 mg oral tablet) PHARMARIS CANADA INC,ADDED
+103960,02550822,PRZ-PROPRANOLOL (propranolol hydrochloride 40 mg oral tablet) PHARMARIS CANADA INC,ADDED
+103961,02550830,PRZ-PROPRANOLOL (propranolol hydrochloride 80 mg oral tablet) PHARMARIS CANADA INC,ADDED
+104092,02552248,JAMP FLUDROCORTISONE (fludrocortisone acetate 0.1 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+104107,02552418,SOOTHE ANTIBIOTIC DROPS (gramicidin 0.025 mg per mL and polymyxin B (polymyxin B sulfate) 10000 unit per mL ophthalmic/otic drops) BAUSCH & LOMB INC,ADDED
+104147,02552507,SKYRIZI (risankizumab 180 mg per 1.2 mL solution for injection) ABBVIE CORPORATION,ADDED
+104221,02553279,CRESEMBA (isavuconazole (isavuconazonium sulfate) 40 mg oral capsule) AVIR PHARMA INC.,ADDED
+104235,02553414,SANDOZ EDOXABAN (edoxaban (edoxaban tosylate monohydrate) 15 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+104236,02553422,SANDOZ EDOXABAN (edoxaban (edoxaban tosylate monohydrate) 30 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+104237,02553430,SANDOZ EDOXABAN (edoxaban (edoxaban tosylate monohydrate) 60 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+104307,02554208,TEVA-EDOXABAN (edoxaban (edoxaban tosylate monohydrate) 15 mg oral tablet) TEVA CANADA LIMITED,ADDED
+104308,02554216,TEVA-EDOXABAN (edoxaban (edoxaban tosylate monohydrate) 30 mg oral tablet) TEVA CANADA LIMITED,ADDED
+104309,02554224,TEVA-EDOXABAN (edoxaban (edoxaban tosylate monohydrate) 60 mg oral tablet) TEVA CANADA LIMITED,ADDED
+104345,02554615,APO-BUTALBITAL-ACETYLSALICYLIC ACID-CAFFEINE-CODEINE-C 1/4 (acetylsalicylic acid 330 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 15 mg oral capsule) APOTEX INC,ADDED
+104346,02554623,APO-BUTALBITAL-ACETYLSALICYLIC ACID-CAFFEINE-CODEINE-C 1/2 (acetylsalicylic acid 330 mg and butalbital 50 mg and caffeine 40 mg and codeine phosphate 30 mg oral capsule) APOTEX INC,ADDED
+104353,02554690,APO-BUTALBITAL-ACETYLSALICYLIC ACID-CAFFEINE (acetylsalicylic acid 330 mg and butalbital 50 mg and caffeine 40 mg oral capsule) APOTEX INC,ADDED
+104377,02554968,DESVENLAFAXINE (desvenlafaxine 50 mg prolonged-release oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+104378,02554976,DESVENLAFAXINE (desvenlafaxine 100 mg prolonged-release oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+106062,02557282,JAMP EDOXABAN (edoxaban (edoxaban tosylate monohydrate) 30 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+106063,02557290,JAMP EDOXABAN (edoxaban (edoxaban tosylate monohydrate) 60 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+NA,02480360,AUVI-Q (epinephrine 0.15 mg per 0.15 mL solution for injection syringe) KALEO INC,DELETED
+NA,77700738,"FLUMAZENIL INJECTION, USP (flumazenil 0.5 mg per 5 mL solution for injection vial) FRESENIUS KABI CANADA LTD","mp_formal_name: ""FLUMAZENIL INJECTION (flumazenil 0.5 mg per 5 mL solution for injection vial) FRESENIUS KABI CANADA LTD"" -> ""FLUMAZENIL INJECTION,̲ ̲U̲S̲P̲ (flumazenil 0.5 mg per 5 mL solution for injection vial) FRESENIUS KABI CANADA LTD"""
+NA,77700739,"FLUMAZENIL INJECTION, USP (flumazenil 1 mg per 10 mL solution for injection vial) FRESENIUS KABI CANADA LTD","mp_formal_name: ""FLUMAZENIL INJECTION (flumazenil 1 mg per 10 mL solution for injection vial) FRESENIUS KABI CANADA LTD"" -> ""FLUMAZENIL INJECTION,̲ ̲U̲S̲P̲ (flumazenil 1 mg per 10 mL solution for injection vial) FRESENIUS KABI CANADA LTD"""
