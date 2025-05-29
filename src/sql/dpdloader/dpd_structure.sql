@@ -19,18 +19,6 @@ CREATE TABLE dpd.drug_product (
     descriptor_f text
 ) WITH (oids = false);
 
-CREATE TABLE dpd.packaging (
-    extract text DEFAULT 'active',
-    drug_code integer NOT NULL,
-    upc text,
-    package_size_unit text,
-    package_type text,
-    package_size text,
-    product_information text,
-    package_size_unit_f text,
-    package_type_f text
-) WITH (oids = false);
-
 CREATE TABLE dpd.pharmaceutical_form (
     extract text DEFAULT 'active',
     drug_code integer NOT NULL,
