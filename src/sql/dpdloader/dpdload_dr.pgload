@@ -3,7 +3,7 @@
 -- Run after dpdload.pgload and before dpdload_ap.pgload
 
 LOAD ARCHIVE
- FROM /home/cyanofsky/dpd/dpd_20250529/allfiles_dr.zip
+ FROM /home/cyanofsky/dpd/dpd_20250502/allfiles_dr.zip
   INTO postgresql://cyanofsky@rest.hc.local/
 
 
@@ -12,7 +12,6 @@ LOAD ARCHIVE
     $$ ALTER TABLE dpd.drug_product ALTER COLUMN extract SET DEFAULT 'dormant'; $$,
     $$ ALTER TABLE dpd.pharmaceutical_form ALTER COLUMN extract SET DEFAULT 'dormant'; $$,
     $$ ALTER TABLE dpd.active_ingredient ALTER COLUMN extract SET DEFAULT 'dormant'; $$,
-    $$ ALTER TABLE dpd.packaging ALTER COLUMN extract SET DEFAULT 'dormant'; $$,
     $$ ALTER TABLE dpd.pharmaceutical_std ALTER COLUMN extract SET DEFAULT 'dormant'; $$,
     $$ ALTER TABLE dpd.route ALTER COLUMN extract SET DEFAULT 'dormant'; $$,
     $$ ALTER TABLE dpd.schedule ALTER COLUMN extract SET DEFAULT 'dormant'; $$,
@@ -172,35 +171,6 @@ AND LOAD CSV
         strength_unit_f,
         strength_type_f,
         dosage_unit_f
-      )
-    WITH fields terminated by ',',
-             fields escaped by double-quote
-
-
-
-AND LOAD CSV
-    FROM FILENAME MATCHING ~/package_dr.txt/
-      WITH ENCODING UTF-8
-      (
-        DRUG_CODE,
-        UPC,
-        PACKAGE_SIZE_UNIT,
-        PACKAGE_TYPE,
-        PACKAGE_SIZE,
-        PRODUCT_INFORMATION,
-        package_size_unit_f,
-        package_type_f
-      )
-    INTO postgresql://cyanofsky@rest.hc.local/?dpd.packaging
-      (
-        DRUG_CODE,
-        UPC,
-        PACKAGE_SIZE_UNIT,
-        PACKAGE_TYPE,
-        PACKAGE_SIZE,
-        PRODUCT_INFORMATION,
-        package_size_unit_f,
-        package_type_f
       )
     WITH fields terminated by ',',
              fields escaped by double-quote
