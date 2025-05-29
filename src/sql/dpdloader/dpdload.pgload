@@ -2,7 +2,7 @@
 -- Connection details drawn from environment variables PGUSER, PGPASSWORD, PGHOST, PGDATABASE
 
 LOAD ARCHIVE
- FROM /home/cyanofsky/dpd/dpd_20250502/allfiles.zip
+ FROM /home/cyanofsky/dpd/dpd_20250529/allfiles.zip
   INTO postgresql://cyanofsky@rest.hc.local/
 
   BEFORE LOAD EXECUTE dpd_structure.sql
@@ -157,6 +157,35 @@ AND LOAD CSV
         strength_unit_f,
         strength_type_f,
         dosage_unit_f
+      )
+    WITH fields terminated by ',',
+             fields escaped by double-quote
+
+
+
+AND LOAD CSV
+    FROM FILENAME MATCHING ~/package.txt/
+      WITH ENCODING UTF-8
+      (
+        DRUG_CODE,
+        UPC,
+        PACKAGE_SIZE_UNIT,
+        PACKAGE_TYPE,
+        PACKAGE_SIZE,
+        PRODUCT_INFORMATION,
+        package_size_unit_f,
+        package_type_f
+      )
+    INTO postgresql://cyanofsky@rest.hc.local/?dpd.packaging
+      (
+        DRUG_CODE,
+        UPC,
+        PACKAGE_SIZE_UNIT,
+        PACKAGE_TYPE,
+        PACKAGE_SIZE,
+        PRODUCT_INFORMATION,
+         package_size_unit_f,
+        package_type_f
       )
     WITH fields terminated by ',',
              fields escaped by double-quote
