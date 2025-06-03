@@ -1,0 +1,26 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9015202,elafibranor 80 mg oral tablet,élafibranor 80 mg comprimé oral,ADDED
+9003449,cefoxitin (cefoxitin sodium) 10 g per vial powder for solution for injection,céfoxitine (céfoxitine sodique) 10 g par fiole poudre pour solution injectable,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20000101"" -> ""20250501"""
+9015204,lazertinib (lazertinib mesylate) 240 mg oral tablet,lazertinib (mésylate de lazertinib) 240 mg comprimé oral,ADDED
+9012481,cyproterone acetate 300 mg per 3 mL solution for injection ampoule,acétate de cyprotérone 300 mg par 3 mL solution injectable ampoule,"ntp_status_effective_time: ""20241212"" -> ""20250508"""
+9013250,epinephrine 0.15 mg per 0.15 mL solution for injection syringe,"épinéphrine 0,15 mg par 0,15 mL solution injectable seringue","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20121211"" -> ""20250514"""
+9015203,isavuconazole (isavuconazonium sulfate) 40 mg oral capsule,isavuconazole (sulfate d’isavuconazonium) 40 mg capsule orale,ADDED
+9001408,insulin detemir 100 unit per mL solution for injection 3 mL pen,insuline détemir 100 unité par mL solution injectable 3 mL stylo,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20131125"" -> ""20230804"""
+9005981,acetaminophen 325 mg oral capsule,acétaminophène 325 mg capsule orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20160608"" -> ""20240725"""
+9003310,alprostadil 1000 mcg urethral stick,alprostadil 1000 mcg bâton pour usage urétral,"ntp_status_effective_time: ""20240718"" -> ""20250509"""
+9003312,alprostadil 500 mcg urethral stick,alprostadil 500 mcg bâton pour usage urétral,"ntp_status_effective_time: ""20240718"" -> ""20250509"""
+9003311,alprostadil 250 mcg urethral stick,alprostadil 250 mcg bâton pour usage urétral,"ntp_status_effective_time: ""20240718"" -> ""20250509"""
+9015206,risankizumab 180 mg per 1.2 mL solution for injection cartridge,"risankizumab 180 mg par 1,2 mL solution injectable cartouche",ADDED
+9000329,metoclopramide hydrochloride 10 mg oral tablet,chlorhydrate de métoclopramide 10 mg comprimé oral,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20211029"" -> ""19891231"""
+9015209,tofersen 100 mg per 15 mL solution for injection vial,tofersen 100 mg par 15 mL solution injectable fiole,ADDED
+9015208,talazoparib (talazoparib tosylate) 0.25 mg oral capsule,"talazoparib (tosylate de talazoparib) 0,25 mg capsule orale",ADDED
+9002091,tretinoin 0.01 % cutaneous cream,"trétinoïne 0,01 % crème cutanée","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19861231"" -> ""20240325"""
+9015210,zanubrutinib 160 mg oral tablet,zanubrutinib 160 mg comprimé oral,ADDED
+9015207,talazoparib (talazoparib tosylate) 0.1 mg oral capsule,"talazoparib (tosylate de talazoparib) 0,1 mg capsule orale",ADDED
+9015205,lazertinib (lazertinib mesylate) 80 mg oral tablet,lazertinib (mésylate de lazertinib) 80 mg comprimé oral,ADDED
