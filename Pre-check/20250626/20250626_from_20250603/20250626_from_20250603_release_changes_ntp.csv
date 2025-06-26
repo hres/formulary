@@ -1,0 +1,40 @@
+ntp_code,ntp_formal_name,changes
+9000823,amoxicillin 875 mg and clavulanic acid (potassium clavulanate) 125 mg oral tablet,"ntp_status_effective_time: ""19981029"" -> ""20021024"""
+9013749,somatropin 5 mg per 2 mL solution for injection pen,DELETED
+9015117,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9015112,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial","ntp_status_effective_time: ""20230918"" -> ""20240924"""
+9013935,romiplostim 500 mcg per vial powder for solution for injection,DELETED
+9000697,paroxetine (paroxetine hydrochloride) 10 mg oral tablet,"ntp_status_effective_time: ""19970131"" -> ""20031008"""
+9001466,morphine sulfate 5 mg oral capsule,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20191010"" -> ""20160906"""
+a492caba907cdb80a3bc89080a3fbebf,risperidone 75 mg kit,ADDED
+9013934,romiplostim 250 mcg per vial powder for solution for injection,DELETED
+9001106,atomoxetine (atomoxetine hydrochloride) 25 mg oral capsule,"ntp_status_effective_time: ""20050303"" -> ""20100916"""
+9005319,arsenic trioxide 1 mg per mL solution for injection,ADDED
+da899e0158626e379748fac4f91c1274,clozapine 25 mg orodispersible tablet,ADDED
+9000506,baclofen 0.05 mg per 1 mL solution for injection ampoule,"ntp_status_effective_time: ""19941231"" -> ""20140606"""
+9001465,morphine sulfate 30 mg oral capsule,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20191010"" -> ""20160906"""
+9002502,yohimbine hydrochloride 2 mg oral tablet,"ntp_status_effective_time: ""20200603"" -> ""20200604"""
+9001464,morphine sulfate 20 mg oral capsule,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20191010"" -> ""20160906"""
+962c8305216862016f39a5fe24200bcf,romiplostim 375 mcg per vial powder for solution for injection,ADDED
+9015118,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+c241b0bbb342673fc7cad643498e857d,risperidone 100 mg kit,ADDED
+9002395,yohimbine hydrochloride 5.4 mg oral tablet,"ntp_status_effective_time: ""20201031"" -> ""20201101"""
+1be1033386b9537b49b951d5a957af91,lidocaine 4 % and menthol 1 % cutaneous cream,ADDED
+9002503,yohimbine hydrochloride 6 mg oral tablet,"ntp_status_effective_time: ""20200603"" -> ""20200604"""
+9002248,bethanechol chloride 50 mg oral tablet,DELETED
+9015116,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+076a3c8952a461360504166bc331c0e2,romiplostim 625 mcg per vial powder for solution for injection,ADDED
+9001463,morphine sulfate 10 mg oral capsule,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20191010"" -> ""20160906"""
+9003936,cinacalcet (cinacalcet hydrochloride) 90 mg oral tablet,"ntp_status_effective_time: ""20040916"" -> ""20160520"""
+9013671,coal tar 20 % cutaneous solution,DELETED
+6f7d5190b65ba3a46d2225258fd6b5a0,acetaminophen 500 mg per sachet oral powder,ADDED
+5d6d7cfd50d0b8371e51b027766f7ae6,clozapine 200 mg orodispersible tablet,ADDED
+3ee6d3049940efd51c9517413d13e0d3,clozapine 50 mg orodispersible tablet,ADDED
+d47f671a7564591b2021be9600f9cffb,clozapine 100 mg orodispersible tablet,ADDED
+9015142,sugammadex (sugammadex sodium) 100 mg per mL solution for injection,ADDED
+9015119,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+05dd12d0c285f8feea19d38246272c32,clozapine 12.5 mg orodispersible tablet,ADDED

@@ -1,0 +1,90 @@
+drug_code,mp_code,mp_formal_name,changes
+2317,00358495,ODANS LIQUOR CARBONIS DETERGENS (coal tar 20 % cutaneous solution) ODAN LABORATORIES LTD,DELETED
+12887,01947923,DUVOID (bethanechol chloride 50 mg oral tablet) ENDO OPERATIONS LTD.,DELETED
+17277,02131048,LIORESAL INTRATHECAL 0.05MG/ML (baclofen 0.05 mg per 1 mL solution for injection ampoule) NOVARTIS PHARMACEUTICALS CANADA INC,DELETED
+24750,01991086,SLEEP AID EXTRA STRENGTH TAB 50MG (diphenhydramine hydrochloride 50 mg oral tablet) TANTA PHARMACEUTICALS INC,DELETED
+27528,02061597,UNISOM SLEEPGELS EXTRA STRENGTH (diphenhydramine hydrochloride 50 mg oral capsule) ENDO OPERATIONS LTD.,DELETED
+42341,02046059,INFANTS' TYLENOL (acetaminophen 80 mg per mL oral drops) KENVUE CANADA INC.,"mp_formal_name: ""INFANTS' TYLENOL (acetaminophen 80 mg per mL oral drops) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""INFANTS' TYLENOL (acetaminophen 80 mg per mL oral drops) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+43575,02027887,PAXIL TAB 10MG (paroxetine (paroxetine hydrochloride) 10 mg oral tablet) GLAXOSMITHKLINE INC,DELETED
+48622,02230090,APO-PENTOXIFYLLINE SR (pentoxifylline 400 mg prolonged-release oral tablet) APOTEX INC,"mp_formal_name: ""PENTOXIFYLLINE SR (pentoxifylline 400 mg prolonged-release oral tablet) AA̲ ̲P̲H̲A̲R̲M̲A̲ INC"" -> ""A̲P̲O̲-̲PENTOXIFYLLINE SR (pentoxifylline 400 mg prolonged-release oral tablet) AP̲O̲T̲E̲X̲ INC"""
+62267,02238829,CLAVULIN 875 (amoxicillin (amoxicillin trihydrate) 875 mg and clavulanic acid (potassium clavulanate) 125 mg oral tablet) GLAXOSMITHKLINE INC,DELETED
+64993,02241361,CHILDREN'S TYLENOL CHEWABLES (acetaminophen 160 mg chewable tablet) KENVUE CANADA INC.,"mp_formal_name: ""CHILDREN'S TYLENOL CHEWABLES (acetaminophen 160 mg chewable tablet) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""CHILDREN'S TYLENOL CHEWABLES (acetaminophen 160 mg chewable tablet) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+71463,02247221,PRO-SIMVASTATIN (simvastatin 10 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""SIMVASTATIN-̲1̲0̲ (simvastatin 10 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲SIMVASTATIN (simvastatin 10 mg oral tablet) PRO DOC LIMITEE"""
+71464,02247222,PRO-SIMVASTATIN (simvastatin 20 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""SIMVASTATIN-̲2̲0̲ (simvastatin 20 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲SIMVASTATIN (simvastatin 20 mg oral tablet) PRO DOC LIMITEE"""
+71465,02247223,PRO-SIMVASTATIN (simvastatin 40 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""SIMVASTATIN-̲4̲0̲ (simvastatin 40 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲SIMVASTATIN (simvastatin 40 mg oral tablet) PRO DOC LIMITEE"""
+71466,02247224,PRO-SIMVASTATIN (simvastatin 80 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""SIMVASTATIN-̲8̲0̲ (simvastatin 80 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲SIMVASTATIN (simvastatin 80 mg oral tablet) PRO DOC LIMITEE"""
+71508,02247265,PENNSAID (diclofenac sodium 1.5 % cutaneous solution) ENDO OPERATIONS LTD.,"mp_formal_name: ""PENNSAID (diclofenac sodium 1.5 % cutaneous solution) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""PENNSAID (diclofenac sodium 1.5 % cutaneous solution) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+72790,02248439,PMS-CIPROFLOXACIN (ciprofloxacin (ciprofloxacin hydrochloride) 750 mg oral tablet) PHARMASCIENCE INC,DELETED
+74237,02257157,SENSIPAR (cinacalcet (cinacalcet hydrochloride) 90 mg oral tablet) AMGEN CANADA INC,DELETED
+74820,02262827,STRATTERA (atomoxetine (atomoxetine hydrochloride) 25 mg oral capsule) ELI LILLY CANADA INC,DELETED
+77887,02293528,SPC-CEFPROZIL (cefprozil (cefprozil monohydrate) 250 mg oral tablet) SUN PHARMA CANADA INC,"mp_formal_name: ""T̲A̲R̲O̲-CEFPROZIL (cefprozil (cefprozil monohydrate) 250 mg oral tablet) SUN PHARMA CANADA INC"" -> ""S̲P̲C̲-CEFPROZIL (cefprozil (cefprozil monohydrate) 250 mg oral tablet) SUN PHARMA CANADA INC"""
+77888,02293536,SPC-CEFPROZIL (cefprozil (cefprozil monohydrate) 500 mg oral tablet) SUN PHARMA CANADA INC,"mp_formal_name: ""T̲A̲R̲O̲-CEFPROZIL (cefprozil (cefprozil monohydrate) 500 mg oral tablet) SUN PHARMA CANADA INC"" -> ""S̲P̲C̲-CEFPROZIL (cefprozil (cefprozil monohydrate) 500 mg oral tablet) SUN PHARMA CANADA INC"""
+80832,02322854,NPLATE (romiplostim 375 mcg per vial powder for solution for injection) AMGEN CANADA INC,"mp_formal_name: ""NPLATE (romiplostim 2̲5̲0̲ mcg per vial powder for solution for injection) AMGEN CANADA INC"" -> ""NPLATE (romiplostim 3̲7̲5̲ mcg per vial powder for solution for injection) AMGEN CANADA INC""
+ntp_code: ""9013934"" -> ""962c8305216862016f39a5fe24200bcf""
+ntp_formal_name: ""romiplostim 2̲5̲0̲ mcg per vial powder for solution for injection"" -> ""romiplostim 3̲7̲5̲ mcg per vial powder for solution for injection"""
+80833,02322862,NPLATE (romiplostim 625 mcg per vial powder for solution for injection) AMGEN CANADA INC,"mp_formal_name: ""NPLATE (romiplostim 5̲0̲0̲ mcg per vial powder for solution for injection) AMGEN CANADA INC"" -> ""NPLATE (romiplostim 6̲2̲5̲ mcg per vial powder for solution for injection) AMGEN CANADA INC""
+ntp_code: ""9013935"" -> ""076a3c8952a461360504166bc331c0e2""
+ntp_formal_name: ""romiplostim 5̲0̲0̲ mcg per vial powder for solution for injection"" -> ""romiplostim 6̲2̲5̲ mcg per vial powder for solution for injection"""
+85748,02372347,IRBESARTAN (irbesartan 75 mg oral tablet) SANIS HEALTH INC,DELETED
+87939,02394235,APO-PREGABALIN (pregabalin 25 mg oral capsule) APOTEX INC,DELETED
+88400,02399091,NUTROPIN AQ NUSPIN 5 (somatropin 5 mg per 2 mL solution for injection pen) HOFFMANN-LA ROCHE LIMITED,DELETED
+92986,02444712,NEXIUM 24HR (esomeprazole (esomeprazole magnesium trihydrate) 20 mg gastro-resistant capsule) HALEON CANADA ULC,"mp_formal_name: ""NEXIUM 24HR (esomeprazole (esomeprazole magnesium trihydrate) 20 mg gastro-resistant capsule) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""NEXIUM 24HR (esomeprazole (esomeprazole magnesium trihydrate) 20 mg gastro-resistant capsule) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+93607,02450070,COLAXOR (polyethylene glycol 3350 100 % powder for oral solution) MANTRA PHARMA INC,"mp_formal_name: ""M̲-̲P̲E̲G̲ ̲3̲3̲5̲0̲ (polyethylene glycol 3350 100 % powder for oral solution) MANTRA PHARMA INC"" -> ""C̲O̲L̲A̲X̲O̲R̲ (polyethylene glycol 3350 100 % powder for oral solution) MANTRA PHARMA INC"""
+94000,02453452,APO-OLMESARTAN (olmesartan medoxomil 20 mg oral tablet) APOTEX INC,DELETED
+94550,02458381,PMS-ABACAVIR-LAMIVUDINE (abacavir (abacavir sulfate) 600 mg and lamivudine 300 mg oral tablet) PHARMASCIENCE INC,DELETED
+95407,02465833,PIPERACILLIN AND TAZOBACTAM FOR INJECTION (piperacillin (piperacillin sodium) 36 g per vial and tazobactam (tazobactam sodium) 4.5 g per vial powder for solution for injection) FRESENIUS KABI CANADA LTD,DELETED
+97511,02484838,BENADRYL ITCH STOPPING CREAM (diphenhydramine hydrochloride 2 % and zinc acetate 0.1 % cutaneous cream) KENVUE CANADA INC.,"mp_formal_name: ""BENADRYL ITCH STOPPING CREAM (diphenhydramine hydrochloride 2 % and zinc acetate 0.1 % cutaneous cream) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""BENADRYL ITCH STOPPING CREAM (diphenhydramine hydrochloride 2 % and zinc acetate 0.1 % cutaneous cream) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+98004,02489961,PRO-ELETRIPTAN (eletriptan (eletriptan hydrobromide) 20 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""ELETRIPTAN (eletriptan (eletriptan hydrobromide) 20 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲ELETRIPTAN (eletriptan (eletriptan hydrobromide) 20 mg oral tablet) PRO DOC LIMITEE"""
+98005,02489988,PRO-ELETRIPTAN (eletriptan (eletriptan hydrobromide) 40 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""ELETRIPTAN (eletriptan (eletriptan hydrobromide) 40 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲ELETRIPTAN (eletriptan (eletriptan hydrobromide) 40 mg oral tablet) PRO DOC LIMITEE"""
+100663,02517280,CHILDREN'S TYLENOL EASY DISSOLVE (acetaminophen 160 mg per sachet oral powder) KENVUE CANADA INC.,"mp_formal_name: ""CHILDREN'S TYLENOL EASY DISSOLVE (acetaminophen 160 mg per sachet oral powder) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""CHILDREN'S TYLENOL EASY DISSOLVE (acetaminophen 160 mg per sachet oral powder) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+101555,02526468,PRZ-OLMESARTAN/HCTZ (hydrochlorothiazide 12.5 mg and olmesartan medoxomil 20 mg oral tablet) PHARMARIS CANADA INC,DELETED
+101556,02526476,PRZ-OLMESARTAN/HCTZ (hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral tablet) PHARMARIS CANADA INC,DELETED
+101557,02526484,PRZ-OLMESARTAN/HCTZ (hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet) PHARMARIS CANADA INC,DELETED
+103318,02544601,"OKEDI (risperidone 75 mg kit) LABORATORIOS FARMACEUTICOS ROVI, S.A.",ADDED
+103319,02544628,"OKEDI (risperidone 100 mg kit) LABORATORIOS FARMACEUTICOS ROVI, S.A.",ADDED
+103541,02546736,CYCLOPHOSPHAMIDE FOR INJECTION USP (cyclophosphamide 1000 mg per vial powder for solution for injection) ANDONE PHARMACEUTICAL INC,ADDED
+103542,02546744,CYCLOPHOSPHAMIDE FOR INJECTION USP (cyclophosphamide 2000 mg per vial powder for solution for injection) ANDONE PHARMACEUTICAL INC,ADDED
+103690,02547996,PRECISE COOLING PAIN RELIEF CREAM (lidocaine 4 % and menthol 1 % cutaneous cream) MCNEIL CONSUMER HEALTHCARE DIVISION OF JOHNSON & JOHNSON INC,ADDED
+103697,02548070,PRECISE PAIN RELIEF CREAM (lidocaine 4 % cutaneous cream) MCNEIL CONSUMER HEALTHCARE DIVISION OF JOHNSON & JOHNSON INC,ADDED
+103751,02548666,SUGAMMADEX INJECTION (sugammadex (sugammadex sodium) 100 mg per mL solution for injection) SANDOZ CANADA INCORPORATED,ADDED
+103764,02548801,M-RIZATRIPTAN ODT (rizatriptan (rizatriptan benzoate) 5 mg orodispersible tablet) MANTRA PHARMA INC,ADDED
+103765,02548828,M-RIZATRIPTAN ODT (rizatriptan (rizatriptan benzoate) 10 mg orodispersible tablet) MANTRA PHARMA INC,ADDED
+103826,02549417,EXTRA STRENGTH TYLENOL EASY DISSOLVE (acetaminophen 500 mg per sachet oral powder) KENVUE CANADA INC.,ADDED
+103845,02549638,PMSC-SIMVASTATIN (simvastatin 5 mg oral tablet) PHARMASCIENCE INC,ADDED
+103846,02549646,PMSC-SIMVASTATIN (simvastatin 10 mg oral tablet) PHARMASCIENCE INC,ADDED
+103847,02549654,PMSC-SIMVASTATIN (simvastatin 20 mg oral tablet) PHARMASCIENCE INC,ADDED
+103848,02549662,PMSC-SIMVASTATIN (simvastatin 40 mg oral tablet) PHARMASCIENCE INC,ADDED
+103849,02549670,PMSC-SIMVASTATIN (simvastatin 80 mg oral tablet) PHARMASCIENCE INC,ADDED
+103883,02550016,NRA-GABAPENTIN (gabapentin 100 mg oral capsule) NORA PHARMA INC,ADDED
+103884,02550024,NRA-GABAPENTIN (gabapentin 300 mg oral capsule) NORA PHARMA INC,ADDED
+103885,02550032,NRA-GABAPENTIN (gabapentin 400 mg oral capsule) NORA PHARMA INC,ADDED
+104033,02551608,M-RIVAROXABAN (rivaroxaban 2.5 mg oral tablet) MANTRA PHARMA INC,ADDED
+104034,02551616,M-RIVAROXABAN (rivaroxaban 10 mg oral tablet) MANTRA PHARMA INC,ADDED
+104035,02551624,M-RIVAROXABAN (rivaroxaban 15 mg oral tablet) MANTRA PHARMA INC,ADDED
+104036,02551632,M-RIVAROXABAN (rivaroxaban 20 mg oral tablet) MANTRA PHARMA INC,ADDED
+104047,02551756,MOMETASONE (mometasone furoate (mometasone furoate monohydrate) 50 mcg per actuation nasal spray) SIVEM PHARMACEUTICALS ULC,ADDED
+104230,02553368,JAMP RIVAROXABAN (rivaroxaban 2.5 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+104255,02553635,NB-APIXABAN (apixaban 2.5 mg oral tablet) NB PHARMA INC.,ADDED
+104256,02553643,NB-APIXABAN (apixaban 5 mg oral tablet) NB PHARMA INC.,ADDED
+104265,02553740,JAMP METHOTREXATE TABLETS (methotrexate 10 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+104322,02554364,ARSENIC TRIOXIDE FOR INJECTION (arsenic trioxide 1 mg per mL solution for injection) MARCAN PHARMACEUTICALS INC,ADDED
+104347,02554631,GEN-CLOZAPINE (clozapine 12.5 mg orodispersible tablet) MYLAN PHARMACEUTICALS ULC,ADDED
+104348,02554658,GEN-CLOZAPINE (clozapine 25 mg orodispersible tablet) MYLAN PHARMACEUTICALS ULC,ADDED
+104349,02554666,GEN-CLOZAPINE (clozapine 50 mg orodispersible tablet) MYLAN PHARMACEUTICALS ULC,ADDED
+104350,02554674,GEN-CLOZAPINE (clozapine 100 mg orodispersible tablet) MYLAN PHARMACEUTICALS ULC,ADDED
+104351,02554682,GEN-CLOZAPINE (clozapine 200 mg orodispersible tablet) MYLAN PHARMACEUTICALS ULC,ADDED
+104365,02554836,NB-PREGABALIN (pregabalin 25 mg oral capsule) NB PHARMA INC.,ADDED
+104366,02554844,NB-PREGABALIN (pregabalin 50 mg oral capsule) NB PHARMA INC.,ADDED
+104367,02554852,NB-PREGABALIN (pregabalin 75 mg oral capsule) NB PHARMA INC.,ADDED
+104368,02554860,NB-PREGABALIN (pregabalin 150 mg oral capsule) NB PHARMA INC.,ADDED
+104370,02554887,NB-PREGABALIN (pregabalin 300 mg oral capsule) NB PHARMA INC.,ADDED
+104390,02555107,NB-RIVAROXABAN (rivaroxaban 2.5 mg oral tablet) NB PHARMA INC.,ADDED
+104391,02555115,NB-RIVAROXABAN (rivaroxaban 10 mg oral tablet) NB PHARMA INC.,ADDED
+104392,02555123,NB-RIVAROXABAN (rivaroxaban 15 mg oral tablet) NB PHARMA INC.,ADDED
+104393,02555131,NB-RIVAROXABAN (rivaroxaban 20 mg oral tablet) NB PHARMA INC.,ADDED
+104423,02555492,NB-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 5 mg oral tablet) NB PHARMA INC.,ADDED
+104424,02555506,NB-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 10 mg oral tablet) NB PHARMA INC.,ADDED
+104425,02555514,NB-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 20 mg oral tablet) NB PHARMA INC.,ADDED
+104426,02555522,NB-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 40 mg oral tablet) NB PHARMA INC.,ADDED
+106003,02556634,REDDY-NILOTINIB (nilotinib (nilotinib hydrochloride monohydrate) 150 mg oral capsule) DR REDDY'S LABORATORIES LTD,ADDED
+106004,02556642,REDDY-NILOTINIB (nilotinib (nilotinib hydrochloride monohydrate) 200 mg oral capsule) DR REDDY'S LABORATORIES LTD,ADDED

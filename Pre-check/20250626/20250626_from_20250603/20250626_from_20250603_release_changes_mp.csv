@@ -1,0 +1,199 @@
+drug_code,mp_code,mp_formal_name,changes
+2317,00358495,ODANS LIQUOR CARBONIS DETERGENS (coal tar 20 % cutaneous solution) ODAN LABORATORIES LTD,DELETED
+12016,01901885,YOHIMBINE TAB 5.4MG (yohimbine hydrochloride 5.4 mg oral tablet) ODAN LABORATORIES LTD,"mp_status_effective_time: ""20201031"" -> ""20201101"""
+12575,00885533,YOHIMBINE HYDROCHLORIDE TAB 2MG (yohimbine hydrochloride 2 mg oral tablet) ODAN LABORATORIES LTD,"mp_status_effective_time: ""20200603"" -> ""20200604"""
+12887,01947923,DUVOID (bethanechol chloride 50 mg oral tablet) ENDO OPERATIONS LTD.,DELETED
+13132,01985604,YOHIMBINE-ODAN 6MG (yohimbine hydrochloride 6 mg oral tablet) ODAN LABORATORIES LTD,"mp_status_effective_time: ""20200603"" -> ""20200604"""
+17277,02131048,LIORESAL INTRATHECAL 0.05MG/ML (baclofen 0.05 mg per 1 mL solution for injection ampoule) NOVARTIS PHARMACEUTICALS CANADA INC,DELETED
+19071,02177625,DOM-FLUOXETINE (fluoxetine (fluoxetine hydrochloride) 20 mg oral capsule) DOMINION PHARMACAL,"mp_status_effective_time: ""20210319"" -> ""20250509"""
+19073,02177617,DOM-FLUOXETINE - CAP 10MG (fluoxetine (fluoxetine hydrochloride) 10 mg oral capsule) DOMINION PHARMACAL,"mp_status_effective_time: ""20210319"" -> ""20250509"""
+24750,01991086,SLEEP AID EXTRA STRENGTH TAB 50MG (diphenhydramine hydrochloride 50 mg oral tablet) TANTA PHARMACEUTICALS INC,DELETED
+27528,02061597,UNISOM SLEEPGELS EXTRA STRENGTH (diphenhydramine hydrochloride 50 mg oral capsule) ENDO OPERATIONS LTD.,DELETED
+42341,02046059,INFANTS' TYLENOL (acetaminophen 80 mg per mL oral drops) KENVUE CANADA INC.,"mp_formal_name: ""INFANTS' TYLENOL (acetaminophen 80 mg per mL oral drops) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""INFANTS' TYLENOL (acetaminophen 80 mg per mL oral drops) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+43575,02027887,PAXIL TAB 10MG (paroxetine (paroxetine hydrochloride) 10 mg oral tablet) GLAXOSMITHKLINE INC,DELETED
+48453,02229994,DOM-METFORMIN (metformin hydrochloride 500 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20210319"" -> ""20250509"""
+48622,02230090,APO-PENTOXIFYLLINE SR (pentoxifylline 400 mg prolonged-release oral tablet) APOTEX INC,"Health_Canada_product_name: ""PENTOXIFYLLINE SR"" -> ""APO-PENTOXIFYLLINE SR""
+mp_formal_name: ""PENTOXIFYLLINE SR (pentoxifylline 400 mg prolonged-release oral tablet) AA̲ ̲P̲H̲A̲R̲M̲A̲ INC"" -> ""A̲P̲O̲-̲PENTOXIFYLLINE SR (pentoxifylline 400 mg prolonged-release oral tablet) AP̲O̲T̲E̲X̲ INC"""
+50311,02231030,DOM-VALPROIC ACID (valproic acid 250 mg oral capsule) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+50312,02231031,DOM-VALPROIC ACID E.C. (valproic acid 500 mg gastro-resistant capsule) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+50428,02231121,DOM-METOPROLOL-L (metoprolol tartrate 50 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20210319"" -> ""20250509"""
+50429,02231122,DOM-METOPROLOL-L (metoprolol tartrate 100 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20190730"" -> ""20250509"""
+55852,02234514,DOM-GLYBURIDE (glyburide 5 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20180802"" -> ""20250509"""
+62267,02238829,CLAVULIN 875 (amoxicillin (amoxicillin trihydrate) 875 mg and clavulanic acid (potassium clavulanate) 125 mg oral tablet) GLAXOSMITHKLINE INC,DELETED
+64414,02240823,DOM-ZOPICLONE (zopiclone 7.5 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20210319"" -> ""20250509"""
+64993,02241361,CHILDREN'S TYLENOL CHEWABLES (acetaminophen 160 mg chewable tablet) KENVUE CANADA INC.,"mp_formal_name: ""CHILDREN'S TYLENOL CHEWABLES (acetaminophen 160 mg chewable tablet) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""CHILDREN'S TYLENOL CHEWABLES (acetaminophen 160 mg chewable tablet) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+66533,02242726,DOM-METFORMIN (metformin hydrochloride 850 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20210319"" -> ""20250509"""
+66900,02243038,DOM-RANITIDINE (ranitidine (ranitidine hydrochloride) 150 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+66901,02243039,DOM-RANITIDINE (ranitidine (ranitidine hydrochloride) 300 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+67676,02243743,DOM-GABAPENTIN (gabapentin 100 mg oral capsule) DOMINION PHARMACAL,"mp_status_effective_time: ""20180802"" -> ""20250509"""
+67677,02243744,DOM-GABAPENTIN (gabapentin 300 mg oral capsule) DOMINION PHARMACAL,"mp_status_effective_time: ""20180802"" -> ""20250509"""
+67678,02243745,DOM-GABAPENTIN (gabapentin 400 mg oral capsule) DOMINION PHARMACAL,"mp_status_effective_time: ""20180802"" -> ""20250509"""
+67679,02243746,DOM-TERAZOSIN (terazosin (terazosin hydrochloride) 1 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+67680,02243747,DOM-TERAZOSIN (terazosin (terazosin hydrochloride) 2 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+67681,02243748,DOM-TERAZOSIN (terazosin (terazosin hydrochloride) 5 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+67682,02243749,DOM-TERAZOSIN (terazosin (terazosin hydrochloride) 10 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+69859,02245751,DOM-DIVALPROEX (valproic acid (divalproex sodium) 125 mg gastro-resistant tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+69860,02245752,DOM-DIVALPROEX (valproic acid (divalproex sodium) 250 mg gastro-resistant tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+69861,02245753,DOM-DIVALPROEX (valproic acid (divalproex sodium) 500 mg gastro-resistant tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+70480,02246317,DOM-ZOPICLONE (zopiclone 5 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20210319"" -> ""20250509"""
+70495,02246331,DOM-AMIODARONE (amiodarone hydrochloride 200 mg oral tablet) DOMINION PHARMACAL,"mp_status: ""ACTIVE"" -> ""INACTIVE""
+mp_status_effective_time: ""20040415"" -> ""20250509"""
+71463,02247221,PRO-SIMVASTATIN (simvastatin 10 mg oral tablet) PRO DOC LIMITEE,"Health_Canada_product_name: ""SIMVASTATIN-10"" -> ""PRO-SIMVASTATIN""
+mp_formal_name: ""SIMVASTATIN-̲1̲0̲ (simvastatin 10 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲SIMVASTATIN (simvastatin 10 mg oral tablet) PRO DOC LIMITEE"""
+71464,02247222,PRO-SIMVASTATIN (simvastatin 20 mg oral tablet) PRO DOC LIMITEE,"Health_Canada_product_name: ""SIMVASTATIN-20"" -> ""PRO-SIMVASTATIN""
+mp_formal_name: ""SIMVASTATIN-̲2̲0̲ (simvastatin 20 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲SIMVASTATIN (simvastatin 20 mg oral tablet) PRO DOC LIMITEE"""
+71465,02247223,PRO-SIMVASTATIN (simvastatin 40 mg oral tablet) PRO DOC LIMITEE,"Health_Canada_product_name: ""SIMVASTATIN-40"" -> ""PRO-SIMVASTATIN""
+mp_formal_name: ""SIMVASTATIN-̲4̲0̲ (simvastatin 40 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲SIMVASTATIN (simvastatin 40 mg oral tablet) PRO DOC LIMITEE"""
+71466,02247224,PRO-SIMVASTATIN (simvastatin 80 mg oral tablet) PRO DOC LIMITEE,"Health_Canada_product_name: ""SIMVASTATIN-80"" -> ""PRO-SIMVASTATIN""
+mp_formal_name: ""SIMVASTATIN-̲8̲0̲ (simvastatin 80 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲SIMVASTATIN (simvastatin 80 mg oral tablet) PRO DOC LIMITEE"""
+71508,02247265,PENNSAID (diclofenac sodium 1.5 % cutaneous solution) ENDO OPERATIONS LTD.,"mp_formal_name: ""PENNSAID (diclofenac sodium 1.5 % cutaneous solution) P̲A̲L̲A̲D̲I̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲."" -> ""PENNSAID (diclofenac sodium 1.5 % cutaneous solution) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."""
+72553,02248217,BLEMISH GEL 5% (benzoyl peroxide 5 % cutaneous gel) KAMINS DERMATOLOGICS INC,"mp_status_effective_time: ""20240604"" -> ""20240605"""
+72790,02248439,PMS-CIPROFLOXACIN (ciprofloxacin (ciprofloxacin hydrochloride) 750 mg oral tablet) PHARMASCIENCE INC,DELETED
+72961,02248605,DOM-MELOXICAM (meloxicam 7.5 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+72962,02248606,DOM-MELOXICAM (meloxicam 15 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+73456,02249723,DOM-PRAVASTATIN (pravastatin sodium 10 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+73457,02249731,DOM-PRAVASTATIN (pravastatin sodium 20 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20190730"" -> ""20250509"""
+73458,02249758,DOM-PRAVASTATIN (pravastatin sodium 40 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20190730"" -> ""20250509"""
+73713,02252252,DOM-METOPROLOL-L (metoprolol tartrate 25 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+73716,02252287,DOM-MIRTAZAPINE (mirtazapine 30 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+74237,02257157,SENSIPAR (cinacalcet (cinacalcet hydrochloride) 90 mg oral tablet) AMGEN CANADA INC,DELETED
+74820,02262827,STRATTERA (atomoxetine (atomoxetine hydrochloride) 25 mg oral capsule) ELI LILLY CANADA INC,DELETED
+75611,02270749,DOM-SUMATRIPTAN (sumatriptan (sumatriptan succinate) 25 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+75612,02270757,DOM-SUMATRIPTAN (sumatriptan (sumatriptan succinate) 50 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+75613,02270765,DOM-SUMATRIPTAN (sumatriptan (sumatriptan succinate) 100 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20190701"" -> ""20250509"""
+75663,02271141,DOM-TOPIRAMATE (topiramate 25 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20210319"" -> ""20250509"""
+75664,02271168,DOM-TOPIRAMATE (topiramate 100 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20210319"" -> ""20250509"""
+75665,02271176,DOM-TOPIRAMATE (topiramate 200 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+76584,02280167,ASATAB 80 MG CHEWABLE TABLETS (acetylsalicylic acid 80 mg chewable tablet) ODAN LABORATORIES LTD,"mp_status_effective_time: ""20240811"" -> ""20240812"""
+76728,02281619,DOM-SIMVASTATIN (simvastatin 5 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+76729,02281627,DOM-SIMVASTATIN (simvastatin 10 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20190730"" -> ""20250509"""
+76730,02281635,DOM-SIMVASTATIN (simvastatin 20 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20190730"" -> ""20250509"""
+76731,02281643,DOM-SIMVASTATIN (simvastatin 40 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20190730"" -> ""20250509"""
+76732,02281651,DOM-SIMVASTATIN (simvastatin 80 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+76737,02281716,DOM-MIRTAZAPINE (mirtazapine 15 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+77336,02287951,DOM-RAMIPRIL (ramipril 2.5 mg oral capsule) DOMINION PHARMACAL,"mp_status_effective_time: ""20210319"" -> ""20250509"""
+77337,02287978,DOM-RAMIPRIL (ramipril 5 mg oral capsule) DOMINION PHARMACAL,"mp_status_effective_time: ""20210319"" -> ""20250509"""
+77338,02287986,DOM-RAMIPRIL (ramipril 10 mg oral capsule) DOMINION PHARMACAL,"mp_status_effective_time: ""20210319"" -> ""20250509"""
+77539,02290081,ADASEPT B.P.5 ACNE GEL (benzoyl peroxide 5 % cutaneous gel) ODAN LABORATORIES LTD,"mp_status_effective_time: ""20230614"" -> ""20230615"""
+77887,02293528,SPC-CEFPROZIL (cefprozil (cefprozil monohydrate) 250 mg oral tablet) SUN PHARMA CANADA INC,"Health_Canada_product_name: ""TARO-CEFPROZIL"" -> ""SPC-CEFPROZIL""
+mp_formal_name: ""T̲A̲R̲O̲-CEFPROZIL (cefprozil (cefprozil monohydrate) 250 mg oral tablet) SUN PHARMA CANADA INC"" -> ""S̲P̲C̲-CEFPROZIL (cefprozil (cefprozil monohydrate) 250 mg oral tablet) SUN PHARMA CANADA INC"""
+77888,02293536,SPC-CEFPROZIL (cefprozil (cefprozil monohydrate) 500 mg oral tablet) SUN PHARMA CANADA INC,"Health_Canada_product_name: ""TARO-CEFPROZIL"" -> ""SPC-CEFPROZIL""
+mp_formal_name: ""T̲A̲R̲O̲-CEFPROZIL (cefprozil (cefprozil monohydrate) 500 mg oral tablet) SUN PHARMA CANADA INC"" -> ""S̲P̲C̲-CEFPROZIL (cefprozil (cefprozil monohydrate) 500 mg oral tablet) SUN PHARMA CANADA INC"""
+77997,02294613,DOM-LISINOPRIL (lisinopril 5 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+77998,02294621,DOM-LISINOPRIL (lisinopril 10 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+77999,02294648,DOM-LISINOPRIL (lisinopril 20 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+78275,02297396,DOM-LEVETIRACETAM (levetiracetam 250 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+78276,02297418,DOM-LEVETIRACETAM (levetiracetam 500 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+78277,02297426,DOM-LEVETIRACETAM (levetiracetam 750 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+78440,02298996,DOM-QUETIAPINE (quetiapine (quetiapine fumarate) 25 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20210319"" -> ""20250509"""
+78441,02299003,DOM-QUETIAPINE (quetiapine (quetiapine fumarate) 100 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20180802"" -> ""20250509"""
+78443,02299038,DOM-QUETIAPINE (quetiapine (quetiapine fumarate) 200 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20180802"" -> ""20250509"""
+78444,02299046,DOM-QUETIAPINE (quetiapine (quetiapine fumarate) 300 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+78466,02299275,DOM-TERBINAFINE (terbinafine (terbinafine hydrochloride) 250 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20190901"" -> ""20250509"""
+78834,02303027,ACT CLOPIDOGREL (clopidogrel (clopidogrel bisulfate) 75 mg oral tablet) TEVA CANADA LIMITED,"mp_status: ""ACTIVE"" -> ""INACTIVE""
+mp_status_effective_time: ""20111207"" -> ""20250429"""
+79359,02307936,DOM-VALACYCLOVIR (valacyclovir (valacyclovir hydrochloride) 500 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20191201"" -> ""20250515"""
+79403,02308371,DOM-RAMIPRIL (ramipril 1.25 mg oral capsule) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+79553,02309831,DOM-RISEDRONATE (risedronate sodium (risedronate sodium hemipentahydrate) 35 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20201201"" -> ""20250509"""
+80582,02320398,M-EDIAT (morphine sulfate 5 mg oral capsule) ETHYPHARM INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20191010"" -> ""20160906"""
+80584,02320428,M-EDIAT (morphine sulfate 10 mg oral capsule) ETHYPHARM INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20191010"" -> ""20160906"""
+80585,02320436,M-EDIAT (morphine sulfate 20 mg oral capsule) ETHYPHARM INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20191010"" -> ""20160906"""
+80586,02320444,M-EDIAT (morphine sulfate 30 mg oral capsule) ETHYPHARM INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20191010"" -> ""20160906"""
+80832,02322854,NPLATE (romiplostim 375 mcg per vial powder for solution for injection) AMGEN CANADA INC,"mp_formal_name: ""NPLATE (romiplostim 2̲5̲0̲ mcg per vial powder for solution for injection) AMGEN CANADA INC"" -> ""NPLATE (romiplostim 3̲7̲5̲ mcg per vial powder for solution for injection) AMGEN CANADA INC"""
+80833,02322862,NPLATE (romiplostim 625 mcg per vial powder for solution for injection) AMGEN CANADA INC,"mp_formal_name: ""NPLATE (romiplostim 5̲0̲0̲ mcg per vial powder for solution for injection) AMGEN CANADA INC"" -> ""NPLATE (romiplostim 6̲2̲5̲ mcg per vial powder for solution for injection) AMGEN CANADA INC"""
+85748,02372347,IRBESARTAN (irbesartan 75 mg oral tablet) SANIS HEALTH INC,DELETED
+86222,02376679,DOM-MONTELUKAST (montelukast (montelukast sodium) 4 mg chewable tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+86223,02376687,DOM-MONTELUKAST (montelukast (montelukast sodium) 5 mg chewable tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250509"""
+86224,02376695,DOM-MONTELUKAST FC (montelukast (montelukast sodium) 10 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20210319"" -> ""20250509"""
+86225,02376709,DOM-FINASTERIDE (finasteride 5 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20210319"" -> ""20250509"""
+87431,02388790,LOSARTAN (losartan potassium 25 mg oral tablet) SIVEM PHARMACEUTICALS ULC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20240425"" -> ""20120705"""
+87432,02388804,LOSARTAN (losartan potassium 50 mg oral tablet) SIVEM PHARMACEUTICALS ULC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20240425"" -> ""20120705"""
+87433,02388812,LOSARTAN (losartan potassium 100 mg oral tablet) SIVEM PHARMACEUTICALS ULC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20240425"" -> ""20120705"""
+87503,02389525,DOM-ZOLMITRIPTAN (zolmitriptan 2.5 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20180802"" -> ""20250509"""
+87939,02394235,APO-PREGABALIN (pregabalin 25 mg oral capsule) APOTEX INC,DELETED
+88125,02396203,DOM-RIZATRIPTAN RDT (rizatriptan (rizatriptan benzoate) 10 mg orodispersible tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20201201"" -> ""20250509"""
+88400,02399091,NUTROPIN AQ NUSPIN 5 (somatropin 5 mg per 2 mL solution for injection pen) HOFFMANN-LA ROCHE LIMITED,DELETED
+88738,02402556,DOM-PREGABALIN (pregabalin 25 mg oral capsule) DOMINION PHARMACAL,"mp_status_effective_time: ""20201224"" -> ""20250509"""
+88739,02402564,DOM-PREGABALIN (pregabalin 50 mg oral capsule) DOMINION PHARMACAL,"mp_status_effective_time: ""20201001"" -> ""20250509"""
+88740,02402572,DOM-PREGABALIN (pregabalin 75 mg oral capsule) DOMINION PHARMACAL,"mp_status_effective_time: ""20200331"" -> ""20250509"""
+88741,02402580,DOM-PREGABALIN (pregabalin 150 mg oral capsule) DOMINION PHARMACAL,"mp_status_effective_time: ""20201201"" -> ""20250509"""
+89352,02408767,APO-QUINAPRIL/HCTZ (hydrochlorothiazide 12.5 mg and quinapril (quinapril hydrochloride) 10 mg oral tablet) APOTEX INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20230722"" -> ""20130813"""
+89353,02408775,APO-QUINAPRIL/HCTZ (hydrochlorothiazide 12.5 mg and quinapril (quinapril hydrochloride) 20 mg oral tablet) APOTEX INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20230317"" -> ""20130813"""
+89354,02408783,APO-QUINAPRIL/HCTZ (hydrochlorothiazide 25 mg and quinapril (quinapril hydrochloride) 20 mg oral tablet) APOTEX INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20240131"" -> ""20130813"""
+92986,02444712,NEXIUM 24HR (esomeprazole (esomeprazole magnesium trihydrate) 20 mg gastro-resistant capsule) HALEON CANADA ULC,"mp_formal_name: ""NEXIUM 24HR (esomeprazole (esomeprazole magnesium trihydrate) 20 mg gastro-resistant capsule) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""NEXIUM 24HR (esomeprazole (esomeprazole magnesium trihydrate) 20 mg gastro-resistant capsule) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+93607,02450070,COLAXOR (polyethylene glycol 3350 100 % powder for oral solution) MANTRA PHARMA INC,"Health_Canada_product_name: ""M-PEG 3350"" -> ""COLAXOR""
+mp_formal_name: ""M̲-̲P̲E̲G̲ ̲3̲3̲5̲0̲ (polyethylene glycol 3350 100 % powder for oral solution) MANTRA PHARMA INC"" -> ""C̲O̲L̲A̲X̲O̲R̲ (polyethylene glycol 3350 100 % powder for oral solution) MANTRA PHARMA INC"""
+94000,02453452,APO-OLMESARTAN (olmesartan medoxomil 20 mg oral tablet) APOTEX INC,DELETED
+94432,02457245,APO-QUETIAPINE XR (quetiapine (quetiapine fumarate) 200 mg prolonged-release oral tablet) APOTEX INC,"mp_status: ""ACTIVE"" -> ""INACTIVE""
+mp_status_effective_time: ""20180615"" -> ""20250508"""
+94550,02458381,PMS-ABACAVIR-LAMIVUDINE (abacavir (abacavir sulfate) 600 mg and lamivudine 300 mg oral tablet) PHARMASCIENCE INC,DELETED
+94751,02460211,EURO-ERYTHROMYCIN OPHTHALMIC OINTMENT USP (erythromycin 5 mg per g ophthalmic ointment) EURO-PHARM INTERNATIONAL CANADA INC,"mp_status_effective_time: ""20180705"" -> ""20250616"""
+95407,02465833,PIPERACILLIN AND TAZOBACTAM FOR INJECTION (piperacillin (piperacillin sodium) 36 g per vial and tazobactam (tazobactam sodium) 4.5 g per vial powder for solution for injection) FRESENIUS KABI CANADA LTD,DELETED
+97511,02484838,BENADRYL ITCH STOPPING CREAM (diphenhydramine hydrochloride 2 % and zinc acetate 0.1 % cutaneous cream) KENVUE CANADA INC.,"mp_formal_name: ""BENADRYL ITCH STOPPING CREAM (diphenhydramine hydrochloride 2 % and zinc acetate 0.1 % cutaneous cream) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""BENADRYL ITCH STOPPING CREAM (diphenhydramine hydrochloride 2 % and zinc acetate 0.1 % cutaneous cream) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+98004,02489961,PRO-ELETRIPTAN (eletriptan (eletriptan hydrobromide) 20 mg oral tablet) PRO DOC LIMITEE,"Health_Canada_product_name: ""ELETRIPTAN"" -> ""PRO-ELETRIPTAN""
+mp_formal_name: ""ELETRIPTAN (eletriptan (eletriptan hydrobromide) 20 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲ELETRIPTAN (eletriptan (eletriptan hydrobromide) 20 mg oral tablet) PRO DOC LIMITEE"""
+98005,02489988,PRO-ELETRIPTAN (eletriptan (eletriptan hydrobromide) 40 mg oral tablet) PRO DOC LIMITEE,"Health_Canada_product_name: ""ELETRIPTAN"" -> ""PRO-ELETRIPTAN""
+mp_formal_name: ""ELETRIPTAN (eletriptan (eletriptan hydrobromide) 40 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲ELETRIPTAN (eletriptan (eletriptan hydrobromide) 40 mg oral tablet) PRO DOC LIMITEE"""
+100663,02517280,CHILDREN'S TYLENOL EASY DISSOLVE (acetaminophen 160 mg per sachet oral powder) KENVUE CANADA INC.,"mp_formal_name: ""CHILDREN'S TYLENOL EASY DISSOLVE (acetaminophen 160 mg per sachet oral powder) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""CHILDREN'S TYLENOL EASY DISSOLVE (acetaminophen 160 mg per sachet oral powder) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+100994,02520745,NIGHTTIME SLEEP AID (diphenhydramine hydrochloride 25 mg oral capsule) THE SHANDEX SALES GROUP LIMITED,"mp_status_effective_time: ""20240715"" -> ""20250610"""
+101555,02526468,PRZ-OLMESARTAN/HCTZ (hydrochlorothiazide 12.5 mg and olmesartan medoxomil 20 mg oral tablet) PHARMARIS CANADA INC,DELETED
+101556,02526476,PRZ-OLMESARTAN/HCTZ (hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral tablet) PHARMARIS CANADA INC,DELETED
+101557,02526484,PRZ-OLMESARTAN/HCTZ (hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet) PHARMARIS CANADA INC,DELETED
+103318,02544601,"OKEDI (risperidone 75 mg kit) LABORATORIOS FARMACEUTICOS ROVI, S.A.",ADDED
+103319,02544628,"OKEDI (risperidone 100 mg kit) LABORATORIOS FARMACEUTICOS ROVI, S.A.",ADDED
+103541,02546736,CYCLOPHOSPHAMIDE FOR INJECTION USP (cyclophosphamide 1000 mg per vial powder for solution for injection) ANDONE PHARMACEUTICAL INC,ADDED
+103542,02546744,CYCLOPHOSPHAMIDE FOR INJECTION USP (cyclophosphamide 2000 mg per vial powder for solution for injection) ANDONE PHARMACEUTICAL INC,ADDED
+103690,02547996,PRECISE COOLING PAIN RELIEF CREAM (lidocaine 4 % and menthol 1 % cutaneous cream) MCNEIL CONSUMER HEALTHCARE DIVISION OF JOHNSON & JOHNSON INC,ADDED
+103697,02548070,PRECISE PAIN RELIEF CREAM (lidocaine 4 % cutaneous cream) MCNEIL CONSUMER HEALTHCARE DIVISION OF JOHNSON & JOHNSON INC,ADDED
+103751,02548666,SUGAMMADEX INJECTION (sugammadex (sugammadex sodium) 100 mg per mL solution for injection) SANDOZ CANADA INCORPORATED,ADDED
+103764,02548801,M-RIZATRIPTAN ODT (rizatriptan (rizatriptan benzoate) 5 mg orodispersible tablet) MANTRA PHARMA INC,ADDED
+103765,02548828,M-RIZATRIPTAN ODT (rizatriptan (rizatriptan benzoate) 10 mg orodispersible tablet) MANTRA PHARMA INC,ADDED
+103826,02549417,EXTRA STRENGTH TYLENOL EASY DISSOLVE (acetaminophen 500 mg per sachet oral powder) KENVUE CANADA INC.,ADDED
+103845,02549638,PMSC-SIMVASTATIN (simvastatin 5 mg oral tablet) PHARMASCIENCE INC,ADDED
+103846,02549646,PMSC-SIMVASTATIN (simvastatin 10 mg oral tablet) PHARMASCIENCE INC,ADDED
+103847,02549654,PMSC-SIMVASTATIN (simvastatin 20 mg oral tablet) PHARMASCIENCE INC,ADDED
+103848,02549662,PMSC-SIMVASTATIN (simvastatin 40 mg oral tablet) PHARMASCIENCE INC,ADDED
+103849,02549670,PMSC-SIMVASTATIN (simvastatin 80 mg oral tablet) PHARMASCIENCE INC,ADDED
+103883,02550016,NRA-GABAPENTIN (gabapentin 100 mg oral capsule) NORA PHARMA INC,ADDED
+103884,02550024,NRA-GABAPENTIN (gabapentin 300 mg oral capsule) NORA PHARMA INC,ADDED
+103885,02550032,NRA-GABAPENTIN (gabapentin 400 mg oral capsule) NORA PHARMA INC,ADDED
+104033,02551608,M-RIVAROXABAN (rivaroxaban 2.5 mg oral tablet) MANTRA PHARMA INC,ADDED
+104034,02551616,M-RIVAROXABAN (rivaroxaban 10 mg oral tablet) MANTRA PHARMA INC,ADDED
+104035,02551624,M-RIVAROXABAN (rivaroxaban 15 mg oral tablet) MANTRA PHARMA INC,ADDED
+104036,02551632,M-RIVAROXABAN (rivaroxaban 20 mg oral tablet) MANTRA PHARMA INC,ADDED
+104047,02551756,MOMETASONE (mometasone furoate (mometasone furoate monohydrate) 50 mcg per actuation nasal spray) SIVEM PHARMACEUTICALS ULC,ADDED
+104230,02553368,JAMP RIVAROXABAN (rivaroxaban 2.5 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+104255,02553635,NB-APIXABAN (apixaban 2.5 mg oral tablet) NB PHARMA INC.,ADDED
+104256,02553643,NB-APIXABAN (apixaban 5 mg oral tablet) NB PHARMA INC.,ADDED
+104265,02553740,JAMP METHOTREXATE TABLETS (methotrexate 10 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+104322,02554364,ARSENIC TRIOXIDE FOR INJECTION (arsenic trioxide 1 mg per mL solution for injection) MARCAN PHARMACEUTICALS INC,ADDED
+104347,02554631,GEN-CLOZAPINE (clozapine 12.5 mg orodispersible tablet) MYLAN PHARMACEUTICALS ULC,ADDED
+104348,02554658,GEN-CLOZAPINE (clozapine 25 mg orodispersible tablet) MYLAN PHARMACEUTICALS ULC,ADDED
+104349,02554666,GEN-CLOZAPINE (clozapine 50 mg orodispersible tablet) MYLAN PHARMACEUTICALS ULC,ADDED
+104350,02554674,GEN-CLOZAPINE (clozapine 100 mg orodispersible tablet) MYLAN PHARMACEUTICALS ULC,ADDED
+104351,02554682,GEN-CLOZAPINE (clozapine 200 mg orodispersible tablet) MYLAN PHARMACEUTICALS ULC,ADDED
+104365,02554836,NB-PREGABALIN (pregabalin 25 mg oral capsule) NB PHARMA INC.,ADDED
+104366,02554844,NB-PREGABALIN (pregabalin 50 mg oral capsule) NB PHARMA INC.,ADDED
+104367,02554852,NB-PREGABALIN (pregabalin 75 mg oral capsule) NB PHARMA INC.,ADDED
+104368,02554860,NB-PREGABALIN (pregabalin 150 mg oral capsule) NB PHARMA INC.,ADDED
+104370,02554887,NB-PREGABALIN (pregabalin 300 mg oral capsule) NB PHARMA INC.,ADDED
+104390,02555107,NB-RIVAROXABAN (rivaroxaban 2.5 mg oral tablet) NB PHARMA INC.,ADDED
+104391,02555115,NB-RIVAROXABAN (rivaroxaban 10 mg oral tablet) NB PHARMA INC.,ADDED
+104392,02555123,NB-RIVAROXABAN (rivaroxaban 15 mg oral tablet) NB PHARMA INC.,ADDED
+104393,02555131,NB-RIVAROXABAN (rivaroxaban 20 mg oral tablet) NB PHARMA INC.,ADDED
+104423,02555492,NB-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 5 mg oral tablet) NB PHARMA INC.,ADDED
+104424,02555506,NB-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 10 mg oral tablet) NB PHARMA INC.,ADDED
+104425,02555514,NB-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 20 mg oral tablet) NB PHARMA INC.,ADDED
+104426,02555522,NB-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 40 mg oral tablet) NB PHARMA INC.,ADDED
+106003,02556634,REDDY-NILOTINIB (nilotinib (nilotinib hydrochloride monohydrate) 150 mg oral capsule) DR REDDY'S LABORATORIES LTD,ADDED
+106004,02556642,REDDY-NILOTINIB (nilotinib (nilotinib hydrochloride monohydrate) 200 mg oral capsule) DR REDDY'S LABORATORIES LTD,ADDED
