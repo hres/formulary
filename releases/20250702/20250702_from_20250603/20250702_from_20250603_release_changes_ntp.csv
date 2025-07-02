@@ -1,0 +1,37 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9013671,coal tar 20 % cutaneous solution,goudron de houille 20 % solution pour application cutanée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19761231"" -> ""20250612"""
+9015223,risperidone 100 mg per syringe powder for prolonged-release suspension for injection with diluent solution syringe,rispéridone 100 mg par seringue poudre pour suspension injectable à libération prolongée avec solution diluante seringue,ADDED
+9015221,lidocaine 4 % and menthol 1 % cutaneous cream,lidocaïne 4 % et menthol 1 % crème cutanée,ADDED
+9015211,acetaminophen 1000 mg per 100 mL and ibuprofen (ibuprofen sodium) 300 mg per 100 mL solution for injection vial,acétaminophène 1000 mg par 100 mL et ibuprofène (ibuprofène sodique) 300 mg par 100 mL solution injectable fiole,ADDED
+9013935,romiplostim 500 mcg per vial powder for solution for injection,romiplostim 500 mcg par fiole poudre pour solution injectable,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20090415"" -> ""20250702"""
+9015212,acetaminophen 500 mg per sachet oral powder,acétaminophène 500 mg par sachet poudre orale,ADDED
+9001465,morphine sulfate 30 mg oral capsule,sulfate de morphine 30 mg capsule orale,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20191010"" -> ""20160906"""
+9015224,risperidone 75 mg per syringe powder for prolonged-release suspension for injection with diluent solution syringe,rispéridone 75 mg par seringue poudre pour suspension injectable à libération prolongée avec solution diluante seringue,ADDED
+9015219,clozapine 50 mg orodispersible tablet,clozapine 50 mg comprimé orodispersible,ADDED
+9015222,omaveloxolone 50 mg oral capsule,omavéloxolone 50 mg capsule orale,ADDED
+9013934,romiplostim 250 mcg per vial powder for solution for injection,romiplostim 250 mcg par fiole poudre pour solution injectable,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20090415"" -> ""20250702"""
+9001463,morphine sulfate 10 mg oral capsule,sulfate de morphine 10 mg capsule orale,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20191010"" -> ""20160906"""
+9015215,clozapine 100 mg orodispersible tablet,clozapine 100 mg comprimé orodispersible,ADDED
+9002502,yohimbine hydrochloride 2 mg oral tablet,chlorhydrate de yohimbine 2 mg comprimé oral,"ntp_status_effective_time: ""20200603"" -> ""20200604"""
+9015217,clozapine 200 mg orodispersible tablet,clozapine 200 mg comprimé orodispersible,ADDED
+9002395,yohimbine hydrochloride 5.4 mg oral tablet,"chlorhydrate de yohimbine 5,4 mg comprimé oral","ntp_status_effective_time: ""20201031"" -> ""20201101"""
+9001466,morphine sulfate 5 mg oral capsule,sulfate de morphine 5 mg capsule orale,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20191010"" -> ""20160906"""
+9015226,romiplostim 625 mcg per vial powder for solution for injection,romiplostim 625 mcg par fiole poudre pour solution injectable,ADDED
+9001464,morphine sulfate 20 mg oral capsule,sulfate de morphine 20 mg capsule orale,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20191010"" -> ""20160906"""
+9015213,cenobamate 12.5 mg oral tablet with cenobamate 25 mg oral tablet,"cénobamate 12,5 mg comprimé oral avec cénobamate 25 mg comprimé oral",ADDED
+9013749,somatropin 5 mg per 2 mL solution for injection pen,somatropine 5 mg par 2 mL solution injectable stylo,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20130909"" -> ""20250131"""
+9002248,bethanechol chloride 50 mg oral tablet,chlorure de béthanéchol 50 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19921231"" -> ""20250606"""
+9002503,yohimbine hydrochloride 6 mg oral tablet,chlorhydrate de yohimbine 6 mg comprimé oral,"ntp_status_effective_time: ""20200603"" -> ""20200604"""
+9015225,romiplostim 375 mcg per vial powder for solution for injection,romiplostim 375 mcg par fiole poudre pour solution injectable,ADDED
+9015218,clozapine 25 mg orodispersible tablet,clozapine 25 mg comprimé orodispersible,ADDED
+9015216,clozapine 12.5 mg orodispersible tablet,"clozapine 12,5 mg comprimé orodispersible",ADDED
+9015214,cenobamate 50 mg oral tablet with cenobamate 100 mg oral tablet,cénobamate 50 mg comprimé oral avec cénobamate 100 mg comprimé oral,ADDED
