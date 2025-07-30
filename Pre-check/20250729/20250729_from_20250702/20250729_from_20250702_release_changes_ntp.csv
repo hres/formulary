@@ -1,0 +1,51 @@
+ntp_code,ntp_formal_name,changes
+4fca9a53cf8aab8871649231ae50fbe4,methotrexate (methotrexate sodium) 12.5 mg per 0.25 mL solution for injection,ADDED
+6753192f55f86a7728ac399f71414cca,tirzepatide 5 mg per 0.6 mL solution for injection,ADDED
+9012560,abacavir (abacavir sulfate) 300 mg and lamivudine 150 mg and zidovudine 300 mg oral tablet,"ntp_status_effective_time: ""20191121"" -> ""20250417"""
+f5de37ae074250976facce269a813cf9,lanreotide (lanreotide acetate) 90 mg prolonged-release solution for injection,ADDED
+9001778,chlorpropamide 100 mg oral tablet,"ntp_status_effective_time: ""20190802"" -> ""20250417"""
+2857641aa15f5bc8f4a9f481f28d756e,methotrexate (methotrexate sodium) 17.5 mg per 0.35 mL solution for injection,ADDED
+9015117,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9001711,chlorpropamide 250 mg oral tablet,"ntp_status_effective_time: ""20190802"" -> ""20250417"""
+7e0b54e08448c0206216c5d4212a03d1,metformin hydrochloride 500 mg and sitagliptin (sitagliptin hydrochloride) 50 mg oral tablet,ADDED
+9015112,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial","ntp_status_effective_time: ""20230918"" -> ""20240924"""
+9f4e956ff6df68331462cfe088fabb6e,acetaminophen 650 mg per 30 mL and chlorpheniramine maleate 4 mg per 30 mL and dextromethorphan hydrobromide 30 mg per 30 mL syrup,ADDED
+71f1f83b994d6022dd4f121370714cbb,metformin hydrochloride 850 mg and sitagliptin (sitagliptin hydrochloride) 50 mg oral tablet,ADDED
+f651d89768691d5303841e085920317f,tirzepatide 2.5 mg per 0.6 mL solution for injection,ADDED
+9004634,chlorpheniramine maleate 1 mg per 5 mL and ibuprofen 100 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension,DELETED
+abd433584c07ff6a2ac4a6be3c9358b4,eribulin mesylate 0.5 mg per mL solution for injection,ADDED
+7750b4b69a152e1269ae1e3747d46bb0,tirzepatide 15 mg per 0.6 mL solution for injection,ADDED
+9001300,progesterone 100 mg effervescent vaginal tablet,DELETED
+7787468de7744f98463a5891c2d5552d,lanreotide (lanreotide acetate) 120 mg prolonged-release solution for injection,ADDED
+9000862,azithromycin 500 mg per vial powder for solution for injection,"ntp_status_effective_time: ""19990827"" -> ""20111004"""
+1b45b5e6ebb70fce074c027fb6c9cc4f,methotrexate (methotrexate sodium) 25 mg per 0.5 mL solution for injection,ADDED
+9014158,acalabrutinib 100 mg oral capsule,DELETED
+9000385,hydromorphone hydrochloride 3 mg suppository,"ntp_status_effective_time: ""20180630"" -> ""20250704"""
+9001703,phenazopyridine hydrochloride 100 mg oral tablet,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20221024"" -> ""19811231"""
+9014660,pyrithione zinc 0.2 % cutaneous cream,DELETED
+17ec88315620dcb0959e31270403ba9f,methotrexate (methotrexate sodium) 20 mg per 0.4 mL solution for injection,ADDED
+a914a9121d8daa6807a17f5fb1f67a75,methotrexate (methotrexate sodium) 15 mg per 0.3 mL solution for injection,ADDED
+9014909,pyrithione zinc 0.1 % cutaneous spray,DELETED
+b6abc7b072722218a8d77a96f0f66f1b,dextromethorphan hydrobromide 10 mg per 15 mL syrup,ADDED
+d0ff33bacdbbc0459f1fc19b4cbdbaf5,methotrexate (methotrexate sodium) 10 mg per 0.2 mL solution for injection,ADDED
+31f5b8d57d6da56d599c1404b5394db8,metformin hydrochloride 1000 mg and sitagliptin (sitagliptin hydrochloride) 50 mg oral tablet,ADDED
+26ab56e943b4875dc48ec1c724ee361a,methotrexate (methotrexate sodium) 22.5 mg per 0.45 mL solution for injection,ADDED
+9015118,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+3bfe7f6ffa8f8c1384f0521705794cd0,tirzepatide 7.5 mg per 0.6 mL solution for injection,ADDED
+9013280,colestipol hydrochloride 5 g per sachet granules for oral suspension,"ntp_status_effective_time: ""20220318"" -> ""20250627"""
+12faeb94af143261faf77d681273843d,tirzepatide 10 mg per 0.6 mL solution for injection,ADDED
+9013154,gonadorelin acetate 0.8 mg per vial powder for solution for injection with diluent solution,DELETED
+9012447,ozenoxacin 1 % cutaneous cream,"ntp_status_effective_time: ""20240711"" -> ""20250715"""
+9006251,azithromycin 200 mg per 5 mL oral suspension,"ntp_status_effective_time: ""19960926"" -> ""20060419"""
+9015116,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+ef8f28097547efd8b930548ecbe7f946,tirzepatide 12.5 mg per 0.6 mL solution for injection,ADDED
+668c03cf15da724e89d2e857517a11bc,lanreotide (lanreotide acetate) 60 mg prolonged-release solution for injection,ADDED
+9000839,azithromycin 250 mg oral tablet,"ntp_status_effective_time: ""19990323"" -> ""20051102"""
+6030fc013e583951cbc25ad438365b22,thiotepa 400 mg per bag powder for solution for injection,ADDED
+f75ff288981343ef90a683fffca8a7bb,faricimab 6 mg per 0.05 mL solution for injection,ADDED
+f846a82c53bf6b9e31a906c349a39867,aflibercept 2 mg per 0.05 mL solution for injection,ADDED
+9014747,SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 5 mL vial,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20220331"" -> ""20240229"""
+9005253,benzalkonium chloride 0.13 % and lidocaine 4 % cutaneous cream,"ntp_status_effective_time: ""20240619"" -> ""20250721"""
+9015119,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""

@@ -1,0 +1,12 @@
+tm_code,tm_formal_name,changes
+8001908,gonadorelin,DELETED
+8002311,phenazopyridine,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20221024"" -> ""19811231"""
+8001129,ozenoxacin,"tm_status_effective_time: ""20240711"" -> ""20250715"""
+8002430,SARS-CoV-2 recombinant spike protein,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20220331"" -> ""20240229"""
+8002299,acalabrutinib,"tm_status_effective_time: ""20191002"" -> ""20230501"""
+8001165,abacavir and lamivudine and zidovudine,"tm_status_effective_time: ""20191121"" -> ""20250417"""
+8001047,chlorpropamide,"tm_status_effective_time: ""20190802"" -> ""20250417"""
+8001319,acetaminophen and chlorpheniramine and dextromethorphan,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20230605"" -> ""20040112"""
