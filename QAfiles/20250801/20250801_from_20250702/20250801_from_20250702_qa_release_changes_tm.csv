@@ -1,0 +1,35 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002154,potassium phosphate dibasic and potassium phosphate monobasic,phosphate de potassium dibasique et phosphate de potassium monobasique,ADDED
+8002192,ergocalciferol,ergocalciférol,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19991230"" -> ""20240614"""
+8002282,fibrinogen human and thrombin human,fibrinogène humaine et thrombine humaine,ADDED
+8002161,sodium bicarbonate,bicarbonate de sodium,ADDED
+8001165,abacavir and lamivudine and zidovudine,abacavir et lamivudine et zidovudine,"tm_status_effective_time: ""20191121"" -> ""20250417"""
+7142f645edd7b780e2e8d49e9801fd65,meropenem and vaborbactam,méropénem et vaborbactam,ADDED
+8001844,magnesium chloride,chlorure de magnésium,ADDED
+8001615,chloroxylenol,chloroxylénol,ADDED
+8002311,phenazopyridine,phénazopyridine,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20221024"" -> ""19811231"""
+8002430,SARS-CoV-2 recombinant spike protein,protéine de spicule du SRAS-CoV-2 recombinante,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20220331"" -> ""20240229"""
+8002278,coagulation factor ii (human) and coagulation factor IX human and coagulation factor vii (human) and coagulation factor x (human) and protein c and protein s,facteur II de coagulation humain et facteur IX de coagulation humain et facteur VII de coagulation humain et facteur X de coagulation humain et protéine c et protéine s,ADDED
+8001579,benzethonium,benzéthonium,ADDED
+8002452,cytarabine and daunorubicin,cytarabine et daunorubicine,ADDED
+8001319,acetaminophen and chlorpheniramine and dextromethorphan,acétaminophène et chlorphéniramine et dextrométhorphane,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20230605"" -> ""20040112"""
+8001757,doxorubicin,doxorubicine,ADDED
+8001004,benzoyl peroxide and salicylic acid,peroxyde de benzoyle et acide salicylique,ADDED
+8001976,triclosan,triclosan,ADDED
+8002047,paclitaxel,paclitaxel,ADDED
+8001870,potassium chloride,chlorure de potassium,ADDED
+8001908,gonadorelin,gonadoréline,DELETED
+8000796,benzalkonium,benzalkonium,ADDED
+8002160,sodium acetate,acétate de sodium,ADDED
+8000854,acetaminophen and chlorzoxazone and codeine,acétaminophène et chlorzoxazone et codéine,DELETED
+8002299,acalabrutinib,acalabrutinib,"tm_status_effective_time: ""20191002"" -> ""20230501"""
+8001878,sodium iodide,iodure de sodium,ADDED
+8001047,chlorpropamide,chlorpropamide,"tm_status_effective_time: ""20190802"" -> ""20250417"""
+8002215,amphotericin B,amphotéricine B,ADDED
+8001476,follitropin beta,follitropine bêta,ADDED
+fdda60b52592050a6d4291a7c0d6b402,fecal microbiota,microbiota fécal,ADDED
+8000912,alcohol anhydrous and chlorhexidine,alcool anhydre et chlorhexidine,ADDED
