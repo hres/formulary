@@ -1,0 +1,51 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9001209,omeprazole 10 mg gastro-resistant capsule,oméprazole 10 mg capsule gastrorésistante,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20070914"" -> ""20250731"""
+9001778,chlorpropamide 100 mg oral tablet,chlorpropamide 100 mg comprimé oral,"ntp_status_effective_time: ""20190802"" -> ""20250417"""
+9015236,meropenem 1 g per vial and vaborbactam 1 g per vial powder for solution for injection,méropénem 1 g par fiole et vaborbactam 1 g par fiole poudre pour solution injectable,ADDED
+9015227,acetaminophen 650 mg per 30 mL and chlorpheniramine maleate 4 mg per 30 mL and dextromethorphan hydrobromide 30 mg per 30 mL syrup,acétaminophène 650 mg par 30 mL et maléate de chlorphéniramine 4 mg par 30 mL et bromhydrate de dextrométhorphane 30 mg par 30 mL sirop,ADDED
+9014747,SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 5 mL vial,"protéine de spicule du SRAS-CoV-2 recombinante 5 mcg par 0,5 mL suspension injectable 5 mL fiole","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20220331"" -> ""20250714"""
+9002331,acetaminophen 300 mg and chlorzoxazone 250 mg and codeine phosphate 8 mg oral tablet,acétaminophène 300 mg et chlorzoxazone 250 mg et phosphate de codéine 8 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19911231"" -> ""20211130"""
+9001711,chlorpropamide 250 mg oral tablet,chlorpropamide 250 mg comprimé oral,"ntp_status_effective_time: ""20190802"" -> ""20250417"""
+9003228,diphenhydramine hydrochloride 12.5 mg chewable tablet,"chlorhydrate de diphenhydramine 12,5 mg comprimé à croquer","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19980306"" -> ""20250729"""
+9015235,fecal microbiota 5e10 cfu per mL rectal suspension 150 mL bag,microbiota fécal 5e10 cfu par mL suspension rectale 150 mL sac,ADDED
+9005253,benzalkonium chloride 0.13 % and lidocaine 4 % cutaneous cream,"chlorure de benzalkonium 0,13 % et lidocaïne 4 % crème cutanée","ntp_status_effective_time: ""20240619"" -> ""20250721"""
+9000385,hydromorphone hydrochloride 3 mg suppository,chlorhydrate d'hydromorphone 3 mg suppositoire,"ntp_status_effective_time: ""20180630"" -> ""20250704"""
+9015240,thiotepa 400 mg powder for solution for injection with diluent solution per bag,thiotépa 400 mg poudre pour solution injectable avec solution diluante par sac,ADDED
+9004634,chlorpheniramine maleate 1 mg per 5 mL and ibuprofen 100 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension,maléate de chlorphéniramine 1 mg par 5 mL et ibuprofène 100 mg par 5 mL et chlorhydrate de pseudoéphédrine 15 mg par 5 mL suspension orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20100126"" -> ""20250715"""
+9015237,metformin hydrochloride 1000 mg and sitagliptin (sitagliptin hydrochloride) 50 mg oral tablet,chlorhydrate de metformine 1000 mg et sitagliptine (chlorhydrate de sitagliptine) 50 mg comprimé oral,ADDED
+9001703,phenazopyridine hydrochloride 100 mg oral tablet,chlorhydrate de phénazopyridine 100 mg comprimé oral,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20221024"" -> ""19811231"""
+9014158,acalabrutinib 100 mg oral capsule,acalabrutinib 100 mg capsule orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20191002"" -> ""20250725"""
+9015234,faricimab 6 mg per 0.05 mL solution for injection syringe,"faricimab 6 mg par 0,05 mL solution injectable seringue",ADDED
+9000523,haloperidol (haloperidol decanoate) 250 mg per 5 mL solution for injection vial,halopéridol (décanoate d'halopéridol) 250 mg par 5 mL solution injectable fiole,"ntp_status_effective_time: ""20170804"" -> ""20250731"""
+9003470,methylprednisolone (methylprednisolone sodium succinate) 40 mg per vial powder for solution for injection,méthylprednisolone (succinate sodique de méthylprednisolone) 40 mg par fiole poudre pour solution injectable,"ntp_status_effective_time: ""20211117"" -> ""20250730"""
+9015238,metformin hydrochloride 500 mg and sitagliptin (sitagliptin hydrochloride) 50 mg oral tablet,chlorhydrate de metformine 500 mg et sitagliptine (chlorhydrate de sitagliptine) 50 mg comprimé oral,ADDED
+9001300,progesterone 100 mg effervescent vaginal tablet,progestérone 100 mg comprimé vaginal effervescent,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20091130"" -> ""20250710"""
+9014161,coagulation factor VIII human 500 unit per vial and von Willebrand factor human 1200 unit per vial powder for solution for injection with diluent solution,facteur VIII de coagulation humain 500 unité par fiole et facteur de von Willebrand humain 1200 unité par fiole poudre pour solution injectable avec solution diluante,"ntp_formal_name: ""coagulation factor VIII human 4̲0̲0̲-̲6̲00 unit per vial and von Willebrand factor human 7̲2̲0̲-̲1̲6̲8̲0 unit per vial powder for solution for injection with diluent solution"" -> ""coagulation factor VIII human 5̲00 unit per vial and von Willebrand factor human 1̲2̲0̲0 unit per vial powder for solution for injection with diluent solution""
+ntp_fr_description: ""facteur VIII de coagulation humain 4̲0̲0̲-̲6̲00 unité par fiole et facteur de von Willebrand humain 7̲2̲0̲-̲1̲6̲8̲0 unité par fiole poudre pour solution injectable avec solution diluante"" -> ""facteur VIII de coagulation humain 5̲00 unité par fiole et facteur de von Willebrand humain 1̲2̲0̲0 unité par fiole poudre pour solution injectable avec solution diluante"""
+9014162,coagulation factor VIII human 1000 unit per vial and von Willebrand factor human 2400 unit per vial powder for solution for injection with diluent solution,facteur VIII de coagulation humain 1000 unité par fiole et facteur de von Willebrand humain 2400 unité par fiole poudre pour solution injectable avec solution diluante,"ntp_formal_name: ""coagulation factor VIII human 8̲10-̲1̲2̲00 unit per vial and von Willebrand factor human 1̲4̲4̲0̲-̲3̲3̲6̲0 unit per vial powder for solution for injection with diluent solution"" -> ""coagulation factor VIII human 1000 unit per vial and von Willebrand factor human 2̲4̲0̲0 unit per vial powder for solution for injection with diluent solution""
+ntp_fr_description: ""facteur VIII de coagulation humain 8̲10-̲1̲2̲00 unité par fiole et facteur de von Willebrand humain 1̲4̲4̲0̲-̲3̲3̲6̲0 unité par fiole poudre pour solution injectable avec solution diluante"" -> ""facteur VIII de coagulation humain 1000 unité par fiole et facteur de von Willebrand humain 2̲4̲0̲0 unité par fiole poudre pour solution injectable avec solution diluante"""
+9014160,coagulation factor VIII human 250 unit per vial and von Willebrand factor human 600 unit per vial powder for solution for injection with diluent solution,facteur VIII de coagulation humain 250 unité par fiole et facteur de von Willebrand humain 600 unité par fiole poudre pour solution injectable avec solution diluante,"ntp_formal_name: ""coagulation factor VIII human 20̲0̲-̲3̲0̲0 unit per vial and von Willebrand factor human 3̲60-̲8̲4̲0 unit per vial powder for solution for injection with diluent solution"" -> ""coagulation factor VIII human 25̲0 unit per vial and von Willebrand factor human 600 unit per vial powder for solution for injection with diluent solution""
+ntp_fr_description: ""facteur VIII de coagulation humain 20̲0̲-̲3̲0̲0 unité par fiole et facteur de von Willebrand humain 3̲60-̲8̲4̲0 unité par fiole poudre pour solution injectable avec solution diluante"" -> ""facteur VIII de coagulation humain 25̲0 unité par fiole et facteur de von Willebrand humain 600 unité par fiole poudre pour solution injectable avec solution diluante"""
+9015156,tirzepatide 10 mg per actuation solution for injection pre-filled pen,tirzépatide 10 mg par actionnement solution injectable stylo prérempli,"ntp_formal_name: ""tirzepatide 10 mg per acu̲t̲ation solution for injection pre-filled pen"" -> ""tirzepatide 10 mg per act̲u̲ation solution for injection pre-filled pen"""
+9012780,argatroban 250 mg per 2.5 mL solution for injection vial,"argatroban 250 mg par 2,5 mL solution injectable fiole","ntp_status_effective_time: ""20240731"" -> ""20250731"""
+9013154,gonadorelin acetate 0.8 mg per vial powder for solution for injection with diluent solution,"acétate de gonadoréline 0,8 mg par fiole poudre pour solution injectable avec solution diluante","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19941231"" -> ""20241224"""
+9015239,metformin hydrochloride 850 mg and sitagliptin (sitagliptin hydrochloride) 50 mg oral tablet,chlorhydrate de metformine 850 mg et sitagliptine (chlorhydrate de sitagliptine) 50 mg comprimé oral,ADDED
+9013684,ergocalciferol 50000 unit oral capsule,ergocalciférol 50000 unité capsule orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19991230"" -> ""20250728"""
+9015233,dextromethorphan hydrobromide 10 mg per 15 mL syrup,bromhydrate de dextrométhorphane 10 mg par 15 mL sirop,ADDED
+9014660,pyrithione zinc 0.2 % cutaneous cream,"pyrithione zincique 0,2 % crème cutanée","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20211230"" -> ""20250717"""
+9014909,pyrithione zinc 0.1 % cutaneous spray,"pyrithione zincique 0,1 % vaporisation cutanée","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20230615"" -> ""20250716"""
+9004767,cilastatin (cilastatin sodium) 250 mg per vial and imipenem 250 mg per vial powder for solution for injection,cilastatine (cilastatine sodique) 250 mg par fiole et imipénem 250 mg par fiole poudre pour solution injectable,"ntp_status_effective_time: ""20240731"" -> ""20250731"""
+9012560,abacavir (abacavir sulfate) 300 mg and lamivudine 150 mg and zidovudine 300 mg oral tablet,abacavir (sulfate d'abacavir) 300 mg et lamivudine 150 mg et zidovudine 300 mg comprimé oral,"ntp_status_effective_time: ""20191121"" -> ""20250417"""
+9013280,colestipol hydrochloride 5 g per sachet granules for oral suspension,chlorhydrate de colestipol 5 g par sachet granulés pour suspension orale,"ntp_status_effective_time: ""20220318"" -> ""20250627"""

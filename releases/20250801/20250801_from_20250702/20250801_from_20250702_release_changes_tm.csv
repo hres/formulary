@@ -1,0 +1,17 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8001165,abacavir and lamivudine and zidovudine,abacavir et lamivudine et zidovudine,"tm_status_effective_time: ""20191121"" -> ""20250417"""
+8002430,SARS-CoV-2 recombinant spike protein,protéine de spicule du SRAS-CoV-2 recombinante,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20220331"" -> ""20250714"""
+8002311,phenazopyridine,phénazopyridine,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20221024"" -> ""19811231"""
+8002192,ergocalciferol,ergocalciférol,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19991230"" -> ""20250728"""
+8001319,acetaminophen and chlorpheniramine and dextromethorphan,acétaminophène et chlorphéniramine et dextrométhorphane,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20230605"" -> ""20040112"""
+8001908,gonadorelin,gonadoréline,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19941231"" -> ""20241224"""
+8000854,acetaminophen and chlorzoxazone and codeine,acétaminophène et chlorzoxazone et codéine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19911231"" -> ""20211130"""
+8002549,meropenem and vaborbactam,méropénem et vaborbactam,ADDED
+8001047,chlorpropamide,chlorpropamide,"tm_status_effective_time: ""20190802"" -> ""20250417"""
+8002548,fecal microbiota,microbiota fécal,ADDED
