@@ -24,9 +24,7 @@ mp_status_effective_time: ""20021004"" -> ""20250421"""
 63861,02240321,DOM-VERAPAMIL SR 240MG TABLETS (verapamil hydrochloride 240 mg prolonged-release oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250530"""
 64837,02241229,METHYLPREDNISOLONE SODIUM SUCCINATE FOR INJECTION (methylprednisolone (methylprednisolone sodium succinate) 1 g per vial powder for solution for injection) TEVA CANADA LIMITED,"mp_status_effective_time: ""20211117"" -> ""20250730"""
 64895,02241285,DOM-OXYBUTYNIN 5 MG TABLETS (oxybutynin chloride 5 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20170803"" -> ""20250530"""
-66270,02242522,ADVIL PEDIATRIC DROPS (ibuprofen 40 mg per mL oral drops) HALEON CANADA ULC,"mp_formal_name: ""ADVIL PEDIATRIC DROPS (ibuprofen 40 mg per mL oral drops) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ADVIL PEDIATRIC DROPS (ibuprofen 40 mg per mL oral drops) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC""
-mp_status: ""ACTIVE"" -> ""INACTIVE""
-mp_status_effective_time: ""20001023"" -> ""20250821"""
+66270,02242522,ADVIL PEDIATRIC DROPS (ibuprofen 40 mg per mL oral drops) HALEON CANADA ULC,"mp_formal_name: ""ADVIL PEDIATRIC DROPS (ibuprofen 40 mg per mL oral drops) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ADVIL PEDIATRIC DROPS (ibuprofen 40 mg per mL oral drops) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
 70575,02246403,JUNIOR STRENGTH ADVIL (ibuprofen 100 mg chewable tablet) HALEON CANADA ULC,"mp_formal_name: ""JUNIOR STRENGTH ADVIL (ibuprofen 100 mg chewable tablet) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""JUNIOR STRENGTH ADVIL (ibuprofen 100 mg chewable tablet) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
 71124,02246897,PMS-LAMOTRIGINE (lamotrigine 25 mg oral tablet) PHARMASCIENCE INC,DELETED
 71125,02246898,PMS-LAMOTRIGINE (lamotrigine 100 mg oral tablet) PHARMASCIENCE INC,DELETED
@@ -73,7 +71,9 @@ mp_status_effective_time: ""20170807"" -> ""20080912"""
 80793,02322498,PMS-TESTOSTERONE (testosterone undecanoate 40 mg oral capsule) PHARMASCIENCE INC,DELETED
 81127,02325926,NIMOTOP (nimodipine 30 mg oral tablet) LABORATOIRE X.0,"mp_formal_name: ""NIMOTOP (nimodipine 30 mg oral tablet) B̲A̲Y̲E̲R̲ ̲I̲N̲C̲"" -> ""NIMOTOP (nimodipine 30 mg oral tablet) L̲A̲B̲O̲R̲A̲T̲O̲I̲R̲E̲ ̲X̲.̲0̲"""
 81395,02328429,JUNIOR STRENGTH ADVIL FEVER FROM COLDS OR FLU (ibuprofen 100 mg chewable tablet) HALEON CANADA ULC,"mp_formal_name: ""JUNIOR STRENGTH ADVIL FEVER FROM COLDS OR FLU (ibuprofen 100 mg chewable tablet) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""JUNIOR STRENGTH ADVIL FEVER FROM COLDS OR FLU (ibuprofen 100 mg chewable tablet) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
-81396,02328437,CHILDREN'S ADVIL FEVER FROM COLDS OR FLU (ibuprofen 100 mg per 5 mL oral suspension) HALEON CANADA ULC,"mp_formal_name: ""CHILDREN'S ADVIL FEVER FROM COLDS OR FLU (ibuprofen 100 mg per 5 mL oral suspension) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""CHILDREN'S ADVIL FEVER FROM COLDS OR FLU (ibuprofen 100 mg per 5 mL oral suspension) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+81396,02328437,CHILDREN'S ADVIL FEVER FROM COLDS OR FLU (ibuprofen 100 mg per 5 mL oral suspension) HALEON CANADA ULC,"mp_formal_name: ""CHILDREN'S ADVIL FEVER FROM COLDS OR FLU (ibuprofen 100 mg per 5 mL oral suspension) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""CHILDREN'S ADVIL FEVER FROM COLDS OR FLU (ibuprofen 100 mg per 5 mL oral suspension) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC""
+mp_status: ""ACTIVE"" -> ""INACTIVE""
+mp_status_effective_time: ""20091105"" -> ""20250821"""
 81397,02328445,ADVIL PEDIATRIC DROPS FEVER FROM COLDS OR FLU (ibuprofen 40 mg per mL oral drops) HALEON CANADA ULC,"mp_formal_name: ""ADVIL PEDIATRIC DROPS FEVER FROM COLDS OR FLU (ibuprofen 40 mg per mL oral drops) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ADVIL PEDIATRIC DROPS FEVER FROM COLDS OR FLU (ibuprofen 40 mg per mL oral drops) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC""
 mp_status_effective_time: ""20250715"" -> ""20250821"""
 81597,02330210,PMS-BETAHISTINE (betahistine hydrochloride 16 mg oral tablet) PHARMASCIENCE INC,DELETED
