@@ -1,0 +1,25 @@
+ntp_code,ntp_formal_name,changes
+9001677,methylprednisolone (methylprednisolone sodium succinate) 1 g per vial powder for solution for injection,"ntp_status_effective_time: ""20211117"" -> ""20250730"""
+9015117,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+8b0a0e934e6f54cc4cbe21bbd435aa78,fosaprepitant (fosaprepitant dimeglumine) 150 mg powder for solution for injection,ADDED
+9000443,quinapril (quinapril hydrochloride) 5 mg oral tablet,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19921231"" -> ""20240405"""
+9015112,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial","ntp_status_effective_time: ""20230918"" -> ""20240924"""
+9001294,testosterone undecanoate 40 mg oral capsule,"ntp_status_effective_time: ""20091008"" -> ""20140902"""
+9013814,dequalinium chloride 0.5 % oromucosal solution,DELETED
+9000650,dexamethasone 0.75 mg oral tablet,DELETED
+9005128,darunavir 800 mg oral tablet,"ntp_status_effective_time: ""20121109"" -> ""20200214"""
+338e1782b2ef74d921af70cbbe0126a9,aripiprazole 1 mg per mL oral solution,ADDED
+9002434,chlorhexidine gluconate 4 % cutaneous gel,"ntp_status_effective_time: ""20240627"" -> ""20250730"""
+48729f7146c4c0f3f44e9cbde03cb6eb,lidocaine hydrochloride 20 mg per mL solution for injection,ADDED
+9012358,verapamil hydrochloride 240 mg prolonged-release oral tablet,"ntp_status_effective_time: ""20240311"" -> ""20250530"""
+9001664,methylprednisolone (methylprednisolone sodium succinate) 500 mg per vial powder for solution for injection,"ntp_status_effective_time: ""20211117"" -> ""20250731"""
+1c34868660f02e405c112c1a62910324,secukinumab 300 mg per 2 mL solution for injection,ADDED
+a6f4f9fe783527b3364806b7a59a9990,desogestrel 0.15 mg and ethinyl estradiol 0.03 mg oral tablet,ADDED
+9015118,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+9015116,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9012917,bupivacaine hydrochloride 125 mg per 50 mL solution for injection vial,"ntp_status_effective_time: ""20190305"" -> ""20250731"""
+12635146f0e1ecbd52872d6d923b19b8,lidocaine hydrochloride 10 mg per mL solution for injection,ADDED
+9003992,fosamprenavir (fosamprenavir calcium) 700 mg oral tablet,DELETED
+9015119,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+9000495,terbinafine (terbinafine hydrochloride) 250 mg oral tablet,"ntp_status_effective_time: ""19931231"" -> ""20000214"""
