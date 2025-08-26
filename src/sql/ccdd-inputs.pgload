@@ -20,7 +20,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM '/home/cyanofsky/git/test_formulary/src/pgloaded/Combination Products_master.csv'
+    FROM '/home/cyanofsky/git/formulary/src/pgloaded/Combination Products_master.csv'
 
     WITH ENCODING UTF-8
     (
@@ -46,7 +46,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM /home/cyanofsky/git/test_formulary/src/pgloaded/Ingredient_Stem_File_master.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/Ingredient_Stem_File_master.csv
 
     WITH ENCODING UTF-8
     (
@@ -74,7 +74,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM /home/cyanofsky/git/test_formulary/src/pgloaded/Units_of_Presentation_master.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/Units_of_Presentation_master.csv
 
     WITH ENCODING UTF-8
     (
@@ -102,7 +102,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM /home/cyanofsky/git/test_formulary/src/pgloaded/ntp_dosage_form_map_master.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/ntp_dosage_form_map_master.csv
 
     WITH ENCODING UTF-8
     (
@@ -239,7 +239,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM /home/cyanofsky/git/test_formulary/src/pgloaded/ccdd-mp-exclusion-list-draft.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/ccdd-mp-exclusion-list-draft.csv
 
     WITH ENCODING UTF-8
     (
