@@ -551,6 +551,14 @@ CREATE TABLE ccdd.alberta_tpp_monitored_list_csv(
 -- ddl-end --
 ALTER TABLE ccdd.alberta_tpp_monitored_list_csv OWNER TO postgres;
 
+-- object: ccdd.antimicrobial_reserve_list_csv | type: TABLE --
+-- DROP TABLE IF EXISTS ccdd.antimicrobial_reserve_list_csv CASCADE;
+CREATE TABLE ccdd.antimicrobial_reserve_list_csv(
+  DIN varchar NOT NULL
+);
+-- ddl-end --
+ALTER TABLE ccdd.antimicrobial_reserve_list_csv OWNER TO postgres;
+
 -- object: public.dpd_drug_form | type: TABLE --
 -- DROP TABLE IF EXISTS public.dpd_drug_form CASCADE;
 CREATE TABLE public.dpd_drug_form(
@@ -1596,6 +1604,28 @@ CREATE TABLE public.ccdd_alberta_tpp_monitored_list(
 );
 -- ddl-end --
 ALTER TABLE public.ccdd_alberta_tpp_monitored_list OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.ccdd_antimicrobial_reserve_list_source | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_antimicrobial_reserve_list_source CASCADE;
+CREATE MATERIALIZED VIEW public.ccdd_antimicrobial_reserve_list_source
+AS
+
+SELECT
+  din
+FROM
+  ccdd.antimicrobial_reserve_list_csv;
+-- ddl-end --
+ALTER MATERIALIZED VIEW public.ccdd_antimicrobial_reserve_list_source OWNER TO postgres;
+-- ddl-end --
+
+-- object: public.ccdd_antimicrobial_reserve_list | type: TABLE --
+-- DROP TABLE IF EXISTS public.ccdd_antimicrobial_reserve_list CASCADE;
+CREATE TABLE public.ccdd_antimicrobial_reserve_list(
+  din text
+);
+-- ddl-end --
+ALTER TABLE public.ccdd_antimicrobial_reserve_list OWNER TO postgres;
 -- ddl-end --
 
 -- object: ccdd.mp_brand_override | type: TABLE --
@@ -2715,6 +2745,24 @@ FROM
 ALTER MATERIALIZED VIEW public.ccdd_mp_alberta_tpp_monitored_list OWNER TO postgres;
 -- ddl-end --
 
+-- object: public.ccdd_mp_antimicrobial_reserve_list | type: MATERIALIZED VIEW --
+-- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_mp_antimicrobial_reserve_list CASCADE;
+CREATE MATERIALIZED VIEW public.ccdd_mp_antimicrobial_reserve_list
+AS
+
+SELECT
+  (CASE
+    WHEN can.presentation_count > 1 THEN COALESCE(cast(can.pseudodin as varchar), can.ccdd_presentation_id)
+    ELSE can.din
+  END)::varchar AS mp_code,
+  can.mp_formal_name AS mp_formal_name,
+  can.tm_is_publishable AS tm_is_publishable
+FROM
+  ccdd_mp_table_candidate can INNER JOIN ccdd_antimicrobial_reserve_list amrl ON amrl.din = can.din;
+-- ddl-end --
+ALTER MATERIALIZED VIEW public.ccdd_mp_antimicrobial_reserve_list OWNER TO postgres;
+-- ddl-end --
+
 -- object: public.ccdd_special_groupings | type: MATERIALIZED VIEW --
 -- DROP MATERIALIZED VIEW IF EXISTS public.ccdd_special_groupings CASCADE;
 CREATE TABLE ccdd.special_groupings(
@@ -2852,6 +2900,71 @@ SELECT
   			ccdd_mp_alberta_tpp_monitored_list maltpp
   	)
   ) altpp
+)
+UNION
+(
+  SELECT
+  amrl.ccdd_code,
+  amrl.ccdd_formal_name,
+  amrl.ccdd_type,
+  '500009'::text AS policy_type,
+  'https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/reserve-list-antimicrobial.html'::text AS policy_reference,
+  amrl.tm_is_publishable,
+  'Active'::text AS special_groupings_status,
+  '20250901'::text AS special_groupings_status_effective_time
+  FROM (
+  (
+  	SELECT DISTINCT
+  		reltm.tm_code::varchar AS ccdd_code,
+  		reltm.tm_formal_name AS ccdd_formal_name,
+  		CAST('TM' AS varchar) AS ccdd_type,
+  		reltm.tm_is_publishable AS tm_is_publishable
+  	FROM
+  		ccdd_mp_antimicrobial_reserve_list mamrl
+  		JOIN (
+  			SELECT
+  				rel.tm_code,
+  				rel.tm_formal_name,
+  				rel.mp_code,
+  				rel.tm_is_publishable
+  			FROM ccdd_mp_ntp_tm_relationship rel
+  		) reltm ON reltm.mp_code = mamrl.mp_code
+  	-- products with colistin (8001181), fosfomycin (8001657),
+  	-- and polymyxin B (not in scope as of August 2025) are not
+  	-- on the reserve list unless they are taken internally
+  	-- rather than applied topically; thus I have decided to exclude
+  	-- the associated TMs from the special groupings list
+  	WHERE tm_code NOT IN ('8001181','8001657')
+  )
+	UNION ALL
+  (
+  		SELECT DISTINCT
+  			relntp.ntp_code::varchar AS ccdd_code,
+  			relntp.ntp_formal_name AS ccdd_formal_name,
+  			CAST('NTP' AS varchar) AS ccdd_type,
+  			relntp.tm_is_publishable AS tm_is_publishable
+  		FROM
+  			ccdd_mp_antimicrobial_reserve_list mamrl
+  			JOIN (
+  				SELECT
+  					rel.ntp_code,
+  					rel.ntp_formal_name,
+  					rel.mp_code,
+  					rel.tm_is_publishable
+  				FROM ccdd_mp_ntp_tm_relationship rel
+  			) relntp ON relntp.mp_code = mamrl.mp_code
+  	)
+  	UNION ALL
+  	(
+  		SELECT
+  			mamrl.mp_code AS ccdd_code,
+  			mamrl.mp_formal_name AS ccdd_formal_name,
+  			CAST('MP' AS varchar) AS ccdd_type,
+  			mamrl.tm_is_publishable AS tm_is_publishable
+  		FROM
+  			ccdd_mp_antimicrobial_reserve_list mamrl
+  	)
+  ) amrl
 );
 -- ddl-end --
 ALTER MATERIALIZED VIEW public.ccdd_special_groupings OWNER TO postgres;
