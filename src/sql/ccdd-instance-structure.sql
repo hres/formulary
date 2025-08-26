@@ -1813,7 +1813,13 @@ FROM
 		('Schedule G (CDSA III)', 500004),
 		('Schedule G (CDSA IV)', 500005),
 		('Targeted (CDSA IV)', 500006),
-		('Narcotic (CDSA II)', 500007)
+		('Narcotic (CDSA II)', 500007),
+		('NARCOTICS (CDSA I)', 500002),
+		('CONTROLLED DRUGS (CDSA I)', 500003),
+		('CONTROLLED DRUGS (CDSA III)', 500004),
+		('CONTROLLED DRUGS (CDSA IV)', 500005),
+		('TARGETED SUBSTANCES (CDSA IV)', 500006),
+		('NARCOTICS (CDSA II)', 500007)
 	) AS schedule_policy_mapping (schedule, policy_type)
 	INNER JOIN public.dpd_drug_schedule sch ON schedule_policy_mapping.schedule = sch.schedule
 GROUP BY dpd_drug_code, sch.schedule, schedule_policy_mapping.policy_type;
