@@ -135,3 +135,9 @@ CREATE TABLE ccdd.alberta_tpp_monitored_list_csv(
 );
 -- ddl-end --
 ALTER TABLE ccdd.alberta_tpp_monitored_list_csv OWNER TO postgres;
+
+CREATE TABLE ccdd.antimicrobial_reserve_list_csv(
+  DIN varchar NOT NULL
+);
+-- ddl-end --
+ALTER TABLE ccdd.antimicrobial_reserve_list_csv OWNER TO postgres;
