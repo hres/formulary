@@ -1,4 +1,7 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"106233","pen","2","mL","N","N","02559145","TREMFYA JANSSEN INC","stylo"
+"106234","vial","20","mL","N","N","02559153","TREMFYA I.V. JANSSEN INC","fiole"
+"106068","vial","2","mL","N","N","02557347","TZIELD SANOFI-AVENTIS CANADA INC","fiole"
 "101891","pen","2","mL","N","N","02529661","COSENTYX NOVARTIS PHARMACEUTICALS CANADA INC","stylo"
 "103078","ampoule","5","mL","Y","N","02542196","LIDOCAINE HYDROCHLORIDE INJECTION JUNO PHARMACEUTICALS CORP.","ampoule"
 "103078","ampoule","10","mL","Y","N","02542196","LIDOCAINE HYDROCHLORIDE INJECTION JUNO PHARMACEUTICALS CORP.","ampoule"
