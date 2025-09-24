@@ -1,0 +1,59 @@
+drug_code,mp_code,mp_formal_name,changes
+2133,00026123,SENOKOT S (docusate sodium 50 mg and sennosides 8.6 mg oral tablet) INOVA PHARMACEUTICALS (AUSTRALIA) PTY LIMITED,"mp_formal_name: ""SENOKOT S (docusate sodium 50 mg and sennosides 8.6 mg oral tablet) INOVA PHARMACEUTICALS (S̲I̲N̲G̲A̲P̲O̲R̲E̲)̲ ̲P̲T̲E̲.̲ ̲L̲T̲D̲.̲"" -> ""SENOKOT S (docusate sodium 50 mg and sennosides 8.6 mg oral tablet) INOVA PHARMACEUTICALS (A̲U̲S̲T̲R̲A̲L̲I̲A̲)̲ ̲P̲T̲Y̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+5128,00582344,ACCUTANE (isotretinoin 10 mg oral capsule) CHEPLAPHARM SCHWEIZ GMBH,"mp_formal_name: ""ACCUTANE R̲O̲C̲H̲E̲ ̲(isotretinoin 10 mg oral capsule) H̲O̲F̲F̲M̲A̲N̲N̲-̲L̲A̲ ̲R̲O̲C̲H̲E̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""ACCUTANE (isotretinoin 10 mg oral capsule) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲S̲C̲H̲W̲E̲I̲Z̲ ̲G̲M̲B̲H̲"""
+5129,00582352,ACCUTANE (isotretinoin 40 mg oral capsule) CHEPLAPHARM SCHWEIZ GMBH,"mp_formal_name: ""ACCUTANE R̲O̲C̲H̲E̲ ̲(isotretinoin 40 mg oral capsule) H̲O̲F̲F̲M̲A̲N̲N̲-̲L̲A̲ ̲R̲O̲C̲H̲E̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""ACCUTANE (isotretinoin 40 mg oral capsule) C̲H̲E̲P̲L̲A̲P̲H̲A̲R̲M̲ ̲S̲C̲H̲W̲E̲I̲Z̲ ̲G̲M̲B̲H̲"""
+7425,00649074,METRONIDAZOLE INJECTION USP (metronidazole 500 mg per 100 mL solution for injection bag) PFIZER CANADA ULC,DELETED
+9904,00828793,PRO-ATENOLOL (atenolol 100 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""ATENOLOL (atenolol 100 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲ATENOLOL (atenolol 100 mg oral tablet) PRO DOC LIMITEE"""
+9905,00828807,PRO-ATENOLOL (atenolol 50 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""ATENOLOL (atenolol 50 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲ATENOLOL (atenolol 50 mg oral tablet) PRO DOC LIMITEE"""
+60147,02236857,PRO-DOMPERIDONE (domperidone (domperidone maleate) 10 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""DOMPERIDONE-̲1̲0̲ (domperidone (domperidone maleate) 10 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲DOMPERIDONE (domperidone (domperidone maleate) 10 mg oral tablet) PRO DOC LIMITEE"""
+77259,02287153,FOSRENOL (lanthanum (lanthanum carbonate hydrate) 500 mg chewable tablet) TAKEDA CANADA INC,DELETED
+77260,02287161,FOSRENOL (lanthanum (lanthanum carbonate hydrate) 750 mg chewable tablet) TAKEDA CANADA INC,DELETED
+77261,02287188,FOSRENOL (lanthanum (lanthanum carbonate hydrate) 1000 mg chewable tablet) TAKEDA CANADA INC,DELETED
+78739,02302063,RASILEZ (aliskiren (aliskiren fumarate) 150 mg oral tablet) NODEN PHARMA DAC,DELETED
+78825,02302950,APO-PIOGLITAZONE (pioglitazone (pioglitazone hydrochloride) 30 mg oral tablet) APOTEX INC,DELETED
+81094,02325578,PROTECTIVE OINTMENT (petrolatum 98.79 % cutaneous ointment) SMITH & NEPHEW INC,DELETED
+81205,02326701,PRO-ATENOLOL (atenolol 25 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""ATENOLOL (atenolol 25 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲ATENOLOL (atenolol 25 mg oral tablet) PRO DOC LIMITEE"""
+84104,02355841,ADVIL NIGHTTIME (diphenhydramine hydrochloride 25 mg and ibuprofen 200 mg oral capsule) HALEON CANADA ULC,"mp_formal_name: ""ADVIL NIGHTTIME (diphenhydramine hydrochloride 25 mg and ibuprofen 200 mg oral capsule) G̲L̲A̲X̲O̲S̲M̲I̲T̲H̲K̲L̲I̲N̲E̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ULC"" -> ""ADVIL NIGHTTIME (diphenhydramine hydrochloride 25 mg and ibuprofen 200 mg oral capsule) H̲A̲L̲E̲O̲N̲ ̲C̲A̲N̲A̲D̲A̲ ULC"""
+86695,02381176,PRO-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 5 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 5 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 5 mg oral tablet) PRO DOC LIMITEE"""
+86696,02381184,PRO-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 10 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 10 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 10 mg oral tablet) PRO DOC LIMITEE"""
+86697,02381192,PRO-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 20 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 20 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 20 mg oral tablet) PRO DOC LIMITEE"""
+86698,02381206,PRO-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 40 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 40 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 40 mg oral tablet) PRO DOC LIMITEE"""
+89449,02409836,GELUSIL ANTACID AND ANTI-GAS (aluminum hydroxide 200 mg and magnesium hydroxide 200 mg and simethicone 25 mg chewable tablet) PHARMASCIENCE INC,DELETED
+93042,02445190,JAMP QUININE (quinine sulfate 200 mg oral capsule) JAMP PHARMA CORPORATION,"mp_formal_name: ""JAMP-̲QUININE (quinine sulfate 200 mg oral capsule) JAMP PHARMA CORPORATION"" -> ""JAMP ̲QUININE (quinine sulfate 200 mg oral capsule) JAMP PHARMA CORPORATION"""
+93043,02445204,JAMP QUININE (quinine sulfate 300 mg oral capsule) JAMP PHARMA CORPORATION,"mp_formal_name: ""JAMP-̲QUININE (quinine sulfate 300 mg oral capsule) JAMP PHARMA CORPORATION"" -> ""JAMP ̲QUININE (quinine sulfate 300 mg oral capsule) JAMP PHARMA CORPORATION"""
+94477,02457733,MDK-NITISINONE (nitisinone 10 mg oral capsule) MENDELIKABS INC,DELETED
+96288,02473488,APO-TELMISARTAN-AMLODIPINE (amlodipine (amlodipine besylate) 5 mg and telmisartan 80 mg oral tablet) APOTEX INC,DELETED
+98984,02500132,AG-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 5 mg oral tablet) ANGITA PHARMA INC.,"mp_formal_name: ""AG-ROSUVASTATIN ̲C̲A̲L̲C̲I̲U̲M̲ (rosuvastatin (rosuvastatin calcium) 5 mg oral tablet) ANGITA PHARMA INC."" -> ""AG-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 5 mg oral tablet) ANGITA PHARMA INC."""
+98985,02500140,AG-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 10 mg oral tablet) ANGITA PHARMA INC.,"mp_formal_name: ""AG-ROSUVASTATIN ̲C̲A̲L̲C̲I̲U̲M̲ (rosuvastatin (rosuvastatin calcium) 10 mg oral tablet) ANGITA PHARMA INC."" -> ""AG-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 10 mg oral tablet) ANGITA PHARMA INC."""
+98986,02500159,AG-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 20 mg oral tablet) ANGITA PHARMA INC.,"mp_formal_name: ""AG-ROSUVASTATIN ̲C̲A̲L̲C̲I̲U̲M̲ (rosuvastatin (rosuvastatin calcium) 20 mg oral tablet) ANGITA PHARMA INC."" -> ""AG-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 20 mg oral tablet) ANGITA PHARMA INC."""
+98987,02500167,AG-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 40 mg oral tablet) ANGITA PHARMA INC.,"mp_formal_name: ""AG-ROSUVASTATIN ̲C̲A̲L̲C̲I̲U̲M̲ (rosuvastatin (rosuvastatin calcium) 40 mg oral tablet) ANGITA PHARMA INC."" -> ""AG-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 40 mg oral tablet) ANGITA PHARMA INC."""
+99389,02504472,LETROZOLE (letrozole 2.5 mg oral tablet) SANIS HEALTH INC,DELETED
+99890,02509628,OLMESARTAN/HCTZ (hydrochlorothiazide 25 mg and olmesartan medoxomil 40 mg oral tablet) SANIS HEALTH INC,DELETED
+99891,02509636,OLMESARTAN/HCTZ (hydrochlorothiazide 12.5 mg and olmesartan medoxomil 40 mg oral tablet) SANIS HEALTH INC,DELETED
+100595,02516616,QUETIAPINE FUMARATE XR (quetiapine (quetiapine fumarate) 50 mg prolonged-release oral tablet) SANIS HEALTH INC,DELETED
+100597,02516632,QUETIAPINE FUMARATE XR (quetiapine (quetiapine fumarate) 200 mg prolonged-release oral tablet) SANIS HEALTH INC,DELETED
+100599,02516659,QUETIAPINE FUMARATE XR (quetiapine (quetiapine fumarate) 400 mg prolonged-release oral tablet) SANIS HEALTH INC,DELETED
+100752,02518201,RED EYE TRIPLE ACTION (polyethylene glycol 400 1 % and tetrahydrozoline hydrochloride 0.05 % ophthalmic drops) KENVUE CANADA INC.,"mp_formal_name: ""RED EYE TRIPLE ACTION (polyethylene glycol 400 1 % and tetrahydrozoline hydrochloride 0.05 % ophthalmic drops) J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""RED EYE TRIPLE ACTION (polyethylene glycol 400 1 % and tetrahydrozoline hydrochloride 0.05 % ophthalmic drops) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+100753,02518228,RED EYE WORKPLACE (polyethylene glycol 400 1 % and tetrahydrozoline hydrochloride 0.05 % ophthalmic drops) KENVUE CANADA INC.,"mp_formal_name: ""RED EYE WORKPLACE (polyethylene glycol 400 1 % and tetrahydrozoline hydrochloride 0.05 % ophthalmic drops) J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""RED EYE WORKPLACE (polyethylene glycol 400 1 % and tetrahydrozoline hydrochloride 0.05 % ophthalmic drops) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+101108,02521903,PADCEV (enfortumab vedotin 20 mg per vial powder for solution for injection) PFIZER CANADA ULC,"mp_formal_name: ""PADCEV (enfortumab vedotin 20 mg per vial powder for solution for injection) S̲E̲A̲G̲E̲N̲ ̲I̲N̲C̲.̲"" -> ""PADCEV (enfortumab vedotin 20 mg per vial powder for solution for injection) P̲F̲I̲Z̲E̲R̲ ̲C̲A̲N̲A̲D̲A̲ ̲U̲L̲C̲"""
+101109,02521911,PADCEV (enfortumab vedotin 30 mg per vial powder for solution for injection) PFIZER CANADA ULC,"mp_formal_name: ""PADCEV (enfortumab vedotin 30 mg per vial powder for solution for injection) S̲E̲A̲G̲E̲N̲ ̲I̲N̲C̲.̲"" -> ""PADCEV (enfortumab vedotin 30 mg per vial powder for solution for injection) P̲F̲I̲Z̲E̲R̲ ̲C̲A̲N̲A̲D̲A̲ ̲U̲L̲C̲"""
+102450,02535653,NRA-PRAVASTATIN (pravastatin sodium 10 mg oral tablet) NORA PHARMA INC,ADDED
+102451,02535661,NRA-PRAVASTATIN (pravastatin sodium 20 mg oral tablet) NORA PHARMA INC,ADDED
+102452,02535688,NRA-PRAVASTATIN (pravastatin sodium 40 mg oral tablet) NORA PHARMA INC,ADDED
+103059,02541998,BENDAMUSTINE HYDROCHLORIDE FOR INJECTION (bendamustine hydrochloride 25 mg per vial powder for solution for injection) EUGIA PHARMA INC.,ADDED
+103303,02544482,JAMP BACLOFEN (baclofen 10 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103304,02544490,JAMP BACLOFEN (baclofen 20 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103817,02549301,JAMP ZOPICLONE (zopiclone 7.5 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103822,02549379,FOSAPREPITANT FOR INJECTION (fosaprepitant (fosaprepitant dimeglumine) 150 mg powder for solution for injection) JUNO PHARMACEUTICALS CORP.,"mp_formal_name: ""FOSAPREPITANT FOR INJECTION (fosaprepitant (fosaprepitant dimeglumine) 150 mg pe̲r̲ ̲v̲i̲a̲l̲ ̲p̲owder for solution for injection) JUNO PHARMACEUTICALS CORP."" -> ""FOSAPREPITANT FOR INJECTION (fosaprepitant (fosaprepitant dimeglumine) 150 mg powder for solution for injection) JUNO PHARMACEUTICALS CORP.""
+ntp_code: ""9004861"" -> ""8b0a0e934e6f54cc4cbe21bbd435aa78""
+ntp_formal_name: ""fosaprepitant (fosaprepitant dimeglumine) 150 mg pe̲r̲ ̲v̲i̲a̲l̲ ̲p̲owder for solution for injection"" -> ""fosaprepitant (fosaprepitant dimeglumine) 150 mg powder for solution for injection"""
+103903,02550199,"OXYTOCIN INJECTION, USP (oxytocin 10 unit per mL solution for injection) HIKMA CANADA LIMITED",ADDED
+103942,02550636,PAVBLU (aflibercept 2 mg per 0.05 mL solution for injection) AMGEN CANADA INC,ADDED
+104042,02551691,SANDOZ TOFACITINIB (tofacitinib (tofacitinib citrate) 5 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+104044,02551705,SANDOZ TOFACITINIB (tofacitinib (tofacitinib citrate) 10 mg oral tablet) SANDOZ CANADA INCORPORATED,ADDED
+104284,02553945,PEXEGRA (filgrastim (pegfilgrastim) 10 mg per mL solution for injection) JAMP PHARMA CORPORATION,ADDED
+104363,02554801,VOLTAREN EMULGEL ACTIVE (diclofenac diethylamine 1.16 % cutaneous gel) HALEON CANADA ULC,ADDED
+104373,02554909,NATCO-ESCITALOPRAM (escitalopram (escitalopram oxalate) 10 mg oral tablet) NATCO PHARMA (CANADA) INC,ADDED
+104375,02554933,NATCO-ESCITALOPRAM (escitalopram (escitalopram oxalate) 20 mg oral tablet) NATCO PHARMA (CANADA) INC,ADDED
+106107,02557770,"SPIKEVAX (SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 50 mcg per 0.5 mL dispersion for injection) MODERNA BIOPHARMA CANADA CORPORATION",ADDED
+106166,02558416,MINT-LEVETIRACETAM SOLUTION (levetiracetam 100 mg per mL oral solution) MINT PHARMACEUTICALS INC,ADDED

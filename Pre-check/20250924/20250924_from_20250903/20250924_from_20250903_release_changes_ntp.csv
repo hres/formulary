@@ -1,0 +1,29 @@
+ntp_code,ntp_formal_name,changes
+5655c10475ceef340fa31a69423083a6,oxytocin 10 unit per mL solution for injection,ADDED
+9006052,nitisinone 10 mg oral capsule,"ntp_status_effective_time: ""20161020"" -> ""20170217"""
+9007056,aliskiren (aliskiren fumarate) 150 mg oral tablet,DELETED
+9015117,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+8b0a0e934e6f54cc4cbe21bbd435aa78,fosaprepitant (fosaprepitant dimeglumine) 150 mg powder for solution for injection,ADDED
+9015112,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial","ntp_status_effective_time: ""20230918"" -> ""20240924"""
+9013180,lanthanum (lanthanum carbonate) 1000 mg chewable tablet,"ntp_status_effective_time: ""20061206"" -> ""20200721"""
+9000623,nifedipine 20 mg prolonged-release oral tablet,"ntp_status_effective_time: ""20201209"" -> ""20250704"""
+9004932,nevirapine 400 mg prolonged-release oral tablet,"ntp_status_effective_time: ""20200802"" -> ""20250417"""
+9012358,verapamil hydrochloride 240 mg prolonged-release oral tablet,"ntp_status_effective_time: ""20250530"" -> ""20250704"""
+9013182,lanthanum (lanthanum carbonate) 500 mg chewable tablet,"ntp_status_effective_time: ""20061206"" -> ""20200721"""
+9013183,lanthanum (lanthanum carbonate) 750 mg chewable tablet,"ntp_status_effective_time: ""20061206"" -> ""20200721"""
+e112cfb8616c381c1a4575d63aff1661,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 50 mcg per 0.5 mL dispersion for injection",ADDED
+9000483,naproxen 500 mg suppository,"ntp_status_effective_time: ""20180408"" -> ""20250704"""
+9002298,docusate sodium 10 mg per mL oral drops,"ntp_status_effective_time: ""20180430"" -> ""20250704"""
+38279c8614c286c8cca0714b5036f62c,filgrastim (pegfilgrastim) 10 mg per mL solution for injection,ADDED
+9015228,aflibercept 2 mg per 0.05 mL solution for injection,ADDED
+9000530,lithium (lithium citrate) 8 mmol per 5 mL syrup,"ntp_status_effective_time: ""20180802"" -> ""20250704"""
+9001429,esomeprazole (esomeprazole magnesium) 40 mg gastro-resistant capsule,"ntp_status_effective_time: ""20200724"" -> ""20250704"""
+9013941,aluminum hydroxide 200 mg and magnesium hydroxide 200 mg and simethicone 25 mg chewable tablet,DELETED
+9002299,docusate sodium 200 mg oral capsule,"ntp_status_effective_time: ""20220729"" -> ""20250704"""
+9015118,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+9014186,benzocaine 18 % and tetracaine hydrochloride 2 % oromucosal spray,"ntp_status_effective_time: ""20190814"" -> ""20250730"""
+9015116,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9012793,docusate sodium 250 mg per 5 mL syrup,"ntp_status_effective_time: ""20200115"" -> ""20250704"""
+9004738,petrolatum 98.79 % cutaneous ointment,DELETED
+9015119,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+9000279,metronidazole 500 mg per 100 mL solution for injection bag,"ntp_status_effective_time: ""19871231"" -> ""19901231"""
