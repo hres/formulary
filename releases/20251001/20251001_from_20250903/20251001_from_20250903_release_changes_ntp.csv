@@ -1,0 +1,21 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9015256,guselkumab 200 mg per 2 mL solution for injection pen,guselkumab 200 mg par 2 mL solution injectable stylo,ADDED
+9000623,nifedipine 20 mg prolonged-release oral tablet,nifédipine 20 mg comprimé oral à libération prolongée,"ntp_status_effective_time: ""20201209"" -> ""20250704"""
+9000530,lithium (lithium citrate) 8 mmol per 5 mL syrup,lithium (citrate de lithium) 8 mmol par 5 mL sirop,"ntp_status_effective_time: ""20180802"" -> ""20250704"""
+9015252,delgocitinib 20 mg per g cutaneous cream,delgocitinib 20 mg par g crème cutanée,ADDED
+9000483,naproxen 500 mg suppository,naproxène 500 mg suppositoire,"ntp_status_effective_time: ""20180408"" -> ""20250704"""
+9015253,dexamethasone (dexamethasone sodium phosphate) 0.1 % and levofloxacin 0.5 % ophthalmic drops,"dexaméthasone (phosphate de dexaméthasone sodique) 0,1 % et lévofloxacine 0,5 % gouttes ophtalmiques",ADDED
+9015255,guselkumab 200 mg per 20 mL solution for injection vial,guselkumab 200 mg par 20 mL solution injectable fiole,ADDED
+9012358,verapamil hydrochloride 240 mg prolonged-release oral tablet,chlorhydrate de vérapamil 240 mg comprimé oral à libération prolongée,"ntp_status_effective_time: ""20250530"" -> ""20250704"""
+9002299,docusate sodium 200 mg oral capsule,docusate sodique 200 mg capsule orale,"ntp_status_effective_time: ""20220729"" -> ""20250704"""
+9002298,docusate sodium 10 mg per mL oral drops,docusate sodique 10 mg par mL gouttes orales,"ntp_status_effective_time: ""20180430"" -> ""20250704"""
+9014186,benzocaine 18 % and tetracaine hydrochloride 2 % oromucosal spray,benzocaïne 18 % et chlorhydrate de tétracaïne 2 % vaporisation buccale,"ntp_status_effective_time: ""20190814"" -> ""20250730"""
+9007056,aliskiren (aliskiren fumarate) 150 mg oral tablet,aliskirène (fumarate d'aliskirène) 150 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20071126"" -> ""20240331"""
+9001429,esomeprazole (esomeprazole magnesium) 40 mg gastro-resistant capsule,ésoméprazole (ésoméprazole magnésien) 40 mg capsule gastrorésistante,"ntp_status_effective_time: ""20200724"" -> ""20250704"""
+9004738,petrolatum 98.79 % cutaneous ointment,"pétrolatum 98,79 % pommade cutanée","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20100604"" -> ""20230123"""
+9012793,docusate sodium 250 mg per 5 mL syrup,docusate sodique 250 mg par 5 mL sirop,"ntp_status_effective_time: ""20200115"" -> ""20250704"""
+9004932,nevirapine 400 mg prolonged-release oral tablet,névirapine 400 mg comprimé oral à libération prolongée,"ntp_status_effective_time: ""20200802"" -> ""20250417"""
+9015260,teplizumab 2 mg per 2 mL solution for injection vial,téplizumab 2 mg par 2 mL solution injectable fiole,ADDED
+9015258,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 50 mcg per 0.5 mL dispersion for injection syringe","ARNm de SRASCOV2 S-protéine, 5'(m7G-5'-ppp-5'-Gm), polyA 3' 50 mcg par 0,5 mL dispersion injectable seringue",ADDED
