@@ -1,11 +1,11 @@
 [
   {
-    "ccdd_date": "2025-10-01",
-    "db_previous_month": "ccdd_2025_09_03_120925",
-    "ccdd_qa_release_date": "20250902",
-    "ccdd_current_release_date": "20250903",
-    "dpd_extract_date": "2025-09-24",
-    "dpd_extract_directory": "/home/cyanofsky/dpd/dpd_20250924",
+    "ccdd_date": "2025-11-03",
+    "db_previous_month": "ccdd_2025_10_01_155319",
+    "ccdd_qa_release_date": "20251001",
+    "ccdd_current_release_date": "20251001",
+    "dpd_extract_date": "2025-10-29",
+    "dpd_extract_directory": "/home/cyanofsky/dpd/dpd_20251029",
     "preQA": true,
     "pgloaded_file_dir": "/home/cyanofsky/git/formulary/src/pgloaded"
   }
