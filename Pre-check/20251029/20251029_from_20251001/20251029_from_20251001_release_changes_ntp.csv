@@ -1,10 +1,29 @@
 ntp_code,ntp_formal_name,changes
+9015258,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 50 mcg per 0.5 mL dispersion for injection syringe",DELETED
 9015117,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9012360,verapamil hydrochloride 80 mg oral tablet,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19891231"" -> ""20240411"""
+c7c5d3bc684a10c3acd87c5bebc100b4,nitroglycerin 50 mg per 10 vial solution for injection vial,ADDED
 9015112,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial","ntp_status_effective_time: ""20230918"" -> ""20240924"""
+57fc6439e0f38bcf9cc7a8eef661a65a,omalizumab 300 mg per 2 mL solution for injection,ADDED
+9005187,brentuximab vedotin 50 mg per vial powder for solution for injection,DELETED
+0f644e2bf6dc994fae6cbb728e812c75,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 50 mcg dispersion for injection syringe",ADDED
 9013737,somatropin 10 mg per 2 mL solution for injection pen,DELETED
+9012352,verapamil hydrochloride 120 mg oral tablet,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19891231"" -> ""20240411"""
+9012862,sodium citrate 4 g per 100 mL anticoagulant and preservative solution for blood,"ntp_status_effective_time: ""19901231"" -> ""20121001"""
 9015118,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+9000302,nitroglycerin 50 mg per 10 mL solution for injection vial,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19881231"" -> ""20190801"""
 9015116,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+293c94b62648531e826fb1b1d223071e,fulvestrant 250 mg per 5 mL solution for injection,ADDED
+9014611,ravulizumab 300 mg per 30 mL solution for injection vial,DELETED
+78ca14f58b53cfa0218de3dec6d4d3ea,baloxavir marboxil 20 mg oral tablet,ADDED
+11d4f13429c4118eade3f6f35c445376,sodium citrate 4 g per 100 mL solution for injection,ADDED
+9437aba8bf330d37b4f36d8af55996a4,sotorasib 240 mg oral tablet,ADDED
 9003436,coal tar 1.25 % cutaneous gel,DELETED
+9002336,acetaminophen 80 mg per 5 mL syrup,"ntp_status_effective_time: ""20241212"" -> ""20251007"""
 9003896,polyethylene glycol 400 0.4 % and propylene glycol 0.3 % ophthalmic drops,DELETED
-9015254,fosaprepitant (fosaprepitant dimeglumine) 150 mg powder for solution for injection,ADDED
+9002038,acetaminophen 160 mg per 5 mL syrup,"ntp_status_effective_time: ""20241007"" -> ""20251008"""
+9003928,ibuprofen 100 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension,"ntp_status_effective_time: ""20240331"" -> ""20250926"""
 9015119,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
