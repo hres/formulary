@@ -1,5 +1,5 @@
 LOAD CSV
-    FROM /home/cyanofsky/git/formulary/src/pgloaded/mp_qa_release_20251001.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/mp_qa_release_20251104.csv
     WITH ENCODING UTF-8
     (
       mp_code,
@@ -82,7 +82,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM /home/cyanofsky/git/formulary/src/pgloaded/ntp_qa_release_20251001.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/ntp_qa_release_20251104.csv
     WITH ENCODING UTF-8
     (
       ntp_code,
@@ -143,7 +143,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM /home/cyanofsky/git/formulary/src/pgloaded/tm_qa_release_20251001.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/tm_qa_release_20251104.csv
     WITH ENCODING UTF-8
     (
       tm_code,
@@ -193,7 +193,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM /home/cyanofsky/git/formulary/src/pgloaded/mp_ntp_tm_relationship_qa_release_20251001.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/mp_ntp_tm_relationship_qa_release_20251104.csv
     WITH ENCODING UTF-8
     (
       mp_code,
@@ -227,7 +227,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM /home/cyanofsky/git/formulary/src/pgloaded/mp_ntp_tm_relationship_qa_release_fr_20251001.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/mp_ntp_tm_relationship_qa_release_fr_20251104.csv
     WITH ENCODING UTF-8
     (
       mp_code,
@@ -361,7 +361,7 @@ LOAD CSV
 ;
 
 LOAD CSV
-    FROM /home/cyanofsky/git/formulary/src/pgloaded/special_groupings_qa_release_20251001.csv
+    FROM /home/cyanofsky/git/formulary/src/pgloaded/special_groupings_qa_release_20251104.csv
     WITH ENCODING UTF-8
     (
       ccdd_code,
