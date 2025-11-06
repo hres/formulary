@@ -1,0 +1,26 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9015270,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection syringe","ARNm de SRASCOV2 S-protéine, 5'[m27,3'-oGppp(m12'-O)ApG], polyA 3'+liaison 30 mcg par 0,3 mL suspension injectable seringue",ADDED
+9014611,ravulizumab 300 mg per 30 mL solution for injection vial,ravulizumab 300 mg par 30 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20210909"" -> ""20250826"""
+9009876,hydrochlorothiazide 50 mg and pindolol 10 mg oral tablet,hydrochlorothiazide 50 mg et pindolol 10 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19831231"" -> ""20250930"""
+9002336,acetaminophen 80 mg per 5 mL syrup,acétaminophène 80 mg par 5 mL sirop,"ntp_status_effective_time: ""20241212"" -> ""20251007"""
+9002038,acetaminophen 160 mg per 5 mL syrup,acétaminophène 160 mg par 5 mL sirop,"ntp_status_effective_time: ""20241007"" -> ""20251008"""
+9009865,hydrochlorothiazide 25 mg and pindolol 10 mg oral tablet,hydrochlorothiazide 25 mg et pindolol 10 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19831231"" -> ""20250920"""
+9015271,secukinumab 300 mg per 2 mL solution for injection syringe,sécukinumab 300 mg par 2 mL solution injectable seringue,ADDED
+9003436,coal tar 1.25 % cutaneous gel,"goudron de houille 1,25 % gel cutané","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19991130"" -> ""20241130"""
+9015272,sotorasib 240 mg oral tablet,sotorasib 240 mg comprimé oral,ADDED
+9015273,tapinarof 1 % cutaneous cream,tapinarof 1 % crème cutanée,ADDED
+9015263,belantamab mafodotin 70 mg per vial powder for solution for injection,bélantamab mafodotine 70 mg par fiole poudre pour solution injectable,ADDED
+9015264,bulevirtide (bulevirtide acetate) 2 mg per vial powder for solution for injection,bulévirtide (acétate de bulévirtide) 2 mg par fiole poudre pour solution injectable,ADDED
+9015262,belantamab mafodotin 100 mg per vial powder for solution for injection,bélantamab mafodotine 100 mg par fiole poudre pour solution injectable,ADDED
+9003928,ibuprofen 100 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension,ibuprofène 100 mg par 5 mL et chlorhydrate de pseudoéphédrine 15 mg par 5 mL suspension orale,"ntp_status_effective_time: ""20240331"" -> ""20250926"""
+9013737,somatropin 10 mg per 2 mL solution for injection pen,somatropine 10 mg par 2 mL solution injectable stylo,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20120518"" -> ""20250131"""
+9015268,omalizumab 300 mg per 2 mL solution for injection syringe,omalizumab 300 mg par 2 mL solution injectable seringue,ADDED
+9015261,baloxavir marboxil 20 mg oral tablet,baloxavir marboxil 20 mg comprimé oral,ADDED
+9003896,polyethylene glycol 400 0.4 % and propylene glycol 0.3 % ophthalmic drops,"polyethylene glycol 400 0,4 % et propylène glycol 0,3 % gouttes ophtalmiques","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20040408"" -> ""20250428"""
+9015269,rozanolixizumab 280 mg per 2 mL solution for injection vial,rozanolixizumab 280 mg par 2 mL solution injectable fiole,ADDED
