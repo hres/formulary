@@ -1,4 +1,8 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"98131","syringe","0.25","mL","N","N","02491303","METHOTREXATE SUBCUTANEOUS ACCORD HEALTHCARE INC","seringue"
+"98130","syringe","0.2","mL","N","N","02491281","METHOTREXATE SUBCUTANEOUS ACCORD HEALTHCARE INC","seringue"
+"102734","bag","100","mL","Y","N","02538644","2% CALCIUM GLUCONATE IN SODIUM CHLORIDE INJECTION FRESENIUS KABI CANADA LTD","sac"
+"102734","bag","50","mL","Y","N","02538644","2% CALCIUM GLUCONATE IN SODIUM CHLORIDE INJECTION FRESENIUS KABI CANADA LTD","sac"
 "106218","syringe","5","mL","N","N","02558971","FULVESTRANT INJECTION STERIMAX INC","seringue"
 "103395","syringe","2","mL","N","N","02545160","XOLAIR NOVARTIS PHARMACEUTICALS CANADA INC","seringue"
 "104073","syringe","0.3","mL","N","N","02552035","COMIRNATY BIONTECH MANUFACTURING GMBH","seringue"
