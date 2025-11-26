@@ -1,0 +1,115 @@
+drug_code,mp_code,mp_formal_name,changes
+2214,00335061,ELAVIL (amitriptyline hydrochloride 25 mg oral tablet) AA PHARMA INC,DELETED
+2426,00370991,PRO-AMITRIPTYLINE (amitriptyline hydrochloride 10 mg oral tablet) PRO DOC LIMITEE,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20251024"" -> ""19761231"""
+2427,00371009,PRO-AMITRIPTYLINE (amitriptyline hydrochloride 25 mg oral tablet) PRO DOC LIMITEE,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20251024"" -> ""19761231"""
+3141,00456349,PRO-AMITRIPTYLINE (amitriptyline hydrochloride 50 mg oral tablet) PRO DOC LIMITEE,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20251024"" -> ""19781231"""
+10706,00778869,NITROJECT (nitroglycerin 50 mg per 10 vial solution for injection vial) JUNO PHARMA CANADA INC.,"mp_formal_name: ""NITROJECT (nitroglycerin 50 mg per 10 m̲L̲ solution for injection vial) JUNO PHARMA CANADA INC."" -> ""NITROJECT (nitroglycerin 50 mg per 10 v̲i̲a̲l̲ solution for injection vial) JUNO PHARMA CANADA INC."""
+10907,00893609,APO-CAPTO TAB 25MG (captopril 25 mg oral tablet) APOTEX INC,DELETED
+15104,02050048,APO-DOXEPIN (doxepin (doxepin hydrochloride) 100 mg oral capsule) APOTEX INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20250827"" -> ""19931231"""
+15106,02050005,APO-DOXEPIN (doxepin (doxepin hydrochloride) 25 mg oral capsule) APOTEX INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20250827"" -> ""19931231"""
+15107,02050013,APO-DOXEPIN (doxepin (doxepin hydrochloride) 50 mg oral capsule) APOTEX INC,"mp_formal_name: ""APO-DOXEPIN (doxepin (doxepin hydrochloride) 50 mg oral capsule) AA̲ ̲P̲H̲A̲R̲M̲A̲ INC"" -> ""APO-DOXEPIN (doxepin (doxepin hydrochloride) 50 mg oral capsule) AP̲O̲T̲E̲X̲ INC""
+mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20250827"" -> ""19931231"""
+15108,02050021,APO-DOXEPIN (doxepin (doxepin hydrochloride) 75 mg oral capsule) APOTEX INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20250827"" -> ""19931231"""
+16586,02041472,ATIVAN (lorazepam 2 mg sublingual tablet) PFIZER CANADA ULC,DELETED
+16588,02041421,ATIVAN (lorazepam 1 mg oral tablet) PFIZER CANADA ULC,DELETED
+16589,02041413,ATIVAN (lorazepam 0.5 mg oral tablet) PFIZER CANADA ULC,DELETED
+16754,02100495,VERELAN (verapamil hydrochloride 240 mg prolonged-release oral capsule) RECRO GAINESVILLE LLC,"mp_status_effective_time: ""20170711"" -> ""20251124"""
+16755,02100487,VERELAN (verapamil hydrochloride 180 mg prolonged-release oral capsule) RECRO GAINESVILLE LLC,"mp_status_effective_time: ""20170711"" -> ""20251124"""
+16756,02100479,VERELAN (verapamil hydrochloride 120 mg prolonged-release oral capsule) RECRO GAINESVILLE LLC,"mp_status_effective_time: ""20170711"" -> ""20251124"""
+20011,02211076,APO-BUSPIRONE (buspirone hydrochloride 10 mg oral tablet) APOTEX INC,DELETED
+31582,02144409,WATER-JEL BURN JEL-2% (lidocaine hydrochloride 2 % cutaneous gel) ZEE MEDICAL,DELETED
+41869,00875988,TEMPRA INFANT DROPS (acetaminophen 80 mg per mL oral drops) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""TEMPRA INFANT DROPS (acetaminophen 80 mg per mL oral drops) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."" -> ""TEMPRA INFANT DROPS (acetaminophen 80 mg per mL oral drops) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲.""
+mp_status_effective_time: ""20241220"" -> ""20251106"""
+69944,02245828,CLASTEON (clodronate disodium 400 mg oral capsule) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""CLASTEON (clodronate disodium 400 mg oral capsule) S̲U̲M̲I̲T̲O̲M̲O̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲,̲ INC."" -> ""CLASTEON (clodronate disodium 400 mg oral capsule) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ INC."""
+71508,02247265,PENNSAID (diclofenac sodium 1.5 % cutaneous solution) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""PENNSAID (diclofenac sodium 1.5 % cutaneous solution) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."" -> ""PENNSAID (diclofenac sodium 1.5 % cutaneous solution) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲."""
+75209,02266687,AA-METHYLPHENIDATE SR (methylphenidate hydrochloride 20 mg prolonged-release oral tablet) AA PHARMA INC,"Health_Canada_product_name: ""APO-METHYLPHENIDATE SR"" -> ""AA-METHYLPHENIDATE SR""
+mp_formal_name: ""AP̲O̲-METHYLPHENIDATE SR (methylphenidate hydrochloride 20 mg prolonged-release oral tablet) AP̲O̲T̲E̲X̲ INC"" -> ""AA̲-METHYLPHENIDATE SR (methylphenidate hydrochloride 20 mg prolonged-release oral tablet) AA̲ ̲P̲H̲A̲R̲M̲A̲ INC"""
+77893,02293579,SPC-CEFPROZIL (cefprozil (cefprozil monohydrate) 250 mg per 5 mL oral suspension) SUN PHARMA CANADA INC,"Health_Canada_product_name: ""TARO-CEFPROZIL"" -> ""SPC-CEFPROZIL""
+mp_formal_name: ""T̲A̲R̲O̲-CEFPROZIL (cefprozil (cefprozil monohydrate) 250 mg per 5 mL oral suspension) SUN PHARMA CANADA INC"" -> ""S̲P̲C̲-CEFPROZIL (cefprozil (cefprozil monohydrate) 250 mg per 5 mL oral suspension) SUN PHARMA CANADA INC"""
+79504,02309440,COLDASIDE COUGH & COLD (chlorpheniramine maleate 4 mg and dextromethorphan hydrobromide 30 mg oral tablet) SIGMA LIFE SCIENCES INC.,"mp_formal_name: ""COLDASIDE COUGH & COLD (chlorpheniramine maleate 4 mg and dextromethorphan hydrobromide 30 mg oral tablet) T̲A̲N̲T̲A̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲I̲N̲C̲"" -> ""COLDASIDE COUGH & COLD (chlorpheniramine maleate 4 mg and dextromethorphan hydrobromide 30 mg oral tablet) S̲I̲G̲M̲A̲ ̲L̲I̲F̲E̲ ̲S̲C̲I̲E̲N̲C̲E̲S̲ ̲I̲N̲C̲.̲"""
+79623,02310600,PRO-AZITHROMYCINE (azithromycin (azithromycin dihydrate) 250 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""PRO-AZITHROMYCINE (azithromycin (azithromycin m̲o̲n̲o̲h̲y̲d̲r̲a̲t̲e̲ ̲h̲e̲m̲i̲e̲t̲h̲a̲n̲o̲l̲ate) 250 mg oral tablet) PRO DOC LIMITEE"" -> ""PRO-AZITHROMYCINE (azithromycin (azithromycin d̲i̲h̲y̲d̲r̲ate) 250 mg oral tablet) PRO DOC LIMITEE"""
+80969,02324210,GEMCITABINE FOR INJECTION (gemcitabine (gemcitabine hydrochloride) 1 g per vial powder for solution for injection) ACCORD HEALTHCARE INC,DELETED
+81489,02329204,SPC-CEFPROZIL (cefprozil (cefprozil monohydrate) 125 mg per 5 mL oral suspension) SUN PHARMA CANADA INC,"Health_Canada_product_name: ""TARO-CEFPROZIL"" -> ""SPC-CEFPROZIL""
+mp_formal_name: ""T̲A̲R̲O̲-CEFPROZIL (cefprozil (cefprozil monohydrate) 125 mg per 5 mL oral suspension) SUN PHARMA CANADA INC"" -> ""S̲P̲C̲-CEFPROZIL (cefprozil (cefprozil monohydrate) 125 mg per 5 mL oral suspension) SUN PHARMA CANADA INC"""
+81810,02332450,ANACIN (acetylsalicylic acid 325 mg and caffeine 32 mg oral tablet) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""ANACIN (acetylsalicylic acid 325 mg and caffeine 32 mg oral tablet) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."" -> ""ANACIN (acetylsalicylic acid 325 mg and caffeine 32 mg oral tablet) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲.""
+mp_status_effective_time: ""20241104"" -> ""20251103"""
+83729,02352079,FIRST AID ANTIBIOTIC OINTMENT (bacitracin (bacitracin zinc) 500 unit per g cutaneous ointment) ZEE MEDICAL,DELETED
+84661,02361531,JAMP-LISINOPRIL (lisinopril (lisinopril dihydrate) 5 mg oral tablet) JAMP PHARMA CORPORATION,"mp_status_effective_time: ""20251029"" -> ""20251031"""
+84662,02361558,JAMP-LISINOPRIL (lisinopril (lisinopril dihydrate) 10 mg oral tablet) JAMP PHARMA CORPORATION,"mp_status_effective_time: ""20251029"" -> ""20251031"""
+84663,02361566,JAMP-LISINOPRIL (lisinopril (lisinopril dihydrate) 20 mg oral tablet) JAMP PHARMA CORPORATION,"mp_status_effective_time: ""20251029"" -> ""20251031"""
+85506,02370034,GEMCITABINE FOR INJECTION (gemcitabine (gemcitabine hydrochloride) 2 g per vial powder for solution for injection) ACCORD HEALTHCARE INC,DELETED
+86577,02379910,FAMPYRA (fampridine 10 mg prolonged-release oral tablet) MERZ THERAPEUTICS GMBH,"mp_formal_name: ""FAMPYRA (fampridine 10 mg prolonged-release oral tablet) A̲C̲O̲R̲D̲A̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲R̲E̲L̲A̲N̲D̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""FAMPYRA (fampridine 10 mg prolonged-release oral tablet) M̲E̲R̲Z̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲G̲M̲B̲H̲"""
+87778,02392526,ACH-GABAPENTIN (gabapentin 600 mg oral tablet) ACCORD HEALTHCARE INC,"Health_Canada_product_name: ""GABAPENTIN TABLETS USP"" -> ""ACH-GABAPENTIN""
+mp_formal_name: ""G̲A̲B̲A̲P̲E̲N̲T̲I̲N̲ ̲T̲A̲B̲L̲E̲T̲S̲ ̲U̲S̲P̲ (gabapentin 600 mg oral tablet) ACCORD HEALTHCARE INC"" -> ""A̲C̲H̲-̲G̲A̲B̲A̲P̲E̲N̲T̲I̲N̲ (gabapentin 600 mg oral tablet) ACCORD HEALTHCARE INC"""
+87779,02392534,ACH-GABAPENTIN (gabapentin 800 mg oral tablet) ACCORD HEALTHCARE INC,"Health_Canada_product_name: ""GABAPENTIN TABLETS USP"" -> ""ACH-GABAPENTIN""
+mp_formal_name: ""G̲A̲B̲A̲P̲E̲N̲T̲I̲N̲ ̲T̲A̲B̲L̲E̲T̲S̲ ̲U̲S̲P̲ (gabapentin 800 mg oral tablet) ACCORD HEALTHCARE INC"" -> ""A̲C̲H̲-̲G̲A̲B̲A̲P̲E̲N̲T̲I̲N̲ (gabapentin 800 mg oral tablet) ACCORD HEALTHCARE INC"""
+87940,02394243,APO-PREGABALIN (pregabalin 50 mg oral capsule) APOTEX INC,DELETED
+87943,02394286,APO-PREGABALIN (pregabalin 225 mg oral capsule) APOTEX INC,DELETED
+88072,02395649,PRO-ANASTROZOLE (anastrozole 1 mg oral tablet) PRO DOC LIMITEE,"Health_Canada_product_name: ""ANASTROZOLE"" -> ""PRO-ANASTROZOLE""
+mp_formal_name: ""ANASTROZOLE (anastrozole 1 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲ANASTROZOLE (anastrozole 1 mg oral tablet) PRO DOC LIMITEE"""
+88956,02404761,"GANCICLOVIR FOR INJECTION, USP (ganciclovir (ganciclovir sodium) 500 mg per vial powder for solution for injection) FRESENIUS KABI CANADA LTD","Health_Canada_product_name: ""GANCICLOVIR FOR INJECTION"" -> ""GANCICLOVIR FOR INJECTION, USP""
+mp_formal_name: ""GANCICLOVIR FOR INJECTION (ganciclovir (ganciclovir sodium) 500 mg per vial powder for solution for injection) FRESENIUS KABI CANADA LTD"" -> ""GANCICLOVIR FOR INJECTION,̲ ̲U̲S̲P̲ (ganciclovir (ganciclovir sodium) 500 mg per vial powder for solution for injection) FRESENIUS KABI CANADA LTD"""
+89323,02408473,TEVA-EXEMESTANE (exemestane 25 mg oral tablet) TEVA CANADA LIMITED,DELETED
+90145,02416840,ACH-GABAPENTIN (gabapentin 100 mg oral capsule) ACCORD HEALTHCARE INC,"Health_Canada_product_name: ""GABAPENTIN CAPSULES USP"" -> ""ACH-GABAPENTIN""
+mp_formal_name: ""G̲A̲B̲A̲P̲E̲N̲T̲I̲N̲ ̲C̲A̲P̲S̲U̲L̲E̲S̲ ̲U̲S̲P̲ (gabapentin 100 mg oral capsule) ACCORD HEALTHCARE INC"" -> ""A̲C̲H̲-̲G̲A̲B̲A̲P̲E̲N̲T̲I̲N̲ (gabapentin 100 mg oral capsule) ACCORD HEALTHCARE INC"""
+90146,02416859,ACH-GABAPENTIN (gabapentin 300 mg oral capsule) ACCORD HEALTHCARE INC,"Health_Canada_product_name: ""GABAPENTIN CAPSULES USP"" -> ""ACH-GABAPENTIN""
+mp_formal_name: ""G̲A̲B̲A̲P̲E̲N̲T̲I̲N̲ ̲C̲A̲P̲S̲U̲L̲E̲S̲ ̲U̲S̲P̲ (gabapentin 300 mg oral capsule) ACCORD HEALTHCARE INC"" -> ""A̲C̲H̲-̲G̲A̲B̲A̲P̲E̲N̲T̲I̲N̲ (gabapentin 300 mg oral capsule) ACCORD HEALTHCARE INC"""
+90147,02416867,ACH-GABAPENTIN (gabapentin 400 mg oral capsule) ACCORD HEALTHCARE INC,"Health_Canada_product_name: ""GABAPENTIN CAPSULES USP"" -> ""ACH-GABAPENTIN""
+mp_formal_name: ""G̲A̲B̲A̲P̲E̲N̲T̲I̲N̲ ̲C̲A̲P̲S̲U̲L̲E̲S̲ ̲U̲S̲P̲ (gabapentin 400 mg oral capsule) ACCORD HEALTHCARE INC"" -> ""A̲C̲H̲-̲G̲A̲B̲A̲P̲E̲N̲T̲I̲N̲ (gabapentin 400 mg oral capsule) ACCORD HEALTHCARE INC"""
+92870,02443929,JAMP-MOXIFLOXACIN (moxifloxacin (moxifloxacin hydrochloride) 400 mg oral tablet) JAMP PHARMA CORPORATION,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20250731"" -> ""20151104"""
+93341,02447819,JUNIOR STRENGTH CHILDREN'S ACETAMINOPHEN TABLETS (acetaminophen 160 mg chewable tablet) SIGMA LIFE SCIENCES INC.,"mp_formal_name: ""JUNIOR STRENGTH CHILDREN'S ACETAMINOPHEN TABLETS (acetaminophen 160 mg chewable tablet) T̲A̲N̲T̲A̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲I̲N̲C̲"" -> ""JUNIOR STRENGTH CHILDREN'S ACETAMINOPHEN TABLETS (acetaminophen 160 mg chewable tablet) S̲I̲G̲M̲A̲ ̲L̲I̲F̲E̲ ̲S̲C̲I̲E̲N̲C̲E̲S̲ ̲I̲N̲C̲.̲"""
+93392,02448254,NDUVRA (tapinarof 1 % cutaneous cream) ORGANON CANADA INC.,DELETED
+94139,02454696,SPC-FENOFIBRATE E (fenofibrate 145 mg oral tablet) SUN PHARMA CANADA INC,"Health_Canada_product_name: ""SN-FENOFIBRATE E"" -> ""SPC-FENOFIBRATE E""
+mp_formal_name: ""SN̲-FENOFIBRATE E (fenofibrate 145 mg oral tablet) SUN PHARMA CANADA INC"" -> ""SP̲C̲-FENOFIBRATE E (fenofibrate 145 mg oral tablet) SUN PHARMA CANADA INC"""
+94477,02457733,MDK-NITISINONE (nitisinone 10 mg oral capsule) MENDELIKABS INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20250915"" -> ""20161020"""
+94755,02460262,MICTORYL (propiverine hydrochloride 30 mg prolonged-release oral capsule) DUCHESNAY INC,"mp_formal_name: ""MICTORYL (propiverine hydrochloride 30 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) DUCHESNAY INC"" -> ""MICTORYL (propiverine hydrochloride 30 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) DUCHESNAY INC"""
+94756,02460270,MICTORYL (propiverine hydrochloride 45 mg prolonged-release oral capsule) DUCHESNAY INC,"mp_formal_name: ""MICTORYL (propiverine hydrochloride 45 mg m̲o̲d̲i̲f̲i̲ed-release oral capsule) DUCHESNAY INC"" -> ""MICTORYL (propiverine hydrochloride 45 mg p̲r̲o̲l̲o̲n̲g̲ed-release oral capsule) DUCHESNAY INC"""
+95779,02469138,ALTA-PANTOPRAZOLE (pantoprazole (pantoprazole sodium sesquihydrate) 40 mg gastro-resistant tablet) ALTAMED PHARMA,"Health_Canada_product_name: ""PANTOPRAZOLE"" -> ""ALTA-PANTOPRAZOLE""
+mp_formal_name: ""PANTOPRAZOLE (pantoprazole (pantoprazole sodium sesquihydrate) 40 mg gastro-resistant tablet) ALTAMED PHARMA"" -> ""A̲L̲T̲A̲-̲PANTOPRAZOLE (pantoprazole (pantoprazole sodium sesquihydrate) 40 mg gastro-resistant tablet) ALTAMED PHARMA"""
+95837,02469561,TEVA-FINGOLIMOD (fingolimod (fingolimod hydrochloride) 0.5 mg oral capsule) TEVA CANADA LIMITED,DELETED
+96585,02475472,RADICAVA (edaravone 30 mg per 100 mL solution for injection bag) MITSUBISHI TANABE PHARMA CORPORATION,DELETED
+97838,02488280,COMBOGESIC (acetaminophen 325 mg and ibuprofen 97.5 mg oral tablet) AFT PHARMACEUTICALS (CAN) LIMITED,"mp_formal_name: ""COMBOGESIC (acetaminophen 325 mg and ibuprofen 97.5 mg oral tablet) B̲I̲O̲S̲Y̲E̲N̲T̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲"" -> ""COMBOGESIC (acetaminophen 325 mg and ibuprofen 97.5 mg oral tablet) A̲F̲T̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲(̲C̲A̲N̲)̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+98459,02494590,DAPTOMYCIN FOR INJECTION (daptomycin 500 mg per vial powder for solution for injection) ACCORD HEALTHCARE INC,DELETED
+98527,02495341,ACH-DIMETHYL FUMARATE (dimethyl fumarate 120 mg gastro-resistant capsule) ACCORD HEALTHCARE INC,DELETED
+98528,02495368,ACH-DIMETHYL FUMARATE (dimethyl fumarate 240 mg gastro-resistant capsule) ACCORD HEALTHCARE INC,DELETED
+98955,02499827,TUKYSA (tucatinib 50 mg oral tablet) PFIZER CANADA ULC,"mp_formal_name: ""TUKYSA (tucatinib 50 mg oral tablet) S̲E̲A̲G̲E̲N̲ ̲I̲N̲C̲.̲"" -> ""TUKYSA (tucatinib 50 mg oral tablet) P̲F̲I̲Z̲E̲R̲ ̲C̲A̲N̲A̲D̲A̲ ̲U̲L̲C̲"""
+98956,02499835,TUKYSA (tucatinib 150 mg oral tablet) PFIZER CANADA ULC,"mp_formal_name: ""TUKYSA (tucatinib 150 mg oral tablet) S̲E̲A̲G̲E̲N̲ ̲I̲N̲C̲.̲"" -> ""TUKYSA (tucatinib 150 mg oral tablet) P̲F̲I̲Z̲E̲R̲ ̲C̲A̲N̲A̲D̲A̲ ̲U̲L̲C̲"""
+98998,02500280,KYNMOBI (apomorphine hydrochloride 20 mg sublingual film) SUNOVION PHARMACEUTICALS CANADA INC,DELETED
+98999,02500299,KYNMOBI (apomorphine hydrochloride 25 mg sublingual film) SUNOVION PHARMACEUTICALS CANADA INC,DELETED
+99000,02500302,KYNMOBI (apomorphine hydrochloride 30 mg sublingual film) SUNOVION PHARMACEUTICALS CANADA INC,DELETED
+99757,02508184,ANTI-DANDRUFF ANTIPELLICULAIRE 2 IN 1 (pyrithione zinc 1 % shampoo) L' OREAL CANADA,DELETED
+100221,02512963,BRUKINSA (zanubrutinib 80 mg oral capsule) BEONE MEDICINES I GMBH,"mp_formal_name: ""BRUKINSA (zanubrutinib 80 mg oral capsule) BEI̲G̲E̲N̲E̲ ̲S̲W̲I̲T̲Z̲E̲R̲L̲A̲N̲D̲ GMBH"" -> ""BRUKINSA (zanubrutinib 80 mg oral capsule) BEO̲N̲E̲ ̲M̲E̲D̲I̲C̲I̲N̲E̲S̲ ̲I̲ GMBH"""
+100625,02516918,RETEVMO (selpercatinib 40 mg oral capsule) ELI LILLY CANADA INC,"mp_formal_name: ""RETEVMO (selpercatinib 40 mg oral capsule) L̲O̲X̲O̲ ̲O̲N̲C̲O̲L̲O̲G̲Y̲ INC"" -> ""RETEVMO (selpercatinib 40 mg oral capsule) E̲L̲I̲ ̲L̲I̲L̲L̲Y̲ ̲C̲A̲N̲A̲D̲A̲ INC"""
+100626,02516926,RETEVMO (selpercatinib 80 mg oral capsule) ELI LILLY CANADA INC,"mp_formal_name: ""RETEVMO (selpercatinib 80 mg oral capsule) L̲O̲X̲O̲ ̲O̲N̲C̲O̲L̲O̲G̲Y̲ INC"" -> ""RETEVMO (selpercatinib 80 mg oral capsule) E̲L̲I̲ ̲L̲I̲L̲L̲Y̲ ̲C̲A̲N̲A̲D̲A̲ INC"""
+103073,02542137,ORGOVYX (relugolix 120 mg oral tablet) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""ORGOVYX (relugolix 120 mg oral tablet) S̲U̲M̲I̲T̲O̲M̲O̲ ̲P̲H̲A̲R̲M̲A̲ ̲S̲W̲I̲T̲Z̲E̲R̲L̲A̲N̲D̲ ̲G̲M̲B̲H̲"" -> ""ORGOVYX (relugolix 120 mg oral tablet) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲.̲"""
+104199,02553023,JORNAY PM (methylphenidate hydrochloride 100 mg NA) KNIGHT THERAPEUTICS INC.,ADDED
+104200,02553031,JORNAY PM (methylphenidate hydrochloride 80 mg NA) KNIGHT THERAPEUTICS INC.,ADDED
+104201,02553058,JORNAY PM (methylphenidate hydrochloride 60 mg NA) KNIGHT THERAPEUTICS INC.,ADDED
+104202,02553066,JORNAY PM (methylphenidate hydrochloride 40 mg NA) KNIGHT THERAPEUTICS INC.,ADDED
+104203,02553074,JORNAY PM (methylphenidate hydrochloride 20 mg NA) KNIGHT THERAPEUTICS INC.,ADDED
+104313,02554267,BRUKINSA (zanubrutinib 160 mg oral tablet) BEONE MEDICINES I GMBH,"mp_formal_name: ""BRUKINSA (zanubrutinib 160 mg oral tablet) BEI̲G̲E̲N̲E̲ ̲S̲W̲I̲T̲Z̲E̲R̲L̲A̲N̲D̲ GMBH"" -> ""BRUKINSA (zanubrutinib 160 mg oral tablet) BEO̲N̲E̲ ̲M̲E̲D̲I̲C̲I̲N̲E̲S̲ ̲I̲ GMBH"""
+106107,02557770,"SPIKEVAX (SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 50 mcg dispersion for injection syringe) MODERNA BIOPHARMA CANADA CORPORATION","mp_formal_name: ""SPIKEVAX (SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 50 mcg p̲e̲r̲ ̲0̲.̲5̲ ̲m̲L̲ ̲dispersion for injection syringe) MODERNA BIOPHARMA CANADA CORPORATION"" -> ""SPIKEVAX (SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 50 mcg dispersion for injection syringe) MODERNA BIOPHARMA CANADA CORPORATION"""
+106220,02559005,PRUCALOPRIDE (prucalopride (prucalopride succinate) 1 mg oral tablet) SANIS HEALTH INC,ADDED
+106221,02559013,PRUCALOPRIDE (prucalopride (prucalopride succinate) 2 mg oral tablet) SANIS HEALTH INC,ADDED
+106238,02559218,OMVOH (mirikizumab 200 mg per 2 mL solution for injection) ELI LILLY CANADA INC,ADDED
+106239,02559226,OMVOH (mirikizumab 200 mL per 2 mL solution for injection) ELI LILLY CANADA INC,ADDED
+106240,02559234,OMVOH (mirikizumab 100 mg per mL and mirikizumab 200 mg per 2 mL NA) ELI LILLY CANADA INC,ADDED
+106241,02559242,OMVOH (mirikizumab 100 mg per mL and mirikizumab 200 mg per 2 mL NA) ELI LILLY CANADA INC,ADDED
+106296,02559854,RIVA-TELMISARTAN/AMLODIPINE (amlodipine (amlodipine besylate) 5 mg and telmisartan 40 mg oral tablet) LABORATOIRE RIVA INC.,ADDED
+106320,02560119,RIVA-RUPATADINE (rupatadine (rupatadine fumarate) 10 mg oral tablet) LABORATOIRE RIVA INC.,ADDED
+106441,02561441,DOXYCYCLINE FOR INJECTION USP (doxycycline (doxycycline hyclate) 100 mg per vial powder for solution for injection) STERIMAX INC,ADDED
+NA,77700810,DOCETAXEL INJECTION (docetaxel 160 mg per 8 mL solution for injection vial) ACCORD HEALTHCARE INC,DELETED
+NA,77700811,DOCETAXEL INJECTION (docetaxel 80 mg per 4 mL solution for injection vial) ACCORD HEALTHCARE INC,DELETED
+NA,77700812,DOCETAXEL INJECTION (docetaxel 20 mg per 1 mL solution for injection vial) ACCORD HEALTHCARE INC,DELETED
+NA,77700938,OXALIPLATIN INJECTION (oxaliplatin 50 mg per 10 mL solution for injection vial) ACCORD HEALTHCARE INC,"mp_status_effective_time: ""20190725"" -> ""20251028"""
+NA,77700939,OXALIPLATIN INJECTION (oxaliplatin 200 mg per 40 mL solution for injection vial) ACCORD HEALTHCARE INC,"mp_status_effective_time: ""20190725"" -> ""20251028"""
+NA,77700940,OXALIPLATIN INJECTION (oxaliplatin 100 mg per 20 mL solution for injection vial) ACCORD HEALTHCARE INC,"mp_status_effective_time: ""20190725"" -> ""20251028"""

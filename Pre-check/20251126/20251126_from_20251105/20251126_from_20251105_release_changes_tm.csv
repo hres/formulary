@@ -1,0 +1,8 @@
+tm_code,tm_formal_name,changes
+8001144,apomorphine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20170907"" -> ""20231023"""
+8001787,gemcitabine,"tm_status_effective_time: ""20090716"" -> ""20110831"""
+8000870,acetylsalicylic acid and caffeine,"tm_status_effective_time: ""20241104"" -> ""20251103"""
+8002558,tapinarof,DELETED
+8001247,buspirone,"tm_status_effective_time: ""19961231"" -> ""19970115"""
+8002305,edaravone,"tm_status_effective_time: ""20191029"" -> ""20230209"""

@@ -1,0 +1,43 @@
+ntp_code,ntp_formal_name,changes
+9002691,lidocaine hydrochloride 2 % cutaneous gel,"ntp_status_effective_time: ""19941231"" -> ""20020327"""
+9006172,propiverine hydrochloride 30 mg modified-release oral capsule,DELETED
+6e84171aac7b26461c8359d7326b267e,methylphenidate hydrochloride 40 mg NA,ADDED
+3eaec7cba371c4cfb51d015a30794fe6,methylphenidate hydrochloride 80 mg NA,ADDED
+33f574b026a4b6d4c330694a72f84dc2,doxycycline (doxycycline hyclate) 100 mg per vial powder for solution for injection,ADDED
+9015258,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 50 mcg per 0.5 mL dispersion for injection syringe",DELETED
+9015117,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9006173,propiverine hydrochloride 45 mg modified-release oral capsule,DELETED
+9012355,verapamil hydrochloride 180 mg prolonged-release oral capsule,"ntp_status_effective_time: ""20170711"" -> ""20251124"""
+c7c5d3bc684a10c3acd87c5bebc100b4,nitroglycerin 50 mg per 10 vial solution for injection vial,ADDED
+9015112,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial","ntp_status_effective_time: ""20230918"" -> ""20240924"""
+9004594,gemcitabine (gemcitabine hydrochloride) 2 g per vial powder for solution for injection,DELETED
+9013078,docetaxel 160 mg per 8 mL solution for injection vial,"ntp_status_effective_time: ""20150227"" -> ""20171017"""
+9013864,bacitracin (bacitracin zinc) 500 unit per g cutaneous ointment,"ntp_status_effective_time: ""20110201"" -> ""20111103"""
+0f644e2bf6dc994fae6cbb728e812c75,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 50 mcg dispersion for injection syringe",ADDED
+9014395,apomorphine hydrochloride 20 mg sublingual film,DELETED
+9014396,apomorphine hydrochloride 25 mg sublingual film,DELETED
+9014397,apomorphine hydrochloride 30 mg sublingual film,DELETED
+9015273,tapinarof 1 % cutaneous cream,DELETED
+d44013babd160d2d0bbbd8f0ebdcaf04,mirikizumab 100 mg per mL and mirikizumab 200 mg per 2 mL NA,ADDED
+2ee2a5af3f0404c05f779c303476c83e,mirikizumab 200 mL per 2 mL solution for injection,ADDED
+9012357,verapamil hydrochloride 240 mg prolonged-release oral capsule,"ntp_status_effective_time: ""20170711"" -> ""20251124"""
+9003012,buspirone hydrochloride 10 mg oral tablet,"ntp_status_effective_time: ""19961231"" -> ""19970115"""
+7215ebe3bfe190e2a69430c59d5b3258,propiverine hydrochloride 45 mg prolonged-release oral capsule,ADDED
+9014203,edaravone 30 mg per 100 mL solution for injection bag,DELETED
+e39d7b27194abab657cb2dfd7a60767f,mirikizumab 200 mg per 2 mL solution for injection,ADDED
+9004353,gemcitabine (gemcitabine hydrochloride) 1 g per vial powder for solution for injection,DELETED
+9013079,docetaxel 20 mg per 1 mL solution for injection vial,"ntp_status_effective_time: ""20150227"" -> ""20171017"""
+1341747540a8b38f868720f42128d8aa,methylphenidate hydrochloride 100 mg NA,ADDED
+9015118,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+5ecdd20a2aa755d3b59200a3567aa6ad,propiverine hydrochloride 30 mg prolonged-release oral capsule,ADDED
+9004809,acetylsalicylic acid 325 mg and caffeine 32 mg oral tablet,"ntp_status_effective_time: ""20241104"" -> ""20251103"""
+9000302,nitroglycerin 50 mg per 10 mL solution for injection vial,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19881231"" -> ""20190801"""
+9015116,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9008157,captopril 25 mg oral tablet,"ntp_status_effective_time: ""19901231"" -> ""19911231"""
+9012353,verapamil hydrochloride 120 mg prolonged-release oral capsule,"ntp_status_effective_time: ""20170711"" -> ""20251124"""
+9000532,lorazepam 2 mg sublingual tablet,"ntp_status_effective_time: ""19941231"" -> ""20131016"""
+9013082,docetaxel 80 mg per 4 mL solution for injection vial,"ntp_status_effective_time: ""20150227"" -> ""20171017"""
+0e45f4009f6cfd6105e58138e3cfdba6,methylphenidate hydrochloride 20 mg NA,ADDED
+622b4efd43ad2ee1b8c8253f83ffd2ff,methylphenidate hydrochloride 60 mg NA,ADDED
+9015119,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
