@@ -1,4 +1,7 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"104492","vial","2","mL","Y","N","02558262","PIASKY HOFFMANN-LA ROCHE LIMITED","fiole"
+"106238","pen","2","mL","N","N","02559218","OMVOH ELI LILLY CANADA INC","stylo"
+"106239","syringe","2","mL","N","N","02559226","OMVOH ELI LILLY CANADA INC","seringue"
 "98131","syringe","0.25","mL","N","N","02491303","METHOTREXATE SUBCUTANEOUS ACCORD HEALTHCARE INC","seringue"
 "98130","syringe","0.2","mL","N","N","02491281","METHOTREXATE SUBCUTANEOUS ACCORD HEALTHCARE INC","seringue"
 "102734","bag","100","mL","Y","N","02538644","2% CALCIUM GLUCONATE IN SODIUM CHLORIDE INJECTION FRESENIUS KABI CANADA LTD","sac"
