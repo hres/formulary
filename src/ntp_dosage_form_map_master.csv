@@ -620,7 +620,7 @@
 "40001","solution for injection","29-49-56","INHALATION, INTRAVENOUS, ORAL","Inhalation,Intraveineuse,Orale","34","LIQUID","Liquide","solution injectable"
 "40017","powder for solution for injection","12-17-22-49-65","INTRA-ARTERIAL, INTRACAVITARY, INTRAMUSCULAR, INTRAVENOUS, SUBCUTANEOUS","Intra-artérielle,Intracavitaire,Intramusculaire,Intraveineuse,Sous-cutanée","56","POWDER FOR SOLUTION","Poudre pour solution","poudre pour solution injectable"
 "40026","powder for nebulizer solution","29","INHALATION","Inhalation","2-56","AEROSOL, POWDER FOR SOLUTION","Aérosol,Poudre pour solution","poudre pour solution pour inhalation par nébuliseur"
-"40001","solution for injection","90","EXTRACORPOREAL","Extracorporelle","134","SOLUTION","Solution","solution injectable"
+"40147","anticoagulant and preservative solution for blood","90","EXTRACORPOREAL","Extracorporelle","134","SOLUTION","Solution","solution anticoagulante et de conservation du sang humain"
 "40106","cutaneous spray","70","TOPICAL","Topique","164","SPRAY, BAG-ON-VALVE","Pulvérisation, sac-sur-valve","vaporisation cutanée"
 "40149","cutaneous spray powder","70","TOPICAL","Topique","2-55","AEROSOL, POWDER","Aérosol,Poudre","poudre pour vaporisation cutanée"
 "40085","powder for oral/rectal suspension","56-62","ORAL, RECTAL","Orale,Rectale","126","POWDER FOR SUSPENSION","Poudre pour suspension","poudre pour suspension orale/rectale"
