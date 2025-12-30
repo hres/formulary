@@ -1,4 +1,6 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"106527","vial","2","mL","Y","N","02562383","LEQEMBI EISAI LIMITED","fiole"
+"106527","vial","5","mL","Y","N","02562383","LEQEMBI EISAI LIMITED","fiole"
 "103925","vial","20","mL","Y","N","02550431","KETAMINE HYDROCHLORIDE INJECTION, USP FRESENIUS KABI CANADA LTD","fiole"
 "103926","vial","10","mL","Y","N","02550458","KETAMINE HYDROCHLORIDE INJECTION, USP FRESENIUS KABI CANADA LTD","fiole"
 "104206","bag","50","mL","Y","N","02553104","MIDAZOLAM INJECTION USP HIKMA CANADA LIMITED","sac"
