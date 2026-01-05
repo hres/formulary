@@ -1,0 +1,7 @@
+drug_code,active_ingredient_code,status,extract,ingredient,strength,strength_unit,drug_identification_number
+"12492","309","Changed","inactive","IRON (FERROUS SUCCINATE)","2.5","MG","00879851"
+"12298","309","Changed","inactive","IRON (IRON GLUTARATE)",".5","MG","01901117"
+"103962","22614","ADDED","active","NINTEDANIB (NINTEDANIB ESILATE)","100","MG","02550849"
+"12313","331","Changed","inactive","ZINC (ZINC SUCCINATE)",".5","MG","00849871"
+"12305","331","Changed","inactive","ZINC (ZINC GLUTARATE)",".5","MG","01900625"
+"22943","4803","Changed","inactive","CALCIUM (CALCIUM CITRATE)","20","MG","01959840"
