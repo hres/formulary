@@ -1,4 +1,4 @@
-code,formal_name,formal_name_fr
+"code","formal_name","formal_name_fr"
 "8000001","levothyroxine","lévothyroxine"
 "8000003","epinephrine","épinéphrine"
 "8000004","phenytoin sodium","phénytoïne sodique"
@@ -1924,3 +1924,10 @@ code,formal_name,formal_name_fr
 "8002559","crovalimab","crovalimab"
 "8002560","quizartinib","quizartinib"
 "8002561","retifanlimab","rétifanlimab"
+"8002563","bismuth oxide and metronidazole and tetracycline","oxyde de bismuth et métronidazole et tétracycline"
+"8002564","cipaglucosidase alfa","cipaglucosidase alfa"
+"8002565","efanesoctocog alfa","efanesoctocog alfa"
+"8002566","lecanemab","lécanémab"
+"8002567","pirtobrutinib","pirtobrutinib"
+"8002568","seladelpar","séladelpar"
+"8002569","sepiapterin","sépiaptérine"
