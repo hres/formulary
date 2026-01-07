@@ -1,0 +1,89 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9015306,loratadine 10 mg and pseudoephedrine sulfate 240 mg prolonged-release oral tablet,loratadine 10 mg et sulfate de pseudoéphédrine 240 mg comprimé oral à libération prolongée,ADDED
+9015329,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg prolonged-release oral tablet","ciprofloxacine (ciprofloxacine, chlorhydrate de ciprofloxacine) 1000 mg comprimé oral à libération prolongée",ADDED
+9015304,lecanemab 200 mg per 2 mL solution for injection vial,lécanémab 200 mg par 2 mL solution injectable fiole,ADDED
+9015318,methylphenidate hydrochloride 80 mg modified-release oral capsule,chlorhydrate de méthylphénidate 80 mg capsule orale à libération modifiée,ADDED
+9014221,heparin sodium 1000 unit per 10 mL solution for injection vial,héparine sodique 1000 unité par 10 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""19841231"" -> ""20260105"""
+9015314,methylphenidate hydrochloride 45 mg prolonged-release oral capsule,chlorhydrate de méthylphénidate 45 mg capsule orale à libération prolongée,ADDED
+9015317,methylphenidate hydrochloride 70 mg prolonged-release oral capsule,chlorhydrate de méthylphénidate 70 mg capsule orale à libération prolongée,ADDED
+9015319,methylphenidate hydrochloride 85 mg prolonged-release oral capsule,chlorhydrate de méthylphénidate 85 mg capsule orale à libération prolongée,ADDED
+9015324,retifanlimab 500 mg per 20 mL solution for injection vial,rétifanlimab 500 mg par 20 mL solution injectable fiole,ADDED
+9012438,methylphenidate hydrochloride 45 mg modified-release oral capsule,chlorhydrate de méthylphénidate 45 mg capsule orale à libération modifiée,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20171214"" -> ""20260105"""
+9012437,methylphenidate hydrochloride 35 mg modified-release oral capsule,chlorhydrate de méthylphénidate 35 mg capsule orale à libération modifiée,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20171214"" -> ""20260105"""
+9015326,seladelpar (seladelpar lysine) 10 mg oral capsule,séladelpar (séladelpar lysine) 10 mg capsule orale,ADDED
+9015316,methylphenidate hydrochloride 60 mg modified-release oral capsule,chlorhydrate de méthylphénidate 60 mg capsule orale à libération modifiée,ADDED
+9015305,lecanemab 500 mg per 5 mL solution for injection vial,lécanémab 500 mg par 5 mL solution injectable fiole,ADDED
+9014452,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg modified-release oral tablet","ciprofloxacine (ciprofloxacine, chlorhydrate de ciprofloxacine) 1000 mg comprimé oral à libération modifiée","ntp_status: ""INACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20220301"" -> ""20260105"""
+9013314,methoxsalen 200 mcg per 10 mL solution for injection vial,méthoxsalène 200 mcg par 10 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20131209"" -> ""20260105"""
+9015298,efanesoctocog alfa 3000 unit per vial powder for solution for injection with diluent solution syringe,efanesoctocog alfa 3000 unité par fiole poudre pour solution injectable avec solution diluante seringue,ADDED
+9015297,efanesoctocog alfa 1000 unit per vial powder for solution for injection with diluent solution syringe,efanesoctocog alfa 1000 unité par fiole poudre pour solution injectable avec solution diluante seringue,ADDED
+9015291,acetylsalicylic acid 25 mg and dipyridamole 200 mg prolonged-release oral capsule,acide acétylsalicylique 25 mg et dipyridamole 200 mg capsule orale à libération prolongée,ADDED
+9012439,methylphenidate hydrochloride 55 mg modified-release oral capsule,chlorhydrate de méthylphénidate 55 mg capsule orale à libération modifiée,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20171214"" -> ""20260105"""
+9015293,bismuth oxide (bismuth subcitrate potassium) 40 mg and metronidazole 125 mg and tetracycline hydrochloride 125 mg oral capsule,oxyde de bismuth (sous-citrate de bismuth potassique) 40 mg et métronidazole 125 mg et chlorhydrate de tétracycline 125 mg capsule orale,ADDED
+9005182,raltegravir (raltegravir potassium) 100 mg chewable tablet,raltégravir (raltégravir potassique) 100 mg comprimé à croquer,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20130211"" -> ""20240712"""
+9015296,dutasteride 0.5 mg and tamsulosin hydrochloride 0.4 mg prolonged-release oral capsule,"dutastéride 0,5 mg et chlorhydrate de tamsulosine 0,4 mg capsule orale à libération prolongée",ADDED
+9015325,risdiplam 5 mg oral tablet,risdiplam 5 mg comprimé oral,ADDED
+9015323,pirtobrutinib 50 mg oral tablet,pirtobrutinib 50 mg comprimé oral,ADDED
+9004801,acetylsalicylic acid 325 mg and citric acid 1000 mg and sodium bicarbonate 1916 mg effervescent oral tablet,acide acétylsalicylique 325 mg et acide citrique 1000 mg et bicarbonate de sodium 1916 mg comprimé oral effervescent,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19951231"" -> ""20231221"""
+9015309,methylphenidate hydrochloride 100 mg prolonged-release oral capsule,chlorhydrate de méthylphénidate 100 mg capsule orale à libération prolongée,ADDED
+9015295,dimenhydrinate 100 mg prolonged-release oral tablet,dimenhydrinate 100 mg comprimé oral à libération prolongée,ADDED
+9005583,taliglucerase alfa 200 unit per vial powder for solution for injection,taliglucérase alfa 200 unité par fiole poudre pour solution injectable,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20140908"" -> ""20250505"""
+9012774,acetylsalicylic acid 25 mg and dipyridamole 200 mg modified-release oral capsule,acide acétylsalicylique 25 mg et dipyridamole 200 mg capsule orale à libération modifiée,"ntp_status: ""INACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20240731"" -> ""20260105"""
+9015299,efanesoctocog alfa 4000 unit per vial powder for solution for injection with diluent solution syringe,efanesoctocog alfa 4000 unité par fiole poudre pour solution injectable avec solution diluante seringue,ADDED
+9015292,bazedoxifene (bazedoxifene acetate) 20 mg and conjugated estrogens 0.45 mg prolonged-release oral tablet,"bazedoxifène (acétate de bazedoxifène) 20 mg et oestrogènes conjugués 0,45 mg comprimé oral à libération prolongée",ADDED
+9002379,loratadine 5 mg and pseudoephedrine sulfate 120 mg modified-release oral tablet,loratadine 5 mg et sulfate de pseudoéphédrine 120 mg comprimé oral à libération modifiée,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""19911231"" -> ""20260105"""
+9015310,methylphenidate hydrochloride 20 mg modified-release oral capsule,chlorhydrate de méthylphénidate 20 mg capsule orale à libération modifiée,ADDED
+9014453,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg modified-release oral tablet","ciprofloxacine (ciprofloxacine, chlorhydrate de ciprofloxacine) 500 mg comprimé oral à libération modifiée","ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20030807"" -> ""20260105"""
+9015308,methoxsalen 200 mcg per 10 mL solution for blood fraction modification vial,méthoxsalène 200 mcg par 10 mL solution pour la préparation ex vivo de fractions sanguines fiole,ADDED
+9015327,sepiapterin 1000 mg per sachet powder for oral suspension,sépiaptérine 1000 mg par sachet poudre pour suspension orale,ADDED
+9001623,acetylsalicylic acid 650 mg gastro-resistant tablet,acide acétylsalicylique 650 mg comprimé gastrorésistant,"ntp_status_effective_time: ""20210729"" -> ""20250704"""
+9015300,efanesoctocog alfa 500 unit per vial powder for solution for injection with diluent solution syringe,efanesoctocog alfa 500 unité par fiole poudre pour solution injectable avec solution diluante seringue,ADDED
+9012436,methylphenidate hydrochloride 25 mg modified-release oral capsule,chlorhydrate de méthylphénidate 25 mg capsule orale à libération modifiée,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20171214"" -> ""20260105"""
+9013744,somatropin 20 mg per 2 mL solution for injection pen,somatropine 20 mg par 2 mL solution injectable stylo,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20130909"" -> ""20250131"""
+9012440,methylphenidate hydrochloride 70 mg modified-release oral capsule,chlorhydrate de méthylphénidate 70 mg capsule orale à libération modifiée,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20171214"" -> ""20260105"""
+9015328,sepiapterin 250 mg per sachet powder for oral suspension,sépiaptérine 250 mg par sachet poudre pour suspension orale,ADDED
+9002248,bethanechol chloride 50 mg oral tablet,chlorure de béthanéchol 50 mg comprimé oral,"ntp_status_effective_time: ""20250606"" -> ""20251204"""
+9015330,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg prolonged-release oral tablet","ciprofloxacine (ciprofloxacine, chlorhydrate de ciprofloxacine) 500 mg comprimé oral à libération prolongée",ADDED
+9013554,fexofenadine hydrochloride 60 mg and pseudoephedrine hydrochloride 120 mg modified-release oral tablet,chlorhydrate de fexofénadine 60 mg et chlorhydrate de pseudoéphédrine 120 mg comprimé oral à libération modifiée,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""19990429"" -> ""20260105"""
+9012441,methylphenidate hydrochloride 85 mg modified-release oral capsule,chlorhydrate de méthylphénidate 85 mg capsule orale à libération modifiée,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20171214"" -> ""20260105"""
+9015320,midazolam 50 mg per 50 mL solution for injection bag,midazolam 50 mg par 50 mL solution injectable sac,ADDED
+9015322,pirtobrutinib 100 mg oral tablet,pirtobrutinib 100 mg comprimé oral,ADDED
+9015321,miglustat 65 mg oral capsule,miglustat 65 mg capsule orale,ADDED
+9015303,heparin sodium 100 unit per mL lock flush solution 10 mL vial,héparine sodique 100 unité par mL solution de rinçage 10 mL fiole,ADDED
+9006080,bazedoxifene (bazedoxifene acetate) 20 mg and conjugated estrogens 0.45 mg modified-release oral tablet,"bazedoxifène (acétate de bazedoxifène) 20 mg et oestrogènes conjugués 0,45 mg comprimé oral à libération modifiée","ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20161220"" -> ""20260105"""
+9013452,loratadine 10 mg and pseudoephedrine sulfate 240 mg modified-release oral tablet,loratadine 10 mg et sulfate de pseudoéphédrine 240 mg comprimé oral à libération modifiée,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20050301"" -> ""20260105"""
+9004014,dimenhydrinate 100 mg modified-release oral tablet,dimenhydrinate 100 mg comprimé oral à libération modifiée,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20050210"" -> ""20260105"""
+9015301,fexofenadine hydrochloride 60 mg and pseudoephedrine hydrochloride 120 mg prolonged-release oral tablet,chlorhydrate de fexofénadine 60 mg et chlorhydrate de pseudoéphédrine 120 mg comprimé oral à libération prolongée,ADDED
+9015313,methylphenidate hydrochloride 40 mg modified-release oral capsule,chlorhydrate de méthylphénidate 40 mg capsule orale à libération modifiée,ADDED
+9012448,methylphenidate hydrochloride 100 mg modified-release oral capsule,chlorhydrate de méthylphénidate 100 mg capsule orale à libération modifiée,"ntp_status_effective_time: ""20180111"" -> ""20251106"""
+9015315,methylphenidate hydrochloride 55 mg prolonged-release oral capsule,chlorhydrate de méthylphénidate 55 mg capsule orale à libération prolongée,ADDED
+9015302,guaifenesin 600 mg prolonged-release oral tablet,guaïfénésine 600 mg comprimé oral à libération prolongée,ADDED
+9006201,alcohol anhydrous 0.25 mL per 5 mL and doxylamine succinate 6 mg per 5 mL and etafedrine hydrochloride 16.65 mg per 5 mL and hydrocodone bitartrate 1.65 mg per 5 mL and sodium citrate 200 mg per 5 mL syrup,"alcool anhydre 0,25 mL par 5 mL et succinate de doxylamine 6 mg par 5 mL et chlorhydrate d'étafédrine 16,65 mg par 5 mL et bitartrate d'hydrocodone 1,65 mg par 5 mL et citrate de sodium 200 mg par 5 mL sirop","ntp_formal_name: ""alcohol anhydrous 0.25 mL per 5 mL and doxylamine succinate 6 mg per 5 mL and etafedrin hydrochloride 16.65 mg per 5 mL and hydrocodone bitartrate 1.65 mg per 5 mL and sodium citrate 200 mg per 5 mL syrup"" -> ""alcohol anhydrous 0.25 mL per 5 mL and doxylamine succinate 6 mg per 5 mL and etafedrine̲ hydrochloride 16.65 mg per 5 mL and hydrocodone bitartrate 1.65 mg per 5 mL and sodium citrate 200 mg per 5 mL syrup"""
+9015307,loratadine 5 mg and pseudoephedrine sulfate 120 mg prolonged-release oral tablet,loratadine 5 mg et sulfate de pseudoéphédrine 120 mg comprimé oral à libération prolongée,ADDED
+9015294,cipaglucosidase alfa 105 mg per vial powder for solution for injection,cipaglucosidase alfa 105 mg par fiole poudre pour solution injectable,ADDED
+9006025,guaifenesin 600 mg modified-release oral tablet,guaïfénésine 600 mg comprimé oral à libération modifiée,"ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20160805"" -> ""20260105"""
+9015311,methylphenidate hydrochloride 25 mg prolonged-release oral capsule,chlorhydrate de méthylphénidate 25 mg capsule orale à libération prolongée,ADDED
+9004951,dutasteride 0.5 mg and tamsulosin hydrochloride 0.4 mg modified-release oral capsule,"dutastéride 0,5 mg et chlorhydrate de tamsulosine 0,4 mg capsule orale à libération modifiée","ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20111117"" -> ""20260105"""
+9015312,methylphenidate hydrochloride 35 mg prolonged-release oral capsule,chlorhydrate de méthylphénidate 35 mg capsule orale à libération prolongée,ADDED
