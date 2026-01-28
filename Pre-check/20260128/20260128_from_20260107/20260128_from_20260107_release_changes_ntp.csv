@@ -1,0 +1,34 @@
+ntp_code,ntp_formal_name,changes
+9001049,NA,"ntp_formal_name: ""ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg prolonged-release oral tablet"" -> NULL"
+4859dca156f6a95f84f542f7c9375ff0,cisatracurium (cisatracurium besylate) 2 mg per mL solution for injection,ADDED
+9015117,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+c5df3b69b35c6f79c148a179c56b410a,baclofen 2 mg per mL solution for injection,ADDED
+9015112,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial","ntp_status_effective_time: ""20230918"" -> ""20240924"""
+4a9c609eb8165ad4a87629ff506c0f22,acetaminophen 1000 mg per sachet and chlorpheniramine maleate 4 mg per sachet and dextromethorphan hydrobromide 30 mg per sachet powder for oral solution,ADDED
+a73bb2acbe07c1cc6c3349f307d0d20d,efanesoctocog alfa 2000 unit per vial powder for solution for injection,ADDED
+56023d3002a95cc07349de124675f0e1,nivolumab 120 mg per mL solution for injection,ADDED
+9011416,pindolol 5 mg oral tablet,"ntp_status_effective_time: ""19781231"" -> ""19881231"""
+325d1e1c50f3962cab498c376cec159c,octreotide (octreotide acetate) 100 mcg per mL solution for injection,ADDED
+b78acb56f9188182f8839baae35c37cd,tildrakizumab 100 mg per mL solution for injection,ADDED
+4513cb753445fd49e76806aebfa3f6bb,ustekinumab 45 mg per 0.5 mL solution for injection,ADDED
+9b81e89a21e8c524d21d1cfa026a9140,octreotide (octreotide acetate) 200 mcg per mL solution for injection,ADDED
+9000186,haloperidol 2 mg per mL oral solution,"ntp_status_effective_time: ""20190504"" -> ""20250704"""
+243997b9e6d5bfa99cd2e36e176d6386,octreotide (octreotide acetate) 500 mcg per mL solution for injection,ADDED
+85aaa4ceb0ea21f554ab681fc4c9ec80,ustekinumab 5 mg per mL solution for injection,ADDED
+2f09f3b08c70a48eb3491bc107aa0ad2,acetaminophen 650 mg per sachet and diphenhydramine hydrochloride 25 mg per sachet powder for oral solution,ADDED
+9014197,sevelamer carbonate 0.8 g per sachet powder for oral suspension,DELETED
+6576469ca0d6212f08ea3f42fe504297,ustekinumab 90 mg per mL solution for injection,ADDED
+9000788,risperidone (risperidone tartrate) 1 mg per mL oral solution,"ntp_status_effective_time: ""19980304"" -> ""20060705"""
+9001076,NA,"ntp_formal_name: ""ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg prolonged-release oral tablet"" -> NULL"
+9000741,haloperidol (haloperidol decanoate) 100 mg per 1 mL solution for injection vial,"ntp_status_effective_time: ""20170804"" -> ""20250704"""
+9015118,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+9014837,baclofen 0.05 mg per 1 mL solution for injection syringe,DELETED
+9001878,danazol 50 mg oral capsule,DELETED
+9011414,pindolol 10 mg oral tablet,"ntp_status_effective_time: ""19781231"" -> ""19881231"""
+9015116,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9001071,ketorolac tromethamine 0.4 % ophthalmic drops,DELETED
+9004156,acetaminophen 325 mg and phenylephrine hydrochloride 5 mg oral tablet,"ntp_status_effective_time: ""20240723"" -> ""20260108"""
+9013417,buserelin (buserelin acetate) 6.3 mg implant,DELETED
+9000045,phenytoin 30 mg per 5 mL oral suspension,DELETED
+9015119,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+9001952,polyvinyl alcohol 1.4 % ophthalmic drops,"ntp_status_effective_time: ""19821231"" -> ""19951231"""
