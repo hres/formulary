@@ -1,4 +1,4 @@
-"code","formal_name","formal_name_fr"
+code,formal_name,formal_name_fr
 "8000001","levothyroxine","lévothyroxine"
 "8000003","epinephrine","épinéphrine"
 "8000004","phenytoin sodium","phénytoïne sodique"
@@ -1931,3 +1931,8 @@
 "8002567","pirtobrutinib","pirtobrutinib"
 "8002568","seladelpar","séladelpar"
 "8002569","sepiapterin","sépiaptérine"
+"8002570","acetaminophen and dextromethorphan","acétaminophène et dextrométhorphane"
+"8002571","dextromethorphan and pheniramine and phenylephrine","dextrométhorphane et phéniramine et phényléphrine"
+"8002572","garadacimab","garadacimab"
+"8002573","mirvetuximab soravtansine","mirvétuximab soravtansine"
+"8002574","osilodrostat","osilodrostat"
