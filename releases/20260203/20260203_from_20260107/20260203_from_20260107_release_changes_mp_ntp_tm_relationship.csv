@@ -1,0 +1,74 @@
+drug_code,mp_code,mp_formal_name,changes
+14017,01997572,DANTRIUM INTRAVENOUS (dantrolene sodium 20 mg per vial powder for solution for injection) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""DANTRIUM INTRAVENOUS (dantrolene sodium 20 mg per vial powder for solution for injection) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."" -> ""DANTRIUM INTRAVENOUS (dantrolene sodium 20 mg per vial powder for solution for injection) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲."""
+14019,01997602,DANTRIUM CAPSULES (dantrolene sodium 25 mg oral capsule) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""DANTRIUM CAPSULES (dantrolene sodium 25 mg oral capsule) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."" -> ""DANTRIUM CAPSULES (dantrolene sodium 25 mg oral capsule) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲."""
+27903,02072955,SOLUPREP LD SPONGE (chlorhexidine gluconate 0.05 % medicated sponge) SOLVENTUM CANADA LIMITED,"mp_formal_name: ""SOLUPREP LD SPONGE (chlorhexidine gluconate 0.05 % medicated sponge) 3̲M̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲C̲O̲M̲P̲A̲N̲Y̲ LIMITED"" -> ""SOLUPREP LD SPONGE (chlorhexidine gluconate 0.05 % medicated sponge) S̲O̲L̲V̲E̲N̲T̲U̲M̲ ̲C̲A̲N̲A̲D̲A̲ LIMITED"""
+72225,02247916,"CIPRO XL (ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg prolonged-release oral tablet) BAYER INC","ntp_code: ""9015330"" -> ""9001049"""
+73669,02251787,"CIPRO XL (ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg prolonged-release oral tablet) BAYER INC","ntp_code: ""9015329"" -> ""9001076"""
+76338,02277778,"MEDLINE REMEDY SIMPLIFIED PREVENT CRITIC-AID CLEAR (white petrolatum 71.5 % cutaneous ointment) MEDLINE INDUSTRIES, LP","mp_formal_name: ""CRITIC-AID CLEAR (white petrolatum 71.5 % cutaneous ointment) C̲O̲L̲O̲P̲L̲A̲S̲T̲ ̲A̲/̲S̲"" -> ""M̲E̲D̲L̲I̲N̲E̲ ̲R̲E̲M̲E̲D̲Y̲ ̲S̲I̲M̲P̲L̲I̲F̲I̲E̲D̲ ̲P̲R̲E̲V̲E̲N̲T̲ ̲CRITIC-AID CLEAR (white petrolatum 71.5 % cutaneous ointment) M̲E̲D̲L̲I̲N̲E̲ ̲I̲N̲D̲U̲S̲T̲R̲I̲E̲S̲,̲ ̲L̲P̲"""
+76591,02280248,TESTIM 1% (testosterone 1 % transdermal gel 5 g tube) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""TESTIM 1% (testosterone 1 % transdermal gel 5 g tube) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."" -> ""TESTIM 1% (testosterone 1 % transdermal gel 5 g tube) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲."""
+79244,02306743,ANAPEN JUNIOR (epinephrine 0.15 mg per 0.3 mL solution for injection syringe) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""ANAPEN JUNIOR (epinephrine 0.15 mg per 0.3 mL solution for injection syringe) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."" -> ""ANAPEN JUNIOR (epinephrine 0.15 mg per 0.3 mL solution for injection syringe) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲."""
+79245,02306751,ANAPEN (epinephrine 0.3 mg per 0.3 mL solution for injection syringe) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""ANAPEN (epinephrine 0.3 mg per 0.3 mL solution for injection syringe) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."" -> ""ANAPEN (epinephrine 0.3 mg per 0.3 mL solution for injection syringe) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲."""
+88319,02398257,SILENOR (doxepin (doxepin hydrochloride) 3 mg oral tablet) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""SILENOR (doxepin (doxepin hydrochloride) 3 mg oral tablet) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."" -> ""SILENOR (doxepin (doxepin hydrochloride) 3 mg oral tablet) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲."""
+88320,02398265,SILENOR (doxepin (doxepin hydrochloride) 6 mg oral tablet) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""SILENOR (doxepin (doxepin hydrochloride) 6 mg oral tablet) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."" -> ""SILENOR (doxepin (doxepin hydrochloride) 6 mg oral tablet) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲."""
+90104,02416433,"PMS-CIPROFLOXACIN XL (ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg prolonged-release oral tablet) PHARMASCIENCE INC","ntp_code: ""9015330"" -> ""9001049"""
+91274,02428261,APO-SITAGLIPTIN (sitagliptin (sitagliptin phosphate monohydrate) 25 mg oral tablet) APOTEX INC,ADDED
+91275,02428288,APO-SITAGLIPTIN (sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet) APOTEX INC,ADDED
+91276,02428296,APO-SITAGLIPTIN (sitagliptin (sitagliptin phosphate monohydrate) 100 mg oral tablet) APOTEX INC,ADDED
+91765,02433257,MUCINEX CONGESTION & COUGH (dextromethorphan hydrobromide 15 mg per 5 mL and guaifenesin 100 mg per 5 mL syrup) RB HEALTH (CANADA) INC.,"mp_formal_name: ""MUCINEX M̲U̲L̲T̲I̲-̲A̲C̲T̲I̲O̲N̲ ̲W̲E̲T̲ ̲&̲ ̲D̲R̲Y̲ ̲C̲O̲U̲G̲H̲ ̲L̲I̲Q̲U̲I̲D̲ (dextromethorphan hydrobromide 15 mg per 5 mL and guaifenesin 100 mg per 5 mL syrup) RB HEALTH (CANADA) INC."" -> ""MUCINEX C̲O̲N̲G̲E̲S̲T̲I̲O̲N̲ ̲&̲ ̲C̲O̲U̲G̲H̲ (dextromethorphan hydrobromide 15 mg per 5 mL and guaifenesin 100 mg per 5 mL syrup) RB HEALTH (CANADA) INC."""
+93375,02448068,HELLO CLEAN MINT (cetylpyridinium chloride 0.075 % mouthwash) COLGATE-PALMOLIVE CANADA INC,ADDED
+93383,02448149,ALTUVIIIO (efanesoctocog alfa 2000 unit per vial powder for solution for injection with diluent solution syringe) SANOFI-AVENTIS CANADA INC,ADDED
+93504,02449226,JAMP BRIMONIDINE (brimonidine tartrate 0.2 % ophthalmic drops) JAMP PHARMA CORPORATION,"mp_formal_name: ""JAMP-̲BRIMONIDINE (brimonidine tartrate 0.2 % ophthalmic drops) JAMP PHARMA CORPORATION"" -> ""JAMP ̲BRIMONIDINE (brimonidine tartrate 0.2 % ophthalmic drops) JAMP PHARMA CORPORATION"""
+93975,02453215,LUNESTA (eszopiclone 2 mg oral tablet) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""LUNESTA (eszopiclone 2 mg oral tablet) S̲U̲M̲I̲T̲O̲M̲O̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲,̲ INC."" -> ""LUNESTA (eszopiclone 2 mg oral tablet) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ INC."""
+93976,02453223,LUNESTA (eszopiclone 3 mg oral tablet) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""LUNESTA (eszopiclone 3 mg oral tablet) S̲U̲M̲I̲T̲O̲M̲O̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲,̲ INC."" -> ""LUNESTA (eszopiclone 3 mg oral tablet) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ INC."""
+94427,02457199,TARO-DULOXETINE (duloxetine (duloxetine hydrochloride) 30 mg gastro-resistant capsule) TARO PHARMACEUTICALS INC,ADDED
+94428,02457202,TARO-DULOXETINE (duloxetine (duloxetine hydrochloride) 60 mg gastro-resistant capsule) TARO PHARMACEUTICALS INC,ADDED
+96884,02478110,EXTRA STRENGTH TYLENOL COLD & SINUS PLUS (acetaminophen 500 mg and pseudoephedrine hydrochloride 60 mg oral tablet) KENVUE CANADA INC.,"mp_formal_name: ""EXTRA STRENGTH TYLENOL S̲I̲N̲U̲S̲ ̲P̲R̲E̲S̲S̲U̲R̲E̲ ̲&̲ ̲P̲A̲I̲N̲ ̲(̲a̲c̲e̲t̲a̲m̲i̲n̲o̲p̲h̲e̲n̲ ̲5̲0̲0̲ ̲m̲g̲ ̲a̲n̲d̲ ̲p̲s̲e̲u̲d̲o̲e̲p̲h̲e̲d̲r̲i̲n̲e̲ ̲h̲y̲d̲r̲o̲c̲h̲l̲o̲r̲i̲d̲e̲ ̲6̲0̲ ̲m̲g̲ ̲o̲r̲a̲l̲ ̲t̲a̲b̲l̲e̲t̲)̲ ̲M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""EXTRA STRENGTH TYLENOL C̲O̲L̲D̲ ̲&̲ ̲S̲I̲N̲U̲S̲ ̲P̲L̲U̲S̲ ̲(̲a̲c̲e̲t̲a̲m̲i̲n̲o̲p̲h̲e̲n̲ ̲5̲0̲0̲ ̲m̲g̲ ̲a̲n̲d̲ ̲p̲s̲e̲u̲d̲o̲e̲p̲h̲e̲d̲r̲i̲n̲e̲ ̲h̲y̲d̲r̲o̲c̲h̲l̲o̲r̲i̲d̲e̲ ̲6̲0̲ ̲m̲g̲ ̲o̲r̲a̲l̲ ̲t̲a̲b̲l̲e̲t̲)̲ ̲K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+98513,02495198,CREST PRO-HEALTH NIGHTLY BACTERIA GUARD (cetylpyridinium chloride 0.07 % mouthwash) PROCTER & GAMBLE INC,"mp_formal_name: ""CREST G̲U̲M̲ ̲C̲A̲R̲E̲ (cetylpyridinium chloride 0.07 % mouthwash) PROCTER & GAMBLE INC"" -> ""CREST P̲R̲O̲-̲H̲E̲A̲L̲T̲H̲ ̲N̲I̲G̲H̲T̲L̲Y̲ ̲B̲A̲C̲T̲E̲R̲I̲A̲ ̲G̲U̲A̲R̲D̲ (cetylpyridinium chloride 0.07 % mouthwash) PROCTER & GAMBLE INC"""
+99959,02510367,AURO-CANAGLIFLOZIN (canagliflozin 100 mg oral tablet) AURO PHARMA INC,ADDED
+99960,02510375,AURO-CANAGLIFLOZIN (canagliflozin 300 mg oral tablet) AURO PHARMA INC,ADDED
+100015,02510871,CREST PRO-HEALTH GUM DETOXIFY (cetylpyridinium chloride 0.07 % mouthwash) PROCTER & GAMBLE INC,"mp_formal_name: ""O̲R̲A̲L̲-̲B̲ ̲G̲U̲M̲ ̲T̲H̲E̲R̲A̲P̲Y (cetylpyridinium chloride 0.07 % mouthwash) PROCTER & GAMBLE INC"" -> ""C̲R̲E̲S̲T̲ ̲P̲R̲O̲-̲H̲E̲A̲L̲T̲H̲ ̲G̲U̲M̲ ̲D̲E̲T̲O̲X̲I̲F̲Y (cetylpyridinium chloride 0.07 % mouthwash) PROCTER & GAMBLE INC"""
+100470,02515318,PHARMA-LEVETIRACETAM (levetiracetam 100 mg per mL oral solution) PHARMASCIENCE INC,ADDED
+102746,02538776,XCOPRI TITRATION PACK 1 (cenobamate 12.5 mg oral tablet with cenobamate 25 mg oral tablet) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""XCOPRI (cenobamate 12.5 mg oral tablet with cenobamate 25 mg oral tablet) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."" -> ""XCOPRI ̲T̲I̲T̲R̲A̲T̲I̲O̲N̲ ̲P̲A̲C̲K̲ ̲1̲ (cenobamate 12.5 mg oral tablet with cenobamate 25 mg oral tablet) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲."""
+102747,02538784,XCOPRI TITRATION PACK 2 (cenobamate 50 mg oral tablet with cenobamate 100 mg oral tablet) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""XCOPRI (cenobamate 50 mg oral tablet with cenobamate 100 mg oral tablet) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."" -> ""XCOPRI ̲T̲I̲T̲R̲A̲T̲I̲O̲N̲ ̲P̲A̲C̲K̲ ̲2̲ (cenobamate 50 mg oral tablet with cenobamate 100 mg oral tablet) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲."""
+103167,02543184,ACCEL-DAPAGLIFLOZIN (dapagliflozin 5 mg oral tablet) ACCEL PHARMA INC,ADDED
+103168,02543192,ACCEL-DAPAGLIFLOZIN (dapagliflozin 10 mg oral tablet) ACCEL PHARMA INC,ADDED
+103187,02543400,NAT-SITAGLIPTIN (sitagliptin (sitagliptin phosphate monohydrate) 100 mg oral tablet) NATCO PHARMA (CANADA) INC,ADDED
+103194,02543486,JAMP CANAGLIFLOZIN (canagliflozin 100 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103195,02543494,JAMP CANAGLIFLOZIN (canagliflozin 300 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+103755,02548704,PRZ-NEBIVOLOL (nebivolol (nebivolol hydrochloride) 2.5 mg oral tablet) PHARMARIS CANADA INC,ADDED
+103756,02548712,PRZ-NEBIVOLOL (nebivolol (nebivolol hydrochloride) 5 mg oral tablet) PHARMARIS CANADA INC,ADDED
+103757,02548720,PRZ-NEBIVOLOL (nebivolol (nebivolol hydrochloride) 10 mg oral tablet) PHARMARIS CANADA INC,ADDED
+103758,02548739,PRZ-NEBIVOLOL (nebivolol (nebivolol hydrochloride) 20 mg oral tablet) PHARMARIS CANADA INC,ADDED
+104072,02552027,TARO-METFORMIN XR (metformin hydrochloride 500 mg prolonged-release oral tablet) TARO PHARMACEUTICALS INC,ADDED
+104148,02552515,NEOCITRAN EXTRA STRENGTH COLD & COUGH (acetaminophen 650 mg per sachet and dextromethorphan hydrobromide 20 mg per sachet powder for oral solution) HALEON CANADA ULC,ADDED
+104150,02552531,NEOCITRAN EXTRA STRENGTH COLD & COUGH NIGHT (acetaminophen 650 mg per sachet and diphenhydramine hydrochloride 25 mg per sachet powder for oral solution) HALEON CANADA ULC,ADDED
+104192,02552957,AURO-PAZOPANIB (pazopanib (pazopanib hydrochloride) 200 mg oral tablet) AURO PHARMA INC,"mp_formal_name: ""E̲U̲G̲I̲A̲-PAZOPANIB (pazopanib (pazopanib hydrochloride) 200 mg oral tablet) E̲U̲G̲I̲A̲ PHARMA INC.̲"" -> ""A̲U̲R̲O̲-PAZOPANIB (pazopanib (pazopanib hydrochloride) 200 mg oral tablet) A̲U̲R̲O̲ PHARMA INC"""
+104229,02553341,BACLOFEN INJECTION USP (baclofen 10 mg per 5 mL solution for injection ampoule) JAMP PHARMA CORPORATION,ADDED
+104244,02553511,VALACYCLOVIR (valacyclovir (valacyclovir hydrochloride) 1000 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+104264,02553724,JAMP IBUPROFEN SUSPENSION (ibuprofen 100 mg per 5 mL oral suspension) JAMP PHARMA CORPORATION,ADDED
+104278,02553880,TOPIRAMATE (topiramate 200 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+104330,02554445,AURO-VARENICLINE (varenicline (varenicline tartrate) 0.5 mg oral tablet) AURO PHARMA INC,ADDED
+104331,02554453,AURO-VARENICLINE (varenicline (varenicline tartrate) 1 mg oral tablet) AURO PHARMA INC,ADDED
+104333,02554488,LISINOPRIL TABLETS (lisinopril (lisinopril dihydrate) 5 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+104334,02554496,LISINOPRIL TABLETS (lisinopril (lisinopril dihydrate) 10 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+104335,02554518,LISINOPRIL TABLETS (lisinopril (lisinopril dihydrate) 20 mg oral tablet) SIVEM PHARMACEUTICALS ULC,ADDED
+104343,02554593,NEOCITRAN ULTRA STRENGTH FLU & COLD NIGHT (acetaminophen 1000 mg per sachet and chlorpheniramine maleate 4 mg per sachet and dextromethorphan hydrobromide 30 mg per sachet powder for oral solution) HALEON CANADA ULC,ADDED
+104344,02554607,NEOCITRAN ULTRA STRENGTH FLU & COLD (acetaminophen 1000 mg per sachet and dextromethorphan hydrobromide 30 mg per sachet powder for oral solution) HALEON CANADA ULC,ADDED
+106066,02557320,OPDIVO SC (nivolumab 600 mg per 5 mL solution for injection vial) BRISTOL-MYERS SQUIBB CANADA,ADDED
+106144,02558157,NAT-SITAGLIPTIN (sitagliptin (sitagliptin phosphate monohydrate) 25 mg oral tablet) NATCO PHARMA (CANADA) INC,ADDED
+106145,02558165,NAT-SITAGLIPTIN (sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet) NATCO PHARMA (CANADA) INC,ADDED
+106200,02558785,METFORMIN ER (metformin hydrochloride 500 mg prolonged-release oral tablet) SANIS HEALTH INC,ADDED
+106201,02558793,METFORMIN ER (metformin hydrochloride 1000 mg prolonged-release oral tablet) SANIS HEALTH INC,ADDED
+106211,02558904,ILUMYA (tildrakizumab 100 mg per 1 mL solution for injection pen) SUN PHARMACEUTICAL INDUSTRIES LIMITED,ADDED
+106212,02558912,ISTURISA (osilodrostat (osilodrostat phosphate) 1 mg oral tablet) RECORDATI RARE DISEASES CANADA INC,ADDED
+106213,02558920,ISTURISA (osilodrostat (osilodrostat phosphate) 5 mg oral tablet) RECORDATI RARE DISEASES CANADA INC,ADDED
+106332,02560240,OCTREOTIDE INJECTION (octreotide (octreotide acetate) 100 mcg per 1 mL solution for injection vial) STERIMAX INC,ADDED
+106336,02560283,OCTREOTIDE INJECTION (octreotide (octreotide acetate) 1000 mcg per 5 mL solution for injection vial) STERIMAX INC,ADDED
+106337,02560291,OCTREOTIDE INJECTION (octreotide (octreotide acetate) 500 mcg per 1 mL solution for injection vial) STERIMAX INC,ADDED
+106427,02561298,ZDS-LIOTHYRONINE (liothyronine (liothyronine sodium) 5 mcg oral tablet) ZYDUS LIFESCIENCES LIMITED,ADDED
+106428,02561301,ZDS-LIOTHYRONINE (liothyronine (liothyronine sodium) 25 mcg oral tablet) ZYDUS LIFESCIENCES LIMITED,ADDED
+106501,02562103,YESINTEK (ustekinumab 90 mg per 1 mL solution for injection syringe) BIOSIMILAR COLLABORATIONS IRELAND LIMITED,ADDED
+106502,02562111,YESINTEK I.V. (ustekinumab 130 mg per 26 mL solution for injection vial) BIOSIMILAR COLLABORATIONS IRELAND LIMITED,ADDED
+106606,02563266,CISATRACURIUM BESYLATE INJECTION USP MULTI-DOSE (cisatracurium (cisatracurium besylate) 20 mg per 10 mL solution for injection vial) STERIMAX INC,ADDED
+NA,77701199,YESINTEK (ustekinumab 45 mg per 0.5 mL solution for injection syringe) BIOSIMILAR COLLABORATIONS IRELAND LIMITED,ADDED
+NA,77701200,YESINTEK (ustekinumab 45 mg per 0.5 mL solution for injection vial) BIOSIMILAR COLLABORATIONS IRELAND LIMITED,ADDED
