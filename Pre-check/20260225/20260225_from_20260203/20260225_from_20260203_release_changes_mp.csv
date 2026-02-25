@@ -1,0 +1,85 @@
+drug_code,mp_code,mp_formal_name,changes
+1931,00287873,SANDOZ COLCHICINE (colchicine 0.6 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+5672,00441775,APO-TRIAZIDE (hydrochlorothiazide 25 mg and triamterene 50 mg oral tablet) APOTEX INC,"Health_Canada_product_name: ""APO TRIAZIDE"" -> ""APO-TRIAZIDE""
+mp_formal_name: ""APO ̲TRIAZIDE (hydrochlorothiazide 25 mg and triamterene 50 mg oral tablet) APOTEX INC"" -> ""APO-̲TRIAZIDE (hydrochlorothiazide 25 mg and triamterene 50 mg oral tablet) APOTEX INC"""
+6379,00590827,VOLTAREN SR (diclofenac sodium 100 mg prolonged-release oral tablet) NOVARTIS PHARMACEUTICALS CANADA INC,DELETED
+7627,00740713,APO-DOXY (doxycycline (doxycycline hyclate) 100 mg oral capsule) APOTEX INC,"Health_Canada_product_name: ""APO-DOXY CAP 100MG"" -> ""APO-DOXY""
+mp_formal_name: ""APO-DOXY ̲C̲A̲P̲ ̲1̲0̲0̲M̲G̲ (doxycycline (doxycycline hyclate) 100 mg oral capsule) APOTEX INC"" -> ""APO-DOXY (doxycycline (doxycycline hyclate) 100 mg oral capsule) APOTEX INC"""
+10383,00874256,APO-DOXY-TABS (doxycycline (doxycycline hyclate) 100 mg oral tablet) APOTEX INC,"Health_Canada_product_name: ""APO-DOXY TABS 100MG"" -> ""APO-DOXY-TABS""
+mp_formal_name: ""APO-DOXY ̲T̲A̲B̲S̲ ̲1̲0̲0̲M̲G̲ (doxycycline (doxycycline hyclate) 100 mg oral tablet) APOTEX INC"" -> ""APO-DOXY-̲T̲A̲B̲S̲ (doxycycline (doxycycline hyclate) 100 mg oral tablet) APOTEX INC"""
+16678,02063670,SANTYL (collagenase clostridium histolyticum 250 unit per g cutaneous ointment) SMITH & NEPHEW INC,"mp_status_effective_time: ""20240222"" -> ""20260128"""
+49993,02230732,TRINIPATCH 0.2 (nitroglycerin 0.2 mg per hour transdermal patch) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""TRINIPATCH 0.2 (nitroglycerin 0.2 mg per hour transdermal patch) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."" -> ""TRINIPATCH 0.2 (nitroglycerin 0.2 mg per hour transdermal patch) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲."""
+49995,02230733,TRINIPATCH 0.4 (nitroglycerin 0.4 mg per hour transdermal patch) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""TRINIPATCH 0.4 (nitroglycerin 0.4 mg per hour transdermal patch) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."" -> ""TRINIPATCH 0.4 (nitroglycerin 0.4 mg per hour transdermal patch) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲."""
+49996,02230734,TRINIPATCH 0.6 (nitroglycerin 0.6 mg per hour transdermal patch) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""TRINIPATCH 0.6 (nitroglycerin 0.6 mg per hour transdermal patch) E̲N̲D̲O̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲L̲T̲D̲."" -> ""TRINIPATCH 0.6 (nitroglycerin 0.6 mg per hour transdermal patch) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ ̲I̲N̲C̲."""
+60205,02236913,FRAXIPARINE (nadroparin calcium 2850 unit per 0.3 mL solution for injection syringe) ASPEN PHARMACARE CANADA INC.,"mp_status_effective_time: ""20230717"" -> ""20251008"""
+62054,02238626,INFANTS' MOTRIN (ibuprofen 40 mg per mL oral drops) KENVUE CANADA INC.,"mp_formal_name: ""INFANTS' MOTRIN (ibuprofen 40 mg per mL oral drops) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""INFANTS' MOTRIN (ibuprofen 40 mg per mL oral drops) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+63628,02240114,FRAXIPARINE FORTE (nadroparin calcium 19000 unit per 1 mL solution for injection syringe) ASPEN PHARMACARE CANADA INC.,"mp_status_effective_time: ""20220726"" -> ""20251008"""
+66076,02242365,CHILDREN'S MOTRIN (ibuprofen 100 mg per 5 mL oral suspension) KENVUE CANADA INC.,"mp_formal_name: ""CHILDREN'S MOTRIN (ibuprofen 100 mg per 5 mL oral suspension) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""CHILDREN'S MOTRIN (ibuprofen 100 mg per 5 mL oral suspension) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+71586,02247343,CHILDREN'S MOTRIN CHEWABLE TABLETS (ibuprofen 50 mg chewable tablet) KENVUE CANADA INC.,"mp_formal_name: ""CHILDREN'S MOTRIN CHEWABLE TABLETS (ibuprofen 50 mg chewable tablet) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""CHILDREN'S MOTRIN CHEWABLE TABLETS (ibuprofen 50 mg chewable tablet) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲""
+mp_status_effective_time: ""20190731"" -> ""20260211"""
+71587,02247344,JUNIOR STRENGTH MOTRIN CHEWABLE TABLETS (ibuprofen 100 mg chewable tablet) KENVUE CANADA INC.,"mp_formal_name: ""JUNIOR STRENGTH MOTRIN CHEWABLE TABLETS (ibuprofen 100 mg chewable tablet) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""JUNIOR STRENGTH MOTRIN CHEWABLE TABLETS (ibuprofen 100 mg chewable tablet) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲""
+mp_status_effective_time: ""20190731"" -> ""20260211"""
+73562,02250675,NRA-ASA 80 MG CROQUABLE (acetylsalicylic acid 80 mg chewable tablet) NORA PHARMA INC,"mp_status_effective_time: ""20221020"" -> ""20260123"""
+83835,02353121,TERBINAFINE (terbinafine (terbinafine hydrochloride) 250 mg oral tablet) SANIS HEALTH INC,"mp_status_effective_time: ""20250929"" -> ""20260209"""
+85692,02371790,MAR-RISPERIDONE (risperidone 2 mg oral tablet) MARCAN PHARMACEUTICALS INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20220706"" -> ""20130417"""
+85693,02371804,MAR-RISPERIDONE (risperidone 3 mg oral tablet) MARCAN PHARMACEUTICALS INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20220706"" -> ""20130417"""
+85694,02371812,MAR-RISPERIDONE (risperidone 4 mg oral tablet) MARCAN PHARMACEUTICALS INC,"mp_status: ""INACTIVE"" -> ""ACTIVE""
+mp_status_effective_time: ""20220706"" -> ""20130417"""
+87229,02386704,DOM-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 5 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20201201"" -> ""20250509"""
+87230,02386712,DOM-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 10 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20201031"" -> ""20250509"""
+87232,02386720,DOM-ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 20 mg oral tablet) DOMINION PHARMACAL,"mp_status_effective_time: ""20191031"" -> ""20250509"""
+87770,02392429,ISENTRESS (raltegravir (raltegravir potassium) 25 mg chewable tablet) MERCK CANADA INC,DELETED
+90046,02415879,PRO-LEVOFLOXACIN (levofloxacin (levofloxacin hemihydrate) 500 mg oral tablet) PRO DOC LIMITEE,"Health_Canada_product_name: ""LEVOFLOXACIN"" -> ""PRO-LEVOFLOXACIN""
+mp_formal_name: ""LEVOFLOXACIN (levofloxacin (levofloxacin hemihydrate) 500 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲LEVOFLOXACIN (levofloxacin (levofloxacin hemihydrate) 500 mg oral tablet) PRO DOC LIMITEE"""
+90628,02421631,NIFEDIPINE ER (nifedipine 30 mg prolonged-release oral tablet) PRO DOC LIMITEE,DELETED
+90637,02421712,DUTASTERIDE (dutasteride 0.5 mg oral capsule) PRO DOC LIMITEE,DELETED
+91597,02431548,METHYLENE BLUE INJECTION USP (methylene blue 50 mg per 5 mL solution for injection ampoule) HIKMA CANADA LIMITED,"mp_status_effective_time: ""20220606"" -> ""20260120"""
+92012,02435772,APO-SITAGLIPTIN-METFORMIN (metformin hydrochloride 500 mg and sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet) APOTEX INC,ADDED
+92013,02435780,APO-SITAGLIPTIN-METFORMIN (metformin hydrochloride 850 mg and sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet) APOTEX INC,ADDED
+92014,02435799,APO-SITAGLIPTIN-METFORMIN (metformin hydrochloride 1000 mg and sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet) APOTEX INC,ADDED
+93677,02450615,FRAXIPARINE (nadroparin calcium 1900 unit per 0.2 mL solution for injection syringe) ASPEN PHARMACARE CANADA INC.,"mp_status_effective_time: ""20180723"" -> ""20251008"""
+93678,02450623,FRAXIPARINE (nadroparin calcium 3800 unit per 0.4 mL solution for injection syringe) ASPEN PHARMACARE CANADA INC.,"mp_status_effective_time: ""20230717"" -> ""20251008"""
+93679,02450631,FRAXIPARINE (nadroparin calcium 5700 unit per 0.6 mL solution for injection syringe) ASPEN PHARMACARE CANADA INC.,"mp_status_effective_time: ""20240723"" -> ""20251008"""
+93680,02450658,FRAXIPARINE (nadroparin calcium 9500 unit per 1 mL solution for injection syringe) ASPEN PHARMACARE CANADA INC.,"mp_status_effective_time: ""20230717"" -> ""20251008"""
+93681,02450666,FRAXIPARINE FORTE (nadroparin calcium 15200 unit per 0.8 mL solution for injection syringe) ASPEN PHARMACARE CANADA INC.,"mp_status_effective_time: ""20220726"" -> ""20251008"""
+93682,02450674,FRAXIPARINE FORTE (nadroparin calcium 11400 unit per 0.6 mL solution for injection syringe) ASPEN PHARMACARE CANADA INC.,"mp_status_effective_time: ""20220726"" -> ""20251008"""
+95633,02467976,"DEXMEDETOMIDINE HYDROCHLORIDE FOR INJECTION, USP (dexmedetomidine (dexmedetomidine hydrochloride) 200 mcg per 2 mL solution for injection vial) JUNO PHARMA CANADA INC.","mp_formal_name: ""DEXMEDETOMIDINE HYDROCHLORIDE FOR INJECTION, USP (dexmedetomidine (dexmedetomidine hydrochloride) 200 mcg per 2 mL solution for injection vial) JUNO PHARMAC̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲C̲O̲R̲P̲."" -> ""DEXMEDETOMIDINE HYDROCHLORIDE FOR INJECTION, USP (dexmedetomidine (dexmedetomidine hydrochloride) 200 mcg per 2 mL solution for injection vial) JUNO PHARMA ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲."""
+96975,02479044,DANDRUFF SHAMPOO-CLASSIC CLEAN (pyrithione zinc 1 % shampoo) APOLLO HEALTH AND BEAUTY CARE,"Health_Canada_product_name: ""ORIGINAL / ORIGINALE DANDRUFF PYRITHIONE ZINC SHAMPOO & CONDITIONER"" -> ""DANDRUFF SHAMPOO-CLASSIC CLEAN""
+mp_formal_name: ""O̲R̲I̲G̲I̲N̲A̲L̲ ̲/̲ ̲O̲R̲I̲G̲I̲N̲A̲L̲E̲ ̲D̲A̲N̲D̲R̲U̲F̲F̲ ̲P̲Y̲R̲I̲T̲H̲I̲O̲N̲E̲ ̲Z̲I̲N̲C̲ ̲S̲H̲A̲M̲P̲O̲O̲ ̲&̲ ̲C̲O̲N̲D̲I̲T̲I̲O̲N̲E̲R̲ (pyrithione zinc 1 % shampoo) APOLLO HEALTH AND BEAUTY CARE"" -> ""D̲A̲N̲D̲R̲U̲F̲F̲ ̲S̲H̲A̲M̲P̲O̲O̲-̲C̲L̲A̲S̲S̲I̲C̲ ̲C̲L̲E̲A̲N̲ (pyrithione zinc 1 % shampoo) APOLLO HEALTH AND BEAUTY CARE"""
+97754,02487365,DEXMEDETOMIDINE HYDROCHLORIDE INJECTION (dexmedetomidine (dexmedetomidine hydrochloride) 200 mcg per 50 mL solution for injection vial) JUNO PHARMA CANADA INC.,"mp_formal_name: ""DEXMEDETOMIDINE HYDROCHLORIDE INJECTION (dexmedetomidine (dexmedetomidine hydrochloride) 200 mcg per 50 mL solution for injection vial) JUNO PHARMAC̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲C̲O̲R̲P̲."" -> ""DEXMEDETOMIDINE HYDROCHLORIDE INJECTION (dexmedetomidine (dexmedetomidine hydrochloride) 200 mcg per 50 mL solution for injection vial) JUNO PHARMA ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲."""
+97755,02487373,DEXMEDETOMIDINE HYDROCHLORIDE INJECTION (dexmedetomidine (dexmedetomidine hydrochloride) 400 mcg per 100 mL solution for injection vial) JUNO PHARMA CANADA INC.,"mp_formal_name: ""DEXMEDETOMIDINE HYDROCHLORIDE INJECTION (dexmedetomidine (dexmedetomidine hydrochloride) 400 mcg per 100 mL solution for injection vial) JUNO PHARMAC̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲C̲O̲R̲P̲."" -> ""DEXMEDETOMIDINE HYDROCHLORIDE INJECTION (dexmedetomidine (dexmedetomidine hydrochloride) 400 mcg per 100 mL solution for injection vial) JUNO PHARMA ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲."""
+98625,02496372,XOFLUZA (baloxavir marboxil 40 mg oral tablet) HOFFMANN-LA ROCHE LIMITED,ADDED
+99377,02504340,CREST PRO-HEALTH GERM GUARD (cetylpyridinium chloride 0.07 % mouthwash) PROCTER & GAMBLE INC,"Health_Canada_product_name: ""CREST PRO-HEALTH BACTERIA GUARD"" -> ""CREST PRO-HEALTH GERM GUARD""
+mp_formal_name: ""CREST PRO-HEALTH B̲A̲C̲T̲E̲R̲I̲A̲ GUARD (cetylpyridinium chloride 0.07 % mouthwash) PROCTER & GAMBLE INC"" -> ""CREST PRO-HEALTH G̲E̲R̲M̲ GUARD (cetylpyridinium chloride 0.07 % mouthwash) PROCTER & GAMBLE INC"""
+101593,02526875,SANDOZ AMBRISENTAN TABLETS (ambrisentan 5 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+101594,02526883,SANDOZ AMBRISENTAN TABLETS (ambrisentan 10 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+101927,02530066,NRA-FLECAINIDE (flecainide acetate 50 mg oral tablet) NORA PHARMA INC,DELETED
+101928,02530074,NRA-FLECAINIDE (flecainide acetate 100 mg oral tablet) NORA PHARMA INC,DELETED
+103423,02545470,ATORVASTATIN (atorvastatin (atorvastatin calcium) 20 mg oral tablet) TEVA CANADA LIMITED,ADDED
+103802,02549158,ACH-PROGESTERONE (progesterone 100 mg oral capsule) ACCORD HEALTHCARE INC,ADDED
+104015,02551446,MEN'S HAIR REGROWTH TREATMENT (minoxidil 5 % cutaneous foam) TARO PHARMACEUTICALS INC,"Health_Canada_product_name: ""MEN'S MINOXIDIL FOAM"" -> ""MEN'S HAIR REGROWTH TREATMENT""
+mp_formal_name: ""MEN'S M̲I̲N̲O̲X̲I̲D̲I̲L̲ ̲F̲O̲A̲M̲ (minoxidil 5 % cutaneous foam) TARO PHARMACEUTICALS INC"" -> ""MEN'S H̲A̲I̲R̲ ̲R̲E̲G̲R̲O̲W̲T̲H̲ ̲T̲R̲E̲A̲T̲M̲E̲N̲T̲ (minoxidil 5 % cutaneous foam) TARO PHARMACEUTICALS INC"""
+104038,02551659,WOMEN'S HAIR REGROWTH TREATMENT (minoxidil 5 % cutaneous foam) TARO PHARMACEUTICALS INC,"Health_Canada_product_name: ""WOMEN'S MINOXIDIL FOAM"" -> ""WOMEN'S HAIR REGROWTH TREATMENT""
+mp_formal_name: ""WOMEN'S M̲I̲N̲O̲X̲I̲D̲I̲L̲ ̲F̲O̲A̲M̲ (minoxidil 5 % cutaneous foam) TARO PHARMACEUTICALS INC"" -> ""WOMEN'S H̲A̲I̲R̲ ̲R̲E̲G̲R̲O̲W̲T̲H̲ ̲T̲R̲E̲A̲T̲M̲E̲N̲T̲ (minoxidil 5 % cutaneous foam) TARO PHARMACEUTICALS INC"""
+106082,02557509,ZEPBOUND KWIKPEN (tirzepatide 2.5 mg per actuation solution for injection pre-filled pen) ELI LILLY CANADA INC,"Health_Canada_product_name: ""ZEPBOUND KWIKPEN"" -> ""ZEPBOUND"""
+106083,02557517,ZEPBOUND KWIKPEN (tirzepatide 5 mg per actuation solution for injection pre-filled pen) ELI LILLY CANADA INC,"Health_Canada_product_name: ""ZEPBOUND KWIKPEN"" -> ""ZEPBOUND"""
+106084,02557525,ZEPBOUND KWIKPEN (tirzepatide 7.5 mg per actuation solution for injection pre-filled pen) ELI LILLY CANADA INC,"Health_Canada_product_name: ""ZEPBOUND KWIKPEN"" -> ""ZEPBOUND"""
+106085,02557533,ZEPBOUND KWIKPEN (tirzepatide 10 mg per actuation solution for injection pre-filled pen) ELI LILLY CANADA INC,"Health_Canada_product_name: ""ZEPBOUND KWIKPEN"" -> ""ZEPBOUND"""
+106086,02557541,ZEPBOUND KWIKPEN (tirzepatide 12.5 mg per actuation solution for injection pre-filled pen) ELI LILLY CANADA INC,"Health_Canada_product_name: ""ZEPBOUND KWIKPEN"" -> ""ZEPBOUND"""
+106087,02557568,ZEPBOUND KWIKPEN (tirzepatide 15 mg per actuation solution for injection pre-filled pen) ELI LILLY CANADA INC,"Health_Canada_product_name: ""ZEPBOUND KWIKPEN"" -> ""ZEPBOUND"""
+106271,02559579,"BUCCOLAM (midazolam (midazolam hydrochloride) 2.5 mg per 0.5 mL mouthwash) NEURAXPHARM PHARMACEUTICALS, S.L.",ADDED
+106272,02559587,"BUCCOLAM (midazolam (midazolam hydrochloride) 5 mg per 1 mL mouthwash) NEURAXPHARM PHARMACEUTICALS, S.L.",ADDED
+106273,02559595,"BUCCOLAM (midazolam (midazolam hydrochloride) 7.5 mg per 1.5 mL mouthwash) NEURAXPHARM PHARMACEUTICALS, S.L.",ADDED
+106274,02559609,"BUCCOLAM (midazolam (midazolam hydrochloride) 10 mg per 2 mL mouthwash) NEURAXPHARM PHARMACEUTICALS, S.L.",ADDED
+106361,02560569,FEMYSO (mifepristone 200 mg and misoprostol 200 mcg NA) LUPIN PHARMA CANADA LIMITED,ADDED
+106406,02561069,OPSUMIT (macitentan 2.5 mg dispersible oral tablet) JANSSEN INC,ADDED
+106494,02562022,AVTOZMA (tocilizumab 80 mg per 4 mL solution for injection) CELLTRION INC.,ADDED
+106495,02562030,AVTOZMA (tocilizumab 200 mg per 10 mL solution for injection) CELLTRION INC.,ADDED
+106496,02562049,AVTOZMA (tocilizumab 400 mg per 20 mL solution for injection) CELLTRION INC.,ADDED
+106497,02562057,AVTOZMA (tocilizumab 162 mg per 0.9 mL solution for injection) CELLTRION INC.,ADDED
+106498,02562065,AVTOZMA (tocilizumab 162 mg per 0.9 mL solution for injection) CELLTRION INC.,ADDED
+106539,02562510,ENZEEVU (aflibercept 2 mg per 0.05 mL solution for injection) SANDOZ CANADA INCORPORATED,ADDED
+106546,02562596,PRO-CEPHALEXIN (cephalexin (cephalexin monohydrate) 250 mg per 5 mL oral suspension) PRO DOC LIMITEE,ADDED
+106570,02562855,LUPRON DEPOT (leuprolide acetate 45 mg powder for prolonged-release suspension for injection) ABBVIE CORPORATION,ADDED
