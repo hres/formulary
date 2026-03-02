@@ -142,7 +142,7 @@
 "40080","modified-release oral tablet","56","ORAL","Orale","170","TABLET (IMMEDIATE AND DELAYED-RELEASE)","Comprimé (à libération immédiate et retardée)","comprimé oral à libération modifiée"
 "40083","prolonged-release oral tablet","56","ORAL","Orale","173","TABLET (IMMEDIATE AND EXTENDED RELEASE)","Comprimé(à libération immédiate et prolongée)","comprimé oral à libération prolongée"
 "40003","mouthwash","3","BUCCAL","Buccale","34","LIQUID","Liquide","solution pour bain de bouche"
-"40003","mouthwash","3","BUCCAL","Buccale","134","SOLUTION","Solution","solution pour bain de bouche"
+"40008","oromucosal solution","3","BUCCAL","Buccale","134","SOLUTION","Solution","solution buccale"
 "40046","nasal cream","53","NASAL","Nasale","9","CREAM","Crème","crème nasale"
 "40043","nasal drops","53","NASAL","Nasale","12","DROPS","Gouttes","gouttes nasales"
 "40044","nasal gel","53","NASAL","Nasale","114","GEL","Gel","gel nasal"
