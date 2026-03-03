@@ -1,0 +1,41 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9012644,nadroparin calcium 3800 unit per 0.4 mL solution for injection syringe,"nadroparine calcique 3800 unité par 0,4 mL solution injectable seringue","ntp_status_effective_time: ""20230717"" -> ""20251008"""
+9012646,nadroparin calcium 9500 unit per 1 mL solution for injection syringe,nadroparine calcique 9500 unité par 1 mL solution injectable seringue,"ntp_status_effective_time: ""20230717"" -> ""20251008"""
+9015359,macitentan 2.5 mg dispersible oral tablet,"macitentan 2,5 mg comprimé oral dispersible",ADDED
+9015354,delafloxacin (delafloxacin meglumine) 450 mg oral tablet,délafloxacine (délafloxacine méglumine) 450 mg comprimé oral,ADDED
+9013578,methylene blue 50 mg per 5 mL solution for injection ampoule,bleu de méthylène 50 mg par 5 mL solution injectable ampoule,"ntp_status_effective_time: ""20220606"" -> ""20260120"""
+9012642,nadroparin calcium 19000 unit per 1 mL solution for injection syringe,nadroparine calcique 19000 unité par 1 mL solution injectable seringue,"ntp_status_effective_time: ""20220726"" -> ""20251008"""
+9015356,garadacimab 200 mg per 1.2 mL solution for injection pen,"garadacimab 200 mg par 1,2 mL solution injectable stylo",ADDED
+9012639,nadroparin calcium 11400 unit per 0.6 mL solution for injection syringe,"nadroparine calcique 11400 unité par 0,6 mL solution injectable seringue","ntp_status_effective_time: ""20220726"" -> ""20251008"""
+9002070,docusate calcium 240 mg oral capsule,docusate calcique 240 mg capsule orale,"ntp_status_effective_time: ""20230731"" -> ""20250704"""
+9012780,argatroban 250 mg per 2.5 mL solution for injection vial,"argatroban 250 mg par 2,5 mL solution injectable fiole","ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20250731"" -> ""20020613"""
+9015364,mirvetuximab soravtansine 100 mg per 20 mL solution for injection vial,mirvétuximab soravtansine 100 mg par 20 mL solution injectable fiole,ADDED
+9013778,carboxymethylcellulose sodium 13.3 % and gelatin 13.3 % and pectin 13.3 % oral paste,"carboxyméthylcellulose sodique 13,3 % et gélatine 13,3 % et pectine 13,3 % pâte orale","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19951231"" -> ""20250911"""
+9015351,baloxavir marboxil 40 mg oral tablet,baloxavir marboxil 40 mg comprimé oral,ADDED
+9015353,delafloxacin (delafloxacin meglumine) 300 mg per vial powder for solution for injection,délafloxacine (délafloxacine méglumine) 300 mg par fiole poudre pour solution injectable,ADDED
+9015357,leuprolide acetate 45 mg powder for prolonged-release suspension for injection with diluent solution per syringe,acétate de leuprolide 45 mg poudre pour suspension injectable à libération prolongée avec solution diluante par seringue,ADDED
+9015361,midazolam (midazolam hydrochloride) 2.5 mg per 0.5 mL oromucosal solution,"midazolam (chlorhydrate de midazolam) 2,5 mg par 0,5 mL solution buccale",ADDED
+9002031,promethazine hydrochloride 10 mg per 5 mL syrup,chlorhydrate de prométhazine 10 mg par 5 mL sirop,"ntp_status_effective_time: ""20180802"" -> ""20250704"""
+9015352,bempedoic acid 180 mg oral tablet,acide bempédoïque 180 mg comprimé oral,ADDED
+9012641,nadroparin calcium 1900 unit per 0.2 mL solution for injection syringe,"nadroparine calcique 1900 unité par 0,2 mL solution injectable seringue","ntp_status_effective_time: ""20180723"" -> ""20251008"""
+9005183,raltegravir (raltegravir potassium) 25 mg chewable tablet,raltégravir (raltégravir potassique) 25 mg comprimé à croquer,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20130211"" -> ""20251107"""
+9015330,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg prolonged-release oral tablet","ciprofloxacine (ciprofloxacine, chlorhydrate de ciprofloxacine) 500 mg comprimé oral à libération prolongée",DELETED
+9003826,acetylsalicylic acid 162 mg gastro-resistant tablet,acide acétylsalicylique 162 mg comprimé gastrorésistant,"ntp_status_effective_time: ""20180802"" -> ""20250704"""
+9004198,acetylsalicylic acid 81 mg oral tablet,acide acétylsalicylique 81 mg comprimé oral,"ntp_status_effective_time: ""20180802"" -> ""20250704"""
+9002241,acetylsalicylic acid 650 mg suppository,acide acétylsalicylique 650 mg suppositoire,"ntp_status_effective_time: ""20180802"" -> ""20250704"""
+9015355,efgartigimod alfa 1000 mg per 5 mL solution for injection syringe,efgartigimod alfa 1000 mg par 5 mL solution injectable seringue,ADDED
+9012645,nadroparin calcium 5700 unit per 0.6 mL solution for injection syringe,"nadroparine calcique 5700 unité par 0,6 mL solution injectable seringue","ntp_status_effective_time: ""20240723"" -> ""20251008"""
+9002239,acetylsalicylic acid 150 mg suppository,acide acétylsalicylique 150 mg suppositoire,"ntp_status_effective_time: ""20180802"" -> ""20250704"""
+9013541,collagenase clostridium histolyticum 250 unit per g cutaneous ointment,collagénase de clostridium histolyticum 250 unité par g pommade cutanée,"ntp_status_effective_time: ""20240222"" -> ""20260128"""
+9012640,nadroparin calcium 15200 unit per 0.8 mL solution for injection syringe,"nadroparine calcique 15200 unité par 0,8 mL solution injectable seringue","ntp_status_effective_time: ""20220726"" -> ""20251008"""
+9015360,midazolam (midazolam hydrochloride) 10 mg per 2 mL oromucosal solution,midazolam (chlorhydrate de midazolam) 10 mg par 2 mL solution buccale,ADDED
+9015358,lidocaine hydrochloride 1.5 % and nifedipine 0.3 % rectal cream,"chlorhydrate de lidocaïne 1,5 % et nifédipine 0,3 % crème rectale",ADDED
+9006279,ibuprofen 50 mg chewable tablet,ibuprofène 50 mg comprimé à croquer,"ntp_status_effective_time: ""20190731"" -> ""20260211"""
+9015329,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg prolonged-release oral tablet","ciprofloxacine (ciprofloxacine, chlorhydrate de ciprofloxacine) 1000 mg comprimé oral à libération prolongée",DELETED
+9015362,midazolam (midazolam hydrochloride) 5 mg per 1 mL oromucosal solution,midazolam (chlorhydrate de midazolam) 5 mg par 1 mL solution buccale,ADDED
+9012643,nadroparin calcium 2850 unit per 0.3 mL solution for injection syringe,"nadroparine calcique 2850 unité par 0,3 mL solution injectable seringue","ntp_status_effective_time: ""20230717"" -> ""20251008"""
+9015363,midazolam (midazolam hydrochloride) 7.5 mg per 1.5 mL oromucosal solution,"midazolam (chlorhydrate de midazolam) 7,5 mg par 1,5 mL solution buccale",ADDED
+9015367,teprotumumab 500 mg per vial powder for solution for injection,téprotumumab 500 mg par fiole poudre pour solution injectable,ADDED

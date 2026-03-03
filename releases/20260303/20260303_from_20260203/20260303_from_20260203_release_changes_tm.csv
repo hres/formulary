@@ -1,0 +1,11 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002579,teprotumumab,téprotumumab,ADDED
+8002575,bempedoic acid,acide bempédoïque,ADDED
+8002114,collagenase clostridium histolyticum,collagénase de clostridium histolyticum,"tm_status_effective_time: ""20240222"" -> ""20260128"""
+8001293,nadroparin,nadroparine,"tm_status_effective_time: ""20240723"" -> ""20251008"""
+8002576,delafloxacin,délafloxacine,ADDED
+8002573,mirvetuximab soravtansine,mirvétuximab soravtansine,ADDED
+8002577,lidocaine and nifedipine,lidocaïne et nifédipine,ADDED
+8002572,garadacimab,garadacimab,ADDED
+8002221,carboxymethylcellulose and gelatin and pectin,carboxyméthylcellulose et gélatine et pectine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19951231"" -> ""20250911"""
