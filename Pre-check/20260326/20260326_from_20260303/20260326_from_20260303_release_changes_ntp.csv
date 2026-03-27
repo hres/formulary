@@ -1,0 +1,22 @@
+ntp_code,ntp_formal_name,changes
+9000469,fluoxetine (fluoxetine hydrochloride) 10 mg oral capsule,"ntp_status_effective_time: ""19931231"" -> ""19951231"""
+9002631,betaxolol (betaxolol hydrochloride) 0.25 % ophthalmic drops,DELETED
+9015117,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9015112,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial","ntp_status_effective_time: ""20230918"" -> ""20240924"""
+9000488,paroxetine (paroxetine hydrochloride) 30 mg oral tablet,"ntp_status_effective_time: ""19931231"" -> ""20031008"""
+9012660,clotrimazole 1 % cutaneous cream with fluconazole 150 mg oral capsule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20100310"" -> ""20220829"""
+9015078,methotrexate (methotrexate sodium) 7.5 mg per 0.3 mL solution for injection pen,DELETED
+9012903,atropine sulfate 1 mg per 10 mL solution for injection syringe,DELETED
+9015329,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg prolonged-release oral tablet",DELETED
+2c3b82f7afb227dccff39503c9250469,pembrolizumab 165 mg per mL solution for injection,ADDED
+9002750,calcium carbonate 200 mg and magnesium hydroxide 200 mg and simethicone 25 mg chewable tablet,DELETED
+9015228,aflibercept 2 mg per 0.05 mL solution for injection,ADDED
+9015330,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg prolonged-release oral tablet",DELETED
+9015118,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+bc9bec148d4512a12c8142db0a7bdb65,dextromethorphan hydrobromide 20 mg per 20 mL and guaifenesin 400 mg per 20 mL and phenylephrine hydrochloride 10 mg per 20 mL syrup,ADDED
+9015116,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+4c80064114870c3a092cbf1aa4b7e4d0,tranexamic acid 100 mg per mL solution for injection,ADDED
+ad31cdfb7bea588f03bace7a592f87b3,mesalazine 1000 mg suppository,ADDED
+d3918a74bbe38e38e6d141fdd457b9aa,dextromethorphan hydrobromide 20 mg per 20 mL and guaifenesin 400 mg per 20 mL syrup,ADDED
+9015119,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
