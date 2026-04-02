@@ -31,6 +31,5 @@ drug_code,drug_identification_number,brand_name,status,history_date,comments
 83385,02348497,EVICEL,Marketed,2013-05-02,Out of scope - fibrin sealant
 100489,02515490,VYXEOS,Marketed,2021-07-06,Liposomal
 21167,01908626,COUGH & COLD,Discontinued,2026-07-04,should not generate
-106629,02563517,IMAAVY,Marketed,2026-01-23,Needs UP
-106628,02563509,IMAAVY,Marketed,2026-01-23,Needs UP
-106511,02562219,LOQTORZI,Marketed,2026-01-26,Needs UP
+106712,02564424,AMB-CYPROTERONE ACETATE / ETHINYL ESTRADIOL,Marketed,2026-03-19,Needs CP
+106799,02565382,KEYTRUDA SC,Marketed,2026-03-05,Issue in QA
