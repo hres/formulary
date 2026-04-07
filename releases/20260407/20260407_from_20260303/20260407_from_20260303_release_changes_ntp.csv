@@ -1,0 +1,25 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9013895,tacrolimus 0.75 mg prolonged-release oral tablet,"tacrolimus 0,75 mg comprimé oral à libération prolongée","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20190417"" -> ""20260323"""
+9015375,nemolizumab 30 mg powder for solution for injection with diluent solution per pen,némolizumab 30 mg poudre pour solution injectable avec solution diluante par stylo,ADDED
+9015387,zuranolone 25 mg oral capsule,zuranolone 25 mg capsule orale,ADDED
+9012660,clotrimazole 1 % cutaneous cream with fluconazole 150 mg oral capsule,clotrimazole 1 % crème cutanée avec fluconazole 150 mg capsule orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20100310"" -> ""20260306"""
+9015386,zuranolone 20 mg oral capsule,zuranolone 20 mg capsule orale,ADDED
+9012903,atropine sulfate 1 mg per 10 mL solution for injection syringe,sulfate d'atropine 1 mg par 10 mL solution injectable seringue,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19751231"" -> ""20250104"""
+9015385,toripalimab 240 mg per 6 mL solution for injection vial,toripalimab 240 mg par 6 mL solution injectable fiole,ADDED
+9015376,nipocalimab 1200 mg per 6.5 mL solution for injection vial,"nipocalimab 1200 mg par 6,5 mL solution injectable fiole",ADDED
+9015330,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg prolonged-release oral tablet","ciprofloxacine (ciprofloxacine, chlorhydrate de ciprofloxacine) 500 mg comprimé oral à libération prolongée",DELETED
+9015377,nipocalimab 300 mg per 1.62 mL solution for injection vial,"nipocalimab 300 mg par 1,62 mL solution injectable fiole",ADDED
+9002631,betaxolol (betaxolol hydrochloride) 0.25 % ophthalmic drops,"bétaxolol (chlorhydrate de bétaxolol) 0,25 % gouttes ophtalmiques","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19941231"" -> ""20250627"""
+9015381,semaglutide 1.5 mg oral tablet,"sémaglutide 1,5 mg comprimé oral",ADDED
+9015382,semaglutide 4 mg oral tablet,sémaglutide 4 mg comprimé oral,ADDED
+9002750,calcium carbonate 200 mg and magnesium hydroxide 200 mg and simethicone 25 mg chewable tablet,carbonate de calcium 200 mg et hydroxyde de magnésium 200 mg et siméticone 25 mg comprimé à croquer,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19951231"" -> ""20221115"""
+9015078,methotrexate (methotrexate sodium) 7.5 mg per 0.3 mL solution for injection pen,"méthotrexate (méthotrexate sodique) 7,5 mg par 0,3 mL solution injectable stylo","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20240801"" -> ""20260313"""
+9015378,olezarsen (olezarsen sodium) 80 mg per 0.8 mL solution for injection syringe,"olezarsen (olezarsen sodique) 80 mg par 0,8 mL solution injectable seringue",ADDED
+9015383,semaglutide 9 mg oral tablet,sémaglutide 9 mg comprimé oral,ADDED
+9015329,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg prolonged-release oral tablet","ciprofloxacine (ciprofloxacine, chlorhydrate de ciprofloxacine) 1000 mg comprimé oral à libération prolongée",DELETED

@@ -1,0 +1,10 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002585,nemolizumab,némolizumab,ADDED
+8001586,betaxolol,bétaxolol,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19941231"" -> ""20250627"""
+8002586,olezarsen,olezarsen,ADDED
+8002588,zuranolone,zuranolone,ADDED
+8002097,calcium carbonate and magnesium hydroxide and simethicone,carbonate de calcium et hydroxyde de magnésium et siméticone,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19951231"" -> ""20221115"""
+8002578,nipocalimab,nipocalimab,ADDED
+8002580,toripalimab,toripalimab,ADDED
