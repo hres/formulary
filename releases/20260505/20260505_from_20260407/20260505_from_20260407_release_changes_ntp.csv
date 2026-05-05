@@ -17,7 +17,6 @@ ntp_status_effective_time: ""20201008"" -> ""20260316"""
 9003228,diphenhydramine hydrochloride 12.5 mg chewable tablet,"chlorhydrate de diphenhydramine 12,5 mg comprimé à croquer","ntp_status_effective_time: ""20250729"" -> ""20260428"""
 9012980,glucagon (glucagon hydrochloride) 1 mg per vial powder for solution for injection with diluent solution syringe,glucagon (chlorhydrate de glucagon) 1 mg par fiole poudre pour solution injectable avec solution diluante seringue,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
 ntp_status_effective_time: ""20091223"" -> ""20240229"""
-9015269,rozanolixizumab 280 mg per 2 mL solution for injection vial,rozanolixizumab 280 mg par 2 mL solution injectable fiole,DELETED
 9004326,coal tar 2 % cutaneous ointment,goudron de houille 2 % pommade cutanée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
 ntp_status_effective_time: ""20070828"" -> ""20241231"""
 9015393,follitropin alfa 300 unit per 0.48 mL solution for injection pen,"follitropine alfa 300 unité par 0,48 mL solution injectable stylo",ADDED
@@ -53,12 +52,10 @@ ntp_status_effective_time: ""20050906"" -> ""20260504"""
 9015404,palopegteriparatide 420 mcg per 1.4 mL solution for injection pen,"palopegtériparatide 420 mcg par 1,4 mL solution injectable stylo",ADDED
 9006497,cholecalciferol 25000 unit oral capsule,cholécalciférol 25000 unité capsule orale,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
 ntp_status_effective_time: ""20170720"" -> ""20150731"""
-9015406,rozanolixizumab 560 mg per 2 mL solution for injection vial,rozanolixizumab 560 mg par 2 mL solution injectable fiole,ADDED
 9013490,palivizumab 100 mg per 1 mL solution for injection vial,palivizumab 100 mg par 1 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
 ntp_status_effective_time: ""20161103"" -> ""20260319"""
 9015407,tislelizumab 100 mg per 10 mL solution for injection vial,tislélizumab 100 mg par 10 mL solution injectable fiole,ADDED
 9015394,follitropin alfa 450 unit per 0.72 mL solution for injection pen,"follitropine alfa 450 unité par 0,72 mL solution injectable stylo",ADDED
-9015396,magnesium sulfate 500 mg per mL solution for injection,sulfate de magnésium 500 mg par mL solution injectable,ADDED
 9015329,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg prolonged-release oral tablet","ciprofloxacine (ciprofloxacine, chlorhydrate de ciprofloxacine) 1000 mg comprimé oral à libération prolongée",DELETED
 9015392,ethinyl estradiol 13 mcg per 24 hour and segesterone acetate 150 mcg per 24 hour vaginal delivery system,éthinylestradiol 13 mcg par 24 heure et acétate de ségestérone 150 mcg par heure système de diffusion vaginal,ADDED
 9006498,cholecalciferol 5000 unit oral capsule,cholécalciférol 5000 unité capsule orale,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
