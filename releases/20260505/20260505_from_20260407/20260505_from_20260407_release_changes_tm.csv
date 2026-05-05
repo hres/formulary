@@ -1,0 +1,11 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002592,vamorolone,vamorolone,ADDED
+8002430,SARS-CoV-2 recombinant spike protein,protéine de spicule du SRAS-CoV-2 recombinante,"tm_status_effective_time: ""20250714"" -> ""20260306"""
+8002589,deutivacaftor and tezacaftor and vanzacaftor,deutivacaftor et tézacaftor et vanzacaftor,ADDED
+8000922,brompheniramine and phenylephrine,bromphéniramine et phényléphrine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20010723"" -> ""20241106"""
+8002590,palopegteriparatide,palopegtériparatide,ADDED
+8001234,streptomycin,streptomycine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20011015"" -> ""20260402"""
+8002591,tislelizumab,tislélizumab,ADDED
+8002583,ethinyl estradiol and segesterone,éthinylestradiol et ségestérone,ADDED

@@ -1,0 +1,65 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9015405,quizartinib (quizartinib hydrochloride) 26.5 mg oral tablet,"quizartinib (chlorhydrate de quizartinib) 26,5 mg comprimé oral",ADDED
+9012629,evolocumab 420 mg per 3.5 mL solution for injection cartridge,"évolocumab 420 mg par 3,5 mL solution injectable cartouche","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20170404"" -> ""20250624"""
+9015399,maralixibat (maralixibat chloride) 19 mg per mL oral solution,maralixibat (chlorure de maralixibat) 19 mg par mL solution orale,ADDED
+9002009,betamethasone (betamethasone dipropionate) 0.5 mg per g and salicylic acid 20 mg per g lotion,"bétaméthasone (dipropionate de bétaméthasone) 0,5 mg par g et acide salicylique 20 mg par g lotion","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19841231"" -> ""20260327"""
+9015409,vamorolone 40 mg per mL oral suspension,vamorolone 40 mg par mL suspension orale,ADDED
+9014198,sevelamer carbonate 2.4 g per sachet powder for oral suspension,"carbonate de sévélamer 2,4 g par sachet poudre pour suspension orale","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20191025"" -> ""20250410"""
+9015395,follitropin alfa 900 unit per 1.44 mL solution for injection pen,"follitropine alfa 900 unité par 1,44 mL solution injectable stylo",ADDED
+9014382,fluticasone propionate 113 mcg per actuation inhalation powder,propionate de fluticasone 113 mcg par actionnement poudre pour inhalation,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20200930"" -> ""20251128"""
+9014377,epinephrine (epinephrine bitartrate) 0.3 mg per 0.3 mL solution for injection syringe,"épinéphrine (bitartrate d'épinéphrine) 0,3 mg par 0,3 mL solution injectable seringue","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20201008"" -> ""20260316"""
+9015402,osilodrostat (osilodrostat phosphate) 10 mg oral tablet,osilodrostat (phosphate d’osilodrostat) 10 mg comprimé oral,ADDED
+9003228,diphenhydramine hydrochloride 12.5 mg chewable tablet,"chlorhydrate de diphenhydramine 12,5 mg comprimé à croquer","ntp_status_effective_time: ""20250729"" -> ""20260428"""
+9012980,glucagon (glucagon hydrochloride) 1 mg per vial powder for solution for injection with diluent solution syringe,glucagon (chlorhydrate de glucagon) 1 mg par fiole poudre pour solution injectable avec solution diluante seringue,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20091223"" -> ""20240229"""
+9015269,rozanolixizumab 280 mg per 2 mL solution for injection vial,rozanolixizumab 280 mg par 2 mL solution injectable fiole,DELETED
+9004326,coal tar 2 % cutaneous ointment,goudron de houille 2 % pommade cutanée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20070828"" -> ""20241231"""
+9015393,follitropin alfa 300 unit per 0.48 mL solution for injection pen,"follitropine alfa 300 unité par 0,48 mL solution injectable stylo",ADDED
+9013130,follitropin alfa 300 unit per 0.5 mL solution for injection pen,"follitropine alfa 300 unité par 0,5 mL solution injectable stylo","ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20050906"" -> ""20260504"""
+9015403,palopegteriparatide 294 mcg per 0.98 mL solution for injection pen,"palopegtériparatide 294 mcg par 0,98 mL solution injectable stylo",ADDED
+9014747,SARS-CoV-2 recombinant spike protein 5 mcg per 0.5 mL suspension for injection 5 mL vial,"protéine de spicule du SRAS-CoV-2 recombinante 5 mcg par 0,5 mL suspension injectable 5 mL fiole","ntp_status_effective_time: ""20250714"" -> ""20260306"""
+9014721,etomidate 22 mg per 11 mL solution for injection vial,étomidate 22 mg par 11 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20220520"" -> ""20260318"""
+9015400,maralixibat (maralixibat chloride) 20 mg oral tablet,maralixibat (chlorure de maralixibat) 20 mg comprimé oral,ADDED
+9004259,brompheniramine maleate 2 mg per 5 mL and phenylephrine hydrochloride 5 mg per 5 mL oral solution,maléate de bromphéniramine 2 mg par 5 mL et chlorhydrate de phényléphrine 5 mg par 5 mL solution orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20010723"" -> ""20241106"""
+9003655,streptomycin (streptomycin sulfate) 1 g per vial powder for solution for injection,streptomycine (sulfate de streptomycine) 1 g par fiole poudre pour solution injectable,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20011015"" -> ""20260402"""
+9014384,fluticasone propionate 55 mcg per actuation inhalation powder,propionate de fluticasone 55 mcg par actionnement poudre pour inhalation,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20200930"" -> ""20250913"""
+9015397,maralixibat (maralixibat chloride) 10 mg oral tablet,maralixibat (chlorure de maralixibat) 10 mg comprimé oral,ADDED
+9015390,deutivacaftor 50 mg and tezacaftor 20 mg and vanzacaftor (vanzacaftor calcium) 4 mg oral tablet,deutivacaftor 50 mg et tézacaftor 20 mg et vanzacaftor (vanzacaftor calcique) 4 mg comprimé oral,ADDED
+9015398,maralixibat (maralixibat chloride) 15 mg oral tablet,maralixibat (chlorure de maralixibat) 15 mg comprimé oral,ADDED
+9005986,canagliflozin 150 mg and metformin hydrochloride 500 mg oral tablet,canagliflozine 150 mg et chlorhydrate de metformine 500 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20160628"" -> ""20241209"""
+9013895,tacrolimus 0.75 mg prolonged-release oral tablet,"tacrolimus 0,75 mg comprimé oral à libération prolongée","ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20260323"" -> ""20190417"""
+9015401,maralixibat (maralixibat chloride) 30 mg oral tablet,maralixibat (chlorure de maralixibat) 30 mg comprimé oral,ADDED
+9015330,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg prolonged-release oral tablet","ciprofloxacine (ciprofloxacine, chlorhydrate de ciprofloxacine) 500 mg comprimé oral à libération prolongée",DELETED
+9014378,epinephrine (epinephrine bitartrate) 0.5 mg per 0.5 mL solution for injection syringe,"épinéphrine (bitartrate d'épinéphrine) 0,5 mg par 0,5 mL solution injectable seringue","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20201008"" -> ""20260316"""
+9013134,follitropin alfa 900 unit per 1.5 mL solution for injection pen,"follitropine alfa 900 unité par 1,5 mL solution injectable stylo","ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20050906"" -> ""20260504"""
+9013131,follitropin alfa 450 unit per 0.75 mL solution for injection pen,"follitropine alfa 450 unité par 0,75 mL solution injectable stylo","ntp_status: ""ACTIVE"" -> ""DEPREC""
+ntp_status_effective_time: ""20050906"" -> ""20260504"""
+9015389,deutivacaftor 125 mg and tezacaftor 50 mg and vanzacaftor (vanzacaftor calcium) 10 mg oral tablet,deutivacaftor 125 mg et tézacaftor 50 mg et vanzacaftor (vanzacaftor calcique) 10 mg comprimé oral,ADDED
+9015404,palopegteriparatide 420 mcg per 1.4 mL solution for injection pen,"palopegtériparatide 420 mcg par 1,4 mL solution injectable stylo",ADDED
+9006497,cholecalciferol 25000 unit oral capsule,cholécalciférol 25000 unité capsule orale,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20170720"" -> ""20150731"""
+9015406,rozanolixizumab 560 mg per 2 mL solution for injection vial,rozanolixizumab 560 mg par 2 mL solution injectable fiole,ADDED
+9013490,palivizumab 100 mg per 1 mL solution for injection vial,palivizumab 100 mg par 1 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20161103"" -> ""20260319"""
+9015407,tislelizumab 100 mg per 10 mL solution for injection vial,tislélizumab 100 mg par 10 mL solution injectable fiole,ADDED
+9015394,follitropin alfa 450 unit per 0.72 mL solution for injection pen,"follitropine alfa 450 unité par 0,72 mL solution injectable stylo",ADDED
+9015396,magnesium sulfate 500 mg per mL solution for injection,sulfate de magnésium 500 mg par mL solution injectable,ADDED
+9015329,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg prolonged-release oral tablet","ciprofloxacine (ciprofloxacine, chlorhydrate de ciprofloxacine) 1000 mg comprimé oral à libération prolongée",DELETED
+9015392,ethinyl estradiol 13 mcg per 24 hour and segesterone acetate 150 mcg per 24 hour vaginal delivery system,éthinylestradiol 13 mcg par 24 heure et acétate de ségestérone 150 mcg par heure système de diffusion vaginal,ADDED
+9006498,cholecalciferol 5000 unit oral capsule,cholécalciférol 5000 unité capsule orale,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20170720"" -> ""20151020"""
