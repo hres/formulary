@@ -1,4 +1,7 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"106718","pen","2","mL","N","N","02564483","TAKHZYRO TAKEDA CANADA INC","stylo"
+"106513","vial","50","mL","N","Y","02562235","MAGNESIUM SULFATE INJECTION USP STERIMAX INC","fiole"
+"106513","vial","10","mL","Y","N","02562235","MAGNESIUM SULFATE INJECTION USP STERIMAX INC","fiole"
 "106780","pen","0.98","mL","N","N","02565161","YORVIPATH PENDOPHARM DIVISION OF PHARMASCIENCE INC","stylo"
 "106781","pen","1.4","mL","N","N","02565188","YORVIPATH PENDOPHARM DIVISION OF PHARMASCIENCE INC","stylo"
 "106674","vial","10","mL","N","N","02564009","TEVIMBRA BEONE MEDICINES I GMBH","fiole"
