@@ -1,4 +1,5 @@
 "ntp_dosage_form_code","ntp_dosage_form","route_of_administration_code","route_of_administration","route_of_administration_f","pharm_form_code","pharmaceutical_form","pharmaceutical_form_f","ntp_dosage_form_fr"
+"40017","powder for solution for injection","19-121-22","INTRADERMAL, INTRADETRUSORIAL, INTRAMUSCULAR","Intradermique,Intradétrusorienne,Intramusculaire","56","POWDER FOR SOLUTION","Poudre pour solution","poudre pour solution injectable"
 "40061","modified-release oral capsule","56","ORAL","Orale","188","CAPSULE (DELAYED AND EXTENDED RELEASE)","Capsule (à libération retardée et prolongée)","capsule orale à libération modifiée"
 "40124","cutaneous solution","105-107","TOPICAL (COMMERCIAL), TOPICAL (HOSPITAL/HC FACILITIES)","Topique (Milieu commercial), Topique (Hôpitaux, établissements de soins de santé)","134","SOLUTION","Solution","solution pour application cutanée"
 "40064","oral solution","120-56","GASTRIC, ORAL","Gastrique,Orale","134","SOLUTION","Solution","solution orale"
