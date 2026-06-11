@@ -1,4 +1,6 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"103981","ampoule","5","mL","Y","N","02551063","CLOROTEKAL B. BRAUN MELSUNGEN AG","ampoule"
+"103109","vial","10","mL","Y","N","02542560","HEMGENIX CSL BEHRING CANADA INC","fiole"
 "102427","unit dose vial","2","mL","Y","N","02535416","TEVA-BUDESONIDE TEVA CANADA LIMITED","fiole unidose"
 "106784","vial","1","mL","Y","N","02565226","LUNSUMIO HOFFMANN-LA ROCHE LIMITED","fiole"
 "106784","vial","30","mL","Y","N","02565226","LUNSUMIO HOFFMANN-LA ROCHE LIMITED","fiole"
