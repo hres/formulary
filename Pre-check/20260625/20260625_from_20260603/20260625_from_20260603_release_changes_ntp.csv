@@ -1,0 +1,30 @@
+ntp_code,ntp_formal_name,changes
+9006102,nitisinone 2 mg oral tablet,DELETED
+dc425dbb9e0abfa58404e2f8d9e21d7d,linezolid 2 mg per mL solution for injection,ADDED
+9015117,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+43ff21b972b187f5c427e28491826257,mosunetuzumab 5 mg per 0.5 mL solution for injection,ADDED
+9002314,lidocaine 0.5 % cutaneous spray,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19901231"" -> ""20200618"""
+9015112,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial","ntp_status_effective_time: ""20230918"" -> ""20240924"""
+edf523beefaa7513e18fbc772e1d971f,pyrithione zinc 0.1 % shampoo,ADDED
+9013491,palivizumab 50 mg per 0.5 mL solution for injection vial,DELETED
+0d53db33b44b7b0a42f50ee607c753e1,levothyroxine sodium 20 mcg per mL oral solution,ADDED
+9004101,tipranavir 250 mg oral capsule,DELETED
+9015052,denosumab 120 mg per 1.7 mL solution for injection,ADDED
+9015072,landiolol hydrochloride 300 mg per vial powder for solution for injection,DELETED
+ca2119e8d3e033df2da26266d4d331f7,omalizumab 75 mg per 0.5 mL solution for injection,ADDED
+9001293,metformin hydrochloride 850 mg and sitagliptin (sitagliptin phosphate) 50 mg oral tablet,"ntp_status_effective_time: ""20091008"" -> ""20230105"""
+9015329,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg prolonged-release oral tablet",DELETED
+9012822,insulin degludec 100 unit per mL and liraglutide 3.6 mg per mL solution for injection 3 mL pen,DELETED
+9014641,lurbinectedin 4 mg per vial powder for solution for injection,DELETED
+9015330,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg prolonged-release oral tablet",DELETED
+9015118,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+9015060,denosumab 60 mg per mL solution for injection,ADDED
+ee4bd38c9d8994497755e7220bf0ecec,fulvestrant 1250 mg per 5 mL solution for injection syringe,ADDED
+9015116,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9013139,fulvestrant 250 mg per 5 mL solution for injection syringe,"ntp_status_effective_time: ""20040614"" -> ""20200427"""
+7b5b5f6d7c94d2f443f4169d37c98002,omalizumab 150 mg per 1 mL solution for injection,ADDED
+47f0df9cfa8694136ff60a1423cee18f,mosunetuzumab 45 mg per mL solution for injection,ADDED
+9015119,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+9013133,follitropin alfa 75 unit per vial powder for solution for injection with diluent solution syringe,DELETED
+9014070,teriparatide 20 mcg per actuation solution for injection pre-filled pen,"ntp_status_effective_time: ""20040715"" -> ""20241204"""
