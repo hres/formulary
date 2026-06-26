@@ -843,3 +843,7 @@ pseudodin,drug_code,unit_of_presentation,uop_size_amount,uop_size_unit,unit_of_p
 "77701202","102034","ampoule","10","mL","ampoule"
 "77701203","106799","vial","2.4","mL","fiole"
 "77701204","106799","vial","4.8","mL","fiole"
+"77701205","106513","vial","50","mL","fiole"
+"77701206","106513","vial","10","mL","fiole"
+"77701207","106784","vial","1","mL","fiole"
+"77701208","106784","vial","30","mL","fiole"
