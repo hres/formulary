@@ -1,0 +1,8 @@
+ccdd_code,ccdd_formal_name,ccdd_type,policy_type,policy_reference,special_groupings_status,special_groupings_status_effective_time,changes
+9015431,testosterone undecanoate 158 mg oral capsule,NTP,500005,http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html,Active,20170919,ADDED
+02539748,LINEZOLID INJECTION (linezolid 600 mg per 300 mL solution for injection bag) EUGIA PHARMA INC.,MP,500009,https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/reserve-list-antimicrobial.html,Active,20250901,ADDED
+02041448,ATIVAN (lorazepam 2 mg oral tablet) PFIZER CANADA ULC,MP,500006,http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html,Active,20170919,"special_groupings_status: ""INACTIVE"" -> ACTIVE
+special_groupings_status_effective_time: ""20260601"" -> 20170919"
+02490773,ERTAPENEM FOR INJECTION (ertapenem (ertapenem sodium) 1 g per vial powder for solution for injection) JUNO PHARMA CANADA INC.,MP,500009,https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/reserve-list-antimicrobial.html,Active,20250901,"ccdd_formal_name: ""ERTAPENEM FOR INJECTION (ertapenem (ertapenem sodium) 1 g per vial powder for solution for injection) JUNO PHARMACEUTICALS CORP."" -> ERTAPENEM FOR INJECTION (ertapenem (ertapenem sodium) 1 g per vial powder for solution for injection) JUNO PHARMA CANADA INC."
+9015432,testosterone undecanoate 198 mg oral capsule,NTP,500005,http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html,Active,20170919,ADDED
+9015433,testosterone undecanoate 237 mg oral capsule,NTP,500005,http://laws-lois.justice.gc.ca/eng/acts/C-38.8/FullText.html,Active,20170919,ADDED
