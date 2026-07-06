@@ -1,0 +1,26 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9004101,tipranavir 250 mg oral capsule,tipranavir 250 mg capsule orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20051201"" -> ""20250831"""
+9015435,etranacogene dezaparvovec 1e14 genome copies per 10 mL suspension for injection vial,étranacogène dézaparvovec 1e14 copies génomiques par 10 mL suspension injectable fiole,ADDED
+9015439,mosunetuzumab 5 mg per 0.5 mL solution for injection vial,"mosunétuzumab 5 mg par 0,5 mL solution injectable fiole",ADDED
+9002314,lidocaine 0.5 % cutaneous spray,"lidocaïne 0,5 % vaporisation cutanée","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19901231"" -> ""20240731"""
+9015443,pyrithione zinc 0.1 % shampoo,"pyrithione zincique 0,1 % shampoing",ADDED
+9015437,levothyroxine sodium 20 mcg per mL oral solution,lévothyroxine sodique 20 mcg par mL solution orale,ADDED
+9014641,lurbinectedin 4 mg per vial powder for solution for injection,lurbinectédine 4 mg par fiole poudre pour solution injectable,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20211206"" -> ""20260617"""
+9012822,insulin degludec 100 unit per mL and liraglutide 3.6 mg per mL solution for injection 3 mL pen,"insuline dégludec 100 unité par mL et liraglutide 3,6 mg par mL solution injectable 3 mL stylo","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20180606"" -> ""20251231"""
+9015072,landiolol hydrochloride 300 mg per vial powder for solution for injection,chlorhydrate de landiolol 300 mg par fiole poudre pour solution injectable,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20240811"" -> ""20260605"""
+9015447,zolbetuximab 300 mg per vial powder for solution for injection,zolbétuximab 300 mg par fiole poudre pour solution injectable,ADDED
+9015330,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg prolonged-release oral tablet","ciprofloxacine (ciprofloxacine, chlorhydrate de ciprofloxacine) 500 mg comprimé oral à libération prolongée",DELETED
+9015438,mosunetuzumab 45 mg per 1 mL solution for injection vial,mosunétuzumab 45 mg par 1 mL solution injectable fiole,ADDED
+9015434,chloroprocaine hydrochloride 50 mg per 5 mL solution for injection ampoule,chlorhydrate de chloroprocaïne 50 mg par 5 mL solution injectable ampoule,ADDED
+9013491,palivizumab 50 mg per 0.5 mL solution for injection vial,"palivizumab 50 mg par 0,5 mL solution injectable fiole","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20161103"" -> ""20260530"""
+9006102,nitisinone 2 mg oral tablet,nitisinone 2 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20170113"" -> ""20251031"""
+9015329,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg prolonged-release oral tablet","ciprofloxacine (ciprofloxacine, chlorhydrate de ciprofloxacine) 1000 mg comprimé oral à libération prolongée",DELETED
+9013133,follitropin alfa 75 unit per vial powder for solution for injection with diluent solution syringe,follitropine alfa 75 unité par fiole poudre pour solution injectable avec solution diluante seringue,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20031229"" -> ""20250806"""

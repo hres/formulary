@@ -1,0 +1,13 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8001389,insulin degludec and liraglutide,insuline dégludec et liraglutide,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20180606"" -> ""20251231"""
+8001239,tipranavir,tipranavir,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20051201"" -> ""20250831"""
+8002593,chloroprocaine,chloroprocaïne,ADDED
+8002403,lurbinectedin,lurbinectédine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20211206"" -> ""20260617"""
+8002595,etranacogene dezaparvovec,étranacogène dézaparvovec,ADDED
+8002512,landiolol,landiolol,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20240811"" -> ""20260605"""
+8002049,palivizumab,palivizumab,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20161103"" -> ""20260530"""
