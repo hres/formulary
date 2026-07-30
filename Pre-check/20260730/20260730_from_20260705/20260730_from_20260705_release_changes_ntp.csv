@@ -1,0 +1,59 @@
+ntp_code,ntp_formal_name,changes
+9013465,norepinephrine (norepinephrine bitartrate) 4 mg per 4 mL solution for injection ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20011001"" -> ""20241031"""
+9014383,fluticasone propionate 232 mcg per actuation inhalation powder,DELETED
+9014659,lidocaine hydrochloride 4 % cutaneous gel,"ntp_status_effective_time: ""20220127"" -> ""20260227"""
+9015117,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9013748,somatropin 5 mg per 1.5 mL solution for injection pen,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20140815"" -> ""20230831"""
+9015112,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial","ntp_status_effective_time: ""20230918"" -> ""20240924"""
+9000090,spironolactone 100 mg oral tablet,"ntp_status_effective_time: ""19751231"" -> ""19841231"""
+288cd5e7cfd10aeebde28ea8f7a0e941,hydromorphone hydrochloride 20 mg per 100 mL solution for injection,ADDED
+9013624,turoctocog alfa 3000 unit per vial powder for solution for injection with diluent solution syringe,DELETED
+9013623,turoctocog alfa 250 unit per vial powder for solution for injection with diluent solution syringe,DELETED
+9013343,sodium nitroprusside 50 mg per 2 mL solution for injection vial,"ntp_status_effective_time: ""20110517"" -> ""20190415"""
+9000531,lorazepam 1 mg sublingual tablet,"ntp_status_effective_time: ""19941231"" -> ""20131016"""
+9013620,turoctocog alfa 1000 unit per vial powder for solution for injection with diluent solution syringe,DELETED
+9000325,fluoxetine (fluoxetine hydrochloride) 20 mg oral capsule,"ntp_status_effective_time: ""19891231"" -> ""19951231"""
+9013988,potassium citrate 5 mEq prolonged-release oral tablet,DELETED
+9003828,disopyramide 100 mg oral capsule,DELETED
+4513cb753445fd49e76806aebfa3f6bb,ustekinumab 45 mg per 0.5 mL solution for injection,ADDED
+9004068,erlotinib (erlotinib hydrochloride) 150 mg oral tablet,"ntp_status_effective_time: ""20050719"" -> ""20141208"""
+9001055,ciclopirox olamine 1.5 % shampoo,DELETED
+9001338,trazodone hydrochloride 300 mg prolonged-release oral tablet,"ntp_status_effective_time: ""20170914"" -> ""20260630"""
+7e7a4058b194aaf65e65527a8f2e7fe2,daunorubicin (daunorubicin hydrochloride) 50 mg per 10 mL solution for injection,ADDED
+9014554,phenylephrine hydrochloride 50 mg per 5 mL solution for injection vial,DELETED
+9012481,cyproterone acetate 300 mg per 3 mL solution for injection ampoule,"ntp_status_effective_time: ""20250508"" -> ""20260625"""
+9015329,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg prolonged-release oral tablet",DELETED
+f84e313f23f43a7a50907b2a0a569536,acetaminophen 500 mg and dextromethorphan hydrobromide 20 mg powder for oral solution,ADDED
+9015076,methotrexate (methotrexate sodium) 20 mg per 0.8 mL solution for injection pen,DELETED
+9015074,methotrexate (methotrexate sodium) 10 mg per 0.4 mL solution for injection pen,DELETED
+85aaa4ceb0ea21f554ab681fc4c9ec80,ustekinumab 5 mg per mL solution for injection,ADDED
+9013622,turoctocog alfa 2000 unit per vial powder for solution for injection with diluent solution syringe,DELETED
+9015059,cetylpyridinium chloride 0.075 % gargle/mouthwash,ADDED
+9001337,trazodone hydrochloride 150 mg prolonged-release oral tablet,"ntp_status_effective_time: ""20170914"" -> ""20260630"""
+9014553,phenylephrine hydrochloride 100 mg per 10 mL solution for injection vial,DELETED
+9001131,insulin detemir 100 unit per mL solution for injection 3 mL cartridge,DELETED
+9015075,methotrexate (methotrexate sodium) 15 mg per 0.6 mL solution for injection pen,DELETED
+9003860,acetaminophen 500 mg and chlorpheniramine maleate 2 mg and dextromethorphan hydrobromide 15 mg oral tablet,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20230605"" -> ""20040112"""
+9015330,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg prolonged-release oral tablet",DELETED
+9015077,methotrexate (methotrexate sodium) 25 mg per mL solution for injection pen,DELETED
+9015118,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+9001033,calcitriol 1 mcg per 1 mL solution for injection ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20030707"" -> ""20230310"""
+9340599fdbb7251c95358f3b4d517c29,ustekinumab 90 mg per 1 mL solution for injection,ADDED
+9015116,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9013872,epinephrine (epinephrine bitartrate) 0.02 mg per mL and lidocaine hydrochloride 20 mg per mL solution for injection 1.8 mL cartridge,"ntp_status_effective_time: ""19641231"" -> ""19761231"""
+9000284,sulfamethoxazole 40 mg per mL and trimethoprim 8 mg per mL oral suspension,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20210514"" -> ""19871231"""
+9013621,turoctocog alfa 1500 unit per vial powder for solution for injection with diluent solution syringe,DELETED
+bf783643e06d5605b62d783288b179f8,acetaminophen 500 mg and acetaminophen 500 mg and chlorpheniramine maleate 2 mg and dextromethorphan hydrobromide 15 mg and dextromethorphan hydrobromide 15 mg kit,ADDED
+9013625,turoctocog alfa 500 unit per vial powder for solution for injection with diluent solution syringe,DELETED
+70302a886f65452228e66e235be3bcf4,acetaminophen 500 mg and dextromethorphan hydrobromide 15 mg oral tablet,ADDED
+9013021,semaglutide 1.34 mg per mL solution for injection 1.5 mL pen,"ntp_status_effective_time: ""20180222"" -> ""20260506"""
+9006201,alcohol anhydrous 0.25 mL per 5 mL and doxylamine succinate 6 mg per 5 mL and etafedrine hydrochloride 16.65 mg per 5 mL and hydrocodone bitartrate 1.65 mg per 5 mL and sodium citrate 200 mg per 5 mL syrup,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19831231"" -> ""20260724"""
+9000025,spironolactone 25 mg oral tablet,"ntp_status_effective_time: ""19591231"" -> ""19841231"""
+9015119,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+9000596,lorazepam 0.5 mg sublingual tablet,"ntp_status_effective_time: ""19951231"" -> ""20131016"""

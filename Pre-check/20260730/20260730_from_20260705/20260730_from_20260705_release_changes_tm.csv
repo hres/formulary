@@ -1,0 +1,11 @@
+tm_code,tm_formal_name,changes
+8000128,fluoxetine,"tm_status_effective_time: ""19891231"" -> ""19931231"""
+8001376,disopyramide,DELETED
+8000353,insulin detemir,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20051114"" -> ""20230804"""
+8002165,turoctocog alfa,DELETED
+8000779,alcohol anhydrous and doxylamine and etafedrine and hydrocodone and sodium citrate,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19831231"" -> ""20260724"""
+8001913,nitroprusside,"tm_status_effective_time: ""20110517"" -> ""20190415"""
+8000015,spironolactone,"tm_status_effective_time: ""19591231"" -> ""19841231"""
+8001871,potassium citrate,"tm_status_effective_time: ""19950101"" -> ""20110211"""
