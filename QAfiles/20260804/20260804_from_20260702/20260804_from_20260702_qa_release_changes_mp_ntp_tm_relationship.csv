@@ -1,0 +1,474 @@
+drug_code,mp_code,mp_formal_name,changes
+92785,02443252,KLEENEX FOAM HAND SANITIZER (benzalkonium chloride 0.13 % cutaneous solution) KIMBERLY-CLARK GLOBAL SALES LLC,ADDED
+103980,02551047,PRZ-TRAMADOL/ACET (acetaminophen 325 mg and tramadol hydrochloride 37.5 mg oral tablet) PHARMARIS CANADA INC,ADDED
+106978,02567369,LUNSUMIO SC (mosunetuzumab 5 mg per 0.5 mL solution for injection vial) HOFFMANN-LA ROCHE LIMITED,"ntp_code: ""472d8e79d46d4e1aa7f573637cc65857"" -> ""9015439"""
+NA,77700770,"DOXORUBICIN INJECTION, BP (doxorubicin hydrochloride 20 mg per 10 mL solution for injection vial) ACCORD HEALTHCARE INC",ADDED
+100342,02514257,VISTASEAL (fibrinogen human 400 mg per 5 mL and thrombin human 2500 unit per 5 mL cutaneous solution) INSTITUTO GRIFOLS S.A.,ADDED
+100476,02515377,BRIMONIDINE TARTRATE OPHTHALMIC SOLUTION (brimonidine tartrate 0.2 % ophthalmic drops) HIKMA CANADA LIMITED,ADDED
+97147,02480816,SCOTT ANTIMICROBIAL FOAM SKIN CLEANSER (benzalkonium chloride 0.1 % cutaneous solution) KIMBERLY-CLARK GLOBAL SALES LLC,ADDED
+85006,02365219,PRO-IRBESARTAN (irbesartan 300 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""IRBESARTAN (irbesartan 300 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲IRBESARTAN (irbesartan 300 mg oral tablet) PRO DOC LIMITEE"""
+103051,02541904,SODIUM BICARBONATE INJECTION USP (sodium bicarbonate 84 mg per mL solution for injection) STERIMAX INC,ADDED
+72245,02247935,APO-CARVEDILOL (carvedilol 12.5 mg oral tablet) APOTEX INC,ADDED
+100915,02519917,"ALOCANE (lidocaine hydrochloride 4 % cutaneous gel) QUEST PRODUCTS, LLC",DELETED
+91410,02429659,EZETIMIBE (ezetimibe 10 mg oral tablet) SIVEM PHARMACEUTICALS ULC,DELETED
+64442,02240851,PROCTODAN-HC SUPPOSITORIES (hydrocortisone acetate 10 mg and pramoxine hydrochloride 20 mg and zinc sulfate 10 mg suppository) ODAN LABORATORIESLTD,"mp_formal_name: ""PROCTODAN-HC SUPPOSITORIES (hydrocortisone acetate 10 mg and pramoxine hydrochloride 20 mg and zinc sulfate 10 mg suppository) ODAN LABORATORIES ̲LTD"" -> ""PROCTODAN-HC SUPPOSITORIES (hydrocortisone acetate 10 mg and pramoxine hydrochloride 20 mg and zinc sulfate 10 mg suppository) ODAN LABORATORIESLTD"""
+103529,02546612,NORDIMET (methotrexate (methotrexate sodium) 25 mg per mL solution for injection pen) NORDIC GROUP B.V.,DELETED
+93459,02448866,SOFT CARE DEFEND FOAM (chloroxylenol 1 % cutaneous solution) DIVERSEY INC,ADDED
+91226,02427753,RIVA-DUTASTERIDE (dutasteride 0.5 mg oral capsule) LABORATOIRE RIVA INC.,DELETED
+103047,02541866,COMIRNATY OMICRON XBB.1.5 (raxtozinameran 3 mcg per 0.2 mL suspension for injection 2 mL vial) BIONTECH MANUFACTURING GMBH,DELETED
+51232,02231799,ODAN-INDOMETHACIN (indomethacin 50 mg suppository) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN-INDOMETHACIN (indomethacin 50 mg suppository) ODAN LABORATORIES ̲LTD"" -> ""ODAN-INDOMETHACIN (indomethacin 50 mg suppository) ODAN LABORATORIESLTD"""
+95692,02468492,ALTA-ZOPICLONE (zopiclone 5 mg oral tablet) ALTAMED PHARMA,"mp_formal_name: ""ZOPICLONE (zopiclone 5 mg oral tablet) ALTAMED PHARMA"" -> ""A̲L̲T̲A̲-̲ZOPICLONE (zopiclone 5 mg oral tablet) ALTAMED PHARMA"""
+2530,00360422,CEENU (lomustine 40 mg oral capsule) SEPTA PHARMACEUTICALS INC,"mp_formal_name: ""CEENU (lomustine 40 mg oral capsule) B̲R̲I̲S̲T̲O̲L̲-̲M̲Y̲E̲R̲S̲ ̲S̲Q̲U̲I̲B̲B̲ ̲C̲A̲N̲A̲D̲A̲"" -> ""CEENU (lomustine 40 mg oral capsule) S̲E̲P̲T̲A̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲I̲N̲C̲"""
+80131,02315793,BAZA PROTECT II (dimethicone 1 % and zinc oxide 12 % cutaneous cream) COLOPLAST A/S,DELETED
+106438,02561417,NRA-AMOXICILLIN (amoxicillin (amoxicillin trihydrate) 500 mg oral capsule) NORA PHARMA INC,ADDED
+97587,02485648,YESCARTA (axicabtagene ciloleucel 200000000 cells per bag suspension for injection) GILEAD SCIENCES CANADA INC,ADDED
+102627,02537567,AG-LISDEXAMFETAMINE (lisdexamfetamine dimesylate 10 mg oral capsule) ANGITA PHARMA INC.,ADDED
+4037,00510335,TARGEL SA (coal tar 10 % and salicylic acid 3 % cutaneous gel) ODAN LABORATORIESLTD,"mp_formal_name: ""TARGEL SA (coal tar 10 % and salicylic acid 3 % cutaneous gel) ODAN LABORATORIES ̲LTD"" -> ""TARGEL SA (coal tar 10 % and salicylic acid 3 % cutaneous gel) ODAN LABORATORIESLTD"""
+106839,02565838,ODAN-BUPROPION XL (bupropion hydrochloride 150 mg prolonged-release oral tablet) ODAN LABORATORIESLTD,ADDED
+73983,02254689,FORTEO (teriparatide 20 mcg per actuation solution for injection pre-filled pen) ELI LILLY CANADA INC,ADDED
+94601,02458837,DOAK OIL (coal tar 2 % cutaneous solution) ODAN LABORATORIESLTD,"mp_formal_name: ""DOAK OIL (coal tar 2 % cutaneous solution) ODAN LABORATORIES ̲LTD"" -> ""DOAK OIL (coal tar 2 % cutaneous solution) ODAN LABORATORIESLTD"""
+61804,02238389,CAELYX (doxorubicin hydrochloride 20 mg per 10 mL suspension for injection vial) BAXTER CORPORATION,ADDED
+42945,02194473,DOXORUBICIN HYDROCHLORIDE FOR INJECTION USP (doxorubicin hydrochloride 150 mg per vial powder for solution for injection) PFIZER CANADA ULC,ADDED
+94083,02454319,JAMP RISPERIDONE (risperidone (risperidone tartrate) 1 mg per mL oral solution) JAMP PHARMA CORPORATION,"mp_formal_name: ""JAMP-̲RISPERIDONE (risperidone (risperidone tartrate) 1 mg per mL oral solution) JAMP PHARMA CORPORATION"" -> ""JAMP ̲RISPERIDONE (risperidone (risperidone tartrate) 1 mg per mL oral solution) JAMP PHARMA CORPORATION"""
+76059,02275082,ODAN BUPROPION SR (bupropion hydrochloride 150 mg prolonged-release oral tablet) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN BUPROPION SR (bupropion hydrochloride 150 mg prolonged-release oral tablet) ODAN LABORATORIES ̲LTD"" -> ""ODAN BUPROPION SR (bupropion hydrochloride 150 mg prolonged-release oral tablet) ODAN LABORATORIESLTD"""
+79715,02311593,PRO-CLONAZEPAM (clonazepam 0.5 mg oral tablet) PRO DOC LIMITEE,DELETED
+89151,02406837,SPC-IRBESARTAN (irbesartan 300 mg oral tablet) SUN PHARMA CANADA INC,"mp_formal_name: ""T̲A̲R̲O̲-IRBESARTAN (irbesartan 300 mg oral tablet) SUN PHARMA CANADA INC"" -> ""S̲P̲C̲-IRBESARTAN (irbesartan 300 mg oral tablet) SUN PHARMA CANADA INC"""
+98578,02495880,"ODAN-METHADONE DYE FREE, SUGAR FREE, UNFLAVORED (methadone hydrochloride 10 mg per mL oral solution) ODAN LABORATORIESLTD","mp_formal_name: ""ODAN-METHADONE DYE FREE, SUGAR FREE, UNFLAVORED (methadone hydrochloride 10 mg per mL oral solution) ODAN LABORATORIES ̲LTD"" -> ""ODAN-METHADONE DYE FREE, SUGAR FREE, UNFLAVORED (methadone hydrochloride 10 mg per mL oral solution) ODAN LABORATORIESLTD"""
+106468,02561743,EXTRA STRENGTH TYLENOL COUGH & SORE THROAT DAYTIME (acetaminophen 500 mg and dextromethorphan hydrobromide 15 mg oral tablet) KENVUE CANADA INC.,ADDED
+66672,02242842,DIGISAN E FOAM HAND SANITIZER (benzalkonium chloride 0.1 % cutaneous liquid) ECOLAB CO,ADDED
+102632,02537613,AG-LISDEXAMFETAMINE (lisdexamfetamine dimesylate 60 mg oral capsule) ANGITA PHARMA INC.,ADDED
+8398,00621366,BIODERM OINTMENT (bacitracin 500 unit per g and polymyxin B (polymyxin B sulfate) 10000 unit per g cutaneous ointment) ODAN LABORATORIESLTD,"mp_formal_name: ""BIODERM OINTMENT (bacitracin 500 unit per g and polymyxin B (polymyxin B sulfate) 10000 unit per g cutaneous ointment) ODAN LABORATORIES ̲LTD"" -> ""BIODERM OINTMENT (bacitracin 500 unit per g and polymyxin B (polymyxin B sulfate) 10000 unit per g cutaneous ointment) ODAN LABORATORIESLTD"""
+50758,02231441,NITROLINGUAL PUMPSPRAY (nitroglycerin 0.4 mg per actuation sublingual spray) G POHL-BOSKAMP GMBH & CO KG,"mp_formal_name: ""NITROLINGUAL PUMPSPRAY (nitroglycerin 0.4 mg per actuation sublingual spray) S̲A̲N̲O̲F̲I̲-̲A̲V̲E̲N̲T̲I̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"" -> ""NITROLINGUAL PUMPSPRAY (nitroglycerin 0.4 mg per actuation sublingual spray) G̲ ̲P̲O̲H̲L̲-̲B̲O̲S̲K̲A̲M̲P̲ ̲G̲M̲B̲H̲ ̲&̲ ̲C̲O̲ ̲K̲G̲"""
+1667,00266493,TARDAN SHP (coal tar 5 % and salicylic acid 2 % and triclosan 0.3 % shampoo) ODAN LABORATORIESLTD,"mp_formal_name: ""TARDAN SHP (coal tar 5 % and salicylic acid 2 % and triclosan 0.3 % shampoo) ODAN LABORATORIES ̲LTD"" -> ""TARDAN SHP (coal tar 5 % and salicylic acid 2 % and triclosan 0.3 % shampoo) ODAN LABORATORIESLTD"""
+2145,00285455,ALDACTONE 100 MG (spironolactone 100 mg oral tablet) PFIZER CANADA ULC,DELETED
+102386,02534975,"NALOXONE HYDROCHLORIDE INJECTION, USP (naloxone hydrochloride 4 mg per 10 mL solution for injection vial) EUGIA PHARMA INC.","mp_formal_name: ""NALOXONE HYDROCHLORIDE INJECTION, USP (naloxone hydrochloride 4 mg per 10 mL solution for injection) EUGIA PHARMA INC."" -> ""NALOXONE HYDROCHLORIDE INJECTION, USP (naloxone hydrochloride 4 mg per 10 mL solution for injection ̲v̲i̲a̲l̲) EUGIA PHARMA INC.""
+ntp_code: ""57098db31c7e62db8e9e6a63f4f91208"" -> ""9012524""
+ntp_formal_name: ""naloxone hydrochloride 4 mg per 10 mL solution for injection"" -> ""naloxone hydrochloride 4 mg per 10 mL solution for injection ̲v̲i̲a̲l̲"""
+NA,77700993,PACLITAXEL FOR INJECTION (paclitaxel 100 mg per 16.7 mL solution for injection vial) BIOLYSE PHARMA CORPORATION,ADDED
+87183,02386259,LISINOPRIL (lisinopril 20 mg oral tablet) SIVEM PHARMACEUTICALS ULC,DELETED
+3394,00402206,POTASSIUM CHLORIDE FOR INJECTION CONCENTRATE (potassium chloride 20 meq per 10 mL solution for injection) OMEGA LABORATORIES LIMITED,ADDED
+99111,02501481,DAUNORUBICIN INJECTABLE SOLUTION (daunorubicin (daunorubicin hydrochloride) 50 mg per 10 mL solution for injection vial) GENERIC MEDICAL PARTNERS INC,ADDED
+81955,02333864,JANUMET (metformin hydrochloride 850 mg and sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet) MERCK CANADA INC,ADDED
+72943,02248588,INFACOL (simethicone 40 mg per mL oral drops) PHOENIX LABS UNLIMITED COMPANY,DELETED
+97789,02487756,BIBAG (sodium bicarbonate 900 g per bag powder for concentrate for solution for haemodialysis) FRESENIUS MEDICAL CARE CANADA INC,ADDED
+78531,02299976,SANDOZ ENALAPRIL (enalapril maleate 20 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+95781,02469154,ALTA-ZOPICLONE (zopiclone 7.5 mg oral tablet) ALTAMED PHARMA,"mp_formal_name: ""ZOPICLONE (zopiclone 7.5 mg oral tablet) ALTAMED PHARMA"" -> ""A̲L̲T̲A̲-̲ZOPICLONE (zopiclone 7.5 mg oral tablet) ALTAMED PHARMA"""
+75881,02273322,APTIVUS (tipranavir 250 mg oral capsule) BOEHRINGER INGELHEIM (CANADA) LTD LTEE,ADDED
+91949,02435217,ZONOVATE (turoctocog alfa 1500 unit per vial powder for solution for injection with diluent solution syringe) NOVO NORDISK CANADA INC,DELETED
+73309,02248934,BICARBONATE CONCENTRATE B38 (sodium bicarbonate 80.7 g per l solution for haemodialysis) CHIEF MEDICAL SUPPLIES LTD,ADDED
+NA,77700785,DOXORUBICIN HYDROCHLORIDE INJECTION (doxorubicin hydrochloride 10 mg per 5 mL solution for injection vial) TEVA CANADA LIMITED,ADDED
+13090,01927825,ROVAMYCINE 250 CAPSULE 750000 UNIT (spiramycin 750000 unit oral capsule) ODAN LABORATORIESLTD,"mp_formal_name: ""ROVAMYCINE 250 CAPSULE 750000 UNIT (spiramycin 750000 unit oral capsule) ODAN LABORATORIES ̲LTD"" -> ""ROVAMYCINE 250 CAPSULE 750000 UNIT (spiramycin 750000 unit oral capsule) ODAN LABORATORIESLTD"""
+102631,02537605,AG-LISDEXAMFETAMINE (lisdexamfetamine dimesylate 50 mg oral capsule) ANGITA PHARMA INC.,ADDED
+74278,02257521,PRO-CITALOPRAM (citalopram (citalopram hydrobromide) 40 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""CITALOPRAM ̲-̲ ̲4̲0̲ (citalopram (citalopram hydrobromide) 40 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲CITALOPRAM (citalopram (citalopram hydrobromide) 40 mg oral tablet) PRO DOC LIMITEE"""
+89270,02408007,FENTORA (fentanyl (fentanyl citrate) 100 mcg buccal tablet) PHOENIX LABS UNLIMITED COMPANY,"mp_formal_name: ""FENTORA (fentanyl (fentanyl citrate) 100 mcg buccal tablet) T̲E̲V̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""FENTORA (fentanyl (fentanyl citrate) 100 mcg buccal tablet) P̲H̲O̲E̲N̲I̲X̲ ̲L̲A̲B̲S̲ ̲U̲N̲L̲I̲M̲I̲T̲E̲D̲ ̲C̲O̲M̲P̲A̲N̲Y̲"""
+79922,02313715,SPC-ATORVASTATIN (atorvastatin (atorvastatin calcium) 20 mg oral tablet) SUN PHARMA CANADA INC,"mp_formal_name: ""T̲A̲R̲O̲-ATORVASTATIN (atorvastatin (atorvastatin calcium) 20 mg oral tablet) T̲A̲R̲O̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ INC"" -> ""S̲P̲C̲-ATORVASTATIN (atorvastatin (atorvastatin calcium) 20 mg oral tablet) S̲U̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ INC"""
+98587,02495988,ODAN ITRACONAZOLE (itraconazole 10 mg per mL oral solution) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN ITRACONAZOLE (itraconazole 10 mg per mL oral solution) ODAN LABORATORIES ̲LTD"" -> ""ODAN ITRACONAZOLE (itraconazole 10 mg per mL oral solution) ODAN LABORATORIESLTD"""
+88725,02402416,RIVA-OMEPRAZOLE DR (omeprazole (omeprazole magnesium) 20 mg gastro-resistant tablet) LABORATOIRE RIVA INC.,DELETED
+63447,02239944,KETOROLAC TROMETHAMINE INJECTION USP (ketorolac tromethamine 30 mg per 1 mL solution for injection vial) SANDOZ CANADA INCORPORATED,DELETED
+89540,02410826,BERIPLEX P/N 1000 (coagulation factor ii (human) 1600 unit and coagulation factor IX human 1240 unit and coagulation factor vii (human) 1000 unit and coagulation factor x (human) 2040 unit and protein c 1640 unit and protein s 1360 unit powder for solution for injection) CSL BEHRING CANADA INC,ADDED
+99761,02508222,REFRESH ANTIBAC FOAM (benzalkonium chloride 0.13 % cutaneous solution) SC JOHNSON PROFESSIONAL CA INC,ADDED
+NA,77700992,PACLITAXEL FOR INJECTION (paclitaxel 100 mg per 16.7 mL solution for injection vial) BIOLYSE PHARMA CORPORATION,ADDED
+106817,02565587,TARO-SODIUM FUSIDATE (fusidate sodium 2 % cutaneous ointment) TARO PHARMACEUTICALS INC,ADDED
+87182,02386240,LISINOPRIL (lisinopril 10 mg oral tablet) SIVEM PHARMACEUTICALS ULC,DELETED
+92173,02437384,PURELL HAND SANITIZING WIPES (benzalkonium chloride 0.13 % wipe) GOJO CANADA INC,ADDED
+97681,02486636,"SODIUM BICARBONATE INJECTION, USP (sodium bicarbonate 84 mg per mL solution for injection) FRESENIUS KABI CANADA LTD",ADDED
+933,00029149,FUNGIZONE (amphotericin B 50 mg per vial powder for solution for injection) CHEPLAPHARM ARZNEIMITTEL GMBH,ADDED
+10509,00804789,POTASSIUM PHOSPHATES (phosphorus (potassium phosphate dibasic and potassium phosphate monobasic) 30 mmol per 10 mL and potassium (potassium phosphate dibasic and potassium phosphate monobasic) 44 mmol per 10 mL solution for injection vial) SANDOZ CANADA INCORPORATED,ADDED
+62481,02239029,NADRYL 25MG (diphenhydramine hydrochloride 25 mg oral tablet) LABORATOIRE RIVA INC.,ADDED
+102163,02532611,RADICAVA (edaravone 105 mg per 5 mL oral suspension) SHIONOGI INC.,"mp_formal_name: ""RADICAVA (edaravone 105 mg per 5 mL oral suspension) T̲A̲N̲A̲B̲E̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲O̲R̲P̲O̲R̲A̲T̲I̲O̲N̲"" -> ""RADICAVA (edaravone 105 mg per 5 mL oral suspension) S̲H̲I̲O̲N̲O̲G̲I̲ ̲I̲N̲C̲.̲"""
+NA,77700789,DOXORUBICIN (doxorubicin hydrochloride 10 mg per 5 mL solution for injection vial) PFIZER CANADA ULC,ADDED
+89150,02406829,SPC-IRBESARTAN (irbesartan 150 mg oral tablet) SUN PHARMA CANADA INC,"mp_formal_name: ""T̲A̲R̲O̲-IRBESARTAN (irbesartan 150 mg oral tablet) SUN PHARMA CANADA INC"" -> ""S̲P̲C̲-IRBESARTAN (irbesartan 150 mg oral tablet) SUN PHARMA CANADA INC"""
+101360,02524589,M-LEVETIRACETAM (levetiracetam 750 mg oral tablet) MANTRA PHARMA INC,DELETED
+101517,02526050,NRA-APIXABAN (apixaban 2.5 mg oral tablet) NORA PHARMA INC,DELETED
+NA,77700791,DOXORUBICIN (doxorubicin hydrochloride 50 mg per 25 mL solution for injection vial) PFIZER CANADA ULC,ADDED
+26863,02039982,CHILDREN'S TYLENOL COLD (acetaminophen 160 mg per 5 mL and chlorpheniramine maleate 1 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension) KENVUE CANADA INC.,"mp_formal_name: ""CHILDREN'S TYLENOL COLD (acetaminophen 160 mg per 5 mL and chlorpheniramine maleate 1 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""CHILDREN'S TYLENOL COLD (acetaminophen 160 mg per 5 mL and chlorpheniramine maleate 1 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+106479,02561867,EXTRA STRENGTH TYLENOL COUGH & SORE THROAT (acetaminophen 500 mg and chlorpheniramine maleate 2 mg and dextromethorphan hydrobromide 15 mg oral tablet with acetaminophen 500 mg and dextromethorphan hydrobromide 15 mg oral tablet) KENVUE CANADA INC.,ADDED
+83643,02351242,DOXYCYCLINE TABLETS (doxycycline (doxycycline hyclate) 100 mg oral tablet) SANIS HEALTH INC,DELETED
+99098,02501368,DOVE CARE & PROTECT HAND WASH ANTIBACTERIAL (benzalkonium chloride 0.13 % cutaneous solution) UNILEVER CANADA,ADDED
+100340,02514230,VISTASEAL (fibrinogen human 160 mg per 2 mL and thrombin human 1000 unit per 2 mL cutaneous solution) INSTITUTO GRIFOLS S.A.,ADDED
+1403,00028606,ALDACTONE 25 MG (spironolactone 25 mg oral tablet) PFIZER CANADA ULC,DELETED
+80636,02320940,BENYLIN EXTRA STRENGTH MUCUS & PHLEGM (guaifenesin 200 mg per 5 mL and menthol 15 mg per 5 mL syrup) KENVUE CANADA INC.,"mp_formal_name: ""BENYLIN EXTRA STRENGTH MUCUS & PHLEGM (guaifenesin 200 mg per 5 mL and menthol 15 mg per 5 mL syrup) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""BENYLIN EXTRA STRENGTH MUCUS & PHLEGM (guaifenesin 200 mg per 5 mL and menthol 15 mg per 5 mL syrup) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+12639,01977873,GERMICIDAL HAND SOAP LIQ 0.6% (chloroxylenol 0.6 % cutaneous liquid) OSTREM CHEMICAL CO LTD.,ADDED
+76058,02275074,ODAN BUPROPION SR (bupropion hydrochloride 100 mg prolonged-release oral tablet) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN BUPROPION SR (bupropion hydrochloride 100 mg prolonged-release oral tablet) ODAN LABORATORIES ̲LTD"" -> ""ODAN BUPROPION SR (bupropion hydrochloride 100 mg prolonged-release oral tablet) ODAN LABORATORIESLTD"""
+37379,02224801,RYTHMODAN (disopyramide 100 mg oral capsule) CHEPLAPHARM ARZNEIMITTEL GMBH,DELETED
+12266,01923986,SOLARCAINE FIRST AID LIDOCAINE SPRAY (lidocaine 0.5 % cutaneous spray) WELLSPRING PHARMACEUTICAL CANADA CORP,ADDED
+63139,02239665,"ALERTEC (modafinil 100 mg oral tablet) NEURAXPHARM PHARMACEUTICALS, S.L.","mp_formal_name: ""ALERTEC (modafinil 100 mg oral tablet) T̲E̲V̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""ALERTEC (modafinil 100 mg oral tablet) N̲E̲U̲R̲A̲X̲P̲H̲A̲R̲M̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲,̲ ̲S̲.̲L̲.̲"""
+104462,02555891,AG-FLUCONAZOLE (fluconazole 150 mg oral capsule) ANGITA PHARMA INC.,ADDED
+97058,02480034,POTASSIUM CHLORIDE FOR INJECTION CONCENTRATE (potassium chloride 200 meq per 100 mL solution for injection) OMEGA LABORATORIES LIMITED,ADDED
+92527,02440903,TREKSAFE (benzalkonium chloride 0.13 % wipe) ZHEJIANGH HONGYU MEDICAL COMMODITY CO LTD,ADDED
+85004,02365197,PRO-IRBESARTAN (irbesartan 75 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""IRBESARTAN (irbesartan 75 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲IRBESARTAN (irbesartan 75 mg oral tablet) PRO DOC LIMITEE"""
+2197,00344508,TARGEL (coal tar 10 % cutaneous gel) ODAN LABORATORIESLTD,"mp_formal_name: ""TARGEL (coal tar 10 % cutaneous gel) ODAN LABORATORIES ̲LTD"" -> ""TARGEL (coal tar 10 % cutaneous gel) ODAN LABORATORIESLTD"""
+107120,02568934,EXDENSUR (depemokimab 100 mg per 1 mL solution for injection syringe) GLAXOSMITHKLINE INC,ADDED
+18208,02131471,VIROBEX-P (chloroxylenol 0.6 % cutaneous liquid) GERMIPHENE CORPORATION,ADDED
+106572,02562871,ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 10 mg oral tablet) 10445517 CANADA INC / NORTH PHARMACEUTICALS / DAC PHARMACEUTICALS,ADDED
+79267,02306999,PRO-BISOPROLOL (bisoprolol fumarate 5 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""PRO-BISOPROLOL ̲-̲ ̲5̲ (bisoprolol fumarate 5 mg oral tablet) PRO DOC LIMITEE"" -> ""PRO-BISOPROLOL (bisoprolol fumarate 5 mg oral tablet) PRO DOC LIMITEE"""
+76673,02281066,ABRAXANE FOR INJECTABLE SUSPENSION (paclitaxel 100 mg per vial powder for suspension for injection) BRISTOL-MYERS SQUIBB CANADA,ADDED
+99175,02502178,ANTI-MICROBE M (benzalkonium chloride 0.15 % cutaneous solution) ATOMS F.D. INC,ADDED
+66276,02242528,ODAN PROCTOMYXIN HC SUPPOSITORIES (dibucaine hydrochloride 5 mg and esculin 10 mg and framycetin sulfate 10 mg and hydrocortisone 5 mg suppository) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN PROCTOMYXIN HC SUPPOSITORIES (dibucaine hydrochloride 5 mg and esculin 10 mg and framycetin sulfate 10 mg and hydrocortisone 5 mg suppository) ODAN LABORATORIES ̲LTD"" -> ""ODAN PROCTOMYXIN HC SUPPOSITORIES (dibucaine hydrochloride 5 mg and esculin 10 mg and framycetin sulfate 10 mg and hydrocortisone 5 mg suppository) ODAN LABORATORIESLTD"""
+80682,02321432,"BENYLIN EXTRA STRENGTH ALL-IN-ONE COUGH, COLD & FLU WITH WARMING SENSATION (acetaminophen 500 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and guaifenesin 100 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL syrup) KENVUE CANADA INC.","mp_formal_name: ""BENYLIN EXTRA STRENGTH ALL-IN-ONE COUGH, COLD & FLU WITH WARMING SENSATION (acetaminophen 500 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and guaifenesin 100 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL syrup) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""BENYLIN EXTRA STRENGTH ALL-IN-ONE COUGH, COLD & FLU WITH WARMING SENSATION (acetaminophen 500 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and guaifenesin 100 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL syrup) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+18240,02128446,ANODAN-HC OINTMENT (hydrocortisone acetate 0.5 % and zinc sulfate 0.5 % rectal ointment) ODAN LABORATORIESLTD,"mp_formal_name: ""ANODAN-HC OINTMENT (hydrocortisone acetate 0.5 % and zinc sulfate 0.5 % rectal ointment) ODAN LABORATORIES ̲LTD"" -> ""ANODAN-HC OINTMENT (hydrocortisone acetate 0.5 % and zinc sulfate 0.5 % rectal ointment) ODAN LABORATORIESLTD"""
+80190,02316390,TEVA-IRBESARTAN (irbesartan 75 mg oral tablet) TEVA CANADA LIMITED,DELETED
+90747,02422816,RIVA-LANSOPRAZOLE (lansoprazole 30 mg gastro-resistant capsule) LABORATOIRE RIVA INC.,DELETED
+75580,02270420,SOAPOPULAR (benzalkonium chloride 0.15 % cutaneous liquid) SOAPOPULAR INC,ADDED
+99238,02502852,FS ANTIMICROBIAL HAND WASH (benzalkonium chloride 0.13 % cutaneous solution) ZEP MANUFACTURING COMPANY OF CANADA,ADDED
+71113,02246888,AVAGARD CHG (alcohol anhydrous 61 % and chlorhexidine gluconate 1 % lotion) SOLVENTUM CANADA LIMITED,ADDED
+101489,02525909,AMIKACIN SULFATE INJECTION (amikacin (amikacin sulfate) 500 mg per 2 mL solution for injection vial) HIKMA CANADA LIMITED,ADDED
+NA,77700996,PACLITAXEL INJECTION USP (paclitaxel 100 mg per 16.7 mL solution for injection vial) SANDOZ CANADA INCORPORATED,ADDED
+35083,02181746,SODIUM ACETATE INJECTION USP (sodium (sodium acetate) 4 mmol per mL solution for injection 50 mL vial) OMEGA LABORATORIES LIMITED,ADDED
+NA,02480360,AUVI-Q (epinephrine 0.15 mg per 0.15 mL solution for injection syringe) KALEO INC,DELETED
+91948,02435209,ZONOVATE (turoctocog alfa 1000 unit per vial powder for solution for injection with diluent solution syringe) NOVO NORDISK CANADA INC,DELETED
+102630,02537591,AG-LISDEXAMFETAMINE (lisdexamfetamine dimesylate 40 mg oral capsule) ANGITA PHARMA INC.,ADDED
+96151,02472236,FUZION AB FOAMING HAND SOAP (benzalkonium chloride 0.13 % NA) ZEP MANUFACTURING COMPANY OF CANADA,ADDED
+106505,02562154,GALANTAMINE ER (galantamine (galantamine hydrobromide) 8 mg prolonged-release oral capsule) SIVEM PHARMACEUTICALS ULC,ADDED
+89273,02408031,FENTORA (fentanyl (fentanyl citrate) 600 mcg buccal tablet) PHOENIX LABS UNLIMITED COMPANY,"mp_formal_name: ""FENTORA (fentanyl (fentanyl citrate) 600 mcg buccal tablet) T̲E̲V̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""FENTORA (fentanyl (fentanyl citrate) 600 mcg buccal tablet) P̲H̲O̲E̲N̲I̲X̲ ̲L̲A̲B̲S̲ ̲U̲N̲L̲I̲M̲I̲T̲E̲D̲ ̲C̲O̲M̲P̲A̲N̲Y̲"""
+80802,02322579,SANDOZ FINASTERIDE (finasteride 5 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+88701,02402149,ACNE TREATMENT SYSTEM (benzoyl peroxide 5 % and salicylic acid 2 % NA) VIVIER CANADA INCORPORATED,ADDED
+91561,02431173,ESOMEPRAZOLE (esomeprazole (esomeprazole magnesium dihydrate) 40 mg gastro-resistant tablet) SANIS HEALTH INC,DELETED
+98983,02500124,FOAM-CARE ULTRA (benzalkonium chloride 0.13 % cutaneous solution) LES CHIMIQUES B.O.D. INC,ADDED
+47448,02229538,CHILDREN'S TYLENOL COLD & STUFFY NOSE (acetaminophen 160 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension) KENVUE CANADA INC.,"mp_formal_name: ""CHILDREN'S TYLENOL COLD & STUFFY NOSE (acetaminophen 160 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""CHILDREN'S TYLENOL COLD & STUFFY NOSE (acetaminophen 160 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+69814,02245710,"BENYLIN EXTRA STRENGTH ALL-IN-ONE COUGH, COLD & FLU (acetaminophen 500 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and guaifenesin 100 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL syrup) KENVUE CANADA INC.","mp_formal_name: ""BENYLIN EXTRA STRENGTH ALL-IN-ONE COUGH, COLD & FLU (acetaminophen 500 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and guaifenesin 100 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL syrup) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""BENYLIN EXTRA STRENGTH ALL-IN-ONE COUGH, COLD & FLU (acetaminophen 500 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and guaifenesin 100 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL syrup) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+92481,02440458,PURKLENZ (chloroxylenol 3 % cutaneous liquid) PURKLENZ FORMULATIONS INC,ADDED
+10523,00868965,SUPRAX (cefixime 100 mg per 5 mL oral suspension) ODAN LABORATORIESLTD,"mp_formal_name: ""SUPRAX (cefixime 100 mg per 5 mL oral suspension) ODAN LABORATORIES ̲LTD"" -> ""SUPRAX (cefixime 100 mg per 5 mL oral suspension) ODAN LABORATORIESLTD"""
+100300,02513781,SANDOZ DIMETHYL FUMARATE DELAYED-RELEASE CAPSULES (dimethyl fumarate 120 mg gastro-resistant capsule) SANDOZ CANADA INCORPORATED,DELETED
+31563,02143879,LIDODAN JELLY 2% (lidocaine hydrochloride 2 % cutaneous gel) ODAN LABORATORIESLTD,"mp_formal_name: ""LIDODAN JELLY 2% (lidocaine hydrochloride 2 % cutaneous gel) ODAN LABORATORIES ̲LTD"" -> ""LIDODAN JELLY 2% (lidocaine hydrochloride 2 % cutaneous gel) ODAN LABORATORIESLTD"""
+106284,02559714,LYNKUET (elinzanetant 60 mg oral capsule) BAYER INC,ADDED
+79962,02314126,PHENREX MVD (chloroxylenol 0.6 % cutaneous solution) IMREX INC.,ADDED
+100301,02513803,SANDOZ DIMETHYL FUMARATE DELAYED-RELEASE CAPSULES (dimethyl fumarate 240 mg gastro-resistant capsule) SANDOZ CANADA INCORPORATED,DELETED
+NA,77700991,PACLITAXEL FOR INJECTION (paclitaxel 100 mg per 16.7 mL solution for injection vial) BIOLYSE PHARMA CORPORATION,ADDED
+88191,02396904,PRO-ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 10 mg oral capsule) PRO DOC LIMITEE,"mp_formal_name: ""ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 10 mg oral capsule) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 10 mg oral capsule) PRO DOC LIMITEE"""
+98478,02494809,GLN-DIMETHYL FUMARATE (dimethyl fumarate 120 mg gastro-resistant capsule) GLENMARK PHARMACEUTICALS CANADA INC.,DELETED
+103525,02546574,NORDIMET (methotrexate (methotrexate sodium) 15 mg per 0.6 mL solution for injection pen) NORDIC GROUP B.V.,DELETED
+84093,02355736,BENZALKONIUM CHLORIDE ANTISEPTIC TOWELETTE (benzalkonium chloride 0.13 % wipe) CANADIAN CUSTOM PACKAGING COMPANY,ADDED
+85450,02369575,X3 ON-THE-GO ANTISEPTIC SPRAY (benzalkonium chloride 0.13 % cutaneous spray) NATURAL ESSENTIALS INC,ADDED
+103443,02545683,FOAMING ANTIBACTERIAL HAND CLEANSER (benzalkonium chloride 0.13 % cutaneous solution) BETCO CORPORATION,ADDED
+12875,00641324,ODAN-ERYTHROMYCIN (erythromycin 5 mg per g ophthalmic ointment) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN-ERYTHROMYCIN (erythromycin 5 mg per g ophthalmic ointment) ODAN LABORATORIES ̲LTD"" -> ""ODAN-ERYTHROMYCIN (erythromycin 5 mg per g ophthalmic ointment) ODAN LABORATORIESLTD"""
+106735,02564661,VOXZOGO (vosoritide 0.56 mg per vial powder for solution for injection with diluent solution syringe) BIOMARIN INTERNATIONAL LIMITED,ADDED
+91946,02435187,ZONOVATE (turoctocog alfa 250 unit per vial powder for solution for injection with diluent solution syringe) NOVO NORDISK CANADA INC,DELETED
+98479,02494817,GLN-DIMETHYL FUMARATE (dimethyl fumarate 240 mg gastro-resistant capsule) GLENMARK PHARMACEUTICALS CANADA INC.,DELETED
+9919,00789720,ODAN-PROCHLORPERAZINE (prochlorperazine 10 mg suppository) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN-PROCHLORPERAZINE (prochlorperazine 10 mg suppository) ODAN LABORATORIES ̲LTD"" -> ""ODAN-PROCHLORPERAZINE (prochlorperazine 10 mg suppository) ODAN LABORATORIESLTD"""
+89272,02408023,FENTORA (fentanyl (fentanyl citrate) 400 mcg buccal tablet) PHOENIX LABS UNLIMITED COMPANY,"mp_formal_name: ""FENTORA (fentanyl (fentanyl citrate) 400 mcg buccal tablet) T̲E̲V̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""FENTORA (fentanyl (fentanyl citrate) 400 mcg buccal tablet) P̲H̲O̲E̲N̲I̲X̲ ̲L̲A̲B̲S̲ ̲U̲N̲L̲I̲M̲I̲T̲E̲D̲ ̲C̲O̲M̲P̲A̲N̲Y̲"""
+87181,02386232,LISINOPRIL (lisinopril 5 mg oral tablet) SIVEM PHARMACEUTICALS ULC,DELETED
+62780,02239311,ECOCARE 250 (triclosan 0.3 % cutaneous liquid) ECOLAB CO,ADDED
+NA,afe80c5d068b42110b6bbc375a325a10,"FUROSEMIDE INJECTION, USP (furosemide 40 mg per 4 mL solution for injection vial) EUGIA PHARMA INC.",ADDED
+16823,01968823,LIDODAN VISCOUS 2% (lidocaine hydrochloride 2 % oromucosal/laryngopharyngeal solution) ODAN LABORATORIESLTD,"mp_formal_name: ""LIDODAN VISCOUS 2% (lidocaine hydrochloride 2 % oromucosal/laryngopharyngeal solution) ODAN LABORATORIES ̲LTD"" -> ""LIDODAN VISCOUS 2% (lidocaine hydrochloride 2 % oromucosal/laryngopharyngeal solution) ODAN LABORATORIESLTD"""
+65336,02241676,POTASSIUM CHLORIDE INJECTION (potassium (potassium chloride) 10 mmol per 100 mL solution for injection bag) BAXTER CORPORATION,ADDED
+78474,02299364,RIVA-OXYBUTYNIN (oxybutynin chloride 5 mg oral tablet) LABORATOIRE RIVA INC.,DELETED
+106506,02562162,GALANTAMINE ER (galantamine (galantamine hydrobromide) 16 mg prolonged-release oral capsule) SIVEM PHARMACEUTICALS ULC,ADDED
+NA,17005c4417b0fe3b1e4539dfc98c6677,"FUROSEMIDE INJECTION, USP (furosemide 20 mg per 2 mL solution for injection vial) EUGIA PHARMA INC.",ADDED
+103179,02543338,SIBBORAN (landiolol hydrochloride 300 mg per vial powder for solution for injection) TRIMEDIC THERAPEUTICS INC.,ADDED
+89495,02410303,MOVISSE (norethindrone 0.35 mg oral tablet) SENADOR LABORATORIES PRIVATE LIMITED,"mp_formal_name: ""MOVISSE (norethindrone 0.35 mg oral tablet) M̲Y̲L̲A̲N̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲U̲L̲C̲"" -> ""MOVISSE (norethindrone 0.35 mg oral tablet) S̲E̲N̲A̲D̲O̲R̲ ̲L̲A̲B̲O̲R̲A̲T̲O̲R̲I̲E̲S̲ ̲P̲R̲I̲V̲A̲T̲E̲ ̲L̲I̲M̲I̲T̲E̲D̲ ̲"""
+46885,01914022,UROCIT-K (potassium citrate 5 mEq prolonged-release oral tablet) MISSION PHARMACAL COMPANY,DELETED
+106366,02560615,JAMP OXCARBAZEPINE (oxcarbazepine 600 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+NA,77700783,DOXORUBICIN HYDROCHLORIDE INJECTION (doxorubicin hydrochloride 50 mg per 25 mL solution for injection vial) TEVA CANADA LIMITED,ADDED
+107119,02568926,EXDENSUR (depemokimab 100 mg per 1 mL solution for injection pen) GLAXOSMITHKLINE INC,ADDED
+101740,02528142,LETYBO (letibotulinumtoxinA 100 unit per vial powder for solution for injection) HUGEL CANADA INC.,"mp_formal_name: ""LETYBO (letibotulinumtoxina̲ 100 unit per vial powder for solution for injection) HUGEL CANADA INC."" -> ""LETYBO (letibotulinumtoxinA̲ 100 unit per vial powder for solution for injection) HUGEL CANADA INC.""
+ntp_code: ""9014865"" -> ""758527864ab9998d81acd72173582023""
+ntp_formal_name: ""letibotulinumtoxina̲ 100 unit per vial powder for solution for injection"" -> ""letibotulinumtoxinA̲ 100 unit per vial powder for solution for injection""
+tm_code: ""8002469"" -> ""19d7339d5bbb0990e0b53ba88c6785a2""
+tm_formal_name: ""letibotulinumtoxina̲"" -> ""letibotulinumtoxinA̲"""
+97932,02489244,CARBETOCIN INJECTION (carbetocin 100 mcg per 1 mL solution for injection syringe) JUNO PHARMA CANADA INC.,"mp_formal_name: ""CARBETOCIN INJECTION (carbetocin 100 mcg per 1 mL solution for injection syringe) JUNO PHARMAC̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲C̲O̲R̲P̲."" -> ""CARBETOCIN INJECTION (carbetocin 100 mcg per 1 mL solution for injection syringe) JUNO PHARMA ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲."""
+635,00151874,OCTOCAINE HCL 2% EPINEPHRINE 1:50000 (epinephrine (epinephrine bitartrate) 0.02 mg per mL and lidocaine hydrochloride 20 mg per mL solution for injection 1.8 mL cartridge) NOVOCOL PHARMACEUTICAL OF CANADA INC,DELETED
+85799,02372886,IRBESARTAN/HCTZ (hydrochlorothiazide 12.5 mg and irbesartan 150 mg oral tablet) SANIS HEALTH INC,DELETED
+84332,02358263,TEVA-LOSARTAN/HCTZ (hydrochlorothiazide 12.5 mg and losartan potassium 50 mg oral tablet) TEVA CANADA LIMITED,DELETED
+106895,02566443,AURO-CLADRIBINE (cladribine 10 mg oral tablet) AURO PHARMA INC,ADDED
+85005,02365200,PRO-IRBESARTAN (irbesartan 150 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""IRBESARTAN (irbesartan 150 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲IRBESARTAN (irbesartan 150 mg oral tablet) PRO DOC LIMITEE"""
+78530,02299968,SANDOZ ENALAPRIL (enalapril maleate 10 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+76258,02276917,QUICK CLEAN (chloroxylenol 1 % cutaneous gel) SPRAKITA PRODUCTS,ADDED
+101894,02529718,M-SOLIFENACIN SUCCINATE (solifenacin succinate 10 mg oral tablet) MANTRA PHARMA INC,DELETED
+95626,02467917,AERMONY RESPICLICK (fluticasone propionate 232 mcg per actuation inhalation powder) TEVA CANADA LIMITED,DELETED
+81095,02325586,BIBAG (sodium bicarbonate 650 g per bag powder for concentrate for solution for haemodialysis) FRESENIUS MEDICAL CARE CANADA INC,ADDED
+85801,02372908,IRBESARTAN/HCTZ (hydrochlorothiazide 25 mg and irbesartan 300 mg oral tablet) SANIS HEALTH INC,DELETED
+12449,01944762,BENYLIN REGULAR STRENGTH COUGH PLUS CHEST CONGESTION RELIEF (dextromethorphan hydrobromide 15 mg per 5 mL and guaifenesin 100 mg per 5 mL syrup) KENVUE CANADA INC.,"mp_formal_name: ""BENYLIN REGULAR STRENGTH COUGH PLUS CHEST CONGESTION RELIEF (dextromethorphan hydrobromide 15 mg per 5 mL and guaifenesin 100 mg per 5 mL syrup) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""BENYLIN REGULAR STRENGTH COUGH PLUS CHEST CONGESTION RELIEF (dextromethorphan hydrobromide 15 mg per 5 mL and guaifenesin 100 mg per 5 mL syrup) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+106722,02564521,APO-NAPROXEN / ESOMEPRAZOLE (esomeprazole (esomeprazole magnesium trihydrate) 20 mg and naproxen 375 mg modified-release oral tablet) APOTEX INC,ADDED
+86769,02381850,"BUPIVACAINE HCL 0.5% AND EPINEPHRINE 1:200,000 INJECTION (bupivacaine hydrochloride 5 mg per mL and epinephrine (epinephrine bitartrate) 0.005 mg per mL solution for injection 1.8 mL cartridge) NOVOCOL PHARMACEUTICAL OF CANADA INC",DELETED
+100018,02510901,SOAPOPULAR ANTIBACTERIAL HAND SOAP (benzalkonium chloride 0.15 % cutaneous solution) SOAPOPULAR INC,ADDED
+94355,02456559,EURO-COLCHICINE (colchicine 0.6 mg oral tablet) EURO-PHARM INTERNATIONAL CANADA INC,ADDED
+6775,00691623,BICARBONATE CONCENTRATE D17000 (sodium bicarbonate 81.3 g per l solution for haemodialysis) VANTIVE ULC,ADDED
+106703,02564327,"REDEMPLO (plozasiran (plozasiran sodium) 25 mg per 0.5 mL solution for injection syringe) ARROWHEAD PHARMACEUTICALS, INC.",ADDED
+98210,02492105,ODAN LEVOCARNITINE (levocarnitine 100 mg per mL oral solution) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN LEVOCARNITINE (levocarnitine 100 mg per mL oral solution) ODAN LABORATORIES ̲LTD"" -> ""ODAN LEVOCARNITINE (levocarnitine 100 mg per mL oral solution) ODAN LABORATORIESLTD"""
+81004,02324601,SANDOZ RIVASTIGMINE (rivastigmine (rivastigmine hydrogen tartrate) 6 mg oral capsule) SANDOZ CANADA INCORPORATED,DELETED
+86274,02377152,TEVA-LOSARTAN/HCTZ (hydrochlorothiazide 25 mg and losartan potassium 100 mg oral tablet) TEVA CANADA LIMITED,DELETED
+71635,02247390,SANDOZ SENNA S (docusate sodium 50 mg and sennosides 8.6 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+94777,02460424,FIASP (insulin aspart 100 unit per mL solution for injection 3 mL pen) NOVO NORDISK CANADA INC,DELETED
+102623,02537524,ANTIBACTERIAL FOAMING HAND SOAP (benzalkonium chloride 0.13 % cutaneous solution) RUBBERMAID COMMERCIAL PRODUCTS LLC,ADDED
+97189,02481456,SCOTT FOAM HAND SANITIZER (benzalkonium chloride 0.13 % cutaneous solution) KIMBERLY-CLARK GLOBAL SALES LLC,ADDED
+86193,02376474,"CHILDREN'S TYLENOL COMPLETE COLD, COUGH & FEVER (acetaminophen 160 mg per 5 mL and chlorpheniramine maleate 1 mg per 5 mL and dextromethorphan hydrobromide 7.5 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension) KENVUE CANADA INC.","mp_formal_name: ""CHILDREN'S TYLENOL COMPLETE COLD, COUGH & FEVER (acetaminophen 160 mg per 5 mL and chlorpheniramine maleate 1 mg per 5 mL and dextromethorphan hydrobromide 7.5 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""CHILDREN'S TYLENOL COMPLETE COLD, COUGH & FEVER (acetaminophen 160 mg per 5 mL and chlorpheniramine maleate 1 mg per 5 mL and dextromethorphan hydrobromide 7.5 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+79921,02313707,SPC-ATORVASTATIN (atorvastatin (atorvastatin calcium) 10 mg oral tablet) SUN PHARMA CANADA INC,"mp_formal_name: ""T̲A̲R̲O̲-ATORVASTATIN (atorvastatin (atorvastatin calcium) 10 mg oral tablet) T̲A̲R̲O̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ INC"" -> ""S̲P̲C̲-ATORVASTATIN (atorvastatin (atorvastatin calcium) 10 mg oral tablet) S̲U̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ INC"""
+78001,02294664,OCTAPLEX (coagulation factor ii (human) 760 unit per vial and coagulation factor IX human 500 unit per vial and coagulation factor vii (human) 480 unit per vial and coagulation factor x (human) 600 unit per vial and protein c 620 unit per vial and protein s 640 unit per vial NA) OCTAPHARMA PHARMAZEUTIKA PRODUKTIONSGES M B H,ADDED
+102173,02532719,TECARTUS (brexucabtagene autoleucel 100000000 cells per bag suspension for injection) GILEAD SCIENCES CANADA INC,ADDED
+12601,01927817,ROVAMYCINE 500 CAPSULE 1500000 UNIT (spiramycin 1500000 unit oral capsule) ODAN LABORATORIESLTD,"mp_formal_name: ""ROVAMYCINE 500 CAPSULE 1500000 UNIT (spiramycin 1500000 unit oral capsule) ODAN LABORATORIES ̲LTD"" -> ""ROVAMYCINE 500 CAPSULE 1500000 UNIT (spiramycin 1500000 unit oral capsule) ODAN LABORATORIESLTD"""
+88378,02398869,INDAYO (ethinyl estradiol 30 mcg and levonorgestrel 150 mcg oral tablet with lactose oral tablet) SENADOR LABORATORIES PRIVATE LIMITED,"mp_formal_name: ""INDAYO (ethinyl estradiol 30 mcg and levonorgestrel 150 mcg oral tablet with lactose oral tablet) M̲Y̲L̲A̲N̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲U̲L̲C̲"" -> ""INDAYO (ethinyl estradiol 30 mcg and levonorgestrel 150 mcg oral tablet with lactose oral tablet) S̲E̲N̲A̲D̲O̲R̲ ̲L̲A̲B̲O̲R̲A̲T̲O̲R̲I̲E̲S̲ ̲P̲R̲I̲V̲A̲T̲E̲ ̲L̲I̲M̲I̲T̲E̲D̲"""
+104099,02552310,PRZ-SITAGLIPTIN-METFORMIN (metformin hydrochloride 850 mg and sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet) PHARMARIS CANADA INC,ADDED
+103933,02550520,"PYZCHIVA I.V. (ustekinumab 130 mg per 26 mL solution for injection vial) SAMSUNG BIOEPIS CO., LTD",ADDED
+NA,77700997,PACLITAXEL INJECTION USP (paclitaxel 100 mg per 16.7 mL solution for injection vial) SANDOZ CANADA INCORPORATED,ADDED
+98300,02493020,TARO-DOXORUBICIN LIPOSOMAL (doxorubicin hydrochloride 2 mg per mL suspension for injection) TARO PHARMACEUTICALS INC,ADDED
+76584,02280167,ASATAB 80 MG CHEWABLE TABLETS (acetylsalicylic acid 80 mg chewable tablet) ODAN LABORATORIESLTD,"mp_formal_name: ""ASATAB 80 MG CHEWABLE TABLETS (acetylsalicylic acid 80 mg chewable tablet) ODAN LABORATORIES ̲LTD"" -> ""ASATAB 80 MG CHEWABLE TABLETS (acetylsalicylic acid 80 mg chewable tablet) ODAN LABORATORIESLTD"""
+80347,02317966,PURG-ODAN (citric acid 12 g per sachet and magnesium oxide 3.5 g per sachet and sodium picosulfate 10 mg per sachet powder for oral solution) ODAN LABORATORIESLTD,"mp_formal_name: ""PURG-ODAN (citric acid 12 g per sachet and magnesium oxide 3.5 g per sachet and sodium picosulfate 10 mg per sachet powder for oral solution) ODAN LABORATORIES ̲LTD"" -> ""PURG-ODAN (citric acid 12 g per sachet and magnesium oxide 3.5 g per sachet and sodium picosulfate 10 mg per sachet powder for oral solution) ODAN LABORATORIESLTD"""
+17817,02041456,ATIVAN (lorazepam 0.5 mg sublingual tablet) PFIZER CANADA ULC,DELETED
+103582,02547171,ODAN-ETHOSUXIMIDE (ethosuximide 250 mg oral capsule) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN-ETHOSUXIMIDE (ethosuximide 250 mg oral capsule) ODAN LABORATORIES ̲LTD"" -> ""ODAN-ETHOSUXIMIDE (ethosuximide 250 mg oral capsule) ODAN LABORATORIESLTD"""
+88194,02396939,PRO-ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 40 mg oral capsule) PRO DOC LIMITEE,"mp_formal_name: ""ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 40 mg oral capsule) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 40 mg oral capsule) PRO DOC LIMITEE"""
+104324,02554380,NYQUIL HOT REMEDY (acetaminophen 650 mg per sachet and diphenhydramine hydrochloride 25 mg per sachet powder for oral solution) PROCTER & GAMBLE INC,ADDED
+65769,02242094,RIVA-ATENOLOL (atenolol 50 mg oral tablet) LABORATOIRE RIVA INC.,DELETED
+97104,02480514,KYMRIAH (tisagenlecleucel 600000000 cells suspension for injection) NOVARTIS PHARMACEUTICALS CANADA INC,ADDED
+93526,02449420,SOFT CARE DEFEND (chloroxylenol 1 % cutaneous solution) DIVERSEY INC,ADDED
+73994,02254786,TEVA-LATANOPROST (latanoprost 50 mcg per mL ophthalmic drops) TEVA CANADA LIMITED,DELETED
+101779,02528584,ODAN-DEXAMETHASONE ELIXIR (dexamethasone 0.5 mg per 5 mL oral solution) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN-DEXAMETHASONE ELIXIR (dexamethasone 0.5 mg per 5 mL oral solution) ODAN LABORATORIES ̲LTD"" -> ""ODAN-DEXAMETHASONE ELIXIR (dexamethasone 0.5 mg per 5 mL oral solution) ODAN LABORATORIESLTD"""
+72190,02247882,PROCTOL SUPPOSITORIES (dibucaine hydrochloride 5 mg and esculin 10 mg and framycetin sulfate 10 mg and hydrocortisone 5 mg suppository) ODAN LABORATORIESLTD,"mp_formal_name: ""PROCTOL SUPPOSITORIES (dibucaine hydrochloride 5 mg and esculin 10 mg and framycetin sulfate 10 mg and hydrocortisone 5 mg suppository) ODAN LABORATORIES ̲LTD"" -> ""PROCTOL SUPPOSITORIES (dibucaine hydrochloride 5 mg and esculin 10 mg and framycetin sulfate 10 mg and hydrocortisone 5 mg suppository) ODAN LABORATORIESLTD"""
+97788,02487748,SANDOZ GEFITINIB (gefitinib 250 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+106682,02564092,SHEAMOISTURE SINCE 1912 DANDRUFF & ITCH RELIEF (pyrithione zinc 1 % shampoo) UNILEVER CANADA,ADDED
+NA,02480379,AUVI-Q (epinephrine 0.3 mg per 0.3 mL solution for injection syringe) KALEO INC,DELETED
+94657,02459361,ODAN-FLUOXETINE (fluoxetine (fluoxetine hydrochloride) 20 mg per 5 mL oral solution) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN-FLUOXETINE (fluoxetine (fluoxetine hydrochloride) 20 mg per 5 mL oral solution) ODAN LABORATORIES ̲LTD"" -> ""ODAN-FLUOXETINE (fluoxetine (fluoxetine hydrochloride) 20 mg per 5 mL oral solution) ODAN LABORATORIESLTD"""
+103261,02544083,DEXRAZOXANE FOR INJECTION (dexrazoxane 250 mg per vial powder for solution for injection) JUNO PHARMA CANADA INC.,"mp_formal_name: ""DEXRAZOXANE FOR INJECTION (dexrazoxane 250 mg per vial powder for solution for injection) JUNO PHARMAC̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲C̲O̲R̲P̲."" -> ""DEXRAZOXANE FOR INJECTION (dexrazoxane 250 mg per vial powder for solution for injection) JUNO PHARMA ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲."""
+79195,02306409,BENYLIN EXTRA STRENGTH COLD & SINUS NIGHT (acetaminophen 500 mg and chlorpheniramine maleate 2 mg and phenylephrine hydrochloride 5 mg oral tablet) KENVUE CANADA INC.,"mp_formal_name: ""BENYLIN EXTRA STRENGTH COLD & SINUS NIGHT (acetaminophen 500 mg and chlorpheniramine maleate 2 mg and phenylephrine hydrochloride 5 mg oral tablet) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""BENYLIN EXTRA STRENGTH COLD & SINUS NIGHT (acetaminophen 500 mg and chlorpheniramine maleate 2 mg and phenylephrine hydrochloride 5 mg oral tablet) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+1668,00266507,ADASEPT (triclosan 0.5 % cutaneous solution) ODAN LABORATORIESLTD,ADDED
+107070,02568373,THYCONVI (levothyroxine sodium 20 mcg per mL oral solution) BIOSYENT PHARMA INC,"ntp_code: ""0d53db33b44b7b0a42f50ee607c753e1"" -> ""9015437"""
+106522,02562332,RIVA-FAMOTIDINE (famotidine 20 mg oral tablet) LABORATOIRE RIVA INC.,ADDED
+94242,02455609,CHOLESTYRAMINE-ODAN (cholestyramine 4 g per sachet powder for oral suspension) ODAN LABORATORIESLTD,"mp_formal_name: ""CHOLESTYRAMINE-ODAN (cholestyramine 4 g per sachet powder for oral suspension) ODAN LABORATORIES ̲LTD"" -> ""CHOLESTYRAMINE-ODAN (cholestyramine 4 g per sachet powder for oral suspension) ODAN LABORATORIESLTD"""
+95297,02464829,DIAL ANTIBACTERIAL HAND SOAP (benzalkonium chloride 0.13 % cutaneous solution) HENKEL CONSUMER BRANDS CANADA CORPORATION,ADDED
+97591,02485680,NOREPINEPHRINE BITARTRATE INJECTION USP (norepinephrine (norepinephrine bitartrate) 4 mg per 4 mL solution for injection ampoule) GENERIC MEDICAL PARTNERS INC,DELETED
+95595,02467585,SODIUM BICARBONATE INJECTION USP (sodium bicarbonate 84 mg per mL solution for injection) OMEGA LABORATORIES LIMITED,ADDED
+101893,02529696,M-SOLIFENACIN SUCCINATE (solifenacin succinate 5 mg oral tablet) MANTRA PHARMA INC,DELETED
+106365,02560607,JAMP OXCARBAZEPINE (oxcarbazepine 300 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+NA,77701080,PHENYLEPHRINE HYDROCHLORIDE INJECTION USP (phenylephrine hydrochloride 100 mg per 10 mL solution for injection vial) STERIMAX INC,DELETED
+78176,02296446,SANDOZ OMEPRAZOLE (omeprazole 20 mg gastro-resistant capsule) SANDOZ CANADA INCORPORATED,DELETED
+106571,02562863,ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 5 mg oral tablet) 10445517 CANADA INC / NORTH PHARMACEUTICALS / DAC PHARMACEUTICALS,ADDED
+85106,02366207,BENYLIN EXTRA STRENGTH MUCUS & PHLEGM PLUS COLD RELIEF (acetaminophen 500 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and guaifenesin 100 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL syrup) KENVUE CANADA INC.,"mp_formal_name: ""BENYLIN EXTRA STRENGTH MUCUS & PHLEGM PLUS COLD RELIEF (acetaminophen 500 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and guaifenesin 100 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL syrup) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""BENYLIN EXTRA STRENGTH MUCUS & PHLEGM PLUS COLD RELIEF (acetaminophen 500 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and guaifenesin 100 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL syrup) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+75279,02267365,INO-F-SAN INSTANT HAND SANITIZER (benzethonium chloride 0.2 % cutaneous liquid) GROUPE DISSAN INC.,ADDED
+NA,77700995,PACLITAXEL INJECTION USP (paclitaxel 100 mg per 16.7 mL solution for injection vial) SANDOZ CANADA INCORPORATED,ADDED
+95103,02463105,ODAN-BENZYDAMINE (benzydamine hydrochloride 0.15 % gargle/mouthwash) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN-BENZYDAMINE (benzydamine hydrochloride 0.15 % gargle/mouthwash) ODAN LABORATORIES ̲LTD"" -> ""ODAN-BENZYDAMINE (benzydamine hydrochloride 0.15 % gargle/mouthwash) ODAN LABORATORIESLTD"""
+38055,00695440,QUININE - ODAN (quinine sulfate 200 mg oral capsule) ODAN LABORATORIESLTD,"mp_formal_name: ""QUININE - ODAN (quinine sulfate 200 mg oral capsule) ODAN LABORATORIES ̲LTD"" -> ""QUININE - ODAN (quinine sulfate 200 mg oral capsule) ODAN LABORATORIESLTD"""
+88830,02403501,BICART (sodium bicarbonate 1250 g per cartridge powder for concentrate for solution for haemodialysis) VANTIVE ULC,ADDED
+70601,02246427,KEYSTONE FOAM HAND SANITIZER (benzalkonium chloride 0.1 % cutaneous liquid) ECOLAB CO,ADDED
+76056,02275058,TEVA-VENLAFAXINE XR (venlafaxine (venlafaxine hydrochloride) 150 mg prolonged-release oral capsule) TEVA CANADA LIMITED,DELETED
+99178,02502208,HAND SANITIZER (benzalkonium chloride 0.15 % cutaneous solution) CONTRACT PACKAGING DISTRIBUTION INC.,ADDED
+79268,02307006,PRO-BISOPROLOL (bisoprolol fumarate 10 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""PRO-BISOPROLOL ̲-̲ ̲1̲0̲ (bisoprolol fumarate 10 mg oral tablet) PRO DOC LIMITEE"" -> ""PRO-BISOPROLOL (bisoprolol fumarate 10 mg oral tablet) PRO DOC LIMITEE"""
+91613,02431645,CALCITRIOL-ODAN (calcitriol 0.5 mcg oral capsule) ODAN LABORATORIESLTD,"mp_formal_name: ""CALCITRIOL-ODAN (calcitriol 0.5 mcg oral capsule) ODAN LABORATORIES ̲LTD"" -> ""CALCITRIOL-ODAN (calcitriol 0.5 mcg oral capsule) ODAN LABORATORIESLTD"""
+96203,02472724,ENERGY BERRY BAIES ÉNERGISANTES FOAMING HAND SOAP ANTIBACTERIAL (benzalkonium chloride 0.13 % cutaneous solution) APOLLO HEALTH AND BEAUTY CARE,ADDED
+102628,02537575,AG-LISDEXAMFETAMINE (lisdexamfetamine dimesylate 20 mg oral capsule) ANGITA PHARMA INC.,ADDED
+91612,02431637,CALCITRIOL-ODAN (calcitriol 0.25 mcg oral capsule) ODAN LABORATORIESLTD,"mp_formal_name: ""CALCITRIOL-ODAN (calcitriol 0.25 mcg oral capsule) ODAN LABORATORIES ̲LTD"" -> ""CALCITRIOL-ODAN (calcitriol 0.25 mcg oral capsule) ODAN LABORATORIESLTD"""
+103981,02551063,CLOROTEKAL (chloroprocaine hydrochloride 50 mg per 5 mL solution for injection ampoule) B. BRAUN MELSUNGEN AG,ADDED
+83971,02354543,LORIS 0.13% BZK (benzalkonium chloride 0.13 % wipe) LERNAPHARM (LORIS) INC.,ADDED
+79923,02313723,SPC-ATORVASTATIN (atorvastatin (atorvastatin calcium) 40 mg oral tablet) SUN PHARMA CANADA INC,"mp_formal_name: ""T̲A̲R̲O̲-ATORVASTATIN (atorvastatin (atorvastatin calcium) 40 mg oral tablet) T̲A̲R̲O̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ INC"" -> ""S̲P̲C̲-ATORVASTATIN (atorvastatin (atorvastatin calcium) 40 mg oral tablet) S̲U̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ INC"""
+79242,02306727,PANTOPRAZOLE SODIUM FOR INJECTION (pantoprazole (pantoprazole sodium) 40 mg per vial powder for solution for injection) SANDOZ CANADA INCORPORATED,DELETED
+NA,77700999,PACLITAXEL INJECTION USP (paclitaxel 100 mg per 16.7 mL solution for injection vial) ACCORD HEALTHCARE INC,ADDED
+97106,02480506,APPLAUD AB ANTISEPTIC LOTIONIZED HAND SOAP (chloroxylenol 0.5 % NA) ZEP MANUFACTURING COMPANY OF CANADA,ADDED
+101160,02522489,M-FINASTERIDE (finasteride 5 mg oral tablet) MANTRA PHARMA INC,DELETED
+106520,02562316,BRIMONIDINE (brimonidine tartrate 0.2 % ophthalmic drops) STERI-MED PHARMA INC.,ADDED
+94884,02461331,SANDOZ GLICLAZIDE MR (gliclazide 60 mg prolonged-release oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+97592,02485699,POTASSIUM CHLORIDE FOR INJECTION CONCENTRATE USP (potassium chloride 149 mg per mL solution for injection) B. BRAUN MEDICAL INC,ADDED
+74277,02257513,PRO-CITALOPRAM (citalopram (citalopram hydrobromide) 20 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""CITALOPRAM ̲-̲ ̲2̲0̲ (citalopram (citalopram hydrobromide) 20 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲CITALOPRAM (citalopram (citalopram hydrobromide) 20 mg oral tablet) PRO DOC LIMITEE"""
+101359,02524570,M-LEVETIRACETAM (levetiracetam 500 mg oral tablet) MANTRA PHARMA INC,DELETED
+94415,02457067,BACLOFEN INJECTION (baclofen 10 mg per 20 mL solution for injection ampoule) HIKMA CANADA LIMITED,ADDED
+103109,02542560,HEMGENIX (etranacogene dezaparvovec 1e14 genome copies per 10 mL suspension for injection vial) CSL BEHRING CANADA INC,ADDED
+59873,02236399,ANODAN-HC 10MG SUPPOSITORIES (hydrocortisone acetate 10 mg and zinc sulfate 10 mg suppository) ODAN LABORATORIESLTD,"mp_formal_name: ""ANODAN-HC 10MG SUPPOSITORIES (hydrocortisone acetate 10 mg and zinc sulfate 10 mg suppository) ODAN LABORATORIES ̲LTD"" -> ""ANODAN-HC 10MG SUPPOSITORIES (hydrocortisone acetate 10 mg and zinc sulfate 10 mg suppository) ODAN LABORATORIESLTD"""
+NA,77700790,DOXORUBICIN (doxorubicin hydrochloride 2 mg per mL solution for injection 100 mL vial) PFIZER CANADA ULC,ADDED
+95992,02470853,FINIPIL (benzethonium chloride 0.2 % cutaneous cream) EQUIBAL LABS INC,ADDED
+79665,02311054,MYCAMINE (micafungin sodium 100 mg per vial powder for solution for injection) SANDOZ CANADA INCORPORATED,DELETED
+84428,02359251,BERIPLEX P/N 500 (coagulation factor ii (human) 800 unit and coagulation factor IX human 620 unit and coagulation factor vii (human) 500 unit and coagulation factor x (human) 1020 unit and protein c 820 unit and protein s 680 unit powder for solution for injection) CSL BEHRING CANADA INC,ADDED
+88193,02396920,PRO-ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 25 mg oral capsule) PRO DOC LIMITEE,"mp_formal_name: ""ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 25 mg oral capsule) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 25 mg oral capsule) PRO DOC LIMITEE"""
+86020,02374854,RAMIPRIL (ramipril 5 mg oral capsule) SANIS HEALTH INC,DELETED
+75895,02273462,BENYLIN EXTRA STRENGTH COLD & SINUS DAY (acetaminophen 500 mg and phenylephrine hydrochloride 5 mg oral tablet) KENVUE CANADA INC.,"mp_formal_name: ""BENYLIN EXTRA STRENGTH COLD & SINUS DAY (acetaminophen 500 mg and phenylephrine hydrochloride 5 mg oral tablet) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""BENYLIN EXTRA STRENGTH COLD & SINUS DAY (acetaminophen 500 mg and phenylephrine hydrochloride 5 mg oral tablet) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+98597,02496097,"PACLITAXEL POWDER FOR INJECTABLE SUSPENSION NANOPARTICLE, ALBUMIN-BOUND PACLITAXEL (paclitaxel 100 mg per vial powder for suspension for injection) PANACEA BIOTEC PHARMA LIMITED",ADDED
+50454,02231147,LIDODAN ENDOTRACHEAL NON-AEROSOL SPRAY (lidocaine (lidocaine hydrochloride) 10 mg per actuation endotracheopulmonary instillation) ODAN LABORATORIESLTD,"mp_formal_name: ""LIDODAN ENDOTRACHEAL NON-AEROSOL SPRAY (lidocaine (lidocaine hydrochloride) 10 mg per actuation endotracheopulmonary instillation) ODAN LABORATORIES ̲LTD"" -> ""LIDODAN ENDOTRACHEAL NON-AEROSOL SPRAY (lidocaine (lidocaine hydrochloride) 10 mg per actuation endotracheopulmonary instillation) ODAN LABORATORIESLTD"""
+1905,00261998,SODIUM BICARBONATE INJECTION USP (sodium bicarbonate 84 mg per mL solution for injection) PFIZER CANADA ULC,ADDED
+89274,02408058,FENTORA (fentanyl (fentanyl citrate) 800 mcg buccal tablet) PHOENIX LABS UNLIMITED COMPANY,"mp_formal_name: ""FENTORA (fentanyl (fentanyl citrate) 800 mcg buccal tablet) T̲E̲V̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""FENTORA (fentanyl (fentanyl citrate) 800 mcg buccal tablet) P̲H̲O̲E̲N̲I̲X̲ ̲L̲A̲B̲S̲ ̲U̲N̲L̲I̲M̲I̲T̲E̲D̲ ̲C̲O̲M̲P̲A̲N̲Y̲"""
+86273,02377144,TEVA-LOSARTAN/HCTZ (hydrochlorothiazide 12.5 mg and losartan potassium 100 mg oral tablet) TEVA CANADA LIMITED,DELETED
+104476,02556049,HEMLIBRA (emicizumab 12 mg per 0.4 mL solution for injection) HOFFMANN-LA ROCHE LIMITED,ADDED
+91926,02434970,OCTAPLEX (coagulation factor ii (human) 1520 unit per vial and coagulation factor IX human 1000 unit per vial and coagulation factor vii (human) 960 unit per vial and coagulation factor x (human) 1200 unit per vial and protein c 1240 unit per vial and protein s 1280 unit per vial NA) OCTAPHARMA PHARMAZEUTIKA PRODUKTIONSGES M B H,ADDED
+67995,02244052,KEYSTONE ANTIBACTERIAL FOAM HAND SOAP (triclosan 0.3 % cutaneous liquid) ECOLAB CO,ADDED
+13132,01985604,YOHIMBINE-ODAN 6MG (yohimbine hydrochloride 6 mg oral tablet) ODAN LABORATORIESLTD,"mp_formal_name: ""YOHIMBINE-ODAN 6MG (yohimbine hydrochloride 6 mg oral tablet) ODAN LABORATORIES ̲LTD"" -> ""YOHIMBINE-ODAN 6MG (yohimbine hydrochloride 6 mg oral tablet) ODAN LABORATORIESLTD"""
+95990,02470837,FINIPIL LAIT 50 (benzethonium chloride 0.2 % cutaneous cream) EQUIBAL LABS INC,ADDED
+71630,02247385,SANDOZ DOCUSATE SODIUM (docusate sodium 100 mg oral capsule) SANDOZ CANADA INCORPORATED,DELETED
+94496,02457938,STUBBORN ACNE SOLUTION (benzoyl peroxide 2.5 % cutaneous gel with benzoyl peroxide 3.5 % cutaneous paste with moisturizer) JOHNSON & JOHNSON INC,DELETED
+88192,02396912,PRO-ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 18 mg oral capsule) PRO DOC LIMITEE,"mp_formal_name: ""ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 18 mg oral capsule) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 18 mg oral capsule) PRO DOC LIMITEE"""
+79925,02313758,SPC-ATORVASTATIN (atorvastatin (atorvastatin calcium) 80 mg oral tablet) SUN PHARMA CANADA INC,"mp_formal_name: ""T̲A̲R̲O̲-ATORVASTATIN (atorvastatin (atorvastatin calcium) 80 mg oral tablet) T̲A̲R̲O̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ INC"" -> ""S̲P̲C̲-ATORVASTATIN (atorvastatin (atorvastatin calcium) 80 mg oral tablet) S̲U̲N̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ INC"""
+10525,00868981,SUPRAX (cefixime 400 mg oral tablet) ODAN LABORATORIESLTD,"mp_formal_name: ""SUPRAX (cefixime 400 mg oral tablet) ODAN LABORATORIES ̲LTD"" -> ""SUPRAX (cefixime 400 mg oral tablet) ODAN LABORATORIESLTD"""
+73724,02252376,"BENYLIN EXTRA STRENGTH ALL-IN-ONE COUGH, COLD & FLU NIGHT (acetaminophen 500 mg per 15 mL and chlorpheniramine maleate 2 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and guaifenesin 100 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL syrup) KENVUE CANADA INC.","mp_formal_name: ""BENYLIN EXTRA STRENGTH ALL-IN-ONE COUGH, COLD & FLU NIGHT (acetaminophen 500 mg per 15 mL and chlorpheniramine maleate 2 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and guaifenesin 100 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL syrup) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""BENYLIN EXTRA STRENGTH ALL-IN-ONE COUGH, COLD & FLU NIGHT (acetaminophen 500 mg per 15 mL and chlorpheniramine maleate 2 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and guaifenesin 100 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL syrup) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+NA,77700994,PACLITAXEL INJECTION USP (paclitaxel 100 mg per 16.7 mL solution for injection vial) SANDOZ CANADA INCORPORATED,ADDED
+104336,02554526,DAYQUIL HOT REMEDY (acetaminophen 500 mg and dextromethorphan hydrobromide 20 mg powder for oral solution) PROCTER & GAMBLE INC,ADDED
+65337,02241677,POTASSIUM CHLORIDE INJECTION (potassium chloride 20 meq per 100 mL solution for injection) BAXTER CORPORATION,ADDED
+12575,00885533,YOHIMBINE HYDROCHLORIDE TAB 2MG (yohimbine hydrochloride 2 mg oral tablet) ODAN LABORATORIESLTD,"mp_formal_name: ""YOHIMBINE HYDROCHLORIDE TAB 2MG (yohimbine hydrochloride 2 mg oral tablet) ODAN LABORATORIES ̲LTD"" -> ""YOHIMBINE HYDROCHLORIDE TAB 2MG (yohimbine hydrochloride 2 mg oral tablet) ODAN LABORATORIESLTD"""
+104209,02553139,DIARRHEA RELIEF LIQUID GELS (loperamide hydrochloride 2 mg oral capsule) ANGITA PHARMA INC.,ADDED
+37037,02215241,EXTRA STRENGTH SINUTAB SINUS NIGHTTIME (acetaminophen 500 mg and diphenhydramine hydrochloride 25 mg and pseudoephedrine hydrochloride 30 mg oral tablet) KENVUE CANADA INC.,"mp_formal_name: ""EXTRA STRENGTH SINUTAB SINUS NIGHTTIME (acetaminophen 500 mg and diphenhydramine hydrochloride 25 mg and pseudoephedrine hydrochloride 30 mg oral tablet) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""EXTRA STRENGTH SINUTAB SINUS NIGHTTIME (acetaminophen 500 mg and diphenhydramine hydrochloride 25 mg and pseudoephedrine hydrochloride 30 mg oral tablet) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+90086,02416298,MED-DUTASTERIDE (dutasteride 0.5 mg oral capsule) GENERIC MEDICAL PARTNERS INC,DELETED
+106662,02563886,TRYNGOLZA (olezarsen (olezarsen sodium) 80 mg per 0.8 mL solution for injection syringe) CELYSTRA PHARMA INC.,"mp_formal_name: ""TRYNGOLZA (olezarsen (olezarsen sodium) 80 mg per 0.8 mL solution for injection syringe) T̲H̲E̲R̲A̲T̲E̲C̲H̲N̲O̲L̲O̲G̲I̲E̲S̲ ̲I̲N̲C̲"" -> ""TRYNGOLZA (olezarsen (olezarsen sodium) 80 mg per 0.8 mL solution for injection syringe) C̲E̲L̲Y̲S̲T̲R̲A̲ ̲P̲H̲A̲R̲M̲A̲ ̲I̲N̲C̲.̲"""
+102710,02538377,CARBOPROST TROMETHAMINE INJECTION USP (carboprost (carboprost tromethamine) 250 mcg per 1 mL solution for injection vial) JUNO PHARMA CANADA INC.,"mp_formal_name: ""CARBOPROST TROMETHAMINE INJECTION USP (carboprost (carboprost tromethamine) 250 mcg per 1 mL solution for injection vial) JUNO PHARMAC̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲C̲O̲R̲P̲."" -> ""CARBOPROST TROMETHAMINE INJECTION USP (carboprost (carboprost tromethamine) 250 mcg per 1 mL solution for injection vial) JUNO PHARMA ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲."""
+106665,02563916,VYLOY (zolbetuximab 300 mg per vial powder for solution for injection) ASTELLAS PHARMA CANADA INC,"ntp_code: ""dd1a9f108e79edaa7503e1f25987d809"" -> ""9015447"""
+NA,77701079,PHENYLEPHRINE HYDROCHLORIDE INJECTION USP (phenylephrine hydrochloride 10 mg per 1 mL solution for injection vial) STERIMAX INC,DELETED
+78528,02299933,SANDOZ ENALAPRIL (enalapril maleate 2.5 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+92700,02442655,ZOLMITRIPTAN (zolmitriptan 2.5 mg oral tablet) SANIS HEALTH INC,DELETED
+19442,02139545,"POTASSIUM PHOSPHATES INJECTION, USP (potassium phosphate dibasic 236 mg per mL and potassium phosphate monobasic 224 mg per mL solution for injection) FRESENIUS KABI CANADA LTD",ADDED
+106979,02567377,LUNSUMIO SC (mosunetuzumab 45 mg per 1 mL solution for injection vial) HOFFMANN-LA ROCHE LIMITED,"ntp_code: ""bd50a0a032b7a65adffa34f61b6d1eb5"" -> ""9015438"""
+85800,02372894,IRBESARTAN/HCTZ (hydrochlorothiazide 12.5 mg and irbesartan 300 mg oral tablet) SANIS HEALTH INC,DELETED
+102419,02535335,ESOMEPRAZOLE (esomeprazole (esomeprazole magnesium dihydrate) 20 mg gastro-resistant tablet) SANIS HEALTH INC,DELETED
+9703,00636622,PROZAC CAPSULES 20MG (fluoxetine (fluoxetine hydrochloride) 20 mg oral capsule) ELI LILLY CANADA INC,DELETED
+99989,02510693,NRA-QUETIAPINE XR (quetiapine (quetiapine fumarate) 200 mg prolonged-release oral tablet) NORA PHARMA INC,DELETED
+NA,77700998,PACLITAXEL INJECTION USP (paclitaxel 100 mg per 16.7 mL solution for injection vial) ACCORD HEALTHCARE INC,ADDED
+81003,02324598,SANDOZ RIVASTIGMINE (rivastigmine (rivastigmine hydrogen tartrate) 4.5 mg oral capsule) SANDOZ CANADA INCORPORATED,DELETED
+20312,02186926,LANSOYL SUGAR FREE - JELLY - 78% (mineral oil heavy 78 % oral gel) AURIUM PHARMA INC.,DELETED
+101136,02522217,MINT-QUETIAPINE XR (quetiapine (quetiapine fumarate) 300 mg prolonged-release oral tablet) MINT PHARMACEUTICALS INC,ADDED
+NA,77700771,"DOXORUBICIN INJECTION, BP (doxorubicin hydrochloride 2 mg per mL solution for injection 100 mL vial) ACCORD HEALTHCARE INC",ADDED
+95295,02464802,DIAL FOAMING ANTIBACTERIAL HAND WASH (benzalkonium chloride 0.13 % cutaneous solution) HENKEL CONSUMER BRANDS CANADA CORPORATION,ADDED
+NA,77700784,DOXORUBICIN HYDROCHLORIDE INJECTION (doxorubicin hydrochloride 2 mg per mL solution for injection 100 mL vial) TEVA CANADA LIMITED,ADDED
+102629,02537583,AG-LISDEXAMFETAMINE (lisdexamfetamine dimesylate 30 mg oral capsule) ANGITA PHARMA INC.,ADDED
+100339,02514222,VISTASEAL (fibrinogen human 80 mg per 1 mL and thrombin human 500 unit per 1 mL cutaneous solution) INSTITUTO GRIFOLS S.A.,ADDED
+91951,02435233,ZONOVATE (turoctocog alfa 3000 unit per vial powder for solution for injection with diluent solution syringe) NOVO NORDISK CANADA INC,DELETED
+77627,02290855,X3 CLEAN GERM ATTACK HAND SANITIZER (benzalkonium chloride 0.13 % cutaneous solution) NATURAL ESSENTIALS INC,ADDED
+106431,02561344,THERABREATH DEEP CLEAN ANTISEPTIC ORAL RINSE (cetylpyridinium chloride 0.075 % gargle/mouthwash) CHURCH & DWIGHT CANADA CORP,ADDED
+106383,02560801,SLENYTO (melatonin 5 mg prolonged-release oral tablet) NEURIM PHARMACEUTICALS LTD.,ADDED
+103527,02546590,NORDIMET (methotrexate (methotrexate sodium) 20 mg per 0.8 mL solution for injection pen) NORDIC GROUP B.V.,DELETED
+103935,02550547,"PYZCHIVA (ustekinumab 90 mg per 1 mL solution for injection syringe) SAMSUNG BIOEPIS CO., LTD",ADDED
+75889,02273411,BISACODYL-ODAN (bisacodyl 5 mg gastro-resistant tablet) ODAN LABORATORIESLTD,"mp_formal_name: ""BISACODYL-ODAN (bisacodyl 5 mg gastro-resistant tablet) ODAN LABORATORIES ̲LTD"" -> ""BISACODYL-ODAN (bisacodyl 5 mg gastro-resistant tablet) ODAN LABORATORIESLTD"""
+67891,02243948,PUREGON (follitropin beta 833 unit per mL solution for injection) ORGANON CANADA INC.,ADDED
+82774,02342235,VTRS-ELETRIPTAN (eletriptan (eletriptan hydrobromide) 20 mg oral tablet) MYLAN PHARMACEUTICALS ULC,"mp_formal_name: ""M̲Y̲L̲A̲N̲-ELETRIPTAN (eletriptan (eletriptan hydrobromide) 20 mg oral tablet) MYLAN PHARMACEUTICALS ULC"" -> ""V̲T̲R̲S̲-ELETRIPTAN (eletriptan (eletriptan hydrobromide) 20 mg oral tablet) MYLAN PHARMACEUTICALS ULC"""
+96396,02473941,ODAN-SODIUM POLYSTYRENE SULFONATE (sodium polystyrene sulfonate 1 g per g powder for oral/rectal suspension) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN-SODIUM POLYSTYRENE SULFONATE (sodium polystyrene sulfonate 1 g per g powder for oral/rectal suspension) ODAN LABORATORIES ̲LTD"" -> ""ODAN-SODIUM POLYSTYRENE SULFONATE (sodium polystyrene sulfonate 1 g per g powder for oral/rectal suspension) ODAN LABORATORIESLTD"""
+103872,02549905,SOFTSOAP ANTIBACTERIAL FOR SENSITIVE SKIN (benzalkonium chloride 0.13 % cutaneous solution) COLGATE-PALMOLIVE CANADA INC,ADDED
+104477,02556057,HEMLIBRA (emicizumab 300 mg per 2 mL solution for injection) HOFFMANN-LA ROCHE LIMITED,ADDED
+100489,02515490,VYXEOS (cytarabine 100 mg and daunorubicin 44 mg powder for solution for injection) JAZZ PHARMACEUTICALS IRELAND LIMITED,ADDED
+65339,02241679,POTASSIUM CHLORIDE INJECTION (potassium chloride 40 meq per 100 mL solution for injection) BAXTER CORPORATION,ADDED
+38056,00695459,QUININE - ODAN (quinine sulfate 300 mg oral capsule) ODAN LABORATORIES LTD,DELETED
+100285,02513676,AG-CITALOPRAM TABLETS (citalopram (citalopram hydrobromide) 10 mg oral tablet) ANGITA PHARMA INC.,ADDED
+93974,02453207,LUNESTA (eszopiclone 1 mg oral tablet) KNIGHT THERAPEUTICS INC.,"mp_formal_name: ""LUNESTA (eszopiclone 1 mg oral tablet) S̲U̲M̲I̲T̲O̲M̲O̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲,̲ INC."" -> ""LUNESTA (eszopiclone 1 mg oral tablet) K̲N̲I̲G̲H̲T̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ INC."""
+106840,02565846,ODAN-BUPROPION XL (bupropion hydrochloride 300 mg prolonged-release oral tablet) ODAN LABORATORIESLTD,ADDED
+81001,02324563,SANDOZ RIVASTIGMINE (rivastigmine (rivastigmine hydrogen tartrate) 1.5 mg oral capsule) SANDOZ CANADA INCORPORATED,DELETED
+89149,02406810,SPC-IRBESARTAN (irbesartan 75 mg oral tablet) SUN PHARMA CANADA INC,"mp_formal_name: ""T̲A̲R̲O̲-IRBESARTAN (irbesartan 75 mg oral tablet) SUN PHARMA CANADA INC"" -> ""S̲P̲C̲-IRBESARTAN (irbesartan 75 mg oral tablet) SUN PHARMA CANADA INC"""
+74930,02263890,METHACHOLINE OMEGA (methacholine chloride 100 mg per vial powder for nebulizer solution) OMEGA LABORATORIES LIMITED,DELETED
+84678,02361736,NIPRIDE (sodium nitroprusside 50 mg per 2 mL solution for injection vial) PFIZER CANADA ULC,DELETED
+19534,02108135,CEFAZOLIN FOR INJECTION (cefazolin (cefazolin sodium) 10 g per vial powder for solution for injection) TEVA CANADA LIMITED,DELETED
+79718,02311615,PRO-CLONAZEPAM (clonazepam 2 mg oral tablet) PRO DOC LIMITEE,DELETED
+5997,00626627,ODAN-CYCLOPENTOLATE (cyclopentolate hydrochloride 1 % ophthalmic drops) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN-CYCLOPENTOLATE (cyclopentolate hydrochloride 1 % ophthalmic drops) ODAN LABORATORIES ̲LTD"" -> ""ODAN-CYCLOPENTOLATE (cyclopentolate hydrochloride 1 % ophthalmic drops) ODAN LABORATORIESLTD"""
+20112,02219301,MAGNESIUM-45 0.5-4.5 (magnesium chloride 20.5 g per bottle powder for concentrate for solution for haemodialysis) VANTIVE ULC,ADDED
+77539,02290081,ADASEPT B.P.5 ACNE GEL (benzoyl peroxide 5 % cutaneous gel) ODAN LABORATORIESLTD,"mp_formal_name: ""ADASEPT B.P.5 ACNE GEL (benzoyl peroxide 5 % cutaneous gel) ODAN LABORATORIES ̲LTD"" -> ""ADASEPT B.P.5 ACNE GEL (benzoyl peroxide 5 % cutaneous gel) ODAN LABORATORIESLTD"""
+99283,02503352,BORTEZOMIB FOR INJECTION SDZ (bortezomib (bortezomib mannitol boronic ester) 3.5 mg per vial powder for solution for injection) SANDOZ CANADA INCORPORATED,DELETED
+104403,02555247,NOVEX ANTI-BACTERIAL HAND SANITIZER WIPE (benzalkonium chloride 0.13 % wipe) CALLINGTON CANADA ULC,ADDED
+8199,00754129,ELAVIL (amitriptyline hydrochloride 75 mg oral tablet) AA PHARMA INC,DELETED
+76917,02283573,RIVA-RISPERIDONE (risperidone 0.5 mg oral tablet) LABORATOIRE RIVA INC.,DELETED
+97086,02480336,"DYE FREE FRAGRANCE FREE ANTIBACTERIAL FOAMING HAND SOAP (benzalkonium chloride 0.13 % cutaneous solution) VI-JON, LLC",ADDED
+94576,02458616,NITISINONE TABLETS (nitisinone 2 mg oral tablet) CYCLE PHARMACEUTICALS LTD.,ADDED
+75443,02269023,TARCEVA (erlotinib (erlotinib hydrochloride) 150 mg oral tablet) HOFFMANN-LA ROCHE LIMITED,DELETED
+96059,02471477,OZEMPIC MULTIDOSE PREFILLED PEN DISPENSES 0.25MG OR 0.5MG DOSE (semaglutide 1.34 mg per mL solution for injection 1.5 mL pen) NOVO NORDISK CANADA INC,DELETED
+2527,00037869,POTASSIUM CHLORIDE FOR INJECTION CONCENTRATE USP (potassium chloride 149 mg per mL solution for injection) PFIZER CANADA ULC,ADDED
+101003,02520834,ZEPZELCA (lurbinectedin 4 mg per vial powder for solution for injection) JAZZ PHARMACEUTICALS IRELAND LIMITED,ADDED
+91947,02435195,ZONOVATE (turoctocog alfa 500 unit per vial powder for solution for injection with diluent solution syringe) NOVO NORDISK CANADA INC,DELETED
+101744,02528193,MAGNESIUM CHLORIDE FOR HEMODIALYSIS 5.15 (magnesium chloride (magnesium chloride hexahydrate) 5.15 g per vial powder for concentrate for solution for haemodialysis) CHIEF MEDICAL SUPPLIES LTD,ADDED
+106364,02560593,JAMP OXCARBAZEPINE (oxcarbazepine 150 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+NA,77700769,"DOXORUBICIN INJECTION, BP (doxorubicin hydrochloride 50 mg per 25 mL solution for injection vial) ACCORD HEALTHCARE INC",ADDED
+106060,02557266,BARE MINIMAL INGREDIENTS ITCH CONTROL SERUM (pyrithione zinc 0.1 % shampoo) PROCTER & GAMBLE INC,"ntp_code: ""edf523beefaa7513e18fbc772e1d971f"" -> ""9015443"""
+16118,02041464,ATIVAN (lorazepam 1 mg sublingual tablet) PFIZER CANADA ULC,DELETED
+6054,00622885,ODAN-TROPICAMIDE (tropicamide 1 % ophthalmic drops) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN-TROPICAMIDE (tropicamide 1 % ophthalmic drops) ODAN LABORATORIES ̲LTD"" -> ""ODAN-TROPICAMIDE (tropicamide 1 % ophthalmic drops) ODAN LABORATORIESLTD"""
+13833,01905740,K+ 45 (potassium chloride 251.6 g per l solution for haemodialysis) VANTIVE ULC,ADDED
+92275,02438372,SYNAGIS (palivizumab 50 mg per 0.5 mL solution for injection vial) ASTRAZENECA CANADA INC,ADDED
+97037,02479729,"ALCOHOL FREE FOAMING HAND SANITIZER (benzalkonium chloride 0.13 % cutaneous solution) VI-JON, LLC",ADDED
+43813,02103613,APO-DOMPERIDONE (domperidone (domperidone maleate) 10 mg oral tablet) APOTEX INC,ADDED
+102778,02539136,NAT-ERIBULIN (eribulin mesylate 1 mg per 2 mL solution for injection vial) NATCO PHARMA (CANADA) INC,DELETED
+NA,77700772,"DOXORUBICIN INJECTION, BP (doxorubicin hydrochloride 10 mg per 5 mL solution for injection vial) ACCORD HEALTHCARE INC",ADDED
+106573,02562898,ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 20 mg oral tablet) 10445517 CANADA INC / NORTH PHARMACEUTICALS / DAC PHARMACEUTICALS,ADDED
+91618,02431718,FOOT CARE FOAM (tolnaftate 1 % cutaneous foam) NSC PHARMA GMBH & CO.KG,DELETED
+103806,02549190,ODAN-VALPROIC ACID (valproic acid (sodium valproate) 250 mg per 5 mL oral solution) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN-VALPROIC ACID (valproic acid (sodium valproate) 250 mg per 5 mL oral solution) ODAN LABORATORIES ̲LTD"" -> ""ODAN-VALPROIC ACID (valproic acid (sodium valproate) 250 mg per 5 mL oral solution) ODAN LABORATORIESLTD"""
+106926,02566788,ODAN-ARIPIPRAZOLE SOLUTION (aripiprazole 1 mg per mL oral solution) ODAN LABORATORIESLTD,ADDED
+17236,02083795,LIDODAN OINTMENT 5% (lidocaine 5 % cutaneous ointment) ODAN LABORATORIESLTD,"mp_formal_name: ""LIDODAN OINTMENT 5% (lidocaine 5 % cutaneous ointment) ODAN LABORATORIES ̲LTD"" -> ""LIDODAN OINTMENT 5% (lidocaine 5 % cutaneous ointment) ODAN LABORATORIESLTD"""
+16804,02126559,IMDUR (isosorbide mononitrate 60 mg prolonged-release oral tablet) JUNO PHARMACEUTICALS CORP.,DELETED
+75280,02267373,INO-F ANTIBAC ANTIBACTERIAL HAND SOAP (triclosan 0.5 % cutaneous liquid) GROUPE DISSAN INC.,ADDED
+83642,02351234,DOXYCYCLINE CAPSULES (doxycycline (doxycycline hyclate) 100 mg oral capsule) SANIS HEALTH INC,DELETED
+65768,02242093,RIVA-ATENOLOL (atenolol 100 mg oral tablet) LABORATOIRE RIVA INC.,DELETED
+106453,02561573,DORZOLAMIDE (dorzolamide (dorzolamide hydrochloride) 2 % ophthalmic drops) STERI-MED PHARMA INC.,ADDED
+75736,02271842,LEVEMIR PENFILL (insulin detemir 100 unit per mL solution for injection 3 mL cartridge) NOVO NORDISK CANADA INC,DELETED
+51233,02231800,ODAN-INDOMETHACIN (indomethacin 100 mg suppository) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN-INDOMETHACIN (indomethacin 100 mg suppository) ODAN LABORATORIES ̲LTD"" -> ""ODAN-INDOMETHACIN (indomethacin 100 mg suppository) ODAN LABORATORIESLTD"""
+76939,02283816,ANTIBACTERIAL CLEAN & SMOOTH (triclosan 0.3 % cutaneous solution) ECOLAB CO,ADDED
+101128,02522136,NAT-MONTELUKAST (montelukast (montelukast sodium) 10 mg oral tablet) NATCO PHARMA (CANADA) INC,ADDED
+102470,02535882,"FUROSEMIDE INJECTION, USP (furosemide 10 mg per mL solution for injection) EUGIA PHARMA INC.",DELETED
+13120,01938371,EXTRA STRENGTH SINUTAB SINUS DAYTIME (acetaminophen 500 mg and pseudoephedrine hydrochloride 30 mg oral tablet) KENVUE CANADA INC.,"mp_formal_name: ""EXTRA STRENGTH SINUTAB SINUS DAYTIME (acetaminophen 500 mg and pseudoephedrine hydrochloride 30 mg oral tablet) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""EXTRA STRENGTH SINUTAB SINUS DAYTIME (acetaminophen 500 mg and pseudoephedrine hydrochloride 30 mg oral tablet) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+106523,02562340,RIVA-FAMOTIDINE (famotidine 40 mg oral tablet) LABORATOIRE RIVA INC.,ADDED
+106455,02561603,HYDROMORPHONE HYDROCHLORIDE INJECTION USP (hydromorphone hydrochloride 20 mg per 100 mL solution for injection bag) STERINOVA INC.,ADDED
+106469,02561751,EXTRA STRENGTH TYLENOL COUGH & SORE THROAT NIGHTTIME (acetaminophen 500 mg and chlorpheniramine maleate 2 mg and dextromethorphan hydrobromide 15 mg oral tablet) KENVUE CANADA INC.,ADDED
+65288,02241630,AMBISOME (amphotericin B 50 mg per vial powder for solution for injection) ASTELLAS PHARMA CANADA INC,ADDED
+100560,02516225,SODIUM BICARBONATE INJECTION USP (sodium bicarbonate 84 mg per mL solution for injection) JAMP PHARMA CORPORATION,ADDED
+88828,02403471,PURELL SANITIZING WIPES (benzalkonium chloride 0.13 % wipe) GOJO CANADA INC,ADDED
+55837,02234466,PROCTODAN-HC OINTMENT (hydrocortisone acetate 0.5 % and pramoxine hydrochloride 1 % and zinc sulfate 0.5 % rectal ointment) ODAN LABORATORIESLTD,"mp_formal_name: ""PROCTODAN-HC OINTMENT (hydrocortisone acetate 0.5 % and pramoxine hydrochloride 1 % and zinc sulfate 0.5 % rectal ointment) ODAN LABORATORIES ̲LTD"" -> ""PROCTODAN-HC OINTMENT (hydrocortisone acetate 0.5 % and pramoxine hydrochloride 1 % and zinc sulfate 0.5 % rectal ointment) ODAN LABORATORIESLTD"""
+98076,02490706,ODAN CLOBETASOL SPRAY (clobetasol propionate 0.05 % cutaneous spray) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN CLOBETASOL SPRAY (clobetasol propionate 0.05 % cutaneous spray) ODAN LABORATORIES ̲LTD"" -> ""ODAN CLOBETASOL SPRAY (clobetasol propionate 0.05 % cutaneous spray) ODAN LABORATORIESLTD"""
+101903,02529793,POTASSIUM CHLORIDE FOR HEMODIALYSIS 7.55 (potassium chloride 7.55 g per vial powder for concentrate for solution for haemodialysis) CHIEF MEDICAL SUPPLIES LTD,ADDED
+76170,02276038,EXTRA STRENGTH TYLENOL SINUS NIGHTTIME (acetaminophen 500 mg and chlorpheniramine maleate 2 mg and phenylephrine hydrochloride 5 mg oral tablet) KENVUE CANADA INC.,"mp_formal_name: ""EXTRA STRENGTH TYLENOL SINUS NIGHTTIME (acetaminophen 500 mg and chlorpheniramine maleate 2 mg and phenylephrine hydrochloride 5 mg oral tablet) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""EXTRA STRENGTH TYLENOL SINUS NIGHTTIME (acetaminophen 500 mg and chlorpheniramine maleate 2 mg and phenylephrine hydrochloride 5 mg oral tablet) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+95481,02466457,BETAHISTINE (betahistine hydrochloride 24 mg oral tablet) SANIS HEALTH INC,DELETED
+106633,02563568,ELFABRIO (pegunigalsidase alfa 5 mg per 2.5 mL solution for injection vial) CHIESI FARMACEUTICI S.P.A.,ADDED
+106736,02564688,VOXZOGO (vosoritide 1.2 mg per vial powder for solution for injection with diluent solution syringe) BIOMARIN INTERNATIONAL LIMITED,ADDED
+96159,02472287,ACCLAIM AB (benzalkonium chloride 0.13 % lotion) ZEP MANUFACTURING COMPANY OF CANADA,ADDED
+95480,02466449,BETAHISTINE (betahistine hydrochloride 16 mg oral tablet) SANIS HEALTH INC,DELETED
+106627,02563495,SEPTRA PEDIATRIC ORAL SUSPENSION (sulfamethoxazole 40 mg per mL and trimethoprim 8 mg per mL oral suspension) ASPEN PHARMACARE CANADA INC.,ADDED
+81113,02325772,HEMACART (sodium bicarbonate 650 g per cartridge powder for concentrate for solution for haemodialysis) CHIEF MEDICAL SUPPLIES LTD,ADDED
+11537,00779237,BACTI-STAT 0.3% (triclosan 0.3 % cutaneous liquid) ECOLAB CO,ADDED
+77349,02288109,SANDOZ ALENDRONATE (alendronic acid (alendronate sodium) 70 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+106330,02560224,CYCLOPHOSPHAMIDE FOR INJECTION USP (cyclophosphamide 2000 mg per vial powder for solution for injection) MARCAN PHARMACEUTICALS INC,ADDED
+99987,02510677,NRA-QUETIAPINE XR (quetiapine (quetiapine fumarate) 50 mg prolonged-release oral tablet) NORA PHARMA INC,DELETED
+88829,02403498,BICART (sodium bicarbonate 720 g per cartridge powder for concentrate for solution for haemodialysis) VANTIVE ULC,ADDED
+98895,02499207,NRA-LEVETIRACETAM (levetiracetam 500 mg oral tablet) NORA PHARMA INC,DELETED
+92774,02443163,"MEDLINE SPECTRUM ADVANCED ANTIBACTERIAL LOTION SOAP (benzalkonium chloride 0.13 % lotion) MEDLINE INDUSTRIES, LP",ADDED
+101618,02527138,BREYANZI (lisocabtagene maraleucel 120000000 cells suspension for injection) BRISTOL-MYERS SQUIBB CANADA,ADDED
+106723,02564548,APO-NAPROXEN / ESOMEPRAZOLE (esomeprazole (esomeprazole magnesium trihydrate) 20 mg and naproxen 500 mg modified-release oral tablet) APOTEX INC,ADDED
+26864,02039990,CHILDREN'S TYLENOL COLD AND COUGH (acetaminophen 160 mg per 5 mL and chlorpheniramine maleate 1 mg per 5 mL and dextromethorphan hydrobromide 7.5 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension) KENVUE CANADA INC.,"mp_formal_name: ""CHILDREN'S TYLENOL COLD AND COUGH (acetaminophen 160 mg per 5 mL and chlorpheniramine maleate 1 mg per 5 mL and dextromethorphan hydrobromide 7.5 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""CHILDREN'S TYLENOL COLD AND COUGH (acetaminophen 160 mg per 5 mL and chlorpheniramine maleate 1 mg per 5 mL and dextromethorphan hydrobromide 7.5 mg per 5 mL and pseudoephedrine hydrochloride 15 mg per 5 mL oral suspension) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+99564,02506300,DERMA SOLUTIONS (benzalkonium chloride 0.15 % cutaneous solution) LAROSE & FILS LTEE,ADDED
+106329,02560216,CYCLOPHOSPHAMIDE FOR INJECTION USP (cyclophosphamide 1000 mg per vial powder for solution for injection) MARCAN PHARMACEUTICALS INC,ADDED
+101843,02529181,NORDITROPIN FLEXPRO (somatropin 5 mg per 1.5 mL solution for injection pen) NOVO NORDISK CANADA INC,DELETED
+102731,02538601,ODAN-AMANTADINE SYRUP (amantadine hydrochloride 50 mg per 5 mL syrup) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN-AMANTADINE SYRUP (amantadine hydrochloride 50 mg per 5 mL syrup) ODAN LABORATORIES ̲LTD"" -> ""ODAN-AMANTADINE SYRUP (amantadine hydrochloride 50 mg per 5 mL syrup) ODAN LABORATORIESLTD"""
+103934,02550539,"PYZCHIVA (ustekinumab 45 mg per 0.5 mL solution for injection syringe) SAMSUNG BIOEPIS CO., LTD",ADDED
+98577,02495872,ODAN-METHADONE (methadone hydrochloride 10 mg per mL oral solution) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN-METHADONE (methadone hydrochloride 10 mg per mL oral solution) ODAN LABORATORIES ̲LTD"" -> ""ODAN-METHADONE (methadone hydrochloride 10 mg per mL oral solution) ODAN LABORATORIESLTD"""
+2531,00360430,CEENU (lomustine 10 mg oral capsule) SEPTA PHARMACEUTICALS INC,"mp_formal_name: ""CEENU (lomustine 10 mg oral capsule) B̲R̲I̲S̲T̲O̲L̲-̲M̲Y̲E̲R̲S̲ ̲S̲Q̲U̲I̲B̲B̲ ̲C̲A̲N̲A̲D̲A̲"" -> ""CEENU (lomustine 10 mg oral capsule) S̲E̲P̲T̲A̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲I̲N̲C̲"""
+106417,02561182,ATHLETE'S FOOT CREAM (tolnaftate 1 % cutaneous cream) SCHOLL'S WELLNESS COMPANY,"mp_formal_name: ""ATHLETE'S FOOT CREAM (tolnaftate 1 w̲/̲w̲ cutaneous cream) SCHOLL'S WELLNESS COMPANY"" -> ""ATHLETE'S FOOT CREAM (tolnaftate 1 %̲ cutaneous cream) SCHOLL'S WELLNESS COMPANY""
+ntp_code: ""9015408"" -> ""9001617""
+ntp_formal_name: ""tolnaftate 1 w̲/̲w̲ cutaneous cream"" -> ""tolnaftate 1 %̲ cutaneous cream"""
+106507,02562170,GALANTAMINE ER (galantamine (galantamine hydrobromide) 24 mg prolonged-release oral capsule) SIVEM PHARMACEUTICALS ULC,ADDED
+96397,02473968,ODAN-SODIUM POLYSTYRENE SULFONATE (sodium polystyrene sulfonate 250 mg per mL oral/rectal suspension) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN-SODIUM POLYSTYRENE SULFONATE (sodium polystyrene sulfonate 250 mg per mL oral/rectal suspension) ODAN LABORATORIES ̲LTD"" -> ""ODAN-SODIUM POLYSTYRENE SULFONATE (sodium polystyrene sulfonate 250 mg per mL oral/rectal suspension) ODAN LABORATORIESLTD"""
+2317,00358495,ODANS LIQUOR CARBONIS DETERGENS (coal tar 20 % cutaneous solution) ODAN LABORATORIESLTD,"mp_formal_name: ""ODANS LIQUOR CARBONIS DETERGENS (coal tar 20 % cutaneous solution) ODAN LABORATORIES ̲LTD"" -> ""ODANS LIQUOR CARBONIS DETERGENS (coal tar 20 % cutaneous solution) ODAN LABORATORIESLTD"""
+72486,02248154,"GONAL-F (follitropin alfa 75 unit per vial powder for solution for injection with diluent solution syringe) EMD SERONO, A DIVISION OF EMD INC., CANADA",ADDED
+60571,02237250,TEVA-TRYPTOPHAN (tryptophan 1 g oral tablet) TEVA CANADA LIMITED,DELETED
+107011,02567725,KISUNLA (donanemab 350 mg per 20 mL solution for injection vial) ELI LILLY CANADA INC,ADDED
+101358,02524562,M-LEVETIRACETAM (levetiracetam 250 mg oral tablet) MANTRA PHARMA INC,DELETED
+106634,02563576,ELFABRIO (pegunigalsidase alfa 20 mg per 10 mL solution for injection vial) CHIESI FARMACEUTICI S.P.A.,ADDED
+85065,02365774,"EXTRA STRENGTH TYLENOL COMPLETE COLD, COUGH & FLU PLUS MUCUS RELIEF (acetaminophen 500 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and guaifenesin 100 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL syrup) KENVUE CANADA INC.","mp_formal_name: ""EXTRA STRENGTH TYLENOL COMPLETE COLD, COUGH & FLU PLUS MUCUS RELIEF (acetaminophen 500 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and guaifenesin 100 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL syrup) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""EXTRA STRENGTH TYLENOL COMPLETE COLD, COUGH & FLU PLUS MUCUS RELIEF (acetaminophen 500 mg per 15 mL and dextromethorphan hydrobromide 15 mg per 15 mL and guaifenesin 100 mg per 15 mL and pseudoephedrine hydrochloride 30 mg per 15 mL syrup) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+103901,02550172,LEVETIRACETAM INJECTION USP (levetiracetam 500 mg per 5 mL solution for injection vial) OMEGA LABORATORIES LIMITED,DELETED
+94414,02457059,BACLOFEN INJECTION (baclofen 0.05 mg per 1 mL solution for injection ampoule) HIKMA CANADA LIMITED,ADDED
+78942,02304112,"WET ONES (benzethonium chloride 0.3 % wipe) EDGEWELL PERSONAL CARE CANADA, ULC",ADDED
+103523,02546558,NORDIMET (methotrexate (methotrexate sodium) 10 mg per 0.4 mL solution for injection pen) NORDIC GROUP B.V.,DELETED
+38054,00695432,QUININE - ODAN (quinine sulfate 300 mg oral tablet) ODAN LABORATORIESLTD,"mp_formal_name: ""QUININE - ODAN (quinine sulfate 300 mg oral tablet) ODAN LABORATORIES ̲LTD"" -> ""QUININE - ODAN (quinine sulfate 300 mg oral tablet) ODAN LABORATORIESLTD"""
+NA,77701081,PHENYLEPHRINE HYDROCHLORIDE INJECTION USP (phenylephrine hydrochloride 50 mg per 5 mL solution for injection vial) STERIMAX INC,DELETED
+88195,02396947,PRO-ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 60 mg oral capsule) PRO DOC LIMITEE,"mp_formal_name: ""ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 60 mg oral capsule) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 60 mg oral capsule) PRO DOC LIMITEE"""
+73813,02253178,SANDOZ D 10 000 (cholecalciferol 10000 unit oral capsule) SANDOZ CANADA INCORPORATED,DELETED
+31360,02139529,"SODIUM ACETATE INJECTION, USP (sodium acetate 328 mg per mL solution for injection) FRESENIUS KABI CANADA LTD",ADDED
+13600,01974548,MICRO I (iodide (sodium iodide) 1000 mcg per 10 mL solution for injection vial) SANDOZ CANADA INCORPORATED,ADDED
+71470,02247228,STIEPROX SHAMPOO (ciclopirox olamine 1.5 % shampoo) GLAXOSMITHKLINE INC,DELETED
+5069,00572349,COLCHICINE TAB 0.6MG (colchicine 0.6 mg oral tablet) ODAN LABORATORIESLTD,"mp_formal_name: ""COLCHICINE TAB 0.6MG (colchicine 0.6 mg oral tablet) ODAN LABORATORIES ̲LTD"" -> ""COLCHICINE TAB 0.6MG (colchicine 0.6 mg oral tablet) ODAN LABORATORIESLTD"""
+100600,02516667,TECARTUS (brexucabtagene autoleucel 200000000 cells per bag suspension for injection) GILEAD SCIENCES CANADA INC,ADDED
+62787,02239318,ECOCARE 360 (benzalkonium chloride 0.13 % cutaneous liquid) ECOLAB CO,ADDED
+76301,02277379,RIVA-ATENOLOL (atenolol 25 mg oral tablet) LABORATOIRE RIVA INC.,DELETED
+90413,02419505,LIDODAN 4% TOPICAL SOLUTION (lidocaine hydrochloride 4 % cutaneous solution) ODAN LABORATORIESLTD,"mp_formal_name: ""LIDODAN 4% TOPICAL SOLUTION (lidocaine hydrochloride 4 % cutaneous solution) ODAN LABORATORIES ̲LTD"" -> ""LIDODAN 4% TOPICAL SOLUTION (lidocaine hydrochloride 4 % cutaneous solution) ODAN LABORATORIESLTD"""
+100244,02513226,SANI HANDS FOAM (benzalkonium chloride 0.1 % cutaneous solution) OSTREM CHEMICAL CO LTD.,ADDED
+103914,02550326,BENZALKONIUM CHLORIDE WIPES (benzalkonium chloride 0.13 % wipe) ACME UNITED CORPORATION,ADDED
+106574,02562901,ROSUVASTATIN (rosuvastatin (rosuvastatin calcium) 40 mg oral tablet) 10445517 CANADA INC / NORTH PHARMACEUTICALS / DAC PHARMACEUTICALS,ADDED
+81046,02325047,PRO-CITALOPRAM (citalopram (citalopram hydrobromide) 10 mg oral tablet) PRO DOC LIMITEE,"mp_formal_name: ""CITALOPRAM ̲-̲ ̲1̲0̲ (citalopram (citalopram hydrobromide) 10 mg oral tablet) PRO DOC LIMITEE"" -> ""P̲R̲O̲-̲CITALOPRAM (citalopram (citalopram hydrobromide) 10 mg oral tablet) PRO DOC LIMITEE"""
+12016,01901885,YOHIMBINE TAB 5.4MG (yohimbine hydrochloride 5.4 mg oral tablet) ODAN LABORATORIESLTD,"mp_formal_name: ""YOHIMBINE TAB 5.4MG (yohimbine hydrochloride 5.4 mg oral tablet) ODAN LABORATORIES ̲LTD"" -> ""YOHIMBINE TAB 5.4MG (yohimbine hydrochloride 5.4 mg oral tablet) ODAN LABORATORIESLTD"""
+41477,00373435,DETTOL (chloroxylenol 4.8 % cutaneous solution) RECKITT BENCKISER (CANADA) INC,ADDED
+89148,02406802,SOFTSOAP ANTIBACTERIAL (benzalkonium chloride 0.13 % cutaneous solution) COLGATE-PALMOLIVE CANADA INC,ADDED
+94883,02461323,SANDOZ GLICLAZIDE MR (gliclazide 30 mg prolonged-release oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+76622,02280566,SILVER BULLET SUPPOSITORY (bisacodyl 10 mg suppository) D & C MOBILITY SOLUTIONS INC.,ADDED
+6258,00514888,SELAX CAP 100MG (docusate sodium 100 mg oral capsule) ODAN LABORATORIESLTD,"mp_formal_name: ""SELAX CAP 100MG (docusate sodium 100 mg oral capsule) ODAN LABORATORIES ̲LTD"" -> ""SELAX CAP 100MG (docusate sodium 100 mg oral capsule) ODAN LABORATORIESLTD"""
+75157,02266121,SATIVEX (cannabidiol 2.5 mg per actuation and tetrahydrocannabinol 2.7 mg per actuation oromucosal spray) CNX THERAPEUTICS LIMITED,"mp_formal_name: ""SATIVEX (cannabidiol 2.5 mg per actuation and tetrahydrocannabinol 2.7 mg per actuation oromucosal spray) J̲A̲Z̲Z̲ ̲P̲H̲A̲R̲M̲A̲C̲E̲U̲T̲I̲C̲A̲L̲S̲ ̲O̲P̲E̲R̲A̲T̲I̲O̲N̲S̲ ̲U̲K̲ LIMITED"" -> ""SATIVEX (cannabidiol 2.5 mg per actuation and tetrahydrocannabinol 2.7 mg per actuation oromucosal spray) C̲N̲X̲ ̲T̲H̲E̲R̲A̲P̲E̲U̲T̲I̲C̲S̲ LIMITED"""
+78529,02299941,SANDOZ ENALAPRIL (enalapril maleate 5 mg oral tablet) SANDOZ CANADA INCORPORATED,DELETED
+104100,02552329,PRZ-SITAGLIPTIN-METFORMIN (metformin hydrochloride 1000 mg and sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet) PHARMARIS CANADA INC,ADDED
+71565,02247322,PROCTOL OINTMENT (dibucaine hydrochloride 0.5 % and esculin 1 % and framycetin sulfate 1 % and hydrocortisone 0.5 % rectal ointment) ODAN LABORATORIESLTD,"mp_formal_name: ""PROCTOL OINTMENT (dibucaine hydrochloride 0.5 % and esculin 1 % and framycetin sulfate 1 % and hydrocortisone 0.5 % rectal ointment) ODAN LABORATORIES ̲LTD"" -> ""PROCTOL OINTMENT (dibucaine hydrochloride 0.5 % and esculin 1 % and framycetin sulfate 1 % and hydrocortisone 0.5 % rectal ointment) ODAN LABORATORIESLTD"""
+89074,02405997,RIVA-ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 40 mg oral capsule) LABORATOIRE RIVA INC.,DELETED
+96208,02472775,SPRING SHOWERS PLUIES PRINTANIÈRES FOAMING HAND SOAP ANTIBACTERIAL (benzalkonium chloride 0.13 % cutaneous solution) APOLLO HEALTH AND BEAUTY CARE,ADDED
+66275,02242527,ODAN PROCTOMYXIN HC (dibucaine hydrochloride 0.5 % and esculin 1 % and framycetin sulfate 1 % and hydrocortisone 0.5 % rectal ointment) ODAN LABORATORIESLTD,"mp_formal_name: ""ODAN PROCTOMYXIN HC (dibucaine hydrochloride 0.5 % and esculin 1 % and framycetin sulfate 1 % and hydrocortisone 0.5 % rectal ointment) ODAN LABORATORIES ̲LTD"" -> ""ODAN PROCTOMYXIN HC (dibucaine hydrochloride 0.5 % and esculin 1 % and framycetin sulfate 1 % and hydrocortisone 0.5 % rectal ointment) ODAN LABORATORIESLTD"""
+96506,02474875,XULTOPHY (insulin degludec 100 unit per mL and liraglutide 3.6 mg per mL solution for injection 3 mL pen) NOVO NORDISK CANADA INC,ADDED
+66677,02242847,DIGICLEAN E FOAM HAND SOAP (chloroxylenol 1 % cutaneous liquid) ECOLAB CO,ADDED
+91950,02435225,ZONOVATE (turoctocog alfa 2000 unit per vial powder for solution for injection with diluent solution syringe) NOVO NORDISK CANADA INC,DELETED
+42944,02194465,DOXORUBICIN HYDROCHLORIDE FOR INJECTION USP (doxorubicin hydrochloride 50 mg per vial powder for solution for injection) PFIZER CANADA ULC,ADDED
+88422,02399334,CALCITRIOL INJECTION USP (calcitriol 1 mcg per 1 mL solution for injection ampoule) STERIMAX INC,DELETED
+106734,02564653,VOXZOGO (vosoritide 0.4 mg per vial powder for solution for injection with diluent solution syringe) BIOMARIN INTERNATIONAL LIMITED,ADDED
+106382,02560798,SLENYTO (melatonin 1 mg prolonged-release oral tablet) NEURIM PHARMACEUTICALS LTD.,ADDED
+11254,00779806,NIODAN 500 MG TIME RELEASE TABLETS (nicotinic acid 500 mg prolonged-release oral tablet) ODAN LABORATORIESLTD,"mp_formal_name: ""NIODAN 500 MG TIME RELEASE TABLETS (nicotinic acid 500 mg prolonged-release oral tablet) ODAN LABORATORIES ̲LTD"" -> ""NIODAN 500 MG TIME RELEASE TABLETS (nicotinic acid 500 mg prolonged-release oral tablet) ODAN LABORATORIESLTD"""
+79716,02311607,PRO-CLONAZEPAM (clonazepam 1 mg oral tablet) PRO DOC LIMITEE,DELETED
+82775,02342243,VTRS-ELETRIPTAN (eletriptan (eletriptan hydrobromide) 40 mg oral tablet) MYLAN PHARMACEUTICALS ULC,"mp_formal_name: ""M̲Y̲L̲A̲N̲-ELETRIPTAN (eletriptan (eletriptan hydrobromide) 40 mg oral tablet) MYLAN PHARMACEUTICALS ULC"" -> ""V̲T̲R̲S̲-ELETRIPTAN (eletriptan (eletriptan hydrobromide) 40 mg oral tablet) MYLAN PHARMACEUTICALS ULC"""
+89271,02408015,FENTORA (fentanyl (fentanyl citrate) 200 mcg buccal tablet) PHOENIX LABS UNLIMITED COMPANY,"mp_formal_name: ""FENTORA (fentanyl (fentanyl citrate) 200 mcg buccal tablet) T̲E̲V̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""FENTORA (fentanyl (fentanyl citrate) 200 mcg buccal tablet) P̲H̲O̲E̲N̲I̲X̲ ̲L̲A̲B̲S̲ ̲U̲N̲L̲I̲M̲I̲T̲E̲D̲ ̲C̲O̲M̲P̲A̲N̲Y̲"""
+80191,02316404,TEVA-IRBESARTAN (irbesartan 150 mg oral tablet) TEVA CANADA LIMITED,DELETED
+71882,02247621,CHLORAL HYDRATE SYRUP ODAN (chloral hydrate 500 mg per 5 mL syrup) ODAN LABORATORIESLTD,"mp_formal_name: ""CHLORAL HYDRATE SYRUP ODAN (chloral hydrate 500 mg per 5 mL syrup) ODAN LABORATORIES ̲LTD"" -> ""CHLORAL HYDRATE SYRUP ODAN (chloral hydrate 500 mg per 5 mL syrup) ODAN LABORATORIESLTD"""
+99900,02509717,VINDA ANTISEPTIC WIPES (benzethonium chloride 0.3 % wipe) GRAND OCEAN INTERNATIONAL TRADING LTD,ADDED
+35795,02194163,TEVA-NYSTATIN (nystatin 100000 unit per g vaginal cream) TEVA CANADA LIMITED,DELETED

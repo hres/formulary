@@ -1,0 +1,47 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8000353,insulin detemir,insuline détemir,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20051114"" -> ""20230804"""
+8002598,pegunigalsidase alfa,pégunigalsidase alfa,ADDED
+8002154,potassium phosphate dibasic and potassium phosphate monobasic,phosphate de potassium dibasique et phosphate de potassium monobasique,ADDED
+8002161,sodium bicarbonate,bicarbonate de sodium,ADDED
+8001844,magnesium chloride,chlorure de magnésium,ADDED
+a1ae178fa1feba2157e2ad80fb8616d6,melatonin,mélatonine,ADDED
+8001913,nitroprusside,nitroprussiate,"tm_status_effective_time: ""20110517"" -> ""20190415"""
+8000128,fluoxetine,fluoxétine,"tm_status_effective_time: ""19891231"" -> ""19931231"""
+8002599,vosoritide,vosoritide,ADDED
+8002582,brexucabtagene autoleucel,bréxucabtagène autoleucel,ADDED
+8002452,cytarabine and daunorubicin,cytarabine et daunorubicine,ADDED
+8001684,sodium salicylate,salicylate de sodium,"tm_status_effective_time: ""20200728"" -> ""20260729"""
+8001757,doxorubicin,doxorubicine,ADDED
+8002584,lisocabtagene maraleucel,lisocabtagène maraleucel,ADDED
+8001004,benzoyl peroxide and salicylic acid,peroxyde de benzoyle et acide salicylique,ADDED
+8001752,dimethicone and zinc oxide,diméthicone et oxyde de zinc,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20090520"" -> ""20240401"""
+1ed45577fec69dcbc83677bf0a662c2e,donanemab,donanémab,ADDED
+8002165,turoctocog alfa,turoctocog alfa,DELETED
+8002160,sodium acetate,acétate de sodium,ADDED
+8002215,amphotericin B,amphotéricine B,ADDED
+8001476,follitropin beta,follitropine bêta,ADDED
+8001871,potassium citrate,citrate de potassium,"tm_status_effective_time: ""19950101"" -> ""20110211"""
+8002469,letibotulinumtoxina,létibotulinumtoxina,DELETED
+8002282,fibrinogen human and thrombin human,fibrinogène humaine et thrombine humaine,ADDED
+8001615,chloroxylenol,chloroxylénol,ADDED
+8000203,isosorbide mononitrate,mononitrate d'isosorbide,"tm_status_effective_time: ""19941231"" -> ""20060303"""
+8002278,coagulation factor ii (human) and coagulation factor IX human and coagulation factor vii (human) and coagulation factor x (human) and protein c and protein s,facteur II de coagulation humain et facteur IX de coagulation humain et facteur VII de coagulation humain et facteur X de coagulation humain et protéine c et protéine s,ADDED
+8001579,benzethonium,benzéthonium,ADDED
+8000779,alcohol anhydrous and doxylamine and etafedrine and hydrocodone and sodium citrate,alcool anhydre et doxylamine et étafédrine et hydrocodone et citrate de sodium,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19831231"" -> ""20260724"""
+8002581,axicabtagene ciloleucel,axicabtagène ciloleucel,ADDED
+8000015,spironolactone,spironolactone,"tm_status_effective_time: ""19591231"" -> ""19841231"""
+8001976,triclosan,triclosan,ADDED
+8002047,paclitaxel,paclitaxel,ADDED
+8001870,potassium chloride,chlorure de potassium,ADDED
+19d7339d5bbb0990e0b53ba88c6785a2,letibotulinumtoxinA,létibotulinumtoxinA,ADDED
+8000796,benzalkonium,benzalkonium,ADDED
+8001878,sodium iodide,iodure de sodium,ADDED
+d5d60519cbc317ba820bdf0d3c7e727b,depemokimab,dépémokimab,ADDED
+8001376,disopyramide,disopyramide,DELETED
+8002587,tisagenlecleucel,tisagenlecleucel,ADDED
+f194f2ca1f5f4817ecf30b80a558b532,plozasiran,plozasiran,ADDED
+b54fd830c395ee614975915ba869c36d,elinzanetant,élinzanétant,ADDED
+8000912,alcohol anhydrous and chlorhexidine,alcool anhydre et chlorhexidine,ADDED
