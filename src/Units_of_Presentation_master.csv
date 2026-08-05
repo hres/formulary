@@ -1,4 +1,6 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"104476","vial","0.4","mL","N","N","02556049","HEMLIBRA HOFFMANN-LA ROCHE LIMITED","fiole"
+"104477","vial","2","mL","N","N","02556057","HEMLIBRA HOFFMANN-LA ROCHE LIMITED","fiole"
 "99111","vial","10","mL","N","N","02501481","DAUNORUBICIN INJECTABLE SOLUTION GENERIC MEDICAL PARTNERS INC","fiole"
 "106455","bag","100","mL","N","N","02561603","HYDROMORPHONE HYDROCHLORIDE INJECTION USP STERINOVA INC.","sac"
 "103934","syringe","0.5","mL","N","N","02550539","PYZCHIVA SAMSUNG BIOEPIS CO., LTD","seringue"
