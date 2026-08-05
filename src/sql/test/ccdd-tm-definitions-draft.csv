@@ -1,4 +1,4 @@
-code,formal_name,formal_name_fr
+"code","formal_name","formal_name_fr"
 "8000001","levothyroxine","lévothyroxine"
 "8000003","epinephrine","épinéphrine"
 "8000004","phenytoin sodium","phénytoïne sodique"
@@ -1832,7 +1832,7 @@ code,formal_name,formal_name_fr
 "8002466","ubrogepant","ubrogépant"
 "8002467","crisantaspase","crisantaspase"
 "8002468","spesolimab","spésolimab"
-"8002469","letibotulinumtoxina","létibotulinumtoxina"
+"8002469","letibotulinumtoxinA","létibotulinumtoxinA"
 "8002470","mometasone and olopatadine","mométasone et olopatadine"
 "8002471","daridorexant","daridorexant"
 "8002472","glofitamab","glofitamab"
@@ -1961,3 +1961,8 @@ code,formal_name,formal_name_fr
 "8002597","sevabertinib","sévabertinib"
 "8002598","pegunigalsidase alfa","pégunigalsidase alfa"
 "8002599","vosoritide","vosoritide"
+"8002600","depemokimab","dépémokimab"
+"8002601","donanemab","donanémab"
+"8002602","elinzanetant","élinzanétant"
+"8002605","melatonin","mélatonine"
+"8002606","plozasiran","plozasiran"
