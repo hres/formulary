@@ -1,0 +1,21 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002598,pegunigalsidase alfa,pégunigalsidase alfa,ADDED
+8002599,vosoritide,vosoritide,ADDED
+8002605,melatonin,mélatonine,ADDED
+8001684,sodium salicylate,salicylate de sodium,"tm_status_effective_time: ""20200728"" -> ""20260729"""
+8002601,donanemab,donanémab,ADDED
+8002600,depemokimab,dépémokimab,ADDED
+8000353,insulin detemir,insuline détemir,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20051114"" -> ""20260724"""
+8001376,disopyramide,disopyramide,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20030912"" -> ""20260628"""
+8000779,alcohol anhydrous and doxylamine and etafedrine and hydrocodone and sodium citrate,alcool anhydre et doxylamine et étafédrine et hydrocodone et citrate de sodium,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19831231"" -> ""20260724"""
+8002606,plozasiran,plozasiran,ADDED
+8001752,dimethicone and zinc oxide,diméthicone et oxyde de zinc,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20090520"" -> ""20260729"""
+8002165,turoctocog alfa,turoctocog alfa,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20180323"" -> ""20260724"""
+8002469,letibotulinumtoxinA,létibotulinumtoxinA,"tm_formal_name: ""letibotulinumtoxina̲"" -> ""letibotulinumtoxinA̲""
+tm_fr_description: ""létibotulinumtoxina̲"" -> ""létibotulinumtoxinA̲"""
+8002602,elinzanetant,élinzanétant,ADDED

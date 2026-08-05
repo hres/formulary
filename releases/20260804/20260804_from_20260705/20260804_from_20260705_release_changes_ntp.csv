@@ -1,0 +1,81 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9015455,elinzanetant 60 mg oral capsule,élinzanétant 60 mg capsule orale,ADDED
+9000284,sulfamethoxazole 40 mg per mL and trimethoprim 8 mg per mL oral suspension,sulfaméthoxazole 40 mg par mL et triméthoprime 8 mg par mL suspension orale,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20210514"" -> ""19871231"""
+9001338,trazodone hydrochloride 300 mg prolonged-release oral tablet,chlohydrate de trazodone 300 mg comprimé oral à libération prolongée,"ntp_status_effective_time: ""20170914"" -> ""20260630"""
+9015464,vosoritide 0.4 mg per vial powder for solution for injection with diluent solution syringe,"vosoritide 0,4 mg par fiole poudre pour solution injectable avec solution diluante seringue",ADDED
+9012370,aminophylline 500 mg per 10 mL solution for injection vial,aminophylline 500 mg par 10 mL solution injectable fiole,"ntp_status_effective_time: ""20190801"" -> ""20260729"""
+9015465,vosoritide 0.56 mg per vial powder for solution for injection with diluent solution syringe,"vosoritide 0,56 mg par fiole poudre pour solution injectable avec solution diluante seringue",ADDED
+9015453,depemokimab 100 mg per 1 mL solution for injection syringe,dépémokimab 100 mg par 1 mL solution injectable seringue,ADDED
+9014865,letibotulinumtoxinA 100 unit per vial powder for solution for injection,létibotulinumtoxinA 100 unité par fiole poudre pour solution injectable,"ntp_formal_name: ""letibotulinumtoxina̲ 100 unit per vial powder for solution for injection"" -> ""letibotulinumtoxinA̲ 100 unit per vial powder for solution for injection""
+ntp_fr_description: ""létibotulinumtoxina̲ 100 unité par fiole poudre pour solution injectable"" -> ""létibotulinumtoxinA̲ 100 unité par fiole poudre pour solution injectable"""
+9001055,ciclopirox olamine 1.5 % shampoo,"ciclopirox olamine 1,5 % shampoing","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20031117"" -> ""20240131"""
+9015458,hydromorphone hydrochloride 20 mg per 100 mL solution for injection bag,chlorhydrate d'hydromorphone 20 mg par 100 mL solution injectable sac,ADDED
+9015077,methotrexate (methotrexate sodium) 25 mg per mL solution for injection pen,méthotrexate (méthotrexate sodique) 25 mg par mL solution injectable stylo,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20240801"" -> ""20260313"""
+9015449,acetaminophen 500 mg and dextromethorphan hydrobromide 15 mg oral tablet,acétaminophène 500 mg et bromhydrate de dextrométhorphane 15 mg comprimé oral,ADDED
+9000820,nystatin 100000 unit per g vaginal cream,nystatine 100000 unité par g crème vaginale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19981014"" -> ""20200117"""
+9013621,turoctocog alfa 1500 unit per vial powder for solution for injection with diluent solution syringe,turoctocog alfa 1500 unité par fiole poudre pour solution injectable avec solution diluante seringue,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20180323"" -> ""20260724"""
+9006201,alcohol anhydrous 0.25 mL per 5 mL and doxylamine succinate 6 mg per 5 mL and etafedrine hydrochloride 16.65 mg per 5 mL and hydrocodone bitartrate 1.65 mg per 5 mL and sodium citrate 200 mg per 5 mL syrup,"alcool anhydre 0,25 mL par 5 mL et succinate de doxylamine 6 mg par 5 mL et chlorhydrate d'étafédrine 16,65 mg par 5 mL et bitartrate d'hydrocodone 1,65 mg par 5 mL et citrate de sodium 200 mg par 5 mL sirop","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19831231"" -> ""20260724"""
+9015461,pegunigalsidase alfa 20 mg per 10 mL solution for injection vial,pégunigalsidase alfa 20 mg par 10 mL solution injectable fiole,ADDED
+9001033,calcitriol 1 mcg per 1 mL solution for injection ampoule,calcitriol 1 mcg par 1 mL solution injectable ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20030707"" -> ""20250423"""
+9004550,dimethicone 1 % and zinc oxide 12 % cutaneous cream,diméthicone 1 % et oxyde de zinc 12 % crème cutanée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20090520"" -> ""20260729"""
+9012481,cyproterone acetate 300 mg per 3 mL solution for injection ampoule,acétate de cyprotérone 300 mg par 3 mL solution injectable ampoule,"ntp_status_effective_time: ""20250508"" -> ""20260625"""
+9015076,methotrexate (methotrexate sodium) 20 mg per 0.8 mL solution for injection pen,"méthotrexate (méthotrexate sodique) 20 mg par 0,8 mL solution injectable stylo","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20240801"" -> ""20260313"""
+9015462,pegunigalsidase alfa 5 mg per 2.5 mL solution for injection vial,"pégunigalsidase alfa 5 mg par 2,5 mL solution injectable fiole",ADDED
+9014007,benzoyl peroxide 2.5 % cutaneous gel with benzoyl peroxide 3.5 % cutaneous paste with moisturizer,"peroxyde de benzoyle 2,5 % gel cutané avec peroxyde de benzoyle 3,5 % pâte cutanée avec hydratant","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20170130"" -> ""20221201"""
+9000523,haloperidol (haloperidol decanoate) 250 mg per 5 mL solution for injection vial,halopéridol (décanoate d'halopéridol) 250 mg par 5 mL solution injectable fiole,"ntp_status_effective_time: ""20250731"" -> ""20260729"""
+9003828,disopyramide 100 mg oral capsule,disopyramide 100 mg capsule orale,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20030912"" -> ""20260628"""
+9015074,methotrexate (methotrexate sodium) 10 mg per 0.4 mL solution for injection pen,"méthotrexate (méthotrexate sodique) 10 mg par 0,4 mL solution injectable stylo","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20240801"" -> ""20260313"""
+9013988,potassium citrate 5 mEq prolonged-release oral tablet,citrate de potassium 5 mEq comprimé oral à libération prolongée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19950101"" -> ""20240917"""
+9013748,somatropin 5 mg per 1.5 mL solution for injection pen,"somatropine 5 mg par 1,5 mL solution injectable stylo","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20140815"" -> ""20260724"""
+9013465,norepinephrine (norepinephrine bitartrate) 4 mg per 4 mL solution for injection ampoule,norépinéphrine (bitartrate de norépinéphrine) 4 mg par 4 mL solution injectable ampoule,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20011001"" -> ""20260722"""
+9015463,plozasiran (plozasiran sodium) 25 mg per 0.5 mL solution for injection syringe,"plozasiran (plozasiran sodique) 25 mg par 0,5 mL solution injectable seringue",ADDED
+9015330,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg prolonged-release oral tablet","ciprofloxacine (ciprofloxacine, chlorhydrate de ciprofloxacine) 500 mg comprimé oral à libération prolongée",DELETED
+9014383,fluticasone propionate 232 mcg per actuation inhalation powder,propionate de fluticasone 232 mcg par actionnement poudre pour inhalation,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20200930"" -> ""20260604"""
+9015460,melatonin 5 mg prolonged-release oral tablet,mélatonine 5 mg comprimé oral à libération prolongée,ADDED
+9013620,turoctocog alfa 1000 unit per vial powder for solution for injection with diluent solution syringe,turoctocog alfa 1000 unité par fiole poudre pour solution injectable avec solution diluante seringue,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20180323"" -> ""20260724"""
+9015466,vosoritide 1.2 mg per vial powder for solution for injection with diluent solution syringe,"vosoritide 1,2 mg par fiole poudre pour solution injectable avec solution diluante seringue",ADDED
+9015448,acetaminophen 500 mg and chlorpheniramine maleate 2 mg and dextromethorphan hydrobromide 15 mg oral tablet with acetaminophen 500 mg and dextromethorphan hydrobromide 15 mg oral tablet,acétaminophène 500 mg et maléate de chlorphéniramine 2 mg et bromhydrate de dextrométhorphane 15 mg comprimé oral avec acétaminophène 500 mg et bromhydrate de dextrométhorphane 15 mg comprimé oral,ADDED
+9015451,daunorubicin (daunorubicin hydrochloride) 50 mg per 10 mL solution for injection vial,daunorubicine (chlorhydrate de daunorubicine) 50 mg par 10 mL solution injectable fiole,ADDED
+9001337,trazodone hydrochloride 150 mg prolonged-release oral tablet,chlohydrate de trazodone 150 mg comprimé oral à libération prolongée,"ntp_status_effective_time: ""20170914"" -> ""20260630"""
+9015454,donanemab 350 mg per 20 mL solution for injection vial,donanémab 350 mg par 20 mL solution injectable fiole,ADDED
+9015452,depemokimab 100 mg per 1 mL solution for injection pen,dépémokimab 100 mg par 1 mL solution injectable stylo,ADDED
+9013625,turoctocog alfa 500 unit per vial powder for solution for injection with diluent solution syringe,turoctocog alfa 500 unité par fiole poudre pour solution injectable avec solution diluante seringue,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20180323"" -> ""20260724"""
+9013245,sodium salicylate 5700 mg per 10 mL solution for injection vial,salicylate de sodium 5700 mg par 10 mL solution injectable fiole,"ntp_status_effective_time: ""20200728"" -> ""20260729"""
+9005788,tolnaftate 1 % cutaneous foam,tolnaftate 1 % mousse cutanée,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20150930"" -> ""20260730"""
+9013623,turoctocog alfa 250 unit per vial powder for solution for injection with diluent solution syringe,turoctocog alfa 250 unité par fiole poudre pour solution injectable avec solution diluante seringue,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20180323"" -> ""20260724"""
+9015459,melatonin 1 mg prolonged-release oral tablet,mélatonine 1 mg comprimé oral à libération prolongée,ADDED
+9003860,acetaminophen 500 mg and chlorpheniramine maleate 2 mg and dextromethorphan hydrobromide 15 mg oral tablet,acétaminophène 500 mg et maléate de chlorphéniramine 2 mg et bromhydrate de dextrométhorphane 15 mg comprimé oral,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20230605"" -> ""20040112"""
+9013624,turoctocog alfa 3000 unit per vial powder for solution for injection with diluent solution syringe,turoctocog alfa 3000 unité par fiole poudre pour solution injectable avec solution diluante seringue,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20180323"" -> ""20260724"""
+9013622,turoctocog alfa 2000 unit per vial powder for solution for injection with diluent solution syringe,turoctocog alfa 2000 unité par fiole poudre pour solution injectable avec solution diluante seringue,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20180323"" -> ""20260724"""
+9015075,methotrexate (methotrexate sodium) 15 mg per 0.6 mL solution for injection pen,"méthotrexate (méthotrexate sodique) 15 mg par 0,6 mL solution injectable stylo","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20240801"" -> ""20260313"""
+9014553,phenylephrine hydrochloride 100 mg per 10 mL solution for injection vial,chlorhydrate de phényléphrine 100 mg par 10 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20210602"" -> ""20250103"""
+9015329,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg prolonged-release oral tablet","ciprofloxacine (ciprofloxacine, chlorhydrate de ciprofloxacine) 1000 mg comprimé oral à libération prolongée",DELETED
+9014554,phenylephrine hydrochloride 50 mg per 5 mL solution for injection vial,chlorhydrate de phényléphrine 50 mg par 5 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20210602"" -> ""20250103"""
+9001131,insulin detemir 100 unit per mL solution for injection 3 mL cartridge,insuline détemir 100 unité par mL solution injectable 3 mL cartouche,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20051114"" -> ""20260724"""
