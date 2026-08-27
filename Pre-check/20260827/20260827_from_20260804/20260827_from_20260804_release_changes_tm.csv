@@ -1,0 +1,15 @@
+tm_code,tm_formal_name,changes
+8001668,moclobemide,"tm_status_effective_time: ""19921231"" -> ""19951231"""
+8002050,pamabrom,DELETED
+8002271,methimazole,"tm_status_effective_time: ""19511231"" -> ""20181019"""
+8001635,dinoprostone,"tm_status_effective_time: ""19771231"" -> ""19901231"""
+8001382,fluconazole and miconazole,DELETED
+8001541,trimeprazine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19591231"" -> ""20260731"""
+8001311,cholestyramine,"tm_status_effective_time: ""19931231"" -> ""19960315"""
+8001640,dyclonine,"tm_status_effective_time: ""20190703"" -> ""20260811"""
+8002069,piperonyl butoxide and pyrethrins,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19951231"" -> ""20201016"""
+8001752,dimethicone and zinc oxide,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20260729"" -> ""20090520"""
+8000041,lithium carbonate,"tm_status_effective_time: ""19711231"" -> ""19791231"""

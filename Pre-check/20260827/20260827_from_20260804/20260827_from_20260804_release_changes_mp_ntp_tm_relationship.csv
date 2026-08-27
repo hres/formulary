@@ -1,0 +1,137 @@
+drug_code,mp_code,mp_formal_name,changes
+85813,02373009,JAMP-LETROZOLE (letrozole 2.5 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+NA,77701148,FUROSEMIDE INJECTION USP (furosemide 20 mg per 2 mL solution for injection vial) JAMP PHARMA CORPORATION,DELETED
+2684,00400688,PROSTIN E2 TABLETS (dinoprostone 0.5 mg oral tablet) PFIZER CANADA ULC,DELETED
+100898,02519747,QUETIAPINE XR (quetiapine (quetiapine fumarate) 300 mg prolonged-release oral tablet) JAMP PHARMA CORPORATION,DELETED
+106343,02560364,AURO-RIVAROXABAN (rivaroxaban 15 mg oral tablet) AURO PHARMA INC,ADDED
+74702,02261642,PMS-AZITHROMYCIN (azithromycin 600 mg oral tablet) PHARMASCIENCE INC,DELETED
+103989,02551152,JAMP DIVALPROEX (valproic acid (divalproex sodium) 250 mg gastro-resistant tablet) JAMP PHARMA CORPORATION,ADDED
+13256,00899356,"MANERIX (moclobemide 150 mg oral tablet) BAUSCH HEALTH, CANADA INC.",DELETED
+106958,02567121,NEFFY (epinephrine 2 mg per 0.1 mL nasal spray) ALK-ABELLÓ A/S,ADDED
+81142,02326086,DOCUSATE SODIUM (docusate sodium 100 mg oral capsule) PRO DOC LIMITEE,DELETED
+92667,02442302,QUINSAIR (levofloxacin (levofloxacin hemihydrate) 240 mg per 2.4 mL nebulizer solution unit dose vial) HORIZON THERAPEUTICS IRELAND DAC,DELETED
+106116,02557878,JAMP CLINDAMYCIN CAPSULES (clindamycin (clindamycin hydrochloride) 150 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+100234,02513102,JAMP ATAZANAVIR (atazanavir (atazanavir sulfate) 150 mg oral capsule) JAMP PHARMA CORPORATION,DELETED
+18634,02125447,R & C SHAMPOO WITH CONDITIONER (piperonyl butoxide 3 % and pyrethrins 0.33 % shampoo) MEDTECH PRODUCTS INC,DELETED
+100952,02520311,PMSC-METFORMIN (metformin hydrochloride 850 mg oral tablet) PHARMASCIENCE INC,DELETED
+100700,02517620,PMS-CINACALCET (cinacalcet (cinacalcet hydrochloride) 90 mg oral tablet) PHARMASCIENCE INC,DELETED
+65460,02241795,PROCYTOX (cyclophosphamide 25 mg oral tablet) BAXTER CORPORATION,"mp_formal_name: ""PROCYTOX ̲T̲A̲B̲ ̲2̲5̲M̲G̲ (cyclophosphamide 25 mg oral tablet) BAXTER CORPORATION"" -> ""PROCYTOX (cyclophosphamide 25 mg oral tablet) BAXTER CORPORATION"""
+100236,02513129,JAMP ATAZANAVIR (atazanavir (atazanavir sulfate) 300 mg oral capsule) JAMP PHARMA CORPORATION,DELETED
+70070,02245946,JAMP-DOCUSATE SODIUM (docusate sodium 100 mg oral capsule) JAMP PHARMA CORPORATION,DELETED
+102065,02531534,PMS-PIRFENIDONE (pirfenidone 801 mg oral tablet) PHARMASCIENCE INC,DELETED
+106884,02566338,SAPHNELO (anifrolumab 120 mg per 0.8 mL solution for injection) ASTRAZENECA CANADA INC,ADDED
+106867,02566133,M-ZOLMITRIPTAN (zolmitriptan 2.5 mg oral tablet) MANTRA PHARMA INC,ADDED
+100885,02519607,QUETIAPINE XR (quetiapine (quetiapine fumarate) 50 mg prolonged-release oral tablet) JAMP PHARMA CORPORATION,DELETED
+106342,02560356,AURO-RIVAROXABAN (rivaroxaban 10 mg oral tablet) AURO PHARMA INC,ADDED
+66725,02242893,"DIUREX WATER CAPLETS (pamabrom 50 mg oral tablet) ALVA-AMCO PHARMACAL COMPANIES, LLC",DELETED
+101207,02522993,MINT-VENLAFAXINE XR (venlafaxine (venlafaxine hydrochloride) 150 mg prolonged-release oral capsule) MINT PHARMACEUTICALS INC,DELETED
+88441,02399539,APO-ABACAVIR-LAMIVUDINE (abacavir (abacavir sulfate) 600 mg and lamivudine 300 mg oral tablet) APOTEX INC,DELETED
+76878,02283166,"ALTACE HCT (hydrochlorothiazide 12.5 mg and ramipril 10 mg oral tablet) BAUSCH HEALTH, CANADA INC.",DELETED
+104154,02552590,"ALOCANE PLUS (benzalkonium chloride 0.13 % and lidocaine hydrochloride 4 % cutaneous gel) QUEST PRODUCTS, LLC",ADDED
+14332,00890960,OLESTYR LIGHT POWDER SUGAR FREE (cholestyramine 4 g per sachet powder for oral suspension) PHARMASCIENCE INC,DELETED
+86844,02382628,"MONICURE COMBO (fluconazole 150 mg oral capsule with miconazole nitrate 2 % cutaneous cream) INSIGHT PHARMACEUTICALS, LLC",DELETED
+107044,02568098,ZDS-IVERMECTIN CREAM (ivermectin 1 % cutaneous cream) ZYDUS LIFESCIENCES LIMITED,ADDED
+106544,02562561,PRZ-ISMN (isosorbide mononitrate 60 mg prolonged-release oral tablet) PHARMARIS CANADA INC,ADDED
+84235,02357224,JAMP-FINASTERIDE (finasteride 5 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+99618,02506823,JAMP ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 25 mg oral capsule) JAMP PHARMA CORPORATION,DELETED
+47553,02229628,PMS-VALPROIC ACID E.C. (valproic acid 500 mg gastro-resistant capsule) PHARMASCIENCE INC,DELETED
+85088,02366010,HALOPERIDOL INJECTION (haloperidol 5 mg per 1 mL solution for injection vial) JUNO PHARMA CANADA INC.,"mp_formal_name: ""HALOPERIDOL INJECTION (haloperidol 5 mg per 1 mL solution for injection vial) O̲M̲E̲G̲A̲ ̲L̲A̲B̲O̲R̲A̲T̲O̲R̲I̲E̲S̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""HALOPERIDOL INJECTION (haloperidol 5 mg per 1 mL solution for injection vial) J̲U̲N̲O̲ ̲P̲H̲A̲R̲M̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+83344,02348098,EXTRA STRENGTH TYLENOL COLD & SINUS NIGHTTIME (acetaminophen 500 mg and chlorpheniramine maleate 2 mg and pseudoephedrine hydrochloride 30 mg oral tablet) KENVUE CANADA INC.,"mp_formal_name: ""EXTRA STRENGTH TYLENOL COLD & SINUS NIGHTTIME (acetaminophen 500 mg and chlorpheniramine maleate 2 mg and pseudoephedrine hydrochloride 30 mg oral tablet) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""EXTRA STRENGTH TYLENOL COLD & SINUS NIGHTTIME (acetaminophen 500 mg and chlorpheniramine maleate 2 mg and pseudoephedrine hydrochloride 30 mg oral tablet) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+106422,02561239,NB-LANSOPRAZOLE (lansoprazole 15 mg gastro-resistant capsule) NB PHARMA INC.,ADDED
+106536,02562480,APO-DASATINIB TABLETS (dasatinib (dasatinib monohydrate) 70 mg oral tablet) APOTEX INC,ADDED
+100677,02517353,JAMP CETIRIZINE TABLETS (cetirizine hydrochloride 20 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+106537,02562499,APO-DASATINIB TABLETS (dasatinib (dasatinib monohydrate) 80 mg oral tablet) APOTEX INC,ADDED
+99663,02507242,PMSC-ATORVASTATIN (atorvastatin (atorvastatin calcium) 20 mg oral tablet) PHARMASCIENCE INC,DELETED
+104179,02552825,PRO-SITAGLIPTIN-METFORMIN (metformin hydrochloride 850 mg and sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet) PRO DOC LIMITEE,ADDED
+106504,02562146,"MUCINEX ALL IN ONE COLD, FLU & FEVER (acetaminophen 325 mg and dextromethorphan hydrobromide 10 mg oral tablet) RECKITT BENCKISER (CANADA) INC",ADDED
+102817,02539411,JAMP AMOXI CLAV SUSPENSION (amoxicillin (amoxicillin trihydrate) 200 mg per 5 mL and clavulanic acid (potassium clavulanate) 28.5 mg per 5 mL oral suspension) JAMP PHARMA CORPORATION,DELETED
+80245,02316951,GALANTAMINE ER (galantamine (galantamine hydrobromide) 16 mg prolonged-release oral capsule) ESSENTIAL PHARMA SWITZERLAND GMBH,"mp_formal_name: ""P̲A̲T̲-̲GALANTAMINE ER (galantamine (galantamine hydrobromide) 16 mg prolonged-release oral capsule) J̲A̲N̲S̲S̲E̲N̲ ̲I̲N̲C̲"" -> ""GALANTAMINE ER (galantamine (galantamine hydrobromide) 16 mg prolonged-release oral capsule) E̲S̲S̲E̲N̲T̲I̲A̲L̲ ̲P̲H̲A̲R̲M̲A̲ ̲S̲W̲I̲T̲Z̲E̲R̲L̲A̲N̲D̲ ̲G̲M̲B̲H̲"""
+72225,02247916,"CIPRO XL (ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg prolonged-release oral tablet) BAYER INC","ntp_code: ""9015330"" -> ""9001049"""
+107291,02570793,"ZORYVE (roflumilast 0.05 % cutaneous cream) ARCUTIS CANADA, INC.",ADDED
+88276,02397854,DULCOLAX FOR WOMEN (bisacodyl 5 mg oral tablet) OPELLA CANADA INC.,"mp_formal_name: ""DULCOLAX FOR WOMEN (bisacodyl 5 mg oral tablet) S̲A̲N̲O̲F̲I̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲ ̲I̲N̲C̲"" -> ""DULCOLAX FOR WOMEN (bisacodyl 5 mg oral tablet) O̲P̲E̲L̲L̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+106825,02565676,RETEVMO (selpercatinib 80 mg oral tablet) ELI LILLY CANADA INC,ADDED
+101842,02529238,JAMP MINOXIDIL SOLUTION (minoxidil 20 mg per mL cutaneous solution) JAMP PHARMA CORPORATION,DELETED
+1327,00236683,"CARBOLITH (lithium carbonate 300 mg oral capsule) BAUSCH HEALTH, CANADA INC.",DELETED
+73669,02251787,"CIPRO XL (ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg prolonged-release oral tablet) BAYER INC","ntp_code: ""9015329"" -> ""9001076"""
+65461,02241796,PROCYTOX (cyclophosphamide 50 mg oral tablet) BAXTER CORPORATION,"mp_formal_name: ""PROCYTOX ̲T̲A̲B̲ ̲5̲0̲M̲G̲ (cyclophosphamide 50 mg oral tablet) BAXTER CORPORATION"" -> ""PROCYTOX (cyclophosphamide 50 mg oral tablet) BAXTER CORPORATION"""
+85384,02368870,JAMP-PAROXETINE (paroxetine (paroxetine hydrochloride hemihydrate) 20 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+106534,02562464,APO-DASATINIB TABLETS (dasatinib (dasatinib monohydrate) 20 mg oral tablet) APOTEX INC,ADDED
+85413,02369192,AG-ATENOLOL (atenolol 100 mg oral tablet) ANGITA PHARMA INC.,DELETED
+99322,02503786,OCTREOTIDE FOR INJECTABLE SUSPENSION (octreotide (octreotide acetate) 30 mg per vial powder for prolonged-release suspension for injection with diluent solution syringe) TEVA CANADA LIMITED,DELETED
+102946,02540789,AURO-BROMFENAC (bromfenac (bromfenac sodium sesquihydrate) 0.07 % ophthalmic drops) AURO PHARMA INC,ADDED
+NA,77700641,"TOBRAMYCIN INJECTION, USP (tobramycin (tobramycin sulfate) 80 mg per 2 mL solution for injection vial) FRESENIUS KABI CANADA LTD","mp_formal_name: ""TOBRAMYCIN INJECTION (tobramycin (tobramycin sulfate) 80 mg per 2 mL solution for injection vial) FRESENIUS KABI CANADA LTD"" -> ""TOBRAMYCIN INJECTION,̲ ̲U̲S̲P̲ (tobramycin (tobramycin sulfate) 80 mg per 2 mL solution for injection vial) FRESENIUS KABI CANADA LTD"""
+11831,01919687,PROSTIN E2 VAGINAL GEL (dinoprostone 2 mg per 3 g vaginal gel syringe) PFIZER CANADA ULC,DELETED
+71628,02247383,PHARMA-LACTULOSE (lactulose 667 mg per mL oral solution) PHARMASCIENCE INC,DELETED
+99620,02506858,JAMP ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 60 mg oral capsule) JAMP PHARMA CORPORATION,DELETED
+85979,02374439,AG-LETROZOLE (letrozole 2.5 mg oral tablet) ANGITA PHARMA INC.,DELETED
+12753,01926462,"VITAMIN A ACID (tretinoin 0.01 % cutaneous gel) BAUSCH HEALTH, CANADA INC.",DELETED
+80244,02316943,GALANTAMINE ER (galantamine (galantamine hydrobromide) 8 mg prolonged-release oral capsule) ESSENTIAL PHARMA SWITZERLAND GMBH,"mp_formal_name: ""P̲A̲T̲-̲GALANTAMINE ER (galantamine (galantamine hydrobromide) 8 mg prolonged-release oral capsule) J̲A̲N̲S̲S̲E̲N̲ ̲I̲N̲C̲"" -> ""GALANTAMINE ER (galantamine (galantamine hydrobromide) 8 mg prolonged-release oral capsule) E̲S̲S̲E̲N̲T̲I̲A̲L̲ ̲P̲H̲A̲R̲M̲A̲ ̲S̲W̲I̲T̲Z̲E̲R̲L̲A̲N̲D̲ ̲G̲M̲B̲H̲"""
+107142,02569159,RYBREVANT SC (amivantamab 2240 mg per 14 mL solution for injection) JANSSEN INC,ADDED
+104180,02552833,PRO-SITAGLIPTIN-METFORMIN (metformin hydrochloride 1000 mg and sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet) PRO DOC LIMITEE,ADDED
+100951,02520303,PMSC-METFORMIN (metformin hydrochloride 500 mg oral tablet) PHARMASCIENCE INC,DELETED
+104232,02553384,PRO-SITAGLIPTIN (sitagliptin (sitagliptin phosphate monohydrate) 50 mg oral tablet) PRO DOC LIMITEE,ADDED
+106423,02561247,NB-LANSOPRAZOLE (lansoprazole 30 mg gastro-resistant capsule) NB PHARMA INC.,ADDED
+NA,77700640,"TOBRAMYCIN INJECTION, USP (tobramycin (tobramycin sulfate) 40 mg per mL solution for injection 30 mL vial) FRESENIUS KABI CANADA LTD","mp_formal_name: ""TOBRAMYCIN INJECTION (tobramycin (tobramycin sulfate) 40 mg per mL solution for injection 30 mL vial) FRESENIUS KABI CANADA LTD"" -> ""TOBRAMYCIN INJECTION,̲ ̲U̲S̲P̲ (tobramycin (tobramycin sulfate) 40 mg per mL solution for injection 30 mL vial) FRESENIUS KABI CANADA LTD"""
+101131,02522160,ABEVMY (bevacizumab 400 mg per 16 mL solution for injection vial) BIOCON BIOLOGICS CANADA INC,"mp_formal_name: ""ABEVMY (bevacizumab 400 mg per 16 mL solution for injection vial) BIOS̲I̲M̲I̲L̲A̲R̲ ̲C̲O̲L̲L̲A̲B̲O̲R̲A̲T̲I̲O̲N̲S̲ ̲I̲R̲E̲L̲A̲N̲D̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""ABEVMY (bevacizumab 400 mg per 16 mL solution for injection vial) BIOC̲O̲N̲ ̲B̲I̲O̲L̲O̲G̲I̲C̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"""
+91671,02432471,JAMP-FLUCONAZOLE (fluconazole 150 mg oral capsule) JAMP PHARMA CORPORATION,DELETED
+106538,02562502,APO-DASATINIB TABLETS (dasatinib (dasatinib monohydrate) 100 mg oral tablet) APOTEX INC,ADDED
+100694,02517566,CETIRIZINE EXTRA STRENGTH (cetirizine hydrochloride 10 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+100699,02517612,PMS-CINACALCET (cinacalcet (cinacalcet hydrochloride) 60 mg oral tablet) PHARMASCIENCE INC,DELETED
+80246,02316978,GALANTAMINE ER (galantamine (galantamine hydrobromide) 24 mg prolonged-release oral capsule) ESSENTIAL PHARMA SWITZERLAND GMBH,"mp_formal_name: ""P̲A̲T̲-̲GALANTAMINE ER (galantamine (galantamine hydrobromide) 24 mg prolonged-release oral capsule) J̲A̲N̲S̲S̲E̲N̲ ̲I̲N̲C̲"" -> ""GALANTAMINE ER (galantamine (galantamine hydrobromide) 24 mg prolonged-release oral capsule) E̲S̲S̲E̲N̲T̲I̲A̲L̲ ̲P̲H̲A̲R̲M̲A̲ ̲S̲W̲I̲T̲Z̲E̲R̲L̲A̲N̲D̲ ̲G̲M̲B̲H̲"""
+97515,02484870,JAMP DUTASTERIDE (dutasteride 0.5 mg oral capsule) JAMP PHARMA CORPORATION,DELETED
+107143,02569167,RYBREVANT SC (amivantamab 2400 mg per 15 mL solution for injection) JANSSEN INC,ADDED
+74181,02256576,"BENYLIN EXTRA STRENGTH ALL-IN-ONE COLD, FLU & COUGH NIGHT (acetaminophen 500 mg and diphenhydramine hydrochloride 25 mg and pseudoephedrine hydrochloride 30 mg oral tablet) KENVUE CANADA INC.","mp_formal_name: ""BENYLIN EXTRA STRENGTH ALL-IN-ONE COLD, FLU & COUGH NIGHT (acetaminophen 500 mg and diphenhydramine hydrochloride 25 mg and pseudoephedrine hydrochloride 30 mg oral tablet) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""BENYLIN EXTRA STRENGTH ALL-IN-ONE COLD, FLU & COUGH NIGHT (acetaminophen 500 mg and diphenhydramine hydrochloride 25 mg and pseudoephedrine hydrochloride 30 mg oral tablet) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+104233,02553392,PRO-SITAGLIPTIN (sitagliptin (sitagliptin phosphate monohydrate) 100 mg oral tablet) PRO DOC LIMITEE,ADDED
+106584,02563010,WYNZORA (betamethasone (betamethasone dipropionate) 0.5 mg per g and calcipotriol 0.05 mg per g cutaneous cream) KNIGHT THERAPEUTICS INC.,ADDED
+11830,01919679,PROSTIN E2 VAGINAL GEL (dinoprostone 1 mg per 3 g vaginal gel syringe) PFIZER CANADA ULC,DELETED
+NA,77701149,FUROSEMIDE INJECTION USP (furosemide 40 mg per 4 mL solution for injection vial) JAMP PHARMA CORPORATION,DELETED
+101242,02523310,KETOROLAC TROMETHAMINE INJECTION USP (ketorolac tromethamine 30 mg per 1 mL solution for injection vial) JAMP PHARMA CORPORATION,DELETED
+78062,02295326,"TYLENOL COMPLETE COLD, COUGH & FLU PLUS MUCUS RELIEF (acetaminophen 250 mg and dextromethorphan hydrobromide 10 mg and guaifenesin 100 mg and pseudoephedrine hydrochloride 30 mg oral capsule) KENVUE CANADA INC.","mp_formal_name: ""TYLENOL COMPLETE COLD, COUGH & FLU PLUS MUCUS RELIEF (acetaminophen 250 mg and dextromethorphan hydrobromide 10 mg and guaifenesin 100 mg and pseudoephedrine hydrochloride 30 mg oral capsule) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""TYLENOL COMPLETE COLD, COUGH & FLU PLUS MUCUS RELIEF (acetaminophen 250 mg and dextromethorphan hydrobromide 10 mg and guaifenesin 100 mg and pseudoephedrine hydrochloride 30 mg oral capsule) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+107141,02569140,RYBREVANT SC (amivantamab 1600 mg per 10 mL solution for injection) JANSSEN INC,ADDED
+106696,02564254,BUCKLEY'S COUGH AND MUCUS RELIEF EXTRA STRENGTH (dextromethorphan hydrobromide 30 mg per 10 mL and guaifenesin 400 mg per 10 mL and menthol 40 mg per 10 mL syrup) HALEON CANADA ULC,ADDED
+106710,02564408,"EVERYDAY CLEAN 2 IN 1 DANDRUFF SHAMPOO PLUS CONDITIONER (pyrithione zinc 1 % shampoo) CONSUMER PRODUCT PARTNERS, LLC",ADDED
+101889,02529645,HYDROMORPHONE HYDROCHLORIDE INJECTION USP (hydromorphone hydrochloride 2 mg per 1 mL solution for injection ampoule) JAMP PHARMA CORPORATION,DELETED
+99152,02501910,AG-LACOSAMIDE (lacosamide 50 mg oral tablet) ANGITA PHARMA INC.,DELETED
+106565,02562804,TNKASE (tenecteplase 25 mg per vial powder for solution for injection) HOFFMANN-LA ROCHE LIMITED,ADDED
+101054,02521342,DARUNAVIR (darunavir 600 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+61730,02238327,PMS-SOTALOL - 160 MG (sotalol hydrochloride 160 mg oral tablet) PHARMASCIENCE INC,DELETED
+106117,02557886,JAMP CLINDAMYCIN CAPSULES (clindamycin (clindamycin hydrochloride) 300 mg oral capsule) JAMP PHARMA CORPORATION,ADDED
+90104,02416433,"PMS-CIPROFLOXACIN XL (ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg prolonged-release oral tablet) PHARMASCIENCE INC",DELETED
+1553,00254142,DULCOLAX (bisacodyl 5 mg gastro-resistant tablet) OPELLA CANADA INC.,"mp_formal_name: ""DULCOLAX (bisacodyl 5 mg gastro-resistant tablet) S̲A̲N̲O̲F̲I̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲ ̲I̲N̲C̲"" -> ""DULCOLAX (bisacodyl 5 mg gastro-resistant tablet) O̲P̲E̲L̲L̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+97449,02484153,FULPHILA (filgrastim (pegfilgrastim) 6 mg per 0.6 mL solution for injection syringe) BIOCON BIOLOGICS CANADA INC,"mp_formal_name: ""FULPHILA (filgrastim (pegfilgrastim) 6 mg per 0.6 mL solution for injection syringe) BIOS̲I̲M̲I̲L̲A̲R̲ ̲C̲O̲L̲L̲A̲B̲O̲R̲A̲T̲I̲O̲N̲S̲ ̲I̲R̲E̲L̲A̲N̲D̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""FULPHILA (filgrastim (pegfilgrastim) 6 mg per 0.6 mL solution for injection syringe) BIOC̲O̲N̲ ̲B̲I̲O̲L̲O̲G̲I̲C̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"""
+1555,00003875,DULCOLAX (bisacodyl 10 mg suppository) OPELLA CANADA INC.,"mp_formal_name: ""DULCOLAX (bisacodyl 10 mg suppository) S̲A̲N̲O̲F̲I̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲ ̲I̲N̲C̲"" -> ""DULCOLAX (bisacodyl 10 mg suppository) O̲P̲E̲L̲L̲A̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+12651,01926292,PANECTYL (trimeprazine (trimeprazine tartrate) 5 mg oral tablet) SEARCHLIGHT PHARMA INC,DELETED
+106711,02564416,"EVERYDAY CLEAN DANDRUFF SHAMPOO (pyrithione zinc 1 % shampoo) CONSUMER PRODUCT PARTNERS, LLC",ADDED
+76168,02276003,EXTRA STRENGTH TYLENOL SINUS DAYTIME (acetaminophen 500 mg and phenylephrine hydrochloride 5 mg oral tablet) KENVUE CANADA INC.,"mp_formal_name: ""EXTRA STRENGTH TYLENOL SINUS DAYTIME (acetaminophen 500 mg and phenylephrine hydrochloride 5 mg oral tablet) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""EXTRA STRENGTH TYLENOL SINUS DAYTIME (acetaminophen 500 mg and phenylephrine hydrochloride 5 mg oral tablet) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+102307,02534118,AG-ANASTROZOLE (anastrozole 1 mg oral tablet) ANGITA PHARMA INC.,DELETED
+87642,02391058,JAMP-ATORVASTATIN (atorvastatin (atorvastatin calcium) 10 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+100698,02517604,PMS-CINACALCET (cinacalcet (cinacalcet hydrochloride) 30 mg oral tablet) PHARMASCIENCE INC,DELETED
+99217,02502607,"VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP (vancomycin (vancomycin hydrochloride) 1 g per vial powder for solution for injection) JAMP PHARMA CORPORATION",DELETED
+107144,02569175,RYBREVANT SC (amivantamab 3520 mg per 22 mL solution for injection) JANSSEN INC,ADDED
+99619,02506831,JAMP ATOMOXETINE (atomoxetine (atomoxetine hydrochloride) 40 mg oral capsule) JAMP PHARMA CORPORATION,DELETED
+102363,02534746,"SULFAMETHOXAZOLE AND TRIMETHOPRIM FOR INJECTION, USP (sulfamethoxazole 80 mg per mL and trimethoprim 16 mg per mL solution for injection) EUGIA PHARMA INC.",ADDED
+101132,02522179,ABEVMY (bevacizumab 100 mg per 4 mL solution for injection vial) BIOCON BIOLOGICS CANADA INC,"mp_formal_name: ""ABEVMY (bevacizumab 100 mg per 4 mL solution for injection vial) BIOS̲I̲M̲I̲L̲A̲R̲ ̲C̲O̲L̲L̲A̲B̲O̲R̲A̲T̲I̲O̲N̲S̲ ̲I̲R̲E̲L̲A̲N̲D̲ ̲L̲I̲M̲I̲T̲E̲D̲"" -> ""ABEVMY (bevacizumab 100 mg per 4 mL solution for injection vial) BIOC̲O̲N̲ ̲B̲I̲O̲L̲O̲G̲I̲C̲S̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲"""
+101206,02522985,MINT-VENLAFAXINE XR (venlafaxine (venlafaxine hydrochloride) 75 mg prolonged-release oral capsule) MINT PHARMACEUTICALS INC,DELETED
+99603,02506661,JAMP TROSPIUM (trospium chloride 20 mg oral tablet) JAMP PHARMA CORPORATION,DELETED
+100235,02513110,JAMP ATAZANAVIR (atazanavir (atazanavir sulfate) 200 mg oral capsule) JAMP PHARMA CORPORATION,DELETED
+9,00015741,TAPAZOLE (methimazole 5 mg oral tablet) KNIGHT THERAPEUTICS INC.,DELETED
+99154,02501937,AG-LACOSAMIDE (lacosamide 150 mg oral tablet) ANGITA PHARMA INC.,DELETED
+103990,02551160,JAMP DIVALPROEX (valproic acid (divalproex sodium) 500 mg gastro-resistant tablet) JAMP PHARMA CORPORATION,ADDED
+107046,02568128,BUSPIRONE TABLETS (buspirone hydrochloride 10 mg oral tablet) SANIS HEALTH INC,ADDED
+100976,02520567,AG-QUETIAPINE XR (quetiapine (quetiapine fumarate) 300 mg prolonged-release oral tablet) ANGITA PHARMA INC.,DELETED
+102064,02531526,PMS-PIRFENIDONE (pirfenidone 267 mg oral tablet) PHARMASCIENCE INC,DELETED
+79122,02305666,BENYLIN FOR CHILDREN ALL-IN-ONE COLD & FEVER NIGHTIME (acetaminophen 160 mg per 5 mL and dextromethorphan hydrobromide 5 mg per 5 mL and diphenhydramine hydrochloride 6.25 mg per 5 mL oral suspension) KENVUE CANADA INC.,"mp_formal_name: ""BENYLIN FOR CHILDREN ALL-IN-ONE COLD & FEVER NIGHTIME (acetaminophen 160 mg per 5 mL and dextromethorphan hydrobromide 5 mg per 5 mL and diphenhydramine hydrochloride 6.25 mg per 5 mL oral suspension) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""BENYLIN FOR CHILDREN ALL-IN-ONE COLD & FEVER NIGHTIME (acetaminophen 160 mg per 5 mL and dextromethorphan hydrobromide 5 mg per 5 mL and diphenhydramine hydrochloride 6.25 mg per 5 mL oral suspension) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+93376,02448076,HELLO EXTRA MINTY (cetylpyridinium chloride 0.075 % mouthwash) COLGATE-PALMOLIVE CANADA INC,ADDED
+106587,02563045,EYDENZELT (aflibercept 2 mg per 0.05 mL solution for injection) CELLTRION INC.,ADDED
+101172,02522616,DEQUADIN ORAL SPRAY (dequalinium chloride 0.5 % oromucosal spray) PHARMASCIENCE INC,DELETED
+100179,02512505,JAMP DULOXETINE CAPSULES (duloxetine (duloxetine hydrochloride) 30 mg gastro-resistant capsule) JAMP PHARMA CORPORATION,DELETED
+91692,02432463,"LODALIS (colesevelam hydrochloride 3.75 g per sachet powder for oral suspension) BAUSCH HEALTH, CANADA INC.",DELETED
+101205,02522977,MINT-VENLAFAXINE XR (venlafaxine (venlafaxine hydrochloride) 37.5 mg prolonged-release oral capsule) MINT PHARMACEUTICALS INC,DELETED
+101295,02523906,TEPADINA (thiotepa 400 mg powder for solution for injection with diluent solution per bag) ADIENNE SA,DELETED
+102142,02532387,"SUMATRIPTAN INJECTION, USP (sumatriptan (sumatriptan succinate) 6 mg per 0.5 mL solution for injection) DR REDDY'S LABORATORIES LTD",ADDED
+106943,02566974,JAMP SUMATRIPTAN / NAPROXEN SODIUM (naproxen sodium 500 mg and sumatriptan (sumatriptan succinate) 85 mg oral tablet) JAMP PHARMA CORPORATION,ADDED
+78139,02296039,TAPAZOLE (methimazole 10 mg oral tablet) KNIGHT THERAPEUTICS INC.,DELETED
+83304,02347660,"EXTRA STRENGTH TYLENOL COMPLETE COLD, COUGH & FLU (acetaminophen 500 mg and dextromethorphan hydrobromide 15 mg and guaifenesin 100 mg and pseudoephedrine hydrochloride 30 mg oral tablet) KENVUE CANADA INC.","mp_formal_name: ""EXTRA STRENGTH TYLENOL COMPLETE COLD, COUGH & FLU (acetaminophen 500 mg and dextromethorphan hydrobromide 15 mg and guaifenesin 100 mg and pseudoephedrine hydrochloride 30 mg oral tablet) M̲C̲N̲E̲I̲L̲ ̲C̲O̲N̲S̲U̲M̲E̲R̲ ̲H̲E̲A̲L̲T̲H̲C̲A̲R̲E̲ ̲D̲I̲V̲I̲S̲I̲O̲N̲ ̲O̲F̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲&̲ ̲J̲O̲H̲N̲S̲O̲N̲ ̲I̲N̲C̲"" -> ""EXTRA STRENGTH TYLENOL COMPLETE COLD, COUGH & FLU (acetaminophen 500 mg and dextromethorphan hydrobromide 15 mg and guaifenesin 100 mg and pseudoephedrine hydrochloride 30 mg oral tablet) K̲E̲N̲V̲U̲E̲ ̲C̲A̲N̲A̲D̲A̲ ̲I̲N̲C̲.̲"""
+104231,02553376,PRO-SITAGLIPTIN (sitagliptin (sitagliptin phosphate monohydrate) 25 mg oral tablet) PRO DOC LIMITEE,ADDED
+101709,02527901,ARTHRITIS PAIN RELIEF (acetaminophen 650 mg prolonged-release oral tablet) PHARMASCIENCE INC,DELETED
+106535,02562472,APO-DASATINIB TABLETS (dasatinib (dasatinib monohydrate) 50 mg oral tablet) APOTEX INC,ADDED
