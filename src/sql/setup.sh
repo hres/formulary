@@ -7,7 +7,7 @@
 # ARGS (optional)   : qa
 ###############################################################################
 
-ccdd_qa_release_date="20260804"
+ccdd_qa_release_date="20260901"
 ccdd_current_release_date="20260804"
 db_previous_month="ccdd_2026_08_04_215325"
 ccdd_current_date=$(date +'%Y%m%d')
