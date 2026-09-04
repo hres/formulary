@@ -1,0 +1,14 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002607,acetaminophen and guaifenesin,acétaminophène et guaïfénésine,ADDED
+8002050,pamabrom,pamabrom,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20010312"" -> ""20250930"""
+8001640,dyclonine,dyclonine,"tm_status_effective_time: ""20190703"" -> ""20260811"""
+8001541,trimeprazine,triméprazine,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19591231"" -> ""20260731"""
+8002069,piperonyl butoxide and pyrethrins,butoxyde de pipéronyle et pyréthrines,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19951231"" -> ""20260811"""
+8002609,pimicotinib,pimicotinib,ADDED
+8001382,fluconazole and miconazole,fluconazole et miconazole,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""20121025"" -> ""20260811"""
+8001752,dimethicone and zinc oxide,diméthicone et oxyde de zinc,"tm_status: ""INACTIVE"" -> ""ACTIVE""
+tm_status_effective_time: ""20260729"" -> ""20090520"""
