@@ -1,4 +1,4 @@
-"code","formal_name","formal_name_fr"
+code,formal_name,formal_name_fr
 "8000001","levothyroxine","lévothyroxine"
 "8000003","epinephrine","épinéphrine"
 "8000004","phenytoin sodium","phénytoïne sodique"
@@ -1966,3 +1966,6 @@
 "8002602","elinzanetant","élinzanétant"
 "8002605","melatonin","mélatonine"
 "8002606","plozasiran","plozasiran"
+"8002607","acetaminophen and guaifenesin","acétaminophène et guaïfénésine"
+"8002608","glycerin","glycérine"
+"8002609","pimicotinib","pimicotinib"
