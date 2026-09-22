@@ -1,0 +1,25 @@
+ntp_code,ntp_formal_name,changes
+9013511,plerixafor 24 mg per 1.2 mL solution for injection vial,"ntp_status_effective_time: ""20120326"" -> ""20230831"""
+9012927,calcitonin salmon 400 unit per 2 mL solution for injection vial,DELETED
+9015117,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9002587,itraconazole 100 mg oral capsule,"ntp_status_effective_time: ""19931231"" -> ""20170518"""
+9015112,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial","ntp_status_effective_time: ""20230918"" -> ""20240924"""
+9002411,acetylsalicylic acid 325 mg and codeine phosphate 32.4 mg and methocarbamol 400 mg oral tablet,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19921231"" -> ""20181115"""
+9001127,tamsulosin hydrochloride 0.4 mg prolonged-release oral tablet,"ntp_status_effective_time: ""20051011"" -> ""20110104"""
+9015052,denosumab 120 mg per 1.7 mL solution for injection,ADDED
+9014274,sapropterin dihydrochloride 500 mg per sachet powder for oral solution,"ntp_status_effective_time: ""20191205"" -> ""20231219"""
+9015329,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg prolonged-release oral tablet",DELETED
+9000747,ranitidine (ranitidine hydrochloride) 75 mg oral tablet,"ntp_status_effective_time: ""20220220"" -> ""20260701"""
+9001300,progesterone 100 mg effervescent vaginal tablet,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20250710"" -> ""20091130"""
+9015330,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg prolonged-release oral tablet",DELETED
+9015118,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+9013259,acetaminophen 650 mg per sachet and dextromethorphan hydrobromide 20 mg per sachet and phenylephrine hydrochloride 10 mg per sachet powder for oral solution,"ntp_status_effective_time: ""20080721"" -> ""20200114"""
+9340599fdbb7251c95358f3b4d517c29,ustekinumab 90 mg per 1 mL solution for injection,ADDED
+eafe9ffe4d1a3c2bdf90c7db763ae4be,semaglutide 2 mg per 3 mL solution for injection,ADDED
+9015116,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9013497,pasireotide (pasireotide diaspartate) 0.9 mg per 1 mL solution for injection ampoule,DELETED
+9015142,sugammadex (sugammadex sodium) 100 mg per mL solution for injection,ADDED
+c9c3f78da2defc3540031082129f4ba7,escitalopram (escitalopram oxalate) 2 mg per mL oral solution,ADDED
+9015119,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
