@@ -1,4 +1,8 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"106880","vial","1.7","mL","N","N","02566273","IDENOS APOTEX INC","fiole"
+"106904","pen","1","mL","N","N","02566540","STEQEYMA CELLTRION INC.","stylo"
+"102172","vial","2","mL","Y","N","02532700","SUGAMMADEX INJECTION DR REDDY'S LABORATORIES LTD","fiole"
+"102172","vial","5","mL","Y","N","02532700","SUGAMMADEX INJECTION DR REDDY'S LABORATORIES LTD","fiole"
 "106879","syringe","1","mL","Y","N","02566265","DENOZA APOTEX INC","seringue"
 "106587","syringe","0.05","mL","N","N","02563045","EYDENZELT CELLTRION INC.","seringue"
 "107141","vial","10","mL","N","N","02569140","RYBREVANT SC JANSSEN INC","fiole"
