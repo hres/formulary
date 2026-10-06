@@ -1,0 +1,34 @@
+ntp_code,ntp_formal_name,ntp_fr_description,changes
+9015488,epinephrine 2 mg per actuation nasal spray,épinéphrine 2 mg par actionnemente vaporisation nasale,ADDED
+9000187,hydrocortisone 2.5 % cutaneous cream,"hydrocortisone 2,5 % crème cutanée","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19831231"" -> ""20260915"""
+9014706,pemetrexed (pemetrexed disodium) 500 mg per 20 mL solution for injection vial,pémétrexed (pémétrexed disodique) 500 mg par 20 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20220510"" -> ""20260914"""
+9015072,landiolol hydrochloride 300 mg per vial powder for solution for injection,chlorhydrate de landiolol 300 mg par fiole poudre pour solution injectable,"ntp_status_effective_time: ""20260605"" -> ""20260925"""
+9001300,progesterone 100 mg effervescent vaginal tablet,progestérone 100 mg comprimé vaginal effervescent,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20250710"" -> ""20091130"""
+9014707,pemetrexed (pemetrexed disodium) 850 mg per 34 mL solution for injection vial,pémétrexed (pémétrexed disodique) 850 mg par 34 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20220510"" -> ""20260914"""
+9015486,artesunate 110 mg per vial powder for solution for injection with diluent solution,artésunate 110 mg par fiole poudre pour solution injectable avec solution diluante,ADDED
+9015489,escitalopram (escitalopram oxalate) 2 mg per mL oral solution,escitalopram (oxalate d'escitalopram) 2 mg par mL solution orale,ADDED
+9014704,pemetrexed (pemetrexed disodium) 100 mg per 4 mL solution for injection vial,pémétrexed (pémétrexed disodique) 100 mg par 4 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20220510"" -> ""20260914"""
+9001064,alendronic acid (alendronate sodium) 5 mg oral tablet,acide alendronique (alendronate sodique) 5 mg comprimé oral,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20031223"" -> ""20260918"""
+9014637,raltitrexed 2 mg per vial powder for solution for injection,raltitrexed 2 mg par fiole poudre pour solution injectable,DELETED
+9014705,pemetrexed (pemetrexed disodium) 1000 mg per 40 mL solution for injection vial,pémétrexed (pémétrexed disodique) 1000 mg par 40 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20220510"" -> ""20260914"""
+9000239,procyclidine hydrochloride 5 mg oral tablet,chlorhydrate de procyclidine 5 mg comprimé oral,"ntp_status_effective_time: ""20180830"" -> ""20260804"""
+9002411,acetylsalicylic acid 325 mg and codeine phosphate 32.4 mg and methocarbamol 400 mg oral tablet,"acide acétylsalicylique 325 mg et phosphate de codéine 32,4 mg et méthocarbamol 400 mg comprimé oral","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19921231"" -> ""20251215"""
+9015330,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg prolonged-release oral tablet","ciprofloxacine (ciprofloxacine, chlorhydrate de ciprofloxacine) 500 mg comprimé oral à libération prolongée",DELETED
+9013497,pasireotide (pasireotide diaspartate) 0.9 mg per 1 mL solution for injection ampoule,"pasiréotide (diaspartate de pasiréotide) 0,9 mg par 1 mL solution injectable ampoule","ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""20131128"" -> ""20260831"""
+9000747,ranitidine (ranitidine hydrochloride) 75 mg oral tablet,ranitidine (chlorhydrate de ranitidine) 75 mg comprimé oral,"ntp_status_effective_time: ""20220220"" -> ""20260701"""
+9015487,beclomethasone dipropionate 100 mcg per actuation and formoterol fumarate 6 mcg per actuation and glycopyrronium (glycopyrronium bromide) 10 mcg per actuation pressurized inhalation,dipropionate de béclométhasone 100 mcg par actionnement et fumarate de formotérol 6 mcg par actionnement et glycopyrronium (bromure de glycopyrronium) 10 mcg par actionnement inhalation en flacon pressurisé,ADDED
+9015490,pregabalin 20 mg per mL oral solution,prégabaline 20 mg par mL solution orale,ADDED
+9000213,procyclidine hydrochloride 2.5 mg per 5 mL oral solution,"chlorhydrate de procyclidine 2,5 mg par 5 mL solution orale","ntp_status_effective_time: ""20181031"" -> ""20260804"""
+9000238,procyclidine hydrochloride 2.5 mg oral tablet,"chlorhydrate de procyclidine 2,5 mg comprimé oral","ntp_status_effective_time: ""20180830"" -> ""20260804"""
+9012927,calcitonin salmon 400 unit per 2 mL solution for injection vial,calcitonine de saumon 400 unité par 2 mL solution injectable fiole,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19831231"" -> ""20260910"""
+9015329,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg prolonged-release oral tablet","ciprofloxacine (ciprofloxacine, chlorhydrate de ciprofloxacine) 1000 mg comprimé oral à libération prolongée",DELETED

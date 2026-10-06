@@ -1,0 +1,8 @@
+tm_code,tm_formal_name,tm_fr_description,changes
+8002611,beclomethasone and formoterol and glycopyrronium,béclométhasone et formotérol et glycopyrronium,ADDED
+8001605,calcitonin salmon,calcitonine de saumon,"tm_status: ""ACTIVE"" -> ""INACTIVE""
+tm_status_effective_time: ""19831231"" -> ""20260910"""
+8000107,procyclidine,procyclidine,"tm_status_effective_time: ""20181031"" -> ""20260804"""
+8002610,artesunate,artésunate,ADDED
+8002512,landiolol,landiolol,"tm_status_effective_time: ""20260605"" -> ""20260925"""
+8001225,raltitrexed,raltitrexed,DELETED
