@@ -107,7 +107,6 @@ mp_status_effective_time: ""20120501"" -> ""20260918"""
 106590,02563088,JAMP PROPRANOLOL (propranolol hydrochloride 40 mg oral tablet) JAMP PHARMA CORPORATION,JAMP PROPRANOLOL (chlorhydrate de propranolol 40 mg comprimé oral) JAMP PHARMA CORPORATION,ADDED
 104007,02551349,JAMP DOXEPIN TABLETS (doxepin (doxepin hydrochloride) 6 mg oral tablet) JAMP PHARMA CORPORATION,JAMP DOXEPIN TABLETS (doxépine (chlorhydrate de doxépine) 6 mg comprimé oral) JAMP PHARMA CORPORATION,ADDED
 65584,02241914,MARCAINE SPINAL (bupivacaine hydrochloride 15 mg per 2 mL solution for injection ampoule) PFIZER CANADA ULC,MARCAINE SPINAL (chlorhydrate de bupivacaïne 15 mg par 2 mL solution injectable ampoule) PFIZER CANADA ULC,"mp_status_effective_time: ""20211210"" -> ""20260910"""
-47482,02229566,TOMUDEX (raltitrexed 2 mg per vial powder for solution for injection) PFIZER CANADA ULC,TOMUDEX (raltitrexed 2 mg par fiole poudre pour solution injectable) PFIZER CANADA ULC,DELETED
 96603,02475669,ACH-FINGOLIMOD (fingolimod (fingolimod hydrochloride) 0.5 mg oral capsule) ACCORD HEALTHCARE INC,"ACH-FINGOLIMOD (fingolimod (chlorhydrate de fingolimod) 0,5 mg capsule orale) ACCORD HEALTHCARE INC","mp_status: ""ACTIVE"" -> ""INACTIVE""
 mp_status_effective_time: ""20191211"" -> ""20260914"""
 75550,02270102,FLOMAX CR (tamsulosin hydrochloride 0.4 mg prolonged-release oral tablet) BOEHRINGER INGELHEIM (CANADA) LTD LTEE,"FLOMAX CR (chlorhydrate de tamsulosine 0,4 mg comprimé oral à libération prolongée) BOEHRINGER INGELHEIM (CANADA) LTD LTEE","mp_status: ""ACTIVE"" -> ""INACTIVE""
