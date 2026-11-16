@@ -1,4 +1,7 @@
 "drug_code","unit_of_presentation","uop_size","uop_unit_of_measure","calculation","uop_size_insert","DIN","Product_and_Company_Name","unit_of_presentation_fr"
+"106903","pen","0.5","mL","N","N","02566532","STEQEYMA CELLTRION INC.","stylo"
+"106219","syringe","0.5","mL","N","N","02558998","NUVAXOVID SANOFI VACCINES CANADA LTD.","seringue"
+"106941","ampoule","5","mL","Y","N","02566958","LEVOCARNITINE INJECTION JUNO PHARMA CANADA INC.","ampoule"
 "107193","syringe","1","mL","N","N","02569728","BESREMI FORUS THERAPEUTICS INC.","seringue"
 "106880","vial","1.7","mL","N","N","02566273","IDENOS APOTEX INC","fiole"
 "106904","pen","1","mL","N","N","02566540","STEQEYMA CELLTRION INC.","stylo"
