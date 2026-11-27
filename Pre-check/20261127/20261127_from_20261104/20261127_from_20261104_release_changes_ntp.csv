@@ -1,0 +1,42 @@
+ntp_code,ntp_formal_name,changes
+9014364,glasdegib (glasdegib maleate) 25 mg oral tablet,DELETED
+9004949,diphenhydramine citrate 38 mg and ibuprofen 200 mg oral tablet,DELETED
+9003828,disopyramide 100 mg oral capsule,"ntp_status_effective_time: ""20260628"" -> ""20260714"""
+9015117,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9015112,"SARSCoV2 S-protein mRNA, 5'(m7G-5'-ppp-5'-Gm), 3'polyA 0.1 mg per mL dispersion for injection 2.5 mL vial","ntp_status_effective_time: ""20230918"" -> ""20240924"""
+9005981,acetaminophen 325 mg oral capsule,"ntp_status_effective_time: ""20240725"" -> ""20261103"""
+47ecdf0caa3ebb43069fab0b6ee13c1d,ranolazine 750 mg prolonged-release oral tablet,ADDED
+7e669e1a6ac72fc66c333fb6ac83192c,cetylpyridinium chloride 0.075 % NA,ADDED
+9002410,acetylsalicylic acid 325 mg and codeine phosphate 16.2 mg and methocarbamol 400 mg oral tablet,"ntp_status: ""ACTIVE"" -> ""INACTIVE""
+ntp_status_effective_time: ""19921231"" -> ""20181112"""
+9002450,dextromethorphan hydrobromide 15 mg per 5 mL and guaifenesin 100 mg per 5 mL and pseudoephedrine hydrochloride 30 mg per 5 mL syrup,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20240626"" -> ""19921231"""
+9014705,pemetrexed (pemetrexed disodium) 1000 mg per 40 mL solution for injection vial,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20260914"" -> ""20220510"""
+abd433584c07ff6a2ac4a6be3c9358b4,eribulin mesylate 0.5 mg per mL solution for injection,ADDED
+9009387,ethinyl estradiol 30 mcg and levonorgestrel 50 mcg oral tablet with ethinyl estradiol 30 mcg and levonorgestrel 125 mcg oral tablet with ethinyl estradiol 40 mcg and levonorgestrel 750 mcg oral tablet with lactose oral tablet,"ntp_type: ""Comb"" -> ""NA"""
+9015052,denosumab 120 mg per 1.7 mL solution for injection,ADDED
+f934ed35c9eec8e7b24c06ce28330363,tovorafenib 25 mg per mL oral suspension,ADDED
+4b45e27f70eab06f041df63bdf9d32ae,denosumab 60 mg per 1 mL solution for injection,ADDED
+ef356cee57a1cde66bcb5fa8a99269f7,mineral oil heavy 14 % and petrolatum 74.9 % and phenylephrine hydrochloride 0.25 % rectal ointment,ADDED
+dd0083dd3c1a6989983c66684a791b49,lenacapavir (lenacapavir sodium) 309 mg per mL solution for injection,ADDED
+9015329,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 1000 mg prolonged-release oral tablet",DELETED
+9008749,desogestrel 100 mcg and estradiol 25 mcg oral tablet with desogestrel 125 mcg and estradiol 25 mcg oral tablet with desogestrel 150 mcg and ethinyl estradiol 25 mcg oral tablet with lactose oral tablet,"ntp_type: ""Comb"" -> ""NA"""
+9014704,pemetrexed (pemetrexed disodium) 100 mg per 4 mL solution for injection vial,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20260914"" -> ""20220510"""
+d750f489a7ebe0fbd45f4c11ae68e6a3,ranolazine 375 mg prolonged-release oral tablet,ADDED
+9008750,desogestrel 100 mcg and estradiol 25 mcg oral tablet with desogestrel 125 mcg and estradiol 25 mcg oral tablet with desogestrel 150 mcg and ethinyl estradiol 25 mcg oral tablet,"ntp_type: ""Comb"" -> ""NA"""
+9015330,"ciprofloxacin (ciprofloxacin, ciprofloxacin hydrochloride) 500 mg prolonged-release oral tablet",DELETED
+9014707,pemetrexed (pemetrexed disodium) 850 mg per 34 mL solution for injection vial,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20260914"" -> ""20220510"""
+9015118,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
+9009386,ethinyl estradiol 30 mcg and levonorgestrel 50 mcg oral tablet with ethinyl estradiol 30 mcg and levonorgestrel 125 mcg oral tablet with ethinyl estradiol 40 mcg and levonorgestrel 750 mcg oral tablet,"ntp_type: ""Comb"" -> ""NA"""
+9015116,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 10 mcg per 0.3 mL suspension for injection 0.3 mL vial","ntp_status_effective_time: ""20231023"" -> ""20240924"""
+9000013,testosterone enanthate 1000 mg per 5 mL solution for injection ampoule,DELETED
+9004067,erlotinib (erlotinib hydrochloride) 100 mg oral tablet,"ntp_status_effective_time: ""20050719"" -> ""20141208"""
+9014706,pemetrexed (pemetrexed disodium) 500 mg per 20 mL solution for injection vial,"ntp_status: ""INACTIVE"" -> ""ACTIVE""
+ntp_status_effective_time: ""20260914"" -> ""20220510"""
+9005096,lurasidone hydrochloride 80 mg oral tablet,"ntp_status_effective_time: ""20120905"" -> ""20220407"""
+8ca60695010b85e9d9da24029c2f4e31,guselkumab 45 mg per 0.45 mL solution for injection,ADDED
+9008158,captopril 50 mg oral tablet,"ntp_status_effective_time: ""19901231"" -> ""19911231"""
+9015119,"SARSCoV2 S-protein mRNA, 5'[m27,3'-oGppp(m12'-O)ApG], 3'polyA+linker 30 mcg per 0.3 mL suspension for injection 1.8 mL vial","ntp_status_effective_time: ""20231010"" -> ""20240924"""
